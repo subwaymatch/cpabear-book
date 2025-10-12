@@ -5,15 +5,15 @@ Ss), and pretest items used for future exam development. Understanding the struc
 
 ## Testlets and Weighting
 
-| Component | Quantity | Weight | Notes |
-| --- | --- | --- | --- |
-| Multiple-Choice Questions | 50 scored (plus 12 pretest) | 50% | Two MCQ testlets with adaptive difficulty. |
-| Task-Based Simulations | 7 scored (plus 1 pretest) | 50% | Three TBS testlets emphasizing application and analysis. |
+| Component                 | Quantity                    | Weight | Notes                                                    |
+| ------------------------- | --------------------------- | ------ | -------------------------------------------------------- |
+| Multiple-Choice Questions | 50 scored (plus 12 pretest) | 50%    | Two MCQ testlets with adaptive difficulty.               |
+| Task-Based Simulations    | 7 scored (plus 1 pretest)   | 50%    | Three TBS testlets emphasizing application and analysis. |
 
 - **Adaptive MCQ delivery:** The second MCQ testlet adjusts difficulty based on performance in the first. Harder testlets may con
-tain more distractors but offer the same scoring potential.
+  tain more distractors but offer the same scoring potential.
 - **Authoritative literature access:** During TBS testlets you can search the FASB Codification, GASB Codification, and AICPA Pro
-fessional Standards. Practice keyword strategies before exam day.
+  fessional Standards. Practice keyword strategies before exam day.
 
 ## Time Management Strategy
 
@@ -32,13 +32,13 @@ fessional Standards. Practice keyword strategies before exam day.
 - FAR is scaled 0–99 with 75 required to pass. Each question’s contribution depends on difficulty and skill level assessed.
 - Pretest items are indistinguishable from scored items—treat every item seriously.
 - TBSs award partial credit for correct table cells, journal entries, and calculations. Even partial responses can raise your score
-.
+  .
 
 ## Key Exam Policies
 
 - **No backward navigation:** Once you exit a testlet, you cannot return to it.
 - **On-screen spreadsheet and calculator:** Practice with the exam tools to minimize mechanical errors on test day.
 - **Identification and breaks:** Bring required IDs and follow Prometric procedures. Return promptly from the optional break to a
-void rushing the final testlets.
+  void rushing the final testlets.
 
 Knowing the structure reduces anxiety and allows you to approach each testlet with a deliberate pacing strategy.

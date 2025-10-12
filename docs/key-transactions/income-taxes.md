@@ -18,10 +18,10 @@ Dr. Income tax expense – current   82,000
 Temporary differences create deferred tax assets (DTAs) or deferred tax liabilities (DTLs). Measure using enacted tax rates expec
 ted when differences reverse.
 
-| Temporary Difference | Book vs. Tax Treatment | Deferred Tax | Journal Entry |
-| --- | --- | --- | --- |
-| Depreciation (tax faster) | Tax depreciation $120,000 vs. book $80,000 | DTL = $40,000 × 25% = $10,000 | `Dr. Income tax expense – deferred 10,000 / Cr. DTL 10,000` |
-| Warranty liability | Book accrues $50,000; tax deductible when paid | DTA = $50,000 × 25% = $12,500 | `Dr. DTA 12,500 / Cr. Income tax expense – deferred 12,500` |
+| Temporary Difference      | Book vs. Tax Treatment                         | Deferred Tax                  | Journal Entry                                               |
+| ------------------------- | ---------------------------------------------- | ----------------------------- | ----------------------------------------------------------- |
+| Depreciation (tax faster) | Tax depreciation $120,000 vs. book $80,000     | DTL = $40,000 × 25% = $10,000 | `Dr. Income tax expense – deferred 10,000 / Cr. DTL 10,000` |
+| Warranty liability        | Book accrues $50,000; tax deductible when paid | DTA = $50,000 × 25% = $12,500 | `Dr. DTA 12,500 / Cr. Income tax expense – deferred 12,500` |
 
 ## Valuation Allowance
 

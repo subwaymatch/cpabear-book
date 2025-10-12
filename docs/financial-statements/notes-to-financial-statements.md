@@ -22,9 +22,9 @@ Financial statement notes provide the narrative detail and quantitative schedule
 4. **Contingencies and commitments (ASC 450):** Describe probable losses accrued and reasonably possible losses disclosed.
    - Entry when accruing a probable loss: `Dr. Litigation expense 75,000 / Cr. Accrued litigation liability 75,000`.
 5. **Segment reporting (ASC 280):** Present segment revenues, profit or loss, and assets with reconciliations to consolidated tot
-als.
+   als.
 6. **Subsequent events (ASC 855):** Identify recognized events (adjust the financial statements) versus nonrecognized events (disc
-lose nature and estimated impact).
+   lose nature and estimated impact).
 7. **Related-party transactions (ASC 850):** Provide the nature of relationships, pricing policies, and outstanding balances.
 
 ## Example Disclosure Excerpt

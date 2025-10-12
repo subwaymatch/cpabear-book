@@ -7,7 +7,7 @@ ns under ASC 250.
 ## Change in Accounting Principle
 
 - Switch from one GAAP principle to another (e.g., LIFO to FIFO). Apply retrospectively unless impracticable, adjusting beginning r
-etained earnings and restating prior periods.
+  etained earnings and restating prior periods.
 
 ### Example: LIFO to FIFO
 
@@ -37,12 +37,12 @@ Dr. Depreciation expense   20,000
 ## Change in Reporting Entity
 
 - Occurs when consolidated or combined statements include a different set of entities (e.g., adding a subsidiary). Apply retrospec
-tively, presenting comparative statements as if the new entity had always been included.
+  tively, presenting comparative statements as if the new entity had always been included.
 
 ## Error Corrections
 
 - Include mathematical mistakes, misuse of facts, or misapplication of GAAP. Correct by restating prior periods and adjusting begin
-ning retained earnings of the earliest period presented.
+  ning retained earnings of the earliest period presented.
 
 ### Example: Accrued Expense Omitted
 
@@ -59,12 +59,12 @@ Restate prior-period income statement and balance sheet to reflect the correctio
 ## Adoption of New Standards
 
 - Follow transition guidance specified in the new standard (full retrospective, modified retrospective, or prospective). Disclose m
-ethod, quantitative impacts, and qualitative considerations.
+  ethod, quantitative impacts, and qualitative considerations.
 
 ## Impracticability Exception
 
 - Retrospective application is impracticable when period-specific effects or cumulative effects cannot be determined. Apply prospec
-tively from the earliest practicable date and disclose why retrospective treatment was not feasible.
+  tively from the earliest practicable date and disclose why retrospective treatment was not feasible.
 
 ## Exam Tips
 

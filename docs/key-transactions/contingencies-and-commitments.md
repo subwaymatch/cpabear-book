@@ -6,7 +6,7 @@ determine recognition versus disclosure under ASC 450 and related guidance.
 ## Loss Contingencies
 
 - **Probable and estimable:** Accrue a liability and recognize expense. If a range exists and no amount is better, accrue the minim
-um and disclose the range.
+  um and disclose the range.
 - **Reasonably possible:** Disclose nature of contingency and possible loss range.
 - **Remote:** Generally no disclosure unless involving guarantees or certain environmental obligations.
 
@@ -68,7 +68,7 @@ Dr. Loss on purchase commitment    45,000
 
 - Translate probability language carefully (probable ≈ likely to occur; remote ≈ slight chance).
 - For unasserted claims, accrue or disclose only if it is probable that a claim will be asserted and the outcome is reasonably possibl
-e.
+  e.
 - Track rollforwards for warranty and litigation liabilities to support financial statement disclosures.
 
 Proper handling of contingencies and commitments prevents understatement of liabilities and informs users about material uncertainti

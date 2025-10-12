@@ -7,7 +7,7 @@ ancing activities. ASC 230 governs U.S. GAAP requirements, making the statement 
 
 - **Indirect method (common on the exam):** Starts with net income and adjusts for noncash items and changes in working capital.
 - **Direct method:** Shows gross cash receipts and payments (cash received from customers, cash paid to suppliers, etc.). GAAP re
-quires a reconciliation to net income when using this method.
+  quires a reconciliation to net income when using this method.
 
 ## Operating Activities
 
@@ -15,9 +15,9 @@ Operating activities convert accrual-basis net income to cash from operations. K
 
 - Add back noncash expenses (depreciation, amortization, impairment).
 - Remove nonoperating gains and losses recorded in net income (e.g., gain on equipment sale) and classify related cash in investi
-ng or financing.
+  ng or financing.
 - Adjust for working-capital changes: increases in current assets are subtractions; increases in current liabilities are addition
-s.
+  s.
 
 ### Journal Entry Tie-In
 

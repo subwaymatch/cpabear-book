@@ -7,9 +7,9 @@ es, treasury stock transactions, dividends, retained earnings adjustments, and e
 ## Equity Structure
 
 - **Common stock:** Par or stated value multiplied by shares issued. Amounts received above par go to additional paid-in capital (A
-PIC).
+  PIC).
 - **Preferred stock:** May be cumulative, participating, or convertible. Cumulative preferred dividends accumulate in arrears until
- paid.
+  paid.
 - **Retained earnings:** Accumulated undistributed profits; adjust for prior-period errors and changes in accounting principle.
 - **Accumulated other comprehensive income (AOCI):** Aggregates OCI components.
 

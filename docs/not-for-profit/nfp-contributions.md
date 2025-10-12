@@ -7,7 +7,7 @@ change transactions, evaluate donor restrictions, and account for pledges and en
 
 - Recognize revenue when a promise is **unconditional** and measurable.
 - Conditional promises include donor-imposed barriers (matching requirements, measurable outcomes); recognize revenue when conditi
-ons are substantially met.
+  ons are substantially met.
 - Multiyear pledges are recorded at present value; accrete the discount as contribution revenue.
 
 ### Example: Multi-Year Pledge
@@ -31,9 +31,9 @@ Dr. Pledges receivable                     1,923
 ## Donor Restrictions
 
 - **With donor restrictions:** Funds restricted for specific purposes, time periods, or endowments. Release when purpose accompli
-shed or time passes.
+  shed or time passes.
 - **Without donor restrictions:** Available for general operations; board designations do not create donor restrictions but must b
-e disclosed.
+  e disclosed.
 
 ### Release Example
 
@@ -81,7 +81,7 @@ Dr. Cash                  30,000
 ## Contributions of Long-Lived Assets
 
 - Donor-restricted contributions for long-lived assets are typically reported as with donor restrictions until the asset is placed
- in service.
+  in service.
 
 ```text
 Donation of equipment restricted for program use:
@@ -94,4 +94,4 @@ Dr. Net assets with donor restrictions    45,000
 ```
 
 Accurate contribution accounting ensures NFP statements reflect donor intent and resource availability—skills frequently tested on
- FAR simulations.
+FAR simulations.

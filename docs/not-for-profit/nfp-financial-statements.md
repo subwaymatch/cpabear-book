@@ -6,17 +6,17 @@ Not-for-profit organizations present financial statements tailored to donor and 
 
 1. **Statement of Financial Position:** Assets, liabilities, and net assets with and without donor restrictions.
 2. **Statement of Activities:** Changes in net assets, including contributions, program revenues, investment gains/losses, and rel
- eases of restrictions.
+   eases of restrictions.
 3. **Statement of Cash Flows:** Prepared using direct or indirect method; classify contributions restricted for long-term purposes
- as financing inflows.
+   as financing inflows.
 4. **Statement of Functional Expenses:** Required for voluntary health and welfare organizations; widely presented by others in a
- matrix of natural and functional classification.
+   matrix of natural and functional classification.
 
 ## Net Asset Classifications
 
 - **Without donor restrictions:** Available for general use or subject to board designations.
 - **With donor restrictions:** Subject to donor stipulations (time/purpose or perpetual endowment). Release restrictions when the c
-onditions are met or time passes.
+  onditions are met or time passes.
 
 ### Journal Entries
 
@@ -46,11 +46,11 @@ Dr. Net assets without donor restrictions 25,000
 
 ### Functional Expense Illustration
 
-| Expense | Program | Management & General | Fundraising |
-| --- | --- | --- | --- |
-| Salaries | 180,000 | 45,000 | 25,000 |
-| Occupancy | 30,000 | 10,000 | 5,000 |
-| Supplies | 12,000 | 2,000 | 1,000 |
+| Expense   | Program | Management & General | Fundraising |
+| --------- | ------- | -------------------- | ----------- |
+| Salaries  | 180,000 | 45,000               | 25,000      |
+| Occupancy | 30,000  | 10,000               | 5,000       |
+| Supplies  | 12,000  | 2,000                | 1,000       |
 
 ## Disclosures
 

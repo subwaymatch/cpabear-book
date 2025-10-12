@@ -8,7 +8,7 @@ s a specific measurement focus and basis of accounting.
 - **Types:** General, special revenue, capital projects, debt service, permanent.
 - **Measurement focus:** Current financial resources.
 - **Basis of accounting:** Modified accrual—revenues recognized when measurable and available; expenditures recognized when liabil
-ities are incurred with current resources.
+  ities are incurred with current resources.
 - **Statements:** Balance sheet and statement of revenues, expenditures, and changes in fund balance.
 - **Budgetary accounting:** Encumbrances record commitments.
 
@@ -37,7 +37,7 @@ Dr. Expenditures            118,500
 - **Measurement focus:** Economic resources.
 - **Basis of accounting:** Accrual, similar to for-profit entities.
 - **Statements:** Statement of net position, statement of revenues, expenses, and changes in net position, and statement of cash fl
-ows (direct method required).
+  ows (direct method required).
 
 ### Example Entry (Enterprise Fund)
 
@@ -75,6 +75,6 @@ Dr. Due to other governments 210,000
 
 - Present governmental and business-type activities using the economic resources focus and accrual basis.
 - Reconcile governmental fund statements to government-wide statements by adding capital assets, subtracting long-term debt, and
-adjusting for deferred inflows/outflows.
+  adjusting for deferred inflows/outflows.
 
 Understanding measurement focus and fund types is foundational for answering governmental accounting questions on the FAR exam.

@@ -8,7 +8,7 @@ lic resources. FAR candidates must understand fund structures, measurement focus
 - **Accountability:** Governments report on stewardship and compliance with budgetary and legal constraints.
 - **Fund accounting:** Segregates resources by purpose to ensure legal restrictions are observed.
 - **Dual perspectives:** Financial reporting includes fund financial statements and government-wide statements, requiring reconcilia
-tions.
+  tions.
 
 ## Topics Covered
 

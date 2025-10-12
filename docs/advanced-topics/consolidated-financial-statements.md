@@ -1,13 +1,12 @@
 # Consolidated Financial Statements
 
 Consolidated financial statements present the results of a parent and its subsidiaries as a single economic entity. FAR candidate
-s must understand control thresholds, consolidation procedures, intercompany eliminations, and noncontrolling interests under ASC
- 810.
+s must understand control thresholds, consolidation procedures, intercompany eliminations, and noncontrolling interests under ASC 810.
 
 ## When to Consolidate
 
 - Consolidate when a parent has a controlling financial interest, generally >50% voting interest or as the primary beneficiary o
-f a variable interest entity (VIE).
+  f a variable interest entity (VIE).
 - Do not consolidate when control is temporary or the subsidiary is in legal reorganization under court supervision.
 
 ## Consolidation Workpaper Steps
@@ -16,7 +15,7 @@ f a variable interest entity (VIE).
 2. Eliminate intercompany balances and transactions (receivables/payables, sales/COGS, interest, dividends).
 3. Adjust subsidiary assets and liabilities to fair value at acquisition date; recognize goodwill or bargain purchase gain.
 4. Compute noncontrolling interest (NCI) at fair value and allocate subsidiary income between controlling and noncontrolling owner
-s.
+   s.
 5. Combine like accounts to produce consolidated statements.
 
 ### Example: Acquisition and Elimination Entries
@@ -81,7 +80,7 @@ Dr. Notes payable – intercompany   300,000
 
 - Revalue previously held equity interests to fair value when obtaining control; record gain or loss in earnings.
 - Partial disposals without loss of control adjust equity and NCI. Loss of control triggers recognition of gain/loss and deconsoli
-dation of the subsidiary.
+  dation of the subsidiary.
 
 ## Disclosure Checklist
 

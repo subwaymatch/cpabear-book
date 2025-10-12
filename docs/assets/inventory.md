@@ -1,19 +1,19 @@
 # Inventory
 
 Inventory valuation affects both the balance sheet and the income statement. FAR candidates must master costing methods, lower of
- cost or net realizable value adjustments, and specialized topics under ASC 330.
+cost or net realizable value adjustments, and specialized topics under ASC 330.
 
 ## Inventory Systems
 
 - **Perpetual:** Continuously updates inventory and cost of goods sold (COGS) with each transaction.
 - **Periodic:** Updates inventory at period end through physical counts and adjusts COGS using beginning inventory + purchases − e
-nding inventory.
+  nding inventory.
 
 ## Costing Methods
 
 - **FIFO (First-In, First-Out):** Ending inventory approximates current cost; COGS reflects older layers.
 - **LIFO (Last-In, First-Out):** Matches recent costs to revenue; maintain a LIFO reserve to reconcile to FIFO disclosures. LIFO
-is still permitted under U.S. GAAP.
+  is still permitted under U.S. GAAP.
 - **Weighted-average:** Uses average cost per unit for valuation.
 - **Specific identification:** Appropriate for unique, high-value items.
 

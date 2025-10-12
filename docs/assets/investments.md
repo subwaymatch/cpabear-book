@@ -6,9 +6,9 @@ y measurement rules under ASC 320, ASC 321, and ASC 323, and recognize income an
 ## Debt Securities
 
 - **Held-to-maturity (HTM):** Reported at amortized cost using the effective interest method. Subject to current expected credit
- losses (CECL).
+  losses (CECL).
 - **Available-for-sale (AFS):** Reported at fair value with unrealized gains and losses in OCI, except that credit losses hit ear
-nings through an allowance.
+  nings through an allowance.
 - **Trading:** Reported at fair value with all changes in earnings.
 
 **Effective Interest Example (AFS Bond)**
@@ -80,7 +80,7 @@ Dr. Investment in trading securities   105,000
 ## Impairment Considerations
 
 - For AFS debt securities, recognize credit losses through an allowance limited to the difference between amortized cost and fai
-r value.
+  r value.
 - For HTM debt, record lifetime expected credit losses through a valuation allowance.
 - For equity method investments, test for impairment when a decline in value is other than temporary.
 

@@ -7,7 +7,7 @@ r nonissuers. FAR candidates should recognize when SPFs are appropriate and how 
 
 - **Cash basis:** Recognizes transactions when cash is received or paid; omits receivables, payables, and accruals.
 - **Modified cash basis:** Starts with cash basis but incorporates selected accruals such as capitalizing long-term assets and acc
-ruing payroll taxes.
+  ruing payroll taxes.
 - **Tax basis:** Mirrors income tax reporting rules; aligns with taxable income and Schedule M adjustments.
 - **Regulatory basis:** Required by regulators (e.g., insurance statutory statements, bank call reports).
 - **Contractual basis:** Tailored to lender agreements or internal covenants.
@@ -20,11 +20,11 @@ ruing payroll taxes.
 
 ## Illustrative Adjustments
 
-| Scenario | Cash Basis Entry | Tax Basis/Modified Cash Adjustment |
-| --- | --- | --- |
-| Accrued payroll taxes | None recorded until paid | `Dr. Payroll tax expense 9,000 / Cr. Payroll taxes payable 9,000` |
-| Capitalizing equipment | Entire payment expensed | `Dr. Equipment 45,000 / Cr. Cash 45,000` and `Dr. Depreciation expense 4,500 / Cr. Accumulated depreciation 4,500` |
-| Deferred revenue | Revenue recognized when cash received | `Dr. Cash 30,000 / Cr. Deferred revenue 30,000` (recognized when earned) |
+| Scenario               | Cash Basis Entry                      | Tax Basis/Modified Cash Adjustment                                                                                 |
+| ---------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Accrued payroll taxes  | None recorded until paid              | `Dr. Payroll tax expense 9,000 / Cr. Payroll taxes payable 9,000`                                                  |
+| Capitalizing equipment | Entire payment expensed               | `Dr. Equipment 45,000 / Cr. Cash 45,000` and `Dr. Depreciation expense 4,500 / Cr. Accumulated depreciation 4,500` |
+| Deferred revenue       | Revenue recognized when cash received | `Dr. Cash 30,000 / Cr. Deferred revenue 30,000` (recognized when earned)                                           |
 
 ## Converting SPF to GAAP
 
