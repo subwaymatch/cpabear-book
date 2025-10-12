@@ -55,6 +55,10 @@ const config: Config = {
     ],
   ],
 
+  stylesheets: [
+    "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap",
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
