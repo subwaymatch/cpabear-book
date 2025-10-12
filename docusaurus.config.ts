@@ -84,6 +84,7 @@ const config: Config = {
           position: "right",
         },
       ],
+      hideOnScroll: true,
     },
     footer: {
       style: "dark",
