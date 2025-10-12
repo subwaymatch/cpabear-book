@@ -1,43 +1,57 @@
 # Public Company Reporting
 
-Public companies in the United States must comply with SEC reporting requirements in addition to GAAP. FAR candidates should understand the structure of SEC filings, key regulations, and unique reporting considerations.
+Public companies in the United States must comply with SEC reporting requirements in addition to GAAP. FAR candidates should unde
+rstand the structure of SEC filings, key regulations, and unique reporting considerations.
 
-## Key SEC Filings
+## Key SEC Filings and Deadlines
 
-- **Form 10-K:** Annual report including audited financial statements, MD&A, risk factors, and internal control disclosures. Filed within 60–90 days after fiscal year-end depending on filer status.
-- **Form 10-Q:** Quarterly report with interim financial statements (reviewed, not audited), MD&A updates, and disclosures of material changes. Filed within 40–45 days.
-- **Form 8-K:** Current report for significant events (e.g., acquisitions, disposals, auditor changes) filed within four business days.
-- **Proxy statements (DEF 14A):** Provide information for shareholder meetings, including executive compensation.
+| Filing                    | Purpose                                                                             | Deadline (Large Accelerated / Accelerated / Nonaccelerated) |
+| ------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Form 10-K                 | Annual report with audited financial statements, MD&A, and ICFR disclosures         | 60 / 75 / 90 days after year-end                            |
+| Form 10-Q                 | Quarterly update with reviewed statements and MD&A                                  | 40 / 40 / 45 days after quarter-end                         |
+| Form 8-K                  | Current report for significant events (acquisitions, auditor changes, bankruptcies) | Within 4 business days                                      |
+| Form S-1/S-3              | Registration statements for securities offerings                                    | Prior to offering effectiveness                             |
+| Proxy Statement (DEF 14A) | Shareholder meeting information, executive compensation                             | Filed before annual meeting                                 |
 
-## Regulation S-X and S-K
+## Regulation S-X and S-K Highlights
 
-- **Regulation S-X** governs form and content of financial statements, including schedules and supplementary information.
-- **Regulation S-K** addresses nonfinancial statement disclosures such as MD&A, market risk, and corporate governance.
+- **Regulation S-X:** Governs the form and content of financial statements, schedules, and pro forma information (Articles 3, 10,
+  and 11).
+- **Regulation S-K:** Addresses nonfinancial disclosures such as MD&A, market risk, and corporate governance.
+- **Article 11 pro forma statements:** Required for significant business combinations; adjust historical financials for transacti
+  on effects.
 
-## MD&A Highlights
+## MD&A Focus Areas
 
-- Discuss results of operations, liquidity, capital resources, and critical accounting estimates.
-- Provide known trends and uncertainties that could affect future performance.
+1. Results of operations with year-over-year variance analysis.
+2. Liquidity and capital resources, including debt covenants and off-balance-sheet arrangements.
+3. Critical accounting estimates and judgments (impairment, revenue recognition).
+4. Market risk disclosures (interest rate, foreign currency, commodity exposure).
 
-## XBRL and Inline XBRL
+## Inline XBRL Tagging
 
-- Companies must tag financial statements and footnotes using the US GAAP Financial Reporting Taxonomy.
-- Inline XBRL allows embedding tags within HTML filings for improved transparency.
+- Tag primary financial statements, footnotes, and schedules using the U.S. GAAP Financial Reporting Taxonomy.
+- Validate tagging accuracy to avoid SEC comment letters. Include calculation relationships and dimensional tagging where applica
+  ble.
 
 ## Internal Control Reporting
 
-- Section 404 of the Sarbanes-Oxley Act requires management to assess internal control over financial reporting (ICFR) and, for accelerated filers, auditor attestation.
-- Disclose material weaknesses and remediation plans.
+- Sarbanes-Oxley Section 404 requires management’s annual assessment of internal control over financial reporting (ICFR).
+- Accelerated and large accelerated filers need auditor attestation on ICFR; smaller reporting companies may be exempt.
+- Disclose material weaknesses and remediation efforts promptly; failure to do so can trigger SEC enforcement.
 
-## Earnings Releases and Non-GAAP Measures
+## Non-GAAP Measures
 
-- Non-GAAP metrics must be reconciled to GAAP results and presented with equal or greater prominence of GAAP measures.
-- Regulation G applies to public disclosures including press releases and investor presentations.
+- Present non-GAAP metrics with equal or lesser prominence than the most directly comparable GAAP measure.
+- Provide a quantitative reconciliation to GAAP and explain why management believes the measure is useful.
 
-## Exam Tips
+## Exam Tip: Filing Calendar Example
 
-- Know filing deadlines and the difference between large accelerated, accelerated, and nonaccelerated filers.
-- Understand requirements for interim reporting (Regulation S-X Article 10) including disclosures of significant events and changes in accounting principles.
-- Be able to identify which SEC forms report specific events or transactions.
+A calendar-year accelerated filer should plan:
 
-Public company reporting questions emphasize regulatory compliance, disclosure, and presentation of financial information in SEC filings.
+- **February 14:** File Form 10-K (75-day deadline).
+- **May 10, August 9, November 9:** File Forms 10-Q (40-day deadlines).
+- **Within four business days of a major acquisition:** File Form 8-K and, if significant, pro forma financials under Article 11.
+
+Understanding SEC reporting expectations helps you evaluate disclosure checklists and respond to FAR simulations involving registr
+ant filings.

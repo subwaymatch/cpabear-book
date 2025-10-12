@@ -1,36 +1,91 @@
 # Cash and Receivables
 
-Cash and receivables are highly liquid assets subject to stringent internal control and measurement requirements. FAR candidates must understand classification, valuation, and presentation under ASC 305 and ASC 310.
+Cash and receivables are highly liquid assets subject to stringent control, measurement, and presentation requirements under ASC
+305, ASC 326, and ASC 310. FAR questions often combine bank reconciliation tasks with allowance calculations.
 
 ## Cash and Cash Equivalents
 
-- **Cash equivalents** are short-term, highly liquid investments with original maturities of three months or less (e.g., Treasury bills, money market funds).
-- **Restricted cash** must be segregated and disclosed; classify as current or noncurrent based on the restriction period.
-- **Bank reconciliations** adjust book balances for deposits in transit, outstanding checks, bank service charges, and errors.
+- Cash equivalents are short-term, highly liquid investments with original maturities of three months or less (Treasury bills, m
+  oney market funds).
+- Restricted cash is reported separately and classified as current or noncurrent based on the restriction period.
+- Bank reconciliations adjust book to bank balances by considering deposits in transit, outstanding checks, bank charges, and er
+  rors.
 
-## Accounts Receivable
+**Example Bank Reconciliation Entry**
+
+Bank statement shows a $45 service charge and $2,000 NSF check returned. The book balance must be reduced:
+
+```text
+Dr. Bank service charge expense   45
+Dr. Accounts receivable         2,000
+    Cr. Cash                             2,045
+```
+
+## Accounts Receivable and CECL
 
 - Recognize receivables when the entity has an unconditional right to consideration.
-- Present receivables net of **allowance for credit losses** under ASC 326 (CECL model).
-- **Allowance methods:** Historical loss rates, probability-weighted scenarios, or aging schedules adjusted for reasonable and supportable forecasts.
-- **Factoring and securitization:** Determine whether transfers qualify as sales (derecognition) or secured borrowings.
+- Present receivables net of an allowance for credit losses calculated using the current expected credit loss (CECL) model.
+- Estimation techniques include historical loss rates adjusted for reasonable forecasts, aging schedules, and probability-weighte
+  d scenarios.
+
+**Allowance Adjustment Example**
+
+An aging schedule indicates lifetime expected credit losses of $12,500. The allowance currently has a $4,000 credit balance.
+
+```text
+Dr. Bad debt expense                 8,500
+    Cr. Allowance for credit losses      8,500
+```
 
 ## Notes Receivable
 
-- Record at face value and accrue interest using the effective interest method.
-- When received in exchange for goods/services, record at the fair value of the consideration or the note, whichever is more clearly determinable.
-- Noninterest-bearing notes are recorded at present value with discount amortized to interest income.
+- Record notes receivable at present value if issued at a below-market rate.
+- Accrue interest using the effective interest method.
+- For noninterest-bearing notes issued for inventory, record revenue at the fair value of the note.
 
-## Impairment and Write-offs
+**Noninterest-Bearing Note Example**
 
-- Under CECL, recognize lifetime expected credit losses upon initial recognition.
-- Write-offs reduce both the gross receivable and the allowance account; recoveries increase both.
-- Troubled debt restructurings may involve term modifications or concessions; evaluate for gain/loss recognition.
+A $100,000, two-year note is issued with a 6% market rate; present value is $89,000.
 
-## Internal Control Considerations
+```text
+At issuance:
+Dr. Notes receivable      100,000
+    Cr. Sales revenue             89,000
+    Cr. Discount on note          11,000
 
-- Segregate duties for custody, record keeping, and authorization.
-- Require timely reconciliation and independent review.
-- Monitor days sales outstanding and credit policy adherence.
+Year-end interest accrual:
+Dr. Discount on note       5,340
+    Cr. Interest income           5,340
+```
 
-Mastery of cash and receivable accounting helps prevent misstatements and supports analysis of liquidity and credit risk.
+## Write-Offs and Recoveries
+
+- Write-offs reduce both the receivable and allowance balances.
+- Recoveries reinstate the receivable and allowance before collecting cash.
+
+```text
+Write-off:
+Dr. Allowance for credit losses   3,200
+    Cr. Accounts receivable             3,200
+
+Recovery:
+Dr. Accounts receivable          3,200
+    Cr. Allowance for credit losses     3,200
+Dr. Cash                         3,200
+    Cr. Accounts receivable             3,200
+```
+
+## Factoring and Securitization
+
+- Treat transfers as sales when the transferee assumes control and the transferor surrenders effective control (ASC 860).
+- Otherwise, record as secured borrowings with pledge disclosures.
+
+```text
+Secured borrowing example:
+Dr. Cash                     90,000
+Dr. Finance charge expense    3,000
+    Cr. Notes payable – factoring    93,000
+```
+
+Strong command of these concepts enables you to evaluate liquidity and design adjusting entries that reconcile subsidiary ledger
+s to the balance sheet.

@@ -1,38 +1,59 @@
 # Notes to Financial Statements
 
-Financial statement notes provide context, detail, and disclosure necessary to understand the primary statements. FAR candidates must know the hierarchy of required disclosures and common note content.
+Financial statement notes provide the narrative detail and quantitative schedules necessary to understand the primary statements
+. FAR candidates should memorize high-frequency disclosures and know how journal entries support note balances.
 
-## Significant Accounting Policies
+## Significant Accounting Policies (ASC 235)
 
-- Basis of presentation (GAAP vs. IFRS, fiscal year-end).
-- Revenue recognition policies by performance obligation.
-- Inventory costing methods, depreciation approaches, and capitalization thresholds.
+- Basis of presentation, fiscal year-end, and principles of consolidation.
+- Revenue recognition policies by performance obligation (ASC 606).
+- Inventory costing methods, capitalization thresholds, and cost-flow assumptions.
+- Depreciation and amortization methods and useful lives.
 - Use of estimates and areas subject to significant judgment.
 
-## Common Footnote Areas
+## Common Footnote Areas and Illustrative Entries
 
-1. **Fair value measurements:** Levels within the fair value hierarchy, valuation techniques, and nonrecurring measurements.
-2. **Debt and leasing arrangements:** Maturity schedules, interest rates, covenant requirements, and lease commitments.
-3. **Income taxes:** Components of deferred tax assets and liabilities, valuation allowances, and unrecognized tax benefits.
-4. **Contingencies and commitments:** Litigation, guarantees, environmental liabilities, purchase obligations.
-5. **Segment reporting:** Operating segments, products, geographic areas, and reconciliations to consolidated totals (ASC 280).
-6. **Subsequent events:** Recognized versus nonrecognized events through the issuance date of the financial statements.
-7. **Related-party transactions:** Nature of the relationship, terms, and amounts due to/from related parties.
+1. **Fair value measurements (ASC 820):** Describe valuation techniques and levels.
+   - Entry: `Dr. Investment in equity securities 12,000 / Cr. Gain on fair value adjustment 12,000`.
+2. **Debt and leasing arrangements:** Provide maturity schedules, interest rates, covenants, and weighted-average lease terms.
+   - Entry: `Dr. Interest expense 8,500 / Cr. Interest payable 8,500`.
+3. **Income taxes (ASC 740):** Disclose deferred tax assets/liabilities, valuation allowances, and unrecognized tax benefits.
+   - Entry: `Dr. Deferred tax asset 18,000 / Cr. Income tax benefit 18,000`.
+4. **Contingencies and commitments (ASC 450):** Describe probable losses accrued and reasonably possible losses disclosed.
+   - Entry when accruing a probable loss: `Dr. Litigation expense 75,000 / Cr. Accrued litigation liability 75,000`.
+5. **Segment reporting (ASC 280):** Present segment revenues, profit or loss, and assets with reconciliations to consolidated tot
+   als.
+6. **Subsequent events (ASC 855):** Identify recognized events (adjust the financial statements) versus nonrecognized events (disc
+   lose nature and estimated impact).
+7. **Related-party transactions (ASC 850):** Provide the nature of relationships, pricing policies, and outstanding balances.
 
-## Interim Reporting Considerations
+## Example Disclosure Excerpt
 
-- Disclosures may be condensed but must include significant changes since the last annual report.
-- Provide updates on contingencies, changes in accounting estimates, and subsequent events.
+```
+Note X — Long-Term Debt
+The Company has a $500,000 term loan maturing March 31, 20X8 with quarterly principal payments of $25,000 and interest at LIBOR
++ 200 basis points. The loan agreement contains a tangible net worth covenant of $2,000,000. At December 31, 20X3, the Company wa
+s in compliance. Scheduled maturities are: 20X4 – $100,000; 20X5 – $100,000; 20X6 – $100,000; 20X7 – $100,000; 20X8 – $100,000.
+```
 
-## IFRS Differences
+The maturity schedule ties to the journal entry for the current portion reclassification:
 
-- IFRS requires disclosure of key sources of estimation uncertainty and critical judgments separately.
-- Emphasizes capital management objectives and policies.
+```text
+Dr. Long-term debt             100,000
+    Cr. Current portion of LTD      100,000
+```
+
+## Interim Reporting (ASC 270)
+
+- Interim notes may be condensed but must include significant new events since the last annual report.
+- Update contingencies, subsequent events, and changes in accounting estimates.
+- Disclose seasonal revenues, significant changes in accounting principles, and fair value updates.
 
 ## Exam Tips
 
-- Carefully read footnote excerpts provided in task-based simulations; they often contain necessary assumptions for calculations.
-- Remember that some disclosures (e.g., concentrations of credit risk under ASC 825) are required even when the risk is remote.
-- When evaluating subsequent events, identify the date through which management evaluated events and whether the financial statements have been issued or are available to be issued.
+- Identify whether notes reflect issued or available-to-be-issued financial statements for subsequent event evaluation.
+- Watch for concentration disclosures under ASC 825 and ASC 275 (e.g., major customers, suppliers, geographic risks).
+- Tie note balances back to the primary statements to ensure completeness when building schedules.
 
-Effective note disclosures enhance transparency and inform decision-making for users of financial statements.
+Strong familiarity with note content allows you to interpret simulation exhibits quickly and craft accurate memo responses on the
+exam.

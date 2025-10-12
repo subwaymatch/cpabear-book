@@ -1,12 +1,18 @@
 # Key Transactions Overview
 
-This section covers cross-cutting transactions that integrate multiple standards and frequently appear in simulations. Topics include revenue recognition, leases, fair value measurements, contingencies, subsequent events, income taxes, and accounting changes.
+This section covers cross-cutting transactions that integrate multiple standards and frequently appear in simulations. Topics inc
+lude revenue recognition, leases, fair value measurements, contingencies, subsequent events, income taxes, and accounting changes
+.
 
 ## Study Approach
 
-- **Understand the underlying model.** Each transaction type has a conceptual framework (e.g., five-step revenue model, lease classification tests).
-- **Practice journal entries.** Simulations often require preparing entries or adjusting trial balances.
-- **Connect to financial statements.** Know how each transaction affects balance sheet accounts, net income, OCI, and cash flows.
-- **Review disclosures.** Many standards rely on detailed qualitative and quantitative disclosures that can appear as exhibits in exam questions.
+- **Understand the underlying model.** Review five-step revenue recognition, lease classification tests, and valuation hierarchy.
+- **Practice journal entries.** Task-based simulations often require recording entries or adjusting trial balances for these topic
+  s.
+- **Connect to financial statements.** Map each transaction’s impact on balance sheet accounts, net income, OCI, and cash flows.
+- **Review disclosures.** Many standards require detailed qualitative and quantitative disclosures that may appear as exhibits on
+  the exam.
+- **Reconcile tax and book effects.** Pay special attention to deferred tax implications, lease liability amortization, and fair v
+  alue changes.
 
-Use the detailed chapters to deepen your mastery and apply principles to integrated problems.
+Use the detailed chapters to build mastery and apply principles to integrated problems under exam conditions.

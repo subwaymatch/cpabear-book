@@ -1,49 +1,66 @@
 # Income Taxes
 
-Accounting for income taxes under ASC 740 requires recognizing current and deferred tax consequences of events recognized in financial statements. FAR candidates must compute tax expense, deferred tax assets and liabilities, and uncertain tax positions.
+Accounting for income taxes under ASC 740 requires recognizing current and deferred tax consequences of events reported in financ
+ial statements. FAR candidates must compute tax expense, deferred tax assets and liabilities, and uncertain tax positions.
 
-## Current Tax Expense
+## Current Tax Provision
 
 - Based on taxable income for the period using enacted tax rates.
 - Adjust for tax credits, estimated payments, and prior-year adjustments.
 
+```text
+Dr. Income tax expense – current   82,000
+    Cr. Income taxes payable             82,000
+```
+
 ## Deferred Taxes
 
-- Arise from temporary differences between book and tax bases of assets and liabilities.
-- **Deferred tax liabilities (DTLs):** Taxable temporary differences (e.g., depreciation methods, installment sales).
-- **Deferred tax assets (DTAs):** Deductible temporary differences (e.g., warranty liabilities, bad debt allowances) and carryforwards.
-- Measure using enacted tax rates expected to apply when differences reverse; do not anticipate future tax law changes.
+Temporary differences create deferred tax assets (DTAs) or deferred tax liabilities (DTLs). Measure using enacted tax rates expec
+ted when differences reverse.
+
+| Temporary Difference      | Book vs. Tax Treatment                         | Deferred Tax                  | Journal Entry                                               |
+| ------------------------- | ---------------------------------------------- | ----------------------------- | ----------------------------------------------------------- |
+| Depreciation (tax faster) | Tax depreciation $120,000 vs. book $80,000     | DTL = $40,000 × 25% = $10,000 | `Dr. Income tax expense – deferred 10,000 / Cr. DTL 10,000` |
+| Warranty liability        | Book accrues $50,000; tax deductible when paid | DTA = $50,000 × 25% = $12,500 | `Dr. DTA 12,500 / Cr. Income tax expense – deferred 12,500` |
 
 ## Valuation Allowance
 
-- Reduce DTAs with a valuation allowance if it is **more likely than not** that some portion will not be realized.
-- Evaluate positive and negative evidence (e.g., cumulative losses, future taxable income projections, tax planning strategies).
+Reduce DTAs when it is **more likely than not** they will not be realized. Evaluate cumulative losses, future taxable income, and t
+ax planning strategies.
+
+```text
+Dr. Income tax expense – deferred   6,000
+    Cr. Valuation allowance                6,000
+```
 
 ## Intraperiod Tax Allocation
 
-- Allocate total tax expense among continuing operations, discontinued operations, OCI items, and items charged directly to equity.
-- Follow sequential order: continuing operations first, then others.
+Allocate total tax expense among continuing operations, discontinued operations, OCI, and items recorded directly in equity. Contin
+uing operations is computed first; remaining tax effects are allocated sequentially.
 
-## Uncertain Tax Positions
+## Uncertain Tax Positions (UTPs)
 
-- Apply two-step process: (1) Recognize if more likely than not to be sustained upon examination; (2) Measure largest benefit with cumulative probability > 50%.
-- Recognize interest and penalties in income tax expense unless policy states otherwise.
+- Step 1: Recognize tax benefits only if the position is more likely than not to be sustained upon examination.
+- Step 2: Measure the largest amount of benefit that has a cumulative probability greater than 50% of being sustained.
+- Accrue interest and penalties in income tax expense unless policy states otherwise.
+
+```text
+Recognition example:
+Dr. Income tax expense – current   18,000
+    Cr. Liability for uncertain tax positions   18,000
+```
 
 ## Interim Reporting
 
-- Use estimated annual effective tax rate applied to year-to-date ordinary income.
-- Discrete items recognized in the period they occur.
+- Apply the estimated annual effective tax rate (AETR) to year-to-date ordinary income.
+- Treat discrete items (e.g., unusual gains, tax law changes) in the period they occur.
 
-## IFRS Differences
+## Disclosure Checklist
 
-- IAS 12 does not use valuation allowances; instead, recognize DTAs only when probable that taxable profit will be available.
-- Recognize deferred taxes on revaluation surplus recognized in OCI.
+1. Components of income tax expense (current vs. deferred, federal vs. state).
+2. Reconciliation of statutory rate to effective tax rate (percentage or dollar format).
+3. Significant components of DTAs and DTLs, including valuation allowance changes.
+4. Rollforward of unrecognized tax benefits with amounts that would impact the effective tax rate if recognized.
 
-## Disclosure Requirements
-
-1. Components of income tax expense (current, deferred, federal, state, foreign).
-2. Reconciliation of statutory rate to effective tax rate.
-3. Significant components of DTAs and DTLs and valuation allowance changes.
-4. Unrecognized tax benefits rollforward and associated interest/penalties.
-
-Income tax accounting integrates financial statement analysis with tax law knowledge, making it a challenging yet critical topic on the FAR exam.
+Income tax accounting integrates financial statement analysis with tax law knowledge, making it a challenging yet critical FAR top
+ic.

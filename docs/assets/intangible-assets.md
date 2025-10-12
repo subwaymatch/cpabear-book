@@ -1,39 +1,72 @@
 # Intangible Assets
 
-Intangible assets lack physical substance but provide economic benefits. FAR candidates must distinguish between purchased and internally developed intangibles, determine useful lives, and apply impairment guidance under ASC 350.
+Intangible assets lack physical substance but provide future economic benefits. FAR candidates must distinguish between purchase
+d and internally developed intangibles, determine useful lives, and apply impairment guidance under ASC 350 and related standard
+s.
 
 ## Recognition and Measurement
 
-- **Purchased intangibles:** Record at cost, including purchase price and directly attributable costs.
-- **Internally developed intangibles:** Generally expensed as incurred, except for certain costs such as software development (ASC 985-20, ASC 350-40) and legal fees for successful defense of patents.
-- **Business combinations:** Recognize identifiable intangibles separately from goodwill when they arise from contractual or legal rights or are separable.
+- **Purchased intangibles:** Record at cost, including purchase price and directly attributable legal fees.
+- **Internally developed intangibles:** Generally expense as incurred except for certain costs like internal-use software during
+  the application development stage (ASC 350-40) or successful defense of patents.
+- **Business combinations:** Recognize identifiable intangibles separately from goodwill when they arise from contractual/legal r
+  ights or are separable.
+
+**Acquisition Entry Example**
+
+A company purchases a customer list for $120,000 and incurs $5,000 in legal fees to execute the contract.
+
+```text
+Dr. Customer list intangible   125,000
+    Cr. Cash                           125,000
+```
 
 ## Useful Life Classification
 
-- **Finite-lived intangibles:** Amortize over the shorter of economic or legal life, using straight-line or another systematic method. Review for impairment when indicators arise.
-- **Indefinite-lived intangibles:** Do not amortize; test at least annually for impairment and more frequently if events indicate potential impairment.
+- **Finite-lived intangibles:** Amortize over the shorter of economic or legal life, often on a straight-line basis.
+- **Indefinite-lived intangibles:** Not amortized; test at least annually for impairment.
+- **Goodwill:** Tested at the reporting unit level with optional qualitative assessment.
+
+**Amortization Example**
+
+Trademark cost $90,000, legal life 10 years, no residual value.
+
+```text
+Dr. Amortization expense     9,000
+    Cr. Accumulated amortization   9,000
+```
 
 ## Impairment Testing
 
-- **Finite-lived:** Compare carrying amount to undiscounted cash flows (recoverability test). If not recoverable, impairment equals carrying amount minus fair value.
-- **Indefinite-lived:** Perform qualitative assessment (optional). If more likely than not impaired, compare fair value to carrying amount; recognize impairment for excess.
-- **Goodwill:** Tested at reporting unit level under ASC 350-20. Option to perform qualitative test; if quantitative test required, compare fair value of reporting unit with carrying amount.
+- **Finite-lived intangibles:** Perform a recoverability test (undiscounted cash flows vs. carrying amount). If not recoverable, i
+  mpairment = carrying amount − fair value.
+- **Indefinite-lived intangibles:** Compare fair value directly to carrying amount after optional qualitative assessment.
+- **Goodwill:** If reporting unit carrying amount exceeds fair value, recognize impairment up to the amount of goodwill.
+
+```text
+Finite-lived impairment example:
+Carrying amount 150,000; undiscounted cash flows 130,000; fair value 120,000.
+Dr. Impairment loss          30,000
+    Cr. Accumulated impairment loss   30,000
+```
 
 ## Special Topics
 
-- **Research and development (R&D):** Expense as incurred, except alternative future use equipment, which is capitalized and depreciated.
-- **Software:** Differentiate between software for sale (capitalize after technological feasibility) and internal-use software (capitalize during application development stage).
-- **Franchise rights and licenses:** Amortize over contractual period unless renewals are reasonably assured.
+- **Research and development (ASC 730):** Expense as incurred except equipment with alternative future use, which is capitalized
+  and depreciated.
+- **Software:**
+  - **Software for sale:** Capitalize costs incurred after technological feasibility (ASC 985-20).
+  - **Internal-use software:** Capitalize application development costs; expense preliminary project and post-implementation trai
+    ning costs.
+- **Franchise rights and licenses:** Amortize over the contractual term, including renewal periods only if renewal is reasonably
+  assured.
 
-## IFRS Differences
+## Disclosure Checklist
 
-- Development costs meeting specific criteria are capitalized under IAS 38; research costs are expensed.
-- Impairment testing uses one-step model comparing carrying amount to recoverable amount (higher of fair value less costs to sell or value in use).
-
-## Disclosure Highlights
-
-1. Schedule of gross carrying amount and accumulated amortization by class of intangible assets.
-2. Aggregate amortization expense for the current period and estimated expense for each of the next five years.
+1. Gross carrying amount and accumulated amortization by major class of intangible assets.
+2. Aggregate amortization expense and estimated expense for each of the next five years.
 3. Description of impairment losses and valuation techniques used.
+4. Changes in goodwill by reporting unit, including acquisitions, dispositions, and impairment charges.
 
-Intangible asset accounting requires careful judgement about future economic benefits and appropriate impairment triggers—skills heavily tested on the FAR exam.
+Intangible asset accounting demands careful judgment about future benefits and impairment triggers—skills that appear frequently
+in FAR simulations.

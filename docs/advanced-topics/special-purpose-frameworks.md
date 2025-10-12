@@ -1,35 +1,47 @@
 # Special Purpose Frameworks
 
-Special purpose frameworks (SPFs), also known as other comprehensive bases of accounting (OCBOA), provide alternatives to GAAP for nonissuers. FAR candidates should recognize when SPFs are appropriate and how financial statements differ from GAAP presentation.
+Special purpose frameworks (SPFs), also known as other comprehensive bases of accounting (OCBOA), provide alternatives to GAAP fo
+r nonissuers. FAR candidates should recognize when SPFs are appropriate and how the statements differ from GAAP presentation.
 
 ## Common Frameworks
 
-- **Cash basis:** Recognizes transactions when cash is received or paid. Simple but omits receivables, payables, and accruals.
-- **Modified cash basis:** Begins with cash basis but includes selected accrual adjustments (e.g., capitalizing long-term assets, accruing taxes payable).
-- **Tax basis:** Mirrors income tax reporting rules; useful for entities whose users focus on taxable income.
-- **Regulatory basis:** Required by governmental or industry regulators (e.g., insurance statutory accounting).
-- **Contractual basis:** Developed to comply with agreements, such as lender requirements.
+- **Cash basis:** Recognizes transactions when cash is received or paid; omits receivables, payables, and accruals.
+- **Modified cash basis:** Starts with cash basis but incorporates selected accruals such as capitalizing long-term assets and acc
+  ruing payroll taxes.
+- **Tax basis:** Mirrors income tax reporting rules; aligns with taxable income and Schedule M adjustments.
+- **Regulatory basis:** Required by regulators (e.g., insurance statutory statements, bank call reports).
+- **Contractual basis:** Tailored to lender agreements or internal covenants.
 
 ## Presentation Considerations
 
-- Financial statements must describe the framework used and include clear titles (e.g., "Statement of Assets and Liabilities—Tax Basis").
-- Provide summary of significant accounting policies explaining departures from GAAP.
-- Disclose that the framework may not be suitable for other purposes.
+- Title statements clearly (e.g., “Statement of Assets and Liabilities—Income Tax Basis”).
+- Include a summary of significant accounting policies describing departures from GAAP.
+- Disclose that the financial statements may not be suitable for other purposes.
 
-## Converting from SPF to GAAP
+## Illustrative Adjustments
 
-- Adjust to recognize accruals, deferred taxes, and fair value measurements absent under the SPF.
-- Reclassify statements to GAAP terminology (e.g., balance sheet, income statement).
+| Scenario               | Cash Basis Entry                      | Tax Basis/Modified Cash Adjustment                                                                                 |
+| ---------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Accrued payroll taxes  | None recorded until paid              | `Dr. Payroll tax expense 9,000 / Cr. Payroll taxes payable 9,000`                                                  |
+| Capitalizing equipment | Entire payment expensed               | `Dr. Equipment 45,000 / Cr. Cash 45,000` and `Dr. Depreciation expense 4,500 / Cr. Accumulated depreciation 4,500` |
+| Deferred revenue       | Revenue recognized when cash received | `Dr. Cash 30,000 / Cr. Deferred revenue 30,000` (recognized when earned)                                           |
+
+## Converting SPF to GAAP
+
+- Recognize receivables, payables, and accruals omitted under cash or tax basis.
+- Record deferred taxes for timing differences between tax and GAAP income.
+- Reclassify statements using GAAP terminology (balance sheet, income statement, statement of cash flows).
 
 ## Auditor Considerations
 
-- Auditors issue opinions on SPF financial statements referencing the framework and include emphasis-of-matter paragraphs.
-- Evaluate whether the SPF is acceptable given intended users and needs.
+- Audit reports reference the SPF and include an emphasis-of-matter paragraph describing the framework.
+- Auditors assess whether the framework is appropriate for intended users and whether disclosures are adequate.
 
 ## Exam Tips
 
-- Identify which framework is used based on transaction descriptions.
-- Understand how to reconcile tax basis income to GAAP (Schedule M-1 concepts).
-- Recognize disclosure requirements emphasizing the framework’s limitations.
+- Identify the framework from narrative descriptions in simulations and adjust journal entries accordingly.
+- Be prepared to reconcile tax basis income to GAAP income by tracking permanent versus temporary differences.
+- Remember that GAAP-to-SPF conversion often focuses on removing accruals, while SPF-to-GAAP conversion adds them back.
 
-Awareness of special purpose frameworks prepares you to address exam questions involving non-GAAP financial statements and reporting alternatives for private entities.
+Understanding special purpose frameworks prepares you to address exam questions involving non-GAAP financial statements and priva
+te-company reporting alternatives.

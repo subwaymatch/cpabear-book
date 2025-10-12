@@ -1,41 +1,81 @@
 # Long-Term Debt
 
-Long-term debt provides financing beyond one year. FAR candidates must understand bond issuance, amortization, refinancing, covenant compliance, and disclosure requirements under ASC 470.
+Long-term debt provides financing beyond one year. FAR candidates must understand bond issuance, amortization, refinancing, coven
+ant compliance, and disclosure requirements under ASC 470.
 
 ## Types of Long-Term Debt
 
-- **Bonds payable:** Issued at par, discount, or premium. Amortize using effective interest method (required under GAAP; straight-line allowed if not materially different).
-- **Notes payable:** May have fixed or variable rates; measure at present value of future payments.
-- **Mortgage debt:** Secured by property with blended payments of principal and interest.
-- **Convertible debt:** Contains equity features; may require separation of conversion option under ASC 470-20 and ASC 815.
+- **Bonds payable:** Issued at par, discount, or premium. Use the effective interest method (required unless results approximate
+  straight-line).
+- **Notes payable:** Record at present value of future payments using the market rate at issuance.
+- **Mortgage debt:** Secured by property with blended principal and interest payments.
+- **Convertible debt:** May contain embedded conversion features evaluated under ASC 470-20 and ASC 815.
 
-## Issuance and Costs
+## Issuance and Debt Issuance Costs
 
-- Record cash proceeds net of discounts or premiums.
-- **Debt issuance costs** are capitalized and amortized over the term as a direct reduction of the carrying amount of the debt (for bonds) or as an asset for line-of-credit arrangements.
+- Record proceeds net of discounts/premiums and deduct debt issuance costs from the carrying amount.
 
-## Amortization Example
+```text
+Issued $1,000,000 bonds at 98 with $25,000 issuance costs:
+Dr. Cash                     955,000
+Dr. Discount on bonds payable 45,000
+    Cr. Bonds payable                1,000,000
+```
 
-1. Determine the effective interest rate using issuance price and cash flows.
-2. Compute periodic interest expense = carrying amount × effective interest rate.
-3. Difference between interest expense and cash interest paid adjusts the carrying amount.
+## Effective Interest Amortization Example
 
-## Early Extinguishment and Modifications
+10-year bonds, 6% stated rate, issued at 95. Present value implies effective rate 7%.
 
-- Recognize gains/losses equal to the difference between reacquisition price and net carrying amount.
-- For troubled debt restructurings (TDRs), evaluate concessions granted by the creditor; follow ASC 470-60.
-- When debt terms are modified and the change is substantial (10% test), treat as extinguishment; otherwise, adjust effective interest rate prospectively.
+| Period | Carrying Amount | Interest Expense (7%) | Cash Paid (6%) | Amortization |
+| ------ | --------------- | --------------------- | -------------- | ------------ |
+| Year 1 | 950,000         | 66,500                | 60,000         | 6,500        |
+| Year 2 | 956,500         | 66,955                | 60,000         | 6,955        |
 
-## Classification Issues
+Year 1 entry:
 
-- Short-term obligations expected to be refinanced on a long-term basis can be classified as noncurrent if intent and ability are demonstrated before financial statements are issued.
-- Violations of debt covenants may require reclassification unless waivers are obtained.
+```text
+Dr. Interest expense   66,500
+    Cr. Discount on bonds payable   6,500
+    Cr. Cash                         60,000
+```
+
+## Early Extinguishment
+
+When debt is retired before maturity, compare the reacquisition price with the net carrying amount.
+
+```text
+Reacquired bonds for 102 when carrying amount is 970,000:
+Dr. Bonds payable                 1,000,000
+Dr. Loss on extinguishment          30,000
+    Cr. Discount on bonds payable       30,000
+    Cr. Cash                          1,000,000
+```
+
+## Debt Modifications and TDRs
+
+- Apply the 10% cash flow test to determine if a modification is substantial (treat as extinguishment if ≥10%).
+- Troubled debt restructurings (ASC 470-60) recognize gains when total future cash flows after restructuring are less than the c
+  arrying amount.
+
+```text
+TDR example (interest rate reduced):
+Dr. Notes payable          20,000
+    Cr. Gain on restructuring      20,000
+```
+
+## Classification and Covenants
+
+- Short-term obligations refinanced on a long-term basis before statements are issued may remain noncurrent if intent and abilit
+  y (e.g., refinancing agreement) are demonstrated.
+- Covenant violations require reclassification unless waived by the lender before the balance sheet date or grace period granted
+  .
 
 ## Disclosure Checklist
 
-1. Maturity schedule for the next five years.
+1. Maturity schedule for each of the next five years.
 2. Interest rates, collateral, and restrictive covenants.
-3. Aggregate amounts of unused lines of credit.
-4. Details of convertible features, call provisions, and sinking fund requirements.
+3. Amounts available under lines of credit and unused commitments.
+4. Convertible features, call provisions, and sinking fund requirements.
 
-Mastering long-term debt accounting helps you compute interest amortization schedules and analyze financing structures encountered on the FAR exam.
+Mastering long-term debt accounting equips you to construct amortization schedules and analyze financing structures on the FAR e
+xam.
