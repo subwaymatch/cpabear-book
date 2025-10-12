@@ -1,15 +1,15 @@
 # Cash and Receivables
 
 Cash and receivables are highly liquid assets subject to stringent control, measurement, and presentation requirements under ASC
- 305, ASC 326, and ASC 310. FAR questions often combine bank reconciliation tasks with allowance calculations.
+305, ASC 326, and ASC 310. FAR questions often combine bank reconciliation tasks with allowance calculations.
 
 ## Cash and Cash Equivalents
 
 - Cash equivalents are short-term, highly liquid investments with original maturities of three months or less (Treasury bills, m
-oney market funds).
+  oney market funds).
 - Restricted cash is reported separately and classified as current or noncurrent based on the restriction period.
 - Bank reconciliations adjust book to bank balances by considering deposits in transit, outstanding checks, bank charges, and er
-rors.
+  rors.
 
 **Example Bank Reconciliation Entry**
 
@@ -26,7 +26,7 @@ Dr. Accounts receivable         2,000
 - Recognize receivables when the entity has an unconditional right to consideration.
 - Present receivables net of an allowance for credit losses calculated using the current expected credit loss (CECL) model.
 - Estimation techniques include historical loss rates adjusted for reasonable forecasts, aging schedules, and probability-weighte
-d scenarios.
+  d scenarios.
 
 **Allowance Adjustment Example**
 

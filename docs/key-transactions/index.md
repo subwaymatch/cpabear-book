@@ -8,11 +8,11 @@ lude revenue recognition, leases, fair value measurements, contingencies, subseq
 
 - **Understand the underlying model.** Review five-step revenue recognition, lease classification tests, and valuation hierarchy.
 - **Practice journal entries.** Task-based simulations often require recording entries or adjusting trial balances for these topic
-s.
+  s.
 - **Connect to financial statements.** Map each transaction’s impact on balance sheet accounts, net income, OCI, and cash flows.
 - **Review disclosures.** Many standards require detailed qualitative and quantitative disclosures that may appear as exhibits on
- the exam.
+  the exam.
 - **Reconcile tax and book effects.** Pay special attention to deferred tax implications, lease liability amortization, and fair v
-alue changes.
+  alue changes.
 
 Use the detailed chapters to build mastery and apply principles to integrated problems under exam conditions.

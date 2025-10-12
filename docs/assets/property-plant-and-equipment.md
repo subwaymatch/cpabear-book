@@ -6,9 +6,9 @@ tion, depreciation, impairment, and disposal under ASC 360 and related guidance.
 ## Acquisition and Capitalization
 
 - Capitalize costs necessary to place the asset in service: purchase price, taxes, freight-in, installation, testing, and profes
-sional fees.
+  sional fees.
 - Self-constructed assets include direct materials, direct labor, and applicable overhead; capitalize interest during constructio
-n (ASC 835-20) for the portion of expenditures financed with borrowings.
+  n (ASC 835-20) for the portion of expenditures financed with borrowings.
 - Recognize asset retirement obligations (AROs) at present value when a legal obligation exists to retire an asset (ASC 410-20).
 
 **Acquisition Entry Example**
@@ -54,7 +54,7 @@ Dr. Equipment                  80,000
 ## Impairment Testing
 
 - **Held and used assets:** Test for recoverability when events indicate impairment. If undiscounted future cash flows < carrying
- amount, recognize impairment equal to carrying amount minus fair value.
+  amount, recognize impairment equal to carrying amount minus fair value.
 - **Held for sale assets:** Measure at lower of carrying amount or fair value less costs to sell and cease depreciation.
 
 **Impairment Entry Example**

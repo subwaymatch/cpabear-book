@@ -6,22 +6,22 @@ must know classification rules, measurement bases, and how transactions flow int
 ## Classification Principles
 
 - **Current versus noncurrent:** Current assets will be realized or consumed within one year or the operating cycle, whichever i
-s longer. Current liabilities are obligations due within the same timeframe. Present current and noncurrent subtotals.
+  s longer. Current liabilities are obligations due within the same timeframe. Present current and noncurrent subtotals.
 - **Order of presentation:** Most entities list current assets in order of liquidity (cash, receivables, inventory). Financial i
-stitutions may present assets in order of liquidity.
+  stitutions may present assets in order of liquidity.
 - **Offsetting:** Offset assets and liabilities only when permitted (e.g., derivative master netting agreements, right of setoff
- for certain receivables/payables).
+  for certain receivables/payables).
 - **Retained earnings and AOCI:** Present as separate equity components, reconcilable to the statement of changes in equity.
 
 ## Key Line Items and Typical Adjustments
 
-| Line Item | Measurement | Example Adjusting Entry |
-| --- | --- | --- |
-| Accounts receivable (net) | Gross receivables less allowance for credit losses | `Dr. Bad debt expense 4,000 / Cr. Allowance for credit losses 4,000` |
-| Inventory | Lower of cost or net realizable value (FIFO, weighted average) | `Dr. Loss on inventory write-down 6,500 / Cr. Inventory 6,500` |
-| Property, plant, and equipment | Historical cost less accumulated depreciation | `Dr. Depreciation expense 30,000 / Cr. Accumulated depreciation 30,000` |
-| Current portion of long-term debt | Reclassify principal due within 12 months | `Dr. Long-term debt 50,000 / Cr. Current portion of LTD 50,000` |
-| Accrued expenses | Estimate of obligations incurred but unpaid | `Dr. Wage expense 18,000 / Cr. Wages payable 18,000` |
+| Line Item                         | Measurement                                                    | Example Adjusting Entry                                                 |
+| --------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Accounts receivable (net)         | Gross receivables less allowance for credit losses             | `Dr. Bad debt expense 4,000 / Cr. Allowance for credit losses 4,000`    |
+| Inventory                         | Lower of cost or net realizable value (FIFO, weighted average) | `Dr. Loss on inventory write-down 6,500 / Cr. Inventory 6,500`          |
+| Property, plant, and equipment    | Historical cost less accumulated depreciation                  | `Dr. Depreciation expense 30,000 / Cr. Accumulated depreciation 30,000` |
+| Current portion of long-term debt | Reclassify principal due within 12 months                      | `Dr. Long-term debt 50,000 / Cr. Current portion of LTD 50,000`         |
+| Accrued expenses                  | Estimate of obligations incurred but unpaid                    | `Dr. Wage expense 18,000 / Cr. Wages payable 18,000`                    |
 
 ## Example: Year-End Adjustments
 

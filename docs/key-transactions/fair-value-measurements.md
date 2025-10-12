@@ -8,7 +8,7 @@ archy, and disclosure requirements.
 
 - **Level 1:** Quoted prices in active markets for identical assets or liabilities (e.g., publicly traded equity securities).
 - **Level 2:** Observable inputs other than Level 1 prices, such as quoted prices for similar assets, interest rates, and yield cur
-ves.
+  ves.
 - **Level 3:** Unobservable inputs reflecting the entity’s own assumptions about market participant expectations.
 
 Classification is based on the lowest-level significant input used in the valuation.
@@ -38,7 +38,7 @@ Dr. Investment in equity securities   5,951
 
 - Applies to nonfinancial assets; consider physically possible, legally permissible, and financially feasible uses.
 - Liabilities and an entity’s own equity instruments assume transfer to a market participant who assumes the obligation at the mea
-surement date.
+  surement date.
 
 ## Nonrecurring vs. Recurring Measurements
 
@@ -47,14 +47,14 @@ surement date.
 
 ## Level 3 Rollforward Example
 
-| Activity | Amount |
-| --- | --- |
-| Beginning balance | 82,000 |
-| Total gains included in earnings | 5,951 |
-| Purchases | 10,000 |
-| Sales | (12,000) |
-| Transfers | — |
-| Ending balance | 85,951 |
+| Activity                         | Amount   |
+| -------------------------------- | -------- |
+| Beginning balance                | 82,000   |
+| Total gains included in earnings | 5,951    |
+| Purchases                        | 10,000   |
+| Sales                            | (12,000) |
+| Transfers                        | —        |
+| Ending balance                   | 85,951   |
 
 Provide qualitative discussion of valuation techniques (e.g., discounted cash flow) and significant unobservable inputs (growth rat
 es, discount rates).

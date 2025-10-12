@@ -7,9 +7,9 @@ cial statement presentation, net asset classifications, and contribution account
 
 - **Net asset classifications:** Without donor restrictions and with donor restrictions.
 - **Contribution accounting:** Recognize revenue when an unconditional pledge is received; distinguish contributions from exchange
-transactions.
+  transactions.
 - **Functional expense reporting:** Present expenses by both nature (salaries, rent) and function (program, management and general,
-fundraising).
+  fundraising).
 
 Subsequent chapters provide journal entries, disclosure checklists, and practice examples for interpreting NFP financial statements
 and contribution transactions on the FAR exam.

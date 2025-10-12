@@ -16,7 +16,7 @@ A lease is a **finance lease** if any of the following criteria are met; otherwi
 ## Initial Measurement
 
 - **Lease liability:** Present value of lease payments (fixed payments, certain variable payments, residual value guarantees, exerci
-se price of purchase options, penalties) discounted using the implicit rate or incremental borrowing rate.
+  se price of purchase options, penalties) discounted using the implicit rate or incremental borrowing rate.
 - **ROU asset:** Lease liability + initial direct costs + prepaid lease payments − lease incentives received.
 
 ### Example: Finance Lease Inception
@@ -36,7 +36,7 @@ Dr. ROU asset                210,618
 
 - **Finance leases:** Recognize interest expense on the lease liability and amortization of the ROU asset, typically straight-line.
 - **Operating leases:** Recognize a single lease cost; liability amortizes using effective interest, and ROU asset is adjusted so tota
-l expense is straight-line.
+  l expense is straight-line.
 
 ### Year 1 Finance Lease Entries
 
@@ -56,8 +56,7 @@ Dr. Amortization expense – ROU asset   42,124
 
 ### Operating Lease Entry Example
 
-Lease liability $180,000; discount rate 5%; annual payment $40,000. Straight-line lease expense = total undiscounted payments ($200,0
-00) ÷ 5 = $40,000.
+Lease liability $180,000; discount rate 5%; annual payment $40,000. Straight-line lease expense = total undiscounted payments ($200,0 00) ÷ 5 = $40,000.
 
 ```text
 Interest (year 1) = $180,000 × 5% = 9,000
@@ -73,20 +72,20 @@ Dr. Lease liability             31,000
 ## Remeasurement and Modifications
 
 - Reassess lease term when significant events occur that are within the lessee’s control (e.g., exercise of extension option becomes
- reasonably certain).
+  reasonably certain).
 - Modifications not accounted for as separate leases require remeasurement of the lease liability using an updated discount rate, w
-ith the offset to the ROU asset.
+  ith the offset to the ROU asset.
 
 ## Short-Term Lease Election
 
 - Leases with terms of 12 months or less and no purchase option may be excluded from balance sheet recognition; expense payments on
- a straight-line basis.
+  a straight-line basis.
 
 ## Presentation and Disclosure
 
 - Present finance lease liabilities split between current and noncurrent portions.
 - Report interest paid on finance leases as operating cash flow and principal as financing cash flow; operating lease payments are
- entirely operating cash flows.
+  entirely operating cash flows.
 - Disclose qualitative information, maturity analyses, weighted-average lease term, and discount rates.
 
 Lessee accounting questions combine time value of money with presentation and disclosure rules—practice full amortization schedules

@@ -5,17 +5,17 @@ cognition guidance to presentation requirements and know how results flow to EPS
 
 ## Multi-Step Structure
 
-| Subtotal | Typical Formula | Notes |
-| --- | --- | --- |
-| Net sales | Gross sales − sales returns and allowances | Present separately if material. |
-| Gross profit | Net sales − cost of goods sold | Inventory accounting method drives COGS. |
-| Operating income | Gross profit − operating expenses | Segregate selling, general, and administrative costs. |
-| Income from continuing operations | Operating income ± other gains/losses − income tax expense | Includes interest, equity method income, and restructuring charges. |
-| Net income | Income from continuing operations ± discontinued operations (net of tax) | Noncontrolling interest shown for consolidated entities. |
+| Subtotal                          | Typical Formula                                                          | Notes                                                               |
+| --------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| Net sales                         | Gross sales − sales returns and allowances                               | Present separately if material.                                     |
+| Gross profit                      | Net sales − cost of goods sold                                           | Inventory accounting method drives COGS.                            |
+| Operating income                  | Gross profit − operating expenses                                        | Segregate selling, general, and administrative costs.               |
+| Income from continuing operations | Operating income ± other gains/losses − income tax expense               | Includes interest, equity method income, and restructuring charges. |
+| Net income                        | Income from continuing operations ± discontinued operations (net of tax) | Noncontrolling interest shown for consolidated entities.            |
 
 Public companies must follow Regulation S-X, but the same format is preferred for private-company clarity. Always present discon
 tinued operations net of tax below income from continuing operations once a component is held for sale and meets the guidance in
- ASC 205-20.
+ASC 205-20.
 
 ## Recognition Principles
 
@@ -24,7 +24,7 @@ tinued operations net of tax below income from continuing operations once a comp
 - Report gains and losses from derecognition of assets at the date control transfers.
 - Present unusual or infrequent items within income from continuing operations with descriptive captions.
 - Report changes in accounting principles retrospectively with a cumulative effect to beginning retained earnings, not as a curre
-nt-period income statement item.
+  nt-period income statement item.
 
 ## Example: Recording Revenue and Expenses
 

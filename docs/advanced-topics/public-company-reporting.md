@@ -5,21 +5,21 @@ rstand the structure of SEC filings, key regulations, and unique reporting consi
 
 ## Key SEC Filings and Deadlines
 
-| Filing | Purpose | Deadline (Large Accelerated / Accelerated / Nonaccelerated) |
-| --- | --- | --- |
-| Form 10-K | Annual report with audited financial statements, MD&A, and ICFR disclosures | 60 / 75 / 90 days after year-end |
-| Form 10-Q | Quarterly update with reviewed statements and MD&A | 40 / 40 / 45 days after quarter-end |
-| Form 8-K | Current report for significant events (acquisitions, auditor changes, bankruptcies) | Within 4 business days |
-| Form S-1/S-3 | Registration statements for securities offerings | Prior to offering effectiveness |
-| Proxy Statement (DEF 14A) | Shareholder meeting information, executive compensation | Filed before annual meeting |
+| Filing                    | Purpose                                                                             | Deadline (Large Accelerated / Accelerated / Nonaccelerated) |
+| ------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Form 10-K                 | Annual report with audited financial statements, MD&A, and ICFR disclosures         | 60 / 75 / 90 days after year-end                            |
+| Form 10-Q                 | Quarterly update with reviewed statements and MD&A                                  | 40 / 40 / 45 days after quarter-end                         |
+| Form 8-K                  | Current report for significant events (acquisitions, auditor changes, bankruptcies) | Within 4 business days                                      |
+| Form S-1/S-3              | Registration statements for securities offerings                                    | Prior to offering effectiveness                             |
+| Proxy Statement (DEF 14A) | Shareholder meeting information, executive compensation                             | Filed before annual meeting                                 |
 
 ## Regulation S-X and S-K Highlights
 
 - **Regulation S-X:** Governs the form and content of financial statements, schedules, and pro forma information (Articles 3, 10,
-and 11).
+  and 11).
 - **Regulation S-K:** Addresses nonfinancial disclosures such as MD&A, market risk, and corporate governance.
 - **Article 11 pro forma statements:** Required for significant business combinations; adjust historical financials for transacti
-on effects.
+  on effects.
 
 ## MD&A Focus Areas
 
@@ -32,7 +32,7 @@ on effects.
 
 - Tag primary financial statements, footnotes, and schedules using the U.S. GAAP Financial Reporting Taxonomy.
 - Validate tagging accuracy to avoid SEC comment letters. Include calculation relationships and dimensional tagging where applica
-ble.
+  ble.
 
 ## Internal Control Reporting
 

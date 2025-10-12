@@ -79,7 +79,7 @@ Dr. Payroll tax expense        11,475
 ## Exam Tips
 
 - Short-term obligations refinanced on a long-term basis before the financial statements are issued may be reclassified as noncu
-rrent when ASC 470 criteria are met.
+  rrent when ASC 470 criteria are met.
 - Distinguish between compensated absences that vest (accrue) versus nonvesting benefits (disclose if probable).
 - Track contingent liabilities through rollforwards to support footnote disclosures.
 

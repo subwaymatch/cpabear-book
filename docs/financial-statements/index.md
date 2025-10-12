@@ -10,9 +10,9 @@ pecific topics covered later in the book.
 - **Income Statement:** Revenue and expense recognition, nonrecurring items, and earnings per share.
 - **Statement of Comprehensive Income:** Reporting of other comprehensive income components and presentation alternatives.
 - **Statement of Changes in Equity:** Reconciliation of beginning and ending equity balances, including capital transactions and
- OCI reclassifications.
+  OCI reclassifications.
 - **Statement of Cash Flows:** Operating, investing, and financing cash flow classification, direct versus indirect method, and
-noncash disclosures.
+  noncash disclosures.
 - **Notes to the Financial Statements:** Significant accounting policies, estimates, and required supplementary information.
 
 ## Learning Objectives

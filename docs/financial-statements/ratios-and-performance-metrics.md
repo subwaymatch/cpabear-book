@@ -5,11 +5,11 @@ ten provide trial balances or financial statements and require quick computation
 
 ## Liquidity Ratios
 
-| Ratio | Formula | Interpretation | Example |
-| --- | --- | --- | --- |
-| Current ratio | Current assets ÷ current liabilities | Ability to meet short-term obligations | If current assets = $420,000 and current liabilities = $300,000, current ratio = 1.4. |
-| Quick ratio | (Cash + marketable securities + net receivables) ÷ current liabilities | Stringent liquidity excluding inventory | Cash $80,000 + securities $40,000 + receivables $110,000 = $230,000; ÷ $300,000 = 0.77. |
-| Cash conversion cycle | DSO + DIO − DPO | Time between paying suppliers and collecting cash | DSO 40 + DIO 55 − DPO 32 = 63 days. |
+| Ratio                 | Formula                                                                | Interpretation                                    | Example                                                                                 |
+| --------------------- | ---------------------------------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Current ratio         | Current assets ÷ current liabilities                                   | Ability to meet short-term obligations            | If current assets = $420,000 and current liabilities = $300,000, current ratio = 1.4.   |
+| Quick ratio           | (Cash + marketable securities + net receivables) ÷ current liabilities | Stringent liquidity excluding inventory           | Cash $80,000 + securities $40,000 + receivables $110,000 = $230,000; ÷ $300,000 = 0.77. |
+| Cash conversion cycle | DSO + DIO − DPO                                                        | Time between paying suppliers and collecting cash | DSO 40 + DIO 55 − DPO 32 = 63 days.                                                     |
 
 ## Solvency Ratios
 
@@ -19,12 +19,12 @@ ten provide trial balances or financial statements and require quick computation
 
 ## Profitability Ratios
 
-| Ratio | Formula | Example |
-| --- | --- | --- |
-| Gross margin | Gross profit ÷ net sales | Gross profit $360,000 ÷ sales $1,000,000 = 36%. |
-| Operating margin | Operating income ÷ net sales | Operating income $210,000 ÷ $1,000,000 = 21%. |
-| Return on assets | Net income ÷ average total assets | Net income $140,000 ÷ average assets $1,200,000 = 11.7%. |
-| Return on equity | (Net income − preferred dividends) ÷ average common equity | ($140,000 − $10,000) ÷ $750,000 = 17.3%. |
+| Ratio            | Formula                                                    | Example                                                  |
+| ---------------- | ---------------------------------------------------------- | -------------------------------------------------------- |
+| Gross margin     | Gross profit ÷ net sales                                   | Gross profit $360,000 ÷ sales $1,000,000 = 36%.          |
+| Operating margin | Operating income ÷ net sales                               | Operating income $210,000 ÷ $1,000,000 = 21%.            |
+| Return on assets | Net income ÷ average total assets                          | Net income $140,000 ÷ average assets $1,200,000 = 11.7%. |
+| Return on equity | (Net income − preferred dividends) ÷ average common equity | ($140,000 − $10,000) ÷ $750,000 = 17.3%.                 |
 
 ## Efficiency Ratios
 

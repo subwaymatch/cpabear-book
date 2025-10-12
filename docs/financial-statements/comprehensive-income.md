@@ -24,12 +24,12 @@ Assume a company reports the following during 20X3 (pre-tax amounts):
 
 Calculate net-of-tax OCI:
 
-| OCI Component | Pre-Tax | Tax (25%) | Net-of-Tax |
-| --- | --- | --- | --- |
-| AFS loss | (40,000) | 10,000 | (30,000) |
-| Cash flow hedge gain | 25,000 | (6,250) | 18,750 |
-| Pension loss | (15,000) | 3,750 | (11,250) |
-| Total OCI | (30,000) | 7,500 | (22,500) |
+| OCI Component        | Pre-Tax  | Tax (25%) | Net-of-Tax |
+| -------------------- | -------- | --------- | ---------- |
+| AFS loss             | (40,000) | 10,000    | (30,000)   |
+| Cash flow hedge gain | 25,000   | (6,250)   | 18,750     |
+| Pension loss         | (15,000) | 3,750     | (11,250)   |
+| Total OCI            | (30,000) | 7,500     | (22,500)   |
 
 Total comprehensive income equals $240,000 + $(22,500)$ = $217,500.
 
