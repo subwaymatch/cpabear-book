@@ -1,37 +1,66 @@
 # Income Statement
 
-The income statement (statement of earnings) measures performance over a reporting period. FAR candidates should know presentation formats, revenue and expense classification, and special reporting items.
+The income statement (statement of earnings) reports the profitability of an entity for a period. FAR candidates must connect re
+cognition guidance to presentation requirements and know how results flow to EPS and retained earnings.
 
-## Presentation Formats
+## Multi-Step Structure
 
-- **Single-step:** Groups all revenues and gains together, subtracts total expenses and losses to derive net income. Simple but less detail on operating vs. nonoperating results.
-- **Multi-step:** Presents gross profit, operating income, and other key subtotals. Required for public companies under Regulation S-X.
-- **Condensed statements:** Interim financial statements may present condensed formats with reference to notes for detail.
+| Subtotal                          | Typical Formula                                                          | Notes                                                               |
+| --------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| Net sales                         | Gross sales − sales returns and allowances                               | Present separately if material.                                     |
+| Gross profit                      | Net sales − cost of goods sold                                           | Inventory accounting method drives COGS.                            |
+| Operating income                  | Gross profit − operating expenses                                        | Segregate selling, general, and administrative costs.               |
+| Income from continuing operations | Operating income ± other gains/losses − income tax expense               | Includes interest, equity method income, and restructuring charges. |
+| Net income                        | Income from continuing operations ± discontinued operations (net of tax) | Noncontrolling interest shown for consolidated entities.            |
 
-## Revenue and Expense Recognition
+Public companies must follow Regulation S-X, but the same format is preferred for private-company clarity. Always present discon
+tinued operations net of tax below income from continuing operations once a component is held for sale and meets the guidance in
+ASC 205-20.
 
-- Recognize revenue when control transfers under ASC 606's five-step model.
-- Match expenses to related revenues (matching principle) or as incurred if no direct link exists.
-- Classify discontinued operations separately net of tax after considering held-for-sale criteria under ASC 205-20.
+## Recognition Principles
 
-## Special Items
+- Recognize revenue when performance obligations are satisfied under ASC 606.
+- Recognize expenses using matching concepts: direct association, systematic allocation (e.g., depreciation), or as incurred.
+- Report gains and losses from derecognition of assets at the date control transfers.
+- Present unusual or infrequent items within income from continuing operations with descriptive captions.
+- Report changes in accounting principles retrospectively with a cumulative effect to beginning retained earnings, not as a curre
+  nt-period income statement item.
 
-- **Unusual or infrequent items** are reported as part of income from continuing operations but should be disclosed separately.
-- **Extraordinary items** no longer exist under GAAP but may still appear in legacy questions—remember they were both unusual and infrequent, net of tax.
-- **Changes in accounting principle** are reflected retrospectively with cumulative adjustments to beginning retained earnings.
-- **Earnings per share (EPS)**: Basic and diluted EPS must be presented for income from continuing operations and net income on the face of the statement for public entities.
+## Example: Recording Revenue and Expenses
 
-## IFRS Differences
+A manufacturer sells equipment for $120,000 with $10,000 expected returns. COGS is $70,000. During the period it incurs $20,000
+in selling expenses and $15,000 in administrative expenses. The journal entries include:
 
-- Terminology includes "statement of profit or loss."
-- IFRS prohibits presenting extraordinary items.
-- Expenses can be classified by nature (e.g., depreciation) or by function (e.g., cost of sales); whichever method is chosen must be disclosed consistently.
+```text
+Dr. Accounts receivable      120,000
+    Cr. Sales revenue                     120,000
 
-## Disclosure Highlights
+Dr. Sales returns and allowances 10,000
+    Cr. Refund liability                  10,000
 
-1. Revenue disaggregation consistent with ASC 606 disclosures.
-2. Major customers and segments when reporting under ASC 280.
-3. Components of other income/expense, including gains and losses from foreign currency transactions.
-4. Subsequent events that materially affect earnings.
+Dr. Cost of goods sold         70,000
+    Cr. Inventory                          70,000
 
-Understanding income statement presentation is crucial for analyzing profitability and responding to simulation prompts requiring multi-step formatting.
+Dr. Selling expense            20,000
+Dr. Administrative expense     15,000
+    Cr. Cash                                  35,000
+```
+
+Gross profit equals $120,000 − $10,000 − $70,000 = $40,000. Operating income is $40,000 − $20,000 − $15,000 = $5,000.
+
+## Earnings Per Share Considerations
+
+- Present basic and diluted EPS on the face of the income statement for income from continuing operations and net income.
+- Weighted-average shares outstanding adjust for stock dividends and splits retroactively.
+- Diluted EPS considers convertible instruments, options, and warrants using the if-converted and treasury stock methods.
+
+## Disclosure Checklist
+
+1. Major revenue categories and significant judgments per ASC 606.
+2. Composition of other income and other expense lines.
+3. Details of restructuring, litigation, and impairment charges.
+4. Tax rate reconciliation and significant deferred tax components if not disclosed elsewhere.
+5. Schedule reconciling income taxes from continuing operations to total tax expense when discontinued operations exist.
+
+Thorough understanding of income statement mechanics supports answering simulations that require adjusting entries, constructing
+subtotals, and interpreting performance metrics.

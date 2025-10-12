@@ -1,35 +1,67 @@
 # Comprehensive Income
 
-Comprehensive income captures all changes in equity during a period except those resulting from investments by owners and distributions to owners. It includes net income and other comprehensive income (OCI), which must be presented in a single continuous statement or two separate consecutive statements.
+Comprehensive income includes all changes in equity during a period except those from owner investments and distributions. It co
+mbines net income and other comprehensive income (OCI) and must be presented either in one continuous statement or in two consec
+utive statements under ASC 220.
 
 ## Components of Other Comprehensive Income
 
-- **Unrealized gains and losses on debt securities** classified as available-for-sale under ASC 320.
-- **Foreign currency translation adjustments** under ASC 830.
-- **Gains and losses on derivatives** designated as cash flow hedges (effective portion) under ASC 815.
-- **Pension and postretirement benefit adjustments** under ASC 715, including prior service costs and actuarial gains/losses.
-- **Changes in credit risk** for liabilities measured at fair value using the fair value option.
+- Unrealized gains and losses on available-for-sale (AFS) debt securities (ASC 320).
+- Foreign currency translation adjustments for consolidated subsidiaries (ASC 830).
+- Effective portion of cash flow hedge gains and losses (ASC 815).
+- Pension and postretirement benefit adjustments (ASC 715).
+- Changes in instrument-specific credit risk for liabilities measured under the fair value option (ASC 825).
 
-## Presentation Choices
+## Example Presentation
 
-1. **Single continuous statement:** Includes net income, components of OCI, and total comprehensive income.
-2. **Two-statement approach:** Presents a traditional income statement followed immediately by a statement of comprehensive income starting with net income.
+Assume a company reports the following during 20X3 (pre-tax amounts):
 
-Key requirements:
+- Net income: $240,000.
+- Unrealized loss on AFS debt securities: $(40,000)$.
+- Cash flow hedge gain (effective): $25,000.
+- Pension actuarial loss: $(15,000)$.
+- Income tax rate: 25%.
 
-- Present each component of OCI net of tax or before tax with a tax line item.
-- Include reclassification adjustments to avoid double-counting items recognized in both OCI and net income.
-- Accumulate OCI in equity as "accumulated other comprehensive income" and reconcile changes in the statement of changes in equity.
+Calculate net-of-tax OCI:
 
-## IFRS Differences
+| OCI Component        | Pre-Tax  | Tax (25%) | Net-of-Tax |
+| -------------------- | -------- | --------- | ---------- |
+| AFS loss             | (40,000) | 10,000    | (30,000)   |
+| Cash flow hedge gain | 25,000   | (6,250)   | 18,750     |
+| Pension loss         | (15,000) | 3,750     | (11,250)   |
+| Total OCI            | (30,000) | 7,500     | (22,500)   |
 
-- IFRS divides OCI into items that may be reclassified to profit or loss and items that will not be reclassified.
-- Revaluation surplus gains under IAS 16 and IAS 38 appear in OCI but are not reclassified to profit or loss.
+Total comprehensive income equals $240,000 + $(22,500)$ = $217,500.
 
-## Exam Tips
+## Journal Entries for OCI Items
 
-- Memorize the mnemonic "PUFER" (Pension, Unrealized AFS debt securities, Foreign currency, Effective portion of cash flow hedges, Revaluation surplus) to recall OCI components.
-- Watch for questions requiring calculation of OCI net of tax. Apply the tax rate to pre-tax amounts to determine the net amount recognized.
-- Reclassification adjustments reverse amounts previously recognized in OCI when the related item impacts net income (e.g., sale of an AFS debt security).
+```text
+AFS debt security decline:
+Dr. OCI – unrealized loss on AFS securities   40,000
+    Cr. Allowance for credit losses on AFS debt    40,000
 
-Mastery of comprehensive income presentation ensures accuracy in both statement preparation and equity analysis tasks on the exam.
+Effective cash flow hedge gain:
+Dr. Derivative asset                      25,000
+    Cr. OCI – cash flow hedge reserve          25,000
+
+Pension actuarial loss recognized:
+Dr. OCI – pension loss                   15,000
+    Cr. Pension liability adjustment          15,000
+```
+
+When the AFS debt security is sold, reclassify the accumulated loss to earnings:
+
+```text
+Dr. Realized loss on AFS debt securities   30,000
+    Cr. OCI – unrealized loss reclassified      30,000
+```
+
+## Disclosure Checklist
+
+1. Total comprehensive income and separate presentation of net income and OCI.
+2. Reclassification adjustments for each component of OCI.
+3. Tax effects allocated to each OCI component or aggregate tax shown separately.
+4. Rollforward of accumulated other comprehensive income in the equity statement.
+
+Understanding comprehensive income ensures that you properly classify OCI entries, reconcile the statement of changes in equity,
+and answer FAR simulations involving OCI and EPS interactions.

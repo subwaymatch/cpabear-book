@@ -1,38 +1,101 @@
 # Equity
 
-Equity represents the residual interest in the assets of an entity after deducting liabilities. FAR candidates must account for equity issuances, treasury stock, dividends, retained earnings, and equity-based compensation under ASC 505 and ASC 718.
+Equity represents the residual interest in an entity’s assets after deducting liabilities. FAR candidates must account for issuanc
+es, treasury stock transactions, dividends, retained earnings adjustments, and equity-based compensation under ASC 505 and ASC 718
+.
 
 ## Equity Structure
 
-- **Common stock:** Par or stated value times shares issued; additional paid-in capital records amounts above par.
-- **Preferred stock:** May be cumulative, noncumulative, participating, or convertible. Dividends typically expressed as a percentage of par value.
-- **Retained earnings:** Accumulated undistributed profits; adjust for prior period errors and changes in accounting principle.
-- **Accumulated other comprehensive income (AOCI):** Aggregates OCI components (see comprehensive income chapter).
+- **Common stock:** Par or stated value multiplied by shares issued. Amounts received above par go to additional paid-in capital (A
+  PIC).
+- **Preferred stock:** May be cumulative, participating, or convertible. Cumulative preferred dividends accumulate in arrears until
+  paid.
+- **Retained earnings:** Accumulated undistributed profits; adjust for prior-period errors and changes in accounting principle.
+- **Accumulated other comprehensive income (AOCI):** Aggregates OCI components.
 
-## Equity Transactions
+## Issuances and Noncash Consideration
 
-- **Issuances:** Record cash or noncash consideration received. For noncash issuances, measure at fair value of consideration received or stock issued.
-- **Treasury stock:** Cost method (default) or par value method. Differences between cost and reissuance proceeds adjust additional paid-in capital or retained earnings.
-- **Stock splits and stock dividends:** Splits change shares outstanding without affecting total equity. Stock dividends reclassify retained earnings to paid-in capital.
-- **Share-based compensation:** Recognize compensation cost over vesting period based on grant-date fair value for equity awards; liability awards are remeasured each period.
+```text
+Issued 15,000 shares of $1 par common stock for $20 per share:
+Dr. Cash            300,000
+    Cr. Common stock          15,000
+    Cr. APIC                  285,000
+
+Issued shares for land valued at $90,000:
+Dr. Land             90,000
+    Cr. Common stock         10,000
+    Cr. APIC                 80,000
+```
+
+## Treasury Stock (Cost Method)
+
+- Record repurchases at cost; no gain/loss on reissuance.
+
+```text
+Repurchase 2,000 shares at $18:
+Dr. Treasury stock    36,000
+    Cr. Cash                 36,000
+
+Reissue at $22:
+Dr. Cash              44,000
+    Cr. Treasury stock       36,000
+    Cr. APIC – treasury       8,000
+```
+
+If reissued below cost and APIC – treasury is insufficient, charge retained earnings.
 
 ## Dividends
 
-- **Cash dividends:** Recorded when declared (debit retained earnings, credit dividends payable).
-- **Property dividends:** Distribute noncash assets; restate asset to fair value with gain/loss recognized before distribution.
-- **Liquidating dividends:** Return of capital; reduce additional paid-in capital before retained earnings.
-- **Preferred dividends:** Must be satisfied before common dividends; cumulative dividends accumulate in arrears.
+- **Cash dividends:** Recognize liability on declaration date.
 
-## Book Value Per Share
+```text
+Dr. Retained earnings   50,000
+    Cr. Dividends payable    50,000
+```
 
-- Common shareholders' equity ÷ common shares outstanding.
-- Deduct preferred stock liquidation preferences when computing for common stock.
+- **Property dividends:** Remeasure asset at fair value and record gain or loss before distribution.
 
-## Disclosure Requirements
+```text
+Dr. Investment in subsidiary   12,000
+    Cr. Gain on appreciation        12,000
 
-1. Terms of each class of stock, including rights and preferences.
-2. Shares authorized, issued, and outstanding.
-3. Dividend restrictions or appropriations.
-4. Details of equity compensation plans, including shares available for issuance.
+Dr. Retained earnings          72,000
+    Cr. Property dividends payable   72,000
+```
 
-Understanding equity transactions supports preparation of the statement of changes in equity and analysis of shareholder returns on the FAR exam.
+- **Stock dividends:** Small stock dividend (e.g., 10%) transfers fair value from retained earnings to common stock/APIC.
+
+```text
+Dr. Retained earnings   60,000
+    Cr. Common stock dividend distributable 15,000
+    Cr. APIC                               45,000
+```
+
+## Share-Based Compensation (ASC 718)
+
+- Measure grant-date fair value of equity awards and recognize expense over vesting period.
+
+```text
+Grant-date fair value $120,000, vesting over three years:
+Dr. Compensation expense   40,000
+    Cr. APIC – stock options     40,000
+```
+
+When options are exercised:
+
+```text
+Dr. Cash                    75,000
+Dr. APIC – stock options    40,000
+    Cr. Common stock                7,500
+    Cr. APIC                        107,500
+```
+
+## Disclosure Checklist
+
+1. Rights and preferences of each class of stock.
+2. Shares authorized, issued, and outstanding, including treasury shares.
+3. Dividend restrictions or appropriations of retained earnings.
+4. Share-based payment plan terms, awards outstanding, and compensation cost.
+
+Solid equity accounting skills support preparation of the statement of changes in equity and analysis of shareholder returns on t
+he FAR exam.

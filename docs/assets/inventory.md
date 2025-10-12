@@ -1,41 +1,76 @@
 # Inventory
 
-Inventory valuation impacts both the balance sheet and income statement. FAR candidates must master costing methods, lower of cost or net realizable value adjustments, and specialized inventory topics under ASC 330.
+Inventory valuation affects both the balance sheet and the income statement. FAR candidates must master costing methods, lower of
+cost or net realizable value adjustments, and specialized topics under ASC 330.
 
 ## Inventory Systems
 
 - **Perpetual:** Continuously updates inventory and cost of goods sold (COGS) with each transaction.
-- **Periodic:** Updates inventory at period end through physical counts and adjusts COGS using the formula beginning inventory + purchases − ending inventory.
+- **Periodic:** Updates inventory at period end through physical counts and adjusts COGS using beginning inventory + purchases − e
+  nding inventory.
 
 ## Costing Methods
 
-- **FIFO (First-In, First-Out):** Assumes earliest purchases are sold first. Ending inventory approximates current cost; COGS reflects older costs.
-- **LIFO (Last-In, First-Out):** Assumes latest purchases are sold first. Requires LIFO reserve disclosure; IFRS prohibits LIFO.
+- **FIFO (First-In, First-Out):** Ending inventory approximates current cost; COGS reflects older layers.
+- **LIFO (Last-In, First-Out):** Matches recent costs to revenue; maintain a LIFO reserve to reconcile to FIFO disclosures. LIFO
+  is still permitted under U.S. GAAP.
 - **Weighted-average:** Uses average cost per unit for valuation.
-- **Specific identification:** Used for unique, high-value items.
+- **Specific identification:** Appropriate for unique, high-value items.
+
+### Journal Entry Example (Perpetual FIFO)
+
+```text
+Purchase:
+Dr. Inventory          90,000
+    Cr. Accounts payable     90,000
+
+Sale of 500 units at $250 (cost $140):
+Dr. Accounts receivable  125,000
+    Cr. Sales revenue          125,000
+
+Dr. Cost of goods sold    70,000
+    Cr. Inventory                70,000
+```
 
 ## Lower of Cost or Net Realizable Value (LCNRV)
 
-- Applied to inventory measured using FIFO or weighted-average.
-- Net realizable value (NRV) equals estimated selling price minus costs of completion and disposal.
-- Record write-downs to expense; reversals are prohibited under GAAP (allowed under IFRS up to original cost).
+- Applies to inventory measured using FIFO or weighted-average.
+- Net realizable value equals estimated selling price minus costs of completion and disposal.
+- Record write-downs to expense; reversals are prohibited under GAAP.
 
-## Lower of Cost or Market (LCM) — LIFO and Retail Inventory
+**LCNRV Example**
 
-- Market equals current replacement cost, constrained by ceiling (NRV) and floor (NRV minus normal profit margin).
-- Retail inventory method estimates ending inventory using cost-to-retail ratios; maintain separate calculations for conventional, FIFO, and LIFO variants.
+Merchandise cost is $60,000; NRV is $56,500.
+
+```text
+Dr. Loss on inventory write-down   3,500
+    Cr. Inventory                        3,500
+```
+
+## Lower of Cost or Market (LCM) for LIFO and Retail
+
+- Market equals replacement cost, limited by a ceiling (NRV) and floor (NRV − normal profit).
+- Retail inventory method estimates ending inventory by applying a cost-to-retail ratio to ending inventory at retail.
 
 ## Additional Topics
 
-- **Inventory errors:** Affect both current and subsequent periods. Overstated ending inventory reduces COGS and overstates income.
-- **Purchase commitments:** Losses recognized when contract price exceeds market; record estimated losses and liability.
-- **Consigned goods:** Remain on consignor’s balance sheet until sold to third parties.
-- **Capitalization of freight-in and handling costs** to inventory; freight-out is a selling expense.
+- **Inventory errors:** Overstated ending inventory in Year 1 understates Year 2 beginning inventory and increases Year 2 COGS.
+- **Purchase commitments:** Recognize losses when contract price exceeds market.
 
-## Disclosure Requirements
+```text
+Dr. Loss on purchase commitment   12,000
+    Cr. Estimated liability on purchase commitment   12,000
+```
 
-- Costing methods used and consistency between periods.
-- Carrying amounts by inventory category (raw materials, work in process, finished goods).
-- Significant write-downs or recoveries of previous write-downs (IFRS).
+- **Consignment:** Goods remain in the consignor's inventory until sold to end customers.
+- **Manufacturing overhead:** Allocate fixed and variable overhead to production; excess idle capacity costs are expensed.
 
-A solid grasp of inventory accounting is essential for solving cost flow problems and analyzing gross margin trends on the FAR exam.
+## Disclosure Checklist
+
+1. Costing methods and any LIFO reserve adjustments.
+2. Carrying amounts by category (raw materials, work in process, finished goods, supplies).
+3. Significant write-downs and related causes.
+4. Details of inventory pledged as collateral or subject to repurchase agreements.
+
+Mastering inventory mechanics enables accurate COGS calculations and equips you for FAR simulations requiring valuation analyses
+and rollforwards.

@@ -1,46 +1,90 @@
 # Property, Plant, and Equipment
 
-Property, plant, and equipment (PP&E) are long-lived tangible assets used in operations. FAR candidates must account for acquisition, depreciation, impairment, and disposal under ASC 360.
+Property, plant, and equipment (PP&E) are long-lived tangible assets used in operations. FAR candidates must account for acquisi
+tion, depreciation, impairment, and disposal under ASC 360 and related guidance.
 
 ## Acquisition and Capitalization
 
-- Capitalize costs necessary to place the asset in service: purchase price, taxes, freight-in, installation, testing, and professional fees.
-- Self-constructed assets include direct materials, labor, and overhead; interest capitalization applies during construction (ASC 835-20).
-- Asset retirement obligations (AROs) are recognized at present value when a legal obligation exists to retire the asset.
+- Capitalize costs necessary to place the asset in service: purchase price, taxes, freight-in, installation, testing, and profes
+  sional fees.
+- Self-constructed assets include direct materials, direct labor, and applicable overhead; capitalize interest during constructio
+  n (ASC 835-20) for the portion of expenditures financed with borrowings.
+- Recognize asset retirement obligations (AROs) at present value when a legal obligation exists to retire an asset (ASC 410-20).
+
+**Acquisition Entry Example**
+
+```text
+Dr. Equipment                        525,000
+Dr. Construction in progress          12,000  (testing)
+Dr. Asset retirement cost             18,000
+    Cr. Cash                                   537,000
+    Cr. ARO liability                           18,000
+```
 
 ## Depreciation Methods
 
-- **Straight-line:** (Cost − salvage) ÷ useful life.
-- **Accelerated methods:** Double-declining balance, sum-of-the-years'-digits.
-- **Units-of-production:** (Cost − salvage) ÷ total expected units × units produced.
-- Component depreciation (IFRS requirement in some cases) depreciates significant parts separately.
+- **Straight-line:** `(Cost − salvage) ÷ useful life`.
+- **Double-declining balance:** `2 ÷ useful life × beginning book value`.
+- **Sum-of-the-years'-digits:** Applies an accelerating fraction to depreciable base.
+- **Units-of-production:** `(Cost − salvage) ÷ total units × actual units` for volume-driven assets.
+
+**Straight-Line Example**
+
+Equipment cost $500,000, salvage $20,000, life 10 years. Annual depreciation = $(500,000 − 20,000) ÷ 10 = 48,000$.
+
+```text
+Dr. Depreciation expense   48,000
+    Cr. Accumulated depreciation   48,000
+```
 
 ## Subsequent Expenditures
 
-- Capitalize expenditures that extend useful life, increase capacity, or improve efficiency.
-- Expense routine maintenance and repairs.
-- Record replacements by removing the carrying amount of the old component and capitalizing the new cost.
+- Capitalize improvements that extend useful life or increase productivity.
+- Expense ordinary repairs.
+- When replacing a component, remove its carrying amount and capitalize the new part.
 
-## Impairment of Long-Lived Assets
+```text
+Dr. Accumulated depreciation   35,000
+    Cr. Equipment                        35,000   (removal)
 
-- **Held and used:** Apply recoverability test comparing carrying amount to undiscounted cash flows. If not recoverable, impairment loss equals carrying amount minus fair value.
-- **Held for sale:** Measure at lower of carrying amount or fair value less costs to sell; cease depreciation.
+Dr. Equipment                  80,000
+    Cr. Cash                            80,000    (new component)
+```
+
+## Impairment Testing
+
+- **Held and used assets:** Test for recoverability when events indicate impairment. If undiscounted future cash flows < carrying
+  amount, recognize impairment equal to carrying amount minus fair value.
+- **Held for sale assets:** Measure at lower of carrying amount or fair value less costs to sell and cease depreciation.
+
+**Impairment Entry Example**
+
+Carrying amount $310,000; fair value $260,000; undiscounted cash flows $280,000.
+
+```text
+Dr. Impairment loss   50,000
+    Cr. Accumulated impairment loss   50,000
+```
 
 ## Disposals and Exchanges
 
-- Recognize gains or losses for difference between proceeds and carrying amount.
-- Exchanges lacking commercial substance recognize gain only if boot received exceeds 25% of consideration.
+- Record gains and losses as the difference between proceeds and carrying amount when assets are sold or abandoned.
+- Exchanges lacking commercial substance defer gains unless boot received is significant (≥25%).
 
-## IFRS Differences
+```text
+Sale example:
+Dr. Cash                        150,000
+Dr. Accumulated depreciation    70,000
+    Cr. Equipment                         200,000
+    Cr. Gain on sale of equipment          20,000
+```
 
-- IAS 16 allows revaluation model with periodic remeasurement to fair value and recognition of revaluation surplus in OCI.
-- Impairment testing uses recoverable amount (higher of fair value less costs of disposal and value in use).
+## Disclosure Checklist
 
-## Disclosure Requirements
-
-1. Reconciliation of beginning and ending balances by major class of PP&E, including additions, disposals, depreciation, and impairments.
+1. Reconciliation of beginning and ending balances by major class of PP&E, including additions, disposals, and depreciation.
 2. Depreciation methods, useful lives, and gross carrying amounts.
-3. Amount of interest capitalized during the period.
-4. ARO liabilities and changes in estimates.
+3. Amount of interest capitalized and the capitalization rate applied.
+4. Asset retirement obligations and changes in estimates.
 
-PP&E questions often integrate capitalization policies, depreciation calculations, and impairment triggers—be prepared to address all stages of an asset’s life cycle.
+PP&E problems frequently integrate capitalization rules, depreciation schedules, and impairment triggers—practice constructing r
+ollforward schedules and journal entries for each stage of an asset’s life cycle.

@@ -1,23 +1,27 @@
 # Financial Statements Overview
 
-This part of the FAR textbook explains the primary financial statements prepared under U.S. GAAP and IFRS, their required components, and the analytical tools that users rely on to interpret results. Mastering the presentation rules provides a framework for the transaction-specific topics covered later in the book.
+This section of the FAR textbook explains the primary financial statements prepared under U.S. GAAP, their required components,
+and the analytical tools users apply to interpret results. Mastering presentation rules provides the framework for transaction-s
+pecific topics covered later in the book.
 
 ## Core Statements Covered
 
-- **Statement of Financial Position (Balance Sheet):** Classification of assets and liabilities, measurement bases, and disclosure requirements.
-- **Statement of Earnings (Income Statement):** Revenue and expense recognition, nonrecurring items, and earnings per share.
+- **Balance Sheet:** Classification of assets and liabilities, measurement bases, and disclosure requirements.
+- **Income Statement:** Revenue and expense recognition, nonrecurring items, and earnings per share.
 - **Statement of Comprehensive Income:** Reporting of other comprehensive income components and presentation alternatives.
-- **Statement of Changes in Equity:** Reconciliation of beginning and ending equity balances, including capital transactions and OCI reclassifications.
-- **Statement of Cash Flows:** Operating, investing, and financing cash flow classification, direct versus indirect method, and noncash disclosures.
+- **Statement of Changes in Equity:** Reconciliation of beginning and ending equity balances, including capital transactions and
+  OCI reclassifications.
+- **Statement of Cash Flows:** Operating, investing, and financing cash flow classification, direct versus indirect method, and
+  noncash disclosures.
 - **Notes to the Financial Statements:** Significant accounting policies, estimates, and required supplementary information.
 
 ## Learning Objectives
 
 By the end of this section you should be able to:
 
-1. Identify the required line items and subtotals on each financial statement under Regulation S-X and ASC 205.
-2. Prepare statements under both classified and nonclassified formats, including comparative periods.
-3. Explain the differences between GAAP and IFRS presentation requirements.
-4. Analyze financial statements using liquidity, solvency, profitability, and efficiency ratios.
+1. Identify the required line items and subtotals on each financial statement under ASC 205 and Regulation S-X.
+2. Prepare statements in classified and comparative formats.
+3. Apply U.S. GAAP guidance to analyze financial results using liquidity, solvency, profitability, and efficiency ratios.
+4. Connect journal entries to financial statement presentation and disclosures.
 
 Subsequent chapters provide detailed guidance, illustrations, and checklists for each statement and related disclosures.

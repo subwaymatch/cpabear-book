@@ -1,33 +1,44 @@
 # Exam Overview and Structure
 
-The FAR section is a four-hour computer-based examination that blends multiple-choice questions (MCQs), task-based simulations (TBSs), and pretest items used for future exam development. Understanding the structure helps you allocate time and stamina during your exam appointment.
+The FAR section is a four-hour computer-based examination containing multiple-choice questions (MCQs), task-based simulations (TB
+Ss), and pretest items used for future exam development. Understanding the structure helps you allocate time and manage stamina.
 
 ## Testlets and Weighting
 
-| Component | Quantity | Weight | Notes |
-| --- | --- | --- | --- |
-| Multiple-Choice Questions | 50 scored (plus 12 pretest) | 50% | Two MCQ testlets with adaptive difficulty. |
-| Task-Based Simulations | 7 scored (plus 1 pretest) | 50% | Three TBS testlets emphasizing application and analysis skills. |
+| Component                 | Quantity                    | Weight | Notes                                                    |
+| ------------------------- | --------------------------- | ------ | -------------------------------------------------------- |
+| Multiple-Choice Questions | 50 scored (plus 12 pretest) | 50%    | Two MCQ testlets with adaptive difficulty.               |
+| Task-Based Simulations    | 7 scored (plus 1 pretest)   | 50%    | Three TBS testlets emphasizing application and analysis. |
 
-- **Adaptive MCQ delivery.** The second multiple-choice testlet adjusts difficulty based on your performance on the first. Difficulty does not change scoring potential—harder questions simply contain more distractors and require more precision.
-- **Authoritative literature access.** During TBS testlets you can search the FASB Codification, GASB Codification, and AICPA Professional Standards as applicable. Practice researching efficiently.
+- **Adaptive MCQ delivery:** The second MCQ testlet adjusts difficulty based on performance in the first. Harder testlets may con
+  tain more distractors but offer the same scoring potential.
+- **Authoritative literature access:** During TBS testlets you can search the FASB Codification, GASB Codification, and AICPA Pro
+  fessional Standards. Practice keyword strategies before exam day.
 
 ## Time Management Strategy
 
-1. **Plan on 120 minutes for MCQs.** Target about 1 minute per question on the first testlet and adjust for difficulty on the second.
-2. **Reserve 120 minutes for simulations.** Allocate roughly 15–18 minutes per scored TBS, leaving time to research and review.
-3. **Use the optional 15-minute break.** AICPA provides breaks after the third testlet without impacting the exam clock.
+1. **120 minutes for MCQs.** Target about one minute per item on the first testlet and adjust based on difficulty in the second.
+2. **120 minutes for simulations.** Allocate roughly 15–18 minutes per scored TBS, allowing extra time for research and review.
+3. **Use the optional 15-minute break** after the third testlet. The timer stops, so step away and reset mentally.
+
+### Example Simulation Plan
+
+- Research or written communication TBS: 10–12 minutes.
+- Journal entry or financial statement tie-out TBS: 18 minutes each.
+- Multi-tab case involving ratios or consolidation: 20 minutes. Prioritize high-point tabs first and leave review time at the end.
 
 ## Scoring Considerations
 
-- The exam is scaled on a 0–99 scale; 75 is passing. Each question contributes differently based on difficulty and skill level assessed.
-- Pretest items are indistinguishable from scored items, so give every question your best effort.
-- TBSs commonly evaluate journal entries, financial statement tie-outs, and adjustments. Partial credit is awarded when portions of a response are correct.
+- FAR is scaled 0–99 with 75 required to pass. Each question’s contribution depends on difficulty and skill level assessed.
+- Pretest items are indistinguishable from scored items—treat every item seriously.
+- TBSs award partial credit for correct table cells, journal entries, and calculations. Even partial responses can raise your score
+  .
 
 ## Key Exam Policies
 
-- **No backward navigation.** Once you exit a testlet, you cannot return to it.
-- **Calculator and spreadsheet tools** are provided within the exam interface—practice using the on-screen spreadsheet to reduce mechanical errors.
-- **Accommodations and scheduling** are managed through NASBA and Prometric; schedule early to secure your desired testing window.
+- **No backward navigation:** Once you exit a testlet, you cannot return to it.
+- **On-screen spreadsheet and calculator:** Practice with the exam tools to minimize mechanical errors on test day.
+- **Identification and breaks:** Bring required IDs and follow Prometric procedures. Return promptly from the optional break to a
+  void rushing the final testlets.
 
-Knowing the structure reduces anxiety on exam day and allows you to approach each testlet with a proven pacing strategy.
+Knowing the structure reduces anxiety and allows you to approach each testlet with a deliberate pacing strategy.

@@ -1,11 +1,14 @@
 # Advanced Topics Overview
 
-Advanced FAR topics delve into complex reporting areas frequently tested through simulations. This section covers consolidated financial statements, SEC reporting considerations for public companies, and special purpose frameworks used by nonissuers.
+Advanced FAR topics address complex reporting areas frequently tested through simulations. This section covers consolidated finan
+cial statements, SEC reporting considerations for public companies, and special-purpose frameworks used by nonissuers.
 
 ## Learning Objectives
 
-- Prepare consolidation workpapers, eliminate intercompany transactions, and compute noncontrolling interest.
-- Understand SEC filing requirements, including Forms 10-K, 10-Q, and 8-K, Regulation S-X, and XBRL tagging.
-- Recognize alternative reporting frameworks such as cash basis, modified cash, and tax basis financial statements.
+- Prepare consolidation workpapers, eliminate intercompany transactions, and compute noncontrolling interest adjustments.
+- Navigate SEC filing requirements, including Forms 10-K, 10-Q, and 8-K, Regulation S-X, and XBRL tagging conventions.
+- Recognize when cash, modified cash, tax, and other special-purpose frameworks are acceptable for private-company reporting and
+  how to disclose departures from GAAP.
 
-These chapters build on foundational knowledge to address higher-order skills often assessed on the FAR exam.
+Each chapter includes rollforward schedules, illustrative journal entries, and exam tips aimed at higher-order skills on the FAR e
+xam.
