@@ -7,6 +7,14 @@ slug: /
 
 The Financial Accounting and Reporting (FAR) textbook provides a structured roadmap for CPA candidates to master the breadth of GAAP, governmental, and not-for-profit standards tested on the exam. Use this resource to build foundational knowledge, practice high-frequency transactions, and develop the analytical skills emphasized by the AICPA blueprint.
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 ## How to Navigate the Book
 
 1. **Start with the Introduction.** Understand exam structure, content allocation, and skill expectations.

@@ -24,6 +24,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "subwaymatch", // Usually your GitHub org/user name.
   projectName: "cpa-far-book", // Usually your repo name.
+  trailingSlash: false, // Don't add a trailing slash to the end of URLs
 
   onBrokenLinks: "throw",
 
@@ -58,6 +59,11 @@ const config: Config = {
   stylesheets: [
     "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap",
   ],
+
+  themes: ["@docusaurus/theme-mermaid"],
+  markdown: {
+    mermaid: true,
+  },
 
   themeConfig: {
     // Replace with your project's social card
