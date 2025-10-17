@@ -1,0 +1,152 @@
+/* src/components/styles.module.css */
+
+.journalContainer {
+  color: var(--color-slate-700);
+  font-size: 0.85rem;
+  margin-bottom: 2rem;
+}
+
+:global([data-theme="dark"]) .journalContainer {
+  color: var(--color-zinc-100);
+}
+
+.journalGrid {
+  display: grid;
+  gap: 0 2px;
+}
+
+.withDate {
+  grid-template-columns: 0.25fr 0.75fr 105px 105px;
+}
+
+.withoutDate {
+  grid-template-columns: 1fr 105px 105px;
+}
+
+/* Header styles */
+.headerDate,
+.headerAccount,
+.headerAmount,
+.accountCell,
+.amountCell {
+  padding: 0.35rem 0.5rem;
+}
+
+.headerDate,
+.headerAccount {
+  background-color: transparent;
+}
+
+.headerAmount {
+  color: var(--color-slate-500);
+  background-color: var(--color-slate-200);
+  text-align: center;
+}
+
+:global([data-theme="dark"]) .headerAmount {
+  color: var(--color-zinc-300);
+  background-color: var(--color-zinc-700);
+}
+
+.headerDebit {
+  border-radius: 6px 0 0 0;
+}
+
+.headerCredit {
+  border-radius: 0 6px 0 0;
+}
+
+.headerAccount {
+  text-align: left;
+}
+
+.dateCell,
+.accountCell,
+.amountCell {
+  background-color: var(--color-slate-100);
+}
+
+:global([data-theme="dark"]) .dateCell,
+:global([data-theme="dark"]) .accountCell,
+:global([data-theme="dark"]) .amountCell {
+  background-color: var(--color-zinc-800);
+}
+
+/* Date cell that spans rows */
+.dateCell {
+  padding: 0.45rem 0.35rem 0.45rem 0.5rem;
+  border-radius: 6px 0 0 6px;
+}
+/* Account and amount cells */
+.accountCell {
+  text-align: left;
+}
+
+/* MODIFICATION: Handle padding-left for debit/credit accounts */
+.accountCell.isDebitRow {
+  padding-left: 1rem;
+}
+.accountCell.isCreditRow {
+  padding-left: 3rem;
+}
+
+.amountCell {
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.withoutDate .accountCell.firstRow {
+  border-radius: 6px 0 0 0;
+}
+
+.withoutDate .accountCell.lastRow {
+  border-radius: 0 0 0 6px;
+}
+
+.amountCell.credit.lastRow {
+  border-radius: 0 0 6px 0;
+}
+
+.currencySymbol {
+  color: var(--color-slate-300);
+}
+
+:root[data-theme="dark"] .currencySymbol {
+  color: var(--color-zinc-700);
+}
+
+/* MODIFICATION: Add vertical spacing between entry rows */
+.entryRowSeparator {
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  .journalContainer {
+    font-size: 0.8rem;
+  }
+  .headerDate,
+  .dateCell {
+    display: none;
+  }
+  .accountCell,
+  .amountCell {
+    padding: 0.3rem 0.4rem;
+  }
+  .withDate {
+    grid-template-columns: 1fr 105px 105px;
+  }
+  .accountCell.isDebitRow {
+    padding-left: 0.75rem;
+  }
+  .accountCell.isCreditRow {
+    padding-left: 2rem;
+  }
+  .accountCell.firstRow {
+    border-radius: 6px 0 0 0;
+  }
+  .accountCell.lastRow {
+    border-radius: 0 0 0 6px;
+  }
+}
