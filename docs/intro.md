@@ -1,39 +1,43 @@
 ---
-sidebar_position: 1
 slug: /
 ---
 
-# FAR Textbook
+# Intro
 
-The Financial Accounting and Reporting (FAR) textbook provides a structured roadmap for CPA candidates to master the breadth of GAAP, governmental, and not-for-profit standards tested on the exam. Use this resource to build foundational knowledge, practice high-frequency transactions, and develop the analytical skills emphasized by the AICPA blueprint.
+**FAR (Financial Accounting and Reporting)** tests your understanding of the principles and standards used to prepare financial statements for:
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+- Business enterprises (public and private companies)
+- Not-for-profit organizations (NFPs)
+- State and local governments
+
+It is considered the most **technical and comprehensive** section of the CPA Exam.
+
+Issued 15,000 shares of $1 par common stock for $20 per share:
+
+```journal
+
+Dr. Cash            13300,000
+    Cr. Common stock   15,000
+    Cr. APIC          22285,000
 ```
 
-## How to Navigate the Book
+```journal
+Year 1 - 12/31
+Dr. Cash[a] $5,000
+Cr. Sales Revenue 4,600
+  Cr. Unearned Revenue[l] 400
+```
 
-1. **Start with the Introduction.** Understand exam structure, content allocation, and skill expectations.
-2. **Study the financial statements.** They provide the framework for recognizing how transactions affect presentation and disclosure.
-3. **Dive into asset, liability, and equity topics.** Reinforce the building blocks of financial reporting before tackling integrated transactions.
-4. **Practice key transactions and specialized industries.** Apply concepts to real-world scenarios involving leases, revenue, taxes, and governmental/NFP accounting.
-5. **Review advanced topics.** Consolidations, SEC reporting, and alternative frameworks challenge higher-order thinking.
+```journal
+Y1, 12/31
+Dr. Accounts Receivable[a] $1,000
+From sale of computers
+    Cr. Sales Revenue[e] 500
+```
 
-## Features
-
-- **Blueprint alignment:** Chapters mirror AICPA content areas and skill levels.
-- **Exam tips:** Highlight common pitfalls and mnemonics to aid retention.
-- **Tables and checklists:** Summarize complex guidance for quick reference.
-- **Cross-references:** Point to related chapters to reinforce interconnected standards.
-
-## Study Strategy
-
-- Create a weekly plan that covers each content area while allowing time for cumulative review.
-- Use practice questions and task-based simulations to gauge readiness.
-- Track areas requiring remediation and revisit summary sections before progressing.
-
-With disciplined study and repeated practice, this textbook can help you build confidence and competence for the FAR section of the CPA exam.
+```journal
+Y2, 1/5
+Dr. Foreign Exchange Loss[l] 50
+From sale of computers
+    Cr. Accounts Receivable[a] 50
+```
