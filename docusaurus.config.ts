@@ -5,8 +5,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "CPA Bear",
+  tagline: "Make the CPA exam bear-able",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -72,7 +72,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "CPA FAR Book",
+      title: "CPA Bear",
       logo: {
         alt: "CPA FAR Book Logo",
         src: "img/logo.svg",
@@ -80,9 +80,15 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          sidebarId: "farSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "FAR",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "audSidebar",
+          position: "left",
+          label: "AUD",
         },
         {
           href: "https://github.com/facebook/docusaurus",
