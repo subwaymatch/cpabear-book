@@ -73,8 +73,8 @@ const config: Config = {
     navbar: {
       title: "CPA Bear",
       logo: {
-        alt: "CPA FAR Book Logo",
-        src: "img/logo.svg",
+        alt: "CPA Bear Logo",
+        src: "img/cpabear.svg",
       },
       items: [
         {
@@ -136,7 +136,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} CPA Bear.`,
     },
     prism: {
       theme: prismThemes.github,
