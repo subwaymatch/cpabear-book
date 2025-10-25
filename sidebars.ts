@@ -80,6 +80,7 @@ const sidebars: SidebarsConfig = {
       items: [
         "far/specialized-reporting/not-for-profit-accounting",
         "far/specialized-reporting/governmental-accounting",
+        "far/specialized-reporting/modified-cash-basis",
         "far/specialized-reporting/public-company-reporting",
         "far/specialized-reporting/financial-ratio-analysis",
       ],
