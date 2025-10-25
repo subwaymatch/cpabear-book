@@ -1,36 +1,56 @@
 # Cash and Receivables
 
-🪙 **1\. Cash and Cash Equivalents**
+## Cash and Cash Equivalents
 
-### Definition
+At its most basic, cash includes all items that are _immediately_ available for use in the business and are free from any contractual restrictions.
 
-**Cash** includes:
+Think of it as anything a bank would accept for deposit and immediate credit.
 
-- Currency and coins on hand
-- Demand deposits (checking and savings accounts)
-- Deposits that can be withdrawn without restriction or penalty
-  - Checking accounts
-  - Savings accounts
-- Money market funds
-- Certificates of deposit (CDs) with maturities ≤ 90 days
+**Common Examples of Cash:**
 
-:::info[Check the original maturity date]
+- **Coins and currency** (like in a cash register or petty cash fund).
+- **Demand deposits** (checking accounts, savings accounts).
+- **Negotiable instruments** ready for deposit, such as:
+  - Money orders
+  - Cashier's checks
+  - Certified checks
+  - Personal checks (from customers, as long as they aren't post-dated)
 
-A certificate of deposit (CD) is considered a cash equivalent only if its original maturity date is 90 days or less from the date of purchase.
+### What are "Cash Equivalents"?
 
-For example, a 4-month CD purchased on November 1, Year that matures on February 28, Year 2 is **not** a cash equivalent on the balance sheet date of December 31, Year 1 because its original maturity date exceeds 90 days.
+This is where the CPA exam likes to test the rules. **Cash equivalents** are short-term, highly liquid investments that are:
 
-:::
+1.  Readily convertible to a known amount of cash.
+2.  So near their maturity that they present an insignificant risk of change in value due to interest rate fluctuations.
 
-**Cash equivalents** include **short-term, highly liquid investments** that are:
+#### The "Three-Month" Rule 🎯
 
-- Readily convertible to known amounts of cash
-- So near their maturity (≤ 90 days from purchase) that they present **insignificant risk of value change**
+Here is the most important rule you must memorize:
 
-### Common Examples
+> To be a cash equivalent, an investment must have an **original maturity of three months or less _from the date of purchase_**.
 
-Petty cash and checking accounts
+This "date of purchase" part is critical.
 
-Savings accounts and money market funds
+- **Example (IS a cash equivalent):** On December 1, 20X1, your company buys a $10,000 U.S. Treasury bill that was issued on August 1, 20X1, and matures on February 1, 20X2.
+  - **Maturity from _your purchase date_:** Dec 1 to Feb 1 is **two months**.
+  - **Conclusion:** This **IS** a cash equivalent.
+- **Example (is NOT a cash equivalent):** On March 1, 20X1, your company buys a $50,000 U.S. Treasury note that matures on August 1, 20X1. - **Maturity from _your purchase date_:** March 1 to Aug 1 is **five months**. - **Conclusion:** This is **NOT** a cash equivalent. It would be classified as a short-term investment (e.g., trading, available-for-sale, or held-to-maturity).
+  **Common Examples of Cash Equivalents:**
 
-Commercial paper, Treasury bills, and CDs (≤ 90 days maturity)
+- **U.S. Treasury bills (T-bills)** purchased with 3 months or less to maturity.
+- **Money market funds** (which are generally considered "on demand").
+- **Commercial paper** (a form of short-term corporate debt) if its original maturity is 3 months or less.
+- **Certificates of Deposit (CDs)** with a maturity of 3 months or less.
+
+### What is _NOT_ Cash or Cash Equivalents?
+
+The FAR exam will try to trick you with items that sound like cash but aren't.
+
+| **Item**                               | **Why It's Excluded**                                                                                                                                  | **How It's Classified**                                                                                                                                                       |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Restricted Cash**                    | It is not "free from restriction." It's set aside for a specific purpose (e.g., as collateral for a loan, or to be used for a future plant expansion). | Reported as a separate line item. It can be **current** or **non-current** depending on _when_ the restriction will be lifted.                                                |
+| **Compensating Balances**              | A minimum balance required to be kept in a bank account to support a loan. This portion is not available for general use.                              | Reported as "restricted cash" (current or non-current) if the restriction is legally binding.                                                                                 |
+| **Bank Overdrafts**                    | A negative cash balance in a checking account.                                                                                                         | Generally reported as a **current liability**. _Exception:_ If you have multiple accounts at the _same bank_, GAAP allows you to offset an overdraft with a positive balance. |
+| **Post-Dated Checks (from customers)** | You cannot deposit it _today_.                                                                                                                         | **Accounts Receivable**.                                                                                                                                                      |
+| **NSF Checks (from customers)**        | "Non-sufficient funds." The check bounced; it's not cash.                                                                                              | **Accounts Receivable** (you have to go back and collect it).                                                                                                                 |
+| **IOUs (from employees)**              | This is a receivable, not cash.                                                                                                                        | **Receivable from Employee**.                                                                                                                                                 |
