@@ -169,6 +169,7 @@ const sidebars: SidebarsConfig = {
         "aud/completing-the-audit-and-reporting/forming-an-opinion-and-reporting",
         "aud/completing-the-audit-and-reporting/audit-reports-unmodified-and-modified-opinions",
         "aud/completing-the-audit-and-reporting/emphasis-of-matter-and-other-matter-paragraphs",
+        "aud/completing-the-audit-and-reporting/supplementary-information",
         "aud/completing-the-audit-and-reporting/reporting-on-internal-control",
         "aud/completing-the-audit-and-reporting/communications-with-audit-committees",
       ],
