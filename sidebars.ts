@@ -206,6 +206,7 @@ const sidebars: SidebarsConfig = {
         "reg/business-law/debtor-creditor-relationships",
         "reg/business-law/government-regulation-of-business",
         "reg/business-law/business-structures",
+        "reg/business-law/sales-article-of-the-ucc",
       ],
     },
     {
