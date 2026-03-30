@@ -188,7 +188,8 @@ const sidebars: SidebarsConfig = {
     "reg/intro",
     {
       type: "category",
-      label: "Ethics, Professional Responsibilities, and Federal Tax Procedures",
+      label:
+        "Ethics, Professional Responsibilities, and Federal Tax Procedures",
       items: [
         "reg/ethics-and-federal-tax-procedures/ethics-and-responsibilities-in-tax-practice",
         "reg/ethics-and-federal-tax-procedures/licensing-and-disciplinary-systems",

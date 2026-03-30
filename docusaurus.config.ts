@@ -101,6 +101,12 @@ const config: Config = {
           label: "AUD",
         },
         {
+          type: "docSidebar",
+          sidebarId: "regSidebar",
+          position: "left",
+          label: "REG",
+        },
+        {
           href: "https://github.com/subwaymatch/cpabear-book",
           label: "GitHub",
           position: "right",
