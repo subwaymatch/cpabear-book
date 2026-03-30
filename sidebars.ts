@@ -184,6 +184,81 @@ const sidebars: SidebarsConfig = {
       ],
     },
   ],
+  regSidebar: [
+    "reg/intro",
+    {
+      type: "category",
+      label: "Ethics, Professional Responsibilities, and Federal Tax Procedures",
+      items: [
+        "reg/ethics-and-federal-tax-procedures/ethics-and-responsibilities-in-tax-practice",
+        "reg/ethics-and-federal-tax-procedures/licensing-and-disciplinary-systems",
+        "reg/ethics-and-federal-tax-procedures/federal-tax-procedures",
+        "reg/ethics-and-federal-tax-procedures/legal-duties-and-responsibilities",
+      ],
+    },
+    {
+      type: "category",
+      label: "Business Law",
+      items: [
+        "reg/business-law/agency",
+        "reg/business-law/contracts",
+        "reg/business-law/debtor-creditor-relationships",
+        "reg/business-law/government-regulation-of-business",
+        "reg/business-law/business-structures",
+      ],
+    },
+    {
+      type: "category",
+      label: "Federal Taxation of Property Transactions",
+      items: [
+        "reg/property-transactions/determination-of-basis",
+        "reg/property-transactions/gains-and-losses",
+        "reg/property-transactions/cost-recovery-depreciation-and-amortization",
+      ],
+    },
+    {
+      type: "category",
+      label: "Federal Taxation of Individuals",
+      items: [
+        "reg/taxation-of-individuals/gross-income",
+        "reg/taxation-of-individuals/adjustments-and-deductions",
+        "reg/taxation-of-individuals/tax-computation-and-credits",
+      ],
+    },
+    {
+      type: "category",
+      label: "Federal Taxation of Entities",
+      items: [
+        {
+          type: "category",
+          label: "C Corporations",
+          items: [
+            "reg/taxation-of-entities/c-corporations/formation-and-capital-structure",
+            "reg/taxation-of-entities/c-corporations/operations-and-distributions",
+            "reg/taxation-of-entities/c-corporations/liquidation-and-reorganization",
+          ],
+        },
+        {
+          type: "category",
+          label: "S Corporations",
+          items: [
+            "reg/taxation-of-entities/s-corporations/eligibility-and-election",
+            "reg/taxation-of-entities/s-corporations/operations-and-distributions",
+            "reg/taxation-of-entities/s-corporations/termination",
+          ],
+        },
+        {
+          type: "category",
+          label: "Partnerships",
+          items: [
+            "reg/taxation-of-entities/partnerships/formation-and-basis",
+            "reg/taxation-of-entities/partnerships/operations-and-distributions",
+            "reg/taxation-of-entities/partnerships/liquidating-and-non-liquidating-distributions",
+          ],
+        },
+      ],
+    },
+  ],
 };
 
 export default sidebars;
