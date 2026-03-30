@@ -121,3 +121,70 @@ Total donated = **$40,000**, which is under the $50,000 overall cap. The full $4
 Non-cash contributions carry lower AGI limits than cash. When combined with cash donations, the overall deduction is generally capped at **50% of AGI**. Any unused deduction can be carried forward for up to **5 years**.
 
 :::
+
+---
+
+## Deductible Interest Expense
+
+For individual taxpayers, the deductibility of interest expense depends heavily on the **purpose** of the underlying debt. The IRS categorizes interest into several buckets, each with its own distinct rules. For the CPA exam, the most heavily tested categories are **Qualified Residence Interest** and **Personal (Consumer) Interest**.
+
+### 1. Qualified Residence Interest (Mortgage Interest)
+
+Taxpayers can deduct interest paid on debt secured by a qualified residence (their main home and one other qualifying second home) as an itemized deduction on Schedule A. However, the debt must meet the definition of **Acquisition Indebtedness**.
+
+**Acquisition Indebtedness** is debt incurred to **buy, build, or substantially improve** the qualified residence that secures the loan.
+
+**The TCJA Limitation:** Under the Tax Cuts and Jobs Act (TCJA), for debt incurred after December 15, 2017, the deduction is limited to interest paid on up to **$750,000** of qualified acquisition indebtedness ($375,000 if married filing separately).
+
+- *Note: Grandfathered debt incurred on or before December 15, 2017, is subject to the older, higher limit of $1,000,000 ($500,000 if married filing separately).*
+
+**Home Equity Loans:** The treatment of home equity loans or lines of credit (HELOCs) relies entirely on how the borrowed funds are used:
+
+- **Deductible:** If the proceeds of a home equity loan are used to buy, build, or substantially improve the home that secures the loan, the interest *is* deductible (subject to the combined $750,000 debt limit).
+
+- **Not Deductible:** If the proceeds are used for personal living expenses (e.g., paying off credit card debt, taking a vacation, or buying a car), the interest is **not** deductible.
+
+### 2. Personal (Consumer) Interest
+
+Personal interest is **never deductible**. This is a strict rule and a frequent distractor on exam questions. Common examples of non-deductible personal interest include:
+
+- Interest on auto loans (unless the vehicle is used for business)
+- Credit card finance charges
+- Interest on personal signature loans
+- Late payment charges by a public utility
+
+---
+
+### Application in Practice: The Champaign Scenario
+
+> **Scenario:** On March 1, Year 1, David and Elena paid $60,000 down and obtained a $400,000 mortgage to purchase their primary residence in Champaign. In Year 4, they took out a $45,000 home equity line of credit (HELOC) secured by their home, using the funds entirely to remodel their kitchen and upgrade their HVAC system. That same year, they took out an $8,000 personal loan to purchase high-end computer components for a personal hobby.
+>
+> The following information pertains to interest paid in Year 4:
+>
+> - **Primary mortgage interest:** $22,000
+> - **HELOC interest (kitchen/HVAC remodel):** $3,100
+> - **Personal loan interest (computer components):** $650
+>
+> **Question:** For Year 4, how much interest is deductible as an itemized deduction?
+
+**Step 1: Analyze the Primary Mortgage**
+
+- **Debt Amount:** $400,000
+- **Purpose:** To purchase the primary residence (Acquisition Indebtedness).
+- **Limit Check:** The $400,000 debt is well under the $750,000 TCJA threshold.
+- **Conclusion:** The entire **$22,000** of mortgage interest is **fully deductible**.
+
+**Step 2: Analyze the Secondary Loan (HELOC)**
+
+- **Debt Amount:** $45,000
+- **Purpose:** To remodel the kitchen and upgrade systems (Substantial Improvement).
+- **Limit Check:** Total qualified debt is now $445,000 ($400,000 primary + $45,000 HELOC). This combined total is still well under the $750,000 limit.
+- **Conclusion:** Because the HELOC proceeds were used to substantially improve the residence that secures the loan, it qualifies as acquisition indebtedness. The **$3,100** of interest is **fully deductible**.
+
+**Step 3: Analyze the Personal Loan**
+
+- **Debt Amount:** $8,000
+- **Purpose:** Purchasing computer components for personal use.
+- **Conclusion:** This is consumer interest. The debt is not secured by the home, and the proceeds were not used to buy, build, or improve a home. The **$650** of interest is **not deductible**.
+
+**Final Calculation:** Total Deductible Interest = Primary Mortgage Interest ($22,000) + Improvement Loan Interest ($3,100) = **$25,100**.
