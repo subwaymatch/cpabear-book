@@ -29,7 +29,7 @@ Although specific requirements vary by state, most jurisdictions follow the "thr
 | Requirement | Typical Standard |
 |---|---|
 | **Education** | 150 semester hours (including a bachelor's degree), with specified accounting and business course hours |
-| **Examination** | Pass all four sections of the Uniform CPA Examination within an 30-month rolling window |
+| **Examination** | Pass all four sections of the Uniform CPA Examination within a 30-month rolling window |
 | **Experience** | 1–2 years of supervised experience in public accounting, industry, government, or academia (varies by state) |
 
 > **Example:** A new staff accountant at Gies Co. has completed 150 semester hours and passed the CPA exam. Her state requires one year of supervised experience under a licensed CPA. After completing that year, she can apply for licensure through her state board.
