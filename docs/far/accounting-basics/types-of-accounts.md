@@ -99,7 +99,7 @@ This is the cost of operations that a company incurs to generate revenue.
 This is income from **non-operating** activities—events that are not part of the company's primary business.
 
 - **Examples:**
-  - **Gain on Sale of Asset:** If a company sells a delivery van (Equipment) for $8,000, but its book value was only $6,000, it records a $2,000 gain.
+  - **Gain on Sale of Asset:** If a company sells a delivery van (Equipment) for \$8,000, but its book value was only \$6,000, it records a \$2,000 gain.
   - **Gain from Lawsuit:** A one-time payment received from winning a lawsuit.
 
 ## Loss
@@ -107,7 +107,7 @@ This is income from **non-operating** activities—events that are not part of t
 This is a decrease in net income from **non-operating** activities.
 
 - **Examples:**
-  - **Loss on Sale of Asset:** If a company sells that same van (book value $6,000) for only $5,000, it records a $1,000 loss.
+  - **Loss on Sale of Asset:** If a company sells that same van (book value \$6,000) for only \$5,000, it records a \$1,000 loss.
   - **Loss from Lawsuit:** A one-time payment made to settle a lawsuit.
   - **Asset Impairment:** A write-down in the value of an asset that has lost its economic usefulness.
 
