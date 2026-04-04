@@ -217,7 +217,7 @@ $$
 \text{Taxable Recovery} = \min(\text{Refund Amount}, \text{Total Itemized Deductions} - \text{Standard Deduction})
 $$
 
-### Comprehensive Example: The $800 Refund
+#### Comprehensive Example: The $800 Refund
 
 A taxpayer receives an **$800** state income tax refund in the current year for taxes paid and deducted in the prior year. Assume the prior year **standard deduction** was **$14,600**.
 
@@ -257,7 +257,7 @@ Because the taxpayer's prior tax benefit of $1,400 exceeds the $800 refund recei
 
 :::note
 
-### CPA Exam Key Takeaways
+**CPA Exam Key Takeaways**
 
 1. **Standard Deduction = $0 Taxable Refund:** If the taxpayer did not itemize in the prior year, the refund is nontaxable.
 2. **Apply the Lesser-Of Rule:** The taxable amount is the lesser of the refund received or the amount by which itemized deductions exceeded the standard deduction.
