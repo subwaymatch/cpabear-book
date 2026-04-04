@@ -188,3 +188,79 @@ Personal interest is **never deductible**. This is a strict rule and a frequent 
 - **Conclusion:** This is consumer interest. The debt is not secured by the home, and the proceeds were not used to buy, build, or improve a home. The **$650** of interest is **not deductible**.
 
 **Final Calculation:** Total Deductible Interest = Primary Mortgage Interest ($22,000) + Improvement Loan Interest ($3,100) = **$25,100**.
+
+---
+
+## The Tax Benefit Rule: State Income Tax Refunds
+
+In federal income taxation, the **Tax Benefit Rule** under **IRC §111** provides that a recovery of an amount deducted in a prior year is included in gross income **only to the extent** the earlier deduction actually reduced the taxpayer's tax liability.
+
+For CPA exam purposes, this rule most often appears in questions involving **state and local tax (SALT) refunds**.
+
+### 1. The Core Principle
+
+A state income tax refund is **not automatically taxable**. Its treatment depends on how the taxpayer filed in the year the taxes were originally paid.
+
+- **Standard Deduction:** If the taxpayer claimed the standard deduction in the prior year, no separate deduction was taken for state income taxes. As a result, the refund is **nontaxable**.
+- **Itemized Deductions:** If the taxpayer itemized deductions, the refund is taxable **only to the extent** the itemized deductions exceeded the standard deduction.
+
+### 2. The "Lesser Of" Calculation
+
+To determine the taxable portion of a state tax refund, apply the following rule:
+
+The taxable amount is the **lesser** of:
+
+1. The actual **refund received** in the current year.
+2. The amount by which the prior year's **itemized deductions exceeded the standard deduction**.
+
+$$
+\text{Taxable Recovery} = \min(\text{Refund Amount}, \text{Total Itemized Deductions} - \text{Standard Deduction})
+$$
+
+#### Comprehensive Example: The $800 Refund
+
+A taxpayer receives an **$800** state income tax refund in the current year for taxes paid and deducted in the prior year. Assume the prior year **standard deduction** was **$14,600**.
+
+#### Case A: Limited Tax Benefit
+
+In this scenario, the taxpayer's itemized deductions were only slightly above the standard deduction.
+
+- **Prior Year Total Itemized Deductions:** $15,100
+- **Prior Year Standard Deduction:** $14,600
+- **Tax Benefit Amount:** $15,100 - $14,600 = **$500**
+
+**Taxable Amount:** **$500**
+
+Although the taxpayer received an $800 refund, the prior deduction only produced a $500 tax benefit above the standard deduction floor. Therefore, only **$500** is included in gross income.
+
+#### Case B: Full Tax Benefit
+
+In this scenario, the taxpayer's itemized deductions were significantly higher than the standard deduction.
+
+- **Prior Year Total Itemized Deductions:** $16,000
+- **Prior Year Standard Deduction:** $14,600
+- **Tax Benefit Amount:** $16,000 - $14,600 = **$1,400**
+
+**Taxable Amount:** **$800**
+
+Because the taxpayer's prior tax benefit of $1,400 exceeds the $800 refund received, the **entire refund** is taxable.
+
+### Summary Table
+
+| Item | Case A (Limited Benefit) | Case B (Full Benefit) |
+|---|---|---|
+| **Refund Received** | $800 | $800 |
+| Total Itemized Deductions | $15,100 | $16,000 |
+| Standard Deduction Floor | ($14,600) | ($14,600) |
+| **Tax Benefit Amount** | **$500** | **$1,400** |
+| **Taxable Portion of Refund** | **$500** (lesser of $800 or $500) | **$800** (lesser of $800 or $1,400) |
+
+:::note
+
+**CPA Exam Key Takeaways**
+
+1. **Standard Deduction = $0 Taxable Refund:** If the taxpayer did not itemize in the prior year, the refund is nontaxable.
+2. **Apply the Lesser-Of Rule:** The taxable amount is the lesser of the refund received or the amount by which itemized deductions exceeded the standard deduction.
+3. **Remember the SALT Cap:** Under current law, the **$10,000 SALT limitation** can reduce the taxable portion of a refund. If a taxpayer paid $12,000 of state taxes but could deduct only $10,000, the first $2,000 did **not** create a tax benefit. For example, if that taxpayer later receives a $3,000 refund, only **$1,000** is generally taxable because the first **$2,000** merely reverses taxes that were never deducted.
+
+:::
