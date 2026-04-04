@@ -51,7 +51,7 @@ The most heavily tested rule on the exam is how to apply a **Net Short-Term Capi
 3. Finally, apply any remaining NSTCL against the **0/15/20% bucket** (Regular Long-Term).
 
 :::note
-If an overall net capital loss remains after all offsetting is complete, the taxpayer can deduct up to $3,000 of that loss against ordinary income for the year, carrying the remainder forward indefinitely.
+If an overall net capital loss remains after all offsetting is complete, the taxpayer can deduct up to \$3,000 of that loss against ordinary income for the year, carrying the remainder forward indefinitely.
 :::
 
 ### Application in Practice: The Offsetting Scenario
@@ -60,34 +60,34 @@ Let's walk through exactly how these ordering rules play out on a tax return.
 
 > **Scenario:** During the current tax year, an individual taxpayer recognized the following capital transactions:
 >
-> - **Short-term capital loss:** $50,000 (from day-trading tech stocks)
+> - **Short-term capital loss:** \$50,000 (from day-trading tech stocks)
 >
-> - **Collectibles gain:** $40,000 (from the sale of a vintage guitar collection)
+> - **Collectibles gain:** \$40,000 (from the sale of a vintage guitar collection)
 >
-> - **Regular long-term capital gain:** $25,000 (from the sale of mutual funds held for three years)
+> - **Regular long-term capital gain:** \$25,000 (from the sale of mutual funds held for three years)
 >
 > **Question:** What is the taxpayer's final reported net gain or loss, and at what applicable tax rate?
 
 **Step 1: Identify the Buckets**
 
-- Short-Term Bucket: ($50,000) Net Loss
-- 28% Bucket: $40,000 Net Gain
-- 0/15/20% Bucket: $25,000 Net Gain
+- Short-Term Bucket: (\$50,000) Net Loss
+- 28% Bucket: \$40,000 Net Gain
+- 0/15/20% Bucket: \$25,000 Net Gain
 
 **Step 2: Apply the Net Short-Term Capital Loss**
 
-We have a $50,000 NSTCL that we need to absorb. Following the statutory order, we must apply this loss to the highest-taxed long-term gains first.
+We have a \$50,000 NSTCL that we need to absorb. Following the statutory order, we must apply this loss to the highest-taxed long-term gains first.
 
-- **Absorb the 28% gains:** Apply $40,000 of the short-term loss against the $40,000 collectibles gain.
+- **Absorb the 28% gains:** Apply \$40,000 of the short-term loss against the \$40,000 collectibles gain.
 
-  *Result:* The collectibles gain is wiped out ($0 remaining). We still have $10,000 of our short-term loss left over ($50,000 total loss - $40,000 used).
+  *Result:* The collectibles gain is wiped out (\$0 remaining). We still have \$10,000 of our short-term loss left over (\$50,000 total loss - \$40,000 used).
 
-- **Absorb the 0/15/20% gains:** Take the remaining $10,000 short-term loss and apply it against the regular long-term capital gain of $25,000.
+- **Absorb the 0/15/20% gains:** Take the remaining \$10,000 short-term loss and apply it against the regular long-term capital gain of \$25,000.
 
-  *Result:* $25,000 gain - $10,000 loss = $15,000 remaining gain.
+  *Result:* \$25,000 gain - \$10,000 loss = \$15,000 remaining gain.
 
-**Conclusion:** The taxpayer will report a **net long-term capital gain of $15,000, which will be taxed at the preferential 0%, 15%, or 20% rate.**
+**Conclusion:** The taxpayer will report a **net long-term capital gain of \$15,000, which will be taxed at the preferential 0%, 15%, or 20% rate.**
 
 :::caution Common Pitfall
-A common mistake is to either deduct the maximum $3,000 loss immediately without netting against the long-term gains, or to offset the regular 15% gains before the 28% gains. Always wipe out the 28% bucket first!
+A common mistake is to either deduct the maximum \$3,000 loss immediately without netting against the long-term gains, or to offset the regular 15% gains before the 28% gains. Always wipe out the 28% bucket first!
 :::
