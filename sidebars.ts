@@ -232,33 +232,13 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Federal Taxation of Entities",
       items: [
-        {
-          type: "category",
-          label: "C Corporations",
-          items: [
-            "reg/taxation-of-entities/c-corporations/formation-and-capital-structure",
-            "reg/taxation-of-entities/c-corporations/operations-and-distributions",
-            "reg/taxation-of-entities/c-corporations/liquidation-and-reorganization",
-          ],
-        },
-        {
-          type: "category",
-          label: "S Corporations",
-          items: [
-            "reg/taxation-of-entities/s-corporations/eligibility-and-election",
-            "reg/taxation-of-entities/s-corporations/operations-and-distributions",
-            "reg/taxation-of-entities/s-corporations/termination",
-          ],
-        },
-        {
-          type: "category",
-          label: "Partnerships",
-          items: [
-            "reg/taxation-of-entities/partnerships/formation-and-basis",
-            "reg/taxation-of-entities/partnerships/operations-and-distributions",
-            "reg/taxation-of-entities/partnerships/liquidating-and-non-liquidating-distributions",
-          ],
-        },
+        "reg/taxation-of-entities/sole-proprietorship",
+        "reg/taxation-of-entities/general-partnership",
+        "reg/taxation-of-entities/limited-partnership",
+        "reg/taxation-of-entities/limited-liability-company",
+        "reg/taxation-of-entities/c-corporation",
+        "reg/taxation-of-entities/s-corporation",
+        "reg/taxation-of-entities/venture-capital-and-emerging-growth-structures",
       ],
     },
   ],
