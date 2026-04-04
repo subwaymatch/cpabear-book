@@ -261,6 +261,6 @@ Because the taxpayer's prior tax benefit of $1,400 exceeds the $800 refund recei
 
 1. **Standard Deduction = $0 Taxable Refund:** If the taxpayer did not itemize in the prior year, the refund is nontaxable.
 2. **Apply the Lesser-Of Rule:** The taxable amount is the lesser of the refund received or the amount by which itemized deductions exceeded the standard deduction.
-3. **Remember the SALT Cap:** Under current law, the **$10,000 SALT limitation** can reduce the taxable portion of a refund. If a taxpayer paid $12,000 of state taxes but could deduct only $10,000, the first $2,000 of any refund generally did **not** produce a prior tax benefit and is usually not taxable.
+3. **Remember the SALT Cap:** Under current law, the **$10,000 SALT limitation** can reduce the taxable portion of a refund. If a taxpayer paid $12,000 of state taxes but could deduct only $10,000, the first $2,000 did **not** create a tax benefit. For example, if that taxpayer later receives a $3,000 refund, only **$1,000** is generally taxable because the first **$2,000** merely reverses taxes that were never deducted.
 
 :::
