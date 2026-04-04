@@ -39,17 +39,17 @@ Proper records are required to claim the deduction, such as:
 
 - Canceled checks
 - Credit card statements
-- Written acknowledgment from the charity (required for donations of $250 or more)
+- Written acknowledgment from the charity (required for donations of \$250 or more)
 
 ### Example
 
-If your AGI is $55,000, the maximum cash contribution deduction is:
+If your AGI is \$55,000, the maximum cash contribution deduction is:
 
 $$
 \$55{,}000 \times 60\% = \$33{,}000
 $$
 
-If you contributed $19,500 this year and have a $5,000 carryover from the prior year, your total deductible amount is $24,500—well under the $33,000 limit, so the full amount is deductible.
+If you contributed \$19,500 this year and have a \$5,000 carryover from the prior year, your total deductible amount is \$24,500—well under the \$33,000 limit, so the full amount is deductible.
 
 ---
 
@@ -95,10 +95,10 @@ If total contributions exceed the applicable limits, the excess **carries forwar
 
 ### Example
 
-Assume AGI = $100,000, with the following donations:
+Assume AGI = \$100,000, with the following donations:
 
-- $10,000 of ordinary income property
-- $30,000 of LTCG property
+- \$10,000 of ordinary income property
+- \$30,000 of LTCG property
 
 Applying the limits:
 
@@ -114,7 +114,7 @@ $$
 \text{Overall limit (50\% of AGI)} = \$100{,}000 \times 50\% = \$50{,}000
 $$
 
-Total donated = **$40,000**, which is under the $50,000 overall cap. The full $40,000 is deductible ($10,000 ordinary income property + $30,000 LTCG property).
+Total donated = **\$40,000**, which is under the \$50,000 overall cap. The full \$40,000 is deductible (\$10,000 ordinary income property + \$30,000 LTCG property).
 
 :::tip
 
@@ -134,13 +134,13 @@ Taxpayers can deduct interest paid on debt secured by a qualified residence (the
 
 **Acquisition Indebtedness** is debt incurred to **buy, build, or substantially improve** the qualified residence that secures the loan.
 
-**The TCJA Limitation:** Under the Tax Cuts and Jobs Act (TCJA), for debt incurred after December 15, 2017, the deduction is limited to interest paid on up to **$750,000** of qualified acquisition indebtedness ($375,000 if married filing separately).
+**The TCJA Limitation:** Under the Tax Cuts and Jobs Act (TCJA), for debt incurred after December 15, 2017, the deduction is limited to interest paid on up to **\$750,000** of qualified acquisition indebtedness (\$375,000 if married filing separately).
 
-- *Note: Grandfathered debt incurred on or before December 15, 2017, is subject to the older, higher limit of $1,000,000 ($500,000 if married filing separately).*
+- *Note: Grandfathered debt incurred on or before December 15, 2017, is subject to the older, higher limit of \$1,000,000 (\$500,000 if married filing separately).*
 
 **Home Equity Loans:** The treatment of home equity loans or lines of credit (HELOCs) relies entirely on how the borrowed funds are used:
 
-- **Deductible:** If the proceeds of a home equity loan are used to buy, build, or substantially improve the home that secures the loan, the interest *is* deductible (subject to the combined $750,000 debt limit).
+- **Deductible:** If the proceeds of a home equity loan are used to buy, build, or substantially improve the home that secures the loan, the interest *is* deductible (subject to the combined \$750,000 debt limit).
 
 - **Not Deductible:** If the proceeds are used for personal living expenses (e.g., paying off credit card debt, taking a vacation, or buying a car), the interest is **not** deductible.
 
@@ -157,37 +157,37 @@ Personal interest is **never deductible**. This is a strict rule and a frequent 
 
 ### Application in Practice: The Champaign Scenario
 
-> **Scenario:** On March 1, Year 1, David and Elena paid $60,000 down and obtained a $400,000 mortgage to purchase their primary residence in Champaign. In Year 4, they took out a $45,000 home equity line of credit (HELOC) secured by their home, using the funds entirely to remodel their kitchen and upgrade their HVAC system. That same year, they took out an $8,000 personal loan to purchase high-end computer components for a personal hobby.
+> **Scenario:** On March 1, Year 1, David and Elena paid \$60,000 down and obtained a \$400,000 mortgage to purchase their primary residence in Champaign. In Year 4, they took out a \$45,000 home equity line of credit (HELOC) secured by their home, using the funds entirely to remodel their kitchen and upgrade their HVAC system. That same year, they took out an \$8,000 personal loan to purchase high-end computer components for a personal hobby.
 >
 > The following information pertains to interest paid in Year 4:
 >
-> - **Primary mortgage interest:** $22,000
-> - **HELOC interest (kitchen/HVAC remodel):** $3,100
-> - **Personal loan interest (computer components):** $650
+> - **Primary mortgage interest:** \$22,000
+> - **HELOC interest (kitchen/HVAC remodel):** \$3,100
+> - **Personal loan interest (computer components):** \$650
 >
 > **Question:** For Year 4, how much interest is deductible as an itemized deduction?
 
 **Step 1: Analyze the Primary Mortgage**
 
-- **Debt Amount:** $400,000
+- **Debt Amount:** \$400,000
 - **Purpose:** To purchase the primary residence (Acquisition Indebtedness).
-- **Limit Check:** The $400,000 debt is well under the $750,000 TCJA threshold.
-- **Conclusion:** The entire **$22,000** of mortgage interest is **fully deductible**.
+- **Limit Check:** The \$400,000 debt is well under the \$750,000 TCJA threshold.
+- **Conclusion:** The entire **\$22,000** of mortgage interest is **fully deductible**.
 
 **Step 2: Analyze the Secondary Loan (HELOC)**
 
-- **Debt Amount:** $45,000
+- **Debt Amount:** \$45,000
 - **Purpose:** To remodel the kitchen and upgrade systems (Substantial Improvement).
-- **Limit Check:** Total qualified debt is now $445,000 ($400,000 primary + $45,000 HELOC). This combined total is still well under the $750,000 limit.
-- **Conclusion:** Because the HELOC proceeds were used to substantially improve the residence that secures the loan, it qualifies as acquisition indebtedness. The **$3,100** of interest is **fully deductible**.
+- **Limit Check:** Total qualified debt is now \$445,000 (\$400,000 primary + \$45,000 HELOC). This combined total is still well under the \$750,000 limit.
+- **Conclusion:** Because the HELOC proceeds were used to substantially improve the residence that secures the loan, it qualifies as acquisition indebtedness. The **\$3,100** of interest is **fully deductible**.
 
 **Step 3: Analyze the Personal Loan**
 
-- **Debt Amount:** $8,000
+- **Debt Amount:** \$8,000
 - **Purpose:** Purchasing computer components for personal use.
-- **Conclusion:** This is consumer interest. The debt is not secured by the home, and the proceeds were not used to buy, build, or improve a home. The **$650** of interest is **not deductible**.
+- **Conclusion:** This is consumer interest. The debt is not secured by the home, and the proceeds were not used to buy, build, or improve a home. The **\$650** of interest is **not deductible**.
 
-**Final Calculation:** Total Deductible Interest = Primary Mortgage Interest ($22,000) + Improvement Loan Interest ($3,100) = **$25,100**.
+**Final Calculation:** Total Deductible Interest = Primary Mortgage Interest (\$22,000) + Improvement Loan Interest (\$3,100) = **\$25,100**.
 
 ---
 
@@ -217,50 +217,50 @@ $$
 \text{Taxable Recovery} = \min(\text{Refund Amount}, \text{Total Itemized Deductions} - \text{Standard Deduction})
 $$
 
-#### Comprehensive Example: The $800 Refund
+#### Comprehensive Example: The \$800 Refund
 
-A taxpayer receives an **$800** state income tax refund in the current year for taxes paid and deducted in the prior year. Assume the prior year **standard deduction** was **$14,600**.
+A taxpayer receives an **\$800** state income tax refund in the current year for taxes paid and deducted in the prior year. Assume the prior year **standard deduction** was **\$14,600**.
 
 #### Case A: Limited Tax Benefit
 
 In this scenario, the taxpayer's itemized deductions were only slightly above the standard deduction.
 
-- **Prior Year Total Itemized Deductions:** $15,100
-- **Prior Year Standard Deduction:** $14,600
-- **Tax Benefit Amount:** $15,100 - $14,600 = **$500**
+- **Prior Year Total Itemized Deductions:** \$15,100
+- **Prior Year Standard Deduction:** \$14,600
+- **Tax Benefit Amount:** \$15,100 - \$14,600 = **\$500**
 
-**Taxable Amount:** **$500**
+**Taxable Amount:** **\$500**
 
-Although the taxpayer received an $800 refund, the prior deduction only produced a $500 tax benefit above the standard deduction floor. Therefore, only **$500** is included in gross income.
+Although the taxpayer received an \$800 refund, the prior deduction only produced a \$500 tax benefit above the standard deduction floor. Therefore, only **\$500** is included in gross income.
 
 #### Case B: Full Tax Benefit
 
 In this scenario, the taxpayer's itemized deductions were significantly higher than the standard deduction.
 
-- **Prior Year Total Itemized Deductions:** $16,000
-- **Prior Year Standard Deduction:** $14,600
-- **Tax Benefit Amount:** $16,000 - $14,600 = **$1,400**
+- **Prior Year Total Itemized Deductions:** \$16,000
+- **Prior Year Standard Deduction:** \$14,600
+- **Tax Benefit Amount:** \$16,000 - \$14,600 = **\$1,400**
 
-**Taxable Amount:** **$800**
+**Taxable Amount:** **\$800**
 
-Because the taxpayer's prior tax benefit of $1,400 exceeds the $800 refund received, the **entire refund** is taxable.
+Because the taxpayer's prior tax benefit of \$1,400 exceeds the \$800 refund received, the **entire refund** is taxable.
 
 ### Summary Table
 
 | Item | Case A (Limited Benefit) | Case B (Full Benefit) |
 |---|---|---|
-| **Refund Received** | $800 | $800 |
-| Total Itemized Deductions | $15,100 | $16,000 |
-| Standard Deduction Floor | ($14,600) | ($14,600) |
-| **Tax Benefit Amount** | **$500** | **$1,400** |
-| **Taxable Portion of Refund** | **$500** (lesser of $800 or $500) | **$800** (lesser of $800 or $1,400) |
+| **Refund Received** | \$800 | \$800 |
+| Total Itemized Deductions | \$15,100 | \$16,000 |
+| Standard Deduction Floor | (\$14,600) | (\$14,600) |
+| **Tax Benefit Amount** | **\$500** | **\$1,400** |
+| **Taxable Portion of Refund** | **\$500** (lesser of \$800 or \$500) | **\$800** (lesser of \$800 or \$1,400) |
 
 :::note
 
 **CPA Exam Key Takeaways**
 
-1. **Standard Deduction = $0 Taxable Refund:** If the taxpayer did not itemize in the prior year, the refund is nontaxable.
+1. **Standard Deduction = \$0 Taxable Refund:** If the taxpayer did not itemize in the prior year, the refund is nontaxable.
 2. **Apply the Lesser-Of Rule:** The taxable amount is the lesser of the refund received or the amount by which itemized deductions exceeded the standard deduction.
-3. **Remember the SALT Cap:** Under current law, the **$10,000 SALT limitation** can reduce the taxable portion of a refund. If a taxpayer paid $12,000 of state taxes but could deduct only $10,000, the first $2,000 did **not** create a tax benefit. For example, if that taxpayer later receives a $3,000 refund, only **$1,000** is generally taxable because the first **$2,000** merely reverses taxes that were never deducted.
+3. **Remember the SALT Cap:** Under current law, the **\$10,000 SALT limitation** can reduce the taxable portion of a refund. If a taxpayer paid \$12,000 of state taxes but could deduct only \$10,000, the first \$2,000 did **not** create a tax benefit. For example, if that taxpayer later receives a \$3,000 refund, only **\$1,000** is generally taxable because the first **\$2,000** merely reverses taxes that were never deducted.
 
 :::

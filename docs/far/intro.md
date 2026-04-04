@@ -12,7 +12,7 @@ slug: /
 
 It is considered the most **technical and comprehensive** section of the CPA Exam.
 
-Issued 15,000 shares of $1 par common stock for $20 per share:
+Issued 15,000 shares of \$1 par common stock for \$20 per share:
 
 ```journal
 

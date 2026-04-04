@@ -31,10 +31,10 @@ Here is the most important rule you must memorize:
 
 This "date of purchase" part is critical.
 
-- **Example (IS a cash equivalent):** On December 1, 20X1, your company buys a $10,000 U.S. Treasury bill that was issued on August 1, 20X1, and matures on February 1, 20X2.
+- **Example (IS a cash equivalent):** On December 1, 20X1, your company buys a \$10,000 U.S. Treasury bill that was issued on August 1, 20X1, and matures on February 1, 20X2.
   - **Maturity from _your purchase date_:** Dec 1 to Feb 1 is **two months**.
   - **Conclusion:** This **IS** a cash equivalent.
-- **Example (is NOT a cash equivalent):** On March 1, 20X1, your company buys a $50,000 U.S. Treasury note that matures on August 1, 20X1. - **Maturity from _your purchase date_:** March 1 to Aug 1 is **five months**. - **Conclusion:** This is **NOT** a cash equivalent. It would be classified as a short-term investment (e.g., trading, available-for-sale, or held-to-maturity).
+- **Example (is NOT a cash equivalent):** On March 1, 20X1, your company buys a \$50,000 U.S. Treasury note that matures on August 1, 20X1. - **Maturity from _your purchase date_:** March 1 to Aug 1 is **five months**. - **Conclusion:** This is **NOT** a cash equivalent. It would be classified as a short-term investment (e.g., trading, available-for-sale, or held-to-maturity).
   **Common Examples of Cash Equivalents:**
 
 - **U.S. Treasury bills (T-bills)** purchased with 3 months or less to maturity.
