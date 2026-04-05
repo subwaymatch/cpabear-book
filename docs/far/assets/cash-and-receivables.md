@@ -1,56 +1,208 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Cash and Receivables
+
+Cash and receivables are heavily tested because they combine **classification**, **measurement**, and **journal entry** issues. FAR questions often ask whether an item is cash, a cash equivalent, a receivable, a contra account, or a liability.
 
 ## Cash and Cash Equivalents
 
-At its most basic, cash includes all items that are _immediately_ available for use in the business and are free from any contractual restrictions.
+Cash includes amounts that are available for immediate use and free from material restriction. Cash equivalents are short-term, highly liquid investments that are readily convertible to known amounts of cash and close enough to maturity that interest-rate risk is insignificant.
 
-Think of it as anything a bank would accept for deposit and immediate credit.
+:::tip Exam rule
+A cash equivalent must have an **original maturity of three months or less from the date of purchase**.
+:::
 
-**Common Examples of Cash:**
+| Item | Typical treatment |
+| --- | --- |
+| Currency and coins | Cash |
+| Demand deposits | Cash |
+| Treasury bills purchased with 90 days or less to maturity | Cash equivalent |
+| Money market funds | Usually cash equivalent |
+| Post-dated checks | Receivable, not cash |
+| NSF checks | Receivable, not cash |
+| Restricted cash | Separate current or noncurrent line item |
 
-- **Coins and currency** (like in a cash register or petty cash fund).
-- **Demand deposits** (checking accounts, savings accounts).
-- **Negotiable instruments** ready for deposit, such as:
-  - Money orders
-  - Cashier's checks
-  - Certified checks
-  - Personal checks (from customers, as long as they aren't post-dated)
+### Classification examples
 
-### What are "Cash Equivalents"?
+<Tabs>
+  <TabItem value="bear" label="Bear Co." default>
 
-This is where the CPA exam likes to test the rules. **Cash equivalents** are short-term, highly liquid investments that are:
+Bear Co. buys a Treasury bill on December 1 that matures on February 1. Because the investment has only two months to maturity **when purchased**, it is a cash equivalent.
 
-1.  Readily convertible to a known amount of cash.
-2.  So near their maturity that they present an insignificant risk of change in value due to interest rate fluctuations.
+  </TabItem>
+  <TabItem value="gies" label="Gies Co.">
 
-#### The "Three-Month" Rule 🎯
+Gies Co. buys a note on March 1 that matures on August 1. Because five months remain at purchase, it is **not** a cash equivalent even though it matures within the same year.
 
-Here is the most important rule you must memorize:
+  </TabItem>
+</Tabs>
 
-> To be a cash equivalent, an investment must have an **original maturity of three months or less _from the date of purchase_**.
+## Restricted Cash and Overdrafts
 
-This "date of purchase" part is critical.
+Restricted cash is segregated for a stated purpose, such as debt service, collateral, or plant expansion. It is not included with unrestricted cash if the restriction is material.
 
-- **Example (IS a cash equivalent):** On December 1, 20X1, your company buys a \$10,000 U.S. Treasury bill that was issued on August 1, 20X1, and matures on February 1, 20X2.
-  - **Maturity from _your purchase date_:** Dec 1 to Feb 1 is **two months**.
-  - **Conclusion:** This **IS** a cash equivalent.
-- **Example (is NOT a cash equivalent):** On March 1, 20X1, your company buys a \$50,000 U.S. Treasury note that matures on August 1, 20X1. - **Maturity from _your purchase date_:** March 1 to Aug 1 is **five months**. - **Conclusion:** This is **NOT** a cash equivalent. It would be classified as a short-term investment (e.g., trading, available-for-sale, or held-to-maturity).
-  **Common Examples of Cash Equivalents:**
+Bank overdrafts are generally reported as **current liabilities**. If multiple accounts exist at the same bank, a negative balance may be offset against a positive balance at that same bank.
 
-- **U.S. Treasury bills (T-bills)** purchased with 3 months or less to maturity.
-- **Money market funds** (which are generally considered "on demand").
-- **Commercial paper** (a form of short-term corporate debt) if its original maturity is 3 months or less.
-- **Certificates of Deposit (CDs)** with a maturity of 3 months or less.
+:::warning
+Do not automatically net an overdraft against another bank account at a different bank.
+:::
 
-### What is _NOT_ Cash or Cash Equivalents?
+## Trade Receivables Overview
 
-The FAR exam will try to trick you with items that sound like cash but aren't.
+Receivables are claims to cash arising from sales, loans, or other transactions. The main categories are:
 
-| **Item**                               | **Why It's Excluded**                                                                                                                                  | **How It's Classified**                                                                                                                                                       |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Restricted Cash**                    | It is not "free from restriction." It's set aside for a specific purpose (e.g., as collateral for a loan, or to be used for a future plant expansion). | Reported as a separate line item. It can be **current** or **non-current** depending on _when_ the restriction will be lifted.                                                |
-| **Compensating Balances**              | A minimum balance required to be kept in a bank account to support a loan. This portion is not available for general use.                              | Reported as "restricted cash" (current or non-current) if the restriction is legally binding.                                                                                 |
-| **Bank Overdrafts**                    | A negative cash balance in a checking account.                                                                                                         | Generally reported as a **current liability**. _Exception:_ If you have multiple accounts at the _same bank_, GAAP allows you to offset an overdraft with a positive balance. |
-| **Post-Dated Checks (from customers)** | You cannot deposit it _today_.                                                                                                                         | **Accounts Receivable**.                                                                                                                                                      |
-| **NSF Checks (from customers)**        | "Non-sufficient funds." The check bounced; it's not cash.                                                                                              | **Accounts Receivable** (you have to go back and collect it).                                                                                                                 |
-| **IOUs (from employees)**              | This is a receivable, not cash.                                                                                                                        | **Receivable from Employee**.                                                                                                                                                 |
+| Type | Example |
+| --- | --- |
+| Accounts receivable | Open-account customer balances |
+| Notes receivable | Written promises to pay |
+| Other receivables | Interest receivable, employee receivables, tax refunds |
+
+Receivables are usually reported at **net realizable value**, which is the amount expected to be collected.
+
+$$
+\text{Net realizable value} = \text{Gross receivables} - \text{Allowance for expected credit losses}
+$$
+
+## Notes Receivable
+
+### Non-interest-bearing notes
+
+A non-interest-bearing promissory note is recorded at the **present value of future cash receipts**, discounted using the market rate of interest. The difference between face value and present value is a discount that is amortized to interest income over the life of the note.
+
+**Example:** Illini Security accepts a \$50,000 note due in one year. The market rate is 8%, but the note states no interest.
+
+$$
+\text{Present value} = \frac{\$50{,}000}{1.08} \approx \$46{,}296
+$$
+
+```journal
+Dr. Notes receivable              50,000
+    Cr. Sales revenue                 46,296
+    Cr. Discount on notes receivable   3,704
+```
+
+### Discounting a note
+
+When a note is discounted before maturity, use this sequence:
+
+1. compute the **maturity value**
+2. compute the **bank discount** using the maturity value and discount period
+3. compute **proceeds** as maturity value less discount
+4. compare proceeds with the carrying amount to determine gain, loss, or interest income
+
+### With recourse vs. without recourse
+
+| Transfer type | Meaning |
+| --- | --- |
+| With recourse | Transferor remains contingently liable if the debtor does not pay |
+| Without recourse | Transferor has no further liability after transfer |
+
+## Expected Credit Losses (CECL)
+
+U.S. GAAP requires an allowance approach for trade receivables and many other financial assets measured at amortized cost. The goal is to recognize expected losses on a timely basis.
+
+### Estimating the allowance
+
+Common estimation methods include:
+
+- percentage of ending accounts receivable
+- aging of accounts receivable
+
+<Tabs>
+  <TabItem value="aging" label="Aging method" default>
+
+Older balances receive higher expected loss percentages because they are less likely to be collected.
+
+  </TabItem>
+  <TabItem value="percent" label="Percent of receivables">
+
+The entity applies a single expected loss rate to the ending receivable balance.
+
+  </TabItem>
+</Tabs>
+
+### Core CECL entries
+
+**1. Record the estimate**
+
+```journal
+Dr. Credit loss expense                 18,000
+    Cr. Allowance for expected credit losses   18,000
+```
+
+**2. Write off a specific account**
+
+```journal
+Dr. Allowance for expected credit losses    4,500
+    Cr. Accounts receivable                     4,500
+```
+
+:::info
+The write-off entry does **not** create additional bad debt expense at the time of write-off. Expense was recognized when the allowance was established or adjusted.
+:::
+
+### Why direct write-off fails under GAAP
+
+The direct write-off method records expense only when a specific account proves uncollectible. That method is not acceptable under U.S. GAAP for material receivables because it:
+
+- fails to match credit loss expense with the related sales period
+- overstates receivables before write-off
+
+## Factoring Accounts Receivable
+
+Factoring means selling receivables to a third party (the factor) for cash.
+
+### Economic distinction
+
+- **With recourse:** Bear Co. keeps some risk of loss.
+- **Without recourse:** the factor assumes the credit risk.
+
+**Example:** Bear Co. factors \$120,000 of receivables without recourse and receives cash of \$116,000.
+
+```journal
+Dr. Cash                           116,000
+Dr. Loss on sale of receivables      4,000
+    Cr. Accounts receivable            120,000
+```
+
+If the transfer is with recourse, additional liability recognition may be required for the recourse obligation.
+
+## Quick Comparison: Accounts vs. Notes
+
+| Feature | Accounts receivable | Notes receivable |
+| --- | --- | --- |
+| Formal written promise | Usually no | Yes |
+| Interest element | Usually implicit or none | Often explicit or imputed |
+| Maturity date | Short-term, open account | Specific maturity date |
+| Valuation issue | CECL allowance | Present value plus CECL, if applicable |
+
+## Integrated Example
+
+Gies Co. records \$200,000 of credit sales during December. Based on an aging analysis, it estimates expected credit losses of \$6,000. In January, a \$1,400 customer balance is written off.
+
+**Year-end adjustment**
+
+```journal
+Dr. Credit loss expense                  6,000
+    Cr. Allowance for expected credit losses    6,000
+```
+
+**January write-off**
+
+```journal
+Dr. Allowance for expected credit losses    1,400
+    Cr. Accounts receivable                     1,400
+```
+
+At December 31, Gies Co. reports accounts receivable net of the allowance, not at gross face amount.
+
+## What to memorize for FAR
+
+:::note Checklist
+- Know the 90-day rule for cash equivalents.
+- Know that non-interest-bearing notes are recorded at present value.
+- Know the four discounting steps for notes.
+- Know the difference between with recourse and without recourse.
+- Know that CECL uses an allowance account and that write-offs reduce the allowance, not expense.
+:::
