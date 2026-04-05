@@ -1,0 +1,358 @@
+section,unit_title,module_title,module_alt_id,question,explanation
+FAR,Financial Reporting,"Balance Sheet, Income Statement, and Comprehensive Income",F-01-01,"<p>What should a full set of financial statements include?</p>
+","<ul>
+	<li>
+		Statement of Financial Position (the balance sheet)</li>
+	<li>
+		Statement of Earnings (the income statement)</li>
+	<li>
+		Statement of Comprehensive Income</li>
+	<li>
+		Statement of Cash Flows</li>
+	<li>
+		Statement of Changes in Owners&#39; Equity</li>
+</ul>"
+FAR,Financial Reporting,"Balance Sheet, Income Statement, and Comprehensive Income",F-01-01,<p>The gain (loss) from discontinued operations   can consist of&hellip;,"An impairment loss, a gain (loss) from actual operations, and a 
+gain (loss) on disposal.<br>"
+FAR,Financial Reporting,"Balance Sheet, Income Statement, and Comprehensive Income",F-01-01,<p>How do we account for subsequent increases in the   fair value of a discontinued component?,"A gain is recognized for the subsequent increase in fair value minus 
+costs to sell (but not in excess of the previously recognized cumulative 
+loss).  The gain is reported in the period of increase.<br>"
+FAR,Financial Reporting,"Balance Sheet, Income Statement, and Comprehensive Income",F-01-01,<p>Define <em>comprehensive income.</em></p>,Change in equity (net assets) that results from transactions and other events and circumstances from nonowner sources.
+FAR,Financial Reporting,"Balance Sheet, Income Statement, and Comprehensive Income",F-01-01,<p>List some disclosure requirements for <i>comprehensive income.</i></p>,"<ul><li>Tax effects of each component included in current ""other&nbsp;<span class=""nowrap"">comprehensive income""</span></li><li>Changes in the accumulated balances of components of ""other&nbsp;<span class=""nowrap"">comprehensive income""</span></li><li>Total accumulated other comprehensive income</li><li>Reclassification adjustments between other comprehensive income&nbsp;<span class=""nowrap"">and net income</span></li></ul>"
+FAR,Financial Reporting,"Balance Sheet, Income Statement, and Comprehensive Income",F-01-01,<p>State two types of <em>foreign currency transactions.</em></p>,"<ul>
+	<li>Operating transactions, such as importing, exporting, borrowing, lending, and investing transactions.</li>
+	<li>Forward exchange contracts, which are agreements to exchange two different currencies at a specific future date and at a specific rate.</li>
+</ul>"
+FAR,Financial Reporting,"Balance Sheet, Income Statement, and Comprehensive Income",F-01-01,<p>Where are <i>foreign currency transaction</i> gains or   losses reported in the financial statements?,"Foreign currency transaction gains or losses are included in 
+determining net income for the period.<br>"
+FAR,Financial Reporting,"Balance Sheet, Income Statement, and Comprehensive Income",F-01-01,"<p>
+	For operating transactions in foreign currency, detail the recording process.</p>","<ul>
+	<li>
+		Record original transaction at exchange or spot rate on date of transaction.</li>
+	<li>
+		At balance sheet date, compute gain/loss on the transaction by recalculating using the current exchange or spot rate.</li>
+	<li>
+		On payment date, compute gain/loss on the transaction by using the exchange rate on payment date.</li>
+</ul>"
+FAR,Financial Reporting,"Balance Sheet, Income Statement, and Comprehensive Income",F-01-01,<p>What conditions must be present for a disposal to be reported in discontinued operations?</p>,"<p>A disposal of a component, group of components, business activity, or nonprofit activity is reported in discontinued operations if the disposal represents a <i>strategic shift</i> that has or will have a <i>major effect</i> on an entity's <i>operations </i>and <i>financial results</i>.&nbsp;</p>"
+FAR,Financial Reporting,"Balance Sheet, Income Statement, and Comprehensive Income",F-01-01,"Name the expense that each of the following unexpired costs turn into as they expire:
+<ol>
+	<li>Inventory&nbsp;</li>
+	<li>Unexpired (prepaid) cost of insurance</li>
+	<li>Net book value of fixed assets</li>
+	<li>Unexpired cost of patents</li>
+</ol>
+","<ol>
+	<li>Cost of goods sold</li>
+	<li>Insurance expense</li>
+	<li>Depreciation expense</li>
+	<li>Amortization expense</li>
+</ol>
+"
+FAR,Financial Reporting,"Balance Sheet, Income Statement, and Comprehensive Income",F-01-01,"Are gains and losses on the disposal of assets shown on a &quot;gross basis&quot; (i.e., where both the sale proceeds and the net book value of the disposed asset are reported) or on the &quot;net basis&quot; (i.e., where only the difference between the sale price and the net book value of the disposed asset is reported)?","Gains and losses are reported at their<em> net </em>amounts (i.e., proceeds less net book value)."
+FAR,Financial Reporting,"Balance Sheet, Income Statement, and Comprehensive Income",F-01-01,"<p>How does a ""multiple-step"" income statement differ&nbsp;from a ""single-step"" income statement?&nbsp;</p>","<ul><li>A multiple-step income statement reports operating revenues and expenses separately from nonoperating revenues and expenses and other gains&nbsp;<span class=""nowrap"">and losses.</span></li><li>On a single-step income statement's presentation of income from continuing operations, total expenses are subtracted from total revenues without separation between operating and nonoperating revenues and expenses.</li></ul>"
+FAR,Financial Reporting,"Balance Sheet, Income Statement, and Comprehensive Income",F-01-01,"<p>What is meant by a ""classified"" balance sheet?</p>","<p>A classified balance sheet distinguishes <i>current</i> and <i>non‑current</i> assets&nbsp;<span class=""nowrap"">and liabilities.</span></p>"
+FAR,Financial Reporting,"Balance Sheet, Income Statement, and Comprehensive Income",F-01-01,<p>List the two formats acceptable for reporting <em>comprehensive income</em>.</p>,"<ul>
+	<li>Statement of comprehensive income (single‑statement&nbsp;approach)</li>
+	<li>Statement of income followed by separate statement of comprehensive income (two-statement approach)</li>
+</ul>"
+FAR,Financial Reporting,"Balance Sheet, Income Statement, and Comprehensive Income",F-01-01,<p>Identify four items included in <i>other comprehensive income</i>.</p>,<p>Remember the PUFI mnemonic:</p><p><strong>P</strong>ension adjustments<br><strong>U</strong>nrealized gains and losses on available-for-sale debt securities and hedges<br><strong>F</strong>oreign currency translation adjustments and gains/losses on certain foreign currency transactions&nbsp;<br><strong>I</strong>nstrument-specific credit risk for liabilities (using FV) and their changes in FV</p>
+FAR,Financial Reporting,EPS and Public Company Reporting Topics,F-01-02,<p>Describe Form 10-K and Form 10-Q. What&nbsp;level of assurance must be provided with the&nbsp;financial statements submitted in these forms?</p>,"<p><i>Form 10-K: </i>Filed annually by U.S. registered companies. Includes a summary of financial data, MD&amp;A, and <i>audited</i> financial statements prepared using U.S. GAAP.<br><br><i>Form 10-Q: Filed quarterly by U.S. registered companies. Includes unaudited financial statements, interim MD&amp;A, and certain disclosures.</i></p>"
+FAR,Financial Reporting,EPS and Public Company Reporting Topics,F-01-02,<p>What is the basic formula used for calculating EPS?</p>,"<figure class=""table repo_indent_level1""><table class=""repo_indent_level1"" style=""""><tbody><tr><td class="""" style=""text-align:center;""><p>Income available to common shareholders&nbsp;</p><hr><p>Weighted average number of common shares outstanding</p></td></tr></tbody></table></figure><p><br>&nbsp;</p>"
+FAR,Financial Reporting,EPS and Public Company Reporting Topics,F-01-02,"<p>
+	Compare <i>basic</i> and <i>diluted </i>EPS.</p>","<p><strong>Basic</strong>: Simple capital structure (only common stock outstanding):<br>&nbsp;</p><figure class=""table repo_indent_level2"" style=""display:table;margin-left:0px;margin-right:0px;""><table><tbody><tr><td class="""" style=""text-align:center;""><p>Income available to common shareholders&nbsp;</p><hr><p>Weighted average common shares outstanding</p></td></tr></tbody></table></figure><p><br><strong>Diluted</strong>: Complex capital structure:<br>&nbsp;</p><figure class=""table repo_indent_level2"" style=""display:table;margin-left:0px;margin-right:0px;""><table><tbody><tr><td class="""" style=""text-align:center;""><p>Income available to common shareholders<br>assuming conversion of all dilutive securities&nbsp;</p><hr><p>Weighted average common shares outstanding<br>after conversion of all dilutive shares</p></td></tr></tbody></table></figure><p><br>&nbsp;</p>"
+FAR,Financial Reporting,EPS and Public Company Reporting Topics,F-01-02,"<p>
+	Name the potentially dilutive securities or instruments.</p>","<ul>
+	<li>
+		Stock options and warrants and their equivalents</li>
+	<li>
+		Convertible securities (bonds or preferred stock)</li>
+	<li>
+		Contracts that may be settled in stock or cash</li>
+	<li>
+		Contingent issuable shares</li>
+</ul>"
+FAR,Financial Reporting,EPS and Public Company Reporting Topics,F-01-02,<p>What is the <em>antidilution</em> rule?</p>,"Any conversion, exercise, or contingent issuance that has an antidilutive effect (increases EPS or decreases loss per share) is <strong>not </strong> included in the calculation unless the shares have actually been converted, exercised, or satisfaction of the contingency met.<br />
+<br />
+Each potential common share is considered separately in sequence from most to least dilutive, with in-the-money&nbsp;options and warrants generally included first."
+FAR,Financial Reporting,EPS and Public Company Reporting Topics,F-01-02,"<p>
+	List the reporting requirements for EPS.</p>","Face of income statement, with equal prominence for basic and diluted per-share amounts, for both income from continuing operations and net income.<br />
+<br />
+Per-share amounts for discontinued operations can be reported on the face of the income statement or in the notes to the financial statements."
+FAR,Financial Reporting,Stockholders' Equity: Part 1,F-01-03,"<p>
+	Define <i>common stock</i> and list the basic properties.</p>","<i>Common stock</i>: Residual ownership interest<br />
+<br />
+Basic rights include:
+<ul>
+	<li>
+		Voting rights</li>
+	<li>
+		Dividend rights</li>
+	<li>
+		Rights to share in distribution of assets if corporation is liquidated, after satisfaction of creditor and preferred stockholders&#39; claims</li>
+</ul>"
+FAR,Financial Reporting,Stockholders' Equity: Part 1,F-01-03,"<p>
+	List some common properties of <i>preferred stock</i>.</p>","<ul>
+	<li>
+		Convertible, callable</li>
+	<li>
+		Redeemable</li>
+	<li>
+		Dividends can be cumulative and/or participating</li>
+</ul>"
+FAR,Financial Reporting,Stockholders' Equity: Part 1,F-01-03,<p>What are the two alternative methods of accounting for treasury stock?</p>,"<p><i>Cost method</i>: Treasury stock is debited at cost of shares repurchased.<br><br><i>Legal (par value method/stated value method): </i>Treasury stock is debited at par value of shares repurchased.<br><br>Remember, no gains/losses are recognized on the income statement; income and retained earnings may never increase by the transaction; <i>Additional Paid-in&nbsp;</i><span class=""nowrap""><i>Capital</i>—<i>Treasury</i></span><i>&nbsp;Stock</i> account used to record ""gains"" and absorb ""losses.""<br><br>Treasury stock is not an asset; cash and property dividends are not paid on treasury stock; stock dividends may be paid on treasury stock.</p>"
+FAR,Financial Reporting,Stockholders' Equity: Part 1,F-01-03,"<p>
+	Summarize the <i>cost</i> method of accounting for treasury stock.</p>","<ul>
+	<li>
+		Recorded, carried, and reissued at reacquisition cost</li>
+	<li>
+		Any &quot;gain&quot; is credited to <i>Paid-in Capital&mdash;Treasury Stock</i></li>
+	<li>
+		Any &quot;loss&quot; is charged against previous &quot;gains,&quot; then retained earnings</li>
+	<li>
+		Reported as a deduction from total stockholders&#39; equity</li>
+</ul>"
+FAR,Financial Reporting,Stockholders' Equity: Part 1,F-01-03,<p>Summarize the <em>par value</em> method of accounting for treasury stock.</p>,"<ul>
+	<li>Recorded at par value with cost of stock that is in excess of par value recorded as a deduction to <em>Paid-in Capital&mdash;Treasury Stock</em> and then from retained earnings after&nbsp;<em>Paid-in Capital&mdash;Treasury Stock</em> is depleted.</li>
+	<li>Reported as a deduction from capital stock.</li>
+</ul>"
+FAR,Financial Reporting,Stockholders' Equity: Part 2,F-01-04,"<p>
+	List the significant dates with respect to cash dividends.</p>","<ul>
+	<li>
+		<i>Date of Declaration</i>: Becomes a liability and reduces retained earnings</li>
+	<li>
+		<i>Date of Record</i>: No journal entry, memorandum entry only</li>
+	<li>
+		<i>Date of Payment</i>: Actually paid</li>
+</ul>"
+FAR,Financial Reporting,Stockholders' Equity: Part 2,F-01-04,<p>List five types of <i>dividends</i>.</p>,"<ol><li><i>Cash</i></li><li><i>Liquidating: </i>Return of investment</li><li><i>Property: FMV of assets given up, with gain/loss recognized</i></li><li><i>Scrip: </i>Promise to pay a dividend in future</li><li><i>Stock: </i>Results in capitalizing part of <i>retained earnings</i>, increasing legal capital. Remember, if &lt;20%–25%, record at market value; if &gt;20%–25%, record at par value.</li></ol>"
+FAR,Financial Reporting,Stockholders' Equity: Part 2,F-01-04,<p>What is the threshold for treating stock dividends as <em>large</em> vs. <em>small</em> stock dividends?</p>,"Small stock dividend: &lt;20%&ndash;25%<br />
+Large stock dividend: &gt;20%&ndash;25%<br />
+<br />
+The treatment of stock dividends depends on the percentage of the dividend in proportion to the total shares outstanding prior to the declaration of the dividend."
+FAR,Financial Reporting,Stockholders' Equity: Part 2,F-01-04,<p>What is the accounting treatment of <i>small  </i> stock dividends?,"Fair value of additional shares issued at the date of declaration is 
+transferred from retained earnings to capital stock and additional  
+paid-in capital.<br>"
+FAR,Financial Reporting,Stockholders' Equity: Part 2,F-01-04,<p>What is the accounting treatment of&nbsp;<i>large </i>stock dividends?</p>,"<p>Par value of additional shares issued is transferred from retained earnings&nbsp;<span class=""nowrap"">to capital stock.</span></p>"
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,"<p>For long-term construction-type contracts,&nbsp;when are losses recognized?</p>","<p>Immediately when discovered, regardless of the method used for revenue recognition.</p>"
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,<p>State the formula for recognizing the gain/loss on long-term construction-type contracts over time.</p>,"<figure class=""table repo_indent_level1"" style=""display:table;margin-left:0px;margin-right:0px;""><table><tbody><tr><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;"">Total cost to date</td><td class="""" style=""padding:10px;text-align:center;"" rowspan=""2""><p>×</p><p>&nbsp;</p></td><td class="""" style=""padding:5px;text-align:center;"" rowspan=""2""><p>Total estimated</p><p>gross profit</p><p>&nbsp;</p></td><td class="""" style=""padding:10px;text-align:center;"" rowspan=""2""><p>−</p><p>&nbsp;</p></td><td class="""" style=""padding:5px;text-align:center;"" rowspan=""2""><p>Gross profit</p><p>recognized to date</p><p>&nbsp;</p></td></tr><tr><td class="""" style=""padding:5px;text-align:center;""><p>Total estimated</p><p>cost of contract</p></td></tr></tbody></table></figure>"
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,List the steps associated with the five-step approach&nbsp;to revenue recognition.,"<ul>
+	<li><strong>Step 1</strong>: Identify the contract with the customer.</li>
+	<li><strong>Step 2</strong>: Identify the separate performance obligations in the contract.</li>
+	<li><strong>Step 3</strong>: Determine the transaction price.</li>
+	<li><strong>Step 4</strong>: Allocate the transaction price to the separate performance obligations.</li>
+	<li><strong>Step 5</strong>: Recognize revenue when or as the entity satisfies each performance obligation.</li>
+</ul>
+"
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,What criteria must be met in order to recognize&nbsp;revenue on a contract?,"<ul>
+	<li>All the parties have approved the contract and are committed to performing their obligations.</li>
+	<li>The rights of each party are identified.</li>
+	<li>Payment terms can be identified.</li>
+	<li>Future cash flows are expected to change as a result of the contract (commercial substance).</li>
+	<li>It is probable that the entity will collect substantially all of the&nbsp;consideration.</li>
+</ul>
+"
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,What criteria must be met in order for a performance obligation to be considered distinct?,"<ul>
+	<li>The promise to transfer the good/service is separately identifiable from other goods or services in the contract.</li>
+	<li>The customer can benefit from the good/service independently or when combined with the customer&#39;s own available resources.</li>
+</ul>
+"
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,Describe how allocation works when a contract contains more than one performance obligation.,"For contracts with more than one performance obligation, the overall contract transaction price should be allocated among each obligation based on the stand-alone selling price expected for satisfying each unique obligation (along with applying any discounts and/or variable consideration)."
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,Describe how revenue recognition differs when performance&nbsp;is satisfied over time versus at a point in time.,"Revenue is recognized based on measuring progress toward completion using either output or input methods when the performance obligation is satisfied over time.<br />
+In order to recognize revenue when performance is satisfied at a point in time, the customer must obtain control of the asset."
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,<p>Distinguish between the treatment of costs incurred&nbsp;in obtaining a contract as assets or as expenses.</p>,"<p>If an entity expects to recover these costs through the performance of the contract, the entity will treat them as assets. If the costs are incurred regardless of whether the contract is obtained, they are treated as expenses.</p>"
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,<p>How do control and revenue recognition differ when an entity acts as a principal versus when it acts as an agent?</p>,"<p>A principal has control over the good/service prior to transfer, and revenue equal to expected gross consideration will be recognized.<br>An agent does not have control, and revenue equal to the agent's fee/commission will be recognized.</p>"
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,<p>What criteria must be met in order for a customer to obtain control in a bill-and-hold arrangement?</p>,<ul><li>There must be a substantive reason for the arrangement.</li><li>The product is separately identified as belonging to the&nbsp;customer.</li><li>The product is ready (in its current condition) for transfer to the customer.</li><li>The entity (seller) cannot use the product or direct it to another customer.</li></ul>
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,<p>When is a warranty considered a separate&nbsp;performance obligation within a contract?</p>,"<p>If a customer has the option to purchase a warranty separately or if the warranty provides a service that is beyond the assurance that the product will comply with agreed-upon specifications, the warranty will be treated as a separate performance obligation.</p><p><br>A portion of the overall transaction price should then be allocated to the warranty obligation.</p>"
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,<p>Describe refund liabilities and when it is appropriate to book them.</p>,<p>A refund liability represents the amount of money an entity does not expect to be entitled to receive. &nbsp;Refund liabilities should be recognized in situations in which customers have a right to return and the entity anticipates having to return a portion of the consideration already received from customers.</p>
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,<p>Identify two methods of revenue recognition for long-term construction-type contracts under U.S. GAAP.</p>,<p>Long-term construction contracts may be recognized:</p><ul><li>Over time; or</li><li>At a point in time.</li></ul>
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,<p>Define the transaction price when recognizing revenue.</p>,<p>The transaction price is the amount of consideration an entity expects to receive in exchange for transferring goods/services to a customer.</p>
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,<p>What factors should be accounted for when determining<br>the transaction price?</p>,<p>The price should take into account (if applicable):</p><ul><li>Variable consideration</li><li>Significant financing</li><li>Noncash considerations</li><li>Consideration payable to the customer</li></ul>
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,<p>Describe the accounting treatment for forwards and call options related to repurchase agreements.</p>,<p><strong>Forward or Call Option</strong></p><ul><li>Repurchase price &lt; Original price (lease)</li><li>Repurchase price ≥ Original selling price (financing arrangement)</li></ul>
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,<p>Describe the accounting treatment for put options related to repurchase agreements.</p>,<p><strong>Put Option</strong></p><ul><li>Repurchase price &lt; Original selling price<ul><li>Customer has a significant economic incentive to exercise the right (lease)</li><li>Customer does not have significant economic incentive (sale with a right of&nbsp;return)</li></ul></li><li>Repurchase price ≥ Original selling price<ul><li>Repurchase price &gt; Expected market value of the asset (financing arrangement)</li><li>Repurchase price ≤ Expected market value of the asset and customer does not have a significant economic incentive to exercise the right (sale with a right of return)</li></ul></li></ul>
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,<p>Define a consignment arrangement.</p>,<p>A consignment arrangement exists when a dealer/distributor is tasked by an entity with selling the entity's products to customers.</p>
+FAR,Financial Reporting and Disclosures,Revenue Recognition Introduction,F-02-01,<p>Identify indicators of a consignment arrangement.</p>,<p>Indicators of a consignment arrangement include:</p><ul><li>The entity controls the product until a specified event occurs (such as a sale to a customer).</li><li>The dealer/distributor does not have an unconditional obligation to pay the entity for the product.</li><li>The entity has the authorization to require the return of the product or transfer the product to another party.</li></ul>
+FAR,Financial Reporting and Disclosures,Accounting Changes and Error Corrections,F-02-02,"<p>
+	Name the three types of <i>accounting changes.</i></p>","<ul>
+	<li>
+		Change in an accounting principle</li>
+	<li>
+		Change in accounting estimate</li>
+	<li>
+		Change in accounting entity</li>
+</ul>"
+FAR,Financial Reporting and Disclosures,Accounting Changes and Error Corrections,F-02-02,<p>How is a <i>change in</i> <i>accounting principle</i> reported?</p>,"<ul><li>Cumulative effect of change is included in the retained earnings statement as an adjustment of the beginning retained earnings balance of the earliest<span class=""nowrap"">&nbsp;year presented.</span></li><li>Prior period financial statements are restated, if presented.</li></ul>"
+FAR,Financial Reporting and Disclosures,Accounting Changes and Error Corrections,F-02-02,"<p>What are the special exceptions to the general rule for the reporting of changes in an accounting principle?<br />
+<br />
+How are these exceptions reported?</p>","Changes where it is impracticable to estimate the cumulative effect adjustment, e.g., a change to LIFO from another method of inventory pricing under U.S. GAAP or a change in depreciation methods.<br />
+<br />
+Such exceptions are accounted for prospectively, like a change in accounting estimate."
+FAR,Financial Reporting and Disclosures,Accounting Changes and Error Corrections,F-02-02,<p>How is a c<em>hange in an accounting estimate</em> reported?</p>,Prospectively
+FAR,Financial Reporting and Disclosures,Accounting Changes and Error Corrections,F-02-02,"<p>Under U.S. GAAP, how is<i> </i>a<i> change in the  </i> <i>accounting entity</i> reported?","All current and prior period financial statements presented  
+are restated.<br>"
+FAR,Financial Reporting and Disclosures,Accounting Changes and Error Corrections,F-02-02,<p>How are <i>error</i> <i>corrections </i>reported?,"Reported as prior period adjustments to retained earnings and all 
+comparative financial statements presented are restated.<br>"
+FAR,Financial Reporting and Disclosures,Adjusting Journal Entries,F-02-03,What four situations require adjusting journal entries&nbsp;in order to properly present financial statements&nbsp;on the accrual basis?,"<ol>
+	<li>Cash is received before the performance obligation is met (deferred&nbsp;revenues).</li>
+	<li>Cash is paid before the expense is incurred (prepaid&nbsp;expenses).</li>
+	<li>Cash is received after the performance obligation has been met (receivables).</li>
+	<li>Cash is paid after the expense has been incurred (accrued&nbsp;expenses).</li>
+</ol>"
+FAR,Financial Reporting and Disclosures,Adjusting Journal Entries,F-02-03,<p>What is the journal entry to record the&nbsp;earning of deferred revenue?</p>,"<figure class=""table"" style=""display:table;margin-left:0px;margin-right:0px;""><table><tbody><tr><td class="""" style=""padding:5px;vertical-align:bottom;width:0px;"">DR</td><td class="""" style=""padding:5px;vertical-align:bottom;"">Deferred revenue</td><td class="""" style=""padding:5px;vertical-align:bottom;"">&nbsp;</td><td class="""" style=""padding:5px;text-align:right;vertical-align:bottom;""><p style=""text-align:right;"">$XXX</p></td><td class="""" style=""padding:5px;text-align:right;vertical-align:bottom;""><p style=""text-align:right;"">&nbsp;</p></td></tr><tr><td class="""" style=""padding:5px;vertical-align:bottom;width:0px;"">CR</td><td class="""" style=""padding:5px;""><p style=""margin-left:1em;"">Revenue</p></td><td class="""" style=""padding:5px;vertical-align:bottom;"">&nbsp;</td><td class="""" style=""padding:5px;text-align:right;vertical-align:bottom;""><p style=""text-align:right;"">&nbsp;</p></td><td class="""" style=""padding:5px;text-align:right;vertical-align:bottom;""><p style=""text-align:right;"">$XXX</p></td></tr></tbody></table></figure><p>&nbsp;</p>"
+FAR,Financial Reporting and Disclosures,Adjusting Journal Entries,F-02-03,What are the three rules for recording&nbsp;adjusting journal entries?,"<ol>
+	<li>Adjusting journal entries must be recorded by the end of the entity&#39;s fiscal year, before the preparation of financial&nbsp;statements.</li>
+	<li>Adjusting journal entries <em>never</em> involve the cash account.</li>
+	<li>All adjusting entries will hit one income statement account and one balance sheet account.</li>
+</ol>"
+FAR,Financial Reporting and Disclosures,Notes to Financial Statements,F-02-04,<p>Identify the contents of the <em>Summary of Significant </em> <em>Accounting Policies</em> note to the financial statements.</p>,"<em>Summary of Significant Accounting Policies</em><br />
+<br />
+Identify and describe:
+<ul>
+	<li>Measurement bases used in preparing the financial statements</li>
+	<li>Specific accounting principles and methods used</li>
+</ul>"
+FAR,Financial Reporting and Disclosures,Notes to Financial Statements,F-02-04,"<p>
+	What are the U.S. GAAP disclosure requirements for risks and uncertainties?</p>","<ul>
+	<li>
+		Nature of operations.</li>
+	<li>
+		Use of estimates in preparing the financial statements.</li>
+	<li>
+		Significant estimates.</li>
+	<li>
+		Current vulnerability due to certain concentrations.</li>
+</ul>"
+FAR,Financial Reporting and Disclosures,Subsequent Events,F-02-05,"<p>
+	What is a subsequent event and what are the two categories of subsequent events?</p>","An event or transaction that occurs after the balance sheet date but before the financial statements are issued or are available to be issued.
+<ol>
+	<li>
+		<i>Recognized subsequent events</i>&mdash;Provide additional information about conditions that existed at the balance sheet date.</li>
+	<li>
+		<i>Nonrecognized subsequent events</i>&mdash;Provide information about conditions that occurred after the balance sheet date and did not exist on the balance sheet date.</li>
+</ol>"
+FAR,Financial Reporting and Disclosures,Fair Value Measurements,F-02-06,<p>Define <i>fair value</i>.,Fair value is the price to sell an asset or transfer a liability in an orderly  transaction between market participants at the measurement date.<br>
+FAR,Financial Reporting and Disclosures,Fair Value Measurements,F-02-06,<p>Describe the valuation techniques that can be used to measure the fair value of an asset or liability.</p>,"<ol>
+	<li><em>Market approach</em>&mdash;Uses prices and other relevant information from market transactions involving identical or comparable assets or liabilities to measure fair value.</li>
+	<li><em>Income approach</em>&mdash;Converts future amounts, including cash flows or earnings, to a single discounted amount to measure the fair value of assets or liabilities.</li>
+	<li><em>Cost approach</em>&mdash;Uses current replacement cost to measure the fair value of assets.</li>
+</ol>"
+FAR,Financial Reporting and Disclosures,Fair Value Measurements,F-02-06,<p>Describe the hierarchy of fair value inputs. Which inputs have the highest priority?</p>,"<ol>
+	<li><em>Level 1</em> <em>inputs</em>&mdash;Quoted prices in active markets for identical assets or liabilities.</li>
+	<li><em>Level 2</em> <em>inputs</em>&mdash;Inputs other than quoted market prices that are directly or indirectly observable for an asset or liability.</li>
+	<li><em>Level 3</em> <em>inputs</em>&mdash;Unobservable inputs for the asset or liability that reflect the entities&#39; assumptions and are based on the best available information.</li>
+</ol>
+
+<p><em>Note</em>: Level 1 inputs have the highest priority.</p>"
+FAR,Financial Reporting and Disclosures,Special Purpose Frameworks,F-02-07,"<p>
+	What are the general guidelines for OCBOA financial statement presentation?</p>","<ul>
+	<li>
+		Different titles from accrual basis financial statements.</li>
+	<li>
+		Required financial statements are the equivalent of the accrual basis balance sheet and income statement.</li>
+	<li>
+		Financial statements should explain changes in equity accounts.</li>
+	<li>
+		A statement of cash flows is not required.</li>
+	<li>
+		Disclosures should be similar to GAAP financial statement disclosures.</li>
+</ul>"
+FAR,Financial Reporting and Disclosures,Ratio and Variance Analysis,F-02-08,What is the <em>current ratio</em> formula?,"<figure class=""table"" style=""display:table;margin-left:0px;margin-right:0px;""><table><tbody><tr><td class="""" style=""padding:5px;text-align:center;"" rowspan=""2"">Current ratio</td><td class="""" style=""padding:10px;text-align:center;"" rowspan=""2"">=</td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;"">Current assets</td></tr><tr><td class="""" style=""padding:5px;text-align:center;"">Current liabilities</td></tr></tbody></table></figure>"
+FAR,Financial Reporting and Disclosures,Ratio and Variance Analysis,F-02-08,What is the <em>quick ratio</em> formula?,"<figure class=""table""><table><tbody><tr><td style=""padding:5px;text-align:center;"" rowspan=""2""><p>&nbsp;</p><p>Quick ratio</p></td><td style=""padding:10px;text-align:center;"" rowspan=""2""><p>&nbsp;</p><p>=</p></td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;vertical-align:bottom;""><p>Cash and cash</p><p>equivalents</p></td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;"">+</td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;vertical-align:bottom;""><p>Short-term</p><p>marketable securities</p></td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;"">+</td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;"">Receivables (net)</td></tr><tr><td style=""padding:5px;text-align:center;"" colspan=""5"">Current liabilities</td></tr></tbody></table></figure>"
+FAR,Financial Reporting and Disclosures,Ratio and Variance Analysis,F-02-08,What is the <em>operating cash flow ratio</em> formula?,"<figure class=""table"" style=""display:table;margin-left:0px;margin-right:0px;""><table><tbody><tr><td class="""" style=""padding:5px;text-align:center;"" rowspan=""2"">Operating cash flow ratio</td><td class="""" style=""padding:10px;text-align:center;"" rowspan=""2"">=</td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;"">Cash flow from operations</td></tr><tr><td class="""" style=""padding:5px;text-align:center;"">Ending current liabilities</td></tr></tbody></table></figure>"
+FAR,Financial Reporting and Disclosures,Ratio and Variance Analysis,F-02-08,How is <em>days in inventory</em> calculated?,"<figure class=""table"" style=""display:table;margin-left:0px;margin-right:0px;""><table><tbody><tr><td class="""" style=""padding:5px;text-align:center;"" rowspan=""2"">Days in inventory</td><td class="""" style=""padding:10px;text-align:center;"" rowspan=""2"">=</td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;"">Ending inventory</td></tr><tr><td class="""" style=""padding:5px;text-align:center;"">Cost of goods sold / 365&nbsp;</td></tr></tbody></table></figure>"
+FAR,Financial Reporting and Disclosures,Ratio and Variance Analysis,F-02-08,<p>How is&nbsp;<i>days sales in accounts receivable </i>calculated?</p>,"<figure class=""table"" style=""display:table;margin-left:0px;margin-right:0px;""><table><tbody><tr><td class="""" style=""padding:5px;text-align:center;"" rowspan=""2"">Days sales in accounts receivable</td><td class="""" style=""padding:10px;text-align:center;"" rowspan=""2"">=</td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;"">Ending accounts receivable (net)</td></tr><tr><td class="""" style=""padding:5px;text-align:center;"">Sales (net) / 365&nbsp;</td></tr></tbody></table></figure>"
+FAR,Financial Reporting and Disclosures,Ratio and Variance Analysis,F-02-08,How is&nbsp;<em>days of payables outstanding</em> calculated?,"<figure class=""table"" style=""display:table;margin-left:0px;margin-right:0px;""><table><tbody><tr><td class="""" style=""padding:5px;text-align:center;"" rowspan=""2"">Days of payables outstanding</td><td class="""" style=""padding:10px;text-align:center;"" rowspan=""2"">=</td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;"">Ending accounts payable</td></tr><tr><td class="""" style=""padding:5px;text-align:center;"">Cost of goods sold / 365&nbsp;</td></tr></tbody></table></figure>"
+FAR,Financial Reporting and Disclosures,Ratio and Variance Analysis,F-02-08,What is the <em>cash conversion cycle</em> formula?,"<figure class=""table"" style=""display:table;margin-left:0px;margin-right:0px;""><table><tbody><tr><td class="""" style=""padding:5px;text-align:center;""><p>Cash</p><p>conversion cycle</p></td><td class="""" style=""padding:10px;text-align:center;""><p>&nbsp;</p><p>=</p></td><td class="""" style=""padding:5px;text-align:center;vertical-align:bottom;""><p>Days in</p><p>inventory</p></td><td class="""" style=""padding:5px;text-align:center;"">+</td><td class="""" style=""padding:5px;text-align:center;vertical-align:bottom;""><p>Days sales in</p><p>accounts receivable</p></td><td class="""" style=""padding:5px;text-align:center;"">–</td><td class="""" style=""padding:5px;text-align:center;""><p>Days of payables</p><p>outstanding</p></td></tr></tbody></table></figure>"
+FAR,Financial Reporting and Disclosures,Ratio and Variance Analysis,F-02-08,What is the <em>debt-to-equity ratio</em> formula?,"<figure class=""table"" style=""display:table;margin-left:0px;margin-right:0px;""><table><tbody><tr><td class="""" style=""padding:5px;text-align:center;"" rowspan=""2"">Days-to-equity ratio</td><td class="""" style=""padding:10px;text-align:center;"" rowspan=""2"">=</td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;"">Total liabilities</td></tr><tr><td class="""" style=""padding:5px;text-align:center;"">Total equity</td></tr></tbody></table></figure>"
+FAR,Financial Reporting and Disclosures,Ratio and Variance Analysis,F-02-08,What is the <em>total debt ratio</em> formula?,"<figure class=""table"" style=""display:table;margin-left:0px;margin-right:0px;""><table><tbody><tr><td class="""" style=""padding:5px;text-align:center;"" rowspan=""2"">Total debt ratio</td><td class="""" style=""padding:10px;text-align:center;"" rowspan=""2"">=</td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;"">Total liabilities</td></tr><tr><td class="""" style=""padding:5px;text-align:center;"">Total assets&nbsp;</td></tr></tbody></table></figure>"
+FAR,Financial Reporting and Disclosures,Ratio and Variance Analysis,F-02-08,What is the <em>times interest earned </em>formula?,"<figure class=""table"" style=""display:table;margin-left:0px;margin-right:0px;""><table><tbody><tr><td class="""" style=""padding:5px;text-align:center;"" rowspan=""2""><p>Times interest</p><p>earned ratio</p></td><td class="""" style=""padding:10px;text-align:center;"" rowspan=""2"">=</td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;""><p style=""text-align:center;"">Earning before interest and taxes (EBIT)</p></td></tr><tr><td class="""" style=""padding:5px;text-align:center;""><p style=""text-align:center;"">Interest &nbsp;expense</p></td></tr><tr><td style=""height:50px;"">&nbsp;</td><td style=""height:50px;"">&nbsp;</td><td style=""height:50px;""><p style=""text-align:center;""><i>Or:</i></p></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td class=""repo_border_bottom"" style=""text-align:center;"">Income before interest expense and taxes</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td style=""text-align:center;"">Interest expense</td></tr></tbody></table></figure>"
+FAR,Financial Reporting and Disclosures,Ratio and Variance Analysis,F-02-08,How is <em>gross margin</em> calculated?,"<figure class=""table repo_indent_level1"" style=""display:table;margin-left:0px;margin-right:0px;""><table><tbody><tr><td class="""" style=""padding:5px;text-align:center;"" rowspan=""2"">Gross margin</td><td class="""" style=""padding:10px;text-align:center;"" rowspan=""2"">=</td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;"">Sales (net) – Cost of goods sold&nbsp;</td></tr><tr><td style=""text-align:center;"">Sales (net)</td></tr></tbody></table></figure>"
+FAR,Financial Reporting and Disclosures,Ratio and Variance Analysis,F-02-08,How is <em>profit margin </em>calculated?,"<figure class=""table""><table><tbody><tr><td style=""padding:5px;text-align:center;"" rowspan=""2"">Profit margin</td><td style=""padding:10px;text-align:center;"" rowspan=""2"">=</td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;"">Net income</td></tr><tr><td style=""padding:5px;text-align:center;"">Sales (net)</td></tr></tbody></table></figure>"
+FAR,Financial Reporting and Disclosures,Ratio and Variance Analysis,F-02-08,How is <em>return on equity</em> (ROE) calculated?,"<figure class=""table""><table><tbody><tr><td style=""padding:5px;text-align:center;"" rowspan=""2"">Return on equity (ROE)</td><td style=""padding:10px;text-align:center;"" rowspan=""2"">=</td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;"">Net income</td></tr><tr><td style=""padding:5px;text-align:center;"">Average total equity</td></tr></tbody></table></figure>"
+FAR,Financial Reporting and Disclosures,Ratio and Variance Analysis,F-02-08,How is <em>return on assets</em> (ROA) calculated?,"<figure class=""table""><table><tbody><tr><td style=""padding:5px;text-align:center;"" rowspan=""2"">Return on assets (ROA)</td><td style=""padding:10px;text-align:center;"" rowspan=""2"">=</td><td class=""repo_border_bottom"" style=""padding:5px;text-align:center;"">Net income</td></tr><tr><td style=""padding:5px;text-align:center;"">Average total assets</td></tr></tbody></table></figure>"
+FAR,Assets and Related Topics,Cash and Cash Equivalents,F-03-01,"<p>
+	Define <i>cash and cash equivalents.</i></p>","<ul>
+	<li>
+		Cash includes both currency and demand deposits with banks and/or other financial institutions.</li>
+	<li>
+		Cash equivalents include short-term, highly liquid investments that are both readily convertible to cash and so near their maturity when acquired by the entity (90 days or less from date of purchase) that they represent insignificant risk of changes in value.</li>
+</ul>"
+FAR,Assets and Related Topics,Trade Receivables,F-03-02,<p>At what value should non-interest-bearing promissory notes be recorded?</p>,<p>At the present value of all future payments required by the note.&nbsp;The payments should be discounted at the market interest rate.</p>
+FAR,Assets and Related Topics,Trade Receivables,F-03-02,"<p>
+	Notes receivable may be discounted &quot;with&quot; or &quot;without&quot; recourse. What is the difference?</p>","<i><u>Discounting With Recourse</u></i><br />
+The holder remains contingently liable.<br />
+<br />
+<i><u>Discounting Without Recourse</u></i><br />
+The holder assumes no further liability after discounting."
+FAR,Assets and Related Topics,Trade Receivables,F-03-02,<p>Describe the computational steps required in &quot;discounting a note.&quot;</p>,"<ol>
+	<li>Compute maturity value (remember to include interest to maturity).</li>
+	<li>Compute the &quot;discount&quot; (remember to use maturity value).</li>
+	<li>Get proceeds by subtracting discount from maturity value.</li>
+	<li>Compute interest income as the difference between proceeds and face of note.</li>
+</ol>"
+FAR,Assets and Related Topics,Trade Receivables,F-03-02,"<p>Name two methods of accounting for the recognition of credit loss adjustments&nbsp;<span class=""nowrap"">(write-offs)</span>&nbsp;of outstanding accounts receivable.</p>","<p><i><u>Direct Write-off</u></i>&nbsp;</p><figure class=""table repo_indent_level1"" style=""display:table;margin-left:0px;margin-right:0px;""><table style=""""><tbody><tr><td class="""" style=""width:25px;"">Dr</td><td class="""">Credit loss (or bad debt) expense</td></tr><tr><td class="""" style=""width:25px;"">Cr</td><td class=""""><p style=""margin-left:1em;"">Accounts receivable</p></td></tr></tbody></table></figure><p><i>Weaknesses</i>: Credit loss (or bad debt) expense is not matched to sales, and accounts receivable are overstated. Not allowed under U.S. GAAP.<br><br><i><u>Current Expected Credit Loss (CECL) Method</u></i></p><figure class=""table repo_indent_level1"" style=""display:table;margin-left:0px;margin-right:0px;""><table style=""""><tbody><tr><td class="""" style=""width:25px;"">Dr</td><td class="""">Allowance for expected credit losses</td></tr><tr><td class="""" style=""width:25px;"">Cr</td><td class=""""><p style=""margin-left:1em;"">Accounts receivable</p></td></tr></tbody></table></figure><p><i>Strengths</i>: Matches credit loss adjustments with credit sales. Accounts receivable fairly stated. Required by U.S. GAAP.</p>"
+FAR,Assets and Related Topics,Trade Receivables,F-03-02,<p>Name two methods for estimating credit losses.</p>,<ul><li>Percentage of accounts receivable at year-end</li><li>Aging of accounts receivable at year-end</li></ul>
+FAR,Assets and Related Topics,Trade Receivables,F-03-02,"<p>Using the current expected credit loss (CECL) method, give the two journal entries to recognize the estimated credit losses and then to adjust expected credit losses for write-offs of outstanding accounts receivable.</p>","<p><i><u>Recognize estimated credit losses</u></i></p><figure class=""table repo_indent_level1"" style=""display:table;margin-left:0px;margin-right:0px;""><table style=""""><tbody><tr><td class="""" style=""width:25px;"">Dr</td><td class="""">Credit loss expense</td></tr><tr><td class="""" style=""width:25px;"">Cr</td><td class=""""><p style=""margin-left:1em;"">Allowance for expected credit losses</p></td></tr></tbody></table></figure><p><i><u>Adjust credit losses for write-offs</u></i></p><figure class=""table repo_indent_level1"" style=""display:table;margin-left:0px;margin-right:0px;""><table style=""""><tbody><tr><td class="""" style=""width:25px;"">Dr</td><td class="""">Allowance for expected credit losses</td></tr><tr><td class="""" style=""width:25px;"">Cr</td><td class=""""><p style=""margin-left:1em;"">Accounts receivable</p></td></tr></tbody></table></figure><p><br><br><br>&nbsp;</p>"
+FAR,Assets and Related Topics,Trade Receivables,F-03-02,<p>What is the difference between factoring <i>with </i>recourse and <i>without</i> recourse?</p>,<p><i><u>With Recourse</u></i><br>The factor may return the account to the company if it subsequently requires a credit loss adjustment. Potential liability and risk of loss remains with the company.<br><br><i><u>Without Recourse</u></i><br>The factor assumes the risk of loss if the account requires a credit loss adjustment (write-off).</p>
+FAR,Assets and Related Topics,Inventory,F-03-03,<p>When does the title to goods pass for each of the following?</p><ul><li>FOB destination</li><li>FOB shipping point</li><li>Consigned goods</li></ul>,<ul><li><i>FOB destination—</i>When received by buyer.</li><li><i>FOB shipping point</i>—When given to a common carrier.</li><li><i>Consigned goods—</i>When sold to a third party by consignee.</li></ul>
+FAR,Assets and Related Topics,Inventory,F-03-03,"<p>Under U.S. GAAP, how is market calculated&nbsp;in the lower of cost or market method?</p>","In the lower of cost or market method, &quot;market&quot; generally means current replacement cost, provided the current replacement cost does not exceed the market ceiling or fall below the market floor.
+<ul>
+	<li><em>Ceiling</em>&mdash;Net realizable value (estimated net selling price less completion and disposal costs).</li>
+	<li><em>Floor</em>&mdash;Net realizable value minus normal profit margin.</li>
+</ul>"
+FAR,Assets and Related Topics,Inventory,F-03-03,<p>How is net realizable value calculated&nbsp;in the lower of cost and net realizable value method?</p>,Net realizable value is the net selling price less completion and disposal costs.
+FAR,Assets and Related Topics,Inventory,F-03-03,"<p>
+	Explain the difference between <i>periodic</i> and <i>perpetual</i> inventory methods.</p>","<i><u>Periodic</u></i><br />
+<ul>
+	<li>
+		The quantity of inventory is determined only by physical count.</li>
+	<li>
+		Ending inventory is physically counted and priced.</li>
+</ul>
+<i><u>Perpetual</u></i><br />
+<ul>
+	<li>
+		Inventory is updated for each purchase and for each sale.</li>
+	<li>
+		Keeps a running total of inventory balances.</li>
+</ul>"
+FAR,Assets and Related Topics,Inventory,F-03-03,<p>When are losses on firm purchase commitments recognized?</p>,"<p>Losses are recognized in the period in which the price declines.</p><figure class=""table repo_indent_level1"" style=""display:table;margin-left:0px;margin-right:0px;width:375px;""><table style=""border-spacing:1;""><tbody><tr><td class="""" style=""text-align:center;width:25px;"">Dr</td><td class="""" style=""width:350px;"">Estimated loss on purchase commitment</td></tr><tr><td class="""" style=""text-align:center;width:25px;"">Cr</td><td class=""""><p style=""margin-left:1em;"">Estimated liability on purchase commitment</p></td></tr></tbody></table></figure><p><br>&nbsp;</p>"
+FAR,Assets and Related Topics,Inventory,F-03-03,"<p>Describe an inventory consignment arrangement.    Also, how are the consigned goods carried on the   parties' balance sheets?","Consignor gives goods to consignee for sale to third parties.  
+Title to the goods remains with the consignor; therefore the  
+consigned items stay on the balance sheet of the consignor.<br>"
+FAR,Assets and Related Topics,Inventory,F-03-03,"<p>During periods of rising prices, the use of LIFO versus FIFO has what effect on the valuation of ending inventory and reported net income?</p>","<div>Both ending inventory and net income will be lower when LIFO is used during a period of rising prices.<br />
+&nbsp;</div>
+
+<div style=""margin-left:40px""><strong>L</strong>IFO = <strong>L</strong>owest</div>"
+FAR,Assets and Related Topics,Inventory,F-03-03,<p>Name several cost flow methods for inventory.</p>,<ul><li>Specific identification</li><li>FIFO</li><li>LIFO (specific goods and dollar value)</li><li>Averaging<ul><li>Weighted average (associated with periodic)</li><li>Moving average (associated with perpetual)</li></ul></li></ul>
+FAR,Assets and Related Topics,PP&E: Cost Basis,F-03-04,"<p>Give some examples of capitalizable costs for:</p>
+
+<p style=""margin-left:40px"">&mdash;Acquisition of equipment<br />
+&mdash;Acquisition of building</p>","<em><u>Acquisition of Equipment</u></em><br />
+Purchase price, freight-in, installation, testing, taxes, less any cash discounts allowed.*<br />
+<br />
+<em><u>Acquisition of Building</u></em><br />
+Purchase price, deferred maintenance, alterations, improvements, architect&#39;s fees.*<br />
+<br />
+*If equipment or building is constructed by company, capitalized cost could include construction period interest."
+FAR,Assets and Related Topics,PP&E: Cost Basis,F-03-04,<p>Describe the proper accounting for <em>ordinary </em>versus&nbsp;<em>extraordinary</em> repairs.</p>,"<em>Ordinary </em>repairs are expensed as repair and maintenance. They do not increase the life or utility of the asset.<br />
+<br />
+<em>Extraordinary </em>repairs either increase the life or utility of the asset. If the extraordinary repair increases the life of the asset, it is recorded by reducing accumulated depreciation. If the extraordinary repair increases the utility of the asset, it is capitalized to the fixed asset account."
+FAR,Assets and Related Topics,PP&E: Cost Basis,F-03-04,<p>Give examples of costs to be capitalized as <em>land.</em></p>,"<ul>
+	<li>Acquisition price</li>
+	<li>Closing costs, such as real estate broker commissions, legal fees, escrow fees, title guarantee insurance</li>
+	<li>Any mortgages, liens, or encumbrances on the land which the buyer assumes</li>
+	<li>Preparation costs, such as surveying costs, leveling costs, tree removal</li>
+	<li>Cost of razing an existing building, in getting land into condition for intended use</li>
+	<li>Less: Proceeds from sale of assets on land</li>
+</ul>
+<em>Note: </em>Excavating costs for a building and cost of improvements with a definite life are not included in land."
+FAR,Assets and Related Topics,PP&E: Cost Basis,F-03-04,<p>State two rules concerning capitalizing interest.</p>,"<ul>
+	<li>Only capitalize interest on money actually spent, not on amount borrowed.</li>
+	<li>The amount of capitalized interest is the lower of:
+	<ul>
+		<li>actual interest cost incurred;&nbsp;or</li>
+		<li>computed capitalized interest (avoidable interest).</li>
+	</ul>
+	</li>
+</ul>"

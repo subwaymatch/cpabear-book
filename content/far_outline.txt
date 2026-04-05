@@ -1,0 +1,1163 @@
+FAR 1 Unit Outline
+1
+© Becker Professional Education Corporation. All rights reserved.
+FAR 1
+Unit Outline
+Module 1—Balance Sheet, Income Statement, and Comprehensive Income
+Balance Sheet
+ Under U.S. GAAP, entities may present a classified balance sheet that distinguishes current and noncurrent
+assets and liabilities. When appropriate, a balance sheet based on liquidity is also
+permissible. Review the terminology and be able to recognize a classified balance sheet.
+Uses of the Income Statement and Terminology
+ The purpose of the income statement is to provide information about the uses of funds in the income
+process (i.e., expenses), the uses of funds that will never be used to earn income (i.e., losses), the
+sources of funds created by those expenses (i.e., revenues), and the sources of funds not associated
+with the earnings process (i.e., gains).
+ Know the difference between expired and unexpired costs and also the difference between the gross
+concept and the net concept.
+Income From Continuing Operations
+ Know the difference between a multiple-step income statement and a single-step income statement.
+The multiple-step income statement reports revenues and expenses separately from nonoperating
+revenues and expenses and other gains and losses. In the single-step presentation of income from
+continuing operations, total expenses (including income tax expenses) are subtracted from total
+revenues; thus, the income statement has a single step.
+Income From Discontinued Operations
+ Accounting for discontinued operations can consist of gain/loss on current operations, gain/loss on
+sale, and impairment loss. Discontinued operations are shown net of tax. Any of these must be
+reported as part of discontinued operations in the year incurred.
+ The results of operations of a component of an entity or a group of components of an entity, or a
+business or nonprofit activity, will be reported in discontinued operations if it has been disposed of or
+is classified as "held for sale."
+ The disposal must represent a strategic shift that has or will have a major effect on an entity's
+operations and financial results to be reported as a discontinued operation.
+Foreign Currency Transactions
+ Foreign currency transactions require adjusting the receivable or the payable at year-end for changes
+in the dollar equivalent of the foreign currency-denominated transaction since the transaction date. An
+additional gain or loss is reported when the transaction is settled in the foreign currency.
+Comprehensive Income
+ Comprehensive income includes all changes in owner's equity other than transactions with owners.
+The formula shows that comprehensive income must include net income plus/minus other changes in
+owner's equity not resulting from transactions with owners. These other changes are known as other
+comprehensive income items.
+ Other comprehensive income items are revenues, expenses, gains, or losses that are included in
+comprehensive income but excluded from net income under U.S. GAAP.
+ The mnemonic PUFI represents the five commonly tested sources of other comprehensive income.
+• Pension adjustments
+• Unrealized gains and losses on AFS debt securities and hedges
+FAR 1 Unit Outline
+2
+© Becker Professional Education Corporation. All rights reserved.
+• Foreign currency translation items
+• Instrument-specific credit risk
+ Accumulated other comprehensive income is the cumulative sum of all of the individual components
+of other comprehensive income. Accumulated other comprehensive income is an owner's equity item.
+ U.S. GAAP allows the statement of comprehensive income to be presented using the onestatement
+approach (statement of income and comprehensive income) or the two-statement
+approach (statement of income immediately followed by a separate statement of comprehensive
+income).
+ Components of other comprehensive income may be reported either net of tax or before related tax
+effects, with one amount shown for the aggregate income tax expense or benefit related to the total of
+other comprehensive income items.
+Module 2—Earnings per Share and Public Company Reporting Topics
+Earnings per Share Overview
+ An entity's capital structure determines the manner in which earnings per share (EPS) are disclosed
+on the income statement.
+Simple Capital Structure (Report Basic EPS Only)
+ An entity that issues only common stock (no other securities that can be converted to common stock)
+has a simple capital structure.
+ Basic EPS assumes no potentially dilutive securities. Basic EPS divides income available for
+common shareholders by the weighted average number of common shares outstanding.
+Complex Capital Structure (Report Basic and Diluted EPS)
+ An entity has a complex capital structure when it has securities that can be potentially converted to
+common stock and would therefore dilute or reduce EPS.
+ Diluted EPS employs the "if converted" and/or “treasury stock” methods to recompute EPS as it
+would be if any dilutive securities such as convertible bonds or preferred stock, rights, warrants, or
+options were exercised. Antidilutive securities are not considered.
+ Preferred stock, especially cumulative issues, causes calculation difficulties, as preferred claims are
+not available for common shareholders and preferred dividends do not reduce net income.
+ Contingent shares, if dilutive, are part of the basic EPS calculation if all conditions for issuance are met.
+Earnings per Share Disclosures
+ Basic and diluted EPS are disclosed by the income statement component for a proper presentation.
+SEC Reporting Requirements
+ Form 10-K must be filed annually by U.S. registered companies (issuers). The filing deadline for Form
+10-K is 60 days after the end of the fiscal year for large accelerated filers; 75 days after the end of the
+fiscal year for accelerated filers; and 90 days after the end of the fiscal year for all other registrants.
+This form contains financial disclosures, including a summary of financial data, management's
+discussion and analysis (MD&A), and audited financial statements prepared using U.S. GAAP.
+ Form 10-Q must be filed quarterly by U.S. registered companies (issuers). The filing deadline for
+Form 10-Q is 40 days after the end of the fiscal quarter for large accelerated filers and accelerated
+filers, and 45 days after the end of the fiscal quarter for all other registrants. This form contains
+unaudited financial statements prepared using U.S. GAAP, interim period MD&A, and certain
+disclosures.
+ Form 8-K is filed by U.S. registered companies to disclose changes whenever a material event occurs.
+FAR 1 Unit Outline
+3
+© Becker Professional Education Corporation. All rights reserved.
+Module 3—Stockholders' Equity: Part 1
+Overview
+ Stockholders' (owner's) equity includes five major components: 1) capital stock; 2) additional paid-in
+capital; 3) retained earnings or deficit; 4) accumulated other comprehensive income; and 5) treasury
+stock. When an entity presents consolidated financial statements, any noncontrolling interest must be
+shown in equity.
+Capital Stock (Legal Capital)
+ Capital stock includes these terms: authorized, issued, and outstanding. Treasury stock is issued but
+not outstanding.
+ Common shareholders' equity equals total stockholders' equity reduced for the claims of preferred
+shareholders.
+ Book value per share is the common shareholders' equity divided by the number of common shares
+outstanding at year-end.
+ Preferred shares are "first in line" before common shareholders for dividends and payment in
+liquidation. Preferred stock may also be cumulative, participating, or convertible. Mandatorily
+redeemable preferred stock is reported as a liability because it has a maturity date, like other debt
+instruments.
+Additional Paid-in Capital
+ Additional paid-in capital can come from several sources in addition to any amount received above
+the par value of shares issued.
+Retained Earnings
+ Retained earnings can be increased or decreased by many events, including: income, losses, cash
+dividends, property dividends, stock dividends, prior period adjustments, cumulative effects of
+changes in accounting principles, and quasi-reorganizations.
+Accumulated Other Comprehensive Income
+ Accumulated other comprehensive income is an equity account into which the components of other
+comprehensive income flow.
+Treasury Stock
+ Treasury stock may be accounted for by the cost method or the legal (par value) method. The
+candidate should review journal entry examples in the text under the cost method and par value
+method, including the retirement of treasury stock.
+ Donated shares result in a credit to contributed capital.
+Module 4—Stockholders' Equity: Part 2
+Accounting for a Stock Issuance (to Nonemployees)
+ Stock subscriptions are contracts to buy a stock at a future date.
+ Stock rights provide existing shareholders with the opportunity to buy additional shares and do not
+affect equity until exercised.
+Distributions to Shareholders
+ Dividends declared reduce retained earnings on the declaration date.
+ Property dividends are recorded at their fair value at the declaration date. Gain or loss is recognized
+on that date.
+FAR 1 Unit Outline
+4
+© Becker Professional Education Corporation. All rights reserved.
+ Stock dividends occur in two sizes: small and large. The "break point" is 20 to 25 percent of
+outstanding common stock. Small stock dividends tend to be on the exam more often. Small stock
+dividends are recorded at fair value on the declaration date. Large stock dividends are recorded at
+par value.
+ Stock splits do not require a journal entry and total book value of common stock is unchanged.
+Statement of Changes in Shareholders' Equity
+ The statement of changes in shareholders' equity provides specific information about changes in a
+company's primary equity components for a stipulated period(s).
+FAR 2 Unit Outline
+1
+© Becker Professional Education Corporation. All rights reserved.
+FAR 2
+Unit Outline
+Module 1—Revenue Recognition Introduction
+Five-Step Approach to Revenue Recognition
+ Step 1—Identify the Contract With the Customer.
+Contracts are agreements between parties that create enforceable rights or obligations. In order for
+revenue to be recognized, a contract must: be approved by all parties, contain identifiable rights for
+each party and payment terms, have commercial substance, and involve probable likelihood that the
+entity will collect substantially all consideration owed. Contracts may be combined into a single
+contract and are potentially modified when the price and/or scope changes.
+ Step 2—Identify the Separate Performance Obligations in the Contract.
+A performance obligation is a promise to transfer either a good or service to a customer. The transfer
+may either be distinct or a series of substantially similar goods/services. To be distinct, the promise
+must be separately identifiable from other goods/services within the contract, and the benefit must be
+available to the customer independently or when combined with the customer's own resources.
+ Step 3—Determine the Transaction Price.
+The transaction price is the amount of consideration that an entity is entitled to receive in exchange
+for transferring goods and/or services to a customer. If applicable, variable consideration, significant
+financing, noncash considerations, and consideration payable to the customer should be factored into
+the transaction price.
+ Step 4—Allocate the Transaction Price to the Separate Performance Obligations.
+If a contract contains more than one performance obligation, the overall transaction price will need to
+be allocated to each separate obligation based on the amount of the expected, standalone
+consideration applicable to each unique obligation. Discounts, variable consideration, and transaction
+price changes should all be factored into the allocation process.
+ Step 5—Recognize Revenue When or as the Entity Satisfies Each Performance Obligation.
+Revenue is recognized when the performance obligation is satisfied through transferring the
+good/service to the customer (who obtains control). Satisfaction can occur over time (measured using
+output or input methods) or at a point in time.
+Presentation
+ A contract asset is booked when the entity has a right to consideration in exchange for
+goods/services transferred to the customer prior to actual payment. A contract liability is booked when
+an entity has an obligation to transfer goods/services when the customer has already paid prior to
+performance.
+Module 2—Accounting Changes and Error Corrections
+Changes in Accounting Estimate (Prospective Application)
+ Changes in estimates, such as the useful life of a plant asset, are incorporated into the accounting
+records for the current and future periods (prospectively). No adjustment of prior financial statements
+is required.
+ A change in depreciation method is a change in accounting principle that is inseparable from a
+change in estimate and is accounted for as a change in estimate.
+FAR 2 Unit Outline
+2
+© Becker Professional Education Corporation. All rights reserved.
+Changes in Accounting Principle (Retrospective Application)
+ Change in principle (or method) involves switching from one acceptable method to another. The
+cumulative effect is the change in retained earnings that results from restating prior years from the
+"old" method to the "new" method at the beginning of the earliest year presented.
+ The cumulative effect is reported as an adjustment to beginning retained earnings, net of tax, in the
+statement of retained earnings.
+ Change in Accounting Principle Exception—When it is impracticable to estimate the change in
+retained earnings that would result from restating the prior year's financial statements, the change in
+method is applied prospectively (like changes in estimate). In this case, no restatement of the prior
+years' presentation occurs, and there is no cumulative effect reported in the statement of retained
+earnings (e.g., changing to U.S. GAAP LIFO from any other inventory method).
+Changes in Accounting Entity (Retrospective Application)
+ Changes in entity require a restatement of the prior years' financial statements to conform with the
+new accounting entity when the prior financials are presented comparatively.
+Error Correction (Prior Period Adjustment)
+ Error corrections are reported net of tax in the statement of retained earnings.
+Module 3—Adjusting Journal Entries
+Matching Revenues and Related Expenses
+ Accrual basis accounting matches revenues with expenses. In order to properly match revenues with
+expenses in the periods in which they occur, it is sometimes necessary to defer or accrue revenues
+or expenses.
+Adjusting Journal Entries
+ If revenue has been deferred, the company must calculate the amount of revenue that can be
+recognized through year-end and make the appropriate adjusting journal entry.
+ If expenses have been deferred (prepaid), the company must calculate the amount of expenses that
+have been incurred through year-end and make the appropriate adjusting journal entry.
+ An entity must assess whether the performance obligation has been met and revenue can be
+recognized prior to the cash being received. If so, revenues must be accrued by recording a
+receivable.
+ An entity must also assess whether expenses have been incurred prior to the cash being paid. If so,
+expenses must be accrued by recording accrued liabilities, accounts payable, or other payables (e.g.,
+wages payable).
+ In some instances, an entity may record receipts to a revenue/expense account when they should
+have been recorded to an asset/liability account. An adjusting entry may be required to ensure that
+the financial statements are in accordance with the accrual basis of accounting.
+ Rules for adjusting journal entries are as follows:
+• Adjusting journal entries must be recorded by the end of the entity's fiscal year before the
+preparation of the financial statements.
+• Adjusting journal entries never involve the cash account.
+• All adjusting journal entries will hit one income statement account and one balance sheet account.
+FAR 2 Unit Outline
+3
+© Becker Professional Education Corporation. All rights reserved.
+Module 4—Notes to Financial Statements
+Summary of Significant Accounting Policies
+ The Summary of Significant Accounting Policies reflects the methods and policies employed by the firm.
+Remaining Notes to the Financial Statements
+ The remaining notes contain all other information relevant to decision makers. These notes are used
+to disclose facts not presented in either the body of the financial statements or in the Summary of
+Significant Accounting Policies.
+ Examples of remaining notes include material information regarding inventory, PP&E, and other
+significant asset/liability balances; changes in stockholders' equity; fair value estimates; contingency
+losses; contractual obligations; pension plan descriptions; segment reporting; subsequent events; and
+changes in accounting principles or implementation of new accounting standards updates.
+Disclosure of Risks and Uncertainties
+ U.S. GAAP requires the disclosure of risks and uncertainties existing at the date(s) of the financial
+statements in the following areas: nature of operations, use of estimates in the preparation of financial
+statements, certain significant estimates, and current vulnerability due to certain concentrations.
+Module 5—Subsequent Events
+Definition of a Subsequent Event
+ A subsequent event is an event or transaction that occurs after the balance sheet date but before the
+financial statements are issued or are available to be issued.
+ Recognized subsequent events provide additional information about conditions that existed at the
+balance sheet date. Entities must recognize the effects of all recognized subsequent events in the
+financial statements.
+ Nonrecognized subsequent events provide information about conditions that occurred after the
+balance sheet date and did not exist at the balance sheet date. Entities should not include
+nonrecognized subsequent events in the financial statements.
+Subsequent Evaluation Period
+ An entity that files financial statements with the Securities and Exchange Commission (SEC) must
+evaluate subsequent events through the date that the financial statements are issued.
+ All other entities must evaluate subsequent events through the date that the financial statements are
+available to be issued.
+Reissuance of Financial Statements
+ When an entity reissues its financial statements, the entity should not recognize events that occurred
+between the date the original financial statements were issued or available to be issued and the date
+that the financial statements were reissued unless an adjustment is required by GAAP or other
+regulatory requirements.
+Revised Financial Statements
+ Revised financial statements are considered reissued financial statements.
+Module 6—Fair Value Measurements
+Fair Value Overview
+ Fair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly
+transaction between market participants in the principal (or most advantageous) market at the
+measurement date under current market conditions.
+FAR 2 Unit Outline
+4
+© Becker Professional Education Corporation. All rights reserved.
+Fair Value Terminology
+ The most advantageous market is the market with the best price for the asset (maximizes selling price
+of the asset) or liability (minimizes payment to transfer liability) after considering transaction costs.
+Fair Value Measurement Framework
+ Entities can use the market approach, the cost approach, the income approach, or a combination of
+these approaches when measuring the fair value of an asset or liability.
+ The fair value hierarchy prioritizes the inputs used in the market, cost, and income valuation
+techniques. Level 1 inputs have the highest priority, and Level 3 inputs have the lowest priority.
+Fair Value Disclosures
+ The objective of fair value disclosures is to provide users of financial statements with information
+about assets and liabilities measured at fair value, including:
+• the valuation techniques and inputs the entity uses to arrive at its measures of fair value,
+including judgments and assumptions that the entity makes;
+• the uncertainty in the fair value measurements as of the reporting date; and
+• how changes in fair value measurements affect the entity's performance and cash flows.
+Exceptions to Fair Value Measurement
+ The entity is exempt from the fair value measurement requirement when:
+• it is not practical to measure fair value;
+• fair value cannot be reasonably determined; or
+• fair value cannot be measured with sufficient reliability.
+Module 7—Special Purpose Frameworks
+Special Purpose Frameworks
+ Other financial statement presentations include OCBOA (other comprehensive basis of accounting)
+financial statements and personal financial statements. OCBOA presentations include financial
+statements prepared using the cash basis, the modified cash basis, and the income tax basis.
+Converting Cash Basis Financial Statements to the Accrual Basis
+ Many small businesses use the cash basis or modified cash basis of accounting to account for dayto-
+day operations. In certain circumstances (e.g., to obtain a loan from a bank, to report to owners, or
+to go public), such entities may be required to convert cash basis financial statements to accrual
+basis financial statements.
+ In order to make this conversion, it is essential to understand the differences between cash basis and
+accrual basis accounting.
+Cash Basis Accrual Basis
+Revenue recognition Cash received Realized or realizable and earned
+Expense recognition Cash paid Incurred/owed/benefit received
+FAR 2 Unit Outline
+5
+© Becker Professional Education Corporation. All rights reserved.
+Module 8—Ratio and Variance Analysis
+Ratio Analysis Overview
+ Ratios are financial indicators that distill relevant information about a business entity by quantifying
+the relationship among selected items on the financial statements. An entity's ratios may be
+compared with ratios of a different period of that entity. An entity's ratios may also be compared with
+competitor ratios and industry ratios. These comparative analyses identify trends that may be
+important to investors, lenders, and other interested parties.
+Profitability Ratios
+ Profitability ratios are measures of the success or failure of an enterprise for a given time period.
+Liquidity Ratios
+ Liquidity ratios are measures of a firm's short-term ability to pay maturing obligations.
+Solvency Ratios
+ Solvency ratios are measures of security or protection for long-term creditors/investors.
+Performance Metrics
+ Performance metrics are measures used to evaluate operating performance and elements of a
+company’s stock performance from the perspective of current and potential investors.
+Limitations of Ratios
+ Although ratios are easy to compute, they depend entirely on the reliability of the data on which they
+are based (e.g., estimates, historical costs, fair value, etc.). Additional information is also valuable
+when analyzing a company.
+Actual vs. Plan
+ Performing a budget variance analysis involves comparing actual results with the annual business
+plan to determine favorable and unfavorable variances.
+FAR 3 Unit Outline
+1
+© Becker Professional Education Corporation. All rights reserved.
+FAR 3
+Unit Outline
+Module 1—Cash and Cash Equivalents
+Definition and Classifications
+ Cash must be readily available. Cash equivalents are highly liquid investment securities with maturity
+dates within 90 days of the date purchased. The only occasion when the time to maturity matters is at
+the purchase date.
+ Restricted cash must be segregated from other cash.
+Bank Reconciliations
+ Bank reconciliations reconcile ending balances per bank and books, with adding and subtracting
+items causing differences between the two balances. Outstanding items are adjustments on the bank
+side and adjusting journal entry information provides adjustments on the book side.
+Module 2—Trade Receivables
+Accounts Receivable
+ Valuing accounts receivable requires reductions for bad debts, sales returns and allowances, and
+sales discounts. This results in a net accounts receivable balance approximating the cash expected
+to be collected.
+ Sales discounts are offered to encourage earlier payment by customers. Sales and related
+receivables can be recorded using either the gross method or the theoretically preferred net method.
+ Trade discounts are applied sequentially, and receivables are recorded net of any trade discount.
+ Accounts receivable are presented on the balance sheet at the net realizable value. Estimating
+uncollectible accounts receivable includes the following methods:
+• Direct write-off method: used for tax; it is not GAAP.
+• The allowance method is GAAP. The allowance for uncollectible accounts is a contra-asset. In
+the balance sheet approach (percent of ending A/R and aging method), the ending balance in the
+allowance account must equal an amount determined by an analysis of the A/R schedule.
+• In the allowance method, writing off an account receivable involves debiting the allowance and
+crediting accounts receivable.
+• When collecting an account previously written off, restore the account receivable and the
+allowance and then record the collection in the normal way.
+ Factoring receivables can be done with or without recourse. With recourse means that the transferor
+retains the risk of uncollectibility. Factoring without recourse is a sale of the receivable, and the
+assignee assumes the risk of loss.
+Notes Receivable
+ Discounting a note receivable involves transferring the note to a third party, usually for cash. This
+transfer can be with or without recourse. If done with recourse, a contingent liability is created for the
+transferor.
+ Determining the proceeds to be received requires deducting the banker's discount (interest) from the
+maturity value of the note. The discount is calculated using maturity value, discount rate, and time left
+to maturity.
+FAR 3 Unit Outline
+2
+© Becker Professional Education Corporation. All rights reserved.
+Module 3—Inventory
+Types of Inventories
+ There are four types of inventory: retail inventory, raw materials inventory, work-in-process inventory,
+and finished goods inventory.
+Goods and Materials to Be Included in Inventory
+ All inventories owned by an entity should be included in the inventory account. FOB shipping terms
+can be used to establish when a purchase or sale has occurred.
+ Consigned goods belong to the consignor.
+Valuation of Inventory
+ Inventory account valuations should include all the costs necessary to make the inventory ready for
+the intended use (sale).
+ Lower-of-cost-or-market and lower-of-cost-or-net-realizable-value are departures from the cost basis
+caused by a decline in the inventory's utility.
+ Under the U.S. GAAP lower-of-cost-or-market (LCM) method, when the inventory's replacement cost
+is lower than the cost basis, a current period inventory write-down may be indicated based on the
+relationship between replacement cost and the market ceiling and floor. LCM is used for inventory
+that is costed using LIFO or the retail inventory method.
+ Under the U.S. GAAP LCM method, when an inventory's net realizable value (Net sales price – Costs
+to complete and dispose) is lower than the cost basis, a current period inventory write-down should
+be recorded. Under U.S. GAAP, lower-of-cost-or-net realizable value is used for all inventory that is
+not costed using LIFO or the retail inventory method.
+Periodic Inventory System vs. Perpetual Inventory System
+ Perpetual and periodic inventory systems control how an entity accounts for purchases and sales of
+inventory.
+ The perpetual system records purchases with a debit to inventory. The periodic system records
+purchases with a debit to purchases.
+ The perpetual system records sales of inventory in two journal entries. The periodic system only
+records the receivable and revenue at the time of sale. The inventory account is updated at the end of
+the period after taking a physical count.
+Primary Inventory Cost Flow Assumptions
+ Inventory methods under U.S. GAAP include: first in, first out (FIFO); last in, first out (LIFO); and
+weighted average. These methods may apply to both periodic and perpetual systems.
+ Because FIFO values inventory at the most recent costs, it will generally result in the highest ending
+inventory, the lowest cost of goods sold, and the highest net income compared to other methods in a
+period of rising prices.
+ LIFO generally results in the lowest ending inventory, the highest cost of goods sold, and the lowest
+net income compared to other methods in a period of rising prices.
+ A weighted average is called a "moving average" in a perpetual inventory system.
+FAR 3 Unit Outline
+3
+© Becker Professional Education Corporation. All rights reserved.
+Gross Profit Method
+ The gross profit and retail inventory methods attempt to estimate ending inventory based on the
+historical gross profit or cost complement percentage.
+Firm Purchase Commitments
+ Firm purchase commitments require current loss recognition if the contracted price exceeds the
+market price and if it is expected that losses will occur when the purchase is actually made.
+Module 4—PP&E: Cost Basis
+Property, Plant, and Equipment
+ Property, plant, and equipment are assets acquired for use in operations, possess physical
+substance, are long-term in nature, and are subject to depreciation.
+Valuation of Fixed Assets
+ Under U.S. GAAP, fixed assets are valued at historical cost to acquire and put into use with few
+exceptions.
+ Donated fixed assets are recorded at fair value and a gain or revenue is recognized equal to that value.
+Property
+ Land should be recorded to reflect all the costs necessary to make the land ready for its intended
+use. Land is not depreciated.
+ Land improvements have finite lives and should be depreciated.
+Plant
+ For the "basket purchase" of land and buildings, allocate the purchase price based on the ratio of the
+appraised value of individual items.
+Equipment
+ Ordinary repairs that maintain the equipment should be expensed. Extraordinary repairs, such as
+overhauls or major replacements, should be capitalized.
+Fixed Assets Constructed by a Company
+ Constructed fixed assets should include capitalized interest on weighted average expenditures
+incurred during the construction period.
+Module 5—PP&E: Depreciation, Disposal, and Impairment
+Overview
+ Physical depreciation is related to an asset's deterioration and wear over time. Functional
+depreciation arises from the obsolescence or inadequacy of the asset to perform efficiently.
+Composite Depreciation and Component Depreciation
+ Under the component depreciation method, separate significant components of a fixed asset with
+different lives should be recorded and depreciated separately. The carrying amount of parts or
+components that are replaced should be derecognized.
+ The composite and group depreciation methods depreciate an entire class of assets over a single life.
+FAR 3 Unit Outline
+4
+© Becker Professional Education Corporation. All rights reserved.
+Basic Depreciation Methods
+ The straight-line, sum-of-the-years'-digits, and declining balance methods are the three major
+methods of depreciation.
+ The units-of-production method is similar to the straight-line method except that the life is defined in
+the number of units expected to be produced.
+Disposals
+ The candidate should be familiar with the journal entries for disposals of fixed assets including sale,
+write-off of fully depreciated asset, and permanent impairment.
+Disclosure
+ Allowances for depreciation and depletion should be deducted from the specific asset reported on the
+balance sheet.
+Depletion
+ Depletion is similar to the units-of-production method, except the former is applied to "wasting"
+assets. Restoration costs should be included in the depletion base.
+Impairment of Property, Plant, and Equipment
+ Fixed asset impairment contains two steps:
+• Step 1—test for recoverability: If the sum of undiscounted expected future cash flows is less than
+the carrying amount, an impairment loss needs to be recognized (go to Step 2).
+• Step 2—calculate impairment loss: The impairment loss is the amount by which the carrying
+amount exceeds the fair value of the asset.
+ If the impaired asset is held for use, the asset is written down to fair value, and subsequent
+depreciation is based on that fair value. If the fair value were to subsequently "rebound," no
+restoration would be permitted.
+ If the asset is held for disposal, depreciation is discontinued. If the fair value were to partially recover
+prior to sale, a restoration would be permitted.
+Module 6—Intangibles with Finite Lives
+Intangible Assets
+ Intangible assets are long-lived legal rights and competitive advantages developed or acquired by a
+business enterprise, including patents, copyrights, trademarks, and goodwill.
+ Purchased identifiable intangible assets should be recorded at cost plus additional expenditures
+necessary to purchase.
+ Identifiable intangibles with finite lives are amortized over the shorter of the estimated economic life
+and the legal life.
+ Intangible assets with finite useful lives are tested for impairment using a two-step impairment test
+whenever events or changes in circumstances indicate that the carrying amount may not be recoverable.
+Purchased Software and Cloud Computing
+ Software purchased for use by an organization is recorded as an intangible asset and amortized over
+the shorter of the legal life or economic life.
+ Cloud computing arrangements (CCA) involve paying a vendor a fee in exchange for the right to use
+software over the internet. Certain implementation costs incurred during the application development
+phase may be capitalized and amortized over the term of the hosting arrangement, while all other
+costs are expensed as incurred.
+FAR 3 Unit Outline
+5
+© Becker Professional Education Corporation. All rights reserved.
+Franchisee Accounting
+ The present value of the amount paid or to be paid by a franchisee (the initial franchise fee) is
+recorded as an intangible asset on the balance sheet and amortized over the expected period of
+benefit of the franchise.
+Start-up Costs
+ In financial accounting, start-up costs are expensed as incurred (note: tax rules permit these costs to
+be capitalized).
+FAR 4 Unit Outline
+1
+© Becker Professional Education Corporation. All rights reserved.
+FAR 4
+Unit Outline
+Module 1—Payables and Accrued Liabilities
+Overview
+ Liabilities are probable future sacrifices of economic benefits arising from the present obligations
+of an entity to transfer assets or provide services to other entities in the future as a result of past
+transactions or events. Liabilities must be identified as current or non-current for financial
+reporting purposes. Current liabilities are obligations with maturities within one year or within the
+operating cycle, whichever is longer. Current liabilities are valued at their settlement values or
+net realizable values.
+ Trade accounts payable are amounts owed for goods, raw materials, and supplies that are not
+evidenced by a promissory note. Purchases of goods and services on credit are usually determinable
+as to the amounts due and the due date. Cash discounts associated with accounts payable can be
+anticipated and journalized. The purchase may be recorded gross or net.
+ Trade notes payable are formal, written promises to pay on a certain date and arise from the
+purchase of goods, supplies, or services. Trade notes payable may include a stated interest rate.
+ Short-term and long-term debt instruments with a stated interest rate whose payment date does not
+coincide with the fiscal year-end will result in an interest payable balance at year-end. The amount
+accrued should represent the interest expense incurred that has not been paid in cash as of the
+balance sheet date.
+ Debt instruments may be set up such that periodic principal payments are made during the life of the
+borrowing. In this case, the principal due within the next year (or operating cycle) will be classified as
+a current liability.
+ Accrued liabilities relate to expenses incurred that have not been paid in cash at the financial
+statement date (such as wages, utilities, rent, etc.).
+ Taxes payable may include property, sales, and income taxes due but not yet paid.
+ Unemployment taxes and the employer's share of payroll taxes (e.g., Social Security and Medicare)
+should be accrued by the employer as an expense. The liability will not be liquidated until the
+amounts are remitted to the appropriate taxing authority. Payroll deductions for Social Security,
+Medicare, and income taxes are withheld from employees out of the gross pay of their paychecks.
+These deductions are the responsibility of the employee and are therefore not recorded as an
+expense but are credited to a payable account until remitted.
+ Accrued vacation is recorded in the year earned if certain conditions are met.
+ Self-insurance liabilities occur when an entity is liable for the risk they choose to bear themselves
+rather than obtaining third-party insurance.
+Exit or Disposal Activities
+ A liability must be recognized for the costs associated with an exit or disposal activity. These costs
+include involuntary employee termination benefits; costs to terminate a contract that is not a capital
+lease; and other costs associated with exit or disposal activities, including costs to consolidate
+facilities or relocate employees.
+FAR 4 Unit Outline
+2
+© Becker Professional Education Corporation. All rights reserved.
+Asset Retirement Obligations
+ An asset retirement obligation is a legal obligation associated with the retirement of a tangible,
+long-lived asset that results from the acquisition, construction, or development and/or normal
+operation of a long-lived asset, except for certain lease obligations (minimum lease payment and
+contingent rentals).
+ When an asset retirement obligation exists and qualifies for recognition, an entity records an asset
+(ARC) and a liability (ARO) on the balance sheet equal to the fair value of the asset retirement
+obligation if a reasonable estimate of fair value can be made. Fair value is generally equal to the
+present value of the future obligations.
+ In subsequent periods after the initial measurement, the ARO liability is adjusted for accretion
+expense due to the passage of time, and depreciation expense is recognized on the ARC asset.
+Module 2—Contingencies and Commitments
+Definition of Contingencies
+ Contingencies are existing conditions whose outcomes depend on some future event or occurrence.
+The three categories of contingencies are probable, reasonably possible, and remote.
+ A loss contingency involves a possible future loss whose existence is proved by subsequent events.
+ A gain contingency is a claim or right to receive assets whose existence is uncertain but may become
+valid upon the occurrence of future events.
+Recognition and Measurement of Gain Contingencies
+ Gain contingencies that are probable are not accrued but are disclosed.
+Recognition and Measurement of Loss Contingencies
+ Loss contingencies that are probable and can be reasonably estimated must be accrued. If a range of
+losses is given, the best estimate of the loss is accrued. If no best estimate can be made, the
+minimum amount is accrued, and the remaining amount is disclosed in a footnote.
+ The nature and amount (range) of a loss contingency that is reasonably possible is disclosed in the
+footnotes and is not accrued.
+ Remote contingencies are generally ignored. Remote contingencies that are guarantees must be
+disclosed.
+Premiums and Warranties
+ Premiums and warranties are loss contingencies that are generally accrued by the entity as the
+expected amounts are probable and can be reasonably estimated.
+Module 3—Long-Term Liabilities
+Time Value of Money
+ Review the time value of money formulas and examples in the text.
+Long-Term Liabilities
+ Long-term liabilities are probable sacrifices of economic benefits associated with present obligations
+that are not payable within the current operating cycle or reported year, whichever is greater.
+FAR 4 Unit Outline
+3
+© Becker Professional Education Corporation. All rights reserved.
+Notes Payable
+ Notes payable (contractual rights to pay money at a fixed or determinable rate) must be recorded at
+present value at the date of issuance.
+ If a note is noninterest bearing or the interest rate is unreasonable (usually below market), the value
+of the note must be determined by imputing the market rate of the note and by using the effective
+interest method.
+Debt Covenants
+ Creditors use debt covenants in lending agreements to protect their interest by limiting or prohibiting
+the actions of debtors that might negatively affect the positions of the creditor.
+ When debt covenants are violated, the debtor is in "technical default," and the creditor can demand
+repayment. Most of the time, concessions are negotiated and real default, as opposed to technical
+default, is avoided.
+Module 4—Bonds: Part 1
+Introduction to Bonds Payable
+ Bonds (payable) are long-term debt instruments issued by an entity. Debentures are unsecured
+bonds. Zero coupon bonds are bonds sold with no stated interest but rather at a deep discount and
+redeemed at face value without periodic interest payments.
+Bonds Payable vs. Notes Payable
+ Review the chart in the text that compares bonds (payable) with notes (payable) attributes.
+Overview of Bond Terms
+ Typically, the face value of individual bonds is $1,000. Interest at the coupon rate may be payable
+annually or semiannually and bond prices are quoted as 100 (percent of face value). The market will
+adjust the price paid for the bonds to reflect the market interest rate or effective interest rate.
+Accounting for the Issuance of Bonds
+ A bond selling price is the sum of the present value of the total face value of the bond plus the
+present value of future interest payments, both discounted at the effective (market) interest rate.
+When the bond coupon rate exceeds the market rate, the bond will sell at a premium. If the bond
+coupon rate is below the market, the market will adjust, and the bond will sell at a discount.
+ An unamortized discount or premium is a component of the carrying value of a bond. The carrying
+value is the face value at the maturity of the bond, and it is used to calculate the interest expense
+when using the effective interest method of premium/discount amortization.
+ Bond issue costs are deducted from the carrying value of the liability and amortized using the
+effective interest method.
+Module 5—Bonds: Part 2
+Bond Amortization Methods
+ Bonds can be issued for more or less than their face amounts. If sold above 100 percent of face
+value, the excess is a premium. If sold below 100, the difference is a discount. Premiums and
+discounts result from market interest rate fluctuation between the time the bond is printed and when it
+is actually issued, and they are amortized to interest expense using the straight-line or effective
+interest method. (U.S. GAAP allows the straight-line method if the difference between the two
+methods is immaterial.)
+FAR 4 Unit Outline
+4
+© Becker Professional Education Corporation. All rights reserved.
+ Under the straight-line method, interest expense is calculated as follows:
+Period
+amortization =
+Premium/discount and bond issuance
+Number of periods the bond is outstanding
+Interest expense = (Face value × Stated interest rate) – Premium amortization
+Or:
++ Discount and bond issuance cost amortization
+ Under the effective interest method, interest expense is calculated as follows:
+Interest expense = Carrying value at the beginning of the period × Effective (market) interest rate
+Bonds Issued Between Interest Dates
+ When bonds are issued between interest payment dates, the selling price includes the accrued
+interest to date.
+Year-End Bond Interest Accrual
+ Interest is accrued at year-end from the last interest payment date.
+Disclosure Requirements
+ Companies with many outstanding debt issues often report only one balance sheet total, which is
+supported by comments and schedules in the accompanying notes.
+Module 6—Troubled Debt Restructuring and Extinguishment
+Troubled Debt Restructuring
+ A troubled debt restructuring generally involves a creditor granting concessions to a debtor, which
+would not be likely under normal circumstances in order to increase the likelihood of collection. The
+debtor will recognize a gain for the excess of the carrying amount of the payable (including accrued
+interest) over the fair value of the assets given up. An ordinary gain or loss may result from the
+difference between the fair value (FV) and the net book value (NBV) of the asset transferred.
+Restructuring may involve a combination of asset transfer, equity transfer, and modification of terms.
+ If an equity interest is transferred, there may be a gain to the extent that the FV of the equity
+transferred exceeds the face of the payable.
+ If there is a modification of terms, the debtor does not change the carrying amount of the debt unless
+it exceeds the total future cash payments specified under the new terms.
+ From the creditor's standpoint, these loans are treated as impaired if it is probable that the creditor
+will be unable to collect the amounts due under the original contract. Bad debt expense (and a
+corresponding allowance for credit losses) may be recorded by the creditor when there is a
+modification of terms associated with the impairment.
+Extinguishment of Debt
+ Corporations issuing bonds may call or retire them prior to maturity. Callable bonds can be retired
+after a certain date at a stated price. Refundable bonds allow an existing issue to be retired and
+replaced with a new issue at a lower interest rate.
+ A liability cannot be derecognized in the financial statements until it has been extinguished. A liability
+is considered extinguished if the debtor pays or the debtor is legally released.
+FAR 4 Unit Outline
+5
+© Becker Professional Education Corporation. All rights reserved.
+Module 7—Lessee Accounting
+Overview
+ A lease is a contractual agreement between a lessor, who conveys the right to use real or personal
+property (an asset), and a lessee, who agrees to pay consideration for this right over a specified time.
+ Once the determination is made that a contract is or contains a lease, the lessee must assess
+whether multiple contracts should be combined and, if applicable, determine whether separate lease
+components within the contracts should be combined or separated from any related nonlease
+components.
+Lease Classification as Operating or Finance
+ Under U.S. GAAP, if any one of the five listed (OWNES) criteria is met, the lease will be classified as
+a finance lease by the lessee.
+• Ownership is transferred to the lessee at the end of the lease.
+• A written purchase option exists (purchase option < estimated fair value).
+• The present value of the minimum lease payments is ≥ ninety (90) percent of the fair value of the
+leased property.
+• The lease term is ≥ 75 percent of the asset's economic life.
+• The asset is specialized such that it will not have an expected alternative use to the lessor when
+the lease term ends.
+ If none of the above criteria are met, it should be treated as an operating lease by the lessee.
+Calculating Leases
+ When calculating leases, parties must determine the lease term, lease payments, and the appropriate
+discount rate.
+Lessee Accounting
+ If the lease is an operating lease, the balance sheet will reflect a right-of-use (ROU) asset and lease
+liability, and both will be amortized over the life of the lease using the effective interest method. On
+the income statement, lease expense will be recognized each year of the lease term using the
+straight-line method for expense measurement.
+ If the lease is a finance lease, the lessee will recognize both an ROU asset and a corresponding
+liability on its balance sheet. Unlike with operating leases, the amortization of the ROU asset for a
+finance lease will be expensed based on how the entity recognizes amortization expense on
+similar assets.
+ Lessees can make an accounting policy election and choose not to recognize ROU assets and lease
+liabilities for leases with terms of 12 months or less.
+Disclosures
+ Lessees are required to make qualitative and quantitative disclosures regarding leases.
+FAR 5 Unit Outline
+1
+© Becker Professional Education Corporation. All rights reserved.
+FAR 5
+Unit Outline
+Module 1—Financial Instruments
+Financial Instruments Overview
+ Financial assets include cash, ownership interests (stocks, partnerships, LLCs), rights to receive cash
+or financial instruments, or exchanges such as derivatives contracts with potentially favorable terms.
+Financial liabilities represent obligations to deliver cash or other financial instruments or exchanges
+(including derivatives contracts) with potentially unfavorable terms.
+Investments in Debt Securities
+ Debt securities include investments such as bonds, government securities, commercial paper,
+redeemable preferred stock, and convertible debt.
+ Under U.S. GAAP, there are three debt securities portfolio classifications: trading, available-for-sale,
+and held-to-maturity.
+• Trading securities are intended for active trading. The portfolio itself is carried at cost and is
+reported at fair value in the financial statements through the use of a valuation account.
+Unrealized gains or losses are reported on the income statement.
+• Available-for-sale (AFS) securities are carried at cost and are reported at fair value in the financial
+statements through the use of a valuation account. A credit loss should be reported for the
+amount by which amortized cost exceeds fair value, with any remaining unrealized loss or any
+unrealized gains to be reported in other comprehensive income (the "U" in the PUFI mnemonic).
+• Held-to-maturity (HTM) securities are appropriate when the investor has the ability and intent to
+hold to maturity. The investment itself is reported in the financial statements at amortized cost. If it
+is probable that all amounts due (principal and interest) will not be collected, the investment
+should be reported at the present value of the principal and interest expected to be collected. A
+credit loss (equal to the difference between amortized cost and the present value of expected
+collections) and allowance must be recognized.
+ Realized gains/losses are recognized in net income when a debt security is sold and HTM and AFS
+securities are impaired (per the rules above).
+Investments in Equity Securities
+ Equity securities include investments such as common and preferred stock, rights to acquire shares
+of stock (warrants, stock rights, call options), and rights to dispose of shares of stock (put options).
+ Equity securities are typically carried at fair value through net income (FVTNI), with unrealized
+gains/losses included in earnings.
+ For equity investments that do not have a readily determinable fair value, the practicability exception
+allows an entity to measure an investment at cost, plus/minus observable price changes of identical
+or similar investments, less impairment.
+ Realized gains/losses equal to the sale price relative to the adjusted cost are booked on the income
+statement.
+Disclosures
+ Under U.S. GAAP, entities must disclose concentrations of credit risk arising from all financial
+instruments, whether from a single party or a group of parties engaged in similar activities that have
+similar economic characteristics. This disclosure is required by all firms except "small" private firms
+(assets < $100 million and no derivatives). Market risk disclosure of financial instruments is
+encouraged but not required under U.S. GAAP.
+FAR 5 Unit Outline
+2
+© Becker Professional Education Corporation. All rights reserved.
+Module 2—Equity Method
+When to Use the Equity Method
+ The equity method is used to account for investments if significant influence can be exercised by the
+investor over the investee. Ownership of 20 to 50 percent of the voting stock of another investee
+company is presumed significant influence (with exceptions).
+Equity Method Accounting
+ Record the investment at cost. Generally, dividends received from the investee reduce the investment
+account, and the investor "picks up" its share of the investee's earnings by increasing the investment
+account and recognizing the earnings on its income statement. Under the equity method, the
+investment account is similar to a bank account.
+ Differences between the price paid for an investment and the book value of the investee's net assets
+are allocated first to the FMV of assets and then to goodwill. Excess fixed asset FMV is depreciated;
+the excess value of land and goodwill is not amortized.
+Comparison of Fair Value and Equity Methods
+ Be familiar with the diagram in the text comparing fair value and equity methods.
+Transition to the Equity Method
+ When significant influence is obtained in a step-by-step acquisition, the equity method is applied
+prospectively by adding the cost of the additional investment to the carrying value of the original
+investment. If the investment was previously accounted for as an available-for-sale security, the
+holding gains and losses in other comprehensive income are recognized in earnings.
+Module 3—Consolidated Financial Statements
+Basic Consolidation Concepts
+ Under the voting interest model, consolidated financial statements are prepared when a parentsubsidiary
+relationship has been formed. An investor is considered to have parent-subsidiary status
+when control over an investee is established or more than 50 percent of the voting stock of the
+investee has been acquired.
+ Business combinations that do not establish 100 percent ownership of a subsidiary by a parent
+company result in a portion of the subsidiary's equity (net assets) being attributable to noncontrolling
+shareholders.
+Application of the Acquisition Method
+ Under the acquisition method, the acquiring corporation records the following during consolidation
+(CAR IN BIG mnemonic):
+• CAR—The common stock, additional paid-in capital, and retained earnings of the subsidiary are
+eliminated.
+• I—The parent company's investment in the subsidiary is eliminated.
+• N—Noncontrolling interest is created if the parent owns less than 100 percent of the subsidiary.
+• B—100 percent of the net assets (assets and liabilities) of the subsidiary (regardless of the
+percentage acquired) are recorded at fair value.
+• I—Identifiable intangible assets of the subsidiary are recorded at fair value.
+• G—If there is an excess of the acquisition cost plus noncontrolling interest over the fair value of
+the subsidiary, then the excess is recorded as goodwill. If the acquisition cost is less than the fair
+value of 100 percent of the underlying assets acquired, then the balance sheet and identifiable
+intangible assets are still adjusted to fair value, and the negative balance is recorded as a gain.
+FAR 5 Unit Outline
+3
+© Becker Professional Education Corporation. All rights reserved.
+Consolidated Workpaper Eliminating Journal Entry
+ Review the year-end consolidated workpaper eliminating journal entry in the text.
+Eliminating Intercompany Transactions
+ Eliminate 100 percent, regardless of whether there is a noncontrolling interest.
+ Eliminate all intercompany accounts. For example, simple income statement eliminations include
+interest revenue and interest expense, and simple balance sheet eliminations include interest
+receivable and interest payable.
+Commonly Tested Intercompany Transactions
+ Intercompany inventory transactions require the elimination of intercompany sales, intercompany cost
+of goods sold, and any intercompany profit on the inventory transactions. The elimination of
+intercompany profit is allocated between the purchaser's ending inventory and the cost of goods sold.
+ Intercompany bond transactions require the elimination of the bonds payable account from the
+issuer's balance sheet, and the investment in bonds account from the balance sheet of the investor.
+Do not assume that the issuer sold these bonds directly to the investor.
+ Intercompany transactions involving land require an elimination making the consolidated financial
+statements look as though the transaction had never occurred. Put the land account back to the value
+that had been in the seller's books and eliminate the gain/loss.
+ Intercompany transactions involving depreciable assets involve essentially the same steps as for land
+but with two complications. There is an accumulated depreciation account that has to be put back
+where it was at the time of the intercompany transaction, and depreciation expense after the sale
+must be adjusted back to what it would have been had the transaction never occurred.
+Preparing Consolidated Financial Statements
+ Review the exercises in the text that give an example of the preparation of consolidated eliminating
+journal entries and the preparation of consolidated financial statements.
+Illustrative Consolidated Financial Statements
+ The consolidated balance sheet includes 100 percent of the parent's and subsidiary's assets
+and liabilities (after eliminating intercompany transactions) but does not include the subsidiary's
+equity. Noncontrolling interest is presented as part of equity, separately from the equity of the
+parent company.
+ The consolidated income statement includes 100 percent of the parent's revenues and expenses and
+all of the subsidiary's revenues and expenses after the date of acquisition. The subsidiary's preacquisition
+revenues and expenses are not included in the consolidated income statement.
+ The statement of consolidated comprehensive income should show, separately, consolidated
+comprehensive income, comprehensive income attributable to the noncontrolling interest, and
+comprehensive income attributable to the parent company.
+ Because noncontrolling interest is part of the equity of the consolidated group, it is presented in the
+statement of changes in equity. The consolidated statement of changes in equity should present a
+reconciliation of the beginning-of-period and end-of-period carrying amount of total equity, equity
+attributable to the parent, and equity attributable to the noncontrolling interest.
+ The preparation of the consolidated statement of cash flows in the period of acquisition is complicated
+by the fact that the prior year's financial statements reflect parent-only balances, and the year-end
+financial statements reflect consolidated balances. The following steps are necessary to prepare a
+consolidated statement of cash flows in the period of acquisition:
+• The net cash spent or received in the acquisition must be reported in the investing section of the
+statement of cash flows.
+FAR 5 Unit Outline
+4
+© Becker Professional Education Corporation. All rights reserved.
+• The assets and liabilities of the subsidiary on the acquisition date must be added to the parent's
+assets and liabilities at the beginning of the year in order to determine the change in cash due to
+operating, investing, and financing activities during the period.
+Module 4—Partnerships
+Admission of a Partner
+ Contributions by a partner to a partnership are recorded at fair value less the present value of
+liabilities assumed by the partnership.
+ Admission of new partners may be accounted for using the exact, bonus, or goodwill method. The
+bonus method adjusts the partners' capital accounts for any difference, the goodwill method adjusts
+the assets (goodwill), and the existing partners' capital accounts for the difference. No adjustment is
+required to the partners' capital accounts under the exact method.
+Profit and Loss Distribution
+ Income or loss is distributed among the partners in accordance with their agreement, and in the
+absence of an agreement, all partners share equally, irrespective of what their capital accounts reflect
+or the amount of time each partner spends on partnership affairs.
+Withdrawal of a Partner
+ Withdrawals of partners also use the bonus and goodwill methods.
+Liquidation of a Partnership
+ When a partnership is liquidated, assets are sold, gains or losses are allocated to the partnership,
+liabilities are paid, and the partners are entitled to receive the balance in their capital account.
+Partners who wind up with debit (overdrawn) balances owe that deficiency to the partnership and the
+other partners. If the capital deficiency remains outstanding, the deficiency must be absorbed by the
+remaining partners.
+Module 5—Statement of Cash Flows
+Overview
+ This statement comprises three sections:
+• Cash Flows from Operating Activities (CFO): Cash receipts and disbursements from transactions
+reported on the income statement and current assets and liabilities. Cash flows related to current
+notes payable and the current portion of long-term debt are reported as financing cash flows.
+• Cash Flows from Investing Activities (CFI): Cash receipts and disbursements from non-current
+assets.
+• Cash Flows from Financing Activities (CFF): Cash receipts and disbursements from debt
+(including non-current liabilities) and equity.
+Cash and Cash Equivalents
+ Cash equivalents (treated as cash) are debt securities with an original maturity date of three
+months or less.
+Methods of Presenting the Statement of Cash Flows
+ Under the indirect method, the operating activities section adjusts net income to cash provided, or
+used, by operating activities. Adjustments to net income include Current assets and liabilities, Losses
+and gains, Amortization and depreciation, and Deferred items (CLAD).
+ When the indirect method is used, a supplemental disclosure of cash paid for interest and income
+taxes is required.
+FAR 5 Unit Outline
+5
+© Becker Professional Education Corporation. All rights reserved.
+Sections of the Formal Statement
+ The candidate should be familiar with how individual transactions affect the operating activities,
+investing activities, or financing activities of an entity's statement of cash flows. Review the summary
+table in the text for individual transaction classifications.
+ A disclosure of noncash investing and financing activities is required.
+Module 6—Income Taxes: Part 1
+Overview
+ GAAP and tax accounting rules differ considerably. Some of the differences are permanent because
+they never reverse. Other differences are temporary because they involve mere timing differences
+between the financial and tax accounting rules.
+ Only temporary differences cause deferred tax consequences.
+ Tax expense is subdivided into two components: current tax expense (CTE) and deferred tax
+expense (DTE).
+ Current tax expense (CTE) is merely the result of multiplying taxable income from the tax return by
+the tax rate. The exam routinely ignores estimated tax payments by firms.
+ The deferred tax account(s) in the balance sheet must be adjusted at the end of each year to reflect
+the appropriate amount of deferred tax liability (DTL) and/or the appropriate amount of a deferred tax
+asset (DTA).
+Permanent Differences
+ Permanent differences, such as tax-exempt interest on municipal bonds or life insurance premiums
+when the corporation is beneficiary, are embedded in tax law and will not reverse in the future;
+therefore, they only affect current tax paid and not the deferred tax accounts.
+Temporary Differences
+ Temporary differences will "turn around" in the future and are part of the deferred tax calculations.
+GAAP requires accrual accounting, and tax law treats some items on a cash basis: e.g., estimated
+liabilities or bad debt expense.
+ When an item is recognized for book purposes before it is deductible for tax purposes, a deferred tax
+asset (DTA) will result. Using straight-line depreciation for the books and MACRS for tax purposes
+will result in lower taxable income in the early years of the asset life and a deferred tax liability (DTL).
+ DRAs and DTLs must be recalculated each year based on enacted tax rates in the year(s) in which
+the taxable item is expected to be realized (DTA) or paid (DTL).
+ If it is more likely than not that all or part of a deferred tax asset will not be realized, a valuation
+allowance must be set up to reduce the asset.
+Module 7—Income Taxes: Part 2
+Uncertain Tax Positions
+ An uncertain tax position represents some level of uncertainty regarding the sustainability of a
+particular tax position by a company. U.S. GAAP requires a more-likely-than-not level of confidence
+before reflecting a tax benefit in a company's financial statements.
+Enacted Tax Rate
+ Because the measurement of deferred taxes is based on the applicable tax rate, it requires that a
+company use the enacted tax rate expected to apply to taxable items (temporary differences) in the
+periods the taxable item is expected to be paid (liability) or realized (asset).
+FAR 5 Unit Outline
+6
+© Becker Professional Education Corporation. All rights reserved.
+Treatment of and Adjustment for Changes
+ The liability method requires that the deferred tax account balance (asset or liability) be adjusted
+when the tax rates change.
+ A change in circumstances that causes a change in judgment about the ability to realize the related
+deferred tax asset in future years (valuation allowance) should be recognized in income from
+continuing operations in the period of the change.
+Balance Sheet Presentation
+ Under U.S. GAAP, all deferred tax assets and liabilities are reported as a non-current amount on the
+balance sheet.
+Operating Losses
+ A net operating loss (NOL) occurs when tax-deductible expenses exceed taxable revenues. Taxable
+income and financial accounting income will differ for the years in which the loss is incurred and
+carried back/forward.
+ NOLs arising in the 2018, 2019, or 2020 tax years can be carried back five years and carried forward
+indefinitely. A taxpayer can elect to forgo the carryback and just carry forward.
+ NOLs arising in 2021 and beyond cannot be carried back but can be carried forward indefinitely.
+NOLs carried forward to taxable years beginning in 2021 or later are limited to 80 percent of taxable
+income before the NOL deduction.
+Investee's Undistributed Earnings
+ Undistributed earnings of an investee are presumed to be distributed in the future and are a
+temporary difference.
+Income Tax Disclosures
+ The components of a net deferred tax liability or asset should be disclosed. Additionally, the amount
+of income tax expense (or benefit) allocated to continuing operations and the amounts separately
+allocated to other items must be disclosed.
+Corporation Tax Summary
+ The candidate should review the corporation tax summary in the text.
+FAR 6 Unit Outline
+1
+© Becker Professional Education Corporation. All rights reserved.
+FAR 6
+Unit Outline
+Module 1—Not-for-Profit Financial Reporting: Part 1
+Introduction to Not-for-Profit Accounting
+ Not-for-profit entities frequently depend significantly on donations or contributions. These entities
+include health care organizations (e.g., hospitals), educational institutions (e.g., universities),
+voluntary health and welfare organizations (e.g., United Way), and other nongovernmental, not-forprofit
+entities (e.g., museums).
+ All these entities use the full accrual basis of accounting.
+Not-for-Profit Financial Reporting Standards
+ The accounting rules for these entities come from the FASB Accounting Standards Codification® (ASC).
+ The required financial statements include the statement of financial position, statement of activities,
+and statement of cash flows.
+ Not-for-profit organizations must report information about the relationships between functional and
+natural expense classifications in one location. Not-for-profits may report this information (1) on the
+face of the statement of activities, (2) as a schedule in the notes to the financial statements, or (3) in a
+separate financial statement (no specific title provided by the FASB).
+Statement of Financial Position
+ Net assets are composed of two elements:
+• Net assets without donor restrictions (no external restrictions)
+• Net assets with donor restrictions (external restrictions either in perpetuity or which can be
+satisfied with time or use requirements)
+ Know that internal board-designated funds are classified as net assets without donor restrictions.
+ When a donor-imposed restriction is satisfied, the amount ceases to be classified as net assets with
+donor restrictions and is reclassified to net assets without donor restrictions.
+Statement of Activities
+ There are three required elements in the statement of activities:
+• Change in total net assets
+• Change in net assets without donor restrictions
+• Change in net assets with donor restrictions
+ Program services represent the major activities of the organization performed in furtherance of
+the organization's mission. Support services represent administration-type functions within the
+organization.
+ Combined costs need to be allocated between program and support services using any
+reasonable means.
+FAR 6 Unit Outline
+2
+© Becker Professional Education Corporation. All rights reserved.
+Module 2—Not-for-Profit Financial Reporting: Part 2
+Statement of Cash Flows
+ In the statement of cash flows (SOCF), transactions are classified in a manner consistent with
+commercial accounting. There are three SOCF classifications, including operating activities,
+investing activities, and financing activities, with direct or indirect presentation allowed for
+reporting operating activities.
+ Contributions of revenue without donor restrictions that are board-designated for future construction
+or the purchase of long-lived assets are classified as an operating activity on the SOCF.
+Module 3—Not-for-Profit Revenue Recognition
+Revenue From Exchange Transactions
+ An exchange transaction is one in which the not-for-profit organization earns resources in exchange
+for a service performed. Revenues from not-for-profit exchange transactions are recognized when
+they are realized or realizable and earned. Revenues from exchange transactions are classified as
+revenue without donor restrictions.
+Contributions Received
+ A contribution is defined as an unconditional transfer of cash or assets (collection is certain) to a new
+owner (title passes) in a manner that is voluntary (the donor is under no obligation to donate) and
+nonreciprocal (the donor gets nothing in exchange). Contributions may include cash, services, and
+other assets.
+ Unconditional promises (pledges) are recorded as revenues for the portion considered collectible
+after treating the entity's estimate of uncollectibility as an allowance for uncollectible accounts.
+Conditional promises are not recognized as revenue until the condition has been satisfied.
+ Donated services are only recognized as revenue and an equal and offsetting expense some of the
+time. The donated service must generally be a specialized service, otherwise needed, measured
+easily, or enhance the value of a nonfinancial asset.
+ Donated collection items are subject to the same rules as for governments (e.g., capitalized at fair
+value); however, this is optional if the collection is exhibited, preserved, and proceeds of any sale are
+to be used to acquire other assets for the collection.
+ Donated materials (if deemed significant) increase assets and support (revenues) at fair value at the
+time of the donation.
+Accounting for Promises to Contribute and Other Support Transactions
+ Donor-imposed restrictions limit the use of contributed assets. They are recognized as revenues,
+gains, and other support in the period received and as assets, decreases of liabilities, or expenses,
+depending on the form of the benefits received.
+Fundraising
+ When a not-for-profit organization offers premiums (e.g., calendars, coffee mugs, tote bags, etc.) to
+donors as part of a fundraising campaign, the cost of the premiums is classified as a fundraising
+expense. Generally, the difference between the contribution made by the donor and the fair value of
+any premiums transferred is classified as contribution revenue.
+FAR 6 Unit Outline
+3
+© Becker Professional Education Corporation. All rights reserved.
+Industry-Specific Revenue Recognition
+ Special revenue recognition rules for NFP educational institutions:
+• Tuition revenues are recorded at gross amounts. Gross revenue from tuition and fees is
+determined by subtracting canceled classes from assessed student tuition and fees.
+• Any price breaks given to students, such as scholarships or tuition waivers, may be treated as an
+allowance that reduces revenues or as an expense.
+ Special revenue recognition rules for NFP health care organizations:
+• Patient service revenues are recorded at gross amounts but displayed on the statement of
+activities net of deductions.
+• Charitable services (charity care or other deep discounts that are generally provided based on
+poverty guidelines) are not recorded as revenues because there was no intention to collect.
+• Bad debt expense may be treated as either an expense (with no effect on revenue) or as a
+deduction from revenue depending on whether the organization assessed the quality or
+collectibility of the related patient account receivable.
+• Other operating revenue includes donated supplies/equipment, cafeteria revenue, parking fees,
+and gift shop revenue.
+• Nonoperating revenue includes all unrestricted gifts and donations plus donated services.
+Module 4—Not-for-Profit Transfers of Assets and Other Accounting Issues
+Transfers of Assets to a Not-for-Profit Organization or Charitable Trust
+That Raises or Holds Contributions for Others
+ An important issue in not-for-profit accounting is the accounting for asset transfers to other not-forprofit
+organizations, such as foundations, and the circumstances under which those transfers should
+be accounted for as (1) a contribution, (2) a liability, or (3) a change in interest in net assets.
+ Financially interrelated organizations are defined as organizations related by both of the following
+characteristics:
+• One organization has the ability to influence the operating and financial decisions of the other.
+• One organization has an ongoing economic interest in the net assets of the other.
+ A not-for-profit is a recipient entity (such as a foundation) when it accepts assets from a resource
+provider (such as a donor or other benefactor) and agrees to use the assets on behalf of, or transfer
+the assets (and/or the return on the assets) to, a specified beneficiary (such as a university). The
+accounting by the recipient entity depends on whether the recipient has variance power and whether
+the recipient and the beneficiary are financially interrelated.
+ Specified beneficiaries recognize their rights to assets held by the recipient unless the recipient is
+explicitly granted variance power. Rights, when recognized, will be recorded as a receivable and
+contribution, a beneficial interest, or a change in interest in the net assets of the recipient.
+FAR 6 Unit Outline
+4
+© Becker Professional Education Corporation. All rights reserved.
+Other Accounting Issues
+ The following pertain to financial instruments:
+• All debt securities and those equity securities that have readily determinable fair values are
+measured at fair value in the statement of financial position.
+• Realized and unrealized gains and losses on investments are reported in the statement of
+activities as increases or decreases in unrestricted net assets unless the use of the investment is
+restricted, either temporarily or permanently, by explicit donor stipulations or by law.
+• Gains and losses that are limited to specific uses by donor stipulations may be reported as
+increases in unrestricted net assets if the stipulations are met in the same reporting period in
+which the gains and income are recognized.
+• Investment returns are reported net of any related investment expense.
+ An underwater endowment is a donor-restricted endowment fund for which the fair value of the fund
+at the reporting date is less than either the original gift amount or the amount required to be
+maintained by the donor or by a law that extends donor restrictions. Underwater endowment funds
+will report accumulated losses together with the endowment fund in net assets with donor restrictions
+and will be accompanied by specific disclosures.
+Module 5—Governmental Accounting Overview
+Governmental Accounting and Reporting Concepts
+ Fund accounting enables service- and mission-driven organizations to easily monitor and report
+compliance with spending purposes (fund restrictions), spending limits (budget), and other fiscal
+accountability objectives.
+Industries That Use Governmental Accounting and Reporting Principles
+ While state and local governments will, by definition, use governmental accounting, other entities
+such as hospitals or universities may also use governmental accounting and reporting. Not-for-profit
+organizations not run by governments (e.g., some hospitals, some universities, voluntary health and
+welfare organizations, and research organizations) do not use governmental accounting and
+reporting principles.
+Generally Accepted Accounting Principles for Governmental Entities
+ Standards for government accounting are established by the Governmental Accounting Standards
+Board (GASB).
+Key Concepts in Governmental Accounting and Reporting
+ Funds are separate, independent, self-balancing sets of accounts, similar to a "checkbook." The three
+major categories of funds are governmental (GRaSPP), proprietary (SE), and fiduciary (CIPPOE).
+ GASB 34 (as amended) establishes the minimum reporting requirements for governments, including
+both fund-based and government-wide financial statement presentations supported by notes to the
+financial statements and required supplementary information.
+FAR 6 Unit Outline
+5
+© Becker Professional Education Corporation. All rights reserved.
+Module 6—Governmental Fund Structure and Fund Accounting
+Fund Structure
+ Governmental funds use the modified accrual basis of accounting. The five governmental (GRaSPP)
+funds are the general, special revenue, debt service, capital projects, and permanent funds.
+ Proprietary (SE) funds use full accrual accounting. The internal service and enterprise funds are the
+two proprietary funds. Proprietary fund accounting is similar to commercial accounting.
+ Fiduciary (trust) funds use full accrual accounting. The "CIPPOE" funds are custodial, investment
+trust, private purpose, and pension and other employee benefit funds.
+Fund Accounting
+ The modified accrual basis of accounting is used with the current financial resources measurement
+focus. It is a blend of accrual and cash basis accounting concepts.
+ The full accrual basis of accounting is used with the economic resources measurement focus. It is
+identical to the accrual basis used in commercial enterprises.
