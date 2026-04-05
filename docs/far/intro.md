@@ -1,3 +1,7 @@
+---
+slug: /
+---
+
 # Introduction to FAR
 
 ## What Is FAR?
