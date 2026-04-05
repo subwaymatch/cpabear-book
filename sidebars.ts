@@ -88,7 +88,10 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Accounting Basics",
-      items: ["far/accounting-basics/types-of-accounts"],
+      items: [
+        "far/accounting-basics/types-of-accounts",
+        "far/accounting-basics/adjusting-journal-entries",
+      ],
     },
   ],
   audSidebar: [
