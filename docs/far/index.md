@@ -1,5 +1,7 @@
 ---
-slug: /
+id: index
+slug: /far
+title: FAR
 ---
 
 # Introduction to FAR

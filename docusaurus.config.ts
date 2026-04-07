@@ -118,20 +118,20 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "CPA Bear Project",
           items: [
             {
-              label: "Tutorial",
-              to: "/",
+              label: "About",
+              to: "/about",
             },
           ],
         },
         {
-          title: "Community",
+          title: "Links",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "AICPA Blueprint",
+              href: "https://www.aicpa-cima.com/resources/download/learn-what-is-tested-on-the-cpa-exam",
             },
             {
               label: "Discord",
@@ -144,11 +144,15 @@ const config: Config = {
           ],
         },
         {
-          title: "More",
+          title: "Project",
           items: [
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "About",
+              to: "/about",
+            },
+            {
+              label: "GitHub Repository",
+              href: "https://github.com/subwaymatch/cpabear-book",
             },
           ],
         },
