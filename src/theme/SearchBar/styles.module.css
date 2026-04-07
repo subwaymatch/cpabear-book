@@ -69,11 +69,15 @@
   width: 100%;
   max-width: 620px;
   margin: 0 16px;
-  background: var(--ifm-background-color);
+  background: #ffffff;
   border: 1px solid var(--ifm-color-emphasis-200);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+:global([data-theme="dark"]) .modal {
+  background: #1b1b1d;
 }
 
 /* Input row */
