@@ -14,7 +14,7 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
  */
 const sidebars: SidebarsConfig = {
   farSidebar: [
-    "far/intro",
+    "far/index",
     {
       type: "category",
       label: "Introduction and Conceptual Framework",
@@ -95,7 +95,7 @@ const sidebars: SidebarsConfig = {
     },
   ],
   audSidebar: [
-    "aud/intro",
+    "aud/index",
     {
       type: "category",
       label: "Ethics, Professional Responsibilities, and General Principles",
@@ -189,7 +189,7 @@ const sidebars: SidebarsConfig = {
     },
   ],
   regSidebar: [
-    "reg/intro",
+    "reg/index",
     {
       type: "category",
       label:

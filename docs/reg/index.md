@@ -1,3 +1,9 @@
+---
+id: index
+slug: /reg
+title: REG
+---
+
 # Regulation (REG)
 
 Welcome to the REG section. This area covers Ethics, Business Law, and Federal Taxation.
