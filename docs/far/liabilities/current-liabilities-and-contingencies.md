@@ -354,7 +354,7 @@ $$
 $$
 
 :::note
-If termination benefits require employees to render service beyond a **minimum retention period** (more than 60 days), the cost is recognized **ratably** over the future service period rather than immediately.
+Under ASC 420, if termination benefits require employees to render service beyond a **minimum retention period** (more than 60 days), the cost is recognized **ratably** over the future service period rather than immediately.
 :::
 
 ---
