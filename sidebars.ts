@@ -57,7 +57,7 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Equity",
-      items: ["far/equity/stockholders-equity"],
+      items: ["far/equity/stockholders-equity", "far/equity/partnerships"],
     },
     {
       type: "category",
