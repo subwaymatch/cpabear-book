@@ -289,6 +289,43 @@ Dr. Research and development expense  150,000
 **Materials, equipment, and facilities** acquired for R&D with **no alternative future use** are expensed at acquisition — they are not capitalized as assets.
 :::
 
+## Crypto Assets
+
+A **crypto asset** (such as Bitcoin or Ethereum) represents a digital value or right recorded on a distributed ledger (blockchain). Under ASC 350-60, crypto assets are classified as **intangible assets** because they are not cash, financial instruments, or tangible property.
+
+### Classification
+
+Crypto assets are treated as **indefinite-lived intangible assets** when all of the following conditions are met:
+
+1. The asset meets the definition of an intangible asset under ASC 350
+2. The asset does **not** provide the holder with enforceable rights to or claims on underlying goods, services, or other assets
+3. The asset is created or resides on a distributed ledger based on blockchain or similar technology
+4. The asset is secured through cryptography
+5. The asset is fungible
+6. The asset is **not** created or issued by the reporting entity or its related parties
+
+### Measurement
+
+When the conditions above are met, crypto assets are measured at **fair value each reporting period**, with changes in fair value recognized in **net income**.
+
+**Example:** Bear Co. holds 5 BTC purchased at \$30,000 each. At year-end, the fair value is \$35,000 per BTC.
+
+$$
+\text{Unrealized gain} = 5 \times (\$35{,}000 - \$30{,}000) = \$25{,}000
+$$
+
+```journal
+Dec 31
+Dr. Crypto assets[a] 25,000
+    Cr. Unrealized gain on crypto assets 25,000
+```
+
+:::tip Exam Tip
+Under ASC 350-60, qualifying crypto assets are marked to fair value each period — unlike traditional indefinite-lived intangibles, which are tested for impairment only when indicators exist. If the crypto asset does **not** meet all of the conditions above (e.g., it is an NFT and therefore not fungible), it follows the standard indefinite-lived intangible impairment model.
+:::
+
+---
+
 ## Summary
 
 | Category                                    | Amortization                   | Impairment Test                            |
@@ -299,7 +336,8 @@ Dr. Research and development expense  150,000
 | R&D costs                                   | N/A — expensed immediately     | N/A                                        |
 | Start-up costs                              | N/A — expensed immediately     | N/A                                        |
 | Capitalized software (for sale)             | Greater of SL or revenue-based | NRV floor test                             |
+| Crypto assets (qualifying)                  | None — fair value through NI   | N/A (mark-to-market each period)           |
 
 :::info
-**Key takeaway:** The most important distinction is between **finite** and **indefinite** life intangibles — it determines whether you amortize and which impairment model applies.
+**Key takeaway:** The most important distinction is between **finite** and **indefinite** life intangibles — it determines whether you amortize and which impairment model applies. Qualifying crypto assets are a special case: they are indefinite-lived intangibles measured at fair value through net income each period.
 :::

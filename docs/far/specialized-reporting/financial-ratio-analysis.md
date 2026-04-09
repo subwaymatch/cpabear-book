@@ -530,3 +530,47 @@ The DuPont ROE of 36.4% matches the direct ROE calculation — a useful self-che
 - **Preferred dividends in EPS:** Always subtract preferred dividends from net income in the numerator of basic EPS.
 - **EBIT ≠ net income:** TIE uses EBIT, not net income. Don't forget to add back interest and taxes.
 :::
+
+---
+
+## Variance Analysis (Actual vs. Plan)
+
+Beyond ratio analysis, companies routinely compare **actual results** against their **annual budget** (or business plan) to identify favorable and unfavorable variances. This process helps management understand where performance exceeded or fell short of expectations.
+
+### How Variances Work
+
+A **variance** is the difference between the actual amount and the budgeted (planned) amount for a given line item.
+
+| Variance Type | Favorable (F) | Unfavorable (U) |
+|---|---|---|
+| **Revenue** | Actual > Budget | Actual < Budget |
+| **Expense / Cost** | Actual < Budget | Actual > Budget |
+
+:::info
+A favorable variance improves net income relative to plan; an unfavorable variance reduces net income relative to plan. A "favorable" label does **not** necessarily mean the result is good — for instance, significantly lower-than-planned advertising spending might be favorable on the cost side but could indicate underinvestment.
+:::
+
+### Example — Budget Variance Analysis
+
+Kingfisher Industries budgeted the following for the quarter and compared to actual results:
+
+| Line Item | Budget | Actual | Variance | F / U |
+|---|---:|---:|---:|:---:|
+| Sales revenue | \$500,000 | \$475,000 | \$(25,000) | U |
+| Cost of goods sold | \$300,000 | \$280,000 | \$20,000 | F |
+| **Gross profit** | **\$200,000** | **\$195,000** | **\$(5,000)** | **U** |
+| Operating expenses | \$120,000 | \$130,000 | \$(10,000) | U |
+| **Operating income** | **\$80,000** | **\$65,000** | **\$(15,000)** | **U** |
+
+**Analysis:** Although COGS was favorable by \$20,000 (spending less than planned), the revenue shortfall (\$25,000 unfavorable) and overspending on operating expenses (\$10,000 unfavorable) combined to produce a \$15,000 unfavorable variance in operating income.
+
+### Limitations of Variance Analysis
+
+- Variances depend entirely on the **quality of the budget** — an unrealistic budget produces misleading variances
+- A single-period comparison does not reveal **trends**
+- Variances do not explain **why** results differed from plan; further investigation is needed
+- Combining favorable and unfavorable variances can mask material issues
+
+:::tip Exam Tip
+FAR exam questions on variance analysis are typically straightforward: compute the difference between actual and budgeted amounts and label each as favorable or unfavorable. Remember that revenue variances and cost variances have **opposite** directional meanings.
+:::
