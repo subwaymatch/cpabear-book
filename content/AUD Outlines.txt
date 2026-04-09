@@ -1,0 +1,3034 @@
+AUD 1 
+Unit Outline 
+Module 1—Professional Standards 
+Professional Standards    
+• 
+The auditor is responsible for performing an audit in accordance with generally accepted auditing standards (GAAS). Compliance with GAAS is mandatory for all audit engagements.  
+
+• 
+Different standards have to be followed depending on the type of engagement that is being performed. These standards are referred to explicitly in the appropriate reports. 
+
+• 
+GAAS, including: 
+
+— 
+The Statements on Auditing Standards (SASs) issued by the AICPA's Auditing Standards Board (ASB), which are used in audits of nonissuers. SASs are also used in audits of issuers, to the extent adopted by the Public Company Accounting Oversight Board (PCAOB). 
+
+— 
+PCAOB standards used in the audits of issuers, including SASs adopted by the PCAOB and auditing standards (AS) issued by the PCAOB.   
+
+
+
+• 
+Generally Accepted Government Auditing Standards (GAGAS) 
+
+• 
+Statements on Standards for Attestation Engagements (SSAE) 
+
+• 
+Statements on Standards for Accounting and Review Services (SSARS) 
+
+
+
+
+
+Auditing Guidance: The GAAS Hierarchy   
+• There are three levels of auditing guidance. 
+• 
+For the first level, auditors are required to comply with SASs published by the ASB for audits of nonissuers and PCAOB Auditing Standards for audits of issuers.  
+
+• 
+The second level is interpretive publications, which are recommendations for how SASs should be applied to certain situations.  
+
+• 
+The third level is other auditing publications, which have no authoritative status but may be helpful for the auditor. 
+
+
+
+
+Module 2—Audit Engagements 
+Audit Process Overview 
+• The chronological steps in the audit process are as follows: accept engagement; assess risk and plan response; perform procedures and obtain evidence; form conclusions; and reporting.    
+
+The Independent Audit Function: The Basics 
+• 
+The purpose of an audit is to provide financial statement users with an opinion on whether the entity's financial statements are presented fairly in all material respects in accordance with the applicable financial reporting framework. In essence, the auditor's report provides credibility to the entity's financial statements.    
+
+• 
+Client management's responsibilities for an audit include: the preparation of the financial statements in accordance with GAAP; the design, implementation, and maintenance of internal control relevant to financial statement preparation and presentation; and providing the auditor with access to all necessary information needed to perform an audit.  
+
+
+1 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+The auditor is responsible for expressing an opinion on the financial statements based on the results of the audit. The auditor is also responsible for maintaining professional skepticism, complying with relevant ethical requirements, exercising professional judgment, obtaining sufficient appropriate audit evidence, and complying with GAAS. 
+
+• 
+The external auditor is unable to obtain absolute assurance that the entity's financial statements are free from material misstatement because of the following inherent limitations: the level of subjectivity contained in financial reporting, the practical (cost versus benefit) and legal limitations in obtaining audit evidence during an audit engagement, and the need for timely financial reporting to financial statement users. 
+
+
+
+Determine the Nature and Scope of the Engagement    
+• 
+When auditing nonissuers, the auditor must determine whether an audit is the most appropriate engagement or whether a review, compilation, or preparation would be more appropriate.  
+
+• 
+When auditing issuers, the auditor must perform an integrated audit of the client's financial statements and internal controls over financial reporting.   
+
+
+
+Overall Objectives of Audit Engagements  
+• When conducting a financial statement audit, the overall objectives of the auditor are to: 
+• 
+Obtain reasonable assurance that the financial statements as a whole are free from material misstatement due to error or fraud, enabling the auditor to express an opinion on whether the financial statements are presented fairly in accordance with the applicable financial reporting framework. 
+
+• 
+Report on the financial statements and communicate the auditor's findings. 
+
+
+
+
+Module 3—Forming an Audit Opinion   
+Forming an Opinion on the Financial Statements   
+• 
+The auditor should form an opinion on whether the financial statements are presented fairly, in all material respects, in accordance with the applicable framework. 
+
+• 
+In order to form that opinion, the auditor should consider the following: 
+
+• 
+Whether sufficient appropriate audit evidence was obtained (as required by GAAS) 
+
+• 
+Whether uncorrected misstatements are material individually or in the aggregate 
+
+• 
+Whether the financial statements are prepared, in all material respects, in accordance with the requirements of the applicable financial reporting framework (e.g., GAAP) 
+
+
+
+
+
+Types of Opinions   
+• 
+An unmodified (unqualified) opinion states that the financial statements present fairly, in all material respects, the financial position, results of operations, and cash flows of the entity in conformity with the applicable financial reporting framework. Note that unmodified is the term used for nonissuers and unqualified is the term used for issuers. 
+
+• 
+The auditor's report should be modified when the auditor concludes that the financial statements as a whole are materially misstated (financial statement issue), or the auditor is unable to obtain sufficient appropriate audit evidence to conclude that the financial statements as a whole are free from material misstatement (audit issue). 
+
+
+2 
+© Becker Professional Education Corporation. All rights reserved. 
+
+
+Module 4—Unmodified (Unqualified) Opinion 
+Unmodified Audit Opinion (Nonissuers)   
+• 
+An unmodified (nonissuer) or unqualified (issuer) opinion should be expressed on an audit report when the auditor concludes that the financial statements are presented fairly, in all material respects, in accordance with the applicable financial reporting framework. 
+
+• 
+The main sections (some marked as optional or when relevant) in the standard nonissuer report are: 
+
+• 
+Auditor's Opinion—States the auditor's opinion regarding fair presentation of the financial statements in accordance with the applicable financial reporting framework. Additional information in this section includes the entity, financial statement titles, the dates or periods covered, and the identification of the applicable financial reporting framework.  
+
+• 
+Basis for Opinion—States that the audit was conducted in accordance with GAAS and that the auditor is required to be independent. This section also references the section of the auditor's report that describes auditor responsibilities and states whether the auditor believes that sufficient appropriate evidence has been obtained to provide a basis for the opinion. 
+
+• 
+Substantial Doubt About the Entity's Ability to Continue as a Going Concern (as necessary)— Draws attention to the note in the financial statements that discloses the conditions or events identified and states that the auditor's opinion is not modified with respect to this matter.  
+
+• 
+Key Audit Matters (when engaged)—States the definition of a key audit matter and describes each key audit matter identified.  
+
+• 
+Management's Responsibility Section—States that management is responsible for the preparation and fair presentation of the financial statements in accordance with the applicable financial reporting framework. Also, states that management's responsibility includes the design, implementation, and maintenance of internal control relevant to the preparation and fair presentation of financial statements that are free from material misstatement, whether due to fraud or error.  
+
+• 
+Auditor's Responsibility Section—Include a statement on each of the following:  
+
+— 
+the responsibility of the auditor is to obtain reasonable assurance about whether the financial statements are free from material misstatement and to issue an auditor's report that includes the auditor's opinion;  
+
+— 
+reasonable assurance is a high level of assurance but is not absolute;  
+
+— 
+the risk of not detecting a material misstatement due to fraud is higher than one resulting from error; 
+
+— 
+misstatements are material if there is substantial likelihood they would influence the judgment made by a reasonable user;  
+
+— 
+the details or description of what is involved in performing an audit, including judgment, risk assessment, internal controls, evaluation of accounting policies, overall presentation, and going concern; and 
+
+— 
+the auditor is required to communicate certain matters, including the planned scope and timing of the audit, significant findings, and certain internal control-related matters, to those charged with governance.  
+
+
+
+• 
+Other Information (as necessary)—Identifies the other information included with the financial statements and clarifies the responsibilities of both management and the auditor with respect to such information. This section should include a statement that the auditor's opinion does not cover the other information.  
+
+
+
+
+3 
+© Becker Professional Education Corporation. All rights reserved. 
+• Other Reporting Responsibilities (as necessary)—This paragraph is included only if the auditor addresses other reporting responsibilities in addition to GAAS.  
+• The auditor's report date indicates the date that sufficient appropriate audit evidence was obtained to support the auditor's opinion.   
+
+Unqualified Audit Opinion (Issuers)  
+• The three sections in the standard issuer report are: 
+• 
+Opinion section—States that an audit was performed and indicates the individual financial statements that were audited. States the auditor's opinion regarding fair presentation of the financial statements in conformity with the applicable financial reporting framework. 
+
+• 
+Basis for Opinion Section—The first paragraph of this section includes a statement on each of the following: 
+
+— 
+the financial statements are the responsibility of management; 
+
+— 
+the auditor's responsibility is to express an opinion; and  
+
+— 
+the auditor is registered with the PCAOB and is required to be independent.  The second paragraph of this section includes a statement on each of the following: 
+
+— 
+the audit was conducted in accordance with the standards of the PCAOB;  
+
+— 
+the audit was planned and performed to obtain reasonable assurance that the financial statements are free from material misstatement, whether due to error or fraud; 
+
+— 
+the details or description of what is involved in performing an audit; and  
+
+— 
+the auditor believes that the audit provides a reasonable basis for the opinion.   
+
+
+
+• 
+Critical Audit Matters Section—The auditor's report must include the section titled "Critical Audit Matters" and should include discussion of any critical audit matters (CAMs) arising from the current period's audit of the financial statements, or state that the auditor determined that there were no CAMs. 
+
+
+
+Required Auditor Reporting of Certain Audit Participants   
+• The auditor of an issuer must also file Form AP with the PCAOB for each audit report issued.  
+
+
+Module 5—Modified Opinions Due to Financial Statement Issues 
+Financial Statement Issues: Qualified or Adverse Opinion   
+• 
+The auditor uses professional judgment to determine whether to issue a qualified opinion or an adverse opinion when audit evidence indicates that there is a material misstatement of the financial statements. 
+
+• 
+Qualified Due to a Material GAAP Departure—The "except for" may be the result of inappropriate or misapplied accounting policies, inappropriate financial statement presentation, inadequate disclosure, or an unreasonable accounting estimate. 
+
+A qualified opinion should be expressed when the auditor concludes that misstatements, individually or in the aggregate, are material but not pervasive to the financial statements. 
+
+• 
+Adverse Opinion—The financial statements are not presented fairly (materially misstated) because management failed to follow GAAP. This opinion may be the result of inappropriate or misapplied accounting policies, inappropriate financial statement presentation, inadequate disclosure, or an unreasonable accounting estimate. 
+
+
+An adverse opinion should be expressed when the auditor concludes that misstatements, individually or in the aggregate, are both material and pervasive to the financial statements. 
+4 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Nonissuer Reports 
+• When the auditor expresses a qualified or adverse opinion due to material misstatement of the financial statements, both the Auditor's Opinion and Basis for Opinion sections are modified to state the modified opinion and to describe the matter giving rise to modification. Additionally, the auditor should not include a "Key Audit Matters" section in the auditor's report when issuing an adverse opinion on the financial statements.   
+
+Issuer Reports 
+• When the auditor expresses a qualified or adverse opinion due to material misstatement of the financial statements, the auditor's report will include an additional paragraph immediately following the opinion paragraph and the opinion paragraph will be modified. The auditor is not required to report critical audit matters in the auditor's report when the auditor expresses an adverse opinion. 
+
+
+Module 6—Modified Opinions Due to Audit Issues 
+Audit Issues: Qualified Opinion or Disclaimer  
+• 
+The auditor uses professional judgment to determine whether to issue a qualified opinion or a disclaimer of opinion when the auditors are unable to obtain sufficient appropriate audit evidence. 
+
+• 
+Qualified Report Due to a Material GAAS Issue—"Except for" may be used if the auditor is unable to obtain sufficient appropriate audit evidence to support management's assertions about the nature of a matter involving an uncertainty, or the auditor is unable to fully complete an audit due to a scope limitation. 
+
+A qualified opinion should be expressed when the auditor concludes that the possible effects of any undetected misstatements could be material but not pervasive. 
+
+• 
+Disclaimer of Opinion—No opinion is expressed on the financial statements as a result of a material GAAS problem. This opinion may be the result of a significant uncertainty, a scope limitation, a lack of independence, or an auditor association with unaudited financial statements. 
+
+
+A disclaimer of opinion should be expressed when the auditor is unable to obtain sufficient appropriate audit evidence to base an opinion on, and the auditor concludes that the possible effects of any undetected misstatements could be both material and pervasive.   
+
+Nonissuer Reports   
+• When the auditor expresses a qualified opinion or disclaimer of opinion, both the Auditor's Opinion and Basis for Opinion sections are modified to state the modified opinion or that no opinion is expressed and to describe the matter giving rise to modification or the reason for the inability to obtain sufficient appropriate audit evidence. Additionally, the auditor should not include a Key Audit Matters section in the auditor's report when issuing a disclaimer of opinion on the financial statements. 
+
+Issuer Reports   
+• When the auditor expresses a qualified opinion or disclaimer of opinion, a paragraph immediately following the opinion paragraph is added and the opinion paragraph is modified. In addition, a qualified opinion and a disclaimer of opinion will include modified language in the Basis for Opinion section. The auditor is not required to report critical audit matters in the auditor's report when the auditor expresses a disclaimer of opinion. 
+5 
+© Becker Professional Education Corporation. All rights reserved. 
+
+
+Module 7—Emphasis-of-Matter, Other-Matter, and Explanatory Paragraphs  
+Emphasis-of-Matter Paragraphs (Nonissuers) 
+• 
+An emphasis-of-matter paragraph is included in the auditor's report of a nonissuer when required by GAAS or at the auditor's discretion. An emphasis-of-matter paragraph is used when referring to a matter that is appropriately presented or disclosed in the financial statements and is of such importance that it is fundamental to the users' understanding of the financial statements. The inclusion of an emphasis-of-matter paragraph in the auditor's report does not affect the auditor's opinion.    
+
+• 
+Know the circumstances when an emphasis-of-matter paragraph is required. 
+
+
+
+Other-Matter Paragraphs (Nonissuers)  
+• An other-matter paragraph is included in the auditor's report of a nonissuer when required by GAAS or at the auditor's discretion. Other-matter paragraphs refer to matters other than those presented or disclosed in the financial statements that are relevant to the users' understanding of the audit, the auditor's responsibilities, or the auditor's report.   
+
+Explanatory Paragraph (Issuers)   
+• 
+An explanatory paragraph is included in the auditor's report when required by PCAOB auditing standards or at the auditor's discretion. The inclusion of an explanatory paragraph in the auditor's report does not affect the auditor's opinion. The explanatory paragraph generally should include an appropriate title and should describe the matter being emphasized and the location of relevant disclosures about the matter in the financial statements.  
+
+• 
+The explanatory paragraph will generally follow the opinion paragraph when added to an unqualified report. 
+
+
+
+Other Audit Considerations   
+• 
+If there is no mention of consistency issues in the auditor's report, it implies that the entity's financial statements are comparable between reporting periods. The auditor should determine whether a change in accounting principle or an adjustment to correct a material misstatement in previously issued financial statements has affected the comparability of the entity's current financial statements. If the auditor is satisfied that certain criteria are met regarding the above, the auditor should include an emphasis-of-matter paragraph in the auditor's report.   
+
+• 
+The auditor may be required by GAAS or may decide that it is necessary to include language in the auditor's report (or other written communication) that restricts the use of the auditor's written communication. In the auditor's report, such language is included in an other-matter (explanatory) paragraph. 
+
+
+
+Summary 
+• The candidate should be familiar with the different circumstances that require an emphasis-of­matter, other-matter, or explanatory paragraph.   
+
+
+Module 8—Reporting With Different Opinions and Other Auditors  
+Reporting on Comparative Financial Statements   
+• 
+Reports on comparative financial statements pertain to two (or more) years, with the auditor's report clearly indicating the periods covered and the related audit opinions expressed.  
+
+• 
+If, during the current audit, the auditor becomes aware of evidence that affects the prior year's financial statements and the opinion that was expressed, the auditor should update the prior opinion in the current year's audit report. The reasons for the updated opinion should be disclosed in the emphasis-of-matter or other-matter (explanatory) paragraph.   
+
+
+6 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+The successor auditor may present the prior period financial statements audited by a predecessor auditor. 
+
+• 
+The predecessor auditor may reissue a report on financial statements if the report is still deemed appropriate. 
+
+• 
+If the predecessor auditor deems that its report is inappropriate, the predecessor auditor may revise and dual date its report. 
+
+
+
+• 
+If the successor auditor does not present the predecessor's audit report, the successor auditor should express an opinion of the current period financial statements only. An other-matters (explanatory) paragraph should be included indicating that the financial statements from the prior period were audited by a predecessor auditor and the type of opinion expressed by the predecessor auditor; the nature of any emphasis-of-matter, other-matter, or explanatory paragraphs; and the report date.  
+
+• 
+Under a scenario in which the current period financial statements are audited and presented in comparative form with prior financial statements that were compiled or reviewed, the auditor should include an other-matter (explanatory) paragraph in the current audit report indicating the distinction. A statement in the other-matter (explanatory) paragraph should also be included to indicate that these services are less in scope than an audit and, as such, do not provide a basis for expressing an opinion on the financial statements.     
+
+
+The other-matter (explanatory) paragraph should also be used if the prior period's comparative statements were not audited, reviewed, or compiled. It should further indicate that the auditor assumes no responsibility for them. 
+
+Reporting on Audits of Group Financial Statements (Nonissuers) 
+• For audits of group financial statements for a nonissuer, the auditor should use his or her understanding of each component auditor to determine whether to make reference to the individual component auditor in the auditor's report.   
+If the group engagement partner decides to assume responsibility for the work of a component auditor, then no reference to the component auditor should be made in the auditor's report. 
+
+Reporting with Referred-to Auditors (Issuers)   
+• 
+The engagement partner is responsible for making the determination as to whether the participation of their audit firm is sufficient to carry out the responsibilities of the lead auditor.  
+
+• 
+The lead auditor is responsible for supervising the other auditors used in the performance of the auditor and determining whether responsibility will be divided with the other auditors (referred-to auditors) or if the lead auditor will maintain full responsibility for the audit.   
+
+• 
+In making the determination regarding the lead auditor, the engagement partner should consider qualitative and quantitative factors regarding locations, the risks of material misstatement associated with the locations, and the extent of firm supervision provided by the engagement partner's firm. 
+
+• 
+When dividing responsibility with another auditor, the lead auditor is responsible for communicating with the referred-to auditor regarding necessary procedures to ensure necessary disclosures are included in the lead auditor's report. 
+
+
+7 
+© Becker Professional Education Corporation. All rights reserved. 
+
+
+Module 9—Subsequent Events 
+Recognition of Subsequent Events 
+• 
+Subsequent events represent events or transactions that occur after the balance sheet date, but before the financial statements are issued. The subsequent event may require an adjustment to the financial statements or simply a footnote disclosure of the event. 
+
+• 
+U.S. GAAP categorizes two types of subsequent events. A recognized subsequent event is a condition that existed on or before the balance sheet date that usually requires an adjustment to the financial statements. A nonrecognized subsequent event may involve a significant business event (e.g., sale of bonds) which occurred after the balance sheet date. Nonrecognized subsequent events usually do not require an adjustment to the financial statements, but instead are disclosed in the footnotes.  
+
+
+
+Management's Responsibility for Subsequent Events 
+• Public companies and other entities that intend to widely distribute financial statements must evaluate subsequent events through the date the financial statements are issued. All other entities must evaluate subsequent events through the date that the financial statements are available to be issued. 
+
+Auditor's Responsibility for Subsequent Events  
+• The auditor is responsible for gathering evidence related to subsequent events up to the date of the auditor's report. 
+
+Auditor's Responsibility After the Original Date of the Auditor's Report 
+• If the auditor becomes aware of information related to subsequent events after the original date of the auditor's report but before the report release date, the auditor should consider whether it is necessary to adjust the financial statements or the related disclosures, and may dual date the auditor's report to extend responsibility only for the particular subsequent event.  
+
+
+Module 10—Other Information and Supplementary Information  
+Other Information 
+• Often, audited financial statements are included in other documents, such as annual reports to shareholders. The auditor should read the other information to ensure that the credibility of the audited financial statements is not compromised by material inconsistencies between the other information and the audited financial statements. 
+
+Reporting on Other or Supplementary Information  
+• There should be a basic understanding of the auditor's responsibilities for each of the following other information (reporting) items. 
+• 
+The auditor must report on other information in documents that are accompanied by the audited financial statements, including how the auditor must handle situations when the other information is materially inconsistent with the financial statements or there is a material misstatement of fact. 
+
+• 
+The auditor of an issuer is not required to reference the other information in the auditor's report on the financial statements. If the auditor does choose to reference the other information, he or she may do so but should disclaim an opinion on the other information in an explanatory paragraph.  
+
+• 
+The auditor of a nonissuer is required to reference the other information in the auditor's report on the financial statements in a separate section with the heading "Other Information" or another appropriate heading. This section should include a statement that the auditor's opinion does not cover the other information. 
+
+
+8 
+© Becker Professional Education Corporation. All rights reserved. 
+• An auditor may be engaged to report on supplemental information in relation to the financial statements taken as a whole. When reporting on supplemental information, there are additional audit procedures that must be performed, which generally use the same materiality level used in a financial statement audit. The auditor's report on supplemental information may be presented in a separate section (nonissuer) or explanatory paragraph (issuer) in the audit report, or in a separate report.   
+
+Required Supplementary Information 
+• An entity may be required by a given standard setter to prepare specific information that is supplemental to the primary financial statements. In the absence of any separate requirement particular to the engagement, the auditor's opinion on the financial statements does not cover the required supplemental information. However, the audit report for nonissuers should include a separate section with the heading "Required Supplementary Information" to explain the circumstances and to disclaim an opinion on the supplemental information. PCAOB standards generally do not require the auditor to add an explanatory paragraph to the audit report for issuers. 
+
+
+Module 11—Special Purpose Frameworks 
+Special Purpose Frameworks   
+• A special purpose framework represents a financial reporting framework other than GAAP, which may include one of the following bases of accounting: cash basis, tax basis, regulatory basis, contractual basis, or any other basis of accounting that uses a definite set of logical and reasonable criteria that is applied to all material items appearing in the financial statements.   
+
+Auditor's Report on Special Purpose Financial Statements 
+• The candidate should be familiar with the reporting requirements for the individual special purpose frameworks as well as the major elements that are included in the special purpose framework reports. 
+9 
+© Becker Professional Education Corporation. All rights reserved. 
+AUD 2 
+Unit Outline 
+
+
+Module 1—Engagement Acceptance and Terms  
+Those Charged With Governance 
+• 
+The auditor is responsible for agreeing with management and those charged with governance on the terms of the audit engagement.  
+
+• 
+Management is comprised of the individual(s) responsible for conducting the entity's operations. 
+
+• 
+Those charged with governance include those who bear responsibility for overseeing the obligations and strategic direction of an entity (including financial reporting). This encompasses the "board of directors" and "audit committee." 
+
+
+
+• 
+Know what an audit committee is (subset of the board; three to five members are outside directors) and its main functions/responsibilities within the corporation. 
+
+• 
+The Sarbanes-Oxley Act requires auditors of issuers to report to and be overseen by the audit committee. 
+
+• 
+The auditor should meet with the audit committee without management present at least once each year. 
+
+• 
+Among other things, the audit committee is responsible for the selection and appointment of the external auditor.  
+
+
+
+
+
+Client Acceptance and Continuance 
+• As part of pre-acceptance activities, the auditor should consider the firm's quality management policies and procedures related to client acceptance and continuance, including the firm's ability to meet reporting deadlines and staff the engagement, the firm's independence, the integrity of client management, and whether appropriate evidence can be obtained on group audits.  
+
+Preconditions for an Audit  
+• Prior to accepting an audit engagement with a new or existing audit client, the auditor should ensure that the following preconditions for an audit are present: 
+• 
+The auditor should ascertain whether the financial reporting framework used by the client is acceptable.  
+
+• 
+The auditor should obtain the agreement of management that it acknowledges and understands its responsibilities for: 
+
+— 
+the fair presentation of the financial statements in accordance with GAAP; 
+
+— 
+the design, implementation, and maintenance of internal controls relevant to the preparation and presentation of the financial statements, to ensure that they are free from material misstatement due to fraud or error; and 
+
+— 
+providing the auditor access to information that is relevant to the preparation and presentation of the financial statements. 
+
+
+
+• 
+The auditor should not accept an engagement if there will be a scope limitation imposed by management or those charged with governance, prior to engagement acceptance, that will result in the auditor disclaiming an opinion on the financial statements. 
+
+
+1 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Other Preconditions for an ERISA Plan Financial Statement Audit 
+• 
+When conducting an ERISA Plan financial statement audit, in addition to the preconditions above, the auditor must also ensure management understands its additional responsibilities, including maintaining a current plan instrument, administering the plan, presenting transactions in accordance with the plan's provisions, and making the appropriate determinations when an ERISA Section 103(a)(3)(C) audit is elected.  
+
+• 
+The auditor should also obtain from management, prior to the date of the auditor's report, a draft of Form 5500 that is substantially complete, and, when electing an ERISA Section 103(a)(3)(C) audit, information on how management determined that the entity preparing and certifying the investment information is a qualified institution.  
+
+
+
+Agreement on Audit Engagement Terms 
+• The auditor must establish an understanding with the client regarding the services to be performed. 
+• 
+An engagement letter is a presumptively mandatory audit requirement.  
+
+• 
+Know the general contents of the engagement letter, including the objectives of the engagement, limitations of the engagement, and the responsibilities of management and the auditor. 
+
+
+
+Recurring Audits 
+• For recurring audits, the auditor should assess whether circumstances require the terms of the engagement to be revised. When the terms of the engagement do not need to be revised, a new engagement letter may be issued, or the auditor may provide an oral or written reminder that the terms of the preceding engagement govern the current engagement. 
+
+Initial Audits 
+• For initial audits, it is mandatory that the auditor make inquiries of the predecessor auditor (with the client's permission). 
+
+Change in Engagement 
+• During an engagement, a client may ask the accountant to change an audit to a compilation or review, or a review to a compilation. Before agreeing to a change, an accountant should consider if there is an acceptable reason for a change as well as the effort required and estimated additional cost to complete the engagement.  
+
+
+Module 2—Engagement Quality 
+Applicability 
+• A CPA firm must adhere to a sound system of engagement quality management, no matter what level of service it provides.  
+
+Objectives of a System of Quality Management for Auditors of Nonissuers 
+• 
+The firm and firm personnel fulfill their responsibilities and conduct engagements in accordance with professional standards and applicable legal and regulatory requirements. 
+
+• 
+Engagement reports issued by the firm are appropriate under the circumstances. 
+
+
+
+Components of a System of Quality Management (Nonissuers) 
+• The following eight interrelated elements of quality management must be memorized: 
+• 
+The firm's risk assessment process (risk-based approach to quality management) 
+
+• 
+Governance and leadership ("tone at the top" influences attitudes throughout the firm) 
+
+• 
+Relevant ethical requirements (standards establish ethical principles that govern the way firms carry out their responsibilities) 
+
+
+2 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Acceptance and continuance of client relationships (determination of whether to accept or continue a client relationship is key and based on factors such as management integrity and available firm resources, and is not solely based on operational or financial priorities of the firm) 
+
+• 
+Engagement performance (engagement team members understand their responsibilities, there is proper supervision of work, professional skepticism is maintained, and differences of opinion are resolved) 
+
+• 
+Resources (proper resources are available, including human, technological, and intellectual) 
+
+• 
+Information and communication (information is obtained, generated, used, and communicated appropriately to enable the system of quality management to function appropriately) 
+
+• 
+Monitoring and remediation process (enables the firm to take timely action and respond when issues or deficiencies are identified) 
+
+
+
+Quality Control Framework for Issuers 
+• 
+Firms that audit issuers must comply with the quality control (QC) standards set by the PCAOB. 
+
+• 
+The QC standards establish a framework for processes that provide the firm with reasonable assurance that firm personnel are following professional standards and the firm's standards of quality. 
+
+
+
+Elements of Quality Control (Issuer Engagements) 
+• A firm's quality control policies and procedures should encompass the following five elements: 
+• 
+Independence, integrity, and objectivity of firm personnel 
+
+• 
+Personnel management (firm personnel have the proficiency to carry out responsibilities, and the level of supervision is appropriate in the circumstances) 
+
+• 
+Acceptance and continuance of clients and engagements (minimizes the risk that a relationship is established with a client that lacks integrity) 
+
+• 
+Engagement performance (work performed meets professional, regulatory, and quality standards) 
+
+• 
+Monitoring of the elements of quality control (to ensure quality control elements are suitably designed and are being effectively applied) 
+
+
+
+Engagement Quality Review 
+• 
+Objective evaluation of the significant judgments and conclusions reached on an engagement. 
+
+• 
+Performed prior to the release of the report by a partner other than the partner or members of the engagement team. 
+
+
+
+Other Considerations 
+• 
+At least annually, the individual or individuals with the ultimate responsibility for the system of quality management should evaluate and conclude on its effectiveness.  
+
+• 
+You must understand the difference between quality management standards (which apply to all of the professional activities of a firm's practice) and generally accepted auditing standards (which apply to individual audit engagements). These are not synonymous terms, and this concept is frequently tested on the exam. 
+
+
+
+Engagement Quality Standards for Nonissuer Engagements 
+• The auditor has specific responsibilities regarding quality management when performing engagements for nonissuers in accordance with GAAS. The auditor's objective at the engagement level is to manage quality and to provide reasonable assurance that the audit complies with professional standards and applicable legal and regulatory requirements, and to ensure that the auditor issues a report that is appropriate in the circumstances.  
+3 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+The engagement partner takes overall responsibility for managing quality at the engagement level. Prior to dating the auditor's report, the engagement partner should determine if the levels of involvement and supervision have been sufficient and the conclusions reached are appropriate based on the specific circumstances of the engagement. 
+
+• 
+If the engagement is subject to an engagement quality review, the review should be completed and included in the engagement documentation prior to the release of the auditor's report. 
+
+
+
+Engagement Quality Standards for Issuer Engagements 
+• 
+The auditor of an issuer has the primary obligation of issuing an independent auditor's report that is both informative and accurate as a means of protecting investors. 
+
+• 
+PCAOB standards require an engagement quality review and concurring approval of audit report issuance for all audits of issuers and for each engagement to review the interim financial statements of an issuer. 
+
+
+
+
+Module 3—Documentation 
+Overview 
+• 
+The auditors must create audit documentation, also called workpapers. Audit documentation serves as the primary record of the work performed and provides support for the audit opinion rendered on the financial statements. 
+
+• 
+The purpose of audit documentation is to provide evidence supporting the basis for conclusions reached in the audit report and achievement of the auditor's overall audit objectives, and to provide evidence that the audit was conducted in accordance with GAAP and applicable legal and regulatory requirements. 
+
+
+
+Audit Documentation Requirements 
+• 
+Audit documentation belongs to the auditor—be aware of the confidentiality issues surrounding audit documentation. 
+
+• 
+Be aware of the specific requirements surrounding audit documentation. Audit documentation should be detailed enough that an experienced auditor, with no previous affiliation with the audit, can understand the nature, extent, and timing of audit procedures performed; the audit results and evidence obtained; any significant findings or issues that surfaced during the audit; and the conclusions reached, including whether significant judgment was involved in reaching those conclusions. 
+
+• 
+Audit documentation should provide evidence, when possible, that professional skepticism was maintained throughout the audit.  
+
+• 
+Audit documentation should be prepared on a timely basis. Be aware of the factors that affect the quantity, type, and content of audit documentation. 
+
+• 
+Know the terms report release date (the date on which the auditor grants the client permission to use the report) and documentation completion date (the date by which final documentation must be assembled). 
+
+• 
+Nonissuers—Documentation completion date = Report release date + 60 days 
+
+• 
+Issuers—Documentation completion date = Report release date + 14 days 
+
+
+
+• 
+Documentation retention requirements:  
+
+• 
+Five years for audits of nonissuers 
+
+• 
+Seven years for audits of issuers 
+
+
+
+• 
+Know what is typically included in audit documentation, and know the difference between the permanent (continuous) file and the current file. 
+
+
+4 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Understand which matters would be considered significant audit findings, and how such matters should be documented (i.e., finding, action taken, conclusion reached). 
+
+• 
+Understand what tickmarks are and how they are used.  
+
+
+
+
+Module 4—COSO Internal Control Framework 
+Overview of Internal Control  
+• 
+As part of the auditor's risk assessment process, the auditor must obtain an understanding of the entity's system of internal control. 
+
+• 
+A control is a policy or procedure established to achieve control objectives, including reliable financial reporting, effective/efficient operations, and compliance with laws and regulations.  
+
+
+
+COSO Internal Control Framework 
+• 
+A framework established to assist organizations in developing comprehensive assessments of internal control effectiveness. 
+
+• 
+Used by a company's management and its board of directors.  
+
+• 
+Comprised of five components (see below) that are supported by 17 fundamental principles. 
+
+
+
+Components of Internal Control 
+• There are five components of internal control (CRIME). Know the basic definition of each, and be familiar with the factors included in each component: 
+• 
+Control environment 
+
+• 
+Risk assessment (this is management's assessment, not the auditor's) 
+
+• 
+Information and communication systems 
+
+• 
+Monitoring 
+
+• 
+Existing control activities 
+
+
+
+
+Module 5—Planning 
+Overview of Planning  
+• The following are required during the planning stage of the audit: 
+• 
+Obtain knowledge of the client's business and industry. 
+
+• 
+Develop the overall audit strategy. 
+
+• 
+Develop the audit plan. 
+
+• 
+Perform risk assessment procedures to obtain an understanding of the entity and its environment, including the system of internal control and the applicable financial reporting framework.  
+
+
+
+Knowledge of Client's Business and Industry  
+• Obtaining knowledge of the client's industry helps to highlight practices unique to that industry that may affect the client's financial statements. Gaining an understanding of the client's business prior to commencing an audit provides information regarding events and transactions that may impact the client's financial statements.  
+
+Developing the Audit Strategy 
+• The audit strategy outlines the scope of the audit engagement, the reporting objectives, the timing of the audit, required communications, and the factors that determine the focus of the audit.  
+5 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Developing the Audit Plan 
+• 
+The audit plan is based on the audit strategy and outlines the nature, extent, and timing of the procedures to be performed during the audit, including: 
+
+• 
+Risk assessment procedures performed to assess the risk of material misstatement. 
+
+• 
+Planned further audit procedures, including tests of the operating effectiveness of controls and substantive procedures. 
+
+• 
+Other audit procedures that may be required to comply with GAAS. 
+
+
+
+• 
+ERISA Plan Financial Statement Audits have a specific listing of risk assessment and audit procedures that should be performed when performing such an engagement. 
+
+
+
+Consideration of Financial Statement Assertions 
+• Further audit procedures are performed at the relevant assertion level. Relevant assertions are those that have an identified risk of material misstatement. The main financial statement assertions (COVERUP) are: 
+• 
+Completeness 
+
+• 
+CutOff 
+
+• 
+Valuation, allocation, and accuracy 
+
+• 
+Existence and occurrence 
+
+• 
+Rights and obligations 
+
+• 
+Understandability of Presentation and classification 
+
+
+
+Written Audit Plan  
+• 
+After sufficient planning information has been gathered, an audit plan should be drafted. A written audit plan is required for every audit. As the audit progresses, the initial audit plan may need to be modified in response to changing conditions or the results of other procedures. 
+
+• 
+The group audit team should also develop an audit plan (strategy), which should include the extent to which the team will use the work of component auditors. 
+
+
+
+Communicating the Planned Scope and Timing of an Engagement 
+• While performing an audit on a client's financial statements, the auditor is required to communicate certain matters regarding the planned scope and timing of the audit engagement to those charged with governance. The PCAOB's audit committee communication requirements include additional items for issuers regarding the planned scope and timing of the audit. 
+
+
+Module 6—Using the Work of Others 
+Client's Internal Auditor 
+• 
+The auditor should consider the need to utilize other professionals.  
+
+• 
+The auditor may choose to make use of the client's internal auditor. 
+
+• 
+If the external auditor plans to use the internal auditor to provide direct assistance, the internal auditor's competence and objectivity should be assessed. 
+
+• 
+If the external auditor plans to use the work of the internal audit function in obtaining audit evidence, the competency of the internal audit function, objectivity of the internal auditors, and whether the internal audit function applies a systematic and disciplined approach should be assessed. 
+
+
+
+
+6 
+© Becker Professional Education Corporation. All rights reserved. 
+• The auditor cannot share with the internal auditor any of the responsibility for audit decisions, judgments, or assessments made as part of the audit, or any of the responsibility for issuing the report. 
+
+Using the Work of a Specialist 
+• 
+The auditor may need to utilize a specialist.  
+
+• 
+There are two general types of specialists: an auditor's specialist and a management (company) specialist. Know the distinction and how they are used.  
+
+• 
+The specialist must be competent, have professional capabilities, and be objective.  
+
+• 
+A specialist is not mentioned in the auditor's report if an unmodified opinion is issued. When a modified opinion is issued, the auditor may reference the work of the specialist if the auditor receives prior permission from the specialist. 
+
+
+
+• 
+The auditor is responsible for assessing the relevance and reasonableness of the findings of a management's specialist, the consistency of the findings with other audit evidence, and determining whether the findings are appropriately reflected in the financial statements. 
+
+
+
+Using the Work of an IT Auditor 
+• Someone possessing specialized knowledge in information technology participating in the audit is called an IT auditor, not a specialist.  
+• 
+The IT auditor is considered a member of the engagement team. 
+
+• 
+The IT auditor may be used throughout the audit to obtain an understanding of internal control, assess risks, and perform control tests and substantive procedures. 
+
+• 
+The audit partner supervises and reviews the work performed on the audit, including the work performed by any IT auditors. 
+
+
+
+Using the Work of a Component Auditor in an Audit of a Nonissuer 
+• A component auditor performs work on the financial information of a component that will be used as audit evidence for a group audit. 
+• 
+A component auditor may be engaged to obtain sufficient appropriate evidence over a component or may be required by law or regulation. 
+
+• 
+The group auditor is responsible for determining the need for a component auditor and for evaluating the adequacy of the component auditor's work. 
+
+• 
+For audits of group financial statements, the auditor should use his or her understanding of each component auditor to determine whether to refer to the individual component auditor in the auditor's report. 
+
+• 
+If the group engagement partner decides to assume responsibility for the work of a component auditor, then no reference to the component auditor should be made in the auditor's report. 
+
+
+
+Using the Work of an Other Auditor in an Audit of an Issuer 
+• Other auditors are those helping the audit firm responsible for issuing the audit report (known as the lead auditor), who may not be employees of, or under the direction of, the lead auditor. 
+• 
+When the lead auditor determines that responsibility will not be divided with the other auditor, the lead auditor must adhere to certain requirements. 
+
+• 
+When the other auditor plays a substantial role in the preparation of the lead auditor's report, the work of the other auditor may only be used if the other auditor is registered with the PCAOB. 
+
+
+7 
+© Becker Professional Education Corporation. All rights reserved. 
+
+
+Module 7—Materiality 
+Overview 
+• When establishing the audit strategy, the auditor should determine materiality for the financial statements as a whole, performance materiality, and, when necessary, materiality levels for particular classes of transactions, account balances, or disclosures. 
+• 
+Materiality as defined by the U.S. Supreme Court is: "a substantial likelihood that the … fact would have been viewed by the reasonable investor as having significantly altered the 'total mix' of information available." 
+
+• 
+Professional judgment is necessary when determining materiality for the financial statements as a whole. Both qualitative and quantitative factors should be assessed when determining materiality for the financial statements as a whole. 
+
+• 
+Performance materiality represents the amount established by the auditor at less than materiality for the financial statements as a whole, to reduce to an appropriately low level the probability that the aggregate of uncorrected and undetected misstatements exceeds materiality for the financial statements as a whole. 
+
+• 
+Tolerable misstatement is the maximum error in a population that the auditor is willing to accept and is the application of performance materiality to sampling procedures. 
+
+• 
+Separate materiality levels can be applied to classes of transactions, account balances, or disclosures for which misstatements of a lesser amount than materiality for the financial statements as a whole could influence the reasonable judgment of users. 
+
+
+
+
+Module 8—Audit Risk 
+Overview 
+• 
+Audit risk (AR) is the risk that the financial statements are materially misstated (risk of material misstatement or RMM), but the opinion is not appropriately modified (detection risk or DR). 
+
+• 
+Misstatements can occur due to unintentional errors or intentional fraud. Misstatements can be further broken into factual misstatements, judgmental misstatements, and projected misstatements. 
+
+
+
+Audit Risk Model  
+• 
+Audit risk is a function of the risk of material misstatement and detection risk. 
+
+• 
+Risk of Material Misstatement (RMM)—The risk that the financial statements are materially misstated. This risk is composed of two risks that must be assessed by the auditor. 
+
+• 
+Inherent Risk (IR)—The susceptibility of an assertion to a material misstatement, assuming no related controls. 
+
+• 
+Control Risk (CR)—The risk that a material misstatement that could occur in an assertion will not be prevented or detected (and corrected) on a timely basis by the entity's system of internal control. 
+
+• 
+For identified risks of material misstatement, CR and IR must be assessed separately.  
+
+
+
+• 
+Detection Risk (DR)—The risk that the auditor does not detect a material misstatement that exists in an assertion. This is the only element that the auditor can control by varying the nature, extent, or timing of audit procedures. 
+
+• 
+Audit risk must be minimized. 
+
+
+• If the auditor's assessment of the risk of material misstatement increases (through an increase in inherent risk and/or control risk), then the auditor must reduce detection risk to keep overall audit risk low.  
+8 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+The risk of material misstatement (inherent risk and control risk) has an inverse relationship to detection risk. 
+
+• 
+Remember that the auditor can change his or her assessment of the risk of material misstatement but cannot change the actual risks. 
+
+
+
+Audit Risk and Materiality  
+• 
+There is a relationship between audit risk and materiality. 
+
+• 
+Audit risk and materiality must be considered together in designing the nature, extent, and timing of audit procedures. 
+
+• 
+Audit risk and materiality must be considered at both the financial statement level and at the individual account balance, transaction class, or disclosure item level. 
+
+• 
+There is an inverse relationship between materiality and audit risk. 
+
+
+
+• 
+A class of transaction, account balance, or disclosure is significant when there is an identified risk of material misstatement at the assertion level. 
+
+• 
+A class of transaction, account balance, or disclosure is material when there is a substantial likelihood that omitting or misstating it would influence the judgment of a reasonable financial statement user. 
+
+
+
+
+Module 9—Fraud Risk 
+Overview of Fraud 
+• 
+There are two types of fraud risk: 
+
+• 
+Fraudulent Financial Reporting—Intentional misstatements or omissions of amounts and disclosures in the financial statements with the intent to deceive the user. 
+
+• 
+Misappropriation of Assets—Theft of an entity's assets. 
+
+
+
+• 
+There are three fraud risk factors. Their presence indicates a greater possibility of fraud. 
+
+• 
+Incentives/pressures exist when there is a reason to commit fraud. 
+
+• 
+Opportunity to commit fraud exists due to a lack of effective controls. 
+
+• 
+Rationalization/attitude associated with attempting to justify fraudulent behavior. 
+
+
+
+
+
+Consideration of Fraud During an Audit  
+• 
+You must understand management's responsibility with respect to fraud versus the auditor's responsibility.  
+
+• 
+It is management's responsibility to design and implement programs and controls to prevent, detect, and deter fraud.  
+
+• 
+The auditor has a responsibility to obtain reasonable assurance about whether the financial statements are free of material misstatement, whether due to error or fraud. The auditor must: 
+
+• 
+Exercise professional skepticism. 
+
+• 
+Discuss fraud risk with engagement personnel. 
+
+• 
+Obtain information regarding fraud risk (inquiry, analytical procedures, etc.). 
+
+• 
+Identify and assess fraud risk and develop an appropriate response. 
+
+• 
+Evaluate how audit evidence affects the fraud risk assessment. 
+
+
+
+
+9 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Communications  
+• 
+When there is an indication of fraud, including immaterial fraud, the auditor should communicate this with the appropriate level of management at least one level above the parties involved. 
+
+• 
+Fraud that causes material misstatement or involves senior management should be reported to the audit committee or those charged with governance. 
+
+• 
+The candidate should know the circumstances in which it is acceptable for the auditor to communicate fraud to outside parties. 
+
+
+Complete documentation of the auditor's fraud risk assessment and response is required.  
+10 
+© Becker Professional Education Corporation. All rights reserved. 
+AUD 3 
+Unit Outline 
+
+
+Module 1—Understanding the Entity and Its Environment 
+Risk Assessment Overview  
+• The auditor should perform risk assessment procedures, which enable the auditor to identify and assess the risks of material misstatement and make informed judgments about other audit matters. 
+
+Risk Assessment Procedures and Considerations 
+• 
+The auditor performs risk assessment procedures to obtain an understanding of: 
+
+• 
+the entity and its environment; 
+
+• 
+the applicable financial reporting framework; and 
+
+• 
+the system of internal control. 
+
+
+
+• 
+Risk assessment procedures used by an auditor include: 
+
+•
+ inquiries of management and others within the organization; 
+
+• 
+analytical procedures that study plausible relationships between the financial and nonfinancial data of an entity, including audit data analytics (ADAs); and 
+
+• 
+reviewing internal and external information obtained during the audit. 
+
+
+
+• 
+The members of the audit engagement team should have a risk assessment discussion to discuss the susceptibility of the financial statements to material misstatement and the need for maintaining professional skepticism. 
+
+• 
+Risk assessment is an ongoing process, and risk assessment may change and evolve as the audit progresses. 
+
+
+
+Obtaining an Understanding of the Entity and Its Environment and the Applicable Financial Reporting Framework 
+• The risk assessment includes obtaining an understanding of the entity and its environment, including the applicable financial reporting framework and its system of internal control. The auditor should obtain an understanding of:  
+• 
+The nature of the entity 
+
+• 
+The entity's objectives, strategies, and business risks 
+
+• 
+The selection and application of accounting policies 
+
+• 
+The entity's financial performance 
+
+• 
+The group, its components, and their environments, if applicable 
+
+• 
+The impact of inherent risk factors 
+
+• 
+The IT environment 
+
+• 
+Relevant external factors, including industry, regulations, government policy, financial reporting framework, technology, supply chain, and other economic factors. 
+
+
+1 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Foundational Concepts: Economic Factors 
+• For an auditor to understand the economic factors impacting an entity, a foundational understanding of key microeconomic and macroeconomic factors is critical. 
+• 
+Know and understand key microeconomic concepts, including, supply, demand, market equilibrium, price elasticity, and profit maximization.  
+
+• 
+Know and understand key macroeconomic concepts, including business cycles, and leading/lagging/coincident economic indicators. 
+
+
+
+
+Module 2—Understanding the Control Environment and Business Processes  
+Auditor's Consideration of Internal Control   
+• 
+The auditor should obtain an understanding of an entity's system of internal control sufficient to assess the risk of material misstatement (RMM) and determine the nature, extent, and timing of further audit procedures. 
+
+• 
+The auditor is required to test the design and implementation of controls that address a significant risk, controls over journal entries or other adjustments, controls that will be used by the auditor to test operating effectiveness in order to amend the nature, extent, and timing of substantive procedures, and other controls as deemed appropriate in the auditor's professional judgment. 
+
+• 
+The auditor should also identify IT applications subject to risk, the related risks arising from the use of IT, and any general IT controls that address such risks.  
+
+• 
+The use of information technology may affect any of the five components of internal control.   
+
+• 
+Controls related to IT may be manual or automated. 
+
+
+
+• 
+Know and understand the different types of general IT controls and information processing controls. 
+
+• 
+The auditor's understanding should include an evaluation of the design and implementation of the entity's controls. The understanding is obtained through the following procedures (which must be documented): 
+
+• 
+Walk-throughs 
+
+• 
+Inquiry of entity personnel 
+
+• 
+Observation of the application of controls and of the entity's premises and plant facilities 
+
+• 
+Inspection of documents and records 
+
+
+
+• 
+Understanding the design and implementation of controls is required to complete the assessment of the risk of material misstatement, even if no reliance on the controls is planned in the audit approach. 
+
+• 
+The auditor must document the understanding of the design and implementation of the entity's identified controls and may do so using flowcharts, internal control questionnaires, narratives, or client prepared documentation such as manuals.  
+
+• 
+The inherent limitations of internal control include management override of controls, human error and collusion, external events beyond the entity's control, and issues related to the suitability of the entity's objectives.   
+
+
+2 
+© Becker Professional Education Corporation. All rights reserved. 
+
+
+Module 3—Identifying, Assessing, and Responding to Risk 
+Identifying and Assessing the Risks of Material Misstatement   
+• The auditor uses the understanding of the entity and its environment, the applicable financial reporting framework, and the entity's system of internal control to identify and assess the risks of material misstatement: 1) at the financial statement level; 2) at the assertion level; and 3) to identify the relevant assertions and related significant transactions, account balances, and disclosures. The auditor should then develop a response to each of these three types of risks.  
+Know the difference between financial statement level and assertion level risks and understand the factors that may be indicative of a significant risk. 
+
+Responding to the Assessed Risks of Material Misstatement   
+• 
+The auditor should respond to the overall financial statement risks and risks at the relevant assertion level. 
+
+• 
+Financial statement level risks may be addressed through an increased emphasis on maintaining professional skepticism, assigning more experienced or specialized staff, and changing the nature, extent, and timing of the audit procedures. 
+
+• 
+The auditor may choose between two audit approaches for identified risks at the relevant assertion level: 
+
+— 
+A Substantive Approach—Only substantive procedures will be performed (controls are nonexistent or ineffective, or it would be inefficient to test them). 
+
+— 
+Tests of controls may be required when there is extensive use of technology, even if a substantive approach would otherwise be utilized. 
+
+— 
+A combined Approach—Tests of controls are performed in the hope that effective controls will allow a reduction in substantive testing. 
+
+— 
+Even if controls are effective, substantive tests are always required for each relevant assertion of each significant transaction class, account balance, or disclosure item. 
+
+— 
+Dual-purpose tests can be used to test controls concurrently with a test of details on the same transaction.  
+
+
+
+
+
+• 
+Recall the required audit response for all significant risks with respect to evaluation of the design, implementation, and operating effectiveness of controls, substantive procedures, evidence, and communication.  
+
+
+
+Responding to RMM: Tests of Controls    
+• Tests of controls are performed when the auditor's risk assessment is based on the assumption that controls are operating effectively, or when substantive procedures alone are insufficient.  
+• 
+When performing tests of controls, the auditor must obtain evidence that the controls selected for testing were designed effectively and operated effectively during the period of reliance. 
+
+• 
+Inquiry, inspection, observation, and reperformance are used to test the operating effectiveness of controls. (It should be noted that inquiry alone is insufficient, and observation relates only to a specific point in time.) 
+
+• 
+The results of tests of controls may indicate that: 
+
+— 
+controls are operating effectively and can be relied upon; or 
+
+— 
+controls are not operating effectively, in which case, the auditor can either test alternative controls or reassess control risk and perform more reliable and extensive substantive procedures. 
+
+
+
+
+3 
+© Becker Professional Education Corporation. All rights reserved. 
+• Control deficiencies may be identified in the design or operation of controls. When deficiencies are noted, the auditor should: 
+• 
+Consider compensating controls. 
+
+• 
+Determine if there is a significant deficiency or material weakness. 
+
+• 
+Consider the magnitude and possibility of potential misstatements that could occur. 
+
+• 
+Design substantive tests related to the deficiency to provide evidence that the financial statements are free from material misstatement in that audit area. 
+
+
+
+Responding to RMM: Substantive Procedures 
+• 
+Substantive procedures are used to detect material misstatements at the relevant assertion level. Regardless of the assessed risks of material misstatement, substantive procedures are required for each relevant assertion of each significant transaction class, account balance, or disclosure. 
+
+The two types of substantive procedures are tests of details and substantive analytical procedures. 
+
+• 
+Know the ways in which an auditor can vary the nature, extent, and timing of both tests of controls and substantive tests.    
+
+
+
+
+Module 4—Specific Areas of Engagement Risk and Consideration 
+Overview 
+• The auditor has the responsibility to respond appropriately in areas in which specific audit considerations are relevant. 
+
+Compliance With Laws and Regulations  
+• 
+Noncompliance represents an intentional or unintentional act or omission by a company that is contrary to the prevailing laws or regulations. When a company is in noncompliance with laws or regulations, it may be subject to fines, litigation, or other consequences that may have a material impact on the financial statements. 
+
+• 
+Management and those charged with governance are responsible for making sure the entity's operations are conducted in accordance with applicable laws and regulations. 
+
+• 
+The auditor is responsible for obtaining reasonable assurance that the financial statements are free of material misstatement due to noncompliance with laws and regulations. The auditor is not responsible for preventing noncompliance and is not expected to detect noncompliance with all laws and regulations. 
+
+• 
+When an instance of noncompliance has a material effect on the entity's financial statements, the auditor may issue a qualified opinion or adverse opinion. If the auditor is unable to obtain sufficient appropriate evidence regarding actual or suspected noncompliance, the auditor may issue a qualified opinion or disclaimer of opinion. 
+
+• 
+When the client refuses to accept the modified opinion due to noncompliance issues, the auditor should withdraw from the engagement and notify those charged with governance in writing.   
+
+
+
+Accounting Estimates    
+• 
+Accounting estimates are imprecise and can be susceptible to unintentional or intentional management bias, which in turn increases the risks of material misstatement of accounting estimates. 
+
+• 
+Be familiar with the most common situations in which estimates are used. 
+
+• 
+The auditor is responsible for understanding the entity's transactions or events that may give rise to a new or amended accounting estimate, the relevant requirements of the applicable financial reporting framework, the nature of the estimates and disclosures to be included in the financial statements, and the nature of any identified controls related to accounting estimates. 
+
+
+4 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Know the auditor's responsibilities to assess the risk of material misstatement of an accounting estimate and respond to the risk by obtaining evidence, testing how management developed the estimate, or developing an auditor's point estimate or range. 
+
+• 
+To conclude on the reasonableness of an accounting estimate, the auditor must perform an overall evaluation to ensure that the risk of material misstatement remains appropriate; that management's recognition, measurement, presentation, and disclosure are in accordance with the applicable financial reporting framework; and that sufficient and appropriate audit evidence has been obtained. 
+
+
+
+Related Party Transactions   
+• 
+Related parties may include the reporting entity's affiliates, principal owners, management, and members of their immediate families. A related party transaction is not considered to be an arm's­length transaction.  
+
+• 
+Know the responsibilities of management (identifying and disclosing related party transactions) versus the responsibilities of the auditor (identifying any related party transactions encountered and verifying proper disclosure). 
+
+• 
+The auditor's objectives for related party relationships and transactions are to:  
+
+• 
+Recognize fraud risk factors pertaining to related party relationships and assess the risk of material misstatement due to fraud. 
+
+• 
+Conclude whether the financial statements have fair presentation of the related party relationships. 
+
+• 
+Obtain sufficient appropriate audit evidence that the related party transactions/relationships have been identified, accounted for, and disclosed. 
+
+
+
+• 
+The candidate should be familiar with the audit procedures that might identify a related party transaction.    
+
+
+
+Litigation, Claims, and Assessments 
+• 
+When audit procedures indicate that there are actual or potential litigation, claims, or assessments, the auditor should send a direct letter of inquiry to the client's attorneys regarding litigation, claims, and assessments. Use of the letter of inquiry may also provide a means of corroborating management's information. 
+
+• 
+Be familiar with the topics to be included in a specific inquiry regarding a client's pending or threatened litigation. 
+
+• 
+The attorney may limit his or her response to material matters, but a refusal to respond to a letter of inquiry is a scope limitation precluding an unmodified opinion. 
+
+• 
+If management refuses to permit inquiry of the attorneys, the auditor will issue a disclaimer of opinion or withdraw from the audit. 
+
+
+
+An Entity's Ability to Continue as a Going Concern 
+• 
+Be familiar with the factors that may indicate substantial doubt.  
+
+• 
+When an auditor concludes that substantial doubt remains about an entity's ability to continue as a going concern for a reasonable period of time, the auditor should either add a separate section to the auditor's report (nonissuer) with the heading "Substantial Doubt About the Entity's Ability to Continue as a Going Concern" or an explanatory paragraph (issuer) to the unmodified (unqualified) opinion. However, depending on the auditor's judgment, the auditor may decide to disclaim an opinion due to a going concern uncertainty. 
+
+
+5 
+© Becker Professional Education Corporation. All rights reserved. 
+
+
+Module 5—Sufficient Appropriate Evidence 
+Audit Evidence Overview 
+• Audit evidence is all the information the auditor uses to arrive at the conclusions on which the audit opinion is based.    
+
+Types of Audit Evidence 
+• 
+Audit evidence consists of underlying accounting records and corroborating or contradictory evidence—know what is included in each of these terms and know that evidence may be available in different forms, such as oral, visual, paper, or electronic. The form may impact the procedures necessary to evaluate the information.  
+
+• 
+The auditor should have access to all pertinent accounting data. 
+
+
+
+Obtaining Sufficient Appropriate Audit Evidence 
+• 
+Sufficiency refers to the quantity of audit evidence, and judgments about sufficiency are affected by the risk of material misstatement and the quality of the evidence. 
+
+• 
+Appropriate evidence must be both reliable and relevant. Appropriateness depends on the source of the information and on key attributes such as accuracy, completeness, authenticity, and susceptibility to management bias. Know that the reliability of evidence is improved when it is external, received directly by the auditor, generated under strong controls, evidenced by documentation, and consistent with information from other sources. 
+
+• 
+The hierarchy of audit evidence (from most to least reliable) is the auditor's direct personal knowledge, external evidence, internal evidence, and oral evidence.  
+
+
+
+Concluding on the Sufficiency and Appropriateness of Audit Evidence  
+• 
+Audit evidence obtained may cause the auditor to modify the initial risk assessment. When there is a change in the assessed level of risk, the auditor should modify planned audit procedures accordingly.  
+
+• 
+The evaluation of audit evidence by the auditor must be unbiased and take into consideration the achievement of audit objectives.   
+
+
+
+
+Module 6—Procedures to Obtain Evidence  
+Standard Auditing Procedures  
+• 
+Audit evidence is obtained throughout the audit when performing risk assessment procedures, tests of controls, substantive procedures, and other audit procedures.   
+
+• 
+Know the standard procedures used in audits: confirmation; footing, cross-footing, and recalculation; inquiry; vouching; examination/inspection; cutoff review; analytical procedures; reperformance; reconciliation; observation; tracing; walk-through; auditing related accounts simultaneously; representation letter; and subsequent events review. 
+
+
+
+Types of Audit Procedures  
+• 
+Substantive procedures consist of tests of details and analytical procedures. 
+
+• 
+Understand how ratio analyses could also be used as substantive procedures. 
+
+• 
+Tests of details consist of audit procedures applied to ending balances, the details of transactions, or a combination of the two. 
+
+• 
+Analytical procedures involve studying plausible relationships among data and usually involve the comparison of recorded amounts to auditor expectations. For example, the auditor compares the client's year-end net profit margin to the prior period or current industry average.   
+
+
+• Analytical procedures are required during planning and as an overall final review but are optional with respect to substantive procedures. 
+6 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Be aware of the factors that improve the efficiency and effectiveness of analytical procedures used as substantive procedures (e.g., analytical procedures are more appropriate when there are predictable relationships involved). 
+
+• 
+Analytical procedures are performed during the overall review stage of the audit to evaluate the overall financial statement presentation and to assess the conclusions reached. This review should be performed by a manager or partner with a comprehensive knowledge of the entity's business and industry. 
+
+
+• 
+In certain situations, analytical procedures are a more effective and efficient means of gathering evidence than tests of details, and, in those cases, analytical procedures may be used as substantive tests. When designing and performing analytical procedures as substantive procedures, the auditor should do the following: 
+
+• 
+Determine the analytical procedures that are suitable for testing the assertion(s), taking into account the assessed risks of material misstatement and tests of details. 
+
+• 
+If using audit data analytics (ADAs), the auditor should select an ADA procedure that best fits the intended purpose and objectives of the procedure, as well as determine the techniques, tools, graphics, and tables that may be used. 
+
+
+
+• 
+The term directional testing refers to the direction of an audit test (either forward or backward). 
+
+• 
+If the auditor starts from original source documents and traces forward to the accounting records, this tests the assertion of completeness. This helps the auditor identify understatement errors. 
+
+• 
+If the auditor starts from the accounting records and vouches backward to the original source documents, this tests the assertion of existence. This helps the auditor identify overstatement errors. 
+
+
+
+• 
+An external confirmation represents a form of audit evidence obtained through a direct written response to the auditor from a third party in a paper form, electronic form, or other medium.  
+
+
+• The candidate should know the difference between positive and negative confirmations and how the auditor should deal with confirmation nonresponses, oral responses, and exception responses. 
+
+Review of Relevant Assertions   
+• 
+Know the main assertions relevant to the audit of account balances and related disclosures as well as transactions, events, and related disclosures.    
+
+• 
+The candidate should be able to match audit procedures to specific assertions. (Note: Having a general understanding here will be very helpful when asked to identify audit procedures used for a specific transaction cycle).   
+
+
+
+
+Module 7—Sampling: Part 1 
+Introduction 
+• 
+Audit sampling occurs when the auditor tests less than 100 percent of the items in a population and tries to draw conclusions about the population based on the sample. 
+
+• 
+Sampling can be either statistical or nonstatistical. 
+
+• 
+Either method is acceptable. 
+
+• 
+Statistical methods rely on mathematical concepts. 
+
+• 
+Both methods involve the use of judgment. 
+
+
+
+• 
+Be familiar with the advantages of statistical sampling.   
+
+
+7 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Uncertainty and Audit Sampling    
+• 
+Audit risk is the uncertainty inherent in applying audit procedures, which includes both uncertainties due to sampling and uncertainties due to other factors beyond sampling. 
+
+• 
+Sampling risk is the risk that the sample is not representative of the population, and therefore the auditor's conclusion will be different from what it would be if the auditor had examined 100 percent of the population. 
+
+• 
+In performing substantive tests of details, the auditor is concerned with two aspects of sampling risk: 
+
+• 
+Risk of incorrect acceptance 
+
+— 
+The sample indicates that the balance is fairly stated when, in fact, it is not. 
+
+— 
+The auditor will erroneously fail to modify his or her opinion. 
+
+— 
+This is an effectiveness problem. 
+
+
+
+• 
+Risk of incorrect rejection 
+
+— 
+The sample indicates that the balance is not fairly stated when, in fact, it is fairly stated. 
+
+— 
+The auditor may erroneously modify his or her opinion. 
+
+— 
+This is an efficiency problem—the auditor will do more work than is necessary. 
+
+
+
+
+
+• 
+In performing tests of controls, the auditor is concerned with two aspects of sampling risk: 
+
+• 
+Risk of assessing control risk too low 
+
+— 
+The sample indicates that the control is working when, in fact, it is not. 
+
+— 
+The auditor will erroneously rely on the control. 
+
+— 
+This is an effectiveness problem. 
+
+
+
+• 
+Risk of assessing control risk too high 
+
+— 
+The sample indicates that the control is not working when, in fact, it is. 
+
+— 
+The auditor will erroneously extend audit work. 
+
+— 
+This is an efficiency problem—the auditor will do more work than is actually necessary. 
+
+
+
+
+
+
+
+Sampling in Tests of Controls: Attribute Sampling  
+• 
+Know the definitions of the following terms: 
+
+• 
+Deviation Rate—error rate in the sample 
+
+• 
+Tolerable Deviation Rate—maximum rate of error the auditor can accept 
+
+• 
+Expected Deviation Rate—the auditor's estimated error rate (before sampling) 
+
+• 
+Upper Deviation Rate—high end of range for auditor's estimate of error rate (based on results from testing the sample) 
+
+• 
+Allowance for Sampling Risk—adjusts sample rate to get to upper deviation rate: Sample deviation rate + Allowance for sampling risk = Upper deviation rate 
+
+
+
+• 
+Know which factors affect sample size. 
+
+• 
+Risk of Assessing Control Risk too Low—inverse relationship 
+
+• 
+Tolerable Deviation Rate—inverse relationship 
+
+• 
+Expected Deviation Rate—direct relationship 
+
+
+
+
+8 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Know that the auditor draws conclusions by comparing the tolerable deviation rate to the upper deviation rate. 
+
+• 
+Upper deviation rate = Tolerable deviation rate = Rely on control 
+
+• 
+Upper deviation rate > Tolerable deviation rate = Do not rely on control 
+
+
+
+• 
+The auditor's conclusions about the control will determine the nature, extent, and timing of substantive procedures to be performed.   
+
+
+
+Other Attribute Sampling Models   
+• Discovery sampling and stop-or-go sampling are types of attribute sampling methods that may be used when few or no deviations are expected.     
+
+
+Module 8—Sampling: Part 2 
+Sampling in Substantive Tests: Variable Sampling  
+• 
+Know the definitions of the following terms: 
+
+• 
+Tolerable Misstatement—maximum monetary misstatement in an account balance or class of transactions that the auditor is willing to accept. 
+
+• 
+Expected Misstatement—the auditor's estimate of misstatement (before sampling). 
+
+• 
+Projected Misstatement—the auditor's estimated misstatement, based on the sample. 
+
+
+
+• 
+Know which factors increase/decrease sample size. 
+
+• 
+Expected Misstatement—direct relationship 
+
+• 
+Population Variability (standard deviation)—direct relationship 
+
+• 
+Assessed Level of Risk—direct relationship 
+
+• 
+Tolerable Misstatement—inverse relationship 
+
+• 
+Acceptable Level of Risk—inverse relationship 
+
+
+
+• 
+Be familiar with the three commonly used classical variable sampling plans (mean-per-unit, or MPU; ratio estimation; and difference estimation). 
+
+• 
+The auditor's conclusions about the balance are based on whether the recorded book value falls within the range defined by the point estimate, plus or minus an allowance for sampling risk.   
+
+
+
+Sampling in Substantive Tests: Probability-Proportional-to-Size (PPS) Sampling 
+• 
+PPS sampling is a hybrid method that uses attribute sampling theory to express a conclusion in dollar amounts instead of as a rate of occurrence.   
+
+• 
+Know the advantages and disadvantages of using PPS sampling. 
+
+• 
+Be able to work simple problems involving PPS. 
+
+• 
+Know the formula for sampling interval and sample size. 
+
+• 
+Know how to calculate the projected error of the sample. 
+
+• 
+Remember that recorded amounts that exceed the interval are automatically selected for testing. 
+
+
+
+
+Qualitative Considerations 
+• Qualitative aspects of deviations and errors should be considered—fraud is of greater concern than an honest error.  
+9 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Dual-Purpose Samples 
+• The same sample may be used to perform both tests of controls and tests of details. This is called a "dual-purpose sample."  
+
+
+Module 9—Audit Data Analytics 
+Defining Audit Data Analytics 
+• 
+Audit data analytics (ADAs) are data analytic techniques that enable auditors to analyze and review both financial and nonfinancial data to discover patterns, relationships, and anomalies during an audit. 
+
+• 
+The functions and benefits of ADAs include: 
+
+• 
+Better understanding of clients and their operations. 
+
+• 
+Advanced assessment of risk in areas that may have otherwise gone undiscovered. 
+
+• 
+Expanded audit coverage through testing of entire populations. 
+
+• 
+Insights gained from evaluating metadata and relationships among both internal and external data. 
+
+• 
+Increased efficiency of applied procedures. 
+
+• 
+Enhanced fraud detection. 
+
+• 
+Improved communication through data visualizations and other reports. 
+
+
+
+
+
+Audit Data Analytic Tools and Techniques 
+• 
+When applying ADAs, the auditor should perform the following steps: 
+
+• 
+Plan the ADA. 
+
+• 
+Access and obtain the data. 
+
+• 
+Review and analyze the relevance and reliability of the sourced data. 
+
+• 
+Perform the ADA utilizing the selected tools and techniques. 
+
+• 
+Evaluate outcomes to ensure the proposed objective was achieved. 
+
+
+
+• 
+Most ADAs are performed using software, including spreadsheets, data transformation and cleaning software, data analytic software, data visualization software, data mining software, and programming. 
+
+• 
+There are four broad categories of data analytics that can be applied as ADAs. 
+
+• 
+Descriptive analytics explain what happened or what is happening with data. 
+
+• 
+Diagnostic analytics work to uncover correlations and patterns among data to explain outcomes. 
+
+• 
+Predictive analytics use historical data to make predictions, estimates, and assertions about future events. 
+
+• 
+Prescriptive analytics shift the focus to how to make something happen. 
+
+
+
+
+
+Applying Audit Data Analytics 
+• 
+ADAs can be employed during the risk assessment process to identify risk, assess the risk of material misstatements, and identify and assess fraud risk. 
+
+• 
+ADAs can provide support and evidence in evaluating the design and operating effectiveness of controls. 
+
+
+10 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+ADAs can be applied to both tests of details and analytical procedures. 
+
+• 
+For tests of details, ADAs can perform sequence checks, test entire populations, compare transactions against external data, and evaluate source data to identify missing data. 
+
+• 
+For analytical procedures, ADAs can be used to compare current year data to preceding year data, compare industry trends to those at the audited entity, develop expectations for transaction or balance amounts, and perform drill-down analyses of differences between expected and actual amounts. 
+
+
+
+• 
+ADAs can assist when forming an overall conclusion and assuring that no material misstatements went unidentified during the audit. 
+
+• 
+A single ADA can be used to concurrently obtain evidence in multiple areas, such as risk assessment and substantive procedures, as long as the objectives of both types of procedures are met. 
+
+
+
+Sourcing and Reviewing Data Used in Audit Data Analytics 
+• 
+Audit evidence used in ADAs may come from a variety of systems, both internal and external to the organization. 
+
+• 
+ADAs may be performed on either structured or unstructured data. 
+
+• 
+ADA data attributes may be numeric (quantitative), text (qualitative), time data, or geographic data. 
+
+• 
+ADA data may be obtained from built-in reporting provided by information systems, custom queries, data mining, data pulls, walk-throughs, interviews with clients, and external sites. 
+
+• 
+Procedures should be performed to determine the completeness, accuracy, and reliability of information used in an ADA. 
+
+
+
+Procedures Performed on Visualizations and Reports 
+• 
+The output of the ADA must be reviewed to evaluate whether the ADA was performed appropriately. 
+
+• 
+Data visualizations turn complex content into easy-to-read graphs or charts to provide the auditor with insights to make decisions. 
+
+• 
+ADA techniques to interpret results include regression analysis, variance analysis, period-over-period analysis, classification, and trend analysis. 
+
+• 
+When evaluating potential misstatements, the auditor may group outcomes into two broad categories: clearly inconsequential or not clearly inconsequential. 
+
+• 
+The auditor should perform further procedures on possible misstatements that have been categorized as not clearly inconsequential. 
+
+
+11 
+© Becker Professional Education Corporation. All rights reserved. 
+AUD 4 
+Unit Outline 
+
+
+Module 1—Revenue Cycle 
+Transaction Cycles 
+• 
+Transaction cycles include cycles for revenue; expenditure; inventory; investments; property, plant, and equipment; payroll and personnel; and financing. 
+
+• 
+For each of these cycles, the auditor wants to answer two crucial questions: 
+
+• 
+Are controls operating effectively? 
+
+• 
+Have transactions, balances, and disclosures been recorded properly in accordance with GAAP? 
+
+
+
+• 
+In the textbook, you will see each transaction cycle presented in three ways: in written sentences, as a flowchart, and in a chart. Pay attention to the division of responsibilities as shown in the flowcharts, and how the auditor might test the controls shown in the charts. Transaction cycles are frequently tested on the audit exam.  
+
+• 
+It is the company's responsibility to properly segregate duties and implement effective controls. The auditor's responsibility is to evaluate those controls, decide whether to rely on them, and determine the nature, extent, and timing of substantive audit procedures. 
+
+• 
+For each transaction cycle, be aware of whether the account being examined is an asset/revenue or a liability/expense. This usually dictates whether the assertion of existence or the assertion of completeness is being tested. 
+
+• 
+Existence Assertion—For assets/revenues, the focus is often on whether the account actually exists (i.e., making sure the accounts are not overstated).   
+
+• 
+Completeness Assertion—For liabilities/expenses, the focus is often on whether the items were actually recorded (i.e., making sure the accounts are not understated). 
+
+
+
+• 
+If a flowchart is presented on the examination, it will typically present various departments (showing segregation of duties), as well as show how a particular transaction starts with a source document (e.g., a sales order) and is processed to ultimate inclusion in the financial statements.   
+
+
+
+Fraud Risk Related to the Revenue Cycle   
+• There should be a presumption in every audit that there is a risk of material misstatement due to revenue recognition fraud.   
+
+Internal Controls Related to the Revenue Cycle   
+• 
+Proper segregation of duties is important (pay attention to the responsibilities assigned to each department). 
+
+• 
+Review the controls pertaining to sales, accounts receivable, and cash receipts, as well as the sales flowchart and collections flowchart in the text.  
+
+
+
+Performing Specific Procedures to Obtain Evidence: The Revenue Cycle 
+• 
+Emphasis is on the existence assertion, as there is often a motivation to overstate revenue and receivables. 
+
+• 
+Other important assertions when auditing accounts receivable (credit sales) are valuation, allocation, and accuracy. The auditor should examine the results of confirmations and test the adequacy of the allowance for credit losses. 
+
+
+1 
+© Becker Professional Education Corporation. All rights reserved. 
+• Using confirmations is a generally accepted auditing procedure. Confirmations provide evidence of existence, not valuation. 
+• 
+There are two forms of confirmation: positive and negative. Know how each works and when they are most appropriate. Also, know when blank confirmations (a form of positive confirmation) may be used. 
+
+• 
+Remember that the reliability of electronic confirmation responses, including those obtained through an intermediary, must be assessed, and nonresponses, including oral responses, must be followed up with either second (and third) requests or alternative procedures.  
+
+
+
+
+Module 2—Expenditure Cycle 
+Internal Controls Related to the Expenditure Cycle   
+• 
+The expenditure cycle includes purchases, accounts payable, and cash disbursements. 
+
+• 
+Be familiar with the duties performed in each department (purchasing, receiving, accounts payable, and the treasurer) for proper segregation of duties. 
+
+• 
+Review the expenditures flowchart in the text.  
+
+
+
+Performing Specific Procedures to Obtain Evidence: The Expenditure Cycle   
+• 
+The specific assertions typically addressed in the expenditure cycle are completeness and accuracy, as expenses and payables may be understated. 
+
+• 
+Know how an auditor would typically search for unrecorded liabilities (completeness assertion). 
+
+• 
+Accounts payable confirmations are not required, as good external evidence surrounding payables typically exists. 
+
+• 
+If confirmations are used, small or zero balances would be selected for confirmation.  
+
+
+
+
+Module 3—Cash Cycle 
+Fraud Risk Related to the Cash Cycle   
+• 
+The cash cycle includes cash receipts and cash disbursements. 
+
+• 
+Cash is an area with high fraud risk, especially when the system of internal control is weak. Be familiar with the two common cash fraud schemes, lapping and kiting, and how to prevent/detect such fraud schemes. 
+
+
+
+Controls Related to the Cash Cycle   
+• 
+Be familiar with effective controls surrounding cash receipts (lockbox, restrictive endorsements, etc.). 
+
+• 
+Proper segregation of duties is also important (pay attention to the roles performed by each department involved in the collection of cash receipts). 
+
+
+
+Performing Specific Procedures to Obtain Evidence: The Cash Cycle  
+• The relevant assertions for auditing the ending cash balance are completeness, valuation and allocation, and existence. These assertions are primarily tested by sending out standard bank confirmations and performing tests on year-end bank reconciliations.  
+
+
+Module 4—Inventory Cycle 
+Controls Related to the Inventory Cycle   
+• 
+The inventory cycle includes all purchases and sales of inventory. 
+
+• 
+Safeguarding inventory and segregation of duties are of primary importance for inventory—Know which duties should be properly segregated.  
+
+
+2 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Performing Specific Procedures to Obtain Evidence: The Inventory Cycle 
+• 
+Observing beginning and ending physical inventory counts is a required substantive procedure when auditing the ending inventory balance (or acceptable alternative procedures must be applied).  
+
+• 
+Observing inventory counts is an audit procedure used to obtain evidence for the existence, completeness, and valuation assertions of ending inventory. The auditor should also use test counts in conjunction with the inventory observation, which further verifies its completeness.  
+
+• 
+Cutoff testing of purchases and sales should be performed. 
+
+• 
+Valuation relates to the original cost of inventory and the existence of obsolete or damaged goods. 
+
+
+
+
+Module 5—Investment Cycle 
+Controls Related to the Investment Cycle   
+• 
+The investment cycle includes the purchase and sale of stocks, bonds, and derivative instruments. 
+
+• 
+A strong system of internal control over investments requires strong segregation of duties for authorization of the purchase or sale of investments, custody of investments, and recordkeeping. Controls should also exist regarding processing and fair value measurement. 
+
+
+
+Performing Specific Procedures to Obtain Evidence: The Investment Cycle   
+• 
+Audit objectives include determining whether GAAP has been consistently applied, whether classification and valuation are properly determined and disclosed in a clear and understandable manner, whether investments exist and are owned by the company, whether gains and losses are accurately computed and disclosed, and whether investment income is properly reported.  
+
+• 
+Auditing procedures may include confirmation, examination of securities on hand, cutoff testing, review of board minutes, and recalculation. 
+
+
+
+Auditing Particular Types of Investments  
+• 
+When auditing marketable securities, the auditor should inquire of management and obtain written representation concerning management's intent and ability with respect to holding versus selling marketable securities in the near term. 
+
+• 
+When auditing investments in securities when valuations are based on the investee's financial results (excluding equity method investees), the auditor should obtain and read the financial statements of the investee, obtain sufficient appropriate evidence regarding any fair values that are materially different between the investment and the investee's carrying amounts, and consider any implications caused by a difference between financial statement periods of the entity and the investee. 
+
+
+
+Investments Measured at Fair Value   
+• The auditor should obtain sufficient appropriate audit evidence to provide reasonable assurance that fair value measurements and disclosures are understandable and presented in conformity with GAAP. 
+
+
+Module 6—Other Transaction Cycles   
+Property, Plant, and Equipment Cycle   
+• 
+The property, plant, and equipment (PP&E) cycle includes all tangible assets used in the operation of a business and not acquired for resale. Transactions include purchases, repairs and maintenance, depreciation, disposal, and leasing.  
+
+• 
+To test the completeness assertion when auditing PP&E transactions, a sample of fixed asset purchase requisitions should be traced to receiving reports and the fixed asset subsidiary ledger. 
+
+
+3 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Analysis of the repairs and maintenance account is often used to search for asset additions mistakenly recorded as repairs (test for completeness). 
+
+• 
+The auditor should be alert for unrecorded dispositions—Look for older items in the accounting records and check if they are physically present (test of existence). 
+
+
+
+Payroll and Personnel Cycle 
+• 
+The payroll and personnel cycle includes the recordkeeping of employees and the calculation and authorization of payroll disbursements. 
+
+• 
+The most significant risks related to payroll and personnel are the creation of fictitious employees and the falsification of hours worked. 
+
+• 
+Segregation of duties is a key concern. Know which departments are responsible for authorization (operating managers and personnel), recordkeeping (payroll), and custody (treasurer). 
+
+• 
+Be familiar with the substantive tests an auditor might use to audit payroll. Two of the most important procedures are: 
+
+• 
+analytical procedures, which are used because payroll is generally predictable; and 
+
+• 
+recalculation of all year-end payroll accruals (valuation assertion). 
+
+
+
+
+
+Financing Cycle 
+• 
+The financing cycle includes all debt and equity transactions. 
+
+• 
+The auditor should determine whether GAAP has been properly applied, that debt is properly classified (long term versus short term) and valued in the financial statements, and that disclosures are presented in a complete and understandable manner. 
+
+• 
+Treasury stock transactions, dividend declarations, and stock issuances should be traced to the board minutes for authorization. 
+
+• 
+While auditing equity accounts, the auditor's focus is on the completeness, the valuation, and existence and occurrence assertions. When the client uses a stock transfer agent, third-party confirmations should be sent out to obtain evidence regarding the number of shares issued/outstanding and to obtain specific transaction details (completeness assertion). 
+
+• 
+The auditor should also focus on evaluating the proper classification of debt and equity account items on the balance sheet and determine whether any restrictions/appropriations exist on reported retained earnings. 
+
+
+
+
+Module 7—Misstatements Discovered During an Audit   
+Forming Conclusions  
+• An auditor must review a variety of factors when developing an audit conclusion, including misstatements found during the audit and conditions identified that are conducive to fraud risk.   
+
+Addressing Misstatements Discovered in the Audit   
+• 
+The auditor must evaluate the audit evidence gathered to determine whether the financial statements are free of material misstatements due to error or fraud. When evaluating the materiality of a misstatement, the auditor should consider both quantitative and qualitative factors.   
+
+• 
+The auditor should communicate on a timely basis with the appropriate level of management all misstatements accumulated during the audit, other than those that are clearly trivial. The auditor should request management to make appropriate corrections. If management refuses, the auditor should consider the implications for the audit report. For any uncorrected misstatements, the auditor should communicate that the misstatements could cause future-period material misstatements, even if the current period impact is immaterial. 
+
+
+4 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Audit documentation should include the amount below which misstatements are regarded as clearly trivial, all misstatements accumulated during the audit and whether they have been corrected, and the auditor's conclusion regarding whether the uncorrected misstatements cause the financial statements to be materially misstated. 
+
+• 
+It is essential for the auditor to evaluate the type and cause of misstatements discovered during audit testing. The auditor should consider the effect on the assessment of control risk. 
+
+
+A material misstatement that would not have been detected by the entity's system of internal control is an indicator of material weakness. 
+
+Adjusting Journal Entries 
+• Misstatements can be corrected using adjusting journal entries. Be familiar with the common adjusting journal entries presented in the text.  
+
+
+Module 8—Written Representations   
+Management Representation Letter   
+• 
+At the conclusion of fieldwork, the independent auditor is required to obtain a management representation letter. This serves as the final mandatory piece of evidential matter. 
+
+• 
+Know the three primary purposes for obtaining this letter: 
+
+• 
+To confirm representations given to the auditor 
+
+• 
+To document the continuing appropriateness of such representations 
+
+• 
+To reduce the possibility of misunderstanding 
+
+
+
+• 
+Know the contents of the management representation letter, which is dated the same date as the audit report and signed by the CEO and the CFO. In the representation letter, management provides information about: 
+
+• 
+The financial statements. 
+
+• 
+The completeness of information. 
+
+• 
+Misstatement of financial statements due to fraud or knowledge of actual or suspected fraud. 
+
+• 
+Instances of identified or suspected noncompliance with laws and regulations. 
+
+• 
+Uncorrected misstatements that management believes are immaterial, both individually and in the aggregate, to the financial statements. 
+
+• 
+Actual or possible litigation and claims. 
+
+• 
+Whether management believes that the methods, significant assumptions, and data used in accounting estimates are appropriate in accordance with the applicable financial reporting framework. 
+
+• 
+Related parties and transactions that have been appropriately disclosed. 
+
+• 
+Subsequent events. 
+
+• 
+Additional representations from management regarding issues specific to its financial statements. 
+
+
+
+• 
+Representations may be limited to items that management and the auditor agree are material.  
+
+• 
+When performing an integrated audit, the auditor should obtain additional written representations regarding management's responsibility for internal control over financial reporting. 
+
+• 
+You should be familiar with the wording and format of a sample representation letter, including the content contained in the letter.  
+
+
+5 
+© Becker Professional Education Corporation. All rights reserved. 
+• Management's refusal to furnish written representations generally will result either in a disclaimer of opinion or in withdrawal from the engagement. 
+
+
+Module 9—Communication With Management and Those Charged With Governance   
+Those Charged With Governance   
+• During an audit, the auditor has the responsibility to establish effective two-way communication with those charged with governance regarding the planned scope and timing of the audit, relevant information to the audit, and timely observations arising from the audit relevant to the oversight of the financial reporting process. 
+
+Internal Control Communications  
+• 
+Know the definitions of control deficiency, significant deficiency, and material weakness. 
+
+• 
+A control deficiency occurs when the design or operation of a control does not allow management or employees, in the normal course of performing their functions, to prevent or detect and correct misstatements on a timely basis. 
+
+• 
+A significant deficiency is a deficiency, or a combination of deficiencies, in internal control over financial reporting that is less severe than a material weakness, yet important enough to merit the attention of those responsible for oversight of the company's financial reporting. 
+
+• 
+A material weakness is a deficiency, or a combination of deficiencies, in internal control over financial reporting, such that there is a reasonable possibility that a material misstatement of the company's annual or interim financial statements will not be prevented or detected and corrected on a timely basis. 
+
+
+
+• 
+Know the communication requirements for control deficiencies. 
+
+• 
+For a financial statement audit of a nonissuer, significant deficiencies and material weaknesses must be communicated to management and those charged with governance, in writing, within 60 days of the report release date. 
+
+• 
+All other control deficiencies should be communicated to management only, either orally or in writing, within 60 days of the report release date. 
+
+
+
+
+6 
+© Becker Professional Education Corporation. All rights reserved. 
+AUD 5 
+Unit Outline 
+
+
+Module 1—Integrated Audit Procedures   
+Overview of Integrated Audits (Issuers and Nonissuers)  
+• 
+Under PCAOB standards, auditors of issuers are required to perform an integrated audit, auditing both the financial statements and management's assessment of the effectiveness of internal control over financial reporting. 
+
+• 
+For nonissuers, SAS 130 governs the audit and report on a nonissuer's internal control over financial reporting that is integrated with a financial statement audit. 
+
+• 
+The rules regarding the conduct of issuer and nonissuer integrated audits are very similar.    
+
+• 
+The objective in an audit of internal control over financial reporting is to express an opinion on the effectiveness of the entity's internal control over financial reporting. 
+
+
+
+Conditions for Engagement Performance 
+• 
+The audit of the financial statements and the audit of internal control over financial reporting must be planned and performed together. 
+
+• 
+Management must: 
+
+• 
+accept responsibility for the effectiveness of internal control over financial reporting; 
+
+• 
+evaluate the effectiveness of the entity's internal controls over financial reporting; and 
+
+• 
+provide a written assessment about the effectiveness of the entity's internal control over financial reporting in a report that accompanies the auditor's report. 
+
+
+
+
+
+Planning the Engagement (Issuers and Nonissuers)   
+• The auditor's fraud risk assessment should be integrated into the audit of internal control over financial reporting, and the auditor should consider management fraud and management override of controls as areas of high risk. 
+
+Top-Down Approach (Issuers and Nonissuers) 
+• A top-down approach is used in selecting controls to test. The auditor evaluates overall risks at the financial statement level, considers controls at the entity level, and then focuses on inherent risk factors to identify significant classes of transactions, account balances, and disclosures, along with their relevant assertions.  
+
+Testing Controls (Issuers and Nonissuers) 
+• 
+The auditor should evaluate the design effectiveness of the controls and test and evaluate the operating effectiveness of the controls.  
+
+• 
+Tests of controls should be designed to provide sufficient appropriate evidence to support both the opinion on internal control over financial reporting and the control risk assessment needed for the financial statement audit. 
+
+
+
+Evaluating Control Deficiencies (Issuers and Nonissuers) 
+• The auditor should determine whether identified deficiencies represent significant deficiencies or material weaknesses (either alone or in combination). This determination should be based on the magnitude of potential misstatement and whether there is a reasonable possibility that the control will fail to prevent/detect a material misstatement.   
+1 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Forming an Opinion (Issuers and Nonissuers) 
+• The auditor's opinion on the effectiveness of internal control over financial reporting should be based on all available evidence, including evidence obtained from the financial statement audit.   
+
+Financial Statement Audit vs. Audit of ICFR (Nonissuers)   
+• 
+The purpose of an audit on the effectiveness of an entity's internal control over financial reporting is to express an opinion about whether the entity maintained, in all material respects, effective control as of a point in time based on the control criteria.  
+
+• 
+The purpose of an auditor's consideration of internal control over financial reporting in an audit of financial statements is to enable the auditor to plan the audit and determine the nature, extent, and timing of tests to be performed. 
+
+
+
+
+Module 2—Communication and Reporting in an Integrated Audit 
+Communications With Management and Those Charged With Governance (Nonissuers Only) 
+• 
+Significant deficiencies and material weaknesses should be communicated, in writing, to management and those charged with governance by the report release date. 
+
+• 
+Control deficiencies that are not significant deficiencies or material weaknesses should be communicated to management, in writing, no later than 60 days following the report release date. 
+
+• 
+The auditor should not issue a report stating that no material weaknesses, or no deficiencies less severe than a material weakness, were identified.    
+
+
+
+Communications With Management and the Audit Committee (Issuers Only)  
+• All control deficiencies should be communicated to management in writing; significant deficiencies and material weaknesses should be communicated in writing to management and the audit committee. Material weaknesses should be communicated prior to the issuance of the auditor's report. 
+
+Reporting on Internal Control (Nonissuers)  
+• 
+The auditor may combine the opinion on internal control over financial reporting with the opinion on the financial statements or may issue two separate reports. 
+
+• 
+The report includes a section defining controls, describing the inherent limitations of any internal control over financial reporting and warning the reader not to project the evaluation into the future. 
+
+• 
+The presence of a material weakness in identified controls results in an adverse opinion on internal control over financial reporting. 
+
+
+
+Reporting on Internal Control (Issuers) 
+• 
+The auditor may combine the opinion on internal control over financial reporting with the opinion on the financial statements or may issue two separate reports. 
+
+• 
+The report includes a paragraph describing the inherent limitations of any system of internal control and warning the reader not to project the evaluation into the future. 
+
+• 
+The presence of a material weakness in identified controls results in an adverse opinion on internal control over financial reporting. The auditor's report must include the definition of a material weakness, a statement that a material weakness has been identified, and an identification of the material weakness described in management's assessment. 
+
+• 
+The auditor may also be engaged to report on whether a previously reported material weakness continues to exist.  
+
+
+2 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Other Reporting Issues (Issuers and Nonissuers) 
+• The auditor should withdraw from the engagement or issue a disclaimer of opinion if the scope of the audit is restricted.  
+
+
+Module 3—Attestation Engagements and Standards 
+Introduction 
+• 
+An attestation engagement is when a CPA is engaged to issue an independent examination, a review, or an agreed-upon procedures report on a subject matter—or on an assertion about the subject matter—that is the responsibility of a party other than the practitioner (typically management). 
+
+• 
+Statements on Standards for Attestation Engagements (SSAEs) are applicable for attestation engagements. Attestation services include those related to: 
+
+• 
+Agreed-upon procedures. 
+
+• 
+Financial forecasts and projections.   
+
+• 
+Pro forma financial statements. 
+
+• 
+Compliance attestations. 
+
+• 
+Management's discussion and analysis. 
+
+• 
+Reporting on controls at a service organization. 
+
+
+
+
+
+Attestation Standards 
+• 
+Attestation standards used for attestation engagements are similar to GAAS, but much broader in scope.  
+
+• 
+The attestation standards include guidance on concepts that are common to all attestation engagements:  
+
+• 
+Compliance with all attestation standards relevant to the engagement. 
+
+• 
+Acceptance and continuance policies and procedures have been followed, and the conclusions reached are appropriate. 
+
+• 
+Preconditions for an attestation engagement are present. 
+
+• 
+Engagement documentation standards for timeliness, retention, ownership, and confidentiality apply. 
+
+• 
+Change in the terms of an engagement is acceptable, if reasonable. 
+
+• 
+A participating or referred-to practitioner's work may be used for an engagement. 
+
+• 
+Responsibility for quality management. 
+
+• 
+Professional skepticism and professional judgment are maintained throughout. 
+
+
+
+• 
+Be familiar with attestation risks, including inherent risk, control risk, and detection risk.    
+
+
+3 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Examination and Review Engagements and Reporting  
+• 
+An examination provides a positive opinion and a high level of assurance (similar to an audit). A review provides a negative opinion and a moderate level of assurance, and the practitioner should withdraw if there is a scope limitation. Agreed-upon procedures provide no assurance, but procedures and findings are listed. 
+
+• 
+A written assertion is generally obtained in an assertion-based examination, review, or agreed-upon procedures engagement. 
+
+• 
+A written assertion is not obtained in a direct examination engagement. In such engagements, the practitioner measures or evaluates the underlying subject matter against the criteria to obtain evidence and express an opinion. 
+
+
+
+
+Module 4—Agreed-Upon Procedures and Prospective Financial Statements   
+Agreed-Upon Procedures Engagements 
+• 
+The following conditions (I AM SURE) must exist for an auditor to accept this type of engagement: 
+
+• 
+Independence of the practitioner. 
+
+• 
+Agreement of the parties on what procedures are to be applied, the criteria to be used, etc. 
+
+• 
+The subject matter must be capable of consistent Measurement. 
+
+• 
+The engaging party (client) takes responsibility for the Sufficiency of the designated procedures. 
+
+• 
+Use of the report can be general or restricted to specified parties. 
+
+• 
+The client (or in some cases a third party) is Responsible for the subject matter. 
+
+• 
+Engagements to perform agreed-upon procedures on prospective financial statements must include a summary of significant assumptions used for the prospective financial statements. 
+
+
+
+• 
+Various reporting elements are required in the accountant's report, including, among other items, a description of procedures performed and the related findings, a statement that the engaging party has agreed that the procedures performed are appropriate for the intended purpose of the engagement, a disclaimer of opinion, and a statement that the report may not be suitable for any other purpose and that the user is responsible for determining the suitability for his or her needs.   
+
+
+
+Prospective Financial Statements 
+• 
+A financial forecast reflects, to the best of the responsible party's knowledge, the expected financial results of a future period based on expected conditions and expected courses of action by the entity.  
+
+• 
+A financial projection is different from a financial forecast in that the entity's financial position and results of operation are based on hypothetical assumptions using a "what-if" type of scenario.   
+
+• 
+The auditor can perform the following types of engagements with regard to prospective financial statements: 
+
+• 
+Preparation Engagement—Includes a statement on each page that says, "No assurance is provided." 
+
+• 
+Compilation Engagement—Does not express an opinion or assurance, includes a caution about achievability, and states that the accountant has no responsibility to update. 
+
+• 
+Examination Engagement—There are two parts to the opinion: financial statements presented in conformity with guidelines and assumptions providing a reasonable basis for financial statements. It also includes a caution about achievability and states that the accountant has no responsibility to update. 
+
+• 
+Agreed-Upon Procedures—Include a caution about achievability and state that the accountant has no responsibility to update. 
+
+
+
+
+4 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+A review of prospective financial statements is not allowed. 
+
+• 
+Partial presentations of prospective information exclude certain essential elements and are not appropriate for general use. 
+
+• 
+Pro forma financial statements show the effect that a hypothetical transaction would have had on past financial statements—these are not prospective financial statements. 
+
+• 
+These statements may either be examined or reviewed. 
+
+• 
+The report should reference the financial statements from which the historical financial information was derived. 
+
+
+
+
+
+
+Module 5—Reporting on Controls at a Service Organization 
+Reporting on Controls at a Service Organization  
+• 
+A service organization's services are considered part of the user entity's information system when those services affect the initiation, execution, processing, or reporting of the user company's transactions. 
+
+• 
+A service auditor performs an attestation examination on the controls of the service organization relevant to the user entity's internal control over financial reporting.   
+
+• 
+The objectives of the service auditor are to obtain reasonable assurance about whether: 
+
+• 
+Management's description of the service organization system's design and implementation is fairly presented. 
+
+• 
+The controls related to the control objectives were suitably designed. 
+
+• 
+The controls operated effectively when included in the scope of the engagement. 
+
+
+
+• 
+Understand the difference between SOC 1® and SOC 2® engagements. 
+
+• 
+The candidate should be able to distinguish between a Type 1 and a Type 2 report prepared by the service auditor.  
+
+
+
+User Auditor Considerations   
+• 
+The user auditor should obtain an understanding of the nature and significance of the services provided by the service organization and the effect on the user entity's system of internal control.   
+
+• 
+When available, the user auditor may use the service auditor's report in the assessment of the user entity's system of internal controls. 
+
+
+
+
+Module 6—Reporting on Compliance  
+Compliance Reporting   
+• Reporting on compliance may be done in several situations: 
+• 
+An auditor may be asked to report on compliance with contractual agreements or regulatory requirements in connection with a financial statement audit. 
+
+• 
+A practitioner may be asked to report on an attestation engagement regarding an entity's compliance with requirements of specific laws and regulations or on internal control over compliance. 
+
+• 
+An auditor may report on compliance and controls over compliance as part of a single audit engagement when auditing a recipient of federal financial assistance. 
+
+
+5 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Compliance Reports in Connection With Audited Financial Statements 
+• In a situation where an auditor is asked to issue a report on a client's compliance with contractual agreements or regulatory requirements in connection with a financial statement audit, the auditor may do so, but only with a negative assurance of compliance.  
+• 
+The candidate should note that when the auditor's report on compliance is included in the auditor's report on the financial statements, the restriction on the use of the report applies to the entire audit report. 
+
+• 
+When a separate report on compliance is issued, only the report on compliance needs to be restricted to use.  
+
+
+
+Attestation Standards: Compliance Attestation  
+• A compliance attestation engagement may be either agreed-upon procedures (no assurance) or an examination engagement (reasonable assurance). Note that a review is not allowed. 
+
+Attestation Risk of Noncompliance   
+• 
+The risk assessment model for audit risk of noncompliance is identical (in structure) to the audit risk model for financial statements: 
+
+• 
+The risk of material noncompliance, like the risk of material misstatement, comprises two elements: 
+
+• 
+Inherent risk of noncompliance 
+
+• 
+Control risk of noncompliance 
+
+
+
+• 
+Detection risk of noncompliance is the risk that the auditor will not detect existing material noncompliance due to the audit procedures used.   
+
+
+Audit risk of noncompliance (should be low)  =  Risk of material noncompliance (assessed by the auditor)  ×  Detection risk (controlled by the auditor)  
+
+
+
+Module 7—Government Audits 
+Sources of Government Auditing Standards   
+• 
+Government auditing on the CPA Exam focuses on the differences between generally accepted government auditing standards (GAGAS) and generally accepted auditing standards (GAAS). 
+
+• 
+The GAGAS define "unconditional requirements," with which the auditor must comply, and "presumptively mandatory requirements," with which the auditor should comply. The reason for departing from "presumptively mandatory" must be documented. 
+
+
+
+Purposes and Types of Government Audits   
+• 
+The GAGAS define three types of government engagements: financial audits, attestation engagements (e.g., compliance with specific laws, regulations, and rules), and performance audits (e.g., compliance, controls, and evaluations of effectiveness, economy, and efficiency). 
+
+• 
+The candidate should be familiar with the expanded requirements for GAGAS as they pertain to performing financial audits, attestation engagements, or performance audits, as well as reporting on financial audits.  
+
+
+6 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Government Auditing Standards (GAGAS) 
+• 
+The GAGAS (also called the Yellow Book) define general, fieldwork, and reporting standards. 
+
+• 
+The GAGAS include all GAAS standards by reference and expand requirements with additional standards that focus on audits of governments and governmental financial assistance (grants and federal awards). 
+
+• 
+Single audits represent supplementary audit requirements that relate to federal financial assistance. 
+
+
+
+• 
+The GAGAS describe the nature of audits of government entities as those that often focus on compliance with laws and regulations that may have a direct and material effect on the determination of financial assistance revenue amounts displayed in the financial statements. 
+
+• 
+Compliance is important in determining whether government assistance has been qualified or whether it is owed back to the grantor. 
+
+• 
+Management is responsible for identifying the appropriate laws and regulations, establishing internal controls that provide reasonable assurance that the entity complies with applicable laws and regulations, preparing supplemental financial reports, and obtaining an audit that satisfies the appropriate legal, regulatory, or contractual requirements. 
+
+• 
+Auditors are responsible for obtaining reasonable assurance that the financial statements are free of material misstatements resulting from violations of laws and regulations that have a direct and material effect on the determination of financial statement amounts, for determining whether management has properly identified laws and regulations, for understanding the implications of noncompliance on the financial statements, and for ensuring that the scope of the audit addresses the appropriate requirements. 
+
+
+
+• 
+The auditor should report all instances that involve fraud or illegal acts unless they are inconsequential.   
+
+• 
+The Yellow Book report is an additional report required under the GAGAS. It is a written report on internal control and compliance. If issued as a separate report, the financial statement report should reference the Yellow Book report.  
+
+
+
+
+Module 8—Single Audits 
+Overview of Single Audits  
+• 
+A single audit is applicable to audits of entities that spend equal to or in excess of $1 million of federal financial assistance in a fiscal year. 
+
+• 
+The Single Audit Act engagements include both entity-wide and program-specific audits. 
+
+• 
+Materiality evaluations in a single audit include a separate evaluation of materiality for each major program, not simply an evaluation in relation to the financial statements taken as a whole.   
+
+
+
+Auditee Responsibilities 
+• Auditor selection is made by the auditee, subject to federal guidelines that seek to ensure the appointment of an auditor possessing the necessary expertise through an open and competitive proposal process.    
+7 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Auditor Responsibilities 
+• 
+The auditor should: 
+
+• 
+express an opinion regarding the fair presentation of the financial statements, in accordance with GAAP (financial statement report); 
+
+• 
+express an opinion regarding the fair presentation of the Schedule of Expenditures of Federal Awards in relation to the financial statements (SEFA report); 
+
+• 
+report on internal control over financial reporting and compliance with federal statutes, regulations, and the terms and conditions for the federal award (Yellow Book report required by GAGAS); 
+
+• 
+report on compliance for each major program and report on internal control over compliance (single audit report); and 
+
+• 
+provide a schedule of findings and questioned costs. 
+
+
+
+• 
+Generally, major programs are those that spend $1 million or more in federal financial assistance; however, auditors use a risk-based approach and a four-step process to determine major programs.    
+
+
+
+Reporting Requirements 
+• Review the chart in the textbook that summarizes when each of the four reports is required.   
+8 
+© Becker Professional Education Corporation. All rights reserved. 
+AUD 6 
+Unit Outline 
+
+
+Module 1—SSARS Engagements   
+Levels of Service   
+• When an accountant performs more than one service (e.g., compilation and an audit), the accountant should generally issue the report that is appropriate for the highest level of service rendered. 
+
+Professional Standards   
+• 
+Statements on Standards for Accounting and Review Services (SSARS) govern the performance of preparations, compilations, and reviews. 
+
+• 
+Know when SSARS apply. 
+
+
+
+Elements of SSARS Engagements 
+• Know the elements of preparation, compilation, and review engagements: 
+• 
+A three-party relationship involving management, an accountant, and intended users 
+
+• 
+An applicable financial reporting framework 
+
+• 
+Financial statements or financial information 
+
+• 
+Written agreement with management regarding the terms of the engagement 
+
+
+
+Subsequent Events and Subsequently Discovered Facts  
+• 
+When evidence or information about subsequent events that require adjustment of, or disclosure in, the financial statements comes to the accountant's attention, the accountant should request that management consider whether each event is appropriately reflected in the financial statements in accordance with the applicable financial reporting framework. 
+
+• 
+The accountant has no obligation to make continuing inquiries after the date of the report.  
+
+
+
+Reporting Fraud and Noncompliance With Laws and Regulations 
+• 
+If an accountant becomes aware of fraud or noncompliance with laws and regulations, the matter should be communicated to management, and the impact on the financial statements should be assessed. 
+
+• 
+If the accountant believes the financial statements are materially misstated, they should obtain revised information or withdraw from the engagement. 
+
+
+
+
+Module 2—Preparation Engagements   
+Preparation of Financial Statements   
+• 
+The objective of the accountant in a preparation engagement is to prepare financial statements in accordance with a specified financial reporting framework. 
+
+• 
+An engagement to prepare financial statements is a non-attest service (no report) and does not require a determination about whether the accountant is independent of the entity.  
+
+
+
+Preparation Requirements   
+• 
+The accountant should obtain an understanding of the financial reporting framework and the significant accounting policies intended to be used in the preparation of the financial statements.   
+
+• 
+The accountant should prepare the financial statements using the records, documents, explanations, and other information provided by management. 
+
+
+1 
+© Becker Professional Education Corporation. All rights reserved. 
+• The accountant should ensure that a statement is included on each page of the financial statements indicating that "no assurance is provided" on the financial statements. 
+
+Other Preparation Considerations 
+• If requested by the client, an accountant may prepare financial statements that omit substantially all disclosures required by the applicable financial reporting framework (but are otherwise in conformity with the financial reporting framework), provided that the omissions are disclosed and not intended to mislead financial statement users. 
+
+Documentation in a Preparation Engagement  
+• Documentation in a preparation engagement should include an engagement letter, a copy of the financial statements prepared by the accountant, and any significant findings or issues.   
+
+
+Module 3—Compilation Engagements 
+Compilation of Financial Statements   
+• In a compilation engagement, the accountant assists management in the presentation of financial statements without expressing any assurance.  
+
+Compilation Requirements   
+• The accountant must perform the following procedures for this type of engagement: 
+• 
+Establish an understanding with the client with an engagement letter. 
+
+• 
+Obtain a general understanding of the client's business and accounting principles and practices used. 
+
+• 
+Read the financial statements before issuing the report. 
+
+• 
+If fraud/illegal acts or subsequent events come to the accountant's attention, consider the effect on the financial statements. 
+
+• 
+Assemble documentation to support the compilation, including the engagement letter, a copy of the financial statements, and a copy of the accountant's report. 
+
+
+
+Reporting on a Compilation   
+• 
+Draft the Compilation Report—Know the standard report for a compilation and know how to modify the standard report if disclosures are omitted or if there are departures from the applicable financial reporting framework.   
+
+• 
+Independence is not required, but a lack of independence must be disclosed in the last paragraph of the compilation report. The auditor is permitted, but not required, to disclose the reason(s) for the independence impairment.  
+
+
+
+
+Module 4—Review Engagements   
+Review of Financial Statements  
+• 
+In a review engagement, an accountant uses inquiry and analytical procedures as a basis for expressing limited assurance on the financial statements. Note that a review is a higher level of service than a compilation, which expresses no assurance.  
+
+• 
+The accountant must be independent in order to perform a review.   
+
+• 
+Materiality must be determined and applied when designing review procedures and evaluating the results. 
+
+
+2 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Review Requirements  
+• The accountant must perform the following procedures for this type of engagement: 
+• 
+Understanding with the client should be established. 
+
+• 
+Learn and/or obtain sufficient knowledge of the entity's business. 
+
+• 
+Inquiries should be addressed to appropriate individuals. 
+
+• 
+Analytical procedures should be performed. 
+
+• 
+Review—Other procedures should be performed. 
+
+• 
+Client representation letter should be obtained from management. 
+
+• 
+Professional judgment should be used to evaluate results. 
+
+• 
+Accountant (CPA) should communicate results by drafting the review report—know the standard report for a review and know how to modify the standard report if there are departures from the applicable financial reporting framework. 
+
+
+
+
+Module 5—Review Reports   
+Reports on Review Engagements   
+• 
+An accountant must be independent of the client to issue a review report, and a statement regarding independence must be included in the accountant's review report.    
+
+• 
+The introductory paragraph of the review report should state the financial statements that were reviewed and include a statement that indicates a review is substantially less in scope than an audit. 
+
+• 
+The accountant must consider the financial statements as a whole to determine if any modification to the conclusion in the auditor's report is necessary. Conclusions may be unmodified, qualified (matter is material), or adverse (matter is material and pervasive). 
+
+
+
+Reporting on Comparative Financial Statements   
+• Know the requirements when reporting on comparative financial statements in which there are different levels of service (e.g., one period audited, another period reviewed or compiled).   
+
+
+Module 6—Interim Reviews 
+Overview 
+• This module applies to interim reviews when the annual financial statements are audited. Guidance for this engagement is provided in SAS (for nonissuers) or PCAOB standards (for issuers).   
+
+Procedures   
+• The accountant must perform the following procedures for interim engagements where SAS and PCAOB standards apply: 
+• 
+Understanding with the client should be established (use an engagement letter). 
+
+• 
+Learn and/or obtain sufficient knowledge of the entity and its environment, including the applicable financial reporting framework and the system of internal control. 
+
+• 
+Inquiries should be addressed to appropriate individuals. 
+
+• 
+Analytical procedures should be performed. 
+
+• 
+Review—Other procedures should be performed. 
+
+• 
+Client representation letter should be obtained from management. 
+
+
+3 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Professional judgment should be used to evaluate results. 
+
+• 
+Auditor (CPA) should communicate results to management and those charged with corporate governance (when necessary). 
+
+
+• 
+Know the required elements of a review report on interim information, including the report layout. 
+
+• 
+Know how to modify the standard report if there are departures from GAAP.  
+
+
+
+Other Uses of Interim Information   
+• Be familiar with how interim financial information may be presented or referenced with audited financial statements or a registration statement.  
+
+Summary of Engagements 
+• The textbook provides a summary table of comparative information about the different types of engagements that may be performed. 
+
+
+Module 7—The AICPA Code of Professional Conduct   
+Overview 
+• The Code of Professional Conduct governs any service that a member of the AICPA performs, including audits, special reports, compilations, reviews, services performed on financial forecasts/projections, and attestation engagements.   
+
+Principles 
+• The following principles provide the framework that is the basis for the code of conduct: 
+• 
+Responsibilities 
+
+• 
+Public interest  
+
+• 
+Integrity 
+
+• 
+Objectivity and independence 
+
+• 
+Due care 
+
+• 
+Scope and nature of services  
+
+
+
+Rules 
+• Review the key rules and associated member requirements per the table in the text. Past exam questions have focused heavily on the Independence Rule. 
+
+Conceptual Framework 
+• The AICPA Code of Professional Conduct provides conceptual frameworks to be utilized in the absence of applicable guidance. Be familiar with the conceptual framework approach and be able to identify threats and safeguards. 
+
+
+Module 8—Ethical and Independence Requirements: Part 1 
+The Sarbanes-Oxley Act of 2002   
+• Sarbanes-Oxley (SOX) is a federal law that was enacted with the intent of improving the accuracy and reliability of financial information disclosed by public companies. 
+
+Impact of SOX on Audit Responsibilities 
+• SOX Title I provides for the Public Company Accounting Oversight Board (PCAOB), which consists of five members (two must be CPAs and three cannot be CPAs), requires firms that audit issuers to register with the PCAOB, and outlines certain auditing standards that must be followed by registered firms. 
+4 
+© Becker Professional Education Corporation. All rights reserved. 
+• SOX Title II outlines auditor independence rules, including prohibited services, audit partner rotation, and audit committee preapproval and reporting. 
+
+Impact of SOX on Entity Responsibilities 
+• 
+SOX Title III outlines corporate responsibility for establishing an audit committee and representations made by key corporate officers (CEO and CFO). SOX Title III also prohibits improper influence on the audit by corporate officers.  
+
+• 
+SOX Title IV relates to enhanced financial disclosures associated with issuer reports. 
+
+• 
+SOX Title VIII relates to penalties and accountability for corporate and criminal fraud. 
+
+• 
+SOX Title IX relates to enhancements to punishments for white-collar crimes. 
+
+• 
+SOX Title XI relates to corporate fraud accountability related to tampering with evidence or impeding an official proceeding. 
+
+
+
+Independence Requirements of the SEC and PCAOB   
+• The SEC has outlined an extensive list of circumstances that could impair auditor independence, many of which reflect the AICPA's Code of Professional Conduct and the provisions of SOX. The PCAOB has adopted independence standards to conform to these rules. 
+
+Independence Requirements of the PCAOB  
+• The PCAOB has adopted the ethics and independence standards to conform to the rules outlined by the SEC and has issued its own additional ethics and independence standards concerning contingent fees, tax transactions and services, non-audit services related to internal control over financial reporting, and communications with the audit committee concerning independence.   
+
+
+Module 9—Ethical and Independence Requirements: Part 2 
+The Government Accountability Office (GAO)   
+• The U.S. Government Accountability Office (GAO) includes the following ethical principles and general standards: 
+• 
+Ethical principles include serving the public interest, integrity, objectivity, proper use of governmental information, resources and positions, and professional behavior. 
+
+• 
+The general standards address independence, professional judgment, competence, and quality management and assurance. 
+
+
+
+GAGAS Conceptual Framework for Independence 
+• GAGAS independence guidelines include a conceptual framework for making independence determinations. The conceptual framework requires the auditor to:  
+• 
+identify threats to independence;  
+
+• 
+evaluate the significance of the threats identified on an individual and aggregate basis; and 
+
+• 
+apply safeguards as necessary to eliminate the threats or reduce them to an acceptable level.  
+
+
+
+Department of Labor (DOL)   
+• The U.S. Department of Labor (DOL) requires independence when auditing and rendering an opinion on an employee benefit plan under the Employee Retirement Income Security Act of 1974 (ERISA).   
+5 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Summary of Independence Standards   
+• The candidate should review the chart below:   
+
+6 
+© Becker Professional Education Corporation. All rights reserved. 
+
+

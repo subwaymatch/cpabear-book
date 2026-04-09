@@ -1,0 +1,2851 @@
+REG 1 
+Unit Outline 
+Module 1—Filing Requirements and Filing Status 
+Individual Income Tax Formula 
+• Be very familiar with the categories and flow of this formula: Gross income (Adjustments)* Adjusted gross income (Greater of standard or itemized deductions) 
+Taxable income before QBI deduction (QBI deduction) 
+
+Taxable income 
+Federal income tax (Tax credits) Other taxes (Payments) 
+
+Tax due or refund 
+*Adjustments are also known as deductions to arrive at AGI. 
+
+Taxable Income Formula for Individuals  
+• Review the chart in the text that shows the detailed items that affect the components and calculation of taxable income for individual taxpayers.     
+
+Form 1040 (Individual Income Tax Return) 
+• Familiarize yourself with the form so you can handle simulation questions that ask you to calculate various amounts reported on the tax forms.    
+
+Filing Requirements for Individuals 
+• Generally, a taxpayer must file a return if his or her income is equal to or greater than the sum of:  
+• 
+the regular standard deduction (except for married filing separately); plus 
+
+• 
+the additional standard deduction amount for taxpayers aged 65 or older (except for married persons filing separately). 
+
+
+
+Filing Status 
+• 
+The general rule is to use the status as of December 31 (except in the case of a spouse's death during the year). 
+
+• 
+A qualifying surviving spouse with a dependent child is only available for taxpayers who have a dependent child living with him or her for the entire year. 
+
+• 
+Head-of-Household Status—To qualify, individuals must maintain as their home a household that is a principal residence of a qualifying person for more than half the taxable year. 
+
+• 
+Examiners have historically tested students on knowing the difference between the qualifying surviving spouse and head of household statuses. Qualifying surviving spouse (widow/widower) = whole year, whereas head of household = half the year. 
+
+
+1 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Dependency Definitions 
+• 
+CARES and SUPORT mnemonics are used for dependency, which may result in advantageous filing status or certain tax credits. 
+
+• 
+CARES = Close relative, Age limit, Residency and filing requirements, Eliminate gross income test, Support test 
+
+• 
+SUPORT = Support test, Under a specific amount of (taxable) gross income test, Precludes dependent filing a joint tax return test, Only citizens, Relative test, or Taxpayer lives with individual for the whole year test 
+
+
+
+• 
+Multiple support agreements exist when two or more taxpayers contribute more than 50 percent of the support of a person, but none individually more than 50 percent; the contributors may decide who claims the person as a dependent. One must contribute more than 10 percent of support to be eligible.p 
+
+
+
+
+Module 2—Gross Income: Part 1  
+Gross Income Overview 
+• 
+Gross income means all income from whatever source derived, unless specifically excluded. 
+
+• 
+Realized—An amount received in the sale or other disposition of property, which includes cash, the fair market value of property and services received, and debt assumed by the buyer. 
+
+• 
+Recognized—The realized gain is included on the tax return. 
+
+
+
+Specific Items of Income and Exclusions  
+• 
+Wages—Money and FMV of property received. 
+
+• 
+Nontaxable Fringe Benefits—Be familiar with common nontaxable employee fringe benefits (e.g., health insurance, group-term life insurance, education, adoption, and dependent care assistance). 
+
+• 
+Interest Income—Interest on state and local obligations is nontaxable. Interest on federal obligations and state and federal tax refunds are taxable. Interest income on Series EE bonds is sometimes tax-exempt if used for higher education expenses. 
+
+• 
+Dividends—Know sources (earnings and profits) and character (taxable or return of capital). 
+
+• 
+Tax rate = 15 percent on qualified dividends for most taxpayers. 
+
+• 
+A maximum tax rate of 20 percent for qualified dividends for high-income taxpayers and a 0 percent tax rate for low-income taxpayers.  
+
+• 
+Know tax-free distributions (watch cash option on stock dividend) and life insurance dividends.  
+
+
+
+• 
+IRA Distributions—Know the different tax rules for distributions of principal and earnings from deductible versus nondeductible traditional IRAs and qualified versus nonqualified Roth IRA distributions. Taxable distributions are ordinary income and are subject to an additional 10 percent penalty tax for early withdrawal unless one of the exceptions applies. (HIM DEAD TED mnemonic: Homebuyer—purchase of first home; Insurance (medical), if unemployed; Medical expenses above AGI floor; Disability (permanent); Education; Adoption or birth of a child; Disaster (qualified natural); Terminal illness or death; Emergency (personal or family); Domestic abuse victims.) 
+
+• 
+Annuities—Fixed period annuities and life annuities; partially taxable and partially nontaxable, except a life annuity when an annuitant outlives life expectancy, then all is taxable.   
+
+• 
+State and Local Tax Refunds—Taxable only if itemized in the prior year and a taxable benefit resulted. 
+
+• 
+Payments Pursuant to a Divorce—Know what payments qualify and the difference between alimony (taxable) and child support (nontaxable). Alimony is only taxable if pursuant to a divorce agreement executed on or before December 31, 2018. 
+
+
+2 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Unemployment Compensation—Taxable; do not confuse it with workers' compensation (nontaxable). 
+
+• 
+Social Security Income—Taxable portion depends on MAGI (AGI + tax-exempt interest + 50% of Social Security benefits); lower income—nontaxable, middle income—up to 50% taxable, higher income—up to 85% taxable. 
+
+• 
+Year of Death Income—The decedent's income includable on the final tax return is determined as if still alive, with the taxable period ending on the date of death. Income earned or received after death is reported on the federal estate tax return for the decedent. 
+
+• 
+Prizes and Awards—FMV is taxable income; limited exclusion exists. 
+
+• 
+Gambling Winnings and Losses—No net losses allowed. Winnings are fully taxed, and losses are an itemized deduction to the extent of the winnings. 
+
+• 
+Cancellation of Debt (COD) Income—If a lender cancels a borrower's debt, the amount of the debt is included in the borrower's income, except in specific circumstances. 
+
+• 
+Scholarships and Fellowships—These may be partially taxable depending on the type of student, whether services are provided, and how the funds are spent. 
+
+• 
+Life Insurance Proceeds—Generally nontaxable, but the interest income element of a deferred payout is taxable.  
+
+• 
+Gifts and inheritances are not taxable to the beneficiary. 
+
+
+
+
+Module 3—Gross Income: Part 2 
+Business Income or Loss, Schedule C  
+• 
+Schedule C = Sole proprietor (self-employed). Note that several issues relate to deduction in this area. 
+
+• 
+Business meals = 50 percent deductible.  
+
+• 
+Bad debts actually written off may be deducted, but only if an accrual basis taxpayer. 
+
+• 
+Interest expense on business loans is limited to business interest income + 30 percent of ATI 
+
++ floor plan financing interest. The limitation does not apply if average gross receipts for the prior three years are $31 million or less (2025). Prepaid interest can be deducted, but the accrual method must be used. 
+
+• 
+Nondeductible expenses = Personal expenses, business entertainment, federal taxes, and salaries paid to the sole proprietor.   
+
+• 
+Self-employment (S/E) taxes are not deductible on Schedule C; a deduction for one-half of S/E taxes is allowed as an adjustment to AGI (also see Schedule SE).  
+
+• 
+A business with a loss may deduct the loss against other sources of income, subject to overall excess business loss and net operating loss (NOL) limitations. 
+
+
+
+• 
+Hobby losses = Deduction of expenses related to activities not engaged in for profit is limited. 
+
+• 
+Nine factors provided in the tax law are used to determine whether a profit motive exists. 
+
+• 
+Three-of-five-year presumption = If profitable for three of the past five years, then activity is presumed to be a business (burden of proof shifts to IRS to prove activity is not a business). 
+
+
+
+
+
+Rental Income or Loss 
+• 
+Prepaid rent or a nonrefundable deposit is taxable when received. 
+
+• 
+Special rules apply for the rental of a personal residence (less than 15 days versus 15 days or more). 
+
+• 
+Know items included on Schedule E. 
+
+
+3 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Income or Loss From Flow-Through Business Entities 
+• 
+Income, gains, losses, and deductions "flow-through" to individuals from partnerships, LLCs, and  S corporations. 
+
+• 
+Items of income are reported as ordinary business income or separately stated items. 
+
+• 
+A taxpayer's self-employment income includes guaranteed payments received from partnerships and shares of ordinary business income from partnerships (but only as long as the taxpayer is actively involved in the partnership's operations). 
+
+• 
+A taxpayer who is a shareholder in an S corporation does not pay self-employment tax on a share of business income from the S corporation. 
+
+• 
+Limitations on the deduction of flow-through business losses: 
+
+• 
+Tax Basis Limitation—Loss suspended until tax basis in flow-through entity ownership interest is reinstated; any suspended losses remaining when the owner disposes of the interest are lost. 
+
+• 
+Excess Business Loss Limitation—Applies to combined sources of business income and loss; can only deduct up to a certain amount of combined losses (2025: $626,000 MFJ, $313,000 all other taxpayers). Any excess business loss is carried forward as an NOL. 
+
+
+
+
+
+
+Module 4—Adjustments 
+Overview 
+• 
+The examiners can use many terms for the same amounts: Adjustments to gross income (AGI), adjustments to arrive at AGI, deductions to arrive at AGI, deductions for AGI, and above-the-line deductions.  
+
+• 
+Adjustments are available to anyone regardless of whether the taxpayer claims the standard deduction or itemizes deductions. Adjustments for AGI include: 
+
+• 
+Educator expenses 
+
+• 
+Student loan interest deduction  
+
+• 
+Health savings account deduction 
+
+• 
+Moving expenses (only for members of the U.S. armed forces moving pursuant to military order) 
+
+• 
+Penalty on early withdrawal of savings 
+
+• 
+Alimony paid (only on divorce agreements executed on or before December 31, 2018) 
+
+• 
+Attorney fees paid in certain discrimination and whistleblower cases 
+
+• 
+Traditional IRA contribution deduction 
+
+• 
+Deductible part of self-employment tax 
+
+• 
+Self-employed health insurance deduction  
+
+• 
+Deduction for contributions to certain self-employed retirement plans 
+
+
+
+
+
+Educator Expenses   
+• Educator expenses from K–12th grade; can deduct up to $300 in qualified expenses (2025). 
+
+Student Loan Interest Expense 
+• Student Loan Interest—Limited to $2,500 per year and is phased out for higher-income taxpayers. 
+4 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Health Savings Accounts 
+• Health Savings Accounts—Must be combined with a high-deductible health insurance plan; make pretax contributions of up to $4,300 in 2025 ($8,550 for families). Amounts used to pay qualified medical expenses are nontaxable; distributions used for other purposes are included in gross income and subject to an additional 20 percent tax. 
+
+Moving Expenses 
+• An adjustment for moving expenses is only allowed for members of the armed forces on active duty who move pursuant to a military order. 
+
+Penalty on Early Withdrawal of Savings: Interest Income Forfeited  
+• An example of interest income forfeited is the interest penalty on early withdrawal of savings when funds in a certificate of deposit are withdrawn before maturity. 
+
+Alimony 
+• Alimony is deductible if paid pursuant to a divorce or legal separation agreement executed on or before December 31, 2018. It is income to the recipient spouse. Child support and property settlements are not deductible.  
+
+Attorney Fees Paid in Discrimination Cases 
+• An adjustment may be allowed for attorney fees paid in connection with discrimination and whistleblower cases. The adjustment amount is limited to the amount claimed as income from the judgment. 
+
+Individual Retirement Account (IRA) Contributions 
+• 
+Three Types of IRAs—Deductible and nondeductible traditional IRAs and Roth IRAs.   
+
+• 
+Maximum Annual Contribution to an IRA—Lesser of earned income or $7,000 (2025); additional $1,000 if age 50 or older.   
+
+• 
+A nonworking spouse can also contribute and claim the full amount, even if no earned income (based on the working spouse's earnings). Taxable alimony (pre-2019 divorce agreement) counts as "earned income."   
+
+• 
+The ability to deduct contributions to a traditional IRA is limited if there is excessive AGI and active participation in a retirement plan (the amounts do not have to be memorized, but be familiar with the approximate levels). 
+
+• 
+The ability to contribute to a Roth IRA is limited if excessive AGI; contributions to Roth IRAs are nondeductible. 
+
+
+
+Adjustments for Self-Employed Taxpayers 
+• 
+Half of self-employment (Social Security and Medicare) tax is deductible. 
+
+• 
+Self-employed health insurance premiums are fully deductible.  
+
+• 
+Self-Employed Retirement Plans—Self-employed taxpayers can deduct contributions to qualified self-employed retirement plans (most common: SEP IRAs, SIMPLE IRAs, Solo 401(k)). The contribution limit depends on the type of plan, based on a percentage of self-employment income reduced by the deduction for one-half of the self-employment tax. 
+
+
+
+
+Module 5—Itemized Deductions 
+Standard Deduction 
+• 
+For non-itemizers, based on filing status. 
+
+• 
+There is an additional standard deduction for blind and/or elderly (age 65 and older) taxpayers. 
+
+
+5 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Itemized Deductions 
+• 
+Medical Expenses: Who Is Eligible—The taxpayer, his or her spouse, and dependents; special dependent rule for medical purposes; no gross income test and no joint return test. Use the cash basis to determine the deduction. Types of expenses deductible include medicines, prescriptions, doctors, medical/accident insurance, disability costs, etc., after insurance reimbursement (out of pocket). Can deduct eligible expenses in excess of 7.5 percent of AGI floor.  
+
+• 
+State, Local, and Foreign Taxes—Real estate, personal property, and either income or sales taxes (but not both); limited to $10,000 in the aggregate. Nondeductible taxes (FIB mnemonic: federal taxes, inheritance taxes, business and rental property taxes). 
+
+• 
+Casualty Losses—Only deductible if a federally declared disaster; lesser of FMV or adjusted basis; $100 per casualty floor, then 10 percent of AGI floor for total casualty losses after $100 per casualty floor. 
+
+• 
+Gambling Losses—Can be deducted to the extent of gambling winnings, but only if itemized deductions.  
+
+• 
+Interest Expense (use HIPPE mnemonic). 
+
+• 
+Home Mortgage—First and second home, acquisition indebtedness maximum $750,000, points rules (deductible on original purchase and must be amortized on refinances of the same home). 
+
+• 
+Investment Interest Expense—Deduction is limited to net taxable investment income, indefinite carryforward of unused amounts (or until the investment is disposed of), and tax-free bond investment interest is never deductible. 
+
+• 
+Personal Interest—Not deductible. 
+
+• 
+Prepaid Interest—Must be allocated over the period of the loan. 
+
+• 
+Educational Loan Interest—Adjustment, not itemized deduction.   
+
+
+
+• 
+Charitable Contributions—Cash, long-term capital gain property (FMV), and ordinary income property (lesser of the adjusted basis or FMV); no deduction for contributed services other than out-of-pocket expenses; deduction reduced by the value of any consideration received. AGI limitations for contributions to public charities (applied in this order): cash—60 percent of AGI; ordinary income property—50 percent of AGI; and LTCG property—30 percent of AGI. Five-year carryforward of excess over AGI limit. 
+
+
+
+
+Module 6—Section 199A Qualified Business Income Deduction 
+Section 199A Qualified Business Income Deduction for Flow-Through Business Entities 
+• Section 199A provides a deduction of up to 20 percent of qualified business income (QBI) for eligible flow-through businesses (including sole proprietorships). 
+• 
+Know the definitions related to QBI, qualified property, QTB, and SSTB. 
+
+• 
+Know the basic calculation of the deduction (20% of QBI) and when and how the various limitations apply based on the type of business (QTB vs. SSTB) and the taxpayer's taxable income level. 
+
+• 
+Category 1: Taxpayers With Income Below Threshold Amount—Full 20% deduction for QTBs and SSTBs. 
+
+• 
+Category 2—Taxpayers With Income Above Threshold Amount—Deduction is limited to W-2 and property limitations for income from a QTB; no deduction is allowed for income from an SSTB. 
+
+• 
+Overall Taxable Income Limitation—Limited to 20% of the taxpayer's taxable income (before the QBI deduction) in excess of net capital gain.  
+
+
+6 
+© Becker Professional Education Corporation. All rights reserved. 
+
+
+Module 7—Tax Computation and Credits 
+Individual Ordinary Income Tax Calculation and Limitations 
+• 
+For tax calculations, you do not need to know the ordinary income tax brackets. Examiners will give the candidate the rates if needed. Examiners focus more on the correct calculation of taxable income. 
+
+• 
+Preferential tax rate of 15 percent for long-term capital gains (LTCGs) and qualified dividend income (20 percent for high-income taxpayers, 0 percent for low-income taxpayers). 
+
+
+
+Tax Credits 
+• 
+Most tax credits are tested on a candidate's ability to recognize which credits apply to individuals, businesses, etc. Issues that are tested more frequently are listed below. 
+
+• 
+Know which credits and tax payments are refundable [child tax credit (limited), earned income tax credit, W-2 withholdings, excess Social Security withheld by two or more employers, and American opportunity tax credit (40 percent refundable)].  
+
+• 
+Child and Dependent Care Credit—Minimum and maximum credit (20 to 35 percent) of eligible expenses for child and dependent care credit (up to $3,000 for one child, up to $6,000 for two or more). The credit is phased out for high-income taxpayers, but not below 20 percent. 
+
+• 
+Education-Related Tax Credits—American opportunity tax credit: $2,500 max per student; 100 percent of the first $2,000 and 25 percent of the next $2,000 of tuition, fees, and course materials for up to four years of undergraduate college education; up to $1,000 (40 percent) refundable. Lifetime learning credit: $2,000 max per taxpayer; 20 percent of the first $10,000 of tuition and fees (not course materials). Phased out for higher-income taxpayers. Can use both, but not for the same student. (Review the education tax incentives summary chart in text for other education-related exclusions and adjustments.) 
+
+• 
+Credit for Elderly and/or Permanently Disabled—15 percent of eligible income; age 65 or older or under 65 and retired due to permanent disability. 
+
+• 
+Adoption Credit—Qualified adoption expenses up to a specified amount; medical expenses for children do not qualify; credit phased out for high-income taxpayers. 
+
+• 
+Retirement Savings Contribution Credit—Available for contributions of up to $2,000 to a traditional or Roth IRA by taxpayers over age 17 who are not full-time students or dependents. The credit rate (10 percent, 20 percent, or 50 percent) depends on the taxpayer's filing status and AGI. 
+
+• 
+Foreign Tax Credit—Based on foreign income taxes paid to a foreign country, one can either use for credit or deduct the foreign taxes paid as an itemized deduction. 
+
+• 
+General Business Credit (GBC)—Made up of many credits, the limitation formula is sometimes tested (note that only the first $25,000 of income tax may be eliminated completely; remaining income tax liability can only be 75 percent eliminated by the GBC). 
+
+• 
+Additional Small Business Credits 
+
+• 
+Small Employer Retirement Plan Start-Up Costs Credit—Related to ordinary and necessary costs to set up and administer a new qualified retirement plan and educate employees about the plan. 
+
+• 
+Small Business Health Care Tax Credit—For small employers; up to 50 percent of health insurance premiums paid on behalf of employees enrolled in a qualified health plan offered through a small business health options program (SHOP). 
+
+
+
+
+7 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Residential Energy Credits 
+
+• 
+Residential Clean Energy Credit—30 percent of installation costs of qualifying solar, wind, and geothermal energy generating systems in 2022 through 2032.  
+
+• 
+Energy Efficient Home Improvement Credit—30 percent of the costs of qualified energy efficiency improvements placed in service after 2022, maximum annual credit of $1,200. 
+
+
+
+• 
+Vehicle and Fuel-Related Credits 
+
+• 
+Clean Vehicle Credit—Up to $7,500 (new) or $4,000 (used) electric vehicles placed in service after 2022; credit subject to MAGI limitations.  
+
+• 
+Alternative Fuel Refueling Property Credit—30 percent of installation costs of "qualified alternative fuel vehicle refueling property" installed in the home, maximum credit $1,000. 
+
+
+
+• 
+Child Tax Credit of $2,000 (2018–2025) per "qualifying child" (dependent son or daughter or descendant of either, or stepchild or eligible foster child of taxpayer); not age 17 by the end of the tax year; gradually phased out for high-income taxpayers. The portion may be refundable. A taxpayer may claim an additional nonrefundable tax credit of $500 for each dependent who is not a qualifying child under age 17.  
+
+• 
+Earned Income Tax Credit—Refundable credit (most common question) for low-income taxpayers; credit amount depends on earned income and number of qualifying children; a lower credit is available if the taxpayer has no children and is over age 25 and under age 65 (only one spouse required to meet age test if MFJ). 
+
+• 
+Excess Social Security (FICA) Tax Withheld—Occurs when two or more employers withhold the correct amount of Social Security tax, but the combined tax withheld exceeds the Social Security tax limit; excess withholding is treated as a "credit" against income tax liability. 
+
+
+
+Estimated Tax and Inadequate Withholding  
+• 
+Tax Prepayments—Taxpayers typically make tax prepayments during the year, which consist of quarterly estimated payments by the taxpayer and/or withholdings from W-2 wages by the employer. At year-end, on the tax return, these prepayments of tax and the various "credits" mentioned above are compared with the total tax liability to determine whether tax is overpaid (refunded) or underpaid (owed). 
+
+• 
+Underpayment Penalty—Only if a taxpayer owes $1,000 or more at year-end; avoid the penalty if tax prepayments for the year are at least 90 percent of current year tax liability or 100 percent of prior year tax liability (110 percent of prior year tax liability if AGI exceeds $150,000).  
+
+
+
+Other Taxes  
+• 
+Self-employment (Social Security and Medicare) tax is 15.3 percent of "net Schedule C income" (Schedule C net income × 92.35 percent); tax is paid on the taxpayer's federal income tax return; one-half of the tax is deducted as an adjustment toward AGI. 
+
+• 
+There is an additional Medicare tax of 0.9 percent of wages in excess of $250,000 for married filing jointly, $125,000 for married filing separately, and $200,000 for all other taxpayers. 
+
+• 
+The additional net investment income (NII) tax is 3.8 percent of the lesser of net investment income or the excess AGI over a threshold amount ($250,000 MFJ and $200,000 for other taxpayers). Investment income includes portfolio income (interest, dividends, LTCGs) and passive income from business and rental activities.  
+
+• 
+Kiddie Tax Rules—Net unearned income of dependent child; $1,350 standard deduction, next $1,350 taxed at child's tax rate, unearned income in excess of $2,700 ($1,350 + $1,350) is taxed at parent's tax rate (2025). If the child also has earned income of more than $1,350, the child's standard deduction is earned income plus $450 (maximum of $15,000, the 2025 single standard deduction amount). If the child is entitled to a larger standard deduction, the amount of unearned income taxed at the parent's rate is still unearned income in excess of $2,700 (2025). 
+
+
+8 
+© Becker Professional Education Corporation. All rights reserved. 
+REG 2 
+Unit Outline 
+
+
+Module 1—Basis and Holding Period of Assets 
+Adjusted Basis and Holding Period of Assets 
+• 
+Purchased Property—General rule: Use purchase price for initial basis; adjusted basis is initial basis less accumulated depreciation. The holding period begins when the property is acquired. 
+
+• 
+Gifted Property—General rule: Use the donor's basis and holding period. If there is a lower FMV at the date of gift and if it later sells at a loss, use the FMV at the date of gift as the basis; the holding period begins at the date of gift. No gain or loss is recognized if the subsequent selling price is less than the donor's basis and more than the lower FMV at the date of gift. 
+
+• 
+Inherited Property—General rule: FMV at the date of death. The executor can elect to use FMV on the alternate valuation date (six months after the date of death, or the date of distribution if earlier). The holding period is automatically long-term. 
+
+
+
+Capitalize or Expense 
+• 
+Property with a useful life of more than one year is capitalized. 
+
+• 
+Improvements to property (betterment, extending useful life, restoring property's value or use, adapting property to new or different use) are capitalized. Costs to maintain property that do not add value or extend useful life are expensed as repairs and maintenance. 
+
+• 
+Materials and Supplies—Expense if the cost is $200 or less, or if it is consumed within one year. 
+
+• 
+De Minimis Rule—If a taxpayer has a policy of expensing low-cost personal property items for financial accounting purposes and has an applicable financial statement (AFS), they can also expense (deduct) for income tax purposes personal property items that cost no more than $5,000 (or items that cost no more than $2,500 if the taxpayer does not have an AFS).  
+
+
+
+Property Converted From Personal to Business Use 
+• 
+For depreciation purposes, tax basis is the lesser of the original cost basis plus improvements or FMV on the date of conversion.  
+
+• 
+For gain/loss purposes, tax basis is the adjusted basis at the date of sale (if a gain) or the lesser of the adjusted cost or FMV at the date of conversion, less any accumulated depreciation (if a loss). 
+
+
+
+Intangible Property 
+• 
+General rule: Use cost or purchase price for initial basis; adjusted basis is initial basis less accumulated amortization. 
+
+• 
+Organizational costs and start-up costs: Can expense the first $5,000 of organization costs and the first $5,000 of start-up costs.  Any costs not immediately expensed are amortized. 
+
+
+
+
+Module 2—Gains and Losses 
+Calculation of Gain or Loss on Disposition  
+• 
+The amount realized less the adjusted basis of the asset sold = Gain or loss realized. 
+
+• 
+Amount Realized—Cash received, FMV of property and/or services received, and debt assumed by the buyer; reduced by selling expenses. 
+
+• 
+Adjusted Basis—Generally, the original basis less the accumulated depreciation. 
+
+
+1 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Character of Gain or Loss  
+• 
+Capital Assets—Assets held for investment and personal use assets. 
+
+• 
+Noncapital Assets—Inventory, accounts receivable, trade/business use assets (real property and personal property). 
+
+
+
+Capital Gain and Loss Rules for Individual Taxpayers  
+• 
+Holding Period—Short-term capital gain or loss (STCG or STCL) if held one year or less; long-term capital gain or loss (LTCG or LTCL) if held more than one year. 
+
+• 
+Tax Rates on Net Gains—Net STCG is taxed at ordinary tax rates; net LTCG is taxed at 0, 15, or 20 percent preferential tax rates. Gain on sale of collectibles and qualified small business stock (QSBS) is taxed at a maximum 28 percent tax rate. 
+
+• 
+Net Losses—Deduct up to $3,000 net capital loss; the net STCL is deducted before the net LTCL. The excess is carried forward indefinitely; the loss retains its character as ST or LT. 
+
+• 
+Netting Process—Gains and losses, including CL carryforwards, are netted within each tax rate group: the ST ordinary tax rate group, the LT 0/15/20 percent tax rate group, and the LT 28 percent tax rate group.  
+
+
+
+Capital Gain and Loss Rules for C Corporations 
+• 
+There is no distinction between short-term and long-term for C corporations. 
+
+• 
+Net capital gains are taxed at the ordinary corporate tax rate. 
+
+• 
+Capital losses can only offset capital gains. A net capital loss is carried back three years, then forward five years, to offset net capital gains within the carryback/carryforward window. 
+
+
+
+Gain on Sale of Personal Residence 
+• 
+Eligible for homeowner’s exclusion if the taxpayer owns and uses the home as a personal residence for at least two years out of the five years immediately preceding the sale. 
+
+• 
+The exclusion amount is $250,000 ($500,000 MFJ). 
+
+• 
+Any gain in excess of the exclusion amount is LTCG. 
+
+
+
+Losses (Nondeductible) 
+• The following losses are nondeductible (WRaP). 
+• 
+Wash Sale Losses—These are disallowed if the security (stock or bond) is repurchased within 30 days before or after the date of sale. 
+
+• 
+Related Party Losses—These are generally disallowed. 
+
+• 
+Personal Losses—No deduction is allowed for loss on disposition of personal-use assets (including personal residence). 
+
+
+2 
+© Becker Professional Education Corporation. All rights reserved. 
+
+
+Module 3—Cost Recovery 
+Depreciation 
+• 
+MACRS—Modified Accelerated Cost Recovery System 
+
+• 
+Personal Property—Five-year class (vehicles, computers, copiers), seven-year class (furniture, machinery, equipment), and 15-year class (qualified improvements to the interior of an existing nonresidential building) are the most common categories; use the half-year convention unless the purchase is more than 40 percent of personal property in the last quarter of the year (then use the mid-quarter convention). You should be familiar with how to use MACRS depreciation tables in text. 
+
+• 
+Real Property—27.5-year residential rental property and 39-year nonresidential real property; straight-line method; use the mid-month convention. 
+
+
+
+• 
+Section 179 Deduction (for personal property, including qualified real property improvements)—For 2025, the maximum allowance is $1,250,000; allowance is reduced dollar-for-dollar by the amount of qualifying property purchased that exceeds $3,130,000 (2025). The deduction is limited to taxable income (before the deduction). 
+
+• 
+Bonus Depreciation (for personal property, including qualified real property improvements)—2025, 40 percent; 2026, 20 percent; 2027, 0 percent. It is claimed after the Section 179 expense deduction, if elected, but before the regular MACRS depreciation deduction. 
+
+
+
+Amortization (Intangibles) 
+• 
+180 months straight-line for most intangibles. Research expenses are amortized over 60 months for domestic research and 180 months for foreign research, copyrights and patents are amortized over their useful lives, and debt issuance costs are amortized over the term of the loan. 
+
+• 
+Business Organization and Start-up Costs—Allowed to expense $5,000 for each (reduced dollar-for­dollar as total cost for each exceeds $50,000); the rest is amortized over 180 months. 
+
+
+3 
+© Becker Professional Education Corporation. All rights reserved. 
+REG 3 
+Unit Outline 
+
+
+Module 1—C Corporation Overview 
+C Corporation Taxable Income 
+• 
+This has historically been the most heavily tested area of the exam for corporations. 
+
+• 
+Gross income is very similar for both corporations and individuals, with the general rule being that income is recognized when received. 
+
+• 
+C corporations with average annual gross receipts exceeding $31 million for the prior three tax years (2025) must use the accrual method of accounting.   
+
+• 
+A publicly held company cannot deduct compensation in excess of $1,000,000 paid to the top five executives. Employee bonuses paid by an accrual basis taxpayer must be paid by 2.5 months after year-end in order to be deductible. 
+
+• 
+Bad Debts—Accrual basis taxpayers are required to use the direct write-off method for tax purposes (the allowance method is used for financial accounting purposes). Because a cash-basis taxpayer has not included the amount in gross income, a bad debt is not deductible except in the case of an uncollectible check that has been deposited. 
+
+• 
+Business Interest Expense—The deduction is limited to the sum of business interest income, 30 percent of adjusted taxable income (ATI), and floor plan financing interest expense if the taxpayer's average annual gross receipts are more than $31 million for the prior three tax years (2025). Disallowed interest expense can be carried forward indefinitely. 
+
+• 
+Charitable Contributions—The deduction is limited to 10 percent of taxable income before the charitable contributions (CC) deduction, the dividends-received deduction (DRD), and any capital loss carryback. Excess over the limit can be carried forward for five years. 
+
+• 
+Business Casualty Losses—Deductible after insurance reimbursement. If partially destroyed, the loss is limited to the lesser of the decline in value or the adjusted basis immediately before the casualty. If fully destroyed, the amount of the loss is the adjusted basis of the property. 
+
+• 
+The tax treatment of the following items differs from GAAP treatment, and it is important to understand how and why they are treated differently. This list touches on the tax treatment of some of the more common items, and many more are listed in the textbook.  
+
+• 
+Organizational Expenditures—Deduct $5,000 immediately and amortize the excess over 180 months. 
+
+• 
+Start-up Costs—Deduct $5,000 immediately and amortize the excess over 180 months. 
+
+• 
+Goodwill, Intangibles—Amortize these over 15 years. 
+
+• 
+Life Insurance—Premiums on key employees when the corporation is the beneficiary are not deductible; if the employee is the beneficiary, it is a fringe benefit for employees and is deductible. 
+
+• 
+Meals and Entertainment—Business meals are 50 percent deductible. Entertainment expenses are not deductible. 
+
+• 
+Penalties and Fines—These are not deductible. 
+
+• 
+Taxes—Federal, state, and local payroll taxes are deductible. Federal income taxes are not deductible. Foreign income taxes may be used as a credit. 
+
+• 
+Political and Lobbying Expenses—These are not deductible. 
+
+
+
+
+1 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Capital Gains and Losses—Tax treatment differs for C corporations and individuals. The $3,000 deduction for net capital losses is not available to C corporations, capital gains tax rates for C corporations are the same as the ordinary tax rate, and net capital losses have a three-year carryback and a five-year carryforward. This is a commonly tested area of the exam.  
+
+• 
+Inventory Valuation Methods—In general, the method used for financial accounting purposes can be used for tax purposes. Basic valuation methods include cost, lower of cost or market, rolling average, and retail method. Common inventory identification methods (cost-flow assumptions) include FIFO, LIFO, and specific identification. 
+
+• 
+Dividends-Received Deduction (DRD)—50 percent (0 to < 20 percent ownership); 65 percent (20 to  < 80 percent ownership); and 100 percent (80 percent or more ownership).   
+
+• 
+DRD equals the lesser of 50 percent (or 65 percent) of dividends received or 50 percent (or 65 percent) of taxable income (before the DRD, any NOL carryforward, or capital loss carryback). 
+
+• 
+If taking the full DRD will create an NOL, then take the full DRD without regard to the DRD taxable income limitation.   
+
+• 
+Do not take the DRD personally; personal service corporations, personal holding companies, and (personally taxed) S corporations are not allowed to take the DRD. 
+
+
+
+• 
+Review the chart in the text that summarizes the calculation of C corporation taxable income.  
+
+
+
+
+Module 2—Differences Between Book and Tax 
+Book Income vs. Taxable Income 
+• Book Income vs. Taxable Income—There are many different items of income and expense that are treated differently for GAAP and tax rules. Review the chart in the text that compares financial statement income with taxable income. You need to have an understanding of how this reconciliation of book income to taxable income is performed. 
+
+Temporary vs. Permanent Differences 
+• 
+Temporary Differences—Income or expense items that are recognized in one period for book but in a different period for tax. An example of a temporary difference is the difference between tax and book depreciation because the total cost recovery is the same over time, but the timing is different for book and for tax. 
+
+• 
+Permanent Differences—Income or expense items that are always on the tax return and never on the financial statements (books), or always on the financial statements (books) and never on the tax return. An example of a permanent difference is municipal bond interest income, which is recognized as income for books but is always excluded for tax. 
+
+
+
+Schedules M-1 and M-3 
+• 
+Schedule M-1—Part of the Form 1120 C corporation federal income tax return, where book income is reconciled to taxable income. 
+
+• 
+Schedule M-3—A more detailed version of the M-1; it distinguishes between temporary and permanent differences. 
+
+• 
+If a company's total assets are $10 million or greater, the company is required to reconcile book and taxable income (loss) on Schedule M-3.   
+
+
+2 
+© Becker Professional Education Corporation. All rights reserved. 
+
+
+Module 3—C Corporation Tax Computations and Credits  
+Taxation of a C Corporation 
+• 
+The income tax return must be filed by the 15th day of the 4th month (April 15 for calendar year taxpayers).   
+
+• 
+Estimated tax payments are due on the 15th day of the 4th, 6th, 9th, and 12th months. A corporation not classified as a large corporation is required to pay the lesser of 100 percent of the current year's tax or 100 percent of the preceding year's tax. A large corporation (a corporation for which taxable income was $1 million or more in any of its three preceding tax years) must pay 100 percent of the current year's tax.  
+
+• 
+A C corporation's taxable income is subject to a flat income tax rate of 21 percent. 
+
+• 
+Review Tax Credits—General business credit (GBC), research and development tax credit (part of GBC), and foreign tax credit. 
+
+• 
+General Business Credit (GBC)—Includes various credits, limited to net income tax less 25 percent of net regular tax liability above $25,000. Unused credit is carried back one year and carried forward 20 years. 
+
+• 
+Research and Development Tax Credit—Part of GBC, it is calculated as 20 percent of the increase in qualified research expenditures over a defined base amount and is subject to the overall GBC limitation above. 
+
+• 
+Foreign Tax Credit—U.S. corporations can either take a credit or a deduction for foreign taxes paid or accrued. If a credit is elected, the corporation can credit the amount of foreign taxes against its U.S. income tax liability on foreign source income. Review the textbook for the computation. Unused foreign tax credits can be carried back one year and carried forward 10 years. 
+
+
+
+• 
+Accumulated earnings tax is imposed on C corporations whose accumulated (retained) earnings are in excess of $250,000 if those funds are improperly retained. Personal service corporations are entitled to only $150,000 of accumulated (retained) earnings. 
+
+• 
+Personal holding companies (PHCs) are more than 50 percent owned by five or fewer individuals and have 60 percent of adjusted ordinary gross income consisting of net rent, interest, royalties, and dividends (NIRD mnemonic). An additional tax of 20 percent is imposed on PHC net income not distributed. 
+
+
+
+
+Module 4—Calculating Loss Limitations for C Corporations 
+Net Operating Losses 
+• 
+NOLs arising before 2018 can be carried forward 20 years. 
+
+• 
+NOLs arising in 2018 and later tax years can be carried forward indefinitely. 
+
+• 
+NOL carryforwards from pre-2018 tax years can offset 100 percent of a future year's taxable income. Post-2017 NOLs that are carried forward to post-2020 tax years can only offset 80 percent of taxable income after deducting any pre-2018 carryforwards.   
+
+
+
+Capital Losses 
+• 
+Capital losses can only be offset against capital gains. There is no additional $3,000 net capital loss deduction for C corporations. 
+
+• 
+Excess net capital losses are carried back three years and then forward five years to offset net capital gains within the carryback/carryforward period. 
+
+
+3 
+© Becker Professional Education Corporation. All rights reserved. 
+
+
+Module 5—S Corporation Overview 
+Overview 
+• An S corporation is formed when a C corporation makes a valid election to be treated as an S corporation for federal income tax purposes. 
+
+Eligibility 
+• To qualify as an S corporation, certain requirements must be met: 
+• 
+Qualified domestic corporation 
+
+• 
+Eligible shareholders (individuals, estates, certain trusts, qualified retirement plans, 501(c)(3) charities) 
+
+• 
+Shareholder limit (100 maximum; family members count as one shareholder) 
+
+• 
+One class of stock (differences in common stock voting rights allowed) 
+
+
+
+Electing S Corporation Status 
+• 
+All shareholders (voting and nonvoting) must consent to a valid election on Form 2553, which the company files with the IRS. After the election is made, the consent of new shareholders is not required. 
+
+• 
+If the election is filed by March 15, the effective date is January 1 of the current year. If the election is filed after March 15, the effective date is January 1 of the following year.  
+
+
+
+Termination of S Election 
+• 
+S corporation status will terminate as a result of any of the following: 
+
+• 
+Holders of a majority of the corporation's stock (any combination of voting and nonvoting common stock) consent to a voluntary revocation—Use the same rules for the effective date of termination as with election (effective January 1 of the current year or following year); you can also specify an effective date. 
+
+• 
+The corporation fails to meet any of the eligibility requirements for S corporation status— Termination effective immediately. 
+
+• 
+More than 25 percent of the corporation's gross receipts come from passive investment income for three consecutive years, and the corporation had C corporation earnings and profits at the end of each year. The S corporation status is terminated as of the beginning of the fourth year. 
+
+
+
+• 
+Short tax years (part year S corporation, part year C corporation) can result if the corporation revokes the election and specifies an effective date or fails to meet requirements. 
+
+• 
+Allocate based on the number of days for each (S corp./C corp.). 
+
+• 
+Close the books on the date of conversion. 
+
+
+
+• 
+The corporation must wait five years after the year of termination to reelect S corporation status. 
+
+
+
+S Corporation Income or Loss 
+• 
+Like partnerships, S corporations flow through ordinary business income or loss and separately stated items of income, gain, loss, and deductions to the shareholders. Allocations to shareholders are made on a per-share, per-day basis. 
+
+• 
+Unlike partnerships, an active S corporation shareholder's share of ordinary business income is not subject to self-employment tax. 
+
+
+4 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Common separately stated items: 
+
+• 
+Rental real estate income/loss 
+
+• 
+Portfolio income (including interest, dividends, royalties, and net short-term and net long-term capital gains/losses) 
+
+• 
+Net Section 1231 gain or loss 
+
+• 
+Charitable contributions 
+
+• 
+Section 179 expense deduction 
+
+
+
+• 
+A below-the-line deduction of 20 percent of qualified business income may be available on ordinary business income flowed through from an S corporation. 
+
+• 
+Fringe Benefits—The cost of fringe benefits for employee shareholders owning more than 2 percent of the stock is not deductible by the S corporation unless the benefits are included in the employee shareholder's W-2 income. 
+
+
+
+S Corporation Shareholder Stock Basis and Debt Basis 
+• The calculation of a shareholder's basis in S corporation stock is generally the same as that of partnerships:  
+Initial stock basis 
++ 
+Additional contributions 
+
++ 
+Income/gain items 
+
+
+– 
+Distributions to shareholders 
+
+– 
+Nondeductible expenses 
+
+– 
+Loss/deduction items Ending basis in S corporation stock 
+
+
+• 
+Unlike partners in partnerships, S corporation shareholders do not include any S corporation debt in their stock basis. 
+
+• 
+However, a shareholder has a separate debt basis in loans from the shareholder to the S corporation. 
+
+• 
+When the S corporation repays any part of the loan, the shareholder's debt basis is reduced accordingly. 
+
+
+
+• 
+An S corporation loss can only flow through to a shareholder's individual income tax return to the extent of the shareholder's tax basis. 
+
+• 
+Tax basis limitation = Stock basis + Debt basis 
+
+• 
+Loss in excess of tax basis is suspended until tax basis is reinstated in future years (debt basis is reinstated first, then stock basis). 
+
+• 
+Suspended loss due to insufficient tax basis is carried forward indefinitely; any suspended losses remaining when the shareholder disposes of stock are lost. 
+
+
+
+
+5 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Accumulated Adjustments Account (AAA) 
+• 
+The AAA is the accumulated earnings and profits during the years the corporation is an S corporation. 
+
+• 
+AAA is increased by ordinary business income and separately stated income/gain items (excluding tax-exempt income). 
+
+• 
+AAA is decreased by ordinary business losses, separately stated losses and deductions, nondeductible expenses, and distributions. 
+
+
+
+• 
+AAA may be negative due to S corporation losses and deductions, but distributions cannot reduce AAA below zero. 
+
+
+
+
+Module 6—Partnership Overview 
+Overview 
+• A partnership is a "flow-through" entity, which means that the income is not taxed at the partnership level, only at the partner level once the income flows through to the partner. 
+
+Partnership Income or Loss 
+• 
+A partnership is not subject to income tax. The partnership files an informational return (Form 1065, including Schedules K and K-1) providing detailed information about partnership income and expenses and each partner's distributive share. 
+
+• 
+A partner must include on his or her individual income tax return the partner's share of ordinary business income or loss and each separately stated item of income, gain, loss, or deduction. Review the chart in the text that shows which items are included in ordinary business income or loss on Form 1065 and which are flowed through as separately stated items on Schedules K and K-1. 
+
+• 
+Guaranteed Payments—Reasonable compensation paid to a partner for services provided or use of capital without regard to the partner's profit- or loss-sharing ratio. They are an ordinary business deduction to the partnership and taxable ordinary income to the recipient-partner. Guaranteed payments for services are also subject to self-employment tax. 
+
+• 
+Organizational/Start-up Costs—A partnership can deduct $5,000 (each category) immediately and amortize any excess over 180 months. The $5,000 expense allowance for each category is reduced when the amount spent exceeds $50,000. 
+
+• 
+A below-the-line deduction of 20 percent of qualifying business income may be available on ordinary business income flowed through from a partnership or LLC. 
+
+
+Partner's Tax Basis in Partnership Interest 
+• Remember the following BASE mnemonic (beginning, additions, subtractions, ending): 
+B Beginning capital account 
+A + % All income (including tax-exempt income) 
+S < % All losses and deductions > (including nondeductible expenses) 
+< Distributions > 
+E Ending capital account 
++% Partnership liabilities 
+Ending tax basis in partnership interest 
+6 
+© Becker Professional Education Corporation. All rights reserved. 
+• Tax Basis Limitation—A loss can only flow through to a partner's individual income tax return to the extent of the partner's tax basis in their partnership interest (reduces basis to zero). 
+• 
+A loss in excess of the tax basis is suspended until the basis is reinstated in future years. 
+
+• 
+Suspended loss is carried forward indefinitely; any suspended losses remaining when the partner disposes of the partnership interest are lost. 
+
+
+
+Tax Classification of Limited Liability Companies 
+• 
+A limited liability company (LLC) is a separate legal entity from its owners. LLC members are not personally liable for the obligations of the business. 
+
+• 
+LLCs with more than one owner are taxed as a partnership; single-member LLCs are treated as a sole proprietorship (Schedule C) if the owner is an individual and included in the corporation's taxable income if the owner is a C corporation. An LLC can elect to be taxed as a C Corporation by making such an election on Form 8832. 
+
+
+
+
+Module 7—Tax-Exempt Organizations   
+Overview 
+• Over 30 types of tax-exempt organizations are designated in the Internal Revenue Code. The most common type is Section 501(c)(3) organizations. 
+Section 501(c)(3) Organizations 
+• 
+Exempt Purpose—Must be organized and operated exclusively for religious, charitable, scientific, public safety testing, literary, educational, fostering of national/international amateur sports competition, or prevention of cruelty to children/animals purposes. 
+
+• 
+Contributions made to Section 501(c)(3) organizations are deductible as charitable contributions to the donor. 
+
+• 
+These are classified either as private foundations or public charities. 
+
+• 
+Private Foundations—Primary activity typically involves making grants to other charitable organizations and individuals. In order to be tax-exempt, the foundation's governing document must contain special provisions as required by the tax law. 
+
+• 
+Public Charities—Not subject to the rules and restrictions that apply to private foundations. Common types of public charities include churches, universities, and hospitals. 
+
+
+
+
+
+Other Tax-Exempt Organizations 
+• 
+Some common types of Section 501(c) tax-exempt organizations other than 501(c)(3) organizations are those created by an act of Congress (e.g., federal credit union), title-holding corporations, civic leagues, and social welfare organizations.   
+
+• 
+Section 527 Political Organizations—Organized for the purpose of collecting contributions or making expenditures for an exempt function, which includes attempting to influence elections to public office. 
+
+• 
+Generally, contributions to these other tax-exempt organizations are not tax-deductible as charitable contributions to the donor. 
+
+
+7 
+© Becker Professional Education Corporation. All rights reserved. 
+
+
+Module 8—State and Local Tax Issues 
+State Income Tax Considerations 
+• 
+Nexus—Defined as the minimum level of contact a taxpayer may have with a jurisdiction to be subject to its tax.  
+
+• 
+Once nexus is established, the next step is for the company to determine how much of its total federal income or loss should be taxable by each state. 
+
+• 
+This is accomplished through the rules of allocation and apportionment. Although the terms "allocation" and "apportionment" are almost always used in the same phrase, they each perform a separate function, and it is important to note the difference between the two. 
+
+• 
+Generally, allocable items of income are "nonbusiness" income. That is, the income does not relate to the primary business activities of the corporation within the state. "Allocation" refers to the process of removing the nonbusiness income from the total income on line 28 of page 1 of the federal Form 1120 and assigning it entirely to the state where it should be taxed, which is generally the state of the taxpayer's commercial domicile (or residence). 
+
+• 
+The income apportioned to a state is usually the product of the apportionment factor (based on the corporation's percentage of property, payroll, and sales in the state) and the portion of line 28 income that is apportionable business income (line 28 income less allocated income). 
+
+
+
+
+The state may require a combination of the income of related members if the combination better reflects the business done within the state. 
+8 
+© Becker Professional Education Corporation. All rights reserved. 
+REG 4 
+Unit Outline 
+
+
+Module 1—Circular 230 
+Overview 
+• Circular 230 regulations govern practice before the IRS regarding the following:  
+• 
+Rules governing the authority to practice before the IRS (Subpart A) 
+
+• 
+Duties and restrictions relating to practice before the IRS (Subpart B) 
+
+• 
+Sanctions for violation of the regulations (Subpart C) 
+
+• 
+Rules applicable to disciplinary proceedings (Subpart D) 
+
+
+
+Authority to Practice (Subpart A) 
+• The rules governing practice before the IRS apply to: 
+• 
+Attorneys 
+
+• 
+Certified public accountants 
+
+• 
+Enrolled agents 
+
+• 
+Enrolled actuaries 
+
+• 
+Enrolled retirement plan agents 
+
+• 
+Registered tax return preparers 
+
+• 
+Other persons allowed to represent a taxpayer before the IRS in limited circumstances 
+
+
+
+Duties and Restrictions Relating to Practice Before the IRS (Subpart B) 
+• 
+Information to be Furnished to the IRS—Includes any IRS-requested information or records (unless the practitioner has a reasonable, good-faith belief that it is privileged). 
+
+• 
+Knowledge of Client Omission—Must advise the client of the existence and consequences of any noncompliance, error, or omission.  
+
+• 
+Diligence as to Accuracy—Exercise due diligence in preparing, approving, and filing tax returns as well as determining the correctness of representations made to the client or the Treasury Department (in written or oral form).  
+
+• 
+Prompt Disposition of Pending Matters—No unreasonable delay of any matter before the IRS. 
+
+• 
+Acceptance of Assistance From or to Disbarred or Suspended Persons or Former IRS Employees— This is not allowed if other restrictions in Circular 230 or any federal law are violated. 
+
+• 
+Restrictions on practice by former government employees and their partners and associates. 
+
+• 
+Notary—May not act as a notary public for a client on any tax matter. 
+
+• 
+Fees—May not charge an unconscionable fee; a contingent fee is only allowed in three situations before the IRS: 
+
+• 
+Examination of, or challenge to, an original tax return (or amended return or refund claim in limited circumstances) 
+
+• 
+A claim solely for a refund of interest and/or penalties 
+
+• 
+Judicial proceedings arising under the IRC 
+
+
+
+
+1 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+There are two rules for the return of client records: 
+
+• 
+General Rule—At the request of a client, a practitioner must promptly return all client records necessary for the client to comply with federal tax obligations; may keep copies of records returned to the client. 
+
+• 
+If state law allows, a practitioner may retain records in case of a fee dispute, but must provide the client with access to review and copy records retained. 
+
+
+
+• 
+Conflict of Interest—May not represent a client before the IRS if it involves a conflict of interest unless the practitioner reasonably believes that he or she can competently represent each client and each affected client waives the conflict of interest and gives informed consent (confirmed in writing within 30 days). 
+
+• 
+Advertising and Solicitation Restrictions—No false, misleading, or deceptive statement or claim.  
+
+• 
+Any published written fee schedule must be honored for 30 days. 
+
+• 
+Endorsement or other negotiation of a tax refund check issued to a client is not allowed. 
+
+• 
+Best Practices for Tax Advisors—Include communicating with the client regarding terms of engagement, establishing facts and arriving at a conclusion based on law and facts, and advising the client about the importance of the conclusion reached. 
+
+• 
+Competence—Requires that the practitioner have the appropriate level of knowledge, skill, thoroughness, and preparation necessary for the matter in which the practitioner is engaged. 
+
+
+
+Standards With Respect to Tax Returns and Documents, Affidavits, and Other Papers (Subpart B) 
+• 
+Tax Returns—A practitioner may not sign a tax return or advise a client to take a tax position that the practitioner knows (or should know) is an unreasonable position, a willful attempt to understate tax liability, or a reckless or intentional disregard for tax rules and regulations. 
+
+• 
+Documents, Affidavits, or Other Papers—A practitioner cannot advise a client to submit any document that will delay or impede the administration of the tax law, is frivolous, or contains or omits information demonstrating intentional disregard of tax law. 
+
+• 
+Advising Clients on Potential Penalties—A practitioner must inform a client of any penalties reasonably likely to apply and the opportunity to avoid penalties if the client discloses the position taken appropriately. 
+
+• 
+Practitioner's Reliance on Information Furnished by the Client—A practitioner may generally rely on good faith without verification of information furnished by a client but must make reasonable inquiries if information furnished by the client appears to be questionable or incomplete. 
+
+
+
+Written Advice (Subpart B) 
+• In giving written advice concerning the application or interpretation of federal tax matters, a practitioner must: 
+• 
+base the written advice on reasonable factual and legal assumptions (including assumptions as to future events); 
+
+• 
+reasonably consider all relevant facts and circumstances that the practitioner knows or should know;  
+
+• 
+use reasonable efforts to identify and ascertain the facts relevant to written advice on each federal tax matter; 
+
+• 
+not rely on representations, statements, findings, or agreements (including projections, financial forecasts, and appraisals) of the taxpayer or any other person if reliance on them would be unreasonable; 
+
+
+2 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+relate applicable law and authorities to facts; and 
+
+• 
+not take into account the possibility that a tax return will not be audited or that a federal tax matter will not be raised on audit.  
+
+
+• A practitioner may only rely on the advice of others if the advice is reasonable and reliance is in good faith, considering all facts and circumstances. Reliance is not reasonable when the practitioner knows or should know that the opinion of the other person should not be relied on or that the other person lacks the necessary qualifications to provide the advice or has a conflict of interest.  
+
+Compliance (Subpart B) 
+• Individuals who have principal authority for overseeing a firm's federal tax practice must take reasonable steps to ensure that the firm has adequate procedures to ensure compliance with Circular 230. 
+
+Sanctions for Violations of the Regulations (Subpart C)   
+• The Secretary of the Treasury or the Secretary's delegate may publicly reprimand, suspend, or disbar any practitioner from practice before the IRS if the practitioner: 
+• 
+is shown to be incompetent or disreputable (review Circular 230 for activities considered to be incompetent and disreputable conduct); 
+
+• 
+fails to comply with any regulations in Circular 230; or 
+
+• 
+willfully and knowingly misleads or threatens a client or prospective client with the intent to defraud. 
+
+
+
+Petition for Reinstatement (Subpart D) 
+• A practitioner disbarred or suspended may petition for reinstatement before the IRS after the expiration of five years following such disbarment or suspension (or immediately following the expiration of the suspension period, if shorter than five years).   
+
+
+Module 2—Professional Responsibilities and Tax Return Preparer Penalties  
+Tax Return Preparer 
+• 
+The term "tax return preparer" means any person who prepares for compensation or who employs one or more persons to prepare for compensation any tax return required under the IRC or any claim for a refund of tax imposed by the IRC. 
+
+• 
+Preparation of a substantial portion of a return or claim for a refund shall be treated as if it were the preparation of such a return or claim for a refund. Any tax professional with an IRS preparer tax identification number (PTIN) is authorized to prepare federal tax returns. 
+
+• 
+"Tax return preparer" does not include a person who: 
+
+• 
+merely furnishes typing, reproducing, or providing other mechanical assistance; 
+
+• 
+prepares a return or claim for a refund for the person's employer; or 
+
+• 
+prepares a return or claim for a refund for another person as a fiduciary (trustee, executor, etc.).  
+
+
+
+• 
+Unlimited Representation Rights 
+
+• 
+Enrolled agents, certified public accountants, and attorneys have unlimited representation rights before the IRS. 
+
+• 
+Annual filing season program participants who are PTIN holders but do not have a credential and do not participate in the annual filing season program have limited representation rights before the IRS. 
+
+
+
+
+3 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Tax Return Preparer Compliance Penalties   
+• Tax return preparers can be assessed compliance penalties for the following reasons: 
+• 
+Understatement of taxpayer's liability due to an unreasonable position taken by the taxpayer if the tax return preparer knew or should have known about the unreasonable position. 
+
+— 
+A position is unreasonable if it lacks reasonable basis (if disclosed) or substantial authority (if undisclosed). A position relating to a tax shelter or a reportable transaction is unreasonable. It does not meet the more-likely-than-not standard.  
+
+— 
+The penalty is equal to the greater of $1,000 or 50% of the income the preparer received for tax return preparation services. 
+
+
+
+• 
+Understatement of taxpayer's liability due to willful or reckless conduct of the tax return preparer (IRC Section 6694(b)). The penalty is equal to the greater of $5,000 or 75% of the income the preparer received with respect to the tax return or refund claim. 
+
+
+
+Tax Return Preparer Penalties for Unethical Behavior   
+• Tax return preparers can be assessed penalties for unethical behavior due to the following reasons: 
+• 
+Failure of the tax return preparer to provide to the client-taxpayer a completed copy of the tax return or copy of the refund claim (IRC Sections 6695 and 6107) 
+
+• 
+Failure of the tax return preparer to sign a tax return or refund claim (IRC Section 6695) 
+
+• 
+Failure to furnish (indicate on return or claim) the tax identification number of the tax return preparer (IRC Section 6695) 
+
+• 
+Failure of the tax return preparer to properly retain records for the required three-year period (IRC Sections 6695, 6107, and 6060) 
+
+• 
+Failure to file correct information returns (IRC Sections 6695 and 6060) 
+
+• 
+Endorsement or other negotiation of an IRS refund check issued to a client-taxpayer (IRC Section 6695) 
+
+• 
+Failure to be diligent in determining a client's eligibility for the earned income credit, American opportunity credit, child tax credit, and head of household filing status [IRC Section 6695(g)] 
+
+
+
+Other Tax Return Preparer Penalties 
+• Tax return preparers can be assessed penalties for the following other reasons: 
+• 
+Aiding and Abetting Understatement of Tax Liability (IRC Section 6701)—The penalty applies to any person, not just to tax return preparers. 
+
+• 
+Wrongful Disclosure and/or Use of Tax Return Information (IRC Sections 6713 and 7216)— Exceptions to the penalty include disclosures pursuant to a court order, disclosures and uses permitted by Treasury regulations for quality and peer reviews and administrative orders, and client consent to the disclosure. 
+
+
+
+Role of State Boards of Accountancy 
+• 
+Licensing Power of State Boards—Statutes in all 50 states grant to state boards of accountancy the sole power to license certified public accountants. 
+
+• 
+Disciplinary Power of State Boards—Each state determines what constitutes professional misconduct by a CPA sufficient to subject the CPA to disciplinary action. There are three broad categories of misconduct (misconduct while performing accounting services, misconduct outside the scope of accounting services, and criminal conviction). There are five penalties that a state board of accountancy may impose for professional misconduct (suspension or revocation of license, monetary fine, reprimand or censure, probation, and mandatory CPE courses).  
+
+
+4 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Requirements of Regulatory Agencies 
+• 
+The requirements of the American Institute of Certified Public Accountants (AICPA) and state CPA societies are as follows: 
+
+• 
+The Professional Code of Conduct applies to all members of the AICPA. Many state CPA societies and state boards have incorporated all or parts of the code. 
+
+• 
+Joint Ethics Enforcement Program (JEEP)—The AICPA and 49 state societies have created the Joint Ethics Enforcement Program for the enforcement of their codes of conduct by means of a single investigation and action. 
+
+• 
+Disciplinary actions by the AICPA and state CPA societies include sanctioning their members, but the AICPA and state CPA societies cannot suspend or revoke a CPA's license. 
+
+
+
+• 
+Disciplinary actions by the IRS can include criminal or civil penalties. 
+
+• 
+Disciplinary action by the U.S. Securities and Exchange Commission can include censure, suspension, or permanent revocation of an accountant's right to practice before the SEC, including the right to sign documents required by the Securities Act of 1933 and the Securities Exchange Act of 1934.  
+
+
+
+
+Module 3—Federal Tax Procedures and Taxpayer Penalties 
+Audit Process  
+• 
+The federal income tax system is based on the self-assessment of taxes. The audit process helps ensure that this "voluntary" assessment and payment are actually occurring.   
+
+• 
+Methods for selecting income tax returns for audit include statistical models, random selection, prior year audit, information return discrepancy, and deductions that exceed established norms. 
+
+• 
+Types of audits include correspondence audits (information or mathematical errors or matching issues), IRS office audits, and field audits (conducted at the taxpayer's home or place of business). 
+
+
+
+Appeals Process 
+• 
+The taxpayer has 30 days to request an administrative appeal with an IRS appeals officer (appeals conference).  
+
+• 
+If an appeals conference was not requested after receipt of the 30-day letter, or if the taxpayer and the IRS do not agree on the proposed adjustment after the appeals conference, a 90-day letter (notice of deficiency) is issued. The taxpayer has 90 days to pay the deficiency or file a petition with the U.S. Tax Court. 
+
+
+
+Federal Judicial Process 
+• 
+Federal Court System—When a taxpayer and the Internal Revenue Service cannot reach an agreement on a tax matter using the administrative appeals process (either with a revenue agent or with the Appeals Division), the dispute must be settled in the federal court system. Review the chart, Summary of U.S. Trial Court System, in the text.  
+
+• 
+The U.S. Tax Court is a specialized trial court that hears only federal tax cases (income tax, estate tax, gift tax, or certain excise taxes). The taxpayer is not required to pay the disputed tax in order to file a petition in the U.S. Tax Court. The judge is a tax expert, and there are no jury trials. An informal Small Cases Division option is available for small tax cases (decision cannot be appealed, and summary opinion cannot be cited as precedent). 
+
+• 
+The U.S. District Courts are the general trial courts of the U.S. federal court system. The taxpayer must first pay the disputed tax liability and then sue the IRS for a refund. The judges are not tax experts, and jury trials are an option. 
+
+
+5 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+The U.S. Court of Federal Claims is a nationwide court that has jurisdiction over most claims for money damages against the United States, one type of which is tax refunds. The taxpayer must pay the disputed tax and sue the IRS/federal government for a refund. There are no jury trials. The Court of Federal Claims follows the decisions of the federal Court of Appeals, not the geographic U.S. Courts of Appeals. 
+
+• 
+The U.S. Courts of Appeals (or circuit courts) are the first level of federal appellate courts. A court of appeals hears appeals from the U.S. District Courts within its federal judicial circuit.  
+
+• 
+The Supreme Court of the United States is the highest court in the nation and is the last level of appeal. 
+
+
+
+Taxpayer Penalties 
+• 
+The Internal Revenue Code contains many sections setting forth penalties, both civil and criminal, which the Internal Revenue Service can seek to impose on the taxpayer.   
+
+• 
+The following are the most common penalties that apply to taxpayers: 
+
+• 
+Earned income tax credit penalty (denial of credit for a specified number of years) 
+
+• 
+Penalty for failure to make sufficient withholding and estimated income tax payments 
+
+• 
+Failure-to-file penalty 
+
+• 
+Failure-to-pay penalty 
+
+• 
+Negligence penalty for understatement of tax (when underpayment is not substantial) 
+
+• 
+Penalty for substantial understatement of tax 
+
+• 
+Penalty for a substantial valuation misstatement 
+
+• 
+Fraud penalties (both civil and criminal) 
+
+
+
+
+
+Substantiation and Disclosure of Tax Positions 
+• 
+Various defenses are available to the taxpayer to avoid or reduce the penalties: 
+
+• 
+A position that is not frivolous 
+
+• 
+Reasonable basis standard (at least 20 percent chance of succeeding) 
+
+• 
+Substantial authority standard (more than 40 percent chance of succeeding) 
+
+• 
+More-likely-than-not standard (greater than 50 percent chance of succeeding) 
+
+
+
+• 
+Disclosure for Uncertain Tax Positions—Can help a taxpayer avoid understatement penalties. 
+
+• 
+In addition to the various defenses that are available, a taxpayer generally can avoid any penalty by showing that the taxpayer:  
+
+• 
+had reasonable cause to support the tax return position;  
+
+• 
+acted in good faith; and   
+
+• 
+did not have willful neglect.    
+
+
+
+• 
+Interest on many penalties begins to accrue from the tax return due date (or extended due date). Interest on underpaid tax begins to accrue from the date the tax was due without an extension of time to file. 
+
+
+Substantial Authority 
+• Review the list in the text of tax authorities that can be relied on as "substantial authority."   
+6 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Reporting Requirements for Foreign Bank Accounts 
+• A U.S. person must file an FBAR if they have a financial interest in, signature, or other authority over a financial account maintained with a financial institution located outside of the U.S. and the aggregate value of those accounts exceeds $10,000. 
+
+
+Module 4—Legal Duties and Responsibilities 
+Legal Liabilities 
+• 
+Civil actions for tax malpractice are usually based on either traditional contract principles or traditional tort principles. Tort actions include negligence, constructive fraud (gross negligence), and actual fraud. 
+
+• 
+Breach of Contract: 
+
+• If a CPA does not fulfill the terms of his or her engagement, the client can hold the CPA liable for breach of contract. Contract liability generally requires privity, so only a party to the contract can sue under a contract theory. 
+
+• 
+Negligence: 
+
+• 
+As a general rule, a CPA owes a duty to his or her client not to perform work negligently. If the CPA performs negligently, he or she can be held liable for damages. The standard of care owed by a CPA is to exercise the same skill and care expected of ordinarily prudent CPAs under similar circumstances. 
+
+• 
+Elements That the Plaintiff Must Show to Make a Case for Negligence—Duty, breach of duty, injury, causation, and damages. 
+
+• 
+To whom is the duty owed? 
+
+— 
+General Rule—Clients and any person, or a limited foreseeable class of persons, whom the CPA knows will be relying on the CPA's work. 
+
+— 
+Minority Rule—Only persons in privity of contract (clients) and intended third-party beneficiaries. 
+
+
+
+
+
+• 
+Fraud (intentional misrepresentation) and constructive fraud (gross negligence):  
+
+• 
+Know the Five Elements of Actual Fraud—Misrepresentation of material fact, intent to deceive (knowledge that a statement was false), actual and justifiable reliance by the plaintiff, intent to induce the plaintiff's reliance, and damages. 
+
+• 
+Elements of Constructive Fraud—Same as actual fraud, except instead of the defendant knowing the statement was false, the defendant acts recklessly (makes a statement without knowing whether it is true or false). 
+
+• 
+To whom is the CPA liable? The CPA can be held liable to anyone who proves the elements of fraud. 
+
+
+
+
+
+Privileged Communications, Confidentiality, and Privacy Acts 
+• 
+The rules of evidence protect information exchanged in certain confidential relationships (e.g., attorney-client, doctor-patient) by granting an evidentiary privilege—Information exchanged within the scope of the relationship may not be disclosed as evidence in court without the consent of the privilege holder. 
+
+• 
+Privileges Available to CPAs: 
+
+
+• Attorney-Client Privilege—May extend to a CPA if the CPA is engaged by an attorney to assist in providing legal services. 
+7 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Tax Practitioner-Taxpayer Privilege—Applies to tax advice from a federally-authorized tax practitioner that would qualify under the attorney-client privilege. It may only be asserted in noncriminal tax matters before the IRS and noncriminal tax proceedings in federal court against the U.S. government. 
+
+• 
+Work Product Privilege—Can protect tangible materials produced in preparation for litigation that are requested by an attorney but not the communication between the attorney and CPA about the work product. 
+
+
+• Workpapers belong to the accountant (or accountant's firm) that prepares them, not the client. The accountant is prohibited from showing the workpapers to anyone without the client's permission, except in the following situations:   
+• 
+In response to a subpoena relevant to a court case 
+
+• 
+To a prospective purchaser of the CPA's practice, as long as the prospective purchaser does not disclose the confidential information 
+
+• 
+To a state CPA society's voluntary quality-control review panel when requested 
+
+• 
+In defense of a lawsuit brought by a client 
+
+• 
+To be used in defense of an official investigation by the AICPA/state trial board 
+
+• 
+When GAAP requires disclosure of such information in the financial statements 
+
+
+8 
+© Becker Professional Education Corporation. All rights reserved. 
+REG 5 
+Unit Outline 
+
+
+Module 1—Contracts: Part 1  
+Methods of Formation 
+• 
+A contract is a legally enforceable agreement.   
+
+• 
+Methods of formation include:  
+
+• 
+Express Contract—Formed by language (oral or written). 
+
+• 
+Implied-in-Fact Contract—Formed by conduct. 
+
+• 
+Implied-in-Law (Quasi) Contract—Not a contract but a remedy to prevent unjust enrichment. 
+
+• 
+Unilateral Contract—One promise is given in exchange for performance; the contract is not formed until performance is completed. 
+
+• 
+Bilateral Contract—When there are two promises and a promise is exchanged for a promise, the contract is formed when the promises are exchanged. 
+
+
+
+
+
+Sources of Contract Law 
+• Understand the sources of contract law: UCC for sale of goods and the common law (for all other contracts (RISE mnemonic—Real estate, insurance, services, and employment law). 
+
+Elements of a Legally Enforceable Contract 
+• 
+Elements of a Contract—Agreement (offer and acceptance), consideration, and lack of defenses. 
+
+• 
+Offer and Acceptance—A "meeting of the minds." Advertisements are generally not offers. Terms must be definite and certain. An offer must be communicated to the offeree. 
+
+• 
+Termination of Offer—Revocation, rejection (including counteroffers), and by operation of law (death, insanity, destruction, and illegality). Revocations and rejections are effective only when received. 
+
+• 
+Acceptance—Only the offeree may accept. They must use a reasonable method; unless otherwise stated, they must use the specified method. Acceptance must be the mirror image of the offer, except in contracts for the sale of goods. 
+
+• 
+Mailbox Rule—Acceptances are effective upon dispatch. Offeror may opt out by stating that "acceptance is effective upon receipt." 
+
+• 
+Consideration—The legal value (not necessarily equal or fair) through a bargained-for exchange. 
+
+
+• Preexisting Duty Rule—If a party is already legally bound to perform, there is not adequate consideration. 
+
+
+Module 2—Contracts: Part 2  
+Defenses 
+• The following defenses, along with a lack of agreement and a lack of consideration, can make a contract unenforceable: 
+• 
+Fraud—Misrepresentation of a material fact, scienter (intent to deceive), intent to induce plaintiff's reliance, reasonable reliance by plaintiff, and damages. 
+
+• 
+Innocent Misrepresentation—The same as fraud but with no scienter. 
+
+• 
+Duress—Unlawful use of a threat of harm. If harm is threatened by physical force, then the contract is void. If the harm threatened is economic or social, the contract is voidable. 
+
+• 
+Undue Influence—Abusing a position of trust or confidence. 
+
+
+1 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Mutual Mistake—Both parties are mistaken as to a basic assumption of the contract. If both parties are unaware of the existence of the subject matter, the contract is void. 
+
+• 
+Unilateral Mistake—A mistake by one party; this is generally not a defense unless the other party knew or should have known of the mistake. 
+
+• 
+Illegality—Illegal contracts are void. Failure to have a required license makes all contracts void unless the license was a mere revenue-raising measure. Covenants not to compete are valid in the sale of business contracts and employment contracts if they are reasonably needed, reasonable as to time, and reasonable as to distance. 
+
+• 
+Minors—Minors may disaffirm anytime during minority and within a reasonable time after becoming an adult. They can ratify once they reach the age of majority by failing to disaffirm within a reasonable time, expressly ratifying or retaining the benefits. 
+
+• 
+Intoxication—A defense only when the intoxication is so severe that it prevents the person from understanding the nature of the contract. 
+
+• 
+Adjudicated Mental Incompetency—A contract made after a person has been adjudicated mentally incompetent is void.  
+
+• 
+Statute of Limitations—Four to six years to sue, measured from the date of the breach. 
+
+• 
+Statute of Frauds—Contracts that need to be evidenced by writing (MY LEGS mnemonic: marriage, year, land, executors, goods, surety). Contracts in which marriage is the consideration, contracts that by their terms cannot be performed within one year, contracts for interests in land, contracts by executors to pay estate debts out of personal funds, contracts for the sale of goods for $500 or more, and surety contracts.  
+
+— 
+They need only be signed by one party but can be enforced only against the one who signed.  
+
+— 
+Terms can be stated in more than one document. 
+
+
+
+• 
+Impossibility—Events make performance impossible (e.g., destruction of subject matter or death of the party to perform services). 
+
+• 
+Accord and Satisfaction and Substitute Contract—An accord is an agreement to substitute one contract for another, and satisfaction is the execution (performance) of the accord. Until the accord is completed, a party may sue under the original contract. A substituted contract discharges the original contract immediately. 
+
+• 
+Novation—Occurs when a new contract substitutes a new party for an old party in an existing contract, and all the parties agree that the old party is immediately released from liability. 
+
+• 
+Parol Evidence Rule—This prohibits the admission of prior oral or written evidence or contemporaneous oral statements to contradict the terms of a fully integrated (i.e., apparently complete) written contract. Exceptions to show fraud, duress, a mistake, or any subsequent event or change. 
+
+
+
+Remedies 
+• 
+Material or Substantial Breach—At common law, the non-breaching party can be discharged from the contract if there is a material breach; if the breach is only minor, there is no discharge, just damages. Under the Sales Article, a non-breaching party can be discharged for any breach (even a minor one— The perfect tender rule). 
+
+• 
+Once a breach occurs, the non-breaching party may be entitled to the following damages:    
+
+• 
+Compensatory—Money to put the non-breaching party in the position they would have been in had there been no breach. Consequential damages are recoverable if reasonably foreseeable. 
+
+• 
+Specific Performance (for Land and Unique Items)—A court order requiring the breaching party to perform. 
+
+• 
+Liquidated Damages—Damages agreed to in the contract; must be reasonable and not a penalty. 
+
+
+
+
+2 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Punitive Damages—These punish the defendant; they are usually not available for breach of contract. 
+
+• 
+Rescission or Cancellation—These cancel the contract and return parties to their original positions. 
+
+
+
+
+Module 3—Contracts: Part 3   
+Introduction 
+• The following are special rules that apply only to contracts for the sale of goods (i.e., movable things) under the Sales Article of the Uniform Commercial Code.   
+• 
+Merchants—The Sales Article includes certain rules that apply only to merchants. A merchant is one who deals in goods of the kind sold or who has special knowledge regarding the goods being sold. 
+
+• 
+Good Faith—The Sales Article imposes an obligation of good faith on all parties to a contract. 
+
+
+
+Creation of a Contract 
+• 
+Merchant's Firm Offer—Merchant's firm offers are written promises by merchants to keep the offer open. They are irrevocable for the time stated (or if no time is stated for a reasonable time) but, in any case, not longer than three months. 
+
+• 
+Mirror Image Rule—Does not apply.  
+
+• 
+Shipment as Acceptance—Offers to buy goods for prompt shipment may be accepted by a promise to ship or by prompt shipment. 
+
+• Shipment of Nonconforming Goods—Constitutes both an acceptance and a breach of contract.  
+
+• 
+Auctions 
+
+• 
+Generally, the bid is the offer, and the acceptance is the fall of the hammer. 
+
+• 
+Generally, auctions are with reserve; the seller does not have to sell. 
+
+• 
+If the auction states that it is without reserve, the highest bid must be accepted. 
+
+
+
+• 
+Consideration 
+
+• 
+Modification is enforceable without consideration. 
+
+• 
+Payment may be by check; if the seller demands cash, they must give the buyer reasonable time. 
+
+
+
+• 
+Defenses 
+
+• 
+Fraud—The defrauded party may rescind and sue for damages. 
+
+• 
+Statute of Limitations—Four years from the time the contract was breached. 
+
+• 
+Statute of Frauds—Contracts for the sale of goods for $500 or more (as modified) must be evidenced by a writing including the quantity. Exceptions for specially manufactured goods (goods not suitable for sale to others), written confirmation, admission in court, and performance (SWAP mnemonic).  
+
+• 
+Impracticability—A contract can be discharged for impracticability (it must be much more difficult to perform than anticipated; it need not be impossible). 
+
+• 
+Failure of Agreed Upon Method of Transportation—Not a defense; the buyer must accept delivery by other means.   
+
+
+
+
+3 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Delivery, Risk of Loss, and Title 
+• 
+Delivery and risk of loss 
+
+• 
+Basic Duty—The seller's basic duty is to hold conforming goods for the buyer and give the buyer reasonable notice to enable the buyer to take delivery. 
+
+• 
+Identification—For risk of loss (ROL) to pass, the goods must be identified (i.e., marked or segregated) as the goods for this contract. 
+
+• 
+As Parties Designate—Delivery and passage of the ROL are to occur where the parties designate. 
+
+• 
+Where Parties Do Not Designate—In noncarrier cases, if the seller is not a merchant, delivery and ROL pass to the buyer on the seller's tender. If the seller is a merchant, ROL passes to the buyer on actual delivery. In carrier cases in a shipment contract, ROL passes to the buyer on delivery to the carrier; in a destination contract, ROL passes to the buyer when the goods reach the specified destination.  
+
+• 
+FOB—Means free on board. Designation is followed by a destination. ROL passes when the goods reach the destination. 
+
+• 
+Effect of Breach—If the seller sends nonconforming goods, ROL always remains with the seller. 
+
+
+
+• 
+Risk in sale on approval and sale or return contracts 
+
+• 
+Sale on Approval—ROL on the seller until the buyer gives approval. 
+
+• 
+Sale or Return—ROL passes to the buyer when the seller delivers. 
+
+
+
+• 
+Title 
+
+• 
+The title can pass as parties agree, but it cannot pass before the goods are identified to the contract. 
+
+• 
+Absent the agreement, the title passes on completion of delivery. 
+
+• 
+If the buyer rejects the goods, the title revests in the seller. 
+
+
+
+
+
+Warranties 
+• The seller must make a perfect tender, or the buyer may reject. Goods must conform to all warranties. 
+• 
+Express Warranty—Arises from any statement of fact or promise made by the seller, any description of the goods made by the seller, or any sample or model shown by the seller made or shown at a time it could be a basis of the bargain. Goods must conform to these. It can be made by any seller and need not be in writing or even verbalized (e.g., a model shown). Cannot be disclaimed. 
+
+• 
+Implied Warranty of Title—Implied in every sale is a promise that the seller has a good title and a right to transfer it. If the seller is a merchant, they also warrant that there are no patent or trademark infringements. It can be disclaimed specifically or by circumstance (e.g., a judicial sale), but not by a general disclaimer such as "as is." 
+
+• 
+Implied Warranty of Merchantability—Made in the sale by the merchant; it is a promise that goods are fit for ordinary purposes. It can be disclaimed specifically or by a general disclaimer such as "as is" or "with all faults." Disclaimers can be oral, but if in writing, they must be conspicuous. 
+
+• 
+Implied Warranty of Fitness for Particular Purpose—Arises when the buyer relies on the seller to select goods suitable for the buyer's particular purpose for the goods. The seller need not be a merchant. Can be disclaimed specifically or by a general disclaimer such as "as is" or "with all faults." The disclaimer can be oral, but if in writing, it must be conspicuous. 
+
+
+4 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Remedies 
+• 
+Of buyer and seller: 
+
+• 
+Anticipatory Repudiation—The buyer or seller indicates that they will not perform. The non-breaching party may: sue immediately, cancel the contract, demand assurances, or await performance and then sue if performance is not made. The repudiating party may withdraw the repudiation until the other party relies. 
+
+• 
+Right to Demand Assurances—If one party has reason to believe that the other will not perform, they may make a written demand for an assurance. Failure to give such assurance is an anticipatory repudiation.    
+
+• 
+Punitive Damages—Not available. 
+
+• 
+Duty to Mitigate—Parties cannot recover for damages they could have avoided. 
+
+
+
+• 
+Seller's remedies: 
+
+• 
+Cancel and sue for damages. 
+
+• 
+Withhold Delivery and Stop Goods in Transit—If the buyer has failed to make a required payment or has repudiated. 
+
+• 
+Resell and Sue for Damages—Usual measure is the difference between contract price and resale price, plus incidental damages, such as storage fees. 
+
+• 
+Full Contract Price—May be recovered if goods cannot be resold. Incidental damages may also be recovered. 
+
+• 
+Liquidated Damages—Recoverable if reasonable and not a penalty. If the buyer has made a down payment and breaches, the seller may keep the lesser of $500 or 20 percent of the price. 
+
+
+
+• 
+Buyer's remedies: 
+
+• 
+Reject for Any Nonconformity—Rejection may be of all goods or some goods, or the buyer may accept. In any case, the buyer may sue for damages for the nonconformity.   
+
+• 
+Damages for Accepted Goods—The difference between the value of the goods if conforming and the value as delivered, plus incidental and consequential damages.  
+
+• 
+Damages for Rejected or Undelivered Goods—The difference between the market price and the contract price, or cover (buy replacement goods), and sue for the difference between the cost of cover and the contract price. 
+
+• 
+Specific Performance or Replevin—Specific performance can be used only if goods are unique, or the buyer cannot cover. Replevin (right to recover goods wrongfully in the hands of a seller) may be used if the goods have been identified and the buyer cannot reasonably cover. 
+
+• 
+On Seller's Insolvency—If the buyer has paid all or part of the price, the buyer may recover goods from the seller if the goods have been identified. 
+
+
+
+
+
+Entrusting 
+• If the owner of goods entrusts them to a merchant who deals in goods of the kind sold, and the merchant sells the goods in the ordinary course of business to a bona fide purchaser for value, the purchaser gets good title to the goods.  
+5 
+© Becker Professional Education Corporation. All rights reserved. 
+
+
+Module 4—Agency 
+Creation of the Agency Relationship 
+• 
+An agency is a legal relationship in which the principal authorizes an agent to act on the principal’s behalf. 
+
+• 
+The principal must have capacity (not a minor). 
+
+• 
+Writing is Not Generally Required—Unless to buy or sell land, or agency is to last more than a year. 
+
+• 
+Agent (Capacity not Required)—Minor can be an agent. 
+
+• 
+Consideration is not required to form an agency relationship. 
+
+
+
+• 
+The following duties are implied in every agency relationship: 
+
+• 
+Loyalty—The agent must act solely in the principal's best interest. 
+
+• 
+Obedience—The agent must obey the principal's reasonable instructions. 
+
+• 
+Reasonable Care—The agent must not act negligently. 
+
+• 
+Duty to Account—For money and property received and paid out. 
+
+• 
+Subagent—If the agent is authorized to hire a subagent, the subagent owes a duty of care to both the agent and the principal. 
+
+
+
+• 
+If the agent breaches the duties, and they owe the principal, the principal can recover damages from the agent, including tort damages, contract damages (if the agent was not gratuitous), and secret profits, and can even withhold compensation. 
+
+• 
+Principal owes the agent the following duties:  
+
+• 
+Compensation—Unless otherwise agreed. 
+
+• 
+Reimbursement/indemnification for all expenses in carrying out the agency relationship. 
+
+• 
+Remedies of the Agent—If the principal breaches duties to the agent, the agent can bring an action against the principal for damages. 
+
+
+
+• 
+Power to Terminate the Relationship: 
+
+• 
+Both parties generally have the power, but not necessarily the right, to terminate the relationship at will. They can be held liable for damages if the termination breaches the contract. 
+
+• 
+Agency Coupled With an Interest—The principal cannot terminate; only the agent can terminate. 
+
+
+
+
+
+Agent's Power to Contractually Bind Principal 
+• 
+The principal is bound by the agent's act if the agent acted with authority. There are two kinds of authority: actual and apparent. 
+
+• 
+Actual Authority—The authority agent reasonably believes that they possess authority because of the principal's communications to the agent.   
+
+• 
+Express—Principal specifically grants the power. 
+
+• 
+Implied—The agent reasonably believes that they have authority based on dealings between the principal and agent; this includes the authority necessary to run the business or carry out agency agreement. 
+
+• 
+Termination—Actual authority can be terminated by agreement of the parties, accomplishment of the objective, or expiration of the stated time. Actual authority is also terminated by the death of either principal or agent, incapacity of the principal, the principal's discharge in bankruptcy, failure to have a required license, destruction of the subject matter, and subsequent illegality. 
+
+
+
+
+6 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Apparent Authority—The power that a third party reasonably believes the agent has, based on the principal's conduct or communications toward a third party. This can arise from the following: 
+
+• 
+Holding the agent out under a specific title (e.g., an agent held out as a store manager has apparent authority to do whatever store managers in a similar business in the area do). 
+
+• 
+Failure to give notice of the agent's termination. 
+
+
+
+• 
+Agency by Estoppel—Where no actual agency relationship exists, if a person intentionally or carelessly causes a third party to believe another person is their agent and the third party detrimentally relies, the person will be estopped (legally barred) from denying the other person is their agent. 
+
+• 
+Ratification of a previously unauthorized act can also bind the principal in the contract. The requirements are: 
+
+• 
+The agent must have indicated that they were acting on behalf of the principal. 
+
+• 
+All material facts must be disclosed to the principal. 
+
+• 
+The principal must ratify the entire transaction. 
+
+
+
+• 
+Disclosed Principal—If the principal's existence and identity are known to the third party, the agent is not liable to the third party under the contract. 
+
+• 
+Unidentified/Partially Disclosed or Undisclosed Principal—If the third party does not know the agent is an agent or does not know the principal's identity, the agent is liable under contract with the third party along with the principal.  
+
+
+
+Tort Liability 
+• 
+General Rule—The principal is not liable for torts committed by an agent; only the agent is liable.  
+
+• 
+Respondeat Superior—An employer can be held liable for an employee's torts committed within the scope of employment (while the employee is performing services for the employer). 
+
+The key difference between an independent contractor and an employee is that the employer-principal has the right to control the manner in which the employee's work is performed. 
+
+• 
+An employer is liable for an independent contractor only if the employer authorized the tortious acts or if the work involved an ultrahazardous (or inherently dangerous) activity.   
+
+
+
+
+Module 5—Suretyship 
+Introduction 
+• 
+Broadly speaking, a surety is one who is liable for the debt or obligation of another. Suretyship involves three parties: the creditor (i.e., the obligee), the principal debtor (i.e., the obligor), and the surety. 
+
+• 
+The statute of frauds requires written evidence of the promise to answer for the debt of another. A suretyship undertaking that is not evidenced by a written memorandum is unenforceable.  
+
+• 
+A gratuitous surety is one who is not compensated for their promise to the creditor. If the creditor does anything that varies the gratuitous surety's risk, the surety's obligation is discharged. 
+
+• 
+A compensated surety is one who is paid for their promise to the creditor. Only changes by the creditor that materially increase the surety's risk will release a compensated surety. 
+
+
+7 
+© Becker Professional Education Corporation. All rights reserved. 
+
+The Surety's Rights 
+• When a debtor defaults in a suretyship situation, the creditor may do any of the following in any order: 
+• 
+Immediately demand payment from the surety. 
+
+• 
+Immediately demand payment from the debtor. 
+
+• 
+Immediately go after collateral, if there is any. 
+
+
+A general surety does not have the right to require the creditor to take any of these actions. However, a guarantor of collectibility would have the right to require a creditor to first proceed against the debtor or against available collateral. 
+• 
+The rights of exoneration, subrogation, and reimbursement:  
+
+• 
+Exoneration—If the debtor fails to pay, the surety may bring a suit for exoneration to compel the debtor to pay. The surety may do this prior to paying the creditor. 
+
+• 
+Subrogation—Once the surety pays the creditor, the surety may enforce any right that the creditor had against the debtor. For example, if the creditor was a secured creditor, the surety would gain the rights of a secured creditor upon payment. 
+
+• 
+Reimbursement—The surety is entitled to reimbursement from the debtor for any amounts that the surety paid. This is also called the right of "indemnification." 
+
+
+
+• 
+Cosureties are two or more sureties of the same obligation. Cosureties are jointly and severally liable (i.e., any one or more may be liable for the entire obligation).  
+
+• 
+On payment, a surety is entitled to contributions from their cosureties for the share of the payment. 
+
+• 
+Where cosureties are obligated for varying amounts by their agreements, and the debt is reduced by part payment by the principal, each cosurety remains liable for the original amount stated in their agreement. 
+
+• 
+A release of a cosurety without the other cosurety's consent results in the remaining cosurety losing the right of contribution against the released cosurety. Thus, the remaining surety is discharged to the extent that the surety could have recovered from the released surety. 
+
+
+
+
+
+Defenses of Surety  
+• 
+Fraud by the Creditor—The surety may use a defense that the debtor was induced into the debt agreement by the creditor's fraud. The surety may not use fraud by the debtor to induce the surety into the debt agreement as a defense unless the creditor was aware of the fraud. 
+
+• 
+Duress and Illegality—The surety is not liable if the debtor's promise was obtained by duress or if the debtor's obligation was illegal. 
+
+• 
+Payment or tender of payment by the debtor or a third party is a valid defense for a surety. 
+
+• 
+Extension of Time—If the creditor and debtor agree to extend the time of the debtor's payment: 
+
+• 
+Any extension of time releases a gratuitous surety. 
+
+• 
+A compensated surety is released only if the extension of time materially increases the surety's risk. 
+
+
+
+
+If the creditor does not agree to extend time but merely delays collection, the surety is not released. 
+• Personal defenses of the debtor:  
+• 
+The surety may not use as a defense the debtor's infancy, insanity, or illegality. Those defenses are personal to the debtor. 
+
+• 
+The surety may use their own infancy, insanity, or bankruptcy as a defense. 
+
+
+8 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Creditors' Rights Outside of Suretyship 
+• When a debtor owes a creditor money and does not have sufficient funds to pay, the debtor has a few options to alleviate the debt. Besides filing a petition in bankruptcy, the debtor can enter into a creditors' composition (i.e., an agreement among the debtor and at least two creditors that the debtor pays each less than their full claim) or make an assignment for the benefit of creditors (i.e., the debtor assigns some or all of their property to a trustee to distribute to their creditors). 
+
+Judicial Liens and Garnishment 
+• 
+If a debtor is adjudged to owe a creditor money and the judgment has gone unsatisfied, the creditor can request the court to impose a lien on specific property owned and possessed by the debtor. 
+
+• After the court imposes the lien, it will issue a writ (e.g., a writ of attachment), usually to the local sheriff, to seize property belonging to the debtor, sell it, and turn over the proceeds to the creditor. 
+
+• 
+Most states protect certain property of the debtor to ensure that the debtor does not become destitute, including a homestead allowance—An exemption for all or part of the value of the debtor's household. If the debtor is adjudged to owe the creditor money and the debtor has property in the hands of a third party (e.g., money the debtor is owed by their employer, money in a bank account, or debts owed to the debtor), a writ of garnishment may be sought. 
+
+• 
+The writ orders the person holding the property to turn it over to the creditor or be held personally liable for the value of the property not turned over. 
+
+• 
+Federal law provides that Social Security payments are not subject to garnishment, execution, levy, or attachment. 
+
+
+
+
+
+Mechanic's and Materialman's Liens 
+• Under common law, a mechanic or artisan who works on property and either improves it or repairs it automatically has a lien on the property for the price of the repairs, as long as the property is in the lienor's possession.    
+
+Fraudulent Conveyances   
+• A fraudulent conveyance occurs when a debtor transfers property with the intent to hinder, delay, or defraud any of their creditors. A fraudulent conveyance is void or voidable and will be set aside in a proper proceeding.    
+
+Fair Debt Collection Practices Act (FDCPA) 
+• 
+The act curbs abuse by collection agencies in collecting consumer debts. The act does not apply to a creditor attempting to collect its own debts; it applies only to services that collect consumer debts for others. 
+
+• 
+The act severely restricts collection agencies' ability to call third parties, such as relatives of the debtor, to indirectly pressure the debtor. 
+
+• 
+The act also prohibits: 
+
+• 
+Contacting the debtor at inconvenient or unusual times; in most cases, "convenient" times are between 8 a.m. and 9 p.m. 
+
+• 
+Contacting the debtor directly if the debtor is represented by an attorney. 
+
+• 
+Using harassing or abusive language when talking to the debtor. 
+
+• 
+Making false or misleading claims. 
+
+• 
+Contacting the debtor at their place of employment if the employer objects.  
+
+
+
+
+9 
+© Becker Professional Education Corporation. All rights reserved. 
+
+
+Module 6—Secured Transactions  
+Introduction 
+• 
+A secured transaction is a debt guaranteed by collateral. 
+
+• 
+Security interest allows a creditor to take the collateral if a debtor fails to pay the secured obligation.   
+
+• 
+A security interest is effective between a debtor and a creditor upon attachment. It gives the creditor the right to seize the collateral upon the debtor's default. 
+
+• 
+A security interest is effective against third parties who have a conflicting interest in the collateral upon perfection. 
+
+• 
+Purchase Money Security Interest (PMSI): 
+
+• 
+A PMSI is a special type of security interest that has priority over other types of security interests in the same collateral if the PMSI is properly perfected. 
+
+• 
+A creditor sells an asset to a debtor on credit and retains a security interest in the asset (collateral) for the purchase price, or the creditor advances funds used by the debtor to purchase the collateral and retains a security interest in the collateral. 
+
+
+
+• 
+Types of Collateral—Goods, intangible and semi-intangible collateral, investment property, and proceeds. Goods are divided into three categories depending on how the debtor uses the collateral: 
+
+• 
+Consumer goods (personal use) 
+
+• 
+Inventory (goods held for sale) 
+
+• 
+Equipment (other goods used in business)  
+
+
+
+
+
+Creating (Attachment) of the Security Interest 
+• 
+Generally, a security interest will attach to an item of collateral if the parties agree that the security interest will attach. 
+
+• 
+After-Acquired Property Clause—A provision in the security agreement giving the secured party a security interest in property acquired by the debtor after the security agreement is executed.   
+
+
+
+Perfection of the Security Interest 
+• 
+Perfection sets a secured party's rights in collateral against third parties who may also have an interest in the same collateral. 
+
+• 
+Timing of Perfection—Perfection cannot be completed until there is attachment, but attachment and perfection may be simultaneous.   
+
+• 
+Ways to perfect: 
+
+• 
+Filing—Filing a financing statement 
+
+• 
+Possession—Not intangibles 
+
+• 
+Control—Investment property 
+
+• 
+Automatic Perfection—PMSI in consumer goods and small-scale assignments of accounts 
+
+• 
+Temporary Perfection 
+
+— 
+Twenty-day Period—A security interest in proceeds from original collateral is continuously perfected for 20 days. 
+
+— 
+Interstate Shipments—A four-month grace period. Collateral is taken from one state to another; perfection in the first state is valid for four months in the second state. If not perfected in the second state during the four-month period, it becomes unperfected.  
+
+
+
+
+
+
+10 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Rights on Default 
+• 
+The creditor may take possession of collateral and keep it or sell it. 
+
+• 
+Self-help repossession is fine if there is no breach of the peace. 
+
+• 
+Replevin—A judicial action seeking the transfer of personal property from the debtor to the secured party. 
+
+• 
+The sale can be public or private as long as it is commercially reasonable. 
+
+• 
+Proceeds—Pay expenses of repossession and sale, then pay creditors in the order of priority, and any surplus goes to the debtor.  
+
+• 
+The creditor may retain the collateral in satisfaction of the debt. If the debtor is a consumer, it will be considered full satisfaction. If they are a nonconsumer, the secured party can still collect any deficiency. The secured party cannot retain the collateral if the debtor has paid at least 60 percent; the secured party must sell. 
+
+
+11 
+© Becker Professional Education Corporation. All rights reserved. 
+REG 6 
+Unit Outline 
+
+
+Module 1—Bankruptcy: Part 1  
+Introduction 
+• 
+Six basic types of bankruptcy cases exist under federal law: Chapter 7, liquidation; Chapter 9, municipal debt adjustment; Chapter 11, reorganization; Chapter 12, family farmers with regular income; Chapter 13, adjustments of debts of individuals with regular income; and Chapter 15, ancillary and other cross-border cases. 
+
+• 
+Chapter 7 = Liquidation. The trustee is appointed, and if the debtor is a business, it ceases to operate (a corporation is dissolved).  
+
+• 
+Married couples may file jointly. 
+
+• 
+An individual consumer debtor must pass a means or abuse test; if the debtor's income is too high, the case will be converted to a Chapter 13. 
+
+
+
+• 
+Chapter 11 = Reorganization. A trustee is not required. The debtor remains in possession of his or her assets, and a plan of reorganization is adopted. Business continues; assets are not liquidated. Creditors are paid to the extent possible. 
+
+• 
+Chapter 13 = Debt adjustment. A trustee is appointed, and the debtor or creditors come up with a three- to five-year repayment plan.  
+
+• 
+Chapter 15 = Cross-border case. Commenced by a "foreign representative" filing a petition for recognition. 
+
+
+
+Dismissal or Conversion of a Chapter 7 Case  
+• Chapter 7 cases by an individual consumer debtor may be dismissed (or, with the debtor's consent, converted to a case under Chapter 13) on finding that relief granted under Chapter 7 would constitute abuse or because the debtor has sufficient income to pay debts. 
+
+Who May Be a Debtor 
+• 
+Only a person who resides in or has a business place in the United States is eligible to be a debtor under the Bankruptcy Code. "Person" generally includes individuals, partnerships, corporations, and the like. 
+
+• 
+Anyone who may be a debtor (except a stockbroker or commodity broker) under Chapter 7 may also be a debtor under Chapter 11.  
+
+
+
+Rights and Duties of Debtors and Creditors Under Chapters 7 and 11 
+• 
+Automatic Stay: Most creditors cannot take any steps to collect on obligations the debtor owes once the petition is filed. 
+
+• 
+Duties of Debtor: After a petition is filed, the debtor must file a list of creditors, a schedule of assets and liabilities, a schedule of current income/expenses, etc. 
+
+• 
+A voluntary case may be filed even if the debtor is not insolvent. 
+
+• 
+An involuntary case may be filed if the debtor is not paying debts as they become due. Only an unsecured creditor may file an involuntary petition. Petitioners must be owed at least $21,050 (adjusted periodically for inflation). If there are fewer than 12 creditors, only one creditor must join the petition; if there are 12 or more, at least three creditors must join the petition.  
+
+• 
+Section 341 Meeting: Gives creditors an opportunity to examine the debtor. All interested parties, including creditors, the bankruptcy trustee, and the debtor, must be notified of the meeting. 
+
+
+1 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Property of the Bankruptcy Estate: The debtor's estate, income generated from the estate, and property the debtor receives from divorce, inheritance, or insurance within 180 days after filing the petition. 
+
+• 
+Excluded Estate Property: Post-petition earnings and household items needed to live. 
+
+• 
+Fraudulent Transfers: Any transfer for less than equivalent value made with the intent to hinder, delay, or defraud creditors. The trustee has the power to set aside fraudulent transfers made within two years of the filing date. 
+
+• 
+Preferential Payment: A transfer for the benefit of a creditor on account of an antecedent debt made within 90 days (one year for insiders) prior to filing the petition while the debtor was insolvent and the creditor receives more than the creditor would have received under the Bankruptcy Code. Contemporaneous exchanges for new value are excluded, as are payments of ordinary business bills. 
+
+• 
+Claims Against the Estate: A claim is a right to payment from the debtor's estate. To have an allowed claim, a debtor must file a proof of claim, and a shareholder must file a proof of interest. An unsecured creditor who fails to file timely may not take part in the distribution of the estate. 
+
+• 
+Miscellany: The trustee can serve as a professional (e.g., tax preparer) for the estate if the court approves and may receive compensation for these services if the court approves. 
+
+
+
+
+Module 2—Bankruptcy: Part 2 
+Features of Chapter 7 Liquidation 
+• 
+Gives an honest debtor a "fresh start." 
+
+• 
+Objections to Discharge: Reasons to deny a discharge of all debts. The reasons that commonly appear on the exam are: The debtor is not an individual, fraudulent transfers of property, unjustifiably failing to keep adequate books and records, and receiving a prior discharge within eight years.   
+
+• 
+Exceptions to Discharge: There are quite a few exceptions to discharge. The ones that generally appear on the exam are: WAFTED—debts arising from willful and malicious injury, alimony, debts arising from fraud, taxes, educational loans, and debts undisclosed at bankruptcy. 
+
+• 
+Reaffirmation of Discharged Debts: Allowed if the agreement to reaffirm was made before the granting of the discharge. 
+
+• 
+Distribution of the debtor's estate. Three basic categories: 
+
+• 
+Secured Claimants—paid first to the extent of the value of the collateral. 
+
+• 
+Priority Claimants—paid next, in order of categories below; each category being paid in full before moving down to the next. 
+
+• 
+General Creditors—paid last. 
+
+
+
+
+2 
+© Becker Professional Education Corporation. All rights reserved. 
+• Priority claimants: SAG-WEG-CTI mnemonic: 
+• 
+Support obligations to spouse and children 
+
+• 
+Administrative expenses 
+
+• 
+Involuntary case gap claims (claims that accrue after an involuntary petition is filed and before an order for relief is entered) 
+
+• 
+Wage claims of each employee up to $17,150 earned within 180 days prior to bankruptcy 
+
+• 
+Employee benefit plan contributions for each employee arising within 180 days prior to bankruptcy, up to $17,150 reduced by wage claims 
+
+• 
+Grain farmers' and fishermen's claims against storage/processing facilities up to $8,450 
+
+• 
+Consumer deposits up to $3,800 
+
+• 
+Tax claims 
+
+• 
+Personal injury claims arising from intoxicated drivers 
+
+
+
+Features of Reorganization Cases Under Chapter 11 
+• 
+Create a creditors' committee or a stockholders' committee. 
+
+• 
+A trustee is generally not appointed, but can be appointed when there is fraud, dishonesty, incompetence, or gross mismanagement by the debtor. 
+
+• 
+Reorganization Plan: Unless a trustee is appointed, the debtor has an exclusive right to file a plan during the first 120 days after the order for relief is effective.  
+
+
+• Creditors may file a plan if a trustee has been appointed, the debtor has not filed a plan within 120 days, or the debtor has filed a plan but has not obtained acceptance of the plan by every impaired class within 180 days of the entry of the order of relief.  
+
+Features of a Chapter 15 Case 
+• 
+U.S. court can recognize as a "foreign main proceeding" (i.e., a country where the debtor's main interests are located) or a "foreign non-main proceeding" (i.e., a country other than one where the debtor's main interests are located).   
+
+• 
+Automatic stay takes effect upon recognition of a foreign main proceeding.  
+
+• 
+Chapter 15 prohibits discrimination against foreign creditors and requires cooperation with foreign courts and representatives.  
+
+
+
+
+Module 3—Federal Laws and Regulations 
+Worker Classification 
+• When determining whether a worker is an employee or an independent contractor, no one factor is determinative; it is a weighing process that considers things such as whether:  
+• 
+the business controls what the worker does and how the worker performs; 
+
+• 
+the worker has his or her own business and/or tools; 
+
+• 
+the worker is paid by the hour, job, or a salary; 
+
+• 
+the job is of limited duration; and  
+
+• 
+the worker receives benefits. 
+
+
+3 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Federal Insurance Contribution Act (FICA)   
+• 
+FICA provides workers and dependents with benefits in case of death, disability, or retirement.  
+
+• 
+All full-time, part-time, or self-employed workers (with few exemptions) must participate. 
+
+• 
+Funded by a tax on employees and employers; deductible by the employer, not the employee.   
+
+• 
+Provides a number of benefits, including disability pay, retirement pay, survivor's benefits, dependent's benefits, and medical benefits under Medicare. 
+
+
+
+Unemployment Compensation (FUTA) 
+• 
+FUTA is a state-run system that provides income to unemployed workers. 
+
+• 
+All employers with quarterly payrolls of $1,500 or more, or those who employ at least one employee for 20 weeks in a year, must pay a payroll tax (6.0 percent on the first $7,000 per year of employee compensation) to fund. 
+
+• 
+Benefits are available to those unemployed through no fault of their own. 
+
+
+
+Workers' Compensation   
+• 
+Workers' compensation programs are state-run programs designed to enable employees to recover for injuries incurred while on the job. In most states, coverage is compulsory. 
+
+• 
+Employers are strictly liable regardless of fault, as long as an employee's injury occurred while acting in the scope of employment.  
+
+
+
+Affordable Care Act 
+• 
+The purpose of the Affordable Care Act (ACA) is to improve access to health care in the United States by providing workers with access to affordable health care coverage.  
+
+• 
+Both employers and employees are required to participate. Certain employers must offer health care coverage or pay a penalty. An individual must obtain health care coverage for himself or herself, a spouse, and tax dependents. 
+
+• 
+Both the employer and the employee contribute to the purchase of affordable coverage. 
+
+• 
+Under the ACA, employers with 50 or more full-time employees are required to provide full-time employees the opportunity to purchase affordable minimum essential health care coverage for themselves and their dependents under an eligible employer-sponsored health care plan. 
+
+• 
+The employer must pay a penalty fee for failure to comply with the Affordable Care Act. 
+
+• 
+None of the penalty payments required of the employer under the employer shared responsibility provisions are tax-deductible for the employer. 
+
+
+
+Premium Tax Credit 
+• 
+Refundable credit that helps eligible lower or moderate-income taxpayers recover some of the costs of their health insurance premiums. 
+
+• 
+Eligibility: Taxpayer must have a household income between 100% and 400% of the federal poverty level, cannot use the married filing separately status, cannot be claimed as a dependent, and must be enrolled in a Health Insurance Marketplace. 
+
+
+
+Foreign Corrupt Practices Act 
+• 
+Prohibits bribes to foreign officials in order to obtain or retain business. 
+
+• 
+Punishable by civil fines, criminal penalties, imposition of an independent auditor, and imprisonment. 
+
+
+4 
+© Becker Professional Education Corporation. All rights reserved. 
+
+
+Module 4—Business Structures: Part 1 
+Summary of Entities   
+• Review the overall summary of entities and their attributes (chart) in the text. 
+
+Sole Proprietorship 
+• 
+A sole proprietorship is not considered a legal entity separate from the owner.  
+
+• 
+Unlimited liability of the single owner. 
+
+• 
+Sole proprietorship profits or losses go on the owner's Form 1040 on a Schedule C.  
+
+• 
+No papers need to be filed with the state to form (unless doing business under an assumed name). 
+
+
+
+General Partnership/Joint Venture 
+• 
+Association of two or more persons who agree to carry on as co-owners a business for profit. 
+
+• 
+Partners have personal liability for all obligations of the partnership. This liability is joint and several (individual). 
+
+• 
+Each partner is a mutual agent of other partners and the partnership; thus, the laws of agency apply. 
+
+• 
+A partnership interest (right to profits) is a personal asset of each partner. 
+
+
+
+• 
+The key difference between a joint venture and a general partnership is that a joint venture is formed for a single transaction or project or a related series of transactions or projects. 
+
+• 
+Profits and losses flow through to the partners' individual tax returns.  
+
+• 
+Each partner is entitled to participate in management.  
+
+• 
+Absent a partnership agreement detailing the rights and obligations of the partners, each partner has equal rights in management, profits, and losses, and no partner has a right to remuneration for services. 
+
+• 
+Partners have no right to use or possess partnership property except for partnership purposes; a partner may not assign rights in partnership property to a personal creditor, and a personal creditor may not reach partnership assets to satisfy a partner's personal debt.  
+
+• 
+Partners can assign their interest in the profits of the partnership to third parties, but the third parties can gain no management rights through such an assignment. 
+
+• 
+New partners cannot be admitted without the consent of all partners. New partners are not personally liable for partnership debts that arose before they joined. 
+
+• 
+Dissociation is a change in the relationship of the partners caused by any partner ceasing to be associated in the carrying on of the business. A dissociated partner remains liable for partnership debts that arose before dissociation and can be liable for debts arising after absent notice to creditors. 
+
+• 
+Dissolution involves winding up the partnership's affairs; it is often triggered by a dissociation.   
+
+• 
+A partnership is liquidated when it ceases to do business and the assets are distributed to the partners to pay back their capital investments.   
+
+• 
+Creditors are paid first, including partners who are creditors. 
+
+• 
+Partners are paid next, first to return their contributions and then on account of profits.  
+
+• 
+If there is not enough to pay back the creditors or the partners' contributions, there is a loss that must be shared (equally, unless provided otherwise) by the partners. 
+
+
+
+
+5 
+© Becker Professional Education Corporation. All rights reserved. 
+
+Limited Liability Partnership 
+• A limited liability partnership (LLP) is a form of business in which partners are generally not liable for contracts of the partnership or acts of fellow partners, employees, or agents. 
+Partners are still liable for their own negligence (or the negligence of those under their direct control). Formation of an LLP requires a filing with the state in which it is operating.  
+
+Limited Partnership   
+• 
+A limited partnership (LP) is a partnership in which the limited partners are similar to stockholders in a corporation (discussed later). 
+
+• 
+Limited partners may sell or assign their partnership interest (consisting only of their right to receive profits) without the consent of other partners, and they are generally only liable for partnership obligations to the extent of their investment. 
+
+• 
+Limited partners have no right to participate in the management of the partnership (and in states not following the 2001 ULPA, they are liable as general partners if they do).   
+
+• 
+LPs must have at least one general partner who manages the partnership and has unlimited personal legal liability. 
+
+• 
+Unless otherwise agreed, limited partners share profits and losses in proportion to the value of the partners' contributions. 
+
+• 
+Formation of an LP requires filing with the state in which it operates. 
+
+
+
+Limited Liability Company   
+• 
+A limited liability company (LLC) can be run like a corporation or a partnership and taxed like a partnership unless otherwise specified. An LLC may be managed by managers or by members. 
+
+• 
+Owners (members) of an LLC are not personally liable for the obligations of the company.  
+
+• 
+LLCs must file within their state in order to be formed, and members may not transfer their ownership interest without the consent of other members.  
+
+• 
+Voting power is proportional to contributions unless otherwise agreed. 
+
+• 
+Most states divide profits and losses proportionally to contributions, but the Uniform Limited Liability Company Act divides profits equally. 
+
+
+
+
+Module 5—Business Structures: Part 2  
+Corporation 
+• 
+A corporation is a legal entity distinct from its owners (the shareholders) and managers. 
+
+• 
+To create a corporation, articles of incorporation must be filed with the state. A corporation also should have bylaws—internal rules on how the corporation is to be run. 
+
+• 
+For tax purposes, a "regular" corporation is called a C corporation that pays taxes at corporate rates on its taxable income. Certain corporations with no more than 100 shareholders may elect S status, and income is taxed to the owners directly. 
+
+• 
+A corporation's separate entity status may be ignored in certain circumstances to reach the assets of the shareholders or managers (piercing the corporate veil). 
+
+• Appropriate when personal funds are commingled with corporate funds, a corporation is the shareholders' alter ego—the shareholder uses corporate money for personal purposes, the corporation was inadequately capitalized at formation, or the corporation was formed to commit fraud. 
+
+• 
+Corporations can either be financed by debt (borrowing money) or equity (stock owned by shareholders). 
+
+
+6 
+© Becker Professional Education Corporation. All rights reserved. 
+• 
+Shareholders have the right to vote to elect (typically annually) or remove directors. They also have the right to vote on whether to approve fundamental changes to the corporation. 
+
+• 
+If the corporation is harmed and refuses to take action, a shareholder can bring a shareholder derivative suit to address the wrong. 
+
+• 
+Ownership interests are represented by stock or shares, which are freely transferable unless otherwise agreed. If authorized in the articles, the corporation may issue preferred stock in addition to common stock. Preferred stock gives preferred shareholders the right to distributions before common shareholders. 
+
+• 
+A shareholder may inspect and copy the corporation's books, papers, records of accounts, minutes, etc., by giving five days' written notice, stating a proper purpose. An attorney or accountant may accompany the shareholder. 
+
+• 
+Shareholders who are dissatisfied with most fundamental corporate changes have an opportunity to dissent and demand that the corporation pay them the fair value of their shares. 
+
+• 
+Directors are fiduciaries of the corporation and must act in the best interests of the corporation. However, a director will not be liable to the corporation for acts performed or decisions made in good faith, in a manner the director believes to be in the best interest of the corporation, and with the care an ordinarily prudent person in a like position would exercise (the "business judgment rule"). 
+
+• 
+Officers are individual agents (and employees) of the corporation who ordinarily conduct its day-to­day operations and may bind the corporation to contracts made on its behalf. They are selected by the directors and may be removed by the directors with or without cause. 
+
+• 
+Corporations may merge or consolidate with other business entities if the board of each entity adopts a resolution approving the merger/consolidation, shareholders are given notice, the shareholders approve, and articles (e.g., of merger) are filed with the state. Ninety-percent-owned subsidiaries are not subject to this procedure when merged into the parent. 
+
+
+7 
+© Becker Professional Education Corporation. All rights reserved. 
+
+
