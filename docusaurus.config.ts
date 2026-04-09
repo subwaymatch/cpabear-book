@@ -85,7 +85,7 @@ const config: Config = {
       title: "CPA Bear",
       logo: {
         alt: "CPA Bear Logo",
-        src: "img/cpabear-neutral.svg",
+        src: "img/cpabear-logo-01.svg",
       },
       items: [
         {
