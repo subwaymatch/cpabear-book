@@ -106,6 +106,79 @@ Dr. Estimated loss on purchase commitment    16,000
     Cr. Estimated liability on purchase commitment   16,000
 ```
 
+## Estimating Ending Inventory
+
+When a physical count is not practical (e.g., interim reporting, inventory destroyed by fire), companies use estimation methods based on historical relationships.
+
+### Gross Profit Method
+
+The gross profit method estimates ending inventory by working backward from an assumed gross profit percentage.
+
+$$
+\text{Estimated COGS} = \text{Net Sales} \times (1 - \text{Gross Profit \%})
+$$
+
+$$
+\text{Estimated Ending Inventory} = \text{Goods Available for Sale} - \text{Estimated COGS}
+$$
+
+**Example:** Bear Inc. has beginning inventory of \$50,000 and purchases of \$200,000. Net sales for the period are \$275,000, and the historical gross profit percentage is 40%.
+
+$$
+\text{Goods Available for Sale} = \$50{,}000 + \$200{,}000 = \$250{,}000
+$$
+
+$$
+\text{Estimated COGS} = \$275{,}000 \times (1 - 0.40) = \$165{,}000
+$$
+
+$$
+\text{Estimated Ending Inventory} = \$250{,}000 - \$165{,}000 = \$85{,}000
+$$
+
+:::tip Exam Tip
+The gross profit method is **not** acceptable for annual financial statements under GAAP. It is used for interim reporting, insurance claims, and reasonableness checks. Be careful with how the gross profit percentage is expressed — "markup on cost" and "gross profit as a percentage of sales" produce different results.
+:::
+
+### Retail Inventory Method
+
+The retail inventory method estimates ending inventory by converting the retail value of ending inventory to cost using a **cost-to-retail ratio** (also called the cost complement).
+
+$$
+\text{Cost-to-Retail Ratio} = \frac{\text{Goods Available for Sale at Cost}}{\text{Goods Available for Sale at Retail}}
+$$
+
+$$
+\text{Estimated Ending Inventory at Cost} = \text{Ending Inventory at Retail} \times \text{Cost-to-Retail Ratio}
+$$
+
+**Example:** Gies Co. has the following data:
+
+| | At Cost | At Retail |
+|---|---:|---:|
+| Beginning inventory | \$30,000 | \$50,000 |
+| Purchases | \$120,000 | \$190,000 |
+| Goods available for sale | \$150,000 | \$240,000 |
+| Net sales | | \$210,000 |
+
+$$
+\text{Cost-to-Retail Ratio} = \frac{\$150{,}000}{\$240{,}000} = 62.5\%
+$$
+
+$$
+\text{Ending Inventory at Retail} = \$240{,}000 - \$210{,}000 = \$30{,}000
+$$
+
+$$
+\text{Ending Inventory at Cost} = \$30{,}000 \times 62.5\% = \$18{,}750
+$$
+
+:::info
+Under U.S. GAAP, the retail inventory method can approximate **lower of cost or market (LCM)** when net markdowns are excluded from the cost-to-retail ratio calculation. This produces a lower ratio and a more conservative ending inventory.
+:::
+
+---
+
 ## Inventory Costing Illustration
 
 Assume Bear Inc. purchases the following units:

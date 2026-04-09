@@ -255,4 +255,44 @@ graph TD
 - [ ] Present NCI in the equity section of the consolidated balance sheet
 - [ ] Include only post-acquisition subsidiary activity in the income statement
 - [ ] Report acquisition cash outflows (net of cash acquired) as investing activities
+- [ ] Apply pushdown accounting when applicable
       :::
+
+---
+
+## Pushdown Accounting
+
+**Pushdown accounting** is an optional election that allows the acquired entity (the subsidiary) to reflect the acquirer's purchase price allocation on its **own standalone financial statements**, rather than only on the consolidated workpapers.
+
+### When It Applies
+
+Pushdown accounting may be elected in the **first reporting period** after a change in control. Once elected, it applies to all assets and liabilities of the acquired entity.
+
+### Key Mechanics
+
+When pushdown accounting is applied:
+
+1. The subsidiary's **assets and liabilities** are restated to **fair value** on its standalone books — matching the purchase price allocation performed by the parent
+2. **Goodwill** (excess of the purchase price over the fair value of identifiable net assets) is recorded on the **subsidiary's** books
+3. If the acquisition results in a **bargain purchase** (purchase price below fair value of net assets), the gain is recorded in **additional paid-in capital** on the subsidiary's books — not in earnings
+4. Any subsequent fair value adjustments (e.g., additional depreciation on stepped-up assets) are recorded through a special equity account called **pushdown capital**
+
+### Example
+
+Kingfisher Industries acquires 100% of MAS Inc. for \$5,000,000. The book value of MAS's net assets is \$3,500,000, and the fair value of identifiable net assets is \$4,200,000. MAS elects pushdown accounting.
+
+| Item | Amount |
+|---|---:|
+| Purchase price | \$5,000,000 |
+| Fair value of identifiable net assets | \$4,200,000 |
+| **Goodwill** | **\$800,000** |
+
+On MAS's standalone books, all assets and liabilities are adjusted to fair value, and \$800,000 of goodwill is recorded. Pre-acquisition equity is eliminated and replaced with the new basis.
+
+:::info
+Pushdown accounting does **not** change the consolidated financial statements — it only affects the subsidiary's **standalone** financial statements. On consolidation, the parent already performs the purchase price allocation in its consolidation workpapers.
+:::
+
+:::tip Exam Tip
+Remember the three distinguishing features of pushdown accounting: (1) it is **optional**, (2) goodwill is recorded on the **subsidiary's** books (not just on consolidation workpapers), and (3) any bargain purchase gain goes to **APIC** rather than earnings. Subsequent revaluation effects flow through **pushdown capital** (an equity account).
+:::

@@ -168,6 +168,12 @@ Dr. Construction expense      600,000
     Cr. Materials/Cash/etc.           600,000
 ```
 
+:::warning Loss Recognition on Long-Term Contracts
+Both over-time and point-in-time methods require **immediate recognition of the entire estimated loss** when a contract becomes unprofitable. The loss is not deferred until completion.
+
+**Example:** In Year 2, BIF Partners revises total estimated costs to \$2,200,000, indicating an expected loss of \$200,000 on the \$2,000,000 contract. The entire \$200,000 loss must be recognized in Year 2, regardless of the percentage completed.
+:::
+
 ### Satisfaction at a Point in Time
 
 If none of the over-time criteria are met, revenue is recognized at the **point in time** when control transfers. Indicators of transfer include:
@@ -215,6 +221,117 @@ Dr. Contract liability          2,500
 
 ---
 
+## Other Applications of Revenue Recognition
+
+### Costs to Obtain and Fulfill a Contract
+
+**Costs to obtain a contract** (e.g., sales commissions) are capitalized as an asset if the entity expects to recover them. Costs that would be incurred regardless of whether the contract was obtained (e.g., a bid proposal for an unsuccessful contract) are expensed as incurred.
+
+**Contract fulfillment costs** are capitalized as an asset only when all three of the following are met:
+
+1. The costs relate directly to a specific contract (or anticipated contract)
+2. The costs generate or enhance resources used to satisfy performance obligations
+3. The costs are expected to be recovered
+
+Capitalized costs are amortized on a systematic basis consistent with the pattern of revenue recognition.
+
+:::tip Exam Tip
+As a practical expedient, costs to obtain a contract may be expensed immediately if the amortization period would be **one year or less**.
+:::
+
+### Principal vs. Agent
+
+An entity must determine whether it is a **principal** (controls the good or service before transfer) or an **agent** (arranges for another party to provide the good or service).
+
+| Role | Recognizes | Revenue Equals |
+|---|---|---|
+| **Principal** | Gross revenue | Full consideration from the customer |
+| **Agent** | Net revenue | Fee or commission only |
+
+**Key indicator:** Does the entity control the specified good or service **before** it is transferred to the customer? If yes → principal. If no → agent.
+
+**Example:** Illini Entertainment operates a ticket marketplace. For standard listings, Illini does not take possession of the tickets and has no pricing discretion — it simply connects the seller and buyer and earns a 15% commission. Illini is an **agent** and recognizes revenue equal to its commission.
+
+### Repurchase Agreements
+
+A **repurchase agreement** is a contract in which an entity sells an asset and promises (or has the option) to repurchase it later.
+
+| Type | Description | Accounting |
+|---|---|---|
+| **Forward** | Entity is **obligated** to repurchase | Financing arrangement (no sale) or lease |
+| **Call option** | Entity has the **right** to repurchase | Financing arrangement (no sale) or lease, depending on economic substance |
+| **Put option** | **Customer** has the right to require repurchase | If repurchase price < original selling price → lease. If repurchase price ≥ original selling price → financing arrangement |
+
+:::info
+When a repurchase agreement is treated as a **financing arrangement**, the entity does not derecognize the asset. Instead, it records a financial liability for the consideration received.
+:::
+
+### Bill-and-Hold Arrangements
+
+In a **bill-and-hold** arrangement, the entity bills the customer but physically retains possession of the goods. Revenue may be recognized before the customer receives the product only if **all** of the following criteria are met:
+
+1. There is a **substantive reason** for the arrangement (e.g., customer lacks warehouse space)
+2. The product has been **separately identified** as belonging to the customer
+3. The product is currently **ready for transfer** to the customer
+4. The entity **cannot** use the product or direct it to another customer
+
+**Example:** MAS Inc. manufactures specialized equipment for Bear Co. The equipment is complete and Bear Co. has been billed \$200,000, but Bear Co.'s facility is not yet ready to receive it. MAS holds the equipment in its warehouse. If all four criteria above are met, MAS recognizes revenue at the billing date.
+
+### Consignment Arrangements
+
+A **consignment** exists when an entity (the consignor) delivers a product to a dealer (the consignee) to hold until a third-party customer purchases it. The consignor retains control until the ultimate sale occurs.
+
+**Revenue recognition:** The consignor recognizes revenue either upon the **sale to the ultimate customer** or after a defined **holding period expires** — whichever comes first.
+
+Indicators that an arrangement is a consignment:
+
+- The product is controlled by the consignor until a specified event occurs (e.g., sale to a third party)
+- The consignor can require the return of the product or transfer it to another consignee
+- The consignee does not have an unconditional obligation to pay for the product
+
+### Warranty Obligations
+
+Warranties may be accounted for in two ways depending on their nature:
+
+| Type | Treatment |
+|---|---|
+| **Assurance-type warranty** (required by law or standard practice) | Not a separate performance obligation — accrue estimated warranty costs as a liability at the point of sale (cost accrual) |
+| **Service-type warranty** (separately priced or provides additional service beyond assurance) | Separate performance obligation — allocate a portion of the transaction price and recognize revenue over the warranty period |
+
+A warranty is more likely a **separate performance obligation** if:
+
+- It is **not** required by law
+- The coverage period is **lengthy** relative to the expected product life
+- The entity is required to perform **specified tasks** (not just fix defects)
+
+**Example:** Gies Co. sells a laptop for \$1,200 with a standard 1-year warranty (assurance-type) and offers an optional 2-year extended warranty for \$150 (service-type). The \$1,200 is recognized at the point of sale, with an estimated warranty accrual for Year 1. The \$150 extended warranty revenue is recognized ratably over the 2-year extended period.
+
+### Customer Right of Return
+
+When a customer has the right to return a product, the entity should:
+
+1. Recognize revenue for the amount of consideration it expects to be **entitled to keep** (i.e., excluding estimated returns)
+2. Record a **refund liability** for the portion expected to be returned
+3. Recognize an **asset** (and corresponding adjustment to cost of sales) for the right to recover products from customers upon settling the refund liability
+
+**Example:** BIF Partners sells \$500,000 of merchandise and estimates a 5% return rate based on historical data.
+
+```journal
+Dr. Accounts receivable        500,000
+    Cr. Sales revenue                  475,000
+    Cr. Refund liability                25,000
+```
+
+```journal
+Dr. Cost of goods sold         285,000
+Dr. Right of return asset       15,000
+    Cr. Inventory                      300,000
+```
+
+(Assuming cost of goods is 60% of selling price: \$500,000 × 60% = \$300,000 total cost; returned portion = \$25,000 × 60% = \$15,000.)
+
+---
+
 ## Presentation and Disclosure
 
 Revenue is presented on the income statement either as a single line item or disaggregated by:
@@ -230,5 +347,12 @@ Revenue is presented on the income statement either as a single line item or dis
 - [ ] Estimate variable consideration and apply the constraint
 - [ ] Allocate the transaction price using relative SSP
 - [ ] Distinguish over-time from point-in-time revenue recognition
+- [ ] Recognize estimated losses on long-term contracts immediately
 - [ ] Properly classify contract assets, receivables, and contract liabilities
+- [ ] Capitalize recoverable costs to obtain or fulfill a contract
+- [ ] Determine principal vs. agent and report gross vs. net revenue
+- [ ] Identify repurchase agreements and determine if a sale has occurred
+- [ ] Apply bill-and-hold criteria before recognizing revenue
+- [ ] Distinguish assurance-type from service-type warranties
+- [ ] Account for customer right of return with a refund liability
       :::
