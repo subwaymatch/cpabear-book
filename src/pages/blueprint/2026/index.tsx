@@ -242,6 +242,8 @@ const skillLevels = [
   },
 ];
 
+const ROMAN = ["I", "II", "III", "IV", "V"] as const;
+
 const colorMap: Record<string, string> = {
   aud: styles.bgAud,
   far: styles.bgFar,
@@ -361,7 +363,7 @@ function SectionDetailPanel({
         <BarChart
           colorClass={bgClass}
           rows={section.areas.map((a, i) => ({
-            label: `Area ${["I", "II", "III", "IV", "V"][i]}`,
+            label: `Area ${ROMAN[i]}`,
             value: a.weight,
           }))}
         />
@@ -372,7 +374,7 @@ function SectionDetailPanel({
         {section.areas.map((area, i) => (
           <li className={styles.areaItem} key={i}>
             <span className={styles.areaName}>
-              <strong>Area {["I", "II", "III", "IV", "V"][i]}:</strong>{" "}
+              <strong>Area {ROMAN[i]}:</strong>{" "}
               {area.name}
             </span>
             <span className={styles.areaWeight}>{area.weight}</span>
@@ -738,7 +740,7 @@ export default function Blueprint2026() {
                       <BarChart
                         colorClass={colorMap[s.id]}
                         rows={s.areas.map((a, i) => ({
-                          label: `Area ${["I", "II", "III", "IV", "V"][i]}`,
+                          label: `Area ${ROMAN[i]}`,
                           value: a.weight,
                         }))}
                       />
@@ -763,7 +765,7 @@ export default function Blueprint2026() {
                             }}
                           >
                             <strong>
-                              Area {["I", "II", "III", "IV", "V"][i]}:
+                              Area {ROMAN[i]}:
                             </strong>{" "}
                             {a.name}
                           </li>
@@ -804,7 +806,7 @@ export default function Blueprint2026() {
                       <BarChart
                         colorClass={colorMap[s.id]}
                         rows={s.areas.map((a, i) => ({
-                          label: `Area ${["I", "II", "III", "IV", "V"][i]}`,
+                          label: `Area ${ROMAN[i]}`,
                           value: a.weight,
                         }))}
                       />
@@ -829,7 +831,7 @@ export default function Blueprint2026() {
                             }}
                           >
                             <strong>
-                              Area {["I", "II", "III", "IV", "V"][i]}:
+                              Area {ROMAN[i]}:
                             </strong>{" "}
                             {a.name}
                           </li>
