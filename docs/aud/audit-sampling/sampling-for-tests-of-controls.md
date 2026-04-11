@@ -19,7 +19,7 @@ Attribute sampling is the primary sampling method used for tests of controls. Ea
 7. **Draw conclusions** — Decide whether the control can be relied upon
 
 :::info Example
-**Illini Entertainment** requires that all vendor invoices above $1,000 receive dual approval before payment. The auditor wants to test whether this control operated effectively throughout the year.
+**Illini Entertainment** requires that all vendor invoices above \$1,000 receive dual approval before payment. The auditor wants to test whether this control operated effectively throughout the year.
 :::
 
 ---

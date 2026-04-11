@@ -39,7 +39,7 @@ The three-way match is a critical **internal control** over the expenditure cycl
 
 ### Example: Three-Way Match at Gies Co.
 
-Gies Co. orders 500 units from a supplier at $10 each. The receiving report shows 480 units received. The vendor invoice bills for 500 units at $10 each. The accounts payable clerk identifies the 20-unit discrepancy and contacts the vendor before approving payment—only paying for 480 units actually received.
+Gies Co. orders 500 units from a supplier at \$10 each. The receiving report shows 480 units received. The vendor invoice bills for 500 units at \$10 each. The accounts payable clerk identifies the 20-unit discrepancy and contacts the vendor before approving payment—only paying for 480 units actually received.
 
 ## Accounts Payable Confirmations
 
@@ -78,7 +78,7 @@ The search for unrecorded payables starts with documentation **outside the accou
 
 ### Example: Search at BIF Partners
 
-While auditing BIF Partners, the auditor reviews January disbursements and finds a $150,000 payment to Illini Security for consulting services performed in December. The auditor traces this payment back to the invoice and confirms the services were rendered before year-end. Since BIF Partners had not accrued this amount, the auditor proposes an adjusting entry to record the unrecorded liability.
+While auditing BIF Partners, the auditor reviews January disbursements and finds a \$150,000 payment to Illini Security for consulting services performed in December. The auditor traces this payment back to the invoice and confirms the services were rendered before year-end. Since BIF Partners had not accrued this amount, the auditor proposes an adjusting entry to record the unrecorded liability.
 
 ## Common Expenditure Cycle Audit Procedures
 

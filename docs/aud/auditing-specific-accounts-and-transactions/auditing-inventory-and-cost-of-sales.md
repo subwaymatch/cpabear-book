@@ -87,7 +87,7 @@ The auditor reviews financial statement disclosures to ensure they are complete 
 
 ### Example: Disclosures at Gies Co.
 
-Gies Co. uses the FIFO costing method. The auditor verifies that the notes to the financial statements disclose the costing method, provide a breakdown of inventory by category ($2.1M raw materials, $800K WIP, $3.5M finished goods), and note that $1.2M of finished goods inventory is pledged as collateral under the company's revolving credit facility.
+Gies Co. uses the FIFO costing method. The auditor verifies that the notes to the financial statements disclose the costing method, provide a breakdown of inventory by category (\$2.1M raw materials, \$800K WIP, \$3.5M finished goods), and note that \$1.2M of finished goods inventory is pledged as collateral under the company's revolving credit facility.
 
 ## Summary of Key Inventory Audit Procedures
 

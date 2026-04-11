@@ -97,7 +97,7 @@ The paragraph is added **after** the opinion paragraph (for AICPA standards) and
 
 ### Example: Going Concern at Illini Entertainment
 
-Illini Entertainment has experienced three consecutive years of operating losses totaling $4.2 million, has a working capital deficit of $1.8 million, and its primary credit facility expires in six months. The auditor evaluates management's plan to raise $3 million through a new equity offering and renegotiate the credit facility.
+Illini Entertainment has experienced three consecutive years of operating losses totaling \$4.2 million, has a working capital deficit of \$1.8 million, and its primary credit facility expires in six months. The auditor evaluates management's plan to raise \$3 million through a new equity offering and renegotiate the credit facility.
 
 After evaluating the feasibility of these plans (reviewing term sheets from potential investors and preliminary discussions with the bank), the auditor concludes that **substantial doubt remains** because the equity offering is not yet committed and the bank has not agreed to extend the facility.
 

@@ -33,7 +33,7 @@ The auditor recalculates interest expense by multiplying the outstanding princip
 
 ### Example: Interest Expense at Gies Co.
 
-Gies Co. has a $2,000,000 term loan at 6% annual interest. The auditor recalculates annual interest expense: $2,000,000 × 6% = **$120,000**. The auditor compares this to the $120,000 recorded in the income statement and verifies the December accrued interest of $10,000 (one month: $120,000 / 12).
+Gies Co. has a \$2,000,000 term loan at 6% annual interest. The auditor recalculates annual interest expense: \$2,000,000 × 6% = **\$120,000**. The auditor compares this to the \$120,000 recorded in the income statement and verifies the December accrued interest of \$10,000 (one month: \$120,000 / 12).
 
 #### 4. Cutoff Testing
 
@@ -60,13 +60,13 @@ The auditor reads loan agreements and bond indentures and traces key terms to th
 
 ### Example: Debt Audit at Kingfisher Industries
 
-Kingfisher Industries has outstanding bonds payable of $5,000,000 with a 5% coupon rate, issued at a discount. The auditor:
+Kingfisher Industries has outstanding bonds payable of \$5,000,000 with a 5% coupon rate, issued at a discount. The auditor:
 - Confirms the balance directly with the bond trustee
 - Recalculates discount amortization using the effective interest method
 - Recalculates interest expense and accrued interest
 - Reviews the bond indenture for restrictive covenants (minimum current ratio of 1.5:1) and verifies compliance
-- Examines board minutes for authorization of a new $1,000,000 line of credit entered during the year
-- Verifies that $500,000 of bonds maturing within 12 months are classified as current
+- Examines board minutes for authorization of a new \$1,000,000 line of credit entered during the year
+- Verifies that \$500,000 of bonds maturing within 12 months are classified as current
 
 ## Equity
 
@@ -129,13 +129,13 @@ The auditor identifies any restrictions on retained earnings or equity, such as:
 
 ### Example: Equity Audit at Illini Entertainment
 
-Illini Entertainment issued 50,000 shares of $1 par value common stock at $25 per share during the year. The auditor:
+Illini Entertainment issued 50,000 shares of \$1 par value common stock at \$25 per share during the year. The auditor:
 - Vouches the issuance to the board resolution authorizing the sale
-- Verifies the cash receipt of $1,250,000
+- Verifies the cash receipt of \$1,250,000
 - Confirms shares outstanding with the independent transfer agent
 - Reviews the articles of incorporation to confirm sufficient authorized but unissued shares existed
-- Verifies the accounting entry: Dr. Cash $1,250,000; Cr. Common Stock $50,000; Cr. Additional Paid-in Capital $1,200,000
-- Reviews the loan agreement, which restricts dividend payments if retained earnings fall below $2,000,000, and verifies proper disclosure
+- Verifies the accounting entry: Dr. Cash \$1,250,000; Cr. Common Stock \$50,000; Cr. Additional Paid-in Capital \$1,200,000
+- Reviews the loan agreement, which restricts dividend payments if retained earnings fall below \$2,000,000, and verifies proper disclosure
 
 ## Payroll Cycle
 

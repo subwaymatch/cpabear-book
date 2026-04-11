@@ -10,8 +10,8 @@ Cash is the most liquid asset and therefore the most susceptible to theft and ma
 
 #### How Lapping Works
 
-1. An employee at MSA Records receives a $1,000 payment from Customer A and pockets the cash.
-2. When Customer B sends a $1,200 payment, the employee applies $1,000 of it to Customer A's account to hide the shortage.
+1. An employee at MSA Records receives a \$1,000 payment from Customer A and pockets the cash.
+2. When Customer B sends a \$1,200 payment, the employee applies \$1,000 of it to Customer A's account to hide the shortage.
 3. When Customer C pays, the employee applies part of that payment to Customer B's account.
 4. This cycle continues indefinitely, with the employee constantly "robbing Peter to pay Paul."
 
@@ -86,7 +86,7 @@ The auditor tests the client's bank reconciliation to verify the reported cash b
 
 ### Example: Bank Reconciliation at BIF Partners
 
-The auditor of BIF Partners receives the December 31 bank reconciliation. The bank confirmation shows a balance of $425,000. The books show $398,000. Outstanding checks total $42,000 and deposits in transit total $15,000. The auditor verifies: $425,000 − $42,000 + $15,000 = $398,000 ✓. The auditor then obtains a cutoff bank statement through January 10 to confirm that the outstanding checks cleared and the deposit in transit was received by the bank.
+The auditor of BIF Partners receives the December 31 bank reconciliation. The bank confirmation shows a balance of \$425,000. The books show \$398,000. Outstanding checks total \$42,000 and deposits in transit total \$15,000. The auditor verifies: \$425,000 − \$42,000 + \$15,000 = \$398,000 ✓. The auditor then obtains a cutoff bank statement through January 10 to confirm that the outstanding checks cleared and the deposit in transit was received by the bank.
 
 ## Investment Cycle
 

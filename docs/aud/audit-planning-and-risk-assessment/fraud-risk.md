@@ -145,7 +145,7 @@ Even if no specific fraud risk factors are present, the auditor must **always** 
 | **Employee behavior** | Employees living beyond their means; employees who refuse to take vacation; employees who are overly protective of their duties |
 | **Documentation issues** | Missing or altered documents; unexplained reconciling items; excessive voids or credits |
 
-**Example:** During the audit of Gies Co., the auditor notices that the CEO personally approves all journal entries over $10,000 but has no effective check on his authority. The auditor also observes that several significant non-routine entries were made in the last week of the fiscal year. These red flags—concentration of authority and unusual year-end entries—increase the assessed risk of fraudulent financial reporting.
+**Example:** During the audit of Gies Co., the auditor notices that the CEO personally approves all journal entries over \$10,000 but has no effective check on his authority. The auditor also observes that several significant non-routine entries were made in the last week of the fiscal year. These red flags—concentration of authority and unusual year-end entries—increase the assessed risk of fraudulent financial reporting.
 
 ---
 

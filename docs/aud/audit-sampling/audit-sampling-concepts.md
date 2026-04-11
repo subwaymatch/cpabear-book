@@ -105,7 +105,7 @@ Attribute sampling is used primarily for **tests of controls**. It estimates the
 5. The auditor compares the sample deviation rate to the **tolerable deviation rate**
 
 :::info Example
-The auditor tests **MAS Inc.'s** control requiring supervisory approval on all purchase orders over $5,000. From a population of 500 such purchase orders, the auditor selects a sample of 60. If 3 items lack the required approval, the sample deviation rate is 3/60 = 5%.
+The auditor tests **MAS Inc.'s** control requiring supervisory approval on all purchase orders over \$5,000. From a population of 500 such purchase orders, the auditor selects a sample of 60. If 3 items lack the required approval, the sample deviation rate is 3/60 = 5%.
 :::
 
 ### Factors Affecting Attribute Sample Size
