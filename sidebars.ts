@@ -127,6 +127,7 @@ const sidebars: SidebarsConfig = {
       label: "Internal Control",
       items: [
         "aud/internal-control/coso-framework",
+        "aud/internal-control/limitations-of-controls-and-management-override",
         "aud/internal-control/information-technology-controls",
         "aud/internal-control/soc-reports",
       ],
