@@ -101,9 +101,12 @@ const sidebars: SidebarsConfig = {
       label: "Ethics, Professional Responsibilities, and General Principles",
       items: [
         "aud/ethics-professional-responsibilities-and-general-principles/code-of-professional-conduct",
+        "aud/ethics-professional-responsibilities-and-general-principles/professional-skepticism-and-professional-judgment",
         "aud/ethics-professional-responsibilities-and-general-principles/sec-pcaob-and-other-independence-rules",
         "aud/ethics-professional-responsibilities-and-general-principles/nature-and-scope-of-engagements",
         "aud/ethics-professional-responsibilities-and-general-principles/engagement-acceptance-and-terms",
+        "aud/ethics-professional-responsibilities-and-general-principles/engagement-documentation",
+        "aud/ethics-professional-responsibilities-and-general-principles/communication-with-management-and-governance",
         "aud/ethics-professional-responsibilities-and-general-principles/quality-management",
       ],
     },
