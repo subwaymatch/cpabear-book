@@ -166,6 +166,7 @@ const sidebars: SidebarsConfig = {
         "aud/auditing-specific-accounts-and-transactions/auditing-payables-and-expenses",
         "aud/auditing-specific-accounts-and-transactions/auditing-debt-and-equity",
         "aud/auditing-specific-accounts-and-transactions/auditing-accounting-estimates",
+        "aud/auditing-specific-accounts-and-transactions/litigation-claims-and-assessments",
         "aud/auditing-specific-accounts-and-transactions/auditing-related-parties",
       ],
     },
