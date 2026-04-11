@@ -197,6 +197,7 @@ const sidebars: SidebarsConfig = {
         "aud/attestation-and-review-engagements/attestation-engagements",
         "aud/attestation-and-review-engagements/accounting-and-review-services",
         "aud/attestation-and-review-engagements/governmental-auditing",
+        "aud/attestation-and-review-engagements/uniform-guidance-for-single-audits",
         "aud/attestation-and-review-engagements/reporting-on-compliance",
       ],
     },
