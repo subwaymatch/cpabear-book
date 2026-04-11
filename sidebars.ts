@@ -137,10 +137,12 @@ const sidebars: SidebarsConfig = {
       label: "Audit Evidence and Procedures",
       items: [
         "aud/audit-evidence-and-procedures/audit-evidence",
+        "aud/audit-evidence-and-procedures/reliability-of-data-and-information",
         "aud/audit-evidence-and-procedures/tests-of-controls",
         "aud/audit-evidence-and-procedures/substantive-procedures",
         "aud/audit-evidence-and-procedures/analytical-procedures",
         "aud/audit-evidence-and-procedures/audit-data-analytics",
+        "aud/audit-evidence-and-procedures/external-confirmations",
         "aud/audit-evidence-and-procedures/using-the-work-of-others",
       ],
     },
