@@ -28,12 +28,12 @@ The auditor may use one, two, or all three approaches. The choice depends on the
 
 ### Example: Evaluating an Estimate at Gies Co.
 
-Gies Co. records a warranty reserve of $500,000. The auditor:
+Gies Co. records a warranty reserve of \$500,000. The auditor:
 1. **Reviews management's process** – Examines the historical warranty claim rate, the assumptions about future claims, and the data used (sales volume, defect rates)
-2. **Develops an independent estimate** – Using Gies Co.'s historical claim data and industry benchmarks, the auditor independently calculates an expected warranty reserve of $480,000–$530,000
+2. **Develops an independent estimate** – Using Gies Co.'s historical claim data and industry benchmarks, the auditor independently calculates an expected warranty reserve of \$480,000–\$530,000
 3. **Reviews subsequent events** – Examines warranty claims received in January and February to see if the pattern is consistent with management's estimate
 
-Since management's $500,000 falls within the auditor's reasonable range, the estimate is considered acceptable.
+Since management's \$500,000 falls within the auditor's reasonable range, the estimate is considered acceptable.
 
 ## Sources of Estimation Uncertainty
 
@@ -87,7 +87,7 @@ The letter is prepared by **management** (not the auditor) because it is managem
 
 BIF Partners is involved in a breach-of-contract lawsuit filed by Illini Security. The auditor:
 - Reviews management's description of the lawsuit in the attorney letter
-- Sends the letter to BIF Partners' outside counsel, who confirms the lawsuit exists and assesses the likelihood of an unfavorable outcome as "reasonably possible" with a potential range of $200,000–$400,000
+- Sends the letter to BIF Partners' outside counsel, who confirms the lawsuit exists and assesses the likelihood of an unfavorable outcome as "reasonably possible" with a potential range of \$200,000–\$400,000
 - Reviews the board minutes from the September meeting, which reference the lawsuit and discuss settlement options
 - Reviews the engagement letter between BIF Partners and its attorney for scope of legal representation
 - Verifies that BIF Partners disclosed the contingency in the notes to the financial statements

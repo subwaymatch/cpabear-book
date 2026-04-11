@@ -16,9 +16,9 @@ Not all misstatements are the same. Auditing standards recognize three distinct 
 
 | Type | Description | Example |
 |---|---|---|
-| **Factual misstatement** | A misstatement about which there is **no doubt**; the amount is clearly wrong | Gies Co. records a $50,000 invoice twice, resulting in a definite overstatement of expenses |
-| **Judgmental misstatement** | A misstatement arising from **management's judgments** about accounting estimates or the selection/application of accounting policies that the auditor considers unreasonable | MAS Inc. estimates its warranty liability at $100,000, but the auditor's analysis suggests $300,000 is more appropriate given historical claim rates |
-| **Projected misstatement** | The auditor's **best estimate** of misstatement in a population, **extrapolated** from misstatements identified in an audit sample | The auditor tests a sample of Kingfisher Industries' inventory items and finds errors totaling $15,000. Extrapolating to the full population, the projected misstatement is $120,000 |
+| **Factual misstatement** | A misstatement about which there is **no doubt**; the amount is clearly wrong | Gies Co. records a \$50,000 invoice twice, resulting in a definite overstatement of expenses |
+| **Judgmental misstatement** | A misstatement arising from **management's judgments** about accounting estimates or the selection/application of accounting policies that the auditor considers unreasonable | MAS Inc. estimates its warranty liability at \$100,000, but the auditor's analysis suggests \$300,000 is more appropriate given historical claim rates |
+| **Projected misstatement** | The auditor's **best estimate** of misstatement in a population, **extrapolated** from misstatements identified in an audit sample | The auditor tests a sample of Kingfisher Industries' inventory items and finds errors totaling \$15,000. Extrapolating to the full population, the projected misstatement is \$120,000 |
 
 :::tip Exam Tip
 The CPA exam may ask you to distinguish these types. Remember: **factual** = certain and definite, **judgmental** = stems from estimates or accounting policy disagreements, **projected** = extrapolated from a sample to the population.

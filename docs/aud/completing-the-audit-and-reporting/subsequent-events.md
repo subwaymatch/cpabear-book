@@ -20,7 +20,7 @@ The key question is: **Did the condition exist on the balance sheet date?** If y
 - **Settlement of litigation** that was pending at year-end at an amount different from what was accrued — the lawsuit existed at year-end, so the settlement provides better evidence of the liability's value
 - **Discovery of a fraud or error** that existed in the financial statements — the misstatement existed at the balance sheet date
 
-**Example:** Gies Co. has a $2 million receivable from a major customer as of December 31, 20X4. On January 20, 20X5 (before the audit report is issued), the customer files for bankruptcy. This event confirms that the receivable was likely uncollectible at year-end. Gies Co. should adjust its December 31 financial statements to record the impairment.
+**Example:** Gies Co. has a \$2 million receivable from a major customer as of December 31, 20X4. On January 20, 20X5 (before the audit report is issued), the customer files for bankruptcy. This event confirms that the receivable was likely uncollectible at year-end. Gies Co. should adjust its December 31 financial statements to record the impairment.
 
 ### Type 2: Nonrecognized Subsequent Events (Conditions Arose After the Balance Sheet Date)
 

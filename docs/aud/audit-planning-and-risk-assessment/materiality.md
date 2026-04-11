@@ -32,7 +32,7 @@ Materiality is not solely about dollar amounts. A small misstatement can be mate
 - Masks a change in earnings trend
 :::
 
-**Example:** Gies Co. has total revenues of $50 million and net income of $2 million. A $50,000 misstatement might seem immaterial quantitatively. However, if that misstatement changes net income from a gain to a loss—or causes Gies Co. to violate a debt covenant requiring a minimum current ratio—it could be **qualitatively material** regardless of its dollar amount.
+**Example:** Gies Co. has total revenues of \$50 million and net income of \$2 million. A \$50,000 misstatement might seem immaterial quantitatively. However, if that misstatement changes net income from a gain to a loss—or causes Gies Co. to violate a debt covenant requiring a minimum current ratio—it could be **qualitatively material** regardless of its dollar amount.
 
 ---
 
@@ -56,7 +56,7 @@ Performance materiality is always **lower** than overall materiality. The specif
 Think of performance materiality as a "working materiality" or "safety cushion." It is used during the audit to design procedures and evaluate results. Overall materiality is used at the end of the audit when evaluating the total effect of identified misstatements.
 :::
 
-**Example:** The auditor sets materiality for Kingfisher Industries' financial statements at $500,000. Based on prior audit experience—Kingfisher had several misstatements identified in the prior year—the auditor sets performance materiality at $350,000. This means the auditor will design procedures sensitive enough to detect misstatements of $350,000 or more, providing a buffer to account for undetected or uncorrected misstatements that could aggregate above $500,000.
+**Example:** The auditor sets materiality for Kingfisher Industries' financial statements at \$500,000. Based on prior audit experience—Kingfisher had several misstatements identified in the prior year—the auditor sets performance materiality at \$350,000. This means the auditor will design procedures sensitive enough to detect misstatements of \$350,000 or more, providing a buffer to account for undetected or uncorrected misstatements that could aggregate above \$500,000.
 
 ---
 
@@ -72,7 +72,7 @@ Think of performance materiality as a "working materiality" or "safety cushion."
 | **Performance materiality** | Below overall materiality | Reduces the risk that aggregate misstatements exceed materiality; used to design audit procedures |
 | **Tolerable misstatement** | Applied to individual account balances or transaction classes | Maximum acceptable misstatement in a single account when using sampling |
 
-**Example:** Illini Entertainment has overall materiality set at $200,000 and performance materiality at $140,000. When the auditor designs a sampling plan for testing accounts receivable, the tolerable misstatement for that sample is set at $140,000 (equal to performance materiality). If the projected misstatement from the sample exceeds $140,000, the auditor concludes that the account may be materially misstated and performs additional procedures.
+**Example:** Illini Entertainment has overall materiality set at \$200,000 and performance materiality at \$140,000. When the auditor designs a sampling plan for testing accounts receivable, the tolerable misstatement for that sample is set at \$140,000 (equal to performance materiality). If the projected misstatement from the sample exceeds \$140,000, the auditor concludes that the account may be materially misstated and performs additional procedures.
 
 :::note
 In practice, tolerable misstatement is often set equal to performance materiality for individual accounts, but the auditor may use lower amounts for accounts that are more susceptible to misstatement.
@@ -98,7 +98,7 @@ The auditor establishes materiality during the **planning phase** of the audit. 
 These percentages are **guidelines**, not rules. The auditor must exercise professional judgment in selecting the appropriate benchmark and percentage. The choice should reflect the needs and perspectives of the **primary users** of the financial statements.
 :::
 
-**Example:** MAS Inc. is a not-for-profit organization with total expenses of $10 million. The auditor selects total expenses as the appropriate benchmark and applies a percentage of 1%, resulting in preliminary materiality of $100,000. Performance materiality is set at $70,000.
+**Example:** MAS Inc. is a not-for-profit organization with total expenses of \$10 million. The auditor selects total expenses as the appropriate benchmark and applies a percentage of 1%, resulting in preliminary materiality of \$100,000. Performance materiality is set at \$70,000.
 
 ### Revising Materiality During the Audit
 
@@ -112,7 +112,7 @@ Common reasons for revising materiality include:
 
 When materiality is revised, the auditor must also **reconsider performance materiality** and evaluate whether the **nature, timing, and extent of further audit procedures** remain appropriate.
 
-**Example:** BIF Partners initially sets materiality for Illini Security's audit at $250,000, based on estimated net income of $5 million. During fieldwork, the auditor discovers that actual net income will be approximately $2 million due to an unexpected impairment charge. BIF Partners revises materiality downward to $150,000, recalculates performance materiality to $100,000, and expands substantive testing to address the lower threshold.
+**Example:** BIF Partners initially sets materiality for Illini Security's audit at \$250,000, based on estimated net income of \$5 million. During fieldwork, the auditor discovers that actual net income will be approximately \$2 million due to an unexpected impairment charge. BIF Partners revises materiality downward to \$150,000, recalculates performance materiality to \$100,000, and expands substantive testing to address the lower threshold.
 
 :::tip Exam Tip
 If the CPA exam asks "when should the auditor revise materiality?"—the answer is whenever the auditor becomes aware of information that would have resulted in a different materiality amount initially. Materiality is a **living number** that reflects current knowledge about the entity.
