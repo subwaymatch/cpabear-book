@@ -183,6 +183,11 @@ const sidebars: SidebarsConfig = {
         "aud/completing-the-audit-and-reporting/supplementary-information",
         "aud/completing-the-audit-and-reporting/reporting-on-internal-control",
         "aud/completing-the-audit-and-reporting/communications-with-audit-committees",
+        "aud/completing-the-audit-and-reporting/misstatements-and-internal-control-deficiencies",
+        "aud/completing-the-audit-and-reporting/comparative-statements-and-consistency",
+        "aud/completing-the-audit-and-reporting/other-information-in-audited-documents",
+        "aud/completing-the-audit-and-reporting/review-of-interim-financial-information",
+        "aud/completing-the-audit-and-reporting/special-purpose-frameworks",
       ],
     },
     {
