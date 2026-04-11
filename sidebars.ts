@@ -241,7 +241,10 @@ const sidebars: SidebarsConfig = {
       label: "Federal Taxation of Individuals",
       items: [
         "reg/taxation-of-individuals/gross-income",
+        "reg/taxation-of-individuals/filing-status",
         "reg/taxation-of-individuals/adjustments-and-deductions",
+        "reg/taxation-of-individuals/pass-through-entity-reporting",
+        "reg/taxation-of-individuals/loss-limitations",
         "reg/taxation-of-individuals/tax-computation-and-credits",
         "reg/taxation-of-individuals/other-individual-taxes",
       ],
@@ -250,6 +253,7 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Federal Taxation of Entities",
       items: [
+        "reg/taxation-of-entities/book-tax-differences",
         "reg/taxation-of-entities/sole-proprietorship",
         "reg/taxation-of-entities/general-partnership",
         "reg/taxation-of-entities/limited-partnership",
