@@ -64,12 +64,12 @@ Not all engagements are audits. This area covers **attestation engagements** und
 
 Throughout this section, you will work with several authoritative frameworks:
 
-| Abbreviation | Full Name | Applies To |
-|---|---|---|
-| **GAAS** | Generally Accepted Auditing Standards | Audits of nonissuers (private companies) under AICPA standards |
-| **PCAOB Standards** | Public Company Accounting Oversight Board Standards | Audits of issuers (public companies) and broker-dealers |
-| **SSARSs** | Statements on Standards for Accounting and Review Services | Compilation and review engagements for nonissuers |
-| **SSAEs** | Statements on Standards for Attestation Engagements | Examination, review, and agreed-upon procedures engagements |
+| Abbreviation        | Full Name                                                  | Applies To                                                     |
+| ------------------- | ---------------------------------------------------------- | -------------------------------------------------------------- |
+| **GAAS**            | Generally Accepted Auditing Standards                      | Audits of nonissuers (private companies) under AICPA standards |
+| **PCAOB Standards** | Public Company Accounting Oversight Board Standards        | Audits of issuers (public companies) and broker-dealers        |
+| **SSARSs**          | Statements on Standards for Accounting and Review Services | Compilation and review engagements for nonissuers              |
+| **SSAEs**           | Statements on Standards for Attestation Engagements        | Examination, review, and agreed-upon procedures engagements    |
 
 :::caution Issuer vs. Nonissuer
 One of the most tested distinctions on the AUD exam is the difference between **issuer** and **nonissuer** engagements. Issuers (public companies) are subject to **PCAOB standards**, while nonissuers (private companies) follow **AICPA standards (GAAS)**. Many rules overlap, but there are critical differences—especially around internal control reporting, partner rotation, and communication requirements. Pay close attention to which set of standards applies in each scenario.
@@ -80,15 +80,16 @@ One of the most tested distinctions on the AUD exam is the difference between **
 ## How to Use This Section
 
 :::note Study Guide
+
 1. **Start with Ethics & Professional Responsibilities.** Understanding the ethical framework provides the foundation for every topic that follows. If you do not know why independence matters, the rest of the audit process will not make full sense.
 2. **Follow the audit process sequentially.** The topics are arranged in the approximate order of an actual audit engagement—from planning and risk assessment through evidence gathering to reporting. This mirrors how the exam tests concepts.
 3. **Practice with examples.** Each page includes practical scenarios using companies like **MAS Inc.**, **Illini Security**, and **Bear Co.** Work through these examples actively rather than passively reading them.
-4. **Focus on the "why."** The exam often asks you to choose the *best* answer among several plausible options. Understanding the reasoning behind audit procedures—not just memorizing rules—is the key to selecting the correct response.
+4. **Focus on the "why."** The exam often asks you to choose the _best_ answer among several plausible options. Understanding the reasoning behind audit procedures—not just memorizing rules—is the key to selecting the correct response.
 5. **Use the journal entry blocks.** Several topics (especially in auditing specific accounts) include journal entries that illustrate the transactions auditors are testing. These help connect AUD concepts to your FAR knowledge.
-:::
+   :::
 
 :::tip Exam Strategy
-The AUD exam is known for its emphasis on **judgment and professional skepticism**. Questions frequently present a scenario and ask what the auditor should do *next* or which procedure is *most appropriate*. Build the habit of thinking through each scenario systematically: What is the risk? What evidence do I need? What standard applies? What is the correct response?
+The AUD exam is known for its emphasis on **judgment and professional skepticism**. Questions frequently present a scenario and ask what the auditor should do _next_ or which procedure is _most appropriate_. Build the habit of thinking through each scenario systematically: What is the risk? What evidence do I need? What standard applies? What is the correct response?
 :::
 
 ---

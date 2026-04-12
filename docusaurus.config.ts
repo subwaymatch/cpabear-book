@@ -14,6 +14,7 @@ const config: Config = {
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    faster: true,
   },
 
   // Set the production url of your site here
@@ -81,6 +82,14 @@ const config: Config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
+    mermaid: {
+      theme: { light: "neutral", dark: "dark" },
+      options: {
+        themeVariables: {
+          fontFamily: "Inter, Arial, sans-serif",
+        },
+      },
+    },
     navbar: {
       title: "CPA Bear",
       logo: {
@@ -130,8 +139,8 @@ const config: Config = {
           title: "Links",
           items: [
             {
-              label: "AICPA Blueprint",
-              href: "https://www.aicpa-cima.com/resources/download/learn-what-is-tested-on-the-cpa-exam",
+              label: "CPA Exam Blueprint 2026",
+              to: "/blueprint/2026",
             },
             {
               label: "Discord",
