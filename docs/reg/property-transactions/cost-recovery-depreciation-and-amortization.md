@@ -18,9 +18,10 @@ MACRS applies to most tangible property placed in service after 1986. It assigns
 | **ADS** | Alternative Depreciation System | Required for listed property failing the business-use test, property used predominantly outside the U.S., tax-exempt bond-financed property, and any property for which the taxpayer elects ADS |
 
 :::info
-ADS uses the **straight-line method** over a longer recovery period. It is also required for computing earnings and profits (E&P) and, historically, for AMT depreciation adjustments.
-:::
 
+ADS uses the **straight-line method** over a longer recovery period. It is also required for computing earnings and profits (E&P) and, historically, for AMT depreciation adjustments.
+
+:::
 ### Recovery Periods — GDS
 
 | Recovery Period | Property Examples |
@@ -70,9 +71,10 @@ All property placed in service (or disposed of) during the year is treated as pl
 Applies when **more than 40%** of the total depreciable basis of all MACRS personal property placed in service during the year is placed in service in the **last quarter** (Q4). Under this convention, each asset is treated as placed in service at the midpoint of the quarter in which it was actually placed in service.
 
 :::tip Exam Tip
-The mid-quarter convention can **help or hurt** a taxpayer. Property placed in service in Q1 gets 10.5 months of depreciation, while Q4 property gets only 1.5 months. Watch for exam questions with large Q4 purchases that trigger this convention.
-:::
 
+The mid-quarter convention can **help or hurt** a taxpayer. Property placed in service in Q1 gets 10.5 months of depreciation, while Q4 property gets only 1.5 months. Watch for exam questions with large Q4 purchases that trigger this convention.
+
+:::
 > **Example:** MAS Inc. places \$30,000 of equipment in service in March and \$50,000 in November. Since \$50,000 / \$80,000 = 62.5% was placed in service in Q4 (exceeding 40%), the mid-quarter convention applies to **all** assets placed in service that year.
 
 ### Mid-Month Convention
@@ -112,9 +114,10 @@ IRC §179 allows a taxpayer to **expense** (immediately deduct) the cost of qual
 > **Example:** BIF Partners places \$3,100,000 of qualifying equipment in service. The excess is \$3,100,000 − \$3,050,000 = \$50,000. The maximum §179 deduction is reduced to \$1,220,000 − \$50,000 = **\$1,170,000**.
 
 :::caution
-Section 179 is an **election** — it is not automatic. The taxpayer specifies which assets and how much cost to expense on the return. The election may be revoked only with IRS consent.
-:::
 
+Section 179 is an **election** — it is not automatic. The taxpayer specifies which assets and how much cost to expense on the return. The election may be revoked only with IRS consent.
+
+:::
 ---
 
 ## Bonus Depreciation (IRC §168(k))
@@ -143,9 +146,10 @@ Bonus depreciation allows taxpayers to deduct a **percentage** of the cost of qu
 - Certain film, television, and live theatrical productions.
 
 :::info
-Unlike §179, bonus depreciation has **no taxable income limitation** and **no investment ceiling**. It can create or increase a net operating loss.
-:::
 
+Unlike §179, bonus depreciation has **no taxable income limitation** and **no investment ceiling**. It can create or increase a net operating loss.
+
+:::
 ### Interaction With Section 179
 
 When a taxpayer claims both §179 and bonus depreciation on different assets, the order of deductions is:
@@ -175,9 +179,10 @@ When a taxpayer claims both §179 and bonus depreciation on different assets, th
 | Year 4+ | \$7,160 | \$7,160 |
 
 :::tip Exam Tip
-SUVs with a gross vehicle weight rating (GVWR) exceeding **6,000 pounds** are exempt from the luxury auto caps but are subject to a \$28,900 (2024) Section 179 limit. These are not considered passenger automobiles for cap purposes.
-:::
 
+SUVs with a gross vehicle weight rating (GVWR) exceeding **6,000 pounds** are exempt from the luxury auto caps but are subject to a \$28,900 (2024) Section 179 limit. These are not considered passenger automobiles for cap purposes.
+
+:::
 > **Example:** Illini Security purchases a sedan for \$55,000 used 100% for business in 2024 and claims bonus depreciation. The Year 1 deduction is limited to **\$20,400** despite the full cost being eligible.
 
 ---
@@ -232,9 +237,10 @@ Cost depletion is available to **all** taxpayers and reduces the basis of the re
 | Gravel, sand, stone | 5% |
 
 :::caution
-Percentage depletion can exceed the adjusted basis of the property — it is **not** limited to cost basis. This distinguishes it from cost depletion.
-:::
 
+Percentage depletion can exceed the adjusted basis of the property — it is **not** limited to cost basis. This distinguishes it from cost depletion.
+
+:::
 > **Example:** BIF Partners owns a sand quarry with gross income of \$400,000 and taxable income (before depletion) of \$180,000. Percentage depletion = 5% × \$400,000 = \$20,000. The 50%-of-income limit = 50% × \$180,000 = \$90,000. Since \$20,000 is less than \$90,000, the full **\$20,000** is allowed.
 
 ---
@@ -249,9 +255,10 @@ When depreciable property is sold at a gain, part or all of the gain may be rech
 | **§1250** | Real property | Gain is ordinary to the extent depreciation exceeded straight-line (rare post-1986); **unrecaptured §1250 gain** taxed at max 25% |
 
 :::info
-Since MACRS requires straight-line for real property, §1250 recapture is rare. However, the **25% rate on unrecaptured §1250 gain** — the portion of gain attributable to straight-line depreciation — is frequently tested.
-:::
 
+Since MACRS requires straight-line for real property, §1250 recapture is rare. However, the **25% rate on unrecaptured §1250 gain** — the portion of gain attributable to straight-line depreciation — is frequently tested.
+
+:::
 > **Example:** Gies Co. sells office equipment with an original cost of \$100,000 and accumulated depreciation of \$65,000 (adjusted basis \$35,000) for \$80,000. Gain = \$80,000 − \$35,000 = \$45,000. Under §1245, the gain is ordinary income to the extent of prior depreciation (\$65,000). Since the gain (\$45,000) is less than total depreciation, the entire \$45,000 is ordinary income.
 
 ---
@@ -274,5 +281,7 @@ Since MACRS requires straight-line for real property, §1250 recapture is rare. 
 | Unrecaptured §1250 gain | Taxed at maximum 25% rate |
 
 :::warning
+
 The CPA exam tests cost recovery across multiple question formats. Be prepared to calculate depreciation for a specific asset given its class, convention, and method — and to determine the tax impact of disposition through recapture rules.
+
 :::

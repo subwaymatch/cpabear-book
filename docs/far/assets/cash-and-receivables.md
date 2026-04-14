@@ -10,9 +10,10 @@ Cash and receivables are heavily tested because they combine **classification**,
 Cash includes amounts that are available for immediate use and free from material restriction. Cash equivalents are short-term, highly liquid investments that are readily convertible to known amounts of cash and close enough to maturity that interest-rate risk is insignificant.
 
 :::tip Exam rule
-A cash equivalent must have an **original maturity of three months or less from the date of purchase**.
-:::
 
+A cash equivalent must have an **original maturity of three months or less from the date of purchase**.
+
+:::
 | Item | Typical treatment |
 | --- | --- |
 | Currency and coins | Cash |
@@ -45,9 +46,10 @@ Restricted cash is segregated for a stated purpose, such as debt service, collat
 Bank overdrafts are generally reported as **current liabilities**. If multiple accounts exist at the same bank, a negative balance may be offset against a positive balance at that same bank.
 
 :::warning
-Do not automatically net an overdraft against another bank account at a different bank.
-:::
 
+Do not automatically net an overdraft against another bank account at a different bank.
+
+:::
 ## Trade Receivables Overview
 
 Receivables are claims to cash arising from sales, loans, or other transactions. The main categories are:
@@ -139,9 +141,10 @@ Dr. Allowance for expected credit losses    4,500
 ```
 
 :::info
-The write-off entry does **not** create additional bad debt expense at the time of write-off. Expense was recognized when the allowance was established or adjusted.
-:::
 
+The write-off entry does **not** create additional bad debt expense at the time of write-off. Expense was recognized when the allowance was established or adjusted.
+
+:::
 ### Why direct write-off fails under GAAP
 
 The direct write-off method records expense only when a specific account proves uncollectible. That method is not acceptable under U.S. GAAP for material receivables because it:
@@ -200,9 +203,11 @@ At December 31, Gies Co. reports accounts receivable net of the allowance, not a
 ## What to memorize for FAR
 
 :::note Checklist
+
 - Know the 90-day rule for cash equivalents.
 - Know that non-interest-bearing notes are recorded at present value.
 - Know the four discounting steps for notes.
 - Know the difference between with recourse and without recourse.
 - Know that CECL uses an allowance account and that write-offs reduce the allowance, not expense.
+
 :::

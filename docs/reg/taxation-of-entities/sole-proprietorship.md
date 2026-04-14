@@ -67,9 +67,10 @@ A sole proprietor using the **accrual method** may deduct business bad debts whe
 | **Cash basis** | ❌ No — because the income was never reported (no basis in the receivable) |
 
 :::caution Cash-Basis Taxpayers
-A cash-basis sole proprietor generally has **no basis** in accounts receivable because the revenue was never included in income. Therefore, there is nothing to write off. Bad debt deductions are available only to **accrual-basis** taxpayers who have previously recognized the income.
-:::
 
+A cash-basis sole proprietor generally has **no basis** in accounts receivable because the revenue was never included in income. Therefore, there is nothing to write off. Bad debt deductions are available only to **accrual-basis** taxpayers who have previously recognized the income.
+
+:::
 **Example:** Sarah operates Gies Co. (accrual basis). She billed a client \$8,000 and included it in income. When the client goes bankrupt and the receivable becomes worthless, Sarah deducts \$8,000 as a business bad debt — an ordinary deduction on Schedule C.
 
 ---
@@ -123,9 +124,10 @@ Net earnings from the sole proprietorship are subject to **self-employment (SE) 
 The **deductible portion** of SE tax (50% of the total SE tax) is taken as an **above-the-line deduction** on Schedule 1 of Form 1040 — not on Schedule C.
 
 :::info
-Self-employment tax is one of the biggest distinctions between a sole proprietorship and an S corporation. S corporation owners who are also employees pay payroll taxes only on their **wages** — not on distributions. Sole proprietors pay SE tax on **all** net business earnings.
-:::
 
+Self-employment tax is one of the biggest distinctions between a sole proprietorship and an S corporation. S corporation owners who are also employees pay payroll taxes only on their **wages** — not on distributions. Sole proprietors pay SE tax on **all** net business earnings.
+
+:::
 **Example:** Marcus operates Illini Entertainment as a sole proprietorship and earns net Schedule C income of \$120,000.
 
 | Calculation | Amount |
@@ -161,9 +163,10 @@ The IRS uses **nine factors** (no single factor is decisive) to determine whethe
 If an activity shows a **profit in at least 3 of the last 5 consecutive years** (2 of 7 years for horse breeding, training, showing, or racing), there is a **rebuttable presumption** that the activity is engaged in for profit.
 
 :::tip
-The 3-of-5 rule is a **presumption**, not a safe harbor. The IRS can still challenge an activity as a hobby even if it meets the presumption, and a taxpayer can prove profit motive even without meeting it.
-:::
 
+The 3-of-5 rule is a **presumption**, not a safe harbor. The IRS can still challenge an activity as a hobby even if it meets the presumption, and a taxpayer can prove profit motive even without meeting it.
+
+:::
 ### Tax consequences of hobby classification
 
 | Item | Treatment |
@@ -175,9 +178,10 @@ The 3-of-5 rule is a **presumption**, not a safe harbor. The IRS can still chall
 **Example:** Jamie breeds show dogs as a side activity. Over the last five years, the activity produced losses of \$8,000, \$5,000, \$3,000, \$1,200 profit, and \$6,000 loss. Because there is only 1 profit year out of 5, the IRS may classify this as a hobby. If so, Jamie must report the \$1,200 of income but cannot deduct any of the \$22,200 in cumulative losses against her other income.
 
 :::warning
-Under current law (TCJA through 2025), hobby expenses are **completely nondeductible**. This means a hobby can generate tax liability on its income but provide **zero** tax benefit for its expenses — a worst-case scenario for taxpayers.
-:::
 
+Under current law (TCJA through 2025), hobby expenses are **completely nondeductible**. This means a hobby can generate tax liability on its income but provide **zero** tax benefit for its expenses — a worst-case scenario for taxpayers.
+
+:::
 ---
 
 ## How the CPA exam tests sole proprietorships

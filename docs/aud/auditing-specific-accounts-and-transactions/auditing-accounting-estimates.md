@@ -23,9 +23,10 @@ The auditor develops a **separate, independent estimate** (a point estimate or r
 The auditor examines **events or transactions occurring after the balance sheet date** but before the audit report date that may provide evidence about the reasonableness of the estimate.
 
 :::info
-The auditor may use one, two, or all three approaches. The choice depends on the nature of the estimate and the assessed risk of material misstatement. For high-risk estimates, the auditor may use multiple approaches to obtain more persuasive evidence.
-:::
 
+The auditor may use one, two, or all three approaches. The choice depends on the nature of the estimate and the assessed risk of material misstatement. For high-risk estimates, the auditor may use multiple approaches to obtain more persuasive evidence.
+
+:::
 ### Example: Evaluating an Estimate at Gies Co.
 
 Gies Co. records a warranty reserve of \$500,000. The auditor:
@@ -49,9 +50,10 @@ Accounting estimates are inherently uncertain. Key sources of uncertainty includ
 | **Management bias** | Management may have incentives to bias estimates in a particular direction |
 
 :::warning Management Bias
-The auditor must evaluate whether management's assumptions and methods suggest **intentional bias**. A pattern of optimistic or pessimistic estimates across multiple accounts may indicate management is manipulating results. Indicators include consistently selecting assumptions at one end of a reasonable range.
-:::
 
+The auditor must evaluate whether management's assumptions and methods suggest **intentional bias**. A pattern of optimistic or pessimistic estimates across multiple accounts may indicate management is manipulating results. Indicators include consistently selecting assumptions at one end of a reasonable range.
+
+:::
 ## Audit Procedures for Contingencies and Litigation
 
 Contingent liabilities arise from lawsuits, regulatory actions, tax disputes, and other uncertain situations. Auditing contingencies requires specialized procedures because management may not voluntarily disclose unfavorable legal matters.
@@ -70,9 +72,10 @@ The **attorney letter** (also called a letter of audit inquiry or legal letter) 
 3. The attorney responds **directly to the auditor**
 
 :::note
-The letter is prepared by **management** (not the auditor) because it is management who has the attorney-client relationship. However, the response is sent to the **auditor** to ensure the information is not filtered through management.
-:::
 
+The letter is prepared by **management** (not the auditor) because it is management who has the attorney-client relationship. However, the response is sent to the **auditor** to ensure the information is not filtered through management.
+
+:::
 ### Other Procedures for Contingencies
 
 | Procedure | Description |
@@ -97,12 +100,13 @@ BIF Partners is involved in a breach-of-contract lawsuit filed by Illini Securit
 ### Client Refuses to Send the Attorney Letter
 
 :::danger Scope Limitation
+
 If the client **refuses to allow the auditor to send a letter of inquiry** to its attorney, this constitutes a **scope limitation** imposed by the client. The auditor should consider:
 - **Qualified opinion** – If the potential misstatement could be material but not pervasive
 - **Disclaimer of opinion** – If the potential misstatement could be both material and pervasive
 - **Withdrawal from the engagement** – In some circumstances, particularly if the refusal suggests a broader integrity concern
-:::
 
+:::
 ### Attorney Refuses to Respond
 
 If the client's attorney **refuses to furnish information** requested in the letter of inquiry, this also creates a **scope limitation**. The auditor's response depends on the significance of the matter:

@@ -5,9 +5,10 @@ Every system of internal control has **inherent limitations** that prevent it fr
 This section covers the **inherent limitations of internal control**, the **impact of those limitations on the risk of material misstatement**, **management override as a presumed fraud risk**, **common methods of management override**, the **required audit procedures** to address management override risk, and the **impact on overall audit strategy**.
 
 :::info
-Management override of controls is a **presumed risk of material misstatement due to fraud** under both AICPA standards (**AU-C 240**) and PCAOB standards (**AS 2401**, originally derived from SAS 99). This presumption **cannot be rebutted**—auditors must design and perform specific procedures to address it on every audit, regardless of the entity's size, industry, or perceived integrity of management.
-:::
 
+Management override of controls is a **presumed risk of material misstatement due to fraud** under both AICPA standards (**AU-C 240**) and PCAOB standards (**AS 2401**, originally derived from SAS 99). This presumption **cannot be rebutted**—auditors must design and perform specific procedures to address it on every audit, regardless of the entity's size, industry, or perceived integrity of management.
+
+:::
 ---
 
 ## Inherent Limitations of Internal Control
@@ -27,9 +28,10 @@ Internal controls can only provide **reasonable assurance**, not absolute assura
 **Example:** Bear Co. is a small manufacturing company with only three employees in the accounting department. Management recognizes that ideal segregation of duties—separating authorization, record-keeping, and custody—is not feasible given the limited staff. To compensate, the owner reviews all bank reconciliations and approves all disbursements over $500. Despite this compensating control, the inherent limitation of **separation of duties** remains because the owner cannot monitor every transaction.
 
 :::tip Exam Tip
-When the CPA exam asks why internal controls provide only **reasonable assurance** rather than absolute assurance, the answer lies in these inherent limitations. Remember: even the best-designed controls can be defeated by collusion, circumvented by management, or rendered ineffective by human error. No control system is foolproof.
-:::
 
+When the CPA exam asks why internal controls provide only **reasonable assurance** rather than absolute assurance, the answer lies in these inherent limitations. Remember: even the best-designed controls can be defeated by collusion, circumvented by management, or rendered ineffective by human error. No control system is foolproof.
+
+:::
 ---
 
 ## Impact on the Risk of Material Misstatement
@@ -53,9 +55,10 @@ When inherent limitations exist, the auditor must consider:
 **Example:** Gies Co. relies heavily on management estimates for its warranty liability. The CFO has sole responsibility for determining the estimate methodology, selecting assumptions, and approving the final figure. No independent review or governance oversight exists over this process. The auditor at BIF Partners recognizes that this creates a heightened risk at the assertion level—specifically the **valuation assertion** for the warranty liability—because the lack of oversight creates an opportunity for management to manipulate the estimate.
 
 :::warning
-When an entity has a **weak control environment**—for example, management that demonstrates a disregard for internal control or a lack of commitment to integrity—the auditor should treat this as a **pervasive risk** affecting the financial statements as a whole. A weak tone at the top can undermine every other control component, regardless of how well individual controls are designed.
-:::
 
+When an entity has a **weak control environment**—for example, management that demonstrates a disregard for internal control or a lack of commitment to integrity—the auditor should treat this as a **pervasive risk** affecting the financial statements as a whole. A weak tone at the top can undermine every other control component, regardless of how well individual controls are designed.
+
+:::
 ---
 
 ## Management Override: A Presumed Fraud Risk
@@ -76,9 +79,10 @@ Auditing standards require auditors to presume a risk of material misstatement d
 **Example:** The CEO of Illini Entertainment instructs the controller to record a fictitious revenue entry at year-end to meet analyst expectations. The controller complies despite knowing the entry has no supporting documentation. The company's internal controls over revenue recognition—including approval requirements and supporting documentation policies—are operating effectively for all other transactions, but management's authority allows them to bypass these controls for this specific entry.
 
 :::caution
-Do not confuse management override with a **control deficiency**. A control deficiency means a control is not properly designed or not operating effectively. Management override means controls are working as intended, but management uses their authority to **circumvent** those controls for fraudulent purposes. The distinction matters on the CPA exam.
-:::
 
+Do not confuse management override with a **control deficiency**. A control deficiency means a control is not properly designed or not operating effectively. Management override means controls are working as intended, but management uses their authority to **circumvent** those controls for fraudulent purposes. The distinction matters on the CPA exam.
+
+:::
 ---
 
 ## Common Methods of Management Override
@@ -122,9 +126,10 @@ Management may structure or enter into **significant unusual transactions** that
 **Example:** In December, Illini Security enters into a sale-leaseback arrangement with an entity controlled by the CEO's brother-in-law. The transaction involves the sale of the company's headquarters building at a price significantly above market value, resulting in a large gain that offsets operating losses for the year. The transaction has no apparent business rationale other than to improve reported earnings.
 
 :::info
-The three methods of management override—**journal entry manipulation**, **biased estimates**, and **unusual transactions**—form the basis for the three required audit procedures that must be performed on every audit. The CPA exam frequently tests the connection between each method and its corresponding audit procedure.
-:::
 
+The three methods of management override—**journal entry manipulation**, **biased estimates**, and **unusual transactions**—form the basis for the three required audit procedures that must be performed on every audit. The CPA exam frequently tests the connection between each method and its corresponding audit procedure.
+
+:::
 ---
 
 ## Required Audit Procedures for Management Override
@@ -143,9 +148,10 @@ Because management override is a **presumed fraud risk**, auditing standards man
 **Example:** BIF Partners is auditing Gies Co. and obtains a complete population of all journal entries recorded during the year. The audit team uses data analytics to identify entries with unusual characteristics: entries made on weekends, entries made by the CFO directly (bypassing the normal entry process), entries to revenue accounts that were made in the last week of December, and round-dollar entries above $100,000. The team selects a sample of these entries for detailed testing, tracing each to supporting documentation.
 
 :::tip Exam Tip
-When testing journal entries, auditors should apply an element of **unpredictability**. If management knows exactly which entries the auditor will test, they can craft override entries that avoid detection. Varying the selection criteria from year to year is an important aspect of this procedure.
-:::
 
+When testing journal entries, auditors should apply an element of **unpredictability**. If management knows exactly which entries the auditor will test, they can craft override entries that avoid detection. Varying the selection criteria from year to year is an important aspect of this procedure.
+
+:::
 ### Procedure 2: Reviewing Accounting Estimates for Bias
 
 | Element | Requirement |
@@ -169,9 +175,10 @@ When testing journal entries, auditors should apply an element of **unpredictabi
 **Example:** During the audit of Illini Entertainment, the auditor discovers a $5 million consulting agreement executed in the last month of the fiscal year with a newly formed entity. The entity has no employees and shares an address with the company's chief operating officer. The auditor evaluates the business rationale, determines the transaction lacks economic substance, and concludes it was likely structured to inflate revenue. This finding is communicated to those charged with governance.
 
 :::warning
-These three procedures are **mandatory** on every audit—they cannot be eliminated based on the auditor's judgment that management override risk is low. Even if the auditor has a long-standing relationship with management and believes them to be trustworthy, the procedures must still be performed. The CPA exam frequently tests this non-negotiable requirement.
-:::
 
+These three procedures are **mandatory** on every audit—they cannot be eliminated based on the auditor's judgment that management override risk is low. Even if the auditor has a long-standing relationship with management and believes them to be trustworthy, the procedures must still be performed. The CPA exam frequently tests this non-negotiable requirement.
+
+:::
 ---
 
 ## Impact on Audit Strategy
@@ -206,9 +213,10 @@ The inherent limitations of internal control—and management override in partic
 **Example:** Bear Co. recently replaced its CEO and CFO, and the new management team is under significant pressure from the board to meet aggressive growth targets. The auditor at BIF Partners determines that management override risk is **elevated** beyond the baseline presumption. In response, the audit team increases the sample of journal entries tested from 25 to 60, performs all substantive procedures at year-end rather than at interim, obtains third-party confirmations for a larger number of accounts receivable balances, and develops independent estimates for all significant management estimates rather than only the highest-risk estimates.
 
 :::note
-Even though management override is always a presumed risk, the **level of risk** can vary. Factors such as management's incentives, the entity's history, the quality of governance oversight, and the tone at the top all influence how aggressively the auditor should respond. The three mandatory procedures represent a **floor**, not a ceiling.
-:::
 
+Even though management override is always a presumed risk, the **level of risk** can vary. Factors such as management's incentives, the entity's history, the quality of governance oversight, and the tone at the top all influence how aggressively the auditor should respond. The three mandatory procedures represent a **floor**, not a ceiling.
+
+:::
 ---
 
 ## Documenting Management Override Risk

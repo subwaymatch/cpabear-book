@@ -30,9 +30,10 @@ Capital gains and losses are first netted within their **holding-period group**,
 | Married Filing Separately | **\$1,500** per year |
 
 :::info
-Net capital losses exceeding the annual limit are **carried forward indefinitely** and retain their character (short-term or long-term). There is no carryback for individual capital losses.
-:::
 
+Net capital losses exceeding the annual limit are **carried forward indefinitely** and retain their character (short-term or long-term). There is no carryback for individual capital losses.
+
+:::
 ### Ordering of Capital Loss Carryforwards
 
 When applied in a future year, carryforward losses are combined with that year's gains and losses in the netting process. Short-term carryforwards remain short-term; long-term carryforwards remain long-term.
@@ -66,9 +67,10 @@ A taxpayer cannot deduct losses in excess of their **tax basis** in the entity.
 | **Partnership** (outside basis) | Same as S corp **plus** the partner's share of entity **liabilities** (a critical difference) |
 
 :::warning
-Partnership basis includes the partner's share of **recourse and nonrecourse liabilities**, but S corporation basis does **not** include entity-level debt. S corp shareholders may increase basis through **direct loans** from the shareholder to the corporation, but not through third-party loans to the entity.
-:::
 
+Partnership basis includes the partner's share of **recourse and nonrecourse liabilities**, but S corporation basis does **not** include entity-level debt. S corp shareholders may increase basis through **direct loans** from the shareholder to the corporation, but not through third-party loans to the entity.
+
+:::
 > **Example:** Bear Co. shareholder Lee invested \$50,000 in an S corporation and has received no distributions. The S corp allocates a \$70,000 loss to Lee. Lee may deduct only \$50,000 (basis limitation). The remaining \$20,000 is suspended and carried forward indefinitely until Lee restores basis.
 
 ### Hurdle 2: At-Risk Limitation (IRC §465)
@@ -82,9 +84,10 @@ After the basis test, the deductible loss is further limited to the amount the t
 - Qualified nonrecourse financing (real estate only)
 
 :::note
-**Nonrecourse debt** generally does **not** increase the at-risk amount (except qualified nonrecourse financing in real estate activities). This is another common exam distinction between basis and at-risk.
-:::
 
+**Nonrecourse debt** generally does **not** increase the at-risk amount (except qualified nonrecourse financing in real estate activities). This is another common exam distinction between basis and at-risk.
+
+:::
 ### Hurdle 3: Passive Activity Loss Limitation (IRC §469)
 
 Losses from **passive activities** can only offset **passive income**. An activity is passive if the taxpayer does not **materially participate**.
@@ -104,9 +107,10 @@ A taxpayer materially participates if they satisfy **any one** of the following:
 | 7 | Based on all facts and circumstances, taxpayer participated on a **regular, continuous, and substantial** basis (must be > 100 hours) |
 
 :::tip Exam Tip
-The **500-hour test** (Test 1) is the most commonly tested. If a question states the taxpayer "worked full-time" or "devoted 600 hours," material participation is met.
-:::
 
+The **500-hour test** (Test 1) is the most commonly tested. If a question states the taxpayer "worked full-time" or "devoted 600 hours," material participation is met.
+
+:::
 #### Special \$25,000 Rental Real Estate Allowance
 
 Under IRC §469(i), individuals who **actively participate** in rental real estate may deduct up to **\$25,000** of passive rental losses against nonpassive income.
@@ -156,9 +160,10 @@ The IRS considers these factors (no single factor is determinative):
 9. Elements of personal pleasure or recreation
 
 :::info
-A **presumption of profit motive** exists if the activity is profitable in **3 of the last 5 years** (2 of 7 years for horse breeding/racing). This is a rebuttable presumption — the IRS can still challenge the activity.
-:::
 
+A **presumption of profit motive** exists if the activity is profitable in **3 of the last 5 years** (2 of 7 years for horse breeding/racing). This is a rebuttable presumption — the IRS can still challenge the activity.
+
+:::
 ### Hobby Income and Expense Treatment (Post-TCJA)
 
 | Item | Treatment |
@@ -169,9 +174,10 @@ A **presumption of profit motive** exists if the activity is profitable in **3 o
 > **Example:** MAS Inc. controller Alex breeds show dogs as a hobby, earning \$8,000 in puppy sales and incurring \$15,000 in expenses. Alex must report \$8,000 as income but may deduct **\$0** of the expenses, resulting in \$8,000 of taxable income from the hobby.
 
 :::caution
-Before TCJA, hobby expenses were deductible as miscellaneous itemized deductions (subject to the 2% AGI floor) up to the amount of hobby income. Under TCJA (2018–2025), they are **completely nondeductible**.
-:::
 
+Before TCJA, hobby expenses were deductible as miscellaneous itemized deductions (subject to the 2% AGI floor) up to the amount of hobby income. Under TCJA (2018–2025), they are **completely nondeductible**.
+
+:::
 ---
 
 ## Wash Sale Rule (IRC §1091)
@@ -188,9 +194,10 @@ A **wash sale** occurs when a taxpayer sells or trades a security at a loss and 
 > **Example:** On November 10, Bear Co. employee Jordan sells 100 shares of XYZ Corp. stock for a \$4,000 loss. On November 28, Jordan repurchases 100 shares of XYZ Corp. for \$6,000. The \$4,000 loss is disallowed under the wash sale rule, and Jordan's basis in the new shares is \$6,000 + \$4,000 = **\$10,000**.
 
 :::tip Exam Tip
-The wash sale rule applies only to **losses**, not gains. Also, it does not apply to sales of securities held in a **trade or business** by a dealer.
-:::
 
+The wash sale rule applies only to **losses**, not gains. Also, it does not apply to sales of securities held in a **trade or business** by a dealer.
+
+:::
 ---
 
 ## Personal-Use Asset Losses
@@ -223,9 +230,10 @@ When total deductions exceed gross income, the individual has a **net operating 
 > **Example:** Gies Co. consultant Morgan has a 2024 NOL carryforward of \$100,000. In 2025, Morgan has \$80,000 of taxable income before the NOL deduction. The NOL deduction is limited to 80% × \$80,000 = **\$64,000**. The remaining \$36,000 carries forward to 2026.
 
 :::warning
-The 80% limitation does **not** apply to NOLs arising in tax years beginning **before January 1, 2018**. Those older NOLs can offset 100% of taxable income. This creates a complex ordering computation when a taxpayer has both pre-2018 and post-2017 NOLs.
-:::
 
+The 80% limitation does **not** apply to NOLs arising in tax years beginning **before January 1, 2018**. Those older NOLs can offset 100% of taxable income. This creates a complex ordering computation when a taxpayer has both pre-2018 and post-2017 NOLs.
+
+:::
 ---
 
 ## Summary

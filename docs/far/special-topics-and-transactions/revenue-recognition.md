@@ -5,7 +5,7 @@
 ASC 606, _Revenue from Contracts with Customers_, provides a unified framework for recognizing revenue. The core principle is that revenue should be recognized when (or as) a company satisfies a performance obligation by transferring a promised good or service to a customer in an amount reflecting expected consideration.
 
 ```mermaid
-graph LR
+graph TD
     S1[Step 1: Identify Contract] --> S2[Step 2: Identify Performance Obligations]
     S2 --> S3[Step 3: Determine Transaction Price]
     S3 --> S4[Step 4: Allocate Transaction Price]
@@ -169,11 +169,12 @@ Dr. Construction expense      600,000
 ```
 
 :::warning Loss Recognition on Long-Term Contracts
+
 Both over-time and point-in-time methods require **immediate recognition of the entire estimated loss** when a contract becomes unprofitable. The loss is not deferred until completion.
 
 **Example:** In Year 2, BIF Partners revises total estimated costs to \$2,200,000, indicating an expected loss of \$200,000 on the \$2,000,000 contract. The entire \$200,000 loss must be recognized in Year 2, regardless of the percentage completed.
-:::
 
+:::
 ### Satisfaction at a Point in Time
 
 If none of the over-time criteria are met, revenue is recognized at the **point in time** when control transfers. Indicators of transfer include:
@@ -236,9 +237,10 @@ Dr. Contract liability          2,500
 Capitalized costs are amortized on a systematic basis consistent with the pattern of revenue recognition.
 
 :::tip Exam Tip
-As a practical expedient, costs to obtain a contract may be expensed immediately if the amortization period would be **one year or less**.
-:::
 
+As a practical expedient, costs to obtain a contract may be expensed immediately if the amortization period would be **one year or less**.
+
+:::
 ### Principal vs. Agent
 
 An entity must determine whether it is a **principal** (controls the good or service before transfer) or an **agent** (arranges for another party to provide the good or service).
@@ -263,9 +265,10 @@ A **repurchase agreement** is a contract in which an entity sells an asset and p
 | **Put option** | **Customer** has the right to require repurchase | If repurchase price < original selling price → lease. If repurchase price ≥ original selling price → financing arrangement |
 
 :::info
-When a repurchase agreement is treated as a **financing arrangement**, the entity does not derecognize the asset. Instead, it records a financial liability for the consideration received.
-:::
 
+When a repurchase agreement is treated as a **financing arrangement**, the entity does not derecognize the asset. Instead, it records a financial liability for the consideration received.
+
+:::
 ### Bill-and-Hold Arrangements
 
 In a **bill-and-hold** arrangement, the entity bills the customer but physically retains possession of the goods. Revenue may be recognized before the customer receives the product only if **all** of the following criteria are met:

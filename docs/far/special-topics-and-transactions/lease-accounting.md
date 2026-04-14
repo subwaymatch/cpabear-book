@@ -4,9 +4,10 @@
 
 A **lease** is a contract that conveys the right to control the use of an identified asset for a period of time in exchange for consideration. Under ASC 842, lessees recognize virtually all leases on the balance sheet (with a narrow exception for short-term leases).
 :::info
-The key question is whether the customer has the **right to control the use** of the asset — meaning the customer directs how and for what purpose the asset is used and obtains substantially all the economic benefits.
-:::
 
+The key question is whether the customer has the **right to control the use** of the asset — meaning the customer directs how and for what purpose the asset is used and obtains substantially all the economic benefits.
+
+:::
 ---
 
 ## Combining and Separating Lease Components
@@ -31,9 +32,10 @@ From the **lessee's** perspective, a lease is classified as a **finance lease** 
 | **S** | Specialized asset | No alternative use to lessor at end of lease |
 If **none** of the OWNES criteria are met, the lease is an **operating lease**.
 :::tip Exam Tip
-Both finance and operating leases result in a **right-of-use (ROU) asset** and a **lease liability** on the balance sheet. The difference is in how expense is recognized on the income statement.
-:::
 
+Both finance and operating leases result in a **right-of-use (ROU) asset** and a **lease liability** on the balance sheet. The difference is in how expense is recognized on the income statement.
+
+:::
 ---
 
 ## Determining Lease Components
@@ -111,7 +113,9 @@ Dr. Right-of-use asset amort.   6,066
 ```
 
 :::info Simplified View
+
 In practice, the total lease expense equals the cash payment (\$24,000). Under the hood, interest accrues on the liability while the ROU asset is reduced by a plug amount so that the net expense is straight-line.
+
 :::
 The balance sheet at Year 1 end:
 
@@ -202,9 +206,10 @@ Dr. Lease expense                 500
 ```
 
 :::tip
-The short-term lease election is made by **asset class**, not lease-by-lease.
-:::
 
+The short-term lease election is made by **asset class**, not lease-by-lease.
+
+:::
 ---
 
 ## Disclosures

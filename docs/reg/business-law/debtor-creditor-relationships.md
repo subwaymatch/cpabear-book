@@ -14,9 +14,10 @@ Debtor-creditor law governs how debts are created, secured, and collected — an
 - **Guarantor**: A party who is **secondarily liable** — the creditor must first attempt to collect from the debtor before pursuing the guarantor (the guarantee is a form of **guaranty of collection**).
 
 :::info
-A surety's promise to answer for another's debt must be in writing under the **Statute of Frauds** unless the surety's main purpose is to benefit **themselves** (the "main purpose" or "leading object" exception).
-:::
 
+A surety's promise to answer for another's debt must be in writing under the **Statute of Frauds** unless the surety's main purpose is to benefit **themselves** (the "main purpose" or "leading object" exception).
+
+:::
 ### Surety's Defenses
 
 A surety may assert certain defenses to avoid liability:
@@ -70,9 +71,10 @@ A security interest **attaches** (becomes enforceable against the debtor) when t
 | **Automatic perfection** | Purchase money security interest (PMSI) in consumer goods perfects automatically upon attachment |
 
 :::tip Exam Tip
-A **PMSI in consumer goods** perfects automatically — no filing is required. But a PMSI in inventory or equipment **must** be perfected by filing to receive super-priority.
-:::
 
+A **PMSI in consumer goods** perfects automatically — no filing is required. But a PMSI in inventory or equipment **must** be perfected by filing to receive super-priority.
+
+:::
 ### Priority Rules
 
 When multiple creditors claim the same collateral, priority is determined as follows:
@@ -110,9 +112,10 @@ Upon filing, an **automatic stay** immediately halts most collection actions, in
 - Telephone calls and letters demanding payment
 
 :::warning
-The automatic stay does **not** stop criminal proceedings, certain tax proceedings, or domestic support obligations (alimony and child support).
-:::
 
+The automatic stay does **not** stop criminal proceedings, certain tax proceedings, or domestic support obligations (alimony and child support).
+
+:::
 ### Chapter 7 — Liquidation
 
 - A **trustee** is appointed to collect and liquidate the debtor's nonexempt assets

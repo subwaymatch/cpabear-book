@@ -17,9 +17,10 @@ These are performed **during the planning phase** to identify and assess the ris
 - Observation and inspection of operations, documents, and internal reports
 
 :::info Example
-While planning the audit of **Gies Co.**, the engagement team inquires with the CFO about new revenue streams, reviews interim financial statements for unusual trends, and tours the warehouse to observe inventory controls. These steps help the auditor understand where misstatement risks are highest.
-:::
 
+While planning the audit of **Gies Co.**, the engagement team inquires with the CFO about new revenue streams, reviews interim financial statements for unusual trends, and tours the warehouse to observe inventory controls. These steps help the auditor understand where misstatement risks are highest.
+
+:::
 ### 2. Tests of Controls
 
 Tests of controls evaluate the **operating effectiveness** of internal controls that the auditor intends to rely upon. These tests are performed when:
@@ -28,9 +29,10 @@ Tests of controls evaluate the **operating effectiveness** of internal controls 
 - Substantive procedures alone cannot provide sufficient evidence at the assertion level
 
 :::tip
-Tests of controls answer the question: *"Are the client's controls actually working as designed?"* If the answer is yes, the auditor may reduce the extent of substantive testing.
-:::
 
+Tests of controls answer the question: *"Are the client's controls actually working as designed?"* If the answer is yes, the auditor may reduce the extent of substantive testing.
+
+:::
 ### 3. Substantive Procedures
 
 Substantive procedures are designed to **detect material misstatements** at the assertion level. They include:
@@ -74,9 +76,10 @@ Appropriateness addresses the **relevance** and **reliability** of the evidence.
 2. **Reliability** — Can the auditor trust the evidence?
 
 :::warning
-Sufficiency and appropriateness are interrelated. Obtaining more evidence does not compensate for evidence that is irrelevant or unreliable. Both dimensions must be satisfied.
-:::
 
+Sufficiency and appropriateness are interrelated. Obtaining more evidence does not compensate for evidence that is irrelevant or unreliable. Both dimensions must be satisfied.
+
+:::
 ---
 
 ## Factors Affecting Reliability of Evidence
@@ -93,9 +96,10 @@ Not all evidence is equally trustworthy. The following factors influence how rel
 | **Original vs. copy** | Original documents | Photocopies or faxes |
 
 :::info Example
-A bank confirmation received directly by the auditor from **MAS Inc.**'s bank is more reliable than a bank statement printed by the client's accounting staff, because it comes from an external source and is obtained directly by the auditor.
-:::
 
+A bank confirmation received directly by the auditor from **MAS Inc.**'s bank is more reliable than a bank statement printed by the client's accounting staff, because it comes from an external source and is obtained directly by the auditor.
+
+:::
 ---
 
 ## Relevance of Audit Evidence
@@ -103,9 +107,10 @@ A bank confirmation received directly by the auditor from **MAS Inc.**'s bank is
 Evidence is relevant when it pertains to the **specific assertion** being tested. Different procedures yield evidence relevant to different assertions.
 
 :::tip
-If you are testing the **existence** assertion for accounts receivable at **BIF Partners**, confirming balances with customers is highly relevant. However, that same confirmation does not effectively test the **completeness** assertion—a balance that is missing from the books would never appear on a confirmation request.
-:::
 
+If you are testing the **existence** assertion for accounts receivable at **BIF Partners**, confirming balances with customers is highly relevant. However, that same confirmation does not effectively test the **completeness** assertion—a balance that is missing from the books would never appear on a confirmation request.
+
+:::
 ---
 
 ## Documentation Requirements
@@ -143,9 +148,10 @@ A helpful mnemonic for remembering the standard audit procedures is **FIVE CARRO
 | **S** | **Subsequent events review** | Evaluating events occurring after the balance sheet date but before the audit report date |
 
 :::note Exam Tip
-The CPA exam frequently tests your ability to identify which procedure is most appropriate for a given scenario. Practice matching each procedure to the assertion it best addresses.
-:::
 
+The CPA exam frequently tests your ability to identify which procedure is most appropriate for a given scenario. Practice matching each procedure to the assertion it best addresses.
+
+:::
 ### Detailed Procedure Examples
 
 **Confirmation** — The auditor sends a letter to **Kingfisher Industries'** major customers asking them to verify their outstanding receivable balance directly with the audit firm.
@@ -177,9 +183,10 @@ Financial Statements → Journals → Source Documents
 The auditor asks: *"Is this recorded item real?"*
 
 :::info Example
-The auditor selects 25 sales transactions from **MAS Inc.'s** sales journal and traces each one back to the corresponding shipping document and customer order. This tests whether recorded sales actually occurred (existence/occurrence assertion).
-:::
 
+The auditor selects 25 sales transactions from **MAS Inc.'s** sales journal and traces each one back to the corresponding shipping document and customer order. This tests whether recorded sales actually occurred (existence/occurrence assertion).
+
+:::
 ### Tracing (Tests Completeness)
 
 Tracing moves **from source documents forward to the financial statements**.
@@ -191,9 +198,10 @@ Source Documents → Journals → Financial Statements
 The auditor asks: *"Has this real event been recorded?"*
 
 :::info Example
-The auditor selects 25 shipping documents from **Kingfisher Industries'** shipping dock log and traces each one forward to the sales journal and general ledger. This tests whether all shipments that occurred were properly recorded (completeness assertion).
-:::
 
+The auditor selects 25 shipping documents from **Kingfisher Industries'** shipping dock log and traces each one forward to the sales journal and general ledger. This tests whether all shipments that occurred were properly recorded (completeness assertion).
+
+:::
 ### Summary of Direction
 
 | Direction | Starting Point | Ending Point | Assertion Tested |
@@ -202,5 +210,7 @@ The auditor selects 25 shipping documents from **Kingfisher Industries'** shippi
 | **Tracing** | Supporting documents | Recorded amounts (ledgers) | Completeness |
 
 :::danger Common Exam Trap
+
 Do not confuse the direction. Students often mix up vouching and tracing. Remember: **Vouching = Verify what's recorded is real (existence). Tracing = Track what's real to see if it's recorded (completeness).**
+
 :::

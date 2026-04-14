@@ -3,9 +3,10 @@
 The **Statements on Standards for Accounting and Review Services (SSARS)**, issued by the AICPA's Accounting and Review Services Committee (ARSC), govern engagements involving the financial statements of **nonissuers** (private companies) when the CPA is not performing an audit. The three primary service levels—**preparation**, **compilation**, and **review**—each have distinct requirements for assurance, reporting, and independence. Understanding the differences among these engagement types is a core AUD exam topic.
 
 :::info
-SSARS engagements apply only to **nonissuers**. Issuers (public companies) are subject to PCAOB standards. For issuers, interim reviews are conducted under AU-C 930 / AS 4105, not SSARS.
-:::
 
+SSARS engagements apply only to **nonissuers**. Issuers (public companies) are subject to PCAOB standards. For issuers, interim reviews are conducted under AU-C 930 / AS 4105, not SSARS.
+
+:::
 ---
 
 ## Overview of Service Levels
@@ -17,9 +18,10 @@ SSARS engagements apply only to **nonissuers**. Issuers (public companies) are s
 | **Review** | AR-C 90 | Limited (moderate) | Yes — review report | Yes |
 
 :::tip Exam Tip
-A quick memory aid: **Preparation** = no report, no independence, no assurance. **Compilation** = report, no independence required (but disclose if not), no assurance. **Review** = report, independence required, limited assurance. The exam frequently tests these distinctions.
-:::
 
+A quick memory aid: **Preparation** = no report, no independence, no assurance. **Compilation** = report, no independence required (but disclose if not), no assurance. **Review** = report, independence required, limited assurance. The exam frequently tests these distinctions.
+
+:::
 ---
 
 ## Preparation Engagements (AR-C 70)
@@ -74,9 +76,10 @@ The compilation report includes:
 **Example:** MAS Inc., a privately held company, engages a CPA to compile its annual financial statements. The CPA's spouse is a 10% owner of MAS Inc., making the CPA not independent. The CPA may still perform the compilation but must include in the report: "We are not independent with respect to MAS Inc."
 
 :::caution
-If a CPA is not independent, the CPA can still perform a **compilation** (with disclosure) or a **preparation** (no independence requirement). However, the CPA **cannot perform a review** if not independent. This distinction is heavily tested.
-:::
 
+If a CPA is not independent, the CPA can still perform a **compilation** (with disclosure) or a **preparation** (no independence requirement). However, the CPA **cannot perform a review** if not independent. This distinction is heavily tested.
+
+:::
 ---
 
 ## Review Engagements (AR-C 90)
@@ -132,9 +135,10 @@ The review report includes:
 | **Level of service** | Lower | Higher |
 
 :::tip Exam Tip
-If the CPA discovers a **material misstatement** during a compilation, the CPA should request that management revise the financial statements. If management refuses, the CPA should **withdraw from the engagement**. The same principle applies to review engagements—if management refuses to correct material issues, the CPA considers the effect on the review report.
-:::
 
+If the CPA discovers a **material misstatement** during a compilation, the CPA should request that management revise the financial statements. If management refuses, the CPA should **withdraw from the engagement**. The same principle applies to review engagements—if management refuses to correct material issues, the CPA considers the effect on the review report.
+
+:::
 ---
 
 ## Interim Reviews for Issuers
@@ -178,9 +182,10 @@ If, after the date of the compilation or review report, the CPA becomes aware of
 4. If management does not take appropriate action, the CPA should **notify those charged with governance** and consider what further steps are necessary (which may include notifying regulatory agencies or known users)
 
 :::warning
-The CPA's obligation upon discovering subsequently known facts applies to both compilations and reviews. The CPA cannot simply ignore information that calls into question previously issued financial statements, even if the engagement has concluded.
-:::
 
+The CPA's obligation upon discovering subsequently known facts applies to both compilations and reviews. The CPA cannot simply ignore information that calls into question previously issued financial statements, even if the engagement has concluded.
+
+:::
 ---
 
 ## Summary

@@ -24,11 +24,12 @@ To qualify for S corporation status, the entity must satisfy **all** of the foll
 | **Not an ineligible corporation** | Cannot be a bank using the reserve method, an insurance company, a DISC, or certain other entities |
 
 :::info One Class of Stock
+
 An S corporation may issue both voting and nonvoting common stock — those are still treated as **one class** because the economic rights are identical. However, if one class of shares has a preferred distribution right, the corporation has two classes and fails the test.
 
 **Debt that is reclassified as equity** (e.g., shareholder loans with excessive debt-to-equity ratios) can inadvertently create a second class of stock and terminate the election.
-:::
 
+:::
 ---
 
 ## Election process
@@ -74,9 +75,10 @@ If the corporation ceases to satisfy **any** eligibility requirement — for exa
 If an S corporation has **accumulated E&P** from C corporation years and its **passive investment income** exceeds **25%** of gross receipts for **three consecutive tax years**, the election terminates at the beginning of the **fourth** tax year.
 
 :::caution
-This passive income termination rule applies **only** to S corporations that have accumulated earnings and profits from a prior C corporation period. A corporation that has always been an S corporation (no C corp E&P) is not subject to this rule.
-:::
 
+This passive income termination rule applies **only** to S corporations that have accumulated earnings and profits from a prior C corporation period. A corporation that has always been an S corporation (no C corp E&P) is not subject to this rule.
+
+:::
 ### Short tax years and allocation methods
 
 When the S election terminates mid-year, income must be allocated between the short S year and the short C year using one of two methods:
@@ -130,9 +132,10 @@ A shareholder who owns **more than 2%** of an S corporation's stock is treated l
 - Group-term life insurance, meals and lodging exclusions, and other employee fringe benefits are generally **not** available tax-free to >2% shareholders
 
 :::tip
-The >2% shareholder rule is a frequently tested distinction. Unlike employees, these shareholder-employees cannot receive tax-free fringe benefits from the corporation.
-:::
 
+The >2% shareholder rule is a frequently tested distinction. Unlike employees, these shareholder-employees cannot receive tax-free fringe benefits from the corporation.
+
+:::
 ---
 
 ## Shareholder basis computation
@@ -151,9 +154,10 @@ A shareholder's **stock basis** in an S corporation determines the tax treatment
 | 6 | Deductible losses and deductions | **Decrease** (but not below zero) |
 
 :::info Ordering Matters
-Distributions reduce basis **before** losses. This means a large distribution can reduce basis to zero, preventing the shareholder from deducting any passed-through losses in that year.
-:::
 
+Distributions reduce basis **before** losses. This means a large distribution can reduce basis to zero, preventing the shareholder from deducting any passed-through losses in that year.
+
+:::
 **Example — Stock basis computation:**
 
 Jamie owns 100% of Bear Co. (S corporation). At the start of the year, her stock basis is \$50,000. During the year:
@@ -190,9 +194,10 @@ Unlike partnerships, an S corporation shareholder gets debt basis **only** from 
 | Entity-level mortgage | ❌ No |
 
 :::caution S Corp vs. Partnership Debt Basis
-This is one of the most important distinctions on the exam. In a **partnership**, a partner's share of entity-level liabilities increases outside basis. In an **S corporation**, only direct shareholder-to-entity loans count. Guarantees do **not** create debt basis for S corporation shareholders.
-:::
 
+This is one of the most important distinctions on the exam. In a **partnership**, a partner's share of entity-level liabilities increases outside basis. In an **S corporation**, only direct shareholder-to-entity loans count. Guarantees do **not** create debt basis for S corporation shareholders.
+
+:::
 ### Tax basis limitation on losses
 
 A shareholder can deduct passed-through losses only to the extent of their **combined stock basis and debt basis** (tax basis limitation).
@@ -236,9 +241,10 @@ When an S corporation has both AAA and accumulated C corporation E&P, distributi
 | 4th | **Excess** | **Capital gain** |
 
 :::tip AAA Can Go Negative
-Unlike stock basis, the AAA **can** be reduced below zero by losses and deductions. However, distributions cannot reduce AAA below zero — only losses can.
-:::
 
+Unlike stock basis, the AAA **can** be reduced below zero by losses and deductions. However, distributions cannot reduce AAA below zero — only losses can.
+
+:::
 **Example:** Bear Co. converted from a C corporation to an S corporation several years ago. It has AAA of \$60,000, accumulated E&P of \$40,000, and distributes \$120,000 to its sole shareholder (stock basis of \$100,000).
 
 | Layer | Amount | Treatment |

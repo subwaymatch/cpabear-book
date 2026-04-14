@@ -16,9 +16,10 @@ For the AUD exam, you must understand how SEC and PCAOB rules differ from AICPA 
 | **SOX (Sarbanes-Oxley Act)** | Issuers and their auditors | Federal law that created the PCAOB and established statutory prohibitions on certain non-audit services |
 
 :::info
-For issuers, when there is a conflict between AICPA rules and SEC/PCAOB rules, the **more restrictive rule** applies. In practice, the SEC and PCAOB rules are almost always more restrictive. For nonissuers, only AICPA rules apply (unless state boards or other regulators impose additional requirements).
-:::
 
+For issuers, when there is a conflict between AICPA rules and SEC/PCAOB rules, the **more restrictive rule** applies. In practice, the SEC and PCAOB rules are almost always more restrictive. For nonissuers, only AICPA rules apply (unless state boards or other regulators impose additional requirements).
+
+:::
 ---
 
 ## SEC Independence Rules
@@ -57,9 +58,10 @@ Section 201 of the Sarbanes-Oxley Act explicitly prohibits a registered public a
 | **Any other service** the PCAOB determines by regulation is impermissible | Catch-all provision |
 
 :::caution
-These prohibitions are **absolute** for issuer audit clients. Unlike AICPA rules, there is no conceptual framework exception — the services simply cannot be provided to an audit client regardless of safeguards. However, the firm may provide these services to **non-audit clients** and to **affiliates of the audit client that are not in the audit scope**, subject to specific conditions.
-:::
 
+These prohibitions are **absolute** for issuer audit clients. Unlike AICPA rules, there is no conceptual framework exception — the services simply cannot be provided to an audit client regardless of safeguards. However, the firm may provide these services to **non-audit clients** and to **affiliates of the audit client that are not in the audit scope**, subject to specific conditions.
+
+:::
 ### Permitted Non-Audit Services for Issuers
 
 Not all non-audit services are prohibited. A firm may provide other services — most notably **tax compliance and tax planning** services — to an issuer audit client, provided:
@@ -94,9 +96,10 @@ To prevent familiarity threats, the PCAOB and SEC require **mandatory rotation**
 | **Other audit partners** (those with significant engagement responsibilities) | Must rotate off after **5 consecutive years** | **2-year** cooling-off period |
 
 :::tip Exam Tip
-The key numbers to memorize are **5-5-5-2**: five years on, five-year cooling-off for lead and EQR partners, and two-year cooling-off for other significant partners. The AICPA does not require mandatory rotation for nonissuer engagements (though firms may adopt rotation policies voluntarily).
-:::
 
+The key numbers to memorize are **5-5-5-2**: five years on, five-year cooling-off for lead and EQR partners, and two-year cooling-off for other significant partners. The AICPA does not require mandatory rotation for nonissuer engagements (though firms may adopt rotation policies voluntarily).
+
+:::
 ### AICPA Rules (Nonissuers)
 
 The AICPA does **not** require mandatory partner rotation for nonissuer engagements. However, the AICPA's quality management standards encourage firms to establish policies addressing long association with an attest client and the familiarity threat it creates.
@@ -115,9 +118,10 @@ When a member of the **audit engagement team** leaves the audit firm and joins a
 **Example:** A senior manager at the firm that audits MAS Inc. accepts a position as MAS Inc.'s controller. For the firm to remain independent, the individual must not have served on the MAS Inc. engagement team during the one-year period before the start of the audit for the fiscal year in which the individual joins MAS Inc. If the manager worked on the MAS Inc. audit within the prior year, the firm's independence is impaired.
 
 :::warning
-The SEC cooling-off rule is more prescriptive than the AICPA rule. The AICPA uses a conceptual framework approach for former practitioners, while the SEC imposes a **bright-line one-year rule** for issuer audits.
-:::
 
+The SEC cooling-off rule is more prescriptive than the AICPA rule. The AICPA uses a conceptual framework approach for former practitioners, while the SEC imposes a **bright-line one-year rule** for issuer audits.
+
+:::
 ---
 
 ## Tax Services Restrictions Under PCAOB Rules
@@ -153,9 +157,10 @@ While tax services are not categorically banned for issuer audit clients, the PC
 | **Scope of covered persons** | Engagement team, those who influence engagement, the firm | Broader — can include all partners in the office participating in a significant portion of the audit |
 
 :::info
-On the CPA exam, many independence questions ask you to determine whether independence is impaired. Always consider first: **Is the client an issuer or nonissuer?** This determines which set of rules applies. If the client is an issuer, apply the more restrictive SEC/PCAOB rules.
-:::
 
+On the CPA exam, many independence questions ask you to determine whether independence is impaired. Always consider first: **Is the client an issuer or nonissuer?** This determines which set of rules applies. If the client is an issuer, apply the more restrictive SEC/PCAOB rules.
+
+:::
 ---
 
 ## Other Independence Considerations
@@ -183,5 +188,7 @@ Individual state boards may impose additional independence requirements beyond t
 | AICPA vs. SEC/PCAOB | SEC/PCAOB rules are more restrictive and apply to issuer engagements |
 
 :::tip Final Exam Tip
+
 When a CPA exam question involves independence for a **public company**, immediately think SOX and PCAOB. The prohibited services list, partner rotation schedule, and cooling-off rules are heavily tested. For private company questions, apply AICPA rules and the conceptual framework approach.
+
 :::

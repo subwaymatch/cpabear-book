@@ -138,9 +138,10 @@ graph TD
 | Goodwill tested for impairment using internal projections | Level 3 |
 
 :::warning
-The **entire** fair value measurement is classified based on the **lowest level input** that is **significant** to the measurement. If a Level 2 measurement uses a significant Level 3 input, the entire measurement is classified as Level 3.
-:::
 
+The **entire** fair value measurement is classified based on the **lowest level input** that is **significant** to the measurement. If a Level 2 measurement uses a significant Level 3 input, the entire measurement is classified as Level 3.
+
+:::
 ---
 
 ## Fair Value Disclosures
@@ -207,9 +208,10 @@ Dr. Notes payable              20,000
 ```
 
 :::danger
-Changes in fair value attributable to **instrument-specific credit risk** for liabilities measured under the fair value option are reported in **OCI**, not net income (ASU 2016-01).
-:::
 
+Changes in fair value attributable to **instrument-specific credit risk** for liabilities measured under the fair value option are reported in **OCI**, not net income (ASU 2016-01).
+
+:::
 ---
 
 ## Summary

@@ -16,9 +16,10 @@ An agency can be created through:
 - **Operation of law** — law imposes an agency in certain emergency situations (e.g., a spouse authorized to act in a medical emergency)
 
 :::info
-An agency agreement generally does **not** need to be in writing. The major exception is the **equal dignities rule**: if the contract the agent is authorized to execute must be in writing under the Statute of Frauds, the agency authorization must also be in writing (a power of attorney).
-:::
 
+An agency agreement generally does **not** need to be in writing. The major exception is the **equal dignities rule**: if the contract the agent is authorized to execute must be in writing under the Statute of Frauds, the agency authorization must also be in writing (a power of attorney).
+
+:::
 ---
 
 ## Types of Authority
@@ -52,9 +53,10 @@ A principal may **ratify** an unauthorized act if:
 Ratification is retroactive — it relates back to the time of the original act.
 
 :::tip Exam Tip
-Ratification requires the principal to know all material facts. A principal who ratifies without full knowledge may later rescind the ratification.
-:::
 
+Ratification requires the principal to know all material facts. A principal who ratifies without full knowledge may later rescind the ratification.
+
+:::
 ---
 
 ## Agent's Duties to the Principal
@@ -97,9 +99,10 @@ A principal's liability to third parties depends on how much the third party kno
 | **Undisclosed** | Does not know a principal exists | Yes (if agent had authority) | Yes |
 
 :::caution
-When the principal is **undisclosed**, the agent is **always** liable on the contract because the third party believed it was dealing with the agent personally. If the principal is later discovered, the third party may elect to hold either the principal or the agent liable — but not both.
-:::
 
+When the principal is **undisclosed**, the agent is **always** liable on the contract because the third party believed it was dealing with the agent personally. If the principal is later discovered, the third party may elect to hold either the principal or the agent liable — but not both.
+
+:::
 > **Example:** Illini Security authorizes an agent to lease office space without revealing that Illini Security is the actual tenant. The landlord believes the agent is leasing for himself. This is an **undisclosed principal** situation — both Illini Security and the agent are potentially liable on the lease.
 
 ### Tort Liability
@@ -126,9 +129,10 @@ The distinction between an **employee** and an **independent contractor** is cri
 | **Tax treatment** | Principal withholds taxes | Contractor pays own taxes (Form 1099) |
 
 :::warning
-A principal who hires an independent contractor is generally **not** liable for the contractor's torts. Exceptions include: (1) the work is **inherently dangerous**, (2) the principal retains **control** over the manner of work, or (3) the duty is **nondelegable** by law.
-:::
 
+A principal who hires an independent contractor is generally **not** liable for the contractor's torts. Exceptions include: (1) the work is **inherently dangerous**, (2) the principal retains **control** over the manner of work, or (3) the duty is **nondelegable** by law.
+
+:::
 > **Example:** Kingfisher Industries hires MSA Records (an independent contractor) to perform demolition work at a construction site. Demolition is considered **inherently dangerous** activity. Kingfisher Industries may be vicariously liable for injuries caused by MSA Records' negligence despite MSA Records' independent contractor status.
 
 ---
@@ -151,9 +155,10 @@ A principal who hires an independent contractor is generally **not** liable for 
 - **Destruction** of the subject matter
 
 :::info
-An **agency coupled with an interest** (where the agent has a property interest in the subject matter) is **irrevocable** — it cannot be terminated by the principal's revocation, death, or incapacity.
-:::
 
+An **agency coupled with an interest** (where the agent has a property interest in the subject matter) is **irrevocable** — it cannot be terminated by the principal's revocation, death, or incapacity.
+
+:::
 ### Notice Requirements Upon Termination
 
 When an agency is terminated by act of the parties, the principal must give:

@@ -5,9 +5,10 @@ Quality management is the backbone of a reliable audit profession. A firm's syst
 This section covers the **system of quality management (SQMS)** at the firm level, the **engagement quality review (EQR)** process, **concurring partner review**, and the firm's responsibilities for **inspection and monitoring** of engagement quality.
 
 :::info
-Quality management standards are established by the **AICPA** (Statement on Quality Management Standards, or SQMS) for nonissuers and by the **PCAOB** (QC Section 1000 and AS 1220) for issuers. Both frameworks share a common goal: ensuring audit quality at every level of the firm.
-:::
 
+Quality management standards are established by the **AICPA** (Statement on Quality Management Standards, or SQMS) for nonissuers and by the **PCAOB** (QC Section 1000 and AS 1220) for issuers. Both frameworks share a common goal: ensuring audit quality at every level of the firm.
+
+:::
 ---
 
 ## The Firm's System of Quality Management (SQMS)
@@ -22,9 +23,10 @@ The firm's SQM is designed to provide the firm with **reasonable assurance** tha
 - Engagement reports issued by the firm are **appropriate in the circumstances**
 
 :::warning
-The system provides **reasonable assurance**, not absolute assurance. No system of quality management can guarantee that every engagement will be performed flawlessly—but it must be designed to reduce the risk of quality failures to an acceptably low level.
-:::
 
+The system provides **reasonable assurance**, not absolute assurance. No system of quality management can guarantee that every engagement will be performed flawlessly—but it must be designed to reduce the risk of quality failures to an acceptably low level.
+
+:::
 ### Components of the System of Quality Management
 
 The firm's SQM includes the following components:
@@ -66,9 +68,10 @@ The EQR serves as an independent check on engagement quality. It helps ensure th
 - The report to be issued is appropriate given the evidence obtained
 
 :::info
-Under **SQMS No. 2** (Engagement Quality Reviews), the firm must establish policies determining which engagements require an EQR. For PCAOB engagements, **all audits of issuers** require an EQR. For nonissuers, the firm uses its judgment based on factors such as risk, public interest, and complexity.
-:::
 
+Under **SQMS No. 2** (Engagement Quality Reviews), the firm must establish policies determining which engagements require an EQR. For PCAOB engagements, **all audits of issuers** require an EQR. For nonissuers, the firm uses its judgment based on factors such as risk, public interest, and complexity.
+
+:::
 ### Criteria for Requiring an EQR
 
 The firm considers the following factors when determining whether an EQR is necessary:
@@ -90,9 +93,10 @@ The EQR reviewer must possess:
 - **Authority** — The reviewer's conclusions cannot be overridden by the engagement partner
 
 :::tip Exam Tip
-The EQR reviewer performs an **evaluation**, not a re-audit. The reviewer assesses whether significant judgments were reasonable and the conclusions are supported—but is not required to re-perform all audit procedures.
-:::
 
+The EQR reviewer performs an **evaluation**, not a re-audit. The reviewer assesses whether significant judgments were reasonable and the conclusions are supported—but is not required to re-perform all audit procedures.
+
+:::
 ### Timing of the EQR
 
 The EQR must be completed **before the report is issued**. The engagement report cannot be released, dated, or otherwise finalized until the EQR reviewer has confirmed that no unresolved significant matters remain.
@@ -138,9 +142,10 @@ The firm's inspection program involves selecting completed engagements for detai
 - Quality management policies were followed throughout the engagement
 
 :::note
-For firms that audit **issuers**, the **PCAOB** conducts external inspections. The PCAOB inspects registered firms annually (for firms that audit more than 100 issuers) or at least triennially (for firms that audit 100 or fewer issuers). These inspections are separate from the firm's own internal inspection program.
-:::
 
+For firms that audit **issuers**, the **PCAOB** conducts external inspections. The PCAOB inspects registered firms annually (for firms that audit more than 100 issuers) or at least triennially (for firms that audit 100 or fewer issuers). These inspections are separate from the firm's own internal inspection program.
+
+:::
 ### Remediation of Deficiencies
 
 When monitoring or inspection activities identify deficiencies, the firm must:

@@ -21,9 +21,10 @@ The AUD section is organized into **eight major topic areas**, each correspondin
 The profession is built on trust. This area covers the **AICPA Code of Professional Conduct**, independence requirements (conceptual framework and specific rules), and the regulatory landscape—including **SEC** and **PCAOB** independence rules for audits of public companies (issuers). You will learn how to navigate threats to independence, evaluate ethical dilemmas, and understand quality management standards that firms must follow.
 
 :::info Example
-Suppose your firm audits **Illini Entertainment** and a senior manager on the engagement owns stock in the company. The Code of Professional Conduct requires you to evaluate this financial interest and likely remove the manager from the engagement to preserve independence.
-:::
 
+Suppose your firm audits **Illini Entertainment** and a senior manager on the engagement owns stock in the company. The Code of Professional Conduct requires you to evaluate this financial interest and likely remove the manager from the engagement to preserve independence.
+
+:::
 ### 2. Audit Planning & Risk Assessment
 
 Before performing a single test, auditors must understand the client's business, industry, and internal environment. This area covers **planning the audit**, setting **materiality** thresholds, performing **risk assessment procedures**, assessing **fraud risk** (including the fraud triangle), and evaluating the entity's compliance with laws and regulations.
@@ -43,9 +44,10 @@ This is the heart of fieldwork. You will study the nature of **audit evidence**,
 When it is impractical to test an entire population, auditors use sampling. This area covers the fundamental concepts of **audit sampling** (statistical and nonstatistical), sampling for **tests of controls** (attribute sampling), and sampling for **substantive tests** (variables sampling, including monetary-unit sampling).
 
 :::tip
-Audit sampling is one of the most quantitative topics on the AUD exam. Be comfortable calculating sample sizes, evaluating deviations, and projecting misstatements. If **Gies Co.** has 10,000 purchase orders and the auditor can only test 60, sampling theory determines whether those 60 items provide enough evidence to draw a conclusion about the entire population.
-:::
 
+Audit sampling is one of the most quantitative topics on the AUD exam. Be comfortable calculating sample sizes, evaluating deviations, and projecting misstatements. If **Gies Co.** has 10,000 purchase orders and the auditor can only test 60, sampling theory determines whether those 60 items provide enough evidence to draw a conclusion about the entire population.
+
+:::
 ### 6. Auditing Specific Accounts & Transactions
 
 Each financial statement account has unique risks and audit considerations. This area walks through the audit approach for major balance sheet and income statement line items—including **cash and investments**, **receivables and revenue**, **inventory and cost of sales**, **property, plant, and equipment**, **payables and expenses**, **debt and equity**, **accounting estimates**, and **related-party transactions**.
@@ -72,9 +74,10 @@ Throughout this section, you will work with several authoritative frameworks:
 | **SSAEs**           | Statements on Standards for Attestation Engagements        | Examination, review, and agreed-upon procedures engagements    |
 
 :::caution Issuer vs. Nonissuer
-One of the most tested distinctions on the AUD exam is the difference between **issuer** and **nonissuer** engagements. Issuers (public companies) are subject to **PCAOB standards**, while nonissuers (private companies) follow **AICPA standards (GAAS)**. Many rules overlap, but there are critical differences—especially around internal control reporting, partner rotation, and communication requirements. Pay close attention to which set of standards applies in each scenario.
-:::
 
+One of the most tested distinctions on the AUD exam is the difference between **issuer** and **nonissuer** engagements. Issuers (public companies) are subject to **PCAOB standards**, while nonissuers (private companies) follow **AICPA standards (GAAS)**. Many rules overlap, but there are critical differences—especially around internal control reporting, partner rotation, and communication requirements. Pay close attention to which set of standards applies in each scenario.
+
+:::
 ---
 
 ## How to Use This Section
@@ -89,9 +92,10 @@ One of the most tested distinctions on the AUD exam is the difference between **
    :::
 
 :::tip Exam Strategy
-The AUD exam is known for its emphasis on **judgment and professional skepticism**. Questions frequently present a scenario and ask what the auditor should do _next_ or which procedure is _most appropriate_. Build the habit of thinking through each scenario systematically: What is the risk? What evidence do I need? What standard applies? What is the correct response?
-:::
 
+The AUD exam is known for its emphasis on **judgment and professional skepticism**. Questions frequently present a scenario and ask what the auditor should do _next_ or which procedure is _most appropriate_. Build the habit of thinking through each scenario systematically: What is the risk? What evidence do I need? What standard applies? What is the correct response?
+
+:::
 ---
 
 Ready to begin? Start with **[Ethics & Professional Responsibilities](/aud/ethics-professional-responsibilities-and-general-principles/code-of-professional-conduct)** or jump to any topic area using the sidebar navigation.

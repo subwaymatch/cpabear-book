@@ -12,9 +12,10 @@ $$\text{Stockholders' Equity} = \text{Capital Stock} + \text{APIC} + \text{Retai
 | **Accumulated Other Comprehensive Income (AOCI)** | Cumulative OCI items (unrealized gains/losses on AFS securities, foreign currency translation, pension adjustments, cash flow hedges) |
 | **Treasury Stock** | Cost (or par value) of the company's own shares that have been reacquired |
 :::info
-Equity is also called **net assets**, **shareholders' equity**, or **owners' equity**. For partnerships and sole proprietorships, different terminology is used, but the concept is the same.
-:::
 
+Equity is also called **net assets**, **shareholders' equity**, or **owners' equity**. For partnerships and sole proprietorships, different terminology is used, but the concept is the same.
+
+:::
 ---
 
 ## Common Stock
@@ -80,9 +81,10 @@ Preferred stock carries **preferential rights** over common stock, typically rel
 | **Mandatorily Redeemable** | Must be redeemed at a specified date or upon a specified event — classified as a **liability** under ASC 480 |
 
 :::danger Mandatorily Redeemable Preferred Stock
-Under ASC 480, mandatorily redeemable financial instruments are classified as **liabilities**, not equity. This is a frequently tested distinction. Dividends on mandatorily redeemable preferred stock are reported as **interest expense**.
-:::
 
+Under ASC 480, mandatorily redeemable financial instruments are classified as **liabilities**, not equity. This is a frequently tested distinction. Dividends on mandatorily redeemable preferred stock are reported as **interest expense**.
+
+:::
 ### Issuance of Preferred Stock
 
 **Example:** BIF Partners issues 2,000 shares of \$100 par, 6% cumulative preferred stock at \$108 per share:
@@ -124,9 +126,10 @@ Where **Preferred Stock Equity** includes the par (or call/liquidation) value of
 $$\text{Preferred Stock Equity} = (1{,}000 \times \$105) + \$16{,}000 = \$121{,}000$$
 $$\text{Book Value per Share} = \frac{\$1{,}200{,}000 - \$121{,}000}{50{,}000} = \$21.58$$
 :::tip
-When preferred stock is callable, use the **call price** (not par) to compute preferred stock equity. If not callable, use **par value** or **liquidation value** as appropriate.
-:::
 
+When preferred stock is callable, use the **call price** (not par) to compute preferred stock equity. If not callable, use **par value** or **liquidation value** as appropriate.
+
+:::
 ---
 
 ## Additional Paid-in Capital (APIC)
@@ -165,9 +168,10 @@ The retained earnings adjustment is \$30,000 × (1 − 0.25) = \$22,500.
 
 The board of directors may **appropriate** (restrict) a portion of retained earnings for a specific purpose (e.g., future plant expansion). Appropriated retained earnings are still part of total retained earnings—they are simply segregated to signal that those earnings are not available for dividends.
 :::note
-Appropriations of retained earnings do **not** set aside cash or any other asset. They are merely a reclassification within equity.
-:::
 
+Appropriations of retained earnings do **not** set aside cash or any other asset. They are merely a reclassification within equity.
+
+:::
 ### Quasi-Reorganizations
 
 A quasi-reorganization allows a corporation to **eliminate a deficit in retained earnings** without going through formal bankruptcy. The process involves:
@@ -182,9 +186,10 @@ A quasi-reorganization allows a corporation to **eliminate a deficit in retained
 
 Treasury stock consists of a corporation's own shares that have been **issued and subsequently reacquired** but not retired. Treasury stock is reported as a **contra-equity** account (a deduction from total stockholders' equity).
 :::warning
-Treasury shares are **not** outstanding shares. They have no voting rights, no dividend rights, and are not included in EPS calculations.
-:::
 
+Treasury shares are **not** outstanding shares. They have no voting rights, no dividend rights, and are not included in EPS calculations.
+
+:::
 ### Cost Method
 
 Under the cost method, treasury stock is recorded at the **reacquisition cost**. This is the more common method.
@@ -221,9 +226,10 @@ Dr. Retained Earnings           1,000
 
 The \$5,000 total deficit (\$35 − \$30 = \$5 × 600 shares) is first absorbed by any existing APIC—Treasury Stock (\$2,000 from the prior transaction), with the remainder (\$3,000) charged to Retained Earnings.
 :::tip Cost Method Rule
-When reissuing treasury stock **below cost**, first reduce APIC—Treasury Stock to zero, then charge any remaining amount to **Retained Earnings**. Never debit APIC—Treasury Stock below zero.
-:::
 
+When reissuing treasury stock **below cost**, first reduce APIC—Treasury Stock to zero, then charge any remaining amount to **Retained Earnings**. Never debit APIC—Treasury Stock below zero.
+
+:::
 #### Retirement of Treasury Stock (Cost Method)
 
 If Gies Co. decides to **retire** 200 of its treasury shares (originally issued at \$5 par, \$20 APIC per share, reacquired at \$35):
@@ -315,9 +321,10 @@ Dr. Common Stock Subscribed           10,000
 ```
 
 :::warning Balance Sheet Classification
-Stock Subscriptions Receivable is typically reported as a **contra-equity** account (a deduction from stockholders' equity) unless collection is reasonably assured, in which case it may be reported as a current asset. SEC registrants must report it as contra-equity.
-:::
 
+Stock Subscriptions Receivable is typically reported as a **contra-equity** account (a deduction from stockholders' equity) unless collection is reasonably assured, in which case it may be reported as a current asset. SEC registrants must report it as contra-equity.
+
+:::
 ---
 
 ## Stock Rights and Warrants
@@ -369,9 +376,10 @@ Dr. Property Dividends Payable  75,000
 ```
 
 :::tip
-Property dividends are always recorded at **fair value** on the declaration date. Don't forget to recognize the gain or loss on remeasurement.
-:::
 
+Property dividends are always recorded at **fair value** on the declaration date. Don't forget to recognize the gain or loss on remeasurement.
+
+:::
 ### Stock Dividends
 
 A **stock dividend** is a distribution of additional shares to existing shareholders. No assets leave the corporation—it is a reclassification within equity.
@@ -395,9 +403,10 @@ Dr. Common Stock Dividend Distributable  10,000
 ```
 
 :::note
-**Common Stock Dividend Distributable** is reported in the **equity section** of the balance sheet (not as a liability) between the declaration date and the distribution date.
-:::
 
+**Common Stock Dividend Distributable** is reported in the **equity section** of the balance sheet (not as a liability) between the declaration date and the distribution date.
+
+:::
 #### Large Stock Dividend (> 20–25%)
 
 Recorded at **par value** only:
@@ -488,7 +497,7 @@ Dr. Legal Expense               20,000
 ## Comprehensive Equity Transaction Summary
 
 ```mermaid
-graph LR
+graph TD
     A["Stockholders' Equity"] --> B["Capital Stock"]
     A --> C["APIC"]
     A --> D["Retained Earnings"]

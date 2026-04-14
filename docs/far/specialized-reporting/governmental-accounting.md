@@ -4,9 +4,10 @@
 
 Governmental accounting applies to **state and local governments**, including cities, counties, school districts, and special-purpose entities. Some hospitals and universities that are government-run also follow governmental accounting standards. The primary standard-setter is the **Governmental Accounting Standards Board (GASB)**.
 :::info Key Concept
-The fundamental purpose of governmental accounting is to demonstrate **accountability** — showing that public resources are used in compliance with laws, regulations, and budgetary authority. This contrasts with for-profit accounting, which focuses on profitability.
-:::
 
+The fundamental purpose of governmental accounting is to demonstrate **accountability** — showing that public resources are used in compliance with laws, regulations, and budgetary authority. This contrasts with for-profit accounting, which focuses on profitability.
+
+:::
 ## Fund Accounting
 
 Governments use **fund accounting** to segregate resources for specific purposes. A fund is a **self-balancing set of accounts** used to track resources dedicated to a particular activity or objective.
@@ -29,9 +30,10 @@ graph TD
 ```
 
 :::tip CPA Exam Tip
-Memorize the fund mnemonics: **GRaSPP** (Governmental), **SE** (Proprietary), and **CIPPOE** (Fiduciary). The exam frequently tests which fund category a transaction belongs to.
-:::
 
+Memorize the fund mnemonics: **GRaSPP** (Governmental), **SE** (Proprietary), and **CIPPOE** (Fiduciary). The exam frequently tests which fund category a transaction belongs to.
+
+:::
 ## Governmental Funds (GRaSPP)
 
 Governmental funds use the **modified accrual basis** of accounting and the **current financial resources measurement focus**. They report only current assets and current liabilities — no long-term assets or long-term debt.
@@ -130,9 +132,10 @@ Dr. Expenditures                     195,000
 ```
 
 :::tip CPA Exam Tip
-Encumbrances are **always** reversed at the **estimated** amount, not the actual amount. The expenditure is recorded at the **actual** amount. Any difference flows through the available fund balance.
-:::
 
+Encumbrances are **always** reversed at the **estimated** amount, not the actual amount. The expenditure is recorded at the **actual** amount. Any difference flows through the available fund balance.
+
+:::
 ### Outstanding Encumbrances at Year-End
 
 If purchase orders are still outstanding at year-end, the encumbrances may be:
@@ -192,9 +195,10 @@ Fiduciary funds account for resources held by the government **in a trust or cus
 | **Pension Trust Fund** | Resources held for employee pension plans |
 | **Other Employee Benefits Trust** | Resources held for OPEB and similar plans |
 :::danger
-Fiduciary fund resources belong to **others**, not the government. They are **excluded** from the government-wide financial statements.
-:::
 
+Fiduciary fund resources belong to **others**, not the government. They are **excluded** from the government-wide financial statements.
+
+:::
 ## GASB 34 Reporting Model
 
 GASB Statement No. 34 established the minimum reporting requirements for state and local governments:
@@ -243,9 +247,10 @@ Governmental fund balance is classified into five categories (most to least cons
 | **Assigned** | Intended use set by authorized body/official | Governing body or designee |
 | **Unassigned** | Residual; only in General Fund (may be negative in other funds) | N/A |
 :::tip CPA Exam Tip
-Remember the order: **N-R-C-A-U** (Nonspendable, Restricted, Committed, Assigned, Unassigned). The spending order is generally from most restricted to least restricted unless the government has a different policy.
-:::
 
+Remember the order: **N-R-C-A-U** (Nonspendable, Restricted, Committed, Assigned, Unassigned). The spending order is generally from most restricted to least restricted unless the government has a different policy.
+
+:::
 ## Measurement Focus Comparison
 
 | Feature             | Modified Accrual (Governmental)      | Full Accrual (Proprietary / Gov-Wide) |
@@ -272,5 +277,7 @@ Remember the order: **N-R-C-A-U** (Nonspendable, Restricted, Committed, Assigned
 | Cash flow method (proprietary) | Direct method required                                       |
 
 :::warning Final Exam Reminder
+
 The CPA exam heavily tests the **differences** between modified accrual and full accrual. Make sure you can convert governmental fund statements to government-wide statements by adding back capital assets, long-term debt, and accrued items.
+
 :::

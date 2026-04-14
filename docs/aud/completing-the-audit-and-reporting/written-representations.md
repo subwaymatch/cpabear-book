@@ -3,9 +3,10 @@
 The **management representation letter** is one of the final—and most important—pieces of audit evidence the auditor obtains before issuing the audit report. Written representations are formal statements made by management to confirm matters discussed during the audit and to acknowledge management's responsibilities for the financial statements. They are required by AU-C 580 for nonissuers and AS 2805 for issuers.
 
 :::info
-Written representations are **necessary but not sufficient** audit evidence. They complement, but do not replace, other audit procedures. If management's representations contradict other evidence, the auditor must investigate the inconsistency.
-:::
 
+Written representations are **necessary but not sufficient** audit evidence. They complement, but do not replace, other audit procedures. If management's representations contradict other evidence, the auditor must investigate the inconsistency.
+
+:::
 ---
 
 ## Purpose and Nature of Written Representations
@@ -33,9 +34,10 @@ Written representations must be requested from **members of management with appr
 - The **Chief Financial Officer (CFO)** — responsible for financial reporting
 
 :::tip Exam Tip
-The representation letter should be signed by the **highest-level individuals** who have responsibility for the financial statements and knowledge of the matters covered. For most entities, this means both the CEO and CFO. Don't confuse this with the engagement letter, which is signed at the start of the audit.
-:::
 
+The representation letter should be signed by the **highest-level individuals** who have responsibility for the financial statements and knowledge of the matters covered. For most entities, this means both the CEO and CFO. Don't confuse this with the engagement letter, which is signed at the start of the audit.
+
+:::
 The auditor should also consider whether representations from other individuals are needed—for example, from the head of a subsidiary or from legal counsel regarding litigation matters.
 
 ---
@@ -89,9 +91,10 @@ Key timing requirements:
 - The letter should be obtained **before or on the date** the audit report is issued
 
 :::caution
-If management dates the representation letter before the audit report date, the auditor may need to obtain an updated letter. The representation letter should never be dated after the auditor's report date, as this would mean the representations were not available when the auditor formed the opinion.
-:::
 
+If management dates the representation letter before the audit report date, the auditor may need to obtain an updated letter. The representation letter should never be dated after the auditor's report date, as this would mean the representations were not available when the auditor formed the opinion.
+
+:::
 ---
 
 ## Effect of Unreliable or Refused Representations
@@ -111,9 +114,10 @@ If management **refuses** to provide one or more of the requested written repres
 - **Disclaim an opinion** on the financial statements (if management refuses to provide the required representations about its responsibility or completeness)
 
 :::warning
-A refusal to provide the required representation letter is a **scope limitation** serious enough to require a **disclaimer of opinion** in virtually all cases. This is a high-priority exam topic—the CPA exam frequently tests the consequences of a refused representation letter.
-:::
 
+A refusal to provide the required representation letter is a **scope limitation** serious enough to require a **disclaimer of opinion** in virtually all cases. This is a high-priority exam topic—the CPA exam frequently tests the consequences of a refused representation letter.
+
+:::
 **Example:** Illini Entertainment's CEO agrees to sign the representation letter, but the CFO refuses, citing personal legal concerns. The auditor must evaluate the impact—if the CFO's refusal means the auditor cannot obtain adequate representations about the financial statements, the auditor should issue a disclaimer of opinion.
 
 ---
@@ -128,9 +132,10 @@ Written representations are an essential but **complementary** form of audit evi
 - Representations are particularly valuable for matters involving **management intent** (e.g., the intent to hold a debt instrument to maturity), which are difficult to corroborate through other means
 
 :::tip Exam Tip
-On the CPA exam, remember: the representation letter is **required** audit evidence, but it is **not sufficient** by itself. The auditor still needs to perform substantive testing and other procedures. Think of the representation letter as a "safety net" that ensures management has gone on record about key assertions—not a shortcut that eliminates the need for other evidence.
-:::
 
+On the CPA exam, remember: the representation letter is **required** audit evidence, but it is **not sufficient** by itself. The auditor still needs to perform substantive testing and other procedures. Think of the representation letter as a "safety net" that ensures management has gone on record about key assertions—not a shortcut that eliminates the need for other evidence.
+
+:::
 ---
 
 ## Summary
@@ -147,5 +152,7 @@ On the CPA exam, remember: the representation letter is **required** audit evide
 | **Relationship to other evidence** | Complements but does not replace other procedures |
 
 :::tip Exam Tip
+
 When you see an exam question about the management representation letter, focus on three things: **(1)** it must be dated as of the auditor's report date, **(2)** it is signed by the CEO and CFO, and **(3)** a refusal to sign results in a disclaimer of opinion. These three facts cover the majority of representation letter questions.
+
 :::

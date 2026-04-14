@@ -13,9 +13,10 @@ Ratios are typically grouped into four main categories:
 4. **Profitability** — ability to generate earnings
 
 :::info Exam Tip
-The CPA exam loves to test whether you use **average** balances (for balance-sheet items paired with income-statement items) versus **ending** balances. When a ratio compares an income-statement figure to a balance-sheet figure, use averages unless the question specifies otherwise.
-:::
 
+The CPA exam loves to test whether you use **average** balances (for balance-sheet items paired with income-statement items) versus **ending** balances. When a ratio compares an income-statement figure to a balance-sheet figure, use averages unless the question specifies otherwise.
+
+:::
 ---
 
 ## Liquidity Ratios
@@ -77,9 +78,10 @@ $$
 MAS Inc. generates \$0.90 of operating cash for every \$1.00 of current liabilities.
 
 :::tip
-The operating cash flow ratio is a great complement to the current ratio because it relies on **actual cash generated**, not accrual-based current assets that may include slow-moving inventory.
-:::
 
+The operating cash flow ratio is a great complement to the current ratio because it relies on **actual cash generated**, not accrual-based current assets that may include slow-moving inventory.
+
+:::
 ---
 
 ## Activity (Efficiency) Ratios
@@ -175,9 +177,10 @@ $$
 A shorter cycle is better — it means the company turns inventory into cash faster.
 
 :::warning
-The CPA exam may give you raw data and ask you to compute the CCC in one problem. You must compute all three sub-components first. Watch the order of operations!
-:::
 
+The CPA exam may give you raw data and ask you to compute the CCC in one problem. You must compute all three sub-components first. Watch the order of operations!
+
+:::
 **Example — BIF Partners:** BIF Partners also has net credit sales of \$1,460,000 and average A/R of \$120,000, giving an A/R turnover of 12.17 and a DSO of 30.0 days. Using the values computed above for Days in Inventory (89.9) and DPO (47.5):
 
 $$
@@ -213,9 +216,10 @@ $$
 $$
 
 :::note
-Fixed asset turnover is especially useful for capital-intensive industries (manufacturing, utilities). A low ratio may indicate over-investment in plant assets or underutilized capacity.
-:::
 
+Fixed asset turnover is especially useful for capital-intensive industries (manufacturing, utilities). A low ratio may indicate over-investment in plant assets or underutilized capacity.
+
+:::
 ---
 
 ## Solvency (Leverage) Ratios 🏛️
@@ -287,9 +291,10 @@ $$
 $$
 
 :::caution
-EBIT is **not** the same as net income. You must add back interest expense and income tax expense to net income to arrive at EBIT: $\text{EBIT} = \text{Net Income} + \text{Interest Expense} + \text{Income Tax Expense}$.
-:::
 
+EBIT is **not** the same as net income. You must add back interest expense and income tax expense to net income to arrive at EBIT: $\text{EBIT} = \text{Net Income} + \text{Interest Expense} + \text{Income Tax Expense}$.
+
+:::
 ---
 
 ## Profitability Ratios 📈
@@ -361,9 +366,10 @@ $$
 $$
 
 :::info
-If there are no preferred shares, preferred dividends are zero. The exam will tell you the weighted average share count — do **not** confuse it with ending shares outstanding.
-:::
 
+If there are no preferred shares, preferred dividends are zero. The exam will tell you the weighted average share count — do **not** confuse it with ending shares outstanding.
+
+:::
 **Example — MAS Inc.:** Net income \$500,000; preferred dividends \$20,000; weighted average common shares 120,000.
 
 $$
@@ -427,9 +433,10 @@ graph TD
 </Tabs>
 
 :::tip Why DuPont matters on the exam
-If ROE increases, DuPont analysis tells you **which lever** moved — better margins, more efficient asset use, or higher leverage. The CPA exam may ask you to identify which component drove a change in ROE.
-:::
 
+If ROE increases, DuPont analysis tells you **which lever** moved — better margins, more efficient asset use, or higher leverage. The CPA exam may ask you to identify which component drove a change in ROE.
+
+:::
 ---
 
 ## Comprehensive Worked Example — Illini Entertainment
@@ -494,9 +501,10 @@ Below is a condensed set of financial data for **Illini Entertainment** for the 
 | DuPont ROE | NPM × TAT × EM | 10.0% × 1.82 × 2.00 | **36.4%** |
 
 :::note DuPont Check
-The DuPont ROE of 36.4% matches the direct ROE calculation — a useful self-check on the exam.
-:::
 
+The DuPont ROE of 36.4% matches the direct ROE calculation — a useful self-check on the exam.
+
+:::
 ---
 
 ## Summary Reference Table
@@ -525,12 +533,13 @@ The DuPont ROE of 36.4% matches the direct ROE calculation — a useful self-che
 | Basic EPS | (NI − Preferred Dividends) ÷ Wtd Avg Shares | Higher |
 
 :::warning Common Exam Traps
+
 - **Average vs. ending:** Use average balance-sheet amounts when pairing with an income-statement figure (ROA, ROE, turnover ratios). Use ending balances only where specified (operating cash flow ratio, DPO).
 - **Net credit sales vs. net sales:** A/R turnover technically uses net *credit* sales. If the question only gives net sales, use that.
 - **Preferred dividends in EPS:** Always subtract preferred dividends from net income in the numerator of basic EPS.
 - **EBIT ≠ net income:** TIE uses EBIT, not net income. Don't forget to add back interest and taxes.
-:::
 
+:::
 ---
 
 ## Variance Analysis (Actual vs. Plan)
@@ -547,9 +556,10 @@ A **variance** is the difference between the actual amount and the budgeted (pla
 | **Expense / Cost** | Actual < Budget | Actual > Budget |
 
 :::info
-A favorable variance improves net income relative to plan; an unfavorable variance reduces net income relative to plan. A "favorable" label does **not** necessarily mean the result is good — for instance, significantly lower-than-planned advertising spending might be favorable on the cost side but could indicate underinvestment.
-:::
 
+A favorable variance improves net income relative to plan; an unfavorable variance reduces net income relative to plan. A "favorable" label does **not** necessarily mean the result is good — for instance, significantly lower-than-planned advertising spending might be favorable on the cost side but could indicate underinvestment.
+
+:::
 ### Example — Budget Variance Analysis
 
 Kingfisher Industries budgeted the following for the quarter and compared to actual results:
@@ -572,5 +582,7 @@ Kingfisher Industries budgeted the following for the quarter and compared to act
 - Combining favorable and unfavorable variances can mask material issues
 
 :::tip Exam Tip
+
 FAR exam questions on variance analysis are typically straightforward: compute the difference between actual and budgeted amounts and label each as favorable or unfavorable. Remember that revenue variances and cost variances have **opposite** directional meanings.
+
 :::

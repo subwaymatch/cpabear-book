@@ -3,9 +3,10 @@
 This chapter bridges the high-level FAR overview and the detailed conceptual framework. Before you memorize rules, it helps to understand **what financial reporting is trying to communicate**, **which statements are part of a complete set**, and **why exam questions care about classification and presentation**.
 
 :::info Why this matters
-Many FAR questions are not really about math. They test whether you can identify the right statement, the right element, and the right place to report an item under U.S. GAAP.
-:::
 
+Many FAR questions are not really about math. They test whether you can identify the right statement, the right element, and the right place to report an item under U.S. GAAP.
+
+:::
 ## The Goal of General-Purpose Financial Reporting
 
 General-purpose financial reporting exists to help investors, lenders, and other creditors make decisions about providing resources to an entity. In practice, that means the statements should help users evaluate:
@@ -55,9 +56,10 @@ That entry affects:
 - the **statement of cash flows** immediately as an operating cash inflow
 
 :::tip Study habit
-When you practice FAR, ask two questions for every transaction: **What is the journal entry?** and **Which statements change right now?**
-:::
 
+When you practice FAR, ask two questions for every transaction: **What is the journal entry?** and **Which statements change right now?**
+
+:::
 ## Core Presentation Ideas Tested in FAR
 
 ### 1. Classification matters
@@ -79,12 +81,13 @@ The notes are part of the financial statements. If Gies Co. has a significant co
 ## Common Sources of FAR Mistakes
 
 :::warning Common pitfalls
+
 - Confusing **net income** with **comprehensive income**
 - Forgetting that some items belong in the **notes** instead of the face statements
 - Mixing up **owner transactions** with **nonowner changes in equity**
 - Treating every cash receipt as revenue or every cash payment as expense
-:::
 
+:::
 ## A Short Real-World Illustration
 
 Kingfisher Industries reports the following for the year:
@@ -108,5 +111,7 @@ This is the kind of classification logic that the conceptual framework helps sup
 The next section explains **why** GAAP emphasizes relevance, faithful representation, comparability, and the other concepts behind financial reporting. Read it as the logic behind the rules you will apply in later FAR chapters.
 
 :::note What to carry forward
+
 If you can identify the purpose of each statement and the type of item that belongs on it, many later FAR topics become much easier.
+
 :::

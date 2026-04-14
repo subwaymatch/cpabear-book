@@ -5,9 +5,10 @@ Before an auditor can assess the risk of material misstatement and design approp
 This section covers the requirements under **AU-C 315** (AICPA) and **AS 2110** (PCAOB), the **external and internal factors** the auditor must consider, the entity's **accounting policies** and **financial reporting framework**, the auditor's understanding of **internal control components**, the **risk assessment procedures** used to obtain this understanding, and key **sources of information** about the entity.
 
 :::info
-Both AU-C 315 (for nonissuers) and AS 2110 (for issuers) require the auditor to obtain an understanding of the entity and its environment, including internal control, as a basis for identifying and assessing the risks of material misstatement. This understanding is obtained through **risk assessment procedures**, which are performed in every audit.
-:::
 
+Both AU-C 315 (for nonissuers) and AS 2110 (for issuers) require the auditor to obtain an understanding of the entity and its environment, including internal control, as a basis for identifying and assessing the risks of material misstatement. This understanding is obtained through **risk assessment procedures**, which are performed in every audit.
+
+:::
 ---
 
 ## Why Understanding the Entity Matters
@@ -60,9 +61,10 @@ The auditor must understand the **external environment** in which the entity ope
 **Example:** MAS Inc. operates in the oil and gas industry. The auditor's understanding of external factors includes the current commodity price environment (which affects revenue and asset impairment risk), environmental regulations (which affect contingent liabilities for cleanup costs), and the volatile nature of capital expenditures tied to exploration and development.
 
 :::tip Exam Tip
-On the CPA exam, questions about understanding the entity often test whether you can identify which **external factor** would be most relevant to a specific audit risk. For example, a sharp decline in commodity prices is most relevant to assessing **impairment risk** for an oil and gas company.
-:::
 
+On the CPA exam, questions about understanding the entity often test whether you can identify which **external factor** would be most relevant to a specific audit risk. For example, a sharp decline in commodity prices is most relevant to assessing **impairment risk** for an oil and gas company.
+
+:::
 ---
 
 ## Internal Factors
@@ -135,9 +137,10 @@ As part of understanding the entity, the auditor must obtain an understanding of
 5. **Monitoring activities** — The entity's process for assessing the quality of internal control performance over time
 
 :::caution
-The auditor is required to obtain an understanding of **all five components** of internal control in every audit. However, the auditor is **not required to test** all controls—only those the auditor intends to rely upon to reduce substantive testing. Understanding internal control is distinct from testing its operating effectiveness.
-:::
 
+The auditor is required to obtain an understanding of **all five components** of internal control in every audit. However, the auditor is **not required to test** all controls—only those the auditor intends to rely upon to reduce substantive testing. Understanding internal control is distinct from testing its operating effectiveness.
+
+:::
 ---
 
 ## Risk Assessment Procedures
@@ -179,9 +182,10 @@ Performing **preliminary analytical procedures** to identify unusual trends, une
 **Example:** While performing preliminary analytical procedures on Illini Entertainment's financial statements, the auditor notices that revenue increased 25% year over year while the number of events hosted declined by 10%. This unexpected relationship suggests the possibility of fictitious revenue or significant changes in pricing that warrant further investigation.
 
 :::tip Exam Tip
-Risk assessment procedures are **not sufficient by themselves** to provide a basis for the audit opinion. They must be complemented by **further audit procedures** (tests of controls and/or substantive procedures). Think of risk assessment procedures as the diagnostic step—they tell you where to look, not what to conclude.
-:::
 
+Risk assessment procedures are **not sufficient by themselves** to provide a basis for the audit opinion. They must be complemented by **further audit procedures** (tests of controls and/or substantive procedures). Think of risk assessment procedures as the diagnostic step—they tell you where to look, not what to conclude.
+
+:::
 ---
 
 ## Understanding Business Processes and Transaction Flows
@@ -217,9 +221,10 @@ Auditors use a variety of sources to build their understanding:
 | **Engagement team discussions** | Brainstorming sessions among audit team members about risks and susceptibility to misstatement |
 
 :::info
-Auditing standards require the **engagement team** to hold a discussion about the susceptibility of the entity's financial statements to material misstatement. This brainstorming session ensures that the knowledge and insights of all team members are shared and that the team collectively considers fraud risks and other significant risks.
-:::
 
+Auditing standards require the **engagement team** to hold a discussion about the susceptibility of the entity's financial statements to material misstatement. This brainstorming session ensures that the knowledge and insights of all team members are shared and that the team collectively considers fraud risks and other significant risks.
+
+:::
 ---
 
 ## Documenting the Understanding

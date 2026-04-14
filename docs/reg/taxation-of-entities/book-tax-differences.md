@@ -16,9 +16,10 @@ Financial accounting income (book income) and taxable income are computed under 
 | **M-3** | C corporations with total assets of **\$10 million or more** (or filing a consolidated return) |
 
 :::info
-Schedule M-3 provides far more detail than M-1, breaking each reconciling item into **temporary** and **permanent** columns. The IRS uses M-3 to identify aggressive tax positions and improve audit selection.
-:::
 
+Schedule M-3 provides far more detail than M-1, breaking each reconciling item into **temporary** and **permanent** columns. The IRS uses M-3 to identify aggressive tax positions and improve audit selection.
+
+:::
 ---
 
 ## Permanent Differences
@@ -39,9 +40,10 @@ Permanent differences are items that appear on the **books but never on the tax 
 > **Example:** Bear Co. reports \$500,000 of book income. Its books include \$10,000 of municipal bond interest income and \$20,000 of federal income tax expense. For the M-1 reconciliation, subtract \$10,000 (tax-exempt interest) and add \$20,000 (nondeductible federal income tax), yielding a \$10,000 net increase to arrive at taxable income.
 
 :::tip Exam Tip
-**Federal income tax expense** is the most commonly tested permanent difference. It is always deducted on the books but **never** deductible on the tax return.
-:::
 
+**Federal income tax expense** is the most commonly tested permanent difference. It is always deducted on the books but **never** deductible on the tax return.
+
+:::
 ---
 
 ## Temporary Differences
@@ -66,9 +68,10 @@ Temporary differences arise when items are recognized in **different periods** f
 > **Example:** Kingfisher Industries purchases equipment for \$100,000. Book depreciation (straight-line, 10 years) = \$10,000/year. MACRS depreciation (7-year property) = \$14,290 in Year 1. The temporary difference in Year 1 is \$4,290, creating a **deferred tax liability** because taxable income is lower than book income now, but will be higher in the future when MACRS depreciation is less than book depreciation.
 
 :::note
-A helpful mnemonic: if tax depreciation is **higher** than book depreciation in the current year, taxable income is **lower** → a **deferred tax liability** exists (you will pay more tax in the future when the difference reverses).
-:::
 
+A helpful mnemonic: if tax depreciation is **higher** than book depreciation in the current year, taxable income is **lower** → a **deferred tax liability** exists (you will pay more tax in the future when the difference reverses).
+
+:::
 ---
 
 ## Schedule M-1 Reconciliation Format
@@ -112,9 +115,10 @@ $$
 > | **Taxable income** | **\$473,000** |
 
 :::caution
-When the M-1 starts with net income per books **after** federal income tax, you must **add back** the federal income tax expense. Some questions give book income **before** tax — in that case, do **not** add it back. Read the question carefully.
-:::
 
+When the M-1 starts with net income per books **after** federal income tax, you must **add back** the federal income tax expense. Some questions give book income **before** tax — in that case, do **not** add it back. Read the question carefully.
+
+:::
 ---
 
 ## Schedule M-3 Format
@@ -159,9 +163,10 @@ When reviewing an entity's adjusted book trial balance, look for these common it
 > **Example:** Illini Entertainment's trial balance shows a \$50,000 allowance for doubtful accounts and \$12,000 in actual write-offs during the year. Book bad debt expense is the change in the allowance; the tax deduction is only the \$12,000 actually written off. The difference is **temporary** — it will reverse when the estimated accounts are ultimately written off.
 
 :::warning
-**Capital losses** for C corporations can only offset **capital gains** (no \$3,000 deduction against ordinary income like individuals). Unused capital losses carry back 3 years and forward 5 years. This creates a temporary difference when a corporation has a net capital loss.
-:::
 
+**Capital losses** for C corporations can only offset **capital gains** (no \$3,000 deduction against ordinary income like individuals). Unused capital losses carry back 3 years and forward 5 years. This creates a temporary difference when a corporation has a net capital loss.
+
+:::
 ---
 
 ## Common Exam Traps

@@ -19,9 +19,10 @@ Each of the 50 states, the District of Columbia, and U.S. territories maintains 
 - Impose disciplinary sanctions
 
 :::info
-State boards are **governmental agencies** with legal authority to regulate the practice of public accounting within their jurisdictions. Their rules carry the force of law, unlike the AICPA's standards, which apply only to voluntary members.
-:::
 
+State boards are **governmental agencies** with legal authority to regulate the practice of public accounting within their jurisdictions. Their rules carry the force of law, unlike the AICPA's standards, which apply only to voluntary members.
+
+:::
 ### CPA Licensing Requirements
 
 Although specific requirements vary by state, most jurisdictions follow the "three Es" framework:
@@ -35,9 +36,10 @@ Although specific requirements vary by state, most jurisdictions follow the "thr
 > **Example:** A new staff accountant at Gies Co. has completed 150 semester hours and passed the CPA exam. Her state requires one year of supervised experience under a licensed CPA. After completing that year, she can apply for licensure through her state board.
 
 :::tip Exam Tip
-The **150-hour rule** is a common exam topic. Remember that most states require 150 semester hours to be **licensed**, although some states allow candidates to **sit for the exam** with fewer hours (commonly 120 hours with a bachelor's degree).
-:::
 
+The **150-hour rule** is a common exam topic. Remember that most states require 150 semester hours to be **licensed**, although some states allow candidates to **sit for the exam** with fewer hours (commonly 120 hours with a bachelor's degree).
+
+:::
 ### Continuing Professional Education (CPE)
 
 Licensed CPAs must complete **continuing professional education** to maintain their licenses. Typical requirements include:
@@ -108,9 +110,10 @@ The AICPA has two primary disciplinary paths:
    - Sanctions range from admonishment to expulsion from membership
 
 :::caution
-AICPA membership expulsion does **not** revoke a CPA license — only the state board has that authority. However, loss of AICPA membership can trigger a state board investigation.
-:::
 
+AICPA membership expulsion does **not** revoke a CPA license — only the state board has that authority. However, loss of AICPA membership can trigger a state board investigation.
+
+:::
 ---
 
 ## Joint Ethics Enforcement Program (JEEP)
@@ -148,9 +151,10 @@ Reviews are conducted every **three years** by qualified peer reviewers. Results
 - **Fail** — significant and pervasive deficiencies in the firm's system
 
 :::warning
-A **fail** result on a peer review can lead to additional requirements, including accelerated follow-up reviews, corrective action plans, and potential referral to the AICPA's ethics division or the state board.
-:::
 
+A **fail** result on a peer review can lead to additional requirements, including accelerated follow-up reviews, corrective action plans, and potential referral to the AICPA's ethics division or the state board.
+
+:::
 ---
 
 ## Regulatory Relationships
@@ -165,9 +169,10 @@ A **fail** result on a peer review can lead to additional requirements, includin
 | **PCAOB** | Firms registered to audit public companies | Audit quality inspections, standards, discipline |
 
 :::info
-The **PCAOB** was created by the Sarbanes-Oxley Act of 2002. It has authority to set auditing standards for public company audits, conduct inspections of registered firms, and impose sanctions — including significant monetary penalties and permanent bars from public company auditing.
-:::
 
+The **PCAOB** was created by the Sarbanes-Oxley Act of 2002. It has authority to set auditing standards for public company audits, conduct inspections of registered firms, and impose sanctions — including significant monetary penalties and permanent bars from public company auditing.
+
+:::
 ### SEC Oversight
 
 The SEC has the power to:
@@ -193,9 +198,10 @@ The SEC has the power to:
 Most states have adopted mobility provisions consistent with the **Uniform Accountancy Act (UAA)**, developed jointly by NASBA and the AICPA.
 
 :::tip Exam Tip
-Mobility provisions generally do **not** require the CPA to notify the other state or obtain a separate license. However, the CPA remains subject to the disciplinary authority of both the home state and any state in which they practice.
-:::
 
+Mobility provisions generally do **not** require the CPA to notify the other state or obtain a separate license. However, the CPA remains subject to the disciplinary authority of both the home state and any state in which they practice.
+
+:::
 ---
 
 ## Summary

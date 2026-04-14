@@ -57,9 +57,10 @@ If the **FMV at the date of the gift** is **less than** the donor's adjusted bas
 - **If using FMV at the gift date** (loss situation): the holding period begins on the **date of the gift**
 
 :::tip
-A quick way to remember the gift basis rule: **Gains use the donor's basis; losses use FMV.** If the sale price is in the middle, it's a wash.
-:::
 
+A quick way to remember the gift basis rule: **Gains use the donor's basis; losses use FMV.** If the sale price is in the middle, it's a wash.
+
+:::
 ---
 
 ## Inherited Property
@@ -91,9 +92,10 @@ If the AVD is elected, each asset's basis equals its FMV at the **earlier of:**
 > If the executor validly elects AVD, the heir's basis is **\$90,000**.
 
 :::note
-The AVD election applies to **all** estate assets — the executor cannot cherry-pick which assets to value at the AVD.
-:::
 
+The AVD election applies to **all** estate assets — the executor cannot cherry-pick which assets to value at the AVD.
+
+:::
 ### 3. The Automatic Long-Term Holding Period
 
 Regardless of how long the decedent owned the property or how long the heir holds it before selling, inherited property is **automatically deemed to have a long-term holding period.**
@@ -109,9 +111,10 @@ Even if the decedent bought stock one day before dying and the heir sells it one
 | **Loss Rule** | Dual basis: lower of adjusted basis or FMV at date of gift | FMV at death (step-down permanently eliminates the loss) |
 
 :::caution Common Pitfall
-On the CPA exam, do not confuse gifted and inherited property. A gift uses the **donor's carryover basis**; inherited property uses **FMV at death**. These rules are frequently tested together.
-:::
 
+On the CPA exam, do not confuse gifted and inherited property. A gift uses the **donor's carryover basis**; inherited property uses **FMV at death**. These rules are frequently tested together.
+
+:::
 ### 5. Exception: Income in Respect of a Decedent (IRD)
 
 The step-up (or step-down) rule does **not** apply to assets that constitute **Income in Respect of a Decedent (IRD)**. IRD items are amounts the decedent had earned or was entitled to receive but had not yet recognized for income tax purposes before death.
@@ -121,9 +124,10 @@ The step-up (or step-down) rule does **not** apply to assets that constitute **I
 - **Tax treatment:** The heir takes the decedent's basis (typically \$0 for pre-tax retirement accounts) and pays **ordinary income tax** on distributions, just as the decedent would have.
 
 :::note
-IRD assets are still included in the decedent's **gross estate** for estate tax purposes, but the heir does receive a deduction for the estate taxes attributable to the IRD item (the "IRD deduction" under IRC §691(c)), which partially offsets the income tax burden.
-:::
 
+IRD assets are still included in the decedent's **gross estate** for estate tax purposes, but the heir does receive a deduction for the estate taxes attributable to the IRD item (the "IRD deduction" under IRC §691(c)), which partially offsets the income tax burden.
+
+:::
 ---
 
 ## Capitalize or Expense
@@ -161,9 +165,10 @@ Taxpayers may elect to expense items that would otherwise be capitalized if the 
 > **Example:** Gies Co. has audited financial statements and purchases 20 laptops at \$2,400 each for employee use. Because Gies Co. has an AFS and each laptop costs less than \$5,000, the company may elect to deduct the entire \$48,000 under the de minimis safe harbor rather than capitalizing and depreciating each laptop.
 
 :::info
-The de minimis safe harbor is an **annual election** made on the tax return. The taxpayer must have a written accounting policy in place at the beginning of the tax year to capitalize amounts below the threshold on its books.
-:::
 
+The de minimis safe harbor is an **annual election** made on the tax return. The taxpayer must have a written accounting policy in place at the beginning of the tax year to capitalize amounts below the threshold on its books.
+
+:::
 ---
 
 ## Property Converted from Personal to Business Use
@@ -193,9 +198,10 @@ The basis for computing **depreciation** on the converted property is the **less
 >   - Loss basis = \$250,000 − \$30,000 = \$220,000 → Loss = \$200,000 − \$220,000 = **(\$20,000)**
 
 :::caution
-The conversion rules prevent taxpayers from claiming a loss that is attributable to a decline in value during personal use. Only losses that occur **after** the conversion to business use are deductible.
-:::
 
+The conversion rules prevent taxpayers from claiming a loss that is attributable to a decline in value during personal use. Only losses that occur **after** the conversion to business use are deductible.
+
+:::
 ---
 
 ## Intangible Property
@@ -227,5 +233,7 @@ When a new business is formed, it may incur organizational costs (costs of creat
 > - **Start-up costs:** Deduct \$5,000 immediately; amortize the remaining \$37,000 over 180 months (\$205.56/month)
 
 :::note
+
 Organizational and start-up costs are treated as **separate categories** — each gets its own \$5,000 deduction and 180-month amortization. Do not combine them.
+
 :::

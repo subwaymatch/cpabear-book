@@ -19,9 +19,10 @@ A **special-purpose framework** is a financial reporting framework other than GA
 | **Other basis** | A definite set of logical, reasonable criteria applied to all material items (e.g., price-level adjusted financial statements) | Specialized situations |
 
 :::info
-The term "Other Comprehensive Basis of Accounting" (OCBOA) was previously used to describe these frameworks. Under current AICPA standards, the preferred term is **special-purpose framework**. However, you may still see OCBOA referenced in older materials and on the CPA exam.
-:::
 
+The term "Other Comprehensive Basis of Accounting" (OCBOA) was previously used to describe these frameworks. Under current AICPA standards, the preferred term is **special-purpose framework**. However, you may still see OCBOA referenced in older materials and on the CPA exam.
+
+:::
 ---
 
 ## Cash Basis
@@ -39,9 +40,10 @@ Many entities use a **modified cash basis**, which is the cash basis with certai
 **Example:** Gies Co. (a small consulting firm) prepares its financial statements on the cash basis. Revenue of $800,000 is reported based on cash collections, and expenses of $620,000 are reported based on cash disbursements. Accounts receivable and accounts payable do not appear on the statement of assets and liabilities.
 
 :::tip
-On the CPA exam, remember that cash-basis financial statements use different titles than GAAP financial statements. Instead of a "Balance Sheet," the entity presents a "Statement of Assets and Liabilities Arising from Cash Transactions." Instead of an "Income Statement," it presents a "Statement of Revenue Collected and Expenses Paid."
-:::
 
+On the CPA exam, remember that cash-basis financial statements use different titles than GAAP financial statements. Instead of a "Balance Sheet," the entity presents a "Statement of Assets and Liabilities Arising from Cash Transactions." Instead of an "Income Statement," it presents a "Statement of Revenue Collected and Expenses Paid."
+
+:::
 ---
 
 ## Tax Basis
@@ -97,9 +99,10 @@ Financial statements prepared on a **contractual basis** follow the financial re
 **Example:** MAS Inc. has a loan agreement with First National Bank that requires annual financial statements prepared using specific accounting methods defined in the loan covenant (e.g., capitalizing all leases, excluding non-recurring items from EBITDA). The auditor reports on these financial statements under the contractual basis.
 
 :::warning
-Financial statements prepared on a contractual basis are **always** restricted-use. The auditor's report must include an **alert paragraph** that restricts the use of the report to the parties to the contract.
-:::
 
+Financial statements prepared on a contractual basis are **always** restricted-use. The auditor's report must include an **alert paragraph** that restricts the use of the report to the parties to the contract.
+
+:::
 ---
 
 ## AU-C 800 Requirements
@@ -123,9 +126,10 @@ Even under a special-purpose framework, the entity must include disclosures that
 3. **Adequate** — addressing all matters that are essential to the fair presentation of the financial statements under the special-purpose framework
 
 :::note
-The financial statements must include a **note describing the basis of accounting** and how it differs from GAAP. This is sometimes called the "summary of significant accounting policies" note, and it is critical for special-purpose framework financial statements.
-:::
 
+The financial statements must include a **note describing the basis of accounting** and how it differs from GAAP. This is sometimes called the "summary of significant accounting policies" note, and it is critical for special-purpose framework financial statements.
+
+:::
 ---
 
 ## Reporting on Special-Purpose Framework Financial Statements
@@ -179,9 +183,10 @@ The alert paragraph states that:
 - The report is **not intended for anyone other than the specified parties**
 
 :::caution
-Even though the report includes a restriction on use, there is **nothing the auditor can do** to prevent the report from being distributed to other parties. The restriction is a notification, not a legal prohibition. However, including the alert paragraph limits the auditor's responsibility to the specified parties.
-:::
 
+Even though the report includes a restriction on use, there is **nothing the auditor can do** to prevent the report from being distributed to other parties. The restriction is a notification, not a legal prohibition. However, including the alert paragraph limits the auditor's responsibility to the specified parties.
+
+:::
 **Example:** BIF Partners prepares financial statements under the terms of its partnership agreement (contractual basis). The auditor's report includes an alert paragraph:
 
 > *This report is intended solely for the information and use of the partners of BIF Partners and First National Bank and is not intended to be and should not be used by anyone other than these specified parties.*

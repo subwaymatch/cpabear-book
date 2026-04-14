@@ -15,9 +15,10 @@
 - Exceeding economic nexus thresholds (e.g., \$500,000 in sales into the state)
 
 :::info Public Law 86-272
-Federal law (P.L. 86-272) provides limited protection for sellers of **tangible personal property**. If a company's only activity in a state is the solicitation of orders for tangible personal property, and orders are sent outside the state for approval and fulfillment, the state **cannot** impose a net income tax on the company. This protection does **not** apply to sellers of services, intangibles, or digital goods.
-:::
 
+Federal law (P.L. 86-272) provides limited protection for sellers of **tangible personal property**. If a company's only activity in a state is the solicitation of orders for tangible personal property, and orders are sent outside the state for approval and fulfillment, the state **cannot** impose a net income tax on the company. This protection does **not** apply to sellers of services, intangibles, or digital goods.
+
+:::
 #### Example
 
 Bear Co. is headquartered in Illinois and sends sales representatives into Indiana to solicit orders for its manufactured widgets (tangible personal property). All orders are approved and shipped from Illinois. Under P.L. 86-272, Indiana **cannot** impose its income tax on Bear Co. However, if Bear Co. also provides consulting services to Indiana customers, the protection would not apply to that activity, and Indiana could assert nexus.
@@ -92,9 +93,10 @@ $$
 $$
 
 :::tip
-The single sales factor benefits companies that have significant property and employees in a state but make most of their sales to customers in other states. It reduces the income apportioned to the home state.
-:::
 
+The single sales factor benefits companies that have significant property and employees in a state but make most of their sales to customers in other states. It reduces the income apportioned to the home state.
+
+:::
 ### Comprehensive Example
 
 Gies Co. operates in three states: Illinois, Indiana, and Ohio. Total business income is \$2,000,000. Illinois uses the traditional equally weighted three-factor formula.
@@ -129,9 +131,10 @@ Some states require (or permit) **combined reporting** — a method that aggrega
 4. **Each entity reports its share** — Each member files in the states where it has nexus, reporting its share of the combined apportioned income.
 
 :::caution
-Not all states require combined reporting. Some states use **separate entity** reporting, where each legal entity files its own return. The choice of method can significantly affect the total state tax liability of a corporate group. CPA exam questions may test whether a taxpayer must include a related entity's income in a combined report.
-:::
 
+Not all states require combined reporting. Some states use **separate entity** reporting, where each legal entity files its own return. The choice of method can significantly affect the total state tax liability of a corporate group. CPA exam questions may test whether a taxpayer must include a related entity's income in a combined report.
+
+:::
 #### Example
 
 Kingfisher Industries owns two subsidiaries: Kingfisher Manufacturing (located in California) and Kingfisher Sales (located in Nevada, which has no state income tax). All of Kingfisher Manufacturing's products are sold through Kingfisher Sales. California requires combined reporting for unitary businesses. Because the two subsidiaries are part of a unitary business, California requires Kingfisher Industries to **combine** the income of both entities. This prevents the group from sheltering income in Nevada by routing all sales through the Nevada subsidiary.
@@ -150,5 +153,7 @@ Kingfisher Industries owns two subsidiaries: Kingfisher Manufacturing (located i
 | **Combined reporting** | Aggregates related entity income to prevent income shifting |
 
 :::note CPA Exam Focus
+
 The REG exam tests your ability to distinguish between **business income** (apportioned) and **nonbusiness income** (allocated), apply the apportionment formula, and understand when nexus exists. Be prepared to calculate apportionment percentages and determine the income taxable in a given state.
+
 :::
