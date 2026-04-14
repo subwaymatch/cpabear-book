@@ -7,9 +7,10 @@ $$
 $$
 
 :::info Key Concept
-The balance sheet answers: _What does the company own, what does it owe, and what is the residual interest of the owners — right now?_
-:::
 
+The balance sheet answers: _What does the company own, what does it owe, and what is the residual interest of the owners — right now?_
+
+:::
 ---
 
 ## Classified vs. Unclassified Balance Sheet
@@ -20,9 +21,10 @@ The balance sheet answers: _What does the company own, what does it owe, and wha
 | **Unclassified** | Does not distinguish between current and noncurrent                             | Financial institutions, certain specialized industries |
 
 :::tip Exam Tip
-The CPA exam overwhelmingly tests the **classified** balance sheet. Know the current/noncurrent distinction cold.
-:::
 
+The CPA exam overwhelmingly tests the **classified** balance sheet. Know the current/noncurrent distinction cold.
+
+:::
 ---
 
 ## Liquidity-Based Presentation
@@ -84,9 +86,10 @@ Dr. Equipment                    150,000
 | **Total PP&E** | **\$1,350,000** | **(\$345,000)** | **\$1,005,000** |
 
 :::note
-Land is **not depreciated**. It has an indefinite useful life.
-:::
 
+Land is **not depreciated**. It has an indefinite useful life.
+
+:::
 ### Intangible Assets
 
 Assets that lack physical substance but provide future economic benefits.
@@ -123,7 +126,9 @@ Obligations expected to be settled within **one year** (or the operating cycle, 
 | **Current portion of long-term debt** | Principal payments due within one year |
 | **Dividends payable** | Declared but unpaid dividends |
 :::warning
+
 A liability is classified as **current** even if it will be refinanced after the balance sheet date, **unless** a noncurrent refinancing agreement was completed **before** the balance sheet date (and other criteria are met under ASC 470-10).
+
 :::
 **Example — Gies Co. records accrued wages:**
 
@@ -180,9 +185,10 @@ Dr. Cash                150,000
 ## Working Capital
 
 :::info Definition
-**Working capital** (also called net working capital) measures the entity's short-term liquidity.
-:::
 
+**Working capital** (also called net working capital) measures the entity's short-term liquidity.
+
+:::
 $$
 \text{Working Capital} = \text{Current Assets} - \text{Current Liabilities}
 $$
@@ -255,7 +261,7 @@ The balance sheet alone cannot convey all necessary information. Required disclo
 ## Common Balance Sheet Classifications — Quick Reference
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph Current Assets
         CA1[Cash]
         CA2[Receivables]

@@ -3,9 +3,10 @@
 **Attestation engagements** allow CPAs to provide assurance on subject matter beyond traditional financial statement audits. The AICPA's **Statements on Standards for Attestation Engagements (SSAEs)** establish the framework for these engagements, which can cover a wide range of subject matters—from internal control effectiveness to compliance with regulations to prospective financial information. Understanding the types, assurance levels, and reporting requirements for attestation engagements is essential for the AUD exam.
 
 :::info
-Attestation engagements are governed by the **AT-C sections** of AICPA professional standards (codified from the SSAEs). These are distinct from auditing standards (AU-C sections) and review/compilation standards (AR-C sections).
-:::
 
+Attestation engagements are governed by the **AT-C sections** of AICPA professional standards (codified from the SSAEs). These are distinct from auditing standards (AU-C sections) and review/compilation standards (AR-C sections).
+
+:::
 ---
 
 ## Three Types of Attestation Engagements
@@ -19,9 +20,10 @@ The SSAEs define three types of attestation engagements, each providing a differ
 | **Agreed-upon procedures (AUP)** | No assurance (findings only) | Specific procedures agreed to by the practitioner and the engaging party | Report of factual findings only—no opinion or conclusion |
 
 :::tip Exam Tip
-The assurance hierarchy is a favorite CPA exam topic. Remember: **Examination = reasonable assurance** (like an audit), **Review = limited assurance** (like a review of financial statements), **AUP = no assurance** (just findings). The practitioner never provides assurance in an AUP engagement.
-:::
 
+The assurance hierarchy is a favorite CPA exam topic. Remember: **Examination = reasonable assurance** (like an audit), **Review = limited assurance** (like a review of financial statements), **AUP = no assurance** (just findings). The practitioner never provides assurance in an AUP engagement.
+
+:::
 ---
 
 ## Subject Matter and Criteria
@@ -88,9 +90,10 @@ In an **AUP engagement**, the practitioner performs only the specific procedures
 **Example:** MSA Records is applying for a loan and the bank requires a CPA to verify that MSA Records' accounts receivable aging schedule is mathematically accurate and that a sample of receivables can be confirmed directly with customers. The CPA performs only these two agreed-upon procedures and reports the findings. The CPA does not express an opinion on MSA Records' accounts receivable.
 
 :::caution
-A common exam trap: the practitioner performing an AUP engagement must **not express an opinion** or provide any form of assurance. Even if the findings suggest no problems, the practitioner's report must state that no opinion is being given. The users of the report draw their own conclusions.
-:::
 
+A common exam trap: the practitioner performing an AUP engagement must **not express an opinion** or provide any form of assurance. Even if the findings suggest no problems, the practitioner's report must state that no opinion is being given. The users of the report draw their own conclusions.
+
+:::
 ---
 
 ## Prospective Financial Statements
@@ -109,9 +112,10 @@ Prospective financial statements are forward-looking and come in two forms:
 - A **review** of prospective financial statements is **not permitted** under the SSAEs
 
 :::warning
-You **cannot** perform a review engagement on prospective financial statements—only examination, compilation, or agreed-upon procedures are available. This is a frequently tested point on the CPA exam.
-:::
 
+You **cannot** perform a review engagement on prospective financial statements—only examination, compilation, or agreed-upon procedures are available. This is a frequently tested point on the CPA exam.
+
+:::
 **Example:** Kingfisher Industries prepares a financial forecast projecting revenue growth of 8% per year over the next three years based on current market conditions. Kingfisher engages a CPA to examine the forecast. The CPA evaluates whether the assumptions are reasonable and whether the forecast is presented in conformity with AICPA guidelines, then issues an examination report with an opinion.
 
 ---

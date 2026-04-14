@@ -10,9 +10,10 @@ title: FAR
 
 The **Financial Accounting and Reporting (FAR)** section of the CPA Exam evaluates a candidate's knowledge of the accounting standards, principles, and frameworks used to prepare and analyze financial statements. Of the four CPA Exam sections, FAR is widely regarded as the most content-heavy and technically demanding.
 :::info Exam Structure
-FAR is one of four sections of the Uniform CPA Examination, alongside AUD (Auditing and Attestation), REG (Taxation and Regulation), and ISC/TCP/BAR (discipline sections). You must pass all sections within a rolling 30-month window.
-:::
 
+FAR is one of four sections of the Uniform CPA Examination, alongside AUD (Auditing and Attestation), REG (Taxation and Regulation), and ISC/TCP/BAR (discipline sections). You must pass all sections within a rolling 30-month window.
+
+:::
 ---
 
 ## Key Content Areas
@@ -27,9 +28,10 @@ The FAR blueprint—published by the AICPA—organizes tested material into seve
 | **Not-for-Profit Entities** | Contributions, net asset classifications, NFP reporting | 5–10% |
 | **SEC & IFRS Differences** | Key differences from U.S. GAAP, SEC reporting requirements | 5–10% |
 :::warning Content Weights May Shift
-The AICPA periodically updates the CPA Exam blueprint. Always verify the latest version at **aicpa.org** before finalizing your study plan.
-:::
 
+The AICPA periodically updates the CPA Exam blueprint. Always verify the latest version at **aicpa.org** before finalizing your study plan.
+
+:::
 ---
 
 ## Financial Reporting Standards
@@ -56,9 +58,10 @@ graph TD
 ```
 
 :::tip Exam Tip
-For the CPA Exam, always apply **authoritative GAAP (ASC)** unless the question explicitly states otherwise (e.g., IFRS or cash basis).
-:::
 
+For the CPA Exam, always apply **authoritative GAAP (ASC)** unless the question explicitly states otherwise (e.g., IFRS or cash basis).
+
+:::
 ### The SEC
 
 The **Securities and Exchange Commission (SEC)** has legal authority over financial reporting for publicly traded companies. While the SEC generally defers to the FASB for standard-setting, it issues its own rules through:
@@ -111,9 +114,10 @@ Time yourself on practice problems. The CPA Exam includes multiple-choice questi
 
 Allocate study time proportional to exam weight. Spending three weeks on governmental accounting while ignoring revenue recognition would be a strategic error.
 :::note
-Government and not-for-profit topics feel unfamiliar to most candidates, but they are very testable. Budget adequate time for these areas even though the weight is lower.
-:::
 
+Government and not-for-profit topics feel unfamiliar to most candidates, but they are very testable. Budget adequate time for these areas even though the weight is lower.
+
+:::
 ---
 
 ## How This Textbook Is Organized
@@ -130,9 +134,10 @@ This textbook follows a logical progression designed to build your knowledge sys
 | **Part 7: Special Topics** | Business combinations, consolidations, foreign currency, derivatives, fair value |
 | **Part 8: Government & NFP** | Fund accounting, government-wide statements, GASB standards, NFP reporting |
 :::tip Navigation
-Use the sidebar to jump to any topic. Each chapter includes learning objectives, worked examples, journal entries, and practice questions.
-:::
 
+Use the sidebar to jump to any topic. Each chapter includes learning objectives, worked examples, journal entries, and practice questions.
+
+:::
 ---
 
 ## Conventions Used in This Textbook

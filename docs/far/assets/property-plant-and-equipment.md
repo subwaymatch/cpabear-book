@@ -21,9 +21,10 @@ PP&E is recorded at the **total cost to acquire and prepare the asset for its in
 | Site preparation | Grading, draining, clearing |
 | Asset retirement obligations | PV of future restoration costs (debit asset, credit liability) |
 :::info
-Interest costs incurred during construction of qualifying assets are **capitalized** — see the Constructed Assets section below.
-:::
 
+Interest costs incurred during construction of qualifying assets are **capitalized** — see the Constructed Assets section below.
+
+:::
 ## Donated Fixed Assets
 
 When a company **receives** a donated asset, the asset is recorded at **fair value** on the date of donation, with a corresponding credit to **revenue** (contribution revenue).
@@ -35,9 +36,10 @@ Dr. Building                      500,000
 ```
 
 :::note
-Under ASC 958, not-for-profit entities may record the credit as a contribution — the principle is the same: fair value at date of receipt.
-:::
 
+Under ASC 958, not-for-profit entities may record the credit as a contribution — the principle is the same: fair value at date of receipt.
+
+:::
 ## Land
 
 Land is recorded at **all costs to acquire and prepare it for its intended use**:
@@ -135,9 +137,10 @@ Dr. Building under construction    35,000
 ```
 
 :::tip
-The remaining interest incurred on other debt is **expensed** — only the portion tied to WAAE is capitalized.
-:::
 
+The remaining interest incurred on other debt is **expensed** — only the portion tied to WAAE is capitalized.
+
+:::
 ## Depreciation Methods
 
 Depreciation **systematically allocates** the depreciable base of a tangible asset over its useful life.
@@ -190,9 +193,10 @@ Kingfisher Industries purchases equipment for \$100,000 with a \$10,000 salvage 
 | 5 | \$18,000 | \$6,000 | \$0 |
 | **Total** | **\$90,000** | **\$90,000** | **\$80,000** |
 :::note
-Under DDB, Year 4 is limited to \$1,600 so the book value doesn't fall below the \$10,000 salvage value. Year 5 has zero depreciation.
-:::
 
+Under DDB, Year 4 is limited to \$1,600 so the book value doesn't fall below the \$10,000 salvage value. Year 5 has zero depreciation.
+
+:::
 ## Component vs. Composite / Group Depreciation
 
 ### Component Depreciation
@@ -212,9 +216,10 @@ $$
 $$
 
 :::warning
-Under composite depreciation, **no gain or loss** is recognized on the disposal of individual assets. The difference between proceeds and cost is debited or credited to accumulated depreciation.
-:::
 
+Under composite depreciation, **no gain or loss** is recognized on the disposal of individual assets. The difference between proceeds and cost is debited or credited to accumulated depreciation.
+
+:::
 ## Disposals
 
 ### Sale of an Asset
@@ -300,9 +305,10 @@ Dr. Impairment loss              300,000
 ```
 
 :::danger
-For assets **held for use**, impairment losses are **never reversed** under U.S. GAAP — even if fair value later increases.
-:::
 
+For assets **held for use**, impairment losses are **never reversed** under U.S. GAAP — even if fair value later increases.
+
+:::
 ### Assets Held for Disposal
 
 Assets reclassified as **held for sale** are measured at the **lower of carrying value or fair value less costs to sell**. Key differences from held-for-use:
@@ -312,9 +318,10 @@ Assets reclassified as **held for sale** are measured at the **lower of carrying
 | Measurement | Fair value | Fair value **less costs to sell** |
 | Subsequent recovery | Not permitted | **Permitted** (up to cumulative loss recognized) |
 :::info
-**Held for disposal** assets can have impairment losses **reversed** if fair value recovers — but only up to the original carrying amount at the date of reclassification.
-:::
 
+**Held for disposal** assets can have impairment losses **reversed** if fair value recovers — but only up to the original carrying amount at the date of reclassification.
+
+:::
 ## Summary
 
 | Topic                          | Key Rule                                        |

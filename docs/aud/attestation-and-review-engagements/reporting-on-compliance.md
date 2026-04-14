@@ -3,9 +3,10 @@
 Auditors are frequently engaged to report on an entity's **compliance** with specific requirements—whether those requirements arise from contracts, regulations, grant agreements, or other authoritative sources. Compliance reporting may be the **principal objective** of an engagement or **incidental** to a financial statement audit. Understanding the different types of compliance reports, the standards that govern them, and the opinions that may be expressed is important for the AUD exam.
 
 :::info
-Compliance engagements can be performed under multiple frameworks: **AT-C 315** (AICPA attestation standards for compliance), **AU-C 806** (compliance reporting in connection with audited financial statements), or **Uniform Guidance** (for entities receiving federal awards). The applicable standard depends on the nature of the engagement and the entity.
-:::
 
+Compliance engagements can be performed under multiple frameworks: **AT-C 315** (AICPA attestation standards for compliance), **AU-C 806** (compliance reporting in connection with audited financial statements), or **Uniform Guidance** (for entities receiving federal awards). The applicable standard depends on the nature of the engagement and the entity.
+
+:::
 ---
 
 ## Compliance as a Principal Objective
@@ -34,9 +35,10 @@ In these cases, the compliance report relies on evidence obtained during the fin
 **Example:** During the annual audit of Gies Co., the auditor notes that Gies Co.'s loan agreement requires it to maintain a minimum net worth of \$5 million. Based on the audited financial statements, Gies Co.'s net worth is \$6.2 million. The auditor issues a separate report (under AU-C 806) stating that nothing came to the auditor's attention that caused the auditor to believe Gies Co. was not in compliance with the net worth covenant. This report is incidental to the financial statement audit.
 
 :::tip Exam Tip
-Key distinction: When compliance is the **principal objective**, the CPA plans and performs specific compliance procedures. When compliance is **incidental** to an audit, the CPA relies on work already performed during the financial statement audit. The nature of the report differs accordingly.
-:::
 
+Key distinction: When compliance is the **principal objective**, the CPA plans and performs specific compliance procedures. When compliance is **incidental** to an audit, the CPA relies on work already performed during the financial statement audit. The nature of the report differs accordingly.
+
+:::
 ---
 
 ## Compliance Attestation Under AT-C 315
@@ -65,9 +67,10 @@ In an AUP engagement, the CPA:
 | **Agreed-upon procedures** | None (findings only) | Factual findings; no opinion or conclusion |
 
 :::caution
-A **review** of compliance is **not** an available engagement type under AT-C 315. The CPA can only perform an examination or agreed-upon procedures for compliance attestation.
-:::
 
+A **review** of compliance is **not** an available engagement type under AT-C 315. The CPA can only perform an examination or agreed-upon procedures for compliance attestation.
+
+:::
 ---
 
 ## Management's Assertion on Compliance
@@ -123,9 +126,10 @@ When the CPA performs an examination of compliance, the opinion may be **modifie
 **Example:** MAS Inc. undergoes an examination of its compliance with a regulatory agency's environmental reporting requirements. The CPA finds that MAS Inc. failed to submit two of six required quarterly reports, and the unreported emissions data represents a significant portion of total reportable emissions. The CPA issues an **adverse opinion** on compliance because the noncompliance is both material and pervasive.
 
 :::tip Exam Tip
-The framework for modifying compliance opinions mirrors the framework for financial statement audit opinions: **qualified** for material but not pervasive issues, **adverse** for material and pervasive issues, and **disclaimer** for scope limitations. Apply the same logic you use for audit opinion modifications.
-:::
 
+The framework for modifying compliance opinions mirrors the framework for financial statement audit opinions: **qualified** for material but not pervasive issues, **adverse** for material and pervasive issues, and **disclaimer** for scope limitations. Apply the same logic you use for audit opinion modifications.
+
+:::
 ---
 
 ## Government Compliance Reporting Requirements
@@ -152,9 +156,10 @@ Government entities and recipients of federal awards face additional compliance 
 **Example:** Kingfisher Industries, a nonprofit receiving \$3 million in federal awards, undergoes a single audit. The auditor identifies two major programs and tests compliance for each. For the first program (a workforce training grant), the auditor issues an unqualified compliance opinion. For the second program (a research grant), the auditor finds that Kingfisher Industries failed to meet the cost-sharing requirements, resulting in \$180,000 in questioned costs. The auditor issues a **qualified opinion** on compliance for that program, noting the material noncompliance in the cost-sharing requirement.
 
 :::warning
-In a single audit, the auditor issues a **separate compliance opinion for each major program**. It is possible to have an unqualified opinion on one program and a qualified or adverse opinion on another. Each major program is evaluated independently.
-:::
 
+In a single audit, the auditor issues a **separate compliance opinion for each major program**. It is possible to have an unqualified opinion on one program and a qualified or adverse opinion on another. Each major program is evaluated independently.
+
+:::
 ---
 
 ## Summary

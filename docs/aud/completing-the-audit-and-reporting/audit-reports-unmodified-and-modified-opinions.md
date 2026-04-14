@@ -5,9 +5,10 @@ The audit report is the primary deliverable of a financial statement audit. It c
 This section covers the **unmodified (clean) opinion**, the structure of audit reports for both **issuers** (public companies) and **nonissuers** (private companies), and the three types of **modified opinions**: qualified, adverse, and disclaimer.
 
 :::info
-**Issuers** are entities whose securities are registered with the SEC and are audited under PCAOB standards. **Nonissuers** are all other entities, audited under AICPA (SAS) standards. The report structures differ between the two.
-:::
 
+**Issuers** are entities whose securities are registered with the SEC and are audited under PCAOB standards. **Nonissuers** are all other entities, audited under AICPA (SAS) standards. The report structures differ between the two.
+
+:::
 ---
 
 ## The Unmodified (Unqualified) Opinion
@@ -23,9 +24,10 @@ This is the most common and most favorable type of audit opinion. It means:
 **Example:** Gies Co. engages an audit firm to audit its year-end financial statements. After completing all planned procedures and resolving all identified issues, the auditor concludes the financial statements are fairly presented under U.S. GAAP. The auditor issues an unmodified opinion.
 
 :::tip Exam Tip
-The terms "unmodified" and "unqualified" mean the same thing. The AICPA uses "unmodified," while the PCAOB uses "unqualified." Both refer to a clean opinion with no reservations.
-:::
 
+The terms "unmodified" and "unqualified" mean the same thing. The AICPA uses "unmodified," while the PCAOB uses "unqualified." Both refer to a clean opinion with no reservations.
+
+:::
 ---
 
 ## Structure of the Audit Report for Issuers (PCAOB)
@@ -97,9 +99,10 @@ Like the issuer report, the opinion section appears first and includes:
 - A statement that the financial statements **present fairly, in all material respects**, in accordance with the applicable financial reporting framework
 
 :::note
-For nonissuers, the opinion paragraph specifically references the financial reporting framework used (e.g., "accounting principles generally accepted in the United States of America").
-:::
 
+For nonissuers, the opinion paragraph specifically references the financial reporting framework used (e.g., "accounting principles generally accepted in the United States of America").
+
+:::
 ### Basis for Opinion
 
 This section states that:
@@ -157,9 +160,10 @@ Both issuer and nonissuer opinions convey the same core message, but the languag
 | **Covers** | Financial position, results of operations, cash flows | Financial position, results of operations, cash flows |
 
 :::tip
-Both issuer and nonissuer opinions use the phrase **"present fairly, in all material respects."** This is the critical language—not "correct," "accurate," or "error-free." The auditor provides reasonable (not absolute) assurance.
-:::
 
+Both issuer and nonissuer opinions use the phrase **"present fairly, in all material respects."** This is the critical language—not "correct," "accurate," or "error-free." The auditor provides reasonable (not absolute) assurance.
+
+:::
 ---
 
 ## The Basis for Opinion Section
@@ -212,9 +216,10 @@ When communicating a CAM, the auditor must include:
 If the auditor determines that there are no CAMs to report, the report must include a statement to that effect: **"The auditor has determined that there are no critical audit matters to communicate in the auditor's report."**
 
 :::warning
-CAMs are **not** a substitute for a modified opinion. If a matter requires the auditor to modify the opinion, it should not be reported as a CAM—it should result in a qualified, adverse, or disclaimer opinion instead.
-:::
 
+CAMs are **not** a substitute for a modified opinion. If a matter requires the auditor to modify the opinion, it should not be reported as a CAM—it should result in a qualified, adverse, or disclaimer opinion instead.
+
+:::
 ---
 
 ## Key Audit Matters (KAMs) — Nonissuers
@@ -242,9 +247,10 @@ The auditor must **not** communicate KAMs when the auditor issues:
 The auditor **may** conclude that there are no KAMs to communicate. If the auditor has elected (or been required) to include a KAM section but determines there are no KAMs, the report should include a statement that the auditor determined there are no key audit matters to communicate.
 
 :::info
-KAMs are **optional** for nonissuer audits unless required by law, regulation, or the engagement agreement. CAMs are **mandatory** for most issuer audits.
-:::
 
+KAMs are **optional** for nonissuer audits unless required by law, regulation, or the engagement agreement. CAMs are **mandatory** for most issuer audits.
+
+:::
 ---
 
 ## Modified Opinions
@@ -268,9 +274,10 @@ The type of modification depends on two factors:
 | **Audit issue (scope limitation / insufficient evidence)** | **Qualified opinion** ("except for") | **Disclaimer of opinion** |
 
 :::tip Exam Strategy
-This 2×2 matrix is **essential** for the AUD exam. Memorize it. The rows represent the nature of the problem (GAAP issue vs. GAAS issue), and the columns represent the severity (material vs. material and pervasive).
-:::
 
+This 2×2 matrix is **essential** for the AUD exam. Memorize it. The rows represent the nature of the problem (GAAP issue vs. GAAS issue), and the columns represent the severity (material vs. material and pervasive).
+
+:::
 ---
 
 ## Modified Opinions Due to Financial Statement Issues (Misstatements)
@@ -292,9 +299,10 @@ An **adverse opinion** is issued when the misstatement is so significant and wid
 **Example:** Illini Entertainment has failed to consolidate a material subsidiary, has not recognized significant liabilities, and has overstated revenue across multiple segments. The effects are so sweeping that the financial statements cannot be relied upon. The auditor issues an adverse opinion.
 
 :::danger
-An **adverse opinion** is the most severe conclusion about the financial statements themselves. It signals to users that the financial statements should **not** be relied upon for decision-making.
-:::
 
+An **adverse opinion** is the most severe conclusion about the financial statements themselves. It signals to users that the financial statements should **not** be relied upon for decision-making.
+
+:::
 ---
 
 ## Modified Opinions Due to Audit Issues (Scope Limitations)
@@ -317,9 +325,10 @@ When the scope limitation is so severe that the auditor cannot obtain sufficient
 **Example:** MSA Records' management refuses to allow the auditor to confirm accounts receivable, observe inventory, or access key subsidiary records. With so many critical areas unverifiable, the auditor cannot determine whether the financial statements are fairly presented. A disclaimer of opinion is issued.
 
 :::warning
-With a disclaimer of opinion, the auditor does **not** state that the financial statements are misstated—the auditor states that they **cannot form an opinion** because they lack sufficient evidence.
-:::
 
+With a disclaimer of opinion, the auditor does **not** state that the financial statements are misstated—the auditor states that they **cannot form an opinion** because they lack sufficient evidence.
+
+:::
 ---
 
 ## How Uncertainties Affect the Report
@@ -376,9 +385,10 @@ The **date of the auditor's report** carries specific meaning:
   - Confirmed that management has **asserted they have taken responsibility** for the financial statements
 
 :::note
-The report date is **not** the date the report is physically delivered to the client. It is the date the auditor has completed the audit work—sometimes called the "fieldwork completion date."
-:::
 
+The report date is **not** the date the report is physically delivered to the client. It is the date the auditor has completed the audit work—sometimes called the "fieldwork completion date."
+
+:::
 **Example:** Gies Co.'s auditor completes all fieldwork and obtains sufficient evidence on March 5, 20X5, for the audit of the December 31, 20X4 financial statements. The audit report is dated March 5, 20X5, even if it is not delivered to Gies Co.'s board until March 15, 20X5.
 
 ### Dual Dating
@@ -398,5 +408,7 @@ If a subsequent event comes to the auditor's attention after the original report
 | Material and pervasive scope limitation | **Disclaimer** |
 
 :::tip Final Exam Tip
+
 When a question asks what type of opinion to issue, always ask yourself two questions: (1) Is this a **GAAP problem** (misstatement) or a **GAAS problem** (scope limitation)? (2) Is the effect **material** or **material and pervasive**? The answers place you in the correct cell of the 2×2 matrix.
+
 :::

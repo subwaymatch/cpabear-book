@@ -19,9 +19,10 @@ Attribute sampling is the primary sampling method used for tests of controls. Ea
 7. **Draw conclusions** — Decide whether the control can be relied upon
 
 :::info Example
-**Illini Entertainment** requires that all vendor invoices above \$1,000 receive dual approval before payment. The auditor wants to test whether this control operated effectively throughout the year.
-:::
 
+**Illini Entertainment** requires that all vendor invoices above \$1,000 receive dual approval before payment. The auditor wants to test whether this control operated effectively throughout the year.
+
+:::
 ---
 
 ## Tolerable Deviation Rate
@@ -41,9 +42,10 @@ Key considerations when setting the TDR:
 | Limited reliance | 8% – 10% | Smaller sample |
 
 :::tip
-The more the auditor wants to rely on a control (and thereby reduce substantive testing), the lower the tolerable deviation rate must be set—and the larger the sample must be to support that reliance.
-:::
 
+The more the auditor wants to rely on a control (and thereby reduce substantive testing), the lower the tolerable deviation rate must be set—and the larger the sample must be to support that reliance.
+
+:::
 ---
 
 ## Defining the Population and Sampling Unit
@@ -56,9 +58,10 @@ The population must consist of **all items** subject to the control during the p
 - **Appropriate** — The population must correspond to the control being tested
 
 :::warning
-If the population is incomplete, the auditor cannot conclude that the control operated effectively over the entire period. For example, if the auditor tests **MAS Inc.'s** purchase order approval control but only obtains purchase orders from January through September, no conclusion can be drawn about October through December.
-:::
 
+If the population is incomplete, the auditor cannot conclude that the control operated effectively over the entire period. For example, if the auditor tests **MAS Inc.'s** purchase order approval control but only obtains purchase orders from January through September, no conclusion can be drawn about October through December.
+
+:::
 ### Sampling Unit
 
 The sampling unit is the **individual item** that constitutes one element of the population. The sampling unit must be defined consistently with the control being tested.
@@ -83,13 +86,14 @@ $$
 $$
 
 :::info Example
+
 The auditor selects 50 purchase orders from **Gies Co.** and finds that 2 lacked the required supervisory approval. The sample deviation rate is:
 
 $$
 \frac{2}{50} = 4\%
 $$
-:::
 
+:::
 ### Step 2: Determine the Upper Deviation Rate
 
 Using statistical tables (or software), the auditor determines the **upper deviation rate (UDR)** at the specified confidence level. The UDR accounts for sampling risk and represents the maximum likely deviation rate in the population.
@@ -113,9 +117,10 @@ Even if the UDR is within the TDR, the auditor should consider the **qualitative
 - Could the deviations indicate fraud?
 
 :::danger
-A single deviation that suggests **fraud or intentional override** may require investigation far beyond what the deviation rate alone would suggest. Qualitative factors matter as much as quantitative results.
-:::
 
+A single deviation that suggests **fraud or intentional override** may require investigation far beyond what the deviation rate alone would suggest. Qualitative factors matter as much as quantitative results.
+
+:::
 ---
 
 ## Drawing Conclusions from Attribute Sampling
@@ -127,9 +132,10 @@ Based on the evaluation, the auditor reaches one of the following conclusions:
 The upper deviation rate does not exceed the tolerable deviation rate. The auditor can rely on the control as planned and may reduce the nature, extent, or timing of related substantive procedures.
 
 :::info Example
-The auditor tests **Illini Entertainment's** invoice approval control with a TDR of 6% and a confidence level of 95%. After testing 80 items and finding 2 deviations, the UDR is calculated as 5.5%. Since 5.5% ≤ 6%, the auditor concludes the control is effective and relies on it to reduce accounts payable substantive testing.
-:::
 
+The auditor tests **Illini Entertainment's** invoice approval control with a TDR of 6% and a confidence level of 95%. After testing 80 items and finding 2 deviations, the UDR is calculated as 5.5%. Since 5.5% ≤ 6%, the auditor concludes the control is effective and relies on it to reduce accounts payable substantive testing.
+
+:::
 ### Conclusion 2: Control Is NOT Operating Effectively
 
 The upper deviation rate exceeds the tolerable deviation rate. The auditor must:
@@ -139,12 +145,15 @@ The upper deviation rate exceeds the tolerable deviation rate. The auditor must:
 3. **Consider other controls** — Determine whether compensating controls exist that might mitigate the risk
 
 :::info Example
-The auditor tests **MSA Records'** bank reconciliation review control. The TDR is set at 5%, but the UDR based on sample results is 8.3%. The auditor cannot rely on this control and must expand substantive testing of the cash balance—perhaps by confirming additional bank accounts and performing extended cutoff testing.
-:::
 
+The auditor tests **MSA Records'** bank reconciliation review control. The TDR is set at 5%, but the UDR based on sample results is 8.3%. The auditor cannot rely on this control and must expand substantive testing of the cash balance—perhaps by confirming additional bank accounts and performing extended cutoff testing.
+
+:::
 ### Common Pitfalls
 
 :::warning
+
 - **Expanding the sample after poor results**: If the initial sample yields a UDR above the TDR, the auditor **may** select additional items to test. However, this must be done carefully—the original and additional items must be evaluated together, and the auditor should not "cherry-pick" favorable results.
 - **Ignoring qualitative factors**: Even a numerically acceptable deviation rate can mask serious underlying issues if the deviations involve fraud indicators, management override, or systematic errors.
+
 :::

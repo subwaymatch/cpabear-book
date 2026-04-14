@@ -5,9 +5,10 @@ Entities operate within a complex web of laws and regulations. Some of these dir
 This section covers the auditor's consideration of **laws and regulations** under AU-C 250 and AS 2405, the distinction between **direct-effect** and **indirect-effect** laws, the auditor's **responsibility for detecting noncompliance**, **procedures for identifying noncompliance**, **reporting obligations**, the effect on the **audit opinion**, **legal letter (attorney letter) requirements**, and **going concern considerations** related to noncompliance.
 
 :::info
-The auditor is **not** an attorney and is not expected to have the legal expertise to identify all instances of noncompliance. However, the auditor **is** responsible for obtaining reasonable assurance that the financial statements are free from material misstatement—including misstatements arising from noncompliance with laws and regulations that have a direct and material effect on the financial statements.
-:::
 
+The auditor is **not** an attorney and is not expected to have the legal expertise to identify all instances of noncompliance. However, the auditor **is** responsible for obtaining reasonable assurance that the financial statements are free from material misstatement—including misstatements arising from noncompliance with laws and regulations that have a direct and material effect on the financial statements.
+
+:::
 ---
 
 ## Direct-Effect vs. Indirect-Effect Laws
@@ -22,9 +23,10 @@ The distinction between direct-effect and indirect-effect laws is fundamental to
 **Example:** Gies Co. is a government contractor. Federal Acquisition Regulation (FAR) cost accounting standards directly affect how Gies Co. recognizes revenue and allocates costs on government contracts—these are **direct-effect** laws. Gies Co. is also subject to OSHA workplace safety regulations. Violations of OSHA rules could result in fines or litigation but do not directly determine financial statement amounts—these are **indirect-effect** laws.
 
 :::tip Exam Tip
-The CPA exam frequently tests the distinction between direct-effect and indirect-effect laws. Remember: if a law tells you **how much** to record or **how** to disclose something in the financial statements, it is a direct-effect law. If a law governs **how the business operates**, it is an indirect-effect law.
-:::
 
+The CPA exam frequently tests the distinction between direct-effect and indirect-effect laws. Remember: if a law tells you **how much** to record or **how** to disclose something in the financial statements, it is a direct-effect law. If a law governs **how the business operates**, it is an indirect-effect law.
+
+:::
 ---
 
 ## Auditor's Responsibility for Detecting Noncompliance
@@ -80,9 +82,10 @@ When the auditor identifies or suspects noncompliance, the following steps are r
 6. **Document** the findings, the auditor's assessment, and the conclusions reached
 
 :::caution
-If the auditor suspects that **management is involved** in noncompliance, this raises significant concerns about the **integrity of management** and the reliability of management's representations. The auditor should consider the effect on the overall audit, including whether it is appropriate to continue the engagement.
-:::
 
+If the auditor suspects that **management is involved** in noncompliance, this raises significant concerns about the **integrity of management** and the reliability of management's representations. The auditor should consider the effect on the overall audit, including whether it is appropriate to continue the engagement.
+
+:::
 ---
 
 ## Reporting Obligations for Noncompliance
@@ -151,9 +154,10 @@ The legal letter provides the auditor with **corroborative evidence** about:
 **Example:** MAS Inc.'s auditor sends a legal letter to the company's outside counsel. The lawyer confirms one pending lawsuit with a probable unfavorable outcome and an estimated loss range of \$2 million to \$5 million. The lawyer declines to comment on two additional matters, citing attorney-client privilege. The auditor evaluates whether the refusal to comment creates a scope limitation and considers whether alternative procedures can provide the needed evidence.
 
 :::tip Exam Tip
-The legal letter is sent **by the auditor** but is prepared based on information provided **by management**. The response comes **from the lawyer directly to the auditor**. This three-party process is designed to ensure that the auditor receives independent corroboration of management's assertions about litigation and claims.
-:::
 
+The legal letter is sent **by the auditor** but is prepared based on information provided **by management**. The response comes **from the lawyer directly to the auditor**. This three-party process is designed to ensure that the auditor receives independent corroboration of management's assertions about litigation and claims.
+
+:::
 ---
 
 ## Going Concern Considerations Related to Noncompliance
@@ -169,5 +173,7 @@ Noncompliance with laws and regulations can raise **substantial doubt about the 
 **Example:** Illini Entertainment holds a liquor license that is essential to its concert venue operations. The state liquor control commission initiates proceedings to revoke the license due to repeated violations. If the license is revoked, Illini Entertainment would lose a substantial portion of its revenue. The auditor evaluates whether this raises substantial doubt about the entity's ability to continue as a going concern and considers the adequacy of the entity's disclosures.
 
 :::warning
+
 When noncompliance raises going concern issues, the auditor must evaluate management's **plans to mitigate** the adverse effects. If substantial doubt remains after considering management's plans, the auditor must include an **emphasis-of-matter paragraph** (nonissuers) or **explanatory paragraph** (issuers) in the audit report, regardless of whether the financial statements include adequate disclosure.
+
 :::

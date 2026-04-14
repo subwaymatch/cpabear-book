@@ -5,9 +5,10 @@ Many organizations outsource critical business functions—such as payroll proce
 This section covers the **types of SOC reports** (SOC 1, SOC 2, and SOC 3), the distinction between **Type 1 and Type 2 reports**, how auditors **use** a service auditor's report, **complementary user entity controls (CUECs)**, **subservice organizations**, and the respective responsibilities of management, the service auditor, and the user auditor.
 
 :::info
-SOC reports are issued under **SSAE 18** (AT-C 320) and are based on the AICPA's attestation standards. The service auditor—an independent CPA—performs the examination and issues the report. The user auditor then evaluates the report when planning and performing the audit of the user entity's financial statements.
-:::
 
+SOC reports are issued under **SSAE 18** (AT-C 320) and are based on the AICPA's attestation standards. The service auditor—an independent CPA—performs the examination and issues the report. The user auditor then evaluates the report when planning and performing the audit of the user entity's financial statements.
+
+:::
 ---
 
 ## Why SOC Reports Matter
@@ -49,9 +50,10 @@ SOC 2 reports are not specifically designed for financial statement audits but m
 SOC 3 reports cover the same Trust Services Criteria as SOC 2 but are presented in a **shortened, general-use format** without detailed descriptions of tests performed and results. They are designed for broad distribution (e.g., posting on a website) and provide less detail than SOC 2 reports.
 
 :::tip Exam Tip
-For the CPA exam, remember: **SOC 1 = financial reporting controls** (what auditors use), **SOC 2 = Trust Services Criteria** (restricted distribution), **SOC 3 = Trust Services Criteria summary** (general use). When a question involves an audit of financial statements, the relevant report is almost always a **SOC 1**.
-:::
 
+For the CPA exam, remember: **SOC 1 = financial reporting controls** (what auditors use), **SOC 2 = Trust Services Criteria** (restricted distribution), **SOC 3 = Trust Services Criteria summary** (general use). When a question involves an audit of financial statements, the relevant report is almost always a **SOC 1**.
+
+:::
 ---
 
 ## Type 1 vs. Type 2 Reports
@@ -68,9 +70,10 @@ Both SOC 1 and SOC 2 reports can be issued as either **Type 1** or **Type 2**:
 **Example:** MAS Inc. uses a cloud-based accounting platform hosted by a service organization. The service organization provides a SOC 1 Type 2 report covering January 1 through September 30, 20X4. MAS Inc.'s auditor reviews the report and determines that the controls tested are relevant and were operating effectively during the period. The auditor then evaluates whether additional procedures are needed for the gap period (October 1 through December 31).
 
 :::caution
-A **Type 1 report** alone is generally **not sufficient** for the user auditor to reduce control risk. Because it only addresses design (not operating effectiveness), the user auditor would need to perform additional procedures to assess whether controls actually operated effectively during the period.
-:::
 
+A **Type 1 report** alone is generally **not sufficient** for the user auditor to reduce control risk. Because it only addresses design (not operating effectiveness), the user auditor would need to perform additional procedures to assess whether controls actually operated effectively during the period.
+
+:::
 ---
 
 ## Using a Service Auditor's Report in an Audit
@@ -86,9 +89,10 @@ When a user auditor obtains and evaluates a SOC 1 report, the following steps ar
 7. **Consider complementary user entity controls (CUECs)** — Determine whether the user entity has implemented the CUECs assumed in the service organization's system description
 
 :::warning
-The user auditor **cannot simply reference** the service auditor's report as the sole basis for reducing control risk. The user auditor must perform their own evaluation of the report and exercise professional judgment. The service auditor's report is **evidence** the user auditor uses—not a substitute for the user auditor's own assessment.
-:::
 
+The user auditor **cannot simply reference** the service auditor's report as the sole basis for reducing control risk. The user auditor must perform their own evaluation of the report and exercise professional judgment. The service auditor's report is **evidence** the user auditor uses—not a substitute for the user auditor's own assessment.
+
+:::
 ---
 
 ## Complementary User Entity Controls (CUECs)
@@ -123,9 +127,10 @@ When the **carve-out method** is used, the user auditor must separately evaluate
 **Example:** Illini Entertainment outsources its benefits administration to a service organization, which in turn uses a subservice organization to process health insurance claims. The service organization's SOC 1 report uses the carve-out method—it describes the subservice organization's role but does not include the subservice organization's controls in its testing. Illini Entertainment's auditor must separately assess whether the subservice organization's controls are adequate, potentially by obtaining the subservice organization's own SOC 1 report.
 
 :::tip Exam Tip
-On the CPA exam, if you see a question about a SOC report that mentions a subservice organization using the **carve-out method**, the key point is that the user auditor must **separately** evaluate the subservice organization's controls. Under the **inclusive method**, the service auditor has already done this work.
-:::
 
+On the CPA exam, if you see a question about a SOC report that mentions a subservice organization using the **carve-out method**, the key point is that the user auditor must **separately** evaluate the subservice organization's controls. Under the **inclusive method**, the service auditor has already done this work.
+
+:::
 ---
 
 ## Responsibilities: Management, Service Auditor, and User Auditor
@@ -148,5 +153,7 @@ Importantly, the user auditor should **not reference** the service auditor or th
 **Example:** Kingfisher Industries uses a service organization for processing a significant volume of sales transactions. The service organization refuses to provide a SOC 1 report, and Kingfisher Industries' auditor is unable to perform alternative procedures to obtain sufficient evidence about the controls over sales processing. The auditor concludes this is a material scope limitation and issues a qualified opinion.
 
 :::tip Exam Tip
+
 The CPA exam may test whether the user auditor can reference the service auditor in the audit report. The answer is **no**—the user auditor should not divide responsibility with a service auditor. The user auditor may, however, reference a **component auditor** in a group audit under certain circumstances. Do not confuse service auditors with component auditors.
+
 :::

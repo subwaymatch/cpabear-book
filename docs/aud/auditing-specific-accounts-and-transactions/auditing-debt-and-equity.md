@@ -17,9 +17,10 @@ The auditor sends **confirmations directly to lenders and creditors** to verify:
 - Lines of credit (used and unused)
 
 :::tip
-Debt confirmations should be sent to **all known creditors**, including those with zero balances, to detect any unrecorded borrowings.
-:::
 
+Debt confirmations should be sent to **all known creditors**, including those with zero balances, to detect any unrecorded borrowings.
+
+:::
 #### 2. Recomputing Amortization
 
 The auditor independently recalculates:
@@ -89,9 +90,10 @@ Board minutes provide evidence of:
 - Changes to authorized share capital
 
 :::info
-Board minutes are one of the **most important sources of audit evidence** for equity transactions because virtually all significant equity transactions require board or shareholder approval.
-:::
 
+Board minutes are one of the **most important sources of audit evidence** for equity transactions because virtually all significant equity transactions require board or shareholder approval.
+
+:::
 #### 3. Reviewing Articles of Incorporation and Bylaws
 
 The auditor examines the articles of incorporation (or charter) to verify:
@@ -117,9 +119,10 @@ If the company uses an **independent transfer agent and registrar**, the auditor
 - Dividends paid during the period
 
 :::note
-When a company uses an independent transfer agent, the auditor can rely on the agent's records as strong evidence of shares outstanding, reducing the need for detailed testing of stock certificate records.
-:::
 
+When a company uses an independent transfer agent, the auditor can rely on the agent's records as strong evidence of shares outstanding, reducing the need for detailed testing of stock certificate records.
+
+:::
 #### 6. Checking Restrictions and Appropriations
 
 The auditor identifies any restrictions on retained earnings or equity, such as:
@@ -150,9 +153,10 @@ The payroll cycle involves the authorization, recording, and payment of employee
 | **Custody** | Treasurer signs and distributes paychecks or authorizes direct deposits | Separate from authorization and recording |
 
 :::warning
-A common payroll fraud scheme is the **ghost employee**—a fictitious employee on the payroll whose checks are diverted by a perpetrator. Proper segregation between HR (authorization) and payroll (recording) helps prevent this fraud.
-:::
 
+A common payroll fraud scheme is the **ghost employee**—a fictitious employee on the payroll whose checks are diverted by a perpetrator. Proper segregation between HR (authorization) and payroll (recording) helps prevent this fraud.
+
+:::
 ### Common Payroll Audit Procedures
 
 | Procedure | Purpose |
@@ -174,13 +178,14 @@ The auditor of MAS Inc. selects a sample of 25 employees from the December payro
 - Observes a surprise paycheck distribution for one payroll cycle to detect potential ghost employees
 
 :::danger Exam Focus
+
 For the CPA exam, remember these key payroll controls:
 - **HR authorizes** all personnel changes (hiring, termination, pay rates)
 - **Payroll department records** compensation transactions
 - **Treasurer distributes** payments
 - Surprise **observations** of paycheck distribution help detect ghost employees
-:::
 
+:::
 ## Summary
 
 | Area | Key Procedures | Primary Assertions |

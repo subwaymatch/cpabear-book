@@ -39,9 +39,10 @@ For taxpayers above the income threshold, the deduction for each qualified busin
 - **25%** of W-2 wages **plus 2.5%** of the unadjusted basis immediately after acquisition (UBIA) of qualified property.
 
 :::info
-These limitations phase in over a range of \$50,000 (single) or \$100,000 (MFJ) above the threshold. Below the threshold, the full 20% deduction applies without limitation.
-:::
 
+These limitations phase in over a range of \$50,000 (single) or \$100,000 (MFJ) above the threshold. Below the threshold, the full 20% deduction applies without limitation.
+
+:::
 ### Specified Service Trades or Businesses (SSTBs)
 
 An SSTB is any trade or business involving the performance of services in the fields of health, law, accounting, actuarial science, performing arts, consulting, athletics, financial services, brokerage services, or any business where the principal asset is the reputation or skill of employees or owners. **Investment management and trading** are also SSTBs.
@@ -53,9 +54,10 @@ An SSTB is any trade or business involving the performance of services in the fi
 | Above phase-in range | W-2/UBIA limitation fully applies | **No deduction** |
 
 :::tip Exam Tip
-Engineering and architecture are specifically **excluded** from the SSTB definition — they qualify for the full deduction regardless of income level.
-:::
 
+Engineering and architecture are specifically **excluded** from the SSTB definition — they qualify for the full deduction regardless of income level.
+
+:::
 ### QBI Deduction Calculation Steps
 
 1. Identify each qualified trade or business.
@@ -127,9 +129,10 @@ The AMT is a parallel tax system designed to ensure that high-income taxpayers p
 | Medical expenses | Only deductible to the extent exceeding 10% of AGI (same as regular tax post-2012) |
 
 :::caution
-The AMT is computed separately. A taxpayer owes AMT only if the **tentative minimum tax** exceeds the **regular tax**. The AMT is the excess amount.
-:::
 
+The AMT is computed separately. A taxpayer owes AMT only if the **tentative minimum tax** exceeds the **regular tax**. The AMT is the excess amount.
+
+:::
 > **Example:** Gies Co.'s sole proprietor has a regular tax of \$42,000 and a tentative minimum tax of \$48,000. The AMT owed is \$48,000 − \$42,000 = **\$6,000**.
 
 ---
@@ -194,9 +197,10 @@ The **kiddie tax** applies to unearned income of a child who is:
 Unearned income above the threshold is taxed at the **parent's marginal rate**. The first \$1,250 is offset by the child's standard deduction; the next \$1,250 is taxed at the child's rate.
 
 :::tip Exam Tip
-The kiddie tax applies only to **unearned** income (interest, dividends, capital gains). A teenager's wages from a summer job are taxed at the child's own rate.
-:::
 
+The kiddie tax applies only to **unearned** income (interest, dividends, capital gains). A teenager's wages from a summer job are taxed at the child's own rate.
+
+:::
 ---
 
 ## Tax Credits
@@ -241,9 +245,10 @@ Credits directly reduce tax liability and are more valuable than deductions. Cre
 | Felony drug conviction | Disqualifies | No effect |
 
 :::tip Exam Tip
-The AOTC provides 100% of the first \$2,000 plus 25% of the next \$2,000 of qualified expenses. Books and supplies qualify for the AOTC even if not purchased from the institution.
-:::
 
+The AOTC provides 100% of the first \$2,000 plus 25% of the next \$2,000 of qualified expenses. Books and supplies qualify for the AOTC even if not purchased from the institution.
+
+:::
 ### Adoption Credit
 
 - Maximum credit: **\$16,810** (2024) per eligible child.
@@ -265,9 +270,10 @@ A taxpayer avoids the underpayment penalty by paying at least the **lesser** of:
 2. **100%** of the prior-year tax liability (**110%** if prior-year AGI exceeds \$150,000).
 
 :::warning
-The penalty is calculated separately for each quarter — catching up in Q4 does not eliminate the penalty for earlier quarters.
-:::
 
+The penalty is calculated separately for each quarter — catching up in Q4 does not eliminate the penalty for earlier quarters.
+
+:::
 > **Example:** Illini Security's owner had a prior-year tax of \$60,000 and current-year AGI above \$150,000. The safe-harbor requires quarterly payments totaling at least 110% × \$60,000 = \$66,000. Each quarterly installment must be at least \$16,500.
 
 ---
@@ -288,5 +294,7 @@ The penalty is calculated separately for each quarter — catching up in Q4 does
 | Estimated tax safe harbor | 90% current year or 100%/110% prior year |
 
 :::info
+
 On the CPA exam, credit calculations frequently require identifying the **correct phase-out threshold** and computing the **reduction amount**. Always verify filing status and MAGI before applying a credit.
+
 :::

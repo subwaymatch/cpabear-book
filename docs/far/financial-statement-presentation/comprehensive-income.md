@@ -7,9 +7,10 @@ $$
 $$
 
 :::info Key Concept
-Think of comprehensive income as the **complete picture** of an entity's performance. Net income tells you what happened on the income statement; OCI captures additional economic events that GAAP does not want running through net income.
-:::
 
+Think of comprehensive income as the **complete picture** of an entity's performance. Net income tells you what happened on the income statement; OCI captures additional economic events that GAAP does not want running through net income.
+
+:::
 ---
 
 ## Other Comprehensive Income (OCI)
@@ -19,6 +20,7 @@ OCI includes items that are recognized in equity but **excluded from net income*
 ### The PUFI Mnemonic
 
 :::tip Exam Tip — PUFI
+
 Use **PUFI** to remember the four categories of Other Comprehensive Income:
 | Letter | Component |
 |--------|-----------|
@@ -26,8 +28,8 @@ Use **PUFI** to remember the four categories of Other Comprehensive Income:
 | **U** | **U**nrealized gains and losses on AFS debt securities and effective portion of cash flow hedges |
 | **F** | **F**oreign currency translation adjustments |
 | **I** | **I**nstrument-specific credit risk (changes in fair value of a liability under the fair value option attributable to instrument-specific credit risk) |
-:::
 
+:::
 ### Detailed Breakdown
 
 #### P — Pension Adjustments
@@ -57,9 +59,10 @@ Dr. Fair value adjustment — AFS securities    15,000
 
 For **cash flow hedges**, the effective portion of the change in the hedging instrument's fair value is recorded in OCI until the hedged transaction affects earnings.
 :::note
-**Equity securities** (with readily determinable fair values) are measured at fair value through **net income** under ASC 321 — they do NOT go through OCI.
-:::
 
+**Equity securities** (with readily determinable fair values) are measured at fair value through **net income** under ASC 321 — they do NOT go through OCI.
+
+:::
 #### F — Foreign Currency Translation Adjustments
 
 When a foreign subsidiary's financial statements are **translated** from the functional currency to the reporting currency (using the current rate method), the resulting translation adjustment is reported in OCI.
@@ -74,9 +77,10 @@ Dr. OCI — Foreign currency translation adjustment    32,000
 ```
 
 :::warning
-Do not confuse **translation** (OCI) with **remeasurement** (net income). Translation uses the current rate method when the subsidiary's functional currency is its local currency. Remeasurement uses the temporal method when the functional currency is the parent's currency.
-:::
 
+Do not confuse **translation** (OCI) with **remeasurement** (net income). Translation uses the current rate method when the subsidiary's functional currency is its local currency. Remeasurement uses the temporal method when the functional currency is the parent's currency.
+
+:::
 #### I — Instrument-Specific Credit Risk
 
 ## When an entity elects the **fair value option** for a financial liability, changes in fair value attributable to the entity's own credit risk are reported in OCI rather than net income (ASC 825).
@@ -86,7 +90,7 @@ Do not confuse **translation** (OCI) with **remeasurement** (net income). Transl
 **AOCI** is the cumulative balance of all OCI items. It is reported as a separate component of **stockholders' equity** on the balance sheet.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[OCI - Current Period] -->|Accumulates in| B[AOCI on Balance Sheet]
     B -->|Component of| C[Stockholders' Equity]
     B -->|Reclassified to| D[Net Income when realized]
@@ -186,9 +190,10 @@ Dr. OCI — Reclassification adjustment    10,000
 ```
 
 :::info
-The reclassification ensures the gain is counted **only once** — in net income when realized — and removed from the cumulative OCI balance.
-:::
 
+The reclassification ensures the gain is counted **only once** — in net income when realized — and removed from the cumulative OCI balance.
+
+:::
 ---
 
 ## Journal Entry Summary

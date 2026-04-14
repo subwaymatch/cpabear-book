@@ -14,9 +14,10 @@ Under ASC 405 and the FASB Conceptual Framework, a **liability** is a present ob
 3. The transaction or event creating the obligation has **already occurred**
 
 :::info
-On the CPA exam, look for all three characteristics: (1) a **present obligation**, (2) arising from a **past transaction**, that (3) will result in a **probable future sacrifice** of economic benefits. If any element is missing, no liability exists.
-:::
 
+On the CPA exam, look for all three characteristics: (1) a **present obligation**, (2) arising from a **past transaction**, that (3) will result in a **probable future sacrifice** of economic benefits. If any element is missing, no liability exists.
+
+:::
 ---
 
 ### Current vs. Non-Current Classification
@@ -29,9 +30,10 @@ A liability is classified as **current** if it is expected to be settled within 
 | **Non-current** | Due beyond 1 year or operating cycle | Bonds payable, long-term notes, lease obligations |
 
 :::warning
-If a company violates a long-term debt covenant at the balance sheet date and the lender has **not** waived the violation before the financial statements are issued, the **entire** long-term debt must be reclassified as current — even if the lender grants a waiver afterward.
-:::
 
+If a company violates a long-term debt covenant at the balance sheet date and the lender has **not** waived the violation before the financial statements are issued, the **entire** long-term debt must be reclassified as current — even if the lender grants a waiver afterward.
+
+:::
 ---
 
 ### Trade Accounts Payable
@@ -94,9 +96,10 @@ Dr. Purchase discounts lost 1,000
 </Tabs>
 
 :::tip Exam Tip
-The **net method** is considered theoretically superior because it treats lost discounts as a **financing cost**, which more accurately reflects the economic reality. However, the **gross method** is more common in practice.
-:::
 
+The **net method** is considered theoretically superior because it treats lost discounts as a **financing cost**, which more accurately reflects the economic reality. However, the **gross method** is more common in practice.
+
+:::
 ---
 
 ### Trade Notes Payable
@@ -144,9 +147,10 @@ $$
 $$
 
 :::note
-Even when interest is paid semiannually or annually, the company must accrue interest from the last payment date through the balance sheet date under the **matching principle**.
-:::
 
+Even when interest is paid semiannually or annually, the company must accrue interest from the last payment date through the balance sheet date under the **matching principle**.
+
+:::
 ---
 
 ### Current Portion of Long-Term Debt
@@ -161,9 +165,10 @@ MAS Inc. has a \$300,000 term loan requiring annual principal payments of \$60,0
 | Long-term debt (net of current portion) | \$240,000 |
 
 :::tip Exam Tip
-An exception exists for short-term obligations expected to be **refinanced** on a long-term basis. If the company has the **intent and ability** to refinance (demonstrated by a refinancing agreement or actual refinancing before the statements are issued), the obligation may remain classified as non-current.
-:::
 
+An exception exists for short-term obligations expected to be **refinanced** on a long-term basis. If the company has the **intent and ability** to refinance (demonstrated by a refinancing agreement or actual refinancing before the statements are issued), the obligation may remain classified as non-current.
+
+:::
 ---
 
 ### Accrued Liabilities
@@ -276,9 +281,10 @@ Dr. Payroll tax expense 20,500
 ```
 
 :::warning
-Employee withholdings are **not** an expense to the employer — they are part of gross wages already expensed. The employer simply acts as an agent to remit these amounts to the government. Only the **employer's matching share** of FICA, FUTA, and SUTA creates additional payroll tax expense.
-:::
 
+Employee withholdings are **not** an expense to the employer — they are part of gross wages already expensed. The employer simply acts as an agent to remit these amounts to the government. Only the **employer's matching share** of FICA, FUTA, and SUTA creates additional payroll tax expense.
+
+:::
 ---
 
 ### Compensated Absences (Vacation and Sick Pay)
@@ -291,11 +297,12 @@ Under ASC 710-10, a liability for **compensated absences** (vacation, sick leave
 4. The amount is **reasonably estimable**
 
 :::info
+
 - **Vested** rights: The employer must pay even if the employee terminates.
 - **Accumulated** rights: Unused days carry forward to future periods.
 - **Sick pay** that accumulates but does not vest need **not** be accrued (optional accrual is permitted).
-:::
 
+:::
 Bear Co. grants employees 10 vacation days per year that vest on December 31. At year-end, 50 employees have earned but unused vacation worth an average of \$240 per day:
 
 $$
@@ -315,9 +322,10 @@ Dr. Vacation expense 120,000
 Some companies choose to self-insure rather than purchase insurance from a third party. Under GAAP, a company **cannot** accrue a liability for self-insured risks before a loss occurs. The rationale is that no past event has given rise to a present obligation — the company is simply assuming future risk.
 
 :::caution
-A common exam trap: self-insurance is **not** a recognized liability until an actual loss event occurs. You cannot accrue for hurricanes, lawsuits, or equipment breakdowns that have not yet happened, regardless of how probable they seem.
-:::
 
+A common exam trap: self-insurance is **not** a recognized liability until an actual loss event occurs. You cannot accrue for hurricanes, lawsuits, or equipment breakdowns that have not yet happened, regardless of how probable they seem.
+
+:::
 Once a loss event occurs (e.g., a fire destroys self-insured inventory), the company records the loss:
 
 ```journal
@@ -354,9 +362,10 @@ $$
 $$
 
 :::note
-Under ASC 420, if termination benefits require employees to render service beyond a **minimum retention period** (more than 60 days), the cost is recognized **ratably** over the future service period rather than immediately.
-:::
 
+Under ASC 420, if termination benefits require employees to render service beyond a **minimum retention period** (more than 60 days), the cost is recognized **ratably** over the future service period rather than immediately.
+
+:::
 ---
 
 ### Asset Retirement Obligations (ASC 410-20)
@@ -417,9 +426,10 @@ Dr. Depreciation expense 77,951
 ```
 
 :::tip Exam Tip
-Over time, the ARO liability **grows** via accretion until it reaches the full estimated removal cost at the end of the asset's useful life. The ARC component of the asset is **fully depreciated** over the same period. When the asset is retired, any difference between the ARO liability and the actual settlement cost is a **gain or loss on settlement**.
-:::
 
+Over time, the ARO liability **grows** via accretion until it reaches the full estimated removal cost at the end of the asset's useful life. The ARC component of the asset is **fully depreciated** over the same period. When the asset is retired, any difference between the ARO liability and the actual settlement cost is a **gain or loss on settlement**.
+
+:::
 ---
 
 ## Module 2 — Contingencies and Commitments
@@ -443,9 +453,10 @@ The accounting treatment for contingencies depends on the **likelihood** of the 
 | **Remote** | Slight chance of occurring | Generally ignore | Ignore |
 
 :::warning
-**Gain contingencies are never accrued** — doing so would recognize revenue before it is realized. Even if a gain is deemed probable, the company may only disclose it in the notes. This is an application of **conservatism**.
-:::
 
+**Gain contingencies are never accrued** — doing so would recognize revenue before it is realized. Even if a gain is deemed probable, the company may only disclose it in the notes. This is an application of **conservatism**.
+
+:::
 ---
 
 ### Loss Contingencies — Accrual and Disclosure
@@ -465,9 +476,10 @@ If only one condition is met, the contingency is **disclosed** in the notes but 
 | No best estimate identifiable | The **minimum** of the range |
 
 :::info
-Under IFRS (IAS 37), when no best estimate exists within a range, the **midpoint** is accrued. Under U.S. GAAP, the **minimum** is accrued. This is a common exam comparison.
-:::
 
+Under IFRS (IAS 37), when no best estimate exists within a range, the **midpoint** is accrued. Under U.S. GAAP, the **minimum** is accrued. This is a common exam comparison.
+
+:::
 #### Example — Lawsuit
 
 BIF Partners is the defendant in a lawsuit as of December 31, Year 1. Legal counsel advises that a loss is **probable**, and estimates the loss between \$200,000 and \$500,000 with no amount more likely than another.
@@ -496,9 +508,10 @@ Bear Co. is named in a frivolous lawsuit. Legal counsel deems the likelihood of 
 - **No journal entry** and generally **no disclosure** required
 
 :::caution
-**Exception for remote contingencies:** Guarantees of the indebtedness of others must be **disclosed** even when the likelihood of loss is remote. This includes loan guarantees and standby letters of credit.
-:::
 
+**Exception for remote contingencies:** Guarantees of the indebtedness of others must be **disclosed** even when the likelihood of loss is remote. This includes loan guarantees and standby letters of credit.
+
+:::
 ---
 
 ### Gain Contingencies
@@ -642,10 +655,12 @@ graph TD
 ```
 
 :::tip Final Exam Reminders
+
 - **Losses**: Probable + estimable → accrue. Range with no best estimate → accrue **minimum** (GAAP) or **midpoint** (IFRS).
 - **Gains**: Never accrue — disclose only when probable or reasonably possible.
 - **Warranties**: Accrue at point of sale using historical estimates (matching principle).
 - **AROs**: Recognized at present value; accrete the liability and depreciate the ARC each period.
 - **Exit activities**: Recognize when **incurred**, not when the plan is approved.
 - **Self-insurance**: No accrual until an actual loss event occurs.
+
 :::

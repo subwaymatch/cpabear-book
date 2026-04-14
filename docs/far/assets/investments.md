@@ -63,9 +63,10 @@ Dr. OCI — Unrealized loss on AFS       3,000
 ```
 
 :::tip
-The total decline is \$8,000. The credit portion (\$5,000) flows through the **income statement**; the remaining \$3,000 flows through **OCI** on the balance sheet.
-:::
 
+The total decline is \$8,000. The credit portion (\$5,000) flows through the **income statement**; the remaining \$3,000 flows through **OCI** on the balance sheet.
+
+:::
 ### Held-to-Maturity (HTM) Securities
 
 - Reported at **amortized cost** on the balance sheet.
@@ -104,9 +105,10 @@ Dr. Investment in HTM securities          701
 | Classification          | Current    | Current or noncurrent                 | Noncurrent (unless < 1 yr)        |
 
 :::warning
-Reclassification **out of** HTM is rare and may "taint" the entire HTM portfolio — the CPA exam tests whether specific scenarios justify reclassification.
-:::
 
+Reclassification **out of** HTM is rare and may "taint" the entire HTM portfolio — the CPA exam tests whether specific scenarios justify reclassification.
+
+:::
 ## Equity Securities
 
 Under ASC 321, equity securities (stocks) that do **not** give the investor significant influence or control are generally measured at **fair value through net income (FVTNI)**.
@@ -134,9 +136,10 @@ $$
 $$
 
 :::info
-This election is made **per investment** and applies when fair value is not readily determinable (e.g., private company stock).
-:::
 
+This election is made **per investment** and applies when fair value is not readily determinable (e.g., private company stock).
+
+:::
 ### Realized Gains and Losses
 
 When equity securities are sold, the gain or loss equals the difference between the selling price and the carrying amount (which already reflects prior fair-value adjustments).
@@ -155,7 +158,7 @@ When an investor holds **20–50%** of the voting stock of an investee, a **rebu
 ### Core Mechanics
 
 ```mermaid
-graph LR
+graph TD
     A[Record at Cost] --> B[+ Share of Investee Income]
     B --> C[− Dividends Received]
     C --> D[Carrying Value]
@@ -223,9 +226,10 @@ Dr. Equity in earnings of investee     6,000
 ```
 
 :::tip
-This adjustment **reduces** the investor's equity earnings each year — it represents additional depreciation the investee's books do not reflect.
-:::
 
+This adjustment **reduces** the investor's equity earnings each year — it represents additional depreciation the investee's books do not reflect.
+
+:::
 ## Fair Value vs. Equity Method Comparison
 
 | Feature            | Fair Value (FVTNI)           | Equity Method                  |
@@ -250,9 +254,10 @@ Dr. AOCI — Unrealized gain on AFS          12,000
 ```
 
 :::note
-From this point forward, Bear Co. records its share of the investee's earnings and reduces the investment for dividends — **fair value adjustments cease**.
-:::
 
+From this point forward, Bear Co. records its share of the investee's earnings and reduces the investment for dividends — **fair value adjustments cease**.
+
+:::
 ## Disclosure Requirements
 
 Under U.S. GAAP, entities must disclose:

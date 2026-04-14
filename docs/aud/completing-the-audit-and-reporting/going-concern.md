@@ -3,9 +3,10 @@
 The **going concern assumption** is fundamental to the preparation of financial statements under U.S. GAAP and most other frameworks. When questions arise about whether an entity will be able to continue operating, the auditor has important responsibilities to evaluate the situation and, when necessary, modify the audit report. This topic appears frequently on the CPA exam and requires a solid understanding of both the evaluation process and the reporting implications.
 
 :::info
-**Going concern** means that the entity is expected to continue operating for a reasonable period of time—it will not be forced to liquidate or cease operations. Financial statements are prepared on this basis unless management intends to liquidate or has no realistic alternative.
-:::
 
+**Going concern** means that the entity is expected to continue operating for a reasonable period of time—it will not be forced to liquidate or cease operations. Financial statements are prepared on this basis unless management intends to liquidate or has no realistic alternative.
+
+:::
 ---
 
 ## Auditor's Responsibility
@@ -45,9 +46,10 @@ The following are common indicators that may raise **substantial doubt** about a
 - Loss of key **management** without adequate replacement
 
 :::tip Exam Tip
-The CPA exam may list several conditions and ask you to identify which raise going concern doubt. Remember that **no single condition** automatically means there is substantial doubt—the auditor must consider conditions and events **in the aggregate** and evaluate management's plans to mitigate them.
-:::
 
+The CPA exam may list several conditions and ask you to identify which raise going concern doubt. Remember that **no single condition** automatically means there is substantial doubt—the auditor must consider conditions and events **in the aggregate** and evaluate management's plans to mitigate them.
+
+:::
 ---
 
 ## Management's Plans and Their Evaluation
@@ -78,9 +80,10 @@ A key distinction for the CPA exam is the **evaluation period** for going concer
 | **PCAOB (issuers)** | A reasonable period of time, not to exceed **one year from the date the financial statements are issued** (or available to be issued) |
 
 :::caution
-The distinction between "from the financial statement date" and "from the date the financial statements are issued" matters on the exam. For a December 31, 20X4 year-end with a March 15, 20X5 report date, the GAAP evaluation looks through December 31, 20X5, while the issuer evaluation under PCAOB guidance extends through approximately March 15, 20X6.
-:::
 
+The distinction between "from the financial statement date" and "from the date the financial statements are issued" matters on the exam. For a December 31, 20X4 year-end with a March 15, 20X5 report date, the GAAP evaluation looks through December 31, 20X5, while the issuer evaluation under PCAOB guidance extends through approximately March 15, 20X6.
+
+:::
 ---
 
 ## Effect on the Audit Report
@@ -118,9 +121,10 @@ The going concern emphasis-of-matter (or explanatory) paragraph should:
 **Example language (paraphrased):** "The accompanying financial statements have been prepared assuming that Illini Security will continue as a going concern. As discussed in Note 12 to the financial statements, the Company has suffered recurring losses from operations and has a net capital deficiency that raise substantial doubt about its ability to continue as a going concern. The financial statements do not include any adjustments that might result from the outcome of this uncertainty."
 
 :::tip Exam Tip
-A going concern paragraph added to an unmodified opinion does **not** change the opinion type—it is still an unmodified (clean) opinion. The going concern paragraph is informational. However, if management refuses to include adequate going concern disclosures in the financial statements, the auditor must modify the opinion (qualified or adverse) for the disclosure deficiency.
-:::
 
+A going concern paragraph added to an unmodified opinion does **not** change the opinion type—it is still an unmodified (clean) opinion. The going concern paragraph is informational. However, if management refuses to include adequate going concern disclosures in the financial statements, the auditor must modify the opinion (qualified or adverse) for the disclosure deficiency.
+
+:::
 ---
 
 ## Going Concern and Modified Opinions
@@ -136,9 +140,10 @@ Going concern evaluations can intersect with modified opinions in several ways:
 | Substantial doubt alleviated by management's plans | Unmodified opinion with no additional paragraph |
 
 :::warning
-Do not confuse a going concern emphasis-of-matter paragraph with a **scope limitation** or a **GAAP departure**. A going concern paragraph is added when adequate disclosure exists and the auditor simply wants to draw attention to the uncertainty. It does not, by itself, result in a modified opinion.
-:::
 
+Do not confuse a going concern emphasis-of-matter paragraph with a **scope limitation** or a **GAAP departure**. A going concern paragraph is added when adequate disclosure exists and the auditor simply wants to draw attention to the uncertainty. It does not, by itself, result in a modified opinion.
+
+:::
 ---
 
 ## Summary

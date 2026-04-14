@@ -5,9 +5,10 @@ The **Committee of Sponsoring Organizations of the Treadway Commission (COSO)** 
 This section covers the **objectives of internal control**, **inherent limitations** of any control system, the **five components of internal control** (using the CRIME mnemonic), the details of each component and their associated COSO principles, **segregation of duties**, the **COSO cube**, the distinction between **logical access and physical controls**, and **why the auditor obtains an understanding of internal control**.
 
 :::info
-The COSO Internal Control—Integrated Framework (2013) is the standard used by the SEC, PCAOB, and AICPA for evaluating internal control. Auditors are required to obtain an understanding of internal control relevant to the audit under **AU-C 315** (AICPA) and **AS 2110** (PCAOB).
-:::
 
+The COSO Internal Control—Integrated Framework (2013) is the standard used by the SEC, PCAOB, and AICPA for evaluating internal control. Auditors are required to obtain an understanding of internal control relevant to the audit under **AU-C 315** (AICPA) and **AS 2110** (PCAOB).
+
+:::
 ---
 
 ## Objectives of Internal Control
@@ -23,9 +24,10 @@ According to COSO, internal control is a process designed to provide **reasonabl
 **Example:** Kingfisher Industries implements internal controls to ensure its manufacturing operations run efficiently (**operations objective**), its quarterly financial statements are accurate and complete (**reporting objective**), and it complies with environmental regulations governing waste disposal (**compliance objective**).
 
 :::tip Exam Tip
-On the CPA exam, you may be asked to classify a specific control by which objective it addresses. A control that ensures invoices are recorded in the correct period relates to **reporting**. A control that ensures hazardous waste is disposed of properly relates to **compliance**. A control that prevents unauthorized access to the warehouse relates to **operations** (safeguarding of assets).
-:::
 
+On the CPA exam, you may be asked to classify a specific control by which objective it addresses. A control that ensures invoices are recorded in the correct period relates to **reporting**. A control that ensures hazardous waste is disposed of properly relates to **compliance**. A control that prevents unauthorized access to the warehouse relates to **operations** (safeguarding of assets).
+
+:::
 ---
 
 ## Inherent Limitations of Internal Control
@@ -43,9 +45,10 @@ No system of internal control—no matter how well designed—can provide **abso
 **Example:** Illini Security has strong segregation of duties in its cash disbursement process—one person prepares payments, another approves them, and a third records them. However, if the preparer and the approver collude to create fictitious vendor payments, this control is defeated. This illustrates the inherent limitation of **collusion**.
 
 :::warning
-**Management override** is a particularly important limitation because it cannot be eliminated by any system of controls. This is why auditing standards require the auditor to presume a risk of material misstatement due to management override of controls in **every** audit.
-:::
 
+**Management override** is a particularly important limitation because it cannot be eliminated by any system of controls. This is why auditing standards require the auditor to presume a risk of material misstatement due to management override of controls in **every** audit.
+
+:::
 ---
 
 ## Five Components of Internal Control: The CRIME Mnemonic
@@ -83,9 +86,10 @@ The COSO framework identifies **five principles** related to the control environ
 **Example:** At Gies Co., the CEO regularly communicates the importance of ethical behavior in town hall meetings, the board's audit committee consists entirely of independent directors, clear reporting lines are established, the company invests heavily in employee training, and performance evaluations include accountability for control responsibilities. These practices demonstrate a strong control environment.
 
 :::note
-The control environment is often considered the **most important** component because it provides the discipline and structure for all other components. A weak control environment undermines the effectiveness of every other control, regardless of how well designed they may be.
-:::
 
+The control environment is often considered the **most important** component because it provides the discipline and structure for all other components. A weak control environment undermines the effectiveness of every other control, regardless of how well designed they may be.
+
+:::
 ---
 
 ## Risk Assessment
@@ -180,9 +184,10 @@ These three functions should be performed by **different individuals**. When one
 **Example:** At Kingfisher Industries, the purchasing manager (authorization) approves purchase orders, the accounts payable clerk (record-keeping) records invoices in the system, and the warehouse supervisor (custody) receives and controls the physical inventory. No single person can order goods, record the purchase, and receive the inventory—reducing the risk that fictitious purchases or theft goes undetected.
 
 :::warning
-If segregation of duties is not feasible—common in smaller organizations—**compensating controls** should be implemented, such as management oversight, mandatory vacations, or independent reconciliations.
-:::
 
+If segregation of duties is not feasible—common in smaller organizations—**compensating controls** should be implemented, such as management oversight, mandatory vacations, or independent reconciliations.
+
+:::
 ---
 
 ## The COSO Cube
@@ -200,9 +205,10 @@ The cube demonstrates that:
 - The five components and three objectives are **interrelated** and must work together as an integrated system
 
 :::info
-The COSO cube is a conceptual model. On the exam, you may be asked to identify how a specific component relates to a specific objective at a particular organizational level. For example, the control environment at the entity level affects all three objectives across all divisions.
-:::
 
+The COSO cube is a conceptual model. On the exam, you may be asked to identify how a specific component relates to a specific objective at a particular organizational level. For example, the control environment at the entity level affects all three objectives across all divisions.
+
+:::
 ---
 
 ## Logical Access vs. Physical Controls
@@ -219,9 +225,10 @@ Internal controls include both **logical (IT) access controls** and **physical c
 - **Logical access controls** — The monitoring software requires user authentication with multi-factor verification, and role-based permissions ensure that field technicians can view but not modify client records
 
 :::tip Exam Tip
-Logical access controls are particularly important in today's audit environment because most financial data is processed and stored electronically. Weak logical access controls can undermine even the strongest physical controls—if anyone can log into the accounting system remotely, it doesn't matter how secure the office is.
-:::
 
+Logical access controls are particularly important in today's audit environment because most financial data is processed and stored electronically. Weak logical access controls can undermine even the strongest physical controls—if anyone can log into the accounting system remotely, it doesn't matter how secure the office is.
+
+:::
 ---
 
 ## Why the Auditor Obtains an Understanding of Internal Control
@@ -250,9 +257,10 @@ It is important to distinguish between **obtaining an understanding** of interna
 **Example:** BIF Partners is auditing Gies Co. The engagement team obtains an understanding of the revenue cycle controls by walking through the process, inspecting policy documents, and making inquiries of accounting personnel. This understanding helps the team identify that Gies Co. lacks a control over credit memo authorization—a potential risk area. The team decides to perform extensive substantive testing of credit memos rather than relying on controls.
 
 :::note
-For **issuer audits** under PCAOB standards, the auditor must not only understand internal control but also **test the operating effectiveness** of controls as part of the integrated audit of financial statements and internal control over financial reporting (ICFR). This goes beyond the AICPA requirement for nonissuers.
-:::
 
+For **issuer audits** under PCAOB standards, the auditor must not only understand internal control but also **test the operating effectiveness** of controls as part of the integrated audit of financial statements and internal control over financial reporting (ICFR). This goes beyond the AICPA requirement for nonissuers.
+
+:::
 ---
 
 ## Summary

@@ -5,9 +5,10 @@ Virtually every organization today relies on information technology to initiate,
 This section covers **general IT controls (GITCs)** and **application controls**, the key categories within each, the distinction between **automated and manual controls**, **end-user computing risks**, **cybersecurity considerations**, and how IT controls influence the auditor's risk assessment and testing strategy.
 
 :::info
-Auditing standards (AU-C 315 and AS 2110) require the auditor to obtain an understanding of the entity's information system—including IT—relevant to financial reporting. This includes understanding how transactions are initiated, recorded, processed, corrected, and reported.
-:::
 
+Auditing standards (AU-C 315 and AS 2110) require the auditor to obtain an understanding of the entity's information system—including IT—relevant to financial reporting. This includes understanding how transactions are initiated, recorded, processed, corrected, and reported.
+
+:::
 ---
 
 ## General IT Controls (GITCs) vs. Application Controls
@@ -24,9 +25,10 @@ GITCs create the foundation upon which application controls operate. If GITCs ar
 **Example:** MAS Inc. uses an ERP system to process accounts payable. The system has an automated three-way match (application control) that compares purchase orders, receiving reports, and vendor invoices before authorizing payment. However, if MAS Inc. lacks adequate program change controls (a GITC), a programmer could modify the matching logic to bypass the control—rendering the three-way match unreliable.
 
 :::tip Exam Tip
-Think of GITCs as the "umbrella" over all application controls. On the CPA exam, if a question describes a weakness in a GITC (such as poor access controls), the correct answer often involves questioning the reliability of **all** application controls that depend on that system.
-:::
 
+Think of GITCs as the "umbrella" over all application controls. On the CPA exam, if a question describes a weakness in a GITC (such as poor access controls), the correct answer often involves questioning the reliability of **all** application controls that depend on that system.
+
+:::
 ---
 
 ## Categories of General IT Controls
@@ -128,9 +130,10 @@ Application controls are embedded within specific software programs and operate 
 | **Dependence on GITCs** | Effectiveness depends on strong GITCs | Not directly dependent on GITCs |
 
 :::caution
-An automated control is only as reliable as the system it runs on. If GITCs are weak, the auditor **cannot** rely on automated controls without additional testing. Conversely, a strong GITC environment increases the auditor's ability to rely on automated controls and may reduce the extent of substantive testing.
-:::
 
+An automated control is only as reliable as the system it runs on. If GITCs are weak, the auditor **cannot** rely on automated controls without additional testing. Conversely, a strong GITC environment increases the auditor's ability to rely on automated controls and may reduce the extent of substantive testing.
+
+:::
 ---
 
 ## End-User Computing Risks
@@ -148,9 +151,10 @@ EUC risks include:
 **Example:** Illini Entertainment uses an Excel spreadsheet to calculate its allowance for doubtful accounts. The spreadsheet contains complex formulas and links to data exported from the ERP system. Because the spreadsheet is maintained by one accountant with no formal review or change controls, there is a significant risk that formula errors or unauthorized changes could result in a material misstatement.
 
 :::warning
-Spreadsheet risk is a frequent CPA exam topic. When an entity relies on a spreadsheet for a significant accounting estimate or financial reporting calculation, the auditor should evaluate whether adequate controls exist over the spreadsheet's integrity, access, and change management.
-:::
 
+Spreadsheet risk is a frequent CPA exam topic. When an entity relies on a spreadsheet for a significant accounting estimate or financial reporting calculation, the auditor should evaluate whether adequate controls exist over the spreadsheet's integrity, access, and change management.
+
+:::
 ---
 
 ## IT Governance and Security
@@ -198,5 +202,7 @@ The strength or weakness of IT controls directly influences the auditor's **risk
 When IT controls are effective, the auditor can adopt a **combined approach** (tests of controls plus reduced substantive procedures). When IT controls are ineffective, the auditor must adopt a **substantive approach** and may need to use more extensive analytical procedures, larger sample sizes, or additional year-end procedures to compensate.
 
 :::tip Exam Tip
+
 The CPA exam frequently tests the relationship between IT control weaknesses and the audit response. Remember: a weakness in GITCs has a **pervasive** effect—it can undermine the reliability of **all** application controls in the affected system, not just one specific control.
+
 :::

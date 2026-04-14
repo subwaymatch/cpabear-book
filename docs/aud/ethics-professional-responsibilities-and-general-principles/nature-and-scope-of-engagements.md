@@ -16,9 +16,10 @@ The standards that govern a CPA's work depend on the **type of client** and the 
 | **Attestation engagements** | AICPA ASB | Statements on Standards for Attestation Engagements (SSAEs), codified as AT-C sections |
 
 :::info
-**Issuers** are entities whose securities are registered with the SEC (public companies). **Nonissuers** are all other entities — private companies, nonprofits, government entities, and others. The CPA exam tests your ability to identify which standards apply to a given engagement.
-:::
 
+**Issuers** are entities whose securities are registered with the SEC (public companies). **Nonissuers** are all other entities — private companies, nonprofits, government entities, and others. The CPA exam tests your ability to identify which standards apply to a given engagement.
+
+:::
 **Example:** When Kingfisher Industries (a publicly traded company) engages an audit firm, the audit is performed under **PCAOB standards** (ASs). When Gies Co. (a private company) engages an auditor, the audit is performed under **AICPA standards** (SASs). If Gies Co. only needs a review or compilation, the engagement falls under **SSARS** (AR-C sections).
 
 ---
@@ -50,9 +51,10 @@ An audit provides reasonable assurance, **not absolute assurance**. Several inhe
 | **Internal control limitations** | Internal controls can be circumvented by management override or collusion among employees |
 
 :::caution
-The CPA exam may test your understanding that an audit provides **reasonable assurance** — not absolute assurance. An auditor is not an insurer or guarantor of the financial statements. Even a properly planned and executed audit may fail to detect a material misstatement, particularly one involving sophisticated fraud.
-:::
 
+The CPA exam may test your understanding that an audit provides **reasonable assurance** — not absolute assurance. An auditor is not an insurer or guarantor of the financial statements. Even a properly planned and executed audit may fail to detect a material misstatement, particularly one involving sophisticated fraud.
+
+:::
 ---
 
 ## Five General GAAS Requirements (SEJEC)
@@ -68,9 +70,10 @@ The AICPA's generally accepted auditing standards establish five overarching req
 | **C** | **Compliance with Standards** | The auditor must comply with all applicable SASs (for nonissuers) or ASs (for issuers) relevant to the engagement. |
 
 :::tip Exam Tip
-The SEJEC mnemonic is heavily tested. Professional skepticism, in particular, appears in many AUD questions — the auditor must always maintain a questioning mind and cannot simply accept management's explanations at face value.
-:::
 
+The SEJEC mnemonic is heavily tested. Professional skepticism, in particular, appears in many AUD questions — the auditor must always maintain a questioning mind and cannot simply accept management's explanations at face value.
+
+:::
 **Example:** During the audit of Illini Entertainment, the auditor discovers that revenue increased 40% while the industry average was flat. Professional skepticism requires the auditor to question this trend, design additional procedures to investigate the increase, and not accept management's explanation without corroborating evidence.
 
 ---
@@ -117,9 +120,10 @@ The review report expresses **negative assurance**: the accountant states they a
 **Example:** Illini Security (a private company) needs reviewed financial statements to satisfy a bank loan covenant. The accountant performs analytical procedures and inquires of management about unusual transactions, significant estimates, and subsequent events. The report states: "Based on our review, we are not aware of any material modifications that should be made to the accompanying financial statements."
 
 :::tip Exam Tip
-The key distinction between an audit and a review is the **level of assurance** and the **nature of procedures**. Audits use substantive testing and control testing; reviews rely on inquiry and analytical procedures only. Memorize this distinction — it appears in many exam questions.
-:::
 
+The key distinction between an audit and a review is the **level of assurance** and the **nature of procedures**. Audits use substantive testing and control testing; reviews rely on inquiry and analytical procedures only. Memorize this distinction — it appears in many exam questions.
+
+:::
 ---
 
 ### Compilation Engagements
@@ -186,9 +190,10 @@ Common examples of attestation subject matter include prospective financial stat
 | **SSAE (AT-C)** | Attestation engagements | Examinations, reviews, and AUP on subject matter other than financial statements |
 
 :::info
-A common mistake is confusing SAS (audit standards) with SSARS (accounting and review services standards). Remember: **SAS = audits**, **SSARS = reviews, compilations, and preparations**. Both apply only to nonissuers. Issuers follow PCAOB standards for audits.
-:::
 
+A common mistake is confusing SAS (audit standards) with SSARS (accounting and review services standards). Remember: **SAS = audits**, **SSARS = reviews, compilations, and preparations**. Both apply only to nonissuers. Issuers follow PCAOB standards for audits.
+
+:::
 ---
 
 ## Levels of Assurance: A Visual Summary
@@ -204,5 +209,7 @@ The following table arranges engagement types by their level of assurance, from 
 | **None (findings only)** | Agreed-Upon Procedures | Procedures and findings; no opinion |
 
 :::tip Final Exam Tip
+
 A common AUD exam question presents a scenario and asks what level of assurance is provided, or what type of report is appropriate. Always match the engagement type to the assurance level: audits and examinations provide reasonable assurance (positive opinion), reviews provide limited assurance (negative assurance), and compilations, preparations, and AUPs provide no assurance. Knowing this hierarchy is essential.
+
 :::

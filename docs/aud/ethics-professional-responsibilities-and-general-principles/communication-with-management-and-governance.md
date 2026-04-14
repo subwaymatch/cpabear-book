@@ -5,9 +5,10 @@ Effective communication between the auditor and the entity's management and thos
 This section covers the **communication of planned scope and timing**, the **preparation of presentation materials**, the identification and reporting of **internal control deficiencies** (including significant deficiencies and material weaknesses), and the **timing and form** of required communications.
 
 :::info
-Communication requirements are established by **AU-C 260** (Overall Objectives — Communication with Those Charged with Governance), **AU-C 265** (Communicating Internal Control Related Matters), and **PCAOB AS 1301** (Communications with Audit Committees). Both frameworks require timely, clear, and two-way communication between the auditor and those responsible for governance and management of the entity.
-:::
 
+Communication requirements are established by **AU-C 260** (Overall Objectives — Communication with Those Charged with Governance), **AU-C 265** (Communicating Internal Control Related Matters), and **PCAOB AS 1301** (Communications with Audit Committees). Both frameworks require timely, clear, and two-way communication between the auditor and those responsible for governance and management of the entity.
+
+:::
 ---
 
 ## Communication of Planned Scope and Timing
@@ -30,9 +31,10 @@ The auditor should communicate the following matters to those charged with gover
 | **Group audit considerations** | If the entity is part of a group, the planned involvement of component auditors |
 
 :::tip Exam Tip
-The auditor is **not required** to communicate specific materiality dollar amounts to those charged with governance. Communicating the general concept and how materiality affects the audit approach is sufficient. However, the auditor may choose to share specific amounts at their discretion.
-:::
 
+The auditor is **not required** to communicate specific materiality dollar amounts to those charged with governance. Communicating the general concept and how materiality affects the audit approach is sufficient. However, the auditor may choose to share specific amounts at their discretion.
+
+:::
 ### Communication with Management
 
 In addition to governance, the auditor also communicates with **management** about planning matters. Management communications typically include:
@@ -60,9 +62,10 @@ Auditors frequently prepare presentation materials for formal communications wit
 **Example:** Kingfisher Industries' audit committee requires a formal presentation at each quarterly meeting. The engagement team prepares a slide deck summarizing the status of the audit, significant findings to date, and any issues requiring the committee's attention. A supporting schedule lists all proposed audit adjustments, including their individual and aggregate impact on the financial statements.
 
 :::note
-The form of communication (oral vs. written) depends on the nature and significance of the matter. **Significant matters** should generally be communicated in **writing** to provide a clear record. Oral communications of significant matters should be documented in the audit workpapers.
-:::
 
+The form of communication (oral vs. written) depends on the nature and significance of the matter. **Significant matters** should generally be communicated in **writing** to provide a clear record. Oral communications of significant matters should be documented in the audit workpapers.
+
+:::
 ---
 
 ## Internal Control Related Matters
@@ -78,9 +81,10 @@ During the course of the audit, the auditor may identify deficiencies in the ent
 | **Material weakness** | A deficiency, or combination of deficiencies, in internal control such that there is a **reasonable possibility** that a material misstatement of the entity's financial statements will not be prevented or detected and corrected on a timely basis | Highest |
 
 :::warning
-The key distinction between a significant deficiency and a material weakness is the **likelihood and magnitude** of potential misstatement. A material weakness involves a **reasonable possibility** of a **material** misstatement going undetected. A significant deficiency is serious enough to warrant governance attention but does not rise to the level of a material weakness.
-:::
 
+The key distinction between a significant deficiency and a material weakness is the **likelihood and magnitude** of potential misstatement. A material weakness involves a **reasonable possibility** of a **material** misstatement going undetected. A significant deficiency is serious enough to warrant governance attention but does not rise to the level of a material weakness.
+
+:::
 ### Evaluating Deficiencies
 
 When the auditor identifies a control deficiency, they must evaluate its severity by considering:
@@ -111,9 +115,10 @@ Both AICPA and PCAOB standards require that **significant deficiencies and mater
 | **Other deficiencies** | Management | Oral or written (auditor's discretion) | AU-C 265 |
 
 :::caution
-The written communication of significant deficiencies and material weaknesses must be made **even if** these matters were previously communicated orally. The oral communication does not substitute for the written requirement. The written communication provides a formal record and ensures governance has clear documentation of the findings.
-:::
 
+The written communication of significant deficiencies and material weaknesses must be made **even if** these matters were previously communicated orally. The oral communication does not substitute for the written requirement. The written communication provides a formal record and ensures governance has clear documentation of the findings.
+
+:::
 ### Content of the Written Communication
 
 The written communication to those charged with governance must include:
@@ -150,9 +155,10 @@ The timing of communications depends on the nature and urgency of the matter:
 | **Fraud or illegal acts** | As soon as practicable — significant matters must be reported directly to those charged with governance |
 
 :::tip Exam Tip
-The 60-day deadline for written communication of significant deficiencies and material weaknesses (AU-C 265) coincides with the documentation completion date for nonissuer engagements. This is a useful memory aid for the CPA exam.
-:::
 
+The 60-day deadline for written communication of significant deficiencies and material weaknesses (AU-C 265) coincides with the documentation completion date for nonissuer engagements. This is a useful memory aid for the CPA exam.
+
+:::
 ### Early Communication of Significant Matters
 
 The auditor should not wait until the end of the audit to communicate matters that require immediate attention. If the auditor identifies a material weakness during interim fieldwork, it should be communicated to governance **as soon as practicable** — not deferred to the final communication.
@@ -174,9 +180,10 @@ The auditor should not wait until the end of the audit to communicate matters th
 | **Integrated audit (ICFR)** | Not applicable for most nonissuers | Required for issuers — material weaknesses must be identified in the auditor's report on internal control |
 
 :::note
-For **issuers** subject to an integrated audit under PCAOB standards, material weaknesses in internal control over financial reporting (ICFR) are not only communicated to the audit committee—they are reported in the **auditor's public report** on internal control. This is a much higher level of public accountability than the private written communication required for nonissuers.
-:::
 
+For **issuers** subject to an integrated audit under PCAOB standards, material weaknesses in internal control over financial reporting (ICFR) are not only communicated to the audit committee—they are reported in the **auditor's public report** on internal control. This is a much higher level of public accountability than the private written communication required for nonissuers.
+
+:::
 ---
 
 ## Summary

@@ -5,9 +5,10 @@ After the auditor obtains an understanding of internal control and identifies co
 This section covers the **purpose** of tests of controls, **when** they are required versus optional, the **types** of tests of controls, how auditors **evaluate operating effectiveness**, the **timing** of tests, how results are used to **assess control risk**, the **relationship** between control risk and substantive testing, and **dual-purpose tests**.
 
 :::info
-Tests of controls are performed under **AU-C 330** (AICPA) and **AS 2301** (PCAOB). They are distinct from the auditor's initial understanding of internal control (which is obtained through risk assessment procedures under AU-C 315 / AS 2110). Risk assessment procedures tell the auditor **what** controls exist; tests of controls tell the auditor **whether** those controls are working.
-:::
 
+Tests of controls are performed under **AU-C 330** (AICPA) and **AS 2301** (PCAOB). They are distinct from the auditor's initial understanding of internal control (which is obtained through risk assessment procedures under AU-C 315 / AS 2110). Risk assessment procedures tell the auditor **what** controls exist; tests of controls tell the auditor **whether** those controls are working.
+
+:::
 ---
 
 ## Purpose of Tests of Controls
@@ -36,9 +37,10 @@ Tests of controls are **optional** when:
 - The auditor determines that testing controls would not be **efficient** (i.e., the cost of testing controls exceeds the benefit of reduced substantive procedures)
 
 :::tip Exam Tip
-A common CPA exam question asks: "When must the auditor test controls?" The answer is when the auditor **intends to rely on controls** to reduce the assessed level of control risk, or when **substantive procedures alone are not sufficient** to reduce detection risk to an acceptably low level. For issuer audits, testing controls is always required for the ICFR opinion.
-:::
 
+A common CPA exam question asks: "When must the auditor test controls?" The answer is when the auditor **intends to rely on controls** to reduce the assessed level of control risk, or when **substantive procedures alone are not sufficient** to reduce detection risk to an acceptably low level. For issuer audits, testing controls is always required for the ICFR opinion.
+
+:::
 ---
 
 ## Types of Tests of Controls
@@ -77,9 +79,10 @@ Auditors use four primary procedures to test the operating effectiveness of cont
 | **Reperformance** | Strongest | Automated controls; calculations; reconciliations |
 
 :::caution
-**Inquiry alone is never sufficient** as a test of controls. It must always be supplemented with at least one other procedure (observation, inspection, or reperformance). This is a frequently tested concept on the CPA exam.
-:::
 
+**Inquiry alone is never sufficient** as a test of controls. It must always be supplemented with at least one other procedure (observation, inspection, or reperformance). This is a frequently tested concept on the CPA exam.
+
+:::
 ---
 
 ## Evaluating Operating Effectiveness
@@ -125,9 +128,10 @@ If the auditor tested controls in a **prior-year audit** and found them effectiv
 - The auditor should test **some controls every year**, rotating which controls are tested in detail
 
 :::tip Exam Tip
-For the CPA exam, remember the rule of thumb: the auditor must test controls **in the current period** if the auditor plans to rely on them. Prior-year evidence can supplement but generally cannot replace current-year testing, except that the PCAOB allows a rotation approach for lower-risk controls (testing at least every third year).
-:::
 
+For the CPA exam, remember the rule of thumb: the auditor must test controls **in the current period** if the auditor plans to rely on them. Prior-year evidence can supplement but generally cannot replace current-year testing, except that the PCAOB allows a rotation approach for lower-risk controls (testing at least every third year).
+
+:::
 ---
 
 ## Using Results to Assess Control Risk
@@ -179,9 +183,10 @@ A **dual-purpose test** is a single audit procedure that simultaneously serves a
 - If control deviations are found, the auditor must consider whether the planned level of substantive testing remains appropriate
 
 :::tip Exam Tip
-Dual-purpose tests save time and are commonly used in practice. On the CPA exam, remember that findings from each component must be evaluated independently. A control deviation (e.g., missing approval) is a control issue; a dollar misstatement (e.g., wrong price on the invoice) is a substantive issue. Both may be found in the same transaction but have different implications.
-:::
 
+Dual-purpose tests save time and are commonly used in practice. On the CPA exam, remember that findings from each component must be evaluated independently. A control deviation (e.g., missing approval) is a control issue; a dollar misstatement (e.g., wrong price on the invoice) is a substantive issue. Both may be found in the same transaction but have different implications.
+
+:::
 ---
 
 ## Summary: Tests of Controls in the Audit Process

@@ -3,9 +3,10 @@
 When entities receive and expend significant amounts of federal financial assistance, they are subject to heightened accountability requirements. The **Uniform Guidance** (formally codified in **2 CFR Part 200**), issued by the **Office of Management and Budget (OMB)**, provides a comprehensive framework governing the administration, cost principles, and audit requirements for federal awards. Subpart F of the Uniform Guidance specifically addresses **audit requirements**, including the **single audit**—a rigorous, organization-wide audit designed to ensure that recipients of federal funds comply with applicable laws, regulations, and program requirements. Understanding single audit concepts is essential for the AUD section of the CPA exam, particularly blueprint topics **II.G.4** and **III.E.6**.
 
 :::info
-The **Single Audit Act Amendments of 1996** established the legal foundation for the single audit. The **Uniform Guidance (2 CFR Part 200, Subpart F)** implements the Act and replaces the former OMB Circulars A-133, A-87, A-21, and A-122, consolidating audit, cost, and administrative requirements into a single framework.
-:::
 
+The **Single Audit Act Amendments of 1996** established the legal foundation for the single audit. The **Uniform Guidance (2 CFR Part 200, Subpart F)** implements the Act and replaces the former OMB Circulars A-133, A-87, A-21, and A-122, consolidating audit, cost, and administrative requirements into a single framework.
+
+:::
 ---
 
 ## When Is a Single Audit Required?
@@ -20,9 +21,10 @@ The single audit requirement is triggered by the **total amount of federal award
 **Example:** Bear Co., a nonprofit community health organization, expended \$620,000 in federal awards during its fiscal year. Because this amount is below the \$750,000 threshold, Bear Co. is **not** required to have a single audit performed. However, if Bear Co. also receives a new \$200,000 federal grant the following year (bringing total expenditures to \$820,000), a single audit would be required for that year.
 
 :::note
-The \$750,000 threshold applies to **expenditures**, not to the amount of awards received or the award balances. An entity may hold large federal award balances but only trigger the single audit if it actually **expends** \$750,000 or more during the fiscal year.
-:::
 
+The \$750,000 threshold applies to **expenditures**, not to the amount of awards received or the award balances. An entity may hold large federal award balances but only trigger the single audit if it actually **expends** \$750,000 or more during the fiscal year.
+
+:::
 ---
 
 ## Relationship to Government Auditing Standards (Yellow Book)
@@ -34,9 +36,10 @@ A single audit conducted under the Uniform Guidance **must also be performed in 
 - All **Uniform Guidance** requirements (major program determination, compliance testing, SEFA, schedule of findings)
 
 :::tip Exam Tip
-Think of the single audit as a **layered** set of requirements: GAAS forms the foundation, Yellow Book adds governmental requirements on top, and the Uniform Guidance adds federal award–specific requirements on top of that. All three layers apply simultaneously.
-:::
 
+Think of the single audit as a **layered** set of requirements: GAAS forms the foundation, Yellow Book adds governmental requirements on top, and the Uniform Guidance adds federal award–specific requirements on top of that. All three layers apply simultaneously.
+
+:::
 ---
 
 ## The Schedule of Expenditures of Federal Awards (SEFA)
@@ -58,9 +61,10 @@ The **SEFA** is a critical component of the single audit. It provides a complete
 **Example:** Gies Co., a state university, prepares its SEFA listing 14 federal programs totaling \$18.5 million in expenditures. The SEFA includes the ALN number, awarding agency, and expenditure amount for each program, and separately identifies \$2.1 million passed through to subrecipient research partners.
 
 :::caution
-The auditor must **audit the SEFA** in relation to the financial statements as a whole. The SEFA must be prepared by the auditee, and the auditor must determine whether it is fairly stated in all material respects in relation to the financial statements taken as a whole.
-:::
 
+The auditor must **audit the SEFA** in relation to the financial statements as a whole. The SEFA must be prepared by the auditee, and the auditor must determine whether it is fairly stated in all material respects in relation to the financial statements taken as a whole.
+
+:::
 ---
 
 ## Identification of Federal Awards and Major Programs
@@ -97,9 +101,10 @@ The auditor performs a **four-step process** to determine major programs:
 **Example:** Kingfisher Industries, a large nonprofit, expended \$12 million in federal awards across 10 programs. Using the 3% threshold (\$360,000 is less than \$750,000, so the threshold is \$750,000), four programs exceed \$750,000 and are classified as Type A. The auditor assesses one Type A program as low risk (clean findings for two consecutive years) and three as high risk. The auditor also identifies one high-risk Type B program with prior-year findings. All four high-risk programs are tested as major, covering 72% of total federal expenditures.
 
 :::info
-A **low-risk auditee** is one that has had single audits for the prior two years with: (1) unmodified opinions on the financial statements and SEFA, (2) no material weaknesses in internal control, (3) no known or likely questioned costs exceeding 5% of a major program's expenditures, and (4) timely submission of the reporting package.
-:::
 
+A **low-risk auditee** is one that has had single audits for the prior two years with: (1) unmodified opinions on the financial statements and SEFA, (2) no material weaknesses in internal control, (3) no known or likely questioned costs exceeding 5% of a major program's expenditures, and (4) timely submission of the reporting package.
+
+:::
 ---
 
 ## Compliance Requirements for Federal Awards
@@ -124,9 +129,10 @@ For each major program, the auditor tests the entity's compliance with requireme
 **Example:** MAS Inc. receives a \$1.2 million federal workforce development grant. The auditor tests key compliance requirements: (1) **Eligibility** — verifying that program participants met income thresholds, (2) **Activities allowed** — confirming that training expenditures aligned with the grant agreement, (3) **Reporting** — checking that quarterly performance reports were filed on time, and (4) **Period of performance** — ensuring no costs were incurred outside the grant period.
 
 :::warning
-Not all 12 compliance requirements apply to every program. The auditor must consult the **Compliance Supplement** to determine which requirements are applicable to each specific federal program being tested.
-:::
 
+Not all 12 compliance requirements apply to every program. The auditor must consult the **Compliance Supplement** to determine which requirements are applicable to each specific federal program being tested.
+
+:::
 ---
 
 ## The Compliance Supplement
@@ -139,9 +145,10 @@ The **Compliance Supplement** (officially the *OMB Compliance Supplement*) is an
 - Guidance on **audit sampling** and testing approaches
 
 :::tip Exam Tip
-The Compliance Supplement is the auditor's **primary reference** for determining which compliance requirements apply to a specific federal program. It is issued annually by OMB and updated to reflect changes in federal programs and requirements.
-:::
 
+The Compliance Supplement is the auditor's **primary reference** for determining which compliance requirements apply to a specific federal program. It is issued annually by OMB and updated to reflect changes in federal programs and requirements.
+
+:::
 ---
 
 ## Internal Control Over Compliance
@@ -156,9 +163,10 @@ In addition to testing compliance, the auditor must **understand and test intern
 **Example:** Illini Entertainment operates a federal arts education program. The auditor identifies the following internal controls over compliance: (1) a checklist used to verify participant eligibility before enrollment, (2) supervisory review of quarterly financial reports before submission, and (3) automated system controls that prevent expenditure entries outside the grant period. The auditor tests each control and concludes they are operating effectively.
 
 :::note
-Internal control over compliance is **separate from** internal control over financial reporting. An entity may have strong financial reporting controls but weak compliance controls for its federal programs (or vice versa). The auditor must evaluate and report on both.
-:::
 
+Internal control over compliance is **separate from** internal control over financial reporting. An entity may have strong financial reporting controls but weak compliance controls for its federal programs (or vice versa). The auditor must evaluate and report on both.
+
+:::
 ---
 
 ## Reporting Requirements
@@ -189,9 +197,10 @@ This schedule is a critical deliverable that contains three sections:
 **Example:** BIF Partners, a regional transit authority, receives a qualified opinion on compliance for its Federal Transit Administration grant due to unallowable expenditures totaling \$85,000. The schedule of findings and questioned costs reports: (1) the finding number, (2) the federal program and ALN, (3) a description of the condition (unallowable travel expenditures), (4) the criteria (grant agreement and 2 CFR Part 200 cost principles), (5) the questioned cost amount (\$85,000), (6) the cause and effect, and (7) a recommendation.
 
 :::caution
-Each finding must include the following elements: **condition**, **criteria**, **cause**, **effect**, **questioned costs** (if applicable), and a **recommendation**. The auditee must also prepare a **corrective action plan** for each finding and a **summary schedule of prior audit findings** showing the status of findings from the previous audit.
-:::
 
+Each finding must include the following elements: **condition**, **criteria**, **cause**, **effect**, **questioned costs** (if applicable), and a **recommendation**. The auditee must also prepare a **corrective action plan** for each finding and a **summary schedule of prior audit findings** showing the status of findings from the previous audit.
+
+:::
 ---
 
 ## Data Collection Form and Federal Audit Clearinghouse
@@ -216,9 +225,10 @@ The **Federal Audit Clearinghouse** serves as the central repository for all sin
 **Example:** Illini Security, a county government, completes its single audit for the fiscal year ended June 30. The auditor's report is dated October 15. Illini Security must submit the complete reporting package to the Federal Audit Clearinghouse by **November 14** (30 days after receipt of the report), since this is earlier than the 9-month deadline of March 31.
 
 :::warning
-Failure to submit the single audit reporting package to the Federal Audit Clearinghouse by the deadline can result in the entity being designated as **high risk**, potential withholding of federal funds, or other sanctions by federal awarding agencies.
-:::
 
+Failure to submit the single audit reporting package to the Federal Audit Clearinghouse by the deadline can result in the entity being designated as **high risk**, potential withholding of federal funds, or other sanctions by federal awarding agencies.
+
+:::
 ---
 
 ## Summary

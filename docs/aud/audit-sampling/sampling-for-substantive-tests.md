@@ -21,9 +21,10 @@ The auditor uses variables sampling to:
 **Tolerable misstatement** is the maximum monetary error in an account balance that the auditor is willing to accept and still conclude the balance is not materially misstated. It is the substantive testing equivalent of the tolerable deviation rate in attribute sampling.
 
 :::tip
-Tolerable misstatement is typically set at or below **materiality** for the account being tested. The lower the tolerable misstatement, the larger the required sample size, because the auditor needs more evidence to conclude the account is fairly stated within a tighter margin.
-:::
 
+Tolerable misstatement is typically set at or below **materiality** for the account being tested. The lower the tolerable misstatement, the larger the required sample size, because the auditor needs more evidence to conclude the account is fairly stated within a tighter margin.
+
+:::
 ---
 
 ## Factors Affecting Variables Sample Size
@@ -40,16 +41,18 @@ Several factors influence the sample size for variables sampling. Understanding 
 | **Population size** | Direct (minimal effect) | Larger populations may require marginally larger samples, but the effect is usually small |
 
 :::warning
+
 The most commonly tested relationships on the CPA exam are:
 - **Tolerable misstatement ↑ → Sample size ↓** (inverse)
 - **Expected misstatement ↑ → Sample size ↑** (direct)
 - **Acceptable risk of incorrect acceptance ↑ → Sample size ↓** (inverse)
-:::
 
+:::
 :::info Example
-The auditor is planning a variables sample to test **Kingfisher Industries'** inventory balance. Because inventory items range from \$0.50 parts to \$200,000 equipment, the high variability requires a larger sample. Additionally, because the auditor found inventory errors in the prior year, the expected misstatement is set higher, further increasing the required sample size.
-:::
 
+The auditor is planning a variables sample to test **Kingfisher Industries'** inventory balance. Because inventory items range from \$0.50 parts to \$200,000 equipment, the high variability requires a larger sample. Additionally, because the auditor found inventory errors in the prior year, the expected misstatement is set higher, further increasing the required sample size.
+
+:::
 ---
 
 ## Comparing Book Value to Calculated Range
@@ -64,9 +67,10 @@ After the sample is tested, the auditor uses the results to calculate a **point 
 | The **recorded book value** falls **outside** the confidence interval | The balance **may be materially misstated** — investigate further or propose an adjustment |
 
 :::info Example
-The auditor tests a sample of **BIF Partners'** accounts receivable and calculates a point estimate of \$4,850,000 with a precision interval of ±\$200,000 (i.e., \$4,650,000 to \$5,050,000). The recorded book value is \$4,920,000. Since \$4,920,000 falls within the range, the auditor concludes the balance is not materially misstated.
-:::
 
+The auditor tests a sample of **BIF Partners'** accounts receivable and calculates a point estimate of \$4,850,000 with a precision interval of ±\$200,000 (i.e., \$4,650,000 to \$5,050,000). The recorded book value is \$4,920,000. Since \$4,920,000 falls within the range, the auditor concludes the balance is not materially misstated.
+
+:::
 ---
 
 ## Three Classical Variables Sampling Plans
@@ -88,9 +92,10 @@ $$
 - Results in wider confidence intervals unless the population has low variability
 
 :::info Example
-The auditor selects 100 items from **MSA Records'** inventory of 5,000 items. The average audited value per sample item is \$82. The estimated population total is \$82 × 5,000 = \$410,000.
-:::
 
+The auditor selects 100 items from **MSA Records'** inventory of 5,000 items. The average audited value per sample item is \$82. The estimated population total is \$82 × 5,000 = \$410,000.
+
+:::
 ### 2. Ratio Estimation
 
 The auditor calculates the **ratio** of the total audited value to the total book value in the sample, then applies that ratio to the total population book value.
@@ -105,9 +110,10 @@ $$
 - Generally produces **smaller sample sizes** than MPU when there is a high correlation between book and audited values
 
 :::info Example
-From a sample of **Gies Co.'s** receivables, the total book value is \$150,000 and the total audited value is \$147,000. The ratio is \$147,000 / \$150,000 = 0.98. If the total population book value is \$3,000,000, the estimated population value is \$3,000,000 × 0.98 = \$2,940,000.
-:::
 
+From a sample of **Gies Co.'s** receivables, the total book value is \$150,000 and the total audited value is \$147,000. The ratio is \$147,000 / \$150,000 = 0.98. If the total population book value is \$3,000,000, the estimated population value is \$3,000,000 × 0.98 = \$2,940,000.
+
+:::
 ### 3. Difference Estimation
 
 The auditor calculates the **average difference** between the audited value and the book value for sample items, then projects that average difference to the population.
@@ -122,9 +128,10 @@ $$
 - Produces efficient results when there is a **consistent dollar difference** across items (rather than a proportional one)
 
 :::info Example
-The auditor tests 80 items from **MAS Inc.'s** fixed asset records and finds that the average overstatement per item is \$45. With a population of 2,000 fixed assets, the estimated total overstatement is \$45 × 2,000 = \$90,000.
-:::
 
+The auditor tests 80 items from **MAS Inc.'s** fixed asset records and finds that the average overstatement per item is \$45. With a population of 2,000 fixed assets, the estimated total overstatement is \$45 × 2,000 = \$90,000.
+
+:::
 ### Comparison of the Three Plans
 
 | Feature | Mean-Per-Unit | Ratio Estimation | Difference Estimation |
@@ -160,9 +167,10 @@ In PPS sampling, every **dollar** in the account balance has an equal chance of 
 - **Requires special consideration for negative balances** — Credit balances in a debit population (or vice versa) require special handling
 
 :::warning
-PPS sampling is **excellent** for testing for overstatements (such as existence of receivables) but is **poorly suited** for testing for understatements (such as completeness of payables) because understated or omitted items contain fewer or zero dollars and are less likely to be selected.
-:::
 
+PPS sampling is **excellent** for testing for overstatements (such as existence of receivables) but is **poorly suited** for testing for understatements (such as completeness of payables) because understated or omitted items contain fewer or zero dollars and are less likely to be selected.
+
+:::
 ### Sampling Interval Calculation
 
 The sampling interval determines which dollars are selected from the population:
@@ -193,6 +201,7 @@ $$
 $$
 
 :::info Example
+
 The auditor is testing **Illini Entertainment's** accounts receivable balance of \$6,000,000. The tolerable misstatement is \$200,000, and the desired confidence level is 95% (reliability factor = 3.00, assuming zero expected errors).
 
 $$
@@ -204,8 +213,8 @@ $$
 $$
 
 Every 66,667th dollar is selected, and the transaction (or customer balance) that contains that dollar becomes part of the sample.
-:::
 
+:::
 ---
 
 ## Stratification
@@ -223,6 +232,7 @@ Stratification is particularly useful when:
 - The auditor is using **classical variables sampling** (MPU, ratio, or difference estimation) and wants to reduce the required sample size
 
 :::info Example
+
 **Illini Security** has 3,000 customer accounts ranging from \$100 to \$750,000. The auditor stratifies the population into three groups:
 
 | Stratum | Balance Range | Number of Accounts | Approach |
@@ -232,14 +242,15 @@ Stratification is particularly useful when:
 | 3 | Under \$10,000 | 2,700 | Select a smaller statistical sample |
 
 By stratifying, the auditor ensures comprehensive coverage of large balances while maintaining an efficient sample size for smaller balances.
-:::
 
+:::
 ### Stratification and PPS Sampling
 
 :::note
-PPS sampling **inherently stratifies** because each dollar has an equal probability of selection. Larger items are automatically more likely to be included in the sample. Therefore, separate stratification is generally unnecessary when using PPS sampling—it is already built into the methodology.
-:::
 
+PPS sampling **inherently stratifies** because each dollar has an equal probability of selection. Larger items are automatically more likely to be included in the sample. Therefore, separate stratification is generally unnecessary when using PPS sampling—it is already built into the methodology.
+
+:::
 ### Benefits of Stratification
 
 - **Reduces overall sample size** needed to achieve a given level of precision

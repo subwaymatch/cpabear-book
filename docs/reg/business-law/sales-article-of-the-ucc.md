@@ -5,9 +5,10 @@
 The **Sales Article of the UCC (Uniform Commercial Code Article 2)** governs the sale of **goods** — tangible, movable personal property. It does not apply to the sale of services, real estate, or intangible assets. When a transaction involves a mix of goods and services, courts typically apply the **predominant-purpose test** to determine whether Article 2 governs.
 
 :::info Goods vs. Services
-If Kingfisher Industries hires a contractor to install a custom HVAC system, the contract may involve both goods (the HVAC unit) and services (installation labor). If the primary purpose is acquiring the goods, the UCC applies. If the primary purpose is the service, common law governs.
-:::
 
+If Kingfisher Industries hires a contractor to install a custom HVAC system, the contract may involve both goods (the HVAC unit) and services (installation labor). If the primary purpose is acquiring the goods, the UCC applies. If the primary purpose is the service, common law governs.
+
+:::
 ### Merchants vs. Non-Merchants
 
 The UCC imposes **higher standards** on merchants — parties who deal in goods of the kind involved in the transaction or who hold themselves out as having special knowledge or skill in the goods.
@@ -21,9 +22,10 @@ The UCC imposes **higher standards** on merchants — parties who deal in goods 
 | **Confirmation rule** | Written confirmation enforceable between merchants within the Statute of Frauds | Not applicable |
 
 :::tip
-Bear Co., a commercial office furniture dealer, is a **merchant** when selling desks and chairs. However, if Bear Co. sells its old company van, it is likely **not** a merchant for that transaction because it does not regularly deal in vehicles.
-:::
 
+Bear Co., a commercial office furniture dealer, is a **merchant** when selling desks and chairs. However, if Bear Co. sells its old company van, it is likely **not** a merchant for that transaction because it does not regularly deal in vehicles.
+
+:::
 ### Good Faith Obligation
 
 Every contract under the UCC imposes an obligation of **good faith** in performance and enforcement. For merchants, this means not only honesty in fact, but also observance of **reasonable commercial standards of fair dealing** in the trade.
@@ -55,9 +57,10 @@ A **merchant's firm offer** is irrevocable **without consideration** if:
 The maximum irrevocability period is **3 months**. If the offer states it will be held open longer, it is only firm for 3 months — after that, it becomes a revocable offer.
 
 :::caution
-If Gies Co. (a merchant) sends Bear Co. a signed letter stating, "We will hold this offer open for 6 months," the offer is firm for only **3 months**. After that, Gies Co. can revoke at any time before Bear Co. accepts. No consideration is needed for the first 3 months.
-:::
 
+If Gies Co. (a merchant) sends Bear Co. a signed letter stating, "We will hold this offer open for 6 months," the offer is firm for only **3 months**. After that, Gies Co. can revoke at any time before Bear Co. accepts. No consideration is needed for the first 3 months.
+
+:::
 ### Acceptance — No Mirror Image Rule
 
 Under common law, an acceptance must be the **mirror image** of the offer — any deviation is treated as a counteroffer. The UCC rejects this approach.
@@ -72,9 +75,10 @@ Under UCC § 2-207 (the "Battle of the Forms"):
 - If one or both parties are **non-merchants**, additional terms are merely **proposals** that do not become part of the contract unless expressly agreed to.
 
 :::note Example
-MAS Inc. offers to sell 500 units of inventory to Illini Entertainment at \$20 per unit. Illini Entertainment responds: "We accept, and we require that all disputes be resolved by arbitration." The arbitration clause is an **additional term**. If both parties are merchants, the arbitration clause becomes part of the contract unless it materially alters the deal or MAS Inc. timely objects.
-:::
 
+MAS Inc. offers to sell 500 units of inventory to Illini Entertainment at \$20 per unit. Illini Entertainment responds: "We accept, and we require that all disputes be resolved by arbitration." The arbitration clause is an **additional term**. If both parties are merchants, the arbitration clause becomes part of the contract unless it materially alters the deal or MAS Inc. timely objects.
+
+:::
 ### Shipment as Acceptance
 
 Unless the offer clearly requires acceptance by a specific method, the UCC allows acceptance by:
@@ -96,9 +100,10 @@ If the seller ships **nonconforming goods**, this constitutes both an acceptance
 Under the UCC, an agreement to **modify** an existing contract for the sale of goods **does not require new consideration** — a significant departure from common law. The modification must, however, be made in **good faith**.
 
 :::tip
-If BIF Partners agrees to buy 1,000 widgets from Kingfisher Industries at \$10 each, and the parties later agree to increase the price to \$12 due to a raw materials shortage, the modification is enforceable under the UCC **without additional consideration** — as long as it was made in good faith and not under duress.
-:::
 
+If BIF Partners agrees to buy 1,000 widgets from Kingfisher Industries at \$10 each, and the parties later agree to increase the price to \$12 due to a raw materials shortage, the modification is enforceable under the UCC **without additional consideration** — as long as it was made in good faith and not under duress.
+
+:::
 ---
 
 ## Defenses Under the Sales Article
@@ -125,17 +130,19 @@ A contract for the sale of goods priced at **\$500 or more** must be evidenced b
 | **P** — Performance | Goods have been **accepted and paid for** or have been **received and accepted** — but only for the quantity actually performed |
 
 :::caution
-Illini Security (a merchant) orally agrees to purchase \$5,000 in surveillance cameras from Gies Co. (also a merchant). Gies Co. sends a written confirmation. If Illini Security does not object in writing within **10 days**, the contract is enforceable under the merchant confirmation exception — even though Illini Security never signed anything.
-:::
 
+Illini Security (a merchant) orally agrees to purchase \$5,000 in surveillance cameras from Gies Co. (also a merchant). Gies Co. sends a written confirmation. If Illini Security does not object in writing within **10 days**, the contract is enforceable under the merchant confirmation exception — even though Illini Security never signed anything.
+
+:::
 ### Commercial Impracticability
 
 A seller may be excused from performance if delivery has become **commercially impracticable** due to the occurrence of a contingency whose non-occurrence was a basic assumption of the contract. This is a narrow defense — mere increase in cost is generally not sufficient.
 
 :::note
-If a government embargo prevents Kingfisher Industries from obtaining raw materials needed to fulfill an order, Kingfisher Industries may be excused under the impracticability doctrine. However, if the price of raw materials simply doubles, Kingfisher Industries is generally **not** excused.
-:::
 
+If a government embargo prevents Kingfisher Industries from obtaining raw materials needed to fulfill an order, Kingfisher Industries may be excused under the impracticability doctrine. However, if the price of raw materials simply doubles, Kingfisher Industries is generally **not** excused.
+
+:::
 ### Failure of Agreed-Upon Transportation
 
 If the agreed-upon method of delivery becomes unavailable or commercially impracticable, a **commercially reasonable substitute** must be tendered and accepted if available.
@@ -177,9 +184,10 @@ When **no carrier** is involved (e.g., buyer picks up goods):
 | **Non-merchant seller** | Seller **tenders delivery** (makes goods available) |
 
 :::tip
-Bear Co. (a merchant) sells office furniture to a customer who will pick it up. Even after Bear Co. calls the customer and says the furniture is ready, the risk of loss stays with Bear Co. until the customer **actually picks up** the goods. If the furniture is destroyed by a fire overnight, Bear Co. bears the loss.
-:::
 
+Bear Co. (a merchant) sells office furniture to a customer who will pick it up. Even after Bear Co. calls the customer and says the furniture is ready, the risk of loss stays with Bear Co. until the customer **actually picks up** the goods. If the furniture is destroyed by a fire overnight, Bear Co. bears the loss.
+
+:::
 ### Risk of Loss — Carrier Cases
 
 | Contract Type | Risk Passes When... |
@@ -195,9 +203,10 @@ A party who **breaches** the contract bears the risk of loss — even if the ris
 - If the **buyer** breaches (e.g., repudiates before goods are delivered), the buyer bears the risk of loss to the extent of any deficiency in the seller's insurance coverage, for a **commercially reasonable time**.
 
 :::warning
-MAS Inc. ships nonconforming goods to BIF Partners. The goods are damaged in transit. Even though this is a shipment contract (risk normally passes at the carrier), MAS Inc. bears the risk because it breached by shipping nonconforming goods.
-:::
 
+MAS Inc. ships nonconforming goods to BIF Partners. The goods are damaged in transit. Even though this is a shipment contract (risk normally passes at the carrier), MAS Inc. bears the risk because it breached by shipping nonconforming goods.
+
+:::
 ### Sale on Approval vs. Sale or Return
 
 | Feature | Sale on Approval | Sale or Return |
@@ -224,9 +233,10 @@ Title passes at the time and place the seller **completes physical delivery**:
 An **express warranty** is created when the seller makes an **affirmation of fact or promise**, provides a **description** of the goods, or shows a **sample or model** that becomes part of the **basis of the bargain**. The buyer does not need to show reliance — only that the representation was part of the basis of the bargain.
 
 :::caution Key Rule
-Express warranties **cannot be disclaimed**. Any attempt to disclaim an express warranty that conflicts with the warranty is inoperative. If Illini Entertainment's sales brochure states that a sound system "produces 500 watts of power," this is an express warranty that cannot be disclaimed by fine-print language saying "no warranties, express or implied."
-:::
 
+Express warranties **cannot be disclaimed**. Any attempt to disclaim an express warranty that conflicts with the warranty is inoperative. If Illini Entertainment's sales brochure states that a sound system "produces 500 watts of power," this is an express warranty that cannot be disclaimed by fine-print language saying "no warranties, express or implied."
+
+:::
 Mere **puffery** (vague statements of opinion like "this is the best product on the market") does **not** create an express warranty.
 
 ### Implied Warranty of Title
@@ -240,9 +250,10 @@ The **implied warranty of title** automatically arises in every sale of goods un
 A seller who is a **merchant** also warrants against **infringement** — that the goods do not violate any third party's patent, trademark, or copyright.
 
 :::note
-This warranty protects the buyer from surprises like discovering the purchased goods are subject to a creditor's lien or another party's ownership claim. If Bear Co. buys equipment from Gies Co. and it turns out a bank has a perfected security interest in that equipment, Gies Co. has breached the warranty of title.
-:::
 
+This warranty protects the buyer from surprises like discovering the purchased goods are subject to a creditor's lien or another party's ownership claim. If Bear Co. buys equipment from Gies Co. and it turns out a bank has a perfected security interest in that equipment, Gies Co. has breached the warranty of title.
+
+:::
 To disclaim the warranty of title, the seller must use **specific language** identifying that title is being disclaimed, or the circumstances must give the buyer **reason to know** that the seller does not claim full title (e.g., a sheriff's sale or foreclosure sale).
 
 ### Implied Warranty of Merchantability
@@ -257,9 +268,10 @@ The **implied warranty of merchantability** arises automatically in every sale b
 - Pass without objection in the **trade** under the contract description
 
 :::tip
-If Kingfisher Industries, a manufacturer of industrial pumps, sells a pump that fails during normal use within weeks of delivery, the implied warranty of merchantability has been breached. The pump was not fit for the ordinary purpose of pumping.
-:::
 
+If Kingfisher Industries, a manufacturer of industrial pumps, sells a pump that fails during normal use within weeks of delivery, the implied warranty of merchantability has been breached. The pump was not fit for the ordinary purpose of pumping.
+
+:::
 ### Implied Warranty of Fitness for a Particular Purpose
 
 This warranty arises when:
@@ -271,9 +283,10 @@ This warranty arises when:
 Unlike merchantability, this warranty can arise from **any seller** — not just merchants. The key distinction is that the buyer has a **specific, non-ordinary** use in mind.
 
 :::note Example
-Illini Security tells MAS Inc. (a chemical supplier) that it needs a cleaning solution strong enough to remove industrial adhesive residue from surveillance camera lenses without damaging the coatings. MAS Inc. recommends Product X. If Product X damages the lens coatings, MAS Inc. has breached the implied warranty of fitness for a particular purpose — even if Product X works perfectly for general cleaning.
-:::
 
+Illini Security tells MAS Inc. (a chemical supplier) that it needs a cleaning solution strong enough to remove industrial adhesive residue from surveillance camera lenses without damaging the coatings. MAS Inc. recommends Product X. If Product X damages the lens coatings, MAS Inc. has breached the implied warranty of fitness for a particular purpose — even if Product X works perfectly for general cleaning.
+
+:::
 ### Disclaimer Rules
 
 | Warranty | How to Disclaim |
@@ -285,9 +298,10 @@ Illini Security tells MAS Inc. (a chemical supplier) that it needs a cleaning so
 | **All implied warranties** | Disclaimed by phrases like **"as is"** or **"with all faults"** |
 
 :::warning
-A blanket "as is" disclaimer eliminates implied warranties of merchantability and fitness — but it does **not** disclaim express warranties or the warranty of title. Sellers cannot make promises and then take them away in the fine print.
-:::
 
+A blanket "as is" disclaimer eliminates implied warranties of merchantability and fitness — but it does **not** disclaim express warranties or the warranty of title. Sellers cannot make promises and then take them away in the fine print.
+
+:::
 ---
 
 ## Remedies
@@ -311,9 +325,10 @@ When **reasonable grounds for insecurity** arise about the other party's ability
 3. Treat the contract as **repudiated** if assurance is not provided within a **reasonable time** (not exceeding **30 days**).
 
 :::tip
-BIF Partners contracts to buy \$100,000 in inventory from Gies Co. BIF Partners then learns Gies Co. has defaulted on several supplier payments. BIF Partners may demand written assurances from Gies Co. that it will perform. If Gies Co. fails to respond within 30 days, BIF Partners may treat the contract as repudiated.
-:::
 
+BIF Partners contracts to buy \$100,000 in inventory from Gies Co. BIF Partners then learns Gies Co. has defaulted on several supplier payments. BIF Partners may demand written assurances from Gies Co. that it will perform. If Gies Co. fails to respond within 30 days, BIF Partners may treat the contract as repudiated.
+
+:::
 ### Seller's Remedies
 
 When the **buyer** breaches or repudiates, the seller may:
@@ -342,9 +357,10 @@ When the **seller** breaches or repudiates, the buyer may:
 | **Recover damages for accepted goods** | If the buyer has accepted nonconforming goods, the buyer may recover the loss resulting in the ordinary course of events from the seller's breach, as determined in any reasonable manner |
 
 :::note Perfect Tender Rule
-Under common law, substantial performance is sufficient. Under the UCC, the **perfect tender rule** applies: goods must conform to the contract in **every** respect, or the buyer can reject. However, the seller has a **right to cure** if the time for performance has not yet expired.
-:::
 
+Under common law, substantial performance is sufficient. Under the UCC, the **perfect tender rule** applies: goods must conform to the contract in **every** respect, or the buyer can reject. However, the seller has a **right to cure** if the time for performance has not yet expired.
+
+:::
 ### Duty to Mitigate
 
 Both parties have a general obligation to **mitigate damages**. A buyer cannot sit idle and accumulate damages when reasonable steps could reduce the loss. Similarly, a seller should make reasonable efforts to resell goods rather than letting them waste.
@@ -364,9 +380,10 @@ The UCC does **not** provide for punitive damages. Remedies are designed to put 
 **Entrusting** occurs when an owner delivers goods to a merchant who deals in goods of that kind. Under UCC § 2-403(2), a merchant who receives entrusted goods has the power to transfer **all rights of the entruster** to a **buyer in the ordinary course of business**.
 
 :::warning Key Rule
-If Illini Entertainment delivers a vintage guitar to a music store (a merchant that deals in guitars) for repair, and the music store mistakenly sells the guitar to a customer who buys in good faith, the customer obtains **good title** to the guitar. Illini Entertainment's remedy is against the music store — not the innocent buyer. This rule protects good-faith purchasers who buy from merchants in the ordinary course of business.
-:::
 
+If Illini Entertainment delivers a vintage guitar to a music store (a merchant that deals in guitars) for repair, and the music store mistakenly sells the guitar to a customer who buys in good faith, the customer obtains **good title** to the guitar. Illini Entertainment's remedy is against the music store — not the innocent buyer. This rule protects good-faith purchasers who buy from merchants in the ordinary course of business.
+
+:::
 The entrusting rule applies regardless of whether the merchant was authorized to sell the goods. The policy rationale is that **buyers in the ordinary course** should be able to trust that a merchant has the right to sell goods displayed in their store.
 
 | Element | Requirement |
@@ -377,5 +394,7 @@ The entrusting rule applies regardless of whether the merchant was authorized to
 | **Effect** | Buyer gets all rights the entruster had — even though the merchant had no authority to sell |
 
 :::tip Exam Application
+
 Entrusting questions test whether the buyer qualifies as a **buyer in the ordinary course of business**. If the buyer knows the merchant has no right to sell the goods, the buyer does not qualify. Similarly, if the goods are not part of the merchant's ordinary inventory (e.g., a pawn shop selling a TV left for repair), the rule may not apply.
+
 :::

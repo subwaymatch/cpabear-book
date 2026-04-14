@@ -169,7 +169,9 @@ Dr. Deferred tax asset          3,150
 
 A **valuation allowance** reduces the DTA to the amount that is **more likely than not** (greater than 50% probability) to be realized.
 :::warning
+
 If it is more likely than not that **some or all** of the DTA will not be realized, a valuation allowance must be established.
+
 :::
 Factors suggesting a valuation allowance is needed:
 
@@ -226,7 +228,9 @@ Dr. Deferred tax liability     28,000
 | 2021 and later          | **No carryback** | Indefinite, **80% of taxable income** limit |
 
 :::tip Exam Tip
+
 For losses arising in 2021 and later, the NOL carryforward can offset only **80%** of taxable income in any given year. The remaining 20% is taxable.
+
 :::
 **Example:** Illini Security has a 2024 NOL of \$100,000 and taxable income of \$150,000 in 2025:
 
@@ -287,9 +291,10 @@ $$
 $$
 
 :::note
-An exception exists if the investor can demonstrate the undistributed earnings will be reinvested indefinitely (the "indefinite reversal" criterion).
-:::
 
+An exception exists if the investor can demonstrate the undistributed earnings will be reinvested indefinitely (the "indefinite reversal" criterion).
+
+:::
 ---
 
 ## Summary

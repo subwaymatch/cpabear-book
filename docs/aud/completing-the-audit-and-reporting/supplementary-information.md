@@ -15,9 +15,10 @@ The fundamental objective when dealing with supplementary information is to **de
 3. **The relationship between the supplementary information and the audited financial statements** — The auditor must evaluate whether the information is consistent with the audited financial statements and whether it is fairly stated
 
 :::info
-The auditor's report on the basic financial statements does not cover supplementary information unless the auditor has been specifically engaged to report on it or is required by standards to perform specific procedures.
-:::
 
+The auditor's report on the basic financial statements does not cover supplementary information unless the auditor has been specifically engaged to report on it or is required by standards to perform specific procedures.
+
+:::
 ---
 
 ## Required Supplementary Information (RSI)
@@ -69,9 +70,10 @@ If the auditor encounters problems with the RSI, the report must be modified acc
 **Example:** MAS Inc. is required to present a schedule of employer contributions to its pension plan as RSI. Management includes the schedule, but the auditor notices the actuarial assumptions used are inconsistent with those disclosed in the pension note. The auditor describes this inconsistency in the other-matter paragraph.
 
 :::warning
-The auditor's responsibility for RSI is **limited** — but that doesn't mean the auditor can ignore it. Omissions, material departures, and inconsistencies must all be reported.
-:::
 
+The auditor's responsibility for RSI is **limited** — but that doesn't mean the auditor can ignore it. Omissions, material departures, and inconsistencies must all be reported.
+
+:::
 ---
 
 ## Other (Voluntary) Supplementary Information
@@ -123,9 +125,10 @@ When the auditor has been engaged to report on voluntary SI, the opinion can be 
 2. **In a separate report** — the auditor issues a stand-alone report on the SI
 
 :::tip
-The "in relation to" opinion is a **lesser level of assurance** than the opinion on the basic financial statements. It means the SI is fairly stated **relative to** the financial statements as a whole — not that it would stand on its own. Think of it as the SI being "along for the ride" with the basic financial statements.
-:::
 
+The "in relation to" opinion is a **lesser level of assurance** than the opinion on the basic financial statements. It means the SI is fairly stated **relative to** the financial statements as a whole — not that it would stand on its own. Think of it as the SI being "along for the ride" with the basic financial statements.
+
+:::
 ---
 
 ## Auditor Responsibility for Other Information in Documents
@@ -166,9 +169,10 @@ The auditor does **not** audit the other information and does **not** express an
 **Example:** Illini Entertainment includes a letter from the CEO in its annual report that states the company achieved "record-breaking revenue growth of 25%." The auditor reviews this and notes that the audited income statement shows revenue growth of only 12%. This is a material inconsistency. The auditor discusses the discrepancy with management and requests correction of the CEO's letter. If management refuses, the auditor evaluates the effect on the report and may include additional language.
 
 :::note
-For **nonissuer** audits under AICPA standards, the auditor may include an **"Other Information"** section in the auditor's report, which describes the auditor's responsibilities for the other information, states that the auditor read it, and notes whether any material inconsistencies were identified.
-:::
 
+For **nonissuer** audits under AICPA standards, the auditor may include an **"Other Information"** section in the auditor's report, which describes the auditor's responsibilities for the other information, states that the auditor read it, and notes whether any material inconsistencies were identified.
+
+:::
 ---
 
 ## Comparison: RSI vs. Voluntary SI vs. Other Information
@@ -195,6 +199,7 @@ For **nonissuer** audits under AICPA standards, the auditor may include an **"Ot
 | **Adverse or disclaimer** | Cannot issue an "in relation to" opinion if the basic financial statement opinion is adverse or a disclaimer |
 
 :::tip Final Exam Tip
-When a question asks about supplementary information, first determine: **(1)** Is it required (RSI) or voluntary? **(2)** Was the auditor engaged to report on it? Your answers to these two questions determine everything — the procedures, the assurance level, and the reporting.
-:::
 
+When a question asks about supplementary information, first determine: **(1)** Is it required (RSI) or voluntary? **(2)** Was the auditor engaged to report on it? Your answers to these two questions determine everything — the procedures, the assurance level, and the reporting.
+
+:::

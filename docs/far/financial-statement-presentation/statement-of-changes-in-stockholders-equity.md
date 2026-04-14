@@ -2,9 +2,10 @@
 
 The **statement of changes in stockholders' equity** (also called the **statement of shareholders' equity**) reconciles the beginning and ending balances of each component of equity for the reporting period. It provides a comprehensive view of all transactions that affected owners' equity.
 :::info Key Concept
-While the balance sheet shows equity at a point in time and the income statement shows one period's earnings, this statement ties them together — showing _how_ equity moved from the beginning to the end of the period.
-:::
 
+While the balance sheet shows equity at a point in time and the income statement shows one period's earnings, this statement ties them together — showing _how_ equity moved from the beginning to the end of the period.
+
+:::
 ---
 
 ## Purpose and Importance
@@ -110,9 +111,10 @@ Dr. Retained earnings      250,000
 ```
 
 :::note
-A small stock dividend (< 20-25%) is recorded at **fair market value**. A large stock dividend (≥ 20-25%) is recorded at **par value**. Stock splits require no journal entry — only a memo entry.
-:::
 
+A small stock dividend (< 20-25%) is recorded at **fair market value**. A large stock dividend (≥ 20-25%) is recorded at **par value**. Stock splits require no journal entry — only a memo entry.
+
+:::
 ### Prior Period Adjustment
 
 **MAS Inc. discovers it understated depreciation expense by \$30,000 in the prior year (tax rate 25%):**
@@ -199,7 +201,7 @@ The AOCI column tracks cumulative other comprehensive income items:
 ## Relationship to Other Statements
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Income Statement] -->|Net Income| B[Statement of Changes in SE]
     C[Statement of Comprehensive Income] -->|OCI| B
     B -->|Ending Balances| D[Balance Sheet - Equity Section]
@@ -207,9 +209,10 @@ flowchart LR
 ```
 
 :::warning
-The statement of changes in stockholders' equity is the **linking statement** — it connects the period statements (income, comprehensive income, cash flows) to the point-in-time balance sheet.
-:::
 
+The statement of changes in stockholders' equity is the **linking statement** — it connects the period statements (income, comprehensive income, cash flows) to the point-in-time balance sheet.
+
+:::
 ---
 
 ## Noncontrolling Interest

@@ -42,9 +42,10 @@ The corporation computes taxable income separately and pays tax at corporate rat
 | **Taxable income** | The amount subject to the corporate tax rate |
 
 :::info Accounting Method — Accrual Requirement
-C corporations with average annual **gross receipts exceeding \$31 million** (for tax years beginning in 2025) over the prior three-year period must use the **accrual method** of accounting. Smaller corporations may use either the cash or accrual method. The threshold is adjusted annually for inflation.
-:::
 
+C corporations with average annual **gross receipts exceeding \$31 million** (for tax years beginning in 2025) over the prior three-year period must use the **accrual method** of accounting. Smaller corporations may use either the cash or accrual method. The threshold is adjusted annually for inflation.
+
+:::
 ### Compensation deductions
 
 Compensation paid to employees is generally deductible if it is **reasonable in amount** and paid for services actually rendered.
@@ -56,9 +57,10 @@ Compensation paid to employees is generally deductible if it is **reasonable in 
 - **Related-party payments:** Compensation owed to a related party (e.g., a controlling shareholder) by an accrual-basis corporation is not deductible until the year the related party **includes it in income** — effectively forcing cash-basis treatment for the deduction.
 
 :::caution Compensation vs. Dividends
-The IRS closely scrutinizes shareholder-employee compensation. If compensation is deemed unreasonably **high**, the excess is recharacterized as a nondeductible **dividend**. Conversely, if a corporation pays no salary and distributes all profits, the IRS may recharacterize distributions as compensation subject to payroll taxes.
-:::
 
+The IRS closely scrutinizes shareholder-employee compensation. If compensation is deemed unreasonably **high**, the excess is recharacterized as a nondeductible **dividend**. Conversely, if a corporation pays no salary and distributes all profits, the IRS may recharacterize distributions as compensation subject to payroll taxes.
+
+:::
 ### Bad debts
 
 For tax purposes, C corporations must use the **direct write-off method** — a deduction is allowed only when a specific receivable becomes **wholly or partially worthless**.
@@ -100,9 +102,10 @@ A C corporation may deduct charitable contributions up to **10% of taxable incom
 **Example:** MAS Inc. has taxable income of \$800,000 before charitable contributions and DRD. The maximum deduction is 10% × \$800,000 = **\$80,000**. If MAS donated \$95,000, only \$80,000 is deducted currently; the \$15,000 excess carries forward for up to five years.
 
 :::tip Accrual-Basis Timing Rule
-An accrual-basis C corporation can elect to deduct a charitable contribution in the year the **board of directors authorizes** the donation, as long as payment is made by the **15th day of the 4th month** following the close of the tax year (e.g., April 15 for a calendar-year corporation).
-:::
 
+An accrual-basis C corporation can elect to deduct a charitable contribution in the year the **board of directors authorizes** the donation, as long as payment is made by the **15th day of the 4th month** following the close of the tax year (e.g., April 15 for a calendar-year corporation).
+
+:::
 ### Business casualty losses
 
 A C corporation can deduct **casualty and theft losses** related to business property. Unlike individuals, corporations are **not** subject to the \$100 floor or the 10%-of-AGI threshold. Business casualty losses are deductible as ordinary losses.
@@ -121,9 +124,10 @@ The \$5,000 immediate deduction is **reduced dollar-for-dollar** when total orga
 | Start-up costs | Market surveys, advertising before opening, training employees | Up to \$5,000 | 180 months |
 
 :::note
-Costs of issuing stock (e.g., commissions, printing stock certificates) are **not** organizational expenditures. They reduce paid-in capital and are never deductible.
-:::
 
+Costs of issuing stock (e.g., commissions, printing stock certificates) are **not** organizational expenditures. They reduce paid-in capital and are never deductible.
+
+:::
 **Example:** Illini Entertainment incorporates and incurs \$4,200 in organizational expenditures and \$48,000 in start-up costs. In year one, it deducts \$4,200 of organizational expenditures immediately (under the \$5,000 limit). For start-up costs, it deducts \$5,000 immediately and amortizes the remaining \$43,000 over 180 months.
 
 ### Capital gains and losses
@@ -141,9 +145,10 @@ C corporations follow unique capital gain and loss rules:
 **Example:** Bear Co. has \$600,000 of ordinary income and a \$45,000 net capital loss in 2025. Bear Co. cannot deduct any of the capital loss against ordinary income. It must carry the loss back 3 years or forward up to 5 years to offset capital gains in those years.
 
 :::caution
-Unlike individuals, C corporations receive **no preferential tax rate** on long-term capital gains — all capital gains are taxed at the flat 21% corporate rate.
-:::
 
+Unlike individuals, C corporations receive **no preferential tax rate** on long-term capital gains — all capital gains are taxed at the flat 21% corporate rate.
+
+:::
 ### Inventory valuation methods
 
 C corporations with inventory must account for it using an acceptable method:
@@ -182,9 +187,10 @@ Gies Co. owns 25% of MAS Inc. stock and receives \$100,000 in dividends. Gies Co
 Since \$65,000 < \$91,000, the full \$65,000 DRD is allowed.
 
 :::info NOL Exception
-If applying the full DRD would create or increase an NOL, the taxable income limitation is **disregarded** and the corporation takes the full DRD. This exception is commonly tested.
-:::
 
+If applying the full DRD would create or increase an NOL, the taxable income limitation is **disregarded** and the corporation takes the full DRD. This exception is commonly tested.
+
+:::
 ---
 
 ## Book-to-tax differences
@@ -222,14 +228,15 @@ These **never** reverse and create no deferred tax effect.
 - **Schedule M-3** is required for corporations with total assets of **\$10 million or more** and provides a more detailed reconciliation with separate columns for temporary and permanent differences.
 
 :::tip Schedule M-1 Shortcut
+
 Start with **book income**, then:
 - **Add back** items deducted on books but not on the return (e.g., federal tax expense, excess capital losses, 50% of meals)
 - **Add back** income reported on the return but not on books (e.g., prepaid income received)
 - **Subtract** income on books not on the return (e.g., tax-exempt interest)
 - **Subtract** deductions on the return not on books (e.g., excess tax depreciation)
 = **Taxable income**
-:::
 
+:::
 ---
 
 ## Tax computation
@@ -260,9 +267,10 @@ To avoid an underpayment penalty, the corporation generally must pay the **lesse
 - 100% of prior-year tax liability (not available for **large corporations** after the first installment)
 
 :::note Large Corporation Rule
-A **large corporation** (taxable income ≥ \$1 million in any of the three preceding years) may use the prior-year safe harbor only for the **first installment**. The remaining three installments must be based on the current-year liability.
-:::
 
+A **large corporation** (taxable income ≥ \$1 million in any of the three preceding years) may use the prior-year safe harbor only for the **first installment**. The remaining three installments must be based on the current-year liability.
+
+:::
 ### Tax credits
 
 C corporations may reduce their tax liability with various credits:
@@ -292,9 +300,10 @@ The **accumulated earnings tax** discourages C corporations from retaining earni
 **Example:** Illini Security is a C corporation with accumulated E&P of \$400,000 and no specific plans for using the excess funds. The IRS may assert the accumulated earnings tax on the amount exceeding \$250,000 — that is, on \$150,000, resulting in a potential tax of \$150,000 × 20% = **\$30,000**.
 
 :::caution
-The accumulated earnings tax is based on the **subjective** determination that the corporation is retaining earnings to avoid dividends. Corporations should document specific, definite, and feasible **business plans** for retained funds (e.g., expansion, debt retirement, working capital needs).
-:::
 
+The accumulated earnings tax is based on the **subjective** determination that the corporation is retaining earnings to avoid dividends. Corporations should document specific, definite, and feasible **business plans** for retained funds (e.g., expansion, debt retirement, working capital needs).
+
+:::
 ### Personal holding company (PHC) tax
 
 The PHC tax targets closely held corporations used primarily to hold passive investments.
@@ -325,9 +334,10 @@ The treatment of corporate NOLs depends on when the loss arose:
 **Example:** Bear Co. generates a \$500,000 NOL in 2025. In 2026, Bear Co. has taxable income of \$400,000 before the NOL deduction. The maximum NOL deduction in 2026 is 80% × \$400,000 = **\$320,000**. The remaining \$180,000 carries forward indefinitely.
 
 :::info
-The 80% limitation ensures that a profitable corporation always pays **some** tax in years when it uses post-2017 NOL carryforwards. This is a frequently tested concept.
-:::
 
+The 80% limitation ensures that a profitable corporation always pays **some** tax in years when it uses post-2017 NOL carryforwards. This is a frequently tested concept.
+
+:::
 ### Capital loss rules recap
 
 Remember that C corporation capital losses follow different rules from individuals:

@@ -46,9 +46,10 @@ Not all tax return preparers have the same ability to represent taxpayers before
 | **Limited Representation** | Annual Filing Season Program (AFSP) participants | May represent only taxpayers whose returns they signed and prepared, and only before revenue agents and customer service representatives |
 
 :::tip
-For the CPA exam, remember that CPAs, attorneys, and EAs have **unlimited** representation rights. All other preparers (including AFSP participants) have limited or no representation rights.
-:::
 
+For the CPA exam, remember that CPAs, attorneys, and EAs have **unlimited** representation rights. All other preparers (including AFSP participants) have limited or no representation rights.
+
+:::
 ---
 
 ### Application in Practice: The Tax Firm Scenario
@@ -99,9 +100,10 @@ This more severe penalty applies when a preparer's conduct rises to the level of
 > **Example:** Sarah, a preparer at Gies Co., intentionally ignores Treasury Regulations and fabricates deductions to reduce a client's tax liability. She earned a \$10,000 fee. Her penalty is the greater of \$5,000 or 75% × \$10,000 = **\$7,500**.
 
 :::caution
-The §6694(b) penalty is reduced by any §6694(a) penalty already assessed on the same return. The two penalties are not stacked on top of each other.
-:::
 
+The §6694(b) penalty is reduced by any §6694(a) penalty already assessed on the same return. The two penalties are not stacked on top of each other.
+
+:::
 ---
 
 ## Tax Return Preparer Penalties for Unethical Behavior
@@ -119,9 +121,10 @@ Beyond taking unreasonable positions, preparers face separate penalties for fail
 | Failure to exercise due diligence for credits (EITC, CTC, AOTC, HOH status) | \$560 per failure per return | §6695(g) |
 
 :::info
-A preparer must **never** endorse or cash a client's refund check. Even depositing the check into a client trust account is a violation. The only permissible arrangement is having the refund direct-deposited into the client's own bank account.
-:::
 
+A preparer must **never** endorse or cash a client's refund check. Even depositing the check into a client trust account is a violation. The only permissible arrangement is having the refund direct-deposited into the client's own bank account.
+
+:::
 > **Example:** Jamie, a preparer at MAS Inc., files 600 returns during the tax season. On 10 of those returns, Jamie fails to include the PTIN. The total penalty is 10 × \$50 = **\$500**.
 
 ---
@@ -206,9 +209,10 @@ flowchart TD
 - **90-Day Letter (Notice of Deficiency):** A **statutory notice** that is legally required before the IRS can assess additional tax. The taxpayer has exactly **90 days** (150 days if the taxpayer is outside the United States) to file a petition with the U.S. Tax Court.
 
 :::warning
-If the taxpayer does **not** petition the Tax Court within the 90-day window, the proposed deficiency becomes final and the IRS may proceed with collection. This deadline is strictly enforced and cannot be extended.
-:::
 
+If the taxpayer does **not** petition the Tax Court within the 90-day window, the proposed deficiency becomes final and the IRS may proceed with collection. This deadline is strictly enforced and cannot be extended.
+
+:::
 ---
 
 ## Federal Judicial Process
@@ -224,9 +228,10 @@ When a tax dispute cannot be resolved administratively, the taxpayer may litigat
 | **U.S. Court of Federal Claims** | **Yes** — taxpayer must pay and sue for a refund | **No** | Sits in Washington, D.C.; applies Federal Circuit law; no jury |
 
 :::tip Exam Tip
-The **U.S. Tax Court** is the only forum where the taxpayer does **not** have to pay the disputed tax before going to trial. If a question asks "where can a taxpayer litigate without prepaying?" the answer is always the Tax Court.
-:::
 
+The **U.S. Tax Court** is the only forum where the taxpayer does **not** have to pay the disputed tax before going to trial. If a question asks "where can a taxpayer litigate without prepaying?" the answer is always the Tax Court.
+
+:::
 ### Appellate Courts
 
 - **U.S. Courts of Appeals (Circuit Courts):** Appeals from the Tax Court and District Courts go to the circuit court for the taxpayer's geographic area. Appeals from the Court of Federal Claims go to the U.S. Court of Appeals for the Federal Circuit.
@@ -249,9 +254,10 @@ The IRS imposes a variety of penalties on taxpayers who fail to comply with fili
 | **Failure-to-pay (FTP)** | **0.5% per month** (or partial month) of the tax due, up to a **maximum of 25%** | Rate increases to 1% per month if the IRS issues a notice of intent to levy and the taxpayer does not pay within 10 days |
 
 :::info
-When both FTF and FTP penalties apply in the same month, the FTF penalty is **reduced** by the FTP penalty. So the combined rate is still 5% per month (4.5% FTF + 0.5% FTP), not 5.5%.
-:::
 
+When both FTF and FTP penalties apply in the same month, the FTF penalty is **reduced** by the FTP penalty. So the combined rate is still 5% per month (4.5% FTF + 0.5% FTP), not 5.5%.
+
+:::
 ### Accuracy-Related Penalties — IRC §6662
 
 All accuracy-related penalties under §6662 are assessed at a rate of **20% of the underpayment** attributable to the violation.
@@ -270,9 +276,10 @@ All accuracy-related penalties under §6662 are assessed at a rate of **20% of t
 | **Criminal fraud (§7201 — Tax Evasion)** | Up to **\$250,000 fine** and/or **5 years imprisonment** (individuals) | Government must prove guilt **beyond a reasonable doubt** |
 
 :::caution
-The civil fraud penalty and the accuracy-related penalty under §6662 **cannot** be imposed on the same portion of an underpayment. If fraud is established, §6663 supersedes §6662 for that amount.
-:::
 
+The civil fraud penalty and the accuracy-related penalty under §6662 **cannot** be imposed on the same portion of an underpayment. If fraud is established, §6663 supersedes §6662 for that amount.
+
+:::
 ### Other Taxpayer Penalties
 
 | **Penalty** | **Description** |
@@ -306,9 +313,10 @@ A taxpayer can reduce the standard required to avoid the substantial understatem
 - **With disclosure** (using Form 8275 or 8275-R): The position need only meet the **reasonable basis** standard
 
 :::tip
-Disclosure does **not** protect a taxpayer who has no reasonable basis at all, and it does **not** protect against the negligence penalty if the taxpayer has no reasonable basis for the position.
-:::
 
+Disclosure does **not** protect a taxpayer who has no reasonable basis at all, and it does **not** protect against the negligence penalty if the taxpayer has no reasonable basis for the position.
+
+:::
 ### Reasonable Cause / Good Faith Defense
 
 Even if a penalty would otherwise apply, the taxpayer may avoid accuracy-related penalties (but **not** the fraud penalty) by demonstrating that:
@@ -336,9 +344,10 @@ The substantial authority standard is an objective standard. The taxpayer does n
 - General Explanations of Tax Legislation
 
 :::note
-Conclusions reached in treatises, legal periodicals, and tax opinions from law firms are **not** considered substantial authority. A CPA firm's internal position paper, no matter how well-reasoned, does not constitute substantial authority.
-:::
 
+Conclusions reached in treatises, legal periodicals, and tax opinions from law firms are **not** considered substantial authority. A CPA firm's internal position paper, no matter how well-reasoned, does not constitute substantial authority.
+
+:::
 ---
 
 ## Reporting Requirements for Foreign Bank Accounts
@@ -364,5 +373,7 @@ U.S. persons (citizens, residents, and domestic entities) who have a financial i
 > **Example:** Priya, a U.S. citizen, maintains two bank accounts in India — one with a peak balance of \$7,000 and another with a peak balance of \$5,000. Although neither account individually exceeds \$10,000, the **aggregate** peak value is \$12,000. Priya must file an FBAR.
 
 :::warning
+
 FBAR requirements are frequently tested on the CPA exam. Remember that the threshold is based on the **aggregate** of all foreign accounts, and the filing is with **FinCEN**, not the IRS.
+
 :::

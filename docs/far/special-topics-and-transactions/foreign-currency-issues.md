@@ -46,10 +46,11 @@ Dr. Accounts receivable         5,000
 ```
 
 :::tip Exam Tip
+
 **Receivables:** If the foreign currency **strengthens**, the U.S. company has a **gain** (the receivable is worth more in USD). If it **weakens**, the company has a **loss**.
 **Payables:** The effect is opposite — a strengthening foreign currency means a **loss** (the payable costs more in USD).
-:::
 
+:::
 ### Settlement
 
 On February 1, Bear Co. collects the £100,000 when the spot rate is \$1.28/£:
@@ -167,9 +168,10 @@ Used when the functional currency is the **U.S. dollar** (or the subsidiary oper
 | Common stock, APIC | **Historical rate** |
 The **remeasurement gain or loss** is reported in **net income** (not OCI).
 :::warning
-A key difference: under translation, **all** assets use the current rate. Under remeasurement, only **monetary** items use the current rate while **nonmonetary** items use historical rates.
-:::
 
+A key difference: under translation, **all** assets use the current rate. Under remeasurement, only **monetary** items use the current rate while **nonmonetary** items use historical rates.
+
+:::
 ---
 
 ## Highly Inflationary Economies
@@ -187,10 +189,11 @@ A key difference: under translation, **all** assets use the current rate. Under 
 | Gain/loss reported in | **OCI (CTA)**       | **Net income**                             |
 
 :::tip Exam Mnemonic
+
 **"Current goes to CTA"** — the current rate method produces a CTA that goes to OCI.
 **"Temporal goes to the temporaries (income statement)"** — remeasurement gains/losses go directly to net income.
-:::
 
+:::
 ---
 
 ## Summary

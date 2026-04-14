@@ -16,9 +16,10 @@ $$\text{Ending Capital} = \text{Beginning Capital} + \text{Contributions} + \tex
 | **Liability** | General partners have unlimited liability | Shareholders have limited liability |
 
 :::tip Exam Tip
-The CPA exam frequently tests the **bonus** and **goodwill** methods for admitting or withdrawing a partner. Know how to compute the required journal entries for each method.
-:::
 
+The CPA exam frequently tests the **bonus** and **goodwill** methods for admitting or withdrawing a partner. Know how to compute the required journal entries for each method.
+
+:::
 ---
 
 ## Formation of a Partnership
@@ -157,9 +158,10 @@ Dr. Goodwill[a] 30,000
 ```
 
 :::info Bonus vs. Goodwill — How to Choose
-The exam problem will specify which method to use, or the partnership agreement will dictate it. The **bonus method** is more conservative because total partnership assets equal the sum of tangible assets contributed. The **goodwill method** increases total assets by recording an intangible.
-:::
 
+The exam problem will specify which method to use, or the partnership agreement will dictate it. The **bonus method** is more conservative because total partnership assets equal the sum of tangible assets contributed. The **goodwill method** increases total assets by recording an intangible.
+
+:::
 ### Admission Methods — Summary
 
 ```mermaid
@@ -182,9 +184,10 @@ Partners share profits and losses according to their **partnership agreement**. 
 - **Residual ratio** — the remaining profit (or loss) split by an agreed ratio
 
 :::tip Exam Tip
-If the partnership agreement is **silent** on how to divide profits and losses, partners share **equally** — regardless of capital balances, time devoted to the business, or any other factor.
-:::
 
+If the partnership agreement is **silent** on how to divide profits and losses, partners share **equally** — regardless of capital balances, time devoted to the business, or any other factor.
+
+:::
 ### Example — Multi-Step Allocation
 
 Bear, Gies, and Kingfisher are partners in Illini Community Foundation with the following agreement:
@@ -214,9 +217,10 @@ Dr. Income Summary 170,000
 ```
 
 :::note
-Salary and interest allowances are **not expenses** of the partnership — they are simply steps in the allocation of profit. They are allocated in full even if net income is less than the total allowances. If that happens, the residual ratio portion will be a **negative** amount distributed to each partner.
-:::
 
+Salary and interest allowances are **not expenses** of the partnership — they are simply steps in the allocation of profit. They are allocated in full even if net income is less than the total allowances. If that happens, the residual ratio portion will be a **negative** amount distributed to each partner.
+
+:::
 ---
 
 ## Withdrawal of a Partner
@@ -279,9 +283,10 @@ Liquidation is the process of **winding down** the partnership — selling asset
 4. **Distribute remaining cash** to partners based on their **capital account balances** (not the profit-and-loss ratio).
 
 :::tip Exam Tip
-Cash is distributed to partners based on **capital balances**, not the profit-and-loss ratio. This is one of the most commonly tested distinctions in partnership liquidation.
-:::
 
+Cash is distributed to partners based on **capital balances**, not the profit-and-loss ratio. This is one of the most commonly tested distinctions in partnership liquidation.
+
+:::
 ### Simple Liquidation Example
 
 Bear, Gies, and Kingfisher decide to liquidate BIF Partners. They share profits and losses 50:30:20. Pre-liquidation balances:
@@ -399,7 +404,7 @@ The remaining \$12,000 of cash was used to pay liabilities. Total capital balanc
 ## Liquidation Process — Visual Summary
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Sell Noncash Assets] --> B[Allocate Gain/Loss to Partners]
     B --> C[Pay Liabilities]
     C --> D{Any Capital Deficiency?}
@@ -413,6 +418,7 @@ flowchart LR
 ---
 
 :::note Chapter Checklist
+
 - [ ] I can explain why partnerships are pass-through entities for tax purposes
 - [ ] I can record the formation of a partnership with assets contributed at fair value, net of liabilities assumed
 - [ ] I can apply the **exact method** when a new partner's contribution equals their proportionate share
@@ -424,4 +430,5 @@ flowchart LR
 - [ ] I can walk through a full partnership liquidation — sell assets, allocate gains/losses, pay liabilities, distribute cash
 - [ ] I can handle a **capital deficiency** — partner pays it or remaining partners absorb it
 - [ ] I understand that final cash distributions are based on **capital balances**, not the profit-and-loss ratio
+
 :::

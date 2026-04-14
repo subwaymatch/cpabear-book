@@ -5,9 +5,10 @@ Audit planning is the foundation of every effective audit. A well-planned audit 
 This section covers the distinction between the **audit strategy and audit plan**, the nature and organization of **audit documentation**, the **engagement partner's responsibilities**, the key **factors affecting planning**, and the critical concept of **financial statement assertions**.
 
 :::info
-Audit planning is governed by **AU-C 300** (AICPA) for nonissuers and **AS 2101** (PCAOB) for issuers. Both standards require the auditor to plan the audit so that it is performed effectively.
-:::
 
+Audit planning is governed by **AU-C 300** (AICPA) for nonissuers and **AS 2101** (PCAOB) for issuers. Both standards require the auditor to plan the audit so that it is performed effectively.
+
+:::
 ---
 
 ## Audit Strategy vs. Audit Plan
@@ -33,9 +34,10 @@ The audit plan is **more detailed** than the strategy and translates the strateg
 - Any **other planned procedures** required by auditing standards
 
 :::tip Exam Tip
-Think of the audit strategy as the "what and why" and the audit plan as the "how." The strategy decides the direction; the plan fills in the details. Both must be documented, and both may be updated as the audit progresses.
-:::
 
+Think of the audit strategy as the "what and why" and the audit plan as the "how." The strategy decides the direction; the plan fills in the details. Both must be documented, and both may be updated as the audit progresses.
+
+:::
 **Example:** The engagement partner at Gies Co.'s audit firm develops the overall audit strategy: the audit will cover all five operating segments, fieldwork will begin October 15 with interim testing and conclude in February after year-end procedures, and two staff members with industry expertise will be assigned due to the complexity of the entity's revenue arrangements. The audit plan then details the specific procedures—such as testing revenue cutoff, vouching receivables, and performing inventory observations—for each segment.
 
 ---
@@ -56,9 +58,10 @@ Audit documentation is typically organized into two categories:
 **Example:** BIF Partners is auditing Kingfisher Industries. The permanent file includes Kingfisher's corporate charter, a copy of its long-term debt agreement with covenants, and an organizational chart. The current file includes this year's bank confirmations, detailed testing of accounts receivable, and the management representation letter dated as of the report date.
 
 :::note
-The permanent file reduces redundant documentation year after year. Rather than re-documenting the entity's organizational structure and legal formation each year, the auditor includes this information once in the permanent file and updates it only when changes occur.
-:::
 
+The permanent file reduces redundant documentation year after year. Rather than re-documenting the entity's organizational structure and legal formation each year, the auditor includes this information once in the permanent file and updates it only when changes occur.
+
+:::
 ### Documentation Requirements
 
 Under auditing standards, documentation must be sufficient to enable an **experienced auditor** with no prior connection to the engagement to understand:
@@ -119,9 +122,10 @@ No two audits are the same. The auditor must tailor the planning process based o
 **Assertions** are the representations—explicit or implicit—made by management when presenting the financial statements. Every number, disclosure, and classification in the financial statements embodies one or more assertions. The auditor's job is to **design procedures that test these assertions** to determine whether the financial statements are free from material misstatement.
 
 :::info
-Assertions are the bridge between the financial statements and audit procedures. Each audit procedure is designed to address one or more specific assertions for a particular account balance, transaction class, or disclosure.
-:::
 
+Assertions are the bridge between the financial statements and audit procedures. Each audit procedure is designed to address one or more specific assertions for a particular account balance, transaction class, or disclosure.
+
+:::
 ### The COVERUP Mnemonic
 
 A helpful way to remember the key financial statement assertions is the **COVERUP** mnemonic:
@@ -153,9 +157,10 @@ Assertions are categorized differently depending on whether they relate to **cla
 - **Rights** — Does Illini Security actually own the rights to collect these receivables, or have they been factored or assigned?
 
 :::tip Exam Tip
-The CPA exam frequently tests your ability to **match an audit procedure to the assertion it addresses**. For example, sending confirmations to customers primarily tests the **existence** assertion for accounts receivable. Searching for unrecorded liabilities after year-end primarily tests the **completeness** assertion for accounts payable.
-:::
 
+The CPA exam frequently tests your ability to **match an audit procedure to the assertion it addresses**. For example, sending confirmations to customers primarily tests the **existence** assertion for accounts receivable. Searching for unrecorded liabilities after year-end primarily tests the **completeness** assertion for accounts payable.
+
+:::
 ---
 
 ## Summary

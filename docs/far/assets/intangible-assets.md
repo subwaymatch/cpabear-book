@@ -13,9 +13,10 @@ Intangible assets are **long-lived assets without physical substance** that repr
 | **Franchise**              | Right granted to operate a business under a franchisor's brand                                | Per contract term                |
 
 :::info
-The CPA exam focuses on how each type is **measured**, **amortized** (or not), and **tested for impairment**.
-:::
 
+The CPA exam focuses on how each type is **measured**, **amortized** (or not), and **tested for impairment**.
+
+:::
 ## Purchased vs. Internally Developed Intangibles
 
 | Source                                                          | Treatment                                                                |
@@ -24,9 +25,10 @@ The CPA exam focuses on how each type is **measured**, **amortized** (or not), a
 | **Internally developed**                                        | Generally **expensed as incurred** — R&D, advertising, employee training |
 
 :::warning
-Under U.S. GAAP, internally generated **goodwill**, **brands**, and **customer lists** are **never** capitalized. Only purchased intangibles are recognized as assets.
-:::
 
+Under U.S. GAAP, internally generated **goodwill**, **brands**, and **customer lists** are **never** capitalized. Only purchased intangibles are recognized as assets.
+
+:::
 ### Example — Bear Co. Purchases a Patent
 
 Bear Co. acquires a patent from an independent inventor for \$120,000 and pays \$5,000 in legal fees to register the patent.
@@ -60,9 +62,10 @@ Dr. Amortization expense             15,625
 ```
 
 :::tip
-Unlike PP&E, intangibles typically have **no salvage value** — the entire cost is amortized.
-:::
 
+Unlike PP&E, intangibles typically have **no salvage value** — the entire cost is amortized.
+
+:::
 ## Impairment of Finite Life Intangibles
 
 Finite life intangibles follow the **same two-step test** as PP&E under ASC 360:
@@ -87,9 +90,10 @@ Dr. Impairment loss                   35,000
 ```
 
 :::danger
-Under U.S. GAAP, impairment losses on intangibles held for use are **never reversed**.
-:::
 
+Under U.S. GAAP, impairment losses on intangibles held for use are **never reversed**.
+
+:::
 ## Indefinite Life Intangibles
 
 Certain intangibles have **no foreseeable limit** on the period over which they generate cash flows:
@@ -164,9 +168,10 @@ Dr. Goodwill impairment loss         500,000
 ```
 
 :::warning
-Goodwill impairment losses are **never reversed** under U.S. GAAP.
-:::
 
+Goodwill impairment losses are **never reversed** under U.S. GAAP.
+
+:::
 ## Purchased Software
 
 Software purchased or licensed from a third party for internal use or for sale is recognized as an **intangible asset** and amortized over the shorter of its legal or economic useful life.
@@ -207,9 +212,10 @@ Under ASU 2018-15, a customer in a **hosting arrangement** that is a service con
 | **Post-implementation stage** | Expense |
 Capitalized costs are presented as a **prepaid asset** (not an intangible) and amortized over the term of the hosting arrangement.
 :::note
-This treatment mirrors the guidance for **internal-use software** (ASC 350-40) — the three-stage model is identical.
-:::
 
+This treatment mirrors the guidance for **internal-use software** (ASC 350-40) — the three-stage model is identical.
+
+:::
 ## Franchise Accounting — Franchisee
 
 When a franchisee pays an initial franchise fee, the cost is recognized as an **intangible asset** at the **present value** of the payments and amortized over the period of expected benefit.
@@ -255,9 +261,10 @@ Dr. Start-up costs expense            25,000
 ```
 
 :::tip
-Start-up costs are **amortized over 15 years** for **tax** purposes — but for financial accounting (which the FAR exam tests), they are expensed immediately.
-:::
 
+Start-up costs are **amortized over 15 years** for **tax** purposes — but for financial accounting (which the FAR exam tests), they are expensed immediately.
+
+:::
 ## Research and Development (R&D) Costs
 
 Under ASC 730, R&D costs are **expensed as incurred**. This includes:
@@ -286,9 +293,10 @@ Dr. Research and development expense  150,000
 ```
 
 :::warning
-**Materials, equipment, and facilities** acquired for R&D with **no alternative future use** are expensed at acquisition — they are not capitalized as assets.
-:::
 
+**Materials, equipment, and facilities** acquired for R&D with **no alternative future use** are expensed at acquisition — they are not capitalized as assets.
+
+:::
 ## Crypto Assets
 
 A **crypto asset** (such as Bitcoin or Ethereum) represents a digital value or right recorded on a distributed ledger (blockchain). Under ASC 350-60, crypto assets are classified as **intangible assets** because they are not cash, financial instruments, or tangible property.
@@ -321,9 +329,10 @@ Dr. Crypto assets[a] 25,000
 ```
 
 :::tip Exam Tip
-Under ASC 350-60, qualifying crypto assets are marked to fair value each period — unlike traditional indefinite-lived intangibles, which are tested for impairment only when indicators exist. If the crypto asset does **not** meet all of the conditions above (e.g., it is an NFT and therefore not fungible), it follows the standard indefinite-lived intangible impairment model.
-:::
 
+Under ASC 350-60, qualifying crypto assets are marked to fair value each period — unlike traditional indefinite-lived intangibles, which are tested for impairment only when indicators exist. If the crypto asset does **not** meet all of the conditions above (e.g., it is an NFT and therefore not fungible), it follows the standard indefinite-lived intangible impairment model.
+
+:::
 ---
 
 ## Summary
@@ -339,5 +348,7 @@ Under ASC 350-60, qualifying crypto assets are marked to fair value each period 
 | Crypto assets (qualifying)                  | None — fair value through NI   | N/A (mark-to-market each period)           |
 
 :::info
+
 **Key takeaway:** The most important distinction is between **finite** and **indefinite** life intangibles — it determines whether you amortize and which impairment model applies. Qualifying crypto assets are a special case: they are indefinite-lived intangibles measured at fair value through net income each period.
+
 :::

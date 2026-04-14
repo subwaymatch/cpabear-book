@@ -17,9 +17,10 @@ Audit Data Analytics are techniques that analyze **complete populations of data*
 - **Enhancing efficiency** — Analyzing entire populations rather than relying on samples
 
 :::info Example
-The audit team at **Bear Co.** uses data analytics to compare every sales transaction recorded during the year against shipping records. The analysis flags 47 transactions totaling \$218,000 where revenue was recorded but no corresponding shipment occurred within 15 days. This directs the auditor's attention to a potential cutoff issue far more efficiently than selecting a random sample of sales invoices.
-:::
 
+The audit team at **Bear Co.** uses data analytics to compare every sales transaction recorded during the year against shipping records. The analysis flags 47 transactions totaling \$218,000 where revenue was recorded but no corresponding shipment occurred within 15 days. This directs the auditor's attention to a potential cutoff issue far more efficiently than selecting a random sample of sales invoices.
+
+:::
 ### Benefits of ADAs in the Audit
 
 | Benefit | Description |
@@ -48,9 +49,10 @@ Performing audit data analytics follows a structured workflow. Each step is esse
 | **5. Evaluate results** | Interpret findings, investigate exceptions, and determine the audit implications | Do the results provide sufficient appropriate evidence? Are follow-up procedures needed? |
 
 :::tip
-Think of the ADA process as a mini-audit within the audit. Just as the overall engagement follows a plan → execute → conclude framework, each ADA follows the same logic. The planning step is critical—an analysis without a clear objective produces noise, not evidence.
-:::
 
+Think of the ADA process as a mini-audit within the audit. Just as the overall engagement follows a plan → execute → conclude framework, each ADA follows the same logic. The planning step is critical—an analysis without a clear objective produces noise, not evidence.
+
+:::
 ### Software and Tools
 
 Auditors use a range of software to perform data analytics, from general-purpose tools to specialized audit platforms:
@@ -72,9 +74,10 @@ ADAs fall into four categories, each representing a progressively deeper level o
 | **Prescriptive** | *What should we do about it?* | Recommending that the audit team increase sample sizes for revenue testing at **BIF Partners** based on predictive risk scoring of customer segments |
 
 :::note
-For the CPA exam, **descriptive** and **diagnostic** analytics are the most commonly tested categories. Predictive and prescriptive analytics are emerging areas but appear less frequently on the exam. Know all four categories and be able to classify a given procedure into the correct category.
-:::
 
+For the CPA exam, **descriptive** and **diagnostic** analytics are the most commonly tested categories. Predictive and prescriptive analytics are emerging areas but appear less frequently on the exam. Know all four categories and be able to classify a given procedure into the correct category.
+
+:::
 ---
 
 ## Applying ADAs Throughout the Audit
@@ -90,9 +93,10 @@ During planning, ADAs help auditors identify areas of elevated risk by analyzing
 - Perform Benford's Law analysis on payables data to detect potential fictitious vendors
 
 :::info Example
-While planning the audit of **Kingfisher Industries**, the engagement team runs a Benford's Law analysis on all vendor payments exceeding \$1,000. The analysis reveals that payments beginning with the digit "8" occur far more frequently than expected. The auditor investigates and discovers that a procurement clerk created a fictitious vendor with invoices consistently priced between \$8,000 and \$8,999 to stay below the manager-approval threshold of \$10,000.
-:::
 
+While planning the audit of **Kingfisher Industries**, the engagement team runs a Benford's Law analysis on all vendor payments exceeding \$1,000. The analysis reveals that payments beginning with the digit "8" occur far more frequently than expected. The auditor investigates and discovers that a procurement clerk created a fictitious vendor with invoices consistently priced between \$8,000 and \$8,999 to stay below the manager-approval threshold of \$10,000.
+
+:::
 ### Evaluating the Design and Operating Effectiveness of Controls
 
 ADAs can test controls over entire populations rather than relying on a sample of transactions.
@@ -110,9 +114,10 @@ When used as substantive procedures, ADAs can provide **direct evidence** about 
 - Recalculate depreciation for every fixed asset owned by **Bear Co.** and compare the results to recorded depreciation expense
 
 :::tip
-When an ADA covers the full population (e.g., recalculating depreciation for every asset), the auditor may not need to perform additional sampling-based tests of details for that assertion. However, the auditor must still evaluate whether the data used in the analysis is reliable.
-:::
 
+When an ADA covers the full population (e.g., recalculating depreciation for every asset), the auditor may not need to perform additional sampling-based tests of details for that assertion. However, the auditor must still evaluate whether the data used in the analysis is reliable.
+
+:::
 ### Analytical Procedures
 
 ADAs enhance both required and optional analytical procedures:
@@ -151,9 +156,10 @@ The reliability of any ADA depends entirely on the quality and integrity of the 
 | **Unstructured** | No predefined format; requires additional processing before analysis | Emails, contracts, meeting minutes, scanned documents, social media posts |
 
 :::caution
-Most ADAs rely on **structured data** because it can be directly imported and analyzed. When working with unstructured data (e.g., analyzing email communications for related-party indicators at **BIF Partners**), the auditor faces additional challenges around completeness, extraction accuracy, and relevance. The CPA exam generally focuses on structured data applications.
-:::
 
+Most ADAs rely on **structured data** because it can be directly imported and analyzed. When working with unstructured data (e.g., analyzing email communications for related-party indicators at **BIF Partners**), the auditor faces additional challenges around completeness, extraction accuracy, and relevance. The CPA exam generally focuses on structured data applications.
+
+:::
 ### Data Attributes and Reliability
 
 Before performing an ADA, the auditor evaluates several attributes of the data:
@@ -194,9 +200,10 @@ ADAs often produce **visualizations and reports** that the auditor must interpre
 Regression analysis establishes a **mathematical relationship** between a dependent variable (the amount being audited) and one or more independent variables (predictive factors). The auditor uses the regression model to develop an expected value and compares it to the recorded amount.
 
 :::info Example
-The auditor builds a regression model predicting monthly revenue for **Illini Entertainment** using three independent variables: number of active subscribers, average ticket price, and seasonal index. The model predicts December revenue of \$4.2 million, but the recorded amount is \$5.1 million—a difference of \$900,000. This exceeds the auditor's threshold and triggers further investigation, which reveals that management recorded \$850,000 in revenue from gift card sales that should have been deferred as unearned revenue.
-:::
 
+The auditor builds a regression model predicting monthly revenue for **Illini Entertainment** using three independent variables: number of active subscribers, average ticket price, and seasonal index. The model predicts December revenue of \$4.2 million, but the recorded amount is \$5.1 million—a difference of \$900,000. This exceeds the auditor's threshold and triggers further investigation, which reveals that management recorded \$850,000 in revenue from gift card sales that should have been deferred as unearned revenue.
+
+:::
 #### Variance Analysis
 
 Variance analysis compares recorded amounts to expectations (budgets, prior periods, or auditor-developed benchmarks) and investigates significant differences.
@@ -224,9 +231,10 @@ When an ADA identifies exceptions or anomalies, the auditor must:
 5. **Determine the need for additional procedures** — Are further tests required to resolve the matter, or does the ADA provide sufficient evidence on its own?
 
 :::warning
-An ADA that identifies zero exceptions does **not** automatically mean the assertion is free of misstatement. The auditor must consider whether the analysis was properly designed, the data was reliable, and the technique was sensitive enough to detect the types of misstatements that could occur. Professional skepticism applies to data analytics just as it does to any other audit procedure.
-:::
 
+An ADA that identifies zero exceptions does **not** automatically mean the assertion is free of misstatement. The auditor must consider whether the analysis was properly designed, the data was reliable, and the technique was sensitive enough to detect the types of misstatements that could occur. Professional skepticism applies to data analytics just as it does to any other audit procedure.
+
+:::
 ---
 
 ## Putting It All Together
@@ -234,6 +242,7 @@ An ADA that identifies zero exceptions does **not** automatically mean the asser
 The following example illustrates how ADAs integrate into a real audit engagement.
 
 :::info Comprehensive Example — Auditing Revenue at Kingfisher Industries
+
 The engagement team is auditing revenue (\$48 million) for **Kingfisher Industries**, a mid-size manufacturer.
 
 **Planning (Descriptive Analytics):**
@@ -250,6 +259,6 @@ The \$1.3 million cutoff difference exceeds tolerable misstatement (\$500,000). 
 
 **Documentation:**
 The auditor documents the ADA objective, data source, reliability assessment, technique used, results, and conclusion in the workpapers—linking the analysis to the **occurrence** and **cutoff** assertions for revenue.
-:::
 
+:::
 Audit data analytics are not a replacement for professional judgment—they are a tool that enhances it. By analyzing complete data sets, auditors can direct their attention to the areas that matter most, gather stronger evidence, and ultimately improve the quality of the audit opinion.

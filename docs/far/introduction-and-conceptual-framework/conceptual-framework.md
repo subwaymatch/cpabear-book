@@ -11,9 +11,10 @@ The framework is articulated primarily through **Statements of Financial Account
 | SFAC No. 7 | Using Cash Flow Information and Present Value in Accounting Measurements | Active |
 | SFAC No. 8 | Conceptual Framework for Financial Reporting | Active (superseded SFAC 1 & 2) |
 :::info
-SFACs are **not** authoritative GAAP. They are non-authoritative guidance that helps the FASB develop standards and helps preparers reason through situations where no specific standard exists.
-:::
 
+SFACs are **not** authoritative GAAP. They are non-authoritative guidance that helps the FASB develop standards and helps preparers reason through situations where no specific standard exists.
+
+:::
 ---
 
 ## Objective of General-Purpose Financial Reporting (SFAC No. 8, Chapter 1)
@@ -133,9 +134,10 @@ SFAC No. 6 defines **ten elements** of financial statements. These are the build
 | **Distributions to Owners** | Decreases in equity from transfers of assets from the entity to owners (dividends)                                                                                                                                                                |
 
 :::tip Revenue vs. Gain
-**Revenue** arises from an entity's _central_ operations. **Gains** arise from _peripheral_ transactions. For Bear Co. (a retail company), selling merchandise generates **revenue**. Selling a delivery truck at a profit generates a **gain**. The underlying event (an increase in net assets) is similar, but the classification depends on the nature of the entity's operations.
-:::
 
+**Revenue** arises from an entity's _central_ operations. **Gains** arise from _peripheral_ transactions. For Bear Co. (a retail company), selling merchandise generates **revenue**. Selling a delivery truck at a profit generates a **gain**. The underlying event (an increase in net assets) is similar, but the classification depends on the nature of the entity's operations.
+
+:::
 ---
 
 ## Recognition and Measurement Concepts
@@ -160,9 +162,10 @@ GAAP uses several measurement attributes depending on the type of asset or liabi
 | **Net realizable value (NRV)** | Expected selling price less costs to complete and sell | Accounts receivable (net of allowance) |
 | **Present value of future cash flows** | Discounted value of expected cash flows | Long-term notes receivable, bonds |
 :::info
-Fair value measurement (ASC 820) uses a three-level hierarchy: Level 1 (quoted prices in active markets), Level 2 (observable inputs), and Level 3 (unobservable inputs). Level 1 is most reliable; Level 3 requires the most judgment.
-:::
 
+Fair value measurement (ASC 820) uses a three-level hierarchy: Level 1 (quoted prices in active markets), Level 2 (observable inputs), and Level 3 (unobservable inputs). Level 1 is most reliable; Level 3 requires the most judgment.
+
+:::
 ---
 
 ## Underlying Assumptions
@@ -177,9 +180,10 @@ The activities of the business are **separate and distinct** from the activities
 
 The entity will continue to operate for the **foreseeable future**—long enough to carry out its existing commitments. This assumption justifies reporting assets at cost rather than liquidation value.
 :::danger
-If there is **substantial doubt** about an entity's ability to continue as a going concern, management must evaluate whether its plans can mitigate that doubt. Disclosure is required under ASC 205-40 regardless of mitigation.
-:::
 
+If there is **substantial doubt** about an entity's ability to continue as a going concern, management must evaluate whether its plans can mitigate that doubt. Disclosure is required under ASC 205-40 regardless of mitigation.
+
+:::
 ### 3. Monetary Unit Assumption
 
 Financial statements are expressed in a **stable monetary unit** (e.g., U.S. dollars). This assumption ignores the effects of inflation and deflation—a \$100,000 building purchased in 2000 is reported at \$100,000 on the balance sheet even if its purchasing power has changed.
@@ -291,9 +295,10 @@ graph TD
 ```
 
 :::tip Key Takeaway
-When you encounter an unfamiliar accounting question on the exam, return to first principles: Does the item meet the definition of an element? Can it be measured reliably? Is the information relevant? The conceptual framework is your fallback reasoning tool.
-:::
 
+When you encounter an unfamiliar accounting question on the exam, return to first principles: Does the item meet the definition of an element? Can it be measured reliably? Is the information relevant? The conceptual framework is your fallback reasoning tool.
+
+:::
 ---
 
 ## Summary

@@ -28,17 +28,19 @@ Understanding when analytical procedures are **mandatory** versus **discretionar
 | **Overall Review (Near Completion)** | ✅ Required | Assess whether the financial statements as a whole are consistent with the auditor's understanding of the entity |
 
 :::danger Common Exam Trap
-Analytical procedures are **required** during planning and during the overall review near the end of the audit. They are **optional** during substantive testing. The exam frequently tests whether candidates know this distinction.
-:::
 
+Analytical procedures are **required** during planning and during the overall review near the end of the audit. They are **optional** during substantive testing. The exam frequently tests whether candidates know this distinction.
+
+:::
 ### Planning Phase
 
 During planning, analytical procedures help the auditor identify unusual transactions, unexpected balances, and areas where the risk of material misstatement may be elevated.
 
 :::info Example
-While planning the audit of **Gies Co.**, the auditor compares the current year's gross margin to the prior three years. A significant decline triggers further investigation and may lead the auditor to classify revenue recognition as a higher-risk area.
-:::
 
+While planning the audit of **Gies Co.**, the auditor compares the current year's gross margin to the prior three years. A significant decline triggers further investigation and may lead the auditor to classify revenue recognition as a higher-risk area.
+
+:::
 ### Overall Review Stage
 
 At the end of the audit, analytical procedures serve as a "sanity check." The auditor steps back and considers whether the financial statements, taken as a whole, are consistent with the auditor's understanding of the entity developed throughout the engagement.
@@ -62,9 +64,10 @@ Evaluate whether an analytical procedure is appropriate for the assertion being 
 - The account balance can be reasonably estimated from available data
 
 :::tip
-Analytical procedures are generally more suitable for income statement accounts (which accumulate over time and are more predictable) than for balance sheet accounts (which represent a point-in-time snapshot and may be more volatile).
-:::
 
+Analytical procedures are generally more suitable for income statement accounts (which accumulate over time and are more predictable) than for balance sheet accounts (which represent a point-in-time snapshot and may be more volatile).
+
+:::
 ### Step 2: Evaluate Reliability of Data
 
 The auditor must assess whether the data used to develop the expectation is reliable. Consider:
@@ -78,9 +81,10 @@ The auditor must assess whether the data used to develop the expectation is reli
 The auditor forms an independent expectation of the recorded amount. The more precise the expectation, the more effective the procedure.
 
 :::info Example
-To test **Illini Security's** total revenue, the auditor gathers data on the number of active client contracts, average monthly contract value, and the number of months in the period. Multiplying these factors produces an independent estimate of expected revenue.
-:::
 
+To test **Illini Security's** total revenue, the auditor gathers data on the number of active client contracts, average monthly contract value, and the number of months in the period. Multiplying these factors produces an independent estimate of expected revenue.
+
+:::
 ### Step 4: Compare to Recorded Amount
 
 The auditor compares the expected amount to the client's recorded balance and determines whether the difference exceeds a pre-established threshold of acceptable variation.
@@ -128,9 +132,10 @@ Audit data analytics (ADAs) are techniques that analyze complete populations or 
 | **Prescriptive** | *What should we do about it?* | Recommend which inventory locations at **MSA Records** should receive additional testing based on historical discrepancy rates |
 
 :::note
-Descriptive and diagnostic analytics are most commonly used in current audit practice. Predictive and prescriptive analytics represent the frontier of audit innovation and are increasingly tested on the CPA exam.
-:::
 
+Descriptive and diagnostic analytics are most commonly used in current audit practice. Predictive and prescriptive analytics represent the frontier of audit innovation and are increasingly tested on the CPA exam.
+
+:::
 ### ADA Applications
 
 #### Applied to Tests of Details
@@ -142,9 +147,10 @@ ADAs can enhance tests of details by enabling the auditor to:
 - Match datasets to identify exceptions (e.g., comparing vendor addresses to employee addresses to detect fictitious vendors)
 
 :::info Example
-The auditor uses data analytics to compare **Illini Entertainment's** complete vendor master file against the employee address database. Three matches are found, prompting further investigation into potential fictitious vendor fraud.
-:::
 
+The auditor uses data analytics to compare **Illini Entertainment's** complete vendor master file against the employee address database. Three matches are found, prompting further investigation into potential fictitious vendor fraud.
+
+:::
 #### Applied to Analytical Procedures
 
 ADAs can strengthen analytical procedures by:
@@ -166,9 +172,10 @@ Auditors can obtain data for analytics through several methods:
 - **Screen scraping / OCR** — Extracting data from documents or legacy systems
 
 :::warning
-The auditor must evaluate the **completeness and accuracy** of data obtained for analytics. If the underlying data is unreliable, the ADA results will be misleading. This is analogous to evaluating the reliability of data used in any analytical procedure.
-:::
 
+The auditor must evaluate the **completeness and accuracy** of data obtained for analytics. If the underlying data is unreliable, the ADA results will be misleading. This is analogous to evaluating the reliability of data used in any analytical procedure.
+
+:::
 ---
 
 ## Techniques to Interpret ADA Results
@@ -197,9 +204,10 @@ Visual representations of data can make patterns and anomalies easier to identif
 | **Pie charts** | Illustrating proportional composition (e.g., revenue by segment at **Illini Entertainment**) |
 
 :::tip
-On the CPA exam, you may be asked to identify which type of visualization is most appropriate for a given audit objective. Scatter plots are ideal for outlier detection, while trend lines are best for time-series comparisons.
-:::
 
+On the CPA exam, you may be asked to identify which type of visualization is most appropriate for a given audit objective. Scatter plots are ideal for outlier detection, while trend lines are best for time-series comparisons.
+
+:::
 ---
 
 ## Relational Databases
@@ -214,9 +222,10 @@ Key concepts:
 - **Queries** — Requests to retrieve, filter, or combine data from one or more tables (commonly written in SQL)
 
 :::info Example
-**Kingfisher Industries** stores its accounting data in a relational database. The auditor writes a query joining the sales order table, shipping table, and invoice table to identify shipments that were never invoiced—a test of the completeness assertion for revenue.
-:::
 
+**Kingfisher Industries** stores its accounting data in a relational database. The auditor writes a query joining the sales order table, shipping table, and invoice table to identify shipments that were never invoiced—a test of the completeness assertion for revenue.
+
+:::
 ---
 
 ## The ETL Process (Extract, Transform, Load)
@@ -245,9 +254,10 @@ Clean and standardize the extracted data to make it suitable for analysis:
 Import the transformed data into the auditor's analytical tool or platform for analysis.
 
 :::note
-The ETL process is essential for ensuring that the data used in analytics is complete, accurate, and in a usable format. Errors in any stage—extraction, transformation, or loading—can compromise the reliability of the entire analysis.
-:::
 
+The ETL process is essential for ensuring that the data used in analytics is complete, accurate, and in a usable format. Errors in any stage—extraction, transformation, or loading—can compromise the reliability of the entire analysis.
+
+:::
 | Stage | Key Activity | Risk If Done Poorly |
 |---|---|---|
 | **Extract** | Pull data from source systems | Incomplete data; missing records |

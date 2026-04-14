@@ -23,9 +23,10 @@ Other information is **financial and non-financial information** (other than the
 | Board of directors' report | Prospectuses (covered by separate standards) |
 
 :::info
-The key distinction is that other information is included **in the same document** as the audited financial statements (typically the annual report). Information published separately — such as a standalone press release — is generally not subject to these requirements, though the auditor should remain alert to any inconsistencies they become aware of.
-:::
 
+The key distinction is that other information is included **in the same document** as the audited financial statements (typically the annual report). Information published separately — such as a standalone press release — is generally not subject to these requirements, though the auditor should remain alert to any inconsistencies they become aware of.
+
+:::
 **Example:** Kingfisher Industries publishes an annual report that includes the audited financial statements, MD&A, a letter from the CEO, five-year selected financial data, and a corporate responsibility summary. All of these items (except the audited financial statements and notes) constitute "other information" that the auditor must read and consider.
 
 ---
@@ -50,9 +51,10 @@ The auditor's responsibilities regarding other information are **limited but imp
 4. **Remain alert** for indications of a material misstatement of fact
 
 :::tip
-Think of the auditor's role regarding other information as a "read and consider" responsibility — not an audit or review. The auditor is leveraging knowledge already obtained during the audit to identify red flags.
-:::
 
+Think of the auditor's role regarding other information as a "read and consider" responsibility — not an audit or review. The auditor is leveraging knowledge already obtained during the audit to identify red flags.
+
+:::
 ---
 
 ## Reading and Considering Other Information
@@ -102,9 +104,10 @@ If the auditor becomes aware of a material inconsistency after the report date:
    - Withholding the auditor's report (if not yet released)
 
 :::warning
-The auditor cannot simply ignore a material inconsistency. Even though the auditor does not provide assurance on the other information, a known inconsistency undermines the credibility of the financial statements and the auditor's report.
-:::
 
+The auditor cannot simply ignore a material inconsistency. Even though the auditor does not provide assurance on the other information, a known inconsistency undermines the credibility of the financial statements and the auditor's report.
+
+:::
 ---
 
 ## Material Misstatements of Fact
@@ -123,9 +126,10 @@ A **material misstatement of fact** is information in the other information that
 | **4. If unresolved** | Consider the need to communicate with those charged with governance or obtain legal advice |
 
 :::note
-The auditor is **not** expected to have expertise in all areas covered by the other information. If the matter is outside the auditor's competence (e.g., a scientific claim in the annual report), the auditor may determine that no further action is necessary beyond discussing it with management.
-:::
 
+The auditor is **not** expected to have expertise in all areas covered by the other information. If the matter is outside the auditor's competence (e.g., a scientific claim in the annual report), the auditor may determine that no further action is necessary beyond discussing it with management.
+
+:::
 ---
 
 ## Reporting Requirements Under SAS 146
@@ -177,9 +181,10 @@ A critical concept for the CPA exam is that the auditor provides **no opinion an
 **Example:** After reading MAS Inc.'s annual report, the auditor has read the MD&A section, the CEO's letter, and the five-year financial summary. Even though the auditor has read all of this material and considered it for consistency, the auditor's report makes clear that **no opinion or assurance** is expressed on any of it.
 
 :::caution
-Exam questions may try to trick you into thinking the auditor provides limited assurance or some form of assurance on the other information. The correct answer is always **no assurance** — the auditor only reads and considers the information for material inconsistencies and misstatements of fact.
-:::
 
+Exam questions may try to trick you into thinking the auditor provides limited assurance or some form of assurance on the other information. The correct answer is always **no assurance** — the auditor only reads and considers the information for material inconsistencies and misstatements of fact.
+
+:::
 ---
 
 ## Procedures When Issues Are Found — Decision Flowchart

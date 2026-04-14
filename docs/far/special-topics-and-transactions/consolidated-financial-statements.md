@@ -4,9 +4,10 @@
 
 Consolidated financial statements are required when a parent company holds a **controlling financial interest** in one or more subsidiaries. Under the **voting interest model**, control is presumed when the parent owns **more than 50%** of the subsidiary's outstanding voting stock.
 :::info
-Consolidated statements present the parent and its subsidiaries as a **single economic entity**. All intercompany balances and transactions are eliminated.
-:::
 
+Consolidated statements present the parent and its subsidiaries as a **single economic entity**. All intercompany balances and transactions are eliminated.
+
+:::
 ---
 
 ## Voting Interest Model
@@ -71,9 +72,10 @@ Dr. Cost of goods sold          5,000
 ```
 
 :::tip Exam Tip
-In a **downstream** sale, 100% of the unrealized profit is eliminated against the **parent's** income. In an **upstream** sale, the unrealized profit is allocated between the parent and the NCI based on ownership percentages.
-:::
 
+In a **downstream** sale, 100% of the unrealized profit is eliminated against the **parent's** income. In an **upstream** sale, the unrealized profit is allocated between the parent and the NCI based on ownership percentages.
+
+:::
 ### Upstream Sale (Subsidiary → Parent)
 
 Gies Co. (80%-owned subsidiary) sells inventory costing \$40,000 to Bear Co. for \$55,000. Bear Co. still holds 40% at year-end.
@@ -290,9 +292,12 @@ Kingfisher Industries acquires 100% of MAS Inc. for \$5,000,000. The book value 
 On MAS's standalone books, all assets and liabilities are adjusted to fair value, and \$800,000 of goodwill is recorded. Pre-acquisition equity is eliminated and replaced with the new basis.
 
 :::info
-Pushdown accounting does **not** change the consolidated financial statements — it only affects the subsidiary's **standalone** financial statements. On consolidation, the parent already performs the purchase price allocation in its consolidation workpapers.
-:::
 
+Pushdown accounting does **not** change the consolidated financial statements — it only affects the subsidiary's **standalone** financial statements. On consolidation, the parent already performs the purchase price allocation in its consolidation workpapers.
+
+:::
 :::tip Exam Tip
+
 Remember the three distinguishing features of pushdown accounting: (1) it is **optional**, (2) goodwill is recorded on the **subsidiary's** books (not just on consolidation workpapers), and (3) any bargain purchase gain goes to **APIC** rather than earnings. Subsequent revaluation effects flow through **pushdown capital** (an equity account).
+
 :::

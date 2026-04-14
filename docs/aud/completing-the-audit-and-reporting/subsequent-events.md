@@ -39,10 +39,11 @@ The key question is: **Did this condition arise after the balance sheet date?** 
 **Example:** On February 5, 20X5, a fire destroys MAS Inc.'s primary warehouse. The December 31, 20X4 financial statements should not be adjusted (the warehouse existed and was intact at year-end), but MAS Inc. should disclose the fire and its estimated impact in the notes.
 
 :::tip Exam Mnemonic
+
 **Type 1 = Adjust** (condition existed at the balance sheet date — update the numbers).
 **Type 2 = Disclose** (condition arose after the balance sheet date — add a note, but don't change the financial statements).
-:::
 
+:::
 ### Summary Comparison
 
 | Feature | Type 1 (Recognized) | Type 2 (Nonrecognized) |
@@ -83,9 +84,10 @@ When inquiring of management during the subsequent period, the auditor typically
 **Example:** During subsequent events procedures for BIF Partners' audit, the auditor reads the January and February board minutes, which reveal a pending acquisition that was announced on January 15, 20X5. The auditor evaluates whether this requires disclosure in the December 31, 20X4 financial statements as a Type 2 subsequent event.
 
 :::info
-The auditor is required to perform subsequent events procedures up through the **date of the auditor's report**. The auditor is not required to perform audit procedures beyond that date unless specific circumstances arise (discussed below).
-:::
 
+The auditor is required to perform subsequent events procedures up through the **date of the auditor's report**. The auditor is not required to perform audit procedures beyond that date unless specific circumstances arise (discussed below).
+
+:::
 ---
 
 ## Responsibility After the Report Date
@@ -116,9 +118,10 @@ Once the financial statements have been **issued** (released to users), the audi
 **Example:** After Illini Entertainment's audited financial statements have been issued to shareholders, the auditor discovers that a significant receivable was fictitious — it was fabricated by a former employee and did not exist at the balance sheet date. The auditor discusses this with management, who agrees to restate the financial statements. The auditor performs procedures on the restated financials and issues a new report.
 
 :::warning
-The auditor's obligation after the financial statements are issued is triggered only when the auditor **becomes aware** of new facts. The auditor is not required to go looking for problems after the report has been issued.
-:::
 
+The auditor's obligation after the financial statements are issued is triggered only when the auditor **becomes aware** of new facts. The auditor is not required to go looking for problems after the report has been issued.
+
+:::
 ---
 
 ## Dual Dating
@@ -138,9 +141,10 @@ The report retains its **original date** for all matters, **except** for the spe
 The auditor changes the report date to the **later date** for the entire report. This extends the auditor's responsibility for subsequent events procedures through the later date for **all matters**, not just the specific event that triggered the revision.
 
 :::tip
-**Dual dating is more common** because it limits the auditor's extended responsibility. Using a single later date means the auditor must extend subsequent events procedures to cover the entire period through the new date — which is more work and more risk.
-:::
 
+**Dual dating is more common** because it limits the auditor's extended responsibility. Using a single later date means the auditor must extend subsequent events procedures to cover the entire period through the new date — which is more work and more risk.
+
+:::
 ### Comparison
 
 | Approach | Report Date | Auditor's Extended Responsibility |
@@ -185,5 +189,7 @@ When facts are discovered after the financial statements and auditor's report ha
 | **Single later date** | Extends responsibility to later date for all matters |
 
 :::note
+
 On the exam, pay close attention to **when** the event occurred and **when** the auditor learned about it. The timing determines whether the event is a Type 1 or Type 2 event and what the auditor's obligations are.
+
 :::

@@ -18,9 +18,10 @@ NFPs prepare three required financial statements (compared to four for commercia
 | Statement of Cash Flows | Statement of Cash Flows |
 
 :::tip Exam rule
-NFPs do **not** prepare a statement of stockholders' equity. They have no owners — net assets replace equity.
-:::
 
+NFPs do **not** prepare a statement of stockholders' equity. They have no owners — net assets replace equity.
+
+:::
 There is no separate "Statement of Functional Expenses" requirement for all NFPs, but **voluntary health and welfare organizations** (VHWOs) must present expenses by both functional and natural classification. Other NFPs may present this information on the face of the statement of activities, in the notes, or as a separate schedule.
 
 ### Functional vs. Natural Classification
@@ -51,9 +52,10 @@ graph TD
 These are resources with **no donor-imposed restrictions**. The governing board may internally earmark funds (called **board-designated** or **quasi-endowment** funds), but these are still classified as without donor restrictions because the board can reverse the designation at any time.
 
 :::info
-Board-designated funds are **not** donor-restricted. They remain in the "without donor restrictions" class, though they may be disclosed separately.
-:::
 
+Board-designated funds are **not** donor-restricted. They remain in the "without donor restrictions" class, though they may be disclosed separately.
+
+:::
 ### Net Assets With Donor Restrictions
 
 These are resources subject to **donor-imposed** stipulations that are either:
@@ -73,9 +75,10 @@ Dr. Net assets with donor restrictions[e] 50,000
 This entry appears on the statement of activities as "**Net assets released from restrictions**."
 
 :::warning
-If a contribution is received and the restriction is satisfied in the **same reporting period**, the NFP may report it as without donor restrictions (an accounting policy election that must be disclosed).
-:::
 
+If a contribution is received and the restriction is satisfied in the **same reporting period**, the NFP may report it as without donor restrictions (an accounting policy election that must be disclosed).
+
+:::
 ---
 
 ## Statement of Activities
@@ -138,9 +141,10 @@ NFPs follow the same **ASC 230** rules as commercial entities. Cash flows are cl
 | **Financing** | Proceeds from borrowing, donor-restricted contributions for long-term purposes |
 
 :::tip Exam rule
-Contributions that donors restrict for the **acquisition of long-lived assets** are classified as **financing activities**, not operating. However, **board-designated** contributions for construction with **no donor restriction** remain **operating activities**.
-:::
 
+Contributions that donors restrict for the **acquisition of long-lived assets** are classified as **financing activities**, not operating. However, **board-designated** contributions for construction with **no donor restriction** remain **operating activities**.
+
+:::
 **Example:** Gies University receives a \$500,000 unrestricted donation. The board votes to set it aside for a new library wing. On the statement of cash flows, the \$500,000 is an **operating** cash inflow because the restriction is internal, not donor-imposed.
 
 ---
@@ -178,9 +182,10 @@ A **contribution** is a voluntary, unconditional, nonreciprocal transfer in whic
 | Noncash contributions | Recognize at **fair value** on the date of the gift |
 
 :::info Conditional vs. Unconditional
-A **condition** requires both a **barrier** (something the recipient must do or that must occur) and a **right of return** or **right of release** if the barrier is not met. A mere restriction on how to use the funds is **not** a condition.
-:::
 
+A **condition** requires both a **barrier** (something the recipient must do or that must occur) and a **right of return** or **right of release** if the barrier is not met. A mere restriction on how to use the funds is **not** a condition.
+
+:::
 ### Unconditional Promises to Give (Pledges)
 
 When a donor makes an unconditional pledge, the NFP records a receivable and revenue immediately.
@@ -220,9 +225,10 @@ Donated services are recognized as both a **revenue** and an **expense** only if
 2. **All three** of the following are true: the services require **specialized skills**, the person providing them **possesses those skills**, and the services would typically need to be **purchased** if not donated (e.g., an attorney donates legal work).
 
 :::warning
-Volunteer time at a soup kitchen or gift shop generally does **not** meet recognition criteria because the services are not specialized and do not enhance a nonfinancial asset.
-:::
 
+Volunteer time at a soup kitchen or gift shop generally does **not** meet recognition criteria because the services are not specialized and do not enhance a nonfinancial asset.
+
+:::
 <Tabs>
   <TabItem value="recognize" label="Recognized" default>
 
@@ -333,9 +339,10 @@ NFP health care entities (hospitals, clinics) have specialized revenue presentat
 | **Nonoperating revenue** | Unrestricted gifts, investment income, gains on sale of assets |
 
 :::tip Exam rule
-Charity care is **never** recognized as revenue. The NFP discloses the level of charity care provided (measured at cost or at charges foregone) in the **notes** to the financial statements.
-:::
 
+Charity care is **never** recognized as revenue. The NFP discloses the level of charity care provided (measured at cost or at charges foregone) in the **notes** to the financial statements.
+
+:::
 **Example:** Bear Valley Hospital provides services with gross charges of \$5,000,000. Contractual adjustments total \$1,200,000. Charity care at standard rates would have been \$300,000. Bad debts are estimated at \$150,000.
 
 | Line | Amount |
@@ -431,9 +438,10 @@ NFPs report **debt and equity investments** at **fair value** on the statement o
 | Default classification | Without donor restrictions, unless the donor or law restricts investment returns |
 
 :::info
-Both realized and unrealized gains and losses flow through the **statement of activities** — there is no OCI concept for NFPs.
-:::
 
+Both realized and unrealized gains and losses flow through the **statement of activities** — there is no OCI concept for NFPs.
+
+:::
 ### Investment Return Reporting
 
 Investment returns (interest, dividends, realized and unrealized gains/losses) are reported **net of external and direct internal investment expenses**.
@@ -456,9 +464,10 @@ Dr. Unrealized loss on endowment investments 80,000
 The \$80,000 loss is reported in **net assets with donor restrictions** (staying with the endowment). The endowment continues to be classified as net assets with donor restrictions even though it is underwater.
 
 :::caution
-Underwater endowments require specific **disclosures**: the fair value of underwater funds, the original gift amounts, and the aggregate amount by which they are underwater. The governing board's policy on spending from underwater endowments must also be disclosed.
-:::
 
+Underwater endowments require specific **disclosures**: the fair value of underwater funds, the original gift amounts, and the aggregate amount by which they are underwater. The governing board's policy on spending from underwater endowments must also be disclosed.
+
+:::
 ---
 
 ## Comprehensive Example
@@ -490,9 +499,10 @@ Illini Community Foundation reports the following activity for the year ended De
 | **Change in net assets** | **\$200,000** | **\$50,000** | **\$250,000** |
 
 :::note Key takeaway
-Expenses are **always** reported in the "without donor restrictions" column. When restricted funds are spent, the reclassification entry moves the amount into "without donor restrictions" first.
-:::
 
+Expenses are **always** reported in the "without donor restrictions" column. When restricted funds are spent, the reclassification entry moves the amount into "without donor restrictions" first.
+
+:::
 ---
 
 ## Summary of Key Exam Points

@@ -3,9 +3,10 @@
 Beyond the core opinion, auditors sometimes need to draw attention to important information or provide additional context in their report. The mechanisms for doing this differ between nonissuer audits (AICPA standards) and issuer audits (PCAOB standards). This section covers **emphasis-of-matter paragraphs**, **explanatory paragraphs**, and **other-matter paragraphs** — when they are required, what they contain, and how they affect the audit report.
 
 :::info
-An emphasis-of-matter or other-matter paragraph does **not** change the auditor's opinion. These paragraphs supplement the opinion — the auditor is still issuing an unmodified, qualified, adverse, or disclaimer opinion as appropriate.
-:::
 
+An emphasis-of-matter or other-matter paragraph does **not** change the auditor's opinion. These paragraphs supplement the opinion — the auditor is still issuing an unmodified, qualified, adverse, or disclaimer opinion as appropriate.
+
+:::
 ---
 
 ## Emphasis-of-Matter Paragraphs (Nonissuers)
@@ -44,9 +45,10 @@ The auditor may also include an EOM paragraph **at their discretion** for other 
 **Example:** Illini Entertainment recently changed its revenue recognition method from a completed-contract approach to the percentage-of-completion method for its long-term entertainment venue construction projects. The change is material and properly disclosed in Note 3. The auditor includes an emphasis-of-matter paragraph stating: "As discussed in Note 3 to the financial statements, the Company changed its method of accounting for long-term construction contracts in 20X4. Our opinion is not modified with respect to this matter."
 
 :::tip Exam Tip
-The emphasis-of-matter paragraph always includes two things: (1) a reference to the disclosure in the financial statements, and (2) a statement that the opinion is not modified. If a question describes a paragraph that draws attention to a properly disclosed matter and includes both of these elements, it is an EOM paragraph.
-:::
 
+The emphasis-of-matter paragraph always includes two things: (1) a reference to the disclosure in the financial statements, and (2) a statement that the opinion is not modified. If a question describes a paragraph that draws attention to a properly disclosed matter and includes both of these elements, it is an EOM paragraph.
+
+:::
 ---
 
 ## Explanatory Paragraphs (Issuers)
@@ -72,9 +74,10 @@ In issuer reports, the explanatory paragraph is typically placed **after the opi
 **Example:** Kingfisher Industries is a public company that recently adopted a new lease accounting standard, resulting in material changes to its balance sheet. The auditor adds an explanatory paragraph after the opinion section noting the change in accounting principle and referencing the note where it is disclosed.
 
 :::note
-The PCAOB does not use the terms "emphasis-of-matter" or "other-matter." Instead, PCAOB standards refer to **explanatory paragraphs** or **explanatory language** added to the standard report. The functional purpose is the same: drawing attention to important information without modifying the opinion.
-:::
 
+The PCAOB does not use the terms "emphasis-of-matter" or "other-matter." Instead, PCAOB standards refer to **explanatory paragraphs** or **explanatory language** added to the standard report. The functional purpose is the same: drawing attention to important information without modifying the opinion.
+
+:::
 ---
 
 ## Other-Matter Paragraphs (Nonissuers)
@@ -129,9 +132,10 @@ An **other-matter (OM) paragraph** is used in nonissuer reports to draw attentio
 | Explanatory paragraph | No specific heading required by PCAOB | After Opinion section (or after Basis for Opinion) | No |
 
 :::warning
-Do not confuse emphasis-of-matter paragraphs with modified opinions. A modified opinion (qualified, adverse, or disclaimer) reflects a problem — either with the financial statements or with the auditor's ability to obtain evidence. An EOM or explanatory paragraph, by contrast, highlights something the auditor believes is important but that does **not** represent a deficiency requiring a modification.
-:::
 
+Do not confuse emphasis-of-matter paragraphs with modified opinions. A modified opinion (qualified, adverse, or disclaimer) reflects a problem — either with the financial statements or with the auditor's ability to obtain evidence. An EOM or explanatory paragraph, by contrast, highlights something the auditor believes is important but that does **not** represent a deficiency requiring a modification.
+
+:::
 ---
 
 ## Practical Scenarios
@@ -167,5 +171,7 @@ Illini Security changed auditors. The predecessor auditor issued an unmodified o
 - The auditor also has discretion to add these paragraphs for other significant matters
 
 :::tip
+
 On exam questions, watch the wording carefully: if the matter is **in** the financial statements → EOM paragraph. If the matter is **about the audit or report** but not in the financial statements → Other-matter paragraph.
+
 :::

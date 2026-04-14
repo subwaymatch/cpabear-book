@@ -75,9 +75,10 @@ Dr. Goodwill                  150,000
 ```
 
 :::tip Exam Tip
-The total debits equal the **full (100%) fair value** of the subsidiary: \$640,000 (parent share) + \$160,000 (NCI) = \$800,000. This equals the net assets at FV (\$650,000) + goodwill (\$150,000).
-:::
 
+The total debits equal the **full (100%) fair value** of the subsidiary: \$640,000 (parent share) + \$160,000 (NCI) = \$800,000. This equals the net assets at FV (\$650,000) + goodwill (\$150,000).
+
+:::
 ---
 
 ## Identifiable Intangible Assets
@@ -143,7 +144,9 @@ Dr. Net identifiable assets   450,000
 
 The acquirer has up to **one year** from the acquisition date to finalize the accounting for a business combination. During this **measurement period**, provisional amounts may be adjusted as new information is obtained about facts and circumstances that existed at the acquisition date.
 :::warning
+
 Measurement period adjustments are recorded **retrospectively** — they are applied as if the accounting had been completed on the acquisition date. Comparative prior-period financial statements are restated.
+
 :::
 **Example:** Bear Co. initially recorded goodwill of \$150,000. Six months later, an appraisal reveals that an acquired building was undervalued by \$30,000 on the acquisition date:
 
@@ -196,9 +199,10 @@ Dr. Acquisition expense        25,000
 ```
 
 :::danger
-Do **not** capitalize acquisition costs as part of goodwill. The only exception is costs to issue debt or equity securities, which follow their respective standards (debt issue costs reduce the carrying amount of debt; equity issue costs reduce APIC).
-:::
 
+Do **not** capitalize acquisition costs as part of goodwill. The only exception is costs to issue debt or equity securities, which follow their respective standards (debt issue costs reduce the carrying amount of debt; equity issue costs reduce APIC).
+
+:::
 ---
 
 ## Summary Diagram
@@ -237,9 +241,10 @@ Original file line number Diff line number Diff line change
 
 Consolidated financial statements are required when a parent company holds a **controlling financial interest** in one or more subsidiaries. Under the **voting interest model**, control is presumed when the parent owns **more than 50%** of the subsidiary's outstanding voting stock.
 :::info
-Consolidated statements present the parent and its subsidiaries as a **single economic entity**. All intercompany balances and transactions are eliminated.
-:::
 
+Consolidated statements present the parent and its subsidiaries as a **single economic entity**. All intercompany balances and transactions are eliminated.
+
+:::
 ---
 
 ## Voting Interest Model
@@ -304,9 +309,10 @@ Dr. Cost of goods sold          5,000
 ```
 
 :::tip Exam Tip
-In a **downstream** sale, 100% of the unrealized profit is eliminated against the **parent's** income. In an **upstream** sale, the unrealized profit is allocated between the parent and the NCI based on ownership percentages.
-:::
 
+In a **downstream** sale, 100% of the unrealized profit is eliminated against the **parent's** income. In an **upstream** sale, the unrealized profit is allocated between the parent and the NCI based on ownership percentages.
+
+:::
 ### Upstream Sale (Subsidiary → Parent)
 
 Gies Co. (80%-owned subsidiary) sells inventory costing \$40,000 to Bear Co. for \$55,000. Bear Co. still holds 40% at year-end.

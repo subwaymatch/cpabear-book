@@ -28,9 +28,10 @@ A registration statement includes:
 | **Intrastate offering (Rule 147/147A)** | Offered and sold only to residents of a single state where the issuer is organized and does business |
 
 :::info
-**Accredited investors** include individuals with net worth exceeding \$1 million (excluding primary residence) or annual income exceeding \$200,000 (\$300,000 jointly), as well as institutional investors such as banks, insurance companies, and registered investment companies.
-:::
 
+**Accredited investors** include individuals with net worth exceeding \$1 million (excluding primary residence) or annual income exceeding \$200,000 (\$300,000 jointly), as well as institutional investors such as banks, insurance companies, and registered investment companies.
+
+:::
 > **Example:** Kingfisher Industries wants to raise \$5 million from private investors. It uses **Rule 506(b)** to sell securities to 10 accredited investors and 5 sophisticated non-accredited investors without registering with the SEC. No general solicitation is permitted.
 
 ### Securities Exchange Act of 1934
@@ -50,9 +51,10 @@ The **Securities Exchange Act of 1934** regulates the **secondary market** (trad
 3. Engage in any act that operates as a fraud upon any person in connection with the purchase or sale of any security
 
 :::tip Exam Tip
-Rule 10b-5 applies to **all securities** (whether or not registered) and reaches both buyers and sellers. It requires proof of **scienter** (intent to deceive).
-:::
 
+Rule 10b-5 applies to **all securities** (whether or not registered) and reaches both buyers and sellers. It requires proof of **scienter** (intent to deceive).
+
+:::
 ### Insider Trading
 
 **Insider trading** occurs when a person trades securities based on **material, nonpublic information** in breach of a fiduciary duty. Insiders include officers, directors, and significant shareholders, as well as **tippees** who receive material nonpublic information from insiders.
@@ -84,9 +86,10 @@ SEC-reporting companies must:
 - Maintain a system of **internal accounting controls** sufficient to provide reasonable assurance that transactions are properly authorized and recorded
 
 :::warning
-The FCPA's accounting provisions apply to **all SEC registrants**, regardless of whether they do business overseas. Violations can result in criminal penalties, civil fines, and disgorgement of profits.
-:::
 
+The FCPA's accounting provisions apply to **all SEC registrants**, regardless of whether they do business overseas. Violations can result in criminal penalties, civil fines, and disgorgement of profits.
+
+:::
 > **Example:** Illini Security, a publicly traded U.S. company, pays \$100,000 to a foreign official to secure a government contract overseas. This violates the FCPA's anti-bribery provisions, and the company's failure to record the payment accurately violates the accounting provisions.
 
 ---
@@ -106,9 +109,10 @@ The FCPA's accounting provisions apply to **all SEC registrants**, regardless of
 | **Family and Medical Leave Act (FMLA)** | Up to 12 weeks of unpaid leave for qualifying events (birth/adoption, serious health condition); applies to employers with 50+ employees |
 
 :::tip Exam Tip
-**Workers' compensation** is a **no-fault** system — the employee does not need to prove employer negligence. In exchange, the employee generally cannot sue the employer in tort for the workplace injury.
-:::
 
+**Workers' compensation** is a **no-fault** system — the employee does not need to prove employer negligence. In exchange, the employee generally cannot sue the employer in tort for the workplace injury.
+
+:::
 > **Example:** An employee of BIF Partners is injured while operating machinery. Under workers' compensation, the employee receives medical benefits and wage replacement regardless of fault, but cannot sue BIF Partners for negligence.
 
 ---
@@ -125,9 +129,10 @@ The FCPA's accounting provisions apply to **all SEC registrants**, regardless of
 | **RCRA (Resource Conservation and Recovery Act)** | Regulates the generation, transportation, treatment, storage, and disposal of hazardous waste ("cradle to grave") |
 
 :::caution
-Under **CERCLA**, liability is **strict** (no fault required), **joint and several** (any single responsible party can be held liable for the entire cleanup cost), and **retroactive** (applies to contamination that occurred before the statute was enacted).
-:::
 
+Under **CERCLA**, liability is **strict** (no fault required), **joint and several** (any single responsible party can be held liable for the entire cleanup cost), and **retroactive** (applies to contamination that occurred before the statute was enacted).
+
+:::
 ---
 
 ## Antitrust Law

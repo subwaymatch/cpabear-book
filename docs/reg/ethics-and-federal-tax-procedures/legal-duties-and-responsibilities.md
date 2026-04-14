@@ -32,9 +32,10 @@ To establish a negligence claim, the client must prove four elements:
 4. **Damages** — the client suffered actual financial harm
 
 :::info
-The standard of care for CPAs is based on what a **reasonably competent CPA** would have done under similar circumstances — not perfection. A CPA is not a guarantor against all errors.
-:::
 
+The standard of care for CPAs is based on what a **reasonably competent CPA** would have done under similar circumstances — not perfection. A CPA is not a guarantor against all errors.
+
+:::
 ### Fraud (Intentional Misrepresentation)
 
 Fraud requires proof that the CPA:
@@ -46,9 +47,10 @@ Fraud requires proof that the CPA:
 5. The client suffered **damages** as a result
 
 :::warning
-Unlike negligence, fraud can result in **punitive damages** in addition to compensatory damages. Fraud also eliminates many contractual defenses, such as limitation-of-liability clauses.
-:::
 
+Unlike negligence, fraud can result in **punitive damages** in addition to compensatory damages. Fraud also eliminates many contractual defenses, such as limitation-of-liability clauses.
+
+:::
 ---
 
 ## Common Law Liability to Third Parties
@@ -81,9 +83,10 @@ Under this broadest approach, a CPA is liable to **any person** the CPA could re
 | **Rosenblum (Foreseeable Users)** | Broadest | CPA could foresee any user |
 
 :::tip Exam Tip
-The **Restatement (foreseen users)** approach is the most commonly tested and is the majority rule. Know all three approaches and be able to distinguish them based on the facts presented.
-:::
 
+The **Restatement (foreseen users)** approach is the most commonly tested and is the majority rule. Know all three approaches and be able to distinguish them based on the facts presented.
+
+:::
 ---
 
 ## Statutory Liability Under Federal Securities Laws
@@ -104,9 +107,10 @@ Key features of Section 11:
 > **Example:** Illini Entertainment issues stock through an IPO. The registration statement contains financial statements audited by a CPA firm. The financial statements materially overstate revenue. A purchaser of the stock can sue the CPA firm under Section 11 without proving the CPA firm acted negligently — the CPA firm must prove it conducted a **reasonable investigation** (due diligence defense).
 
 :::caution
-Under Section 11, the burden of proof shifts to the **defendant**. The CPA must affirmatively prove due diligence — the plaintiff does not need to prove negligence.
-:::
 
+Under Section 11, the burden of proof shifts to the **defendant**. The CPA must affirmatively prove due diligence — the plaintiff does not need to prove negligence.
+
+:::
 ### Securities Exchange Act of 1934 — Section 10(b) and Rule 10b-5
 
 **Section 10(b)** and **Rule 10b-5** create liability for fraud in connection with the **purchase or sale** of any security (not just newly registered securities).
@@ -119,9 +123,10 @@ Under Section 11, the burden of proof shifts to the **defendant**. The CPA must 
 | **Standard** | Fraud standard — scienter is **required** |
 
 :::tip Exam Tip
-The critical distinction: **Section 11** (1933 Act) requires only negligence and applies only to registration statements. **Section 10(b)/Rule 10b-5** (1934 Act) requires **scienter** but applies to all securities transactions. Memorize this distinction — it is heavily tested.
-:::
 
+The critical distinction: **Section 11** (1933 Act) requires only negligence and applies only to registration statements. **Section 10(b)/Rule 10b-5** (1934 Act) requires **scienter** but applies to all securities transactions. Memorize this distinction — it is heavily tested.
+
+:::
 ### Comparison of Section 11 and Section 10(b)
 
 | Feature | Section 11 (1933 Act) | Section 10(b) / Rule 10b-5 (1934 Act) |
@@ -174,9 +179,10 @@ Under **federal law**, there is generally **no** CPA-client privilege. The tax p
 - Does **not** apply in criminal matters
 
 :::warning
-Many states grant some form of CPA-client privilege under state law, but no such privilege exists under federal common law. Do not confuse state privilege statutes with the limited federal privilege under IRC §7525.
-:::
 
+Many states grant some form of CPA-client privilege under state law, but no such privilege exists under federal common law. Do not confuse state privilege statutes with the limited federal privilege under IRC §7525.
+
+:::
 ---
 
 ## Summary

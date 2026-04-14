@@ -5,7 +5,7 @@
 **Subsequent events** are events or transactions that occur **after the balance sheet date** but **before the financial statements are issued** (or available to be issued). ASC 855 requires entities to evaluate subsequent events and determine whether they require adjustment of, or disclosure in, the financial statements.
 
 ```mermaid
-graph LR
+graph TD
     A[Balance Sheet Date] -->|Evaluation Window| B[Financial Statements Issued / Available to Be Issued]
     A --> C{Subsequent Event?}
     C -->|Conditions existed at BS date| D[Type I: Recognized]
@@ -20,7 +20,9 @@ graph LR
 
 A recognized subsequent event provides **additional evidence** about conditions that **existed at the balance sheet date**. The financial statements are **adjusted** to reflect the new information.
 :::info Key Principle
+
 Type I events clarify or confirm something that was already in existence on the balance sheet date. The financial statements should be updated because the event improves the estimate of an amount already recorded.
+
 :::
 **Examples of Type I events:**
 | Event | Rationale |
@@ -43,7 +45,9 @@ Dr. Loss from litigation      100,000
 
 A nonrecognized subsequent event provides evidence about conditions that **arose after the balance sheet date**. The financial statements are **not adjusted**, but the event may require **disclosure** in the notes if it would be misleading to omit.
 :::warning
+
 Type II events represent new conditions. They do **not** change amounts on the balance sheet. However, they must be disclosed if their omission would cause the financial statements to be misleading.
+
 :::
 **Examples of Type II events:**
 | Event | Rationale |
@@ -77,9 +81,10 @@ Non-SEC filers evaluate subsequent events through the date the financial stateme
 | SEC filer | Date financial statements are **issued** | Required |
 | Non-SEC filer | Date financial statements are **available to be issued** | Required |
 :::tip Exam Tip
-Both types of filers must disclose **the date through which subsequent events have been evaluated** and whether that date is the issued date or available-to-be-issued date.
-:::
 
+Both types of filers must disclose **the date through which subsequent events have been evaluated** and whether that date is the issued date or available-to-be-issued date.
+
+:::
 ---
 
 ## Decision Framework
@@ -104,9 +109,10 @@ Both types of filers must disclose **the date through which subsequent events ha
 
 When financial statements are **reissued** (e.g., included in a subsequent filing or in comparative statements), the entity generally does **not** update them for subsequent events occurring between the original issuance date and the reissuance date.
 :::danger Exception
-If the financial statements are **revised** to correct an error, the entity must evaluate events through the new issuance date, but the evaluation is limited to the effects of the revision. New Type II events arising after the original issuance date do **not** need to be disclosed in the revised statements.
-:::
 
+If the financial statements are **revised** to correct an error, the entity must evaluate events through the new issuance date, but the evaluation is limited to the effects of the revision. New Type II events arising after the original issuance date do **not** need to be disclosed in the revised statements.
+
+:::
 ---
 
 ## Revised Financial Statements
