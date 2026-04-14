@@ -163,6 +163,43 @@ On the CPA exam, many independence questions ask you to determine whether indepe
 :::
 ---
 
+## SOX Whistle-Blower Protections
+
+Section 806 of the Sarbanes-Oxley Act provides **federal protection** for employees of publicly traded companies who report suspected fraud or securities violations. These protections are designed to encourage internal reporting and shield whistle-blowers from employer retaliation.
+
+### Protected Activities
+
+An employee is protected when they provide information or assist in an investigation regarding conduct the employee **reasonably believes** constitutes:
+
+- A violation of **federal securities laws** (including SEC rules and regulations)
+- **Mail fraud**, **wire fraud**, or **bank fraud**
+- Any rule or regulation of the **SEC**
+- **Shareholder fraud** or other violations related to the company's financial statements
+
+The employee may report to a **federal regulatory or law enforcement agency**, any **member or committee of Congress**, or a **person with supervisory authority** over the employee within the company.
+
+### Prohibited Retaliation
+
+An employer (including officers, employees, contractors, subcontractors, and agents) may **not** discharge, demote, suspend, threaten, harass, or in any other manner discriminate against an employee because of lawful whistle-blowing activity.
+
+### Remedies for Retaliation
+
+If an employee prevails in a whistle-blower complaint, the compensatory damages typically awarded include:
+
+| Remedy | Description |
+|--------|-------------|
+| **Reinstatement** | Restoration to the same or equivalent position with the same seniority status |
+| **Back pay with interest** | Compensation for lost wages during the period of wrongful termination or demotion |
+| **Special damages** | Compensation for additional harm such as litigation costs, expert witness fees, and reasonable attorney fees |
+
+:::tip Exam Tip
+
+SOX whistle-blower protections apply to employees of **publicly traded companies** (issuers). The employee need only have a **reasonable belief** that a violation occurred — the belief does not have to be correct. Filing a complaint must occur within **180 days** of the retaliatory action.
+
+:::
+
+---
+
 ## Other Independence Considerations
 
 ### Government Auditing Standards (Yellow Book)
@@ -186,6 +223,7 @@ Individual state boards may impose additional independence requirements beyond t
 | Employment cooling-off | 1 year before joining an issuer client in a financial reporting oversight role |
 | Tax services | Generally permitted with pre-approval, but aggressive/listed transactions are prohibited |
 | AICPA vs. SEC/PCAOB | SEC/PCAOB rules are more restrictive and apply to issuer engagements |
+| SOX whistle-blower protections | Employees of issuers who report fraud are protected from retaliation; remedies include reinstatement, back pay with interest, and special damages |
 
 :::tip Final Exam Tip
 
