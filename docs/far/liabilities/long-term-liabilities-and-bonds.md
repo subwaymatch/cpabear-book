@@ -18,6 +18,7 @@ Where:
 - $PMT$ = periodic payment
 - $r$ = interest rate per period
 - $n$ = number of periods
+
   :::info
   Bond pricing combines both formulas: the PV of the face value (single sum) plus the PV of the interest payments (annuity).
   :::
@@ -71,11 +72,13 @@ Dr. Interest expense            4,132
 ## Debt Covenants and Technical Default
 
 Debt agreements often include **covenants** — restrictions such as maintaining a minimum current ratio or limiting dividend payments. Violation of a covenant constitutes a **technical default**.
+
 :::warning
 
 If a long-term debt covenant is violated at the balance sheet date and the lender has not waived the violation, the entire debt must be **reclassified as a current liability** — even if the lender later grants a waiver.
 
 :::
+
 An exception exists if the lender provides a waiver **before** the financial statements are issued (or available to be issued), and the company is expected to cure the violation within a specified grace period.
 
 ---
@@ -219,11 +222,13 @@ Dr. Interest expense           23,070
 ```
 
 New carrying value = \$461,391 + \$3,070 = \$464,461.
-:::tip Exam Tip
+
+:::tip[Exam Tip]
 
 For a **discount**, interest expense **increases** each period because the carrying value grows. For a **premium**, interest expense **decreases** because carrying value shrinks.
 
 :::
+
 ---
 
 ## Bonds Issued Between Interest Dates
@@ -332,6 +337,7 @@ Dr. Loss on extinguishment      4,800
 The gain or loss on extinguishment is reported in **income from continuing operations**, not as an extraordinary item (ASU 2015-01 eliminated extraordinary item classification).
 
 :::
+
 ---
 
 ## Summary
@@ -350,7 +356,7 @@ graph TD
     H --> I
 ```
 
-:::note Chapter Checklist
+:::note[Chapter Checklist]
 
 - [ ] Calculate PV for notes and bonds using TVM formulas
 - [ ] Distinguish premium from discount issuances

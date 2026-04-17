@@ -61,6 +61,7 @@ If the **FMV at the date of the gift** is **less than** the donor's adjusted bas
 A quick way to remember the gift basis rule: **Gains use the donor's basis; losses use FMV.** If the sale price is in the middle, it's a wash.
 
 :::
+
 ---
 
 ## Inherited Property
@@ -96,6 +97,7 @@ If the AVD is elected, each asset's basis equals its FMV at the **earlier of:**
 The AVD election applies to **all** estate assets — the executor cannot cherry-pick which assets to value at the AVD.
 
 :::
+
 ### 3. The Automatic Long-Term Holding Period
 
 Regardless of how long the decedent owned the property or how long the heir holds it before selling, inherited property is **automatically deemed to have a long-term holding period.**
@@ -110,11 +112,12 @@ Even if the decedent bought stock one day before dying and the heir sells it one
 | **Holding Period** | "Tacks on" from donor's acquisition date | Always long-term |
 | **Loss Rule** | Dual basis: lower of adjusted basis or FMV at date of gift | FMV at death (step-down permanently eliminates the loss) |
 
-:::caution Common Pitfall
+:::caution[Common Pitfall]
 
 On the CPA exam, do not confuse gifted and inherited property. A gift uses the **donor's carryover basis**; inherited property uses **FMV at death**. These rules are frequently tested together.
 
 :::
+
 ### 5. Exception: Income in Respect of a Decedent (IRD)
 
 The step-up (or step-down) rule does **not** apply to assets that constitute **Income in Respect of a Decedent (IRD)**. IRD items are amounts the decedent had earned or was entitled to receive but had not yet recognized for income tax purposes before death.
@@ -128,6 +131,7 @@ The step-up (or step-down) rule does **not** apply to assets that constitute **I
 IRD assets are still included in the decedent's **gross estate** for estate tax purposes, but the heir does receive a deduction for the estate taxes attributable to the IRD item (the "IRD deduction" under IRC §691(c)), which partially offsets the income tax burden.
 
 :::
+
 ---
 
 ## Capitalize or Expense
@@ -169,6 +173,7 @@ Taxpayers may elect to expense items that would otherwise be capitalized if the 
 The de minimis safe harbor is an **annual election** made on the tax return. The taxpayer must have a written accounting policy in place at the beginning of the tax year to capitalize amounts below the threshold on its books.
 
 :::
+
 ---
 
 ## Property Converted from Personal to Business Use
@@ -202,6 +207,7 @@ The basis for computing **depreciation** on the converted property is the **less
 The conversion rules prevent taxpayers from claiming a loss that is attributable to a decline in value during personal use. Only losses that occur **after** the conversion to business use are deductible.
 
 :::
+
 ---
 
 ## Intangible Property

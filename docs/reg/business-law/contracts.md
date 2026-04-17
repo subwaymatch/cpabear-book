@@ -29,11 +29,12 @@ An offer must be (1) communicated to the offeree, (2) definite and certain in it
 - **Mirror Image Rule**: An acceptance must match the offer exactly. Any change in terms is a **counteroffer**, which rejects the original offer.
 - **Mailbox Rule**: An acceptance is effective when **dispatched** (placed in the mail), not when received — provided the offeree uses an authorized medium of communication.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The mailbox rule applies only to **acceptances**. Rejections, revocations, and counteroffers are effective only upon **receipt**.
 
 :::
+
 ### Consideration
 
 Consideration requires a **legal detriment** to the promisee or a **legal benefit** to the promisor. Past consideration is **not** valid consideration. A pre-existing duty does not constitute consideration unless there is a modification under the UCC (no consideration needed for good-faith modifications of contracts for the sale of goods).
@@ -70,6 +71,7 @@ Certain contracts must be **in writing** and signed by the party to be charged t
 The one-year rule applies only if the contract is **impossible** to perform within one year. If there is **any possibility** of completion within one year, the Statute of Frauds does not apply.
 
 :::
+
 > **Example:** BIF Partners hires an employee "for life." This contract does **not** fall within the Statute of Frauds because the employee could theoretically die within one year, making performance within one year possible.
 
 ---
@@ -132,11 +134,12 @@ A contract may be discharged by:
 | **Specific performance** | Court order requiring the breaching party to perform; available when the subject matter is **unique** (e.g., real property, rare goods) |
 | **Rescission and restitution** | Cancel the contract and restore both parties to their pre-contract positions |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 **Punitive damages** are generally **not** available in breach of contract actions. They may be awarded only in cases involving fraud or other tortious conduct.
 
 :::
+
 The non-breaching party has a **duty to mitigate** damages — they must take reasonable steps to minimize losses resulting from the breach.
 
 ---

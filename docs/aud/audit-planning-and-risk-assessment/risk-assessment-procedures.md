@@ -9,6 +9,7 @@ This section covers the **three types of misstatements**, the **audit risk model
 Risk assessment procedures are addressed in **AU-C 315** (AICPA) for nonissuers and **AS 2110** (PCAOB) for issuers. The auditor performs risk assessment procedures to obtain an understanding of the entity and its environment, including its internal control, and to identify and assess the risks of material misstatement.
 
 :::
+
 ---
 
 ## Three Types of Misstatements
@@ -21,11 +22,12 @@ Not all misstatements are the same. Auditing standards recognize three distinct 
 | **Judgmental misstatement** | A misstatement arising from **management's judgments** about accounting estimates or the selection/application of accounting policies that the auditor considers unreasonable | MAS Inc. estimates its warranty liability at \$100,000, but the auditor's analysis suggests \$300,000 is more appropriate given historical claim rates |
 | **Projected misstatement** | The auditor's **best estimate** of misstatement in a population, **extrapolated** from misstatements identified in an audit sample | The auditor tests a sample of Kingfisher Industries' inventory items and finds errors totaling \$15,000. Extrapolating to the full population, the projected misstatement is \$120,000 |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The CPA exam may ask you to distinguish these types. Remember: **factual** = certain and definite, **judgmental** = stems from estimates or accounting policy disagreements, **projected** = extrapolated from a sample to the population.
 
 :::
+
 ---
 
 ## The Audit Risk Model
@@ -60,6 +62,7 @@ So the full model becomes:
 The auditor does **not control** inherent risk or control risk—these are characteristics of the entity. The only component the auditor can directly influence is **detection risk**, by adjusting the nature, timing, and extent of audit procedures.
 
 :::
+
 ---
 
 ## Risk of Material Misstatement (RMM)
@@ -116,6 +119,7 @@ Detection risk has an **inverse relationship** with the risk of material misstat
 The auditor can **never** set detection risk at zero. There is always some risk that procedures will not detect a material misstatement—due to the inherent limitations of sampling, the possibility of selecting inappropriate procedures, or human error in performing or evaluating procedures.
 
 :::
+
 ### How Detection Risk Affects Procedures
 
 When the auditor needs to **decrease detection risk** (because RMM is high), the auditor adjusts the **nature, timing, and extent** of substantive procedures:
@@ -140,11 +144,12 @@ When the assessed risk of material misstatement is high, the auditor must obtain
 4. **Using more experienced personnel** — Assigning senior auditors or specialists to high-risk areas
 5. **Increasing the unpredictability of procedures** — Varying the procedures performed, the timing, or the locations tested to reduce the risk that management can anticipate and circumvent auditor testing
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The CPA exam often tests the inverse relationship between RMM and detection risk. If a question describes a situation where inherent risk is high (e.g., complex estimates, susceptibility to fraud), the correct answer will involve the auditor performing **more work**—larger samples, more reliable evidence, testing closer to year-end.
 
 :::
+
 ---
 
 ## Summary

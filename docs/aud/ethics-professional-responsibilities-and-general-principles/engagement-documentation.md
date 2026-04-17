@@ -9,6 +9,7 @@ This section covers the **purpose and elements** of sufficient appropriate docum
 Engagement documentation requirements are established by **AU-C 230** (AICPA) for nonissuers and **AS 1215** (PCAOB) for issuers. While both frameworks share core principles, there are important differences in completion deadlines, retention periods, and specific requirements that are frequently tested on the CPA exam.
 
 :::
+
 ---
 
 ## Purpose of Engagement Documentation
@@ -26,6 +27,7 @@ The overarching purpose of documentation is to provide a record sufficient to en
 This "experienced auditor" standard is critical. Documentation must be clear and complete enough that a qualified professional who was not involved in the engagement could review the workpapers and understand exactly what was done, why it was done, and what conclusions were reached. Vague or incomplete documentation is a common deficiency identified in peer reviews and PCAOB inspections.
 
 :::
+
 ### Additional Purposes
 
 Beyond supporting the audit opinion, documentation serves several other important purposes:
@@ -68,11 +70,12 @@ At a minimum, audit documentation should include:
 
 **Example:** While auditing Gies Co.'s accounts receivable, the engagement team selects a sample of 40 customer balances for confirmation testing. The documentation includes the sampling methodology, the list of selected customers with balances, copies of confirmations sent and received, follow-up procedures for non-responses, and a conclusion that the accounts receivable balance is not materially misstated. The workpaper is initialed by the staff member who performed the testing and the senior who reviewed the work.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The CPA exam frequently tests the concept of **who, what, when, and why** in documentation. A well-documented workpaper answers: **Who** performed and reviewed the work? **What** was tested? **When** was it done? **Why** was the conclusion reached?
 
 :::
+
 ---
 
 ## Assembly and Retention of Documentation
@@ -91,6 +94,7 @@ After the auditor's report is released, there is a defined window during which t
 The documentation completion date is a hard deadline. After this date, the engagement file is considered **final**, and no documents may be deleted or discarded. The shorter PCAOB deadline (45 days vs. 60 days) is a commonly tested distinction on the CPA exam.
 
 :::
+
 ### What Happens During the Assembly Period
 
 During the documentation completion date window, the engagement team should:
@@ -116,6 +120,7 @@ After the documentation completion date, the audit file must be retained for a m
 Firms may establish **longer** retention periods based on legal, regulatory, or internal policy requirements. State boards and other regulators may also impose additional retention requirements. The standard establishes the **minimum** — not the maximum.
 
 :::
+
 ---
 
 ## Changes After the Documentation Completion Date
@@ -146,6 +151,7 @@ Changes after the completion date are rare and must be carefully controlled. Exa
 Under the **Sarbanes-Oxley Act**, knowingly destroying or altering audit documentation with the intent to impede a federal investigation is a **criminal offense**. This applies to both issuer and nonissuer engagements. The penalties can include fines and imprisonment.
 
 :::
+
 ---
 
 ## PCAOB vs. AICPA Documentation Requirements
@@ -171,11 +177,12 @@ The PCAOB places additional emphasis on:
 
 **Example:** BIF Partners audits MAS Inc., a publicly traded company. When documenting the test of journal entries for potential fraud, the engagement team must list each specific journal entry tested (by entry number, date, and amount), the source of the entry, the testing performed, and the conclusion. A general statement such as "tested a sample of journal entries and found no exceptions" would **not** meet PCAOB documentation standards.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 When the CPA exam asks about documentation completion dates or retention periods, pay close attention to whether the question specifies an **issuer** or **nonissuer** engagement. The PCAOB rules (45 days / 7 years) apply to issuers; the AICPA rules (60 days / 5 years) apply to nonissuers.
 
 :::
+
 ---
 
 ## Documentation of Significant Matters

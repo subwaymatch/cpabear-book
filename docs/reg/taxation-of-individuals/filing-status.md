@@ -25,6 +25,7 @@ Marital status is determined on the **last day of the taxable year** (December 3
 An **interlocutory decree** (i.e., a divorce that is not yet final) does **not** make a taxpayer unmarried. The decree must be final by December 31.
 
 :::
+
 ---
 
 ## The Five Filing Statuses
@@ -50,6 +51,7 @@ MFJ offers the widest tax brackets and the largest standard deduction. Both spou
 Joint and several liability means **each spouse** is responsible for the **entire** tax due, not just their share. Relief may be available under IRC §6015 (innocent spouse relief).
 
 :::
+
 ### 2. Qualifying Surviving Spouse (QSS)
 
 QSS allows a surviving spouse to use the same brackets and standard deduction as MFJ for **two years** following the year of the spouse's death.
@@ -62,11 +64,12 @@ QSS allows a surviving spouse to use the same brackets and standard deduction as
 
 > **Example:** Kingfisher Industries' CFO, Maria, lost her spouse in March 2023. For 2023, Maria files MFJ (year of death). For 2024 and 2025, she qualifies as QSS if she maintains a home for her dependent son and does not remarry.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 QSS is available only for **two years** after the year of death. In the year of death itself, the surviving spouse files MFJ (not QSS).
 
 :::
+
 ### 3. Head of Household (HoH)
 
 HoH provides wider brackets and a larger standard deduction than Single or MFS.
@@ -100,6 +103,7 @@ Qualifying costs include rent, mortgage interest, property taxes, insurance, rep
 A **boyfriend/girlfriend** who lives with the taxpayer all year may be a qualifying relative for dependency purposes, but they are **not** a qualifying person for HoH. The person must be **related** to the taxpayer.
 
 :::
+
 #### "Considered Unmarried" Rules
 
 A **married** taxpayer can qualify as HoH if **all** of the following are met:
@@ -138,6 +142,7 @@ Either spouse may elect MFS. This status has the **narrowest** tax brackets and 
 MFS can still be advantageous when one spouse has **large medical expenses** (the 7.5% AGI floor is easier to exceed with a lower individual AGI) or to limit liability exposure.
 
 :::
+
 ---
 
 ## Filing Status Selection Flowchart
@@ -188,6 +193,7 @@ For the detailed qualifying child (CARES test) and qualifying relative tests, se
 When a **custodial parent** signs Form 8332 releasing the dependency exemption to the non-custodial parent, the custodial parent **still** qualifies for HoH and the Earned Income Credit. The non-custodial parent receives only the Child Tax Credit.
 
 :::
+
 ---
 
 ## Impact of Filing Status on Deductions, Credits, and Phase-Outs

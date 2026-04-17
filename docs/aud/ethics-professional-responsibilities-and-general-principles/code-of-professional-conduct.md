@@ -22,6 +22,7 @@ The Code of Professional Conduct is organized in a hierarchical structure. Each 
 The Code is divided into three parts based on the CPA's role: (1) Members in Public Practice, (2) Members in Business, and (3) Other Members. Independence requirements apply primarily to members in public practice performing attest engagements.
 
 :::
+
 ---
 
 ## The Six Principles of Professional Conduct
@@ -44,11 +45,12 @@ Members should perform all professional responsibilities with the **highest sens
 
 Members should maintain **objectivity** and be free of conflicts of interest in discharging professional responsibilities. Members in public practice should be **independent** in fact and appearance when providing attest and other assurance services.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 **Independence in fact** means the auditor actually maintains an unbiased mental attitude. **Independence in appearance** means a reasonable, informed third party would conclude the auditor is unbiased. Both are required. The CPA exam frequently tests the distinction between these two concepts.
 
 :::
+
 ### 5. Due Care
 
 Members should observe the profession's technical and ethical standards, strive continually to improve competence and the quality of services, and discharge professional responsibility to the **best of the member's ability**. Due care requires a CPA to act diligently and in accordance with applicable standards.
@@ -93,6 +95,7 @@ The Code identifies seven categories of threats that can impair a CPA's independ
 The CPA exam frequently presents scenarios and asks candidates to identify the type of threat. Practice recognizing each threat category by focusing on the key characteristic: self-review involves reviewing your own work, advocacy involves promoting the client's position, familiarity involves closeness, and so on.
 
 :::
+
 ---
 
 ## Independence Rules for Attest Engagements
@@ -111,6 +114,7 @@ The independence rules strictly regulate a CPA's financial interests in attest c
 "Covered members" include the engagement partner, the engagement team, anyone in a position to influence the engagement, and the firm itself. Prohibited financial interests apply to covered members and their immediate family members.
 
 :::
+
 ### Employment and Business Relationships
 
 Independence is impaired when a **covered member's immediate family** holds a **key position** at an attest client. Key positions include CEO, CFO, controller, chief accounting officer, or any role equivalent to a member of senior management.
@@ -129,11 +133,12 @@ A CPA firm can provide nonattest services (such as tax, consulting, or bookkeepi
 
 **Example:** BIF Partners engages its audit firm to assist with bookkeeping services during the year. Independence is maintained as long as BIF Partners' management reviews and approves all journal entries, takes responsibility for the financial records, and has an individual with the competence to oversee the bookkeeping work. If the audit firm were to approve transactions or make accounting decisions without client oversight, independence would be impaired.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The three requirements for nonattest services — management responsibility, client oversight, and no management role for the CPA — appear frequently on the exam. Remember that the client must always be "in the driver's seat."
 
 :::
+
 ### Unpaid Fees
 
 Independence is considered impaired if **fees for services provided more than one year before the current-period report date remain unpaid** when the current-period report is issued. The reasoning is that the unpaid fees begin to resemble a loan to the client, creating a financial self-interest threat.
@@ -188,7 +193,7 @@ When a **former partner or professional employee** of the firm joins an attest c
 | Loans to/from attest client | Generally **prohibited** (except certain grandfathered or permitted loans) |
 | Former practitioner joins client | Must sever all ties with the firm; retirement payments must be fixed and determinable |
 
-:::tip Final Exam Tip
+:::tip[Final Exam Tip]
 
 When facing an independence question on the CPA exam, follow this process: (1) Identify the relationship or circumstance. (2) Determine if it involves a covered member. (3) Check the specific rules first. (4) If no specific rule applies, use the conceptual framework — identify the threat, evaluate its significance, and determine if safeguards can reduce it to an acceptable level.
 

@@ -7,6 +7,7 @@ Effective communication between the auditor and **those charged with governance*
 **Those charged with governance** refers to the person(s) or organization(s) with responsibility for overseeing the entity's financial reporting process. In most cases, this is the **audit committee** of the board of directors. For smaller entities, it may be the full board or even the owner-manager.
 
 :::
+
 ---
 
 ## Required Communications — Overview
@@ -35,11 +36,12 @@ The auditor should communicate:
 - That the audit includes consideration of **internal control** relevant to the preparation of the financial statements, but not for the purpose of expressing an opinion on the effectiveness of internal control (unless performing an integrated audit)
 - That the auditor is responsible for communicating **significant matters** arising from the audit
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The communication about auditor responsibilities helps set expectations. A common exam scenario describes a board member who believes the auditor guarantees the accuracy of the financial statements. The correct answer is that the auditor provides **reasonable assurance**, not a guarantee, and this distinction should be communicated to governance.
 
 :::
+
 ---
 
 ## Planned Scope and Timing
@@ -86,6 +88,7 @@ This is the most substantive category of required communications. The auditor mu
 Even if a disagreement with management was ultimately resolved in the auditor's favor, it must still be communicated to those charged with governance. The governance body needs to understand these discussions to fulfill its oversight role.
 
 :::
+
 ### Other Significant Matters
 - **Fraud** involving senior management or fraud (whether or not material) involving others that causes a material misstatement
 - Significant matters discussed with **management** in connection with the appointment or retention of the auditor
@@ -104,11 +107,12 @@ The auditor must communicate all **uncorrected misstatements** accumulated durin
 
 **Example:** During the audit of BIF Partners, the auditor identifies three misstatements totaling \$85,000 that management has declined to correct. While each misstatement is individually immaterial and their aggregate is below the auditor's materiality threshold, the auditor communicates all three to the audit committee along with the rationale for why they are considered immaterial. The audit committee may still direct management to make corrections.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The auditor communicates uncorrected misstatements to governance regardless of whether they are material. The key phrase is "other than those that are **clearly trivial**." If the auditor accumulates misstatements and management does not correct them, governance must be informed so they can exercise their own judgment.
 
 :::
+
 ---
 
 ## Independence Communications
@@ -153,6 +157,7 @@ If the auditor determines that the **two-way communication is inadequate**, the 
 If a matter is required to be communicated **in writing**, oral communication alone is not sufficient—even if governance acknowledges the oral communication. Written communication creates a formal record and is required for the most significant matters.
 
 :::
+
 ---
 
 ## Timing of Communications

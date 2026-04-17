@@ -7,6 +7,7 @@ For **issuers** (public companies), auditors are required by the Sarbanes-Oxley 
 An **integrated audit** combines the financial statement audit and the internal control audit into a single, coordinated engagement. The auditor issues an opinion on ICFR in addition to the opinion on the financial statements.
 
 :::
+
 ---
 
 ## Scope of the Internal Control Audit
@@ -33,11 +34,12 @@ AS 2201 requires the auditor to use a **top-down, risk-based approach** to ident
 4. **Select controls to test** — Choose controls that address the identified risks for each relevant assertion
 5. **Test the operating effectiveness** of selected controls
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The top-down approach means the auditor does **not** test every control. Instead, the auditor focuses on controls that are **most likely to prevent or detect a material misstatement**. Entity-level controls are evaluated first because strong entity-level controls can reduce the amount of detailed testing needed at the transaction level.
 
 :::
+
 ### Entity-Level Controls
 
 Entity-level controls include:
@@ -66,6 +68,7 @@ A central concept in reporting on internal control is the **classification of de
 The threshold for a material weakness is **reasonable possibility**—not "probable" and not "remote." This is an intermediate likelihood standard. A "reasonable possibility" exists when the chance of a material misstatement is more than remote but need not be probable.
 
 :::
+
 **Example:** During the integrated audit of MAS Inc., the auditor discovers that no one reviews the bank reconciliation prepared by the accounts payable clerk—the same person who processes cash disbursements. This lack of segregation of duties over cash, combined with the absence of a compensating review control, constitutes a **material weakness** because there is a reasonable possibility that a material misstatement in cash could go undetected.
 
 ---
@@ -96,6 +99,7 @@ Significant deficiencies do **not** affect the auditor's opinion on ICFR. Howeve
 Unlike the financial statement opinion (which can be qualified, adverse, or disclaimed), the ICFR opinion only has three possible outcomes: **unqualified, adverse, or disclaimer**. There is no qualified opinion on ICFR for a material weakness. An adverse opinion is mandatory.
 
 :::
+
 ---
 
 ## Communication of Deficiencies
@@ -129,11 +133,12 @@ The two opinions in an integrated audit are **related but separate**:
 | Adverse | Qualified or Adverse | ✅ Yes (if material misstatement found) |
 | Unqualified | Adverse | ✅ Yes (rare—FS issue unrelated to controls) |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 A very common exam question: "If the auditor issues an adverse opinion on ICFR, must the auditor also issue an adverse opinion on the financial statements?" The answer is **no**. The opinions are independent. The auditor may still issue an unqualified financial statement opinion if sufficient substantive procedures confirm the financial statements are fairly presented.
 
 :::
+
 ---
 
 ## Combined vs. Separate Reports

@@ -3,11 +3,13 @@
 ## Overview
 
 Public companies in the United States are subject to reporting requirements established by the **Securities and Exchange Commission (SEC)**. These requirements ensure that investors receive timely, reliable financial information. The SEC mandates periodic filings and prescribes specific disclosures, including **earnings per share (EPS)**, which is one of the most tested topics on the CPA exam.
-:::info Key Concept
+
+:::info[Key Concept]
 
 The SEC has the statutory authority to set accounting standards for public companies but has historically delegated that role to the FASB. However, the SEC establishes **reporting and disclosure** requirements through Regulation S-X (financial statement rules) and Regulation S-K (non-financial disclosures).
 
 :::
+
 ## SEC Filing Requirements
 
 ### Filer Categories
@@ -19,11 +21,13 @@ The SEC classifies registrants into three categories based on **public float** (
 | **Accelerated Filer** | ≥ \$75 million but < \$700 million | N/A |
 | **Non-Accelerated Filer** | < \$75 million | N/A |
 | **Smaller Reporting Company** | < \$250 million (or < \$100M revenue with < \$700M float) | See threshold |
-:::tip CPA Exam Tip
+
+:::tip[CPA Exam Tip]
 
 The filing deadlines depend on filer category. Large accelerated filers have the **shortest** deadlines because they have the most resources to prepare filings.
 
 :::
+
 ### Form 10-K (Annual Report)
 
 The Form 10-K is the **annual report** filed with the SEC. It includes:
@@ -71,6 +75,7 @@ Common triggering events include:
 - Changes in control of the registrant
 - Departure of directors or principal officers
 - Unregistered sales of equity securities
+
   :::note
   Form 8-K has **no** financial statement requirement — it is an event-driven disclosure.
   :::
@@ -91,6 +96,7 @@ EPS is governed by **ASC 260** (Earnings Per Share) and is required to be report
 EPS is reported with **equal prominence** on the face of the income statement. If both basic and diluted EPS are presented, they must be equally visible. EPS must be shown for both **income from continuing operations** and **net income**.
 
 :::
+
 ## Basic EPS
 
 ### Formula
@@ -116,6 +122,7 @@ $$
 For **cumulative** preferred stock, you **always** subtract the annual dividend — even if the board did not declare a dividend that year. This is the most commonly tested nuance.
 
 :::
+
 ### Denominator: Weighted Average Shares Outstanding
 
 Shares are weighted by the **fraction of the year** they were outstanding.
@@ -182,6 +189,7 @@ Used for **convertible bonds** and **convertible preferred stock**. Assumes conv
   > Gies Co. has 10,000 shares of convertible preferred stock (\$5 dividend per share), each convertible into 4 common shares.
   > **Numerator adjustment:** +\$50,000 (preferred dividends added back)
   > **Denominator adjustment:** +40,000 shares
+
   > :::info
   > For convertible preferred stock, there is **no tax adjustment** because preferred dividends are not tax-deductible.
   > :::
@@ -207,6 +215,7 @@ Used for **stock options** and **warrants**. Assumes the proceeds from exercise 
    $$
    **Numerator adjustment:** \$0 (no income effect for options)
    **Denominator adjustment:** +6,000 shares
+
    :::warning
    Options and warrants are dilutive **only when the exercise price is below the average market price** (in-the-money). If the exercise price exceeds the market price, the security is **antidilutive** and excluded.
    :::
@@ -223,12 +232,13 @@ The following securities may be potentially dilutive:
 
 ### Antidilution Rule
 
-:::danger Critical Rule
+:::danger[Critical Rule]
 
 A security is **antidilutive** if including it would **increase** EPS (or decrease the loss per share). Antidilutive securities are **excluded** from diluted EPS.
 Test each security individually, ranking from **most dilutive to least dilutive** (lowest incremental EPS to highest). Add securities one at a time — stop when adding the next security would be antidilutive.
 
 :::
+
 **Incremental EPS for each security:**
 
 $$
@@ -303,7 +313,7 @@ Options: Treasury stock method → 15,000 − (15,000 × \$25 / \$50) = 15,000 �
 | Antidilution            | Exclude if security increases EPS  |
 | Ranking                 | Most dilutive to least dilutive    |
 
-:::tip Final Exam Reminder
+:::tip[Final Exam Reminder]
 
 Always compute **basic EPS first**, then test each potentially dilutive security. On the exam, if you see options with an exercise price **above** market price, they are **out of the money** and excluded immediately.
 

@@ -21,6 +21,7 @@ If any of these changes materially affect comparability, the auditor must includ
 The consistency standard does **not** require the auditor to reference every change in accounting estimate, presentation change, or reclassification. It is focused specifically on changes in accounting principles and corrections of material misstatements. However, certain reclassifications may also require reporting if they are material.
 
 :::
+
 ---
 
 ## Factors Affecting Comparability or Consistency
@@ -48,6 +49,7 @@ Key considerations:
 A change in accounting **estimate** (such as revising the useful life of an asset) is **not** a consistency matter and does not require an emphasis-of-matter paragraph. However, a change in estimate that is inseparable from a change in principle (e.g., changing depreciation methods) is treated as a **change in principle** for reporting purposes.
 
 :::
+
 ### Correction of a Material Misstatement
 
 When an entity corrects a material misstatement in previously issued financial statements through a **restatement**, this is a consistency matter that requires:
@@ -79,6 +81,7 @@ When a consistency matter is identified, the auditor adds an emphasis-of-matter 
 The emphasis-of-matter paragraph does **not** change the opinion. The auditor can still issue an unmodified opinion — the paragraph simply draws the reader's attention to the change in principle or restatement.
 
 :::
+
 **Example language:**
 
 > *As discussed in Note 4 to the financial statements, Illini Entertainment changed its method of accounting for revenue contracts in 2025 due to the adoption of [new standard]. Our opinion is not modified with respect to this matter.*
@@ -99,6 +102,7 @@ When comparative financial statements are presented and the auditor audited both
 If the auditor becomes aware that the previously issued financial statements are materially misstated and management refuses to correct them, the auditor must take steps to prevent future reliance on the prior report. This may include notifying those charged with governance, regulatory agencies, or persons known to be relying on the financial statements.
 
 :::
+
 ---
 
 ## Restatement of Prior-Period Financial Statements
@@ -133,6 +137,7 @@ In an **initial engagement** (the first year the current auditor audits the enti
 If the auditor cannot obtain sufficient evidence about opening balances (for example, the predecessor auditor's workpapers are unavailable and alternative procedures are insufficient), the auditor may need to **qualify** the opinion on the income statement and statement of cash flows while still issuing an **unmodified** opinion on the balance sheet.
 
 :::
+
 ---
 
 ## Predecessor Auditor Considerations
@@ -188,6 +193,7 @@ There are two approaches to presenting prior-period financial information:
 For the CPA exam, focus on the **comparative financial statements** approach, as this is standard U.S. practice. Understand that the auditor must express an opinion on each period presented and that consistency matters may affect the opinion on the prior period.
 
 :::
+
 ---
 
 ## Summary

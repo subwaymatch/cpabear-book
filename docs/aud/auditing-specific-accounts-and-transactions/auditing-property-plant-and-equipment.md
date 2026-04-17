@@ -23,6 +23,7 @@ When new fixed assets are acquired, the auditor vouches recorded additions to su
 The auditor should be alert for items that should have been **expensed** but were improperly **capitalized**, as this overstates assets and understates expenses. Conversely, items that should have been capitalized but were expensed will understate assets.
 
 :::
+
 ### Example: Vouching Additions at Illini Security
 
 Illini Security purchased new surveillance equipment for \$450,000 during the year. The auditor:
@@ -48,6 +49,7 @@ When assets are retired, sold, or scrapped, the auditor must verify that they ar
 Failure to remove retired assets from the books **overstates** total assets and **understates** depreciation expense (because the retired asset continues to be depreciated, or the accumulated depreciation balance is inflated).
 
 :::
+
 ### Example: Disposal at Kingfisher Industries
 
 Kingfisher Industries sold a piece of manufacturing equipment for \$30,000. The auditor reviews the asset register and finds the equipment had an original cost of \$120,000 and accumulated depreciation of \$100,000 (net book value of \$20,000). The auditor recalculates: \$30,000 − \$20,000 = **\$10,000 gain on disposal** and verifies this amount is properly recorded in the income statement.
@@ -87,6 +89,7 @@ The auditor performs cutoff testing to ensure that asset purchases and dispositi
 Cutoff errors for PP&E affect both the balance sheet (asset balances) and the income statement (depreciation expense and gain/loss on disposal).
 
 :::
+
 ## Recalculating Depreciation
 
 The auditor independently recalculates depreciation expense to test accuracy and verify that management is applying the correct method, useful life, and salvage value.
@@ -117,6 +120,7 @@ For each material disposal, the auditor recalculates:
 Ensure depreciation is recorded up to the **date of disposal**, not just through the prior year-end. Failure to record current-year depreciation before removing the asset will result in an incorrect gain or loss.
 
 :::
+
 ## Disclosure Review
 
 The auditor reviews PP&E disclosures for completeness and accuracy:

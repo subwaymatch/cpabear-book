@@ -15,11 +15,12 @@ Both approaches are acceptable under professional standards. The critical distin
 | **Objectivity** | Higher — results are mathematically defensible | Lower — relies more on professional judgment |
 | **Projection** | Results can be statistically projected to the population | Projection is based on auditor judgment |
 
-:::info Key Point
+:::info[Key Point]
 
 Both statistical and nonstatistical sampling require the auditor to select a sample that is **expected to be representative** of the population. The choice between them does not affect the sufficiency or appropriateness of the evidence—both can provide effective audit evidence when properly applied.
 
 :::
+
 ---
 
 ## Professional Judgment in Sampling
@@ -42,6 +43,7 @@ Professional judgment plays a role throughout the sampling process, regardless o
 Sampling risk can lead the auditor to reach an **incorrect conclusion**. The two types of incorrect conclusions depend on whether the auditor is performing tests of controls or substantive tests.
 
 :::
+
 ### Sampling Risk for Tests of Controls
 
 When testing controls, two types of sampling risk exist:
@@ -56,6 +58,7 @@ When testing controls, two types of sampling risk exist:
 The risk of assessing control risk **too low** is the more serious risk because it can result in an inappropriate audit opinion. The risk of assessing control risk **too high** merely causes the auditor to do more work (an efficiency issue, not an effectiveness issue).
 
 :::
+
 ### Sampling Risk for Substantive Tests
 
 When performing substantive tests, two types of sampling risk exist:
@@ -65,7 +68,7 @@ When performing substantive tests, two types of sampling risk exist:
 | **Risk of incorrect ACCEPTANCE** | The sample suggests the balance is not materially misstated when it actually is | Auditor accepts a materially misstated balance | Affects **audit effectiveness** — may lead to an incorrect opinion |
 | **Risk of incorrect REJECTION** | The sample suggests the balance is materially misstated when it actually is not | Auditor rejects a balance that is fairly stated and performs additional unnecessary work | Affects **audit efficiency** — leads to wasted effort |
 
-:::tip Memory Aid
+:::tip[Memory Aid]
 
 The "dangerous" sampling risks—the ones that affect audit **effectiveness**—are:
 - Tests of controls: Risk of assessing control risk **too low**
@@ -74,6 +77,7 @@ The "dangerous" sampling risks—the ones that affect audit **effectiveness**—
 Both of these risks can lead to issuing a wrong audit opinion.
 
 :::
+
 ---
 
 ## Relationship Between Sampling Risk and Confidence Level
@@ -90,11 +94,12 @@ $$
 | 90% | 10% | Lower confidence; higher sampling risk |
 | 99% | 1% | Very high confidence; very low sampling risk |
 
-:::info Example
+:::info[Example]
 
 If the auditor wants only a 5% risk of incorrect acceptance when testing **Gies Co.'s** accounts receivable, they need a 95% confidence level. This will result in a larger sample size compared to accepting a 10% risk.
 
 :::
+
 ---
 
 ## Attribute Sampling
@@ -109,11 +114,12 @@ Attribute sampling is used primarily for **tests of controls**. It estimates the
 4. The sample deviation rate is calculated
 5. The auditor compares the sample deviation rate to the **tolerable deviation rate**
 
-:::info Example
+:::info[Example]
 
 The auditor tests **MAS Inc.'s** control requiring supervisory approval on all purchase orders over \$5,000. From a population of 500 such purchase orders, the auditor selects a sample of 60. If 3 items lack the required approval, the sample deviation rate is 3/60 = 5%.
 
 :::
+
 ### Factors Affecting Attribute Sample Size
 
 Several factors influence how large the sample must be:
@@ -130,6 +136,7 @@ Several factors influence how large the sample must be:
 Remember the relationships: Confidence level and expected deviation rate move in the **same direction** as sample size. Tolerable deviation rate moves in the **opposite direction**.
 
 :::
+
 ---
 
 ## Upper Deviation Rate vs. Tolerable Deviation Rate
@@ -146,11 +153,12 @@ After evaluating the sample, the auditor calculates (or looks up) the **upper de
 - If **UDR ≤ TDR** → The control is operating effectively enough to rely upon
 - If **UDR > TDR** → The control is not operating effectively enough; the auditor should increase the assessed level of control risk and expand substantive procedures
 
-:::info Example
+:::info[Example]
 
 The auditor sets a tolerable deviation rate of 7% for **BIF Partners'** cash disbursement approval control. After testing a sample, the calculated upper deviation rate is 5.2%. Since 5.2% ≤ 7%, the auditor concludes the control is operating effectively and can be relied upon.
 
 :::
+
 ---
 
 ## Discovery Sampling

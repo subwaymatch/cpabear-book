@@ -20,6 +20,7 @@ Cash is the most liquid asset and therefore the most susceptible to theft and ma
 Lapping becomes increasingly difficult to conceal over time because the employee must continuously redirect payments. The accounts are always partially out of date, and the total shortage grows.
 
 :::
+
 #### Detecting Lapping
 
 | Detection Method | How It Works |
@@ -39,7 +40,7 @@ Lapping becomes increasingly difficult to conceal over time because the employee
 2. The deposit into Bank B is recorded before year-end, but the disbursement from Bank A is not recorded until after year-end.
 3. This makes it appear that cash exists in **both** accounts simultaneously, overstating the total cash balance.
 
-:::info Bank Transfer Schedule
+:::info[Bank Transfer Schedule]
 
 The primary tool for detecting kiting is a **bank transfer schedule**. This schedule lists all interbank transfers made around year-end and shows:
 - Date the check was recorded as a **disbursement** in the books
@@ -50,6 +51,7 @@ The primary tool for detecting kiting is a **bank transfer schedule**. This sche
 If the receipt is recorded before year-end but the corresponding disbursement is recorded after year-end, kiting may be occurring.
 
 :::
+
 #### Example: Bank Transfer Schedule at Gies Co.
 
 | Transfer | Book Disbursement Date | Bank A Clear Date | Book Receipt Date | Bank B Clear Date | Potential Issue? |
@@ -75,6 +77,7 @@ The auditor sends a **standard bank confirmation** (also known as a Standard For
 Bank confirmations are sent to **all banks** the client has done business with during the period, including banks where accounts may have been closed. This helps detect undisclosed accounts or borrowings.
 
 :::
+
 ### Bank Reconciliation Testing
 
 The auditor tests the client's bank reconciliation to verify the reported cash balance. Key steps include:
@@ -109,6 +112,7 @@ If the client holds investment securities on its premises, the auditor should **
 All liquid assets—cash, securities, negotiable instruments—should be counted **simultaneously** or placed under the auditor's control to prevent substitution.
 
 :::
+
 ### Evaluation of Disclosures
 
 The auditor verifies that investment disclosures comply with applicable standards, including:
@@ -124,11 +128,12 @@ Kingfisher Industries holds a portfolio of equity securities and corporate bonds
 
 ## Auditing Fair Values
 
-:::warning Important Distinction
+:::warning[Important Distinction]
 
 The auditor is responsible for obtaining **sufficient appropriate audit evidence** that fair value measurements and disclosures are reasonable and in conformity with the applicable financial reporting framework. However, the auditor is **not responsible for predicting future conditions, transactions, or events** that might affect fair values.
 
 :::
+
 When auditing fair values, the auditor may:
 - **Test management's process** for determining fair values
 - **Develop an independent estimate** of fair value for comparison

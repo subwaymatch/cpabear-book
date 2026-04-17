@@ -1,11 +1,13 @@
 # Statement of Changes in Stockholders' Equity
 
 The **statement of changes in stockholders' equity** (also called the **statement of shareholders' equity**) reconciles the beginning and ending balances of each component of equity for the reporting period. It provides a comprehensive view of all transactions that affected owners' equity.
-:::info Key Concept
+
+:::info[Key Concept]
 
 While the balance sheet shows equity at a point in time and the income statement shows one period's earnings, this statement ties them together — showing _how_ equity moved from the beginning to the end of the period.
 
 :::
+
 ---
 
 ## Purpose and Importance
@@ -16,7 +18,8 @@ This statement answers several critical questions:
 2. Did the company issue or repurchase stock?
 3. What happened to accumulated other comprehensive income?
 4. What is the overall change in each equity component?
-   :::tip Exam Tip
+
+   :::tip[Exam Tip]
    Under U.S. GAAP, the statement of changes in stockholders' equity is a **required** financial statement. It cannot be replaced by a statement of retained earnings alone.
    :::
 
@@ -115,6 +118,7 @@ Dr. Retained earnings      250,000
 A small stock dividend (< 20-25%) is recorded at **fair market value**. A large stock dividend (≥ 20-25%) is recorded at **par value**. Stock splits require no journal entry — only a memo entry.
 
 :::
+
 ### Prior Period Adjustment
 
 **MAS Inc. discovers it understated depreciation expense by \$30,000 in the prior year (tax rate 25%):**
@@ -213,6 +217,7 @@ flowchart TD
 The statement of changes in stockholders' equity is the **linking statement** — it connects the period statements (income, comprehensive income, cash flows) to the point-in-time balance sheet.
 
 :::
+
 ---
 
 ## Noncontrolling Interest
@@ -228,7 +233,7 @@ For consolidated financial statements, the **noncontrolling interest (NCI)** is 
 
 ---
 
-:::danger Common Exam Pitfalls
+:::danger[Common Exam Pitfalls]
 
 1. Confusing **dividends declared** (reduces RE when declared) with **dividends paid** (cash flow event). RE is reduced at **declaration**, not payment.
 2. Forgetting that a **stock split** does not require a journal entry or change to total equity — only par value per share and shares outstanding change.

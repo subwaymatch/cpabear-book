@@ -32,7 +32,8 @@ Temporary differences **will reverse** in future periods, creating deferred tax 
 | Bad debt expense (allowance method) | Book expense now > Tax deduction later | **DTA** |
 | Prepaid rent (received in advance) | Book income later < Taxable now | **DTA** |
 | Installment sales | Book income now > Taxable later | **DTL** |
-:::info Key Principle
+
+:::info[Key Principle]
 
 - **Future taxable amounts** → Deferred Tax Liability (DTL)
 - **Future deductible amounts** → Deferred Tax Asset (DTA)
@@ -168,11 +169,13 @@ Dr. Deferred tax asset          3,150
 ## Valuation Allowance
 
 A **valuation allowance** reduces the DTA to the amount that is **more likely than not** (greater than 50% probability) to be realized.
+
 :::warning
 
 If it is more likely than not that **some or all** of the DTA will not be realized, a valuation allowance must be established.
 
 :::
+
 Factors suggesting a valuation allowance is needed:
 
 - History of operating losses
@@ -227,11 +230,12 @@ Dr. Deferred tax liability     28,000
 | 2018 – 2020 (CARES Act) | 5 years back     | Indefinite, 80% limit                       |
 | 2021 and later          | **No carryback** | Indefinite, **80% of taxable income** limit |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 For losses arising in 2021 and later, the NOL carryforward can offset only **80%** of taxable income in any given year. The remaining 20% is taxable.
 
 :::
+
 **Example:** Illini Security has a 2024 NOL of \$100,000 and taxable income of \$150,000 in 2025:
 
 $$
@@ -295,11 +299,12 @@ $$
 An exception exists if the investor can demonstrate the undistributed earnings will be reinvested indefinitely (the "indefinite reversal" criterion).
 
 :::
+
 ---
 
 ## Summary
 
-:::note Chapter Checklist
+:::note[Chapter Checklist]
 
 - [ ] Distinguish permanent from temporary differences
 - [ ] Calculate current tax expense from taxable income

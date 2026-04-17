@@ -9,6 +9,7 @@ This section covers how auditors use **internal auditors** (including direct ass
 The use of others' work is addressed in multiple standards: **AU-C 610** (using internal auditors), **AU-C 620** (using specialists), and **AU-C 600** (group audits/component auditors) under AICPA standards. PCAOB equivalents include **AS 2605** and **AS 1205**.
 
 :::
+
 ---
 
 ## Using Internal Auditors
@@ -49,6 +50,7 @@ Before relying on the work of internal auditors—whether performed independentl
 Even when the internal audit function has strong competence and objectivity, the external auditor must **always re-perform or independently test** areas involving significant judgments, significant risks, or matters requiring extensive professional judgment. Internal auditor work can supplement—but not replace—the external auditor's own procedures in these areas.
 
 :::
+
 ### Direct Assistance: Special Requirements
 
 When internal auditors provide **direct assistance** (performing procedures under the external auditor's direction), additional requirements apply:
@@ -63,6 +65,7 @@ When internal auditors provide **direct assistance** (performing procedures unde
 **PCAOB restriction:** Under PCAOB standards (for issuer audits), external auditors are **prohibited from using internal auditors to provide direct assistance**. The PCAOB takes a stricter position because internal auditors are employees of the entity and cannot meet the independence requirements for public company audits. Direct assistance is permitted only under AICPA standards for nonissuer engagements.
 
 :::
+
 ---
 
 ## Using the Work of a Specialist
@@ -99,11 +102,12 @@ Before relying on a specialist's work, the external auditor must evaluate:
 | **Auditor's evaluation** | Must evaluate competence, capabilities, and objectivity; also evaluate appropriateness of the specialist's work as audit evidence | Must evaluate competence, capabilities, and objectivity |
 | **Reference in audit report** | Generally **not referenced** in an unmodified opinion | Generally **not referenced** in an unmodified opinion |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The auditor does **not** mention the specialist in the audit report when issuing an unmodified opinion—doing so might be misunderstood as a qualification of the opinion or a division of responsibility. The specialist may be referenced only in a **modified opinion** to explain the basis for the modification.
 
 :::
+
 ---
 
 ## Component Auditors in Group Audits
@@ -136,6 +140,7 @@ Before involving a component auditor, the group engagement partner must assess:
 The group engagement partner must be involved in the component auditor's work at a level sufficient to obtain adequate audit evidence. The group engagement partner cannot simply accept the component auditor's report without evaluation—this would be an abdication of responsibility.
 
 :::
+
 ---
 
 ## IT Auditors as Engagement Team Members
@@ -182,6 +187,7 @@ One of the most fundamental principles in auditing is that the external auditor 
 A common exam trap: the fact that the auditor used a specialist, internal auditor, or component auditor does **not** allow the auditor to disclaim responsibility. If the auditor references a specialist in an unmodified opinion, this is generally inappropriate. The auditor is always responsible for the audit opinion.
 
 :::
+
 **Example:** BIF Partners engages a valuation specialist to assist with auditing the fair value of MSA Records' catalog of music rights. Even though the specialist performs the valuation analysis, BIF Partners remains solely responsible for the audit opinion on MSA Records' financial statements. If the valuation is materially wrong and the financial statements are misstated as a result, BIF Partners cannot shift blame to the specialist.
 
 ---

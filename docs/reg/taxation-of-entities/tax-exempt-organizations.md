@@ -9,6 +9,7 @@ The Internal Revenue Code recognizes over **30 types** of tax-exempt organizatio
 Tax-exempt status does not mean the organization is exempt from **all** taxes. Exempt organizations may still owe tax on **unrelated business taxable income (UBTI)** — income from a trade or business regularly carried on that is not substantially related to the organization's exempt purpose.
 
 :::
+
 ---
 
 ## Section 501(c)(3) Organizations
@@ -70,6 +71,7 @@ A private foundation is a §501(c)(3) organization that does **not** qualify as 
 Donors contributing to a **private foundation** face lower AGI limits for charitable contribution deductions (generally **30%** of AGI for cash and **20%** for capital gain property) compared to contributions to public charities (60% and 30%, respectively).
 
 :::
+
 #### Example
 
 Marcus establishes the **Kingfisher Industries Foundation** with a \$5 million endowment. The foundation's primary activity is awarding grants to local schools and environmental nonprofits. Because it is funded by a single source (Marcus) and primarily makes grants, the foundation is classified as a **private foundation**. It must distribute at least 5% of its net investment assets each year and is subject to the excise tax on investment income.
@@ -116,11 +118,12 @@ While §501(c)(3) organizations dominate exam questions, several other types of 
 | §501(c)(6) | Business leagues | Chambers of commerce, professional associations, trade associations |
 | §501(c)(7) | Social and recreational clubs | Country clubs, hobby clubs |
 
-:::warning Important Distinction
+:::warning[Important Distinction]
 
 Contributions to organizations described in §501(c)(4) through §501(c)(7) are generally **NOT deductible** as charitable contributions by the donor. Only contributions to §501(c)(3) organizations (and a few other specific categories such as governmental units and certain veterans' organizations) qualify for the charitable contribution deduction.
 
 :::
+
 #### Example
 
 Gies Co. pays \$15,000 in annual dues to the National Association of Widget Manufacturers, a §501(c)(6) business league. The dues are deductible as an **ordinary business expense** (not a charitable contribution), provided they are ordinary and necessary. However, any portion of dues used for lobbying is **not deductible**.
@@ -155,7 +158,7 @@ Derek contributes \$10,000 to the Illini Political Action Committee, a §527 org
 | §501(c)(6) — Business League | Yes (on exempt-purpose income) | **No** (but dues may be a business expense) |
 | §527 — Political Organization | Yes (on exempt-function income) | **No** |
 
-:::tip CPA Exam Takeaway
+:::tip[CPA Exam Takeaway]
 
 The most critical distinction for the exam is **donor deductibility**. Only contributions to §501(c)(3) organizations (and certain governmental units and veterans' organizations) are deductible as **charitable contributions**. Payments to other exempt organizations may be deductible as business expenses if they meet the ordinary and necessary standard, but they are not charitable contributions.
 

@@ -2,11 +2,12 @@
 
 The **income statement** (also called the **statement of operations** or **profit and loss statement**) reports an entity's financial performance over a period of time. It summarizes revenues, expenses, gains, and losses, ultimately arriving at **net income** or **net loss**.
 
-:::info Key Concept
+:::info[Key Concept]
 
 The income statement answers: _How much did the company earn (or lose) during this period?_ It is an accrual-basis statement—revenues are recognized when earned, and expenses when incurred, regardless of cash flow timing.
 
 :::
+
 ---
 
 ## Core Components
@@ -21,11 +22,12 @@ The income statement answers: _How much did the company earn (or lose) during th
 - **Gains** are increases in equity from _peripheral or incidental_ transactions (e.g., gain on sale of equipment).
 - **Losses** are decreases in equity from peripheral or incidental transactions (e.g., loss from a lawsuit, loss on disposal of assets).
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 Revenues and expenses relate to the **core business**. Gains and losses relate to **peripheral** activities. The distinction matters for income statement classification.
 
 :::
+
 ### Expired vs. Unexpired Costs
 
 | Term               | Definition                                                                                  | Example                                                |
@@ -39,11 +41,12 @@ When a cost _expires_, it moves from the balance sheet to the income statement.
 
 ## Gross vs. Net Reporting
 
-:::warning Important Distinction
+:::warning[Important Distinction]
 
 **Revenues and expenses** are reported at **gross** amounts. **Gains and losses** are reported at **net** amounts (proceeds minus carrying value).
 
 :::
+
 **Example — Bear Co. sells equipment:**
 
 - Original cost: \$50,000
@@ -112,11 +115,12 @@ Separates operating and nonoperating activities, providing subtotals such as **g
 | Income tax expense                    |      (30,600) |
 | **Income from continuing operations** |  **\$71,400** |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The multiple-step format is tested more frequently. Know the order: **Sales → COGS → Gross Profit → Operating Expenses → Operating Income → Other Items → Income from Continuing Operations → Discontinued Operations → Net Income**.
 
 :::
+
 ---
 
 ## Income from Continuing Operations
@@ -131,11 +135,12 @@ This is the bottom line of regular, recurring business activities **before** any
 
 ## Discontinued Operations
 
-:::warning Critical Topic
+:::warning[Critical Topic]
 
 Discontinued operations are reported **separately**, **net of tax**, **below** income from continuing operations. This is one of the most heavily tested income statement topics on the CPA exam.
 
 :::
+
 ### What Qualifies?
 
 A component qualifies as a discontinued operation when it represents a **strategic shift** that has (or will have) a major effect on the entity's operations and financial results. Examples include:
@@ -206,6 +211,7 @@ Dr. Net assets of discontinued component    60,000
 The reversal cannot exceed the total impairment loss previously recognized. You cannot write the asset **above** its original carrying amount before impairment.
 
 :::
+
 ---
 
 ## Foreign Currency Transactions
@@ -246,11 +252,12 @@ Dr. Foreign currency transaction loss    5,000
     Cr. Accounts payable                    5,000
 ```
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 A **weakening U.S. dollar** (higher exchange rate) means foreign-currency **payables cost more** (loss) and foreign-currency **receivables are worth more** (gain). Think: "Owe more = loss; Collect more = gain."
 
 :::
+
 ### Settlement
 
 When the transaction is settled, any additional exchange difference is recognized.
@@ -287,7 +294,7 @@ flowchart TD
     A --> I[Net Income]
 ```
 
-:::danger Common Exam Pitfalls
+:::danger[Common Exam Pitfalls]
 
 1. Reporting gains **gross** instead of **net** — always net gains/losses.
 2. Forgetting to report discontinued operations **net of tax**.

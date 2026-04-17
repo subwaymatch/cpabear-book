@@ -32,6 +32,7 @@ In a consignment arrangement, the consignor keeps title until the consignee sell
 Consigned goods sitting at another party's location are still inventory of the **consignor**, not the consignee.
 
 :::
+
 ## Cost Flow Assumptions
 
 U.S. GAAP permits several cost flow methods.
@@ -51,11 +52,12 @@ During periods of rising prices:
 - **FIFO** usually produces higher ending inventory and higher net income
 - **LIFO** usually produces lower ending inventory and lower net income
 
-:::tip Memory aid
+:::tip[Memory aid]
 
 **LIFO = lowest** ending inventory and income when prices are rising.
 
 :::
+
 ## Periodic vs. Perpetual Systems
 
 | System | Main feature |
@@ -98,6 +100,7 @@ For older GAAP-style questions using the **lower of cost or market** model, "mar
 If replacement cost is above the ceiling, use the ceiling. If it is below the floor, use the floor.
 
 :::
+
 ## Firm Purchase Commitments
 
 If a company is committed to buy inventory in the future and prices decline below the commitment price, the loss is recognized in the period of the decline.
@@ -139,11 +142,12 @@ $$
 \text{Estimated Ending Inventory} = \$250{,}000 - \$165{,}000 = \$85{,}000
 $$
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The gross profit method is **not** acceptable for annual financial statements under GAAP. It is used for interim reporting, insurance claims, and reasonableness checks. Be careful with how the gross profit percentage is expressed — "markup on cost" and "gross profit as a percentage of sales" produce different results.
 
 :::
+
 ### Retail Inventory Method
 
 The retail inventory method estimates ending inventory by converting the retail value of ending inventory to cost using a **cost-to-retail ratio** (also called the cost complement).
@@ -182,6 +186,7 @@ $$
 Under U.S. GAAP, the retail inventory method can approximate **lower of cost or market (LCM)** when net markdowns are excluded from the cost-to-retail ratio calculation. This produces a lower ratio and a more conservative ending inventory.
 
 :::
+
 ---
 
 ## Inventory Costing Illustration
@@ -242,7 +247,7 @@ Dr. Loss on inventory write-down    6,500
 
 ## Inventory Takeaways for FAR
 
-:::note Checklist
+:::note[Checklist]
 
 - Determine ownership first: FOB terms and consignment can change the answer.
 - Know the difference between periodic and perpetual systems.

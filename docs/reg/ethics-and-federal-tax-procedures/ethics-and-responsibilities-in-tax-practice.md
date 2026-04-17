@@ -26,6 +26,7 @@ Tax practitioners occupy a unique position of trust — they serve clients while
 **Practice before the IRS** includes all matters connected with presentations to the IRS, such as preparing and filing documents, corresponding with the IRS, and representing a taxpayer at conferences, hearings, and meetings.
 
 :::
+
 ### Duties and Restrictions of Practitioners
 
 Circular 230 imposes affirmative duties on all practitioners:
@@ -40,6 +41,7 @@ Circular 230 imposes affirmative duties on all practitioners:
 Circular 230 does **not** require the practitioner to notify the IRS of the client's error — only to advise the client. The decision to amend rests with the client.
 
 :::
+
 ### Conflicts of Interest
 
 A practitioner may not represent a client before the IRS if doing so creates a **conflict of interest**. A conflict exists when:
@@ -70,11 +72,12 @@ A practitioner may not sign a tax return or advise a client to take a position o
 | **Reasonable Basis** | Approximately 20% likelihood of success | Minimum threshold; position must be disclosed on the return |
 | **More Likely Than Not** | Greater than 50% likelihood of success | Required for tax shelter positions and reportable transactions |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 Remember the hierarchy of confidence levels: **Reasonable Basis (≈20%)** < **Realistic Possibility (>33⅓%)** < **Substantial Authority (≈40%)** < **More Likely Than Not (>50%)**. The CPA exam frequently tests which standard applies to which situation.
 
 :::
+
 ### Due Diligence Requirements
 
 Under Circular 230, a practitioner must exercise **due diligence** in:
@@ -116,6 +119,7 @@ The IRC imposes separate penalties directly on **tax return preparers**:
 The §6694(b) penalty for willful or reckless conduct is assessed **in addition to** the §6694(a) penalty — not as a substitute. A single return can trigger both penalties.
 
 :::
+
 > **Example:** A preparer at Illini Entertainment files a return claiming \$200,000 in fabricated deductions, earning a \$3,000 preparation fee. The §6694(b) penalty is the greater of \$5,000 or 75% × \$3,000 = \$2,250 — so the penalty is \$5,000.
 
 ---
@@ -134,6 +138,7 @@ Circular 230 §10.33 sets out **best practices** for tax advisors, including:
 Best practices are **aspirational guidelines**, not mandatory standards. Failure to comply with best practices alone does not subject a practitioner to discipline under Circular 230.
 
 :::
+
 ---
 
 ## Other Key Practitioner Responsibilities

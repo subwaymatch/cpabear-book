@@ -19,6 +19,7 @@ The fundamental objective when dealing with supplementary information is to **de
 The auditor's report on the basic financial statements does not cover supplementary information unless the auditor has been specifically engaged to report on it or is required by standards to perform specific procedures.
 
 :::
+
 ---
 
 ## Required Supplementary Information (RSI)
@@ -74,6 +75,7 @@ If the auditor encounters problems with the RSI, the report must be modified acc
 The auditor's responsibility for RSI is **limited** — but that doesn't mean the auditor can ignore it. Omissions, material departures, and inconsistencies must all be reported.
 
 :::
+
 ---
 
 ## Other (Voluntary) Supplementary Information
@@ -129,6 +131,7 @@ When the auditor has been engaged to report on voluntary SI, the opinion can be 
 The "in relation to" opinion is a **lesser level of assurance** than the opinion on the basic financial statements. It means the SI is fairly stated **relative to** the financial statements as a whole — not that it would stand on its own. Think of it as the SI being "along for the ride" with the basic financial statements.
 
 :::
+
 ---
 
 ## Auditor Responsibility for Other Information in Documents
@@ -173,6 +176,7 @@ The auditor does **not** audit the other information and does **not** express an
 For **nonissuer** audits under AICPA standards, the auditor may include an **"Other Information"** section in the auditor's report, which describes the auditor's responsibilities for the other information, states that the auditor read it, and notes whether any material inconsistencies were identified.
 
 :::
+
 ---
 
 ## Comparison: RSI vs. Voluntary SI vs. Other Information
@@ -198,7 +202,7 @@ For **nonissuer** audits under AICPA standards, the auditor may include an **"Ot
 | **"In relation to" opinion** | Lesser assurance; requires an unmodified or qualified opinion on the basic financials |
 | **Adverse or disclaimer** | Cannot issue an "in relation to" opinion if the basic financial statement opinion is adverse or a disclaimer |
 
-:::tip Final Exam Tip
+:::tip[Final Exam Tip]
 
 When a question asks about supplementary information, first determine: **(1)** Is it required (RSI) or voluntary? **(2)** Was the auditor engaged to report on it? Your answers to these two questions determine everything — the procedures, the assurance level, and the reporting.
 

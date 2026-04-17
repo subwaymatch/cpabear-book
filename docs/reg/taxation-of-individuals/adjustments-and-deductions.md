@@ -23,6 +23,7 @@ Adjustments to gross income — also called **above-the-line deductions** — ar
 The distinction matters because AGI serves as the benchmark for many other tax calculations — the 7.5% medical expense floor, the SALT cap, charitable contribution limits, and phase-outs for credits and deductions all reference AGI.
 
 :::
+
 ---
 
 ## Educator Expenses
@@ -73,6 +74,7 @@ A taxpayer enrolled in a **high-deductible health plan (HDHP)** and covered by n
 Distributions used for **non-medical** purposes before age 65 are included in gross income **and** subject to a **20% penalty**. After age 65, non-medical distributions are included in income but the penalty does not apply.
 
 :::
+
 ### Example
 
 Jamie (age 42, self-only HDHP coverage) contributes \$4,300 to an HSA in 2025. The full \$4,300 is deductible as an adjustment to income. During the year, Jamie withdraws \$1,200 to pay for a dental procedure — that withdrawal is tax-free. If Jamie had withdrawn \$800 to pay for a vacation, the \$800 would be taxable income plus a \$160 penalty (20%).
@@ -112,6 +114,7 @@ The deductibility of alimony depends entirely on **when** the divorce or separat
 **Child support** is never deductible by the payor and never taxable to the payee, regardless of when the agreement was executed. If payments are reduced upon a child-related contingency (e.g., the child turning 18), the reduction is treated as child support.
 
 :::
+
 ### Example
 
 Derek pays \$2,000/month to his ex-spouse under a divorce decree entered in 2017. Of this, \$800 is designated as child support. Derek deducts \$1,200/month (\$14,400/year) as alimony. The \$800/month child support is not deductible. If the decree had been entered in 2020, none of the \$2,000/month would be deductible.
@@ -148,6 +151,7 @@ If the taxpayer (or spouse) is an **active participant** in an employer-sponsore
 If **neither** spouse is covered by an employer plan, the full traditional IRA contribution is deductible regardless of income level.
 
 :::
+
 ### Roth IRA Income Limits
 
 Roth IRA contributions are phased out at higher MAGI levels. Taxpayers whose income exceeds the phase-out range cannot contribute directly to a Roth IRA (though a **backdoor Roth** conversion may be available).
@@ -228,6 +232,7 @@ Certain taxpayers **cannot** claim the standard deduction:
 - Individuals filing a return for a short tax year due to a change in accounting period
 
 :::
+
 ---
 
 ## Itemized Deductions
@@ -309,6 +314,7 @@ Under the TCJA, the total itemized deduction for state and local taxes is limite
 The SALT cap does **not** apply to taxes paid in carrying on a trade or business (those are deducted on Schedule C or the applicable business schedule). It applies only to taxes deducted as **personal itemized deductions** on Schedule A.
 
 :::
+
 ### Example
 
 Sarah pays \$8,000 in state income taxes, \$4,500 in real property taxes, and \$600 in personal property taxes during 2025, for a total of \$13,100. Her SALT deduction is limited to **\$10,000**.
@@ -618,6 +624,7 @@ A federally declared tornado damages Marcus's personal residence. The home had a
 If the casualty is **not** in a federally declared disaster area, the personal casualty loss is **not deductible** under current law (TCJA, through 2025). Business casualty losses are not subject to this restriction.
 
 :::
+
 ---
 
 ## Gambling Losses
@@ -661,6 +668,7 @@ The deduction is limited to the lesser of:
 At lower income levels, the SSTB distinction does **not** matter — the full 20% deduction is available regardless of business type. The SSTB limitation only kicks in once taxable income exceeds the threshold.
 
 :::
+
 ### Income Thresholds (2025 Approximate)
 
 | Filing Status | Full Deduction Below | Phase-Out Range | No SSTB Deduction Above |
@@ -691,7 +699,7 @@ Because Sarah's taxable income is below the threshold, the W-2/property limitati
 
 Priya is a partner in an accounting firm (an SSTB). Her allocated QBI is \$300,000 and she files as Single with taxable income of \$260,000 — above the \$247,300 upper threshold. Because the accounting firm is an SSTB and Priya's income exceeds the phase-out range, her Section 199A deduction is **\$0**. No QBI deduction is available for income from an SSTB once taxable income exceeds the upper threshold.
 
-:::tip CPA Exam Strategy
+:::tip[CPA Exam Strategy]
 
 For Section 199A questions, follow this decision tree:
 1. Is the income from a **qualified trade or business**?

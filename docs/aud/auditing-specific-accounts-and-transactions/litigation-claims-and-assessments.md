@@ -20,6 +20,7 @@ The auditor should ask management—including in-house legal counsel—about:
 Frame inquiries broadly. Ask about disputes with customers, employees, regulators, and competitors—not just "lawsuits." Management may not classify a regulatory investigation or tax dispute as "litigation" unless prompted.
 
 :::
+
 ### 2. Review Minutes of Board and Committee Meetings
 
 Board of directors and audit committee minutes frequently reference:
@@ -53,6 +54,7 @@ Reviewing legal invoices and correspondence can reveal matters that management h
 No single procedure is sufficient by itself. The auditor combines all of these techniques to build a complete picture of the entity's litigation exposure.
 
 :::
+
 ## Letters of Inquiry to the Client's Legal Counsel
 
 The **attorney letter** (also called the audit inquiry letter or legal confirmation letter) is the most important procedure for evaluating litigation, claims, and assessments. It is required under **AU-C 501** (AICPA) and **AS 2505** (PCAOB).
@@ -71,6 +73,7 @@ The **attorney letter** (also called the audit inquiry letter or legal confirmat
 The letter is prepared and sent by **management**, not by the auditor. This is because the attorney-client relationship belongs to the client. However, the attorney's response is addressed directly to the **auditor** to preserve the independence and reliability of the evidence.
 
 :::
+
 ### Content of the Inquiry Letter
 
 The inquiry letter typically requests the attorney to provide information on:
@@ -98,6 +101,7 @@ The attorney categorizes the likelihood of an unfavorable outcome using the stan
 If the attorney states that a loss is "probable" but cannot provide a reasonable estimate, the entity must still disclose the contingency in the notes—even though no accrual is recorded. The auditor should evaluate whether the disclosure is adequate.
 
 :::
+
 ### Limitations on Attorney Responses
 
 Attorneys may limit their responses due to **attorney-client privilege** and ethical obligations:
@@ -112,6 +116,7 @@ Attorneys may limit their responses due to **attorney-client privilege** and eth
 A refusal by the attorney to respond—or a significantly limited response—does **not** automatically mean the attorney is hiding something. However, the auditor must evaluate whether sufficient appropriate evidence has been obtained. A material limitation may constitute a **scope limitation** affecting the audit opinion.
 
 :::
+
 ### Example: Attorney Letter at Kingfisher Industries
 
 Kingfisher Industries is defending against two lawsuits:
@@ -139,11 +144,12 @@ The accounting treatment for litigation-related contingencies follows **ASC 450-
 | Loss is **reasonably possible** | ❌ No accrual | ✅ Yes—disclose the nature and estimated range of loss (or state that an estimate cannot be made) |
 | Loss is **remote** | ❌ No accrual | ❌ Generally no (except for certain guarantees under ASC 460) |
 
-:::info Accrual Best Practices
+:::info[Accrual Best Practices]
 
 When a range of loss is estimated and no amount within the range is a better estimate than any other, the entity should accrue the **minimum amount** in the range and disclose the full range. This is a frequently tested CPA exam concept.
 
 :::
+
 ### Example: Loss Contingency at Bear Co.
 
 Bear Co. is the defendant in a class-action product liability lawsuit. Management and legal counsel evaluate the matter:
@@ -172,6 +178,7 @@ As part of the **management representation letter** (AU-C 580), the auditor obta
 The management representation letter supplements—but does not replace—the attorney letter. Both are required. The representation letter confirms management's responsibility for completeness; the attorney letter provides corroborating evidence from an independent legal professional.
 
 :::
+
 ### Example: Representation Letter at Illini Entertainment
 
 Illini Entertainment's CFO signs a management representation letter stating: *"We have disclosed to you all pending and threatened litigation and claims. We believe the accruals and disclosures in the financial statements are adequate."* However, during the subsequent events review, the auditor discovers a new \$5,000,000 copyright infringement lawsuit filed two weeks after the balance sheet date. The auditor must:
@@ -214,11 +221,12 @@ MAS Inc. faces a \$50,000,000 government fraud investigation. The company's outs
 | **Emphasis-of-matter** | Permitted for significant uncertainties (AU-C 706) | Explanatory paragraph added after the opinion paragraph (AS 3101) |
 | **Internal control over financial reporting** | Not required for nonissuers | Auditor must evaluate controls over litigation accrual and disclosure in an integrated audit |
 
-:::note PCAOB Integrated Audits
+:::note[PCAOB Integrated Audits]
 
 For public companies, the auditor performs an **integrated audit** of financial statements and internal control over financial reporting (ICFR). This means the auditor must also evaluate whether the entity has effective controls over the identification, evaluation, and disclosure of litigation, claims, and assessments—not just whether the amounts in the financial statements are correct.
 
 :::
+
 ### Example: PCAOB Integrated Audit at Gies Co.
 
 Gies Co. is a publicly traded manufacturer subject to PCAOB standards. The auditor:

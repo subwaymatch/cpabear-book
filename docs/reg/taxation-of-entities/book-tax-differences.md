@@ -20,6 +20,7 @@ Financial accounting income (book income) and taxable income are computed under 
 Schedule M-3 provides far more detail than M-1, breaking each reconciling item into **temporary** and **permanent** columns. The IRS uses M-3 to identify aggressive tax positions and improve audit selection.
 
 :::
+
 ---
 
 ## Permanent Differences
@@ -39,11 +40,12 @@ Permanent differences are items that appear on the **books but never on the tax 
 
 > **Example:** Bear Co. reports \$500,000 of book income. Its books include \$10,000 of municipal bond interest income and \$20,000 of federal income tax expense. For the M-1 reconciliation, subtract \$10,000 (tax-exempt interest) and add \$20,000 (nondeductible federal income tax), yielding a \$10,000 net increase to arrive at taxable income.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 **Federal income tax expense** is the most commonly tested permanent difference. It is always deducted on the books but **never** deductible on the tax return.
 
 :::
+
 ---
 
 ## Temporary Differences
@@ -72,6 +74,7 @@ Temporary differences arise when items are recognized in **different periods** f
 A helpful mnemonic: if tax depreciation is **higher** than book depreciation in the current year, taxable income is **lower** → a **deferred tax liability** exists (you will pay more tax in the future when the difference reverses).
 
 :::
+
 ---
 
 ## Schedule M-1 Reconciliation Format
@@ -119,6 +122,7 @@ $$
 When the M-1 starts with net income per books **after** federal income tax, you must **add back** the federal income tax expense. Some questions give book income **before** tax — in that case, do **not** add it back. Read the question carefully.
 
 :::
+
 ---
 
 ## Schedule M-3 Format
@@ -167,6 +171,7 @@ When reviewing an entity's adjusted book trial balance, look for these common it
 **Capital losses** for C corporations can only offset **capital gains** (no \$3,000 deduction against ordinary income like individuals). Unused capital losses carry back 3 years and forward 5 years. This creates a temporary difference when a corporation has a net capital loss.
 
 :::
+
 ---
 
 ## Common Exam Traps

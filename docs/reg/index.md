@@ -10,11 +10,12 @@ The **Regulation (REG)** section of the CPA exam tests your knowledge of **ethic
 
 REG is unique among the CPA exam sections because it spans two fundamentally different disciplines: **law** and **taxation**. You will need to think like a lawyer when analyzing contracts and agency relationships, and like a tax adviser when computing basis, characterizing gains, and optimizing entity structures.
 
-:::info Why REG Matters
+:::info[Why REG Matters]
 
 Whether you work in public accounting, industry, or government, the material in this section forms the backbone of everyday CPA practice. Tax compliance alone generates billions of dollars in professional fees, and understanding business law protects both clients and practitioners from costly mistakes.
 
 :::
+
 ---
 
 ## What This Section Covers
@@ -33,11 +34,12 @@ Key topics include:
 - **Taxpayer Rights** — the Taxpayer Bill of Rights, innocent spouse relief, offers in compromise, and installment agreements
 - **Privileged Communications** — the limited tax practitioner–client privilege under IRC §7525
 
-:::tip Exam Strategy
+:::tip[Exam Strategy]
 
 Circular 230 and the penalty regime are **heavily tested**. Know the difference between a \$5,000 penalty for a frivolous return and the 75% civil fraud penalty. Memorize the key due-diligence standards — they appear in almost every REG exam.
 
 :::
+
 ### 2. Business Law
 
 Business law questions test your understanding of the **legal frameworks** that govern commercial activity. You do not need to be a lawyer, but you must recognize legal issues and apply fundamental rules.
@@ -51,11 +53,12 @@ Business law questions test your understanding of the **legal frameworks** that 
 | **Business Structures** | Sole proprietorships, general and limited partnerships, LLCs, S corporations, C corporations — formation, operation, dissolution |
 | **Sales Article of the UCC** | Contract formation for goods, warranties, risk of loss, remedies for breach, merchant rules |
 
-:::note UCC Focus
+:::note[UCC Focus]
 
 The **Uniform Commercial Code (UCC) Article 2** governs the sale of goods and modifies many common-law contract rules. For example, the UCC does *not* require the mirror-image rule — additional terms in an acceptance may become part of the contract. Understanding where the UCC departs from common law is critical for the exam.
 
 :::
+
 ### 3. Federal Taxation of Property Transactions
 
 Property transactions test your ability to determine **basis**, characterize **gains and losses**, and apply the cost-recovery system.
@@ -64,11 +67,12 @@ Property transactions test your ability to determine **basis**, characterize **g
 - **Gains and Losses** — realization vs. recognition, like-kind exchanges under IRC §1031, involuntary conversions under §1033, installment sales under §453, wash-sale rules under §1091
 - **Cost Recovery** — MACRS depreciation, §179 immediate expensing, bonus depreciation, amortization of §197 intangibles, depletion
 
-:::caution Common Trap
+:::caution[Common Trap]
 
 When Bear Co. receives property as a gift with a fair market value (FMV) *below* the donor's adjusted basis, the basis for computing a **loss** is the FMV at the date of the gift — not the donor's basis. This "dual basis" rule trips up many candidates. If Bear Co. later sells the property at a price between the donor's basis and the FMV, the result is **no gain and no loss**.
 
 :::
+
 ### 4. Federal Taxation of Individuals
 
 Individual taxation covers the computation of **taxable income** from gross income through the final tax liability.
@@ -82,6 +86,7 @@ Individual taxation covers the computation of **taxable income** from gross inco
 When Gies Co.'s owner, a sole proprietor, computes self-employment tax, remember: the SE tax base is **92.35%** of net self-employment income (the equivalent of the employer's share adjustment). The deduction for one-half of SE tax is an **above-the-line** deduction — it reduces AGI, not taxable income directly.
 
 :::
+
 ### 5. Federal Taxation of Entities
 
 Entity taxation requires you to understand how **different business structures** are taxed, how income flows to owners, and when entity-level taxes apply.
@@ -91,11 +96,12 @@ Entity taxation requires you to understand how **different business structures**
 - **C Corporations** — double taxation, dividends-received deduction, accumulated earnings tax, personal holding company tax, NOL rules, charitable contribution limits (10% of taxable income before certain deductions)
 - **S Corporations** — eligibility requirements (100 shareholders, one class of stock, eligible shareholders), built-in gains tax, AAA and OAA accounts, shareholder basis computation
 
-:::warning Entity Selection
+:::warning[Entity Selection]
 
 Choosing between a C corporation and an S corporation — or a partnership-taxed LLC — has enormous tax consequences. For example, when MAS Inc. (a C corporation) distributes \$50,000 in dividends, those dividends are taxed at the corporate level *and* again at the shareholder level. If MAS Inc. were instead structured as an S corporation, the income would pass through and be taxed only once at the shareholder level. Always analyze the **total tax burden** across all levels.
 
 :::
+
 ---
 
 ## Key Legal and Regulatory Frameworks
@@ -115,7 +121,7 @@ Throughout your REG studies, you will encounter these foundational authorities:
 
 ## Study Guide
 
-:::tip How to Approach REG
+:::tip[How to Approach REG]
 
 **Divide and conquer.** REG rewards a structured study plan because its two halves — law and tax — use different reasoning skills.
 
@@ -140,6 +146,7 @@ Throughout your REG studies, you will encounter these foundational authorities:
 6. **Review consistently.** Tax law changes, but the exam tests **evergreen principles**. Focus on understanding *why* rules exist, not just memorizing them.
 
 :::
+
 ---
 
 Ready to begin? Select a topic area from the sidebar to start your REG journey.

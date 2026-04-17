@@ -3,11 +3,13 @@
 ## Parent-Subsidiary Relationship
 
 Consolidated financial statements are required when a parent company holds a **controlling financial interest** in one or more subsidiaries. Under the **voting interest model**, control is presumed when the parent owns **more than 50%** of the subsidiary's outstanding voting stock.
+
 :::info
 
 Consolidated statements present the parent and its subsidiaries as a **single economic entity**. All intercompany balances and transactions are eliminated.
 
 :::
+
 ---
 
 ## Voting Interest Model
@@ -71,11 +73,12 @@ Dr. Cost of goods sold          5,000
     Cr. Inventory (Gies)               5,000
 ```
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 In a **downstream** sale, 100% of the unrealized profit is eliminated against the **parent's** income. In an **upstream** sale, the unrealized profit is allocated between the parent and the NCI based on ownership percentages.
 
 :::
+
 ### Upstream Sale (Subsidiary → Parent)
 
 Gies Co. (80%-owned subsidiary) sells inventory costing \$40,000 to Bear Co. for \$55,000. Bear Co. still holds 40% at year-end.
@@ -181,6 +184,7 @@ The consolidated balance sheet combines the parent's and subsidiary's assets and
 - **Add** fair value adjustments (from acquisition) to subsidiary assets/liabilities
 - **Report** goodwill as an asset
 - **Report NCI** in the **equity section** (separate from parent's equity)
+
   :::warning
   NCI is presented in the **equity section** of the consolidated balance sheet, not as a liability or mezzanine item.
   :::
@@ -247,7 +251,7 @@ graph TD
     C --> I[Intercompany Interest]
 ```
 
-:::note Chapter Checklist
+:::note[Chapter Checklist]
 
 - [ ] Determine when consolidation is required (>50% voting interest)
 - [ ] Eliminate 100% of intercompany transactions regardless of ownership %
@@ -296,7 +300,8 @@ On MAS's standalone books, all assets and liabilities are adjusted to fair value
 Pushdown accounting does **not** change the consolidated financial statements — it only affects the subsidiary's **standalone** financial statements. On consolidation, the parent already performs the purchase price allocation in its consolidation workpapers.
 
 :::
-:::tip Exam Tip
+
+:::tip[Exam Tip]
 
 Remember the three distinguishing features of pushdown accounting: (1) it is **optional**, (2) goodwill is recorded on the **subsidiary's** books (not just on consolidation workpapers), and (3) any bargain purchase gain goes to **APIC** rather than earnings. Subsequent revaluation effects flow through **pushdown capital** (an equity account).
 

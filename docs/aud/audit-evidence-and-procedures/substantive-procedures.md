@@ -13,6 +13,7 @@ The fundamental purpose of substantive procedures is to **detect material missta
 Even when internal controls are strong and tested as effective, substantive procedures **cannot be eliminated entirely** for significant accounts. Controls can reduce, but never remove, the need for substantive testing.
 
 :::
+
 ---
 
 ## Two Categories of Substantive Procedures
@@ -41,11 +42,12 @@ Tests of details are especially useful when:
 
 Substantive analytical procedures evaluate financial data by developing an **independent expectation** and comparing it to the client's recorded amounts. If the recorded balance falls outside the expected range, the auditor investigates the difference.
 
-:::info Example
+:::info[Example]
 
 The auditor estimates **Illini Security's** payroll expense by multiplying the average number of employees by the average wage rate by the number of pay periods. If the recorded payroll expense differs significantly from this expectation, the auditor performs additional procedures to investigate the cause.
 
 :::
+
 Substantive analytical procedures work best when:
 
 - The relationship between data elements is predictable and stable
@@ -68,6 +70,7 @@ The auditor adjusts the nature, extent, and timing of substantive procedures bas
 Think of it as a sliding scale. When the auditor assesses a higher risk of material misstatement (whether due to weak controls, fraud risk, or complex transactions), the response should be to increase the **persuasiveness** of substantive testing—not just the volume.
 
 :::
+
 ---
 
 ## Nature, Extent, and Timing of Substantive Procedures
@@ -86,11 +89,12 @@ Extent refers to the **quantity** of testing—how many items are selected or ho
 - Greater extent is required when the risk of material misstatement is higher.
 - Greater extent is also needed when individual items of evidence are less persuasive.
 
-:::info Example
+:::info[Example]
 
 If **MSA Records** has a large number of small customer accounts with inconsistent payment patterns, the auditor may need to confirm a larger sample of receivables compared to a client with fewer, well-established customers.
 
 :::
+
 ### Timing
 
 Timing refers to **when** the procedures are performed—at an interim date or at period end.
@@ -109,6 +113,7 @@ Timing refers to **when** the procedures are performed—at an interim date or a
 When the auditor performs substantive procedures at an interim date, the rollforward period introduces additional risk. The auditor must obtain evidence that no material misstatements arose during that gap—often through a combination of substantive analytical procedures and limited tests of details covering the remaining period.
 
 :::
+
 ---
 
 ## Examples of Substantive Procedures by Account
@@ -125,7 +130,7 @@ The following table illustrates how different substantive procedures apply to sp
 | **Revenue** | Vouch recorded revenue to contracts and delivery evidence at **Illini Entertainment** | Compare revenue trends to industry data and prior-year patterns |
 | **Payroll** | Recompute payroll amounts for selected pay periods at **Illini Security** | Estimate total payroll from headcount and average wage data |
 
-:::note Exam Strategy
+:::note[Exam Strategy]
 
 When the CPA exam presents a scenario and asks which substantive procedure is "most appropriate," consider the **specific assertion** at risk and choose the procedure that most directly addresses it. Confirmations test existence; searching for unrecorded liabilities tests completeness; aging analysis tests valuation.
 

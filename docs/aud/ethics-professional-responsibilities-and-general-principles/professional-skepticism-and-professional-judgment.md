@@ -9,6 +9,7 @@ This section covers the nature and application of **professional skepticism**, t
 Professional skepticism and professional judgment are required by both **AICPA** (AU-C 200) and **PCAOB** (AS 1015, AS 2401) standards. Both frameworks emphasize that these qualities must be exercised throughout the entire audit—from planning through reporting.
 
 :::
+
 ---
 
 ## Professional Skepticism
@@ -24,11 +25,12 @@ Professional skepticism and professional judgment are required by both **AICPA**
 | **Alertness to contradictory evidence** | The auditor actively looks for information that contradicts management's assertions or the auditor's initial expectations |
 | **Suspension of judgment** | The auditor avoids reaching conclusions prematurely and keeps an open mind until sufficient evidence has been gathered |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 Professional skepticism means the auditor **neither assumes dishonesty nor assumes unquestioned honesty**. The CPA exam frequently tests this balanced definition—watch for answer choices that overstate skepticism as distrust or understate it as acceptance.
 
 :::
+
 ### Application in Practice
 
 Professional skepticism applies throughout the engagement:
@@ -60,6 +62,7 @@ Professional judgment is not a license to do whatever the auditor wants. It invo
 Professional judgment must be **exercised**, not just claimed. If an auditor makes a decision without adequate basis, that is not professional judgment—it is a deficiency. The auditor must be able to articulate why a particular decision was appropriate in the circumstances.
 
 :::
+
 ### Areas Requiring Significant Professional Judgment
 
 | Area | Judgment Required |
@@ -92,6 +95,7 @@ Even experienced auditors are susceptible to unconscious biases that can undermi
 Biases are **unconscious** — the auditor is typically unaware they are occurring. This is why audit standards emphasize structured decision-making processes, team discussions, and engagement quality reviews as safeguards. Simply telling auditors to "be less biased" is not an effective remedy.
 
 :::
+
 ### Mitigating Unconscious Bias
 
 Audit teams can take deliberate steps to counteract bias:
@@ -137,6 +141,7 @@ Under time or cognitive pressure, auditors may resort to mental shortcuts (heuri
 Standards require that when the auditor identifies information that is inconsistent with the auditor's final conclusion, the auditor must **document how the inconsistency was addressed**. This requirement is a built-in safeguard against judgment-making shortcuts.
 
 :::
+
 ---
 
 ## How Professional Skepticism and Professional Judgment Interrelate
@@ -157,11 +162,12 @@ Professional skepticism and professional judgment are distinct but deeply interc
 
 **Example:** During the audit of Bear Co., the engagement team notices that a significant related-party transaction was completed just before year-end at terms that appear unusually favorable to Bear Co. Professional skepticism prompts the team to question the substance of the transaction. Professional judgment guides the team to obtain independent evidence of the transaction's fair value, consult with the engagement partner about disclosure requirements, and evaluate whether the transaction was designed to manipulate financial results.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 If a question asks about the **relationship** between skepticism and judgment, remember: skepticism is the **attitude** (questioning mind), and judgment is the **action** (making informed decisions). They work together in a continuous cycle throughout the engagement.
 
 :::
+
 ---
 
 ## Summary
