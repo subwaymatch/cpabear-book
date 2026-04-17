@@ -329,7 +329,7 @@ Bear Co. issues $500,000 of 5-year bonds at 97 (i.e., for $485,000). The discoun
 
 ```journal
 Dr. Cash[a] 485,000
-Dr. Discount on Bonds Payable[ca] 15,000
+Dr. Discount on Bonds Payable[cl] 15,000
     Cr. Bonds Payable[l] 500,000
 ```
 
