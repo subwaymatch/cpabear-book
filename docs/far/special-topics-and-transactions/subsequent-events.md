@@ -41,7 +41,7 @@ Dr. Loss from litigation      100,000
     Cr. Estimated liability           100,000
 ```
 
-## The financial statements now reflect the \$250,000 liability.
+The financial statements now reflect the \$250,000 liability.
 
 ### Type II — Nonrecognized Events (Nonadjusting)
 

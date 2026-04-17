@@ -180,7 +180,7 @@ A key difference: under translation, **all** assets use the current rate. Under 
 
 ## Highly Inflationary Economies
 
-## An economy is considered highly inflationary if the cumulative inflation rate over a 3-year period exceeds approximately **100%** (roughly 26% per year compounded). In such cases, the functional currency is deemed to be the **reporting currency (USD)**, and the **temporal method** (remeasurement) is used regardless of the subsidiary's actual operating environment.
+An economy is considered highly inflationary if the cumulative inflation rate over a 3-year period exceeds approximately **100%** (roughly 26% per year compounded). In such cases, the functional currency is deemed to be the **reporting currency (USD)**, and the **temporal method** (remeasurement) is used regardless of the subsidiary's actual operating environment.
 
 ## Key Comparison
 

@@ -20,7 +20,7 @@ Consolidated statements present the parent and its subsidiaries as a **single ec
 | 20% – 50%       | Equity method (significant influence presumed)  |
 | > 50%           | **Consolidation** (control presumed)            |
 
-## The parent controls the subsidiary's operations and presents combined results. The portion owned by outside shareholders is the **noncontrolling interest (NCI)**.
+The parent controls the subsidiary's operations and presents combined results. The portion owned by outside shareholders is the **noncontrolling interest (NCI)**.
 
 ## Eliminating Intercompany Transactions
 
@@ -131,7 +131,7 @@ Dr. Gain on sale of land       30,000
     Cr. Land                           30,000
 ```
 
-## The land stays on the consolidated balance sheet at the **original cost** of \$100,000 until sold externally.
+The land stays on the consolidated balance sheet at the **original cost** of \$100,000 until sold externally.
 
 ## Intercompany Depreciable Assets
 
@@ -211,7 +211,7 @@ The consolidated income statement includes:
 
 ## Consolidated Comprehensive Income
 
-## Other comprehensive income (OCI) items of both the parent and subsidiary are combined. NCI's share of OCI is reported separately.
+Other comprehensive income (OCI) items of both the parent and subsidiary are combined. NCI's share of OCI is reported separately.
 
 ## Consolidated Statement of Changes in Equity
 

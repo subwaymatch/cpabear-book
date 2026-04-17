@@ -107,7 +107,7 @@ graph TD
 
 ### The Cost Constraint
 
-## The **cost constraint** (also called the cost-benefit constraint) is a pervasive consideration: the benefits of reporting financial information should justify the costs incurred to provide it. This is not a qualitative characteristic—it is a constraint on useful reporting.
+The **cost constraint** (also called the cost-benefit constraint) is a pervasive consideration: the benefits of reporting financial information should justify the costs incurred to provide it. This is not a qualitative characteristic—it is a constraint on useful reporting.
 
 ## Elements of Financial Statements (SFAC No. 6)
 
@@ -200,7 +200,7 @@ Financial statements are expressed in a **stable monetary unit** (e.g., U.S. dol
 
 ### 4. Periodicity (Time Period) Assumption
 
-## The economic life of a business can be divided into **artificial time periods** (months, quarters, years) for reporting purposes. This assumption enables interim and annual financial reporting.
+The economic life of a business can be divided into **artificial time periods** (months, quarters, years) for reporting purposes. This assumption enables interim and annual financial reporting.
 
 ## Principles of Financial Reporting
 

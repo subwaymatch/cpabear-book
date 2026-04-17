@@ -144,7 +144,7 @@ Gains and losses from investing/financing activities (e.g., gain on sale of equi
 
 ### Depreciation, Amortization, Depletion
 
-## These are **noncash expenses** that reduced net income. Add them back to convert from accrual to cash basis.
+These are **noncash expenses** that reduced net income. Add them back to convert from accrual to cash basis.
 
 ## Indirect Method Example
 
@@ -341,7 +341,7 @@ Dr. Cash             25,000
     Cr. Notes receivable    25,000
 ```
 
-## → **Investing activity** — cash inflow of \$25,000 (principal collection)
+→ **Investing activity** — cash inflow of \$25,000 (principal collection)
 
 ## Summary
 
