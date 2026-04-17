@@ -45,6 +45,7 @@ Each partner reports their share of partnership items on their own Form 1040 (or
 A partnership must file Form 1065 by the **15th day of the 3rd month** after the close of its tax year (March 15 for calendar-year partnerships). This is **one month earlier** than individual returns. The partnership may request a 6-month extension.
 
 :::
+
 ### Ordinary business income vs. separately stated items
 
 Partnership income is divided into two categories:
@@ -85,11 +86,12 @@ A **guaranteed payment** is a payment to a partner for services rendered or for 
 
 **Example:** Marcus is a partner in BIF Partners and receives a guaranteed payment of \$60,000 for management services. BIF Partners deducts the \$60,000 as an expense. Marcus reports \$60,000 as ordinary income on his Form 1040, and it is included in his self-employment income — even if BIF Partners had a loss for the year.
 
-:::tip Guaranteed Payments vs. Distributions
+:::tip[Guaranteed Payments vs. Distributions]
 
 Guaranteed payments are for **services or use of capital** and are deductible by the partnership. Regular **distributions** are returns of partnership profits/capital, are **not** deductible, and reduce the partner's outside basis. Know the difference — it is heavily tested.
 
 :::
+
 ---
 
 ## Organizational and start-up costs
@@ -106,11 +108,12 @@ The \$5,000 immediate deduction is **reduced dollar-for-dollar** when total cost
 
 **Example:** BIF Partners incurs \$3,500 in organizational costs and \$52,000 in start-up costs. The organizational costs (\$3,500) are fully deductible immediately. For start-up costs, the \$5,000 immediate deduction is reduced by \$2,000 (\$52,000 − \$50,000), so BIF deducts \$3,000 immediately and amortizes the remaining \$49,000 over 180 months.
 
-:::caution Syndication Costs
+:::caution[Syndication Costs]
 
 Costs of marketing and selling partnership interests (brokerage fees, printing prospectuses, etc.) are **syndication costs** — they are capitalized and **never** deductible or amortizable.
 
 :::
+
 ---
 
 ## Qualified Business Income (QBI) deduction
@@ -132,7 +135,7 @@ A partner's **outside basis** (tax basis in the partnership interest) determines
 
 ### The BASE mnemonic
 
-:::tip BASE — Memorize This
+:::tip[BASE — Memorize This]
 
 Use the **BASE** mnemonic to compute a partner's ending outside basis:
 
@@ -144,6 +147,7 @@ Use the **BASE** mnemonic to compute a partner's ending outside basis:
 | **E** | **Ending** tax basis |
 
 :::
+
 ### Detailed basis adjustments
 
 | Adjustment | Direction |
@@ -159,11 +163,12 @@ Use the **BASE** mnemonic to compute a partner's ending outside basis:
 | All loss and deduction items | **Decrease** |
 | Nondeductible, noncapital expenditures | **Decrease** |
 
-:::info Partnership Liabilities Increase Basis
+:::info[Partnership Liabilities Increase Basis]
 
 A critical distinction from S corporations: in a partnership, a partner's share of **entity-level liabilities** (recourse and nonrecourse) increases outside basis. This means a partner can deduct losses funded by partnership borrowing — something an S corporation shareholder generally cannot do.
 
 :::
+
 **Example — Outside basis computation:**
 
 Sarah contributes \$40,000 cash to BIF Partners for a 50% interest. The partnership borrows \$100,000 from a bank (recourse). Sarah's share of liabilities is \$50,000.
@@ -199,11 +204,12 @@ A partner can deduct passed-through losses only to the extent of their **outside
 | **Sources of additional basis** | Contributions, income allocations, increased share of liabilities |
 | **Losses on disposal** | Suspended losses that have not been utilized are **permanently lost** when the partner disposes of the partnership interest |
 
-:::warning Losses Lost on Disposal
+:::warning[Losses Lost on Disposal]
 
 If a partner sells or abandons a partnership interest while suspended losses remain, those losses are **permanently lost** — they cannot be deducted on the final return. This makes it critical to plan basis increases before exiting a partnership.
 
 :::
+
 **Example:** Jamie's outside basis in BIF Partners is \$15,000. Her share of ordinary losses for the year is \$22,000. She can deduct only \$15,000 (reducing her basis to zero). The remaining \$7,000 is suspended and carries forward. If Jamie sells her interest next year before restoring basis, the \$7,000 is lost forever.
 
 ### Full loss limitation ordering
@@ -224,11 +230,12 @@ A general partner's distributive share of trade or business income is generally 
 - The partner's share of **ordinary business income**
 - Any **guaranteed payments** received for services
 
-:::note Limited Partners
+:::note[Limited Partners]
 
 A **limited partner's** distributive share is generally **not** subject to self-employment tax (except for guaranteed payments for services). This distinction is a key planning consideration.
 
 :::
+
 ---
 
 ## LLC tax classification

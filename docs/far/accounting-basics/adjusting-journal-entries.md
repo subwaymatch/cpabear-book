@@ -2,13 +2,14 @@
 
 Adjusting journal entries are period-end entries used to bring the financial statements onto the accrual basis. They ensure revenues and expenses are recognized in the proper period.
 
-:::info Three rules
+:::info[Three rules]
 
 1. Adjusting entries are recorded **before** the financial statements are issued.
 2. Adjusting entries **never** include cash.
 3. Each adjusting entry includes **one income statement account** and **one balance sheet account**.
 
 :::
+
 ## The Four Core Types
 
 ### Accrued revenue
@@ -87,11 +88,12 @@ Bear Co. pays \$24,000 for annual insurance on July 1. If no adjusting entry is 
 If cash moved on the transaction date but not at year-end, the year-end entry is often an adjusting entry.
 
 :::
+
 ## Correcting entries are different
 
 A correcting entry fixes an error. An adjusting entry updates timing. Correcting entries may involve cash; adjusting entries do not.
 
-:::note Checklist
+:::note[Checklist]
 
 - Identify whether cash came first or performance came first.
 - Decide whether the missing account is an asset or liability.

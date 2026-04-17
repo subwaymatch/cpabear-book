@@ -45,12 +45,13 @@ Dr. Accounts receivable         5,000
     Cr. Foreign currency gain           5,000
 ```
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 **Receivables:** If the foreign currency **strengthens**, the U.S. company has a **gain** (the receivable is worth more in USD). If it **weakens**, the company has a **loss**.
 **Payables:** The effect is opposite — a strengthening foreign currency means a **loss** (the payable costs more in USD).
 
 :::
+
 ### Settlement
 
 On February 1, Bear Co. collects the £100,000 when the spot rate is \$1.28/£:
@@ -95,6 +96,7 @@ At December 31:
   \text{Forward contract loss} = (£100{,}000) \times (\$1.33 - \$1.32) = \$1{,}000
   $$
   This simplified example shows how the hedge offsets (but may not perfectly match) the gain/loss on the hedged item.
+
   :::info
   The **forward contract** is recorded at fair value on the balance sheet. Changes in fair value are recognized in earnings for fair value hedges, offsetting the gain/loss on the hedged item.
   :::
@@ -167,11 +169,13 @@ Used when the functional currency is the **U.S. dollar** (or the subsidiary oper
 | Depreciation, amortization, COGS (if from historical cost inventory) | **Historical rate** |
 | Common stock, APIC | **Historical rate** |
 The **remeasurement gain or loss** is reported in **net income** (not OCI).
+
 :::warning
 
 A key difference: under translation, **all** assets use the current rate. Under remeasurement, only **monetary** items use the current rate while **nonmonetary** items use historical rates.
 
 :::
+
 ---
 
 ## Highly Inflationary Economies
@@ -188,17 +192,18 @@ A key difference: under translation, **all** assets use the current rate. Under 
 | Equity rate           | Historical          | Historical                                 |
 | Gain/loss reported in | **OCI (CTA)**       | **Net income**                             |
 
-:::tip Exam Mnemonic
+:::tip[Exam Mnemonic]
 
 **"Current goes to CTA"** — the current rate method produces a CTA that goes to OCI.
 **"Temporal goes to the temporaries (income statement)"** — remeasurement gains/losses go directly to net income.
 
 :::
+
 ---
 
 ## Summary
 
-:::note Chapter Checklist
+:::note[Chapter Checklist]
 
 - [ ] Record foreign currency transactions at the spot rate
 - [ ] Remeasure monetary items at year-end and recognize gains/losses in income

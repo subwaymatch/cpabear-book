@@ -55,6 +55,7 @@ Jamie reports \$16,955 as self-employment tax on Schedule SE and claims an \$8,4
 The Social Security portion (12.4%) applies only up to the wage base. If Jamie also has W-2 wages, those wages reduce the amount of SE income subject to the 12.4% Social Security tax. The Medicare portion (2.9%) has **no** wage base limit.
 
 :::
+
 ---
 
 ## Additional Medicare Tax
@@ -141,6 +142,7 @@ The NIIT is \$1,710 because the net investment income (\$45,000) is less than th
 The NIIT is in **addition** to regular income tax and the additional Medicare tax. A high-income taxpayer with significant investment income could pay regular tax, plus the 3.8% NIIT on investment income, plus the 0.9% additional Medicare tax on earned income.
 
 :::
+
 ---
 
 ## Kiddie Tax
@@ -183,6 +185,7 @@ If Derek's parents are in the 32% bracket, the \$3,000 of net unearned income ab
 The kiddie tax applies to **unearned** income only. If a 17-year-old earns \$8,000 from a summer job and has only \$500 of interest income, the kiddie tax does **not** apply because unearned income is below the \$2,700 threshold.
 
 :::
+
 ---
 
 ## Estimated Tax and Underpayment Penalty
@@ -217,6 +220,7 @@ A taxpayer avoids the underpayment penalty if total payments (withholding + esti
 The prior-year safe harbor requires that a **return was filed** for the prior year. If the prior-year return shows zero tax liability, the taxpayer has no estimated payment requirement — but this only works if a return was actually filed for that year.
 
 :::
+
 ### Penalty Calculation
 
 The underpayment penalty is essentially **interest** on the underpaid amount for the period of underpayment. It is calculated separately for each quarter.
@@ -233,7 +237,7 @@ Priya is self-employed and expects to owe \$20,000 in federal income tax for 202
 
 Either safe harbor requires \$18,000 in total payments. Priya should make quarterly estimated payments of at least **\$4,500** (\$18,000 ÷ 4) by each due date.
 
-:::tip CPA Exam Strategy
+:::tip[CPA Exam Strategy]
 
 When a question involves estimated taxes, check the safe harbors **first**. If total payments meet either the 90% current-year test or the 100%/110% prior-year test, there is **no penalty** — regardless of how much tax is ultimately owed.
 

@@ -24,6 +24,7 @@ Related parties include entities or individuals that can significantly influence
 Related parties can be difficult to identify because management may not always be forthcoming. The auditor should maintain **professional skepticism** and be alert for indicators of undisclosed relationships, such as transactions with no apparent business purpose or at terms that differ significantly from market conditions.
 
 :::
+
 ### Example: Identifying Related Parties at Kingfisher Industries
 
 While auditing Kingfisher Industries, the auditor:
@@ -49,6 +50,7 @@ If the auditor identifies a significant related party transaction that managemen
 3. Whether it raises concerns about management integrity
 
 :::
+
 ## Going Concern Considerations
 
 When auditing any entity, the auditor must evaluate whether there is **substantial doubt** about the entity's ability to continue as a going concern.
@@ -71,13 +73,14 @@ The time horizon for evaluating going concern depends on the applicable reportin
 | **FASB (U.S. GAAP for nongovernmental entities)** | **One year** from the date the financial statements are **issued** (or available to be issued) |
 | **GASB (governmental entities)** | **One year** from the date of the **auditor's report** (the going concern evaluation period under government auditing standards aligns with one year beyond the financial statement date through to the auditor's report date) |
 
-:::info Important Distinction
+:::info[Important Distinction]
 
 Under **FASB ASC 205-40**, management is required to evaluate going concern for a period of one year after the date the financial statements are issued. The auditor evaluates management's assessment for reasonableness.
 
 For **GASB** entities, the auditor's evaluation considers conditions and events known as of the auditor's report date, looking forward approximately one year from the financial statement date.
 
 :::
+
 ### Auditor's Response to Going Concern Doubt
 
 When the auditor concludes there is substantial doubt about going concern:
@@ -89,7 +92,7 @@ When the auditor concludes there is substantial doubt about going concern:
 
 ### Required Phrases in the Going Concern Paragraph
 
-:::danger Exam Must-Know
+:::danger[Exam Must-Know]
 
 When substantial doubt about going concern exists and is not alleviated by management's plans, the auditor's report must include specific language. The following phrases are **required** in the going concern emphasis-of-matter/explanatory paragraph:
 
@@ -99,6 +102,7 @@ When substantial doubt about going concern exists and is not alleviated by manag
 The paragraph is added **after** the opinion paragraph (for AICPA standards) and does **not** modify the opinion—it remains an **unmodified opinion** with an emphasis-of-matter paragraph.
 
 :::
+
 ### Example: Going Concern at Illini Entertainment
 
 Illini Entertainment has experienced three consecutive years of operating losses totaling \$4.2 million, has a working capital deficit of \$1.8 million, and its primary credit facility expires in six months. The auditor evaluates management's plan to raise \$3 million through a new equity offering and renegotiate the credit facility.

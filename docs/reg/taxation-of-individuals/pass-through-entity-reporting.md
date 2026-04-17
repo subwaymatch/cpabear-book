@@ -22,6 +22,7 @@ Understanding how to read a **Schedule K-1** and correctly map each item to the 
 A **disregarded entity** (single-member LLC that has not elected corporate status) does not file its own return. All income and expenses are reported on the owner's Schedule C, just like a sole proprietorship.
 
 :::
+
 ---
 
 ## Schedule K-1: Structure and Purpose
@@ -74,11 +75,12 @@ Each separately stated item flows to the **specific** Form 1040 schedule that go
 
 > **Example:** Illini Entertainment is organized as an S corporation. Shareholder Dana receives a K-1 showing \$80,000 ordinary business income, \$5,000 of qualified dividends, \$12,000 of charitable contributions, and a \$3,000 short-term capital loss. Dana reports the \$80,000 on Schedule E, the dividends on Schedule B, the charitable contributions on Schedule A, and the capital loss on Schedule D.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 **Tax-exempt income** from a pass-through entity retains its character on the individual return — it is not taxed but **does increase the owner's basis** in the entity. Watch for this on exam questions about basis adjustments.
 
 :::
+
 ---
 
 ## Ordinary Business Income (Loss) vs. Separately Stated Items
@@ -114,6 +116,7 @@ Under **IRC §707(c)**, a guaranteed payment is a payment to a partner for **ser
 Guaranteed payments are subject to **self-employment tax** in full, regardless of the partner's participation level. This is a common exam trap — students often forget that guaranteed payments are always SE income.
 
 :::
+
 ---
 
 ## Self-Employment Tax Implications
@@ -130,6 +133,7 @@ Guaranteed payments are subject to **self-employment tax** in full, regardless o
 The IRS closely scrutinizes S corporation shareholder-employees who pay themselves **unreasonably low** salaries to avoid payroll taxes. If challenged, the IRS can reclassify distributions as wages.
 
 :::
+
 ---
 
 ## Disregarded Entities — Schedule C Reporting
@@ -162,6 +166,7 @@ Partners and S corporation shareholders report their share of entity items in th
 **Required tax years:** S corporations must use a calendar year. Partnerships generally must conform to the majority partners' tax year, but may elect a fiscal year under IRC §444 (limited to a 3-month deferral with a required payment).
 
 :::
+
 ---
 
 ## Passive Activity Considerations

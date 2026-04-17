@@ -9,6 +9,7 @@ This section covers the **unmodified (clean) opinion**, the structure of audit r
 **Issuers** are entities whose securities are registered with the SEC and are audited under PCAOB standards. **Nonissuers** are all other entities, audited under AICPA (SAS) standards. The report structures differ between the two.
 
 :::
+
 ---
 
 ## The Unmodified (Unqualified) Opinion
@@ -23,11 +24,12 @@ This is the most common and most favorable type of audit opinion. It means:
 
 **Example:** Gies Co. engages an audit firm to audit its year-end financial statements. After completing all planned procedures and resolving all identified issues, the auditor concludes the financial statements are fairly presented under U.S. GAAP. The auditor issues an unmodified opinion.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The terms "unmodified" and "unqualified" mean the same thing. The AICPA uses "unmodified," while the PCAOB uses "unqualified." Both refer to a clean opinion with no reservations.
 
 :::
+
 ---
 
 ## Structure of the Audit Report for Issuers (PCAOB)
@@ -103,6 +105,7 @@ Like the issuer report, the opinion section appears first and includes:
 For nonissuers, the opinion paragraph specifically references the financial reporting framework used (e.g., "accounting principles generally accepted in the United States of America").
 
 :::
+
 ### Basis for Opinion
 
 This section states that:
@@ -164,6 +167,7 @@ Both issuer and nonissuer opinions convey the same core message, but the languag
 Both issuer and nonissuer opinions use the phrase **"present fairly, in all material respects."** This is the critical language—not "correct," "accurate," or "error-free." The auditor provides reasonable (not absolute) assurance.
 
 :::
+
 ---
 
 ## The Basis for Opinion Section
@@ -220,6 +224,7 @@ If the auditor determines that there are no CAMs to report, the report must incl
 CAMs are **not** a substitute for a modified opinion. If a matter requires the auditor to modify the opinion, it should not be reported as a CAM—it should result in a qualified, adverse, or disclaimer opinion instead.
 
 :::
+
 ---
 
 ## Key Audit Matters (KAMs) — Nonissuers
@@ -251,6 +256,7 @@ The auditor **may** conclude that there are no KAMs to communicate. If the audit
 KAMs are **optional** for nonissuer audits unless required by law, regulation, or the engagement agreement. CAMs are **mandatory** for most issuer audits.
 
 :::
+
 ---
 
 ## Modified Opinions
@@ -273,11 +279,12 @@ The type of modification depends on two factors:
 | **Financial statement issue (misstatement / GAAP departure)** | **Qualified opinion** ("except for") | **Adverse opinion** |
 | **Audit issue (scope limitation / insufficient evidence)** | **Qualified opinion** ("except for") | **Disclaimer of opinion** |
 
-:::tip Exam Strategy
+:::tip[Exam Strategy]
 
 This 2×2 matrix is **essential** for the AUD exam. Memorize it. The rows represent the nature of the problem (GAAP issue vs. GAAS issue), and the columns represent the severity (material vs. material and pervasive).
 
 :::
+
 ---
 
 ## Modified Opinions Due to Financial Statement Issues (Misstatements)
@@ -303,6 +310,7 @@ An **adverse opinion** is issued when the misstatement is so significant and wid
 An **adverse opinion** is the most severe conclusion about the financial statements themselves. It signals to users that the financial statements should **not** be relied upon for decision-making.
 
 :::
+
 ---
 
 ## Modified Opinions Due to Audit Issues (Scope Limitations)
@@ -329,6 +337,7 @@ When the scope limitation is so severe that the auditor cannot obtain sufficient
 With a disclaimer of opinion, the auditor does **not** state that the financial statements are misstated—the auditor states that they **cannot form an opinion** because they lack sufficient evidence.
 
 :::
+
 ---
 
 ## How Uncertainties Affect the Report
@@ -389,6 +398,7 @@ The **date of the auditor's report** carries specific meaning:
 The report date is **not** the date the report is physically delivered to the client. It is the date the auditor has completed the audit work—sometimes called the "fieldwork completion date."
 
 :::
+
 **Example:** Gies Co.'s auditor completes all fieldwork and obtains sufficient evidence on March 5, 20X5, for the audit of the December 31, 20X4 financial statements. The audit report is dated March 5, 20X5, even if it is not delivered to Gies Co.'s board until March 15, 20X5.
 
 ### Dual Dating
@@ -407,7 +417,7 @@ If a subsequent event comes to the auditor's attention after the original report
 | Material scope limitation, not pervasive | **Qualified** |
 | Material and pervasive scope limitation | **Disclaimer** |
 
-:::tip Final Exam Tip
+:::tip[Final Exam Tip]
 
 When a question asks what type of opinion to issue, always ask yourself two questions: (1) Is this a **GAAP problem** (misstatement) or a **GAAS problem** (scope limitation)? (2) Is the effect **material** or **material and pervasive**? The answers place you in the correct cell of the 2×2 matrix.
 

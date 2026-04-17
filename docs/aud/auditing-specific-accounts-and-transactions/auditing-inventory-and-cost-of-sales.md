@@ -15,13 +15,14 @@ The observation of the client's physical inventory count is a **required** audit
 5. **Identify obsolete, damaged, or slow-moving items** – Note any inventory that appears to be in poor condition, outdated, or excessive in quantity.
 6. **Trace test counts to the final inventory compilation** – After the count, the auditor traces the test count results to the client's final inventory report to ensure they are properly included.
 
-:::tip Dual-Direction Testing
+:::tip[Dual-Direction Testing]
 
 The auditor performs test counts in **two directions**:
 - **From the floor to the count sheets** → Tests **completeness** (are all items on the floor recorded?)
 - **From the count sheets to the floor** → Tests **existence** (do items on the sheets actually exist?)
 
 :::
+
 ### Example: Inventory Observation at Kingfisher Industries
 
 Kingfisher Industries manufactures electronic components and holds significant raw materials, work-in-process, and finished goods. During the year-end count, the auditor:
@@ -38,6 +39,7 @@ Kingfisher Industries manufactures electronic components and holds significant r
 The auditor must specifically **inquire of management** about the existence of obsolete, slow-moving, damaged, or excess inventory. Simply observing the physical count is not sufficient—management may know of conditions not visible during a walk-through.
 
 :::
+
 During the audit of Illini Entertainment, the auditor asks management whether any of the company's media inventory has become obsolete due to format changes or licensing expirations. Management discloses that a significant portion of physical media inventory is slow-moving due to the industry shift to digital distribution, requiring a write-down to net realizable value.
 
 ### Valuation Procedures
@@ -72,6 +74,7 @@ The auditor examines the **last shipping documents** before year-end and the **f
 Cutoff testing for inventory is closely linked to cutoff testing for revenue (sales) and payables (purchases). An error in one area will affect the other.
 
 :::
+
 ### Example: Cutoff at BIF Partners
 
 BIF Partners' last receiving report before December 31 is #2945, and the first after year-end is #2946. The auditor verifies that goods on receiving report #2945 are included in the year-end inventory count and the related payable is recorded. Goods on receiving report #2946, received on January 2, are properly excluded from the year-end inventory and payable balances.
@@ -104,7 +107,7 @@ Gies Co. uses the FIFO costing method. The auditor verifies that the notes to th
 | Review inventory disclosures | Presentation and Disclosure |
 | Examine consignment arrangements | Rights and Obligations |
 
-:::danger Common Exam Trap
+:::danger[Common Exam Trap]
 
 The auditor **observes** the client's inventory count—the auditor does **not** take the inventory themselves. The responsibility for the physical count belongs to management. The auditor's role is to evaluate the adequacy of the count procedures and perform test counts to corroborate the client's results.
 

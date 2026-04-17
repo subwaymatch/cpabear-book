@@ -6,7 +6,8 @@ Under ASC 820, **fair value** is defined as:
 
 > The price that would be received to sell an asset or paid to transfer a liability in an **orderly transaction** between **market participants** at the **measurement date**.
 > This is an **exit price** — the price from the perspective of a seller, not a buyer.
-> :::info Key Concepts
+
+> :::info[Key Concepts]
 
 - **Orderly transaction** — not a forced sale or liquidation
 - **Market participants** — independent, knowledgeable, willing, and able parties
@@ -21,9 +22,11 @@ Fair value is determined based on transactions in:
 
 1. **Principal market** — the market with the **greatest volume and activity** for the asset or liability
 2. **Most advantageous market** — if no principal market exists, the market that **maximizes** the amount received (for assets) or **minimizes** the amount paid (for liabilities) after considering transaction costs
-   :::tip Exam Tip
+
+   :::tip[Exam Tip]
    **Transaction costs** are used to determine the most advantageous market but are **not** included in the fair value measurement itself. **Transport costs** (costs to move the asset to the market) **are** included in the measurement.
    :::
+
    **Example:** Bear Co. holds a commodity that trades in two active markets:
    | Market | Price | Transaction Costs | Transport Costs | Net Proceeds |
    |---|---|---|---|---|
@@ -93,6 +96,7 @@ ASC 820 establishes a three-level hierarchy based on the **observability** of in
 - **Unadjusted** quoted prices for **identical** assets or liabilities in **active markets**
 - Most reliable measurement
 - Examples: NYSE-listed stock prices, commodity exchange prices
+
   :::info
   Level 1 inputs should be used without adjustment. A "blockage factor" (discount for holding a large block of shares) is **not** permitted for Level 1 measurements.
   :::
@@ -142,6 +146,7 @@ graph TD
 The **entire** fair value measurement is classified based on the **lowest level input** that is **significant** to the measurement. If a Level 2 measurement uses a significant Level 3 input, the entire measurement is classified as Level 3.
 
 :::
+
 ---
 
 ## Fair Value Disclosures
@@ -212,11 +217,12 @@ Dr. Notes payable              20,000
 Changes in fair value attributable to **instrument-specific credit risk** for liabilities measured under the fair value option are reported in **OCI**, not net income (ASU 2016-01).
 
 :::
+
 ---
 
 ## Summary
 
-:::note Chapter Checklist
+:::note[Chapter Checklist]
 
 - [ ] Define fair value as an exit price in an orderly transaction
 - [ ] Distinguish principal market from most advantageous market

@@ -6,11 +6,12 @@ Special purpose frameworks are sometimes called **other comprehensive bases of a
 
 A modified cash basis starts with cash-basis accounting and then adds selected accrual-style features. It is common in smaller private businesses that want more informative reporting without adopting full GAAP.
 
-:::info Core exam point
+:::info[Core exam point]
 
 When a question asks about modified cash basis presentation, focus on **statement titles**, **minimum required statements**, and **which accrual-type adjustments are commonly added**.
 
 :::
+
 ## General OCBOA Presentation Guidelines
 
 | Topic | General guideline |
@@ -113,9 +114,10 @@ Those adjustments make the results more useful than pure cash basis reporting be
 Do not assume every modified cash basis entity records the same set of adjustments. The framework is more flexible than GAAP, but the presentation still needs to be internally consistent and clearly labeled.
 
 :::
+
 ## FAR Takeaways
 
-:::note Checklist
+:::note[Checklist]
 
 - Know that OCBOA statements should be titled differently from GAAP statements.
 - Know that the balance-sheet and income-statement equivalents are expected.

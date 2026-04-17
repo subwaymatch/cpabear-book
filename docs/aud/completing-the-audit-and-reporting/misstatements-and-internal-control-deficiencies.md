@@ -23,6 +23,7 @@ There are three categories of misstatements:
 All three types of misstatements must be accumulated and evaluated. Factual misstatements are the most straightforward, but judgmental and projected misstatements often require more careful consideration and discussion with management.
 
 :::
+
 ---
 
 ## Preparing a Summary of Misstatements
@@ -60,6 +61,7 @@ The auditor must evaluate uncorrected misstatements both **individually** and **
 Even if no single misstatement is material on its own, the **cumulative effect** of multiple small misstatements can render the financial statements materially misstated. The auditor must always consider the aggregate.
 
 :::
+
 ### Quantitative Considerations
 
 Quantitative analysis focuses on the **dollar amount** of uncorrected misstatements relative to:
@@ -89,6 +91,7 @@ Quantitative analysis alone is not sufficient. The auditor must also consider **
 On the CPA exam, watch for scenarios where the dollar amount is below materiality but a qualitative factor makes it material. A classic example is a misstatement that causes a company to just barely meet a debt covenant or a management bonus target.
 
 :::
+
 ---
 
 ## Tolerable Misstatement and the Clearly Trivial Threshold
@@ -120,6 +123,7 @@ The auditor designates an amount below which misstatements are **clearly trivial
 "Clearly trivial" is **not** the same as "not material." A misstatement that is not clearly trivial must still be accumulated and evaluated, even if it appears to be immaterial on its own.
 
 :::
+
 ---
 
 ## Internal Control Deficiency Classifications
@@ -167,6 +171,7 @@ The identification of internal control deficiencies directly affects the auditor
 If a material weakness exists in an integrated audit (under PCAOB standards), the auditor **must issue an adverse opinion** on the effectiveness of internal control over financial reporting, even if the financial statements themselves are fairly stated.
 
 :::
+
 **Example:** During the audit of Gies Co., the auditor discovers that the company has no review process for journal entries posted by the controller. This material weakness in the journal entry approval process leads the auditor to:
 
 1. Expand testing of non-standard journal entries
@@ -202,6 +207,7 @@ For integrated audits of issuers, additional requirements apply:
 Under **SAS 134** (now codified in AU-C 260), the auditor's communication with those charged with governance should include significant findings from the audit, including significant difficulties encountered, disagreements with management, and other matters significant to the oversight of the financial reporting process.
 
 :::
+
 ### What the Communication Must Include
 
 The written communication of significant deficiencies and material weaknesses must include:

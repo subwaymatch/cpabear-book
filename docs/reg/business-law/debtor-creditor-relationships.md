@@ -18,6 +18,7 @@ Debtor-creditor law governs how debts are created, secured, and collected — an
 A surety's promise to answer for another's debt must be in writing under the **Statute of Frauds** unless the surety's main purpose is to benefit **themselves** (the "main purpose" or "leading object" exception).
 
 :::
+
 ### Surety's Defenses
 
 A surety may assert certain defenses to avoid liability:
@@ -70,11 +71,12 @@ A security interest **attaches** (becomes enforceable against the debtor) when t
 | **Control** | Required for deposit accounts; available for investment property |
 | **Automatic perfection** | Purchase money security interest (PMSI) in consumer goods perfects automatically upon attachment |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 A **PMSI in consumer goods** perfects automatically — no filing is required. But a PMSI in inventory or equipment **must** be perfected by filing to receive super-priority.
 
 :::
+
 ### Priority Rules
 
 When multiple creditors claim the same collateral, priority is determined as follows:
@@ -116,6 +118,7 @@ Upon filing, an **automatic stay** immediately halts most collection actions, in
 The automatic stay does **not** stop criminal proceedings, certain tax proceedings, or domestic support obligations (alimony and child support).
 
 :::
+
 ### Chapter 7 — Liquidation
 
 - A **trustee** is appointed to collect and liquidate the debtor's nonexempt assets

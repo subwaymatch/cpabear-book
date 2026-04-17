@@ -10,11 +10,13 @@ The framework is articulated primarily through **Statements of Financial Account
 | SFAC No. 6 | Elements of Financial Statements | Active |
 | SFAC No. 7 | Using Cash Flow Information and Present Value in Accounting Measurements | Active |
 | SFAC No. 8 | Conceptual Framework for Financial Reporting | Active (superseded SFAC 1 & 2) |
+
 :::info
 
 SFACs are **not** authoritative GAAP. They are non-authoritative guidance that helps the FASB develop standards and helps preparers reason through situations where no specific standard exists.
 
 :::
+
 ---
 
 ## Objective of General-Purpose Financial Reporting (SFAC No. 8, Chapter 1)
@@ -26,7 +28,8 @@ These decision-makers need information to assess:
 2. **Management's stewardship** of the entity's economic resources
 3. The entity's **economic resources and claims** against it (financial position)
 4. **Changes** in economic resources and claims (financial performance)
-   :::tip Exam Tip
+
+   :::tip[Exam Tip]
    The objective focuses on **decision-usefulness** for **capital providers** (investors and creditors)—not managers, regulators, or the general public. This is a frequently tested concept.
    :::
 
@@ -57,7 +60,8 @@ Information is relevant if it is capable of making a difference in a decision. R
 - **Confirmatory value** – provides feedback about prior evaluations
 - **Materiality** – information is material if omitting or misstating it could influence decisions (entity-specific threshold)
   $$\text{Relevance} = \text{Predictive Value} + \text{Confirmatory Value}$$
-  :::note Materiality
+
+  :::note[Materiality]
   Materiality is an entity-specific aspect of relevance. There is no universal dollar threshold. What is material for a small company like BIF Partners may be immaterial for a Fortune 500 corporation.
   :::
 
@@ -68,6 +72,7 @@ Information faithfully represents economic phenomena when it is:
 - **Complete** – includes all information necessary for the user to understand the phenomenon
 - **Neutral** – free from bias in selection or presentation
 - **Free from error** – no errors or omissions in the description of the phenomenon (does not require perfect precision—estimates are acceptable if properly described)
+
   :::warning
   "Faithful representation" replaced the older term "reliability" in SFAC No. 8. The exam uses the newer terminology.
   :::
@@ -133,11 +138,12 @@ SFAC No. 6 defines **ten elements** of financial statements. These are the build
 | **Investments by Owners**   | Increases in equity from transfers of assets to the entity by owners                                                                                                                                                                              |
 | **Distributions to Owners** | Decreases in equity from transfers of assets from the entity to owners (dividends)                                                                                                                                                                |
 
-:::tip Revenue vs. Gain
+:::tip[Revenue vs. Gain]
 
 **Revenue** arises from an entity's _central_ operations. **Gains** arise from _peripheral_ transactions. For Bear Co. (a retail company), selling merchandise generates **revenue**. Selling a delivery truck at a profit generates a **gain**. The underlying event (an increase in net assets) is similar, but the classification depends on the nature of the entity's operations.
 
 :::
+
 ---
 
 ## Recognition and Measurement Concepts
@@ -161,11 +167,13 @@ GAAP uses several measurement attributes depending on the type of asset or liabi
 | **Current market value (fair value)** | Price in an orderly transaction between market participants | Trading securities |
 | **Net realizable value (NRV)** | Expected selling price less costs to complete and sell | Accounts receivable (net of allowance) |
 | **Present value of future cash flows** | Discounted value of expected cash flows | Long-term notes receivable, bonds |
+
 :::info
 
 Fair value measurement (ASC 820) uses a three-level hierarchy: Level 1 (quoted prices in active markets), Level 2 (observable inputs), and Level 3 (unobservable inputs). Level 1 is most reliable; Level 3 requires the most judgment.
 
 :::
+
 ---
 
 ## Underlying Assumptions
@@ -179,11 +187,13 @@ The activities of the business are **separate and distinct** from the activities
 ### 2. Going Concern Assumption
 
 The entity will continue to operate for the **foreseeable future**—long enough to carry out its existing commitments. This assumption justifies reporting assets at cost rather than liquidation value.
+
 :::danger
 
 If there is **substantial doubt** about an entity's ability to continue as a going concern, management must evaluate whether its plans can mitigate that doubt. Disclosure is required under ASC 205-40 regardless of mitigation.
 
 :::
+
 ### 3. Monetary Unit Assumption
 
 Financial statements are expressed in a **stable monetary unit** (e.g., U.S. dollars). This assumption ignores the effects of inflation and deflation—a \$100,000 building purchased in 2000 is reported at \$100,000 on the balance sheet even if its purchasing power has changed.
@@ -241,6 +251,7 @@ Financial statements should include all information necessary to **prevent them 
 - The face of the financial statements
 - Notes (footnotes) to the financial statements
 - Supplementary information and schedules
+
   :::note
   Notes to the financial statements are an **integral part** of the statements—not optional appendices. The first note typically describes significant accounting policies (ASC 235).
   :::
@@ -262,6 +273,7 @@ Under the cash basis, transactions are recognized only when **cash is received o
 
 - Revenue is recognized when cash is received
 - Expenses are recognized when cash is paid
+
   :::warning
   The cash basis is **not** GAAP. The CPA Exam assumes accrual basis unless explicitly stated otherwise. However, you may be asked to convert between cash and accrual basis—a very common exam question.
   :::
@@ -294,11 +306,12 @@ graph TD
     E --> F["Financial Statements"]
 ```
 
-:::tip Key Takeaway
+:::tip[Key Takeaway]
 
 When you encounter an unfamiliar accounting question on the exam, return to first principles: Does the item meet the definition of an element? Can it be measured reliably? Is the information relevant? The conceptual framework is your fallback reasoning tool.
 
 :::
+
 ---
 
 ## Summary

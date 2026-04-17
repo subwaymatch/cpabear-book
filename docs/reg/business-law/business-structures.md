@@ -39,6 +39,7 @@ A **general partnership** is an association of two or more persons carrying on a
 A partnership is a **pass-through entity** for tax purposes — it does not pay income tax at the entity level. Each partner reports their distributive share of income, deductions, and credits on their personal return.
 
 :::
+
 > **Example:** BIF Partners is formed by three individuals who agree to share profits equally. Partner A, acting within the scope of the partnership business, signs a lease. All three partners are personally liable for the lease obligation, even if Partners B and C did not authorize the lease.
 
 ---
@@ -58,6 +59,7 @@ A **limited partnership (LP)** has at least one **general partner** (with manage
 Under the Revised Uniform Limited Partnership Act (RULPA), a limited partner who **participates in control** of the business may lose limited liability protection. Modern statutes (ULPA 2001) have largely eliminated this risk, but the concept is still tested.
 
 :::
+
 ---
 
 ## Limited Liability Company (LLC)
@@ -75,11 +77,12 @@ An **LLC** combines the **liability protection** of a corporation with the **tax
 
 > **Example:** Illini Entertainment forms an LLC with three members. The operating agreement designates two members as managers. All three members enjoy limited liability, and the LLC is taxed as a partnership — each member reports their share of income on Schedule K-1.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 An LLC with a **single member** is treated as a **disregarded entity** for federal tax purposes (reported on the owner's Schedule C) unless it elects corporate taxation.
 
 :::
+
 ---
 
 ## Limited Liability Partnership (LLP)
@@ -121,6 +124,7 @@ A corporation is formed by filing **articles of incorporation** with the state. 
 To qualify as an S corporation, the entity must file **Form 2553** (Election by a Small Business Corporation) with the IRS. All shareholders must consent to the election.
 
 :::
+
 ### Corporate Governance
 
 | Role | Responsibilities |
@@ -155,6 +159,7 @@ Directors, officers, and partners owe fiduciary duties to the entity and its own
 The **business judgment rule** protects directors from liability for decisions made in good faith, with reasonable care, and in the honest belief that the action was in the corporation's best interest. It does **not** protect decisions made with a conflict of interest or in bad faith.
 
 :::
+
 ---
 
 ## Comparison of Business Structures

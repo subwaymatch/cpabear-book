@@ -9,6 +9,7 @@ This section covers the **communication of planned scope and timing**, the **pre
 Communication requirements are established by **AU-C 260** (Overall Objectives — Communication with Those Charged with Governance), **AU-C 265** (Communicating Internal Control Related Matters), and **PCAOB AS 1301** (Communications with Audit Committees). Both frameworks require timely, clear, and two-way communication between the auditor and those responsible for governance and management of the entity.
 
 :::
+
 ---
 
 ## Communication of Planned Scope and Timing
@@ -30,11 +31,12 @@ The auditor should communicate the following matters to those charged with gover
 | **Use of specialists** | Whether the auditor intends to involve specialists (e.g., valuators, actuaries, IT specialists) |
 | **Group audit considerations** | If the entity is part of a group, the planned involvement of component auditors |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The auditor is **not required** to communicate specific materiality dollar amounts to those charged with governance. Communicating the general concept and how materiality affects the audit approach is sufficient. However, the auditor may choose to share specific amounts at their discretion.
 
 :::
+
 ### Communication with Management
 
 In addition to governance, the auditor also communicates with **management** about planning matters. Management communications typically include:
@@ -66,6 +68,7 @@ Auditors frequently prepare presentation materials for formal communications wit
 The form of communication (oral vs. written) depends on the nature and significance of the matter. **Significant matters** should generally be communicated in **writing** to provide a clear record. Oral communications of significant matters should be documented in the audit workpapers.
 
 :::
+
 ---
 
 ## Internal Control Related Matters
@@ -85,6 +88,7 @@ During the course of the audit, the auditor may identify deficiencies in the ent
 The key distinction between a significant deficiency and a material weakness is the **likelihood and magnitude** of potential misstatement. A material weakness involves a **reasonable possibility** of a **material** misstatement going undetected. A significant deficiency is serious enough to warrant governance attention but does not rise to the level of a material weakness.
 
 :::
+
 ### Evaluating Deficiencies
 
 When the auditor identifies a control deficiency, they must evaluate its severity by considering:
@@ -119,6 +123,7 @@ Both AICPA and PCAOB standards require that **significant deficiencies and mater
 The written communication of significant deficiencies and material weaknesses must be made **even if** these matters were previously communicated orally. The oral communication does not substitute for the written requirement. The written communication provides a formal record and ensures governance has clear documentation of the findings.
 
 :::
+
 ### Content of the Written Communication
 
 The written communication to those charged with governance must include:
@@ -154,11 +159,12 @@ The timing of communications depends on the nature and urgency of the matter:
 | **Other audit findings** | At the conclusion of the audit, or during the audit if timely communication is important |
 | **Fraud or illegal acts** | As soon as practicable — significant matters must be reported directly to those charged with governance |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The 60-day deadline for written communication of significant deficiencies and material weaknesses (AU-C 265) coincides with the documentation completion date for nonissuer engagements. This is a useful memory aid for the CPA exam.
 
 :::
+
 ### Early Communication of Significant Matters
 
 The auditor should not wait until the end of the audit to communicate matters that require immediate attention. If the auditor identifies a material weakness during interim fieldwork, it should be communicated to governance **as soon as practicable** — not deferred to the final communication.
@@ -184,6 +190,7 @@ The auditor should not wait until the end of the audit to communicate matters th
 For **issuers** subject to an integrated audit under PCAOB standards, material weaknesses in internal control over financial reporting (ICFR) are not only communicated to the audit committee—they are reported in the **auditor's public report** on internal control. This is a much higher level of public accountability than the private written communication required for nonissuers.
 
 :::
+
 ---
 
 ## Summary

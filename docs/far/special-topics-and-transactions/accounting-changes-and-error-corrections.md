@@ -55,11 +55,12 @@ Dr. Depreciation expense       18,000
     Cr. Accumulated depreciation        18,000
 ```
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 A **change in depreciation method** (e.g., from double-declining balance to straight-line) is treated as a **change in estimate inseparable from a change in principle** and is accounted for **prospectively** — just like a change in estimate.
 
 :::
+
 ---
 
 ## Changes in Accounting Principle
@@ -85,11 +86,13 @@ Dr. Retained earnings          25,000
 ```
 
 The Year 1 and Year 2 financial statements (if presented comparatively) are restated using weighted-average.
-:::warning Exception — LIFO
+
+:::warning[Exception — LIFO]
 
 A change **to** LIFO from another method is an exception. It is impractical to retrospectively determine LIFO layers. Therefore, the beginning inventory in the year of change becomes the **first LIFO layer**, and no cumulative adjustment is made.
 
 :::
+
 ### Indirect Effects
 
 ## Indirect effects (such as changes in profit-sharing or royalty payments due to the principle change) are recognized in the period of change and disclosed but **not** reflected in retrospective restatement.
@@ -131,6 +134,7 @@ Dr. Deferred tax asset          8,400
 Changing from a **non-GAAP** method (e.g., cash basis) to a **GAAP** method (accrual basis) is treated as an **error correction**, not a change in principle.
 
 :::
+
 ---
 
 ## Summary of Treatments
@@ -148,7 +152,8 @@ Changing from a **non-GAAP** method (e.g., cash basis) to a **GAAP** method (acc
 ## Adjusting Journal Entries
 
 Adjusting entries are made at the **end of the accounting period** to ensure revenues and expenses are recorded in the correct period. There are strict rules:
-:::info Adjusting Entry Rules
+
+:::info[Adjusting Entry Rules]
 
 1. **Never involve cash** — cash entries are recorded when cash changes hands
 2. Always involve **one income statement account** and **one balance sheet account**
@@ -251,7 +256,8 @@ For all accounting changes and error corrections, entities must disclose:
 - Method of applying the change
 - Effect on income from continuing operations, net income, and EPS
 - Cumulative effect on retained earnings (for retrospective changes)
-  :::note Chapter Checklist
+
+  :::note[Chapter Checklist]
 - [ ] Classify changes as estimate, principle, entity, or error
 - [ ] Apply prospective treatment for changes in estimate
 - [ ] Apply retrospective treatment for changes in principle

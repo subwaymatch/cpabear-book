@@ -9,11 +9,13 @@ title: FAR
 ## What Is FAR?
 
 The **Financial Accounting and Reporting (FAR)** section of the CPA Exam evaluates a candidate's knowledge of the accounting standards, principles, and frameworks used to prepare and analyze financial statements. Of the four CPA Exam sections, FAR is widely regarded as the most content-heavy and technically demanding.
-:::info Exam Structure
+
+:::info[Exam Structure]
 
 FAR is one of four sections of the Uniform CPA Examination, alongside AUD (Auditing and Attestation), REG (Taxation and Regulation), and ISC/TCP/BAR (discipline sections). You must pass all sections within a rolling 30-month window.
 
 :::
+
 ---
 
 ## Key Content Areas
@@ -27,11 +29,13 @@ The FAR blueprint—published by the AICPA—organizes tested material into seve
 | **State & Local Governments** | Fund accounting, government-wide statements, GASB standards | 10–20% |
 | **Not-for-Profit Entities** | Contributions, net asset classifications, NFP reporting | 5–10% |
 | **SEC & IFRS Differences** | Key differences from U.S. GAAP, SEC reporting requirements | 5–10% |
-:::warning Content Weights May Shift
+
+:::warning[Content Weights May Shift]
 
 The AICPA periodically updates the CPA Exam blueprint. Always verify the latest version at **aicpa.org** before finalizing your study plan.
 
 :::
+
 ---
 
 ## Financial Reporting Standards
@@ -57,11 +61,12 @@ graph TD
     B --> C["Level 3: Other sources <br/>(Industry practice, analogy)"]
 ```
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 For the CPA Exam, always apply **authoritative GAAP (ASC)** unless the question explicitly states otherwise (e.g., IFRS or cash basis).
 
 :::
+
 ### The SEC
 
 The **Securities and Exchange Commission (SEC)** has legal authority over financial reporting for publicly traded companies. While the SEC generally defers to the FASB for standard-setting, it issues its own rules through:
@@ -113,11 +118,13 @@ Time yourself on practice problems. The CPA Exam includes multiple-choice questi
 ### 5. Focus on High-Weight Topics
 
 Allocate study time proportional to exam weight. Spending three weeks on governmental accounting while ignoring revenue recognition would be a strategic error.
+
 :::note
 
 Government and not-for-profit topics feel unfamiliar to most candidates, but they are very testable. Budget adequate time for these areas even though the weight is lower.
 
 :::
+
 ---
 
 ## How This Textbook Is Organized
@@ -133,11 +140,13 @@ This textbook follows a logical progression designed to build your knowledge sys
 | **Part 6: Financial Statement Presentation** | Income statement, balance sheet, statement of cash flows, comprehensive income, EPS |
 | **Part 7: Special Topics** | Business combinations, consolidations, foreign currency, derivatives, fair value |
 | **Part 8: Government & NFP** | Fund accounting, government-wide statements, GASB standards, NFP reporting |
-:::tip Navigation
+
+:::tip[Navigation]
 
 Use the sidebar to jump to any topic. Each chapter includes learning objectives, worked examples, journal entries, and practice questions.
 
 :::
+
 ---
 
 ## Conventions Used in This Textbook
@@ -149,7 +158,8 @@ Throughout this textbook, you will encounter several recurring conventions:
 - **Math formulas** use KaTeX notation: $$\text{Net Income} = \text{Revenue} - \text{Expenses}$$
 - **Company names** in examples include Bear Co., Gies Co., MAS Inc., BIF Partners, Kingfisher Industries, Illini Entertainment, and Illini Security
 - **Admonitions** highlight tips, warnings, and important notes using colored callout boxes
-  :::danger Common Pitfall
+
+  :::danger[Common Pitfall]
   Many candidates underestimate FAR because they "already know accounting." The CPA Exam tests nuance—specific rules, exceptions, and edge cases that go well beyond introductory coursework. Treat every topic with fresh eyes.
   :::
 

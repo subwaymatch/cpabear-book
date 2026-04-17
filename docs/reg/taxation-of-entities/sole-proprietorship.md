@@ -66,11 +66,12 @@ A sole proprietor using the **accrual method** may deduct business bad debts whe
 | **Accrual basis** | ✅ Yes — when a specific receivable becomes uncollectible |
 | **Cash basis** | ❌ No — because the income was never reported (no basis in the receivable) |
 
-:::caution Cash-Basis Taxpayers
+:::caution[Cash-Basis Taxpayers]
 
 A cash-basis sole proprietor generally has **no basis** in accounts receivable because the revenue was never included in income. Therefore, there is nothing to write off. Bad debt deductions are available only to **accrual-basis** taxpayers who have previously recognized the income.
 
 :::
+
 **Example:** Sarah operates Gies Co. (accrual basis). She billed a client \$8,000 and included it in income. When the client goes bankrupt and the receivable becomes worthless, Sarah deducts \$8,000 as a business bad debt — an ordinary deduction on Schedule C.
 
 ---
@@ -128,6 +129,7 @@ The **deductible portion** of SE tax (50% of the total SE tax) is taken as an **
 Self-employment tax is one of the biggest distinctions between a sole proprietorship and an S corporation. S corporation owners who are also employees pay payroll taxes only on their **wages** — not on distributions. Sole proprietors pay SE tax on **all** net business earnings.
 
 :::
+
 **Example:** Marcus operates Illini Entertainment as a sole proprietorship and earns net Schedule C income of \$120,000.
 
 | Calculation | Amount |
@@ -167,6 +169,7 @@ If an activity shows a **profit in at least 3 of the last 5 consecutive years** 
 The 3-of-5 rule is a **presumption**, not a safe harbor. The IRS can still challenge an activity as a hobby even if it meets the presumption, and a taxpayer can prove profit motive even without meeting it.
 
 :::
+
 ### Tax consequences of hobby classification
 
 | Item | Treatment |
@@ -182,6 +185,7 @@ The 3-of-5 rule is a **presumption**, not a safe harbor. The IRS can still chall
 Under current law (TCJA through 2025), hobby expenses are **completely nondeductible**. This means a hobby can generate tax liability on its income but provide **zero** tax benefit for its expenses — a worst-case scenario for taxpayers.
 
 :::
+
 ---
 
 ## How the CPA exam tests sole proprietorships

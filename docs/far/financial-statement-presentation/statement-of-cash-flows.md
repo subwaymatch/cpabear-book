@@ -1,11 +1,13 @@
 # Statement of Cash Flows
 
 The **statement of cash flows** reports all cash inflows and outflows during a period, classified into three categories: **operating**, **investing**, and **financing** activities. It reconciles the beginning and ending cash balances and answers: _Where did cash come from, and where did it go?_
-:::info Key Concept
+
+:::info[Key Concept]
 
 The statement of cash flows bridges the accrual-basis income statement to actual cash movements. An entity can report strong net income but still face a cash crisis — or vice versa.
 
 :::
+
 ---
 
 ## Cash and Cash Equivalents
@@ -16,9 +18,11 @@ The statement of cash flows bridges the accrual-basis income statement to actual
 - Readily convertible to known amounts of cash
 - So near maturity that they present **insignificant risk** of value changes
 - Original maturity of **three months or less** from the date of purchase
-  :::tip Exam Tip — Three-Month Rule
+
+  :::tip[Exam Tip — Three-Month Rule]
   A 6-month Treasury bill purchased with 2 months remaining is **not** a cash equivalent (original maturity > 3 months). A 90-day certificate of deposit **is** a cash equivalent.
   :::
+
   | Cash Equivalent? | Instrument | Reason |
   |---|---|---|
   | ✅ | 60-day T-bill | Original maturity ≤ 3 months |
@@ -43,7 +47,8 @@ Cash flows from the entity's **principal revenue-producing activities**. These g
 - Cash paid for interest
 - Cash paid for income taxes
 - Cash paid for operating expenses
-  :::warning Important Classifications
+
+  :::warning[Important Classifications]
   Under U.S. GAAP:
 - **Interest paid** → Operating (even though it relates to financing)
 - **Interest received** → Operating
@@ -103,7 +108,7 @@ The indirect method starts with **net income** and adjusts for noncash items and
 
 ### The CLAD Framework
 
-:::tip CLAD Mnemonic
+:::tip[CLAD Mnemonic]
 
 Use **CLAD** to remember the adjustments from net income to cash from operations:
 | Letter | Adjustment | Direction |
@@ -114,6 +119,7 @@ Use **CLAD** to remember the adjustments from net income to cash from operations
 | **D** | **D**eferred items (deferred tax, deferred revenue changes) | Adjust accordingly |
 
 :::
+
 ### Current Asset and Liability Changes
 
 | Change                                                          | Effect on Cash from Operations |
@@ -123,11 +129,12 @@ Use **CLAD** to remember the adjustments from net income to cash from operations
 | Current liability **increases** (e.g., AP goes up)              | **Add** (conserved cash)       |
 | Current liability **decreases** (e.g., wages payable goes down) | **Subtract** (used cash)       |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 Think of it this way: If a current **asset** increased, the company spent cash to build up that asset — so subtract. If a current **liability** increased, the company held onto cash by not paying — so add.
 
 :::
+
 ### Losses and Gains
 
 Gains and losses from investing/financing activities (e.g., gain on sale of equipment) are removed from operating activities because the **total** cash from the transaction is classified elsewhere.
@@ -203,6 +210,7 @@ $$
 If the direct method is used, a **reconciliation** of net income to cash from operations (essentially the indirect method) must be presented in a supplemental schedule.
 
 :::
+
 ---
 
 ## Complete Statement Example
@@ -275,7 +283,7 @@ This transaction would appear as a noncash investing/financing disclosure:
 
 ## Classification of Specific Items
 
-:::warning Frequently Tested Classifications
+:::warning[Frequently Tested Classifications]
 
 | Transaction | Section |
 |---|---|
@@ -296,6 +304,7 @@ This transaction would appear as a noncash investing/financing disclosure:
 | Insurance proceeds (from PP&E destruction) | **Investing** |
 
 :::
+
 ---
 
 ## Journal Entry Connections
@@ -348,7 +357,7 @@ flowchart TD
     E --> E1["Interest & taxes paid<br>Noncash activities"]
 ```
 
-:::danger Common Exam Pitfalls
+:::danger[Common Exam Pitfalls]
 
 1. Classifying **dividends paid** as operating — they are **financing**.
 2. Classifying **interest paid** as financing — it is **operating** under U.S. GAAP.

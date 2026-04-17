@@ -36,6 +36,7 @@ To establish a negligence claim, the client must prove four elements:
 The standard of care for CPAs is based on what a **reasonably competent CPA** would have done under similar circumstances — not perfection. A CPA is not a guarantor against all errors.
 
 :::
+
 ### Fraud (Intentional Misrepresentation)
 
 Fraud requires proof that the CPA:
@@ -51,6 +52,7 @@ Fraud requires proof that the CPA:
 Unlike negligence, fraud can result in **punitive damages** in addition to compensatory damages. Fraud also eliminates many contractual defenses, such as limitation-of-liability clauses.
 
 :::
+
 ---
 
 ## Common Law Liability to Third Parties
@@ -82,11 +84,12 @@ Under this broadest approach, a CPA is liable to **any person** the CPA could re
 | **Restatement (Foreseen Users)** | Moderate | CPA knew the class of users |
 | **Rosenblum (Foreseeable Users)** | Broadest | CPA could foresee any user |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The **Restatement (foreseen users)** approach is the most commonly tested and is the majority rule. Know all three approaches and be able to distinguish them based on the facts presented.
 
 :::
+
 ---
 
 ## Statutory Liability Under Federal Securities Laws
@@ -111,6 +114,7 @@ Key features of Section 11:
 Under Section 11, the burden of proof shifts to the **defendant**. The CPA must affirmatively prove due diligence — the plaintiff does not need to prove negligence.
 
 :::
+
 ### Securities Exchange Act of 1934 — Section 10(b) and Rule 10b-5
 
 **Section 10(b)** and **Rule 10b-5** create liability for fraud in connection with the **purchase or sale** of any security (not just newly registered securities).
@@ -122,11 +126,12 @@ Under Section 11, the burden of proof shifts to the **defendant**. The CPA must 
 | **CPA's defense** | Lack of scienter (no intent to deceive or reckless disregard) |
 | **Standard** | Fraud standard — scienter is **required** |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The critical distinction: **Section 11** (1933 Act) requires only negligence and applies only to registration statements. **Section 10(b)/Rule 10b-5** (1934 Act) requires **scienter** but applies to all securities transactions. Memorize this distinction — it is heavily tested.
 
 :::
+
 ### Comparison of Section 11 and Section 10(b)
 
 | Feature | Section 11 (1933 Act) | Section 10(b) / Rule 10b-5 (1934 Act) |
@@ -183,6 +188,7 @@ Under **federal law**, there is generally **no** CPA-client privilege. The tax p
 Many states grant some form of CPA-client privilege under state law, but no such privilege exists under federal common law. Do not confuse state privilege statutes with the limited federal privilege under IRC §7525.
 
 :::
+
 ---
 
 ## Summary

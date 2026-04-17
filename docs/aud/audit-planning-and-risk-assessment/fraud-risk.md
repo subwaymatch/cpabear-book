@@ -9,6 +9,7 @@ This section covers the **two types of fraud**, the **fraud triangle**, the **au
 The auditor's responsibilities regarding fraud are governed by **AU-C 240** (AICPA) for nonissuers and **AS 2401** (PCAOB) for issuers. Both standards require the auditor to specifically consider fraud risks when planning and performing the audit.
 
 :::
+
 ---
 
 ## Two Types of Fraud
@@ -36,11 +37,12 @@ Misappropriation of assets involves the **theft or misuse of an entity's assets*
 
 **Example:** A warehouse supervisor at Kingfisher Industries diverts shipments of finished goods to a personal storage unit and sells them to third parties. The theft is concealed by manipulating inventory records to hide the shortages. This is misappropriation of assets.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 **Fraudulent financial reporting** typically involves management and affects the financial statements directly (overstating assets/revenue or understating liabilities/expenses). **Misappropriation of assets** typically involves employees stealing resources and may or may not result in materially misstated financial statements.
 
 :::
+
 ---
 
 ## The Fraud Triangle
@@ -97,6 +99,7 @@ Rationalization is the **mental justification** that allows the person to reconc
 Of the three fraud triangle conditions, **opportunity** is the element most directly addressable through internal controls. Strong controls reduce opportunity—but they cannot eliminate incentive or rationalization. This is why management override of controls is considered a fraud risk in every audit.
 
 :::
+
 ---
 
 ## Auditor Responsibilities for Fraud
@@ -131,6 +134,7 @@ The auditor's responsibility is to obtain **reasonable assurance** that the fina
 Even if no specific fraud risk factors are present, the auditor must **always** presume that risks of fraud exist in revenue recognition and must consider the risk of management override of controls. These are **default fraud risks** in every audit.
 
 :::
+
 ---
 
 ## Fraud Risk Factors and Red Flags
@@ -182,6 +186,7 @@ Because revenue recognition is a presumed fraud risk, the auditor must:
 **Management override of controls** is also a presumed fraud risk that cannot be rebutted. Unlike the revenue recognition presumption—which can be overcome with documentation—the presumption of management override risk **always** applies. The auditor must always test journal entries, review accounting estimates for bias, and evaluate the business rationale for significant unusual transactions.
 
 :::
+
 ---
 
 ## Summary

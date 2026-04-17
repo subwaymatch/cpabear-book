@@ -23,6 +23,7 @@ A **contract** exists when all five criteria are met:
 3. **Payment terms** are identifiable
 4. The contract has **commercial substance**
 5. Collection is **probable**
+
    :::info
    If a contract does not meet all five criteria, any consideration received is recorded as a **liability** until the criteria are met or the contract is terminated.
    :::
@@ -53,7 +54,8 @@ A good or service is **distinct** if both conditions are met:
 1. **Capable of being distinct** — the customer can benefit from it on its own or with readily available resources
 2. **Distinct within the contract** — it is separately identifiable from other promises
    **Example:** Bear Co. sells a software license and provides 2 years of post-contract support (PCS). The software functions independently. These are **two** performance obligations because the software is distinct from the PCS.
-   :::tip Exam Tip
+
+   :::tip[Exam Tip]
    Shipping and handling activities occurring **after** transfer of control are a separate performance obligation. Activities occurring **before** transfer of control are fulfillment costs, not a separate obligation.
    :::
 
@@ -168,13 +170,14 @@ Dr. Construction expense      600,000
     Cr. Materials/Cash/etc.           600,000
 ```
 
-:::warning Loss Recognition on Long-Term Contracts
+:::warning[Loss Recognition on Long-Term Contracts]
 
 Both over-time and point-in-time methods require **immediate recognition of the entire estimated loss** when a contract becomes unprofitable. The loss is not deferred until completion.
 
 **Example:** In Year 2, BIF Partners revises total estimated costs to \$2,200,000, indicating an expected loss of \$200,000 on the \$2,000,000 contract. The entire \$200,000 loss must be recognized in Year 2, regardless of the percentage completed.
 
 :::
+
 ### Satisfaction at a Point in Time
 
 If none of the over-time criteria are met, revenue is recognized at the **point in time** when control transfers. Indicators of transfer include:
@@ -236,11 +239,12 @@ Dr. Contract liability          2,500
 
 Capitalized costs are amortized on a systematic basis consistent with the pattern of revenue recognition.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 As a practical expedient, costs to obtain a contract may be expensed immediately if the amortization period would be **one year or less**.
 
 :::
+
 ### Principal vs. Agent
 
 An entity must determine whether it is a **principal** (controls the good or service before transfer) or an **agent** (arranges for another party to provide the good or service).
@@ -269,6 +273,7 @@ A **repurchase agreement** is a contract in which an entity sells an asset and p
 When a repurchase agreement is treated as a **financing arrangement**, the entity does not derecognize the asset. Instead, it records a financial liability for the consideration received.
 
 :::
+
 ### Bill-and-Hold Arrangements
 
 In a **bill-and-hold** arrangement, the entity bills the customer but physically retains possession of the goods. Revenue may be recognized before the customer receives the product only if **all** of the following criteria are met:
@@ -344,7 +349,8 @@ Revenue is presented on the income statement either as a single line item or dis
 - Market or customer type
 - Contract type
 - Timing of transfer (point in time vs. over time)
-  :::note Chapter Checklist
+
+  :::note[Chapter Checklist]
 - [ ] Apply all five criteria to identify a valid contract
 - [ ] Determine when goods/services are distinct performance obligations
 - [ ] Estimate variable consideration and apply the constraint

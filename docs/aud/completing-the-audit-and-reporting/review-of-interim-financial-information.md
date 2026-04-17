@@ -18,6 +18,7 @@ This section covers the applicable standards, the nature of limited assurance, t
 Under AU-C 930, the accountant performing the interim review must also be the **auditor of the annual financial statements** (or have been engaged to audit the annual financial statements). This ensures the reviewer has sufficient knowledge of the entity's internal control and accounting practices to perform a meaningful review.
 
 :::
+
 ---
 
 ## Nature of a Review — Limited Assurance
@@ -40,6 +41,7 @@ An interim review provides **limited assurance** (also called negative assurance
 Remember the key phrase for negative assurance: **"Nothing came to our attention"** or **"We are not aware of any material modifications."** This language signals limited assurance — the auditor is not saying the statements are fairly presented, only that nothing was found to suggest otherwise.
 
 :::
+
 ---
 
 ## Scope of the Review
@@ -88,6 +90,7 @@ The auditor must be **independent** of the entity to perform an interim review a
 If the auditor is not independent, the auditor **cannot issue a review report** on the interim financial information. Under PCAOB standards, the auditor must be independent per SEC and PCAOB rules. Under AICPA standards, the auditor must comply with the AICPA Code of Professional Conduct and applicable independence rules.
 
 :::
+
 ### Going Concern Considerations
 
 If conditions or events raise substantial doubt about the entity's ability to continue as a going concern during the interim review:
@@ -163,6 +166,7 @@ The interim review and the annual audit are **interconnected**. Knowledge gained
 The interim review is **not** a substitute for any part of the annual audit. Even if the auditor performs quarterly reviews throughout the year, the auditor must still perform a complete audit at year-end.
 
 :::
+
 **Example:** During the Q2 interim review of Illini Entertainment, the auditor discovers that the company changed its revenue recognition policy without proper disclosure. This finding prompts the auditor to plan additional year-end audit procedures around revenue recognition, including expanded substantive testing and evaluation of the accounting change.
 
 ---
@@ -190,6 +194,7 @@ Public companies (issuers) registered with the SEC are required to file **quarte
 The 10-Q financial statements are **not audited** — they are reviewed. Exam questions may test whether you understand that quarterly financial statements receive limited assurance (review) rather than reasonable assurance (audit). The annual 10-K filing contains the audited financial statements.
 
 :::
+
 **Example:** BIF Partners, a large accelerated filer, must file its Q3 10-Q within 40 days of the quarter-end. The 10-Q includes condensed financial statements for Q3 that have been reviewed (not audited) by the independent auditor. The financial statements are marked as "unaudited."
 
 ---
@@ -214,6 +219,7 @@ The 10-Q financial statements are **not audited** — they are reviewed. Exam qu
 While the core procedures are similar between AICPA and PCAOB interim reviews, the key differences relate to **who the standards apply to** (nonissuers vs. issuers), the **independence framework** (AICPA vs. SEC/PCAOB rules), and the **regulatory filing context** (no public filing vs. SEC 10-Q requirements).
 
 :::
+
 ---
 
 ## Illini Security Example — Putting It Together

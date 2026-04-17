@@ -6,11 +6,12 @@ $$
 \text{Assets} = \text{Liabilities} + \text{Stockholders' Equity}
 $$
 
-:::info Key Concept
+:::info[Key Concept]
 
 The balance sheet answers: _What does the company own, what does it owe, and what is the residual interest of the owners — right now?_
 
 :::
+
 ---
 
 ## Classified vs. Unclassified Balance Sheet
@@ -20,11 +21,12 @@ The balance sheet answers: _What does the company own, what does it owe, and wha
 | **Classified**   | Separates assets and liabilities into **current** and **noncurrent** categories | Most commercial and industrial entities                |
 | **Unclassified** | Does not distinguish between current and noncurrent                             | Financial institutions, certain specialized industries |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The CPA exam overwhelmingly tests the **classified** balance sheet. Know the current/noncurrent distinction cold.
 
 :::
+
 ---
 
 ## Liquidity-Based Presentation
@@ -90,6 +92,7 @@ Dr. Equipment                    150,000
 Land is **not depreciated**. It has an indefinite useful life.
 
 :::
+
 ### Intangible Assets
 
 Assets that lack physical substance but provide future economic benefits.
@@ -125,11 +128,13 @@ Obligations expected to be settled within **one year** (or the operating cycle, 
 | **Short-term notes payable** | Bank lines of credit, commercial paper |
 | **Current portion of long-term debt** | Principal payments due within one year |
 | **Dividends payable** | Declared but unpaid dividends |
+
 :::warning
 
 A liability is classified as **current** even if it will be refinanced after the balance sheet date, **unless** a noncurrent refinancing agreement was completed **before** the balance sheet date (and other criteria are met under ASC 470-10).
 
 :::
+
 **Example — Gies Co. records accrued wages:**
 
 ```journal
@@ -184,11 +189,12 @@ Dr. Cash                150,000
 
 ## Working Capital
 
-:::info Definition
+:::info[Definition]
 
 **Working capital** (also called net working capital) measures the entity's short-term liquidity.
 
 :::
+
 $$
 \text{Working Capital} = \text{Current Assets} - \text{Current Liabilities}
 $$
@@ -207,7 +213,8 @@ $$
   $$
   \text{Current Ratio} = \frac{\$548{,}000}{\$310{,}000} = 1.77
   $$
-  :::tip Exam Tip
+
+  :::tip[Exam Tip]
   A current ratio above 1.0 means the company has more current assets than current liabilities. Banks and creditors use this ratio extensively in credit analysis.
   :::
 
@@ -252,6 +259,7 @@ The balance sheet alone cannot convey all necessary information. Required disclo
 4. **Fair value information** — for financial instruments
 5. **Related party transactions** — transactions with affiliates, officers, directors
 6. **Subsequent events** — material events occurring after the balance sheet date but before financial statement issuance
+
    :::warning
    Certain items may require **parenthetical disclosures** on the face of the balance sheet (e.g., allowance for doubtful accounts, accumulated depreciation, par value of stock, number of shares authorized/issued/outstanding).
    :::
@@ -290,7 +298,7 @@ flowchart TD
 
 ---
 
-:::danger Common Exam Pitfalls
+:::danger[Common Exam Pitfalls]
 
 1. Classifying **AFS securities** as current or noncurrent depends on management's **intent to sell** within one year — not the maturity date.
 2. Forgetting that **treasury stock** is a **contra equity** account (deducted from equity, not added).

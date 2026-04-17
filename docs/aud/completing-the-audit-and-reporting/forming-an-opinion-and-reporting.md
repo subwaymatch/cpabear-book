@@ -20,6 +20,7 @@ The standards governing how auditors form opinions and issue reports depend on *
 For the AUD exam, you must know the difference between these two sets of standards. Many concepts are similar, but the specific requirements — especially around report format, critical audit matters vs. key audit matters, and certain independence rules — differ between PCAOB and AICPA standards.
 
 :::
+
 - **SASs** are developed through the AICPA's standard-setting process and are converged with International Standards on Auditing (ISAs) to the extent appropriate for U.S. practice
 - **ASs** are established by the PCAOB and approved by the SEC. The PCAOB also has the authority to inspect registered public accounting firms
 
@@ -69,6 +70,7 @@ An audit provides reasonable — not absolute — assurance. Several inherent li
 The inherent limitations of an audit mean that the auditor **cannot be held responsible** for detecting every misstatement or every fraud. However, the auditor must plan and perform the audit to obtain reasonable assurance that the financial statements taken as a whole are free from material misstatement, whether caused by fraud or error.
 
 :::
+
 ---
 
 ## Five General GAAS Requirements — The SEJEC Mnemonic
@@ -152,6 +154,7 @@ The auditor determines whether the scope limitation is **material** or **materia
 Think of it this way: **GAAP issues** = the financial statements are wrong. **GAAS issues** = the auditor could not get enough evidence to tell whether the financial statements are right or wrong.
 
 :::
+
 ---
 
 ## Reporting with Different Opinions and Other Auditors
@@ -228,6 +231,7 @@ When comparative financial statements are presented and the current year and pri
 These comparative reporting rules are especially important for nonissuer engagements, where it is common for entities to present two or more years of financial statements and the prior year may have been subject to a different engagement type or audited by a different firm.
 
 :::
+
 ---
 
 ## Component Auditor Considerations (Group Audits for Nonissuers)
@@ -291,6 +295,7 @@ When issuing a report on financial statements prepared using an SPF, the auditor
 When reporting on special purpose framework financial statements, the auditor must make clear that the statements are **not intended to be GAAP-basis financial statements**. This prevents users from mistakenly treating them as if they were prepared under a general-purpose framework.
 
 :::
+
 **Example:** Gies Co. prepares its financial statements on a tax basis because its primary users are the owners and the IRS. The auditor performs the audit and issues an opinion stating the financial statements present fairly, in all material respects, in accordance with the tax basis of accounting described in Note 1. An emphasis-of-matter paragraph alerts readers that the tax basis differs from U.S. GAAP.
 
 ### Restriction on Use

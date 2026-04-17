@@ -59,6 +59,7 @@ The following are specifically **excluded** from capital asset treatment under �
 Property used in a trade or business (§1231 property) is **not** a capital asset, but net §1231 gains receive **long-term capital gain treatment**. This is often called "the best of both worlds" — gains are taxed at capital rates, but losses are fully deductible as ordinary losses.
 
 :::
+
 ---
 
 ## Holding Period for Inherited Property
@@ -148,6 +149,7 @@ The most heavily tested rule on the exam is how to apply a **Net Short-Term Capi
 If an overall net capital loss remains after all offsetting is complete, the taxpayer can deduct up to \$3,000 of that loss against ordinary income for the year, carrying the remainder forward indefinitely.
 
 :::
+
 #### Application in Practice: The Offsetting Scenario
 
 Let's walk through exactly how these ordering rules play out on a tax return.
@@ -182,11 +184,12 @@ We have a \$50,000 NSTCL that we need to absorb. Following the statutory order, 
 
 **Conclusion:** The taxpayer will report a **net long-term capital gain of \$15,000, which will be taxed at the preferential 0%, 15%, or 20% rate.**
 
-:::caution Common Pitfall
+:::caution[Common Pitfall]
 
 A common mistake is to either deduct the maximum \$3,000 loss immediately without netting against the long-term gains, or to offset the regular 15% gains before the 28% gains. Always wipe out the 28% bucket first!
 
 :::
+
 ---
 
 ## C Corporation Capital Gain and Loss Rules
@@ -209,6 +212,7 @@ C corporations follow different rules for capital gains and losses than individu
 A C corporation's net capital loss **never** reduces ordinary income. This is one of the most commonly tested distinctions on the REG exam.
 
 :::
+
 ---
 
 ## Personal Residence Gain Exclusion
@@ -243,6 +247,7 @@ $$\text{Partial Exclusion} = \text{Maximum Exclusion} \times \frac{\text{Months 
 The §121 exclusion applies only to **gains**. A loss on the sale of a personal residence is **not deductible** because the home is personal-use property.
 
 :::
+
 ---
 
 ## Nondeductible Losses (WRaP)
@@ -266,6 +271,7 @@ A **wash sale** occurs when a taxpayer sells a security at a loss and purchases 
 The wash sale rule applies only to **losses**, not to gains. It applies to stocks, bonds, options, and mutual funds — but **not** to real estate or other non-security assets.
 
 :::
+
 ### Related Party Losses — IRC §267
 
 Losses on sales or exchanges of property between **related parties** are **disallowed**. Related parties include:
@@ -297,4 +303,5 @@ Losses from the sale of **personal-use property** (property not held for investm
 If personal-use property is sold at a **gain**, the gain **is** taxable. The nondeductible rule applies only to losses. This asymmetry is a favorite exam topic.
 
 :::
+
 > **Example:** Jamie sells a personal boat for \$5,000. The original cost was \$12,000. The \$7,000 loss is **nondeductible**. If Jamie instead sold the boat for \$15,000, the \$3,000 gain would be a **taxable capital gain**.

@@ -7,6 +7,7 @@ Government entities and organizations that receive federal funding are subject t
 **GAGAS** stands for Generally Accepted Government Auditing Standards. The Yellow Book is issued by the **Comptroller General of the United States** through the GAO, not by the AICPA or PCAOB.
 
 :::
+
 ---
 
 ## Government Auditing Standards (Yellow Book)
@@ -49,11 +50,12 @@ The Yellow Book identifies three types of engagements:
 - These are unique to governmental auditing—there is no private-sector equivalent
 - Performance audit reports describe the **objectives, scope, methodology, findings, and recommendations**
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The CPA exam primarily tests financial audits under GAGAS. Performance audits are less frequently tested but you should know the basic concept: they evaluate whether government programs achieve their objectives efficiently and effectively.
 
 :::
+
 ---
 
 ## Additional Reporting Requirements Under GAGAS
@@ -78,6 +80,7 @@ When conducting a **financial audit** under GAGAS, the auditor must issue additi
 Under GAGAS, the internal control and compliance reports are required **in addition to** the standard financial statement opinion. These reports are issued even when no deficiencies or noncompliance are found—the auditor states that none were identified.
 
 :::
+
 ---
 
 ## Single Audit Act and Uniform Guidance
@@ -118,11 +121,12 @@ The auditor assesses whether each Type A program is **low risk** or **high risk*
 
 **Example:** MAS Inc. expends \$5 million in federal awards across eight different programs. Three programs exceed the Type A threshold. The auditor assesses two of the three Type A programs as high risk and designates them as major programs. The auditor also identifies one Type B program with recent findings as high risk and includes it as a major program. Together, these three programs cover 45% of total federal expenditures.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 For the CPA exam, remember the key percentages: the auditor must cover at least **20% of total federal expenditures** for a low-risk auditee and **40%** for others. The distinction between Type A and Type B is based on a **dollar threshold**, not program importance.
 
 :::
+
 ---
 
 ## Federal Award Compliance Requirements
@@ -165,6 +169,7 @@ The single audit results in a comprehensive **reporting package** that the entit
 The reporting package must be submitted to the **Federal Audit Clearinghouse** within **30 days** after receiving the auditor's report or **9 months** after the end of the audit period, whichever is earlier. Late submission can affect the entity's eligibility for future federal funding.
 
 :::
+
 ---
 
 ## Summary

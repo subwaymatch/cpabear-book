@@ -25,6 +25,7 @@ The auditor uses variables sampling to:
 Tolerable misstatement is typically set at or below **materiality** for the account being tested. The lower the tolerable misstatement, the larger the required sample size, because the auditor needs more evidence to conclude the account is fairly stated within a tighter margin.
 
 :::
+
 ---
 
 ## Factors Affecting Variables Sample Size
@@ -48,11 +49,13 @@ The most commonly tested relationships on the CPA exam are:
 - **Acceptable risk of incorrect acceptance ↑ → Sample size ↓** (inverse)
 
 :::
-:::info Example
+
+:::info[Example]
 
 The auditor is planning a variables sample to test **Kingfisher Industries'** inventory balance. Because inventory items range from \$0.50 parts to \$200,000 equipment, the high variability requires a larger sample. Additionally, because the auditor found inventory errors in the prior year, the expected misstatement is set higher, further increasing the required sample size.
 
 :::
+
 ---
 
 ## Comparing Book Value to Calculated Range
@@ -66,11 +69,12 @@ After the sample is tested, the auditor uses the results to calculate a **point 
 | The **recorded book value** falls **within** the confidence interval | The balance is **not materially misstated** — accept the book value |
 | The **recorded book value** falls **outside** the confidence interval | The balance **may be materially misstated** — investigate further or propose an adjustment |
 
-:::info Example
+:::info[Example]
 
 The auditor tests a sample of **BIF Partners'** accounts receivable and calculates a point estimate of \$4,850,000 with a precision interval of ±\$200,000 (i.e., \$4,650,000 to \$5,050,000). The recorded book value is \$4,920,000. Since \$4,920,000 falls within the range, the auditor concludes the balance is not materially misstated.
 
 :::
+
 ---
 
 ## Three Classical Variables Sampling Plans
@@ -91,11 +95,12 @@ $$
 - Tends to require **larger sample sizes** than ratio or difference estimation
 - Results in wider confidence intervals unless the population has low variability
 
-:::info Example
+:::info[Example]
 
 The auditor selects 100 items from **MSA Records'** inventory of 5,000 items. The average audited value per sample item is \$82. The estimated population total is \$82 × 5,000 = \$410,000.
 
 :::
+
 ### 2. Ratio Estimation
 
 The auditor calculates the **ratio** of the total audited value to the total book value in the sample, then applies that ratio to the total population book value.
@@ -109,11 +114,12 @@ $$
 - Most effective when the **size of misstatements is proportional** to the book value of items
 - Generally produces **smaller sample sizes** than MPU when there is a high correlation between book and audited values
 
-:::info Example
+:::info[Example]
 
 From a sample of **Gies Co.'s** receivables, the total book value is \$150,000 and the total audited value is \$147,000. The ratio is \$147,000 / \$150,000 = 0.98. If the total population book value is \$3,000,000, the estimated population value is \$3,000,000 × 0.98 = \$2,940,000.
 
 :::
+
 ### 3. Difference Estimation
 
 The auditor calculates the **average difference** between the audited value and the book value for sample items, then projects that average difference to the population.
@@ -127,11 +133,12 @@ $$
 - Most effective when **misstatements are frequent** and of varying sizes
 - Produces efficient results when there is a **consistent dollar difference** across items (rather than a proportional one)
 
-:::info Example
+:::info[Example]
 
 The auditor tests 80 items from **MAS Inc.'s** fixed asset records and finds that the average overstatement per item is \$45. With a population of 2,000 fixed assets, the estimated total overstatement is \$45 × 2,000 = \$90,000.
 
 :::
+
 ### Comparison of the Three Plans
 
 | Feature | Mean-Per-Unit | Ratio Estimation | Difference Estimation |
@@ -171,6 +178,7 @@ In PPS sampling, every **dollar** in the account balance has an equal chance of 
 PPS sampling is **excellent** for testing for overstatements (such as existence of receivables) but is **poorly suited** for testing for understatements (such as completeness of payables) because understated or omitted items contain fewer or zero dollars and are less likely to be selected.
 
 :::
+
 ### Sampling Interval Calculation
 
 The sampling interval determines which dollars are selected from the population:
@@ -200,7 +208,7 @@ $$
 \text{Sample Size} = \frac{\text{Recorded Balance} \times \text{Reliability Factor}}{\text{Tolerable Misstatement}}
 $$
 
-:::info Example
+:::info[Example]
 
 The auditor is testing **Illini Entertainment's** accounts receivable balance of \$6,000,000. The tolerable misstatement is \$200,000, and the desired confidence level is 95% (reliability factor = 3.00, assuming zero expected errors).
 
@@ -215,6 +223,7 @@ $$
 Every 66,667th dollar is selected, and the transaction (or customer balance) that contains that dollar becomes part of the sample.
 
 :::
+
 ---
 
 ## Stratification
@@ -231,7 +240,7 @@ Stratification is particularly useful when:
 - The auditor wants to ensure that **large, individually significant items** receive adequate attention
 - The auditor is using **classical variables sampling** (MPU, ratio, or difference estimation) and wants to reduce the required sample size
 
-:::info Example
+:::info[Example]
 
 **Illini Security** has 3,000 customer accounts ranging from \$100 to \$750,000. The auditor stratifies the population into three groups:
 
@@ -244,6 +253,7 @@ Stratification is particularly useful when:
 By stratifying, the auditor ensures comprehensive coverage of large balances while maintaining an efficient sample size for smaller balances.
 
 :::
+
 ### Stratification and PPS Sampling
 
 :::note
@@ -251,6 +261,7 @@ By stratifying, the auditor ensures comprehensive coverage of large balances whi
 PPS sampling **inherently stratifies** because each dollar has an equal probability of selection. Larger items are automatically more likely to be included in the sample. Therefore, separate stratification is generally unnecessary when using PPS sampling—it is already built into the methodology.
 
 :::
+
 ### Benefits of Stratification
 
 - **Reduces overall sample size** needed to achieve a given level of precision

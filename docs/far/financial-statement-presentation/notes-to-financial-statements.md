@@ -1,11 +1,13 @@
 # Notes to Financial Statements
 
 The **notes to financial statements** (also called **footnotes** or **disclosures**) are an integral part of a complete set of financial statements. They provide additional detail, context, and explanations that cannot be conveyed by the numbers alone on the face of the financial statements.
-:::info Key Concept
+
+:::info[Key Concept]
 
 Financial statements and their notes are **inseparable**. An auditor's opinion covers both the financial statements and the notes. Information in the notes is considered equally authoritative to amounts on the face of the statements.
 
 :::
+
 ---
 
 ## Structure of the Notes
@@ -40,11 +42,12 @@ This is **always the first note** and describes the accounting methods and princ
 | **Stock-based compensation** | Valuation model (Black-Scholes, lattice), assumptions                 |
 | **Foreign currency**         | Functional currency determination, translation method                 |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The summary of significant accounting policies discloses the **methods chosen** when GAAP permits alternatives. If GAAP mandates only one method, no disclosure of the "choice" is necessary — but the policy is often disclosed anyway for user convenience.
 
 :::
+
 ### Example Note Disclosure
 
 > **Note 1 — Summary of Significant Accounting Policies**
@@ -118,6 +121,7 @@ ASC 820 requires disclosure of the **fair value hierarchy** for assets and liabi
 > | AFS debt securities      |         — | \$200,000 |        — | \$200,000 |
 > | Contingent consideration |         — |         — | \$45,000 |  \$45,000 |
 >
+
 > :::warning
 > Transfers between levels of the fair value hierarchy must be disclosed, along with the reasons for the transfer.
 > :::
@@ -152,6 +156,7 @@ Dr. Loss from litigation         350,000
 **Gain contingencies** are almost never accrued. They are disclosed only when realization is probable — and even then, wording must avoid misleading implications that the gain is certain.
 
 :::
+
 ### Pension and Postretirement Benefits
 
 Defined benefit plan disclosures include:
@@ -194,11 +199,12 @@ Describe what the entity does — its principal markets, industry, and types of 
 
 ### Use of Estimates
 
-:::info Required Disclosure
+:::info[Required Disclosure]
 
 All financial statements prepared in conformity with GAAP must include a disclosure stating that the preparation of financial statements requires management to make estimates and assumptions that affect reported amounts.
 
 :::
+
 > The preparation of financial statements in conformity with accounting principles generally accepted in the United States requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period. Actual results could differ from those estimates.
 
 ### Significant Estimates
@@ -243,7 +249,7 @@ Subsequent events are events or transactions that occur **after the balance shee
 | **Recognized** (Type 1)    | Provides additional evidence about conditions that **existed at** the balance sheet date | **Adjust** the financial statements       |
 | **Nonrecognized** (Type 2) | Provides evidence about conditions that **arose after** the balance sheet date           | **Disclose** in the notes (do not adjust) |
 
-:::tip Exam Tip — Type 1 vs. Type 2
+:::tip[Exam Tip — Type 1 vs. Type 2]
 
 Ask: _Did the condition exist at the balance sheet date?_
 
@@ -327,7 +333,7 @@ flowchart TD
 
 ---
 
-:::danger Common Exam Pitfalls
+:::danger[Common Exam Pitfalls]
 
 1. **Accruing gain contingencies** — gains are almost never accrued; only disclosed when probable.
 2. Confusing **recognized** (Type 1) and **nonrecognized** (Type 2) subsequent events — ask whether the condition existed at year-end.

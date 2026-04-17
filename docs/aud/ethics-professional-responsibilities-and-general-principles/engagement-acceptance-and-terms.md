@@ -9,6 +9,7 @@ This section covers the **preconditions for an audit**, the required elements of
 The engagement acceptance process is governed by **AU-C 210** (AICPA) for nonissuers and **AS 2101** (PCAOB) for issuers. Both frameworks require auditors to establish that certain preconditions are met before accepting or continuing an audit engagement.
 
 :::
+
 ---
 
 ## Engagement Acceptance Process
@@ -32,6 +33,7 @@ Before accepting an engagement, the auditor must determine that the following **
 If management refuses to acknowledge its responsibilities—such as denying responsibility for internal controls or refusing to provide a representation letter—the auditor should **not accept the engagement**. These are non-negotiable preconditions.
 
 :::
+
 ### Evaluating Whether to Accept the Client
 
 Beyond the formal preconditions, the auditor performs additional evaluations:
@@ -43,11 +45,12 @@ Beyond the formal preconditions, the auditor performs additional evaluations:
 
 **Example:** BIF Partners is considering taking on Illini Entertainment as a new audit client. Before accepting, the engagement partner at BIF Partners contacts the predecessor auditor, who reveals that Illini Entertainment's management refused to adjust a material misstatement in the prior year. This information significantly influences BIF Partners' acceptance decision.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The **successor** auditor initiates communication with the predecessor. The client must grant permission for the predecessor to respond. If the client refuses permission, this is a significant red flag that the successor should carefully evaluate before accepting the engagement.
 
 :::
+
 ---
 
 ## The Engagement Letter
@@ -75,6 +78,7 @@ The engagement letter must include the following elements:
 The engagement letter should be signed by **both parties**—the auditor and an appropriate representative of the entity (typically a member of management or those charged with governance). The letter is generally addressed to those charged with governance.
 
 :::
+
 ---
 
 ## Recurring Engagements
@@ -95,11 +99,12 @@ Even when none of these changes have occurred, the auditor may decide to send a 
 
 **Example:** Kingfisher Industries has been audited by the same firm for five consecutive years. At the start of year six, the company completes a major acquisition that doubles its size and introduces a new operating segment. The auditor determines that a new engagement letter is appropriate to address the expanded scope and any additional complexities.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 For recurring engagements, the auditor is **not required** to send a new engagement letter every year. However, the auditor must consider whether changes in circumstances warrant updating the terms. On the CPA exam, look for fact patterns involving changes in management, ownership, scope, or legal requirements.
 
 :::
+
 ---
 
 ## Changes in Engagement Terms
@@ -129,6 +134,7 @@ The auditor should **not agree** to a change in engagement terms if:
 A client requesting a downgrade from an audit to a review or compilation **immediately after** the auditor discovers potential misstatements or fraud is a major red flag. The auditor should not comply with such a request and should consider withdrawing from the engagement entirely.
 
 :::
+
 ### Consequences of Agreeing to a Change
 
 If the auditor agrees to a legitimate change in terms:

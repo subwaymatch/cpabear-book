@@ -17,6 +17,7 @@ An individual must file a federal income tax return when **gross income** equals
 Self-employed individuals must file a return if **net self-employment income** is \$400 or more, regardless of total gross income.
 
 :::
+
 ### Gross Income Thresholds
 
 The standard threshold equals the **standard deduction** for the taxpayer's filing status. Thresholds are adjusted annually for inflation.
@@ -34,6 +35,7 @@ The standard threshold equals the **standard deduction** for the taxpayer's fili
 Married Filing Separately has a **\$5** filing threshold — virtually every MFS taxpayer must file.
 
 :::
+
 ---
 
 ## Filing Status
@@ -56,11 +58,12 @@ The taxpayer must meet **all three** requirements:
 2. **Paid more than half the cost** of maintaining a home for the year.
 3. A **qualifying person** lived with the taxpayer for more than half the year (exception: a dependent parent need not live with the taxpayer if the taxpayer pays more than half the cost of the parent's home).
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 A married individual who lived apart from their spouse for the **last six months** of the year and maintained a home for a dependent child may qualify as "considered unmarried" and file as Head of Household.
 
 :::
+
 ### 4. Single
 
 Unmarried taxpayers who do not qualify for HoH or QSS.
@@ -94,11 +97,12 @@ Although the personal exemption amount is **\$0** for 2018–2025 under the Tax 
 | Gross income | Dependent's gross income must be less than the exemption amount (\$5,050 for 2024) |
 | Support | Taxpayer provides more than **50%** of the dependent's support |
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 A **multiple support agreement** (Form 2120) allows one member of a group to claim a dependent when no single person provides more than 50% of support, but the claimant must contribute more than 10%.
 
 :::
+
 ---
 
 ## Gross Income — Part 1: Common Income Items
@@ -123,6 +127,7 @@ All cash and non-cash compensation is included in gross income. Tips of \$20 or 
 U.S. Treasury bond interest is taxable for **federal** purposes but exempt from **state** income tax. Municipal bond interest is the reverse — exempt federally but often taxable by states other than the issuing state.
 
 :::
+
 ### Dividend Income
 
 | Type | Tax Treatment |
@@ -150,6 +155,7 @@ Rental income is included in gross income and offset by deductible rental expens
 Pre-2019 agreements that are **modified after 2018** adopt the new rules only if the modification **expressly states** that the post-2018 rules apply.
 
 :::
+
 ### Unemployment Compensation
 
 Fully **taxable** as ordinary income.
@@ -207,11 +213,12 @@ Owners of **S corporations, partnerships, and LLCs** taxed as partnerships repor
 
 Income is taxable when it is **credited to the taxpayer's account, set apart, or otherwise made available** — even if the taxpayer has not physically received the cash. A taxpayer cannot defer income by turning their back on it.
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 A year-end bonus check available for pickup on December 30 is taxable in that year even if the employee waits until January 2 to pick it up.
 
 :::
+
 ### Assignment of Income Doctrine
 
 Income is taxed to the person who **earns** it. A taxpayer cannot shift income by directing payment to another party. The "fruit and tree" metaphor from *Lucas v. Earl* (1930) holds that the fruit (income) is taxed to the tree (earner).

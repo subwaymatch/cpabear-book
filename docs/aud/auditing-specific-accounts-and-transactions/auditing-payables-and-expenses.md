@@ -13,11 +13,12 @@ The expenditure cycle covers the acquisition of goods and services, from the ini
 | **Accounts Payable** | Matches documents, records liabilities, and approves invoices for payment |
 | **Treasurer** | Signs checks and authorizes disbursements; maintains custody of funds |
 
-:::info Segregation of Duties
+:::info[Segregation of Duties]
 
 Proper segregation requires that the person who **authorizes** purchases (purchasing), the person who has **custody** of goods (receiving/warehouse), and the person who **records** the liability (accounts payable) are all different individuals. The treasurer, who disburses cash, should also be independent of the recording function.
 
 :::
+
 ### Example: Purchase Transaction at Kingfisher Industries
 
 1. A department manager at Kingfisher Industries submits a **purchase requisition** for raw materials.
@@ -34,11 +35,12 @@ Before an invoice is approved for payment, the accounts payable department perfo
 2. **Receiving Report** – Confirms the goods were actually received and in what quantities
 3. **Vendor Invoice** – The bill from the supplier requesting payment
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The three-way match is a critical **internal control** over the expenditure cycle. All three documents must agree on item descriptions, quantities, and prices before payment is authorized. Any discrepancies must be investigated and resolved before the invoice is approved.
 
 :::
+
 ### Example: Three-Way Match at Gies Co.
 
 Gies Co. orders 500 units from a supplier at \$10 each. The receiving report shows 480 units received. The vendor invoice bills for 500 units at \$10 each. The accounts payable clerk identifies the 20-unit discrepancy and contacts the vendor before approving payment—only paying for 480 units actually received.
@@ -51,7 +53,7 @@ Unlike AR confirmations (which are almost always performed), AP confirmations ar
 
 AP confirmations are most useful when sent to vendors with **small or zero balances** per the client's records. The goal is to detect **unrecorded liabilities**—invoices the client received but never recorded.
 
-:::warning Key Difference from AR Confirmations
+:::warning[Key Difference from AR Confirmations]
 
 - **AR confirmations** target large balances to test **existence** (overstatement risk)
 - **AP confirmations** target small or zero balances to test **completeness** (understatement risk)
@@ -59,6 +61,7 @@ AP confirmations are most useful when sent to vendors with **small or zero balan
 This is because the primary risk for payables is that liabilities are **understated**, not overstated.
 
 :::
+
 ### Example: AP Confirmations at MAS Inc.
 
 The auditor of MAS Inc. identifies vendors the company regularly does business with but that show unusually low or zero balances at year-end. The auditor sends confirmations to these vendors asking them to report the amount MAS Inc. owes. If a vendor reports a balance that MAS Inc. has not recorded, the auditor has identified an **unrecorded liability**.
@@ -80,6 +83,7 @@ This is one of the most important expenditure cycle procedures and directly addr
 The search for unrecorded payables starts with documentation **outside the accounting records** (such as subsequent cash disbursements or receiving reports) and traces into the records. This approach is effective because if the liability was never recorded, it will not appear in the accounting records themselves.
 
 :::
+
 ### Example: Search at BIF Partners
 
 While auditing BIF Partners, the auditor reviews January disbursements and finds a \$150,000 payment to Illini Security for consulting services performed in December. The auditor traces this payment back to the invoice and confirms the services were rendered before year-end. Since BIF Partners had not accrued this amount, the auditor proposes an adjusting entry to record the unrecorded liability.
@@ -106,7 +110,7 @@ The auditor examines the **last receiving reports** issued before year-end and t
 
 Illini Entertainment's last receiving report before December 31 is #4872, and the first receiving report after year-end is #4873. The auditor verifies that all purchases through receiving report #4872 are recorded in the current year and that receiving report #4873 and subsequent reports are recorded in the following year.
 
-:::danger Common Exam Trap
+:::danger[Common Exam Trap]
 
 Remember: for accounts payable, the auditor is primarily concerned with **completeness** (understatement). This is the opposite of accounts receivable, where the primary concern is **existence** (overstatement). The direction of testing and the nature of procedures reflect this difference.
 

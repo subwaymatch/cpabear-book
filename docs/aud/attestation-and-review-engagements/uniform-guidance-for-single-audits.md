@@ -7,6 +7,7 @@ When entities receive and expend significant amounts of federal financial assist
 The **Single Audit Act Amendments of 1996** established the legal foundation for the single audit. The **Uniform Guidance (2 CFR Part 200, Subpart F)** implements the Act and replaces the former OMB Circulars A-133, A-87, A-21, and A-122, consolidating audit, cost, and administrative requirements into a single framework.
 
 :::
+
 ---
 
 ## When Is a Single Audit Required?
@@ -25,6 +26,7 @@ The single audit requirement is triggered by the **total amount of federal award
 The \$750,000 threshold applies to **expenditures**, not to the amount of awards received or the award balances. An entity may hold large federal award balances but only trigger the single audit if it actually **expends** \$750,000 or more during the fiscal year.
 
 :::
+
 ---
 
 ## Relationship to Government Auditing Standards (Yellow Book)
@@ -35,11 +37,12 @@ A single audit conducted under the Uniform Guidance **must also be performed in 
 - All additional **Yellow Book** requirements (enhanced independence, CPE, reporting on internal control and compliance over financial reporting)
 - All **Uniform Guidance** requirements (major program determination, compliance testing, SEFA, schedule of findings)
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 Think of the single audit as a **layered** set of requirements: GAAS forms the foundation, Yellow Book adds governmental requirements on top, and the Uniform Guidance adds federal award–specific requirements on top of that. All three layers apply simultaneously.
 
 :::
+
 ---
 
 ## The Schedule of Expenditures of Federal Awards (SEFA)
@@ -65,6 +68,7 @@ The **SEFA** is a critical component of the single audit. It provides a complete
 The auditor must **audit the SEFA** in relation to the financial statements as a whole. The SEFA must be prepared by the auditee, and the auditor must determine whether it is fairly stated in all material respects in relation to the financial statements taken as a whole.
 
 :::
+
 ---
 
 ## Identification of Federal Awards and Major Programs
@@ -105,6 +109,7 @@ The auditor performs a **four-step process** to determine major programs:
 A **low-risk auditee** is one that has had single audits for the prior two years with: (1) unmodified opinions on the financial statements and SEFA, (2) no material weaknesses in internal control, (3) no known or likely questioned costs exceeding 5% of a major program's expenditures, and (4) timely submission of the reporting package.
 
 :::
+
 ---
 
 ## Compliance Requirements for Federal Awards
@@ -133,6 +138,7 @@ For each major program, the auditor tests the entity's compliance with requireme
 Not all 12 compliance requirements apply to every program. The auditor must consult the **Compliance Supplement** to determine which requirements are applicable to each specific federal program being tested.
 
 :::
+
 ---
 
 ## The Compliance Supplement
@@ -144,11 +150,12 @@ The **Compliance Supplement** (officially the *OMB Compliance Supplement*) is an
 - **Internal control guidance** describing the controls the auditor should expect over each compliance requirement
 - Guidance on **audit sampling** and testing approaches
 
-:::tip Exam Tip
+:::tip[Exam Tip]
 
 The Compliance Supplement is the auditor's **primary reference** for determining which compliance requirements apply to a specific federal program. It is issued annually by OMB and updated to reflect changes in federal programs and requirements.
 
 :::
+
 ---
 
 ## Internal Control Over Compliance
@@ -167,6 +174,7 @@ In addition to testing compliance, the auditor must **understand and test intern
 Internal control over compliance is **separate from** internal control over financial reporting. An entity may have strong financial reporting controls but weak compliance controls for its federal programs (or vice versa). The auditor must evaluate and report on both.
 
 :::
+
 ---
 
 ## Reporting Requirements
@@ -201,6 +209,7 @@ This schedule is a critical deliverable that contains three sections:
 Each finding must include the following elements: **condition**, **criteria**, **cause**, **effect**, **questioned costs** (if applicable), and a **recommendation**. The auditee must also prepare a **corrective action plan** for each finding and a **summary schedule of prior audit findings** showing the status of findings from the previous audit.
 
 :::
+
 ---
 
 ## Data Collection Form and Federal Audit Clearinghouse
@@ -229,6 +238,7 @@ The **Federal Audit Clearinghouse** serves as the central repository for all sin
 Failure to submit the single audit reporting package to the Federal Audit Clearinghouse by the deadline can result in the entity being designated as **high risk**, potential withholding of federal funds, or other sanctions by federal awarding agencies.
 
 :::
+
 ---
 
 ## Summary

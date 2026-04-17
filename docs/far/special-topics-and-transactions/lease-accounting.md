@@ -3,11 +3,13 @@
 ## What Is a Lease?
 
 A **lease** is a contract that conveys the right to control the use of an identified asset for a period of time in exchange for consideration. Under ASC 842, lessees recognize virtually all leases on the balance sheet (with a narrow exception for short-term leases).
+
 :::info
 
 The key question is whether the customer has the **right to control the use** of the asset — meaning the customer directs how and for what purpose the asset is used and obtains substantially all the economic benefits.
 
 :::
+
 ---
 
 ## Combining and Separating Lease Components
@@ -31,11 +33,13 @@ From the **lessee's** perspective, a lease is classified as a **finance lease** 
 | **E** | Economic life | Lease term ≥ 75% of economic life |
 | **S** | Specialized asset | No alternative use to lessor at end of lease |
 If **none** of the OWNES criteria are met, the lease is an **operating lease**.
-:::tip Exam Tip
+
+:::tip[Exam Tip]
 
 Both finance and operating leases result in a **right-of-use (ROU) asset** and a **lease liability** on the balance sheet. The difference is in how expense is recognized on the income statement.
 
 :::
+
 ---
 
 ## Determining Lease Components
@@ -57,6 +61,7 @@ Lease payments include:
 - Exercise price of a purchase option if reasonably certain to exercise
 - Penalties for terminating if the term reflects lessee exercising the termination option
 - Residual value guarantees (only the amount the lessee expects to owe)
+
   :::warning
   Variable payments based on **usage** or **performance** (e.g., percentage of sales) are **excluded** from the lease liability measurement and expensed as incurred.
   :::
@@ -112,11 +117,12 @@ Dr. Right-of-use asset amort.   6,066
     Cr. Right-of-use asset             24,000
 ```
 
-:::info Simplified View
+:::info[Simplified View]
 
 In practice, the total lease expense equals the cash payment (\$24,000). Under the hood, interest accrues on the liability while the ROU asset is reduced by a plug amount so that the net expense is straight-line.
 
 :::
+
 The balance sheet at Year 1 end:
 
 - Lease liability: \$101,097 − \$17,934 = \$83,163
@@ -210,6 +216,7 @@ Dr. Lease expense                 500
 The short-term lease election is made by **asset class**, not lease-by-lease.
 
 :::
+
 ---
 
 ## Disclosures
@@ -227,7 +234,7 @@ Lessees must disclose:
 
 ## Summary
 
-:::note Chapter Checklist
+:::note[Chapter Checklist]
 
 - [ ] Determine whether a contract contains a lease
 - [ ] Apply OWNES criteria to classify as finance or operating
