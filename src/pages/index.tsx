@@ -6,12 +6,15 @@ import {
   Users,
   Calculator,
 } from "lucide-react";
-import { SectionCard } from "@site/src/components/SectionCard";
+import {
+  type SectionCardProps,
+  SectionCard,
+} from "@site/src/components/SectionCard";
 import styles from "./index.module.css";
 import Layout from "@theme/Layout";
 
 export default function App() {
-  const sections = [
+  const sections: SectionCardProps["section"][] = [
     {
       id: "far",
       title: "FAR",

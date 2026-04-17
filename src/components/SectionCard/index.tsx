@@ -1,7 +1,7 @@
 import { LucideIcon, ArrowRight } from "lucide-react";
 import styles from "./section-card.module.css";
 
-interface SectionCardProps {
+export interface SectionCardProps {
   section: {
     id: string;
     title: string;
