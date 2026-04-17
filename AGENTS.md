@@ -4,7 +4,9 @@ This file describes the project structure, conventions, and workflows for AI age
 
 ## Project Overview
 
-CPA Bear Book is an open-source, Docusaurus-based textbook for CPA exam candidates. The site is published at [book.cpabear.com](https://book.cpabear.com) and covers three currently active exam sections:
+CPA Bear Book is an open-source, Docusaurus-based textbook for CPA exam candidates. The site is published at [book.cpabear.com](https://book.cpabear.com) and covers six exam sections:
+
+### Core Sections
 
 | Section | Full Name |
 |---------|-----------|
@@ -12,7 +14,13 @@ CPA Bear Book is an open-source, Docusaurus-based textbook for CPA exam candidat
 | AUD | Auditing and Attestation |
 | REG | Regulation |
 
-Three additional sections (ISC, TCP, BAR) are listed on the home page but not yet implemented.
+### Discipline Sections
+
+| Section | Full Name |
+|---------|-----------|
+| BAR | Business Analysis and Reporting |
+| ISC | Information Systems and Controls |
+| TCP | Tax Compliance and Planning |
 
 ## Tech Stack
 
@@ -32,7 +40,10 @@ cpabear-book/
 ├── docs/                     # All site documentation (MDX files)
 │   ├── far/                  # Financial Accounting and Reporting pages
 │   ├── aud/                  # Auditing and Attestation pages
-│   └── reg/                  # Regulation pages
+│   ├── reg/                  # Regulation pages
+│   ├── bar/                  # Business Analysis and Reporting pages
+│   ├── isc/                  # Information Systems and Controls pages
+│   └── tcp/                  # Tax Compliance and Planning pages
 ├── src/
 │   ├── components/
 │   │   ├── JournalEntry/     # Custom component to render accounting journal entries
@@ -46,7 +57,7 @@ cpabear-book/
 │       └── CodeBlock/        # Swizzled CodeBlock to intercept `journal` language fences
 ├── static/                   # Static assets (images, favicon)
 ├── docusaurus.config.ts      # Site configuration (title, navbar, footer, plugins)
-├── sidebars.ts               # Sidebar structure for FAR, AUD, and REG
+├── sidebars.ts               # Sidebar structure for all six exam sections
 ├── tsconfig.json             # TypeScript configuration
 └── package.json
 ```
@@ -122,7 +133,7 @@ Use standard Mermaid syntax in ` ```mermaid ` fences.
 
 ## Sidebar Configuration
 
-Sidebars are defined in `sidebars.ts` and exported as `farSidebar`, `audSidebar`, and `regSidebar`. Each sidebar entry references a doc by its ID (the file path relative to `docs/`, without the `.md` extension).
+Sidebars are defined in `sidebars.ts` and exported as `farSidebar`, `audSidebar`, `regSidebar`, `barSidebar`, `iscSidebar`, and `tcpSidebar`. Each sidebar entry references a doc by its ID (the file path relative to `docs/`, without the `.md` extension).
 
 ## Deployment
 

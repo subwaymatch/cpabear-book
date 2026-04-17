@@ -53,7 +53,7 @@ export default function App() {
         "Understand IT controls, cybersecurity, and data governance frameworks.",
       icon: Calculator,
       color: "orange",
-      link: "/docs/isc",
+      link: "/isc",
     },
     {
       id: "tcp",
@@ -63,7 +63,7 @@ export default function App() {
         "Deep dive into tax planning strategies and compliance requirements.",
       icon: BookOpen,
       color: "rose",
-      link: "/docs/tcp",
+      link: "/tcp",
     },
     {
       id: "bar",
@@ -73,7 +73,7 @@ export default function App() {
         "Explore financial analysis, planning, and performance metrics.",
       icon: Users,
       color: "violet",
-      link: "/docs/bar",
+      link: "/bar",
     },
   ];
 
