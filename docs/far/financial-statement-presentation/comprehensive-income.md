@@ -88,7 +88,7 @@ Do not confuse **translation** (OCI) with **remeasurement** (net income). Transl
 
 #### I — Instrument-Specific Credit Risk
 
-## When an entity elects the **fair value option** for a financial liability, changes in fair value attributable to the entity's own credit risk are reported in OCI rather than net income (ASC 825).
+When an entity elects the **fair value option** for a financial liability, changes in fair value attributable to the entity's own credit risk are reported in OCI rather than net income (ASC 825).
 
 ## Accumulated Other Comprehensive Income (AOCI)
 

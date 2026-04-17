@@ -95,7 +95,7 @@ A change **to** LIFO from another method is an exception. It is impractical to r
 
 ### Indirect Effects
 
-## Indirect effects (such as changes in profit-sharing or royalty payments due to the principle change) are recognized in the period of change and disclosed but **not** reflected in retrospective restatement.
+Indirect effects (such as changes in profit-sharing or royalty payments due to the principle change) are recognized in the period of change and disclosed but **not** reflected in retrospective restatement.
 
 ## Changes in Reporting Entity
 
@@ -106,7 +106,7 @@ A **change in entity** occurs when the reporting entity differs from the entity 
 
 ### Treatment: Restate Prior Years
 
-## All prior-period financial statements presented are **restated** to reflect the new reporting entity, as if the current entity structure had always existed.
+All prior-period financial statements presented are **restated** to reflect the new reporting entity, as if the current entity structure had always existed.
 
 ## Error Corrections
 

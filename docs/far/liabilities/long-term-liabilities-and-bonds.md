@@ -27,7 +27,7 @@ Where:
 
 ## Long-Term Liabilities Defined
 
-## A **long-term liability** is an obligation not expected to be settled within one year or the operating cycle. Examples include bonds payable, long-term notes payable, lease obligations, and pension liabilities.
+A **long-term liability** is an obligation not expected to be settled within one year or the operating cycle. Examples include bonds payable, long-term notes payable, lease obligations, and pension liabilities.
 
 ## Notes Payable at Present Value
 
@@ -158,7 +158,7 @@ $$
 \text{Carrying Value} = \text{Face Value} + \text{Unamortized Premium}
 $$
 
-## Over time, carrying value moves toward face value as the discount or premium is amortized.
+Over time, carrying value moves toward face value as the discount or premium is amortized.
 
 ## Bond Issue Costs
 
@@ -169,7 +169,7 @@ Dr. Discount on bonds payable  12,000
     Cr. Cash                           12,000
 ```
 
-## These costs are amortized over the life of the bond using the effective interest method.
+These costs are amortized over the life of the bond using the effective interest method.
 
 ## Amortization Methods
 
@@ -303,7 +303,7 @@ $$
 \text{Impairment Loss} = \text{Carrying Amount} - \text{PV of Expected Future Cash Flows}
 $$
 
-## The PV is calculated using the **original effective interest rate** of the loan.
+The PV is calculated using the **original effective interest rate** of the loan.
 
 ## Extinguishment / Retirement of Debt
 

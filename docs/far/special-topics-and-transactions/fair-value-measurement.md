@@ -179,7 +179,7 @@ For recurring Level 3 measurements, entities must disclose:
 | Recurring        | Required   | Required | Required  | Required |
 | Nonrecurring     | Required   | Required | Required  | Required |
 
-## **Example disclosure:** BIF Partners reports an investment property at fair value of \$1,200,000 (Level 3). The income approach was used with a capitalization rate of 7.5% applied to net operating income. A 50-basis-point change in the cap rate would change the fair value by approximately ±\$80,000.
+**Example disclosure:** BIF Partners reports an investment property at fair value of \$1,200,000 (Level 3). The income approach was used with a capitalization rate of 7.5% applied to net operating income. A 50-basis-point change in the cap rate would change the fair value by approximately ±\$80,000.
 
 ## Exceptions to Fair Value Measurement
 

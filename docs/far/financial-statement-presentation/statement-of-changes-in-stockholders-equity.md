@@ -129,7 +129,7 @@ Dr. Deferred tax asset                              7,500
     Cr. Accumulated depreciation                       30,000
 ```
 
-## This adjustment is shown as a restatement of the **beginning balance** of retained earnings.
+This adjustment is shown as a restatement of the **beginning balance** of retained earnings.
 
 ## Format and Presentation
 

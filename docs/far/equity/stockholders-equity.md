@@ -112,7 +112,7 @@ Dr. APIC—Preferred              5,000
 
 ### Dividends in Arrears
 
-## Dividends in arrears on cumulative preferred stock are **not a liability** until declared. However, they must be **disclosed** in the notes to the financial statements.
+Dividends in arrears on cumulative preferred stock are **not a liability** until declared. However, they must be **disclosed** in the notes to the financial statements.
 
 ## Book Value Per Share
 
@@ -507,7 +507,7 @@ Dr. Legal Expense               20,000
     Cr. APIC—Common                 19,500
 ```
 
-## The fair value of the stock (\$20,000) is used because publicly traded stock prices are more reliably determinable than the billed amount for services.
+The fair value of the stock (\$20,000) is used because publicly traded stock prices are more reliably determinable than the billed amount for services.
 
 ## Comprehensive Equity Transaction Summary
 

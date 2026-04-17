@@ -61,7 +61,7 @@ $$
 \text{DTE} = \Delta DTL - \Delta DTA
 $$
 
-## Where $\Delta$ represents the change in the balance during the period.
+Where $\Delta$ represents the change in the balance during the period.
 
 ## DTL and DTA Calculations
 
@@ -189,7 +189,7 @@ Dr. Income tax expense         20,000
     Cr. Valuation allowance            20,000
 ```
 
-## The DTA is presented net: \$60,000 − \$20,000 = \$40,000.
+The DTA is presented net: \$60,000 − \$20,000 = \$40,000.
 
 ## Enacted Tax Rate Changes
 
