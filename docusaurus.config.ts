@@ -116,6 +116,24 @@ const config: Config = {
           label: "REG",
         },
         {
+          type: "docSidebar",
+          sidebarId: "barSidebar",
+          position: "left",
+          label: "BAR",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "iscSidebar",
+          position: "left",
+          label: "ISC",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "tcpSidebar",
+          position: "left",
+          label: "TCP",
+        },
+        {
           href: "https://github.com/subwaymatch/cpabear-book",
           label: "GitHub",
           position: "right",

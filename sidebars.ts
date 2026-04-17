@@ -266,6 +266,142 @@ const sidebars: SidebarsConfig = {
       ],
     },
   ],
+  barSidebar: [
+    "bar/index",
+    {
+      type: "category",
+      label: "Business Analysis",
+      items: [
+        "bar/business-analysis/financial-statement-analysis",
+        "bar/business-analysis/non-financial-and-non-gaap-measures",
+        "bar/business-analysis/managerial-and-cost-accounting",
+        "bar/business-analysis/budgeting-forecasting-and-projection",
+        "bar/business-analysis/capital-structure",
+        "bar/business-analysis/investment-alternatives",
+        "bar/business-analysis/risk-management",
+        "bar/business-analysis/economic-and-market-influences",
+      ],
+    },
+    {
+      type: "category",
+      label: "Technical Accounting and Reporting",
+      items: [
+        "bar/technical-accounting-and-reporting/indefinite-lived-intangible-assets",
+        "bar/technical-accounting-and-reporting/internally-developed-software",
+        "bar/technical-accounting-and-reporting/revenue-recognition",
+        "bar/technical-accounting-and-reporting/stock-compensation",
+        "bar/technical-accounting-and-reporting/research-and-development-costs",
+        "bar/technical-accounting-and-reporting/business-combinations",
+        "bar/technical-accounting-and-reporting/consolidated-financial-statements",
+        "bar/technical-accounting-and-reporting/derivatives-and-hedge-accounting",
+        "bar/technical-accounting-and-reporting/leases",
+        "bar/technical-accounting-and-reporting/public-company-reporting-topics",
+        "bar/technical-accounting-and-reporting/employee-benefit-plans",
+      ],
+    },
+    {
+      type: "category",
+      label: "State and Local Governments",
+      items: [
+        "bar/state-and-local-governments/government-wide-financial-statements",
+        "bar/state-and-local-governments/governmental-funds-financial-statements",
+        "bar/state-and-local-governments/proprietary-funds-financial-statements",
+        "bar/state-and-local-governments/fiduciary-funds-financial-statements",
+        "bar/state-and-local-governments/notes-to-financial-statements",
+        "bar/state-and-local-governments/managements-discussion-and-analysis",
+        "bar/state-and-local-governments/budgetary-comparison-reporting",
+        "bar/state-and-local-governments/required-supplementary-information",
+        "bar/state-and-local-governments/financial-reporting-entity",
+        "bar/state-and-local-governments/deriving-government-wide-financial-statements",
+        "bar/state-and-local-governments/net-position-and-components",
+        "bar/state-and-local-governments/fund-balances-and-components",
+        "bar/state-and-local-governments/capital-assets-and-infrastructure",
+        "bar/state-and-local-governments/general-and-proprietary-long-term-liabilities",
+        "bar/state-and-local-governments/interfund-activity-and-transfers",
+        "bar/state-and-local-governments/nonexchange-revenue-transactions",
+        "bar/state-and-local-governments/expenditures-and-expenses",
+        "bar/state-and-local-governments/budgetary-accounting-and-encumbrances",
+      ],
+    },
+  ],
+  iscSidebar: [
+    "isc/index",
+    {
+      type: "category",
+      label: "Information Systems and Data Management",
+      items: [
+        "isc/information-systems-and-data-management/it-infrastructure",
+        "isc/information-systems-and-data-management/enterprise-and-accounting-information-systems",
+        "isc/information-systems-and-data-management/availability",
+        "isc/information-systems-and-data-management/change-management",
+        "isc/information-systems-and-data-management/data-management",
+      ],
+    },
+    {
+      type: "category",
+      label: "Security, Confidentiality, and Privacy",
+      items: [
+        "isc/security-confidentiality-and-privacy/regulations-standards-and-frameworks",
+        "isc/security-confidentiality-and-privacy/threats-and-attacks",
+        "isc/security-confidentiality-and-privacy/mitigation",
+        "isc/security-confidentiality-and-privacy/security-testing",
+        "isc/security-confidentiality-and-privacy/confidentiality-and-privacy",
+        "isc/security-confidentiality-and-privacy/incident-response",
+      ],
+    },
+    {
+      type: "category",
+      label: "System and Organization Controls (SOC) Engagements",
+      items: [
+        "isc/soc-engagements/planning-and-performing-soc-engagements",
+        "isc/soc-engagements/reporting-on-soc-engagements",
+      ],
+    },
+  ],
+  tcpSidebar: [
+    "tcp/index",
+    {
+      type: "category",
+      label:
+        "Tax Compliance and Planning for Individuals and Personal Financial Planning",
+      items: [
+        "tcp/individual-tax-compliance-and-planning/individual-compliance-and-tax-planning",
+        "tcp/individual-tax-compliance-and-planning/passive-activity-and-at-risk-loss-limitations",
+        "tcp/individual-tax-compliance-and-planning/gift-taxation",
+        "tcp/individual-tax-compliance-and-planning/personal-financial-planning",
+      ],
+    },
+    {
+      type: "category",
+      label: "Entity Tax Compliance",
+      items: [
+        "tcp/entity-tax-compliance/c-corporations",
+        "tcp/entity-tax-compliance/s-corporations",
+        "tcp/entity-tax-compliance/partnerships",
+        "tcp/entity-tax-compliance/trusts",
+        "tcp/entity-tax-compliance/tax-exempt-organizations",
+      ],
+    },
+    {
+      type: "category",
+      label: "Entity Tax Planning",
+      items: [
+        "tcp/entity-tax-planning/formation-and-liquidation",
+        "tcp/entity-tax-planning/tax-planning-for-c-corporations",
+        "tcp/entity-tax-planning/tax-planning-for-s-corporations",
+        "tcp/entity-tax-planning/tax-planning-for-partnerships",
+      ],
+    },
+    {
+      type: "category",
+      label: "Property Transactions (Disposition of Assets)",
+      items: [
+        "tcp/property-transactions/nontaxable-disposition-of-assets",
+        "tcp/property-transactions/gains-and-losses-on-asset-disposition",
+        "tcp/property-transactions/related-party-transactions",
+      ],
+    },
+  ],
 };
 
 export default sidebars;
