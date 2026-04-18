@@ -125,7 +125,7 @@ Dr. Trademark[a] 760,000
     Cr. Cash[a] 760,000
 ```
 
-## The trademark has an indefinite life because MAS Inc. intends to renew the registration indefinitely at negligible cost. It is **not amortized** but will be tested for impairment annually.
+The trademark has an indefinite life because MAS Inc. intends to renew the registration indefinitely at negligible cost. It is **not amortized** but will be tested for impairment annually.
 
 ## Impairment Indicators
 

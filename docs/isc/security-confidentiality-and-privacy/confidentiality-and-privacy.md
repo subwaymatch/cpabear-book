@@ -52,7 +52,7 @@ Remember: **Symmetric = Same key** (one key shared by both parties). **Asymmetri
 | **At rest**    | Data stored on disk, database, or backup media | AES-256 full-disk encryption, database TDE |
 | **In transit** | Data moving across a network                   | TLS 1.2+, IPsec VPN, HTTPS                 |
 
-## **TLS (Transport Layer Security)** replaced the deprecated SSL protocol and secures data in transit by establishing an encrypted channel between two endpoints using both asymmetric (for key exchange) and symmetric (for bulk data) encryption.
+**TLS (Transport Layer Security)** replaced the deprecated SSL protocol and secures data in transit by establishing an encrypted channel between two endpoints using both asymmetric (for key exchange) and symmetric (for bulk data) encryption.
 
 ## Confidentiality vs. Privacy
 
@@ -94,7 +94,7 @@ graph LR
     D -.- D1[Enable dynamic masking<br/>and DLP monitoring]
 ```
 
-## **Example:** **MAS Inc.** builds a new payroll application. During testing, developers must never use real employee SSNs. The security team provides **tokenized** test data so that the application logic can be validated without exposing actual sensitive values.
+> **Example:** **MAS Inc.** builds a new payroll application. During testing, developers must never use real employee SSNs. The security team provides **tokenized** test data so that the application logic can be validated without exposing actual sensitive values.
 
 ## Data Loss Prevention (DLP)
 
@@ -223,7 +223,7 @@ A **walkthrough** is a procedure in which the auditor traces a transaction or pr
 | **Incident response**      | Breach notification procedures align with regulatory timelines            |
 | **Vendor management**      | Third-party contracts include confidentiality and data protection clauses |
 
-## **Example:** **Illini Entertainment** documents a policy requiring employee access to customer PII to be revoked within 24 hours of termination. During a walkthrough, the auditor discovers that two terminated employees retained access for 15 days. This is an **operating deviation** — the policy is properly designed but was not consistently executed.
+> **Example:** **Illini Entertainment** documents a policy requiring employee access to customer PII to be revoked within 24 hours of termination. During a walkthrough, the auditor discovers that two terminated employees retained access for 15 days. This is an **operating deviation** — the policy is properly designed but was not consistently executed.
 
 ## Summary
 

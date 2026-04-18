@@ -193,7 +193,7 @@ Dr. Goodwill[a] 130,000
     Cr. Contingent Consideration Liability[l] 80,000
 ```
 
-## The identifiable assets of \$1,250,000 minus the liabilities assumed of \$200,000 equals the net identifiable assets of \$1,050,000. The equity credits reflect the 20,000 shares issued at par (assumed \$1 par) plus the excess to APIC.
+The identifiable assets of \$1,250,000 minus the liabilities assumed of \$200,000 equals the net identifiable assets of \$1,050,000. The equity credits reflect the 20,000 shares issued at par (assumed \$1 par) plus the excess to APIC.
 
 ## Bargain Purchase Gain
 
@@ -318,7 +318,7 @@ Dr. Goodwill[a] 40,000
 | **Goodwill**                  | **\$60,000**      | **\$40,000**               |
 | Total equity (NCI line)       | \$190,000         | \$170,000                  |
 
-## The \$20,000 difference in goodwill (\$60,000 − \$40,000) represents the goodwill attributable to the NCI that is included under the fair value method but excluded under the proportionate share method.
+The \$20,000 difference in goodwill (\$60,000 − \$40,000) represents the goodwill attributable to the NCI that is included under the fair value method but excluded under the proportionate share method.
 
 ## Contingent Consideration
 

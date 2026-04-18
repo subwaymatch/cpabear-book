@@ -147,7 +147,7 @@ Dr. Cash[a] 20,000
 | 5         |            \$19,048 |         \$952 |      \$20,000 |  \$19,048 |                \$0 |
 | **Total** |                     |  **\$13,410** | **\$100,000** |           |                    |
 
-## The total interest income of \$13,410 equals total cash collected (\$100,000) minus the initial net investment (\$86,590).
+The total interest income of \$13,410 equals total cash collected (\$100,000) minus the initial net investment (\$86,590).
 
 ## Direct Financing Lease — Lessor Accounting
 
@@ -221,7 +221,7 @@ Dr. Equipment[a] 16,000
     Cr. Net Investment in Lease[a] 16,000
 ```
 
-## Total income over the lease = \$6,000 = total cash inflows (\$40,000 payments + \$16,000 residual) minus the initial investment (\$50,000).
+Total income over the lease = \$6,000 = total cash inflows (\$40,000 payments + \$16,000 residual) minus the initial investment (\$50,000).
 
 ## Operating Lease — Lessor Accounting
 
@@ -404,7 +404,7 @@ Dr. Cash[a] 600,000
     Cr. Financial Liability[l] 600,000
 ```
 
-## Payments under the leaseback are split between interest and principal — they are **not** treated as lease payments. The underlying asset continues to be depreciated by the seller-lessee.
+Payments under the leaseback are split between interest and principal — they are **not** treated as lease payments. The underlying asset continues to be depreciated by the seller-lessee.
 
 ## Interpreting Lease Agreements
 
