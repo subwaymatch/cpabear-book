@@ -163,13 +163,15 @@ The key adjustment to remember: capital gains allocable to **corpus** are genera
 
 **DNI calculation:**
 
+Taxable income before the distribution deduction is computed **excluding** tax-exempt interest from gross income. Trustee fees must be reduced by the portion allocable to tax-exempt income (that portion is nondeductible). For simplicity, assume \$1,000 of the \$10,000 in fees is allocable to tax-exempt income.
+
 | Step | Amount |
 |---|---|
-| Taxable income before distribution deduction: \$50,000 + \$30,000 + \$25,000 − \$10,000 (fees to income) − \$100 (exemption) = | \$94,900 |
+| Taxable income before distribution deduction: \$50,000 + \$30,000 + \$25,000 − \$9,000 (deductible fees) − \$100 (exemption) = | \$95,900 |
 | + Personal exemption | +\$100 |
-| + Tax-exempt interest (net of allocable expenses: \$10,000 − \$2,000 corpus fee allocated to tax-exempt) | +\$8,000 |
+| + Tax-exempt interest (net of allocable expenses: \$10,000 − \$1,000) | +\$9,000 |
 | − Capital gains allocated to corpus | −\$25,000 |
-| **DNI** | **\$78,000** |
+| **DNI** | **\$80,000** |
 
 ### Income Distribution Deduction
 
@@ -186,7 +188,7 @@ $$\text{Trust Taxable Income} = \text{Gross Income} - \text{Deductions} - \text{
 
 For a **simple trust** that distributes all income, the taxable income is typically limited to capital gains allocated to corpus (since all other income flows through to beneficiaries via the income distribution deduction).
 
-> **Example:** Using the Bear Family Trust from above — accounting income of \$80,000 is distributed to Dana. The income distribution deduction equals DNI (excluding tax-exempt income). If DNI is \$78,000 and tax-exempt income in DNI is \$8,000, the income distribution deduction = \$78,000 − \$8,000 = **\$70,000**. The trust's taxable income includes the \$35,000 capital gain (allocated to corpus and not distributed) minus fees allocable to corpus and the exemption.
+> **Example:** Using the Bear Family Trust from above — accounting income of \$80,000 is distributed to Dana. The income distribution deduction equals DNI (excluding tax-exempt income). If DNI is \$80,000 and tax-exempt income in DNI is \$9,000, the income distribution deduction = \$80,000 − \$9,000 = **\$71,000**. The trust's taxable income includes the \$35,000 capital gain (allocated to corpus and not distributed) minus fees allocable to corpus and the exemption.
 
 ### Character of Distributions to Beneficiaries
 
@@ -199,12 +201,12 @@ Distributions from a trust carry out a **proportionate share** of each type of i
 | Tax-exempt interest | Tax-exempt / total DNI |
 | Rental income | Rental / total DNI |
 
-> **Example:** If the Gies Family Trust distributes \$60,000 to beneficiary Sam and DNI is \$78,000 (composed of \$50,000 interest, \$20,000 dividends, and \$8,000 tax-exempt interest), Sam's distribution carries out:
-> - Interest: \$60,000 × (\$50,000 / \$78,000) = **\$38,462**
-> - Dividends: \$60,000 × (\$20,000 / \$78,000) = **\$15,385**
-> - Tax-exempt interest: \$60,000 × (\$8,000 / \$78,000) = **\$6,154**
+> **Example:** If the Gies Family Trust distributes \$60,000 to beneficiary Sam and DNI is \$80,000 (composed of \$50,000 interest, \$21,000 dividends, and \$9,000 tax-exempt interest), Sam's distribution carries out:
+> - Interest: \$60,000 × (\$50,000 / \$80,000) = **\$37,500**
+> - Dividends: \$60,000 × (\$21,000 / \$80,000) = **\$15,750**
+> - Tax-exempt interest: \$60,000 × (\$9,000 / \$80,000) = **\$6,750**
 
-Sam includes \$38,462 + \$15,385 = **\$53,847** in taxable income and excludes the \$6,154 of tax-exempt interest.
+Sam includes \$37,500 + \$15,750 = **\$53,250** in taxable income and excludes the \$6,750 of tax-exempt interest.
 
 ### Specific Deduction Rules for Trusts
 

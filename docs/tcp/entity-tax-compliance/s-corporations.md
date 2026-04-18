@@ -84,9 +84,9 @@ Each year, the shareholder adjusts stock basis for their **pro rata share** of t
 | Beginning stock basis | \$75,000 |
 | + Ordinary income | +\$40,000 |
 | + Tax-exempt income | +\$2,000 |
-| − Nondeductible expenses | \$0 |
+| − Nondeductible expenses (none in this example) | \$0 |
 | − Distribution | −\$30,000 |
-| − Charitable contribution | −\$5,000 |
+| − Charitable contribution (separately stated deduction) | −\$5,000 |
 | **Ending stock basis** | **\$82,000** |
 
 ### Debt Basis
