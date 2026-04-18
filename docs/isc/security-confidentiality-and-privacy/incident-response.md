@@ -43,7 +43,7 @@ Organizations use defined criteria to classify events and determine whether esca
 | **Medium**   | Suspicious activity requiring investigation but no confirmed compromise            | Unusual outbound data transfer patterns detected        | Investigation within 4 hours      |
 | **Low**      | Minor events handled through routine security operations                           | Single failed login attempt, routine malware quarantine | Logged and monitored              |
 
-## **Example:** **Bear Co.**'s SIEM generates 10,000 security events per day. The security operations team uses automated correlation rules to filter these events. When the system detects 200 failed authentication attempts against the CFO's account from a foreign IP address followed by a successful login, it automatically escalates the event to a **high-severity incident** and notifies the incident response team.
+> **Example:** **Bear Co.**'s SIEM generates 10,000 security events per day. The security operations team uses automated correlation rules to filter these events. When the system detects 200 failed authentication attempts against the CFO's account from a foreign IP address followed by a successful login, it automatically escalates the event to a **high-severity incident** and notifies the incident response team.
 
 ## Cyber Insurance
 
@@ -155,7 +155,7 @@ graph LR
 | **3. Containment, Eradication & Recovery** | Limit damage, remove the threat, and restore operations | Isolate affected systems, preserve evidence, remove malware, patch vulnerabilities, restore from backups, verify system integrity before returning to production |
 | **4. Post-Incident Activity**              | Learn from the incident and improve future response     | Conduct lessons-learned meeting, update IR plan, identify control gaps, produce incident report, update detection rules                                          |
 
-## **Example:** **Illini Entertainment** detects unusual database queries against its customer PII table (Phase 2). The IR team isolates the affected database server from the network (Phase 3 — containment), identifies that an attacker exploited an unpatched SQL injection vulnerability (Phase 3 — eradication involves patching), restores verified clean data from backups (Phase 3 — recovery), and conducts a lessons-learned review that results in implementing automated patch management for database servers (Phase 4).
+> **Example:** **Illini Entertainment** detects unusual database queries against its customer PII table (Phase 2). The IR team isolates the affected database server from the network (Phase 3 — containment), identifies that an attacker exploited an unpatched SQL injection vulnerability (Phase 3 — eradication involves patching), restores verified clean data from backups (Phase 3 — recovery), and conducts a lessons-learned review that results in implementing automated patch management for database servers (Phase 4).
 
 ## Testing Incident Response Plan Compliance
 
@@ -184,7 +184,7 @@ CPAs performing IT audit or SOC engagements must evaluate whether an organizatio
 | Regulatory notifications missed or late      | Potential fines, legal liability, and loss of customer trust                          |
 | Insurer not notified within policy timeframe | Coverage may be denied for the incident                                               |
 
-## **Example:** **Gies Co.**'s incident response plan requires containment actions within 2 hours of a critical incident being declared. During the IT audit, the CPA selects three critical incidents from the past year and traces each through the plan's documented steps. For one incident, the CPA finds that containment did not occur until 8 hours after declaration because the on-call analyst was unreachable and no backup contact was defined in the plan. The CPA reports this as a **design deficiency** in the escalation procedures and an **operating deviation** in the specific incident response.
+> **Example:** **Gies Co.**'s incident response plan requires containment actions within 2 hours of a critical incident being declared. During the IT audit, the CPA selects three critical incidents from the past year and traces each through the plan's documented steps. For one incident, the CPA finds that containment did not occur until 8 hours after declaration because the on-call analyst was unreachable and no backup contact was defined in the plan. The CPA reports this as a **design deficiency** in the escalation procedures and an **operating deviation** in the specific incident response.
 
 ## Summary
 

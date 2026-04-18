@@ -315,7 +315,7 @@ A single control can serve multiple purposes. Antivirus software **prevents** kn
 | **False Rejection Rate (FRR)**  | Percentage of authorized users incorrectly denied access                    |
 | **Crossover Error Rate (CER)**  | The point where FAR equals FRR — lower CER indicates a more accurate system |
 
-## **Example:** **Illini Security** requires employees to authenticate using a password (something you know) and a fingerprint scan (something you are) before accessing the financial reporting system. This two-factor authentication significantly reduces the risk of unauthorized access even if a password is compromised.
+> **Example:** **Illini Security** requires employees to authenticate using a password (something you know) and a fingerprint scan (something you are) before accessing the financial reporting system. This two-factor authentication significantly reduces the risk of unauthorized access even if a password is compromised.
 
 ## Authorization Models
 

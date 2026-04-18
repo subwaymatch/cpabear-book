@@ -45,7 +45,7 @@ When evaluating a security awareness program, a CPA should:
 | Generic, one-size-fits-all content              | Role-specific risks (e.g., finance staff wire transfer fraud) not addressed |
 | No tracking of completion or test scores        | Inability to demonstrate compliance to auditors                             |
 
-## **Example:** **Bear Co.** conducts annual security awareness training but has no phishing simulation program. During a SOC 2® engagement, the auditor notes that 15% of employees did not complete the most recent training cycle and there is no mechanism to test whether employees can identify phishing emails in practice. This represents a deficiency in the operating effectiveness of the awareness program.
+> **Example:** **Bear Co.** conducts annual security awareness training but has no phishing simulation program. During a SOC 2® engagement, the auditor notes that 15% of employees did not complete the most recent training cycle and there is no mechanism to test whether employees can identify phishing emails in practice. This represents a deficiency in the operating effectiveness of the awareness program.
 
 ## Security Assessment Reports
 
@@ -82,7 +82,7 @@ When documenting findings from tests of controls, each finding should include:
 | **Medium**   | Control partially effective but gaps exist that increase risk                        | Remediation within 90 days     |
 | **Low**      | Minor observations or improvement opportunities; risk is minimal                     | Address in next review cycle   |
 
-## **Example:** **MAS Inc.** engages an auditor to perform security control testing. The auditor discovers that the intrusion detection system (IDS) has not been updated with new threat signatures in 6 months. The finding is documented as: Condition — IDS signatures 6 months out of date; Criteria — Policy requires monthly signature updates; Cause — The administrator responsible left the company and the task was not reassigned; Effect — Network may not detect attacks using recently discovered exploit techniques; Severity — High.
+> **Example:** **MAS Inc.** engages an auditor to perform security control testing. The auditor discovers that the intrusion detection system (IDS) has not been updated with new threat signatures in 6 months. The finding is documented as: Condition — IDS signatures 6 months out of date; Criteria — Policy requires monthly signature updates; Cause — The administrator responsible left the company and the task was not reassigned; Effect — Network may not detect attacks using recently discovered exploit techniques; Severity — High.
 
 ## IT Security Walkthroughs
 

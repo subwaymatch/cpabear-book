@@ -447,7 +447,7 @@ $$
 | Swap fair value (B/S) | \$24,000 asset      | \$0           |
 | AOCI balance          | \$24,000            | \$0           |
 
-## In both years, MAS Inc. achieves a net interest cost equal to the 4% fixed rate it targeted — demonstrating the purpose of the cash flow hedge.
+In both years, MAS Inc. achieves a net interest cost equal to the 4% fixed rate it targeted — demonstrating the purpose of the cash flow hedge.
 
 ## Discontinuation of Hedge Accounting
 

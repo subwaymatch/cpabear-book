@@ -161,7 +161,7 @@ Dr. Impairment Loss 120,000
     Cr. Accumulated Amortization — Software[ca] 120,000
 ```
 
-## After the write-down, the software is carried at its new basis of **\$300,000** and amortized over its remaining useful life. The impairment loss is **never reversed** under U.S. GAAP.
+After the write-down, the software is carried at its new basis of **\$300,000** and amortized over its remaining useful life. The impairment loss is **never reversed** under U.S. GAAP.
 
 ### Abandonment
 
@@ -334,7 +334,7 @@ Dr. Loss on Software Write-Down 70,000
     Cr. Capitalized Software Costs[a] 70,000
 ```
 
-## After the write-down, the software is carried at **\$110,000**. This new basis is amortized over the remaining economic life and is **not** written back up.
+After the write-down, the software is carried at **\$110,000**. This new basis is amortized over the remaining economic life and is **not** written back up.
 
 ## Side-by-Side Comparison
 

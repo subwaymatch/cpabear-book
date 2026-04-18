@@ -219,7 +219,7 @@ Two or more operating segments may be aggregated into a single reportable segmen
 
 ### Example: Gies Co.
 
-## Gies Co. has two operating segments — East Region and West Region — that both sell commercial insurance products to mid-market businesses through independent agents, subject to the same state regulatory frameworks, and have similar profit margins. Because they share similar economic characteristics **and** meet all five similarity criteria, Gies Co. may aggregate them into a single "Commercial Insurance" reportable segment.
+Gies Co. has two operating segments — East Region and West Region — that both sell commercial insurance products to mid-market businesses through independent agents, subject to the same state regulatory frameworks, and have similar profit margins. Because they share similar economic characteristics **and** meet all five similarity criteria, Gies Co. may aggregate them into a single "Commercial Insurance" reportable segment.
 
 ### Required Segment Disclosures
 
@@ -247,7 +247,7 @@ MAS Inc. operates three reportable segments: Software, Consulting, and Hardware.
 
 ## Practical Limits on Segments
 
-## ASC 280 provides a practical limit: once the number of reportable segments exceeds **10**, the entity should consider whether further disaggregation is useful. This is a guideline, not a hard rule — but the FASB noted that exceeding 10 segments may make disclosures overly complex.
+ASC 280 provides a practical limit: once the number of reportable segments exceeds **10**, the entity should consider whether further disaggregation is useful. This is a guideline, not a hard rule — but the FASB noted that exceeding 10 segments may make disclosures overly complex.
 
 ## Summary
 

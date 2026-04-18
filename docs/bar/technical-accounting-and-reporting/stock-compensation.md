@@ -341,7 +341,7 @@ $$
 \text{Year 3 Expense} = \$55{,}200 - \$38{,}000 = \$17{,}200
 $$
 
-## The cumulative catch-up ensures total recognized cost always equals the revised estimate multiplied by the fraction of the service period completed.
+The cumulative catch-up ensures total recognized cost always equals the revised estimate multiplied by the fraction of the service period completed.
 
 ## Putting It All Together — Classification Decision Framework
 

@@ -142,7 +142,7 @@ Management of the service organization makes specific assertions depending on th
 
 ### SOC 3® Assertions
 
-## In a SOC 3® engagement, management asserts that the system was effective in meeting the applicable trust services criteria throughout the period (Type 2 only — SOC 3® reports are always Type 2).
+In a SOC 3® engagement, management asserts that the system was effective in meeting the applicable trust services criteria throughout the period (Type 2 only — SOC 3® reports are always Type 2).
 
 ## Independence Considerations
 
@@ -175,7 +175,7 @@ graph LR
 | **Familiarity**              | Long-standing personal relationships between auditor and service organization management                    |
 | **Management participation** | Auditor performs management functions (e.g., operating or monitoring controls) for the service organization |
 
-## **Example:** **Illini Security** performs penetration testing and vulnerability assessments for **Gies Co.**, a cloud hosting provider. If Illini Security is also engaged to perform the SOC 2® examination for Gies Co., a **self-review threat** exists because Illini Security would be evaluating control environments it helped design or test.
+> **Example:** **Illini Security** performs penetration testing and vulnerability assessments for **Gies Co.**, a cloud hosting provider. If Illini Security is also engaged to perform the SOC 2® examination for Gies Co., a **self-review threat** exists because Illini Security would be evaluating control environments it helped design or test.
 
 ## Materiality in SOC Engagements
 
@@ -369,7 +369,7 @@ The system description provides report users with information about the service 
 | **Timely notification**   | User entities should notify the service organization promptly when employees are terminated |
 | **Physical security**     | User entities are responsible for physical security of devices used to access the system    |
 
-## **Example:** **Illini Entertainment** uses **Gies Co.**'s cloud platform for customer data management. Gies Co.'s SOC 2® report lists a CUEC stating that user entities are responsible for terminating user access promptly when an employee leaves the organization. If Illini Entertainment fails to disable departed employees' access, a control gap exists — but it is Illini Entertainment's responsibility, not Gies Co.'s.
+> **Example:** **Illini Entertainment** uses **Gies Co.**'s cloud platform for customer data management. Gies Co.'s SOC 2® report lists a CUEC stating that user entities are responsible for terminating user access promptly when an employee leaves the organization. If Illini Entertainment fails to disable departed employees' access, a control gap exists — but it is Illini Entertainment's responsibility, not Gies Co.'s.
 
 ## Management's Written Representations
 
@@ -393,7 +393,7 @@ The service auditor is required to obtain **written representations** from servi
 
 ### Timing
 
-## Written representations must be dated as of the **date of the service auditor's report**. If management refuses to provide written representations, the service auditor must consider the effect on the engagement — which may result in a qualified opinion, adverse opinion, or withdrawal from the engagement.
+Written representations must be dated as of the **date of the service auditor's report**. If management refuses to provide written representations, the service auditor must consider the effect on the engagement — which may result in a qualified opinion, adverse opinion, or withdrawal from the engagement.
 
 ## System Boundaries
 

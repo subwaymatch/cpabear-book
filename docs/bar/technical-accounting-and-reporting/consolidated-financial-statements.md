@@ -204,7 +204,7 @@ No single indicator is determinative. Management must weigh **all** indicators a
 
 ### Highly Inflationary Economies
 
-## If a subsidiary operates in a **highly inflationary economy** (cumulative inflation of approximately **100% or more** over a 3-year period), the functional currency is automatically deemed to be the **reporting currency (USD)**, regardless of the economic indicators. The **temporal method** (remeasurement) is used.
+If a subsidiary operates in a **highly inflationary economy** (cumulative inflation of approximately **100% or more** over a 3-year period), the functional currency is automatically deemed to be the **reporting currency (USD)**, regardless of the economic indicators. The **temporal method** (remeasurement) is used.
 
 ## Foreign Currency Translation — Current Rate Method
 
