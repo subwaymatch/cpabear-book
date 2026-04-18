@@ -257,7 +257,7 @@ flowchart TD
     C --> D{Any gain remaining\nabove §1245 recapture?}
     D -- Yes --> E["Remaining gain → §1231 netting"]
     D -- No --> Z["Done: All gain is ordinary"]
-    B -- No --> F{Is the property\n§1250 property\n(real property)?}
+    B -- No --> F{"Is the property\n§1250 property\n(real property)?"}
     F -- Yes --> G["Apply §1250 Recapture\nOrdinary income = min(Gain, Excess Depreciation)"]
     G --> H["Compute Unrecaptured §1250 Gain\nmin(Remaining Gain, Straight-Line Depreciation)\nTaxed at max 25%"]
     H --> I["Remaining gain → §1231 netting\nTaxed at 0%/15%/20%"]
