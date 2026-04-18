@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Personal financial planning is a distinctive component of the TCP exam that connects tax knowledge to broader financial decision-making. The TCP Blueprint tests an nlCPA's ability to advise individual clients on **retirement planning, investment selection, education funding, risk mitigation through insurance, and estate-related ownership and beneficiary designations**. These planning strategies are the ones an nlCPA typically identifies in connection with the preparation and review of individual tax returns.
+Personal financial planning is a distinctive component of the TCP exam that connects tax knowledge to broader financial decision-making. The TCP Blueprint tests a newly licensed CPA's ability to advise individual clients on **retirement planning, investment selection, education funding, risk mitigation through insurance, and estate-related ownership and beneficiary designations**. These planning strategies are the ones a CPA typically identifies in connection with the preparation and review of individual tax returns.
 
 The exam tests personal financial planning at both the Remembering and Understanding level (advantages and disadvantages of different options) and the Application level (preparing comparison schedules and calculating after-tax returns on investment).
 

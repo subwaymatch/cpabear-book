@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This topic covers the nonroutine individual tax compliance and planning issues tested on the TCP section of the CPA exam. While the core REG section addresses fundamental individual tax concepts (filing status, dependency, standard income inclusions and deductions), TCP goes deeper — testing equity compensation, Alternative Minimum Tax (AMT) items, the kiddie tax, imputed interest, and year-end planning strategies to minimize tax liability. The focus is on an nlCPA's role in both **preparing and reviewing** tax returns and **advising clients** on tax planning opportunities.
+This topic covers the nonroutine individual tax compliance and planning issues tested on the TCP section of the CPA exam. While the core REG section addresses fundamental individual tax concepts (filing status, dependency, standard income inclusions and deductions), TCP goes deeper — testing equity compensation, Alternative Minimum Tax (AMT) items, the kiddie tax, imputed interest, and year-end planning strategies to minimize tax liability. The focus is on a newly licensed CPA's role in both **preparing and reviewing** tax returns and **advising clients** on tax planning opportunities.
 
 ---
 
