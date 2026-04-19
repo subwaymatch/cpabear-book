@@ -33,11 +33,11 @@ The critical distinction: **defined benefit** plan statements must report the pl
 
 ```mermaid
 graph TD
-    A["Employee Benefit Plan"] --> B{"Who bears\ninvestment risk?"}
-    B -->|"Employer"| DB["Defined Benefit Plan\n(ASC 960)"]
-    B -->|"Employee"| DC["Defined Contribution Plan\n(ASC 962)"]
-    DB --> DB1["Must report plan\nobligations"]
-    DC --> DC1["No plan obligation\nto report"]
+    A["Employee Benefit Plan"] --> B{"Who bears<br/>investment risk?"}
+    B -->|"Employer"| DB["Defined Benefit Plan<br/>(ASC 960)"]
+    B -->|"Employee"| DC["Defined Contribution Plan<br/>(ASC 962)"]
+    DB --> DB1["Must report plan<br/>obligations"]
+    DC --> DC1["No plan obligation<br/>to report"]
     style DB fill:#cfe2f3,stroke:#333
     style DC fill:#d9ead3,stroke:#333
 ```
@@ -401,8 +401,8 @@ Plan investments follow the same ASC 820 fair value hierarchy used elsewhere in 
 
 ```mermaid
 graph TD
-    L1["Level 1\nQuoted prices in\nactive markets"] --> L2["Level 2\nObservable inputs\n(similar assets, indices)"]
-    L2 --> L3["Level 3\nUnobservable inputs\n(models, assumptions)"]
+    L1["Level 1<br/>Quoted prices in<br/>active markets"] --> L2["Level 2<br/>Observable inputs<br/>(similar assets, indices)"]
+    L2 --> L3["Level 3<br/>Unobservable inputs<br/>(models, assumptions)"]
     style L1 fill:#d9ead3,stroke:#333
     style L2 fill:#fff2cc,stroke:#333
     style L3 fill:#f4cccc,stroke:#333

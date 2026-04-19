@@ -18,9 +18,9 @@ This topic maps to **Area II, Group F** of the 2026 CPA Exam Blueprints for **Bu
 
 ```mermaid
 graph LR
-    S1["Step 1\nIdentify the\nAcquirer"] --> S2["Step 2\nDetermine the\nAcquisition Date"]
-    S2 --> S3["Step 3\nRecognize & Measure\nIdentifiable Net Assets"]
-    S3 --> S4["Step 4\nRecognize Goodwill\nor Bargain Purchase Gain"]
+    S1["Step 1<br/>Identify the<br/>Acquirer"] --> S2["Step 2<br/>Determine the<br/>Acquisition Date"]
+    S2 --> S3["Step 3<br/>Recognize & Measure<br/>Identifiable Net Assets"]
+    S3 --> S4["Step 4<br/>Recognize Goodwill<br/>or Bargain Purchase Gain"]
     style S1 fill:#cfe2f3,stroke:#333
     style S2 fill:#cfe2f3,stroke:#333
     style S3 fill:#d9ead3,stroke:#333
@@ -46,10 +46,10 @@ ASC 805 includes an optional **concentration test** (sometimes called the "scree
 
 ```mermaid
 graph TD
-    A["Apply the\nScreen Test"] -->|"Substantially all FV\nin one asset or group"| B["Asset Acquisition\n(Not ASC 805)"]
-    A -->|"FV not concentrated\nin a single asset"| C["Evaluate whether a\n'business' was acquired"]
-    C -->|"Inputs + substantive\nprocess → outputs"| D["Business Combination\n(ASC 805)"]
-    C -->|"No substantive\nprocess"| B
+    A["Apply the<br/>Screen Test"] -->|"Substantially all FV<br/>in one asset or group"| B["Asset Acquisition<br/>(Not ASC 805)"]
+    A -->|"FV not concentrated<br/>in a single asset"| C["Evaluate whether a<br/>'business' was acquired"]
+    C -->|"Inputs + substantive<br/>process → outputs"| D["Business Combination<br/>(ASC 805)"]
+    C -->|"No substantive<br/>process"| B
     style B fill:#f4cccc,stroke:#333
     style D fill:#d9ead3,stroke:#333
 ```
@@ -248,12 +248,12 @@ ASC 805 permits two methods for measuring NCI on the acquisition date:
 
 ```mermaid
 graph TD
-    A["Measure NCI"] --> B["Fair Value Method\n(Full Goodwill)"]
-    A --> C["Proportionate Share Method\n(Partial Goodwill)"]
-    B --> B1["NCI = Fair value of\nnon-controlling shares"]
-    C --> C1["NCI = NCI % × FV of\nnet identifiable assets"]
-    B --> B2["Goodwill includes\nparent + NCI portions"]
-    C --> C2["Goodwill includes\nparent portion only"]
+    A["Measure NCI"] --> B["Fair Value Method<br/>(Full Goodwill)"]
+    A --> C["Proportionate Share Method<br/>(Partial Goodwill)"]
+    B --> B1["NCI = Fair value of<br/>non-controlling shares"]
+    C --> C1["NCI = NCI % × FV of<br/>net identifiable assets"]
+    B --> B2["Goodwill includes<br/>parent + NCI portions"]
+    C --> C2["Goodwill includes<br/>parent portion only"]
     style B fill:#cfe2f3,stroke:#333
     style C fill:#d9ead3,stroke:#333
 ```
@@ -575,16 +575,16 @@ Dr. Loss on Contingent Consideration 12,000
 
 ```mermaid
 graph TD
-    A["Transaction Acquired"] --> B{"Screen Test:\nFV concentrated in\none asset?"}
+    A["Transaction Acquired"] --> B{"Screen Test:<br/>FV concentrated in<br/>one asset?"}
     B -->|Yes| C["Asset Acquisition"]
-    B -->|No| D{"Inputs + Substantive\nProcess → Outputs?"}
+    B -->|No| D{"Inputs + Substantive<br/>Process → Outputs?"}
     D -->|No| C
-    D -->|Yes| E["Business Combination\n(ASC 805)"]
-    E --> F["Measure Consideration\n+ NCI at FV"]
-    F --> G["Measure Net\nIdentifiable Assets at FV"]
-    G --> H{"Consideration + NCI\nvs. FV of Net Assets"}
+    D -->|Yes| E["Business Combination<br/>(ASC 805)"]
+    E --> F["Measure Consideration<br/>+ NCI at FV"]
+    F --> G["Measure Net<br/>Identifiable Assets at FV"]
+    G --> H{"Consideration + NCI<br/>vs. FV of Net Assets"}
     H -->|"Greater"| I["Record Goodwill"]
-    H -->|"Less"| J["Reassess → Record\nBargain Purchase Gain"]
+    H -->|"Less"| J["Reassess → Record<br/>Bargain Purchase Gain"]
     style C fill:#f4cccc,stroke:#333
     style E fill:#d9ead3,stroke:#333
     style I fill:#cfe2f3,stroke:#333

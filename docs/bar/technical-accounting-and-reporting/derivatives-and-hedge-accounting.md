@@ -23,11 +23,11 @@ ASC 815-10-15-83 defines a derivative as a financial instrument (or other contra
 
 ```mermaid
 graph TD
-    A["Does the contract have\nan underlying and a\nnotional amount?"] -->|Yes| B["Does it require little\nor no initial\nnet investment?"]
+    A["Does the contract have<br/>an underlying and a<br/>notional amount?"] -->|Yes| B["Does it require little<br/>or no initial<br/>net investment?"]
     A -->|No| X["Not a derivative"]
-    B -->|Yes| C["Can it be\nsettled net?"]
+    B -->|Yes| C["Can it be<br/>settled net?"]
     B -->|No| X
-    C -->|Yes| D["Derivative under\nASC 815"]
+    C -->|Yes| D["Derivative under<br/>ASC 815"]
     C -->|No| X
     style D fill:#d9ead3,stroke:#333
     style X fill:#f4cccc,stroke:#333
@@ -70,13 +70,13 @@ Under ASC 815-15, an embedded derivative must be **bifurcated** (separated) from
 
 ```mermaid
 graph TD
-    A["Embedded feature\nidentified in host contract"] --> B{"Clearly and closely\nrelated to the host?"}
-    B -->|Yes| NB["Do NOT bifurcate\n(remains part of host)"]
-    B -->|No| C{"Is the hybrid measured\nat fair value through\nearnings?"}
+    A["Embedded feature<br/>identified in host contract"] --> B{"Clearly and closely<br/>related to the host?"}
+    B -->|Yes| NB["Do NOT bifurcate<br/>(remains part of host)"]
+    B -->|No| C{"Is the hybrid measured<br/>at fair value through<br/>earnings?"}
     C -->|Yes| NB
-    C -->|No| D{"Would the embedded\ncomponent be a derivative\nif freestanding?"}
+    C -->|No| D{"Would the embedded<br/>component be a derivative<br/>if freestanding?"}
     D -->|No| NB
-    D -->|Yes| BIF["Bifurcate and account\nfor separately at fair value"]
+    D -->|Yes| BIF["Bifurcate and account<br/>for separately at fair value"]
     style BIF fill:#fff2cc,stroke:#333
     style NB fill:#d9ead3,stroke:#333
 ```
@@ -130,15 +130,15 @@ ASC 815 recognizes three hedging relationships:
 graph LR
     subgraph "Fair Value Hedge"
         FV1["Derivative G/L → Earnings"]
-        FV2["Hedged item adjusted\nthrough earnings"]
+        FV2["Hedged item adjusted<br/>through earnings"]
     end
     subgraph "Cash Flow Hedge"
         CF1["Derivative G/L → OCI"]
-        CF2["Reclassified to earnings\nwhen hedged item\naffects earnings"]
+        CF2["Reclassified to earnings<br/>when hedged item<br/>affects earnings"]
     end
     subgraph "Net Investment Hedge"
         NI1["Derivative G/L → OCI"]
-        NI2["Part of cumulative\ntranslation adjustment"]
+        NI2["Part of cumulative<br/>translation adjustment"]
     end
     style FV1 fill:#cfe2f3,stroke:#333
     style FV2 fill:#cfe2f3,stroke:#333
@@ -318,10 +318,10 @@ In a **cash flow hedge**, the derivative gain/loss goes to **OCI first**, not ea
 ```mermaid
 graph TD
     Q["What risk is the entity hedging?"]
-    Q -->|"Change in fair value\nof an existing item"| FV["Fair Value Hedge"]
-    Q -->|"Variability in expected\nfuture cash flows"| CF["Cash Flow Hedge"]
-    FV --> FV1["Both derivative G/L and\nhedged item adjustment\n→ Earnings"]
-    CF --> CF1["Derivative G/L → OCI\n→ Reclassified to earnings\nwhen hedged item\naffects earnings"]
+    Q -->|"Change in fair value<br/>of an existing item"| FV["Fair Value Hedge"]
+    Q -->|"Variability in expected<br/>future cash flows"| CF["Cash Flow Hedge"]
+    FV --> FV1["Both derivative G/L and<br/>hedged item adjustment<br/>→ Earnings"]
+    CF --> CF1["Derivative G/L → OCI<br/>→ Reclassified to earnings<br/>when hedged item<br/>affects earnings"]
     style FV fill:#cfe2f3,stroke:#333
     style CF fill:#d9ead3,stroke:#333
 ```
@@ -468,15 +468,15 @@ When a **cash flow hedge** is discontinued because the forecasted transaction is
 
 ```mermaid
 graph TD
-    A["Entity holds a derivative"] --> B{"Designated as a\nhedging instrument?"}
-    B -->|No| C["Default: G/L → Earnings\neach period"]
-    B -->|Yes| D{"What type of risk\nis being hedged?"}
-    D -->|"Fair value risk\n(e.g., fixed-rate debt)"| E["Fair Value Hedge"]
-    D -->|"Cash flow risk\n(e.g., variable-rate debt)"| F["Cash Flow Hedge"]
-    D -->|"Foreign currency risk\nin net investment"| G["Net Investment Hedge"]
-    E --> E1["Derivative G/L → Earnings\nHedged item adjusted → Earnings"]
-    F --> F1["Effective G/L → OCI\nIneffective G/L → Earnings\nReclassify from AOCI when\nhedged item affects earnings"]
-    G --> G1["Effective G/L → OCI\n(CTA component)\nIneffective G/L → Earnings"]
+    A["Entity holds a derivative"] --> B{"Designated as a<br/>hedging instrument?"}
+    B -->|No| C["Default: G/L → Earnings<br/>each period"]
+    B -->|Yes| D{"What type of risk<br/>is being hedged?"}
+    D -->|"Fair value risk<br/>(e.g., fixed-rate debt)"| E["Fair Value Hedge"]
+    D -->|"Cash flow risk<br/>(e.g., variable-rate debt)"| F["Cash Flow Hedge"]
+    D -->|"Foreign currency risk<br/>in net investment"| G["Net Investment Hedge"]
+    E --> E1["Derivative G/L → Earnings<br/>Hedged item adjusted → Earnings"]
+    F --> F1["Effective G/L → OCI<br/>Ineffective G/L → Earnings<br/>Reclassify from AOCI when<br/>hedged item affects earnings"]
+    G --> G1["Effective G/L → OCI<br/>(CTA component)<br/>Ineffective G/L → Earnings"]
     style C fill:#f4cccc,stroke:#333
     style E fill:#cfe2f3,stroke:#333
     style F fill:#d9ead3,stroke:#333

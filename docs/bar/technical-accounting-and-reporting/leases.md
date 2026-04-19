@@ -44,9 +44,9 @@ If the lease is **neither** sales-type **nor** direct financing, it is classifie
 
 ```mermaid
 graph TD
-    A["Lease Contract\n(Lessor Perspective)"] --> B{"Any OWNES\ncriterion met?"}
+    A["Lease Contract<br/>(Lessor Perspective)"] --> B{"Any OWNES<br/>criterion met?"}
     B -->|Yes| C["Sales-Type Lease"]
-    B -->|No| D{"PV of payments +\n3rd-party residual ≥ 90% FV\nAND collectibility probable?"}
+    B -->|No| D{"PV of payments +<br/>3rd-party residual ≥ 90% FV<br/>AND collectibility probable?"}
     D -->|"Both met"| E["Direct Financing Lease"]
     D -->|"Either not met"| F["Operating Lease"]
     style C fill:#cfe2f3,stroke:#333
@@ -286,11 +286,11 @@ The pattern of income recognition differs materially across the three classifica
 
 ```mermaid
 graph LR
-    ST["Sales-Type"] --> ST1["Day 1: Selling profit\n(revenue − cost)"]
-    ST1 --> ST2["Over term: Interest income\non net investment"]
+    ST["Sales-Type"] --> ST1["Day 1: Selling profit<br/>(revenue − cost)"]
+    ST1 --> ST2["Over term: Interest income<br/>on net investment"]
     DF["Direct Financing"] --> DF1["Day 1: No profit recognized"]
-    DF1 --> DF2["Over term: Interest income\n(includes deferred profit)"]
-    OP["Operating"] --> OP1["Over term: Straight-line\nrental income"]
+    DF1 --> DF2["Over term: Interest income<br/>(includes deferred profit)"]
+    OP["Operating"] --> OP1["Over term: Straight-line<br/>rental income"]
     style ST fill:#cfe2f3,stroke:#333
     style DF fill:#d9ead3,stroke:#333
     style OP fill:#fff2cc,stroke:#333
@@ -312,11 +312,11 @@ A **sale and leaseback** occurs when an entity (the seller-lessee) sells an asse
 
 ```mermaid
 graph TD
-    A["Sale and Leaseback\nTransaction"] --> B{"Does the transfer\nqualify as a sale\nunder ASC 606?"}
-    B -->|Yes| C["Record as Sale\n+ Leaseback"]
-    B -->|No| D["Failed Sale —\nFinancing Arrangement"]
-    C --> C1["Seller-lessee:\nDerecognize asset\nRecord ROU + liability\nRecognize gain/loss"]
-    D --> D1["Seller-lessee:\nKeep asset on books\nRecord financial liability"]
+    A["Sale and Leaseback<br/>Transaction"] --> B{"Does the transfer<br/>qualify as a sale<br/>under ASC 606?"}
+    B -->|Yes| C["Record as Sale<br/>+ Leaseback"]
+    B -->|No| D["Failed Sale —<br/>Financing Arrangement"]
+    C --> C1["Seller-lessee:<br/>Derecognize asset<br/>Record ROU + liability<br/>Recognize gain/loss"]
+    D --> D1["Seller-lessee:<br/>Keep asset on books<br/>Record financial liability"]
     style C fill:#d9ead3,stroke:#333
     style D fill:#f4cccc,stroke:#333
 ```

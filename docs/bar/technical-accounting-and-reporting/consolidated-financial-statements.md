@@ -18,14 +18,14 @@ This topic maps to **Area II, Group G** of the 2026 CPA Exam Blueprints for **Bu
 
 ```mermaid
 graph TD
-    A["Does the entity have a\nvariable interest in\nanother entity?"] -->|Yes| B{"Is the other entity\na VIE?"}
-    A -->|No| C["Apply Voting\nInterest Model"]
-    B -->|Yes| D["Apply VIE Model\n(ASC 810-10-25)"]
+    A["Does the entity have a<br/>variable interest in<br/>another entity?"] -->|Yes| B{"Is the other entity<br/>a VIE?"}
+    A -->|No| C["Apply Voting<br/>Interest Model"]
+    B -->|Yes| D["Apply VIE Model<br/>(ASC 810-10-25)"]
     B -->|No| C
-    C --> E{"Does the entity own\n> 50% of voting shares?"}
+    C --> E{"Does the entity own<br/>> 50% of voting shares?"}
     E -->|Yes| F["Consolidate"]
-    E -->|No| G["Do NOT consolidate\n(use equity or FV method)"]
-    D --> H{"Is the entity the\nprimary beneficiary?"}
+    E -->|No| G["Do NOT consolidate<br/>(use equity or FV method)"]
+    D --> H{"Is the entity the<br/>primary beneficiary?"}
     H -->|Yes| F
     H -->|No| G
     style F fill:#d9ead3,stroke:#333
@@ -108,9 +108,9 @@ $$
 
 ```mermaid
 graph LR
-    P["Power Criterion\nDirect the VIE's most\nsignificant activities"] --- PB["Primary\nBeneficiary"]
-    E["Economic Criterion\nAbsorb losses or receive\nbenefits significant to the VIE"] --- PB
-    PB --> C["Must Consolidate\nthe VIE"]
+    P["Power Criterion<br/>Direct the VIE's most<br/>significant activities"] --- PB["Primary<br/>Beneficiary"]
+    E["Economic Criterion<br/>Absorb losses or receive<br/>benefits significant to the VIE"] --- PB
+    PB --> C["Must Consolidate<br/>the VIE"]
     style PB fill:#cfe2f3,stroke:#333
     style C fill:#d9ead3,stroke:#333
 ```
@@ -185,11 +185,11 @@ ASC 830-10-55 provides several economic indicators to guide the determination:
 
 ```mermaid
 graph TD
-    A["Evaluate\nEconomic Indicators"] --> B{"Where does the subsidiary\nprimarily operate?"}
-    B -->|"Local economy\n(local customers, local costs,\nlocal financing)"| C["Functional Currency =\nLocal Currency"]
-    B -->|"Extension of parent\n(parent's market, parent\nfinancing, USD costs)"| D["Functional Currency =\nUSD (Parent's Currency)"]
-    C --> E["Translate\n(Current Rate Method)"]
-    D --> F["Remeasure\n(Temporal Method)"]
+    A["Evaluate<br/>Economic Indicators"] --> B{"Where does the subsidiary<br/>primarily operate?"}
+    B -->|"Local economy<br/>(local customers, local costs,<br/>local financing)"| C["Functional Currency =<br/>Local Currency"]
+    B -->|"Extension of parent<br/>(parent's market, parent<br/>financing, USD costs)"| D["Functional Currency =<br/>USD (Parent's Currency)"]
+    C --> E["Translate<br/>(Current Rate Method)"]
+    D --> F["Remeasure<br/>(Temporal Method)"]
     E --> G["CTA → OCI"]
     F --> H["Gain/Loss → Net Income"]
     style C fill:#cfe2f3,stroke:#333

@@ -17,8 +17,8 @@ ASC 718 _Compensation — Stock Compensation_ establishes a single framework: **
 
 ```mermaid
 graph LR
-    A["Grant Date\n(Measure Fair Value)"] --> B["Service / Vesting Period\n(Recognize Cost)"]
-    B --> C["Settlement\n(Exercise or Expiration)"]
+    A["Grant Date<br/>(Measure Fair Value)"] --> B["Service / Vesting Period<br/>(Recognize Cost)"]
+    B --> C["Settlement<br/>(Exercise or Expiration)"]
     style A fill:#cfe2f3,stroke:#333
     style B fill:#d9ead3,stroke:#333
     style C fill:#fff2cc,stroke:#333
@@ -185,10 +185,10 @@ An award is classified as a **liability** when the entity is obligated (or may b
 
 ```mermaid
 graph TD
-    A["Will the award be settled\nin the entity's own shares?"] -->|Yes| E["Equity-Classified\n(ASC 718-10-25)"]
-    A -->|No / Cash settlement| L["Liability-Classified\n(ASC 718-30)"]
-    E --> E1["Measure once\nat grant date"]
-    L --> L1["Remeasure\neach reporting period"]
+    A["Will the award be settled<br/>in the entity's own shares?"] -->|Yes| E["Equity-Classified<br/>(ASC 718-10-25)"]
+    A -->|No / Cash settlement| L["Liability-Classified<br/>(ASC 718-30)"]
+    E --> E1["Measure once<br/>at grant date"]
+    L --> L1["Remeasure<br/>each reporting period"]
     style E fill:#d9ead3,stroke:#333
     style L fill:#f4cccc,stroke:#333
 ```
@@ -347,14 +347,14 @@ The cumulative catch-up ensures total recognized cost always equals the revised 
 
 ```mermaid
 graph TD
-    A["Share-Based Payment\nArrangement Granted"] --> B{"Settlement in\nentity's own shares?"}
+    A["Share-Based Payment<br/>Arrangement Granted"] --> B{"Settlement in<br/>entity's own shares?"}
     B -->|Yes| C["Equity-Classified"]
     B -->|No / Cash / Variable shares| D["Liability-Classified"]
-    C --> C1["Measure at grant date\n(fixed fair value)"]
-    C1 --> C2["Recognize cost over\nrequisite service period"]
-    C2 --> C3["Credit: APIC\n(equity account)"]
-    D --> D1["Measure at each\nreporting date\n(remeasured fair value)"]
-    D1 --> D2["Recognize cost over\nrequisite service period"]
+    C --> C1["Measure at grant date<br/>(fixed fair value)"]
+    C1 --> C2["Recognize cost over<br/>requisite service period"]
+    C2 --> C3["Credit: APIC<br/>(equity account)"]
+    D --> D1["Measure at each<br/>reporting date<br/>(remeasured fair value)"]
+    D1 --> D2["Recognize cost over<br/>requisite service period"]
     D2 --> D3["Credit: Liability account"]
     style C fill:#d9ead3,stroke:#333
     style D fill:#f4cccc,stroke:#333

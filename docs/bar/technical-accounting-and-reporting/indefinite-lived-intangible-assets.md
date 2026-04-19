@@ -179,12 +179,12 @@ If the qualitative screen is skipped or indicates potential impairment, the enti
 
 ```mermaid
 graph TD
-    A["Annual Test or Triggering Event"] --> B{"Qualitative Assessment\n(Optional)"}
-    B -->|"More likely than not\nFV < Carrying"| C["Quantitative Test:\nCompare FV to Carrying Amount"]
+    A["Annual Test or Triggering Event"] --> B{"Qualitative Assessment<br/>(Optional)"}
+    B -->|"More likely than not<br/>FV < Carrying"| C["Quantitative Test:<br/>Compare FV to Carrying Amount"]
     B -->|"Not more likely than not"| D["No Impairment — Stop"]
     C --> E{"FV vs. Carrying Amount"}
     E -->|"FV ≥ Carrying"| F["No Impairment"]
-    E -->|"FV < Carrying"| G["Impairment Loss =\nCarrying − FV"]
+    E -->|"FV < Carrying"| G["Impairment Loss =<br/>Carrying − FV"]
 ```
 
 ### Example — Bear Co. Trademark Impairment
@@ -216,12 +216,12 @@ Goodwill impairment is tested at the **reporting unit** level. A reporting unit 
 
 ```mermaid
 graph TD
-    A["Annual Test or Triggering Event"] --> B{"Step 0: Qualitative Assessment\n(Optional)"}
-    B -->|"More likely than not\nFV of RU < Carrying"| C["Quantitative Test"]
+    A["Annual Test or Triggering Event"] --> B{"Step 0: Qualitative Assessment<br/>(Optional)"}
+    B -->|"More likely than not<br/>FV of RU < Carrying"| C["Quantitative Test"]
     B -->|"Not more likely than not"| D["No Impairment — Stop"]
-    C --> E{"Compare FV of Reporting Unit\nto Carrying Amount\n(including goodwill)"}
+    C --> E{"Compare FV of Reporting Unit<br/>to Carrying Amount<br/>(including goodwill)"}
     E -->|"FV ≥ Carrying"| F["No Impairment"]
-    E -->|"FV < Carrying"| G["Impairment Loss =\nCarrying − FV\n(capped at goodwill balance)"]
+    E -->|"FV < Carrying"| G["Impairment Loss =<br/>Carrying − FV<br/>(capped at goodwill balance)"]
 ```
 
 ### Qualitative Assessment (Step 0 — Optional)

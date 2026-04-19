@@ -160,10 +160,10 @@ When the related-party buyer later sells the property to an unrelated party, the
 flowchart TD
     A["Related party sale at a loss"] --> B["Loss DISALLOWED to seller"]
     B --> C["Buyer later sells to unrelated party"]
-    C --> D{"Gain or loss\non subsequent sale?"}
-    D -->|"Gain > Disallowed loss"| E["Gain recognized =\nGain − Disallowed loss"]
-    D -->|"Gain ≤ Disallowed loss"| F["No gain, no loss\nrecognized ($0)"]
-    D -->|"Loss"| G["New loss recognized;\nold disallowed loss\nis permanently gone"]
+    C --> D{"Gain or loss<br/>on subsequent sale?"}
+    D -->|"Gain > Disallowed loss"| E["Gain recognized =<br/>Gain − Disallowed loss"]
+    D -->|"Gain ≤ Disallowed loss"| F["No gain, no loss<br/>recognized ($0)"]
+    D -->|"Loss"| G["New loss recognized;<br/>old disallowed loss<br/>is permanently gone"]
 ```
 
 ### Scenario 1 — Gain Exceeds Disallowed Loss
