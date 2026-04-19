@@ -32,7 +32,7 @@ Understanding the distinction between research and development is important for 
 
 ```mermaid
 graph LR
-    A["Research\n(Discovery of\nnew knowledge)"] --> B["Development\n(Translation into\nplan or design)"] --> C["Commercial\nProduction"]
+    A["Research<br/>(Discovery of<br/>new knowledge)"] --> B["Development<br/>(Translation into<br/>plan or design)"] --> C["Commercial<br/>Production"]
     style A fill:#cfe2f3,stroke:#333
     style B fill:#fff2cc,stroke:#333
     style C fill:#d9ead3,stroke:#333
@@ -85,11 +85,11 @@ Equipment purchased **solely** for a single R&D project with **no alternative fu
 
 ```mermaid
 graph TD
-    A["Asset Acquired for R&D"] --> B{"Does the asset have\nan alternative future use?"}
+    A["Asset Acquired for R&D"] --> B{"Does the asset have<br/>an alternative future use?"}
     B -->|"Yes"| C["Capitalize the Asset"]
-    C --> D["Depreciate / Amortize\nover Useful Life"]
-    D --> E["Allocate depreciation\nto R&D Expense"]
-    B -->|"No"| F["Expense Immediately\nas R&D"]
+    C --> D["Depreciate / Amortize<br/>over Useful Life"]
+    D --> E["Allocate depreciation<br/>to R&D Expense"]
+    B -->|"No"| F["Expense Immediately<br/>as R&D"]
     style B fill:#fff2cc,stroke:#333
     style C fill:#d9ead3,stroke:#333
     style F fill:#f4cccc,stroke:#333

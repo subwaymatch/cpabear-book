@@ -105,10 +105,10 @@ The SEC currently requires **Inline XBRL (iXBRL)**, which embeds XBRL tags direc
 
 ```mermaid
 flowchart LR
-    A[Company Prepares\nFinancial Statements] --> B[Apply XBRL Tags\nUsing Taxonomy]
-    B --> C[Inline XBRL Document\niXBRL]
-    C --> D[Human-Readable\nHTML View]
-    C --> E[Machine-Readable\nXBRL Data]
+    A["Company Prepares<br/>Financial Statements"] --> B["Apply XBRL Tags<br/>Using Taxonomy"]
+    B --> C["Inline XBRL Document<br/>iXBRL"]
+    C --> D["Human-Readable<br/>HTML View"]
+    C --> E["Machine-Readable<br/>XBRL Data"]
     D --> F[SEC EDGAR Filing]
     E --> F
 ```
@@ -164,16 +164,16 @@ An operating segment is reportable if it meets **any one** of the following test
 
 ```mermaid
 flowchart TD
-    A[Identify Operating Segments\nUsing Management Approach] --> B{Revenue Test\n≥ 10% of Combined\nSegment Revenue?}
+    A["Identify Operating Segments<br/>Using Management Approach"] --> B{"Revenue Test<br/>≥ 10% of Combined<br/>Segment Revenue?"}
     B -- Yes --> F[Reportable Segment]
-    B -- No --> C{Profit/Loss Test\n≥ 10% of Greater\nAbsolute Profit or Loss?}
+    B -- No --> C{"Profit/Loss Test<br/>≥ 10% of Greater<br/>Absolute Profit or Loss?"}
     C -- Yes --> F
-    C -- No --> D{Asset Test\n≥ 10% of Combined\nSegment Assets?}
+    C -- No --> D{"Asset Test<br/>≥ 10% of Combined<br/>Segment Assets?"}
     D -- Yes --> F
-    D -- No --> E[Not Individually\nReportable — Include\nin 'All Other' Category]
-    F --> G{Do Reportable Segments\nAccount for ≥ 75% of\nExternal Revenue?}
+    D -- No --> E["Not Individually<br/>Reportable — Include<br/>in 'All Other' Category"]
+    F --> G{"Do Reportable Segments<br/>Account for ≥ 75% of<br/>External Revenue?"}
     G -- Yes --> H[Disclosure Complete]
-    G -- No --> I[Add More Segments\nUntil 75% Threshold Met]
+    G -- No --> I["Add More Segments<br/>Until 75% Threshold Met"]
 ```
 
 ### The 75% External Revenue Test

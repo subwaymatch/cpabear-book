@@ -34,8 +34,8 @@ Internal-use software projects move through three distinct phases. The phase det
 
 ```mermaid
 graph LR
-    A["Phase 1\nPreliminary Project"] --> B["Phase 2\nApplication Development"]
-    B --> C["Phase 3\nPost-Implementation /\nOperation"]
+    A["Phase 1<br/>Preliminary Project"] --> B["Phase 2<br/>Application Development"]
+    B --> C["Phase 3<br/>Post-Implementation /<br/>Operation"]
     style A fill:#f4cccc,stroke:#333
     style B fill:#d9ead3,stroke:#333
     style C fill:#f4cccc,stroke:#333
@@ -194,10 +194,10 @@ Technological feasibility is established when the entity has completed either:
 
 ```mermaid
 graph LR
-    A["R&D Phase\n(Before Tech Feasibility)"] --> B["Tech Feasibility\nEstablished"]
-    B --> C["Capitalization Phase\n(After Tech Feasibility)"]
-    C --> D["Product Available\nfor General Release"]
-    D --> E["Amortization\nBegins"]
+    A["R&D Phase<br/>(Before Tech Feasibility)"] --> B["Tech Feasibility<br/>Established"]
+    B --> C["Capitalization Phase<br/>(After Tech Feasibility)"]
+    C --> D["Product Available<br/>for General Release"]
+    D --> E["Amortization<br/>Begins"]
     style A fill:#f4cccc,stroke:#333
     style B fill:#fff2cc,stroke:#333
     style C fill:#d9ead3,stroke:#333

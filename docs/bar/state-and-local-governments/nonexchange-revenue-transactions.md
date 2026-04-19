@@ -36,12 +36,12 @@ If a question describes a government collecting revenue where there is no direct
 flowchart TD
     A[Nonexchange Transactions] --> B[Derived Tax Revenues]
     A --> C[Imposed Nonexchange Revenues]
-    A --> D[Government-Mandated\nNonexchange Transactions]
-    A --> E[Voluntary Nonexchange\nTransactions]
-    B --> B1["Taxes on exchange transactions\n(sales tax, income tax)"]
-    C --> C1["Taxes on property/wealth\nFines, penalties, forfeitures"]
-    D --> D1["Higher-level gov't requires activity\nand provides funding"]
-    E --> E1["Grants, donations, entitlements\nvoluntarily entered into"]
+    A --> D["Government-Mandated<br/>Nonexchange Transactions"]
+    A --> E["Voluntary Nonexchange<br/>Transactions"]
+    B --> B1["Taxes on exchange transactions<br/>(sales tax, income tax)"]
+    C --> C1["Taxes on property/wealth<br/>Fines, penalties, forfeitures"]
+    D --> D1["Higher-level gov't requires activity<br/>and provides funding"]
+    E --> E1["Grants, donations, entitlements<br/>voluntarily entered into"]
 ```
 
 | Class | Examples | Asset Recognition | Revenue Recognition (Accrual) |
@@ -122,10 +122,10 @@ Imposed nonexchange revenues are assessments on **non-willing parties** — not 
 
 ```mermaid
 flowchart LR
-    A[Levy Date] --> B[Fiscal Year\nfor Which Levied]
+    A[Levy Date] --> B["Fiscal Year<br/>for Which Levied"]
     B --> C[Due Date]
-    C --> D[End of\nFiscal Year]
-    D --> E[60-Day\nAvailability Period]
+    C --> D["End of<br/>Fiscal Year"]
+    D --> E["60-Day<br/>Availability Period"]
     E --> F[Beyond 60 Days]
     style B fill:#d4edda
     style E fill:#fff3cd
@@ -169,12 +169,12 @@ Both classes share the same recognition framework — revenue is recognized when
 
 ```mermaid
 flowchart TD
-    A[Resources Received or\nPromise Made?] --> B{All Eligibility\nRequirements Met?}
-    B -->|Yes| C[Recognize Revenue\n- Accrual Basis -]
-    B -->|No| D[Record Deferred\nInflows of Resources]
-    C --> E{Available within\n60 days?}
-    E -->|Yes| F[Recognize Revenue\n- Modified Accrual -]
-    E -->|No| G[Record Deferred\nInflows of Resources\n- Modified Accrual -]
+    A["Resources Received or<br/>Promise Made?"] --> B{"All Eligibility<br/>Requirements Met?"}
+    B -->|Yes| C["Recognize Revenue<br/>- Accrual Basis -"]
+    B -->|No| D["Record Deferred<br/>Inflows of Resources"]
+    C --> E{"Available within<br/>60 days?"}
+    E -->|Yes| F["Recognize Revenue<br/>- Modified Accrual -"]
+    E -->|No| G["Record Deferred<br/>Inflows of Resources<br/>- Modified Accrual -"]
 ```
 
 ### Provider vs. Recipient Recognition

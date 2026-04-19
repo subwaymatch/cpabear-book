@@ -16,10 +16,10 @@ ASC 606 provides a single framework for recognizing revenue from contracts with 
 
 ```mermaid
 graph LR
-    S1["Step 1\nIdentify the\nContract"] --> S2["Step 2\nIdentify Performance\nObligations"]
-    S2 --> S3["Step 3\nDetermine\nTransaction Price"]
-    S3 --> S4["Step 4\nAllocate\nTransaction Price"]
-    S4 --> S5["Step 5\nRecognize\nRevenue"]
+    S1["Step 1<br/>Identify the<br/>Contract"] --> S2["Step 2<br/>Identify Performance<br/>Obligations"]
+    S2 --> S3["Step 3<br/>Determine<br/>Transaction Price"]
+    S3 --> S4["Step 4<br/>Allocate<br/>Transaction Price"]
+    S4 --> S5["Step 5<br/>Recognize<br/>Revenue"]
     style S1 fill:#cfe2f3,stroke:#333
     style S2 fill:#cfe2f3,stroke:#333
     style S3 fill:#d9ead3,stroke:#333
@@ -49,9 +49,9 @@ The most heavily tested BAR skill is reading a contract and identifying **how ma
 
 ```mermaid
 graph TD
-    A["Is the good or service\ncapable of being distinct?"] -->|Yes| B["Is it separately identifiable\nwithin the contract?"]
-    A -->|No| D["Combine with other\npromises into a single\nperformance obligation"]
-    B -->|Yes| C["Separate\nperformance obligation"]
+    A["Is the good or service<br/>capable of being distinct?"] -->|Yes| B["Is it separately identifiable<br/>within the contract?"]
+    A -->|No| D["Combine with other<br/>promises into a single<br/>performance obligation"]
+    B -->|Yes| C["Separate<br/>performance obligation"]
     B -->|No| D
     style C fill:#d9ead3,stroke:#333
     style D fill:#f4cccc,stroke:#333
@@ -148,10 +148,10 @@ A performance obligation is satisfied over time if **any one** of the following 
 
 ```mermaid
 graph TD
-    A["Does the customer simultaneously\nreceive and consume benefits?"] -->|Yes| OT["Recognize Over Time"]
-    A -->|No| B["Does the entity's performance create/enhance\nan asset the customer controls?"]
+    A["Does the customer simultaneously<br/>receive and consume benefits?"] -->|Yes| OT["Recognize Over Time"]
+    A -->|No| B["Does the entity's performance create/enhance<br/>an asset the customer controls?"]
     B -->|Yes| OT
-    B -->|No| C["No alternative use AND\nenforceable right to payment to date?"]
+    B -->|No| C["No alternative use AND<br/>enforceable right to payment to date?"]
     C -->|Yes| OT
     C -->|No| PIT["Recognize at a Point in Time"]
     style OT fill:#d9ead3,stroke:#333
@@ -372,12 +372,12 @@ A quarterly analytics dashboard for Gies Co. reveals the following:
 
 ```mermaid
 graph TD
-    A["Run Analytical\nProcedures"] --> B["Identify Anomalies\n(outliers, trends, ratios)"]
-    B --> C["Trace to Source\nDocumentation\n(contracts, shipping logs)"]
-    C --> D{"Does the documentation\nsupport recorded revenue?"}
-    D -->|Yes| E["No Adjustment\nNeeded"]
-    D -->|No| F["Investigate Further\nand Propose\nAdjustment"]
-    F --> G["Recalculate Revenue\nUsing Five-Step Model"]
+    A["Run Analytical<br/>Procedures"] --> B["Identify Anomalies<br/>(outliers, trends, ratios)"]
+    B --> C["Trace to Source<br/>Documentation<br/>(contracts, shipping logs)"]
+    C --> D{"Does the documentation<br/>support recorded revenue?"}
+    D -->|Yes| E["No Adjustment<br/>Needed"]
+    D -->|No| F["Investigate Further<br/>and Propose<br/>Adjustment"]
+    F --> G["Recalculate Revenue<br/>Using Five-Step Model"]
     style E fill:#d9ead3,stroke:#333
     style F fill:#f4cccc,stroke:#333
 ```

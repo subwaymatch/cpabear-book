@@ -252,22 +252,22 @@ When a taxpayer sells §1231 property (business-use, held > 1 year), the gain mu
 
 ```mermaid
 flowchart TD
-    A["Compute Total Gain Realized\n(Amount Realized − Adjusted Basis)"] --> B{Is the property\n§1245 property?}
-    B -- Yes --> C["Apply §1245 Recapture\nOrdinary income = min(Gain, Total Depreciation)"]
-    C --> D{Any gain remaining\nabove §1245 recapture?}
+    A["Compute Total Gain Realized<br/>(Amount Realized − Adjusted Basis)"] --> B{"Is the property<br/>§1245 property?"}
+    B -- Yes --> C["Apply §1245 Recapture<br/>Ordinary income = min(Gain, Total Depreciation)"]
+    C --> D{"Any gain remaining<br/>above §1245 recapture?"}
     D -- Yes --> E["Remaining gain → §1231 netting"]
     D -- No --> Z["Done: All gain is ordinary"]
-    B -- No --> F{"Is the property\n§1250 property\n(real property)?"}
-    F -- Yes --> G["Apply §1250 Recapture\nOrdinary income = min(Gain, Excess Depreciation)"]
-    G --> H["Compute Unrecaptured §1250 Gain\nmin(Remaining Gain, Straight-Line Depreciation)\nTaxed at max 25%"]
-    H --> I["Remaining gain → §1231 netting\nTaxed at 0%/15%/20%"]
+    B -- No --> F{"Is the property<br/>§1250 property<br/>(real property)?"}
+    F -- Yes --> G["Apply §1250 Recapture<br/>Ordinary income = min(Gain, Excess Depreciation)"]
+    G --> H["Compute Unrecaptured §1250 Gain<br/>min(Remaining Gain, Straight-Line Depreciation)<br/>Taxed at max 25%"]
+    H --> I["Remaining gain → §1231 netting<br/>Taxed at 0%/15%/20%"]
     F -- No --> E
-    E --> J["§1231 Netting:\nNet all §1231 gains and losses"]
+    E --> J["§1231 Netting:<br/>Net all §1231 gains and losses"]
     I --> J
     J --> K{Net §1231 result?}
-    K -- "Net gain" --> L["Apply Lookback Rule:\nRecharacterize as ordinary income\nto extent of prior 5-year\nunrecaptured §1231 losses"]
-    L --> M["Remaining net gain =\nLong-term capital gain"]
-    K -- "Net loss" --> N["Entire net loss =\nOrdinary loss"]
+    K -- "Net gain" --> L["Apply Lookback Rule:<br/>Recharacterize as ordinary income<br/>to extent of prior 5-year<br/>unrecaptured §1231 losses"]
+    L --> M["Remaining net gain =<br/>Long-term capital gain"]
+    K -- "Net loss" --> N["Entire net loss =<br/>Ordinary loss"]
 ```
 
 ### Step-by-Step Summary
