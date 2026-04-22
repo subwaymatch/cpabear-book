@@ -213,7 +213,7 @@ When the purchase price exceeds the investor's share of the investee's **book va
    | Land (FMV > BV) | **Not amortized** (indefinite life) |
    | Goodwill | **Not amortized**; tested for impairment |
    **Example — Excess allocation:**
-   Panda pays \$600,000 for 30% of Sloth Security. Bruin's book value is \$1,500,000 (investor's share: \$450,000). Bruin's building has a FMV \$200,000 above book value (remaining life: 10 years).
+   Panda pays \$600,000 for 30% of Sloth Security. Sloth's book value is \$1,500,000 (investor's share: \$450,000). Sloth's building has a FMV \$200,000 above book value (remaining life: 10 years).
    | Component | Amount |
    |-----------|--------|
    | Cost | \$600,000 |

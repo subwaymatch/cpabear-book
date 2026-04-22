@@ -256,7 +256,7 @@ An entity must determine whether it is a **principal** (controls the good or ser
 
 **Key indicator:** Does the entity control the specified good or service **before** it is transferred to the customer? If yes → principal. If no → agent.
 
-**Example:** Cub Entertainment operates a ticket marketplace. For standard listings, Bruin does not take possession of the tickets and has no pricing discretion — it simply connects the seller and buyer and earns a 15% commission. Bruin is an **agent** and recognizes revenue equal to its commission.
+**Example:** Cub Entertainment operates a ticket marketplace. For standard listings, Cub does not take possession of the tickets and has no pricing discretion — it simply connects the seller and buyer and earns a 15% commission. Cub is an **agent** and recognizes revenue equal to its commission.
 
 ### Repurchase Agreements
 
