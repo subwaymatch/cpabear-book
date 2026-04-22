@@ -215,7 +215,7 @@ If the direct method is used, a **reconciliation** of net income to cash from op
 
 ## Complete Statement Example
 
-**Gies Co. — Statement of Cash Flows (Year Ended December 31)**
+**Polar Co. — Statement of Cash Flows (Year Ended December 31)**
 | | Amount |
 |---|---:|
 | **Cash flows from operating activities:** | |
@@ -267,7 +267,7 @@ Significant noncash transactions must be disclosed either in a supplemental sche
 - Acquisition of assets through capital (finance) lease
 - Issuance of stock for land or other assets
 - Exchange of noncash assets
-  **Example — MAS Inc. acquires land by issuing stock:**
+  **Example — Grizzly Inc. acquires land by issuing stock:**
 
 ```journal
 Dr. Land                    200,000
@@ -310,7 +310,7 @@ This transaction would appear as a noncash investing/financing disclosure:
 ## Journal Entry Connections
 
 Understanding journal entries helps classify cash flows correctly.
-**Example — BIF Partners purchases equipment for cash:**
+**Example — Kodiak Partners purchases equipment for cash:**
 
 ```journal
 Dr. Equipment        80,000
@@ -318,7 +318,7 @@ Dr. Equipment        80,000
 ```
 
 → **Investing activity** — cash outflow of \$80,000
-**Example — BIF Partners issues bonds:**
+**Example — Kodiak Partners issues bonds:**
 
 ```journal
 Dr. Cash             500,000
@@ -326,7 +326,7 @@ Dr. Cash             500,000
 ```
 
 → **Financing activity** — cash inflow of \$500,000
-**Example — BIF Partners pays dividends:**
+**Example — Kodiak Partners pays dividends:**
 
 ```journal
 Dr. Dividends payable    30,000
@@ -334,7 +334,7 @@ Dr. Dividends payable    30,000
 ```
 
 → **Financing activity** — cash outflow of \$30,000
-**Example — BIF Partners collects on notes receivable:**
+**Example — Kodiak Partners collects on notes receivable:**
 
 ```journal
 Dr. Cash             25,000
@@ -371,7 +371,7 @@ flowchart TD
 
 ## Practice Problem
 
-Illini Entertainment provides the following data for the year:
+Cub Entertainment provides the following data for the year:
 
 - Net income: \$320,000
 - Depreciation: \$75,000
@@ -387,7 +387,7 @@ Illini Entertainment provides the following data for the year:
 **Required:** Prepare the statement of cash flows using the indirect method.
 <details>
 <summary>Solution</summary>
-| Illini Entertainment — Statement of Cash Flows | Amount |
+| Cub Entertainment — Statement of Cash Flows | Amount |
 |---|---:|
 | **Operating activities:** | |
 | Net income | \$320,000 |

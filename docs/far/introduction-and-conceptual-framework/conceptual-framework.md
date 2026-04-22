@@ -35,11 +35,11 @@ These decision-makers need information to assess:
 
 ### Example
 
-Gies Co. is considering whether to extend a \$500,000 line of credit to Kingfisher Industries. Gies Co. will review Kingfisher's financial statements to evaluate:
+Polar Co. is considering whether to extend a \$500,000 line of credit to Panda Industries. Polar Co. will review Panda's financial statements to evaluate:
 
-- Whether Kingfisher has sufficient assets to cover its existing obligations
-- Whether Kingfisher's revenue trends suggest the ability to repay
-- Whether Kingfisher's cash flow from operations is positive and stable
+- Whether Panda has sufficient assets to cover its existing obligations
+- Whether Panda's revenue trends suggest the ability to repay
+- Whether Panda's cash flow from operations is positive and stable
   This is precisely the kind of decision the conceptual framework is designed to support.
 
 ---
@@ -62,7 +62,7 @@ Information is relevant if it is capable of making a difference in a decision. R
   $$\text{Relevance} = \text{Predictive Value} + \text{Confirmatory Value}$$
 
   :::note[Materiality]
-  Materiality is an entity-specific aspect of relevance. There is no universal dollar threshold. What is material for a small company like BIF Partners may be immaterial for a Fortune 500 corporation.
+  Materiality is an entity-specific aspect of relevance. There is no universal dollar threshold. What is material for a small company like Kodiak Partners may be immaterial for a Fortune 500 corporation.
   :::
 
 #### 2. Faithful Representation
@@ -207,7 +207,7 @@ The economic life of a business can be divided into **artificial time periods** 
 ### 1. Historical Cost Principle (Measurement Principle)
 
 Assets and liabilities are initially recorded at their **original transaction price**. However, GAAP increasingly permits or requires fair value measurement for certain items (e.g., trading securities, derivatives).
-**Example:** MAS Inc. purchases equipment for \$80,000. The equipment is recorded at \$80,000 regardless of its appraised market value:
+**Example:** Grizzly Inc. purchases equipment for \$80,000. The equipment is recorded at \$80,000 regardless of its appraised market value:
 
 ```journal
 Dr. Equipment                  80,000
@@ -223,7 +223,7 @@ Revenue is recognized when (or as) the entity satisfies a **performance obligati
 3. Determine the transaction price
 4. Allocate the transaction price to performance obligations
 5. Recognize revenue when (or as) each performance obligation is satisfied
-   **Example:** Illini Entertainment sells a \$120 annual streaming subscription on July 1. Revenue is recognized at \$10 per month as the service is delivered:
+   **Example:** Cub Entertainment sells a \$120 annual streaming subscription on July 1. Revenue is recognized at \$10 per month as the service is delivered:
 
 ```journal
 July 1 — Cash received
@@ -280,7 +280,7 @@ Under the cash basis, transactions are recognized only when **cash is received o
 
 ### Conversion Example
 
-Illini Security reported \$300,000 of cash collected from customers during the year. Additional information:
+Sloth Security reported \$300,000 of cash collected from customers during the year. Additional information:
 | Item | Beginning of Year | End of Year |
 |---|---|---|
 | Accounts Receivable | \$40,000 | \$55,000 |

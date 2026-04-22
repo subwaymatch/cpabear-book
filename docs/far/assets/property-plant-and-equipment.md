@@ -70,9 +70,9 @@ Dr. Land improvements             80,000
 
 When multiple assets are acquired in a single transaction, the total cost is **allocated based on relative fair values**.
 
-### Example — Gies Co.
+### Example — Polar Co.
 
-Gies Co. pays \$900,000 for land, a building, and equipment. Independent appraisals:
+Polar Co. pays \$900,000 for land, a building, and equipment. Independent appraisals:
 | Asset | Appraised Value | Proportion | Allocated Cost |
 |-------|----------------|------------|----------------|
 | Land | \$400,000 | 40% | \$360,000 |
@@ -94,14 +94,14 @@ Dr. Equipment                     90,000
 | **Ordinary repairs**                     | Expense as incurred                                          | Maintains the asset in normal condition  |
 | **Extraordinary repairs / Improvements** | Capitalize (add to asset or reduce accumulated depreciation) | Extends useful life or increases utility |
 
-**Ordinary repair — MAS Inc.:**
+**Ordinary repair — Grizzly Inc.:**
 
 ```journal
 Dr. Repairs and maintenance expense   2,500
     Cr. Cash                              2,500
 ```
 
-**Extraordinary repair extending useful life — MAS Inc.:**
+**Extraordinary repair extending useful life — Grizzly Inc.:**
 
 ```journal
 Dr. Equipment                         15,000
@@ -120,16 +120,16 @@ When a company constructs an asset for its **own use**, interest costs on borrow
    - If WAAE exceeds the specific borrowing, apply the **weighted-average rate** of other outstanding debt to the excess.
 3. **Cap:** Capitalized interest can **never exceed** actual interest incurred during the period.
 
-### Example — BIF Partners
+### Example — Kodiak Partners
 
-BIF Partners begins constructing a warehouse on January 1. Expenditures during the year:
+Kodiak Partners begins constructing a warehouse on January 1. Expenditures during the year:
 | Date | Amount | Months Outstanding | Weight | Weighted Amount |
 |------|--------|-------------------|--------|-----------------|
 | Jan 1 | \$200,000 | 12/12 | 1.00 | \$200,000 |
 | Jul 1 | \$300,000 | 6/12 | 0.50 | \$150,000 |
 | Oct 1 | \$100,000 | 3/12 | 0.25 | \$25,000 |
 | **WAAE** | | | | **\$375,000** |
-BIF has a 10% construction loan of \$250,000 and other debt at a weighted-average rate of 8%.
+Kodiak has a 10% construction loan of \$250,000 and other debt at a weighted-average rate of 8%.
 
 $$
 \text{Capitalized interest} = (\$250{,}000 \times 10\%) + (\$125{,}000 \times 8\%) = \$25{,}000 + \$10{,}000 = \$35{,}000
@@ -186,9 +186,9 @@ $$
 \text{Depreciation} = \frac{\text{Cost} - \text{Salvage Value}}{\text{Total Estimated Units}} \times \text{Units Produced}
 $$
 
-### Depreciation Example — Kingfisher Industries
+### Depreciation Example — Panda Industries
 
-Kingfisher Industries purchases equipment for \$100,000 with a \$10,000 salvage value and a 5-year useful life.
+Panda Industries purchases equipment for \$100,000 with a \$10,000 salvage value and a 5-year useful life.
 | Year | Straight-Line | SYD | DDB |
 |------|--------------|-----|-----|
 | 1 | \$18,000 | \$30,000 | \$40,000 |
@@ -232,7 +232,7 @@ Under composite depreciation, **no gain or loss** is recognized on the disposal 
 
 ### Sale of an Asset
 
-**Illini Security sells equipment (cost \$50,000, accumulated depreciation \$35,000) for \$20,000:**
+**Sloth Security sells equipment (cost \$50,000, accumulated depreciation \$35,000) for \$20,000:**
 
 ```journal
 Dr. Cash                          20,000
@@ -300,9 +300,9 @@ graph TD
 **Step 1 — Recoverability Test:** Compare the asset's carrying value to the sum of its **undiscounted** expected future cash flows.
 **Step 2 — Measurement:** If impaired, write the asset down to **fair value**. The loss equals carrying value minus fair value.
 
-### Example — Illini Entertainment
+### Example — Cub Entertainment
 
-Illini Entertainment owns a theme park ride with a carrying value of \$800,000. Due to declining attendance, the company estimates undiscounted future cash flows of \$600,000 and a fair value of \$500,000.
+Cub Entertainment owns a theme park ride with a carrying value of \$800,000. Due to declining attendance, the company estimates undiscounted future cash flows of \$600,000 and a fair value of \$500,000.
 
 - **Step 1:** \$600,000 < \$800,000 → asset is impaired.
 - **Step 2:** Loss = \$800,000 − \$500,000 = **\$300,000**

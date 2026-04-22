@@ -33,9 +33,9 @@ A cash equivalent must have an **original maturity of three months or less from 
 Bear Co. buys a Treasury bill on December 1 that matures on February 1. Because the investment has only two months to maturity **when purchased**, it is a cash equivalent.
 
   </TabItem>
-  <TabItem value="gies" label="Gies Co.">
+  <TabItem value="gies" label="Polar Co.">
 
-Gies Co. buys a note on March 1 that matures on August 1. Because five months remain at purchase, it is **not** a cash equivalent even though it matures within the same year.
+Polar Co. buys a note on March 1 that matures on August 1. Because five months remain at purchase, it is **not** a cash equivalent even though it matures within the same year.
 
   </TabItem>
 </Tabs>
@@ -74,7 +74,7 @@ $$
 
 A non-interest-bearing promissory note is recorded at the **present value of future cash receipts**, discounted using the market rate of interest. The difference between face value and present value is a discount that is amortized to interest income over the life of the note.
 
-**Example:** Illini Security accepts a \$50,000 note due in one year. The market rate is 8%, but the note states no interest.
+**Example:** Sloth Security accepts a \$50,000 note due in one year. The market rate is 8%, but the note states no interest.
 
 $$
 \text{Present value} = \frac{\$50{,}000}{1.08} \approx \$46{,}296
@@ -185,7 +185,7 @@ If the transfer is with recourse, additional liability recognition may be requir
 
 ## Integrated Example
 
-Gies Co. records \$200,000 of credit sales during December. Based on an aging analysis, it estimates expected credit losses of \$6,000. In January, a \$1,400 customer balance is written off.
+Polar Co. records \$200,000 of credit sales during December. Based on an aging analysis, it estimates expected credit losses of \$6,000. In January, a \$1,400 customer balance is written off.
 
 **Year-end adjustment**
 
@@ -201,7 +201,7 @@ Dr. Allowance for expected credit losses    1,400
     Cr. Accounts receivable                     1,400
 ```
 
-At December 31, Gies Co. reports accounts receivable net of the allowance, not at gross face amount.
+At December 31, Polar Co. reports accounts receivable net of the allowance, not at gross face amount.
 
 ## What to memorize for FAR
 

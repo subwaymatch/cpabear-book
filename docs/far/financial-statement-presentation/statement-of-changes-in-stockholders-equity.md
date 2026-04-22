@@ -102,7 +102,7 @@ Dr. Treasury stock         40,000
 
 ### Stock Dividend (Small — Less Than 20-25%)
 
-**Gies Co. declares a 10% stock dividend on 100,000 shares outstanding. Market price is \$25; par value is \$1:**
+**Polar Co. declares a 10% stock dividend on 100,000 shares outstanding. Market price is \$25; par value is \$1:**
 
 - New shares issued: 100,000 × 10% = 10,000 shares
 - Recorded at **market value** for small stock dividends
@@ -121,7 +121,7 @@ A small stock dividend (< 20-25%) is recorded at **fair market value**. A large 
 
 ### Prior Period Adjustment
 
-**MAS Inc. discovers it understated depreciation expense by \$30,000 in the prior year (tax rate 25%):**
+**Grizzly Inc. discovers it understated depreciation expense by \$30,000 in the prior year (tax rate 25%):**
 
 ```journal
 Dr. Retained earnings (prior period adjustment)    22,500
@@ -135,7 +135,7 @@ This adjustment is shown as a restatement of the **beginning balance** of retain
 
 The statement is typically presented in a **columnar format**, with each equity component as a column and each transaction as a row.
 
-### Example Statement — Kingfisher Industries
+### Example Statement — Panda Industries
 
 **Statement of Changes in Stockholders' Equity — Year Ended December 31**
 | | Common Stock | APIC | Retained Earnings | AOCI | Treasury Stock | Total |
@@ -158,7 +158,7 @@ $$
 \text{Ending RE} = \text{Beginning RE} + \text{Net Income} - \text{Dividends Declared} \pm \text{Prior Period Adjustments}
 $$
 
-**Example — Illini Security:**
+**Example — Sloth Security:**
 | Retained Earnings Reconciliation | Amount |
 |---|---:|
 | Beginning retained earnings (as previously reported) | \$500,000 |
@@ -187,7 +187,7 @@ The AOCI column tracks cumulative other comprehensive income items:
 
 ## Comprehensive Example with All Components
 
-**BIF Partners — Statement of Changes in Stockholders' Equity**
+**Kodiak Partners — Statement of Changes in Stockholders' Equity**
 | | Preferred Stock | Common Stock | APIC | Retained Earnings | AOCI | Treasury Stock | Total |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | **Jan. 1 balance** | \$100,000 | \$25,000 | \$275,000 | \$410,000 | \$8,000 | (\$15,000) | **\$803,000** |
@@ -246,7 +246,7 @@ For consolidated financial statements, the **noncontrolling interest (NCI)** is 
 
 ## Practice Problem
 
-Illini Entertainment provides the following information for the year ended December 31:
+Cub Entertainment provides the following information for the year ended December 31:
 
 - Beginning common stock (\$1 par): \$40,000
 - Beginning APIC: \$360,000

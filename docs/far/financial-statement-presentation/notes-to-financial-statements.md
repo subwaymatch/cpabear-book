@@ -70,7 +70,7 @@ Entities must disclose:
 - Costing method
 - Any LIFO reserve (if LIFO is used)
 - Write-downs to net realizable value
-  **Example — Gies Co.:**
+  **Example — Polar Co.:**
   > **Note 3 — Inventories**
   >
   > Inventories consist of the following at December 31:
@@ -92,7 +92,7 @@ Required disclosures include:
 - Depreciation methods and useful lives
 - Accumulated depreciation
 - Depreciation expense for the period
-  **Example — MAS Inc.:**
+  **Example — Grizzly Inc.:**
   > **Note 4 — Property, Plant, and Equipment**
   >
   > | Asset Class | Useful Life |            Cost |    Accum. Depr. |             Net |
@@ -134,7 +134,7 @@ A **contingency** is an existing condition involving uncertainty about a possibl
 | **Probable** (likely) | Accrue if estimable; disclose | Disclose only (do not accrue) |
 | **Reasonably possible** | Disclose only | Disclose only |
 | **Remote** | No disclosure required (exception: guarantees) | No disclosure required |
-**Example — Kingfisher Industries:**
+**Example — Panda Industries:**
 
 > **Note 8 — Contingencies**
 >
@@ -165,7 +165,7 @@ Defined benefit plan disclosures include:
 - Components of net periodic pension cost
 - Assumptions (discount rate, expected return on plan assets, rate of compensation increase)
 - Amounts in AOCI (prior service cost, net actuarial loss)
-  **Example — Illini Security:**
+  **Example — Sloth Security:**
   > **Note 9 — Pension Benefits**
   >
   > | Component                         |          Amount |
@@ -230,11 +230,11 @@ Entities must disclose **concentrations** that could create vulnerability if the
 | **Geographic concentration** | All operations in one region subject to natural disaster |
 | **Labor concentration** | 60% of workforce covered by a single union contract |
 | **Credit concentration** | Major receivable from one customer |
-**Example — BIF Partners:**
+**Example — Kodiak Partners:**
 
 > **Note 11 — Concentrations**
 >
-> Approximately 35% of the Company's revenue for the year ended December 31 was derived from a single customer, Illini Entertainment. As of December 31, the accounts receivable balance due from this customer was \$420,000. The loss of this customer would have a material adverse effect on the Company's operations.
+> Approximately 35% of the Company's revenue for the year ended December 31 was derived from a single customer, Cub Entertainment. As of December 31, the accounts receivable balance due from this customer was \$420,000. The loss of this customer would have a material adverse effect on the Company's operations.
 
 ---
 
@@ -269,7 +269,7 @@ Ask: _Did the condition exist at the balance sheet date?_
 - Business combination completed after year-end
 - Issuance of debt or equity after year-end
 - Loss from a natural disaster after year-end
-  **Example — Kingfisher Industries (Type 1):**
+  **Example — Panda Industries (Type 1):**
   A lawsuit filed against the Company in November was settled on February 10 (before financial statement issuance) for \$200,000. At year-end, the Company had accrued \$150,000.
 
 ```journal
@@ -278,7 +278,7 @@ Dr. Loss from litigation        50,000
 ```
 
 The accrual is adjusted from \$150,000 to \$200,000 because the settlement provides evidence about conditions at the balance sheet date.
-**Example — MAS Inc. (Type 2):**
+**Example — Grizzly Inc. (Type 2):**
 On January 25 (before financial statement issuance), a fire destroyed the Company's main distribution warehouse. The estimated loss is \$2,000,000. Because the fire occurred **after** the balance sheet date, no adjustment is made to the December 31 financial statements. The event is disclosed in the notes:
 
 > **Note 14 — Subsequent Events**
@@ -347,7 +347,7 @@ flowchart TD
 
 ## Practice Problem
 
-Illini Entertainment has the following situations at its December 31 year-end (financial statements will be issued on March 15):
+Cub Entertainment has the following situations at its December 31 year-end (financial statements will be issued on March 15):
 
 1. A lawsuit filed against the company in October has a probable unfavorable outcome. Legal counsel estimates the loss at \$100,000 to \$300,000, with \$180,000 being the best estimate.
 2. One customer accounts for 45% of revenue.

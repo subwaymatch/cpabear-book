@@ -27,7 +27,7 @@ The CPA exam frequently tests the **bonus** and **goodwill** methods for admitti
 
 When a partnership is formed, each partner's contribution is recorded at **fair value**. If a partner contributes assets subject to a liability assumed by the partnership, the partner's capital account is credited for the net amount (fair value of assets minus the liability assumed).
 
-**Example:** Bear and Gies form BIF Partners. Bear contributes cash of \$80,000. Gies contributes equipment with a fair value of \$120,000 and a remaining mortgage of \$20,000, which the partnership assumes.
+**Example:** Bear and Polar form Kodiak Partners. Bear contributes cash of \$80,000. Polar contributes equipment with a fair value of \$120,000 and a remaining mortgage of \$20,000, which the partnership assumes.
 
 ```journal
 Dr. Cash[a] 80,000
@@ -37,10 +37,10 @@ Dr. Cash[a] 80,000
 ```journal
 Dr. Equipment[a] 120,000
     Cr. Mortgage Payable[l] 20,000
-    Cr. Gies, Capital[e] 100,000
+    Cr. Polar, Capital[e] 100,000
 ```
 
-After formation, the total partnership capital is \$180,000 (Bear \$80,000 + Gies \$100,000).
+After formation, the total partnership capital is \$180,000 (Bear \$80,000 + Polar \$100,000).
 
 ---
 
@@ -52,17 +52,17 @@ A new partner may be admitted by (1) purchasing an interest directly from an exi
 
 The new partner contributes an amount **exactly equal** to their proportionate share of the partnership's net assets after the contribution. No bonus or goodwill is recorded.
 
-**Example:** BIF Partners has total capital of \$200,000 (Bear \$100,000, Gies \$100,000). Kingfisher contributes \$100,000 for a one-third interest.
+**Example:** Kodiak Partners has total capital of \$200,000 (Bear \$100,000, Polar \$100,000). Panda contributes \$100,000 for a one-third interest.
 
 $$\text{Total capital after admission} = \$200{,}000 + \$100{,}000 = \$300{,}000$$
 
-$$\text{Kingfisher's one-third interest} = \$300{,}000 \times \tfrac{1}{3} = \$100{,}000$$
+$$\text{Panda's one-third interest} = \$300{,}000 \times \tfrac{1}{3} = \$100{,}000$$
 
 Because the contribution equals the proportionate share, no adjustment is needed:
 
 ```journal
 Dr. Cash[a] 100,000
-    Cr. Kingfisher, Capital[e] 100,000
+    Cr. Panda, Capital[e] 100,000
 ```
 
 ### Bonus Method
@@ -73,42 +73,42 @@ When the new partner's contribution **differs** from their proportionate share o
 
 If the new partner contributes **more** than the book value of their ownership share, the excess is a bonus allocated to the existing partners in their profit-and-loss ratio.
 
-**Example:** BIF Partners has total capital of \$200,000 (Bear \$120,000, Gies \$80,000; they share profits equally). MAS contributes \$160,000 for a 25% interest.
+**Example:** Kodiak Partners has total capital of \$200,000 (Bear \$120,000, Polar \$80,000; they share profits equally). Grizzly contributes \$160,000 for a 25% interest.
 
 $$\text{Total capital after admission} = \$200{,}000 + \$160{,}000 = \$360{,}000$$
 
-$$\text{MAS's 25\% share} = \$360{,}000 \times 0.25 = \$90{,}000$$
+$$\text{Grizzly's 25\% share} = \$360{,}000 \times 0.25 = \$90{,}000$$
 
 $$\text{Bonus to existing partners} = \$160{,}000 - \$90{,}000 = \$70{,}000$$
 
-The \$70,000 bonus is split equally between Bear and Gies (\$35,000 each):
+The \$70,000 bonus is split equally between Bear and Polar (\$35,000 each):
 
 ```journal
 Dr. Cash[a] 160,000
-    Cr. MAS, Capital[e] 90,000
+    Cr. Grizzly, Capital[e] 90,000
     Cr. Bear, Capital[e] 35,000
-    Cr. Gies, Capital[e] 35,000
+    Cr. Polar, Capital[e] 35,000
 ```
 
 #### Bonus to New Partner
 
 If the new partner contributes **less** than their proportionate share, the existing partners give up part of their capital as a bonus to the incoming partner.
 
-**Example:** BIF Partners has total capital of \$200,000 (Bear \$120,000, Gies \$80,000; profits shared equally). Illini Entertainment contributes \$40,000 for a 25% interest.
+**Example:** Kodiak Partners has total capital of \$200,000 (Bear \$120,000, Polar \$80,000; profits shared equally). Cub Entertainment contributes \$40,000 for a 25% interest.
 
 $$\text{Total capital after admission} = \$200{,}000 + \$40{,}000 = \$240{,}000$$
 
-$$\text{Illini Entertainment's 25\% share} = \$240{,}000 \times 0.25 = \$60{,}000$$
+$$\text{Cub Entertainment's 25\% share} = \$240{,}000 \times 0.25 = \$60{,}000$$
 
 $$\text{Bonus from existing partners} = \$60{,}000 - \$40{,}000 = \$20{,}000$$
 
-The \$20,000 is deducted from Bear and Gies equally (\$10,000 each):
+The \$20,000 is deducted from Bear and Polar equally (\$10,000 each):
 
 ```journal
 Dr. Cash[a] 40,000
 Dr. Bear, Capital[e] 10,000
-Dr. Gies, Capital[e] 10,000
-    Cr. Illini Entertainment, Capital[e] 60,000
+Dr. Polar, Capital[e] 10,000
+    Cr. Cub Entertainment, Capital[e] 60,000
 ```
 
 ### Goodwill Method
@@ -119,43 +119,43 @@ Under the goodwill method, the difference between the contribution and the propo
 
 If the new partner pays more than the book value of their ownership share, the excess implies that the existing partnership is worth more than its recorded net assets. Goodwill is attributed to the **existing partners**.
 
-**Example:** BIF Partners has total capital of \$200,000 (Bear \$120,000, Gies \$80,000; profits shared equally). Kingfisher contributes \$150,000 for a 25% interest.
+**Example:** Kodiak Partners has total capital of \$200,000 (Bear \$120,000, Polar \$80,000; profits shared equally). Panda contributes \$150,000 for a 25% interest.
 
-If Kingfisher's \$150,000 buys 25%, the implied total value of the partnership is:
+If Panda's \$150,000 buys 25%, the implied total value of the partnership is:
 
 $$\text{Implied Total Value} = \frac{\$150{,}000}{0.25} = \$600{,}000$$
 
 $$\text{Goodwill to existing partners} = \$600{,}000 - \$200{,}000 - \$150{,}000 = \$250{,}000$$
 
-The goodwill is allocated to Bear and Gies equally (\$125,000 each):
+The goodwill is allocated to Bear and Polar equally (\$125,000 each):
 
 ```journal
 Dr. Goodwill[a] 250,000
     Cr. Bear, Capital[e] 125,000
-    Cr. Gies, Capital[e] 125,000
+    Cr. Polar, Capital[e] 125,000
 ```
 
 ```journal
 Dr. Cash[a] 150,000
-    Cr. Kingfisher, Capital[e] 150,000
+    Cr. Panda, Capital[e] 150,000
 ```
 
-After these entries: Bear \$245,000 + Gies \$205,000 + Kingfisher \$150,000 = \$600,000. Kingfisher's share is \$150,000 / \$600,000 = 25%. ✓
+After these entries: Bear \$245,000 + Polar \$205,000 + Panda \$150,000 = \$600,000. Panda's share is \$150,000 / \$600,000 = 25%. ✓
 
 #### Goodwill to New Partner
 
 If the new partner contributes **less** than their proportionate share of existing net assets, goodwill may be attributed to the **new partner** (reflecting expertise, reputation, or a client base they bring).
 
-**Example:** BIF Partners has total capital of \$300,000 (Bear \$180,000, Gies \$120,000). Illini Security contributes \$60,000 for a 25% interest.
+**Example:** Kodiak Partners has total capital of \$300,000 (Bear \$180,000, Polar \$120,000). Sloth Security contributes \$60,000 for a 25% interest.
 
-$$\text{Illini Security's 25\% share} = (\$300{,}000 + \$60{,}000) \times 0.25 = \$90{,}000$$
+$$\text{Sloth Security's 25\% share} = (\$300{,}000 + \$60{,}000) \times 0.25 = \$90{,}000$$
 
 $$\text{Goodwill to new partner} = \$90{,}000 - \$60{,}000 = \$30{,}000$$
 
 ```journal
 Dr. Cash[a] 60,000
 Dr. Goodwill[a] 30,000
-    Cr. Illini Security, Capital[e] 90,000
+    Cr. Sloth Security, Capital[e] 90,000
 ```
 
 :::info[Bonus vs. Goodwill — How to Choose]
@@ -193,17 +193,17 @@ If the partnership agreement is **silent** on how to divide profits and losses, 
 
 ### Example — Multi-Step Allocation
 
-Bear, Gies, and Kingfisher are partners in Illini Community Foundation with the following agreement:
+Bear, Polar, and Panda are partners in Bruin Community Foundation with the following agreement:
 
-| Item | Bear | Gies | Kingfisher |
+| Item | Bear | Polar | Panda |
 |---|---|---|---|
 | Salary allowance | \$40,000 | \$30,000 | \$20,000 |
 | Interest on beginning capital (10%) | 10% of \$200,000 | 10% of \$150,000 | 10% of \$100,000 |
 | Residual ratio | 40% | 35% | 25% |
 
-Net income for the year is **\$170,000**. Beginning capital balances are Bear \$200,000, Gies \$150,000, Kingfisher \$100,000.
+Net income for the year is **\$170,000**. Beginning capital balances are Bear \$200,000, Polar \$150,000, Panda \$100,000.
 
-| Step | Bear | Gies | Kingfisher | Total |
+| Step | Bear | Polar | Panda | Total |
 |---|---|---|---|---|
 | Salary allowances | \$40,000 | \$30,000 | \$20,000 | \$90,000 |
 | Interest (10% of capital) | \$20,000 | \$15,000 | \$10,000 | \$45,000 |
@@ -215,8 +215,8 @@ Net income for the year is **\$170,000**. Beginning capital balances are Bear \$
 Dec 31
 Dr. Income Summary 170,000
     Cr. Bear, Capital[e] 74,000
-    Cr. Gies, Capital[e] 57,250
-    Cr. Kingfisher, Capital[e] 38,750
+    Cr. Polar, Capital[e] 57,250
+    Cr. Panda, Capital[e] 38,750
 ```
 
 :::note
@@ -233,45 +233,45 @@ When a partner withdraws, the partnership pays the departing partner from partne
 
 ### Bonus Method — Withdrawal
 
-**Example:** MAS Inc. withdraws from a three-partner firm. Capital balances are Bear \$100,000, Gies \$80,000, MAS \$70,000. The partnership pays MAS \$85,000. Bear and Gies share profits equally.
+**Example:** Grizzly Inc. withdraws from a three-partner firm. Capital balances are Bear \$100,000, Polar \$80,000, Grizzly \$70,000. The partnership pays Grizzly \$85,000. Bear and Polar share profits equally.
 
-MAS receives \$15,000 more than their capital balance. This bonus comes from the remaining partners:
+Grizzly receives \$15,000 more than their capital balance. This bonus comes from the remaining partners:
 
 ```journal
-Dr. MAS, Capital[e] 70,000
+Dr. Grizzly, Capital[e] 70,000
 Dr. Bear, Capital[e] 7,500
-Dr. Gies, Capital[e] 7,500
+Dr. Polar, Capital[e] 7,500
     Cr. Cash[a] 85,000
 ```
 
-If instead MAS accepted only \$60,000, the remaining partners receive a bonus:
+If instead Grizzly accepted only \$60,000, the remaining partners receive a bonus:
 
 ```journal
-Dr. MAS, Capital[e] 70,000
+Dr. Grizzly, Capital[e] 70,000
     Cr. Cash[a] 60,000
     Cr. Bear, Capital[e] 5,000
-    Cr. Gies, Capital[e] 5,000
+    Cr. Polar, Capital[e] 5,000
 ```
 
 ### Goodwill Method — Withdrawal
 
-**Example:** Same facts — MAS withdraws and receives \$85,000; their capital balance is \$70,000. Under the goodwill method, the \$15,000 excess implies the partnership has unrecorded goodwill.
+**Example:** Same facts — Grizzly withdraws and receives \$85,000; their capital balance is \$70,000. Under the goodwill method, the \$15,000 excess implies the partnership has unrecorded goodwill.
 
-If MAS holds a one-third interest, the implied total goodwill is:
+If Grizzly holds a one-third interest, the implied total goodwill is:
 
 $$\text{Implied Goodwill} = \frac{\$15{,}000}{1/3} = \$45{,}000$$
 
 ```journal
 Dr. Goodwill[a] 45,000
     Cr. Bear, Capital[e] 15,000
-    Cr. Gies, Capital[e] 15,000
-    Cr. MAS, Capital[e] 15,000
+    Cr. Polar, Capital[e] 15,000
+    Cr. Grizzly, Capital[e] 15,000
 ```
 
-Now MAS's capital is \$85,000. Pay the withdrawing partner:
+Now Grizzly's capital is \$85,000. Pay the withdrawing partner:
 
 ```journal
-Dr. MAS, Capital[e] 85,000
+Dr. Grizzly, Capital[e] 85,000
     Cr. Cash[a] 85,000
 ```
 
@@ -294,7 +294,7 @@ Cash is distributed to partners based on **capital balances**, not the profit-an
 
 ### Simple Liquidation Example
 
-Bear, Gies, and Kingfisher decide to liquidate BIF Partners. They share profits and losses 50:30:20. Pre-liquidation balances:
+Bear, Polar, and Panda decide to liquidate Kodiak Partners. They share profits and losses 50:30:20. Pre-liquidation balances:
 
 | Account | Amount |
 |---|---|
@@ -302,8 +302,8 @@ Bear, Gies, and Kingfisher decide to liquidate BIF Partners. They share profits 
 | Noncash Assets | \$270,000 |
 | Liabilities | \$60,000 |
 | Bear, Capital | \$120,000 |
-| Gies, Capital | \$72,000 |
-| Kingfisher, Capital | \$48,000 |
+| Polar, Capital | \$72,000 |
+| Panda, Capital | \$48,000 |
 
 The noncash assets are sold for \$180,000, resulting in a loss of \$90,000.
 
@@ -312,8 +312,8 @@ The noncash assets are sold for \$180,000, resulting in a loss of \$90,000.
 ```journal
 Dr. Cash[a] 180,000
 Dr. Bear, Capital[e] 45,000
-Dr. Gies, Capital[e] 27,000
-Dr. Kingfisher, Capital[e] 18,000
+Dr. Polar, Capital[e] 27,000
+Dr. Panda, Capital[e] 18,000
     Cr. Noncash Assets[a] 270,000
 ```
 
@@ -331,14 +331,14 @@ $$\text{Remaining cash} = \$30{,}000 + \$180{,}000 - \$60{,}000 = \$150{,}000$$
 | Partner | Original Capital | Loss Allocation | Ending Capital |
 |---|---|---|---|
 | Bear | \$120,000 | (\$45,000) | \$75,000 |
-| Gies | \$72,000 | (\$27,000) | \$45,000 |
-| Kingfisher | \$48,000 | (\$18,000) | \$30,000 |
+| Polar | \$72,000 | (\$27,000) | \$45,000 |
+| Panda | \$48,000 | (\$18,000) | \$30,000 |
 | **Total** | **\$240,000** | **(\$90,000)** | **\$150,000** |
 
 ```journal
 Dr. Bear, Capital[e] 75,000
-Dr. Gies, Capital[e] 45,000
-Dr. Kingfisher, Capital[e] 30,000
+Dr. Polar, Capital[e] 45,000
+Dr. Panda, Capital[e] 30,000
     Cr. Cash[a] 150,000
 ```
 
@@ -351,25 +351,25 @@ A **capital deficiency** occurs when a partner's capital account has a **debit b
 | Partner | Original Capital | Loss (50:30:20) | Ending Capital |
 |---|---|---|---|
 | Bear | \$120,000 | (\$105,000) | \$15,000 |
-| Gies | \$72,000 | (\$63,000) | \$9,000 |
-| Kingfisher | \$48,000 | (\$42,000) | **(\$6,000)** |
+| Polar | \$72,000 | (\$63,000) | \$9,000 |
+| Panda | \$48,000 | (\$42,000) | **(\$6,000)** |
 
-Kingfisher has a \$6,000 **deficiency**. Two outcomes are possible:
+Panda has a \$6,000 **deficiency**. Two outcomes are possible:
 
 #### Scenario A — Deficient Partner Pays
 
-Kingfisher contributes \$6,000 to eliminate the deficiency:
+Panda contributes \$6,000 to eliminate the deficiency:
 
 ```journal
 Dr. Cash[a] 6,000
-    Cr. Kingfisher, Capital[e] 6,000
+    Cr. Panda, Capital[e] 6,000
 ```
 
-All capital balances are now positive (Bear \$15,000, Gies \$9,000, Kingfisher \$0). Total cash available is \$36,000 (\$30,000 + \$60,000 − \$60,000 + \$6,000). Distribute to Bear and Gies:
+All capital balances are now positive (Bear \$15,000, Polar \$9,000, Panda \$0). Total cash available is \$36,000 (\$30,000 + \$60,000 − \$60,000 + \$6,000). Distribute to Bear and Polar:
 
 ```journal
 Dr. Bear, Capital[e] 15,000
-Dr. Gies, Capital[e] 9,000
+Dr. Polar, Capital[e] 9,000
     Cr. Cash[a] 24,000
 ```
 
@@ -377,28 +377,28 @@ The remaining \$12,000 of cash was used to pay liabilities earlier. Total cash d
 
 #### Scenario B — Deficient Partner Cannot Pay
 
-If Kingfisher **cannot pay** the deficiency, Bear and Gies absorb it in their **relative profit-and-loss ratio** (50:30, which simplifies to 5:3):
+If Panda **cannot pay** the deficiency, Bear and Polar absorb it in their **relative profit-and-loss ratio** (50:30, which simplifies to 5:3):
 
 - Bear absorbs: \$6,000 × 5/8 = \$3,750
-- Gies absorbs: \$6,000 × 3/8 = \$2,250
+- Polar absorbs: \$6,000 × 3/8 = \$2,250
 
 ```journal
 Dr. Bear, Capital[e] 3,750
-Dr. Gies, Capital[e] 2,250
-    Cr. Kingfisher, Capital[e] 6,000
+Dr. Polar, Capital[e] 2,250
+    Cr. Panda, Capital[e] 6,000
 ```
 
-Updated capital balances: Bear \$11,250; Gies \$6,750; Kingfisher \$0. Cash available is \$30,000 (\$30,000 + \$60,000 − \$60,000). Distribute:
+Updated capital balances: Bear \$11,250; Polar \$6,750; Panda \$0. Cash available is \$30,000 (\$30,000 + \$60,000 − \$60,000). Distribute:
 
 | Partner | Final Capital | Cash Received |
 |---|---|---|
 | Bear | \$11,250 | \$11,250 |
-| Gies | \$6,750 | \$6,750 |
-| Kingfisher | \$0 | \$0 |
+| Polar | \$6,750 | \$6,750 |
+| Panda | \$0 | \$0 |
 
 ```journal
 Dr. Bear, Capital[e] 11,250
-Dr. Gies, Capital[e] 6,750
+Dr. Polar, Capital[e] 6,750
     Cr. Cash[a] 18,000
 ```
 

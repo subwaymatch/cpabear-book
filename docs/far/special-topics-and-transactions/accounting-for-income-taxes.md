@@ -84,7 +84,7 @@ Dr. Income tax expense          2,730
 
 ### Deferred Tax Asset Example
 
-Gies Co. records an estimated warranty liability of \$50,000. For tax purposes, warranty costs are deductible only when paid. The tax rate is 21%.
+Polar Co. records an estimated warranty liability of \$50,000. For tax purposes, warranty costs are deductible only when paid. The tax rate is 21%.
 
 $$
 \text{DTA} = \$50{,}000 \times 21\% = \$10{,}500
@@ -97,7 +97,7 @@ Dr. Deferred tax asset         10,500
 
 ### Bad Debt Example
 
-MAS Inc. uses the allowance method and records bad debt expense of \$30,000. For tax purposes, bad debts are deductible only when written off (direct write-off method). None were written off this year.
+Grizzly Inc. uses the allowance method and records bad debt expense of \$30,000. For tax purposes, bad debts are deductible only when written off (direct write-off method). None were written off this year.
 
 $$
 \text{DTA} = \$30{,}000 \times 21\% = \$6{,}300
@@ -112,7 +112,7 @@ Dr. Deferred tax asset          6,300
 
 ## Comprehensive Example
 
-Kingfisher Industries has pretax financial income of \$500,000. The following differences exist:
+Panda Industries has pretax financial income of \$500,000. The following differences exist:
 | Item | Amount | Type |
 |---|---|---|
 | Municipal bond interest | \$20,000 | Permanent |
@@ -182,7 +182,7 @@ Factors suggesting a valuation allowance is needed:
 - Losses expected in the near future
 - Expiring carryforwards
 - Lack of future taxable income sources
-  BIF Partners has a DTA of \$60,000 but determines that only \$40,000 is more likely than not to be realized:
+  Kodiak Partners has a DTA of \$60,000 but determines that only \$40,000 is more likely than not to be realized:
 
 ```journal
 Dr. Income tax expense         20,000
@@ -236,7 +236,7 @@ For losses arising in 2021 and later, the NOL carryforward can offset only **80%
 
 :::
 
-**Example:** Illini Security has a 2024 NOL of \$100,000 and taxable income of \$150,000 in 2025:
+**Example:** Sloth Security has a 2024 NOL of \$100,000 and taxable income of \$150,000 in 2025:
 
 $$
 \text{Usable NOL} = \$150{,}000 \times 80\% = \$120{,}000 \text{ (but only \$100,000 available)}

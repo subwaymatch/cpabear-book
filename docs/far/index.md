@@ -20,15 +20,22 @@ FAR is one of four sections of the Uniform CPA Examination, alongside AUD (Audit
 
 ## Key Content Areas
 
-The FAR blueprint—published by the AICPA—organizes tested material into several broad areas:
+The FAR blueprint—published by the AICPA—organizes tested material into three content areas:
+
 | Content Area | Description | Approximate Weight |
 |---|---|---|
-| **Conceptual Framework & Standards** | GAAP hierarchy, FASB framework, qualitative characteristics | 10–20% |
-| **Financial Statement Accounts** | Assets, liabilities, equity, revenue, expenses | 25–35% |
-| **Transactions & Events** | Leases, bonds, contingencies, stock compensation, pensions | 20–30% |
-| **State & Local Governments** | Fund accounting, government-wide statements, GASB standards | 10–20% |
-| **Not-for-Profit Entities** | Contributions, net asset classifications, NFP reporting | 5–10% |
-| **SEC & IFRS Differences** | Key differences from U.S. GAAP, SEC reporting requirements | 5–10% |
+| **Area I — Financial Reporting** | General-purpose financial statements (for-profit and not-for-profit), state and local government concepts, public company reporting (10-Q/10-K/8-K, EPS), special-purpose frameworks, ratios and performance metrics | 30–40% |
+| **Area II — Select Balance Sheet Accounts** | Cash, receivables, inventory, PP&E, investments, intangibles, payables and accruals, long-term debt, equity, and related disclosures | 30–40% |
+| **Area III — Select Transactions** | Revenue recognition, leases, business combinations and consolidations, income taxes, fair value, accounting changes and error corrections, contingencies, subsequent events, foreign currency, and stock compensation | 25–35% |
+
+The exam also tests skills at four levels. The current allocation is:
+
+| Skill Level | Approximate Weight |
+|---|---|
+| Remembering and Understanding | 5–15% |
+| Application | 45–55% |
+| Analysis | 35–45% |
+| Evaluation | — |
 
 :::warning[Content Weights May Shift]
 
@@ -156,7 +163,7 @@ Throughout this textbook, you will encounter several recurring conventions:
 - **Journal entries** appear in `journal` code blocks with debits listed first and credits indented
 - **Dollar amounts** are shown with the \$ symbol (e.g., \$50,000)
 - **Math formulas** use KaTeX notation: $$\text{Net Income} = \text{Revenue} - \text{Expenses}$$
-- **Company names** in examples include Bear Co., Gies Co., MAS Inc., BIF Partners, Kingfisher Industries, Illini Entertainment, and Illini Security
+- **Company names** in examples are bear-themed (e.g., Bear Co., Polar Co., Grizzly Inc., Kodiak Partners, Panda Industries, Cub Entertainment, Sloth Security, Bruin Community Foundation, Polar University, Bear Valley Hospital)
 - **Admonitions** highlight tips, warnings, and important notes using colored callout boxes
 
   :::danger[Common Pitfall]

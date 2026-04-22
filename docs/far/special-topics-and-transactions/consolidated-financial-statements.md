@@ -28,24 +28,24 @@ All intercompany transactions are eliminated **at 100%** regardless of the paren
 
 ### Eliminating Intercompany Accounts
 
-**Intercompany receivables and payables:** Bear Co. (parent) has a \$50,000 receivable from Gies Co. (subsidiary):
+**Intercompany receivables and payables:** Bear Co. (parent) has a \$50,000 receivable from Polar Co. (subsidiary):
 
 ```journal
-Dr. Accounts payable (Gies)    50,000
+Dr. Accounts payable (Polar)    50,000
     Cr. Accounts receivable (Bear)     50,000
 ```
 
-**Intercompany interest:** Bear Co. charged Gies Co. \$3,000 of interest on an intercompany loan:
+**Intercompany interest:** Bear Co. charged Polar Co. \$3,000 of interest on an intercompany loan:
 
 ```journal
 Dr. Interest revenue (Bear)     3,000
-    Cr. Interest expense (Gies)         3,000
+    Cr. Interest expense (Polar)         3,000
 ```
 
-**Intercompany loans:** Bear Co. loaned Gies Co. \$100,000:
+**Intercompany loans:** Bear Co. loaned Polar Co. \$100,000:
 
 ```journal
-Dr. Notes payable (Gies)     100,000
+Dr. Notes payable (Polar)     100,000
     Cr. Notes receivable (Bear)       100,000
 ```
 
@@ -57,7 +57,7 @@ When one affiliate sells inventory to another, the **intercompany sale, cost of 
 
 ### Downstream Sale (Parent → Subsidiary)
 
-Bear Co. sells inventory costing \$60,000 to Gies Co. for \$80,000. At year-end, Gies Co. still holds 25% of this inventory.
+Bear Co. sells inventory costing \$60,000 to Polar Co. for \$80,000. At year-end, Polar Co. still holds 25% of this inventory.
 **Step 1 — Eliminate intercompany sale and COGS:**
 
 ```journal
@@ -70,7 +70,7 @@ Unrealized profit = (\$80,000 − \$60,000) × 25% = \$5,000
 
 ```journal
 Dr. Cost of goods sold          5,000
-    Cr. Inventory (Gies)               5,000
+    Cr. Inventory (Polar)               5,000
 ```
 
 :::tip[Exam Tip]
@@ -81,12 +81,12 @@ In a **downstream** sale, 100% of the unrealized profit is eliminated against th
 
 ### Upstream Sale (Subsidiary → Parent)
 
-Gies Co. (80%-owned subsidiary) sells inventory costing \$40,000 to Bear Co. for \$55,000. Bear Co. still holds 40% at year-end.
+Polar Co. (80%-owned subsidiary) sells inventory costing \$40,000 to Bear Co. for \$55,000. Bear Co. still holds 40% at year-end.
 **Eliminate intercompany sale and COGS:**
 
 ```journal
-Dr. Sales (Gies)               55,000
-    Cr. Cost of goods sold (Gies)      55,000
+Dr. Sales (Polar)               55,000
+    Cr. Cost of goods sold (Polar)      55,000
 ```
 
 **Eliminate unrealized profit:**
@@ -107,14 +107,14 @@ Allocation of the \$6,000 unrealized profit elimination:
 ## Intercompany Bond Transactions
 
 When one affiliate purchases the bonds of another on the open market, from the consolidated perspective the debt is effectively **retired**. Any difference between the carrying amount and the purchase price results in a **constructive gain or loss**.
-MAS Inc. (parent) has \$200,000 of bonds outstanding with a carrying value of \$196,000. BIF Partners (subsidiary) purchases these bonds on the open market for \$193,000.
+Grizzly Inc. (parent) has \$200,000 of bonds outstanding with a carrying value of \$196,000. Kodiak Partners (subsidiary) purchases these bonds on the open market for \$193,000.
 Constructive gain: \$196,000 − \$193,000 = \$3,000
 **Elimination entry:**
 
 ```journal
-Dr. Bonds payable (MAS)       200,000
-    Cr. Discount on bonds (MAS)         4,000
-    Cr. Investment in bonds (BIF)     193,000
+Dr. Bonds payable (Grizzly)       200,000
+    Cr. Discount on bonds (Grizzly)         4,000
+    Cr. Investment in bonds (Kodiak)     193,000
     Cr. Gain on constructive retirement  3,000
 ```
 
@@ -123,7 +123,7 @@ Dr. Bonds payable (MAS)       200,000
 ## Intercompany Land Transactions
 
 When one affiliate sells land to another, any **unrealized gain or loss** must be eliminated until the land is sold to an outside party.
-Bear Co. sells land (book value \$100,000) to Gies Co. for \$130,000.
+Bear Co. sells land (book value \$100,000) to Polar Co. for \$130,000.
 **Elimination entry:**
 
 ```journal
@@ -139,7 +139,7 @@ When one affiliate sells a depreciable asset to another at a gain, two adjustmen
 
 1. **Eliminate the unrealized gain** and restore the asset to original cost
 2. **Adjust depreciation** — the buyer is depreciating a higher basis, so excess depreciation is eliminated each year
-   Kingfisher Industries sells equipment (cost \$80,000, accumulated depreciation \$30,000) to Illini Entertainment for \$70,000. Remaining life is 5 years.
+   Panda Industries sells equipment (cost \$80,000, accumulated depreciation \$30,000) to Cub Entertainment for \$70,000. Remaining life is 5 years.
    Gain on intercompany sale: \$70,000 − (\$80,000 − \$30,000) = \$20,000
    **Year of sale — eliminate gain and adjust asset:**
 
@@ -229,7 +229,7 @@ The consolidated statement of cash flows includes:
 - Cash paid for the acquisition is reported as an **investing activity** (net of any cash acquired)
 - Only **post-acquisition** cash flows of the subsidiary are included
 - Intercompany cash flows are eliminated
-  **Example:** Bear Co. pays \$640,000 cash to acquire 80% of Gies Co. Gies Co. had \$40,000 cash at acquisition:
+  **Example:** Bear Co. pays \$640,000 cash to acquire 80% of Polar Co. Polar Co. had \$40,000 cash at acquisition:
   Cash outflow reported in investing activities:
   $$
   \$640{,}000 - \$40{,}000 = \$600{,}000
@@ -285,7 +285,7 @@ When pushdown accounting is applied:
 
 ### Example
 
-Kingfisher Industries acquires 100% of MAS Inc. for \$5,000,000. The book value of MAS's net assets is \$3,500,000, and the fair value of identifiable net assets is \$4,200,000. MAS elects pushdown accounting.
+Panda Industries acquires 100% of Grizzly Inc. for \$5,000,000. The book value of Grizzly's net assets is \$3,500,000, and the fair value of identifiable net assets is \$4,200,000. Grizzly elects pushdown accounting.
 
 | Item | Amount |
 |---|---:|
@@ -293,7 +293,7 @@ Kingfisher Industries acquires 100% of MAS Inc. for \$5,000,000. The book value 
 | Fair value of identifiable net assets | \$4,200,000 |
 | **Goodwill** | **\$800,000** |
 
-On MAS's standalone books, all assets and liabilities are adjusted to fair value, and \$800,000 of goodwill is recorded. Pre-acquisition equity is eliminated and replaced with the new basis.
+On Grizzly's standalone books, all assets and liabilities are adjusted to fair value, and \$800,000 of goodwill is recorded. Pre-acquisition equity is eliminated and replaced with the new basis.
 
 :::info
 
