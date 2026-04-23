@@ -41,7 +41,7 @@ The criteria must be:
 - **Complete** — Cover all relevant aspects of the subject matter
 - **Relevant** — Related to the subject matter in a meaningful way
 
-**Example:** Gies Co. engages a CPA to examine the effectiveness of its cybersecurity controls. The subject matter is Gies Co.'s cybersecurity risk management program; the criteria are the AICPA's cybersecurity reporting framework. The CPA performs an examination and issues an opinion on whether Gies Co.'s cybersecurity controls are effective based on those criteria.
+**Example:** Bear Co. engages a CPA to examine the effectiveness of its cybersecurity controls. The subject matter is Bear Co.'s cybersecurity risk management program; the criteria are the AICPA's cybersecurity reporting framework. The CPA performs an examination and issues an opinion on whether Bear Co.'s cybersecurity controls are effective based on those criteria.
 
 ---
 
@@ -65,7 +65,7 @@ The examination report includes:
 - The practitioner's **opinion**
 - The **date** of the report and the **signature** of the practitioner's firm
 
-**Example:** BIF Partners engages a CPA firm to examine whether BIF Partners' description of its system and the suitability of the design and operating effectiveness of its controls meet the criteria in the AICPA's trust services criteria (a SOC 2 engagement). The CPA firm issues an examination report with an opinion on the subject matter.
+**Example:** Kodiak Partners engages a CPA firm to examine whether Kodiak Partners' description of its system and the suitability of the design and operating effectiveness of its controls meet the criteria in the AICPA's trust services criteria (a SOC 2 engagement). The CPA firm issues an examination report with an opinion on the subject matter.
 
 ---
 
@@ -89,7 +89,7 @@ In an **AUP engagement**, the practitioner performs only the specific procedures
 | **Use restriction** | Limits use to specified parties (unless general use under AT-C 215) |
 | **No opinion** | Explicitly states that no opinion or conclusion is expressed |
 
-**Example:** MSA Records is applying for a loan and the bank requires a CPA to verify that MSA Records' accounts receivable aging schedule is mathematically accurate and that a sample of receivables can be confirmed directly with customers. The CPA performs only these two agreed-upon procedures and reports the findings. The CPA does not express an opinion on MSA Records' accounts receivable.
+**Example:** Panda Records is applying for a loan and the bank requires a CPA to verify that Panda Records' accounts receivable aging schedule is mathematically accurate and that a sample of receivables can be confirmed directly with customers. The CPA performs only these two agreed-upon procedures and reports the findings. The CPA does not express an opinion on Panda Records' accounts receivable.
 
 :::caution
 
@@ -120,7 +120,7 @@ You **cannot** perform a review engagement on prospective financial statements�
 
 :::
 
-**Example:** Kingfisher Industries prepares a financial forecast projecting revenue growth of 8% per year over the next three years based on current market conditions. Kingfisher engages a CPA to examine the forecast. The CPA evaluates whether the assumptions are reasonable and whether the forecast is presented in conformity with AICPA guidelines, then issues an examination report with an opinion.
+**Example:** Grizzly Industries prepares a financial forecast projecting revenue growth of 8% per year over the next three years based on current market conditions. Grizzly engages a CPA to examine the forecast. The CPA evaluates whether the assumptions are reasonable and whether the forecast is presented in conformity with AICPA guidelines, then issues an examination report with an opinion.
 
 ---
 
@@ -134,7 +134,7 @@ A practitioner may perform an **examination** or a **review** of pro forma finan
 - The practitioner must understand the **transaction** and its pro forma adjustments
 - The report identifies the **pro forma adjustments** and their basis
 
-**Example:** Illini Entertainment acquires a competing media company and prepares pro forma financial statements showing combined operations as if the acquisition occurred at the beginning of the year. Illini Entertainment engages a CPA to review the pro forma financial information. The CPA performs inquiry and analytical procedures and issues a review report providing limited assurance.
+**Example:** Honey Entertainment acquires a competing media company and prepares pro forma financial statements showing combined operations as if the acquisition occurred at the beginning of the year. Honey Entertainment engages a CPA to review the pro forma financial information. The CPA performs inquiry and analytical procedures and issues a review report providing limited assurance.
 
 ---
 
@@ -146,7 +146,7 @@ Under **AT-C 315**, a practitioner may be engaged to examine or perform agreed-u
 - An **AUP** engagement results in a report of factual findings related to compliance
 - A **review** of compliance is **not** a defined engagement type under AT-C 315
 
-**Example:** Illini Security holds a government contract that requires compliance with specific data handling and security protocols. The contracting agency requires an independent examination of Illini Security's compliance with those requirements. The CPA examines the relevant controls and procedures and issues an opinion on whether Illini Security complied with the specified data handling requirements.
+**Example:** Ursa Security holds a government contract that requires compliance with specific data handling and security protocols. The contracting agency requires an independent examination of Ursa Security's compliance with those requirements. The CPA examines the relevant controls and procedures and issues an opinion on whether Ursa Security complied with the specified data handling requirements.
 
 ---
 

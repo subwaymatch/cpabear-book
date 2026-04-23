@@ -25,12 +25,12 @@ Related parties can be difficult to identify because management may not always b
 
 :::
 
-### Example: Identifying Related Parties at Kingfisher Industries
+### Example: Identifying Related Parties at Grizzly Industries
 
-While auditing Kingfisher Industries, the auditor:
-- Inquires of management and learns that the CEO's brother owns MSA Records, a vendor that supplies promotional materials
-- Reviews SEC proxy filings and identifies that a board member has a 15% ownership interest in Illini Entertainment, a customer
-- Examines the prior year audit file, which documented transactions with BIF Partners, an entity co-owned by Kingfisher's CFO
+While auditing Grizzly Industries, the auditor:
+- Inquires of management and learns that the CEO's brother owns Panda Records, a vendor that supplies promotional materials
+- Reviews SEC proxy filings and identifies that a board member has a 15% ownership interest in Honey Entertainment, a customer
+- Examines the prior year audit file, which documented transactions with Kodiak Partners, an entity co-owned by Grizzly's CFO
 - Reviews all transactions with these parties for proper arm's-length pricing and adequate disclosure
 
 ### Red Flags for Undisclosed Related Party Transactions
@@ -62,7 +62,7 @@ When auditing any entity, the auditor must evaluate whether there is **substanti
 | **Financial** | Recurring operating losses, negative cash flows, working capital deficiency, inability to meet debt obligations |
 | **Operational** | Loss of key management, loss of a major customer or supplier, labor difficulties, uninsured catastrophes |
 | **Legal/Regulatory** | Pending litigation with potentially devastating outcomes, loss of a key license or patent |
-| **External** | Economic downturns affecting the industry, loss of a principal customer (e.g., Illini Security loses its largest contract) |
+| **External** | Economic downturns affecting the industry, loss of a principal customer (e.g., Ursa Security loses its largest contract) |
 
 ### Going Concern Period
 
@@ -103,15 +103,15 @@ The paragraph is added **after** the opinion paragraph (for AICPA standards) and
 
 :::
 
-### Example: Going Concern at Illini Entertainment
+### Example: Going Concern at Honey Entertainment
 
-Illini Entertainment has experienced three consecutive years of operating losses totaling \$4.2 million, has a working capital deficit of \$1.8 million, and its primary credit facility expires in six months. The auditor evaluates management's plan to raise \$3 million through a new equity offering and renegotiate the credit facility.
+Honey Entertainment has experienced three consecutive years of operating losses totaling \$4.2 million, has a working capital deficit of \$1.8 million, and its primary credit facility expires in six months. The auditor evaluates management's plan to raise \$3 million through a new equity offering and renegotiate the credit facility.
 
 After evaluating the feasibility of these plans (reviewing term sheets from potential investors and preliminary discussions with the bank), the auditor concludes that **substantial doubt remains** because the equity offering is not yet committed and the bank has not agreed to extend the facility.
 
 The auditor includes an emphasis-of-matter paragraph in the audit report:
 
-> *The accompanying financial statements have been prepared assuming that Illini Entertainment will continue as a going concern. As discussed in Note 12 to the financial statements, the Company has suffered recurring losses from operations and has a working capital deficiency that raise **substantial doubt** about its ability to continue as a **going concern**. Management's plans regarding these matters are also described in Note 12. The financial statements do not include any adjustments that might result from the outcome of this uncertainty.*
+> *The accompanying financial statements have been prepared assuming that Honey Entertainment will continue as a going concern. As discussed in Note 12 to the financial statements, the Company has suffered recurring losses from operations and has a working capital deficiency that raise **substantial doubt** about its ability to continue as a **going concern**. Management's plans regarding these matters are also described in Note 12. The financial statements do not include any adjustments that might result from the outcome of this uncertainty.*
 
 ## Summary
 

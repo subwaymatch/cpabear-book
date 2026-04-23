@@ -23,7 +23,7 @@ IT controls are broadly divided into two categories:
 
 GITCs create the foundation upon which application controls operate. If GITCs are weak—for example, if anyone can modify a payroll application without authorization—then the application controls within that system cannot be relied upon, even if they appear well designed.
 
-**Example:** MAS Inc. uses an ERP system to process accounts payable. The system has an automated three-way match (application control) that compares purchase orders, receiving reports, and vendor invoices before authorizing payment. However, if MAS Inc. lacks adequate program change controls (a GITC), a programmer could modify the matching logic to bypass the control—rendering the three-way match unreliable.
+**Example:** Polar Inc. uses an ERP system to process accounts payable. The system has an automated three-way match (application control) that compares purchase orders, receiving reports, and vendor invoices before authorizing payment. However, if Polar Inc. lacks adequate program change controls (a GITC), a programmer could modify the matching logic to bypass the control—rendering the three-way match unreliable.
 
 :::tip[Exam Tip]
 
@@ -48,7 +48,7 @@ Key elements include:
 - **Segregation of environments** — Development, testing, and production environments are separated
 - **Documentation** — Changes are logged with details of what was modified, by whom, and when
 
-**Example:** Kingfisher Industries requires that any changes to its revenue recognition module go through a formal change request, testing in a sandbox environment, approval by the IT manager and the controller, and documentation in a change log before deployment.
+**Example:** Grizzly Industries requires that any changes to its revenue recognition module go through a formal change request, testing in a sandbox environment, approval by the IT manager and the controller, and documentation in a change log before deployment.
 
 ### Access Controls (Logical and Physical)
 
@@ -70,7 +70,7 @@ Key principles include **least privilege** (users receive only the minimum acces
 - **Incident management** — Procedures for identifying, escalating, and resolving system errors or outages
 - **Monitoring** — Automated alerts for system failures, capacity thresholds, or abnormal activity
 
-**Example:** Gies Co. runs a nightly batch job to post all journal entries from its subledgers to the general ledger. Computer operations controls ensure this job runs every night at 11:00 PM, that any failures trigger an automated alert to the IT operations team, and that a recovery procedure exists if the job fails mid-process.
+**Example:** Bear Co. runs a nightly batch job to post all journal entries from its subledgers to the general ledger. Computer operations controls ensure this job runs every night at 11:00 PM, that any failures trigger an automated alert to the IT operations team, and that a recovery procedure exists if the job fails mid-process.
 
 ### Data Integrity Controls
 
@@ -100,7 +100,7 @@ Application controls are embedded within specific software programs and operate 
 | **Authorization controls** | Require approval before a transaction can be entered or submitted |
 | **Batch totals** | Compare control totals (hash totals, record counts, financial totals) to verify that all items in a batch were entered |
 
-**Example:** BIF Partners' accounts receivable system requires that every customer invoice include a valid customer number (validity check), an invoice amount between \$1 and \$10,000,000 (range check), and a populated due date (completeness check). Invoices failing any check are rejected and routed to an exception report.
+**Example:** Kodiak Partners' accounts receivable system requires that every customer invoice include a valid customer number (validity check), an invoice amount between \$1 and \$10,000,000 (range check), and a populated due date (completeness check). Invoices failing any check are rejected and routed to an exception report.
 
 ### Processing Controls
 
@@ -151,7 +151,7 @@ EUC risks include:
 - **Lack of testing** — Spreadsheet logic may contain undetected errors
 - **Limited audit trail** — Changes are often untraceable
 
-**Example:** Illini Entertainment uses an Excel spreadsheet to calculate its allowance for doubtful accounts. The spreadsheet contains complex formulas and links to data exported from the ERP system. Because the spreadsheet is maintained by one accountant with no formal review or change controls, there is a significant risk that formula errors or unauthorized changes could result in a material misstatement.
+**Example:** Honey Entertainment uses an Excel spreadsheet to calculate its allowance for doubtful accounts. The spreadsheet contains complex formulas and links to data exported from the ERP system. Because the spreadsheet is maintained by one accountant with no formal review or change controls, there is a significant risk that formula errors or unauthorized changes could result in a material misstatement.
 
 :::warning
 
@@ -188,7 +188,7 @@ The auditor should consider:
 - **Incident response plans** and whether significant breaches have occurred
 - The effect of any cybersecurity incidents on the **financial statements and disclosures**
 
-**Example:** Illini Security, a cybersecurity firm, discovers that a client—MSA Records—experienced a data breach that exposed customer financial data. MSA Records must evaluate whether the breach creates a contingent liability requiring disclosure and whether any financial data was compromised, which could affect the completeness and accuracy of recorded transactions.
+**Example:** Ursa Security, a cybersecurity firm, discovers that a client—Panda Records—experienced a data breach that exposed customer financial data. Panda Records must evaluate whether the breach creates a contingent liability requiring disclosure and whether any financial data was compromised, which could affect the completeness and accuracy of recorded transactions.
 
 ---
 

@@ -53,7 +53,7 @@ SQMS No. 1 takes a **risk-based approach** to quality management. The firm must:
 3. **Design and implement responses** — What policies and procedures will address those risks?
 4. **Monitor effectiveness** — Are the responses working as intended?
 
-**Example:** Gies Co.'s audit firm identifies a quality risk that staff assigned to complex fair value audits may lack sufficient expertise. In response, the firm implements a policy requiring that at least one team member with specialized valuation training be assigned to any engagement involving significant Level 3 fair value measurements.
+**Example:** Bear Co.'s audit firm identifies a quality risk that staff assigned to complex fair value audits may lack sufficient expertise. In response, the firm implements a policy requiring that at least one team member with specialized valuation training be assigned to any engagement involving significant Level 3 fair value measurements.
 
 ---
 
@@ -85,7 +85,7 @@ The firm considers the following factors when determining whether an EQR is nece
 - Whether there are **unusual circumstances** or emerging risks
 - Whether the engagement involves a **new client** or a **first-year audit**
 
-**Example:** BIF Partners takes on a new audit engagement for MSA Records, a rapidly growing entertainment company that recently completed an IPO. Because this is a first-year audit of a newly public company, the firm determines that an EQR is mandatory.
+**Example:** Kodiak Partners takes on a new audit engagement for Panda Records, a rapidly growing entertainment company that recently completed an IPO. Because this is a first-year audit of a newly public company, the firm determines that an EQR is mandatory.
 
 ### Eligibility of the EQR Reviewer
 
@@ -121,7 +121,7 @@ A **concurring partner review** (sometimes used interchangeably with EQR in cert
 | **Authority** | Cannot be overruled by the engagement partner | Cannot be overruled by the engagement partner |
 | **Timing** | Must be completed before report issuance | Must be completed before report issuance |
 
-**Example:** Kingfisher Industries is a publicly traded manufacturer. Under PCAOB standards, the audit firm assigns a concurring partner who was not involved in the engagement to review the engagement team's conclusions on significant estimates, including inventory obsolescence reserves and warranty liabilities, before the audit report is released.
+**Example:** Grizzly Industries is a publicly traded manufacturer. Under PCAOB standards, the audit firm assigns a concurring partner who was not involved in the engagement to review the engagement team's conclusions on significant estimates, including inventory obsolescence reserves and warranty liabilities, before the audit report is released.
 
 ---
 
@@ -160,7 +160,7 @@ When monitoring or inspection activities identify deficiencies, the firm must:
 3. **Design remedial actions** — What changes to policies, procedures, training, or resources will address the deficiency?
 4. **Implement and follow up** — Ensure the remedial actions are put into place and are effective
 
-**Example:** During its annual inspection, Illini Security's audit firm discovers that three engagement files lacked documentation of the assessed risk of material misstatement at the assertion level. The firm investigates and determines that the root cause was insufficient training on new documentation standards. The remedial action includes mandatory training sessions and updated engagement checklists.
+**Example:** During its annual inspection, Ursa Security's audit firm discovers that three engagement files lacked documentation of the assessed risk of material misstatement at the assertion level. The firm investigates and determines that the root cause was insufficient training on new documentation standards. The remedial action includes mandatory training sessions and updated engagement checklists.
 
 ### External Monitoring: Peer Review
 

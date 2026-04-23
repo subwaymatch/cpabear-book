@@ -20,7 +20,7 @@ In an integrated audit, the auditor must:
 - **Use the work performed** in each audit to inform the other
 - **Form a separate opinion** on the effectiveness of ICFR as of the entity's fiscal year-end
 
-**Example:** Gies Co., a publicly traded manufacturer, engages its auditor for the annual audit. Because Gies Co. is an SEC registrant, the engagement is an integrated audit. The auditor must issue two opinions: one on the financial statements and one on the effectiveness of Gies Co.'s ICFR.
+**Example:** Bear Co., a publicly traded manufacturer, engages its auditor for the annual audit. Because Bear Co. is an SEC registrant, the engagement is an integrated audit. The auditor must issue two opinions: one on the financial statements and one on the effectiveness of Bear Co.'s ICFR.
 
 ---
 
@@ -69,7 +69,7 @@ The threshold for a material weakness is **reasonable possibility**—not "proba
 
 :::
 
-**Example:** During the integrated audit of MAS Inc., the auditor discovers that no one reviews the bank reconciliation prepared by the accounts payable clerk—the same person who processes cash disbursements. This lack of segregation of duties over cash, combined with the absence of a compensating review control, constitutes a **material weakness** because there is a reasonable possibility that a material misstatement in cash could go undetected.
+**Example:** During the integrated audit of Polar Inc., the auditor discovers that no one reviews the bank reconciliation prepared by the accounts payable clerk—the same person who processes cash disbursements. This lack of segregation of duties over cash, combined with the absence of a compensating review control, constitutes a **material weakness** because there is a reasonable possibility that a material misstatement in cash could go undetected.
 
 ---
 
@@ -114,7 +114,7 @@ The auditor has specific communication obligations:
 - All deficiencies identified during the audit (including those less severe than significant deficiencies) should be communicated to management in writing
 - Management is responsible for assessing and remediating identified deficiencies
 
-**Example:** Kingfisher Industries' auditor identifies three control deficiencies in the revenue cycle, one of which individually constitutes a significant deficiency. The auditor communicates all three deficiencies to management in writing. The significant deficiency is also communicated in writing to the audit committee. Because none of the deficiencies—individually or in combination—rise to the level of a material weakness, the auditor issues an unqualified opinion on ICFR.
+**Example:** Grizzly Industries' auditor identifies three control deficiencies in the revenue cycle, one of which individually constitutes a significant deficiency. The auditor communicates all three deficiencies to management in writing. The significant deficiency is also communicated in writing to the audit committee. Because none of the deficiencies—individually or in combination—rise to the level of a material weakness, the auditor issues an unqualified opinion on ICFR.
 
 ---
 
@@ -152,7 +152,7 @@ The auditor may present the ICFR opinion and the financial statement opinion in 
 
 When using separate reports, the report on ICFR must include a **reference to the separate financial statement audit report**, and the financial statement report must reference the ICFR report.
 
-**Example:** BIF Partners' auditor issues a combined report that includes an unqualified opinion on BIF Partners' financial statements and an adverse opinion on ICFR due to a material weakness in the entity's inventory valuation controls. Both opinions appear in a single document, with the adverse ICFR opinion clearly separated from the unqualified financial statement opinion.
+**Example:** Kodiak Partners' auditor issues a combined report that includes an unqualified opinion on Kodiak Partners' financial statements and an adverse opinion on ICFR due to a material weakness in the entity's inventory valuation controls. Both opinions appear in a single document, with the adverse ICFR opinion clearly separated from the unqualified financial statement opinion.
 
 ---
 

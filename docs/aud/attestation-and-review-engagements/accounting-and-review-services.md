@@ -42,7 +42,7 @@ A **preparation engagement** is the most basic service. The CPA assists manageme
 - If disclosures are omitted, the financial statements should indicate that **"Substantially all disclosures required by [framework] are not included"**
 - The omission must not be undertaken with the intent to **mislead** users
 
-**Example:** Gies Co.'s management needs monthly internal financial statements for decision-making. They engage a CPA to prepare the statements. The CPA prepares the balance sheet and income statement, omitting all footnote disclosures, and includes on each page: "No assurance is provided on these financial statements. Substantially all disclosures required by accounting principles generally accepted in the United States of America are not included."
+**Example:** Bear Co.'s management needs monthly internal financial statements for decision-making. They engage a CPA to prepare the statements. The CPA prepares the balance sheet and income statement, omitting all footnote disclosures, and includes on each page: "No assurance is provided on these financial statements. Substantially all disclosures required by accounting principles generally accepted in the United States of America are not included."
 
 ---
 
@@ -75,7 +75,7 @@ The compilation report includes:
 - However, if the CPA is **not independent**, the compilation report must include a statement: "I am (We are) not independent with respect to [entity name]"
 - The CPA is **not required to disclose the reason** for the lack of independence (but may do so)
 
-**Example:** MAS Inc., a privately held company, engages a CPA to compile its annual financial statements. The CPA's spouse is a 10% owner of MAS Inc., making the CPA not independent. The CPA may still perform the compilation but must include in the report: "We are not independent with respect to MAS Inc."
+**Example:** Polar Inc., a privately held company, engages a CPA to compile its annual financial statements. The CPA's spouse is a 10% owner of Polar Inc., making the CPA not independent. The CPA may still perform the compilation but must include in the report: "We are not independent with respect to Polar Inc."
 
 :::caution
 
@@ -122,7 +122,7 @@ The review report includes:
 - A statement that the CPA did **not express an audit opinion**
 - The CPA's **signature** and the **date** of the report
 
-**Example:** BIF Partners engages a CPA to review its annual financial statements. The CPA performs inquiry and analytical procedures, obtains a management representation letter, and issues a review report stating: "Based on our review, we are not aware of any material modifications that should be made to the accompanying financial statements in order for them to be in accordance with accounting principles generally accepted in the United States of America."
+**Example:** Kodiak Partners engages a CPA to review its annual financial statements. The CPA performs inquiry and analytical procedures, obtains a management representation letter, and issues a review report stating: "Based on our review, we are not aware of any material modifications that should be made to the accompanying financial statements in order for them to be in accordance with accounting principles generally accepted in the United States of America."
 
 ---
 
@@ -172,7 +172,7 @@ Only **compilation** and **preparation** engagements may be performed when the C
 - **Compilation**: The CPA must disclose the lack of independence in the compilation report. The CPA may, but is not required to, describe the reason for the impairment.
 - **Review**: Cannot be performed if the CPA is not independent. The CPA must **decline** or **withdraw** from the engagement.
 
-**Example:** Kingfisher Industries asks its CPA, whose brother is the company's CFO, to perform a review engagement. The CPA must decline because independence is impaired by the close family relationship with a key member of management. The CPA could offer to perform a compilation instead, with the required independence disclosure.
+**Example:** Grizzly Industries asks its CPA, whose brother is the company's CFO, to perform a review engagement. The CPA must decline because independence is impaired by the close family relationship with a key member of management. The CPA could offer to perform a compilation instead, with the required independence disclosure.
 
 ---
 

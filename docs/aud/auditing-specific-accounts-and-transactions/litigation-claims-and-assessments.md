@@ -117,17 +117,17 @@ A refusal by the attorney to respond—or a significantly limited response—doe
 
 :::
 
-### Example: Attorney Letter at Kingfisher Industries
+### Example: Attorney Letter at Grizzly Industries
 
-Kingfisher Industries is defending against two lawsuits:
+Grizzly Industries is defending against two lawsuits:
 1. **Patent infringement claim** filed by a competitor seeking \$2,000,000 in damages
 2. **Slip-and-fall personal injury claim** by a former employee seeking \$150,000
 
-Management prepares a letter listing both matters and sends it to Kingfisher's outside counsel. The attorney responds:
+Management prepares a letter listing both matters and sends it to Grizzly's outside counsel. The attorney responds:
 - **Patent claim**: Likelihood of unfavorable outcome assessed as "reasonably possible"; potential loss range of \$500,000–\$2,000,000
 - **Personal injury claim**: Likelihood assessed as "probable"; estimated loss of \$120,000
 
-Based on the response, the auditor verifies that Kingfisher has:
+Based on the response, the auditor verifies that Grizzly has:
 - **Accrued** \$120,000 for the personal injury claim (probable and estimable)
 - **Disclosed** the patent infringement claim in the notes with the range of potential loss (reasonably possible)
 
@@ -179,9 +179,9 @@ The management representation letter supplements—but does not replace—the at
 
 :::
 
-### Example: Representation Letter at Illini Entertainment
+### Example: Representation Letter at Honey Entertainment
 
-Illini Entertainment's CFO signs a management representation letter stating: *"We have disclosed to you all pending and threatened litigation and claims. We believe the accruals and disclosures in the financial statements are adequate."* However, during the subsequent events review, the auditor discovers a new \$5,000,000 copyright infringement lawsuit filed two weeks after the balance sheet date. The auditor must:
+Honey Entertainment's CFO signs a management representation letter stating: *"We have disclosed to you all pending and threatened litigation and claims. We believe the accruals and disclosures in the financial statements are adequate."* However, during the subsequent events review, the auditor discovers a new \$5,000,000 copyright infringement lawsuit filed two weeks after the balance sheet date. The auditor must:
 1. Inquire about why this was not disclosed earlier
 2. Evaluate whether the lawsuit relates to conditions existing at the balance sheet date
 3. Determine whether an accrual or disclosure adjustment is needed
@@ -202,9 +202,9 @@ Illini Entertainment's CFO signs a management representation letter stating: *"W
 
 When litigation creates significant uncertainty about the entity's ability to continue as a going concern or involves a material contingency, the auditor may add an **emphasis-of-matter paragraph** to the audit report to draw attention to the related disclosure—without modifying the opinion itself.
 
-### Example: Audit Report Impact at MAS Inc.
+### Example: Audit Report Impact at Polar Inc.
 
-MAS Inc. faces a \$50,000,000 government fraud investigation. The company's outside counsel refuses to respond to the auditor's inquiry letter regarding this matter. The auditor:
+Polar Inc. faces a \$50,000,000 government fraud investigation. The company's outside counsel refuses to respond to the auditor's inquiry letter regarding this matter. The auditor:
 - Cannot obtain sufficient appropriate evidence about the potential liability
 - Determines the matter is both material and pervasive to the financial statements
 - Issues a **disclaimer of opinion**, citing the inability to obtain evidence about the litigation contingency
@@ -227,9 +227,9 @@ For public companies, the auditor performs an **integrated audit** of financial 
 
 :::
 
-### Example: PCAOB Integrated Audit at Gies Co.
+### Example: PCAOB Integrated Audit at Bear Co.
 
-Gies Co. is a publicly traded manufacturer subject to PCAOB standards. The auditor:
+Bear Co. is a publicly traded manufacturer subject to PCAOB standards. The auditor:
 1. Tests controls over the **litigation tracking process**—evaluating whether management has a system to identify and monitor all legal matters
 2. Sends the **attorney letter** and evaluates the response
 3. Tests the **accuracy of accruals** for probable losses

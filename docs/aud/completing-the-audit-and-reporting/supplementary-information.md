@@ -43,7 +43,7 @@ The auditor must apply **limited procedures** to the RSI. These are not full aud
 3. **Considering whether the RSI (including its form and content) appears to conform** to applicable guidelines established by the standard-setter
 4. **Obtaining written representations** from management regarding the RSI
 
-**Example:** Gies Co. is a governmental entity that presents budgetary comparison schedules and pension schedules as RSI alongside its basic financial statements. The auditor asks management how the budgetary comparisons were prepared, checks that the pension data aligns with the amounts in the audited financial statements, and confirms the schedules follow GASB presentation guidelines.
+**Example:** Bear Co. is a governmental entity that presents budgetary comparison schedules and pension schedules as RSI alongside its basic financial statements. The auditor asks management how the budgetary comparisons were prepared, checks that the pension data aligns with the amounts in the audited financial statements, and confirms the schedules follow GASB presentation guidelines.
 
 ### Level of Assurance
 
@@ -68,7 +68,7 @@ If the auditor encounters problems with the RSI, the report must be modified acc
 | The auditor is **unable to complete the limited procedures** | The auditor states that the limited procedures were not completed and explains why |
 | RSI is **present and no issues are identified** | Standard language — limited procedures applied, no opinion expressed |
 
-**Example:** MAS Inc. is required to present a schedule of employer contributions to its pension plan as RSI. Management includes the schedule, but the auditor notices the actuarial assumptions used are inconsistent with those disclosed in the pension note. The auditor describes this inconsistency in the other-matter paragraph.
+**Example:** Polar Inc. is required to present a schedule of employer contributions to its pension plan as RSI. Management includes the schedule, but the auditor notices the actuarial assumptions used are inconsistent with those disclosed in the pension note. The auditor describes this inconsistency in the other-matter paragraph.
 
 :::warning
 
@@ -108,7 +108,7 @@ The procedures performed include:
 - Examining whether the form and content of the SI complies with the applicable criteria
 - Testing the accuracy of amounts or other data
 
-**Example:** Kingfisher Industries engages its auditor to report on a consolidating schedule that breaks down revenue and expenses by subsidiary. The auditor reconciles the consolidating schedule to the trial balances of each subsidiary, tests selected amounts for accuracy, and issues an opinion that the schedule is fairly stated in relation to the consolidated financial statements as a whole.
+**Example:** Grizzly Industries engages its auditor to report on a consolidating schedule that breaks down revenue and expenses by subsidiary. The auditor reconciles the consolidating schedule to the trial balances of each subsidiary, tests selected amounts for accuracy, and issues an opinion that the schedule is fairly stated in relation to the consolidated financial statements as a whole.
 
 #### Scenario B — Not Engaged to Report on the Supplementary Information
 
@@ -169,7 +169,7 @@ The auditor does **not** audit the other information and does **not** express an
 | **Material misstatement of fact** (unrelated to the financial statements) | Discuss with management. If the auditor concludes a misstatement exists and management refuses to correct it, the auditor considers further action (e.g., consulting legal counsel, communicating with those charged with governance) |
 | **No inconsistencies or misstatements identified** | No additional reporting is required, though the auditor may include an other-information section in the report |
 
-**Example:** Illini Entertainment includes a letter from the CEO in its annual report that states the company achieved "record-breaking revenue growth of 25%." The auditor reviews this and notes that the audited income statement shows revenue growth of only 12%. This is a material inconsistency. The auditor discusses the discrepancy with management and requests correction of the CEO's letter. If management refuses, the auditor evaluates the effect on the report and may include additional language.
+**Example:** Honey Entertainment includes a letter from the CEO in its annual report that states the company achieved "record-breaking revenue growth of 25%." The auditor reviews this and notes that the audited income statement shows revenue growth of only 12%. This is a material inconsistency. The auditor discusses the discrepancy with management and requests correction of the CEO's letter. If management refuses, the auditor evaluates the effect on the report and may include additional language.
 
 :::note
 

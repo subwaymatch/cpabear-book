@@ -8,7 +8,7 @@ title: AUD
 
 Welcome to the **Auditing and Attestation** section of the CPA Bear Book. This section covers everything you need to know about the AUD portion of the CPA exam—from the ethical foundation of the profession to the final issuance of audit reports and attestation opinions.
 
-The AUD exam tests your ability to think like an auditor: evaluating risk, designing audit procedures, gathering evidence, and reaching well-supported conclusions about whether financial statements are free of material misstatement. Whether a publicly traded company like **Kingfisher Industries** is filing with the SEC or a private firm like **BIF Partners** needs compiled financial statements, the principles in this section apply.
+The AUD exam tests your ability to think like an auditor: evaluating risk, designing audit procedures, gathering evidence, and reaching well-supported conclusions about whether financial statements are free of material misstatement. Whether a publicly traded company like **Grizzly Industries** is filing with the SEC or a private business like **Honey Entertainment** needs compiled financial statements, the principles in this section apply.
 
 ---
 
@@ -22,7 +22,7 @@ The profession is built on trust. This area covers the **AICPA Code of Professio
 
 :::info[Example]
 
-Suppose your firm audits **Illini Entertainment** and a senior manager on the engagement owns stock in the company. The Code of Professional Conduct requires you to evaluate this financial interest and likely remove the manager from the engagement to preserve independence.
+Suppose your firm audits **Honey Entertainment** and a senior manager on the engagement owns stock in the company. The Code of Professional Conduct requires you to evaluate this financial interest and likely remove the manager from the engagement to preserve independence.
 
 :::
 
@@ -46,7 +46,7 @@ When it is impractical to test an entire population, auditors use sampling. This
 
 :::tip
 
-Audit sampling is one of the most quantitative topics on the AUD exam. Be comfortable calculating sample sizes, evaluating deviations, and projecting misstatements. If **Gies Co.** has 10,000 purchase orders and the auditor can only test 60, sampling theory determines whether those 60 items provide enough evidence to draw a conclusion about the entire population.
+Audit sampling is one of the most quantitative topics on the AUD exam. Be comfortable calculating sample sizes, evaluating deviations, and projecting misstatements. If **Bear Co.** has 10,000 purchase orders and the auditor can only test 60, sampling theory determines whether those 60 items provide enough evidence to draw a conclusion about the entire population.
 
 :::
 
@@ -89,7 +89,7 @@ One of the most tested distinctions on the AUD exam is the difference between **
 
 1. **Start with Ethics & Professional Responsibilities.** Understanding the ethical framework provides the foundation for every topic that follows. If you do not know why independence matters, the rest of the audit process will not make full sense.
 2. **Follow the audit process sequentially.** The topics are arranged in the approximate order of an actual audit engagement—from planning and risk assessment through evidence gathering to reporting. This mirrors how the exam tests concepts.
-3. **Practice with examples.** Each page includes practical scenarios using companies like **MAS Inc.**, **Illini Security**, and **Bear Co.** Work through these examples actively rather than passively reading them.
+3. **Practice with examples.** Each page includes practical scenarios using companies like **Polar Inc.**, **Ursa Security**, and **Bear Co.** Work through these examples actively rather than passively reading them.
 4. **Focus on the "why."** The exam often asks you to choose the _best_ answer among several plausible options. Understanding the reasoning behind audit procedures—not just memorizing rules—is the key to selecting the correct response.
 5. **Use the journal entry blocks.** Several topics (especially in auditing specific accounts) include journal entries that illustrate the transactions auditors are testing. These help connect AUD concepts to your FAR knowledge.
    :::

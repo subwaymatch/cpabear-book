@@ -21,7 +21,7 @@ The distinction between direct-effect and indirect-effect laws is fundamental to
 | **Direct-effect laws** | Laws and regulations that have a **direct and material effect** on the determination of amounts and disclosures in the financial statements | Tax laws, pension and benefit regulations (ERISA), revenue recognition rules for government contractors, banking reserve requirements | The auditor designs procedures to obtain **reasonable assurance** of detecting noncompliance that could cause material misstatement |
 | **Indirect-effect laws** | Laws and regulations related to the entity's **operating activities** that do not directly affect financial statement amounts but whose noncompliance may result in fines, penalties, or litigation that require disclosure | Environmental regulations, occupational safety laws (OSHA), antitrust laws, data privacy regulations, anti-corruption laws (FCPA) | The auditor's responsibility is limited to performing specified **inquiry and inspection** procedures; the auditor is not required to design specific procedures to detect noncompliance |
 
-**Example:** Gies Co. is a government contractor. Federal Acquisition Regulation (FAR) cost accounting standards directly affect how Gies Co. recognizes revenue and allocates costs on government contracts—these are **direct-effect** laws. Gies Co. is also subject to OSHA workplace safety regulations. Violations of OSHA rules could result in fines or litigation but do not directly determine financial statement amounts—these are **indirect-effect** laws.
+**Example:** Bear Co. is a government contractor. Federal Acquisition Regulation (FAR) cost accounting standards directly affect how Bear Co. recognizes revenue and allocates costs on government contracts—these are **direct-effect** laws. Bear Co. is also subject to OSHA workplace safety regulations. Violations of OSHA rules could result in fines or litigation but do not directly determine financial statement amounts—these are **indirect-effect** laws.
 
 :::tip[Exam Tip]
 
@@ -68,7 +68,7 @@ The auditor performs the following procedures to identify potential noncomplianc
 | **Review contracts and agreements** | Examine significant contracts for compliance-related provisions (e.g., debt covenants, grant requirements) |
 | **Obtain written representations** | Include in the management representation letter a statement that management has disclosed all known or suspected noncompliance |
 
-**Example:** During the audit of Illini Security, the auditor inquires of management about compliance with data privacy regulations. Management discloses that the company received a notice from a state attorney general regarding a potential violation of data breach notification requirements. The auditor must evaluate whether this potential noncompliance could result in a material liability or required disclosure.
+**Example:** During the audit of Ursa Security, the auditor inquires of management about compliance with data privacy regulations. Management discloses that the company received a notice from a state attorney general regarding a potential violation of data breach notification requirements. The auditor must evaluate whether this potential noncompliance could result in a material liability or required disclosure.
 
 ---
 
@@ -112,7 +112,7 @@ Under AICPA standards, the auditor generally has no obligation to report noncomp
 | **Government audit requirements** | Audits under Government Auditing Standards (Yellow Book) or Single Audit Act require reporting of noncompliance to regulatory bodies |
 | **SEC-registered entities** | Under Section 10A of the Securities Exchange Act of 1934, auditors of issuers must report illegal acts to the SEC if management and the board fail to take appropriate remedial action |
 
-**Example:** During the audit of Kingfisher Industries (an SEC registrant), the auditor discovers that management has been making improper payments to foreign government officials in violation of the Foreign Corrupt Practices Act (FCPA). After the auditor reports this to the audit committee, the board fails to take timely remedial action. Under Section 10A, the auditor is required to report the illegal act directly to the SEC.
+**Example:** During the audit of Grizzly Industries (an SEC registrant), the auditor discovers that management has been making improper payments to foreign government officials in violation of the Foreign Corrupt Practices Act (FCPA). After the auditor reports this to the audit committee, the board fails to take timely remedial action. Under Section 10A, the auditor is required to report the illegal act directly to the SEC.
 
 ---
 
@@ -154,7 +154,7 @@ The legal letter provides the auditor with **corroborative evidence** about:
 - The lawyer is not expected to comment on **unasserted claims** unless management has specifically identified them to the lawyer
 - A **failure to receive** a response from the lawyer is a **scope limitation** that could result in a qualified opinion or disclaimer
 
-**Example:** MAS Inc.'s auditor sends a legal letter to the company's outside counsel. The lawyer confirms one pending lawsuit with a probable unfavorable outcome and an estimated loss range of \$2 million to \$5 million. The lawyer declines to comment on two additional matters, citing attorney-client privilege. The auditor evaluates whether the refusal to comment creates a scope limitation and considers whether alternative procedures can provide the needed evidence.
+**Example:** Polar Inc.'s auditor sends a legal letter to the company's outside counsel. The lawyer confirms one pending lawsuit with a probable unfavorable outcome and an estimated loss range of \$2 million to \$5 million. The lawyer declines to comment on two additional matters, citing attorney-client privilege. The auditor evaluates whether the refusal to comment creates a scope limitation and considers whether alternative procedures can provide the needed evidence.
 
 :::tip[Exam Tip]
 
@@ -174,7 +174,7 @@ Noncompliance with laws and regulations can raise **substantial doubt about the 
 - **Environmental remediation obligations** that exceed the entity's financial capacity
 - **Criminal prosecution** of the entity or key management personnel
 
-**Example:** Illini Entertainment holds a liquor license that is essential to its concert venue operations. The state liquor control commission initiates proceedings to revoke the license due to repeated violations. If the license is revoked, Illini Entertainment would lose a substantial portion of its revenue. The auditor evaluates whether this raises substantial doubt about the entity's ability to continue as a going concern and considers the adequacy of the entity's disclosures.
+**Example:** Honey Entertainment holds a liquor license that is essential to its concert venue operations. The state liquor control commission initiates proceedings to revoke the license due to repeated violations. If the license is revoked, Honey Entertainment would lose a substantial portion of its revenue. The auditor evaluates whether this raises substantial doubt about the entity's ability to continue as a going concern and considers the adequacy of the entity's disclosures.
 
 :::warning
 

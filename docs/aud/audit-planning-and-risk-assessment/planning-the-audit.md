@@ -40,7 +40,7 @@ Think of the audit strategy as the "what and why" and the audit plan as the "how
 
 :::
 
-**Example:** The engagement partner at Gies Co.'s audit firm develops the overall audit strategy: the audit will cover all five operating segments, fieldwork will begin October 15 with interim testing and conclude in February after year-end procedures, and two staff members with industry expertise will be assigned due to the complexity of the entity's revenue arrangements. The audit plan then details the specific procedures—such as testing revenue cutoff, vouching receivables, and performing inventory observations—for each segment.
+**Example:** The engagement partner at Bear Co.'s audit firm develops the overall audit strategy: the audit will cover all five operating segments, fieldwork will begin October 15 with interim testing and conclude in February after year-end procedures, and two staff members with industry expertise will be assigned due to the complexity of the entity's revenue arrangements. The audit plan then details the specific procedures—such as testing revenue cutoff, vouching receivables, and performing inventory observations—for each segment.
 
 ---
 
@@ -57,7 +57,7 @@ Audit documentation is typically organized into two categories:
 | **Current file** | Documentation specific to the **current year's** audit | Lead schedules, trial balance, audit programs, confirmations, analytical procedures, management representation letter, adjusting journal entries |
 | **Permanent file** | Information of **continuing significance** that carries over from year to year | Articles of incorporation, bylaws, organizational charts, long-term contracts, prior-year engagement letters, chart of accounts, internal control documentation |
 
-**Example:** BIF Partners is auditing Kingfisher Industries. The permanent file includes Kingfisher's corporate charter, a copy of its long-term debt agreement with covenants, and an organizational chart. The current file includes this year's bank confirmations, detailed testing of accounts receivable, and the management representation letter dated as of the report date.
+**Example:** Kodiak Partners is auditing Grizzly Industries. The permanent file includes Grizzly's corporate charter, a copy of its long-term debt agreement with covenants, and an organizational chart. The current file includes this year's bank confirmations, detailed testing of accounts receivable, and the management representation letter dated as of the report date.
 
 :::note
 
@@ -95,7 +95,7 @@ Key responsibilities include:
 - Being satisfied that the team has performed **sufficient appropriate procedures** to support the opinion
 - Taking responsibility for **proper consultation** on difficult or contentious matters
 
-**Example:** At MAS Inc., the engagement partner reviews the senior associate's testing of inventory valuation. The partner identifies that the sample size was insufficient given the assessed risk level and directs the team to expand testing. The engagement partner is ultimately responsible for ensuring the evidence supports the conclusions.
+**Example:** At Polar Inc., the engagement partner reviews the senior associate's testing of inventory valuation. The partner identifies that the sample size was insufficient given the assessed risk level and directs the team to expand testing. The engagement partner is ultimately responsible for ensuring the evidence supports the conclusions.
 
 ---
 
@@ -116,7 +116,7 @@ No two audits are the same. The auditor must tailor the planning process based o
 | **Going concern considerations** | If there are doubts about the entity's ability to continue as a going concern, additional procedures are necessary |
 | **Group audits** | Auditing a group with multiple components introduces coordination challenges |
 
-**Example:** Illini Entertainment is a small, privately held company with straightforward operations. The audit plan is relatively lean, with a small team and a compressed timeline. Contrast this with Kingfisher Industries, a large multinational manufacturer with complex supply chains, foreign subsidiaries, and significant estimates—the planning process for Kingfisher is far more extensive and resource-intensive.
+**Example:** Honey Entertainment is a small, privately held company with straightforward operations. The audit plan is relatively lean, with a small team and a compressed timeline. Contrast this with Grizzly Industries, a large multinational manufacturer with complex supply chains, foreign subsidiaries, and significant estimates—the planning process for Grizzly is far more extensive and resource-intensive.
 
 ---
 
@@ -154,11 +154,11 @@ Assertions are categorized differently depending on whether they relate to **cla
 | **Account balances at period end** | Existence, completeness, valuation and allocation, rights and obligations |
 | **Presentation and disclosure** | Occurrence and rights and obligations, completeness, classification and understandability, accuracy and valuation |
 
-**Example:** Consider Illini Security's accounts receivable balance at year-end:
-- **Existence** — Do the recorded receivables actually represent amounts owed to Illini Security by real customers?
+**Example:** Consider Ursa Security's accounts receivable balance at year-end:
+- **Existence** — Do the recorded receivables actually represent amounts owed to Ursa Security by real customers?
 - **Completeness** — Have all amounts owed by customers been recorded?
 - **Valuation** — Are the receivables recorded at the correct net realizable value, considering the allowance for doubtful accounts?
-- **Rights** — Does Illini Security actually own the rights to collect these receivables, or have they been factored or assigned?
+- **Rights** — Does Ursa Security actually own the rights to collect these receivables, or have they been factored or assigned?
 
 :::tip[Exam Tip]
 

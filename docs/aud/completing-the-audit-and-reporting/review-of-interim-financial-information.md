@@ -75,7 +75,7 @@ The auditor applies analytical procedures to the interim financial data, includi
 - Comparing current interim data with **budgets or forecasts**
 - Evaluating **relationships among financial statement elements** expected to conform to a predictable pattern (e.g., gross margin percentages, expense ratios)
 
-**Example:** While reviewing Gies Co.'s Q3 financial information, the auditor notices that the gross margin dropped from 42% (Q3 of the prior year) to 28%. This significant fluctuation prompts additional inquiries with management about potential causes — pricing changes, inventory write-downs, or product mix shifts.
+**Example:** While reviewing Bear Co.'s Q3 financial information, the auditor notices that the gross margin dropped from 42% (Q3 of the prior year) to 28%. This significant fluctuation prompts additional inquiries with management about potential causes — pricing changes, inventory write-downs, or product mix shifts.
 
 ---
 
@@ -99,7 +99,7 @@ If conditions or events raise substantial doubt about the entity's ability to co
 - The review report may need to include an **emphasis-of-matter paragraph** or be **modified**
 - This is particularly relevant when the entity's annual financial statements contained a going concern emphasis and conditions have not improved
 
-**Example:** MAS Inc.'s 2024 annual audit report included a going concern emphasis-of-matter paragraph. During the Q1 2025 interim review, the auditor notes that MAS Inc. has continued to incur losses and has not secured additional financing. The auditor makes additional inquiries and evaluates whether the interim financial information adequately discloses the going concern uncertainty.
+**Example:** Polar Inc.'s 2024 annual audit report included a going concern emphasis-of-matter paragraph. During the Q1 2025 interim review, the auditor notes that Polar Inc. has continued to incur losses and has not secured additional financing. The auditor makes additional inquiries and evaluates whether the interim financial information adequately discloses the going concern uncertainty.
 
 ---
 
@@ -133,7 +133,7 @@ If the interim financial information contains a **departure from the applicable 
 | **Material and pervasive departure** | Express an adverse conclusion or withdraw from the engagement |
 | **Scope limitation** | Modify the conclusion or withdraw from the engagement if the scope limitation is material |
 
-**Example:** Kingfisher Industries fails to record a $5 million inventory write-down in its Q2 interim financial information. The auditor concludes the departure is material and modifies the review report to describe the departure and its estimated effects on the interim financial information.
+**Example:** Grizzly Industries fails to record a $5 million inventory write-down in its Q2 interim financial information. The auditor concludes the departure is material and modifies the review report to describe the departure and its estimated effects on the interim financial information.
 
 ### Going Concern
 
@@ -167,7 +167,7 @@ The interim review is **not** a substitute for any part of the annual audit. Eve
 
 :::
 
-**Example:** During the Q2 interim review of Illini Entertainment, the auditor discovers that the company changed its revenue recognition policy without proper disclosure. This finding prompts the auditor to plan additional year-end audit procedures around revenue recognition, including expanded substantive testing and evaluation of the accounting change.
+**Example:** During the Q2 interim review of Honey Entertainment, the auditor discovers that the company changed its revenue recognition policy without proper disclosure. This finding prompts the auditor to plan additional year-end audit procedures around revenue recognition, including expanded substantive testing and evaluation of the accounting change.
 
 ---
 
@@ -195,7 +195,7 @@ The 10-Q financial statements are **not audited** — they are reviewed. Exam qu
 
 :::
 
-**Example:** BIF Partners, a large accelerated filer, must file its Q3 10-Q within 40 days of the quarter-end. The 10-Q includes condensed financial statements for Q3 that have been reviewed (not audited) by the independent auditor. The financial statements are marked as "unaudited."
+**Example:** Kodiak Partners, a large accelerated filer, must file its Q3 10-Q within 40 days of the quarter-end. The 10-Q includes condensed financial statements for Q3 that have been reviewed (not audited) by the independent auditor. The financial statements are marked as "unaudited."
 
 ---
 
@@ -222,9 +222,9 @@ While the core procedures are similar between AICPA and PCAOB interim reviews, t
 
 ---
 
-## Illini Security Example — Putting It Together
+## Ursa Security Example — Putting It Together
 
-Illini Security is a publicly traded company that files 10-Q reports with the SEC. During the Q2 interim review:
+Ursa Security is a publicly traded company that files 10-Q reports with the SEC. During the Q2 interim review:
 
 1. The auditor performs **inquiries** of management about unusual transactions, changes in accounting policies, and litigation
 2. The auditor applies **analytical procedures**, comparing Q2 results to Q1, the prior-year Q2, and the budget

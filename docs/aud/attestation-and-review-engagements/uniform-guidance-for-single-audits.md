@@ -61,7 +61,7 @@ The **SEFA** is a critical component of the single audit. It provides a complete
 | **Pass-through awards** | Separately identifies amounts passed through to subrecipients |
 | **Loans and loan guarantees** | Outstanding balances at year-end for federal loan programs |
 
-**Example:** Gies Co., a state university, prepares its SEFA listing 14 federal programs totaling \$18.5 million in expenditures. The SEFA includes the ALN number, awarding agency, and expenditure amount for each program, and separately identifies \$2.1 million passed through to subrecipient research partners.
+**Example:** Bear Co., a state university, prepares its SEFA listing 14 federal programs totaling \$18.5 million in expenditures. The SEFA includes the ALN number, awarding agency, and expenditure amount for each program, and separately identifies \$2.1 million passed through to subrecipient research partners.
 
 :::caution
 
@@ -102,7 +102,7 @@ The auditor performs a **four-step process** to determine major programs:
 3. **Identify high-risk Type B programs** — at least one high-risk Type B must be tested as major for every low-risk Type A excluded from testing (with a cap equal to 25% of the number of low-risk Type A programs)
 4. **Verify coverage** — total major programs must cover at least **20%** (low-risk auditee) or **40%** (non-low-risk auditee) of total federal expenditures
 
-**Example:** Kingfisher Industries, a large nonprofit, expended \$12 million in federal awards across 10 programs. Using the 3% threshold (\$360,000 is less than \$750,000, so the threshold is \$750,000), four programs exceed \$750,000 and are classified as Type A. The auditor assesses one Type A program as low risk (clean findings for two consecutive years) and three as high risk. The auditor also identifies one high-risk Type B program with prior-year findings. All four high-risk programs are tested as major, covering 72% of total federal expenditures.
+**Example:** Grizzly Industries, a large nonprofit, expended \$12 million in federal awards across 10 programs. Using the 3% threshold (\$360,000 is less than \$750,000, so the threshold is \$750,000), four programs exceed \$750,000 and are classified as Type A. The auditor assesses one Type A program as low risk (clean findings for two consecutive years) and three as high risk. The auditor also identifies one high-risk Type B program with prior-year findings. All four high-risk programs are tested as major, covering 72% of total federal expenditures.
 
 :::info
 
@@ -131,7 +131,7 @@ For each major program, the auditor tests the entity's compliance with requireme
 | **Subrecipient monitoring** | Pass-through entities must monitor subrecipients for compliance |
 | **Special tests and provisions** | Program-specific requirements unique to certain federal programs |
 
-**Example:** MAS Inc. receives a \$1.2 million federal workforce development grant. The auditor tests key compliance requirements: (1) **Eligibility** — verifying that program participants met income thresholds, (2) **Activities allowed** — confirming that training expenditures aligned with the grant agreement, (3) **Reporting** — checking that quarterly performance reports were filed on time, and (4) **Period of performance** — ensuring no costs were incurred outside the grant period.
+**Example:** Polar Inc. receives a \$1.2 million federal workforce development grant. The auditor tests key compliance requirements: (1) **Eligibility** — verifying that program participants met income thresholds, (2) **Activities allowed** — confirming that training expenditures aligned with the grant agreement, (3) **Reporting** — checking that quarterly performance reports were filed on time, and (4) **Period of performance** — ensuring no costs were incurred outside the grant period.
 
 :::warning
 
@@ -167,7 +167,7 @@ In addition to testing compliance, the auditor must **understand and test intern
 - **Testing**: Test the operating effectiveness of controls to support a low assessed level of control risk (if planned)
 - **Deficiency evaluation**: Evaluate whether identified deficiencies constitute significant deficiencies or material weaknesses **in internal control over compliance**
 
-**Example:** Illini Entertainment operates a federal arts education program. The auditor identifies the following internal controls over compliance: (1) a checklist used to verify participant eligibility before enrollment, (2) supervisory review of quarterly financial reports before submission, and (3) automated system controls that prevent expenditure entries outside the grant period. The auditor tests each control and concludes they are operating effectively.
+**Example:** Honey Entertainment operates a federal arts education program. The auditor identifies the following internal controls over compliance: (1) a checklist used to verify participant eligibility before enrollment, (2) supervisory review of quarterly financial reports before submission, and (3) automated system controls that prevent expenditure entries outside the grant period. The auditor tests each control and concludes they are operating effectively.
 
 :::note
 
@@ -202,7 +202,7 @@ This schedule is a critical deliverable that contains three sections:
 2. **Financial statement findings** — findings related to the financial statement audit under GAGAS
 3. **Federal award findings and questioned costs** — compliance findings for major programs, including the ALN number, program name, federal agency, and the specific compliance requirement involved
 
-**Example:** BIF Partners, a regional transit authority, receives a qualified opinion on compliance for its Federal Transit Administration grant due to unallowable expenditures totaling \$85,000. The schedule of findings and questioned costs reports: (1) the finding number, (2) the federal program and ALN, (3) a description of the condition (unallowable travel expenditures), (4) the criteria (grant agreement and 2 CFR Part 200 cost principles), (5) the questioned cost amount (\$85,000), (6) the cause and effect, and (7) a recommendation.
+**Example:** Kodiak Partners, a regional transit authority, receives a qualified opinion on compliance for its Federal Transit Administration grant due to unallowable expenditures totaling \$85,000. The schedule of findings and questioned costs reports: (1) the finding number, (2) the federal program and ALN, (3) a description of the condition (unallowable travel expenditures), (4) the criteria (grant agreement and 2 CFR Part 200 cost principles), (5) the questioned cost amount (\$85,000), (6) the cause and effect, and (7) a recommendation.
 
 :::caution
 
@@ -231,7 +231,7 @@ The **Federal Audit Clearinghouse** serves as the central repository for all sin
 - The complete reporting package (including the SF-SAC, audited financial statements, SEFA, and all auditor reports) must be submitted electronically
 - Submission deadline: the **earlier** of 30 days after receipt of the auditor's report or **9 months** after the end of the audit period
 
-**Example:** Illini Security, a county government, completes its single audit for the fiscal year ended June 30. The auditor's report is dated October 15. Illini Security must submit the complete reporting package to the Federal Audit Clearinghouse by **November 14** (30 days after receipt of the report), since this is earlier than the 9-month deadline of March 31.
+**Example:** Ursa Security, a county government, completes its single audit for the fiscal year ended June 30. The auditor's report is dated October 15. Ursa Security must submit the complete reporting package to the Federal Audit Clearinghouse by **November 14** (30 days after receipt of the report), since this is earlier than the 9-month deadline of March 31.
 
 :::warning
 

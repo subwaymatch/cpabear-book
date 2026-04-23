@@ -43,7 +43,7 @@ The auditor may also include an EOM paragraph **at their discretion** for other 
 - A major catastrophe that has had (or may have) a significant effect on the entity
 - Significant uncertainties (such as pending litigation)
 
-**Example:** Illini Entertainment recently changed its revenue recognition method from a completed-contract approach to the percentage-of-completion method for its long-term entertainment venue construction projects. The change is material and properly disclosed in Note 3. The auditor includes an emphasis-of-matter paragraph stating: "As discussed in Note 3 to the financial statements, the Company changed its method of accounting for long-term construction contracts in 20X4. Our opinion is not modified with respect to this matter."
+**Example:** Honey Entertainment recently changed its revenue recognition method from a completed-contract approach to the percentage-of-completion method for its long-term entertainment venue construction projects. The change is material and properly disclosed in Note 3. The auditor includes an emphasis-of-matter paragraph stating: "As discussed in Note 3 to the financial statements, the Company changed its method of accounting for long-term construction contracts in 20X4. Our opinion is not modified with respect to this matter."
 
 :::tip[Exam Tip]
 
@@ -73,7 +73,7 @@ The PCAOB requires (or permits) the auditor to add an explanatory paragraph in s
 
 In issuer reports, the explanatory paragraph is typically placed **after the opinion paragraph** (or after the Basis for Opinion section, depending on the specific circumstance).
 
-**Example:** Kingfisher Industries is a public company that recently adopted a new lease accounting standard, resulting in material changes to its balance sheet. The auditor adds an explanatory paragraph after the opinion section noting the change in accounting principle and referencing the note where it is disclosed.
+**Example:** Grizzly Industries is a public company that recently adopted a new lease accounting standard, resulting in material changes to its balance sheet. The auditor adds an explanatory paragraph after the opinion section noting the change in accounting principle and referencing the note where it is disclosed.
 
 :::note
 
@@ -115,7 +115,7 @@ An **other-matter (OM) paragraph** is used in nonissuer reports to draw attentio
 | **Modifies opinion?** | No | No |
 | **Example** | Going concern, change in accounting principle | Prior year audited by predecessor, restriction on use |
 
-**Example:** MSA Records engaged a new audit firm this year. The prior year's financial statements were audited by a different firm that issued an unmodified opinion dated March 10, 20X3. The current auditor includes an other-matter paragraph in the 20X4 report stating: "The financial statements of MSA Records for the year ended December 31, 20X3, were audited by another auditor, who expressed an unmodified opinion on those statements on March 10, 20X3."
+**Example:** Panda Records engaged a new audit firm this year. The prior year's financial statements were audited by a different firm that issued an unmodified opinion dated March 10, 20X3. The current auditor includes an other-matter paragraph in the 20X4 report stating: "The financial statements of Panda Records for the year ended December 31, 20X3, were audited by another auditor, who expressed an unmodified opinion on those statements on March 10, 20X3."
 
 ---
 
@@ -146,21 +146,21 @@ Do not confuse emphasis-of-matter paragraphs with modified opinions. A modified 
 
 ### Scenario 1: Going Concern with Adequate Disclosure
 
-BIF Partners has experienced recurring losses and negative operating cash flows. Management has disclosed its plans to address the situation (seeking additional financing and reducing costs) in Note 12. The auditor concludes that substantial doubt exists about BIF Partners' ability to continue as a going concern but that the disclosure is adequate.
+Kodiak Partners has experienced recurring losses and negative operating cash flows. Management has disclosed its plans to address the situation (seeking additional financing and reducing costs) in Note 12. The auditor concludes that substantial doubt exists about Kodiak Partners' ability to continue as a going concern but that the disclosure is adequate.
 
 - **Nonissuer report:** Include a required **emphasis-of-matter paragraph** referencing Note 12 and stating the opinion is not modified
 - **Issuer report:** Include a required **explanatory paragraph** describing the going concern uncertainty
 
 ### Scenario 2: Change in Accounting Principle
 
-Gies Co. adopted the new current expected credit losses (CECL) model for estimating its allowance for credit losses, resulting in a material cumulative-effect adjustment. The change is properly disclosed in Note 2.
+Bear Co. adopted the new current expected credit losses (CECL) model for estimating its allowance for credit losses, resulting in a material cumulative-effect adjustment. The change is properly disclosed in Note 2.
 
 - **Nonissuer report:** Include a required **emphasis-of-matter paragraph** referencing Note 2
 - **Issuer report:** Include a required **explanatory paragraph** noting the lack of consistency
 
 ### Scenario 3: Prior Year Audited by Predecessor
 
-Illini Security changed auditors. The predecessor auditor issued an unmodified opinion on the 20X3 financial statements dated February 28, 20X4. The predecessor's report is not being reissued with the 20X4 comparative statements.
+Ursa Security changed auditors. The predecessor auditor issued an unmodified opinion on the 20X3 financial statements dated February 28, 20X4. The predecessor's report is not being reissued with the 20X4 comparative statements.
 
 - **Nonissuer report:** The successor auditor includes an **other-matter paragraph** identifying the predecessor, the opinion type, date, and noting the predecessor's report is not presented
 

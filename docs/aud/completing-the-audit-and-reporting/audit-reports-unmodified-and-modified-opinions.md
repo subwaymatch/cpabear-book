@@ -22,7 +22,7 @@ This is the most common and most favorable type of audit opinion. It means:
 - The financial statements are **free from material misstatement**
 - The auditor encountered **no scope limitations** that would prevent forming an opinion
 
-**Example:** Gies Co. engages an audit firm to audit its year-end financial statements. After completing all planned procedures and resolving all identified issues, the auditor concludes the financial statements are fairly presented under U.S. GAAP. The auditor issues an unmodified opinion.
+**Example:** Bear Co. engages an audit firm to audit its year-end financial statements. After completing all planned procedures and resolving all identified issues, the auditor concludes the financial statements are fairly presented under U.S. GAAP. The auditor issues an unmodified opinion.
 
 :::tip[Exam Tip]
 
@@ -53,7 +53,7 @@ The opinion section appears **first** in the issuer report. It must:
 - Specify the period(s) covered by the audit
 - State that the financial statements **present fairly, in all material respects**, the financial position, results of operations, and cash flows in conformity with U.S. GAAP (or the applicable framework)
 
-**Example language (paraphrased):** "In our opinion, the financial statements of Kingfisher Industries present fairly, in all material respects, the financial position as of December 31, 20X4, and the results of its operations and its cash flows for the year then ended, in conformity with accounting principles generally accepted in the United States of America."
+**Example language (paraphrased):** "In our opinion, the financial statements of Grizzly Industries present fairly, in all material respects, the financial position as of December 31, 20X4, and the results of its operations and its cash flows for the year then ended, in conformity with accounting principles generally accepted in the United States of America."
 
 ### Basis for Opinion
 
@@ -213,7 +213,7 @@ When communicating a CAM, the auditor must include:
 | **A** | **Audit response** | Describe how the CAM was addressed in the audit |
 | **D** | **Disclosure reference** | Refer to the relevant financial statement accounts or disclosures |
 
-**Example:** MAS Inc. has a complex revenue recognition arrangement involving multiple performance obligations across a long-term contract. The auditor determines this requires especially subjective judgment and significant audit effort. In the CAM section, the auditor identifies the revenue recognition matter, explains why it was challenging, describes the audit procedures performed (such as testing management's allocation methodology), and references the revenue note in the financial statements.
+**Example:** Polar Inc. has a complex revenue recognition arrangement involving multiple performance obligations across a long-term contract. The auditor determines this requires especially subjective judgment and significant audit effort. In the CAM section, the auditor identifies the revenue recognition matter, explains why it was challenging, describes the audit procedures performed (such as testing management's allocation methodology), and references the revenue note in the financial statements.
 
 ### When There Are No CAMs
 
@@ -297,13 +297,13 @@ A **qualified opinion** is issued when the misstatement is **material** to the f
 
 The opinion uses the language: **"except for the effects of the matter described..."**
 
-**Example:** BIF Partners has a policy of expensing all lease costs immediately rather than recording right-of-use assets and lease liabilities as required by ASC 842. The impact is material to the balance sheet and income statement, but the rest of the financial statements are fairly presented. The auditor issues a qualified opinion, stating that except for the lease accounting departure, the financial statements present fairly.
+**Example:** Kodiak Partners has a policy of expensing all lease costs immediately rather than recording right-of-use assets and lease liabilities as required by ASC 842. The impact is material to the balance sheet and income statement, but the rest of the financial statements are fairly presented. The auditor issues a qualified opinion, stating that except for the lease accounting departure, the financial statements present fairly.
 
 ### Adverse Opinion — Material and Pervasive
 
 An **adverse opinion** is issued when the misstatement is so significant and widespread that the financial statements **as a whole** are not fairly presented. "Pervasive" means the misstatement affects multiple accounts, represents a substantial portion of the financial statements, or involves disclosures that are fundamental to the users' understanding.
 
-**Example:** Illini Entertainment has failed to consolidate a material subsidiary, has not recognized significant liabilities, and has overstated revenue across multiple segments. The effects are so sweeping that the financial statements cannot be relied upon. The auditor issues an adverse opinion.
+**Example:** Honey Entertainment has failed to consolidate a material subsidiary, has not recognized significant liabilities, and has overstated revenue across multiple segments. The effects are so sweeping that the financial statements cannot be relied upon. The auditor issues an adverse opinion.
 
 :::danger
 
@@ -324,13 +324,13 @@ An audit issue (scope limitation) arises when the auditor is unable to obtain **
 
 When the scope limitation prevents the auditor from verifying specific accounts or areas, but the auditor was able to perform sufficient work on the remainder of the financial statements, a **qualified opinion** is issued.
 
-**Example:** Kingfisher Industries' auditor was engaged after the physical inventory count. The auditor could not observe the year-end inventory count or apply sufficient alternative procedures to verify inventory. However, the auditor was able to perform all other procedures. Since inventory is material but the limitation does not pervade the financial statements, the auditor issues a qualified opinion.
+**Example:** Grizzly Industries' auditor was engaged after the physical inventory count. The auditor could not observe the year-end inventory count or apply sufficient alternative procedures to verify inventory. However, the auditor was able to perform all other procedures. Since inventory is material but the limitation does not pervade the financial statements, the auditor issues a qualified opinion.
 
 ### Disclaimer of Opinion — Material and Pervasive
 
 When the scope limitation is so severe that the auditor cannot obtain sufficient evidence for a substantial portion of the financial statements, a **disclaimer of opinion** is issued. The auditor essentially states: "We cannot form an opinion."
 
-**Example:** MSA Records' management refuses to allow the auditor to confirm accounts receivable, observe inventory, or access key subsidiary records. With so many critical areas unverifiable, the auditor cannot determine whether the financial statements are fairly presented. A disclaimer of opinion is issued.
+**Example:** Panda Records' management refuses to allow the auditor to confirm accounts receivable, observe inventory, or access key subsidiary records. With so many critical areas unverifiable, the auditor cannot determine whether the financial statements are fairly presented. A disclaimer of opinion is issued.
 
 :::warning
 
@@ -349,7 +349,7 @@ With a disclaimer of opinion, the auditor does **not** state that the financial 
 
 If the uncertainty is properly accounted for but is significant enough to warrant user attention, the auditor may add an **emphasis-of-matter paragraph** (nonissuer) or an **explanatory paragraph** (issuer) while still issuing an unmodified opinion.
 
-**Example:** Illini Security is the defendant in a major lawsuit with uncertain outcomes. Management has disclosed the contingency in the notes and recorded an appropriate estimated liability. The auditor issues an unmodified opinion but may include an emphasis-of-matter paragraph to draw attention to the litigation disclosure.
+**Example:** Ursa Security is the defendant in a major lawsuit with uncertain outcomes. Management has disclosed the contingency in the notes and recorded an appropriate estimated liability. The auditor issues an unmodified opinion but may include an emphasis-of-matter paragraph to draw attention to the litigation disclosure.
 
 ---
 
@@ -399,7 +399,7 @@ The report date is **not** the date the report is physically delivered to the cl
 
 :::
 
-**Example:** Gies Co.'s auditor completes all fieldwork and obtains sufficient evidence on March 5, 20X5, for the audit of the December 31, 20X4 financial statements. The audit report is dated March 5, 20X5, even if it is not delivered to Gies Co.'s board until March 15, 20X5.
+**Example:** Bear Co.'s auditor completes all fieldwork and obtains sufficient evidence on March 5, 20X5, for the audit of the December 31, 20X4 financial statements. The audit report is dated March 5, 20X5, even if it is not delivered to Bear Co.'s board until March 15, 20X5.
 
 ### Dual Dating
 

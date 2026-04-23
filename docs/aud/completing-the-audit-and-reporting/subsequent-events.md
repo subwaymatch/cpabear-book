@@ -20,7 +20,7 @@ The key question is: **Did the condition exist on the balance sheet date?** If y
 - **Settlement of litigation** that was pending at year-end at an amount different from what was accrued — the lawsuit existed at year-end, so the settlement provides better evidence of the liability's value
 - **Discovery of a fraud or error** that existed in the financial statements — the misstatement existed at the balance sheet date
 
-**Example:** Gies Co. has a \$2 million receivable from a major customer as of December 31, 20X4. On January 20, 20X5 (before the audit report is issued), the customer files for bankruptcy. This event confirms that the receivable was likely uncollectible at year-end. Gies Co. should adjust its December 31 financial statements to record the impairment.
+**Example:** Bear Co. has a \$2 million receivable from a major customer as of December 31, 20X4. On January 20, 20X5 (before the audit report is issued), the customer files for bankruptcy. This event confirms that the receivable was likely uncollectible at year-end. Bear Co. should adjust its December 31 financial statements to record the impairment.
 
 ### Type 2: Nonrecognized Subsequent Events (Conditions Arose After the Balance Sheet Date)
 
@@ -36,7 +36,7 @@ The key question is: **Did this condition arise after the balance sheet date?** 
 - A significant **decline in the market value of investments** occurring after year-end
 - **Loss of a major customer or supplier** after the balance sheet date
 
-**Example:** On February 5, 20X5, a fire destroys MAS Inc.'s primary warehouse. The December 31, 20X4 financial statements should not be adjusted (the warehouse existed and was intact at year-end), but MAS Inc. should disclose the fire and its estimated impact in the notes.
+**Example:** On February 5, 20X5, a fire destroys Polar Inc.'s primary warehouse. The December 31, 20X4 financial statements should not be adjusted (the warehouse existed and was intact at year-end), but Polar Inc. should disclose the fire and its estimated impact in the notes.
 
 :::tip[Exam Mnemonic]
 
@@ -82,7 +82,7 @@ When inquiring of management during the subsequent period, the auditor typically
 - Whether any events have occurred that raise questions about the **appropriateness of accounting policies** used in the financial statements
 - Whether any events have occurred that are relevant to the **measurement or disclosure** of estimates or provisions recorded in the financial statements
 
-**Example:** During subsequent events procedures for BIF Partners' audit, the auditor reads the January and February board minutes, which reveal a pending acquisition that was announced on January 15, 20X5. The auditor evaluates whether this requires disclosure in the December 31, 20X4 financial statements as a Type 2 subsequent event.
+**Example:** During subsequent events procedures for Kodiak Partners' audit, the auditor reads the January and February board minutes, which reveal a pending acquisition that was announced on January 15, 20X5. The auditor evaluates whether this requires disclosure in the December 31, 20X4 financial statements as a Type 2 subsequent event.
 
 :::info
 
@@ -117,7 +117,7 @@ Once the financial statements have been **issued** (released to users), the audi
    - Notify management and those charged with governance that the auditor will take steps to prevent future reliance on the auditor's report
    - Take appropriate action (which may include notifying regulatory authorities or the entity's shareholders)
 
-**Example:** After Illini Entertainment's audited financial statements have been issued to shareholders, the auditor discovers that a significant receivable was fictitious — it was fabricated by a former employee and did not exist at the balance sheet date. The auditor discusses this with management, who agrees to restate the financial statements. The auditor performs procedures on the restated financials and issues a new report.
+**Example:** After Honey Entertainment's audited financial statements have been issued to shareholders, the auditor discovers that a significant receivable was fictitious — it was fabricated by a former employee and did not exist at the balance sheet date. The auditor discusses this with management, who agrees to restate the financial statements. The auditor performs procedures on the restated financials and issues a new report.
 
 :::warning
 
@@ -137,7 +137,7 @@ The report retains its **original date** for all matters, **except** for the spe
 
 **Format:** "March 5, 20X5, except for Note 15, as to which the date is March 22, 20X5"
 
-**Example:** Kingfisher Industries' audit report was originally dated March 5, 20X5. On March 22, the auditor learns of a major lawsuit filed against Kingfisher on March 18. The lawsuit is a Type 2 subsequent event requiring disclosure. The auditor dual-dates the report: "March 5, 20X5, except for Note 15, as to which the date is March 22, 20X5." The auditor's responsibility for events other than the lawsuit extends only through March 5.
+**Example:** Grizzly Industries' audit report was originally dated March 5, 20X5. On March 22, the auditor learns of a major lawsuit filed against Grizzly on March 18. The lawsuit is a Type 2 subsequent event requiring disclosure. The auditor dual-dates the report: "March 5, 20X5, except for Note 15, as to which the date is March 22, 20X5." The auditor's responsibility for events other than the lawsuit extends only through March 5.
 
 ### Option 2: Use the Later Date for the Entire Report
 

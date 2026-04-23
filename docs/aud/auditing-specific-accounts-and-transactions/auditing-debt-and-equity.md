@@ -33,9 +33,9 @@ The auditor independently recalculates:
 
 The auditor recalculates interest expense by multiplying the outstanding principal balance by the stated interest rate for the applicable period. The recalculated amount is compared to the recorded interest expense and accrued interest payable.
 
-### Example: Interest Expense at Gies Co.
+### Example: Interest Expense at Bear Co.
 
-Gies Co. has a \$2,000,000 term loan at 6% annual interest. The auditor recalculates annual interest expense: \$2,000,000 × 6% = **\$120,000**. The auditor compares this to the \$120,000 recorded in the income statement and verifies the December accrued interest of \$10,000 (one month: \$120,000 / 12).
+Bear Co. has a \$2,000,000 term loan at 6% annual interest. The auditor recalculates annual interest expense: \$2,000,000 × 6% = **\$120,000**. The auditor compares this to the \$120,000 recorded in the income statement and verifies the December accrued interest of \$10,000 (one month: \$120,000 / 12).
 
 #### 4. Cutoff Testing
 
@@ -60,9 +60,9 @@ The auditor reads loan agreements and bond indentures and traces key terms to th
 - Identification of collateral/pledged assets
 - Disclosure of scheduled maturities
 
-### Example: Debt Audit at Kingfisher Industries
+### Example: Debt Audit at Grizzly Industries
 
-Kingfisher Industries has outstanding bonds payable of \$5,000,000 with a 5% coupon rate, issued at a discount. The auditor:
+Grizzly Industries has outstanding bonds payable of \$5,000,000 with a 5% coupon rate, issued at a discount. The auditor:
 - Confirms the balance directly with the bond trustee
 - Recalculates discount amortization using the effective interest method
 - Recalculates interest expense and accrued interest
@@ -133,9 +133,9 @@ The auditor identifies any restrictions on retained earnings or equity, such as:
 - Legal restrictions on treasury stock
 - Appropriations for specific purposes (e.g., plant expansion)
 
-### Example: Equity Audit at Illini Entertainment
+### Example: Equity Audit at Honey Entertainment
 
-Illini Entertainment issued 50,000 shares of \$1 par value common stock at \$25 per share during the year. The auditor:
+Honey Entertainment issued 50,000 shares of \$1 par value common stock at \$25 per share during the year. The auditor:
 - Vouches the issuance to the board resolution authorizing the sale
 - Verifies the cash receipt of \$1,250,000
 - Confirms shares outstanding with the independent transfer agent
@@ -172,9 +172,9 @@ A common payroll fraud scheme is the **ghost employee**—a fictitious employee 
 | **Test payroll tax remittances** | Verify proper withholding and timely remittance of payroll taxes |
 | **Analytical procedures** | Compare payroll expense by department or month to prior periods and budgets; investigate unusual fluctuations |
 
-### Example: Payroll Audit at MAS Inc.
+### Example: Payroll Audit at Polar Inc.
 
-The auditor of MAS Inc. selects a sample of 25 employees from the December payroll register. For each employee, the auditor:
+The auditor of Polar Inc. selects a sample of 25 employees from the December payroll register. For each employee, the auditor:
 - Traces the employee to an authorized hire letter in the HR file
 - Verifies the pay rate per the HR file matches the rate used in the payroll calculation
 - Recalculates gross pay (hours × rate), federal and state tax withholdings, and net pay

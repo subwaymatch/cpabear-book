@@ -23,7 +23,7 @@ Understanding the entity and its environment enables the auditor to:
 - **Detect conditions** that may indicate fraud risk or going concern issues
 - **Exercise professional skepticism** more effectively
 
-**Example:** Kingfisher Industries is a manufacturer that sells products internationally. If the auditor does not understand that Kingfisher has significant foreign currency transactions, the auditor may fail to assess the risk of misstatement related to foreign currency translation and remeasurement—a potentially material area.
+**Example:** Grizzly Industries is a manufacturer that sells products internationally. If the auditor does not understand that Grizzly has significant foreign currency transactions, the auditor may fail to assess the risk of misstatement related to foreign currency translation and remeasurement—a potentially material area.
 
 ---
 
@@ -59,7 +59,7 @@ The auditor must understand the **external environment** in which the entity ope
 - Tax law changes
 - Trade policies, tariffs, and geopolitical events
 
-**Example:** MAS Inc. operates in the oil and gas industry. The auditor's understanding of external factors includes the current commodity price environment (which affects revenue and asset impairment risk), environmental regulations (which affect contingent liabilities for cleanup costs), and the volatile nature of capital expenditures tied to exploration and development.
+**Example:** Polar Inc. operates in the oil and gas industry. The auditor's understanding of external factors includes the current commodity price environment (which affects revenue and asset impairment risk), environmental regulations (which affect contingent liabilities for cleanup costs), and the volatile nature of capital expenditures tied to exploration and development.
 
 :::tip[Exam Tip]
 
@@ -101,7 +101,7 @@ The auditor must also understand the entity's **internal characteristics**:
 - Capital allocation priorities
 - Plans for expansion, acquisition, restructuring, or divestiture
 
-**Example:** BIF Partners is a private equity fund organized as a limited partnership. The auditor's understanding of internal factors includes the fund's investment strategy, the valuation methodologies used for portfolio investments (often requiring significant estimation), the fee structure (management fees and carried interest), and the governance framework (general partner authority vs. limited partner oversight).
+**Example:** Kodiak Partners is a private equity fund organized as a limited partnership. The auditor's understanding of internal factors includes the fund's investment strategy, the valuation methodologies used for portfolio investments (often requiring significant estimation), the fee structure (management fees and carried interest), and the governance framework (general partner authority vs. limited partner oversight).
 
 ---
 
@@ -182,7 +182,7 @@ Performing **preliminary analytical procedures** to identify unusual trends, une
 - Analyzing financial ratios relative to industry benchmarks
 - Identifying significant fluctuations that may indicate misstatement risk
 
-**Example:** While performing preliminary analytical procedures on Illini Entertainment's financial statements, the auditor notices that revenue increased 25% year over year while the number of events hosted declined by 10%. This unexpected relationship suggests the possibility of fictitious revenue or significant changes in pricing that warrant further investigation.
+**Example:** While performing preliminary analytical procedures on Honey Entertainment's financial statements, the auditor notices that revenue increased 25% year over year while the number of events hosted declined by 10%. This unexpected relationship suggests the possibility of fictitious revenue or significant changes in pricing that warrant further investigation.
 
 :::tip[Exam Tip]
 
@@ -205,7 +205,7 @@ The auditor must understand how significant classes of transactions are:
 
 This understanding is often documented using **flowcharts**, **narratives**, or **walkthrough procedures** (tracing a transaction from initiation to recording).
 
-**Example:** The auditor walks through Gies Co.'s revenue cycle by selecting one sales transaction and tracing it from the customer's purchase order, through credit approval, shipment, invoicing, recording in the sales journal, and posting to the general ledger. This walkthrough helps the auditor confirm the understanding of the transaction flow and identify relevant controls.
+**Example:** The auditor walks through Bear Co.'s revenue cycle by selecting one sales transaction and tracing it from the customer's purchase order, through credit approval, shipment, invoicing, recording in the sales journal, and posting to the general ledger. This walkthrough helps the auditor confirm the understanding of the transaction flow and identify relevant controls.
 
 ---
 
@@ -244,4 +244,4 @@ The auditor must **document** the understanding of the entity and its environmen
 
 This documentation forms the basis for the auditor's overall audit strategy and detailed audit plan.
 
-**Example:** After completing risk assessment procedures for MSA Records, the auditor documents that the entity operates in a highly competitive and rapidly evolving industry (music distribution), faces significant risk related to digital rights and royalty accounting, has recently changed its revenue recognition policy, and has a small accounting department with limited segregation of duties. These findings drive the auditor to classify revenue recognition and royalty liabilities as significant risks requiring enhanced audit procedures.
+**Example:** After completing risk assessment procedures for Panda Records, the auditor documents that the entity operates in a highly competitive and rapidly evolving industry (music distribution), faces significant risk related to digital rights and royalty accounting, has recently changed its revenue recognition policy, and has a small accounting department with limited segregation of duties. These findings drive the auditor to classify revenue recognition and royalty liabilities as significant risks requiring enhanced audit procedures.

@@ -10,7 +10,7 @@ Cash is the most liquid asset and therefore the most susceptible to theft and ma
 
 #### How Lapping Works
 
-1. An employee at MSA Records receives a \$1,000 payment from Customer A and pockets the cash.
+1. An employee at Panda Records receives a \$1,000 payment from Customer A and pockets the cash.
 2. When Customer B sends a \$1,200 payment, the employee applies \$1,000 of it to Customer A's account to hide the shortage.
 3. When Customer C pays, the employee applies part of that payment to Customer B's account.
 4. This cycle continues indefinitely, with the employee constantly "robbing Peter to pay Paul."
@@ -36,7 +36,7 @@ Lapping becomes increasingly difficult to conceal over time because the employee
 
 #### How Kiting Works
 
-1. Near year-end, an employee at Illini Entertainment writes a check from Bank Account A to Bank Account B.
+1. Near year-end, an employee at Honey Entertainment writes a check from Bank Account A to Bank Account B.
 2. The deposit into Bank B is recorded before year-end, but the disbursement from Bank A is not recorded until after year-end.
 3. This makes it appear that cash exists in **both** accounts simultaneously, overstating the total cash balance.
 
@@ -52,7 +52,7 @@ If the receipt is recorded before year-end but the corresponding disbursement is
 
 :::
 
-#### Example: Bank Transfer Schedule at Gies Co.
+#### Example: Bank Transfer Schedule at Bear Co.
 
 | Transfer | Book Disbursement Date | Bank A Clear Date | Book Receipt Date | Bank B Clear Date | Potential Issue? |
 |---|---|---|---|---|---|
@@ -90,9 +90,9 @@ The auditor tests the client's bank reconciliation to verify the reported cash b
 6. **Verify reconciling items** – examine other adjustments for validity
 7. **Request a cutoff bank statement** – obtain a bank statement for a period (typically 7–10 days) after year-end to test subsequent clearing of outstanding items
 
-### Example: Bank Reconciliation at BIF Partners
+### Example: Bank Reconciliation at Kodiak Partners
 
-The auditor of BIF Partners receives the December 31 bank reconciliation. The bank confirmation shows a balance of \$425,000. The books show \$398,000. Outstanding checks total \$42,000 and deposits in transit total \$15,000. The auditor verifies: \$425,000 − \$42,000 + \$15,000 = \$398,000 ✓. The auditor then obtains a cutoff bank statement through January 10 to confirm that the outstanding checks cleared and the deposit in transit was received by the bank.
+The auditor of Kodiak Partners receives the December 31 bank reconciliation. The bank confirmation shows a balance of \$425,000. The books show \$398,000. Outstanding checks total \$42,000 and deposits in transit total \$15,000. The auditor verifies: \$425,000 − \$42,000 + \$15,000 = \$398,000 ✓. The auditor then obtains a cutoff bank statement through January 10 to confirm that the outstanding checks cleared and the deposit in transit was received by the bank.
 
 ## Investment Cycle
 
@@ -122,9 +122,9 @@ The auditor verifies that investment disclosures comply with applicable standard
 - Impairment considerations
 - Concentrations and related risks
 
-### Example: Investments at Kingfisher Industries
+### Example: Investments at Grizzly Industries
 
-Kingfisher Industries holds a portfolio of equity securities and corporate bonds. The auditor confirms the holdings with the brokerage firm, verifies fair values using independent pricing sources, and reviews the financial statement disclosures for proper classification and measurement under ASC 320/321.
+Grizzly Industries holds a portfolio of equity securities and corporate bonds. The auditor confirms the holdings with the brokerage firm, verifies fair values using independent pricing sources, and reviews the financial statement disclosures for proper classification and measurement under ASC 320/321.
 
 ## Auditing Fair Values
 
@@ -141,9 +141,9 @@ When auditing fair values, the auditor may:
 - **Evaluate the reasonableness of significant assumptions** used by management
 - **Assess the work of a specialist** engaged by management to determine fair values (e.g., an appraiser)
 
-### Example: Fair Value at MAS Inc.
+### Example: Fair Value at Polar Inc.
 
-MAS Inc. holds Level 3 investments (valued using unobservable inputs). The auditor reviews management's valuation model, tests the key assumptions (discount rate, growth projections), develops an independent estimate using alternative assumptions, and evaluates whether subsequent events (such as a sale of similar assets in January) corroborate the year-end fair value.
+Polar Inc. holds Level 3 investments (valued using unobservable inputs). The auditor reviews management's valuation model, tests the key assumptions (discount rate, growth projections), develops an independent estimate using alternative assumptions, and evaluates whether subsequent events (such as a sale of similar assets in January) corroborate the year-end fair value.
 
 ## Summary
 

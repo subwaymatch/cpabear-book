@@ -23,7 +23,7 @@ Representations may address matters that are:
 - **Necessary to support other audit evidence** obtained during the engagement
 - **Specific to the entity** and its circumstances (e.g., unusual transactions)
 
-**Example:** While auditing Gies Co., the engagement partner requests a written representation from Gies Co.'s CEO and CFO confirming that all material transactions have been recorded and that no side agreements exist with customers. These representations supplement the auditor's revenue testing procedures.
+**Example:** While auditing Bear Co., the engagement partner requests a written representation from Bear Co.'s CEO and CFO confirming that all material transactions have been recorded and that no side agreements exist with customers. These representations supplement the auditor's revenue testing procedures.
 
 ---
 
@@ -78,7 +78,7 @@ Management confirms that it has disclosed:
 ### Subsequent Events
 Management acknowledges that all events occurring **after the balance sheet date** that require adjustment or disclosure have been properly reflected in the financial statements.
 
-**Example:** During the audit of BIF Partners, the auditor learns through inquiry that a significant customer filed for bankruptcy in January, after BIF Partners' December 31 fiscal year-end. The auditor obtains a written representation that management has disclosed all subsequent events, including this customer's bankruptcy, and has evaluated whether an adjustment to accounts receivable is necessary.
+**Example:** During the audit of Kodiak Partners, the auditor learns through inquiry that a significant customer filed for bankruptcy in January, after Kodiak Partners' December 31 fiscal year-end. The auditor obtains a written representation that management has disclosed all subsequent events, including this customer's bankruptcy, and has evaluated whether an adjustment to accounts receivable is necessary.
 
 ---
 
@@ -122,7 +122,7 @@ A refusal to provide the required representation letter is a **scope limitation*
 
 :::
 
-**Example:** Illini Entertainment's CEO agrees to sign the representation letter, but the CFO refuses, citing personal legal concerns. The auditor must evaluate the impact—if the CFO's refusal means the auditor cannot obtain adequate representations about the financial statements, the auditor should issue a disclaimer of opinion.
+**Example:** Honey Entertainment's CEO agrees to sign the representation letter, but the CFO refuses, citing personal legal concerns. The auditor must evaluate the impact—if the CFO's refusal means the auditor cannot obtain adequate representations about the financial statements, the auditor should issue a disclaimer of opinion.
 
 ---
 

@@ -28,11 +28,11 @@ The auditor may use one, two, or all three approaches. The choice depends on the
 
 :::
 
-### Example: Evaluating an Estimate at Gies Co.
+### Example: Evaluating an Estimate at Bear Co.
 
-Gies Co. records a warranty reserve of \$500,000. The auditor:
+Bear Co. records a warranty reserve of \$500,000. The auditor:
 1. **Reviews management's process** – Examines the historical warranty claim rate, the assumptions about future claims, and the data used (sales volume, defect rates)
-2. **Develops an independent estimate** – Using Gies Co.'s historical claim data and industry benchmarks, the auditor independently calculates an expected warranty reserve of \$480,000–\$530,000
+2. **Develops an independent estimate** – Using Bear Co.'s historical claim data and industry benchmarks, the auditor independently calculates an expected warranty reserve of \$480,000–\$530,000
 3. **Reviews subsequent events** – Examines warranty claims received in January and February to see if the pattern is consistent with management's estimate
 
 Since management's \$500,000 falls within the auditor's reasonable range, the estimate is considered acceptable.
@@ -89,14 +89,14 @@ The letter is prepared by **management** (not the auditor) because it is managem
 | **Review tax returns and assessments** | Identify potential tax-related contingencies |
 | **Obtain a representation letter** | Management's written representations should specifically address litigation and contingencies |
 
-### Example: Contingency Audit at BIF Partners
+### Example: Contingency Audit at Kodiak Partners
 
-BIF Partners is involved in a breach-of-contract lawsuit filed by Illini Security. The auditor:
+Kodiak Partners is involved in a breach-of-contract lawsuit filed by Ursa Security. The auditor:
 - Reviews management's description of the lawsuit in the attorney letter
-- Sends the letter to BIF Partners' outside counsel, who confirms the lawsuit exists and assesses the likelihood of an unfavorable outcome as "reasonably possible" with a potential range of \$200,000–\$400,000
+- Sends the letter to Kodiak Partners' outside counsel, who confirms the lawsuit exists and assesses the likelihood of an unfavorable outcome as "reasonably possible" with a potential range of \$200,000–\$400,000
 - Reviews the board minutes from the September meeting, which reference the lawsuit and discuss settlement options
-- Reviews the engagement letter between BIF Partners and its attorney for scope of legal representation
-- Verifies that BIF Partners disclosed the contingency in the notes to the financial statements
+- Reviews the engagement letter between Kodiak Partners and its attorney for scope of legal representation
+- Verifies that Kodiak Partners disclosed the contingency in the notes to the financial statements
 
 ## Effect on the Audit Opinion
 
@@ -121,9 +121,9 @@ If the client's attorney **refuses to furnish information** requested in the let
 | Attorney refuses to respond entirely | Disclaimer of opinion is likely warranted |
 | Attorney limits response due to inherent uncertainty (cannot estimate outcome) | Not necessarily a scope limitation—the auditor evaluates disclosure adequacy |
 
-### Example: Attorney Non-Response at MAS Inc.
+### Example: Attorney Non-Response at Polar Inc.
 
-MAS Inc.'s attorney refuses to respond to the auditor's inquiry regarding a pending regulatory action by the SEC. The auditor is unable to obtain sufficient appropriate evidence about the potential liability. Because the matter could be material and pervasive to the financial statements, the auditor issues a **disclaimer of opinion**, citing the inability to obtain sufficient evidence about the litigation contingency.
+Polar Inc.'s attorney refuses to respond to the auditor's inquiry regarding a pending regulatory action by the SEC. The auditor is unable to obtain sufficient appropriate evidence about the potential liability. Because the matter could be material and pervasive to the financial statements, the auditor issues a **disclaimer of opinion**, citing the inability to obtain sufficient evidence about the litigation contingency.
 
 ## Summary
 

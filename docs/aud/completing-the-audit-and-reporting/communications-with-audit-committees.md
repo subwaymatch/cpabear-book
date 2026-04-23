@@ -23,7 +23,7 @@ The auditor must communicate a range of matters to those charged with governance
 | **Significant audit findings** | Qualitative aspects of accounting practices, significant difficulties encountered, significant unusual transactions, uncorrected misstatements |
 | **Independence** | For issuers: written communication of all relationships that may bear on independence (required annually by AS 1301 and PCAOB Rule 3526) |
 
-**Example:** Before beginning fieldwork at Gies Co., the auditor meets with the audit committee to discuss the planned audit approach, key risk areas (including revenue recognition and inventory valuation), and the expected timeline. This communication establishes the foundation for a productive engagement.
+**Example:** Before beginning fieldwork at Bear Co., the auditor meets with the audit committee to discuss the planned audit approach, key risk areas (including revenue recognition and inventory valuation), and the expected timeline. This communication establishes the foundation for a productive engagement.
 
 ---
 
@@ -57,7 +57,7 @@ The auditor communicates an overview of:
 
 This communication is typically made **at the start of the engagement** (during the planning phase), though updates may be communicated throughout the audit as circumstances change.
 
-**Example:** MAS Inc.'s auditor communicates to the audit committee that the audit team plans to take a substantive approach to accounts receivable (rather than relying on controls) because MAS Inc. has experienced significant turnover in its billing department during the year, increasing the risk of misstatement.
+**Example:** Polar Inc.'s auditor communicates to the audit committee that the audit team plans to take a substantive approach to accounts receivable (rather than relying on controls) because Polar Inc. has experienced significant turnover in its billing department during the year, increasing the risk of misstatement.
 
 ---
 
@@ -105,7 +105,7 @@ The auditor must communicate all **uncorrected misstatements** accumulated durin
 - The **aggregate effect** of uncorrected misstatements on the financial statements
 - A request that management **correct the misstatements**
 
-**Example:** During the audit of BIF Partners, the auditor identifies three misstatements totaling \$85,000 that management has declined to correct. While each misstatement is individually immaterial and their aggregate is below the auditor's materiality threshold, the auditor communicates all three to the audit committee along with the rationale for why they are considered immaterial. The audit committee may still direct management to make corrections.
+**Example:** During the audit of Kodiak Partners, the auditor identifies three misstatements totaling \$85,000 that management has declined to correct. While each misstatement is individually immaterial and their aggregate is below the auditor's materiality threshold, the auditor communicates all three to the audit committee along with the rationale for why they are considered immaterial. The audit committee may still direct management to make corrections.
 
 :::tip[Exam Tip]
 
@@ -141,7 +141,7 @@ If the auditor determines that the **two-way communication is inadequate**, the 
 - Whether sufficient appropriate audit evidence can be obtained
 - The need to **modify the opinion** or **withdraw from the engagement**
 
-**Example:** Illini Entertainment's audit committee chairperson informs the auditor during a private session that several employees have raised concerns about the CFO overriding expense approval controls. The auditor incorporates this information into the fraud risk assessment and expands testing of management override controls.
+**Example:** Honey Entertainment's audit committee chairperson informs the auditor during a private session that several employees have raised concerns about the CFO overriding expense approval controls. The auditor incorporates this information into the fraud risk assessment and expands testing of management override controls.
 
 ---
 

@@ -167,7 +167,7 @@ Management's refusal to allow confirmations is a **significant event** that must
 
 :::info[Example]
 
-The auditor of **Kingfisher Industries** requests permission to send receivable confirmations to the company's five largest customers. Management refuses, stating that these customers have threatened to take their business elsewhere if they receive audit confirmations. The auditor evaluates this explanation, determines it is **not reasonable** (audit confirmations are standard business practice), and communicates the matter to those charged with governance. The auditor performs alternative procedures—examining subsequent cash receipts, reviewing shipping documents, and inspecting contracts—but ultimately concludes that the inability to confirm these material balances represents a **scope limitation** that results in a qualified opinion.
+The auditor of **Grizzly Industries** requests permission to send receivable confirmations to the company's five largest customers. Management refuses, stating that these customers have threatened to take their business elsewhere if they receive audit confirmations. The auditor evaluates this explanation, determines it is **not reasonable** (audit confirmations are standard business practice), and communicates the matter to those charged with governance. The auditor performs alternative procedures—examining subsequent cash receipts, reviewing shipping documents, and inspecting contracts—but ultimately concludes that the inability to confirm these material balances represents a **scope limitation** that results in a qualified opinion.
 
 :::
 
@@ -196,7 +196,7 @@ An exception occurs when the third party's response **differs from the amount re
 
 :::info[Example]
 
-**Gies Co.**'s auditor sends positive confirmations to 30 customers. Twenty-five respond without exception. Three responses identify timing differences (payments mailed before year-end but not received until January), which the auditor verifies by examining the subsequent cash receipts log. One response identifies a \$12,000 disputed invoice that the customer claims was for defective merchandise returned in November—the auditor examines shipping records and confirms the return was received but not yet recorded by Gies Co. The auditor proposes an adjustment to reduce accounts receivable by \$12,000. The fifth exception reveals a \$45,000 balance confirmed by the customer at \$0—investigation reveals the sales manager recorded a fictitious sale. This finding triggers expanded fraud procedures.
+**Bear Co.**'s auditor sends positive confirmations to 30 customers. Twenty-five respond without exception. Three responses identify timing differences (payments mailed before year-end but not received until January), which the auditor verifies by examining the subsequent cash receipts log. One response identifies a \$12,000 disputed invoice that the customer claims was for defective merchandise returned in November—the auditor examines shipping records and confirms the return was received but not yet recorded by Bear Co. The auditor proposes an adjustment to reduce accounts receivable by \$12,000. The fifth exception reveals a \$45,000 balance confirmed by the customer at \$0—investigation reveals the sales manager recorded a fictitious sale. This finding triggers expanded fraud procedures.
 
 :::
 
@@ -287,7 +287,7 @@ The following practices help ensure that the confirmation process produces relia
 
 :::info[Example]
 
-While auditing **BIF Partners**, the engagement team sends 40 positive formatted receivable confirmations and 15 bank confirmations. After three weeks, eight receivable confirmations remain outstanding. The team sends second requests and directly contacts three of the largest non-responding customers by phone. Ultimately, five customers respond to the second request, and alternative procedures (examination of subsequent cash receipts and shipping documents) are performed for the remaining three. All 15 bank confirmations are returned without exception. The team documents the entire process, including the response rate (92.5%), exceptions investigated, alternative procedures performed, and the conclusion that sufficient appropriate evidence was obtained.
+While auditing **Kodiak Partners**, the engagement team sends 40 positive formatted receivable confirmations and 15 bank confirmations. After three weeks, eight receivable confirmations remain outstanding. The team sends second requests and directly contacts three of the largest non-responding customers by phone. Ultimately, five customers respond to the second request, and alternative procedures (examination of subsequent cash receipts and shipping documents) are performed for the remaining three. All 15 bank confirmations are returned without exception. The team documents the entire process, including the response rate (92.5%), exceptions investigated, alternative procedures performed, and the conclusion that sufficient appropriate evidence was obtained.
 
 :::
 

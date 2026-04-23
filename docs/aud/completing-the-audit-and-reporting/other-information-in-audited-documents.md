@@ -28,7 +28,7 @@ The key distinction is that other information is included **in the same document
 
 :::
 
-**Example:** Kingfisher Industries publishes an annual report that includes the audited financial statements, MD&A, a letter from the CEO, five-year selected financial data, and a corporate responsibility summary. All of these items (except the audited financial statements and notes) constitute "other information" that the auditor must read and consider.
+**Example:** Grizzly Industries publishes an annual report that includes the audited financial statements, MD&A, a letter from the CEO, five-year selected financial data, and a corporate responsibility summary. All of these items (except the audited financial statements and notes) constitute "other information" that the auditor must read and consider.
 
 ---
 
@@ -117,7 +117,7 @@ The auditor cannot simply ignore a material inconsistency. Even though the audit
 
 A **material misstatement of fact** is information in the other information that is unrelated to the financial statements but is nonetheless incorrectly stated. The auditor may become aware of such misstatements based on general knowledge.
 
-**Example:** Illini Entertainment's annual report states that the company has "500 retail locations across 48 states." The auditor, through work performed during the audit, knows the company has only 320 retail locations in 35 states. This is a material misstatement of fact.
+**Example:** Honey Entertainment's annual report states that the company has "500 retail locations across 48 states." The auditor, through work performed during the audit, knows the company has only 320 retail locations in 35 states. This is a material misstatement of fact.
 
 ### Auditor's Response
 
@@ -154,7 +154,7 @@ When the auditor has obtained the other information prior to the report date, th
 
 **Example report language (no issues identified):**
 
-> *We have read the other information included in Gies Co.'s annual report and considered whether it is materially inconsistent with the financial statements or our knowledge obtained during the audit. We did not audit the other information and do not express an opinion or any form of assurance thereon. Based on our reading, we have not identified any material inconsistencies.*
+> *We have read the other information included in Bear Co.'s annual report and considered whether it is materially inconsistent with the financial statements or our knowledge obtained during the audit. We did not audit the other information and do not express an opinion or any form of assurance thereon. Based on our reading, we have not identified any material inconsistencies.*
 
 ### When a Material Inconsistency Exists
 
@@ -182,7 +182,7 @@ A critical concept for the CPA exam is that the auditor provides **no opinion an
 | **Limited assurance (conclusion)** | Reviewed financial statements |
 | **No assurance** | Other information in documents containing audited F/S |
 
-**Example:** After reading MAS Inc.'s annual report, the auditor has read the MD&A section, the CEO's letter, and the five-year financial summary. Even though the auditor has read all of this material and considered it for consistency, the auditor's report makes clear that **no opinion or assurance** is expressed on any of it.
+**Example:** After reading Polar Inc.'s annual report, the auditor has read the MD&A section, the CEO's letter, and the five-year financial summary. Even though the auditor has read all of this material and considered it for consistency, the auditor's report makes clear that **no opinion or assurance** is expressed on any of it.
 
 :::caution
 
@@ -203,7 +203,7 @@ The following summarizes the auditor's decision process:
 | Material misstatement of fact | N/A | Yes | Discuss with management; request correction; consider further steps |
 | No issues | N/A | N/A | State in the Other Information section that nothing to report |
 
-**Example:** BIF Partners' annual report states that net income increased 20% from the prior year. The audited financial statements show net income decreased 3%. This material inconsistency clearly resides in the other information (the MD&A), not the financial statements. The auditor discusses with management and requests that the MD&A be corrected. If management refuses, the auditor describes the inconsistency in the Other Information section of the report.
+**Example:** Kodiak Partners' annual report states that net income increased 20% from the prior year. The audited financial statements show net income decreased 3%. This material inconsistency clearly resides in the other information (the MD&A), not the financial statements. The auditor discusses with management and requests that the MD&A be corrected. If management refuses, the auditor describes the inconsistency in the Other Information section of the report.
 
 ---
 

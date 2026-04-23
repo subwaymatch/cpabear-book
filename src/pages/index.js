@@ -3,7 +3,15 @@ import { BookOpen, FileText, Scale, Shield, Users, Calculator, ArrowRight, Spark
 import { SectionCard, } from "@site/src/components/SectionCard";
 import styles from "./index.module.css";
 import Layout from "@theme/Layout";
-const ROTATING_WORDS = ["FAR", "AUD", "REG", "ISC", "TCP", "BAR", "the CPA Exam"];
+const ROTATING_WORDS = [
+    "FAR",
+    "AUD",
+    "REG",
+    "ISC",
+    "TCP",
+    "BAR",
+    "the CPA Exam",
+];
 const FLOATING_SYMBOLS = [
     { char: "$", top: "12%", left: "6%", delay: "0s", duration: "14s" },
     { char: "%", top: "22%", left: "88%", delay: "2s", duration: "18s" },
@@ -14,7 +22,20 @@ const FLOATING_SYMBOLS = [
     { char: "¢", top: "86%", left: "40%", delay: "2.5s", duration: "17s" },
     { char: "€", top: "34%", left: "2%", delay: "6s", duration: "21s" },
 ];
-const TICKER_TERMS = ["GAAP", "IFRS", "FASB", "AICPA", "SOX", "COSO", "EBITDA", "ASC 606", "ASC 842", "GASB", "PCAOB", "IRS §263A"];
+const TICKER_TERMS = [
+    "GAAP",
+    "IFRS",
+    "FASB",
+    "AICPA",
+    "SOX",
+    "COSO",
+    "EBITDA",
+    "ASC 606",
+    "ASC 842",
+    "GASB",
+    "PCAOB",
+    "IRS §263A",
+];
 export default function App() {
     const [wordIndex, setWordIndex] = useState(0);
     useEffect(() => {
@@ -81,6 +102,7 @@ export default function App() {
     ];
     return (<Layout title="Home">
       <div className={styles.homePage}>
+        {/* Hero Section */}
         <section className={styles.hero} aria-label="Hero">
           <div className={styles.heroBackdrop} aria-hidden="true">
             <div className={`${styles.blob} ${styles.blobA}`}/>
@@ -114,7 +136,7 @@ export default function App() {
                       {word}
                     </span>))}
                 </span>
-                <br/>
+                <br />
                 <span className={styles.titleGradient}>
                   with a book that keeps up.
                 </span>
@@ -181,6 +203,7 @@ export default function App() {
         </section>
 
         <main className={styles.container}>
+          {/* Sections Grid */}
           <div id="sections" className={styles.sectionsIntro}>
             <h2 className={styles.sectionsHeading}>Six sections. One book.</h2>
             <p className={styles.sectionsSubhead}>
@@ -192,6 +215,7 @@ export default function App() {
             {sections.map((section) => (<SectionCard key={section.id} section={section}/>))}
           </div>
 
+          {/* Additional Info */}
           <div className={styles.infoBox}>
             <h2>Getting Started</h2>
             <p className={styles.infoDescription}>

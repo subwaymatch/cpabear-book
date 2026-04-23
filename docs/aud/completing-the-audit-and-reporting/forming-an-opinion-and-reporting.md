@@ -24,7 +24,7 @@ For the AUD exam, you must know the difference between these two sets of standar
 - **SASs** are developed through the AICPA's standard-setting process and are converged with International Standards on Auditing (ISAs) to the extent appropriate for U.S. practice
 - **ASs** are established by the PCAOB and approved by the SEC. The PCAOB also has the authority to inspect registered public accounting firms
 
-**Example:** When Gies Co. (a private company) engages an auditor, the audit is performed under AICPA standards (SASs). When Kingfisher Industries (a publicly traded company registered with the SEC) engages an auditor, the audit is performed under PCAOB standards (ASs).
+**Example:** When Bear Co. (a private company) engages an auditor, the audit is performed under AICPA standards (SASs). When Grizzly Industries (a publicly traded company registered with the SEC) engages an auditor, the audit is performed under PCAOB standards (ASs).
 
 ---
 
@@ -38,7 +38,7 @@ Key points:
 - The opinion provides **reasonable assurance**, which is a high level of assurance but is not a guarantee
 - The auditor's opinion does not assure the future viability of the entity or the efficiency of management
 
-**Example:** After completing the audit of MAS Inc., the auditor issues an opinion stating the financial statements present fairly, in all material respects, in conformity with U.S. GAAP. This tells users (lenders, investors, regulators) that a competent independent professional has examined the financial statements and found them reliable — but it does not mean every number is perfectly accurate or that MAS Inc. will be profitable next year.
+**Example:** After completing the audit of Polar Inc., the auditor issues an opinion stating the financial statements present fairly, in all material respects, in conformity with U.S. GAAP. This tells users (lenders, investors, regulators) that a competent independent professional has examined the financial statements and found them reliable — but it does not mean every number is perfectly accurate or that Polar Inc. will be profitable next year.
 
 ---
 
@@ -93,7 +93,7 @@ Professional skepticism means the auditor does not simply accept management's ex
 - Critically evaluates audit evidence, including considering contradictory evidence
 - Recognizes that management bias may exist
 
-**Example:** BIF Partners' management provides an unusually optimistic explanation for a spike in fourth-quarter revenue. Rather than accepting the explanation without question, the auditor exercises professional skepticism by examining supporting contracts, confirming with customers, and analyzing the revenue pattern compared to prior periods.
+**Example:** Kodiak Partners' management provides an unusually optimistic explanation for a spike in fourth-quarter revenue. Rather than accepting the explanation without question, the auditor exercises professional skepticism by examining supporting contracts, confirming with customers, and analyzing the revenue pattern compared to prior periods.
 
 ### Professional Judgment
 
@@ -166,7 +166,7 @@ In some situations, the auditor may issue **different opinions** on different fi
 - An **unmodified opinion** on the balance sheet but a **qualified opinion** on the income statement (perhaps due to a revenue recognition departure that affects results of operations but not financial position)
 - This can also occur when a scope limitation affects one statement but not another
 
-**Example:** Illini Entertainment's auditor is unable to observe inventory, which affects the cost of goods sold on the income statement and the inventory balance on the balance sheet. If alternative procedures are partially effective for the balance sheet but not for the income statement, the auditor might issue different opinions on the two statements.
+**Example:** Honey Entertainment's auditor is unable to observe inventory, which affects the cost of goods sold on the income statement and the inventory balance on the balance sheet. If alternative procedures are partially effective for the balance sheet but not for the income statement, the auditor might issue different opinions on the two statements.
 
 ### Other Auditors
 
@@ -202,7 +202,7 @@ If comparative financial statements are presented and the predecessor is asked t
 - Compare them with the prior-year statements on which the predecessor reported
 - Obtain a **representation letter** from the successor auditor and from management
 
-**Example:** MAS Inc. changes auditors. The new firm contacts the predecessor to discuss why MAS Inc. switched firms and whether the predecessor encountered any issues with management integrity. The predecessor (with MAS Inc.'s permission) shares that the relationship was amicable and no significant issues were identified.
+**Example:** Polar Inc. changes auditors. The new firm contacts the predecessor to discuss why Polar Inc. switched firms and whether the predecessor encountered any issues with management integrity. The predecessor (with Polar Inc.'s permission) shares that the relationship was amicable and no significant issues were identified.
 
 ---
 
@@ -264,7 +264,7 @@ Under AICPA standards, the group auditor may:
 
 The decision depends on the group auditor's assessment of the component auditor and the significance of the component.
 
-**Example:** Kingfisher Industries has a wholly owned subsidiary, Illini Security, which is audited by a separate firm. The group auditor evaluates the subsidiary auditor's qualifications, reviews their working papers, and determines whether to assume responsibility or make reference to the other auditor in the consolidated audit report.
+**Example:** Grizzly Industries has a wholly owned subsidiary, Ursa Security, which is audited by a separate firm. The group auditor evaluates the subsidiary auditor's qualifications, reviews their working papers, and determines whether to assume responsibility or make reference to the other auditor in the consolidated audit report.
 
 ---
 
@@ -277,7 +277,7 @@ Not all financial statements are prepared under U.S. GAAP. Some entities prepare
 | Framework | Description | Example |
 |-----------|-------------|---------|
 | **Cash basis** | Revenue and expenses recognized only when cash is received or paid | A small consulting firm that tracks only cash inflows and outflows |
-| **Tax basis** | Financial statements prepared using the income tax basis of accounting (consistent with the entity's tax return) | BIF Partners prepares financial statements using the same rules they use for their federal income tax return |
+| **Tax basis** | Financial statements prepared using the income tax basis of accounting (consistent with the entity's tax return) | Kodiak Partners prepares financial statements using the same rules they use for their federal income tax return |
 | **Regulatory basis** | Financial statements prepared in accordance with requirements of a regulatory agency (e.g., state insurance commissioner) | An insurance company preparing statements per state regulatory requirements |
 | **Contractual basis** | Financial statements prepared in accordance with a specific contract or agreement | A franchisor requires franchisees to report on a specific basis defined in the franchise agreement |
 | **Other basis** | A definite set of logical criteria applied to all material items (e.g., price-level adjusted statements) | An entity preparing inflation-adjusted financial statements |
@@ -296,7 +296,7 @@ When reporting on special purpose framework financial statements, the auditor mu
 
 :::
 
-**Example:** Gies Co. prepares its financial statements on a tax basis because its primary users are the owners and the IRS. The auditor performs the audit and issues an opinion stating the financial statements present fairly, in all material respects, in accordance with the tax basis of accounting described in Note 1. An emphasis-of-matter paragraph alerts readers that the tax basis differs from U.S. GAAP.
+**Example:** Bear Co. prepares its financial statements on a tax basis because its primary users are the owners and the IRS. The auditor performs the audit and issues an opinion stating the financial statements present fairly, in all material respects, in accordance with the tax basis of accounting described in Note 1. An emphasis-of-matter paragraph alerts readers that the tax basis differs from U.S. GAAP.
 
 ### Restriction on Use
 

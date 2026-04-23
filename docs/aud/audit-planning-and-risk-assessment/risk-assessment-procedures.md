@@ -18,9 +18,9 @@ Not all misstatements are the same. Auditing standards recognize three distinct 
 
 | Type | Description | Example |
 |---|---|---|
-| **Factual misstatement** | A misstatement about which there is **no doubt**; the amount is clearly wrong | Gies Co. records a \$50,000 invoice twice, resulting in a definite overstatement of expenses |
-| **Judgmental misstatement** | A misstatement arising from **management's judgments** about accounting estimates or the selection/application of accounting policies that the auditor considers unreasonable | MAS Inc. estimates its warranty liability at \$100,000, but the auditor's analysis suggests \$300,000 is more appropriate given historical claim rates |
-| **Projected misstatement** | The auditor's **best estimate** of misstatement in a population, **extrapolated** from misstatements identified in an audit sample | The auditor tests a sample of Kingfisher Industries' inventory items and finds errors totaling \$15,000. Extrapolating to the full population, the projected misstatement is \$120,000 |
+| **Factual misstatement** | A misstatement about which there is **no doubt**; the amount is clearly wrong | Bear Co. records a \$50,000 invoice twice, resulting in a definite overstatement of expenses |
+| **Judgmental misstatement** | A misstatement arising from **management's judgments** about accounting estimates or the selection/application of accounting policies that the auditor considers unreasonable | Polar Inc. estimates its warranty liability at \$100,000, but the auditor's analysis suggests \$300,000 is more appropriate given historical claim rates |
+| **Projected misstatement** | The auditor's **best estimate** of misstatement in a population, **extrapolated** from misstatements identified in an audit sample | The auditor tests a sample of Grizzly Industries' inventory items and finds errors totaling \$15,000. Extrapolating to the full population, the projected misstatement is \$120,000 |
 
 :::tip[Exam Tip]
 
@@ -84,7 +84,7 @@ Factors that **increase** inherent risk include:
 - **Industry conditions** (e.g., rapidly changing technology, heavy regulation)
 - **Economic environment** (e.g., recession, market downturns)
 
-**Example:** Illini Entertainment produces feature films and must estimate the ultimate revenue and amortization of film costs—a highly subjective process involving significant management judgment. The inherent risk for the film cost asset is high due to the complexity and uncertainty of the estimates.
+**Example:** Honey Entertainment produces feature films and must estimate the ultimate revenue and amortization of film costs—a highly subjective process involving significant management judgment. The inherent risk for the film cost asset is high due to the complexity and uncertainty of the estimates.
 
 ### Control Risk (CR)
 
@@ -97,7 +97,7 @@ Key points about control risk:
 - If the auditor decides not to test controls, control risk is assessed at the **maximum** (i.e., the auditor assumes controls are ineffective)
 - Even when controls are well-designed and operating effectively, control risk can never be reduced to **zero** due to inherent limitations of internal control
 
-**Example:** BIF Partners assesses control risk for Illini Security's cash disbursements cycle. Illini Security has a strong segregation of duties—one person prepares checks, another signs them, and a third reconciles the bank statement. After testing these controls and finding them operating effectively, BIF Partners assesses control risk as low for the cash disbursements assertions.
+**Example:** Kodiak Partners assesses control risk for Ursa Security's cash disbursements cycle. Ursa Security has a strong segregation of duties—one person prepares checks, another signs them, and a third reconciles the bank statement. After testing these controls and finding them operating effectively, Kodiak Partners assesses control risk as low for the cash disbursements assertions.
 
 ---
 
@@ -130,7 +130,7 @@ When the auditor needs to **decrease detection risk** (because RMM is high), the
 | **Timing** | Testing at or near the balance sheet date rather than at interim | Interim testing may be acceptable |
 | **Extent** | Larger sample sizes, more items tested | Smaller sample sizes |
 
-**Example:** The auditor determines that inherent risk and control risk for MSA Records' revenue recognition are both high (complex licensing arrangements with variable consideration). The combined RMM is high, so the auditor must set detection risk low. The auditor responds by performing detailed contract-by-contract testing of revenue transactions (nature), concentrating testing at year-end rather than interim (timing), and selecting a larger sample of contracts for testing (extent).
+**Example:** The auditor determines that inherent risk and control risk for Panda Records' revenue recognition are both high (complex licensing arrangements with variable consideration). The combined RMM is high, so the auditor must set detection risk low. The auditor responds by performing detailed contract-by-contract testing of revenue transactions (nature), concentrating testing at year-end rather than interim (timing), and selecting a larger sample of contracts for testing (extent).
 
 ---
 

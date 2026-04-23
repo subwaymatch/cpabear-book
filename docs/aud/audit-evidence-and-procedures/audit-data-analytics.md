@@ -70,10 +70,10 @@ ADAs fall into four categories, each representing a progressively deeper level o
 
 | Category | Question It Answers | Audit Application Example |
 |---|---|---|
-| **Descriptive** | *What happened?* | Summarizing all journal entries posted by **MAS Inc.** during the year by user, date, and amount to identify posting patterns |
-| **Diagnostic** | *Why did it happen?* | Investigating why **Gies Co.**'s warranty expense spiked 40% in Q3 by drilling into product return data and correlating with specific product lines |
-| **Predictive** | *What is likely to happen?* | Building a model to estimate expected bad debt expense for **Illini Entertainment** based on historical collection patterns and current receivable aging |
-| **Prescriptive** | *What should we do about it?* | Recommending that the audit team increase sample sizes for revenue testing at **BIF Partners** based on predictive risk scoring of customer segments |
+| **Descriptive** | *What happened?* | Summarizing all journal entries posted by **Polar Inc.** during the year by user, date, and amount to identify posting patterns |
+| **Diagnostic** | *Why did it happen?* | Investigating why **Bear Co.**'s warranty expense spiked 40% in Q3 by drilling into product return data and correlating with specific product lines |
+| **Predictive** | *What is likely to happen?* | Building a model to estimate expected bad debt expense for **Honey Entertainment** based on historical collection patterns and current receivable aging |
+| **Prescriptive** | *What should we do about it?* | Recommending that the audit team increase sample sizes for revenue testing at **Kodiak Partners** based on predictive risk scoring of customer segments |
 
 :::note
 
@@ -97,7 +97,7 @@ During planning, ADAs help auditors identify areas of elevated risk by analyzing
 
 :::info[Example]
 
-While planning the audit of **Kingfisher Industries**, the engagement team runs a Benford's Law analysis on all vendor payments exceeding \$1,000. The analysis reveals that payments beginning with the digit "8" occur far more frequently than expected. The auditor investigates and discovers that a procurement clerk created a fictitious vendor with invoices consistently priced between \$8,000 and \$8,999 to stay below the manager-approval threshold of \$10,000.
+While planning the audit of **Grizzly Industries**, the engagement team runs a Benford's Law analysis on all vendor payments exceeding \$1,000. The analysis reveals that payments beginning with the digit "8" occur far more frequently than expected. The auditor investigates and discovers that a procurement clerk created a fictitious vendor with invoices consistently priced between \$8,000 and \$8,999 to stay below the manager-approval threshold of \$10,000.
 
 :::
 
@@ -106,7 +106,7 @@ While planning the audit of **Kingfisher Industries**, the engagement team runs 
 ADAs can test controls over entire populations rather than relying on a sample of transactions.
 
 - Test the **three-way match** control (purchase order, receiving report, vendor invoice) across all purchase transactions to identify any that bypassed the matching process
-- Verify that all disbursements above the \$5,000 approval threshold at **Illini Security** received the required manager authorization
+- Verify that all disbursements above the \$5,000 approval threshold at **Ursa Security** received the required manager authorization
 - Analyze user access logs to confirm that segregation of duties controls operated throughout the period
 
 ### Tests of Details
@@ -127,7 +127,7 @@ When an ADA covers the full population (e.g., recalculating depreciation for eve
 
 ADAs enhance both required and optional analytical procedures:
 
-- **Planning analytics:** Use regression analysis to develop an expectation of monthly revenue for **MAS Inc.** based on headcount, contract volume, and seasonal factors—then compare to recorded revenue
+- **Planning analytics:** Use regression analysis to develop an expectation of monthly revenue for **Polar Inc.** based on headcount, contract volume, and seasonal factors—then compare to recorded revenue
 - **Substantive analytics:** Build a predictive model of expected payroll expense by department and compare to actual amounts to identify departments with unexplained variances
 - **Overall review analytics:** Visualize key financial ratios across all quarters to confirm the financial statements as a whole are consistent with the auditor's understanding
 
@@ -162,7 +162,7 @@ The reliability of any ADA depends entirely on the quality and integrity of the 
 
 :::caution
 
-Most ADAs rely on **structured data** because it can be directly imported and analyzed. When working with unstructured data (e.g., analyzing email communications for related-party indicators at **BIF Partners**), the auditor faces additional challenges around completeness, extraction accuracy, and relevance. The CPA exam generally focuses on structured data applications.
+Most ADAs rely on **structured data** because it can be directly imported and analyzed. When working with unstructured data (e.g., analyzing email communications for related-party indicators at **Kodiak Partners**), the auditor faces additional challenges around completeness, extraction accuracy, and relevance. The CPA exam generally focuses on structured data applications.
 
 :::
 
@@ -181,7 +181,7 @@ Before performing an ADA, the auditor evaluates several attributes of the data:
 2. **Test for completeness** by checking record counts, date ranges, and sequence gaps
 3. **Trace a sample** of extracted records back to source documents
 4. **Evaluate IT general controls** over the systems that generated the data
-5. **Assess the source** — data from an independent external source (e.g., a bank confirmation) is generally more reliable than data generated internally by **Illini Entertainment**'s management
+5. **Assess the source** — data from an independent external source (e.g., a bank confirmation) is generally more reliable than data generated internally by **Honey Entertainment**'s management
 
 ---
 
@@ -193,10 +193,10 @@ ADAs often produce **visualizations and reports** that the auditor must interpre
 
 | Visualization | Best Used For | Audit Application |
 |---|---|---|
-| **Bar/column charts** | Comparing discrete categories | Comparing revenue by product line at **Gies Co.** across periods to spot unusual changes |
-| **Line charts** | Showing trends over time | Tracking monthly sales trends at **Kingfisher Industries** to identify seasonality deviations |
-| **Scatter plots** | Identifying correlations and outliers | Plotting invoice amount vs. days-to-payment for **MAS Inc.** to find outlier transactions |
-| **Heat maps** | Highlighting concentrations of activity | Showing journal entry volume by user and time-of-day at **Illini Security** to detect unusual posting patterns |
+| **Bar/column charts** | Comparing discrete categories | Comparing revenue by product line at **Bear Co.** across periods to spot unusual changes |
+| **Line charts** | Showing trends over time | Tracking monthly sales trends at **Grizzly Industries** to identify seasonality deviations |
+| **Scatter plots** | Identifying correlations and outliers | Plotting invoice amount vs. days-to-payment for **Polar Inc.** to find outlier transactions |
+| **Heat maps** | Highlighting concentrations of activity | Showing journal entry volume by user and time-of-day at **Ursa Security** to detect unusual posting patterns |
 | **Histograms** | Showing frequency distributions | Analyzing the distribution of vendor payment amounts at **Bear Co.** to assess Benford's Law conformity |
 
 ### Interpretation Techniques
@@ -207,7 +207,7 @@ Regression analysis establishes a **mathematical relationship** between a depend
 
 :::info[Example]
 
-The auditor builds a regression model predicting monthly revenue for **Illini Entertainment** using three independent variables: number of active subscribers, average ticket price, and seasonal index. The model predicts December revenue of \$4.2 million, but the recorded amount is \$5.1 million—a difference of \$900,000. This exceeds the auditor's threshold and triggers further investigation, which reveals that management recorded \$850,000 in revenue from gift card sales that should have been deferred as unearned revenue.
+The auditor builds a regression model predicting monthly revenue for **Honey Entertainment** using three independent variables: number of active subscribers, average ticket price, and seasonal index. The model predicts December revenue of \$4.2 million, but the recorded amount is \$5.1 million—a difference of \$900,000. This exceeds the auditor's threshold and triggers further investigation, which reveals that management recorded \$850,000 in revenue from gift card sales that should have been deferred as unearned revenue.
 
 :::
 
@@ -216,14 +216,14 @@ The auditor builds a regression model predicting monthly revenue for **Illini En
 Variance analysis compares recorded amounts to expectations (budgets, prior periods, or auditor-developed benchmarks) and investigates significant differences.
 
 - Compare actual operating expenses by department to budgeted amounts
-- Identify departments at **BIF Partners** where actual spending exceeds budget by more than 10% and investigate the causes
+- Identify departments at **Kodiak Partners** where actual spending exceeds budget by more than 10% and investigate the causes
 - Evaluate whether management's explanations for variances are consistent with corroborating evidence
 
 #### Trend Analysis
 
 Trend analysis examines changes in financial data **over time** to identify patterns, anomalies, or shifts that warrant further investigation.
 
-- Plot quarterly inventory balances for **Gies Co.** over the past three years to identify unusual buildups
+- Plot quarterly inventory balances for **Bear Co.** over the past three years to identify unusual buildups
 - Analyze the ratio of allowance for doubtful accounts to gross receivables over time
 - Evaluate whether sudden changes in trends are explained by known business events
 
@@ -249,9 +249,9 @@ An ADA that identifies zero exceptions does **not** automatically mean the asser
 
 The following example illustrates how ADAs integrate into a real audit engagement.
 
-:::info[Comprehensive Example — Auditing Revenue at Kingfisher Industries]
+:::info[Comprehensive Example — Auditing Revenue at Grizzly Industries]
 
-The engagement team is auditing revenue (\$48 million) for **Kingfisher Industries**, a mid-size manufacturer.
+The engagement team is auditing revenue (\$48 million) for **Grizzly Industries**, a mid-size manufacturer.
 
 **Planning (Descriptive Analytics):**
 The auditor imports all 32,000 sales transactions for the year and generates summary statistics—total revenue by month, by customer, and by product line. The analysis reveals that December revenue is 35% higher than the monthly average, and a single customer accounts for 22% of annual revenue.

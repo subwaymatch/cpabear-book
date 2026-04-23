@@ -18,7 +18,7 @@ These are performed **during the planning phase** to identify and assess the ris
 
 :::info[Example]
 
-While planning the audit of **Gies Co.**, the engagement team inquires with the CFO about new revenue streams, reviews interim financial statements for unusual trends, and tours the warehouse to observe inventory controls. These steps help the auditor understand where misstatement risks are highest.
+While planning the audit of **Bear Co.**, the engagement team inquires with the CFO about new revenue streams, reviews interim financial statements for unusual trends, and tours the warehouse to observe inventory controls. These steps help the auditor understand where misstatement risks are highest.
 
 :::
 
@@ -100,7 +100,7 @@ Not all evidence is equally trustworthy. The following factors influence how rel
 
 :::info[Example]
 
-A bank confirmation received directly by the auditor from **MAS Inc.**'s bank is more reliable than a bank statement printed by the client's accounting staff, because it comes from an external source and is obtained directly by the auditor.
+A bank confirmation received directly by the auditor from **Polar Inc.**'s bank is more reliable than a bank statement printed by the client's accounting staff, because it comes from an external source and is obtained directly by the auditor.
 
 :::
 
@@ -112,7 +112,7 @@ Evidence is relevant when it pertains to the **specific assertion** being tested
 
 :::tip
 
-If you are testing the **existence** assertion for accounts receivable at **BIF Partners**, confirming balances with customers is highly relevant. However, that same confirmation does not effectively test the **completeness** assertion—a balance that is missing from the books would never appear on a confirmation request.
+If you are testing the **existence** assertion for accounts receivable at **Kodiak Partners**, confirming balances with customers is highly relevant. However, that same confirmation does not effectively test the **completeness** assertion—a balance that is missing from the books would never appear on a confirmation request.
 
 :::
 
@@ -160,17 +160,17 @@ The CPA exam frequently tests your ability to identify which procedure is most a
 
 ### Detailed Procedure Examples
 
-**Confirmation** — The auditor sends a letter to **Kingfisher Industries'** major customers asking them to verify their outstanding receivable balance directly with the audit firm.
+**Confirmation** — The auditor sends a letter to **Grizzly Industries'** major customers asking them to verify their outstanding receivable balance directly with the audit firm.
 
-**Vouching** — The auditor selects recorded revenue transactions from **Illini Entertainment's** general ledger and traces each one back to the shipping document, sales invoice, and customer purchase order.
+**Vouching** — The auditor selects recorded revenue transactions from **Honey Entertainment's** general ledger and traces each one back to the shipping document, sales invoice, and customer purchase order.
 
-**Observation** — During the year-end inventory count at **MSA Records**, the auditor watches warehouse staff scan and count physical inventory items.
+**Observation** — During the year-end inventory count at **Panda Records**, the auditor watches warehouse staff scan and count physical inventory items.
 
-**Inquiry** — The auditor interviews **Illini Security's** IT manager about access controls over the financial reporting system.
+**Inquiry** — The auditor interviews **Ursa Security's** IT manager about access controls over the financial reporting system.
 
-**Reperformance** — The auditor independently recalculates the depreciation expense for **Gies Co.'s** fixed asset schedule using the company's stated method and useful lives.
+**Reperformance** — The auditor independently recalculates the depreciation expense for **Bear Co.'s** fixed asset schedule using the company's stated method and useful lives.
 
-**Walk-through** — The auditor follows a single purchase order at **BIF Partners** from requisition through approval, receipt of goods, invoice matching, and payment to understand the procurement process.
+**Walk-through** — The auditor follows a single purchase order at **Kodiak Partners** from requisition through approval, receipt of goods, invoice matching, and payment to understand the procurement process.
 
 ---
 
@@ -190,7 +190,7 @@ The auditor asks: *"Is this recorded item real?"*
 
 :::info[Example]
 
-The auditor selects 25 sales transactions from **MAS Inc.'s** sales journal and traces each one back to the corresponding shipping document and customer order. This tests whether recorded sales actually occurred (existence/occurrence assertion).
+The auditor selects 25 sales transactions from **Polar Inc.'s** sales journal and traces each one back to the corresponding shipping document and customer order. This tests whether recorded sales actually occurred (existence/occurrence assertion).
 
 :::
 
@@ -206,7 +206,7 @@ The auditor asks: *"Has this real event been recorded?"*
 
 :::info[Example]
 
-The auditor selects 25 shipping documents from **Kingfisher Industries'** shipping dock log and traces each one forward to the sales journal and general ledger. This tests whether all shipments that occurred were properly recorded (completeness assertion).
+The auditor selects 25 shipping documents from **Grizzly Industries'** shipping dock log and traces each one forward to the sales journal and general ledger. This tests whether all shipments that occurred were properly recorded (completeness assertion).
 
 :::
 

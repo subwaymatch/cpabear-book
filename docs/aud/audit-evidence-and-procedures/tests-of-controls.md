@@ -18,7 +18,7 @@ The purpose of tests of controls is to evaluate the **operating effectiveness** 
 
 In other words, tests of controls answer the question: **"Is this control actually working in practice?"**
 
-**Example:** Gies Co. has a policy requiring two authorized signatures on all disbursements over \$10,000. The auditor's understanding of internal control identified this control as relevant to the completeness and occurrence assertions for expenses. To test whether this control is operating effectively, the auditor selects a sample of disbursements over \$10,000 and inspects the supporting documentation for evidence of two signatures. This is a test of controls.
+**Example:** Bear Co. has a policy requiring two authorized signatures on all disbursements over \$10,000. The auditor's understanding of internal control identified this control as relevant to the completeness and occurrence assertions for expenses. To test whether this control is operating effectively, the auditor selects a sample of disbursements over \$10,000 and inspects the supporting documentation for evidence of two signatures. This is a test of controls.
 
 ---
 
@@ -53,25 +53,25 @@ Auditors use four primary procedures to test the operating effectiveness of cont
 
 **Inquiry** involves asking personnel who perform or oversee the control about how it operates, how consistently it is applied, and whether exceptions have occurred. Inquiry alone is **not sufficient** to test operating effectiveness—it must be combined with other procedures.
 
-**Example:** The auditor asks Kingfisher Industries' accounts payable clerk how she verifies that a vendor invoice matches the purchase order and receiving report before processing payment. The clerk describes the three-way matching process in detail. While informative, this inquiry alone does not provide evidence that the control is actually being performed.
+**Example:** The auditor asks Grizzly Industries' accounts payable clerk how she verifies that a vendor invoice matches the purchase order and receiving report before processing payment. The clerk describes the three-way matching process in detail. While informative, this inquiry alone does not provide evidence that the control is actually being performed.
 
 ### Observation
 
 **Observation** involves watching the control being performed. It provides evidence about how the control operates at the **point in time** the auditor observes it but does not provide evidence about how the control operated at other times during the period.
 
-**Example:** The auditor observes the warehouse supervisor at MAS Inc. counting incoming shipments and comparing them to the packing slip before signing the receiving report. This observation provides evidence that the receiving control is being performed on the day observed.
+**Example:** The auditor observes the warehouse supervisor at Polar Inc. counting incoming shipments and comparing them to the packing slip before signing the receiving report. This observation provides evidence that the receiving control is being performed on the day observed.
 
 ### Inspection
 
 **Inspection** involves examining documents, records, or reports for evidence that a control was performed. This is often the most practical method for testing controls that leave a **documentary trail**.
 
-**Example:** The auditor selects a sample of journal entries at BIF Partners and inspects each for evidence of supervisory approval (an authorized signature or electronic sign-off). The presence of the approval signature provides evidence that the journal entry review control operated for those specific entries.
+**Example:** The auditor selects a sample of journal entries at Kodiak Partners and inspects each for evidence of supervisory approval (an authorized signature or electronic sign-off). The presence of the approval signature provides evidence that the journal entry review control operated for those specific entries.
 
 ### Reperformance
 
 **Reperformance** involves the auditor independently executing the control procedure to determine whether the same result is achieved. This provides the **strongest evidence** of operating effectiveness.
 
-**Example:** Illini Entertainment has an automated control that rejects sales transactions exceeding a customer's credit limit. The auditor reperforms this control by attempting to process test transactions that exceed credit limits and verifying that the system correctly rejects them.
+**Example:** Honey Entertainment has an automated control that rejects sales transactions exceeding a customer's credit limit. The auditor reperforms this control by attempting to process test transactions that exceed credit limits and verifying that the system correctly rejects them.
 
 | Procedure | Evidence Strength | Best Used When |
 |---|---|---|
@@ -106,7 +106,7 @@ A **deviation** occurs when a control is not performed as designed. When deviati
 3. Assess whether the **deviation rate** exceeds the **tolerable deviation rate** established during planning
 4. Determine the effect on the **assessed level of control risk**
 
-**Example:** The auditor selects 40 purchase orders from Illini Security and tests whether each was approved by an authorized manager before the goods were ordered. The auditor finds that 3 out of 40 purchase orders lack the required approval. The auditor must evaluate whether this 7.5% deviation rate exceeds the tolerable deviation rate and whether the nature of the deviations (e.g., all three were for low-dollar supply purchases) affects the conclusion about control effectiveness.
+**Example:** The auditor selects 40 purchase orders from Ursa Security and tests whether each was approved by an authorized manager before the goods were ordered. The auditor finds that 3 out of 40 purchase orders lack the required approval. The auditor must evaluate whether this 7.5% deviation rate exceeds the tolerable deviation rate and whether the nature of the deviations (e.g., all three were for low-dollar supply purchases) affects the conclusion about control effectiveness.
 
 ---
 
@@ -149,7 +149,7 @@ The results of tests of controls determine the auditor's **assessed level of con
 | Controls have **significant deviations** or are not operating effectively | **Maximum** (or near maximum) | Substantive procedures must be **expanded** to compensate for the lack of control reliance |
 | Controls were **not tested** (substantive approach) | **Maximum** | Full substantive procedures are required |
 
-**Example:** After testing Gies Co.'s three-way matching control over accounts payable, the auditor finds no deviations in a sample of 50 transactions. The auditor assesses control risk for the existence/occurrence assertion for accounts payable at a low level and reduces the extent of substantive testing—for example, by selecting a smaller sample for vouching of disbursements.
+**Example:** After testing Bear Co.'s three-way matching control over accounts payable, the auditor finds no deviations in a sample of 50 transactions. The auditor assesses control risk for the existence/occurrence assertion for accounts payable at a low level and reduces the extent of substantive testing—for example, by selecting a smaller sample for vouching of disbursements.
 
 ---
 
@@ -174,7 +174,7 @@ When control risk is assessed at **maximum** (because controls are ineffective o
 
 A **dual-purpose test** is a single audit procedure that simultaneously serves as both a **test of controls** and a **substantive test**. This approach is efficient because it allows the auditor to obtain evidence about both control effectiveness and the accuracy of account balances or transactions from the same sample.
 
-**Example:** The auditor selects a sample of 50 sales invoices from MSA Records. For each invoice, the auditor:
+**Example:** The auditor selects a sample of 50 sales invoices from Panda Records. For each invoice, the auditor:
 
 - **Test of controls:** Inspects whether the invoice was approved by an authorized supervisor before shipment (testing the operating effectiveness of the approval control)
 - **Substantive test:** Verifies that the invoice amount, date, and customer agree to the shipping documents and customer order (testing the accuracy and occurrence of revenue)

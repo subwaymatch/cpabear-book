@@ -52,7 +52,7 @@ The most commonly tested relationships on the CPA exam are:
 
 :::info[Example]
 
-The auditor is planning a variables sample to test **Kingfisher Industries'** inventory balance. Because inventory items range from \$0.50 parts to \$200,000 equipment, the high variability requires a larger sample. Additionally, because the auditor found inventory errors in the prior year, the expected misstatement is set higher, further increasing the required sample size.
+The auditor is planning a variables sample to test **Grizzly Industries'** inventory balance. Because inventory items range from \$0.50 parts to \$200,000 equipment, the high variability requires a larger sample. Additionally, because the auditor found inventory errors in the prior year, the expected misstatement is set higher, further increasing the required sample size.
 
 :::
 
@@ -71,7 +71,7 @@ After the sample is tested, the auditor uses the results to calculate a **point 
 
 :::info[Example]
 
-The auditor tests a sample of **BIF Partners'** accounts receivable and calculates a point estimate of \$4,850,000 with a precision interval of ±\$200,000 (i.e., \$4,650,000 to \$5,050,000). The recorded book value is \$4,920,000. Since \$4,920,000 falls within the range, the auditor concludes the balance is not materially misstated.
+The auditor tests a sample of **Kodiak Partners'** accounts receivable and calculates a point estimate of \$4,850,000 with a precision interval of ±\$200,000 (i.e., \$4,650,000 to \$5,050,000). The recorded book value is \$4,920,000. Since \$4,920,000 falls within the range, the auditor concludes the balance is not materially misstated.
 
 :::
 
@@ -97,7 +97,7 @@ $$
 
 :::info[Example]
 
-The auditor selects 100 items from **MSA Records'** inventory of 5,000 items. The average audited value per sample item is \$82. The estimated population total is \$82 × 5,000 = \$410,000.
+The auditor selects 100 items from **Panda Records'** inventory of 5,000 items. The average audited value per sample item is \$82. The estimated population total is \$82 × 5,000 = \$410,000.
 
 :::
 
@@ -116,7 +116,7 @@ $$
 
 :::info[Example]
 
-From a sample of **Gies Co.'s** receivables, the total book value is \$150,000 and the total audited value is \$147,000. The ratio is \$147,000 / \$150,000 = 0.98. If the total population book value is \$3,000,000, the estimated population value is \$3,000,000 × 0.98 = \$2,940,000.
+From a sample of **Bear Co.'s** receivables, the total book value is \$150,000 and the total audited value is \$147,000. The ratio is \$147,000 / \$150,000 = 0.98. If the total population book value is \$3,000,000, the estimated population value is \$3,000,000 × 0.98 = \$2,940,000.
 
 :::
 
@@ -135,7 +135,7 @@ $$
 
 :::info[Example]
 
-The auditor tests 80 items from **MAS Inc.'s** fixed asset records and finds that the average overstatement per item is \$45. With a population of 2,000 fixed assets, the estimated total overstatement is \$45 × 2,000 = \$90,000.
+The auditor tests 80 items from **Polar Inc.'s** fixed asset records and finds that the average overstatement per item is \$45. With a population of 2,000 fixed assets, the estimated total overstatement is \$45 × 2,000 = \$90,000.
 
 :::
 
@@ -210,7 +210,7 @@ $$
 
 :::info[Example]
 
-The auditor is testing **Illini Entertainment's** accounts receivable balance of \$6,000,000. The tolerable misstatement is \$200,000, and the desired confidence level is 95% (reliability factor = 3.00, assuming zero expected errors).
+The auditor is testing **Honey Entertainment's** accounts receivable balance of \$6,000,000. The tolerable misstatement is \$200,000, and the desired confidence level is 95% (reliability factor = 3.00, assuming zero expected errors).
 
 $$
 \text{Sample Size} = \frac{\$6{,}000{,}000 \times 3.00}{\$200{,}000} = 90 \text{ items}
@@ -242,7 +242,7 @@ Stratification is particularly useful when:
 
 :::info[Example]
 
-**Illini Security** has 3,000 customer accounts ranging from \$100 to \$750,000. The auditor stratifies the population into three groups:
+**Ursa Security** has 3,000 customer accounts ranging from \$100 to \$750,000. The auditor stratifies the population into three groups:
 
 | Stratum | Balance Range | Number of Accounts | Approach |
 |---|---|---|---|
