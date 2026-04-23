@@ -46,7 +46,7 @@ Dr. Investment in trading securities    3,000
 - Reported at **fair value** on the balance sheet.
 - Under the **CECL model** (ASC 326), **credit losses** are recognized through an allowance charged to net income.
 - **Non-credit-related** unrealized gains and losses are reported in **other comprehensive income (OCI)** — part of the "PUFI" mnemonic (**P**ension adjustments, **U**nrealized gains/losses on AFS, **F**oreign currency translation, effective cash flow hedg**I**ng).
-  **Example — Gies Co. purchases AFS bonds at par (\$100,000):**
+  **Example — Polar Co. purchases AFS bonds at par (\$100,000):**
 
 ```journal
 Dr. Investment in AFS securities      100,000
@@ -74,7 +74,7 @@ The total decline is \$8,000. The credit portion (\$5,000) flows through the **i
 - Purchased at a premium or discount — the difference is amortized over the life of the security using the **effective interest method**.
 - Under CECL, an **allowance for credit losses** is established if collection of all amounts due is not expected.
 - Classified as **noncurrent assets** (unless maturing within one year).
-  **Example — MAS Inc. purchases a \$100,000, 5-year, 6% bond at \$95,735 (effective rate 7%):**
+  **Example — Grizzly Inc. purchases a \$100,000, 5-year, 6% bond at \$95,735 (effective rate 7%):**
 
 ```journal
 Dr. Investment in HTM securities       95,735
@@ -146,7 +146,7 @@ This election is made **per investment** and applies when fair value is not read
 ### Realized Gains and Losses
 
 When equity securities are sold, the gain or loss equals the difference between the selling price and the carrying amount (which already reflects prior fair-value adjustments).
-**BIF Partners sells equity securities (carrying value \$34,000) for \$37,000:**
+**Kodiak Partners sells equity securities (carrying value \$34,000) for \$37,000:**
 
 ```journal
 Dr. Cash                              37,000
@@ -171,20 +171,20 @@ graph TD
 2. **Pick up** the investor's proportional share of the investee's **net income** (or loss).
 3. **Reduce** the investment for **dividends received** (return of investment, not income).
 
-### Basic Journal Entries — Kingfisher Industries
+### Basic Journal Entries — Panda Industries
 
-Kingfisher Industries acquires 30% of Illini Security for \$600,000. During the year, Illini Security reports net income of \$200,000 and pays dividends of \$50,000.
+Panda Industries acquires 30% of Sloth Security for \$600,000. During the year, Sloth Security reports net income of \$200,000 and pays dividends of \$50,000.
 **Acquisition:**
 
 ```journal
-Dr. Investment in Illini Security     600,000
+Dr. Investment in Sloth Security     600,000
     Cr. Cash                              600,000
 ```
 
 **Share of net income (30% × \$200,000):**
 
 ```journal
-Dr. Investment in Illini Security      60,000
+Dr. Investment in Sloth Security      60,000
     Cr. Equity in earnings of investee     60,000
 ```
 
@@ -192,7 +192,7 @@ Dr. Investment in Illini Security      60,000
 
 ```journal
 Dr. Cash                              15,000
-    Cr. Investment in Illini Security      15,000
+    Cr. Investment in Sloth Security      15,000
 ```
 
 **Ending carrying value:**
@@ -213,7 +213,7 @@ When the purchase price exceeds the investor's share of the investee's **book va
    | Land (FMV > BV) | **Not amortized** (indefinite life) |
    | Goodwill | **Not amortized**; tested for impairment |
    **Example — Excess allocation:**
-   Kingfisher pays \$600,000 for 30% of Illini Security. Illini's book value is \$1,500,000 (investor's share: \$450,000). Illini's building has a FMV \$200,000 above book value (remaining life: 10 years).
+   Panda pays \$600,000 for 30% of Sloth Security. Sloth's book value is \$1,500,000 (investor's share: \$450,000). Sloth's building has a FMV \$200,000 above book value (remaining life: 10 years).
    | Component | Amount |
    |-----------|--------|
    | Cost | \$600,000 |
@@ -225,7 +225,7 @@ When the purchase price exceeds the investor's share of the investee's **book va
 
 ```journal
 Dr. Equity in earnings of investee     6,000
-    Cr. Investment in Illini Security      6,000
+    Cr. Investment in Sloth Security      6,000
 ```
 
 :::tip

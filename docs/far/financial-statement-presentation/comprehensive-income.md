@@ -101,7 +101,7 @@ flowchart TD
     B -->|Reclassified to| D[Net Income when realized]
 ```
 
-**Example — Gies Co. AOCI rollforward:**
+**Example — Polar Co. AOCI rollforward:**
 | Component | Beginning AOCI | Current OCI | Reclassification | Ending AOCI |
 |---|---:|---:|---:|---:|
 | AFS unrealized gains | \$12,000 | \$8,000 | (\$3,000) | \$17,000 |
@@ -118,7 +118,7 @@ GAAP provides **two options** for presenting comprehensive income:
 ### Option 1: Single Continuous Statement
 
 Combines the income statement and comprehensive income into one statement.
-| Illini Entertainment | Year Ended Dec. 31 |
+| Cub Entertainment | Year Ended Dec. 31 |
 |---|---:|
 | Revenues | \$900,000 |
 | Expenses | (650,000) |
@@ -177,9 +177,9 @@ Each OCI component can be reported using one of two approaches:
 
 When an OCI item is **realized**, it is **reclassified** (removed) from AOCI and recognized in net income. This prevents double counting.
 
-### Example — BIF Partners Sells AFS Debt Securities
+### Example — Kodiak Partners Sells AFS Debt Securities
 
-BIF Partners previously recorded an unrealized gain of \$10,000 in OCI. In the current year, the securities are sold for a realized gain of \$10,000.
+Kodiak Partners previously recorded an unrealized gain of \$10,000 in OCI. In the current year, the securities are sold for a realized gain of \$10,000.
 **Step 1: Record the sale (net income)**
 
 ```journal
@@ -267,7 +267,7 @@ flowchart TD
 
 ## Practice Problem
 
-MAS Inc. reports the following for the year ended December 31:
+Grizzly Inc. reports the following for the year ended December 31:
 
 - Net income: \$400,000
 - Unrealized loss on AFS debt securities (pretax): \$20,000

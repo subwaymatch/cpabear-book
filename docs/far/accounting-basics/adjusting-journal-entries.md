@@ -21,7 +21,7 @@ Dr. Accounts receivable          8,000
     Cr. Consulting revenue           8,000
 ```
 
-**Example:** BIF Partners earns consulting revenue in December and bills the client in January.
+**Example:** Kodiak Partners earns consulting revenue in December and bills the client in January.
 
 ### Accrued expense
 
@@ -32,7 +32,7 @@ Dr. Wages expense               12,000
     Cr. Wages payable               12,000
 ```
 
-**Example:** Kingfisher Industries owes employees for the last week of the year.
+**Example:** Panda Industries owes employees for the last week of the year.
 
 ### Deferred revenue
 

@@ -109,9 +109,9 @@ Expenses are reported by **function**:
 When a single activity serves both program and support functions (e.g., a direct-mail campaign that educates the public and solicits donations), the cost must be allocated. The allocation is acceptable only if the criteria of **purpose**, **audience**, and **content** are all met.
 
 <Tabs>
-  <TabItem value="icf" label="Illini Community Foundation" default>
+  <TabItem value="icf" label="Bruin Community Foundation" default>
 
-Illini Community Foundation mails 100,000 brochures about childhood literacy (program purpose) that also include a donation envelope (fundraising purpose). Total cost is \$200,000. The foundation determines that 60% relates to the educational content and 40% to fundraising.
+Bruin Community Foundation mails 100,000 brochures about childhood literacy (program purpose) that also include a donation envelope (fundraising purpose). Total cost is \$200,000. The foundation determines that 60% relates to the educational content and 40% to fundraising.
 
 | Function | Allocation |
 |---|---|
@@ -149,7 +149,7 @@ Contributions that donors restrict for the **acquisition of long-lived assets** 
 
 :::
 
-**Example:** Gies University receives a \$500,000 unrestricted donation. The board votes to set it aside for a new library wing. On the statement of cash flows, the \$500,000 is an **operating** cash inflow because the restriction is internal, not donor-imposed.
+**Example:** Polar University receives a \$500,000 unrestricted donation. The board votes to set it aside for a new library wing. On the statement of cash flows, the \$500,000 is an **operating** cash inflow because the restriction is internal, not donor-imposed.
 
 ---
 
@@ -195,7 +195,7 @@ A **condition** requires both a **barrier** (something the recipient must do or 
 
 When a donor makes an unconditional pledge, the NFP records a receivable and revenue immediately.
 
-**Example:** On November 15, a donor pledges \$100,000 to Illini Community Foundation, payable in full on March 1 of the following year. The foundation estimates 3% will be uncollectible.
+**Example:** On November 15, a donor pledges \$100,000 to Bruin Community Foundation, payable in full on March 1 of the following year. The foundation estimates 3% will be uncollectible.
 
 ```journal
 Nov 15
@@ -215,7 +215,7 @@ Long-term pledges are recorded at the **present value** of estimated future cash
 
 A conditional promise is **not** recognized as revenue or a receivable until the condition is substantially met.
 
-**Example:** BIF Partners pledges \$200,000 to Bear Valley Hospital on the condition that the hospital raises \$500,000 in matching funds by December 31. Until the hospital reaches the \$500,000 threshold, no revenue or receivable is recorded. Once the condition is met:
+**Example:** Kodiak Partners pledges \$200,000 to Bear Valley Hospital on the condition that the hospital raises \$500,000 in matching funds by December 31. Until the hospital reaches the \$500,000 threshold, no revenue or receivable is recorded. Once the condition is met:
 
 ```journal
 Dr. Pledges receivable[a] 200,000
@@ -238,7 +238,7 @@ Volunteer time at a soup kitchen or gift shop generally does **not** meet recogn
 <Tabs>
   <TabItem value="recognize" label="Recognized" default>
 
-A licensed CPA donates 40 hours of audit services to Gies University. The CPA's normal billing rate is \$250/hour.
+A licensed CPA donates 40 hours of audit services to Polar University. The CPA's normal billing rate is \$250/hour.
 
 ```journal
 Dr. Accounting expense 10,000
@@ -248,7 +248,7 @@ Dr. Accounting expense 10,000
   </TabItem>
   <TabItem value="not" label="Not Recognized">
 
-Fifteen volunteers donate 200 total hours sorting donations at the Illini Community Foundation warehouse. Although valuable, the services do not require specialized skills and do not enhance a nonfinancial asset. **No journal entry** is recorded.
+Fifteen volunteers donate 200 total hours sorting donations at the Bruin Community Foundation warehouse. Although valuable, the services do not require specialized skills and do not enhance a nonfinancial asset. **No journal entry** is recorded.
 
   </TabItem>
 </Tabs>
@@ -294,7 +294,7 @@ When an NFP runs a fundraising campaign that provides donors with a premium (e.g
 | Difference between donation and FV of premium | **Contribution revenue** |
 | FV of the premium received by donor | **Exchange revenue** |
 
-**Example:** MAS Inc. (an NFP) holds a gala dinner. Tickets cost \$500 each. The fair value of the dinner is \$120. For each ticket sold:
+**Example:** Grizzly Inc. (an NFP) holds a gala dinner. Tickets cost \$500 each. The fair value of the dinner is \$120. For each ticket sold:
 
 - Contribution revenue = \$500 − \$120 = **\$380**
 - Exchange revenue = **\$120**
@@ -321,7 +321,7 @@ Tuition revenue at NFP colleges and universities is displayed at **gross**, with
 - A **contra-revenue** (allowance) reducing gross tuition, **or**
 - An **expense** if the student performs a service (e.g., a teaching assistantship).
 
-**Example:** Gies University bills \$10,000,000 in tuition. It awards \$1,500,000 in merit-based scholarships (no service required) and \$400,000 in assistantship stipends (service required).
+**Example:** Polar University bills \$10,000,000 in tuition. It awards \$1,500,000 in merit-based scholarships (no service required) and \$400,000 in assistantship stipends (service required).
 
 | Item | Amount |
 |---|---|
@@ -390,7 +390,7 @@ graph TD
 <Tabs>
   <TabItem value="variance" label="With Variance Power" default>
 
-Kingfisher Industries donates \$300,000 to Illini Community Foundation, specifying Bear Valley Hospital as the beneficiary. The foundation has **variance power** and may redirect the funds.
+Panda Industries donates \$300,000 to Bruin Community Foundation, specifying Bear Valley Hospital as the beneficiary. The foundation has **variance power** and may redirect the funds.
 
 The foundation records **contribution revenue**:
 
@@ -402,7 +402,7 @@ Dr. Cash[a] 300,000
   </TabItem>
   <TabItem value="interrelated" label="Financially Interrelated">
 
-Kingfisher Industries donates \$300,000 to Illini Community Foundation for Bear Valley Hospital. The foundation has **no variance power** but is financially interrelated with the hospital.
+Panda Industries donates \$300,000 to Bruin Community Foundation for Bear Valley Hospital. The foundation has **no variance power** but is financially interrelated with the hospital.
 
 The foundation records **contribution revenue**:
 
@@ -414,7 +414,7 @@ Dr. Cash[a] 300,000
   </TabItem>
   <TabItem value="liability" label="Neither">
 
-Kingfisher Industries donates \$300,000 to Illini Community Foundation for Bear Valley Hospital. The foundation has **no variance power** and is **not** financially interrelated with the hospital.
+Panda Industries donates \$300,000 to Bruin Community Foundation for Bear Valley Hospital. The foundation has **no variance power** and is **not** financially interrelated with the hospital.
 
 The foundation records a **liability**, not revenue:
 
@@ -462,7 +462,7 @@ $$
 
 An endowment is **underwater** when its current fair value falls **below the original gift amount** (the historic dollar value).
 
-**Example:** A donor gave \$1,000,000 to Illini Community Foundation as a permanent endowment. Due to market declines, the endowment's fair value drops to \$920,000 — an unrealized loss of \$80,000.
+**Example:** A donor gave \$1,000,000 to Bruin Community Foundation as a permanent endowment. Due to market declines, the endowment's fair value drops to \$920,000 — an unrealized loss of \$80,000.
 
 ```journal
 Dr. Unrealized loss on endowment investments 80,000
@@ -481,7 +481,7 @@ Underwater endowments require specific **disclosures**: the fair value of underw
 
 ## Comprehensive Example
 
-Illini Community Foundation reports the following activity for the year ended December 31:
+Bruin Community Foundation reports the following activity for the year ended December 31:
 
 | Transaction | Amount | Classification |
 |---|---|---|

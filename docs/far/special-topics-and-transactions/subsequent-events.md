@@ -62,8 +62,8 @@ Type II events represent new conditions. They do **not** change amounts on the b
 | Major customer bankruptcy occurring after year-end | New condition arising post-balance-sheet |
 | Decline in market value of investments after year-end | New market conditions |
 | Declaration of a stock split after year-end | New corporate action |
-**Example:** On January 25, a fire destroys Gies Co.'s main warehouse (uninsured loss of \$2,000,000). Gies Co.'s fiscal year ends December 31, and financial statements have not yet been issued.
-This is a **Type II event** — the fire occurred after the balance sheet date and does not relate to conditions existing at December 31. Gies Co. does **not** adjust the financial statements but **discloses** the event:
+**Example:** On January 25, a fire destroys Polar Co.'s main warehouse (uninsured loss of \$2,000,000). Polar Co.'s fiscal year ends December 31, and financial statements have not yet been issued.
+This is a **Type II event** — the fire occurred after the balance sheet date and does not relate to conditions existing at December 31. Polar Co. does **not** adjust the financial statements but **discloses** the event:
 
 > _Subsequent Event Disclosure:_ On January 25, a fire destroyed the Company's main warehouse, resulting in an estimated uninsured loss of approximately \$2,000,000. This event occurred after the balance sheet date and is not reflected in the accompanying financial statements.
 
@@ -103,11 +103,11 @@ Both types of filers must disclose **the date through which subsequent events ha
 **Additional examples with classification:**
 | Scenario | Type | Action |
 |---|---|---|
-| MAS Inc. settles an insurance claim from a pre-year-end accident for \$80,000 (previously estimated at \$60,000) | Type I | Adjust accrual to \$80,000 |
-| BIF Partners acquires a competitor on January 15 | Type II | Disclose the acquisition details |
-| Kingfisher Industries declares a 10% stock dividend on January 20 | Type II | Disclose; consider retroactive EPS adjustment |
-| Illini Security discovers a material fraud that occurred during the reporting period | Type I | Adjust financial statements |
-| Illini Entertainment signs a major lease agreement in January | Type II | Disclose if material |
+| Grizzly Inc. settles an insurance claim from a pre-year-end accident for \$80,000 (previously estimated at \$60,000) | Type I | Adjust accrual to \$80,000 |
+| Kodiak Partners acquires a competitor on January 15 | Type II | Disclose the acquisition details |
+| Panda Industries declares a 10% stock dividend on January 20 | Type II | Disclose; consider retroactive EPS adjustment |
+| Sloth Security discovers a material fraud that occurred during the reporting period | Type I | Adjust financial statements |
+| Cub Entertainment signs a major lease agreement in January | Type II | Disclose if material |
 
 ---
 

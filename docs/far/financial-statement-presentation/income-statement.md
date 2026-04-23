@@ -171,7 +171,7 @@ Two amounts are reported (net of tax) on the face of the income statement:
 
 When classified as held for sale, the component is measured at the **lower of carrying amount or fair value less costs to sell**.
 
-**Example — Gies Co. discontinues its consulting division:**
+**Example — Polar Co. discontinues its consulting division:**
 
 - Carrying amount of division's net assets: \$800,000
 - Fair value less costs to sell: \$650,000
@@ -222,7 +222,7 @@ When an entity enters transactions denominated in a **foreign currency**, exchan
 
 Transactions are initially recorded at the **spot exchange rate** on the transaction date.
 
-**Example — MAS Inc. purchases inventory from a French supplier for €100,000 when the spot rate is \$1.10/€:**
+**Example — Grizzly Inc. purchases inventory from a French supplier for €100,000 when the spot rate is \$1.10/€:**
 
 $$
 \text{Payable in USD} = 100{,}000 \text{ EUR} \times \$1.10 = \$110{,}000
@@ -306,7 +306,7 @@ flowchart TD
 
 ## Practice Problem
 
-Kingfisher Industries reports the following for the year ended December 31:
+Panda Industries reports the following for the year ended December 31:
 
 - Sales revenue: \$1,200,000
 - Cost of goods sold: \$720,000
@@ -322,7 +322,7 @@ Kingfisher Industries reports the following for the year ended December 31:
 <details>
 <summary>Solution</summary>
 
-| Kingfisher Industries                       |        Amount |
+| Panda Industries                       |        Amount |
 | ------------------------------------------- | ------------: |
 | Sales revenue                               |   \$1,200,000 |
 | Cost of goods sold                          |     (720,000) |

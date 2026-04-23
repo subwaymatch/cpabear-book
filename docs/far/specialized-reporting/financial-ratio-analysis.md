@@ -52,13 +52,13 @@ $$
 
 A quick ratio below 1.0 is a warning sign that the company may struggle to cover near-term debts without selling inventory.
 
-**Example — Gies Co.:** Cash \$50,000; Marketable Securities \$20,000; Net A/R \$80,000; Current Liabilities \$200,000.
+**Example — Polar Co.:** Cash \$50,000; Marketable Securities \$20,000; Net A/R \$80,000; Current Liabilities \$200,000.
 
 $$
 \frac{\$50{,}000 + \$20{,}000 + \$80{,}000}{\$200{,}000} = 0.75
 $$
 
-Gies Co.'s quick ratio of 0.75 suggests potential short-term liquidity pressure.
+Polar Co.'s quick ratio of 0.75 suggests potential short-term liquidity pressure.
 
 ### Operating Cash Flow Ratio
 
@@ -70,13 +70,13 @@ $$
 
 This ratio uses **ending** current liabilities (not average) because it focuses on the ability to pay obligations that exist right now.
 
-**Example — MAS Inc.:** Cash flow from operations \$270,000; ending current liabilities \$300,000.
+**Example — Grizzly Inc.:** Cash flow from operations \$270,000; ending current liabilities \$300,000.
 
 $$
 \frac{\$270{,}000}{\$300{,}000} = 0.90
 $$
 
-MAS Inc. generates \$0.90 of operating cash for every \$1.00 of current liabilities.
+Grizzly Inc. generates \$0.90 of operating cash for every \$1.00 of current liabilities.
 
 :::tip
 
@@ -132,7 +132,7 @@ $$
 
 A higher number generally indicates strong sales and less risk of obsolete inventory.
 
-**Example — BIF Partners:** COGS \$730,000; beginning inventory \$160,000; ending inventory \$200,000.
+**Example — Kodiak Partners:** COGS \$730,000; beginning inventory \$160,000; ending inventory \$200,000.
 
 $$
 \frac{\$730{,}000}{(\$160{,}000 + \$200{,}000)/2} = \frac{\$730{,}000}{\$180{,}000} \approx 4.06 \text{ times}
@@ -146,7 +146,7 @@ $$
 \text{Days in Inventory} = \frac{365}{\text{Inventory Turnover}}
 $$
 
-**Example — BIF Partners:**
+**Example — Kodiak Partners:**
 
 $$
 \frac{365}{4.06} \approx 89.9 \text{ days}
@@ -162,7 +162,7 @@ $$
 
 A higher DPO means the company holds onto cash longer, but too high may signal strained supplier relationships.
 
-**Example — BIF Partners:** Ending A/P \$95,000; COGS \$730,000.
+**Example — Kodiak Partners:** Ending A/P \$95,000; COGS \$730,000.
 
 $$
 \frac{\$95{,}000}{\$730{,}000 / 365} = \frac{\$95{,}000}{\$2{,}000} = 47.5 \text{ days}
@@ -184,7 +184,7 @@ The CPA exam may give you raw data and ask you to compute the CCC in one problem
 
 :::
 
-**Example — BIF Partners:** BIF Partners also has net credit sales of \$1,460,000 and average A/R of \$120,000, giving an A/R turnover of 12.17 and a DSO of 30.0 days. Using the values computed above for Days in Inventory (89.9) and DPO (47.5):
+**Example — Kodiak Partners:** Kodiak Partners also has net credit sales of \$1,460,000 and average A/R of \$120,000, giving an A/R turnover of 12.17 and a DSO of 30.0 days. Using the values computed above for Days in Inventory (89.9) and DPO (47.5):
 
 $$
 89.9 + 30.0 - 47.5 = 72.4 \text{ days}
@@ -198,7 +198,7 @@ $$
 \text{Total Asset Turnover} = \frac{\text{Net Sales}}{\text{Average Total Assets}}
 $$
 
-**Example — Kingfisher Industries:** Net sales \$5,000,000; average total assets \$2,500,000.
+**Example — Panda Industries:** Net sales \$5,000,000; average total assets \$2,500,000.
 
 $$
 \frac{\$5{,}000{,}000}{\$2{,}500{,}000} = 2.0 \text{ times}
@@ -212,7 +212,7 @@ $$
 \text{Fixed Asset Turnover} = \frac{\text{Net Sales}}{\text{Average Net Fixed Assets}}
 $$
 
-**Example — Kingfisher Industries:** Net sales \$5,000,000; average net PP\&E \$1,250,000.
+**Example — Panda Industries:** Net sales \$5,000,000; average net PP\&E \$1,250,000.
 
 $$
 \frac{\$5{,}000{,}000}{\$1{,}250{,}000} = 4.0 \text{ times}
@@ -240,7 +240,7 @@ $$
 
 A lower number is less risky. A ratio of 0.6 means 60% of assets are funded by creditors.
 
-**Example — Illini Entertainment:** Total liabilities \$600,000; total assets \$1,000,000.
+**Example — Cub Entertainment:** Total liabilities \$600,000; total assets \$1,000,000.
 
 $$
 \frac{\$600{,}000}{\$1{,}000{,}000} = 0.60
@@ -256,7 +256,7 @@ $$
 
 A ratio of 1.0 means debt and equity are equal. Higher values indicate greater financial risk.
 
-**Example — Illini Entertainment:** Total liabilities \$600,000; total equity \$400,000.
+**Example — Cub Entertainment:** Total liabilities \$600,000; total equity \$400,000.
 
 $$
 \frac{\$600{,}000}{\$400{,}000} = 1.50
@@ -270,7 +270,7 @@ $$
 \text{Equity Multiplier} = \frac{\text{Average Total Assets}}{\text{Average Total Equity}}
 $$
 
-**Example — Illini Entertainment:** Average total assets \$1,000,000; average total equity \$400,000.
+**Example — Cub Entertainment:** Average total assets \$1,000,000; average total equity \$400,000.
 
 $$
 \frac{\$1{,}000{,}000}{\$400{,}000} = 2.50
@@ -288,7 +288,7 @@ $$
 
 A higher number is safer. A TIE of 5 means operating profit can cover interest five times over.
 
-**Example — Illini Security:** EBIT \$250,000; interest expense \$50,000.
+**Example — Sloth Security:** EBIT \$250,000; interest expense \$50,000.
 
 $$
 \frac{\$250{,}000}{\$50{,}000} = 5.0 \text{ times}
@@ -342,7 +342,7 @@ $$
 \text{ROA} = \frac{\text{Net Income}}{\text{Average Total Assets}}
 $$
 
-**Example — Gies Co.:** Net income \$90,000; average total assets \$600,000.
+**Example — Polar Co.:** Net income \$90,000; average total assets \$600,000.
 
 $$
 \frac{\$90{,}000}{\$600{,}000} = 15\%
@@ -356,7 +356,7 @@ $$
 \text{ROE} = \frac{\text{Net Income}}{\text{Average Total Equity}}
 $$
 
-**Example — Gies Co.:** Net income \$90,000; average total equity \$300,000.
+**Example — Polar Co.:** Net income \$90,000; average total equity \$300,000.
 
 $$
 \frac{\$90{,}000}{\$300{,}000} = 30\%
@@ -376,7 +376,7 @@ If there are no preferred shares, preferred dividends are zero. The exam will te
 
 :::
 
-**Example — MAS Inc.:** Net income \$500,000; preferred dividends \$20,000; weighted average common shares 120,000.
+**Example — Grizzly Inc.:** Net income \$500,000; preferred dividends \$20,000; weighted average common shares 120,000.
 
 $$
 \frac{\$500{,}000 - \$20{,}000}{120{,}000} = \frac{\$480{,}000}{120{,}000} = \$4.00 \text{ per share}
@@ -416,7 +416,7 @@ graph TD
 | **ROE** | 10.0% × 1.50 × 1.60 | **24.0%** |
 
   </TabItem>
-  <TabItem value="gies" label="Gies Co.">
+  <TabItem value="gies" label="Polar Co.">
 
 | Component | Calculation | Result |
 |-----------|------------|--------|
@@ -426,7 +426,7 @@ graph TD
 | **ROE** | 10.0% × 1.50 × 2.00 | **30.0%** |
 
   </TabItem>
-  <TabItem value="kingfisher" label="Kingfisher Industries">
+  <TabItem value="kingfisher" label="Panda Industries">
 
 | Component | Calculation | Result |
 |-----------|------------|--------|
@@ -446,9 +446,9 @@ If ROE increases, DuPont analysis tells you **which lever** moved — better mar
 
 ---
 
-## Comprehensive Worked Example — Illini Entertainment
+## Comprehensive Worked Example — Cub Entertainment
 
-Below is a condensed set of financial data for **Illini Entertainment** for the year ended December 31, 2024. All ratios are computed from this single data set.
+Below is a condensed set of financial data for **Cub Entertainment** for the year ended December 31, 2024. All ratios are computed from this single data set.
 
 | Item | Amount |
 |------|--------|
@@ -572,7 +572,7 @@ A favorable variance improves net income relative to plan; an unfavorable varian
 
 ### Example — Budget Variance Analysis
 
-Kingfisher Industries budgeted the following for the quarter and compared to actual results:
+Panda Industries budgeted the following for the quarter and compared to actual results:
 
 | Line Item | Budget | Actual | Variance | F / U |
 |---|---:|---:|---:|:---:|

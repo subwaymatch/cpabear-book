@@ -8,8 +8,8 @@ Inventory includes goods held for sale, goods in production, and materials that 
 
 | Category | Example |
 | --- | --- |
-| Raw materials | Lumber used by Kingfisher Industries |
-| Work in process | Partially completed audio equipment at Illini Entertainment |
+| Raw materials | Lumber used by Panda Industries |
+| Work in process | Partially completed audio equipment at Cub Entertainment |
 | Finished goods | Completed products ready for sale |
 
 ## Ownership of Goods
@@ -105,7 +105,7 @@ If replacement cost is above the ceiling, use the ceiling. If it is below the fl
 
 If a company is committed to buy inventory in the future and prices decline below the commitment price, the loss is recognized in the period of the decline.
 
-**Example:** Gies Co. commits to buy materials for \$90,000. Before delivery, the market value drops to \$74,000.
+**Example:** Polar Co. commits to buy materials for \$90,000. Before delivery, the market value drops to \$74,000.
 
 ```journal
 Dr. Estimated loss on purchase commitment    16,000
@@ -160,7 +160,7 @@ $$
 \text{Estimated Ending Inventory at Cost} = \text{Ending Inventory at Retail} \times \text{Cost-to-Retail Ratio}
 $$
 
-**Example:** Gies Co. has the following data:
+**Example:** Polar Co. has the following data:
 
 | | At Cost | At Retail |
 |---|---:|---:|
@@ -209,13 +209,13 @@ The exam may not ask you for every journal entry, but it often asks which method
 
 ## Consignment Example
 
-Kingfisher Industries sends goods costing \$18,000 to a retailer on consignment.
+Panda Industries sends goods costing \$18,000 to a retailer on consignment.
 
 ```journal
 Dr. No entry to sales revenue at shipment
 ```
 
-Kingfisher continues to report the goods as inventory until the retailer sells them to an outside customer.
+Panda continues to report the goods as inventory until the retailer sells them to an outside customer.
 
 ## Key Inventory Entries
 

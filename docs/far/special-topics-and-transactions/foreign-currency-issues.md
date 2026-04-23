@@ -137,7 +137,7 @@ Used when the functional currency is the **foreign (local) currency**. This meth
 | Revenues and expenses | **Weighted-average rate** for the period |
 | Dividends | **Historical rate** (date declared) |
 The **cumulative translation adjustment (CTA)** is reported in **accumulated other comprehensive income (AOCI)** — a component of equity.
-**Example:** Gies Co. (U.S. parent) has a subsidiary in Japan. The yen is the functional currency. At year-end:
+**Example:** Polar Co. (U.S. parent) has a subsidiary in Japan. The yen is the functional currency. At year-end:
 | Item | Yen Amount | Rate | USD Amount |
 |---|---|---|---|
 | Total assets | ¥50,000,000 | 0.0068 (current) | \$340,000 |

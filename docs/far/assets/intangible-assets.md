@@ -50,9 +50,9 @@ $$
 \text{Amortization Period} = \min(\text{Economic Life},\; \text{Legal Life})
 $$
 
-### Example — Gies Co.
+### Example — Polar Co.
 
-Gies Co. purchases a patent with 16 years remaining on its legal life. Gies estimates the technology will be useful for only 8 years.
+Polar Co. purchases a patent with 16 years remaining on its legal life. Polar estimates the technology will be useful for only 8 years.
 
 $$
 \text{Annual Amortization} = \frac{\$125{,}000}{8} = \$15{,}625
@@ -81,8 +81,8 @@ graph TD
     D --> E[Loss = Carrying Value − Fair Value]
 ```
 
-**Example — MAS Inc.**
-MAS Inc. holds a patent with a carrying value of \$80,000. Due to a competitor's breakthrough, expected undiscounted future cash flows are \$60,000 and fair value is \$45,000.
+**Example — Grizzly Inc.**
+Grizzly Inc. holds a patent with a carrying value of \$80,000. Due to a competitor's breakthrough, expected undiscounted future cash flows are \$60,000 and fair value is \$45,000.
 
 - **Step 1:** \$60,000 < \$80,000 → impaired
 - **Step 2:** Loss = \$80,000 − \$45,000 = **\$35,000**
@@ -117,7 +117,7 @@ $$
 \text{Goodwill} = \text{Purchase Price} - \text{Fair Value of Net Identifiable Assets}
 $$
 
-**Example — Kingfisher Industries acquires BIF Partners:**
+**Example — Panda Industries acquires Kodiak Partners:**
 | Item | Amount |
 |------|--------|
 | Purchase price | \$2,000,000 |
@@ -155,9 +155,9 @@ $$
 
 The loss is **capped** at the amount of goodwill allocated to the reporting unit — goodwill cannot go below zero.
 
-### Example — Illini Entertainment
+### Example — Cub Entertainment
 
-Illini Entertainment's streaming division (reporting unit) has:
+Cub Entertainment's streaming division (reporting unit) has:
 
 - Carrying value: \$5,000,000 (including goodwill of \$800,000)
 - Fair value: \$4,500,000
@@ -194,9 +194,9 @@ Amortization of capitalized software costs is the **greater of**:
 1. Straight-line over economic life, or
 2. Revenue-based ratio (current revenue ÷ total expected revenue)
 
-### Example — Illini Security
+### Example — Sloth Security
 
-Illini Security capitalizes \$300,000 in software development costs after establishing technological feasibility. The software has an estimated economic life of 3 years and is expected to generate total revenue of \$1,500,000. Year 1 revenue is \$600,000.
+Sloth Security capitalizes \$300,000 in software development costs after establishing technological feasibility. The software has an estimated economic life of 3 years and is expected to generate total revenue of \$1,500,000. Year 1 revenue is \$600,000.
 
 - Straight-line: \$300,000 ÷ 3 = **\$100,000**
 - Revenue-based: (\$600,000 ÷ \$1,500,000) × \$300,000 = **\$120,000**
@@ -260,7 +260,7 @@ Dr. Amortization expense              2,156
 ## Start-Up Costs
 
 Under ASC 720, start-up costs (including organization costs) are **expensed as incurred** for financial reporting purposes.
-**Example — BIF Partners incurs \$25,000 in organization costs:**
+**Example — Kodiak Partners incurs \$25,000 in organization costs:**
 
 ```journal
 Dr. Start-up costs expense            25,000
@@ -291,7 +291,7 @@ Under ASC 730, R&D costs are **expensed as incurred**. This includes:
 | Software development (after technological feasibility) | Capitalize per ASC 985-20                                                   |
 | R&D acquired in a **business combination**             | Capitalize at fair value; if no alternative future use, expense immediately |
 
-**Example — MAS Inc. R&D activities:**
+**Example — Grizzly Inc. R&D activities:**
 
 ```journal
 Dr. Research and development expense  150,000

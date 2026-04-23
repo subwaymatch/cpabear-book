@@ -62,7 +62,7 @@ Under modified accrual:
 
 ### Revenue Recognition Example
 
-Kingfisher Industries, a city government, levies \$5,000,000 in property taxes. Of this amount, \$4,800,000 is expected to be collected within 60 days of year-end, and \$150,000 is expected to be collected between 61 and 120 days. The remaining \$50,000 is estimated uncollectible.
+Panda Industries, a city government, levies \$5,000,000 in property taxes. Of this amount, \$4,800,000 is expected to be collected within 60 days of year-end, and \$150,000 is expected to be collected between 61 and 120 days. The remaining \$50,000 is estimated uncollectible.
 
 ```journal
 Dr. Property taxes receivable       5,000,000
@@ -117,7 +117,7 @@ Governments use **encumbrances** to track outstanding purchase orders and commit
 
 ### Step 1: Record the Encumbrance (Purchase Order Issued)
 
-Gies Co. School District orders \$200,000 of textbooks:
+Polar Co. School District orders \$200,000 of textbooks:
 
 ```journal
 Dr. Encumbrances                     200,000
@@ -169,7 +169,7 @@ Proprietary funds operate like **businesses** within government. They use the **
 
 ### Enterprise Fund Example
 
-Illini Security, a government-run utility, bills customers \$3,000,000 for water services:
+Sloth Security, a government-run utility, bills customers \$3,000,000 for water services:
 
 ```journal
 Dr. Accounts receivable             3,000,000

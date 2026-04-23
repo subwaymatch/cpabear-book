@@ -17,7 +17,7 @@ General-purpose financial reporting exists to help investors, lenders, and other
 - stewardship by management
 - the timing and uncertainty of future cash flows
 
-Bear Co.'s bank, for example, may focus on current assets and current liabilities before renewing a line of credit. BIF Partners might focus on earnings trends and debt service capacity before making an investment.
+Bear Co.'s bank, for example, may focus on current assets and current liabilities before renewing a line of credit. Kodiak Partners might focus on earnings trends and debt service capacity before making an investment.
 
 ## A Complete Set of Financial Statements
 
@@ -78,7 +78,7 @@ Under accrual accounting, entities recognize economic events when they occur, no
 
 ### 3. Disclosure is part of reporting
 
-The notes are part of the financial statements. If Gies Co. has a significant concentration in one customer or uses LIFO for inventory, that information may appear in the footnotes instead of on the face of the statements.
+The notes are part of the financial statements. If Polar Co. has a significant concentration in one customer or uses LIFO for inventory, that information may appear in the footnotes instead of on the face of the statements.
 
 ## Common Sources of FAR Mistakes
 
@@ -93,7 +93,7 @@ The notes are part of the financial statements. If Gies Co. has a significant co
 
 ## A Short Real-World Illustration
 
-Kingfisher Industries reports the following for the year:
+Panda Industries reports the following for the year:
 
 - net income of \$180,000
 - an unrealized gain on AFS debt securities of \$12,000, net of tax

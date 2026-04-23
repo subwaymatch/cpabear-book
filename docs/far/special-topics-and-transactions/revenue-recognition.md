@@ -85,7 +85,7 @@ Measured at **fair value**. If fair value cannot be reasonably estimated, use th
 ### Consideration Payable to a Customer
 
 Payments to a customer (e.g., slotting fees, cooperative advertising) reduce the transaction price unless they are for a **distinct good or service** received from the customer.
-Gies Co. pays a retailer \$50,000 for shelf space. This is consideration payable to a customer and reduces revenue:
+Polar Co. pays a retailer \$50,000 for shelf space. This is consideration payable to a customer and reduces revenue:
 
 ```journal
 Dr. Revenue (contra)           50,000
@@ -117,7 +117,7 @@ Variable consideration is allocated to a specific performance obligation if:
 
 1. The variable payment relates specifically to that obligation, **and**
 2. Allocating entirely to that obligation is consistent with the overall allocation objective
-   **Example:** MAS Inc. enters a \$120,000 contract for equipment and installation. SSPs are \$100,000 (equipment) and \$40,000 (installation). Total SSP = \$140,000.
+   **Example:** Grizzly Inc. enters a \$120,000 contract for equipment and installation. SSPs are \$100,000 (equipment) and \$40,000 (installation). Total SSP = \$140,000.
    | Obligation | SSP | Ratio | Allocated Price |
    |---|---|---|---|
    | Equipment | \$100,000 | 71.4% | \$85,714 |
@@ -150,7 +150,7 @@ $$
 \text{Percentage Complete (Cost-to-Cost)} = \frac{\text{Costs Incurred to Date}}{\text{Total Estimated Costs}}
 $$
 
-**Example:** BIF Partners has a construction contract for \$2,000,000. Total estimated costs are \$1,500,000. Costs incurred in Year 1 are \$600,000.
+**Example:** Kodiak Partners has a construction contract for \$2,000,000. Total estimated costs are \$1,500,000. Costs incurred in Year 1 are \$600,000.
 
 $$
 \% \text{ Complete} = \frac{\$600{,}000}{\$1{,}500{,}000} = 40\%
@@ -174,7 +174,7 @@ Dr. Construction expense      600,000
 
 Both over-time and point-in-time methods require **immediate recognition of the entire estimated loss** when a contract becomes unprofitable. The loss is not deferred until completion.
 
-**Example:** In Year 2, BIF Partners revises total estimated costs to \$2,200,000, indicating an expected loss of \$200,000 on the \$2,000,000 contract. The entire \$200,000 loss must be recognized in Year 2, regardless of the percentage completed.
+**Example:** In Year 2, Kodiak Partners revises total estimated costs to \$2,200,000, indicating an expected loss of \$200,000 on the \$2,000,000 contract. The entire \$200,000 loss must be recognized in Year 2, regardless of the percentage completed.
 
 :::
 
@@ -209,7 +209,7 @@ Dr. Cost of goods sold         50,000
 | **Receivable**         | Unconditional right to consideration                                       | Billed amount due                 |
 | **Contract liability** | Obligation to transfer goods/services for which consideration was received | Customer prepayments              |
 
-Illini Entertainment receives \$30,000 upfront for a 12-month subscription service:
+Cub Entertainment receives \$30,000 upfront for a 12-month subscription service:
 
 ```journal
 Dr. Cash                       30,000
@@ -256,7 +256,7 @@ An entity must determine whether it is a **principal** (controls the good or ser
 
 **Key indicator:** Does the entity control the specified good or service **before** it is transferred to the customer? If yes → principal. If no → agent.
 
-**Example:** Illini Entertainment operates a ticket marketplace. For standard listings, Illini does not take possession of the tickets and has no pricing discretion — it simply connects the seller and buyer and earns a 15% commission. Illini is an **agent** and recognizes revenue equal to its commission.
+**Example:** Cub Entertainment operates a ticket marketplace. For standard listings, Cub does not take possession of the tickets and has no pricing discretion — it simply connects the seller and buyer and earns a 15% commission. Cub is an **agent** and recognizes revenue equal to its commission.
 
 ### Repurchase Agreements
 
@@ -283,7 +283,7 @@ In a **bill-and-hold** arrangement, the entity bills the customer but physically
 3. The product is currently **ready for transfer** to the customer
 4. The entity **cannot** use the product or direct it to another customer
 
-**Example:** MAS Inc. manufactures specialized equipment for Bear Co. The equipment is complete and Bear Co. has been billed \$200,000, but Bear Co.'s facility is not yet ready to receive it. MAS holds the equipment in its warehouse. If all four criteria above are met, MAS recognizes revenue at the billing date.
+**Example:** Grizzly Inc. manufactures specialized equipment for Bear Co. The equipment is complete and Bear Co. has been billed \$200,000, but Bear Co.'s facility is not yet ready to receive it. Grizzly holds the equipment in its warehouse. If all four criteria above are met, Grizzly recognizes revenue at the billing date.
 
 ### Consignment Arrangements
 
@@ -312,7 +312,7 @@ A warranty is more likely a **separate performance obligation** if:
 - The coverage period is **lengthy** relative to the expected product life
 - The entity is required to perform **specified tasks** (not just fix defects)
 
-**Example:** Gies Co. sells a laptop for \$1,200 with a standard 1-year warranty (assurance-type) and offers an optional 2-year extended warranty for \$150 (service-type). The \$1,200 is recognized at the point of sale, with an estimated warranty accrual for Year 1. The \$150 extended warranty revenue is recognized ratably over the 2-year extended period.
+**Example:** Polar Co. sells a laptop for \$1,200 with a standard 1-year warranty (assurance-type) and offers an optional 2-year extended warranty for \$150 (service-type). The \$1,200 is recognized at the point of sale, with an estimated warranty accrual for Year 1. The \$150 extended warranty revenue is recognized ratably over the 2-year extended period.
 
 ### Customer Right of Return
 
@@ -322,7 +322,7 @@ When a customer has the right to return a product, the entity should:
 2. Record a **refund liability** for the portion expected to be returned
 3. Recognize an **asset** (and corresponding adjustment to cost of sales) for the right to recover products from customers upon settling the refund liability
 
-**Example:** BIF Partners sells \$500,000 of merchandise and estimates a 5% return rate based on historical data.
+**Example:** Kodiak Partners sells \$500,000 of merchandise and estimates a 5% return rate based on historical data.
 
 ```journal
 Dr. Accounts receivable        500,000

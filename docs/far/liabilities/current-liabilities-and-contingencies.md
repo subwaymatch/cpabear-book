@@ -109,7 +109,7 @@ The **net method** is considered theoretically superior because it treats lost d
 
 A **trade note payable** is a formal written promise to pay a specified amount on a definite date. Unlike accounts payable, notes payable carry an explicit **stated interest rate** and a defined maturity.
 
-Gies Co. issues a 6-month, 9%, \$80,000 note payable to a supplier on October 1:
+Polar Co. issues a 6-month, 9%, \$80,000 note payable to a supplier on October 1:
 
 ```journal
 Oct 1
@@ -117,7 +117,7 @@ Dr. Inventory[a] 80,000
     Cr. Notes payable[l] 80,000
 ```
 
-At December 31, Gies Co. accrues 3 months of interest:
+At December 31, Polar Co. accrues 3 months of interest:
 
 $$
 \text{Interest} = \$80{,}000 \times 9\% \times \frac{3}{12} = \$1{,}800
@@ -129,7 +129,7 @@ Dr. Interest expense 1,800
     Cr. Interest payable[l] 1,800
 ```
 
-At maturity (April 1), Gies Co. pays the note plus the remaining 3 months of interest:
+At maturity (April 1), Polar Co. pays the note plus the remaining 3 months of interest:
 
 ```journal
 Apr 1
@@ -161,7 +161,7 @@ Even when interest is paid semiannually or annually, the company must accrue int
 
 The portion of any long-term obligation that is due within the next 12 months must be reclassified as a **current liability** on the balance sheet.
 
-MAS Inc. has a \$300,000 term loan requiring annual principal payments of \$60,000. At year-end, the balance sheet presentation is:
+Grizzly Inc. has a \$300,000 term loan requiring annual principal payments of \$60,000. At year-end, the balance sheet presentation is:
 
 | Line Item | Amount |
 |---|---|
@@ -180,7 +180,7 @@ An exception exists for short-term obligations expected to be **refinanced** on 
 
 Accrued liabilities represent expenses that have been **incurred** but not yet **paid**. Common accruals include wages, utilities, and rent.
 
-BIF Partners has a biweekly payroll of \$140,000. The pay period ends on Friday, January 3, but the fiscal year ends on Tuesday, December 31. Three of the ten working days in the pay period fall in the old year:
+Kodiak Partners has a biweekly payroll of \$140,000. The pay period ends on Friday, January 3, but the fiscal year ends on Tuesday, December 31. Three of the ten working days in the pay period fall in the old year:
 
 $$
 \text{Accrued wages} = \$140{,}000 \times \frac{3}{10} = \$42{,}000
@@ -211,7 +211,7 @@ Companies accrue several categories of taxes. Each is recorded as a current liab
 
 Property taxes are typically assessed by local governments for the fiscal year. They should be accrued **ratably over the fiscal year** to which they relate.
 
-Kingfisher Industries receives a \$24,000 property tax assessment for the calendar year. Monthly accrual:
+Panda Industries receives a \$24,000 property tax assessment for the calendar year. Monthly accrual:
 
 $$
 \frac{\$24{,}000}{12} = \$2{,}000 \text{ per month}
@@ -227,7 +227,7 @@ Dr. Property tax expense 2,000
 
 Sales taxes collected from customers are held **in trust** and are never revenue to the seller — they are a liability from the moment of collection.
 
-Illini Entertainment collects \$5,300 from a customer on a \$5,000 sale with 6% sales tax:
+Cub Entertainment collects \$5,300 from a customer on a \$5,000 sale with 6% sales tax:
 
 ```journal
 Dr. Cash[a] 5,300
@@ -256,7 +256,7 @@ Payroll accounting requires careful distinction between **employer** payroll tax
 | **Employee withholdings** | Deducted from employee pay | Federal/state income tax, employee FICA, health insurance premiums |
 | **Employer taxes** | Additional cost to employer | Employer FICA match, FUTA, SUTA |
 
-Illini Security has monthly gross payroll of \$200,000. Withholdings and employer taxes are:
+Sloth Security has monthly gross payroll of \$200,000. Withholdings and employer taxes are:
 
 | Item | Employee Portion | Employer Portion |
 |---|---|---|
@@ -355,7 +355,7 @@ Under ASC 420, costs associated with an **exit or disposal activity** are recogn
 | **Contract termination costs** | At the cease-use date (when the company stops using the right conveyed by the contract) |
 | **Other associated costs** (relocation, consolidation) | When incurred |
 
-MAS Inc. announces a plant closure on November 15 and communicates a one-time termination package of \$500,000 to affected employees who will be terminated on December 31. No future service is required:
+Grizzly Inc. announces a plant closure on November 15 and communicates a one-time termination package of \$500,000 to affected employees who will be terminated on December 31. No future service is required:
 
 ```journal
 Nov 15
@@ -363,7 +363,7 @@ Dr. Restructuring expense 500,000
     Cr. Restructuring liability[l] 500,000
 ```
 
-MAS Inc. also has a non-cancelable operating lease on the plant with 24 months remaining at \$10,000/month. The cease-use date is December 31. At the cease-use date, the remaining obligation (net of estimated sublease rentals) is recognized:
+Grizzly Inc. also has a non-cancelable operating lease on the plant with 24 months remaining at \$10,000/month. The cease-use date is December 31. At the cease-use date, the remaining obligation (net of estimated sublease rentals) is recognized:
 
 $$
 \text{Liability} = (24 \times \$10{,}000) - \text{Expected sublease income}
@@ -389,7 +389,7 @@ $$
 \text{ARO (initial)} = \frac{\text{Estimated Future Cost}}{(1 + r)^n}
 $$
 
-Kingfisher Industries installs an offshore oil platform on January 1, Year 1. The estimated removal cost in 20 years is \$5,000,000, and the credit-adjusted risk-free rate is 6%:
+Panda Industries installs an offshore oil platform on January 1, Year 1. The estimated removal cost in 20 years is \$5,000,000, and the credit-adjusted risk-free rate is 6%:
 
 $$
 \text{ARO} = \frac{\$5{,}000{,}000}{(1.06)^{20}} = \$1{,}559{,}023
@@ -494,7 +494,7 @@ Under IFRS (IAS 37), when no best estimate exists within a range, the **midpoint
 
 #### Example — Lawsuit
 
-BIF Partners is the defendant in a lawsuit as of December 31, Year 1. Legal counsel advises that a loss is **probable**, and estimates the loss between \$200,000 and \$500,000 with no amount more likely than another.
+Kodiak Partners is the defendant in a lawsuit as of December 31, Year 1. Legal counsel advises that a loss is **probable**, and estimates the loss between \$200,000 and \$500,000 with no amount more likely than another.
 
 Under U.S. GAAP, accrue the minimum:
 
@@ -504,11 +504,11 @@ Dr. Litigation loss 200,000
     Cr. Litigation liability[l] 200,000
 ```
 
-BIF Partners must also **disclose** in the notes the nature of the lawsuit and the possible additional exposure of up to \$300,000 above the accrued amount.
+Kodiak Partners must also **disclose** in the notes the nature of the lawsuit and the possible additional exposure of up to \$300,000 above the accrued amount.
 
 #### Example — Reasonably Possible
 
-Illini Entertainment is involved in patent infringement litigation. Legal counsel advises a loss is **reasonably possible** in the range of \$100,000 to \$400,000.
+Cub Entertainment is involved in patent infringement litigation. Legal counsel advises a loss is **reasonably possible** in the range of \$100,000 to \$400,000.
 
 - **No journal entry** is recorded
 - The nature of the contingency and the range of possible loss are **disclosed in the notes**
@@ -537,7 +537,7 @@ Gain contingencies are subject to a stricter standard than loss contingencies:
 | **Reasonably possible** | Disclose in notes |
 | **Remote** | No disclosure required |
 
-Gies Co. files a lawsuit against a competitor for patent infringement and expects a favorable outcome. Even though legal counsel considers a gain **probable**, Gies Co. may only disclose the expected gain in the notes:
+Polar Co. files a lawsuit against a competitor for patent infringement and expects a favorable outcome. Even though legal counsel considers a gain **probable**, Polar Co. may only disclose the expected gain in the notes:
 
 > *"The Company is the plaintiff in a patent infringement action. While the outcome cannot be determined with certainty, management believes a favorable resolution is probable."*
 
@@ -556,7 +556,7 @@ Product warranties and premium offers are accounted for as **loss contingencies*
 
 Under the **expense warranty approach** (also called the accrual approach), the estimated warranty cost is recognized as an expense in the **same period as the sale** (matching principle).
 
-Kingfisher Industries sells 1,000 units at \$500 each during Year 1. Historical data indicates that 5% of units will require warranty service at an average cost of \$60 per unit:
+Panda Industries sells 1,000 units at \$500 each during Year 1. Historical data indicates that 5% of units will require warranty service at an average cost of \$60 per unit:
 
 $$
 \text{Estimated warranty cost} = 1{,}000 \times 5\% \times \$60 = \$3{,}000
@@ -568,7 +568,7 @@ Dr. Warranty expense 3,000
     Cr. Warranty liability[l] 3,000
 ```
 
-During Year 2, Kingfisher spends \$2,400 on actual warranty repairs:
+During Year 2, Panda spends \$2,400 on actual warranty repairs:
 
 ```journal
 Year 2
@@ -582,7 +582,7 @@ Dr. Warranty liability[l] 2,400
 
 When a warranty is sold **separately** (an extended warranty), the revenue is **deferred** and recognized over the warranty period because it represents a separate performance obligation under ASC 606.
 
-Illini Entertainment sells a 2-year extended warranty for \$600:
+Cub Entertainment sells a 2-year extended warranty for \$600:
 
 ```journal
 At sale

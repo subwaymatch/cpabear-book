@@ -48,7 +48,7 @@ Dr. Cash                      100,000
 ### Noninterest-Bearing Notes
 
 A **noninterest-bearing note** carries no stated interest rate. The market rate must be **imputed** to determine the present value. The difference between face value and PV is recorded as a **discount**.
-Gies Co. issues a 2-year, \$50,000 noninterest-bearing note when the market rate is 10%:
+Polar Co. issues a 2-year, \$50,000 noninterest-bearing note when the market rate is 10%:
 
 $$
 \text{PV} = \frac{\$50{,}000}{(1.10)^2} = \$41{,}322
@@ -122,7 +122,7 @@ The relationship between the coupon rate and the effective rate determines prici
 
 ## Bond Pricing
 
-MAS Inc. issues \$500,000 of 5-year, 8% bonds (semiannual payments) when the market rate is 10%.
+Grizzly Inc. issues \$500,000 of 5-year, 8% bonds (semiannual payments) when the market rate is 10%.
 
 - Semiannual coupon: \$500,000 × 8% ÷ 2 = \$20,000
 - Periods: 5 × 2 = 10
@@ -181,7 +181,7 @@ $$
 \text{Amortization per period} = \frac{\text{Total Discount (or Premium)}}{\text{Number of Periods}}
 $$
 
-Using MAS Inc.'s discount of \$38,609 over 10 periods:
+Using Grizzly Inc.'s discount of \$38,609 over 10 periods:
 
 $$
 \text{Per period} = \frac{\$38{,}609}{10} = \$3{,}861
@@ -205,7 +205,7 @@ $$
 \text{Amortization} = \text{Interest Expense} - \text{Cash Interest Paid}
 $$
 
-**Period 1 for MAS Inc.:**
+**Period 1 for Grizzly Inc.:**
 
 $$
 \text{Interest Expense} = \$461{,}391 \times 5\% = \$23{,}070
@@ -234,7 +234,7 @@ For a **discount**, interest expense **increases** each period because the carry
 ## Bonds Issued Between Interest Dates
 
 When bonds are issued between interest payment dates, the buyer pays the issuer **accrued interest** from the last interest date to the issue date.
-BIF Partners issues \$200,000 of 6% bonds (semiannual, Jan 1 and Jul 1) at par on March 1:
+Kodiak Partners issues \$200,000 of 6% bonds (semiannual, Jan 1 and Jul 1) at par on March 1:
 Accrued interest: \$200,000 × 6% × 2/12 = \$2,000
 
 ```journal
@@ -243,7 +243,7 @@ Dr. Cash                      202,000
     Cr. Interest payable                2,000
 ```
 
-On July 1, BIF Partners pays full semiannual interest of \$6,000:
+On July 1, Kodiak Partners pays full semiannual interest of \$6,000:
 
 ```journal
 Dr. Interest payable            2,000
@@ -275,7 +275,7 @@ A **troubled debt restructuring (TDR)** occurs when a creditor grants a concessi
 
 ### Debtor: Transfer of Assets
 
-Kingfisher Industries settles a \$500,000 note by transferring land with a book value of \$300,000 and fair value of \$350,000:
+Panda Industries settles a \$500,000 note by transferring land with a book value of \$300,000 and fair value of \$350,000:
 
 ```journal
 Dr. Notes payable             500,000
@@ -313,7 +313,7 @@ $$
 \text{Gain (Loss)} = \text{Net Carrying Amount} - \text{Reacquisition Price}
 $$
 
-Illini Entertainment retires \$100,000 face value bonds (carrying value \$97,200) at 102:
+Cub Entertainment retires \$100,000 face value bonds (carrying value \$97,200) at 102:
 Reacquisition price = \$100,000 × 102% = \$102,000
 
 ```journal

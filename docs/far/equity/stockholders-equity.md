@@ -45,7 +45,7 @@ Dr. Cash                        250,000
 ### Issuance for Non-Cash Consideration
 
 When stock is issued for property or services, the transaction is recorded at the **fair value of the consideration received** or the **fair value of the stock issued**, whichever is more readily determinable.
-**Example:** Gies Co. issues 5,000 shares of \$1 par common stock (market price \$30/share) in exchange for a building with an appraised value of \$145,000:
+**Example:** Polar Co. issues 5,000 shares of \$1 par common stock (market price \$30/share) in exchange for a building with an appraised value of \$145,000:
 
 ```journal
 Dr. Building                    150,000
@@ -58,7 +58,7 @@ The stock's fair value (\$150,000) is used because it is more readily determinab
 ### No-Par Stock
 
 Some states allow issuance of **no-par stock**. If no-par stock has a **stated value**, it is treated like par value. If there is no stated value, the entire proceeds are credited to Common Stock.
-**Example:** MAS Inc. issues 1,000 shares of no-par common stock (no stated value) at \$40 per share:
+**Example:** Grizzly Inc. issues 1,000 shares of no-par common stock (no stated value) at \$40 per share:
 
 ```journal
 Dr. Cash                        40,000
@@ -90,7 +90,7 @@ Under ASC 480, mandatorily redeemable financial instruments are classified as **
 
 ### Issuance of Preferred Stock
 
-**Example:** BIF Partners issues 2,000 shares of \$100 par, 6% cumulative preferred stock at \$108 per share:
+**Example:** Kodiak Partners issues 2,000 shares of \$100 par, 6% cumulative preferred stock at \$108 per share:
 
 ```journal
 Dr. Cash                        216,000
@@ -101,7 +101,7 @@ Dr. Cash                        216,000
 ### Conversion of Preferred to Common
 
 When convertible preferred stock is converted, the **book value method** is used (no gain or loss is recognized):
-**Example:** Kingfisher Industries converts 1,000 shares of \$50 par preferred stock (originally issued at \$55/share, APIC of \$5,000) into 4,000 shares of \$5 par common stock:
+**Example:** Panda Industries converts 1,000 shares of \$50 par preferred stock (originally issued at \$55/share, APIC of \$5,000) into 4,000 shares of \$5 par common stock:
 
 ```journal
 Dr. Preferred Stock             50,000
@@ -119,7 +119,7 @@ Dividends in arrears on cumulative preferred stock are **not a liability** until
 **Book value per share** measures the net assets attributable to each share of common stock:
 $$\text{Book Value per Share} = \frac{\text{Total Stockholders' Equity} - \text{Preferred Stock Equity}}{\text{Common Shares Outstanding}}$$
 Where **Preferred Stock Equity** includes the par (or call/liquidation) value of preferred stock plus any dividends in arrears on cumulative preferred stock.
-**Example:** Illini Entertainment reports:
+**Example:** Cub Entertainment reports:
 | Item | Amount |
 |---|---|
 | Total stockholders' equity | \$1,200,000 |
@@ -205,7 +205,7 @@ Under the cost method, treasury stock is recorded at the **reacquisition cost**.
 
 #### Purchase of Treasury Stock
 
-**Example:** Gies Co. reacquires 1,000 shares of its own \$5 par common stock at \$35 per share:
+**Example:** Polar Co. reacquires 1,000 shares of its own \$5 par common stock at \$35 per share:
 
 ```journal
 Dr. Treasury Stock              35,000
@@ -214,7 +214,7 @@ Dr. Treasury Stock              35,000
 
 #### Reissuance Above Cost
 
-Gies Co. later reissues 400 of the treasury shares at \$40 per share:
+Polar Co. later reissues 400 of the treasury shares at \$40 per share:
 
 ```journal
 Dr. Cash                        16,000
@@ -224,7 +224,7 @@ Dr. Cash                        16,000
 
 #### Reissuance Below Cost
 
-Gies Co. reissues the remaining 600 shares at \$30 per share:
+Polar Co. reissues the remaining 600 shares at \$30 per share:
 
 ```journal
 Dr. Cash                        18,000
@@ -243,7 +243,7 @@ When reissuing treasury stock **below cost**, first reduce APIC—Treasury Stock
 
 #### Retirement of Treasury Stock (Cost Method)
 
-If Gies Co. decides to **retire** 200 of its treasury shares (originally issued at \$5 par, \$20 APIC per share, reacquired at \$35):
+If Polar Co. decides to **retire** 200 of its treasury shares (originally issued at \$5 par, \$20 APIC per share, reacquired at \$35):
 
 ```journal
 Dr. Common Stock                1,000
@@ -263,7 +263,7 @@ Under the par value method, treasury stock is recorded at **par value** when rea
 
 #### Purchase of Treasury Stock (Par Value Method)
 
-**Example:** MAS Inc. reacquires 500 shares of its own \$10 par common stock (originally issued at \$28/share) at \$32 per share:
+**Example:** Grizzly Inc. reacquires 500 shares of its own \$10 par common stock (originally issued at \$28/share) at \$32 per share:
 
 ```journal
 Dr. Treasury Stock              5,000
@@ -279,7 +279,7 @@ Dr. Retained Earnings           2,000
 #### Reissuance (Par Value Method)
 
 Reissuance under the par value method is treated like a **new issuance**:
-MAS Inc. reissues 300 of the treasury shares at \$36 per share:
+Grizzly Inc. reissues 300 of the treasury shares at \$36 per share:
 
 ```journal
 Dr. Cash                        10,800
@@ -302,7 +302,7 @@ Dr. Cash                        10,800
 
 When shares are **donated back** to the corporation (e.g., by a major stockholder), the transaction is recorded as a **memo entry only** under modern GAAP—no journal entry is required because no assets are exchanged. The shares become treasury shares.
 If donated shares are subsequently resold, the proceeds are credited to **APIC—Donated Capital**.
-**Example:** A major shareholder of Illini Security donates 500 shares back to the company. Illini Security later sells them for \$20 per share:
+**Example:** A major shareholder of Sloth Security donates 500 shares back to the company. Sloth Security later sells them for \$20 per share:
 
 ```journal
 Dr. Cash                        10,000
@@ -314,7 +314,7 @@ Dr. Cash                        10,000
 ## Stock Subscriptions
 
 A **stock subscription** is a contract in which an investor agrees to purchase shares at a future date and pay in installments. Until fully paid, the shares are not issued.
-**Example:** Kingfisher Industries receives subscriptions for 2,000 shares of \$5 par common stock at \$22 per share. A 50% down payment is received:
+**Example:** Panda Industries receives subscriptions for 2,000 shares of \$5 par common stock at \$22 per share. A 50% down payment is received:
 
 ```journal
 Subscription date:
@@ -373,7 +373,7 @@ Dr. Dividends Payable           100,000
 ### Property Dividends
 
 A **property dividend** is a distribution of non-cash assets. The asset distributed is **remeasured to fair value** on the declaration date, with any gain or loss recognized in income.
-**Example:** Illini Entertainment declares a property dividend, distributing investments with a carrying value of \$60,000 and a fair value of \$75,000:
+**Example:** Cub Entertainment declares a property dividend, distributing investments with a carrying value of \$60,000 and a fair value of \$75,000:
 
 ```journal
 Declaration date — remeasure to fair value:
@@ -400,7 +400,7 @@ A **stock dividend** is a distribution of additional shares to existing sharehol
 #### Small Stock Dividend (≤ 20–25%)
 
 Recorded at the **fair market value** of the shares distributed:
-**Example:** BIF Partners has 100,000 shares outstanding (par \$1, market price \$30). It declares a 10% stock dividend (10,000 new shares):
+**Example:** Kodiak Partners has 100,000 shares outstanding (par \$1, market price \$30). It declares a 10% stock dividend (10,000 new shares):
 
 ```journal
 Dr. Retained Earnings           300,000
@@ -424,7 +424,7 @@ Dr. Common Stock Dividend Distributable  10,000
 #### Large Stock Dividend (> 20–25%)
 
 Recorded at **par value** only:
-**Example:** BIF Partners declares a 50% stock dividend (50,000 new shares, \$1 par):
+**Example:** Kodiak Partners declares a 50% stock dividend (50,000 new shares, \$1 par):
 
 ```journal
 Dr. Retained Earnings           50,000
@@ -434,7 +434,7 @@ Dr. Retained Earnings           50,000
 ### Stock Splits
 
 A **stock split** increases the number of shares outstanding and proportionally decreases the par value per share. **No journal entry is required**—only a memo entry.
-**Example:** MAS Inc. has 100,000 shares of \$10 par common stock outstanding. After a 2-for-1 stock split:
+**Example:** Grizzly Inc. has 100,000 shares of \$10 par common stock outstanding. After a 2-for-1 stock split:
 
 - Shares outstanding: 200,000
 - Par value per share: \$5
@@ -464,7 +464,7 @@ A **stock split** increases the number of shares outstanding and proportionally 
 ## Preferred Stock Dividend Allocation
 
 When both preferred and common stock are outstanding, dividends are allocated to preferred stockholders first.
-**Example:** Gies Co. has:
+**Example:** Polar Co. has:
 
 - 10,000 shares of \$100 par, 6% cumulative preferred stock
 - 200,000 shares of \$1 par common stock
@@ -483,7 +483,7 @@ When both preferred and common stock are outstanding, dividends are allocated to
 
 When a parent company consolidates a subsidiary that is not wholly owned, the portion of the subsidiary's equity attributable to **outside shareholders** is reported as **noncontrolling interest** in the consolidated balance sheet.
 NCI is presented **within stockholders' equity**, but separately from the parent's equity. It is adjusted each period for the noncontrolling interest's share of the subsidiary's net income and dividends.
-**Example:** Bear Co. owns 80% of Kingfisher Industries. Kingfisher reports net income of \$100,000 and declares dividends of \$30,000:
+**Example:** Bear Co. owns 80% of Panda Industries. Panda reports net income of \$100,000 and declares dividends of \$30,000:
 
 ```journal
 NCI share of net income (20% × $100,000):
@@ -499,7 +499,7 @@ Dr. Noncontrolling Interest      6,000
 ## Stock Issuance to Nonemployees
 
 When stock is issued to **nonemployees** for goods or services, the transaction is measured at the **fair value of the consideration received** or the **fair value of the equity instruments issued**, whichever is more reliably measurable (ASC 718/505).
-**Example:** Illini Security issues 500 shares of \$1 par common stock (market price \$40/share) to an attorney for legal services with a billed value of \$19,000:
+**Example:** Sloth Security issues 500 shares of \$1 par common stock (market price \$40/share) to an attorney for legal services with a billed value of \$19,000:
 
 ```journal
 Dr. Legal Expense               20,000

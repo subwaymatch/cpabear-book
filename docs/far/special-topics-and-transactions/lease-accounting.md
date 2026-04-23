@@ -76,7 +76,7 @@ Lease payments include:
 ## Lessee Operating Lease Accounting
 
 Under an operating lease, the lessee recognizes a **single lease expense on a straight-line basis** over the lease term.
-**Example:** Gies Co. enters a 5-year operating lease for equipment on January 1. Annual payments of \$24,000 are due at the **end** of each year. The incremental borrowing rate is 6%.
+**Example:** Polar Co. enters a 5-year operating lease for equipment on January 1. Annual payments of \$24,000 are due at the **end** of each year. The incremental borrowing rate is 6%.
 
 ### Initial Measurement
 
@@ -134,7 +134,7 @@ The balance sheet at Year 1 end:
 ## Lessee Finance Lease Accounting
 
 Under a finance lease, the lessee recognizes **two separate expenses**: amortization of the ROU asset and interest on the lease liability. This results in higher total expense in early years (front-loaded).
-**Example:** MAS Inc. enters a 4-year finance lease on January 1 for a machine with a fair value of \$80,000. Annual payments are \$22,000 at the end of each year. The rate implicit in the lease is 5%.
+**Example:** Grizzly Inc. enters a 4-year finance lease on January 1 for a machine with a fair value of \$80,000. Annual payments are \$22,000 at the end of each year. The rate implicit in the lease is 5%.
 
 ### Initial Measurement
 
@@ -204,7 +204,7 @@ graph TD
 
 A lessee may elect **not** to recognize a ROU asset and lease liability for leases with a term of **12 months or less** at commencement (with no purchase option the lessee is reasonably certain to exercise).
 Under this election, lease payments are recognized as expense on a **straight-line basis** over the lease term.
-BIF Partners leases a copier for 10 months at \$500/month:
+Kodiak Partners leases a copier for 10 months at \$500/month:
 
 ```journal
 Dr. Lease expense                 500

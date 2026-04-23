@@ -135,7 +135,7 @@ A liability is classified as **current** even if it will be refinanced after the
 
 :::
 
-**Example — Gies Co. records accrued wages:**
+**Example — Polar Co. records accrued wages:**
 
 ```journal
 Dr. Wages expense            45,000
@@ -166,7 +166,7 @@ The residual interest in assets after deducting liabilities. The equity section 
 | **Accumulated other comprehensive income (AOCI)** | Cumulative OCI items (PUFI) |
 | **Treasury stock** | Cost of shares reacquired by the entity (contra equity) |
 | **Noncontrolling interest** | Minority interest in consolidated subsidiaries |
-**Example — MAS Inc. issues 10,000 shares of \$1 par common stock at \$15 per share:**
+**Example — Grizzly Inc. issues 10,000 shares of \$1 par common stock at \$15 per share:**
 
 ```journal
 Dr. Cash                150,000
@@ -175,7 +175,7 @@ Dr. Cash                150,000
 ```
 
 **Example equity section:**
-| MAS Inc. — Stockholders' Equity | Dec. 31 |
+| Grizzly Inc. — Stockholders' Equity | Dec. 31 |
 |---|---:|
 | Preferred stock, \$100 par, 1,000 shares issued | \$100,000 |
 | Common stock, \$1 par, 50,000 shares issued | 50,000 |
@@ -203,7 +203,7 @@ $$
 \text{Current Ratio} = \frac{\text{Current Assets}}{\text{Current Liabilities}}
 $$
 
-**Example — Kingfisher Industries:**
+**Example — Panda Industries:**
 
 - Current assets: \$548,000
 - Current liabilities: \$310,000
@@ -311,7 +311,7 @@ flowchart TD
 
 ## Practice Problem
 
-Illini Security reports the following balances at December 31:
+Sloth Security reports the following balances at December 31:
 | Account | Amount |
 |---|---:|
 | Cash | \$60,000 |

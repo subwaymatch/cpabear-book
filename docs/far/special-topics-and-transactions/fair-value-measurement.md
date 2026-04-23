@@ -51,7 +51,7 @@ Uses prices and other relevant information from **market transactions** involvin
 | Quoted prices | Directly observable market prices |
 | Matrix pricing | Used for fixed-income securities based on benchmark quoted prices |
 | Market multiples | Comparable company analysis using P/E, EV/EBITDA, etc. |
-**Example:** Gies Co. holds 1,000 shares of a publicly traded stock. The closing price is \$45 per share:
+**Example:** Polar Co. holds 1,000 shares of a publicly traded stock. The closing price is \$45 per share:
 
 $$
 \text{Fair Value} = 1{,}000 \times \$45 = \$45{,}000
@@ -65,7 +65,7 @@ $$
 \text{Fair Value} = \text{Replacement Cost} - \text{Physical Deterioration} - \text{Functional Obsolescence} - \text{Economic Obsolescence}
 $$
 
-**Example:** MAS Inc. owns a specialized machine. A new equivalent machine costs \$200,000, but the existing machine has 40% of its useful life remaining:
+**Example:** Grizzly Inc. owns a specialized machine. A new equivalent machine costs \$200,000, but the existing machine has 40% of its useful life remaining:
 
 $$
 \text{Fair Value} \approx \$200{,}000 \times 40\% = \$80{,}000
@@ -79,7 +79,7 @@ Converts **future amounts** (cash flows, earnings) to a **single present value**
 | Discounted cash flow (DCF) | PV of expected future cash flows |
 | Option pricing models | Black-Scholes, binomial models |
 | Multi-period excess earnings | Used for intangible assets |
-**Example:** Kingfisher Industries values a patent using DCF. Expected annual cash flows are \$50,000 for 5 years, discounted at 8%:
+**Example:** Panda Industries values a patent using DCF. Expected annual cash flows are \$50,000 for 5 years, discounted at 8%:
 
 $$
 \text{Fair Value} = \$50{,}000 \times \frac{1 - (1.08)^{-5}}{0.08} = \$50{,}000 \times 3.99271 = \$199{,}636
@@ -179,7 +179,7 @@ For recurring Level 3 measurements, entities must disclose:
 | Recurring        | Required   | Required | Required  | Required |
 | Nonrecurring     | Required   | Required | Required  | Required |
 
-**Example disclosure:** BIF Partners reports an investment property at fair value of \$1,200,000 (Level 3). The income approach was used with a capitalization rate of 7.5% applied to net operating income. A 50-basis-point change in the cap rate would change the fair value by approximately ±\$80,000.
+**Example disclosure:** Kodiak Partners reports an investment property at fair value of \$1,200,000 (Level 3). The income approach was used with a capitalization rate of 7.5% applied to net operating income. A 50-basis-point change in the cap rate would change the fair value by approximately ±\$80,000.
 
 ## Exceptions to Fair Value Measurement
 
@@ -201,7 +201,7 @@ Additionally, certain practical expedients exist:
 ## Fair Value Option
 
 Under ASC 825, entities may **elect** to measure certain financial assets and liabilities at fair value (the "fair value option"). Once elected, the choice is **irrevocable** for that instrument.
-Illini Entertainment elects the fair value option for a \$500,000 note payable. At year-end, the fair value of the note is \$480,000:
+Cub Entertainment elects the fair value option for a \$500,000 note payable. At year-end, the fair value of the note is \$480,000:
 
 $$
 \text{Gain} = \$500{,}000 - \$480{,}000 = \$20{,}000

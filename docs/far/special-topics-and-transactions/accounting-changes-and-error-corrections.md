@@ -78,7 +78,7 @@ Changes in principle are applied **retrospectively** by:
 1. Adjusting the **beginning balance of retained earnings** for the earliest period presented (cumulative effect, net of tax)
 2. Restating prior-period financial statements as if the new principle had always been used
 3. Disclosing the nature and reason for the change
-   **Example:** Gies Co. changes from FIFO to weighted-average for inventory on January 1, Year 3. The cumulative effect on prior years (net of tax) is a \$25,000 decrease in retained earnings.
+   **Example:** Polar Co. changes from FIFO to weighted-average for inventory on January 1, Year 3. The cumulative effect on prior years (net of tax) is a \$25,000 decrease in retained earnings.
 
 ```journal
 Dr. Retained earnings          25,000
@@ -120,7 +120,7 @@ An **error** in previously issued financial statements may result from:
 ### Treatment: Prior Period Adjustment
 
 Errors are corrected through a **prior period adjustment** to the beginning balance of retained earnings (net of tax) in the earliest period presented.
-**Example:** MAS Inc. discovers in Year 3 that it failed to record \$40,000 of depreciation expense in Year 1. The tax rate is 21%.
+**Example:** Grizzly Inc. discovers in Year 3 that it failed to record \$40,000 of depreciation expense in Year 1. The tax rate is 21%.
 After-tax effect: \$40,000 × (1 − 0.21) = \$31,600
 
 ```journal
@@ -164,7 +164,7 @@ Adjusting entries are made at the **end of the accounting period** to ensure rev
 
 #### 1. Accrued Revenue (Revenue Earned, Not Yet Received)
 
-BIF Partners earned \$8,000 of consulting fees in December but will not bill until January:
+Kodiak Partners earned \$8,000 of consulting fees in December but will not bill until January:
 
 ```journal
 Dr. Accounts receivable         8,000
@@ -173,7 +173,7 @@ Dr. Accounts receivable         8,000
 
 #### 2. Accrued Expense (Expense Incurred, Not Yet Paid)
 
-Kingfisher Industries owes employees \$12,000 for work performed in the last week of December:
+Panda Industries owes employees \$12,000 for work performed in the last week of December:
 
 ```journal
 Dr. Wages expense              12,000
@@ -182,7 +182,7 @@ Dr. Wages expense              12,000
 
 #### 3. Deferred Revenue (Revenue Received, Not Yet Earned)
 
-Illini Entertainment received \$36,000 on October 1 for a 12-month subscription. At December 31, 3 months have been earned:
+Cub Entertainment received \$36,000 on October 1 for a 12-month subscription. At December 31, 3 months have been earned:
 Original entry on October 1:
 
 ```journal
@@ -225,7 +225,7 @@ Dr. Insurance expense          12,000
 | Purpose        | Match revenues/expenses | Fix mistakes                   |
 | Accounts       | One IS + one BS         | Any combination                |
 
-**Example of a correcting entry:** Gies Co. incorrectly debited Equipment \$5,000 for a repair expense:
+**Example of a correcting entry:** Polar Co. incorrectly debited Equipment \$5,000 for a repair expense:
 
 ```journal
 Dr. Repairs expense             5,000

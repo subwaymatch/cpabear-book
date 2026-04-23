@@ -172,7 +172,7 @@ Used for **convertible bonds** and **convertible preferred stock**. Assumes conv
 
 - **Numerator:** Add back interest expense (net of tax) that would not have been paid
 - **Denominator:** Add the shares that would have been issued upon conversion
-  > MAS Inc. has \$1,000,000 of 6% convertible bonds, convertible into 50,000 shares. Tax rate is 25%.
+  > Grizzly Inc. has \$1,000,000 of 6% convertible bonds, convertible into 50,000 shares. Tax rate is 25%.
   > **Numerator adjustment:**
   $$
   \text{Interest saved} = \$1{,}000{,}000 \times 6\% = \$60{,}000
@@ -186,7 +186,7 @@ Used for **convertible bonds** and **convertible preferred stock**. Assumes conv
 
 - **Numerator:** Add back the preferred dividends that were subtracted in basic EPS
 - **Denominator:** Add the shares that would have been issued upon conversion
-  > Gies Co. has 10,000 shares of convertible preferred stock (\$5 dividend per share), each convertible into 4 common shares.
+  > Polar Co. has 10,000 shares of convertible preferred stock (\$5 dividend per share), each convertible into 4 common shares.
   > **Numerator adjustment:** +\$50,000 (preferred dividends added back)
   > **Denominator adjustment:** +40,000 shares
 
@@ -203,7 +203,7 @@ Used for **stock options** and **warrants**. Assumes the proceeds from exercise 
 2. Calculate proceeds: shares × exercise price
 3. Assume proceeds used to repurchase shares at average market price
 4. **Net new shares** = shares issued − shares repurchased
-   > Illini Entertainment has 10,000 stock options with an exercise price of \$20. The average market price is \$50.
+   > Cub Entertainment has 10,000 stock options with an exercise price of \$20. The average market price is \$50.
    $$
    \text{Proceeds} = 10{,}000 \times \$20 = \$200{,}000
    $$
@@ -245,7 +245,7 @@ $$
 \text{Incremental EPS} = \frac{\text{Increase in Numerator}}{\text{Increase in Denominator}}
 $$
 
-> **Example:** BIF Partners has basic EPS of \$4.00 and three potentially dilutive securities:
+> **Example:** Kodiak Partners has basic EPS of \$4.00 and three potentially dilutive securities:
 > | Security | Numerator Effect | Denominator Effect | Incremental EPS |
 > |---|---|---|---|
 > | Options | \$0 | +5,000 | \$0.00 |
@@ -270,7 +270,7 @@ ASC 260 requires the following disclosures:
 
 ## Comprehensive Example
 
-Kingfisher Industries reports the following for the year ended December 31:
+Panda Industries reports the following for the year ended December 31:
 | Item | Amount |
 |---|---|
 | Net income | \$900,000 |
