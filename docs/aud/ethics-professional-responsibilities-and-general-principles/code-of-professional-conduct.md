@@ -72,7 +72,7 @@ The AICPA uses a **conceptual framework approach** to evaluate independence. Rat
 
 This framework applies when the CPA encounters a relationship or circumstance that is not explicitly addressed by the specific independence rules.
 
-**Example:** Gies Co. asks its audit firm to also provide employee training on how to use a new accounting software system. The specific rules do not directly address this situation. The auditor uses the conceptual framework to identify any threats (such as management participation), evaluates whether those threats are significant, and determines whether safeguards — such as ensuring Gies Co. management makes all decisions about the system — can reduce the threat to an acceptable level.
+**Example:** Bear Co. asks its audit firm to also provide employee training on how to use a new accounting software system. The specific rules do not directly address this situation. The auditor uses the conceptual framework to identify any threats (such as management participation), evaluates whether those threats are significant, and determines whether safeguards — such as ensuring Bear Co. management makes all decisions about the system — can reduce the threat to an acceptable level.
 
 ---
 
@@ -82,13 +82,13 @@ The Code identifies seven categories of threats that can impair a CPA's independ
 
 | Threat | Description | Example |
 |--------|-------------|---------|
-| **Self-Review** | The threat that a CPA will not appropriately evaluate the results of a previous judgment or service performed by the CPA's firm | The audit firm prepared MAS Inc.'s tax return and now must audit the tax provision on MAS Inc.'s financial statements |
-| **Advocacy** | The threat that a CPA will promote a client's position to the point that objectivity is compromised | The auditor represents Kingfisher Industries in a tax dispute before the IRS |
-| **Adverse Interest** | The threat that a CPA will not act with objectivity because the CPA's interests are opposed to the client's interests | The audit firm is involved in litigation against BIF Partners, an audit client |
-| **Familiarity** | The threat that, due to a long or close relationship with a client, a CPA will become too sympathetic to the client's interests | An auditor has audited Illini Entertainment for 15 years and has developed a close personal friendship with the CFO |
-| **Undue Influence** | The threat that a CPA will subordinate professional judgment because of pressure from a client, employer, or other party | Illini Security's CEO threatens to replace the audit firm unless the auditor agrees with management's aggressive accounting position |
-| **Management Participation** | The threat that a CPA will take on the role of management or otherwise assume management responsibilities for an attest client | The auditor makes hiring decisions or approves vendor payments on behalf of MSA Records |
-| **Financial Self-Interest** | The threat that a CPA could benefit, financially or otherwise, from an interest in or relationship with an attest client | The engagement partner owns shares of stock in Gies Co., the audit client |
+| **Self-Review** | The threat that a CPA will not appropriately evaluate the results of a previous judgment or service performed by the CPA's firm | The audit firm prepared Polar Inc.'s tax return and now must audit the tax provision on Polar Inc.'s financial statements |
+| **Advocacy** | The threat that a CPA will promote a client's position to the point that objectivity is compromised | The auditor represents Grizzly Industries in a tax dispute before the IRS |
+| **Adverse Interest** | The threat that a CPA will not act with objectivity because the CPA's interests are opposed to the client's interests | The audit firm is involved in litigation against Kodiak Partners, an audit client |
+| **Familiarity** | The threat that, due to a long or close relationship with a client, a CPA will become too sympathetic to the client's interests | An auditor has audited Honey Entertainment for 15 years and has developed a close personal friendship with the CFO |
+| **Undue Influence** | The threat that a CPA will subordinate professional judgment because of pressure from a client, employer, or other party | Ursa Security's CEO threatens to replace the audit firm unless the auditor agrees with management's aggressive accounting position |
+| **Management Participation** | The threat that a CPA will take on the role of management or otherwise assume management responsibilities for an attest client | The auditor makes hiring decisions or approves vendor payments on behalf of Panda Records |
+| **Financial Self-Interest** | The threat that a CPA could benefit, financially or otherwise, from an interest in or relationship with an attest client | The engagement partner owns shares of stock in Bear Co., the audit client |
 
 :::caution
 
@@ -107,7 +107,7 @@ The independence rules strictly regulate a CPA's financial interests in attest c
 - **Direct financial interest:** Any ownership interest (stock, bonds, notes, etc.) held directly by the covered member. **Always prohibited**, regardless of materiality.
 - **Indirect financial interest:** A financial interest held through an intermediary, such as a mutual fund or retirement plan. Prohibited only if **material** to the covered member.
 
-**Example:** An audit partner at the firm that audits Kingfisher Industries inherits 10 shares of Kingfisher Industries stock from a relative. Even though the value is small, this is a **direct financial interest** and independence is impaired. The partner must dispose of the shares promptly to restore independence. However, if the partner owns a diversified mutual fund that happens to hold Kingfisher Industries stock, this is an indirect financial interest and would impair independence only if the amount is material to the partner.
+**Example:** An audit partner at the firm that audits Grizzly Industries inherits 10 shares of Grizzly Industries stock from a relative. Even though the value is small, this is a **direct financial interest** and independence is impaired. The partner must dispose of the shares promptly to restore independence. However, if the partner owns a diversified mutual fund that happens to hold Grizzly Industries stock, this is an indirect financial interest and would impair independence only if the amount is material to the partner.
 
 :::warning
 
@@ -131,7 +131,7 @@ A CPA firm can provide nonattest services (such as tax, consulting, or bookkeepi
 2. The client **oversees the service** by designating an individual (preferably in senior management) who possesses suitable skill, knowledge, or experience
 3. The CPA **does not assume management responsibilities** — meaning the CPA does not make decisions, act in a management capacity, or perform ongoing management functions
 
-**Example:** BIF Partners engages its audit firm to assist with bookkeeping services during the year. Independence is maintained as long as BIF Partners' management reviews and approves all journal entries, takes responsibility for the financial records, and has an individual with the competence to oversee the bookkeeping work. If the audit firm were to approve transactions or make accounting decisions without client oversight, independence would be impaired.
+**Example:** Kodiak Partners engages its audit firm to assist with bookkeeping services during the year. Independence is maintained as long as Kodiak Partners' management reviews and approves all journal entries, takes responsibility for the financial records, and has an individual with the competence to oversee the bookkeeping work. If the audit firm were to approve transactions or make accounting decisions without client oversight, independence would be impaired.
 
 :::tip[Exam Tip]
 
@@ -143,7 +143,7 @@ The three requirements for nonattest services — management responsibility, cli
 
 Independence is considered impaired if **fees for services provided more than one year before the current-period report date remain unpaid** when the current-period report is issued. The reasoning is that the unpaid fees begin to resemble a loan to the client, creating a financial self-interest threat.
 
-**Example:** MSA Records owes its audit firm \$85,000 for last year's audit. If those fees remain unpaid when the firm issues the current-year audit report, independence is impaired. The firm should collect the outstanding fees before issuing the report or consider whether continuing the engagement is appropriate.
+**Example:** Panda Records owes its audit firm \$85,000 for last year's audit. If those fees remain unpaid when the firm issues the current-year audit report, independence is impaired. The firm should collect the outstanding fees before issuing the report or consider whether continuing the engagement is appropriate.
 
 ### Gifts and Entertainment
 
@@ -176,7 +176,7 @@ When a **former partner or professional employee** of the firm joins an attest c
 - Capital balances or retirement payments owed to the individual are **not fixed and determinable**
 - The individual continues to **participate in or appear to participate** in the firm's activities
 
-**Example:** A former senior manager at the firm that audits Illini Entertainment joins Illini Entertainment as Controller. The firm must ensure that the former employee no longer has any involvement with the firm and that all retirement payments owed are fixed. If the former manager's retirement balance depends on the firm's future profits, independence is impaired.
+**Example:** A former senior manager at the firm that audits Honey Entertainment joins Honey Entertainment as Controller. The firm must ensure that the former employee no longer has any involvement with the firm and that all retirement payments owed are fixed. If the former manager's retirement balance depends on the firm's future profits, independence is impaired.
 
 ---
 

@@ -43,7 +43,7 @@ Beyond the formal preconditions, the auditor performs additional evaluations:
 - **Independence** — The firm must confirm that it can comply with all applicable independence requirements.
 - **Communication with predecessor auditor** — When a new auditor is being engaged to replace a predecessor, the **successor auditor is required to communicate with the predecessor auditor** before accepting the engagement (with the prospective client's permission). This helps the successor learn about matters such as disagreements with management, integrity concerns, or reasons for the change in auditors.
 
-**Example:** BIF Partners is considering taking on Illini Entertainment as a new audit client. Before accepting, the engagement partner at BIF Partners contacts the predecessor auditor, who reveals that Illini Entertainment's management refused to adjust a material misstatement in the prior year. This information significantly influences BIF Partners' acceptance decision.
+**Example:** Kodiak Partners is considering taking on Honey Entertainment as a new audit client. Before accepting, the engagement partner at Kodiak Partners contacts the predecessor auditor, who reveals that Honey Entertainment's management refused to adjust a material misstatement in the prior year. This information significantly influences Kodiak Partners' acceptance decision.
 
 :::tip[Exam Tip]
 
@@ -71,7 +71,7 @@ The engagement letter must include the following elements:
 | **Expected form and content of reports** | A description of the expected form of any reports to be issued |
 | **Other relevant terms** | Fee arrangements, timing, use of specialists, or other engagement-specific terms |
 
-**Example:** Gies Co. hires a CPA firm to audit its annual financial statements. The engagement letter states that the audit will be performed in accordance with GAAS, that management is responsible for internal controls and the fair presentation of the financial statements under U.S. GAAP, and that the auditor will issue a written report upon completion. It also includes the agreed-upon fee schedule and a timeline for fieldwork.
+**Example:** Bear Co. hires a CPA firm to audit its annual financial statements. The engagement letter states that the audit will be performed in accordance with GAAS, that management is responsible for internal controls and the fair presentation of the financial statements under U.S. GAAP, and that the auditor will issue a written report upon completion. It also includes the agreed-upon fee schedule and a timeline for fieldwork.
 
 :::note
 
@@ -97,7 +97,7 @@ The auditor should reassess the terms of a recurring engagement when:
 
 Even when none of these changes have occurred, the auditor may decide to send a **reminder letter** to the client reconfirming the existing terms. The key principle is that both parties should always have a clear, current understanding of the engagement terms.
 
-**Example:** Kingfisher Industries has been audited by the same firm for five consecutive years. At the start of year six, the company completes a major acquisition that doubles its size and introduces a new operating segment. The auditor determines that a new engagement letter is appropriate to address the expanded scope and any additional complexities.
+**Example:** Grizzly Industries has been audited by the same firm for five consecutive years. At the start of year six, the company completes a major acquisition that doubles its size and introduces a new operating segment. The auditor determines that a new engagement letter is appropriate to address the expanded scope and any additional complexities.
 
 :::tip[Exam Tip]
 
@@ -127,7 +127,7 @@ The auditor should **not agree** to a change in engagement terms if:
 - The auditor suspects the request is intended to **limit the scope** of the engagement or to **avoid disclosure** of a material misstatement
 - The request appears motivated by a desire to prevent the auditor from discovering or reporting unfavorable information
 
-**Example:** MAS Inc. is undergoing an audit and the auditor discovers significant irregularities in the revenue recognition process. Shortly after the auditor raises these concerns, MAS Inc.'s CFO requests that the engagement be changed from an audit to a compilation. Because the request appears to be motivated by a desire to avoid the auditor's further investigation, the auditor should **refuse the change** and consider the implications for the audit, including the possibility of withdrawal.
+**Example:** Polar Inc. is undergoing an audit and the auditor discovers significant irregularities in the revenue recognition process. Shortly after the auditor raises these concerns, Polar Inc.'s CFO requests that the engagement be changed from an audit to a compilation. Because the request appears to be motivated by a desire to avoid the auditor's further investigation, the auditor should **refuse the change** and consider the implications for the audit, including the possibility of withdrawal.
 
 :::danger
 

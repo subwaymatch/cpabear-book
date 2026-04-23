@@ -39,7 +39,7 @@ During planning, analytical procedures help the auditor identify unusual transac
 
 :::info[Example]
 
-While planning the audit of **Gies Co.**, the auditor compares the current year's gross margin to the prior three years. A significant decline triggers further investigation and may lead the auditor to classify revenue recognition as a higher-risk area.
+While planning the audit of **Bear Co.**, the auditor compares the current year's gross margin to the prior three years. A significant decline triggers further investigation and may lead the auditor to classify revenue recognition as a higher-risk area.
 
 :::
 
@@ -85,7 +85,7 @@ The auditor forms an independent expectation of the recorded amount. The more pr
 
 :::info[Example]
 
-To test **Illini Security's** total revenue, the auditor gathers data on the number of active client contracts, average monthly contract value, and the number of months in the period. Multiplying these factors produces an independent estimate of expected revenue.
+To test **Ursa Security's** total revenue, the auditor gathers data on the number of active client contracts, average monthly contract value, and the number of months in the period. Multiplying these factors produces an independent estimate of expected revenue.
 
 :::
 
@@ -130,10 +130,10 @@ Audit data analytics (ADAs) are techniques that analyze complete populations or 
 
 | Category | Question It Answers | Example |
 |---|---|---|
-| **Descriptive** | *What happened?* | Summarize all journal entries posted by **MAS Inc.'s** accounting staff during the year, showing volume and dollar amounts by user |
-| **Diagnostic** | *Why did it happen?* | Investigate why **Kingfisher Industries'** warranty expense spiked in Q3 by correlating with product return data |
-| **Predictive** | *What is likely to happen?* | Forecast expected bad debt expense for **BIF Partners** based on historical collection patterns and current aging |
-| **Prescriptive** | *What should we do about it?* | Recommend which inventory locations at **MSA Records** should receive additional testing based on historical discrepancy rates |
+| **Descriptive** | *What happened?* | Summarize all journal entries posted by **Polar Inc.'s** accounting staff during the year, showing volume and dollar amounts by user |
+| **Diagnostic** | *Why did it happen?* | Investigate why **Grizzly Industries'** warranty expense spiked in Q3 by correlating with product return data |
+| **Predictive** | *What is likely to happen?* | Forecast expected bad debt expense for **Kodiak Partners** based on historical collection patterns and current aging |
+| **Prescriptive** | *What should we do about it?* | Recommend which inventory locations at **Panda Records** should receive additional testing based on historical discrepancy rates |
 
 :::note
 
@@ -153,7 +153,7 @@ ADAs can enhance tests of details by enabling the auditor to:
 
 :::info[Example]
 
-The auditor uses data analytics to compare **Illini Entertainment's** complete vendor master file against the employee address database. Three matches are found, prompting further investigation into potential fictitious vendor fraud.
+The auditor uses data analytics to compare **Honey Entertainment's** complete vendor master file against the employee address database. Three matches are found, prompting further investigation into potential fictitious vendor fraud.
 
 :::
 
@@ -204,11 +204,11 @@ Visual representations of data can make patterns and anomalies easier to identif
 | Visualization | Use Case |
 |---|---|
 | **Bar / column charts** | Comparing balances across periods or categories |
-| **Line charts** | Identifying trends over time (e.g., monthly revenue at **Gies Co.**) |
+| **Line charts** | Identifying trends over time (e.g., monthly revenue at **Bear Co.**) |
 | **Scatter plots** | Detecting outliers in large datasets |
 | **Heat maps** | Highlighting areas of concentration or risk |
 | **Histograms** | Showing the distribution of transaction amounts |
-| **Pie charts** | Illustrating proportional composition (e.g., revenue by segment at **Illini Entertainment**) |
+| **Pie charts** | Illustrating proportional composition (e.g., revenue by segment at **Honey Entertainment**) |
 
 :::tip
 
@@ -231,7 +231,7 @@ Key concepts:
 
 :::info[Example]
 
-**Kingfisher Industries** stores its accounting data in a relational database. The auditor writes a query joining the sales order table, shipping table, and invoice table to identify shipments that were never invoiced—a test of the completeness assertion for revenue.
+**Grizzly Industries** stores its accounting data in a relational database. The auditor writes a query joining the sales order table, shipping table, and invoice table to identify shipments that were never invoiced—a test of the completeness assertion for revenue.
 
 :::
 

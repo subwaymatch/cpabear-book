@@ -74,7 +74,7 @@ Professional judgment must be **exercised**, not just claimed. If an auditor mak
 | **Forming the opinion** | Concluding whether the financial statements are free from material misstatement |
 | **Evaluating estimates** | Determining whether management's accounting estimates are reasonable |
 
-**Example:** MAS Inc. has a complex warranty reserve that requires significant estimation. The engagement partner must exercise professional judgment in determining whether to rely on management's internal actuarial model, engage an auditor's specialist, or develop an independent estimate—considering factors such as the complexity of the model, the history of estimation accuracy, and the materiality of the balance.
+**Example:** Polar Inc. has a complex warranty reserve that requires significant estimation. The engagement partner must exercise professional judgment in determining whether to rely on management's internal actuarial model, engage an auditor's specialist, or develop an independent estimate—considering factors such as the complexity of the model, the history of estimation accuracy, and the materiality of the balance.
 
 ---
 
@@ -87,7 +87,7 @@ Even experienced auditors are susceptible to unconscious biases that can undermi
 | **Confirmation bias** | The tendency to seek, interpret, or favor information that confirms the auditor's pre-existing beliefs or expectations | An auditor who expects inventory to be fairly stated may unconsciously focus on evidence that supports this conclusion while downplaying red flags |
 | **Anchoring bias** | The tendency to rely too heavily on the first piece of information encountered (the "anchor") when making subsequent judgments | The auditor anchors on the prior year's allowance for doubtful accounts and does not sufficiently adjust for changed economic conditions |
 | **Availability bias** | The tendency to overweight information that is easily recalled or readily available, often because it is recent or vivid | After reading about a fraud in the healthcare industry, the auditor overestimates the likelihood of fraud in an unrelated manufacturing client |
-| **Overconfidence bias** | The tendency to overestimate one's own ability, knowledge, or the accuracy of one's judgments | A senior auditor who has audited Gies Co. for five years may become overconfident that they understand all of the entity's risks, leading them to perform fewer procedures than warranted |
+| **Overconfidence bias** | The tendency to overestimate one's own ability, knowledge, or the accuracy of one's judgments | A senior auditor who has audited Bear Co. for five years may become overconfident that they understand all of the entity's risks, leading them to perform fewer procedures than warranted |
 | **Automation bias** | The tendency to over-rely on automated systems, data analytics tools, or computer-generated outputs without applying sufficient critical evaluation | An auditor accepts the results of an automated three-way match without investigating exceptions flagged by the system |
 
 :::caution
@@ -116,11 +116,11 @@ Beyond unconscious biases, auditors face additional impediments that can comprom
 
 | Threat | Description | Example |
 |---|---|---|
-| **Self-interest threat** | Financial or other interests that could inappropriately influence the auditor's judgment | The audit firm has a significant fee dependence on Kingfisher Industries, making the team reluctant to raise contentious issues |
-| **Self-review threat** | The auditor reviews work they previously performed or helped prepare | A firm that assisted Illini Entertainment with implementing a new revenue recognition system is now asked to audit the results |
-| **Advocacy threat** | The auditor promotes a client's position to the point where objectivity is compromised | An auditor actively helps BIF Partners negotiate a regulatory matter and then audits the related disclosures |
-| **Familiarity threat** | A close or long-standing relationship with the client makes the auditor too sympathetic or trusting | An engagement partner who has audited Gies Co. for many years develops a close personal friendship with the CFO |
-| **Intimidation threat** | The auditor is deterred from acting objectively by actual or perceived threats from the client | Management of Illini Security threatens to replace the audit firm if the auditor insists on a particular adjustment |
+| **Self-interest threat** | Financial or other interests that could inappropriately influence the auditor's judgment | The audit firm has a significant fee dependence on Grizzly Industries, making the team reluctant to raise contentious issues |
+| **Self-review threat** | The auditor reviews work they previously performed or helped prepare | A firm that assisted Honey Entertainment with implementing a new revenue recognition system is now asked to audit the results |
+| **Advocacy threat** | The auditor promotes a client's position to the point where objectivity is compromised | An auditor actively helps Kodiak Partners negotiate a regulatory matter and then audits the related disclosures |
+| **Familiarity threat** | A close or long-standing relationship with the client makes the auditor too sympathetic or trusting | An engagement partner who has audited Bear Co. for many years develops a close personal friendship with the CFO |
+| **Intimidation threat** | The auditor is deterred from acting objectively by actual or perceived threats from the client | Management of Ursa Security threatens to replace the audit firm if the auditor insists on a particular adjustment |
 
 ### Incentive-Based Impediments
 
@@ -155,7 +155,7 @@ Professional skepticism and professional judgment are distinct but deeply interc
 
 ### The Interrelationship in Action
 
-1. **Skepticism identifies the issue.** A questioning mind alerts the auditor to something unusual—for example, an unexpected fluctuation in Illini Entertainment's deferred revenue balance.
+1. **Skepticism identifies the issue.** A questioning mind alerts the auditor to something unusual—for example, an unexpected fluctuation in Honey Entertainment's deferred revenue balance.
 2. **Judgment determines the response.** The auditor then applies professional judgment to decide how to investigate—perhaps by examining underlying contracts, testing a sample of transactions, or making inquiries of management.
 3. **Skepticism evaluates the response.** After performing procedures, the auditor critically assesses whether the evidence obtained is sufficient and whether management's explanations are reasonable.
 4. **Judgment forms the conclusion.** Finally, the auditor uses professional judgment to determine whether any misstatement exists and, if so, whether it is material.

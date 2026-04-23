@@ -43,7 +43,7 @@ Before relying on the work of internal auditors—whether performed independentl
 - Independence from the activities they audit — Do internal auditors audit areas for which they have previously had operational responsibility?
 - Policies and procedures supporting objectivity — Does the entity have policies promoting internal auditor independence?
 
-**Example:** Gies Co.'s internal audit department reports directly to the audit committee and is led by a Certified Internal Auditor (CIA) with fifteen years of experience. Internal auditors do not perform any operational duties. The external auditor evaluates these factors positively and determines that the internal audit function has both competence and objectivity sufficient to rely on their work.
+**Example:** Bear Co.'s internal audit department reports directly to the audit committee and is led by a Certified Internal Auditor (CIA) with fifteen years of experience. Internal auditors do not perform any operational duties. The external auditor evaluates these factors positively and determines that the internal audit function has both competence and objectivity sufficient to rely on their work.
 
 :::warning
 
@@ -91,7 +91,7 @@ Before relying on a specialist's work, the external auditor must evaluate:
 2. **Capabilities** — Can the specialist perform the work required for the specific engagement?
 3. **Objectivity** — Is the specialist free from bias or conflicts of interest with the entity?
 
-**Example:** BIF Partners is auditing Kingfisher Industries, which holds significant real estate investments. The engagement team lacks expertise in commercial real estate valuation, so BIF Partners engages an independent appraiser to determine the fair value of the properties. The auditor evaluates the appraiser's credentials (MAI designation), reviews their methodology, and considers whether the appraiser has any financial relationship with Kingfisher Industries that could impair objectivity.
+**Example:** Kodiak Partners is auditing Grizzly Industries, which holds significant real estate investments. The engagement team lacks expertise in commercial real estate valuation, so Kodiak Partners engages an independent appraiser to determine the fair value of the properties. The auditor evaluates the appraiser's credentials (MAI designation), reviews their methodology, and considers whether the appraiser has any financial relationship with Grizzly Industries that could impair objectivity.
 
 ### Management's Specialist vs. Auditor's Specialist
 
@@ -133,7 +133,7 @@ Before involving a component auditor, the group engagement partner must assess:
 - **Regulatory environment** — Does the component auditor operate in a jurisdiction with adequate professional oversight?
 - **Resources** — Does the component auditor have the capacity to perform the required work?
 
-**Example:** Illini Entertainment has a foreign subsidiary, MAS Inc., that operates in a different country. The group engagement partner determines that a component auditor in that jurisdiction should perform audit procedures on MAS Inc.'s financial information. The group engagement partner evaluates the component auditor's firm—reviewing their regulatory standing, independence, and experience with entertainment industry clients—before providing instructions on the scope of work and the group's materiality thresholds.
+**Example:** Honey Entertainment has a foreign subsidiary, Polar Inc., that operates in a different country. The group engagement partner determines that a component auditor in that jurisdiction should perform audit procedures on Polar Inc.'s financial information. The group engagement partner evaluates the component auditor's firm—reviewing their regulatory standing, independence, and experience with entertainment industry clients—before providing instructions on the scope of work and the group's materiality thresholds.
 
 :::warning
 
@@ -164,7 +164,7 @@ Unlike external specialists, IT auditors who are part of the engagement team or 
 - They must comply with the firm's **independence** and **quality management** requirements
 - The engagement partner is responsible for **directing and overseeing** their work
 
-**Example:** Illini Security processes millions of security monitoring transactions through an automated billing system. The engagement team includes an IT auditor from the firm who evaluates the general IT controls over the billing system—testing logical access controls, change management procedures, and automated calculations—to determine whether the engagement team can rely on system-generated reports as audit evidence.
+**Example:** Ursa Security processes millions of security monitoring transactions through an automated billing system. The engagement team includes an IT auditor from the firm who evaluates the general IT controls over the billing system—testing logical access controls, change management procedures, and automated calculations—to determine whether the engagement team can rely on system-generated reports as audit evidence.
 
 ---
 
@@ -188,7 +188,7 @@ A common exam trap: the fact that the auditor used a specialist, internal audito
 
 :::
 
-**Example:** BIF Partners engages a valuation specialist to assist with auditing the fair value of MSA Records' catalog of music rights. Even though the specialist performs the valuation analysis, BIF Partners remains solely responsible for the audit opinion on MSA Records' financial statements. If the valuation is materially wrong and the financial statements are misstated as a result, BIF Partners cannot shift blame to the specialist.
+**Example:** Kodiak Partners engages a valuation specialist to assist with auditing the fair value of Panda Records' catalog of music rights. Even though the specialist performs the valuation analysis, Kodiak Partners remains solely responsible for the audit opinion on Panda Records' financial statements. If the valuation is materially wrong and the financial statements are misstated as a result, Kodiak Partners cannot shift blame to the specialist.
 
 ---
 

@@ -73,7 +73,7 @@ When conducting a **financial audit** under GAGAS, the auditor must issue additi
 - Reports any instances of **noncompliance** identified
 - Also required even if no noncompliance is found
 
-**Example:** Gies Co. is a nonprofit that receives substantial state and federal funding. Its auditor conducts a GAGAS audit and issues three reports: (1) an opinion on the financial statements, (2) a report on internal control over financial reporting (identifying one significant deficiency in grant tracking), and (3) a report on compliance (noting no instances of noncompliance).
+**Example:** Bear Co. is a nonprofit that receives substantial state and federal funding. Its auditor conducts a GAGAS audit and issues three reports: (1) an opinion on the financial statements, (2) a report on internal control over financial reporting (identifying one significant deficiency in grant tracking), and (3) a report on compliance (noting no instances of noncompliance).
 
 :::caution
 
@@ -119,7 +119,7 @@ The auditor assesses whether each Type A program is **low risk** or **high risk*
 - **High-risk Type B programs** must be designated as major programs and tested
 - The auditor must test enough major programs to cover a specified **percentage of total federal expenditures** (at least 20% for low-risk auditees, 40% for high-risk auditees)
 
-**Example:** MAS Inc. expends \$5 million in federal awards across eight different programs. Three programs exceed the Type A threshold. The auditor assesses two of the three Type A programs as high risk and designates them as major programs. The auditor also identifies one Type B program with recent findings as high risk and includes it as a major program. Together, these three programs cover 45% of total federal expenditures.
+**Example:** Polar Inc. expends \$5 million in federal awards across eight different programs. Three programs exceed the Type A threshold. The auditor assesses two of the three Type A programs as high risk and designates them as major programs. The auditor also identifies one Type B program with recent findings as high risk and includes it as a major program. Together, these three programs cover 45% of total federal expenditures.
 
 :::tip[Exam Tip]
 
@@ -162,7 +162,7 @@ The single audit results in a comprehensive **reporting package** that the entit
 | **Corrective action plan** | Management's plan to address current-year findings |
 | **Data collection form** | Standard form summarizing the audit results for submission to the Federal Audit Clearinghouse |
 
-**Example:** Kingfisher Industries, a nonprofit that expended \$2.3 million in federal awards, submits its single audit reporting package. The package includes the audited financial statements, the SEFA, four auditor reports (financial statement opinion, GAGAS internal control and compliance, major program compliance, and internal control over compliance), the schedule of findings and questioned costs, and the corrective action plan.
+**Example:** Grizzly Industries, a nonprofit that expended \$2.3 million in federal awards, submits its single audit reporting package. The package includes the audited financial statements, the SEFA, four auditor reports (financial statement opinion, GAGAS internal control and compliance, major program compliance, and internal control over compliance), the schedule of findings and questioned costs, and the corrective action plan.
 
 :::warning
 

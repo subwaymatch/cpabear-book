@@ -85,7 +85,7 @@ When data is obtained through a query, report, or search function, the auditor m
 
 :::info[Example]
 
-The audit team at **Gies Co.** requests a listing of all journal entries posted during the year with amounts exceeding \$50,000. Management's IT department runs a query against the ERP system and provides the results. Before using this data for journal entry testing, the auditor reviews the query parameters and discovers that the query only captured entries posted to the "Operating" ledger, excluding entries posted to the "Adjusting" and "Closing" ledgers. The auditor requests a revised extract that includes all ledger types—a step that adds 23 journal entries totaling \$1.8 million that would have otherwise been excluded from testing.
+The audit team at **Bear Co.** requests a listing of all journal entries posted during the year with amounts exceeding \$50,000. Management's IT department runs a query against the ERP system and provides the results. Before using this data for journal entry testing, the auditor reviews the query parameters and discovers that the query only captured entries posted to the "Operating" ledger, excluding entries posted to the "Adjusting" and "Closing" ledgers. The auditor requests a revised extract that includes all ledger types—a step that adds 23 journal entries totaling \$1.8 million that would have otherwise been excluded from testing.
 
 :::
 
@@ -101,7 +101,7 @@ Reconciling extracted data to **control totals** from the source system is a fun
 
 :::info[Example]
 
-**MAS Inc.**'s auditor extracts all 14,832 payroll transactions for the year from the HR/payroll system. The auditor compares the sum of gross pay in the extract (\$28,441,206) to the total payroll expense per the general ledger (\$28,441,206). The record count also agrees. This reconciliation provides evidence that the extraction is complete and accurate—at least at the aggregate level.
+**Polar Inc.**'s auditor extracts all 14,832 payroll transactions for the year from the HR/payroll system. The auditor compares the sum of gross pay in the extract (\$28,441,206) to the total payroll expense per the general ledger (\$28,441,206). The record count also agrees. This reconciliation provides evidence that the extraction is complete and accurate—at least at the aggregate level.
 
 :::
 
@@ -118,7 +118,7 @@ Even when totals reconcile, the auditor performs additional procedures to test t
 
 :::caution
 
-Sequence gap analysis is particularly important for auditing revenue. If **Kingfisher Industries** uses pre-numbered invoices (Invoice #10001 through #10847), the auditor should verify that all 847 invoices appear in the extracted data. A gap—say, invoices #10512 through #10519 are missing—could indicate unrecorded sales, voided transactions that were not properly documented, or data extraction errors.
+Sequence gap analysis is particularly important for auditing revenue. If **Grizzly Industries** uses pre-numbered invoices (Invoice #10001 through #10847), the auditor should verify that all 847 invoices appear in the extracted data. A gap—say, invoices #10512 through #10519 are missing—could indicate unrecorded sales, voided transactions that were not properly documented, or data extraction errors.
 
 :::
 
@@ -148,7 +148,7 @@ The reliability of electronically generated data is directly linked to the **eff
 
 :::info[Example]
 
-**Illini Security** uses a proprietary billing system to generate monthly invoices. The auditor evaluates ITGCs over this system and finds that: (1) access to the billing module is restricted to authorized billing clerks, (2) all system changes go through a formal change management process with testing and approval, and (3) nightly batch processing logs are reviewed daily by the IT manager. These strong ITGCs increase the auditor's confidence in the reliability of billing data extracted from the system.
+**Ursa Security** uses a proprietary billing system to generate monthly invoices. The auditor evaluates ITGCs over this system and finds that: (1) access to the billing module is restricted to authorized billing clerks, (2) all system changes go through a formal change management process with testing and approval, and (3) nightly batch processing logs are reviewed daily by the IT manager. These strong ITGCs increase the auditor's confidence in the reliability of billing data extracted from the system.
 
 :::
 
@@ -176,7 +176,7 @@ Advances in technology—including artificial intelligence (AI), robotic process
 
 :::warning
 
-When **Illini Entertainment** uses an AI-powered tool to estimate its expected credit loss reserve, the auditor cannot simply accept the AI's output as reliable audit evidence. The auditor must understand the model's inputs (historical loss data, economic forecasts), evaluate the model's methodology (what machine learning algorithm is used, how was it trained), test the model's output against independent expectations, and consider whether management could have manipulated the model's parameters to achieve a desired result. AI-generated data requires the **same level of professional skepticism** as any other management-generated data—if not more.
+When **Honey Entertainment** uses an AI-powered tool to estimate its expected credit loss reserve, the auditor cannot simply accept the AI's output as reliable audit evidence. The auditor must understand the model's inputs (historical loss data, economic forecasts), evaluate the model's methodology (what machine learning algorithm is used, how was it trained), test the model's output against independent expectations, and consider whether management could have manipulated the model's parameters to achieve a desired result. AI-generated data requires the **same level of professional skepticism** as any other management-generated data—if not more.
 
 :::
 

@@ -29,9 +29,9 @@ This three-way distribution ensures no single individual can both handle cash an
 
 :::
 
-### Example: Revenue Cycle at Gies Co.
+### Example: Revenue Cycle at Bear Co.
 
-Gies Co. receives an order from a customer. The **sales order department** enters the order and routes it to **credit approval**, which checks the customer's credit history and limit. Once approved, the **shipping department** packages and ships the goods, generating a bill of lading. The **billing department** then matches the approved sales order with the shipping document and sends an invoice. When payment arrives, the **mail room** prepares a cash receipts listing and forwards it to the cashier, accounts receivable, and general accounting.
+Bear Co. receives an order from a customer. The **sales order department** enters the order and routes it to **credit approval**, which checks the customer's credit history and limit. Once approved, the **shipping department** packages and ships the goods, generating a bill of lading. The **billing department** then matches the approved sales order with the shipping document and sends an invoice. When payment arrives, the **mail room** prepares a cash receipts listing and forwards it to the cashier, accounts receivable, and general accounting.
 
 ## Credit Loss Write-Off Approval
 
@@ -41,7 +41,7 @@ Write-offs of uncollectible accounts should be approved by the **treasurer's dep
 
 :::
 
-For example, at MAS Inc., the accounts receivable clerk identifies a delinquent account. The clerk prepares a write-off memorandum, but only the **treasurer** has authority to approve the actual write-off. This control prevents the AR clerk from writing off an account and pocketing subsequent payments.
+For example, at Polar Inc., the accounts receivable clerk identifies a delinquent account. The clerk prepares a write-off memorandum, but only the **treasurer** has authority to approve the actual write-off. This control prevents the AR clerk from writing off an account and pocketing subsequent payments.
 
 ## Accounts Receivable Confirmations
 
@@ -61,12 +61,12 @@ Blank confirmations are considered the **most reliable** form because the custom
 
 :::
 
-### Example: Confirmations at BIF Partners
+### Example: Confirmations at Kodiak Partners
 
-The auditor of BIF Partners selects a sample of receivable balances for confirmation:
-- **Large balances** from Kingfisher Industries and Illini Entertainment receive **positive confirmations** because of the material amounts involved.
+The auditor of Kodiak Partners selects a sample of receivable balances for confirmation:
+- **Large balances** from Grizzly Industries and Honey Entertainment receive **positive confirmations** because of the material amounts involved.
 - A large pool of **small retail customer balances** receives **negative confirmations** because the individual amounts are immaterial, internal controls are strong, and the accounts are expected to be largely correct.
-- One disputed balance from MSA Records receives a **blank confirmation** to obtain the customer's independent calculation of the amount owed.
+- One disputed balance from Panda Records receives a **blank confirmation** to obtain the customer's independent calculation of the amount owed.
 
 ## Common Revenue Cycle Audit Procedures
 
@@ -92,7 +92,7 @@ The auditor examines transactions recorded near the **period end** to ensure rev
 - Comparing shipping dates to the dates sales were recorded
 - Reviewing credit memos issued after year-end
 
-For example, if Illini Security shipped goods on January 2 but recorded the sale on December 30, revenue would be overstated in the current period.
+For example, if Ursa Security shipped goods on January 2 but recorded the sale on December 30, revenue would be overstated in the current period.
 
 ### 4. Accounts Receivable Confirmations
 

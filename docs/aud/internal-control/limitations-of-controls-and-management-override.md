@@ -54,7 +54,7 @@ When inherent limitations exist, the auditor must consider:
 3. **The likelihood that the limitation could result** in a material misstatement
 4. **Whether the limitation creates an opportunity** for fraud
 
-**Example:** Gies Co. relies heavily on management estimates for its warranty liability. The CFO has sole responsibility for determining the estimate methodology, selecting assumptions, and approving the final figure. No independent review or governance oversight exists over this process. The auditor at BIF Partners recognizes that this creates a heightened risk at the assertion level—specifically the **valuation assertion** for the warranty liability—because the lack of oversight creates an opportunity for management to manipulate the estimate.
+**Example:** Bear Co. relies heavily on management estimates for its warranty liability. The CFO has sole responsibility for determining the estimate methodology, selecting assumptions, and approving the final figure. No independent review or governance oversight exists over this process. The auditor at Kodiak Partners recognizes that this creates a heightened risk at the assertion level—specifically the **valuation assertion** for the warranty liability—because the lack of oversight creates an opportunity for management to manipulate the estimate.
 
 :::warning
 
@@ -79,7 +79,7 @@ Auditing standards require auditors to presume a risk of material misstatement d
 | **Historical precedent** | Major financial frauds—including those that led to the Sarbanes-Oxley Act—have consistently involved management override |
 | **Cannot be mitigated by controls alone** | Because management is above the control system, no combination of internal controls can fully prevent override |
 
-**Example:** The CEO of Illini Entertainment instructs the controller to record a fictitious revenue entry at year-end to meet analyst expectations. The controller complies despite knowing the entry has no supporting documentation. The company's internal controls over revenue recognition—including approval requirements and supporting documentation policies—are operating effectively for all other transactions, but management's authority allows them to bypass these controls for this specific entry.
+**Example:** The CEO of Honey Entertainment instructs the controller to record a fictitious revenue entry at year-end to meet analyst expectations. The controller complies despite knowing the entry has no supporting documentation. The company's internal controls over revenue recognition—including approval requirements and supporting documentation policies—are operating effectively for all other transactions, but management's authority allows them to bypass these controls for this specific entry.
 
 :::caution
 
@@ -102,7 +102,7 @@ Management may record **fictitious or inappropriate journal entries**, particula
 - Eliminate or reduce liabilities to improve the balance sheet
 - Be recorded outside the normal course of business with no clear business rationale
 
-**Example:** At the direction of the CFO, the accounting staff at Kingfisher Industries records a $2.4 million journal entry on December 31 debiting accounts receivable and crediting revenue. The entry has no supporting invoice, customer order, or shipping documentation. It was made solely to ensure the company met its annual revenue target.
+**Example:** At the direction of the CFO, the accounting staff at Grizzly Industries records a $2.4 million journal entry on December 31 debiting accounts receivable and crediting revenue. The entry has no supporting invoice, customer order, or shipping documentation. It was made solely to ensure the company met its annual revenue target.
 
 ### 2. Bias in Management Estimates
 
@@ -117,7 +117,7 @@ Management has significant discretion in developing accounting estimates, and th
 | **Revenue recognition timing** | Making aggressive judgments about performance obligation satisfaction |
 | **Inventory obsolescence** | Failing to write down slow-moving or obsolete inventory |
 
-**Example:** MAS Inc. has a significant portfolio of long-lived assets. Over the past three years, the controller has consistently selected useful lives at the upper end of the acceptable range and chosen the straight-line method over accelerated methods, resulting in lower annual depreciation expense. While each individual estimate falls within an acceptable range, the **pattern of consistently favorable estimates** suggests potential management bias.
+**Example:** Polar Inc. has a significant portfolio of long-lived assets. Over the past three years, the controller has consistently selected useful lives at the upper end of the acceptable range and chosen the straight-line method over accelerated methods, resulting in lower annual depreciation expense. While each individual estimate falls within an acceptable range, the **pattern of consistently favorable estimates** suggests potential management bias.
 
 ### 3. Significant Unusual Transactions
 
@@ -127,7 +127,7 @@ Management may structure or enter into **significant unusual transactions** that
 - Create complex structures that obscure the economic substance
 - Engage related parties in transactions that benefit management rather than the entity
 
-**Example:** In December, Illini Security enters into a sale-leaseback arrangement with an entity controlled by the CEO's brother-in-law. The transaction involves the sale of the company's headquarters building at a price significantly above market value, resulting in a large gain that offsets operating losses for the year. The transaction has no apparent business rationale other than to improve reported earnings.
+**Example:** In December, Ursa Security enters into a sale-leaseback arrangement with an entity controlled by the CEO's brother-in-law. The transaction involves the sale of the company's headquarters building at a price significantly above market value, resulting in a large gain that offsets operating losses for the year. The transaction has no apparent business rationale other than to improve reported earnings.
 
 :::info
 
@@ -150,7 +150,7 @@ Because management override is a **presumed fraud risk**, auditing standards man
 | **Focus on** | Entries with unusual characteristics—those made to infrequently used accounts, recorded by individuals who typically do not make entries, or entries with no apparent business rationale |
 | **Determine timing** | Testing should include journal entries and adjustments made throughout the period, with particular attention to entries recorded at or near year-end |
 
-**Example:** BIF Partners is auditing Gies Co. and obtains a complete population of all journal entries recorded during the year. The audit team uses data analytics to identify entries with unusual characteristics: entries made on weekends, entries made by the CFO directly (bypassing the normal entry process), entries to revenue accounts that were made in the last week of December, and round-dollar entries above $100,000. The team selects a sample of these entries for detailed testing, tracing each to supporting documentation.
+**Example:** Kodiak Partners is auditing Bear Co. and obtains a complete population of all journal entries recorded during the year. The audit team uses data analytics to identify entries with unusual characteristics: entries made on weekends, entries made by the CFO directly (bypassing the normal entry process), entries to revenue accounts that were made in the last week of December, and round-dollar entries above $100,000. The team selects a sample of these entries for detailed testing, tracing each to supporting documentation.
 
 :::tip[Exam Tip]
 
@@ -167,7 +167,7 @@ When testing journal entries, auditors should apply an element of **unpredictabi
 | **Consider the direction** | Determine whether differences between estimates and actual results consistently favor higher earnings or improved financial position |
 | **Develop independent estimate** | When appropriate, develop an independent expectation of the estimate to compare against management's figure |
 
-**Example:** While auditing Kingfisher Industries, the audit team performs a retrospective review of the warranty reserve estimate. Over the past four years, the actual warranty costs have exceeded management's estimates by an average of 18%. The pattern is consistent—management has underestimated warranty costs every year—suggesting a **systematic bias** toward understating the reserve and overstating income. The team increases its assessed risk for the valuation of the warranty liability and performs additional substantive procedures.
+**Example:** While auditing Grizzly Industries, the audit team performs a retrospective review of the warranty reserve estimate. Over the past four years, the actual warranty costs have exceeded management's estimates by an average of 18%. The pattern is consistent—management has underestimated warranty costs every year—suggesting a **systematic bias** toward understating the reserve and overstating income. The team increases its assessed risk for the valuation of the warranty liability and performs additional substantive procedures.
 
 ### Procedure 3: Evaluating Business Rationale for Significant Unusual Transactions
 
@@ -178,7 +178,7 @@ When testing journal entries, auditors should apply an element of **unpredictabi
 | **Consider** | Whether the terms of the transaction are consistent with arm's-length dealings |
 | **Examine** | Whether the transaction involves related parties or entities with limited substance |
 
-**Example:** During the audit of Illini Entertainment, the auditor discovers a $5 million consulting agreement executed in the last month of the fiscal year with a newly formed entity. The entity has no employees and shares an address with the company's chief operating officer. The auditor evaluates the business rationale, determines the transaction lacks economic substance, and concludes it was likely structured to inflate revenue. This finding is communicated to those charged with governance.
+**Example:** During the audit of Honey Entertainment, the auditor discovers a $5 million consulting agreement executed in the last month of the fiscal year with a newly formed entity. The entity has no employees and shares an address with the company's chief operating officer. The auditor evaluates the business rationale, determines the transaction lacks economic substance, and concludes it was likely structured to inflate revenue. This finding is communicated to those charged with governance.
 
 :::warning
 
@@ -217,7 +217,7 @@ The inherent limitations of internal control—and management override in partic
 | **Broader scope** | The auditor may expand the scope of journal entry testing to include more accounts, locations, or reporting periods |
 | **Additional procedures** | The auditor may perform procedures beyond the three mandatory procedures—such as interviewing personnel involved in the financial reporting process about unusual activity |
 
-**Example:** Bear Co. recently replaced its CEO and CFO, and the new management team is under significant pressure from the board to meet aggressive growth targets. The auditor at BIF Partners determines that management override risk is **elevated** beyond the baseline presumption. In response, the audit team increases the sample of journal entries tested from 25 to 60, performs all substantive procedures at year-end rather than at interim, obtains third-party confirmations for a larger number of accounts receivable balances, and develops independent estimates for all significant management estimates rather than only the highest-risk estimates.
+**Example:** Bear Co. recently replaced its CEO and CFO, and the new management team is under significant pressure from the board to meet aggressive growth targets. The auditor at Kodiak Partners determines that management override risk is **elevated** beyond the baseline presumption. In response, the audit team increases the sample of journal entries tested from 25 to 60, performs all substantive procedures at year-end rather than at interim, obtains third-party confirmations for a larger number of accounts receivable balances, and develops independent estimates for all significant management estimates rather than only the highest-risk estimates.
 
 :::note
 
@@ -240,7 +240,7 @@ The auditor must **document** the assessment of management override risk and the
 | **Unusual transactions** | The significant unusual transactions identified, the business rationale evaluated, and the auditor's conclusions |
 | **Overall conclusions** | The auditor's overall assessment of whether the financial statements are materially misstated due to management override |
 
-**Example:** The audit workpapers for the Gies Co. engagement include a memorandum documenting the presumed risk of management override, a data analytics report showing the criteria used to identify unusual journal entries, a schedule comparing prior-year estimates to actual results for the five largest accounting estimates, and a summary of three significant unusual transactions identified during the audit along with the auditor's evaluation of each.
+**Example:** The audit workpapers for the Bear Co. engagement include a memorandum documenting the presumed risk of management override, a data analytics report showing the criteria used to identify unusual journal entries, a schedule comparing prior-year estimates to actual results for the five largest accounting estimates, and a summary of three significant unusual transactions identified during the audit along with the auditor's evaluation of each.
 
 ---
 

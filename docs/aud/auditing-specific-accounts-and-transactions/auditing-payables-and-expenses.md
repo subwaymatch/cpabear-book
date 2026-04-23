@@ -19,9 +19,9 @@ Proper segregation requires that the person who **authorizes** purchases (purcha
 
 :::
 
-### Example: Purchase Transaction at Kingfisher Industries
+### Example: Purchase Transaction at Grizzly Industries
 
-1. A department manager at Kingfisher Industries submits a **purchase requisition** for raw materials.
+1. A department manager at Grizzly Industries submits a **purchase requisition** for raw materials.
 2. The **purchasing department** reviews the requisition, selects a vendor, and issues a **purchase order**.
 3. When goods arrive, the **receiving department** counts and inspects them, preparing a **receiving report**.
 4. The **accounts payable department** performs a three-way match and records the liability.
@@ -41,9 +41,9 @@ The three-way match is a critical **internal control** over the expenditure cycl
 
 :::
 
-### Example: Three-Way Match at Gies Co.
+### Example: Three-Way Match at Bear Co.
 
-Gies Co. orders 500 units from a supplier at \$10 each. The receiving report shows 480 units received. The vendor invoice bills for 500 units at \$10 each. The accounts payable clerk identifies the 20-unit discrepancy and contacts the vendor before approving payment—only paying for 480 units actually received.
+Bear Co. orders 500 units from a supplier at \$10 each. The receiving report shows 480 units received. The vendor invoice bills for 500 units at \$10 each. The accounts payable clerk identifies the 20-unit discrepancy and contacts the vendor before approving payment—only paying for 480 units actually received.
 
 ## Accounts Payable Confirmations
 
@@ -62,9 +62,9 @@ This is because the primary risk for payables is that liabilities are **understa
 
 :::
 
-### Example: AP Confirmations at MAS Inc.
+### Example: AP Confirmations at Polar Inc.
 
-The auditor of MAS Inc. identifies vendors the company regularly does business with but that show unusually low or zero balances at year-end. The auditor sends confirmations to these vendors asking them to report the amount MAS Inc. owes. If a vendor reports a balance that MAS Inc. has not recorded, the auditor has identified an **unrecorded liability**.
+The auditor of Polar Inc. identifies vendors the company regularly does business with but that show unusually low or zero balances at year-end. The auditor sends confirmations to these vendors asking them to report the amount Polar Inc. owes. If a vendor reports a balance that Polar Inc. has not recorded, the auditor has identified an **unrecorded liability**.
 
 ## Search for Unrecorded Accounts Payable
 
@@ -84,9 +84,9 @@ The search for unrecorded payables starts with documentation **outside the accou
 
 :::
 
-### Example: Search at BIF Partners
+### Example: Search at Kodiak Partners
 
-While auditing BIF Partners, the auditor reviews January disbursements and finds a \$150,000 payment to Illini Security for consulting services performed in December. The auditor traces this payment back to the invoice and confirms the services were rendered before year-end. Since BIF Partners had not accrued this amount, the auditor proposes an adjusting entry to record the unrecorded liability.
+While auditing Kodiak Partners, the auditor reviews January disbursements and finds a \$150,000 payment to Ursa Security for consulting services performed in December. The auditor traces this payment back to the invoice and confirms the services were rendered before year-end. Since Kodiak Partners had not accrued this amount, the auditor proposes an adjusting entry to record the unrecorded liability.
 
 ## Common Expenditure Cycle Audit Procedures
 
@@ -106,9 +106,9 @@ The auditor examines the **last receiving reports** issued before year-end and t
 - Goods received before year-end are recorded as purchases and payables in the current period
 - Goods received after year-end are recorded in the subsequent period
 
-### Example: Cutoff Testing at Illini Entertainment
+### Example: Cutoff Testing at Honey Entertainment
 
-Illini Entertainment's last receiving report before December 31 is #4872, and the first receiving report after year-end is #4873. The auditor verifies that all purchases through receiving report #4872 are recorded in the current year and that receiving report #4873 and subsequent reports are recorded in the following year.
+Honey Entertainment's last receiving report before December 31 is #4872, and the first receiving report after year-end is #4873. The auditor verifies that all purchases through receiving report #4872 are recorded in the current year and that receiving report #4873 and subsequent reports are recorded in the following year.
 
 :::danger[Common Exam Trap]
 

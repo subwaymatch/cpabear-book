@@ -38,7 +38,7 @@ The SEC's independence framework is codified primarily in **Regulation S-X, Rule
 | **Cooling-off period** | One year before a former practitioner's association with a client impairs independence | **One year** before a former engagement team member can accept certain positions at an issuer client (see below) |
 | **Contingent fees** | Prohibited for attest clients | Prohibited for audit clients and certain related entities |
 
-**Example:** Gies Co. is a publicly traded company. Its audit firm wants to provide internal audit outsourcing services to Gies Co. Under AICPA rules, this might be permissible with appropriate safeguards. Under SEC/PCAOB rules, internal audit outsourcing for an issuer audit client is **prohibited** — no amount of safeguards can remedy the impairment.
+**Example:** Bear Co. is a publicly traded company. Its audit firm wants to provide internal audit outsourcing services to Bear Co. Under AICPA rules, this might be permissible with appropriate safeguards. Under SEC/PCAOB rules, internal audit outsourcing for an issuer audit client is **prohibited** — no amount of safeguards can remedy the impairment.
 
 ---
 
@@ -81,7 +81,7 @@ Under SOX and SEC rules, **all audit and non-audit services** provided by the au
 - There is a **de minimis exception**: non-audit services that do not exceed **5% of total fees** paid to the auditor may be approved retroactively, provided they were not recognized as non-audit services at the time and are brought to the committee's attention promptly
 - The audit committee **cannot delegate** pre-approval authority to management
 
-**Example:** Kingfisher Industries' audit committee reviews and pre-approves a list of permitted tax services and their estimated fees at the beginning of each year. When the audit firm proposes providing a new advisory service mid-year, the firm must return to the audit committee for specific approval before beginning the work.
+**Example:** Grizzly Industries' audit committee reviews and pre-approves a list of permitted tax services and their estimated fees at the beginning of each year. When the audit firm proposes providing a new advisory service mid-year, the firm must return to the audit committee for specific approval before beginning the work.
 
 ---
 
@@ -118,7 +118,7 @@ When a member of the **audit engagement team** leaves the audit firm and joins a
 - The individual must not have been a member of the engagement team during the **one-year period preceding the date that audit procedures began** for the fiscal year that includes the date of the individual's employment
 - **Financial reporting oversight role** includes positions such as CEO, CFO, controller, chief accounting officer, and any other position that exercises influence over the financial statements
 
-**Example:** A senior manager at the firm that audits MAS Inc. accepts a position as MAS Inc.'s controller. For the firm to remain independent, the individual must not have served on the MAS Inc. engagement team during the one-year period before the start of the audit for the fiscal year in which the individual joins MAS Inc. If the manager worked on the MAS Inc. audit within the prior year, the firm's independence is impaired.
+**Example:** A senior manager at the firm that audits Polar Inc. accepts a position as Polar Inc.'s controller. For the firm to remain independent, the individual must not have served on the Polar Inc. engagement team during the one-year period before the start of the audit for the fiscal year in which the individual joins Polar Inc. If the manager worked on the Polar Inc. audit within the prior year, the firm's independence is impaired.
 
 :::warning
 
@@ -143,7 +143,7 @@ While tax services are not categorically banned for issuer audit clients, the PC
 - Routine **tax compliance** (preparing tax returns) — permitted with audit committee pre-approval
 - **Tax planning and advice** on established positions — permitted with audit committee pre-approval, provided the firm does not act as an advocate
 
-**Example:** BIF Partners (a public company) asks its audit firm to prepare its corporate tax return. This is permitted as long as the audit committee pre-approves the service. However, if the audit firm were to design and market an aggressive tax shelter strategy to BIF Partners, that service would be prohibited.
+**Example:** Kodiak Partners (a public company) asks its audit firm to prepare its corporate tax return. This is permitted as long as the audit committee pre-approves the service. However, if the audit firm were to design and market an aggressive tax shelter strategy to Kodiak Partners, that service would be prohibited.
 
 ---
 

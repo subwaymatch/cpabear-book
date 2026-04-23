@@ -20,7 +20,7 @@ The auditor's responsibility regarding going concern differs between nonissuers 
 
 The auditor is **not required to design procedures solely** to detect going concern issues. Rather, going concern considerations arise from evidence obtained during the normal course of the audit—such as recurring losses, negative cash flows, or debt covenant violations.
 
-**Example:** While performing the audit of MAS Inc., the engagement team notices that the company has reported net losses for three consecutive years, has negative working capital, and is in technical default on its bank loan. These conditions trigger the auditor's going concern evaluation procedures.
+**Example:** While performing the audit of Polar Inc., the engagement team notices that the company has reported net losses for three consecutive years, has negative working capital, and is in technical default on its bank loan. These conditions trigger the auditor's going concern evaluation procedures.
 
 ---
 
@@ -68,7 +68,7 @@ When the auditor identifies conditions that raise substantial doubt, the next st
 
 The auditor must assess whether management's plans are **feasible** and whether they are **likely to be effectively implemented** within the relevant timeframe. Vague or speculative plans do not alleviate substantial doubt.
 
-**Example:** Kingfisher Industries is facing a going concern issue due to negative cash flows and a maturing line of credit. Management's plan is to "explore strategic alternatives." The auditor concludes that this plan is too vague to mitigate the substantial doubt because no specific actions have been identified, no agreements exist, and the timeline is unclear.
+**Example:** Grizzly Industries is facing a going concern issue due to negative cash flows and a maturing line of credit. Management's plan is to "explore strategic alternatives." The auditor concludes that this plan is too vague to mitigate the substantial doubt because no specific actions have been identified, no agreements exist, and the timeline is unclear.
 
 ---
 
@@ -121,7 +121,7 @@ The going concern emphasis-of-matter (or explanatory) paragraph should:
 - Include the terms **"substantial doubt"** and **"going concern"**
 - **Not** use conditional language (e.g., avoid "if the company cannot obtain financing")
 
-**Example language (paraphrased):** "The accompanying financial statements have been prepared assuming that Illini Security will continue as a going concern. As discussed in Note 12 to the financial statements, the Company has suffered recurring losses from operations and has a net capital deficiency that raise substantial doubt about its ability to continue as a going concern. The financial statements do not include any adjustments that might result from the outcome of this uncertainty."
+**Example language (paraphrased):** "The accompanying financial statements have been prepared assuming that Ursa Security will continue as a going concern. As discussed in Note 12 to the financial statements, the Company has suffered recurring losses from operations and has a net capital deficiency that raise substantial doubt about its ability to continue as a going concern. The financial statements do not include any adjustments that might result from the outcome of this uncertainty."
 
 :::tip[Exam Tip]
 

@@ -32,7 +32,7 @@ A **change in accounting principle** occurs when an entity adopts a different ge
 
 | Type | Description | Example |
 |------|-------------|---------|
-| **Voluntary change** | Management elects to change from one acceptable method to another | Gies Co. switches from FIFO to weighted-average for inventory valuation |
+| **Voluntary change** | Management elects to change from one acceptable method to another | Bear Co. switches from FIFO to weighted-average for inventory valuation |
 | **Mandatory change** | A new accounting standard requires adoption of a different method | Bear Co. adopts ASC 842 (Leases), changing from operating lease treatment to right-of-use asset recognition |
 
 Key considerations:
@@ -42,7 +42,7 @@ Key considerations:
 - The change is typically applied **retrospectively** with restatement of prior-period financial statements, unless the new standard specifies otherwise
 - If applied retrospectively, the auditor includes an emphasis-of-matter paragraph referencing the change
 
-**Example:** Kingfisher Industries changes its depreciation method from double-declining balance to straight-line for all machinery and equipment, effective January 1, 2025. The auditor evaluates whether the new method is preferable and, once satisfied, adds an emphasis-of-matter paragraph to the report describing the change.
+**Example:** Grizzly Industries changes its depreciation method from double-declining balance to straight-line for all machinery and equipment, effective January 1, 2025. The auditor evaluates whether the new method is preferable and, once satisfied, adds an emphasis-of-matter paragraph to the report describing the change.
 
 :::tip
 
@@ -57,7 +57,7 @@ When an entity corrects a material misstatement in previously issued financial s
 - An emphasis-of-matter paragraph in the auditor's current report
 - Reference to the entity's disclosure note describing the nature of the correction
 
-**Example:** MAS Inc. discovers that it failed to record a $2 million liability in its 2024 financial statements. In 2025, MAS Inc. restates its 2024 financial statements. The auditor's 2025 report includes an emphasis-of-matter paragraph referencing the restatement of the 2024 financial statements.
+**Example:** Polar Inc. discovers that it failed to record a $2 million liability in its 2024 financial statements. In 2025, Polar Inc. restates its 2024 financial statements. The auditor's 2025 report includes an emphasis-of-matter paragraph referencing the restatement of the 2024 financial statements.
 
 ### Material Change in Classification
 
@@ -84,7 +84,7 @@ The emphasis-of-matter paragraph does **not** change the opinion. The auditor ca
 
 **Example language:**
 
-> *As discussed in Note 4 to the financial statements, Illini Entertainment changed its method of accounting for revenue contracts in 2025 due to the adoption of [new standard]. Our opinion is not modified with respect to this matter.*
+> *As discussed in Note 4 to the financial statements, Honey Entertainment changed its method of accounting for revenue contracts in 2025 due to the adoption of [new standard]. Our opinion is not modified with respect to this matter.*
 
 ### Updating Opinions on Prior-Period Financial Statements
 
@@ -114,7 +114,7 @@ A restatement occurs when management corrects a material misstatement in previou
 | Same auditor for both periods | Express an updated opinion on the restated prior-period financial statements; include an emphasis-of-matter paragraph |
 | Different auditor for the prior period | The current auditor is not required to express an opinion on the restated prior-period financial statements but should consider the restatement in evaluating opening balances |
 
-**Example:** BIF Partners restates its 2024 financial statements to correct a material revenue recognition error. The same audit firm audited both 2024 and 2025. In the 2025 comparative report, the auditor includes an emphasis-of-matter paragraph referencing the restatement and updates the opinion on the 2024 financial statements.
+**Example:** Kodiak Partners restates its 2024 financial statements to correct a material revenue recognition error. The same audit firm audited both 2024 and 2025. In the 2025 comparative report, the auditor includes an emphasis-of-matter paragraph referencing the restatement and updates the opinion on the 2024 financial statements.
 
 ---
 
@@ -161,9 +161,9 @@ When the predecessor auditor's report is not reissued, the current auditor's oth
 - The **date** of the predecessor's report
 - If the predecessor's opinion was modified, the **reasons** for the modification
 
-**Example:** Illini Security engages a new audit firm for its 2025 financial statements. The prior auditor (who audited 2024) declines to reissue their report. The new auditor's report includes an other-matter paragraph:
+**Example:** Ursa Security engages a new audit firm for its 2025 financial statements. The prior auditor (who audited 2024) declines to reissue their report. The new auditor's report includes an other-matter paragraph:
 
-> *The financial statements of Illini Security for the year ended December 31, 2024, were audited by another auditor, whose report dated March 15, 2025, expressed an unmodified opinion on those statements.*
+> *The financial statements of Ursa Security for the year ended December 31, 2024, were audited by another auditor, whose report dated March 15, 2025, expressed an unmodified opinion on those statements.*
 
 ---
 

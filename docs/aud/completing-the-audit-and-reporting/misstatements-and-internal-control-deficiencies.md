@@ -15,8 +15,8 @@ There are three categories of misstatements:
 | Type | Description | Example |
 |------|-------------|---------|
 | **Factual misstatements** | Misstatements about which there is no doubt — the item is clearly wrong | Bear Co. recorded a $50,000 invoice twice, creating a definite overstatement of expenses |
-| **Judgmental misstatements** | Differences arising from management's judgments concerning accounting estimates that the auditor considers unreasonable, or the selection or application of accounting policies that the auditor considers inappropriate | Gies Co. estimates its warranty liability at $200,000, but the auditor believes $350,000 is more appropriate based on historical claim data |
-| **Projected misstatements** | The auditor's best estimate of misstatements in populations, based on projecting misstatements identified in audit samples to the entire population | The auditor finds $8,000 in errors in a sample of MAS Inc.'s accounts receivable and projects the total misstatement across the entire receivable balance to be $120,000 |
+| **Judgmental misstatements** | Differences arising from management's judgments concerning accounting estimates that the auditor considers unreasonable, or the selection or application of accounting policies that the auditor considers inappropriate | Bear Co. estimates its warranty liability at $200,000, but the auditor believes $350,000 is more appropriate based on historical claim data |
+| **Projected misstatements** | The auditor's best estimate of misstatements in populations, based on projecting misstatements identified in audit samples to the entire population | The auditor finds $8,000 in errors in a sample of Polar Inc.'s accounts receivable and projects the total misstatement across the entire receivable balance to be $120,000 |
 
 :::info
 
@@ -41,7 +41,7 @@ Even though corrected misstatements no longer affect the financial statements, t
 2. If many adjustments are needed, it may signal broader issues with the entity's accounting processes
 3. The nature and volume of corrections can influence the auditor's **risk assessment** for future periods
 
-**Example:** During the audit of Kingfisher Industries, the auditor identifies 14 misstatements totaling $380,000 in the revenue cycle. Management corrects all 14. Although the corrected financial statements are now fairly stated, the volume of errors suggests a significant deficiency in controls over revenue recording.
+**Example:** During the audit of Grizzly Industries, the auditor identifies 14 misstatements totaling $380,000 in the revenue cycle. Management corrects all 14. Although the corrected financial statements are now fairly stated, the volume of errors suggests a significant deficiency in controls over revenue recording.
 
 ---
 
@@ -70,7 +70,7 @@ Quantitative analysis focuses on the **dollar amount** of uncorrected misstateme
 - Performance materiality
 - Materiality levels for specific accounts, classes of transactions, or disclosures (if applicable)
 
-**Example:** The auditor sets materiality for Illini Entertainment at $500,000. Three uncorrected misstatements are identified: $120,000 (inventory overstatement), $95,000 (understated accrued liabilities), and $180,000 (misclassified revenue). Individually, none exceed materiality. In the aggregate, the net effect is $395,000, which is below materiality — but the auditor must still consider qualitative factors.
+**Example:** The auditor sets materiality for Honey Entertainment at $500,000. Three uncorrected misstatements are identified: $120,000 (inventory overstatement), $95,000 (understated accrued liabilities), and $180,000 (misclassified revenue). Individually, none exceed materiality. In the aggregate, the net effect is $395,000, which is below materiality — but the auditor must still consider qualitative factors.
 
 ### Qualitative Considerations
 
@@ -103,7 +103,7 @@ Tolerable misstatement (also called **performance materiality** in certain conte
 - Reduce the probability that the aggregate of uncorrected and undetected misstatements exceeds materiality
 - Guide the auditor in determining the nature, timing, and extent of audit procedures for individual accounts
 
-**Example:** If overall materiality for BIF Partners is $1,000,000, the auditor might set tolerable misstatement at $750,000 (75% of materiality) to provide a cushion for undetected misstatements.
+**Example:** If overall materiality for Kodiak Partners is $1,000,000, the auditor might set tolerable misstatement at $750,000 (75% of materiality) to provide a cushion for undetected misstatements.
 
 ### Clearly Trivial Threshold
 
@@ -150,9 +150,9 @@ The auditor evaluates the severity of a deficiency by considering:
 | **Low Likelihood** | Deficiency | Significant deficiency |
 | **High Likelihood** | Significant deficiency | Material weakness |
 
-**Example:** Illini Security has no segregation of duties in its cash disbursements process — the same employee authorizes, records, and reconciles payments. The magnitude of potential misstatement is high (the entire cash disbursements balance), and the likelihood is high (there is no compensating control). This represents a **material weakness**.
+**Example:** Ursa Security has no segregation of duties in its cash disbursements process — the same employee authorizes, records, and reconciles payments. The magnitude of potential misstatement is high (the entire cash disbursements balance), and the likelihood is high (there is no compensating control). This represents a **material weakness**.
 
-**Example:** MAS Inc. occasionally fails to obtain a second signature on purchase orders over $10,000, though a supervisor reviews the monthly purchasing report. The magnitude is moderate and the likelihood is low due to the compensating control. This is likely a **deficiency** or possibly a **significant deficiency**.
+**Example:** Polar Inc. occasionally fails to obtain a second signature on purchase orders over $10,000, though a supervisor reviews the monthly purchasing report. The magnitude is moderate and the likelihood is low due to the compensating control. This is likely a **deficiency** or possibly a **significant deficiency**.
 
 ---
 
@@ -172,7 +172,7 @@ If a material weakness exists in an integrated audit (under PCAOB standards), th
 
 :::
 
-**Example:** During the audit of Gies Co., the auditor discovers that the company has no review process for journal entries posted by the controller. This material weakness in the journal entry approval process leads the auditor to:
+**Example:** During the audit of Bear Co., the auditor discovers that the company has no review process for journal entries posted by the controller. This material weakness in the journal entry approval process leads the auditor to:
 
 1. Expand testing of non-standard journal entries
 2. Test journal entries throughout the year rather than only at year-end
@@ -232,7 +232,7 @@ The following steps summarize the auditor's evaluation process near the end of t
 7. **Communicate** significant deficiencies and material weaknesses in writing to governance and management
 8. **Determine the effect** on the auditor's opinion — if uncorrected misstatements are material (individually or in aggregate), and management refuses to correct them, the auditor must modify the opinion
 
-**Example:** The auditor of BIF Partners identifies $180,000 in uncorrected misstatements against an overall materiality of $200,000. Management declines to make corrections. The auditor considers the qualitative factors and concludes the misstatements are material in the aggregate. Because management refuses to correct, the auditor issues a **qualified opinion** (assuming the misstatements are material but not pervasive).
+**Example:** The auditor of Kodiak Partners identifies $180,000 in uncorrected misstatements against an overall materiality of $200,000. Management declines to make corrections. The auditor considers the qualitative factors and concludes the misstatements are material in the aggregate. Because management refuses to correct, the auditor issues a **qualified opinion** (assuming the misstatements are material but not pervasive).
 
 ---
 

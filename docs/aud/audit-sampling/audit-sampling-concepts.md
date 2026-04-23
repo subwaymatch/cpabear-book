@@ -96,7 +96,7 @@ $$
 
 :::info[Example]
 
-If the auditor wants only a 5% risk of incorrect acceptance when testing **Gies Co.'s** accounts receivable, they need a 95% confidence level. This will result in a larger sample size compared to accepting a 10% risk.
+If the auditor wants only a 5% risk of incorrect acceptance when testing **Bear Co.'s** accounts receivable, they need a 95% confidence level. This will result in a larger sample size compared to accepting a 10% risk.
 
 :::
 
@@ -116,7 +116,7 @@ Attribute sampling is used primarily for **tests of controls**. It estimates the
 
 :::info[Example]
 
-The auditor tests **MAS Inc.'s** control requiring supervisory approval on all purchase orders over \$5,000. From a population of 500 such purchase orders, the auditor selects a sample of 60. If 3 items lack the required approval, the sample deviation rate is 3/60 = 5%.
+The auditor tests **Polar Inc.'s** control requiring supervisory approval on all purchase orders over \$5,000. From a population of 500 such purchase orders, the auditor selects a sample of 60. If 3 items lack the required approval, the sample deviation rate is 3/60 = 5%.
 
 :::
 
@@ -155,7 +155,7 @@ After evaluating the sample, the auditor calculates (or looks up) the **upper de
 
 :::info[Example]
 
-The auditor sets a tolerable deviation rate of 7% for **BIF Partners'** cash disbursement approval control. After testing a sample, the calculated upper deviation rate is 5.2%. Since 5.2% ≤ 7%, the auditor concludes the control is operating effectively and can be relied upon.
+The auditor sets a tolerable deviation rate of 7% for **Kodiak Partners'** cash disbursement approval control. After testing a sample, the calculated upper deviation rate is 5.2%. Since 5.2% ≤ 7%, the auditor concludes the control is operating effectively and can be relied upon.
 
 :::
 
@@ -174,6 +174,6 @@ Key characteristics:
 
 :::warning
 
-Discovery sampling is most appropriate for testing controls related to **fraud or compliance** where even a single deviation is significant—for example, testing whether any unauthorized wire transfers occurred at **Kingfisher Industries**.
+Discovery sampling is most appropriate for testing controls related to **fraud or compliance** where even a single deviation is significant—for example, testing whether any unauthorized wire transfers occurred at **Grizzly Industries**.
 
 :::

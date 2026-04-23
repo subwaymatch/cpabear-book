@@ -68,7 +68,7 @@ At a minimum, audit documentation should include:
 3. **Who reviewed the work and when** — The reviewer's initials or identifier and the date of review
 4. **The auditor's conclusions** — A clear statement of the conclusion reached for each area of the audit
 
-**Example:** While auditing Gies Co.'s accounts receivable, the engagement team selects a sample of 40 customer balances for confirmation testing. The documentation includes the sampling methodology, the list of selected customers with balances, copies of confirmations sent and received, follow-up procedures for non-responses, and a conclusion that the accounts receivable balance is not materially misstated. The workpaper is initialed by the staff member who performed the testing and the senior who reviewed the work.
+**Example:** While auditing Bear Co.'s accounts receivable, the engagement team selects a sample of 40 customer balances for confirmation testing. The documentation includes the sampling methodology, the list of selected customers with balances, copies of confirmations sent and received, follow-up procedures for non-responses, and a conclusion that the accounts receivable balance is not materially misstated. The workpaper is initialed by the staff member who performed the testing and the senior who reviewed the work.
 
 :::tip[Exam Tip]
 
@@ -104,7 +104,7 @@ During the documentation completion date window, the engagement team should:
 - **Resolve** any open items or review notes
 - **Delete or discard** any superseded drafts or redundant documentation
 
-**Example:** Kingfisher Industries' audit report is released on March 15. Under AICPA standards, the engagement team has until May 14 (60 days) to finalize and lock down the audit file. During this period, the team organizes the electronic workpaper file, resolves outstanding review notes, and archives final versions of all documentation.
+**Example:** Grizzly Industries' audit report is released on March 15. Under AICPA standards, the engagement team has until May 14 (60 days) to finalize and lock down the audit file. During this period, the team organizes the electronic workpaper file, resolves outstanding review notes, and archives final versions of all documentation.
 
 ### Retention Periods
 
@@ -144,7 +144,7 @@ Changes after the completion date are rare and must be carefully controlled. Exa
 | **Peer review or inspection findings** | The auditor may add documentation explaining how findings were addressed, but the original workpapers must not be altered |
 | **Legal or regulatory inquiry** | Additional documentation may be added to explain the work performed, but original documentation is preserved |
 
-**Example:** Six months after the documentation completion date for Illini Security's audit, the firm discovers that a significant customer confirmed a receivable balance that was, in fact, fictitious. The auditor adds a memorandum to the file explaining the discovery, the additional procedures performed, the conclusions reached, and any revisions to the audit report. The original confirmation workpaper is **not deleted** — it remains in the file with the supplemental documentation.
+**Example:** Six months after the documentation completion date for Ursa Security's audit, the firm discovers that a significant customer confirmed a receivable balance that was, in fact, fictitious. The auditor adds a memorandum to the file explaining the discovery, the additional procedures performed, the conclusions reached, and any revisions to the audit report. The original confirmation workpaper is **not deleted** — it remains in the file with the supplemental documentation.
 
 :::warning
 
@@ -175,7 +175,7 @@ The PCAOB places additional emphasis on:
 - **Departures from firm methodology:** Any departure from the firm's standard audit methodology must be documented with an explanation of why the departure was appropriate
 - **Retention of all documents:** The PCAOB takes a strict view on document retention — all documents that form part of the audit file at the documentation completion date must be retained for the full 7-year period
 
-**Example:** BIF Partners audits MAS Inc., a publicly traded company. When documenting the test of journal entries for potential fraud, the engagement team must list each specific journal entry tested (by entry number, date, and amount), the source of the entry, the testing performed, and the conclusion. A general statement such as "tested a sample of journal entries and found no exceptions" would **not** meet PCAOB documentation standards.
+**Example:** Kodiak Partners audits Polar Inc., a publicly traded company. When documenting the test of journal entries for potential fraud, the engagement team must list each specific journal entry tested (by entry number, date, and amount), the source of the entry, the testing performed, and the conclusion. A general statement such as "tested a sample of journal entries and found no exceptions" would **not** meet PCAOB documentation standards.
 
 :::tip[Exam Tip]
 
@@ -207,7 +207,7 @@ The auditor must document the professional judgments made in reaching conclusion
 - The **alternatives considered** and why the chosen approach was most appropriate
 - **Consultations** with other professionals on difficult or contentious matters
 
-**Example:** While auditing Illini Entertainment's goodwill impairment assessment, the engagement team determines that management's cash flow projections used a growth rate significantly above industry benchmarks. The workpapers document the team's professional judgment in evaluating the reasonableness of the growth rate, the alternative scenarios considered, the discussion with the engagement partner, and the conclusion that an additional $2.3 million impairment charge was necessary.
+**Example:** While auditing Honey Entertainment's goodwill impairment assessment, the engagement team determines that management's cash flow projections used a growth rate significantly above industry benchmarks. The workpapers document the team's professional judgment in evaluating the reasonableness of the growth rate, the alternative scenarios considered, the discussion with the engagement partner, and the conclusion that an additional $2.3 million impairment charge was necessary.
 
 ---
 

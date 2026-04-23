@@ -47,7 +47,7 @@ In addition to governance, the auditor also communicates with **management** abo
 - **Expected timeline** for management review of draft financial statements and disclosures
 - **Coordination** with internal audit, if applicable
 
-**Example:** Before beginning the audit of Gies Co., the engagement partner meets with the audit committee to discuss the planned scope, including the intention to use a valuation specialist for testing goodwill impairment and the timing of inventory observations at three warehouse locations. Separately, the audit senior provides management with a PBC list and schedules interim fieldwork for October.
+**Example:** Before beginning the audit of Bear Co., the engagement partner meets with the audit committee to discuss the planned scope, including the intention to use a valuation specialist for testing goodwill impairment and the timing of inventory observations at three warehouse locations. Separately, the audit senior provides management with a PBC list and schedules interim fieldwork for October.
 
 ### Preparation of Presentation Materials and Supporting Schedules
 
@@ -61,7 +61,7 @@ Auditors frequently prepare presentation materials for formal communications wit
 | **Supporting schedules** | Detailed schedules of adjustments, unadjusted differences, and other findings |
 | **Management letter** | Written communication of recommendations for improvements (often issued separately) |
 
-**Example:** Kingfisher Industries' audit committee requires a formal presentation at each quarterly meeting. The engagement team prepares a slide deck summarizing the status of the audit, significant findings to date, and any issues requiring the committee's attention. A supporting schedule lists all proposed audit adjustments, including their individual and aggregate impact on the financial statements.
+**Example:** Grizzly Industries' audit committee requires a formal presentation at each quarterly meeting. The engagement team prepares a slide deck summarizing the status of the audit, significant findings to date, and any issues requiring the committee's attention. A supporting schedule lists all proposed audit adjustments, including their individual and aggregate impact on the financial statements.
 
 :::note
 
@@ -102,7 +102,7 @@ When the auditor identifies a control deficiency, they must evaluate its severit
 
 ### Another Example — Material Weakness
 
-**Example:** While auditing MAS Inc., the auditor discovers that the company has no controls over the financial statement close process. Journal entries are posted without review, account reconciliations are not performed, and the trial balance is not reviewed by a supervisor before the financial statements are prepared. The auditor concludes that this represents a **material weakness** because there is a reasonable possibility that a material misstatement could occur and not be detected or corrected on a timely basis.
+**Example:** While auditing Polar Inc., the auditor discovers that the company has no controls over the financial statement close process. Journal entries are posted without review, account reconciliations are not performed, and the trial balance is not reviewed by a supervisor before the financial statements are prepared. The auditor concludes that this represents a **material weakness** because there is a reasonable possibility that a material misstatement could occur and not be detected or corrected on a timely basis.
 
 ---
 
@@ -133,7 +133,7 @@ The written communication to those charged with governance must include:
 3. A statement that the communication is intended solely for those charged with governance and management (and, when applicable, other specified parties) and is **not intended for anyone else**
 4. A statement that the auditor's purpose was **not to identify all deficiencies** in internal control — the audit was designed to express an opinion on the financial statements, not to provide assurance on internal control (unless an integrated audit is being performed)
 
-**Example:** Following the audit of Illini Entertainment, the engagement partner sends a written communication to the audit committee identifying two significant deficiencies: (1) inadequate review of complex revenue arrangements and (2) insufficient IT access controls over the general ledger. The letter includes definitions of the terms "significant deficiency" and "material weakness," describes the potential effects of each finding, and notes that the purpose of the audit was not to identify all internal control deficiencies.
+**Example:** Following the audit of Honey Entertainment, the engagement partner sends a written communication to the audit committee identifying two significant deficiencies: (1) inadequate review of complex revenue arrangements and (2) insufficient IT access controls over the general ledger. The letter includes definitions of the terms "significant deficiency" and "material weakness," describes the potential effects of each finding, and notes that the purpose of the audit was not to identify all internal control deficiencies.
 
 ### Communication to Management
 
@@ -142,7 +142,7 @@ In addition to communicating with governance, the auditor should communicate to 
 - **All significant deficiencies and material weaknesses** identified (management should be aware of all matters communicated to governance)
 - **Other deficiencies** in internal control that, in the auditor's professional judgment, are of sufficient importance to merit management's attention
 
-**Example:** In addition to the written communication to Illini Entertainment's audit committee, the engagement partner discusses with management several other control deficiencies that were not severe enough to be classified as significant deficiencies, including inconsistent documentation of inventory count procedures and a lack of formal policies for approving vendor additions.
+**Example:** In addition to the written communication to Honey Entertainment's audit committee, the engagement partner discusses with management several other control deficiencies that were not severe enough to be classified as significant deficiencies, including inconsistent documentation of inventory count procedures and a lack of formal policies for approving vendor additions.
 
 ---
 
@@ -169,7 +169,7 @@ The 60-day deadline for written communication of significant deficiencies and ma
 
 The auditor should not wait until the end of the audit to communicate matters that require immediate attention. If the auditor identifies a material weakness during interim fieldwork, it should be communicated to governance **as soon as practicable** — not deferred to the final communication.
 
-**Example:** During October interim testing at BIF Partners, the audit team identifies a material weakness in the company's controls over cash disbursements—specifically, the absence of dual authorization for wire transfers over $50,000. Given the severity of this finding and the risk of loss, the engagement partner communicates this matter to the audit committee immediately rather than waiting for the year-end audit to conclude.
+**Example:** During October interim testing at Kodiak Partners, the audit team identifies a material weakness in the company's controls over cash disbursements—specifically, the absence of dual authorization for wire transfers over $50,000. Given the severity of this finding and the risk of loss, the engagement partner communicates this matter to the audit committee immediately rather than waiting for the year-end audit to conclude.
 
 ---
 

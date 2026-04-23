@@ -24,9 +24,9 @@ The auditor should be alert for items that should have been **expensed** but wer
 
 :::
 
-### Example: Vouching Additions at Illini Security
+### Example: Vouching Additions at Ursa Security
 
-Illini Security purchased new surveillance equipment for \$450,000 during the year. The auditor:
+Ursa Security purchased new surveillance equipment for \$450,000 during the year. The auditor:
 - Examines the board-approved capital expenditure authorization for the purchase
 - Vouches the \$450,000 to the vendor invoice and payment confirmation
 - Physically inspects the equipment at the company's main facility
@@ -50,9 +50,9 @@ Failure to remove retired assets from the books **overstates** total assets and 
 
 :::
 
-### Example: Disposal at Kingfisher Industries
+### Example: Disposal at Grizzly Industries
 
-Kingfisher Industries sold a piece of manufacturing equipment for \$30,000. The auditor reviews the asset register and finds the equipment had an original cost of \$120,000 and accumulated depreciation of \$100,000 (net book value of \$20,000). The auditor recalculates: \$30,000 − \$20,000 = **\$10,000 gain on disposal** and verifies this amount is properly recorded in the income statement.
+Grizzly Industries sold a piece of manufacturing equipment for \$30,000. The auditor reviews the asset register and finds the equipment had an original cost of \$120,000 and accumulated depreciation of \$100,000 (net book value of \$20,000). The auditor recalculates: \$30,000 − \$20,000 = **\$10,000 gain on disposal** and verifies this amount is properly recorded in the income statement.
 
 ## Reviewing Repair and Maintenance Expense
 
@@ -64,9 +64,9 @@ One of the most important PP&E procedures is reviewing repair and maintenance ex
 2. **Investigate significant items** – Obtain invoices and descriptions to determine whether the expenditure extends the useful life, increases capacity, or improves efficiency (which would require capitalization)
 3. **Apply the client's capitalization policy** – Ensure consistency with prior periods
 
-### Example: Classification Review at Gies Co.
+### Example: Classification Review at Bear Co.
 
-While reviewing Gies Co.'s repair and maintenance expense, the auditor identifies a \$75,000 charge for "building improvements – HVAC system replacement." Because this expenditure replaces a major component and extends the building's useful life, the auditor determines it should be **capitalized** as a building improvement rather than expensed as maintenance. The auditor proposes a reclassification entry.
+While reviewing Bear Co.'s repair and maintenance expense, the auditor identifies a \$75,000 charge for "building improvements – HVAC system replacement." Because this expenditure replaces a major component and extends the building's useful life, the auditor determines it should be **capitalized** as a building improvement rather than expensed as maintenance. The auditor proposes a reclassification entry.
 
 ## Fixed Asset Cutoff Testing
 
@@ -102,9 +102,9 @@ The auditor independently recalculates depreciation expense to test accuracy and
 4. **Test for consistency** – Ensure methods and estimates are applied consistently from year to year
 5. **Consider impairment** – Evaluate whether any indicators of impairment exist that would require a write-down
 
-### Example: Depreciation at MAS Inc.
+### Example: Depreciation at Polar Inc.
 
-MAS Inc. uses straight-line depreciation for all equipment. The auditor selects a sample of 15 assets, verifies the cost and useful life per the asset register, and independently calculates depreciation. For a \$200,000 piece of recording equipment with a 10-year life and \$20,000 salvage value, the auditor calculates annual depreciation as (\$200,000 − \$20,000) / 10 = **\$18,000** and confirms this matches the client's recorded amount.
+Polar Inc. uses straight-line depreciation for all equipment. The auditor selects a sample of 15 assets, verifies the cost and useful life per the asset register, and independently calculates depreciation. For a \$200,000 piece of recording equipment with a 10-year life and \$20,000 salvage value, the auditor calculates annual depreciation as (\$200,000 − \$20,000) / 10 = **\$18,000** and confirms this matches the client's recorded amount.
 
 ### Recalculating Gain/Loss on Disposals
 
@@ -135,9 +135,9 @@ The auditor reviews PP&E disclosures for completeness and accuracy:
 | **Capital commitments** | Contractual commitments for future asset purchases |
 | **Asset retirement obligations** | Legal obligations to dismantle or remediate |
 
-### Example: Disclosures at BIF Partners
+### Example: Disclosures at Kodiak Partners
 
-BIF Partners' financial statements disclose PP&E by category: land (\$1.5M), buildings (\$8.2M), equipment (\$4.7M), and vehicles (\$600K). The notes describe straight-line depreciation over 30 years for buildings and 5–10 years for equipment. The auditor verifies that \$3.2M of buildings are pledged as collateral under the company's mortgage and confirms this is properly disclosed.
+Kodiak Partners' financial statements disclose PP&E by category: land (\$1.5M), buildings (\$8.2M), equipment (\$4.7M), and vehicles (\$600K). The notes describe straight-line depreciation over 30 years for buildings and 5–10 years for equipment. The auditor verifies that \$3.2M of buildings are pledged as collateral under the company's mortgage and confirms this is properly disclosed.
 
 ## Summary
 

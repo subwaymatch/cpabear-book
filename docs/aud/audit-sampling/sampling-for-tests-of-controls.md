@@ -20,7 +20,7 @@ Attribute sampling is the primary sampling method used for tests of controls. Ea
 
 :::info[Example]
 
-**Illini Entertainment** requires that all vendor invoices above \$1,000 receive dual approval before payment. The auditor wants to test whether this control operated effectively throughout the year.
+**Honey Entertainment** requires that all vendor invoices above \$1,000 receive dual approval before payment. The auditor wants to test whether this control operated effectively throughout the year.
 
 :::
 
@@ -61,7 +61,7 @@ The population must consist of **all items** subject to the control during the p
 
 :::warning
 
-If the population is incomplete, the auditor cannot conclude that the control operated effectively over the entire period. For example, if the auditor tests **MAS Inc.'s** purchase order approval control but only obtains purchase orders from January through September, no conclusion can be drawn about October through December.
+If the population is incomplete, the auditor cannot conclude that the control operated effectively over the entire period. For example, if the auditor tests **Polar Inc.'s** purchase order approval control but only obtains purchase orders from January through September, no conclusion can be drawn about October through December.
 
 :::
 
@@ -71,10 +71,10 @@ The sampling unit is the **individual item** that constitutes one element of the
 
 | Control Being Tested | Population | Sampling Unit |
 |---|---|---|
-| Approval of purchase orders at **Gies Co.** | All purchase orders issued during the year | Individual purchase order |
-| Three-way match before payment at **BIF Partners** | All cash disbursements during the year | Individual cash disbursement (check or EFT) |
-| Review of daily bank reconciliation at **Kingfisher Industries** | All business days during the year | Individual daily bank reconciliation |
-| IT access review at **Illini Security** | All quarterly access review reports | Individual quarterly report |
+| Approval of purchase orders at **Bear Co.** | All purchase orders issued during the year | Individual purchase order |
+| Three-way match before payment at **Kodiak Partners** | All cash disbursements during the year | Individual cash disbursement (check or EFT) |
+| Review of daily bank reconciliation at **Grizzly Industries** | All business days during the year | Individual daily bank reconciliation |
+| IT access review at **Ursa Security** | All quarterly access review reports | Individual quarterly report |
 
 ---
 
@@ -90,7 +90,7 @@ $$
 
 :::info[Example]
 
-The auditor selects 50 purchase orders from **Gies Co.** and finds that 2 lacked the required supervisory approval. The sample deviation rate is:
+The auditor selects 50 purchase orders from **Bear Co.** and finds that 2 lacked the required supervisory approval. The sample deviation rate is:
 
 $$
 \frac{2}{50} = 4\%
@@ -138,7 +138,7 @@ The upper deviation rate does not exceed the tolerable deviation rate. The audit
 
 :::info[Example]
 
-The auditor tests **Illini Entertainment's** invoice approval control with a TDR of 6% and a confidence level of 95%. After testing 80 items and finding 2 deviations, the UDR is calculated as 5.5%. Since 5.5% ≤ 6%, the auditor concludes the control is effective and relies on it to reduce accounts payable substantive testing.
+The auditor tests **Honey Entertainment's** invoice approval control with a TDR of 6% and a confidence level of 95%. After testing 80 items and finding 2 deviations, the UDR is calculated as 5.5%. Since 5.5% ≤ 6%, the auditor concludes the control is effective and relies on it to reduce accounts payable substantive testing.
 
 :::
 
@@ -152,7 +152,7 @@ The upper deviation rate exceeds the tolerable deviation rate. The auditor must:
 
 :::info[Example]
 
-The auditor tests **MSA Records'** bank reconciliation review control. The TDR is set at 5%, but the UDR based on sample results is 8.3%. The auditor cannot rely on this control and must expand substantive testing of the cash balance—perhaps by confirming additional bank accounts and performing extended cutoff testing.
+The auditor tests **Panda Records'** bank reconciliation review control. The TDR is set at 5%, but the UDR based on sample results is 8.3%. The auditor cannot rely on this control and must expand substantive testing of the cash balance—perhaps by confirming additional bank accounts and performing extended cutoff testing.
 
 :::
 

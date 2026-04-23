@@ -21,7 +21,7 @@ The standards that govern a CPA's work depend on the **type of client** and the 
 
 :::
 
-**Example:** When Kingfisher Industries (a publicly traded company) engages an audit firm, the audit is performed under **PCAOB standards** (ASs). When Gies Co. (a private company) engages an auditor, the audit is performed under **AICPA standards** (SASs). If Gies Co. only needs a review or compilation, the engagement falls under **SSARS** (AR-C sections).
+**Example:** When Grizzly Industries (a publicly traded company) engages an audit firm, the audit is performed under **PCAOB standards** (ASs). When Bear Co. (a private company) engages an auditor, the audit is performed under **AICPA standards** (SASs). If Bear Co. only needs a review or compilation, the engagement falls under **SSARS** (AR-C sections).
 
 ---
 
@@ -35,7 +35,7 @@ Key characteristics of an audit:
 - The opinion addresses **fair presentation**, not absolute accuracy
 - The auditor evaluates whether the financial statements are free from **material misstatement**, whether caused by error or fraud
 
-**Example:** MAS Inc. engages an audit firm to audit its annual financial statements. After performing risk assessment, testing internal controls, and executing substantive procedures, the auditor concludes the financial statements present fairly in all material respects. The auditor's opinion gives MAS Inc.'s lenders and investors confidence that the financial statements are reliable — but it does not guarantee that every single number is perfectly correct.
+**Example:** Polar Inc. engages an audit firm to audit its annual financial statements. After performing risk assessment, testing internal controls, and executing substantive procedures, the auditor concludes the financial statements present fairly in all material respects. The auditor's opinion gives Polar Inc.'s lenders and investors confidence that the financial statements are reliable — but it does not guarantee that every single number is perfectly correct.
 
 ---
 
@@ -77,7 +77,7 @@ The SEJEC mnemonic is heavily tested. Professional skepticism, in particular, ap
 
 :::
 
-**Example:** During the audit of Illini Entertainment, the auditor discovers that revenue increased 40% while the industry average was flat. Professional skepticism requires the auditor to question this trend, design additional procedures to investigate the increase, and not accept management's explanation without corroborating evidence.
+**Example:** During the audit of Honey Entertainment, the auditor discovers that revenue increased 40% while the industry average was flat. Professional skepticism requires the auditor to question this trend, design additional procedures to investigate the increase, and not accept management's explanation without corroborating evidence.
 
 ---
 
@@ -107,7 +107,7 @@ An audit provides the **highest level of assurance** — reasonable assurance �
 
 The auditor issues an **opinion** — unmodified, qualified, adverse, or disclaimer — based on the evidence obtained.
 
-**Example:** BIF Partners engages an audit firm for an annual financial statement audit. The auditor plans the engagement, assesses risks of material misstatement, tests controls over revenue and cash, performs substantive procedures on all significant account balances, and ultimately issues an unmodified opinion stating that the financial statements present fairly in all material respects.
+**Example:** Kodiak Partners engages an audit firm for an annual financial statement audit. The auditor plans the engagement, assesses risks of material misstatement, tests controls over revenue and cash, performs substantive procedures on all significant account balances, and ultimately issues an unmodified opinion stating that the financial statements present fairly in all material respects.
 
 ---
 
@@ -120,7 +120,7 @@ A review provides **limited assurance** — substantially less than an audit but
 
 The review report expresses **negative assurance**: the accountant states they are "not aware of any material modifications that should be made" to the financial statements. The accountant does **not** obtain an understanding of internal control, assess fraud risk, test controls, or perform substantive tests of details.
 
-**Example:** Illini Security (a private company) needs reviewed financial statements to satisfy a bank loan covenant. The accountant performs analytical procedures and inquires of management about unusual transactions, significant estimates, and subsequent events. The report states: "Based on our review, we are not aware of any material modifications that should be made to the accompanying financial statements."
+**Example:** Ursa Security (a private company) needs reviewed financial statements to satisfy a bank loan covenant. The accountant performs analytical procedures and inquires of management about unusual transactions, significant estimates, and subsequent events. The report states: "Based on our review, we are not aware of any material modifications that should be made to the accompanying financial statements."
 
 :::tip[Exam Tip]
 
@@ -140,7 +140,7 @@ A compilation involves assisting management in **presenting financial statements
 
 The compilation report states that the accountant did not audit or review the financial statements and, accordingly, does not express an opinion or provide any assurance.
 
-**Example:** MSA Records (a small private company) needs basic financial statements for internal use. The accountant compiles the financial statements from information provided by management. The report states: "We did not audit or review the financial statements and, accordingly, do not express an opinion or provide any assurance about whether the financial statements are in accordance with the applicable financial reporting framework."
+**Example:** Panda Records (a small private company) needs basic financial statements for internal use. The accountant compiles the financial statements from information provided by management. The report states: "We did not audit or review the financial statements and, accordingly, do not express an opinion or provide any assurance about whether the financial statements are in accordance with the applicable financial reporting framework."
 
 ---
 
@@ -152,7 +152,7 @@ A preparation engagement is the **least involved** service. The accountant assis
 - Each page of the prepared financial statements must include a legend such as **"no assurance is provided on these financial statements"**
 - The accountant need **not be independent**, but there is no required independence disclosure
 
-**Example:** Gies Co. asks its CPA to prepare monthly financial statements for internal management use. The CPA prepares the statements from Gies Co.'s trial balance and supporting schedules. Each page includes the required legend, and no report is issued.
+**Example:** Bear Co. asks its CPA to prepare monthly financial statements for internal management use. The CPA prepares the statements from Bear Co.'s trial balance and supporting schedules. Each page includes the required legend, and no report is issued.
 
 ---
 
@@ -164,7 +164,7 @@ In an AUP engagement, the practitioner performs **specific procedures** agreed t
 - The practitioner reports **findings only** — users draw their own conclusions
 - No opinion or assurance is expressed
 
-**Example:** Kingfisher Industries' lender wants to verify that Kingfisher's debt-to-equity ratio meets loan covenant requirements. The lender and Kingfisher agree with the CPA on specific procedures: recalculate the ratio from the financial statements, trace the components to the general ledger, and confirm debt balances with third parties. The CPA performs only these procedures and reports the factual findings without expressing an opinion on whether the covenant was met.
+**Example:** Grizzly Industries' lender wants to verify that Grizzly's debt-to-equity ratio meets loan covenant requirements. The lender and Grizzly agree with the CPA on specific procedures: recalculate the ratio from the financial statements, trace the components to the general ledger, and confirm debt balances with third parties. The CPA performs only these procedures and reports the factual findings without expressing an opinion on whether the covenant was met.
 
 ---
 
@@ -180,7 +180,7 @@ Attestation engagements are a broad category in which a practitioner is engaged 
 
 Common examples of attestation subject matter include prospective financial statements, compliance with specified requirements, internal controls (for non-SEC entities), and sustainability/ESG metrics.
 
-**Example:** MAS Inc. asserts that its internal controls over customer data privacy comply with the AICPA Trust Services Criteria. An independent CPA performs an examination-level attestation engagement, tests the controls, and issues an opinion on whether MAS Inc.'s assertion is fairly stated.
+**Example:** Polar Inc. asserts that its internal controls over customer data privacy comply with the AICPA Trust Services Criteria. An independent CPA performs an examination-level attestation engagement, tests the controls, and issues an opinion on whether Polar Inc.'s assertion is fairly stated.
 
 ---
 

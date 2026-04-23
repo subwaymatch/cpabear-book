@@ -23,9 +23,9 @@ The auditor performs test counts in **two directions**:
 
 :::
 
-### Example: Inventory Observation at Kingfisher Industries
+### Example: Inventory Observation at Grizzly Industries
 
-Kingfisher Industries manufactures electronic components and holds significant raw materials, work-in-process, and finished goods. During the year-end count, the auditor:
+Grizzly Industries manufactures electronic components and holds significant raw materials, work-in-process, and finished goods. During the year-end count, the auditor:
 - Reviews the count instructions and notes that two-person teams are assigned to each warehouse section
 - Independently counts 40 items from various locations (test counts)
 - Observes that shipping and receiving are **shut down** during the count to prevent movement errors
@@ -40,7 +40,7 @@ The auditor must specifically **inquire of management** about the existence of o
 
 :::
 
-During the audit of Illini Entertainment, the auditor asks management whether any of the company's media inventory has become obsolete due to format changes or licensing expirations. Management discloses that a significant portion of physical media inventory is slow-moving due to the industry shift to digital distribution, requiring a write-down to net realizable value.
+During the audit of Honey Entertainment, the auditor asks management whether any of the company's media inventory has become obsolete due to format changes or licensing expirations. Management discloses that a significant portion of physical media inventory is slow-moving due to the industry shift to digital distribution, requiring a write-down to net realizable value.
 
 ### Valuation Procedures
 
@@ -49,9 +49,9 @@ During the audit of Illini Entertainment, the auditor asks management whether an
 - **Evaluate the allowance for inventory obsolescence** – Assess whether management's reserve is reasonable given historical write-downs and current market conditions
 - **Test cost accumulation** – For manufactured inventory, verify that material, labor, and overhead costs are properly accumulated
 
-### Example: Inventory Valuation at MSA Records
+### Example: Inventory Valuation at Panda Records
 
-MSA Records holds a large inventory of vinyl records and related merchandise. The auditor tests pricing by comparing recorded costs to recent vendor invoices and examines sales prices to ensure inventory is not carried above NRV. The auditor also reviews the aging of inventory and notes that certain specialty pressings have not sold in over 18 months, prompting a discussion with management about the adequacy of the obsolescence reserve.
+Panda Records holds a large inventory of vinyl records and related merchandise. The auditor tests pricing by comparing recorded costs to recent vendor invoices and examines sales prices to ensure inventory is not carried above NRV. The auditor also reviews the aging of inventory and notes that certain specialty pressings have not sold in over 18 months, prompting a discussion with management about the adequacy of the obsolescence reserve.
 
 ## Cutoff Testing
 
@@ -75,9 +75,9 @@ Cutoff testing for inventory is closely linked to cutoff testing for revenue (sa
 
 :::
 
-### Example: Cutoff at BIF Partners
+### Example: Cutoff at Kodiak Partners
 
-BIF Partners' last receiving report before December 31 is #2945, and the first after year-end is #2946. The auditor verifies that goods on receiving report #2945 are included in the year-end inventory count and the related payable is recorded. Goods on receiving report #2946, received on January 2, are properly excluded from the year-end inventory and payable balances.
+Kodiak Partners' last receiving report before December 31 is #2945, and the first after year-end is #2946. The auditor verifies that goods on receiving report #2945 are included in the year-end inventory count and the related payable is recorded. Goods on receiving report #2946, received on January 2, are properly excluded from the year-end inventory and payable balances.
 
 ## Disclosure Verification
 
@@ -91,9 +91,9 @@ The auditor reviews financial statement disclosures to ensure they are complete 
 | **Write-downs** | Material write-downs to NRV and the circumstances |
 | **Consignment inventory** | Inventory held on consignment (owned by others) should be excluded; inventory out on consignment (owned by client) should be included |
 
-### Example: Disclosures at Gies Co.
+### Example: Disclosures at Bear Co.
 
-Gies Co. uses the FIFO costing method. The auditor verifies that the notes to the financial statements disclose the costing method, provide a breakdown of inventory by category (\$2.1M raw materials, \$800K WIP, \$3.5M finished goods), and note that \$1.2M of finished goods inventory is pledged as collateral under the company's revolving credit facility.
+Bear Co. uses the FIFO costing method. The auditor verifies that the notes to the financial statements disclose the costing method, provide a breakdown of inventory by category (\$2.1M raw materials, \$800K WIP, \$3.5M finished goods), and note that \$1.2M of finished goods inventory is pledged as collateral under the company's revolving credit facility.
 
 ## Summary of Key Inventory Audit Procedures
 

@@ -24,7 +24,7 @@ Fraudulent financial reporting involves **intentional misstatements or omissions
 - Misrepresenting or intentionally omitting events, transactions, or other significant information
 - Intentionally misapplying accounting principles related to amounts, classification, manner of presentation, or disclosure
 
-**Example:** The CFO of MAS Inc. instructs the accounting staff to record fictitious revenue transactions at year-end to inflate earnings and meet analyst expectations. This is fraudulent financial reporting—management is deliberately misstating the financial statements.
+**Example:** The CFO of Polar Inc. instructs the accounting staff to record fictitious revenue transactions at year-end to inflate earnings and meet analyst expectations. This is fraudulent financial reporting—management is deliberately misstating the financial statements.
 
 ### 2. Misappropriation of Assets
 
@@ -35,7 +35,7 @@ Misappropriation of assets involves the **theft or misuse of an entity's assets*
 - Causing the entity to pay for goods or services not received (fictitious vendors)
 - Using the entity's assets for personal purposes
 
-**Example:** A warehouse supervisor at Kingfisher Industries diverts shipments of finished goods to a personal storage unit and sells them to third parties. The theft is concealed by manipulating inventory records to hide the shortages. This is misappropriation of assets.
+**Example:** A warehouse supervisor at Grizzly Industries diverts shipments of finished goods to a personal storage unit and sells them to third parties. The theft is concealed by manipulating inventory records to hide the shortages. This is misappropriation of assets.
 
 :::tip[Exam Tip]
 
@@ -92,7 +92,7 @@ Rationalization is the **mental justification** that allows the person to reconc
 - "Nobody gets hurt"
 - "The company can afford it"
 
-**Example:** A billing clerk at Illini Security creates a fictitious vendor and submits invoices for payment. The **opportunity** exists because the same person can create vendor accounts and approve payments (no segregation of duties). The **incentive** is mounting personal credit card debt. The **rationalization** is "I've been underpaid for years—this is just what the company owes me."
+**Example:** A billing clerk at Ursa Security creates a fictitious vendor and submits invoices for payment. The **opportunity** exists because the same person can create vendor accounts and approve payments (no segregation of duties). The **incentive** is mounting personal credit card debt. The **rationalization** is "I've been underpaid for years—this is just what the company owes me."
 
 :::warning
 
@@ -153,7 +153,7 @@ Even if no specific fraud risk factors are present, the auditor must **always** 
 | **Employee behavior** | Employees living beyond their means; employees who refuse to take vacation; employees who are overly protective of their duties |
 | **Documentation issues** | Missing or altered documents; unexplained reconciling items; excessive voids or credits |
 
-**Example:** During the audit of Gies Co., the auditor notices that the CEO personally approves all journal entries over \$10,000 but has no effective check on his authority. The auditor also observes that several significant non-routine entries were made in the last week of the fiscal year. These red flags—concentration of authority and unusual year-end entries—increase the assessed risk of fraudulent financial reporting.
+**Example:** During the audit of Bear Co., the auditor notices that the CEO personally approves all journal entries over \$10,000 but has no effective check on his authority. The auditor also observes that several significant non-routine entries were made in the last week of the fiscal year. These red flags—concentration of authority and unusual year-end entries—increase the assessed risk of fraudulent financial reporting.
 
 ---
 
@@ -179,7 +179,7 @@ Because revenue recognition is a presumed fraud risk, the auditor must:
 - Design and perform audit procedures that **directly address** the risk of fraudulent revenue recognition
 - Document the rationale if the auditor concludes the presumption **does not apply** to a particular engagement (the presumption is rebuttable, but overcoming it requires strong justification and documentation)
 
-**Example:** Illini Entertainment earns revenue from film licensing, theatrical distribution, and merchandise sales—each with different recognition criteria. Given the complexity and the multiple revenue streams, the auditor identifies a significant risk of fraudulent revenue recognition and designs targeted procedures, including testing license agreements for proper timing of revenue recognition, examining sales near year-end for cutoff, and performing analytics to compare revenue trends by category to industry benchmarks.
+**Example:** Honey Entertainment earns revenue from film licensing, theatrical distribution, and merchandise sales—each with different recognition criteria. Given the complexity and the multiple revenue streams, the auditor identifies a significant risk of fraudulent revenue recognition and designs targeted procedures, including testing license agreements for proper timing of revenue recognition, examining sales near year-end for cutoff, and performing analytics to compare revenue trends by category to industry benchmarks.
 
 :::danger
 

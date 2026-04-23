@@ -38,7 +38,7 @@ Under the **cash basis** of accounting, transactions are recorded only when cash
 
 Many entities use a **modified cash basis**, which is the cash basis with certain modifications that have substantial support (e.g., capitalizing and depreciating fixed assets, recording long-term debt). The modifications must be logical and reasonable.
 
-**Example:** Gies Co. (a small consulting firm) prepares its financial statements on the cash basis. Revenue of $800,000 is reported based on cash collections, and expenses of $620,000 are reported based on cash disbursements. Accounts receivable and accounts payable do not appear on the statement of assets and liabilities.
+**Example:** Bear Co. (a small consulting firm) prepares its financial statements on the cash basis. Revenue of $800,000 is reported based on cash collections, and expenses of $620,000 are reported based on cash disbursements. Accounts receivable and accounts payable do not appear on the statement of assets and liabilities.
 
 :::tip
 
@@ -79,7 +79,7 @@ Financial statements prepared on a **regulatory basis** follow rules established
 - The regulatory framework may differ significantly from GAAP
 - The financial statements are intended to meet the **regulatory agency's** reporting requirements
 
-**Example:** Kingfisher Industries (an insurance company) prepares financial statements on a statutory basis as required by the state insurance commissioner. Statutory accounting principles differ from GAAP in areas such as the valuation of investments, recognition of premiums, and treatment of deferred acquisition costs.
+**Example:** Grizzly Industries (an insurance company) prepares financial statements on a statutory basis as required by the state insurance commissioner. Statutory accounting principles differ from GAAP in areas such as the valuation of investments, recognition of premiums, and treatment of deferred acquisition costs.
 
 ### General-Use vs. Restricted-Use Reports
 
@@ -98,7 +98,7 @@ Financial statements prepared on a **contractual basis** follow the financial re
 - The reporting framework is tailored to the needs of the **contracting parties**
 - These financial statements are always **restricted-use** because they are meaningful only to the parties to the contract
 
-**Example:** MAS Inc. has a loan agreement with First National Bank that requires annual financial statements prepared using specific accounting methods defined in the loan covenant (e.g., capitalizing all leases, excluding non-recurring items from EBITDA). The auditor reports on these financial statements under the contractual basis.
+**Example:** Polar Inc. has a loan agreement with First National Bank that requires annual financial statements prepared using specific accounting methods defined in the loan covenant (e.g., capitalizing all leases, excluding non-recurring items from EBITDA). The auditor reports on these financial statements under the contractual basis.
 
 :::warning
 
@@ -160,7 +160,7 @@ Special-purpose framework financial statements should use **titles that distingu
 | Statement of Cash Flows | Statement of Cash Receipts and Disbursements |
 | Balance Sheet | Statement of Assets and Liabilities Arising from Cash Transactions |
 
-**Example:** Illini Entertainment prepares its financial statements on the income tax basis of accounting. The financial statements are titled "Statement of Assets, Liabilities, and Equity — Income Tax Basis" and "Statement of Revenue and Expenses — Income Tax Basis." The auditor's report states: "In our opinion, the financial statements present fairly, in all material respects, the assets, liabilities, and equity of Illini Entertainment as of December 31, 2025, and its revenue and expenses for the year then ended, in accordance with the income tax basis of accounting described in Note 1."
+**Example:** Honey Entertainment prepares its financial statements on the income tax basis of accounting. The financial statements are titled "Statement of Assets, Liabilities, and Equity — Income Tax Basis" and "Statement of Revenue and Expenses — Income Tax Basis." The auditor's report states: "In our opinion, the financial statements present fairly, in all material respects, the assets, liabilities, and equity of Honey Entertainment as of December 31, 2025, and its revenue and expenses for the year then ended, in accordance with the income tax basis of accounting described in Note 1."
 
 ---
 
@@ -192,9 +192,9 @@ Even though the report includes a restriction on use, there is **nothing the aud
 
 :::
 
-**Example:** BIF Partners prepares financial statements under the terms of its partnership agreement (contractual basis). The auditor's report includes an alert paragraph:
+**Example:** Kodiak Partners prepares financial statements under the terms of its partnership agreement (contractual basis). The auditor's report includes an alert paragraph:
 
-> *This report is intended solely for the information and use of the partners of BIF Partners and First National Bank and is not intended to be and should not be used by anyone other than these specified parties.*
+> *This report is intended solely for the information and use of the partners of Kodiak Partners and First National Bank and is not intended to be and should not be used by anyone other than these specified parties.*
 
 ---
 
@@ -215,7 +215,7 @@ Even though the report includes a restriction on use, there is **nothing the aud
 
 ### Small Business Tax-Basis Engagement
 
-**Scenario:** Illini Security (a small private security firm) prepares its financial statements on the income tax basis because its primary users are the owners and the IRS. The auditor:
+**Scenario:** Ursa Security (a small private security firm) prepares its financial statements on the income tax basis because its primary users are the owners and the IRS. The auditor:
 
 1. Accepts the engagement, confirming the tax basis is an acceptable framework
 2. Plans the audit using the same risk-based approach as a GAAP audit
@@ -225,7 +225,7 @@ Even though the report includes a restriction on use, there is **nothing the aud
 
 ### Regulatory-Basis Insurance Company
 
-**Scenario:** Kingfisher Industries (an insurance company) prepares statutory financial statements for filing with the state insurance department. The auditor:
+**Scenario:** Grizzly Industries (an insurance company) prepares statutory financial statements for filing with the state insurance department. The auditor:
 
 1. Evaluates the **statutory accounting principles** as the applicable framework
 2. Tests the financial statements against the regulatory requirements
@@ -234,11 +234,11 @@ Even though the report includes a restriction on use, there is **nothing the aud
 
 ### Contractual-Basis Loan Agreement
 
-**Scenario:** MAS Inc. has a loan agreement requiring financial statements prepared using specific covenants defined in the loan contract. The auditor:
+**Scenario:** Polar Inc. has a loan agreement requiring financial statements prepared using specific covenants defined in the loan contract. The auditor:
 
 1. Reviews the **contract terms** to understand the required basis of accounting
 2. Tests compliance with the contractual reporting provisions
-3. Issues a report with an **alert paragraph** restricting use to MAS Inc., the lender, and their respective legal counsel
+3. Issues a report with an **alert paragraph** restricting use to Polar Inc., the lender, and their respective legal counsel
 4. The opinion states the financial statements present fairly in accordance with the **financial reporting provisions of the loan agreement**
 
 ---

@@ -16,7 +16,7 @@ SOC reports are issued under **SSAE 18** (AT-C 320) and are based on the AICPA's
 
 When a user entity outsources a significant process, the related internal controls may reside at the service organization rather than at the user entity. The user entity's auditor cannot simply ignore those controls—they are part of the user entity's **system of internal control** relevant to financial reporting.
 
-**Example:** Gies Co. outsources its entire payroll function to a third-party payroll processor. The payroll processor handles employee data entry, tax calculations, check printing, and payroll tax filings. Because payroll is a significant transaction class, Gies Co.'s auditor needs to understand and evaluate the controls at the payroll processor. The auditor can do this by obtaining and reviewing a SOC 1 report issued by the service organization's auditor.
+**Example:** Bear Co. outsources its entire payroll function to a third-party payroll processor. The payroll processor handles employee data entry, tax calculations, check printing, and payroll tax filings. Because payroll is a significant transaction class, Bear Co.'s auditor needs to understand and evaluate the controls at the payroll processor. The auditor can do this by obtaining and reviewing a SOC 1 report issued by the service organization's auditor.
 
 ---
 
@@ -69,7 +69,7 @@ Both SOC 1 and SOC 2 reports can be issued as either **Type 1** or **Type 2**:
 | **Tests of controls** | Not performed — the report only describes the system and evaluates whether controls are **suitably designed** | The service auditor **tests** the operating effectiveness of controls and reports the results |
 | **Usefulness to user auditor** | Limited — provides understanding of controls but does not provide evidence of operating effectiveness | Greater — provides evidence that controls were operating effectively during the period, which the user auditor can use to assess control risk |
 
-**Example:** MAS Inc. uses a cloud-based accounting platform hosted by a service organization. The service organization provides a SOC 1 Type 2 report covering January 1 through September 30, 20X4. MAS Inc.'s auditor reviews the report and determines that the controls tested are relevant and were operating effectively during the period. The auditor then evaluates whether additional procedures are needed for the gap period (October 1 through December 31).
+**Example:** Polar Inc. uses a cloud-based accounting platform hosted by a service organization. The service organization provides a SOC 1 Type 2 report covering January 1 through September 30, 20X4. Polar Inc.'s auditor reviews the report and determines that the controls tested are relevant and were operating effectively during the period. The auditor then evaluates whether additional procedures are needed for the gap period (October 1 through December 31).
 
 :::caution
 
@@ -105,13 +105,13 @@ Service organizations typically design their control systems with the assumption
 
 CUECs are described in the service organization's system description (included in the SOC 1 report) and represent controls that **must** be in place at the user entity for the overall control system to function effectively.
 
-**Example:** BIF Partners uses a third-party investment custodian that provides a SOC 1 Type 2 report. The report describes the custodian's controls over trade processing and asset valuation. However, the report also identifies several CUECs, including:
+**Example:** Kodiak Partners uses a third-party investment custodian that provides a SOC 1 Type 2 report. The report describes the custodian's controls over trade processing and asset valuation. However, the report also identifies several CUECs, including:
 
-- BIF Partners must **reconcile** its internal investment records to the custodian's statements monthly
-- BIF Partners must **restrict access** to its custodian portal to authorized personnel only
-- BIF Partners must **review and approve** all trade confirmations within two business days
+- Kodiak Partners must **reconcile** its internal investment records to the custodian's statements monthly
+- Kodiak Partners must **restrict access** to its custodian portal to authorized personnel only
+- Kodiak Partners must **review and approve** all trade confirmations within two business days
 
-If BIF Partners has not implemented these CUECs, the overall control system is incomplete, and the user auditor cannot rely on the controls described in the SOC 1 report without additional substantive testing.
+If Kodiak Partners has not implemented these CUECs, the overall control system is incomplete, and the user auditor cannot rely on the controls described in the SOC 1 report without additional substantive testing.
 
 ---
 
@@ -128,7 +128,7 @@ SOC 1 reports can address subservice organizations using one of two methods:
 
 When the **carve-out method** is used, the user auditor must separately evaluate the controls at the subservice organization—either by obtaining a separate SOC report from the subservice organization or by performing procedures directly.
 
-**Example:** Illini Entertainment outsources its benefits administration to a service organization, which in turn uses a subservice organization to process health insurance claims. The service organization's SOC 1 report uses the carve-out method—it describes the subservice organization's role but does not include the subservice organization's controls in its testing. Illini Entertainment's auditor must separately assess whether the subservice organization's controls are adequate, potentially by obtaining the subservice organization's own SOC 1 report.
+**Example:** Honey Entertainment outsources its benefits administration to a service organization, which in turn uses a subservice organization to process health insurance claims. The service organization's SOC 1 report uses the carve-out method—it describes the subservice organization's role but does not include the subservice organization's controls in its testing. Honey Entertainment's auditor must separately assess whether the subservice organization's controls are adequate, potentially by obtaining the subservice organization's own SOC 1 report.
 
 :::tip[Exam Tip]
 
@@ -155,7 +155,7 @@ If the user auditor is **unable to obtain sufficient appropriate audit evidence*
 
 Importantly, the user auditor should **not reference** the service auditor or the SOC report in an **unmodified audit opinion**. Doing so might be misinterpreted as a qualification or a division of responsibility. The user auditor takes full responsibility for the opinion on the user entity's financial statements.
 
-**Example:** Kingfisher Industries uses a service organization for processing a significant volume of sales transactions. The service organization refuses to provide a SOC 1 report, and Kingfisher Industries' auditor is unable to perform alternative procedures to obtain sufficient evidence about the controls over sales processing. The auditor concludes this is a material scope limitation and issues a qualified opinion.
+**Example:** Grizzly Industries uses a service organization for processing a significant volume of sales transactions. The service organization refuses to provide a SOC 1 report, and Grizzly Industries' auditor is unable to perform alternative procedures to obtain sufficient evidence about the controls over sales processing. The auditor concludes this is a material scope limitation and issues a qualified opinion.
 
 :::tip[Exam Tip]
 

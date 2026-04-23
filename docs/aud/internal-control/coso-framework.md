@@ -22,7 +22,7 @@ According to COSO, internal control is a process designed to provide **reasonabl
 | **Reporting** | Reliability of financial and nonfinancial reporting, both internal and external |
 | **Compliance** | Compliance with applicable laws and regulations |
 
-**Example:** Kingfisher Industries implements internal controls to ensure its manufacturing operations run efficiently (**operations objective**), its quarterly financial statements are accurate and complete (**reporting objective**), and it complies with environmental regulations governing waste disposal (**compliance objective**).
+**Example:** Grizzly Industries implements internal controls to ensure its manufacturing operations run efficiently (**operations objective**), its quarterly financial statements are accurate and complete (**reporting objective**), and it complies with environmental regulations governing waste disposal (**compliance objective**).
 
 :::tip[Exam Tip]
 
@@ -44,7 +44,7 @@ No system of internal control—no matter how well designed—can provide **abso
 | **Cost-benefit considerations** | Controls are implemented when the cost of the control does not exceed the expected benefit. Some risks may be accepted because the cost of mitigating them is prohibitive. |
 | **Faulty judgment** | Decisions about the design and operation of controls are made by people using judgment, which may be flawed. |
 
-**Example:** Illini Security has strong segregation of duties in its cash disbursement process—one person prepares payments, another approves them, and a third records them. However, if the preparer and the approver collude to create fictitious vendor payments, this control is defeated. This illustrates the inherent limitation of **collusion**.
+**Example:** Ursa Security has strong segregation of duties in its cash disbursement process—one person prepares payments, another approves them, and a third records them. However, if the preparer and the approver collude to create fictitious vendor payments, this control is defeated. This illustrates the inherent limitation of **collusion**.
 
 :::warning
 
@@ -86,7 +86,7 @@ The COSO framework identifies **five principles** related to the control environ
 | 4 | **Commitment to competence** | The organization demonstrates a commitment to attract, develop, and retain competent individuals aligned with objectives |
 | 5 | **Accountability** | The organization holds individuals accountable for their internal control responsibilities in pursuit of objectives |
 
-**Example:** At Gies Co., the CEO regularly communicates the importance of ethical behavior in town hall meetings, the board's audit committee consists entirely of independent directors, clear reporting lines are established, the company invests heavily in employee training, and performance evaluations include accountability for control responsibilities. These practices demonstrate a strong control environment.
+**Example:** At Bear Co., the CEO regularly communicates the importance of ethical behavior in town hall meetings, the board's audit committee consists entirely of independent directors, clear reporting lines are established, the company invests heavily in employee training, and performance evaluations include accountability for control responsibilities. These practices demonstrate a strong control environment.
 
 :::note
 
@@ -109,7 +109,7 @@ The **risk assessment** component addresses how the organization identifies, ana
 | 8 | **Consider fraud risk** | The organization considers the potential for fraud in assessing risks to the achievement of objectives |
 | 9 | **Identify and assess significant changes** | The organization identifies and assesses changes that could significantly impact the system of internal control |
 
-**Example:** MAS Inc. is a nonprofit that recently expanded its donor management system. As part of its risk assessment, management identifies the risk that the new system could produce inaccurate donor revenue reports (Principle 7), considers whether employees could exploit system access to divert donations (Principle 8), and evaluates how the technology change affects existing controls (Principle 9).
+**Example:** Polar Inc. is a nonprofit that recently expanded its donor management system. As part of its risk assessment, management identifies the risk that the new system could produce inaccurate donor revenue reports (Principle 7), considers whether employees could exploit system access to divert donations (Principle 8), and evaluates how the technology change affects existing controls (Principle 9).
 
 ---
 
@@ -125,7 +125,7 @@ The **information and communication** component ensures that the right informati
 | 11 | **Communicate internally** | The organization internally communicates information, including objectives and responsibilities for internal control, necessary to support the functioning of internal control |
 | 12 | **Communicate externally** | The organization communicates with external parties regarding matters affecting the functioning of internal control |
 
-**Example:** BIF Partners, while auditing Illini Entertainment, evaluates the company's information system. Illini Entertainment uses an integrated ERP system that captures financial transactions, generates monthly management reports (Principle 10), and distributes internal control policies to all department managers (Principle 11). The company also has established channels for communicating with its external auditors and regulators (Principle 12).
+**Example:** Kodiak Partners, while auditing Honey Entertainment, evaluates the company's information system. Honey Entertainment uses an integrated ERP system that captures financial transactions, generates monthly management reports (Principle 10), and distributes internal control policies to all department managers (Principle 11). The company also has established channels for communicating with its external auditors and regulators (Principle 12).
 
 ---
 
@@ -140,7 +140,7 @@ The **monitoring activities** component involves ongoing evaluations, separate e
 | 13 | **Conduct ongoing and/or separate evaluations** | The organization selects, develops, and performs ongoing and/or separate evaluations to determine whether the components of internal control are present and functioning |
 | 14 | **Evaluate and communicate deficiencies** | The organization evaluates and communicates internal control deficiencies in a timely manner to those parties responsible for taking corrective action |
 
-**Example:** MSA Records' internal audit department performs quarterly reviews of key financial controls (ongoing evaluation) and an annual comprehensive assessment of the control environment (separate evaluation). When deficiencies are identified—such as an access control that was not properly enforced—findings are reported to the audit committee within 30 days.
+**Example:** Panda Records' internal audit department performs quarterly reviews of key financial controls (ongoing evaluation) and an annual comprehensive assessment of the control environment (separate evaluation). When deficiencies are identified—such as an access control that was not properly enforced—findings are reported to the audit committee within 30 days.
 
 ---
 
@@ -185,7 +185,7 @@ A useful mnemonic for remembering types of control activities is **PAIDTIPS**:
 
 These three functions should be performed by **different individuals**. When one person controls two or more of these functions, the risk of error or fraud increases significantly.
 
-**Example:** At Kingfisher Industries, the purchasing manager (authorization) approves purchase orders, the accounts payable clerk (record-keeping) records invoices in the system, and the warehouse supervisor (custody) receives and controls the physical inventory. No single person can order goods, record the purchase, and receive the inventory—reducing the risk that fictitious purchases or theft goes undetected.
+**Example:** At Grizzly Industries, the purchasing manager (authorization) approves purchase orders, the accounts payable clerk (record-keeping) records invoices in the system, and the warehouse supervisor (custody) receives and controls the physical inventory. No single person can order goods, record the purchase, and receive the inventory—reducing the risk that fictitious purchases or theft goes undetected.
 
 :::warning
 
@@ -226,7 +226,7 @@ Internal controls include both **logical (IT) access controls** and **physical c
 | **Logical access controls** | Controls that restrict access to **computer systems, data, and applications** | Passwords, user authentication, role-based access permissions, firewalls, encryption, multi-factor authentication |
 | **Physical controls** | Controls that restrict access to **tangible assets and physical locations** | Locks on doors, security cameras, safes, restricted-access areas, visitor logs, security guards |
 
-**Example:** Illini Security implements both types of controls for its client monitoring data:
+**Example:** Ursa Security implements both types of controls for its client monitoring data:
 - **Physical controls** — The server room is locked with a keycard access system, and only authorized IT personnel can enter
 - **Logical access controls** — The monitoring software requires user authentication with multi-factor verification, and role-based permissions ensure that field technicians can view but not modify client records
 
@@ -261,7 +261,7 @@ It is important to distinguish between **obtaining an understanding** of interna
 | **Obtaining an understanding** | Identify and assess risks; design audit procedures | **Always required** on every audit |
 | **Testing operating effectiveness** | Determine whether controls operated effectively throughout the period | Required only if the auditor **intends to rely on controls** to reduce substantive testing, or for integrated audits of issuers |
 
-**Example:** BIF Partners is auditing Gies Co. The engagement team obtains an understanding of the revenue cycle controls by walking through the process, inspecting policy documents, and making inquiries of accounting personnel. This understanding helps the team identify that Gies Co. lacks a control over credit memo authorization—a potential risk area. The team decides to perform extensive substantive testing of credit memos rather than relying on controls.
+**Example:** Kodiak Partners is auditing Bear Co. The engagement team obtains an understanding of the revenue cycle controls by walking through the process, inspecting policy documents, and making inquiries of accounting personnel. This understanding helps the team identify that Bear Co. lacks a control over credit memo authorization—a potential risk area. The team decides to perform extensive substantive testing of credit memos rather than relying on controls.
 
 :::note
 

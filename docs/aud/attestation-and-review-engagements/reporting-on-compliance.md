@@ -19,7 +19,7 @@ When compliance is the **principal objective** of the engagement, the practition
 - A regulatory agency requires an entity to have a CPA examine its **compliance with specific regulations**
 - A grantor requires a report on a grantee's compliance with **grant terms and conditions**
 
-**Example:** BIF Partners has a revolving credit facility with a \$10 million limit. The lending agreement requires BIF Partners to engage an independent CPA to examine BIF Partners' compliance with certain financial covenants (minimum current ratio, maximum debt-to-equity ratio, and restrictions on capital expenditures). The CPA performs an examination and issues an opinion on whether BIF Partners complied with these requirements.
+**Example:** Kodiak Partners has a revolving credit facility with a \$10 million limit. The lending agreement requires Kodiak Partners to engage an independent CPA to examine Kodiak Partners' compliance with certain financial covenants (minimum current ratio, maximum debt-to-equity ratio, and restrictions on capital expenditures). The CPA performs an examination and issues an opinion on whether Kodiak Partners complied with these requirements.
 
 ---
 
@@ -33,7 +33,7 @@ When the auditor is engaged to audit **financial statements** and the audit also
 
 In these cases, the compliance report relies on evidence obtained during the financial statement audit rather than a separately planned compliance engagement.
 
-**Example:** During the annual audit of Gies Co., the auditor notes that Gies Co.'s loan agreement requires it to maintain a minimum net worth of \$5 million. Based on the audited financial statements, Gies Co.'s net worth is \$6.2 million. The auditor issues a separate report (under AU-C 806) stating that nothing came to the auditor's attention that caused the auditor to believe Gies Co. was not in compliance with the net worth covenant. This report is incidental to the financial statement audit.
+**Example:** During the annual audit of Bear Co., the auditor notes that Bear Co.'s loan agreement requires it to maintain a minimum net worth of \$5 million. Based on the audited financial statements, Bear Co.'s net worth is \$6.2 million. The auditor issues a separate report (under AU-C 806) stating that nothing came to the auditor's attention that caused the auditor to believe Bear Co. was not in compliance with the net worth covenant. This report is incidental to the financial statement audit.
 
 :::tip[Exam Tip]
 
@@ -89,7 +89,7 @@ If management **refuses** to provide the written assertion, the CPA should:
 - Consider the effect on the engagement
 - Ordinarily **withdraw** from the engagement
 
-**Example:** Illini Security is required by a government contract to comply with specific cybersecurity standards. Management provides a written assertion stating: "Illini Security complied, in all material respects, with the cybersecurity requirements of Contract No. 2024-1234 during the year ended December 31, 20X4." The CPA examines this assertion and issues an opinion.
+**Example:** Ursa Security is required by a government contract to comply with specific cybersecurity standards. Management provides a written assertion stating: "Ursa Security complied, in all material respects, with the cybersecurity requirements of Contract No. 2024-1234 during the year ended December 31, 20X4." The CPA examines this assertion and issues an opinion.
 
 ---
 
@@ -126,7 +126,7 @@ When the CPA performs an examination of compliance, the opinion may be **modifie
 ### Disclaimer of Opinion
 - Issued when the CPA is unable to obtain **sufficient appropriate evidence** to form an opinion on compliance (scope limitation)
 
-**Example:** MAS Inc. undergoes an examination of its compliance with a regulatory agency's environmental reporting requirements. The CPA finds that MAS Inc. failed to submit two of six required quarterly reports, and the unreported emissions data represents a significant portion of total reportable emissions. The CPA issues an **adverse opinion** on compliance because the noncompliance is both material and pervasive.
+**Example:** Polar Inc. undergoes an examination of its compliance with a regulatory agency's environmental reporting requirements. The CPA finds that Polar Inc. failed to submit two of six required quarterly reports, and the unreported emissions data represents a significant portion of total reportable emissions. The CPA issues an **adverse opinion** on compliance because the noncompliance is both material and pervasive.
 
 :::tip[Exam Tip]
 
@@ -157,7 +157,7 @@ Government entities and recipients of federal awards face additional compliance 
 | **GAGAS compliance report** | All Yellow Book financial audits | Compliance related to financial statements |
 | **Single audit compliance** | Entities with ≥ \$750,000 federal expenditures | Compliance for each major program |
 
-**Example:** Kingfisher Industries, a nonprofit receiving \$3 million in federal awards, undergoes a single audit. The auditor identifies two major programs and tests compliance for each. For the first program (a workforce training grant), the auditor issues an unqualified compliance opinion. For the second program (a research grant), the auditor finds that Kingfisher Industries failed to meet the cost-sharing requirements, resulting in \$180,000 in questioned costs. The auditor issues a **qualified opinion** on compliance for that program, noting the material noncompliance in the cost-sharing requirement.
+**Example:** Grizzly Industries, a nonprofit receiving \$3 million in federal awards, undergoes a single audit. The auditor identifies two major programs and tests compliance for each. For the first program (a workforce training grant), the auditor issues an unqualified compliance opinion. For the second program (a research grant), the auditor finds that Grizzly Industries failed to meet the cost-sharing requirements, resulting in \$180,000 in questioned costs. The auditor issues a **qualified opinion** on compliance for that program, noting the material noncompliance in the cost-sharing requirement.
 
 :::warning
 

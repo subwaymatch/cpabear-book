@@ -26,11 +26,11 @@ Tests of details examine **individual transactions, balances, or disclosures** t
 
 | Assertion | Example Test of Details |
 |---|---|
-| Existence | Confirm accounts receivable balances with **Gies Co.'s** customers |
-| Completeness | Trace shipping documents from **Kingfisher Industries'** dock to the sales journal |
-| Valuation | Inspect aging reports for **MAS Inc.'s** receivables and evaluate the allowance for doubtful accounts |
-| Rights & Obligations | Examine title documents and loan agreements at **BIF Partners** |
-| Presentation & Disclosure | Review financial statement footnotes for proper classification of **Illini Entertainment's** lease obligations |
+| Existence | Confirm accounts receivable balances with **Bear Co.'s** customers |
+| Completeness | Trace shipping documents from **Grizzly Industries'** dock to the sales journal |
+| Valuation | Inspect aging reports for **Polar Inc.'s** receivables and evaluate the allowance for doubtful accounts |
+| Rights & Obligations | Examine title documents and loan agreements at **Kodiak Partners** |
+| Presentation & Disclosure | Review financial statement footnotes for proper classification of **Honey Entertainment's** lease obligations |
 
 Tests of details are especially useful when:
 
@@ -44,7 +44,7 @@ Substantive analytical procedures evaluate financial data by developing an **ind
 
 :::info[Example]
 
-The auditor estimates **Illini Security's** payroll expense by multiplying the average number of employees by the average wage rate by the number of pay periods. If the recorded payroll expense differs significantly from this expectation, the auditor performs additional procedures to investigate the cause.
+The auditor estimates **Ursa Security's** payroll expense by multiplying the average number of employees by the average wage rate by the number of pay periods. If the recorded payroll expense differs significantly from this expectation, the auditor performs additional procedures to investigate the cause.
 
 :::
 
@@ -91,7 +91,7 @@ Extent refers to the **quantity** of testing—how many items are selected or ho
 
 :::info[Example]
 
-If **MSA Records** has a large number of small customer accounts with inconsistent payment patterns, the auditor may need to confirm a larger sample of receivables compared to a client with fewer, well-established customers.
+If **Panda Records** has a large number of small customer accounts with inconsistent payment patterns, the auditor may need to confirm a larger sample of receivables compared to a client with fewer, well-established customers.
 
 :::
 
@@ -122,13 +122,13 @@ The following table illustrates how different substantive procedures apply to sp
 
 | Account | Test of Details | Substantive Analytical Procedure |
 |---|---|---|
-| **Cash** | Confirm bank balances; inspect bank reconciliations at **Gies Co.** | Compare interest income to average cash balances |
-| **Accounts Receivable** | Confirm customer balances at **Kingfisher Industries**; vouch recorded sales to shipping documents | Compare days sales outstanding to prior years and industry benchmarks |
-| **Inventory** | Observe physical inventory count at **MSA Records**; test pricing by examining vendor invoices | Compare gross margin percentages to prior years |
-| **Fixed Assets** | Inspect assets; examine purchase invoices and title documents at **BIF Partners** | Compare depreciation expense to the asset base and useful lives |
-| **Accounts Payable** | Search for unrecorded liabilities by examining payments after year-end at **MAS Inc.** | Compare ending payables to purchase volume and prior periods |
-| **Revenue** | Vouch recorded revenue to contracts and delivery evidence at **Illini Entertainment** | Compare revenue trends to industry data and prior-year patterns |
-| **Payroll** | Recompute payroll amounts for selected pay periods at **Illini Security** | Estimate total payroll from headcount and average wage data |
+| **Cash** | Confirm bank balances; inspect bank reconciliations at **Bear Co.** | Compare interest income to average cash balances |
+| **Accounts Receivable** | Confirm customer balances at **Grizzly Industries**; vouch recorded sales to shipping documents | Compare days sales outstanding to prior years and industry benchmarks |
+| **Inventory** | Observe physical inventory count at **Panda Records**; test pricing by examining vendor invoices | Compare gross margin percentages to prior years |
+| **Fixed Assets** | Inspect assets; examine purchase invoices and title documents at **Kodiak Partners** | Compare depreciation expense to the asset base and useful lives |
+| **Accounts Payable** | Search for unrecorded liabilities by examining payments after year-end at **Polar Inc.** | Compare ending payables to purchase volume and prior periods |
+| **Revenue** | Vouch recorded revenue to contracts and delivery evidence at **Honey Entertainment** | Compare revenue trends to industry data and prior-year patterns |
+| **Payroll** | Recompute payroll amounts for selected pay periods at **Ursa Security** | Estimate total payroll from headcount and average wage data |
 
 :::note[Exam Strategy]
 
