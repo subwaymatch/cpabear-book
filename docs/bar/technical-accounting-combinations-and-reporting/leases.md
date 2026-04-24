@@ -84,7 +84,7 @@ Where:
 
 ### Example — Bear Co. Sales-Type Lease
 
-Bear Co. manufactures equipment at a cost of **\$72,000** and leases it to Bear Co. on January 1 under the following terms:
+Bear Co. manufactures equipment at a cost of **\$72,000** and leases it to Polar Inc. on January 1 under the following terms:
 | Term | Detail |
 |------|--------|
 | Fair value of equipment | \$86,590 |
@@ -336,7 +336,7 @@ When the transfer qualifies as a sale and the transaction is at **fair value**:
 
 ### Example — Bear Co. Sale and Leaseback
 
-Bear Co. sells a building to Bear Co. on January 1 and simultaneously leases it back:
+Bear Co. sells a building to Polar Inc. on January 1 and simultaneously leases it back:
 | Item | Amount |
 |------|--------|
 | Carrying amount of building | \$400,000 |
@@ -345,7 +345,7 @@ Bear Co. sells a building to Bear Co. on January 1 and simultaneously leases it 
 | Building remaining useful life | 30 years |
 | Annual lease payment (end of year) | \$72,000 |
 | Bear Co.'s incremental borrowing rate | 6% |
-**Step 1 — Confirm the sale qualifies** under ASC 606. Bear Co. obtains title and Bear Co. has no repurchase option → sale is valid.
+**Step 1 — Confirm the sale qualifies** under ASC 606. Polar Inc. obtains title and Bear Co. has no repurchase option → sale is valid.
 **Step 2 — Classify the leaseback (lessee perspective):**
 
 - **E** — 10 / 30 = 33% < 75% ✗

@@ -274,7 +274,7 @@ A modification is a **separate contract** when **both** conditions are met:
 
 ### Scenario 3 — Licenses of Intellectual Property
 
-Bear Co. licenses its proprietary analytics software to Bear Co. The contract includes:
+Bear Co. licenses its proprietary analytics software to Polar Inc. The contract includes:
 
 - A three-year software license for \$300,000
 - Ongoing updates that significantly change the software's functionality
@@ -388,9 +388,9 @@ graph TD
 
 ### Comprehensive Example — Bear Co. Multi-Element Contract
 
-Bear Co. enters a contract with Bear Co. containing the following elements:
+Bear Co. enters a contract with Polar Inc. containing the following elements:
 
-- **Custom equipment** built to Bear Co.'s specifications — delivery in 6 months
+- **Custom equipment** built to Polar Inc.'s specifications — delivery in 6 months
 - **Installation services** — completed over 2 weeks after delivery
 - **2-year maintenance agreement** — quarterly on-site inspections
 - **Performance bonus** — Bear Co. earns \$40,000 if the equipment achieves a specified output threshold within 90 days of installation

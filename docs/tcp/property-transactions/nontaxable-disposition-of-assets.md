@@ -95,7 +95,7 @@ Boot property received (non-like-kind property) gets a **new** holding period st
 
 ### Example 1: Basic Like-Kind Exchange (No Boot)
 
-> **Example:** Bear Co. owns a warehouse (adjusted basis \$200,000, FMV \$350,000) used in its business. Bear Co. exchanges the warehouse directly for an office building (FMV \$350,000) owned by Bear Co., also used in business.
+> **Example:** Bear Co. owns a warehouse (adjusted basis \$200,000, FMV \$350,000) used in its business. Bear Co. exchanges the warehouse directly for an office building (FMV \$350,000) owned by Polar Inc., also used in business.
 
 | Step | Calculation | Amount |
 |---|---|---|
