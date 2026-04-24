@@ -33,14 +33,14 @@ A principal's liability to third parties depends on whether the agent acted with
 
 | Type | Description | Example |
 |---|---|---|
-| **Express** | Explicitly stated in words (oral or written) | Gies Co.'s board resolution authorizing the CEO to sign contracts up to \$500,000 |
+| **Express** | Explicitly stated in words (oral or written) | Polar Co.'s board resolution authorizing the CEO to sign contracts up to \$500,000 |
 | **Implied** | Reasonably necessary to carry out express authority, based on custom or the agent's position | The CEO's authority to hire staff needed to perform an authorized contract |
 
 ### Apparent Authority
 
 **Apparent authority** arises when a principal's conduct causes a **reasonable third party** to believe the agent has authority — even if no actual authority exists. The key is the principal's actions, not the agent's claims.
 
-> **Example:** MAS Inc. has always allowed its sales manager to negotiate and sign contracts with vendors. MAS Inc. secretly revokes this authority but does not notify vendors. When the sales manager signs a new contract with a vendor, MAS Inc. is bound because the vendor reasonably relied on the sales manager's apparent authority.
+> **Example:** Kodiak Inc. has always allowed its sales manager to negotiate and sign contracts with vendors. Kodiak Inc. secretly revokes this authority but does not notify vendors. When the sales manager signs a new contract with a vendor, Kodiak Inc. is bound because the vendor reasonably relied on the sales manager's apparent authority.
 
 ### Authority by Ratification
 
@@ -73,7 +73,7 @@ An agent owes **fiduciary duties** to the principal:
 | **Accounting** | Keep accurate records of all transactions involving the principal's property or funds |
 | **Notification** | Inform the principal of all material facts relevant to the agency |
 
-> **Example:** BIF Partners appoints an agent to purchase commercial real estate. The agent learns that the seller is willing to accept a much lower price than what the principal authorized. The agent has a duty of **notification** — she must inform BIF Partners of this material fact rather than pocketing the difference.
+> **Example:** Grizzly Partners appoints an agent to purchase commercial real estate. The agent learns that the seller is willing to accept a much lower price than what the principal authorized. The agent has a duty of **notification** — she must inform Grizzly Partners of this material fact rather than pocketing the difference.
 
 ---
 
@@ -106,7 +106,7 @@ When the principal is **undisclosed**, the agent is **always** liable on the con
 
 :::
 
-> **Example:** Illini Security authorizes an agent to lease office space without revealing that Illini Security is the actual tenant. The landlord believes the agent is leasing for himself. This is an **undisclosed principal** situation — both Illini Security and the agent are potentially liable on the lease.
+> **Example:** Honey Security authorizes an agent to lease office space without revealing that Honey Security is the actual tenant. The landlord believes the agent is leasing for himself. This is an **undisclosed principal** situation — both Honey Security and the agent are potentially liable on the lease.
 
 ### Tort Liability
 
@@ -137,7 +137,7 @@ A principal who hires an independent contractor is generally **not** liable for 
 
 :::
 
-> **Example:** Kingfisher Industries hires MSA Records (an independent contractor) to perform demolition work at a construction site. Demolition is considered **inherently dangerous** activity. Kingfisher Industries may be vicariously liable for injuries caused by MSA Records' negligence despite MSA Records' independent contractor status.
+> **Example:** Panda Industries hires Cub Records (an independent contractor) to perform demolition work at a construction site. Demolition is considered **inherently dangerous** activity. Panda Industries may be vicariously liable for injuries caused by Cub Records' negligence despite Cub Records' independent contractor status.
 
 ---
 

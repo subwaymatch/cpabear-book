@@ -637,7 +637,7 @@ Gambling losses are deductible as an **itemized deduction**, but only to the ext
 
 ### Example
 
-Illini Entertainment sponsors a corporate retreat at a casino. Jamie, an employee attending on personal time, wins \$4,200 at poker and loses \$6,500 at blackjack during the year. Jamie includes **\$4,200** in gross income and may deduct up to **\$4,200** of gambling losses as an itemized deduction. The remaining \$2,300 of losses is not deductible.
+Salmon Entertainment sponsors a corporate retreat at a casino. Jamie, an employee attending on personal time, wins \$4,200 at poker and loses \$6,500 at blackjack during the year. Jamie includes **\$4,200** in gross income and may deduct up to **\$4,200** of gambling losses as an itemized deduction. The remaining \$2,300 of losses is not deductible.
 
 ---
 
@@ -687,7 +687,7 @@ These limitations ensure that the deduction benefits businesses with substantial
 
 ### Example
 
-BIF Partners operates a landscaping business (a QTB, not an SSTB). The partnership allocates \$180,000 of QBI to Sarah, who files as Single with taxable income of \$160,000 (below the threshold). Sarah's Section 199A deduction:
+Grizzly Partners operates a landscaping business (a QTB, not an SSTB). The partnership allocates \$180,000 of QBI to Sarah, who files as Single with taxable income of \$160,000 (below the threshold). Sarah's Section 199A deduction:
 
 $$
 20\% \times \$180{,}000 = \$36{,}000

@@ -115,7 +115,7 @@ Gross income includes — but is not limited to — compensation for services, b
 
 All cash and non-cash compensation is included in gross income. Tips of \$20 or more in a month must be reported to the employer.
 
-> **Example:** Gies Co. pays its controller a \$120,000 salary and provides a \$5,000 country-club membership used for personal recreation. The controller reports \$125,000 in gross income.
+> **Example:** Polar Co. pays its controller a \$120,000 salary and provides a \$5,000 country-club membership used for personal recreation. The controller reports \$125,000 in gross income.
 
 ### Interest Income
 
@@ -141,7 +141,7 @@ To be **qualified**, dividends must be paid by a U.S. corporation (or qualifying
 
 Rental income is included in gross income and offset by deductible rental expenses such as mortgage interest, property taxes, insurance, repairs, and depreciation. Passive activity loss rules generally limit the deduction of rental losses.
 
-> **Example:** MAS Inc.'s sole shareholder rents a duplex and reports \$18,000 of rental income. Deductible expenses total \$22,000, creating a \$4,000 rental loss. If the owner actively participates and has AGI under \$100,000, up to \$25,000 of the loss may be deducted against nonpassive income.
+> **Example:** Kodiak Inc.'s sole shareholder rents a duplex and reports \$18,000 of rental income. Deductible expenses total \$22,000, creating a \$4,000 rental loss. If the owner actively participates and has AGI under \$100,000, up to \$25,000 of the loss may be deducted against nonpassive income.
 
 ### Alimony
 
@@ -185,7 +185,7 @@ Cancellation of debt generally produces gross income equal to the amount forgive
 4. Discharging **qualified real property business indebtedness**.
 5. Discharging **qualified principal residence indebtedness** (subject to sunset dates).
 
-> **Example:** Kingfisher Industries owes \$200,000 on a business loan. The lender agrees to accept \$150,000 in full settlement. Kingfisher has assets of \$500,000 and liabilities of \$600,000 (insolvent by \$100,000). Of the \$50,000 discharge, \$100,000 of insolvency exceeds the discharge amount, so the entire \$50,000 is excluded.
+> **Example:** Panda Industries owes \$200,000 on a business loan. The lender agrees to accept \$150,000 in full settlement. Panda has assets of \$500,000 and liabilities of \$600,000 (insolvent by \$100,000). Of the \$50,000 discharge, \$100,000 of insolvency exceeds the discharge amount, so the entire \$50,000 is excluded.
 
 ### Life Insurance Proceeds
 
@@ -207,7 +207,7 @@ In **community property states** (Arizona, California, Idaho, Louisiana, Nevada,
 
 Owners of **S corporations, partnerships, and LLCs** taxed as partnerships report their distributive share of income whether or not cash is distributed. The character of each item (ordinary, capital gain, tax-exempt) passes through to the owner.
 
-> **Example:** BIF Partners earns \$300,000 of ordinary business income and \$40,000 of long-term capital gains. Partner A, a 25% partner, reports \$75,000 of ordinary income and \$10,000 of LTCG on her individual return, regardless of actual distributions.
+> **Example:** Grizzly Partners earns \$300,000 of ordinary business income and \$40,000 of long-term capital gains. Partner A, a 25% partner, reports \$75,000 of ordinary income and \$10,000 of LTCG on her individual return, regardless of actual distributions.
 
 ### Constructive Receipt Doctrine
 
@@ -223,13 +223,13 @@ A year-end bonus check available for pickup on December 30 is taxable in that ye
 
 Income is taxed to the person who **earns** it. A taxpayer cannot shift income by directing payment to another party. The "fruit and tree" metaphor from *Lucas v. Earl* (1930) holds that the fruit (income) is taxed to the tree (earner).
 
-> **Example:** Illini Entertainment's lead performer directs that \$50,000 of her concert fees be paid directly to her brother. The performer must still include the \$50,000 in her gross income.
+> **Example:** Salmon Entertainment's lead performer directs that \$50,000 of her concert fees be paid directly to her brother. The performer must still include the \$50,000 in her gross income.
 
 ### Tax Benefit Rule
 
 If a taxpayer received a **tax benefit** from a deduction in a prior year (e.g., a state tax refund after itemizing state taxes), the recovery must be included in gross income in the year received — but **only to the extent the prior deduction reduced tax**.
 
-> **Example:** Illini Security's owner deducted \$6,000 of state income taxes in Year 1 (itemized deductions exceeded the standard deduction by \$2,000). In Year 2, the owner receives a \$1,500 state refund. Because the refund is less than the \$2,000 excess benefit, the entire \$1,500 is included in Year 2 gross income.
+> **Example:** Honey Security's owner deducted \$6,000 of state income taxes in Year 1 (itemized deductions exceeded the standard deduction by \$2,000). In Year 2, the owner receives a \$1,500 state refund. Because the refund is less than the \$2,000 excess benefit, the entire \$1,500 is included in Year 2 gross income.
 
 ---
 

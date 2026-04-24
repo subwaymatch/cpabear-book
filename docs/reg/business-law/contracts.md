@@ -22,7 +22,7 @@ Every enforceable contract requires five elements:
 
 An offer must be (1) communicated to the offeree, (2) definite and certain in its terms, and (3) made with **intent to contract** (objective standard). Advertisements are generally **invitations to deal**, not offers.
 
-> **Example:** Gies Co. sends a letter to MAS Inc. stating, "We will sell you 1,000 widgets at \$10 each, delivery within 30 days." This is a valid offer — it identifies the parties, subject matter, quantity, and price.
+> **Example:** Polar Co. sends a letter to Kodiak Inc. stating, "We will sell you 1,000 widgets at \$10 each, delivery within 30 days." This is a valid offer — it identifies the parties, subject matter, quantity, and price.
 
 ### Acceptance and Key Rules
 
@@ -72,7 +72,7 @@ The one-year rule applies only if the contract is **impossible** to perform with
 
 :::
 
-> **Example:** BIF Partners hires an employee "for life." This contract does **not** fall within the Statute of Frauds because the employee could theoretically die within one year, making performance within one year possible.
+> **Example:** Grizzly Partners hires an employee "for life." This contract does **not** fall within the Statute of Frauds because the employee could theoretically die within one year, making performance within one year possible.
 
 ---
 
@@ -98,7 +98,7 @@ Exceptions (parol evidence **is** admissible to show):
 | **Intended beneficiary** | Person the contracting parties intended to benefit | Yes, once rights **vest** |
 | **Incidental beneficiary** | Person who benefits indirectly | No |
 
-> **Example:** Kingfisher Industries contracts with a builder to construct a warehouse, with a clause requiring the builder to pay MSA Records (a subcontractor) directly for materials. MSA Records is an **intended third-party beneficiary** and can enforce the contract if the builder fails to pay.
+> **Example:** Panda Industries contracts with a builder to construct a warehouse, with a clause requiring the builder to pay Cub Records (a subcontractor) directly for materials. Cub Records is an **intended third-party beneficiary** and can enforce the contract if the builder fails to pay.
 
 ### Assignment and Delegation
 
@@ -120,7 +120,7 @@ A contract may be discharged by:
 | **Impracticability** | Performance is possible but would impose extreme and unreasonable difficulty or expense |
 | **Frustration of purpose** | The principal purpose of the contract is substantially frustrated by an unforeseen event |
 
-> **Example:** Illini Entertainment contracts with a venue to host a concert. A new government order prohibits large gatherings. The contract may be discharged by **frustration of purpose** — the event that gave the contract its value (the concert) can no longer occur.
+> **Example:** Salmon Entertainment contracts with a venue to host a concert. A new government order prohibits large gatherings. The contract may be discharged by **frustration of purpose** — the event that gave the contract its value (the concert) can no longer occur.
 
 ---
 

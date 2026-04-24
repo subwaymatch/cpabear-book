@@ -205,7 +205,7 @@ C corporations follow different rules for capital gains and losses than individu
 | **Capital loss carryback** | Not allowed | **3-year carryback** |
 | **Capital loss carryforward** | Indefinite, retains character | **5-year carryforward**, treated as **short-term** regardless of original character |
 
-> **Example:** Kingfisher Industries (a C corporation) has \$50,000 in ordinary business income and a net capital loss of \$20,000 this year. Kingfisher **cannot** deduct any of the \$20,000 against ordinary income. Instead, Kingfisher carries the loss back 3 years to offset capital gains in those years. Any remaining unused loss carries forward for up to 5 years as a short-term capital loss.
+> **Example:** Panda Industries (a C corporation) has \$50,000 in ordinary business income and a net capital loss of \$20,000 this year. Panda **cannot** deduct any of the \$20,000 against ordinary income. Instead, Panda carries the loss back 3 years to offset capital gains in those years. Any remaining unused loss carries forward for up to 5 years as a short-term capital loss.
 
 :::warning
 
@@ -260,7 +260,7 @@ A **wash sale** occurs when a taxpayer sells a security at a loss and purchases 
 
 **Effect:** The loss is **disallowed**, but it is not permanently lost. The disallowed loss is added to the basis of the replacement securities.
 
-> **Example:** On November 10, Sarah sells 100 shares of BIF Partners stock for \$4,000, realizing a \$3,000 loss (basis was \$7,000). On November 25 — within 30 days — Sarah buys 100 shares of the same BIF Partners stock for \$4,500.
+> **Example:** On November 10, Sarah sells 100 shares of Grizzly Partners stock for \$4,000, realizing a \$3,000 loss (basis was \$7,000). On November 25 — within 30 days — Sarah buys 100 shares of the same Grizzly Partners stock for \$4,500.
 >
 > - The \$3,000 loss is **disallowed** under the wash sale rule
 > - Sarah's basis in the new shares = \$4,500 + \$3,000 = **\$7,500**

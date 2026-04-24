@@ -72,7 +72,7 @@ A cash-basis sole proprietor generally has **no basis** in accounts receivable b
 
 :::
 
-**Example:** Sarah operates Gies Co. (accrual basis). She billed a client \$8,000 and included it in income. When the client goes bankrupt and the receivable becomes worthless, Sarah deducts \$8,000 as a business bad debt — an ordinary deduction on Schedule C.
+**Example:** Sarah operates Polar Co. (accrual basis). She billed a client \$8,000 and included it in income. When the client goes bankrupt and the receivable becomes worthless, Sarah deducts \$8,000 as a business bad debt — an ordinary deduction on Schedule C.
 
 ---
 
@@ -130,7 +130,7 @@ Self-employment tax is one of the biggest distinctions between a sole proprietor
 
 :::
 
-**Example:** Marcus operates Illini Entertainment as a sole proprietorship and earns net Schedule C income of \$120,000.
+**Example:** Marcus operates Salmon Entertainment as a sole proprietorship and earns net Schedule C income of \$120,000.
 
 | Calculation | Amount |
 |-------------|--------|

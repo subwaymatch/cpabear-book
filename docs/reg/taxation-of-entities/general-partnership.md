@@ -67,7 +67,7 @@ Partnership income is divided into two categories:
 | Investment interest expense | Subject to investment interest limitation |
 | Self-employment earnings | Used for SE tax computation |
 
-**Example:** BIF Partners (a general partnership with two equal partners, Jamie and Sarah) has \$200,000 of ordinary business income, \$30,000 of long-term capital gain, and \$10,000 of charitable contributions. Each partner's K-1 reports \$100,000 of ordinary income, \$15,000 of LTCG, and \$5,000 of charitable contributions. The charitable contributions are separately stated because each partner's deduction depends on their own AGI.
+**Example:** Grizzly Partners (a general partnership with two equal partners, Jamie and Sarah) has \$200,000 of ordinary business income, \$30,000 of long-term capital gain, and \$10,000 of charitable contributions. Each partner's K-1 reports \$100,000 of ordinary income, \$15,000 of LTCG, and \$5,000 of charitable contributions. The charitable contributions are separately stated because each partner's deduction depends on their own AGI.
 
 ---
 
@@ -84,7 +84,7 @@ A **guaranteed payment** is a payment to a partner for services rendered or for 
 | Self-employment tax | **Subject to SE tax** for the receiving partner |
 | Timing | Included in the partner's income for the **partnership's tax year** in which the partnership deducted the payment |
 
-**Example:** Marcus is a partner in BIF Partners and receives a guaranteed payment of \$60,000 for management services. BIF Partners deducts the \$60,000 as an expense. Marcus reports \$60,000 as ordinary income on his Form 1040, and it is included in his self-employment income — even if BIF Partners had a loss for the year.
+**Example:** Marcus is a partner in Grizzly Partners and receives a guaranteed payment of \$60,000 for management services. Grizzly Partners deducts the \$60,000 as an expense. Marcus reports \$60,000 as ordinary income on his Form 1040, and it is included in his self-employment income — even if Grizzly Partners had a loss for the year.
 
 :::tip[Guaranteed Payments vs. Distributions]
 
@@ -106,7 +106,7 @@ The \$5,000 immediate deduction is **reduced dollar-for-dollar** when total cost
 | **Start-up** | Market research, advertising before operations begin, employee training | Up to \$5,000 immediate + 180-month amortization |
 | **Syndication costs** | Commissions and fees for selling partnership interests | **Never deductible** — must be capitalized |
 
-**Example:** BIF Partners incurs \$3,500 in organizational costs and \$52,000 in start-up costs. The organizational costs (\$3,500) are fully deductible immediately. For start-up costs, the \$5,000 immediate deduction is reduced by \$2,000 (\$52,000 − \$50,000), so BIF deducts \$3,000 immediately and amortizes the remaining \$49,000 over 180 months.
+**Example:** Grizzly Partners incurs \$3,500 in organizational costs and \$52,000 in start-up costs. The organizational costs (\$3,500) are fully deductible immediately. For start-up costs, the \$5,000 immediate deduction is reduced by \$2,000 (\$52,000 − \$50,000), so Grizzly Partners deducts \$3,000 immediately and amortizes the remaining \$49,000 over 180 months.
 
 :::caution[Syndication Costs]
 
@@ -125,7 +125,7 @@ For higher-income taxpayers, the deduction may be limited by:
 - **Unadjusted basis immediately after acquisition (UBIA)** of qualified property
 - Whether the business is a **specified service trade or business (SSTB)**
 
-**Example:** Jamie's share of BIF Partners' qualified business income is \$100,000. If she is under the income threshold, her QBI deduction is 20% × \$100,000 = **\$20,000** — a deduction taken on her personal return.
+**Example:** Jamie's share of Grizzly Partners' qualified business income is \$100,000. If she is under the income threshold, her QBI deduction is 20% × \$100,000 = **\$20,000** — a deduction taken on her personal return.
 
 ---
 
@@ -171,7 +171,7 @@ A critical distinction from S corporations: in a partnership, a partner's share 
 
 **Example — Outside basis computation:**
 
-Sarah contributes \$40,000 cash to BIF Partners for a 50% interest. The partnership borrows \$100,000 from a bank (recourse). Sarah's share of liabilities is \$50,000.
+Sarah contributes \$40,000 cash to Grizzly Partners for a 50% interest. The partnership borrows \$100,000 from a bank (recourse). Sarah's share of liabilities is \$50,000.
 
 | Item | Amount |
 |------|--------|
@@ -210,7 +210,7 @@ If a partner sells or abandons a partnership interest while suspended losses rem
 
 :::
 
-**Example:** Jamie's outside basis in BIF Partners is \$15,000. Her share of ordinary losses for the year is \$22,000. She can deduct only \$15,000 (reducing her basis to zero). The remaining \$7,000 is suspended and carries forward. If Jamie sells her interest next year before restoring basis, the \$7,000 is lost forever.
+**Example:** Jamie's outside basis in Grizzly Partners is \$15,000. Her share of ordinary losses for the year is \$22,000. She can deduct only \$15,000 (reducing her basis to zero). The remaining \$7,000 is suspended and carries forward. If Jamie sells her interest next year before restoring basis, the \$7,000 is lost forever.
 
 ### Full loss limitation ordering
 

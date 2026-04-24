@@ -98,7 +98,7 @@ This more severe penalty applies when a preparer's conduct rises to the level of
 
 **Penalty amount:** The **greater of \$5,000 or 75%** of the income derived (or to be derived) by the preparer with respect to the return.
 
-> **Example:** Sarah, a preparer at Gies Co., intentionally ignores Treasury Regulations and fabricates deductions to reduce a client's tax liability. She earned a \$10,000 fee. Her penalty is the greater of \$5,000 or 75% × \$10,000 = **\$7,500**.
+> **Example:** Sarah, a preparer at Polar Co., intentionally ignores Treasury Regulations and fabricates deductions to reduce a client's tax liability. She earned a \$10,000 fee. Her penalty is the greater of \$5,000 or 75% × \$10,000 = **\$7,500**.
 
 :::caution
 
@@ -128,7 +128,7 @@ A preparer must **never** endorse or cash a client's refund check. Even depositi
 
 :::
 
-> **Example:** Jamie, a preparer at MAS Inc., files 600 returns during the tax season. On 10 of those returns, Jamie fails to include the PTIN. The total penalty is 10 × \$50 = **\$500**.
+> **Example:** Jamie, a preparer at Kodiak Inc., files 600 returns during the tax season. On 10 of those returns, Jamie fails to include the PTIN. The total penalty is 10 × \$50 = **\$500**.
 
 ---
 
@@ -148,7 +148,7 @@ Tax return preparers have a duty to protect client information. Unauthorized dis
 - **Civil penalty (§6713):** \$250 per disclosure (max \$10,000/year)
 - **Criminal penalty (§7216):** Up to \$1,000 fine and/or up to 1 year imprisonment per violation
 
-> **Example:** Derek, a tax preparer at Illini Security, shares a client's financial data with a mortgage broker without the client's written consent. Derek faces a \$250 civil penalty under §6713 and potential criminal prosecution under §7216.
+> **Example:** Derek, a tax preparer at Honey Security, shares a client's financial data with a mortgage broker without the client's written consent. Derek faces a \$250 civil penalty under §6713 and potential criminal prosecution under §7216.
 
 ---
 
@@ -179,7 +179,7 @@ The IRS uses several methods to select returns for examination:
 | **Office audit** | The taxpayer is asked to appear at a local IRS office with records; typically covers a few specific issues | Moderate |
 | **Field audit** | An IRS revenue agent visits the taxpayer's home or place of business to conduct a comprehensive examination of books and records | Most complex |
 
-> **Example:** Kingfisher Industries, a mid-size manufacturer, reported unusually high cost of goods sold relative to revenue. The IRS DIF score flagged the return, and a revenue agent was assigned to conduct a **field audit** at Kingfisher's corporate offices.
+> **Example:** Panda Industries, a mid-size manufacturer, reported unusually high cost of goods sold relative to revenue. The IRS DIF score flagged the return, and a revenue agent was assigned to conduct a **field audit** at Panda's corporate offices.
 
 ---
 

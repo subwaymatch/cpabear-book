@@ -6,7 +6,7 @@ The **Sales Article of the UCC (Uniform Commercial Code Article 2)** governs the
 
 :::info[Goods vs. Services]
 
-If Kingfisher Industries hires a contractor to install a custom HVAC system, the contract may involve both goods (the HVAC unit) and services (installation labor). If the primary purpose is acquiring the goods, the UCC applies. If the primary purpose is the service, common law governs.
+If Panda Industries hires a contractor to install a custom HVAC system, the contract may involve both goods (the HVAC unit) and services (installation labor). If the primary purpose is acquiring the goods, the UCC applies. If the primary purpose is the service, common law governs.
 
 :::
 
@@ -60,7 +60,7 @@ The maximum irrevocability period is **3 months**. If the offer states it will b
 
 :::caution
 
-If Gies Co. (a merchant) sends Bear Co. a signed letter stating, "We will hold this offer open for 6 months," the offer is firm for only **3 months**. After that, Gies Co. can revoke at any time before Bear Co. accepts. No consideration is needed for the first 3 months.
+If Polar Co. (a merchant) sends Bear Co. a signed letter stating, "We will hold this offer open for 6 months," the offer is firm for only **3 months**. After that, Polar Co. can revoke at any time before Bear Co. accepts. No consideration is needed for the first 3 months.
 
 :::
 
@@ -79,7 +79,7 @@ Under UCC § 2-207 (the "Battle of the Forms"):
 
 :::note[Example]
 
-MAS Inc. offers to sell 500 units of inventory to Illini Entertainment at \$20 per unit. Illini Entertainment responds: "We accept, and we require that all disputes be resolved by arbitration." The arbitration clause is an **additional term**. If both parties are merchants, the arbitration clause becomes part of the contract unless it materially alters the deal or MAS Inc. timely objects.
+Kodiak Inc. offers to sell 500 units of inventory to Salmon Entertainment at \$20 per unit. Salmon Entertainment responds: "We accept, and we require that all disputes be resolved by arbitration." The arbitration clause is an **additional term**. If both parties are merchants, the arbitration clause becomes part of the contract unless it materially alters the deal or Kodiak Inc. timely objects.
 
 :::
 
@@ -105,7 +105,7 @@ Under the UCC, an agreement to **modify** an existing contract for the sale of g
 
 :::tip
 
-If BIF Partners agrees to buy 1,000 widgets from Kingfisher Industries at \$10 each, and the parties later agree to increase the price to \$12 due to a raw materials shortage, the modification is enforceable under the UCC **without additional consideration** — as long as it was made in good faith and not under duress.
+If Grizzly Partners agrees to buy 1,000 widgets from Panda Industries at \$10 each, and the parties later agree to increase the price to \$12 due to a raw materials shortage, the modification is enforceable under the UCC **without additional consideration** — as long as it was made in good faith and not under duress.
 
 :::
 
@@ -136,7 +136,7 @@ A contract for the sale of goods priced at **\$500 or more** must be evidenced b
 
 :::caution
 
-Illini Security (a merchant) orally agrees to purchase \$5,000 in surveillance cameras from Gies Co. (also a merchant). Gies Co. sends a written confirmation. If Illini Security does not object in writing within **10 days**, the contract is enforceable under the merchant confirmation exception — even though Illini Security never signed anything.
+Honey Security (a merchant) orally agrees to purchase \$5,000 in surveillance cameras from Polar Co. (also a merchant). Polar Co. sends a written confirmation. If Honey Security does not object in writing within **10 days**, the contract is enforceable under the merchant confirmation exception — even though Honey Security never signed anything.
 
 :::
 
@@ -146,7 +146,7 @@ A seller may be excused from performance if delivery has become **commercially i
 
 :::note
 
-If a government embargo prevents Kingfisher Industries from obtaining raw materials needed to fulfill an order, Kingfisher Industries may be excused under the impracticability doctrine. However, if the price of raw materials simply doubles, Kingfisher Industries is generally **not** excused.
+If a government embargo prevents Panda Industries from obtaining raw materials needed to fulfill an order, Panda Industries may be excused under the impracticability doctrine. However, if the price of raw materials simply doubles, Panda Industries is generally **not** excused.
 
 :::
 
@@ -212,7 +212,7 @@ A party who **breaches** the contract bears the risk of loss — even if the ris
 
 :::warning
 
-MAS Inc. ships nonconforming goods to BIF Partners. The goods are damaged in transit. Even though this is a shipment contract (risk normally passes at the carrier), MAS Inc. bears the risk because it breached by shipping nonconforming goods.
+Kodiak Inc. ships nonconforming goods to Grizzly Partners. The goods are damaged in transit. Even though this is a shipment contract (risk normally passes at the carrier), Kodiak Inc. bears the risk because it breached by shipping nonconforming goods.
 
 :::
 
@@ -243,7 +243,7 @@ An **express warranty** is created when the seller makes an **affirmation of fac
 
 :::caution[Key Rule]
 
-Express warranties **cannot be disclaimed**. Any attempt to disclaim an express warranty that conflicts with the warranty is inoperative. If Illini Entertainment's sales brochure states that a sound system "produces 500 watts of power," this is an express warranty that cannot be disclaimed by fine-print language saying "no warranties, express or implied."
+Express warranties **cannot be disclaimed**. Any attempt to disclaim an express warranty that conflicts with the warranty is inoperative. If Salmon Entertainment's sales brochure states that a sound system "produces 500 watts of power," this is an express warranty that cannot be disclaimed by fine-print language saying "no warranties, express or implied."
 
 :::
 
@@ -261,7 +261,7 @@ A seller who is a **merchant** also warrants against **infringement** — that t
 
 :::note
 
-This warranty protects the buyer from surprises like discovering the purchased goods are subject to a creditor's lien or another party's ownership claim. If Bear Co. buys equipment from Gies Co. and it turns out a bank has a perfected security interest in that equipment, Gies Co. has breached the warranty of title.
+This warranty protects the buyer from surprises like discovering the purchased goods are subject to a creditor's lien or another party's ownership claim. If Bear Co. buys equipment from Polar Co. and it turns out a bank has a perfected security interest in that equipment, Polar Co. has breached the warranty of title.
 
 :::
 
@@ -280,7 +280,7 @@ The **implied warranty of merchantability** arises automatically in every sale b
 
 :::tip
 
-If Kingfisher Industries, a manufacturer of industrial pumps, sells a pump that fails during normal use within weeks of delivery, the implied warranty of merchantability has been breached. The pump was not fit for the ordinary purpose of pumping.
+If Panda Industries, a manufacturer of industrial pumps, sells a pump that fails during normal use within weeks of delivery, the implied warranty of merchantability has been breached. The pump was not fit for the ordinary purpose of pumping.
 
 :::
 
@@ -296,7 +296,7 @@ Unlike merchantability, this warranty can arise from **any seller** — not just
 
 :::note[Example]
 
-Illini Security tells MAS Inc. (a chemical supplier) that it needs a cleaning solution strong enough to remove industrial adhesive residue from surveillance camera lenses without damaging the coatings. MAS Inc. recommends Product X. If Product X damages the lens coatings, MAS Inc. has breached the implied warranty of fitness for a particular purpose — even if Product X works perfectly for general cleaning.
+Honey Security tells Kodiak Inc. (a chemical supplier) that it needs a cleaning solution strong enough to remove industrial adhesive residue from surveillance camera lenses without damaging the coatings. Kodiak Inc. recommends Product X. If Product X damages the lens coatings, Kodiak Inc. has breached the implied warranty of fitness for a particular purpose — even if Product X works perfectly for general cleaning.
 
 :::
 
@@ -340,7 +340,7 @@ When **reasonable grounds for insecurity** arise about the other party's ability
 
 :::tip
 
-BIF Partners contracts to buy \$100,000 in inventory from Gies Co. BIF Partners then learns Gies Co. has defaulted on several supplier payments. BIF Partners may demand written assurances from Gies Co. that it will perform. If Gies Co. fails to respond within 30 days, BIF Partners may treat the contract as repudiated.
+Grizzly Partners contracts to buy \$100,000 in inventory from Polar Co. Grizzly Partners then learns Polar Co. has defaulted on several supplier payments. Grizzly Partners may demand written assurances from Polar Co. that it will perform. If Polar Co. fails to respond within 30 days, Grizzly Partners may treat the contract as repudiated.
 
 :::
 
@@ -397,7 +397,7 @@ The UCC does **not** provide for punitive damages. Remedies are designed to put 
 
 :::warning[Key Rule]
 
-If Illini Entertainment delivers a vintage guitar to a music store (a merchant that deals in guitars) for repair, and the music store mistakenly sells the guitar to a customer who buys in good faith, the customer obtains **good title** to the guitar. Illini Entertainment's remedy is against the music store — not the innocent buyer. This rule protects good-faith purchasers who buy from merchants in the ordinary course of business.
+If Salmon Entertainment delivers a vintage guitar to a music store (a merchant that deals in guitars) for repair, and the music store mistakenly sells the guitar to a customer who buys in good faith, the customer obtains **good title** to the guitar. Salmon Entertainment's remedy is against the music store — not the innocent buyer. This rule protects good-faith purchasers who buy from merchants in the ordinary course of business.
 
 :::
 

@@ -40,7 +40,7 @@ A partnership is a **pass-through entity** for tax purposes — it does not pay 
 
 :::
 
-> **Example:** BIF Partners is formed by three individuals who agree to share profits equally. Partner A, acting within the scope of the partnership business, signs a lease. All three partners are personally liable for the lease obligation, even if Partners B and C did not authorize the lease.
+> **Example:** Grizzly Partners is formed by three individuals who agree to share profits equally. Partner A, acting within the scope of the partnership business, signs a lease. All three partners are personally liable for the lease obligation, even if Partners B and C did not authorize the lease.
 
 ---
 
@@ -75,7 +75,7 @@ An **LLC** combines the **liability protection** of a corporation with the **tax
 | **Taxation** | Default: pass-through (partnership taxation for multi-member; disregarded entity for single-member). May elect to be taxed as a corporation. |
 | **Transferability** | Economic interest is transferable; full membership rights require consent of other members (unless the operating agreement provides otherwise) |
 
-> **Example:** Illini Entertainment forms an LLC with three members. The operating agreement designates two members as managers. All three members enjoy limited liability, and the LLC is taxed as a partnership — each member reports their share of income on Schedule K-1.
+> **Example:** Salmon Entertainment forms an LLC with three members. The operating agreement designates two members as managers. All three members enjoy limited liability, and the LLC is taxed as a partnership — each member reports their share of income on Schedule K-1.
 
 :::tip[Exam Tip]
 
@@ -96,7 +96,7 @@ An **LLP** is a general partnership that has elected LLP status by filing with t
 | **Own acts** | Each partner remains liable for their **own** negligence and the acts of those they directly supervise |
 | **Common use** | Professional firms (accounting, law) |
 
-> **Example:** Gies Co. is an accounting firm organized as an LLP. Partner A commits malpractice during an audit. Partner B is **not** personally liable for Partner A's malpractice, but Partner A and the firm's assets are exposed.
+> **Example:** Polar Co. is an accounting firm organized as an LLP. Partner A commits malpractice during an audit. Partner B is **not** personally liable for Partner A's malpractice, but Partner A and the firm's assets are exposed.
 
 ---
 
@@ -140,7 +140,7 @@ Courts may **pierce the corporate veil** and hold shareholders personally liable
 - Corporate formalities are **not observed** (no meetings, commingled funds, inadequate capitalization)
 - The corporate form is used to perpetrate **fraud or injustice**
 
-> **Example:** The sole shareholder of MSA Records uses the corporate bank account to pay personal expenses, holds no board meetings, and keeps no corporate minutes. A court may pierce the veil and hold the shareholder personally liable for MSA Records' debts.
+> **Example:** The sole shareholder of Cub Records uses the corporate bank account to pay personal expenses, holds no board meetings, and keeps no corporate minutes. A court may pierce the veil and hold the shareholder personally liable for Cub Records' debts.
 
 ---
 

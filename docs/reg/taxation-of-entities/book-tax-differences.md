@@ -67,7 +67,7 @@ Temporary differences arise when items are recognized in **different periods** f
 | **Organizational costs** | Expensed or amortized on books | \$5,000 deducted + remainder amortized over 180 months (IRC §248) | Timing difference |
 | **Rent received in advance** | Recognized over lease term on books | Fully taxable when received | Tax income > book in Year 1; reverses later |
 
-> **Example:** Kingfisher Industries purchases equipment for \$100,000. Book depreciation (straight-line, 10 years) = \$10,000/year. MACRS depreciation (7-year property) = \$14,290 in Year 1. The temporary difference in Year 1 is \$4,290, creating a **deferred tax liability** because taxable income is lower than book income now, but will be higher in the future when MACRS depreciation is less than book depreciation.
+> **Example:** Panda Industries purchases equipment for \$100,000. Book depreciation (straight-line, 10 years) = \$10,000/year. MACRS depreciation (7-year property) = \$14,290 in Year 1. The temporary difference in Year 1 is \$4,290, creating a **deferred tax liability** because taxable income is lower than book income now, but will be higher in the future when MACRS depreciation is less than book depreciation.
 
 :::note
 
@@ -94,7 +94,7 @@ $$
 
 ### M-1 Walkthrough Example
 
-> **Gies Co.** reports the following for 2024:
+> **Polar Co.** reports the following for 2024:
 >
 > | Item | Amount |
 > |---|---|
@@ -138,7 +138,7 @@ Schedule M-3 provides a three-column reconciliation for each line item:
 
 The relationship: **Column (a) + Column (b) + Column (c) = Column (d)**
 
-> **Example:** MAS Inc. has \$60,000 of depreciation expense on its income statement. MACRS depreciation is \$85,000. On M-3:
+> **Example:** Kodiak Inc. has \$60,000 of depreciation expense on its income statement. MACRS depreciation is \$85,000. On M-3:
 > - Column (a): \$60,000 (book depreciation)
 > - Column (b): \$25,000 (temporary difference — additional tax depreciation)
 > - Column (c): \$0 (no permanent difference)
@@ -164,7 +164,7 @@ When reviewing an entity's adjusted book trial balance, look for these common it
 | Accumulated depreciation | Compare book vs. tax basis of assets | Temporary |
 | Capital loss carryforward | Limited to capital gains; carryforward 5 years for corps | Temporary |
 
-> **Example:** Illini Entertainment's trial balance shows a \$50,000 allowance for doubtful accounts and \$12,000 in actual write-offs during the year. Book bad debt expense is the change in the allowance; the tax deduction is only the \$12,000 actually written off. The difference is **temporary** — it will reverse when the estimated accounts are ultimately written off.
+> **Example:** Salmon Entertainment's trial balance shows a \$50,000 allowance for doubtful accounts and \$12,000 in actual write-offs during the year. Book bad debt expense is the change in the allowance; the tax deduction is only the \$12,000 actually written off. The difference is **temporary** — it will reverse when the estimated accounts are ultimately written off.
 
 :::warning
 
@@ -183,7 +183,7 @@ When reviewing an entity's adjusted book trial balance, look for these common it
 5. **M-1 starting point**: Know whether the question gives book income before or after federal income tax.
 6. **Installment sales**: Book recognizes the full gain; tax recognizes gain as cash is collected. The difference is temporary.
 
-> **Example:** Illini Security's M-1 starts with net income per books of \$200,000 (after tax). A student who forgets to add back the \$50,000 federal income tax expense will understate taxable income by \$50,000. Always check the starting point.
+> **Example:** Honey Security's M-1 starts with net income per books of \$200,000 (after tax). A student who forgets to add back the \$50,000 federal income tax expense will understate taxable income by \$50,000. Always check the starting point.
 
 ---
 

@@ -74,7 +74,7 @@ For tax purposes, C corporations must use the **direct write-off method** — a 
 
 This difference is one of the most common book-to-tax adjustments on the exam.
 
-**Example:** Gies Co. has \$200,000 in accounts receivable at year end. Under GAAP, Gies estimates \$12,000 of allowance for doubtful accounts. For tax, Gies can only deduct the specific receivable of \$3,500 from Acme Corp that was determined to be uncollectible during the year.
+**Example:** Polar Co. has \$200,000 in accounts receivable at year end. Under GAAP, Polar estimates \$12,000 of allowance for doubtful accounts. For tax, Polar can only deduct the specific receivable of \$3,500 from Den Corp that was determined to be uncollectible during the year.
 
 ### Business interest expense limitation
 
@@ -88,7 +88,7 @@ $$
 - Disallowed interest carries forward **indefinitely**.
 - Small businesses with average annual gross receipts of **\$31 million or less** (2025 threshold) are exempt from this limitation.
 
-**Example:** Kingfisher Industries has \$500,000 of business interest expense, \$20,000 of business interest income, and ATI of \$1,200,000. The deduction limit is \$20,000 + (30% × \$1,200,000) = **\$380,000**. The remaining \$120,000 is carried forward.
+**Example:** Panda Industries has \$500,000 of business interest expense, \$20,000 of business interest income, and ATI of \$1,200,000. The deduction limit is \$20,000 + (30% × \$1,200,000) = **\$380,000**. The remaining \$120,000 is carried forward.
 
 ### Charitable contribution limits
 
@@ -101,7 +101,7 @@ A C corporation may deduct charitable contributions up to **10% of taxable incom
 | Carryback | Not allowed |
 | Accrual-basis timing | Board may authorize in current year; payment must occur by **15th day of 4th month** of next year |
 
-**Example:** MAS Inc. has taxable income of \$800,000 before charitable contributions and DRD. The maximum deduction is 10% × \$800,000 = **\$80,000**. If MAS donated \$95,000, only \$80,000 is deducted currently; the \$15,000 excess carries forward for up to five years.
+**Example:** Kodiak Inc. has taxable income of \$800,000 before charitable contributions and DRD. The maximum deduction is 10% × \$800,000 = **\$80,000**. If Kodiak donated \$95,000, only \$80,000 is deducted currently; the \$15,000 excess carries forward for up to five years.
 
 :::tip[Accrual-Basis Timing Rule]
 
@@ -132,7 +132,7 @@ Costs of issuing stock (e.g., commissions, printing stock certificates) are **no
 
 :::
 
-**Example:** Illini Entertainment incorporates and incurs \$4,200 in organizational expenditures and \$48,000 in start-up costs. In year one, it deducts \$4,200 of organizational expenditures immediately (under the \$5,000 limit). For start-up costs, it deducts \$5,000 immediately and amortizes the remaining \$43,000 over 180 months.
+**Example:** Salmon Entertainment incorporates and incurs \$4,200 in organizational expenditures and \$48,000 in start-up costs. In year one, it deducts \$4,200 of organizational expenditures immediately (under the \$5,000 limit). For start-up costs, it deducts \$5,000 immediately and amortizes the remaining \$43,000 over 180 months.
 
 ### Capital gains and losses
 
@@ -179,7 +179,7 @@ When a C corporation receives dividends from another domestic C corporation, it 
 
 **Example — DRD computation:**
 
-Gies Co. owns 25% of MAS Inc. stock and receives \$100,000 in dividends. Gies Co.'s taxable income before the DRD is \$140,000.
+Polar Co. owns 25% of Kodiak Inc. stock and receives \$100,000 in dividends. Polar Co.'s taxable income before the DRD is \$140,000.
 
 | Step | Amount |
 |------|--------|
@@ -256,7 +256,7 @@ $$
 \text{Federal Tax} = \text{Taxable Income} \times 21\%
 $$
 
-**Example:** Kingfisher Industries has taxable income of \$2,000,000. Federal tax = \$2,000,000 × 21% = **\$420,000**.
+**Example:** Panda Industries has taxable income of \$2,000,000. Federal tax = \$2,000,000 × 21% = **\$420,000**.
 
 ### Estimated tax payments
 
@@ -305,7 +305,7 @@ The **accumulated earnings tax** discourages C corporations from retaining earni
 | Applies to | Corporations that accumulate earnings **beyond reasonable business needs** |
 | Key defense | Specific, definite, and feasible plans for using the retained earnings |
 
-**Example:** Illini Security is a C corporation with accumulated E&P of \$400,000 and no specific plans for using the excess funds. The IRS may assert the accumulated earnings tax on the amount exceeding \$250,000 — that is, on \$150,000, resulting in a potential tax of \$150,000 × 20% = **\$30,000**.
+**Example:** Honey Security is a C corporation with accumulated E&P of \$400,000 and no specific plans for using the excess funds. The IRS may assert the accumulated earnings tax on the amount exceeding \$250,000 — that is, on \$150,000, resulting in a potential tax of \$150,000 × 20% = **\$30,000**.
 
 :::caution
 

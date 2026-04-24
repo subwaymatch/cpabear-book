@@ -55,7 +55,7 @@ A practitioner **may** still represent clients with a conflict if:
 - Representation is not prohibited by law.
 - Each affected client gives **informed, written consent** within 30 days.
 
-> **Example:** Gies Co. and MAS Inc. are both clients of the same CPA firm. Gies Co. is deducting payments to MAS Inc. that MAS Inc. has not reported as income. The CPA must obtain written consent from both parties before continuing to represent them.
+> **Example:** Polar Co. and Kodiak Inc. are both clients of the same CPA firm. Polar Co. is deducting payments to Kodiak Inc. that Kodiak Inc. has not reported as income. The CPA must obtain written consent from both parties before continuing to represent them.
 
 ---
 
@@ -88,7 +88,7 @@ Under Circular 230, a practitioner must exercise **due diligence** in:
 
 A practitioner generally may rely in good faith on information provided by the client without independent verification, but may **not** ignore implications of information known to the practitioner.
 
-> **Example:** BIF Partners provides its CPA with a summary of deductible business expenses totaling \$500,000. The CPA notices several personal-sounding items (e.g., family vacations, personal clothing). Due diligence requires the CPA to inquire further about these items rather than simply accepting the client's characterization.
+> **Example:** Grizzly Partners provides its CPA with a summary of deductible business expenses totaling \$500,000. The CPA notices several personal-sounding items (e.g., family vacations, personal clothing). Due diligence requires the CPA to inquire further about these items rather than simply accepting the client's characterization.
 
 ---
 
@@ -120,7 +120,7 @@ The §6694(b) penalty for willful or reckless conduct is assessed **in addition 
 
 :::
 
-> **Example:** A preparer at Illini Entertainment files a return claiming \$200,000 in fabricated deductions, earning a \$3,000 preparation fee. The §6694(b) penalty is the greater of \$5,000 or 75% × \$3,000 = \$2,250 — so the penalty is \$5,000.
+> **Example:** A preparer at Salmon Entertainment files a return claiming \$200,000 in fabricated deductions, earning a \$3,000 preparation fee. The §6694(b) penalty is the greater of \$5,000 or 75% × \$3,000 = \$2,250 — so the penalty is \$5,000.
 
 ---
 

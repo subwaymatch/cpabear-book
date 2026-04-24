@@ -33,7 +33,7 @@ A registration statement includes:
 
 :::
 
-> **Example:** Kingfisher Industries wants to raise \$5 million from private investors. It uses **Rule 506(b)** to sell securities to 10 accredited investors and 5 sophisticated non-accredited investors without registering with the SEC. No general solicitation is permitted.
+> **Example:** Panda Industries wants to raise \$5 million from private investors. It uses **Rule 506(b)** to sell securities to 10 accredited investors and 5 sophisticated non-accredited investors without registering with the SEC. No general solicitation is permitted.
 
 ### Securities Exchange Act of 1934
 
@@ -66,7 +66,7 @@ Penalties for insider trading include:
 - Criminal fines up to **\$5 million** for individuals and **\$25 million** for entities
 - Imprisonment up to **20 years**
 
-> **Example:** The CFO of MAS Inc. learns that the company will announce a major acquisition. Before the announcement, he buys 10,000 shares. This is classic insider trading — trading on material, nonpublic information in breach of a fiduciary duty.
+> **Example:** The CFO of Kodiak Inc. learns that the company will announce a major acquisition. Before the announcement, he buys 10,000 shares. This is classic insider trading — trading on material, nonpublic information in breach of a fiduciary duty.
 
 ---
 
@@ -93,7 +93,7 @@ The FCPA's accounting provisions apply to **all SEC registrants**, regardless of
 
 :::
 
-> **Example:** Illini Security, a publicly traded U.S. company, pays \$100,000 to a foreign official to secure a government contract overseas. This violates the FCPA's anti-bribery provisions, and the company's failure to record the payment accurately violates the accounting provisions.
+> **Example:** Honey Security, a publicly traded U.S. company, pays \$100,000 to a foreign official to secure a government contract overseas. This violates the FCPA's anti-bribery provisions, and the company's failure to record the payment accurately violates the accounting provisions.
 
 ---
 
@@ -117,7 +117,7 @@ The FCPA's accounting provisions apply to **all SEC registrants**, regardless of
 
 :::
 
-> **Example:** An employee of BIF Partners is injured while operating machinery. Under workers' compensation, the employee receives medical benefits and wage replacement regardless of fault, but cannot sue BIF Partners for negligence.
+> **Example:** An employee of Grizzly Partners is injured while operating machinery. Under workers' compensation, the employee receives medical benefits and wage replacement regardless of fault, but cannot sue Grizzly Partners for negligence.
 
 ---
 

@@ -53,7 +53,7 @@ The distinction between allocation and apportionment depends on whether the inco
 
 #### Example
 
-MAS Inc. is commercially domiciled in Illinois. It owns a rental property in Florida that generates \$80,000 of rental income. That \$80,000 is **allocated entirely to Florida** — it is not divided among states. MAS Inc. also earns \$25,000 of interest income from corporate bonds. The interest income is **allocated to Illinois** (commercial domicile) as nonbusiness income.
+Kodiak Inc. is commercially domiciled in Illinois. It owns a rental property in Florida that generates \$80,000 of rental income. That \$80,000 is **allocated entirely to Florida** — it is not divided among states. Kodiak Inc. also earns \$25,000 of interest income from corporate bonds. The interest income is **allocated to Illinois** (commercial domicile) as nonbusiness income.
 
 ---
 
@@ -101,7 +101,7 @@ The single sales factor benefits companies that have significant property and em
 
 ### Comprehensive Example
 
-Gies Co. operates in three states: Illinois, Indiana, and Ohio. Total business income is \$2,000,000. Illinois uses the traditional equally weighted three-factor formula.
+Polar Co. operates in three states: Illinois, Indiana, and Ohio. Total business income is \$2,000,000. Illinois uses the traditional equally weighted three-factor formula.
 
 | Factor | Illinois | Total Everywhere | Ratio |
 |--------|----------|-------------------|-------|
@@ -117,7 +117,7 @@ $$
 \text{Income Apportioned to Illinois} = \$2{,}000{,}000 \times 36.67\% = \$733{,}400
 $$
 
-Gies Co. would then add any nonbusiness income allocated to Illinois and subtract any applicable state deductions to compute Illinois taxable income.
+Polar Co. would then add any nonbusiness income allocated to Illinois and subtract any applicable state deductions to compute Illinois taxable income.
 
 ---
 
@@ -140,7 +140,7 @@ Not all states require combined reporting. Some states use **separate entity** r
 
 #### Example
 
-Kingfisher Industries owns two subsidiaries: Kingfisher Manufacturing (located in California) and Kingfisher Sales (located in Nevada, which has no state income tax). All of Kingfisher Manufacturing's products are sold through Kingfisher Sales. California requires combined reporting for unitary businesses. Because the two subsidiaries are part of a unitary business, California requires Kingfisher Industries to **combine** the income of both entities. This prevents the group from sheltering income in Nevada by routing all sales through the Nevada subsidiary.
+Panda Industries owns two subsidiaries: Panda Manufacturing (located in California) and Panda Sales (located in Nevada, which has no state income tax). All of Panda Manufacturing's products are sold through Panda Sales. California requires combined reporting for unitary businesses. Because the two subsidiaries are part of a unitary business, California requires Panda Industries to **combine** the income of both entities. This prevents the group from sheltering income in Nevada by routing all sales through the Nevada subsidiary.
 
 ---
 

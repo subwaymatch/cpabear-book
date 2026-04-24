@@ -49,7 +49,7 @@ The S election is made by filing **Form 2553** (Election by a Small Business Cor
 
 **All shareholders** who own stock on the day the election is filed must consent. If stock was transferred during the year the election is to be effective, both the **transferor and transferee** must consent.
 
-**Example:** Sarah and Marcus each own 50% of Illini Entertainment, a calendar-year C corporation. To elect S status for 2025, they must file Form 2553 by **March 15, 2025**, and both must sign the consent.
+**Example:** Sarah and Marcus each own 50% of Salmon Entertainment, a calendar-year C corporation. To elect S status for 2025, they must file Form 2553 by **March 15, 2025**, and both must sign the consent.
 
 ---
 
@@ -120,7 +120,7 @@ Certain items must be **separately stated** because they may have different tax 
 
 Each shareholder reports their **pro-rata share** based on the percentage of stock owned and the number of days held during the year.
 
-**Example:** Gies Co. is an S corporation with two equal shareholders. The corporation earns \$300,000 of ordinary business income and \$40,000 of long-term capital gain. Each shareholder reports \$150,000 of ordinary income and \$20,000 of LTCG on their individual return.
+**Example:** Polar Co. is an S corporation with two equal shareholders. The corporation earns \$300,000 of ordinary business income and \$40,000 of long-term capital gain. Each shareholder reports \$150,000 of ordinary income and \$20,000 of LTCG on their individual return.
 
 ### Qualified Business Income (QBI) deduction
 
@@ -217,7 +217,7 @@ Losses exceeding this limit are **suspended** and carried forward **indefinitely
 
 **Basis restoration:** When debt basis has been reduced by losses, subsequent income first restores **debt basis** before increasing stock basis.
 
-**Example:** Marcus owns 100% of Illini Security (S corp). His stock basis is \$10,000, and he has loaned the corporation \$15,000 (debt basis = \$15,000). The corporation passes through a \$35,000 ordinary loss.
+**Example:** Marcus owns 100% of Honey Security (S corp). His stock basis is \$10,000, and he has loaned the corporation \$15,000 (debt basis = \$15,000). The corporation passes through a \$35,000 ordinary loss.
 
 | Step | Amount |
 |------|--------|
