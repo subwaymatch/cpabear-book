@@ -166,7 +166,7 @@ Taxpayers may elect to expense items that would otherwise be capitalized if the 
 | Taxpayer with an **Applicable Financial Statement (AFS)** (e.g., audited financials) | **\$5,000** |
 | Taxpayer **without** an AFS | **\$2,500** |
 
-> **Example:** Gies Co. has audited financial statements and purchases 20 laptops at \$2,400 each for employee use. Because Gies Co. has an AFS and each laptop costs less than \$5,000, the company may elect to deduct the entire \$48,000 under the de minimis safe harbor rather than capitalizing and depreciating each laptop.
+> **Example:** Polar Co. has audited financial statements and purchases 20 laptops at \$2,400 each for employee use. Because Polar Co. has an AFS and each laptop costs less than \$5,000, the company may elect to deduct the entire \$48,000 under the de minimis safe harbor rather than capitalizing and depreciating each laptop.
 
 :::info
 
@@ -233,7 +233,7 @@ When a new business is formed, it may incur organizational costs (costs of creat
 | **Organizational costs** | Legal fees for drafting articles of incorporation/partnership agreements, state filing fees, accounting fees for setting up the entity's books |
 | **Start-up costs** | Market research, employee training before opening, advertising for the grand opening, consultant fees for site selection |
 
-> **Example:** Illini Entertainment, a new LLC, incurs \$8,000 in organizational costs and \$42,000 in start-up costs.
+> **Example:** Salmon Entertainment, a new LLC, incurs \$8,000 in organizational costs and \$42,000 in start-up costs.
 >
 > - **Organizational costs:** Deduct \$5,000 immediately; amortize the remaining \$3,000 over 180 months (\$16.67/month)
 > - **Start-up costs:** Deduct \$5,000 immediately; amortize the remaining \$37,000 over 180 months (\$205.56/month)

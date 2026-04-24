@@ -83,7 +83,7 @@ Individual taxation covers the computation of **taxable income** from gross inco
 
 :::tip
 
-When Gies Co.'s owner, a sole proprietor, computes self-employment tax, remember: the SE tax base is **92.35%** of net self-employment income (the equivalent of the employer's share adjustment). The deduction for one-half of SE tax is an **above-the-line** deduction — it reduces AGI, not taxable income directly.
+When Polar Co.'s owner, a sole proprietor, computes self-employment tax, remember: the SE tax base is **92.35%** of net self-employment income (the equivalent of the employer's share adjustment). The deduction for one-half of SE tax is an **above-the-line** deduction — it reduces AGI, not taxable income directly.
 
 :::
 
@@ -98,7 +98,7 @@ Entity taxation requires you to understand how **different business structures**
 
 :::warning[Entity Selection]
 
-Choosing between a C corporation and an S corporation — or a partnership-taxed LLC — has enormous tax consequences. For example, when MAS Inc. (a C corporation) distributes \$50,000 in dividends, those dividends are taxed at the corporate level *and* again at the shareholder level. If MAS Inc. were instead structured as an S corporation, the income would pass through and be taxed only once at the shareholder level. Always analyze the **total tax burden** across all levels.
+Choosing between a C corporation and an S corporation — or a partnership-taxed LLC — has enormous tax consequences. For example, when Kodiak Inc. (a C corporation) distributes \$50,000 in dividends, those dividends are taxed at the corporate level *and* again at the shareholder level. If Kodiak Inc. were instead structured as an S corporation, the income would pass through and be taxed only once at the shareholder level. Always analyze the **total tax burden** across all levels.
 
 :::
 
@@ -130,9 +130,9 @@ Throughout your REG studies, you will encounter these foundational authorities:
 2. **Master the IRC framework.** Understand the flow of an individual tax return (gross income → AGI → taxable income → tax liability → credits) before diving into entity-specific rules.
 
 3. **Use a fact-pattern approach.** REG questions are scenario-heavy. Practice by working through examples:
-   - *BIF Partners* contributes property to a new partnership — what is each partner's basis?
-   - *Kingfisher Industries* sells equipment at a gain — is the gain ordinary, §1231, or capital?
-   - *Illini Entertainment* enters a contract for concert equipment — does the UCC or common law apply?
+   - *Grizzly Partners* contributes property to a new partnership — what is each partner's basis?
+   - *Panda Industries* sells equipment at a gain — is the gain ordinary, §1231, or capital?
+   - *Salmon Entertainment* enters a contract for concert equipment — does the UCC or common law apply?
 
 4. **Memorize key thresholds.**
    - Statute of Frauds for goods: **\$500** (UCC)
@@ -141,7 +141,7 @@ Throughout your REG studies, you will encounter these foundational authorities:
    - Accuracy-related penalty: **20%** of the underpayment
    - Civil fraud penalty: **75%** of the underpayment
 
-5. **Connect the dots across topics.** Entity formation rules (§351, §721) connect to basis, which connects to gain/loss recognition. Illini Security's choice of entity structure affects everything from self-employment tax to loss limitations.
+5. **Connect the dots across topics.** Entity formation rules (§351, §721) connect to basis, which connects to gain/loss recognition. Honey Security's choice of entity structure affects everything from self-employment tax to loss limitations.
 
 6. **Review consistently.** Tax law changes, but the exam tests **evergreen principles**. Focus on understanding *why* rules exist, not just memorizing them.
 

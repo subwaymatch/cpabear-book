@@ -33,7 +33,7 @@ The K-1 is the bridge between the entity's tax return and the individual owner's
 
 Under **IRC §702(a)** (partnerships) and **IRC §1366(a)** (S corporations), items that could affect individual taxpayers differently must be **separately stated** so each owner can apply the correct treatment on their personal return.
 
-> **Example:** BIF Partners earns \$200,000 of ordinary business income and \$30,000 of long-term capital gains. The capital gains are separately stated because they are taxed at preferential rates on the individual return, while ordinary income is taxed at regular rates.
+> **Example:** Grizzly Partners earns \$200,000 of ordinary business income and \$30,000 of long-term capital gains. The capital gains are separately stated because they are taxed at preferential rates on the individual return, while ordinary income is taxed at regular rates.
 
 ### K-1 Overview
 
@@ -73,7 +73,7 @@ Each separately stated item flows to the **specific** Form 1040 schedule that go
 | Tax-exempt interest | **Form 1040, Line 2a** (informational; not taxed) |
 | Self-employment income | **Schedule SE** |
 
-> **Example:** Illini Entertainment is organized as an S corporation. Shareholder Dana receives a K-1 showing \$80,000 ordinary business income, \$5,000 of qualified dividends, \$12,000 of charitable contributions, and a \$3,000 short-term capital loss. Dana reports the \$80,000 on Schedule E, the dividends on Schedule B, the charitable contributions on Schedule A, and the capital loss on Schedule D.
+> **Example:** Salmon Entertainment is organized as an S corporation. Shareholder Dana receives a K-1 showing \$80,000 ordinary business income, \$5,000 of qualified dividends, \$12,000 of charitable contributions, and a \$3,000 short-term capital loss. Dana reports the \$80,000 on Schedule E, the dividends on Schedule B, the charitable contributions on Schedule A, and the capital loss on Schedule D.
 
 :::tip[Exam Tip]
 
@@ -109,7 +109,7 @@ Under **IRC §707(c)**, a guaranteed payment is a payment to a partner for **ser
 | To the **partnership** | Deductible business expense (reduces ordinary income) |
 | Timing | Included in the partner's income for the partner's tax year that includes the **end of the partnership's tax year** |
 
-> **Example:** Bear Co. partner Jordan receives a \$60,000 guaranteed payment for management services from BIF Partners, which also allocates \$40,000 of ordinary income to Jordan. Jordan reports \$100,000 total on Schedule E (\$60,000 guaranteed + \$40,000 ordinary share) and owes self-employment tax on the full \$100,000.
+> **Example:** Bear Co. partner Jordan receives a \$60,000 guaranteed payment for management services from Grizzly Partners, which also allocates \$40,000 of ordinary income to Jordan. Jordan reports \$100,000 total on Schedule E (\$60,000 guaranteed + \$40,000 ordinary share) and owes self-employment tax on the full \$100,000.
 
 :::warning
 
@@ -148,7 +148,7 @@ A single-member LLC that has not elected to be taxed as a corporation is a **dis
 | Net profit (loss) | Schedule C, Line 31 → Form 1040, Schedule 1 |
 | Self-employment tax | Schedule SE |
 
-> **Example:** Gies Co. consultant Maria operates as a single-member LLC. She earns \$150,000 in consulting revenue and incurs \$30,000 in deductible expenses. Maria reports \$120,000 net profit on Schedule C and pays self-employment tax on this amount via Schedule SE.
+> **Example:** Polar Co. consultant Maria operates as a single-member LLC. She earns \$150,000 in consulting revenue and incurs \$30,000 in deductible expenses. Maria reports \$120,000 net profit on Schedule C and pays self-employment tax on this amount via Schedule SE.
 
 ---
 
@@ -181,7 +181,7 @@ Income and losses from pass-through entities may be classified as **passive** or
 
 Passive losses can only offset **passive income**. See the [Loss Limitations](./loss-limitations.md) page for the complete passive activity loss rules and material participation tests.
 
-> **Example:** MAS Inc. shareholder Taylor owns 30% of an S corporation but does not participate in its operations. Taylor's \$25,000 share of the S corp's ordinary loss is classified as a **passive loss** and can only offset Taylor's passive income from other sources.
+> **Example:** Kodiak Inc. shareholder Taylor owns 30% of an S corporation but does not participate in its operations. Taylor's \$25,000 share of the S corp's ordinary loss is classified as a **passive loss** and can only offset Taylor's passive income from other sources.
 
 ---
 

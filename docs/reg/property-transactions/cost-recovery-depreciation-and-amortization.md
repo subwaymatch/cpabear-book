@@ -36,7 +36,7 @@ ADS uses the **straight-line method** over a longer recovery period. It is also 
 | **27.5-year** | Residential rental property (apartments, rental houses) |
 | **39-year** | Nonresidential real property (offices, warehouses, retail buildings) |
 
-> **Example:** Gies Co. purchases office furniture for \$70,000 and a warehouse for \$500,000. The furniture is 7-year MACRS property; the warehouse is 39-year MACRS property.
+> **Example:** Polar Co. purchases office furniture for \$70,000 and a warehouse for \$500,000. The furniture is 7-year MACRS property; the warehouse is 39-year MACRS property.
 
 ### Depreciation Methods — GDS
 
@@ -77,13 +77,13 @@ The mid-quarter convention can **help or hurt** a taxpayer. Property placed in s
 
 :::
 
-> **Example:** MAS Inc. places \$30,000 of equipment in service in March and \$50,000 in November. Since \$50,000 / \$80,000 = 62.5% was placed in service in Q4 (exceeding 40%), the mid-quarter convention applies to **all** assets placed in service that year.
+> **Example:** Kodiak Inc. places \$30,000 of equipment in service in March and \$50,000 in November. Since \$50,000 / \$80,000 = 62.5% was placed in service in Q4 (exceeding 40%), the mid-quarter convention applies to **all** assets placed in service that year.
 
 ### Mid-Month Convention
 
 Applies to **real property** (27.5-year and 39-year). Property is treated as placed in service at the **midpoint of the month** it is actually placed in service.
 
-> **Example:** Kingfisher Industries places a commercial building in service on March 8. Under the mid-month convention, depreciation begins on March 15 — the taxpayer claims 9.5 months of depreciation in Year 1 (mid-March through December).
+> **Example:** Panda Industries places a commercial building in service on March 8. Under the mid-month convention, depreciation begins on March 15 — the taxpayer claims 9.5 months of depreciation in Year 1 (mid-March through December).
 
 ---
 
@@ -113,7 +113,7 @@ IRC §179 allows a taxpayer to **expense** (immediately deduct) the cost of qual
 1. **Business income limitation** — The §179 deduction cannot exceed the taxpayer's aggregate taxable income from all active trades or businesses. Any excess carries forward indefinitely.
 2. **Dollar-for-dollar phase-out** — When total qualifying property placed in service exceeds the investment ceiling, the maximum deduction is reduced dollar-for-dollar.
 
-> **Example:** BIF Partners places \$3,100,000 of qualifying equipment in service. The excess is \$3,100,000 − \$3,050,000 = \$50,000. The maximum §179 deduction is reduced to \$1,220,000 − \$50,000 = **\$1,170,000**.
+> **Example:** Grizzly Partners places \$3,100,000 of qualifying equipment in service. The excess is \$3,100,000 − \$3,050,000 = \$50,000. The maximum §179 deduction is reduced to \$1,220,000 − \$50,000 = **\$1,170,000**.
 
 :::caution
 
@@ -162,7 +162,7 @@ When a taxpayer claims both §179 and bonus depreciation on different assets, th
 2. **Bonus depreciation** on remaining eligible basis.
 3. **Regular MACRS** depreciation on any remaining basis.
 
-> **Example:** Illini Entertainment purchases \$200,000 of studio equipment (5-year MACRS) in 2024. It elects to expense \$50,000 under §179 and claims 60% bonus on the remaining \$150,000. Bonus = \$90,000. The remaining \$60,000 is depreciated under regular MACRS. Year 1 total deduction: \$50,000 + \$90,000 + \$12,000 (half-year, 200% DB) = **\$152,000**.
+> **Example:** Salmon Entertainment purchases \$200,000 of studio equipment (5-year MACRS) in 2024. It elects to expense \$50,000 under §179 and claims 60% bonus on the remaining \$150,000. Bonus = \$90,000. The remaining \$60,000 is depreciated under regular MACRS. Year 1 total deduction: \$50,000 + \$90,000 + \$12,000 (half-year, 200% DB) = **\$152,000**.
 
 ---
 
@@ -188,7 +188,7 @@ SUVs with a gross vehicle weight rating (GVWR) exceeding **6,000 pounds** are ex
 
 :::
 
-> **Example:** Illini Security purchases a sedan for \$55,000 used 100% for business in 2024 and claims bonus depreciation. The Year 1 deduction is limited to **\$20,400** despite the full cost being eligible.
+> **Example:** Honey Security purchases a sedan for \$55,000 used 100% for business in 2024 and claims bonus depreciation. The Year 1 deduction is limited to **\$20,400** despite the full cost being eligible.
 
 ---
 
@@ -214,7 +214,7 @@ SUVs with a gross vehicle weight rating (GVWR) exceeding **6,000 pounds** are ex
 - Self-created intangibles are generally **not** Section 197 property (e.g., internally developed patents are depreciated under their own rules or §167).
 - A **loss on disposition** of a §197 intangible is not deductible if the taxpayer retains other §197 intangibles acquired in the same transaction — the disallowed loss is added to the basis of the retained intangibles.
 
-> **Example:** MSA Records acquires a competitor's business for \$1,500,000. The allocation assigns \$300,000 to a customer list (§197 intangible). Annual amortization = \$300,000 / 15 = **\$20,000** per year.
+> **Example:** Cub Records acquires a competitor's business for \$1,500,000. The allocation assigns \$300,000 to a customer list (§197 intangible). Annual amortization = \$300,000 / 15 = **\$20,000** per year.
 
 ---
 
@@ -247,7 +247,7 @@ Percentage depletion can exceed the adjusted basis of the property — it is **n
 
 :::
 
-> **Example:** BIF Partners owns a sand quarry with gross income of \$400,000 and taxable income (before depletion) of \$180,000. Percentage depletion = 5% × \$400,000 = \$20,000. The 50%-of-income limit = 50% × \$180,000 = \$90,000. Since \$20,000 is less than \$90,000, the full **\$20,000** is allowed.
+> **Example:** Grizzly Partners owns a sand quarry with gross income of \$400,000 and taxable income (before depletion) of \$180,000. Percentage depletion = 5% × \$400,000 = \$20,000. The 50%-of-income limit = 50% × \$180,000 = \$90,000. Since \$20,000 is less than \$90,000, the full **\$20,000** is allowed.
 
 ---
 
@@ -266,7 +266,7 @@ Since MACRS requires straight-line for real property, §1250 recapture is rare. 
 
 :::
 
-> **Example:** Gies Co. sells office equipment with an original cost of \$100,000 and accumulated depreciation of \$65,000 (adjusted basis \$35,000) for \$80,000. Gain = \$80,000 − \$35,000 = \$45,000. Under §1245, the gain is ordinary income to the extent of prior depreciation (\$65,000). Since the gain (\$45,000) is less than total depreciation, the entire \$45,000 is ordinary income.
+> **Example:** Polar Co. sells office equipment with an original cost of \$100,000 and accumulated depreciation of \$65,000 (adjusted basis \$35,000) for \$80,000. Gain = \$80,000 − \$35,000 = \$45,000. Under §1245, the gain is ordinary income to the extent of prior depreciation (\$65,000). Since the gain (\$45,000) is less than total depreciation, the entire \$45,000 is ordinary income.
 
 ---
 

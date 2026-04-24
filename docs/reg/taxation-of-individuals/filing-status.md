@@ -62,7 +62,7 @@ QSS allows a surviving spouse to use the same brackets and standard deduction as
 3. Taxpayer maintains a household that is the principal residence of a **dependent child** (qualifying child) for the entire year.
 4. Taxpayer paid more than half the cost of maintaining the household.
 
-> **Example:** Kingfisher Industries' CFO, Maria, lost her spouse in March 2023. For 2023, Maria files MFJ (year of death). For 2024 and 2025, she qualifies as QSS if she maintains a home for her dependent son and does not remarry.
+> **Example:** Panda Industries' CFO, Maria, lost her spouse in March 2023. For 2023, Maria files MFJ (year of death). For 2024 and 2025, she qualifies as QSS if she maintains a home for her dependent son and does not remarry.
 
 :::tip[Exam Tip]
 
@@ -114,7 +114,7 @@ A **married** taxpayer can qualify as HoH if **all** of the following are met:
 4. Home was the principal residence of a **qualifying child** for more than half the year.
 5. The taxpayer can claim the child as a dependent (or could claim the child but for a custody agreement releasing the exemption to the other parent).
 
-> **Example:** MAS Inc. marketing director Robin is married but has lived apart from spouse Casey since March 1. Robin maintains the family home for their daughter for the entire year and pays 100% of the household costs. Because Casey was absent for the last six months, Robin is "considered unmarried" and qualifies as HoH.
+> **Example:** Kodiak Inc. marketing director Robin is married but has lived apart from spouse Casey since March 1. Robin maintains the family home for their daughter for the entire year and pays 100% of the household costs. Because Casey was absent for the last six months, Robin is "considered unmarried" and qualifies as HoH.
 
 ### 4. Single
 
@@ -213,13 +213,13 @@ When a **custodial parent** signs Form 8332 releasing the dependency exemption t
 
 ## Common Exam Scenarios and Traps
 
-> **Scenario 1:** Illini Entertainment employee Pat is unmarried and supports her 70-year-old mother who lives in a separate apartment. Pat pays 100% of her mother's rent and living expenses. **Filing status:** HoH — a dependent parent **need not** live with the taxpayer.
+> **Scenario 1:** Salmon Entertainment employee Pat is unmarried and supports her 70-year-old mother who lives in a separate apartment. Pat pays 100% of her mother's rent and living expenses. **Filing status:** HoH — a dependent parent **need not** live with the taxpayer.
 
-> **Scenario 2:** Gies Co. accountant Sam's spouse died in November 2023. Sam has no children. In 2024, Sam is **Single** — QSS requires a dependent child.
+> **Scenario 2:** Polar Co. accountant Sam's spouse died in November 2023. Sam has no children. In 2024, Sam is **Single** — QSS requires a dependent child.
 
 > **Scenario 3:** Bear Co. employee Dana is married but separated (no divorce decree). Dana maintained a home for a dependent child and spouse moved out on May 15. **Filing status:** MFS (not HoH) — the spouse must have been absent for the **last six months**, and May 15 to December 31 is more than six months, but the standard requires the spouse to not live in the home during the last six months. Since the spouse left May 15, they were in the home for parts of June. If the spouse left June 30 or earlier, the last six months (July–December) would be satisfied.
 
-> **Scenario 4:** Illini Security payroll manager Lee is unmarried with no dependents. Lee's adult brother (age 30, earning \$50,000) lives with Lee. **Filing status:** Single — the brother's gross income exceeds the qualifying relative threshold and he does not meet the qualifying child age test.
+> **Scenario 4:** Honey Security payroll manager Lee is unmarried with no dependents. Lee's adult brother (age 30, earning \$50,000) lives with Lee. **Filing status:** Single — the brother's gross income exceeds the qualifying relative threshold and he does not meet the qualifying child age test.
 
 ---
 

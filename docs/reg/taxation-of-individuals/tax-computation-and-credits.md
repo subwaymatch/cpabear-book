@@ -29,7 +29,7 @@ The Section 199A deduction equals the **lesser** of:
 1. **20%** of QBI, or
 2. **20%** of taxable income (before the §199A deduction) in excess of net capital gain.
 
-> **Example:** MSA Records operates as a sole proprietorship with \$200,000 of QBI. The owner's taxable income before the §199A deduction is \$180,000. The deduction is the lesser of 20% × \$200,000 = \$40,000 or 20% × \$180,000 = \$36,000. The deduction is **\$36,000**.
+> **Example:** Cub Records operates as a sole proprietorship with \$200,000 of QBI. The owner's taxable income before the §199A deduction is \$180,000. The deduction is the lesser of 20% × \$200,000 = \$40,000 or 20% × \$180,000 = \$36,000. The deduction is **\$36,000**.
 
 ### W-2 Wage and Capital Limitation
 
@@ -136,7 +136,7 @@ The AMT is computed separately. A taxpayer owes AMT only if the **tentative mini
 
 :::
 
-> **Example:** Gies Co.'s sole proprietor has a regular tax of \$42,000 and a tentative minimum tax of \$48,000. The AMT owed is \$48,000 − \$42,000 = **\$6,000**.
+> **Example:** Polar Co.'s sole proprietor has a regular tax of \$42,000 and a tentative minimum tax of \$48,000. The AMT owed is \$48,000 − \$42,000 = **\$6,000**.
 
 ---
 
@@ -157,7 +157,7 @@ A **3.8% surtax** applies to the **lesser** of:
 
 **Net investment income** includes interest, dividends, capital gains, rental and royalty income, and passive activity income — but **not** wages, self-employment income, or distributions from qualified retirement plans.
 
-> **Example:** Kingfisher Industries' owner has MAGI of \$300,000 (MFJ) and NII of \$80,000. The NIIT applies to the lesser of \$80,000 or \$50,000 (\$300,000 − \$250,000). NIIT = 3.8% × \$50,000 = **\$1,900**.
+> **Example:** Panda Industries' owner has MAGI of \$300,000 (MFJ) and NII of \$80,000. The NIIT applies to the lesser of \$80,000 or \$50,000 (\$300,000 − \$250,000). NIIT = 3.8% × \$50,000 = **\$1,900**.
 
 ### Additional Medicare Tax — 0.9%
 
@@ -227,7 +227,7 @@ Credits directly reduce tax liability and are more valuable than deductions. Cre
 - Credit rate: **20% to 35%** of eligible expenses based on AGI.
 - **Nonrefundable.**
 
-> **Example:** MAS Inc.'s CFO pays \$8,000 in daycare for two children. Eligible expenses are capped at \$6,000. With AGI above \$43,000, the credit rate is 20%, producing a credit of \$6,000 × 20% = **\$1,200**.
+> **Example:** Kodiak Inc.'s CFO pays \$8,000 in daycare for two children. Eligible expenses are capped at \$6,000. With AGI above \$43,000, the credit rate is 20%, producing a credit of \$6,000 × 20% = **\$1,200**.
 
 ### Earned Income Credit (EIC)
 
@@ -280,7 +280,7 @@ The penalty is calculated separately for each quarter — catching up in Q4 does
 
 :::
 
-> **Example:** Illini Security's owner had a prior-year tax of \$60,000 and current-year AGI above \$150,000. The safe-harbor requires quarterly payments totaling at least 110% × \$60,000 = \$66,000. Each quarterly installment must be at least \$16,500.
+> **Example:** Honey Security's owner had a prior-year tax of \$60,000 and current-year AGI above \$150,000. The safe-harbor requires quarterly payments totaling at least 110% × \$60,000 = \$66,000. Each quarterly installment must be at least \$16,500.
 
 ---
 

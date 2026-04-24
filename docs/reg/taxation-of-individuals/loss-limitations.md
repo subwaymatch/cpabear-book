@@ -20,7 +20,7 @@ Capital gains and losses are first netted within their **holding-period group**,
 | 2 | Net all **long-term** capital gains and losses → Net Long-Term Capital Gain (Loss) |
 | 3 | If one group is a net gain and the other is a net loss, offset them against each other |
 
-> **Example:** Gies Co. employee Pat has the following 2024 transactions: STCG \$8,000, STCL (\$3,000), LTCG \$2,000, LTCL (\$10,000). Step 1: Net ST = \$5,000 gain. Step 2: Net LT = (\$8,000) loss. Step 3: Net overall = (\$3,000) capital loss.
+> **Example:** Polar Co. employee Pat has the following 2024 transactions: STCG \$8,000, STCL (\$3,000), LTCG \$2,000, LTCL (\$10,000). Step 1: Net ST = \$5,000 gain. Step 2: Net LT = (\$8,000) loss. Step 3: Net overall = (\$3,000) capital loss.
 
 ### Annual Deduction Limit
 
@@ -126,7 +126,7 @@ Under IRC §469(i), individuals who **actively participate** in rental real esta
 | AGI > \$150,000 | No allowance |
 | MFS (lived together) | No allowance |
 
-> **Example:** Illini Security employee Sam actively participates in a rental property and has a \$30,000 rental loss with AGI of \$120,000. The allowance is reduced by 50% × (\$120,000 − \$100,000) = \$10,000, leaving a \$15,000 allowance. Sam deducts \$15,000 and suspends \$15,000.
+> **Example:** Honey Security employee Sam actively participates in a rental property and has a \$30,000 rental loss with AGI of \$120,000. The allowance is reduced by 50% × (\$120,000 − \$100,000) = \$10,000, leaving a \$15,000 allowance. Sam deducts \$15,000 and suspends \$15,000.
 
 #### Disposition of Passive Activity
 
@@ -141,7 +141,7 @@ After passing through the first three hurdles, aggregate net business losses exc
 | Single / HoH | ~\$305,000 |
 | MFJ | ~\$610,000 |
 
-> **Example:** Kingfisher Industries partner Morgan has \$800,000 of net business losses (after basis, at-risk, and passive limitations) and files MFJ. The excess business loss disallowed is \$800,000 − \$610,000 = \$190,000, which becomes an NOL carryforward.
+> **Example:** Panda Industries partner Morgan has \$800,000 of net business losses (after basis, at-risk, and passive limitations) and files MFJ. The excess business loss disallowed is \$800,000 − \$610,000 = \$190,000, which becomes an NOL carryforward.
 
 ---
 
@@ -176,7 +176,7 @@ A **presumption of profit motive** exists if the activity is profitable in **3 o
 | **Hobby income** | Fully taxable as other income (Form 1040, Schedule 1) |
 | **Hobby expenses** | **Not deductible** (TCJA suspended miscellaneous itemized deductions through 2025) |
 
-> **Example:** MAS Inc. controller Alex breeds show dogs as a hobby, earning \$8,000 in puppy sales and incurring \$15,000 in expenses. Alex must report \$8,000 as income but may deduct **\$0** of the expenses, resulting in \$8,000 of taxable income from the hobby.
+> **Example:** Kodiak Inc. controller Alex breeds show dogs as a hobby, earning \$8,000 in puppy sales and incurring \$15,000 in expenses. Alex must report \$8,000 as income but may deduct **\$0** of the expenses, resulting in \$8,000 of taxable income from the hobby.
 
 :::caution
 
@@ -217,7 +217,7 @@ Losses on the sale of **personal-use property** (e.g., personal residence, perso
 | Investment | Taxable (capital gain) | Deductible (capital loss) |
 | Business | Taxable (§1231 / ordinary) | Deductible (§1231 / ordinary) |
 
-> **Example:** Illini Entertainment employee Taylor sells a personal boat for \$5,000 that originally cost \$20,000. The \$15,000 loss is **nondeductible**. If instead Taylor sold it for \$25,000, the \$5,000 gain would be taxable as a capital gain.
+> **Example:** Salmon Entertainment employee Taylor sells a personal boat for \$5,000 that originally cost \$20,000. The \$15,000 loss is **nondeductible**. If instead Taylor sold it for \$25,000, the \$5,000 gain would be taxable as a capital gain.
 
 ---
 
@@ -234,7 +234,7 @@ When total deductions exceed gross income, the individual has a **net operating 
 | **Limitation** | NOL deduction limited to **80%** of taxable income (before NOL deduction) |
 | **Ordering** | NOLs from pre-2018 years (unlimited) are used before post-2017 NOLs (80% limited) |
 
-> **Example:** Gies Co. consultant Morgan has a 2024 NOL carryforward of \$100,000. In 2025, Morgan has \$80,000 of taxable income before the NOL deduction. The NOL deduction is limited to 80% × \$80,000 = **\$64,000**. The remaining \$36,000 carries forward to 2026.
+> **Example:** Polar Co. consultant Morgan has a 2024 NOL carryforward of \$100,000. In 2025, Morgan has \$80,000 of taxable income before the NOL deduction. The NOL deduction is limited to 80% × \$80,000 = **\$64,000**. The remaining \$36,000 carries forward to 2026.
 
 :::warning
 

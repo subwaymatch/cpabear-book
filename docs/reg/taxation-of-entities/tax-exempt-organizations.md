@@ -74,7 +74,7 @@ Donors contributing to a **private foundation** face lower AGI limits for charit
 
 #### Example
 
-Marcus establishes the **Kingfisher Industries Foundation** with a \$5 million endowment. The foundation's primary activity is awarding grants to local schools and environmental nonprofits. Because it is funded by a single source (Marcus) and primarily makes grants, the foundation is classified as a **private foundation**. It must distribute at least 5% of its net investment assets each year and is subject to the excise tax on investment income.
+Marcus establishes the **Panda Industries Foundation** with a \$5 million endowment. The foundation's primary activity is awarding grants to local schools and environmental nonprofits. Because it is funded by a single source (Marcus) and primarily makes grants, the foundation is classified as a **private foundation**. It must distribute at least 5% of its net investment assets each year and is subject to the excise tax on investment income.
 
 ---
 
@@ -99,7 +99,7 @@ A public charity is a §501(c)(3) organization that is **not** a private foundat
 
 #### Example
 
-Bear Co. donates \$200,000 to **Illini University**, a public charity. Because the university is a public charity, Bear Co. can deduct the contribution subject to the more favorable 25% of taxable income limit for corporate charitable contributions (or the standard individual AGI limits if a sole proprietor). If the donation had gone to a private foundation, lower percentage limits would apply.
+Bear Co. donates \$200,000 to **Ursa University**, a public charity. Because the university is a public charity, Bear Co. can deduct the contribution subject to the more favorable 25% of taxable income limit for corporate charitable contributions (or the standard individual AGI limits if a sole proprietor). If the donation had gone to a private foundation, lower percentage limits would apply.
 
 ---
 
@@ -126,7 +126,7 @@ Contributions to organizations described in §501(c)(4) through §501(c)(7) are 
 
 #### Example
 
-Gies Co. pays \$15,000 in annual dues to the National Association of Widget Manufacturers, a §501(c)(6) business league. The dues are deductible as an **ordinary business expense** (not a charitable contribution), provided they are ordinary and necessary. However, any portion of dues used for lobbying is **not deductible**.
+Polar Co. pays \$15,000 in annual dues to the National Association of Widget Manufacturers, a §501(c)(6) business league. The dues are deductible as an **ordinary business expense** (not a charitable contribution), provided they are ordinary and necessary. However, any portion of dues used for lobbying is **not deductible**.
 
 ---
 
@@ -144,7 +144,7 @@ A **Section 527 political organization** is a party, committee, association, fun
 
 #### Example
 
-Derek contributes \$10,000 to the Illini Political Action Committee, a §527 organization supporting candidates for local office. Derek **cannot** deduct this contribution as a charitable contribution on his personal return. The PAC does not pay tax on the \$10,000 contribution because it is exempt-function income. However, if the PAC earns \$2,500 in interest on its bank account, that investment income is taxable.
+Derek contributes \$10,000 to the Ursa Political Action Committee, a §527 organization supporting candidates for local office. Derek **cannot** deduct this contribution as a charitable contribution on his personal return. The PAC does not pay tax on the \$10,000 contribution because it is exempt-function income. However, if the PAC earns \$2,500 in interest on its bank account, that investment income is taxable.
 
 ---
 

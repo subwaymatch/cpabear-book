@@ -35,7 +35,7 @@ A surety may assert certain defenses to avoid liability:
 
 When multiple sureties guarantee the same obligation, they share liability based on their **maximum exposure**. A co-surety who pays more than their proportionate share has a right of **contribution** from the other co-sureties.
 
-> **Example:** Gies Co. borrows \$120,000 from a bank. Three co-sureties guarantee the loan with maximum exposures of \$120,000, \$80,000, and \$40,000 respectively. The proportionate shares are 50%, 33⅓%, and 16⅔%. If Surety A pays the full \$120,000, Surety A may seek contribution of \$40,000 from Surety B and \$20,000 from Surety C.
+> **Example:** Polar Co. borrows \$120,000 from a bank. Three co-sureties guarantee the loan with maximum exposures of \$120,000, \$80,000, and \$40,000 respectively. The proportionate shares are 50%, 33⅓%, and 16⅔%. If Surety A pays the full \$120,000, Surety A may seek contribution of \$40,000 from Surety B and \$20,000 from Surety C.
 
 ---
 
@@ -88,7 +88,7 @@ When multiple creditors claim the same collateral, priority is determined as fol
 5. **Unperfected vs. unperfected** — first to attach wins
 6. **Buyer in the ordinary course of business** takes free of a security interest created by the seller
 
-> **Example:** MAS Inc. borrows from Bank A (filed UCC-1 on January 1) and Bank B (filed UCC-1 on March 1), both secured by the same equipment. Bank A has priority because it filed first.
+> **Example:** Kodiak Inc. borrows from Bank A (filed UCC-1 on January 1) and Bank B (filed UCC-1 on March 1), both secured by the same equipment. Bank A has priority because it filed first.
 
 ---
 
@@ -172,7 +172,7 @@ Certain debts survive bankruptcy and are **not discharged**:
 - **Preference**: A payment made to a creditor within **90 days** before filing (or **one year** for insiders) that gives the creditor more than it would receive in a Chapter 7 liquidation. The trustee may **avoid** such transfers.
 - **Fraudulent transfer**: A transfer made within **2 years** before filing with the intent to hinder, delay, or defraud creditors — or made for less than reasonably equivalent value while the debtor was insolvent.
 
-> **Example:** Illini Entertainment pays a \$50,000 unsecured debt to Kingfisher Industries (an insider) 10 months before filing for bankruptcy. This payment may be avoided as a **preferential transfer** because it was made to an insider within the one-year look-back period.
+> **Example:** Salmon Entertainment pays a \$50,000 unsecured debt to Panda Industries (an insider) 10 months before filing for bankruptcy. This payment may be avoided as a **preferential transfer** because it was made to an insider within the one-year look-back period.
 
 ---
 

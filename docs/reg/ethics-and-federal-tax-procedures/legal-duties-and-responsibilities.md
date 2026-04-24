@@ -20,7 +20,7 @@ A client may sue the CPA for breach of the engagement agreement. Common claims i
 
 The client must prove the existence of a contract, the CPA's breach, and resulting **damages**.
 
-> **Example:** Gies Co. engages a CPA firm to complete its corporate tax return by the March 15 filing deadline. The CPA firm misses the deadline, and Gies Co. incurs \$25,000 in late-filing penalties. Gies Co. may recover those penalties as breach-of-contract damages.
+> **Example:** Polar Co. engages a CPA firm to complete its corporate tax return by the March 15 filing deadline. The CPA firm misses the deadline, and Polar Co. incurs \$25,000 in late-filing penalties. Polar Co. may recover those penalties as breach-of-contract damages.
 
 ### Negligence
 
@@ -63,7 +63,7 @@ CPAs may also face liability to third parties (such as creditors or investors) w
 
 Under this traditional and most restrictive approach, a CPA is liable to a third party **only if** the CPA knew the engagement was being performed for the **primary benefit** of that specific third party.
 
-> **Example:** A CPA audits MAS Inc.'s financial statements. First National Bank later relies on those statements to extend a \$2 million loan. Under the Ultramares approach, the CPA is liable to the bank only if the CPA knew at the time of the engagement that the audit was being conducted specifically for First National Bank's benefit.
+> **Example:** A CPA audits Kodiak Inc.'s financial statements. First National Bank later relies on those statements to extend a \$2 million loan. Under the Ultramares approach, the CPA is liable to the bank only if the CPA knew at the time of the engagement that the audit was being conducted specifically for First National Bank's benefit.
 
 ### Foreseen Users / Restatement Approach
 
@@ -72,7 +72,7 @@ Under the **Restatement (Second) of Torts** approach (adopted by a majority of s
 - Persons or classes of persons the CPA **knew** would receive the financial statements
 - Even if the CPA did not know the specific identity of each user
 
-> **Example:** The CPA knows that MAS Inc. intends to use the audited financial statements to apply for bank financing, though the specific bank has not yet been selected. Under the Restatement approach, any bank that extends credit in reliance on those statements is a **foreseen user** and may sue the CPA.
+> **Example:** The CPA knows that Kodiak Inc. intends to use the audited financial statements to apply for bank financing, though the specific bank has not yet been selected. Under the Restatement approach, any bank that extends credit in reliance on those statements is a **foreseen user** and may sue the CPA.
 
 ### Foreseeable Users (Rosenblum Approach)
 
@@ -107,7 +107,7 @@ Key features of Section 11:
 | **CPA's defense** | **Due diligence** — the CPA, after reasonable investigation, had reasonable grounds to believe the financial statements were accurate |
 | **Standard** | Negligence standard; no scienter required |
 
-> **Example:** Illini Entertainment issues stock through an IPO. The registration statement contains financial statements audited by a CPA firm. The financial statements materially overstate revenue. A purchaser of the stock can sue the CPA firm under Section 11 without proving the CPA firm acted negligently — the CPA firm must prove it conducted a **reasonable investigation** (due diligence defense).
+> **Example:** Salmon Entertainment issues stock through an IPO. The registration statement contains financial statements audited by a CPA firm. The financial statements materially overstate revenue. A purchaser of the stock can sue the CPA firm under Section 11 without proving the CPA firm acted negligently — the CPA firm must prove it conducted a **reasonable investigation** (due diligence defense).
 
 :::caution
 
@@ -155,7 +155,7 @@ To establish the due diligence defense, a CPA must show that after **reasonable 
 
 A CPA can defeat a Rule 10b-5 claim by demonstrating the absence of **scienter** — meaning the CPA did not act with intent to deceive, manipulate, or defraud. Mere negligence is **not** sufficient to establish scienter.
 
-> **Example:** A CPA firm audits Kingfisher Industries and fails to detect a material inventory overstatement due to inadequate sampling procedures. Under Rule 10b-5, investors must prove the CPA firm **intentionally** or **recklessly** disregarded evidence of the overstatement — ordinary negligence would not be enough.
+> **Example:** A CPA firm audits Panda Industries and fails to detect a material inventory overstatement due to inadequate sampling procedures. Under Rule 10b-5, investors must prove the CPA firm **intentionally** or **recklessly** disregarded evidence of the overstatement — ordinary negligence would not be enough.
 
 ---
 

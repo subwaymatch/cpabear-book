@@ -34,7 +34,7 @@ Although specific requirements vary by state, most jurisdictions follow the "thr
 | **Examination** | Pass all four sections of the Uniform CPA Examination within a 30-month rolling window |
 | **Experience** | 1–2 years of supervised experience in public accounting, industry, government, or academia (varies by state) |
 
-> **Example:** A new staff accountant at Gies Co. has completed 150 semester hours and passed the CPA exam. Her state requires one year of supervised experience under a licensed CPA. After completing that year, she can apply for licensure through her state board.
+> **Example:** A new staff accountant at Polar Co. has completed 150 semester hours and passed the CPA exam. Her state requires one year of supervised experience under a licensed CPA. After completing that year, she can apply for licensure through her state board.
 
 :::tip[Exam Tip]
 
@@ -79,7 +79,7 @@ State boards may discipline CPAs for conduct including:
 | **Revocation** | Permanent termination of CPA license |
 | **Monetary fine** | Financial penalty imposed by the board |
 
-> **Example:** An auditor at MAS Inc. is found to have issued an unqualified opinion on financial statements without performing adequate audit procedures. The state board investigates and ultimately suspends her CPA license for two years and requires 80 additional hours of auditing CPE before reinstatement.
+> **Example:** An auditor at Kodiak Inc. is found to have issued an unqualified opinion on financial statements without performing adequate audit procedures. The state board investigates and ultimately suspends her CPA license for two years and requires 80 additional hours of auditing CPE before reinstatement.
 
 ---
 
@@ -130,7 +130,7 @@ The **Joint Ethics Enforcement Program** is a cooperative arrangement between th
 
 Under JEEP, an ethics complaint filed with either the AICPA or a state society is evaluated, and the case is assigned to one entity for primary investigation. This prevents a practitioner from being subjected to parallel investigations for the same conduct.
 
-> **Example:** A complaint is filed against a CPA at Kingfisher Industries for violating independence standards while performing an audit. Under JEEP, the complaint is shared between the AICPA and the state CPA society, and the state society takes the lead in the investigation because the alleged conduct relates to a state-regulated engagement.
+> **Example:** A complaint is filed against a CPA at Panda Industries for violating independence standards while performing an audit. Under JEEP, the complaint is shared between the AICPA and the state CPA society, and the state society takes the lead in the investigation because the alleged conduct relates to a state-regulated engagement.
 
 ---
 
@@ -186,7 +186,7 @@ The SEC has the power to:
 - Bring enforcement actions against auditors for violations of securities laws
 - Refer matters to the Department of Justice for criminal prosecution
 
-> **Example:** The SEC investigates a CPA firm that audited Illini Security, a publicly traded company, after discovering the firm failed to identify material misstatements in the financial statements. The SEC bars the engagement partner from practicing before the SEC for five years under Rule 102(e).
+> **Example:** The SEC investigates a CPA firm that audited Honey Security, a publicly traded company, after discovering the firm failed to identify material misstatements in the financial statements. The SEC bars the engagement partner from practicing before the SEC for five years under Rule 102(e).
 
 ---
 
