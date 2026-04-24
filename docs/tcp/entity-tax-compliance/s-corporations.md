@@ -77,7 +77,7 @@ Each year, the shareholder adjusts stock basis for their **pro rata share** of t
 | Nondeductible, noncapital expenses | Decrease |
 | Distributions | Decrease |
 
-> **Example:** Alex owns 100% of MAS Inc. (S corporation). At the start of Year 1, Alex's stock basis is \$75,000. During Year 1, MAS Inc. has ordinary income of \$40,000, tax-exempt interest of \$2,000, a charitable contribution of \$5,000, and distributes \$30,000 to Alex.
+> **Example:** Alex owns 100% of Polar Inc. (S corporation). At the start of Year 1, Alex's stock basis is \$75,000. During Year 1, Polar Inc. has ordinary income of \$40,000, tax-exempt interest of \$2,000, a charitable contribution of \$5,000, and distributes \$30,000 to Alex.
 
 | Adjustment | Amount |
 |---|---|
@@ -124,7 +124,7 @@ Once debt basis has been reduced by losses, it must be **restored** before the s
 | Net income in a subsequent year | Restores **debt basis first**, then increases stock basis |
 | Corporation repays loan while debt basis is below face amount | Shareholder recognizes **gain** to the extent the repayment exceeds the reduced debt basis |
 
-> **Example:** Dana holds stock in Gies Co. (S corporation) with a stock basis of \$10,000 and a debt basis of \$25,000 (from a direct loan). Gies Co. allocates a \$30,000 loss to Dana. The first \$10,000 reduces stock basis to zero. The next \$20,000 reduces debt basis to \$5,000. If Gies Co. repays the full \$25,000 loan next year (before any net income), Dana recognizes a **\$20,000 gain** (\$25,000 repayment − \$5,000 debt basis).
+> **Example:** Dana holds stock in Bear Co. (S corporation) with a stock basis of \$10,000 and a debt basis of \$25,000 (from a direct loan). Bear Co. allocates a \$30,000 loss to Dana. The first \$10,000 reduces stock basis to zero. The next \$20,000 reduces debt basis to \$5,000. If Bear Co. repays the full \$25,000 loan next year (before any net income), Dana recognizes a **\$20,000 gain** (\$25,000 repayment − \$5,000 debt basis).
 
 ### Reviewing Stock and Debt Basis Schedules
 

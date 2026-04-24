@@ -74,7 +74,7 @@ A transfer of property to a C corporation in exchange for stock qualifies for **
 | **Liabilities assumed > total basis** of property transferred | Excess is recognized as gain (IRC §357(c)) |
 | Liability assumption lacks business purpose / tax avoidance motive | **Entire** liability treated as boot (IRC §357(b)) |
 
-> **Example:** Gies Co. is formed as a C corporation. Sam contributes land (FMV \$300,000, adjusted basis \$100,000, subject to a \$130,000 mortgage) for 100% of stock. Liabilities (\$130,000) exceed basis (\$100,000) by \$30,000. Sam recognizes \$30,000 of gain. Sam's stock basis = \$100,000 − \$130,000 + \$30,000 = **\$0**. Gies Co.'s basis in the land = \$100,000 + \$30,000 = **\$130,000**.
+> **Example:** Bear Co. is formed as a C corporation. Sam contributes land (FMV \$300,000, adjusted basis \$100,000, subject to a \$130,000 mortgage) for 100% of stock. Liabilities (\$130,000) exceed basis (\$100,000) by \$30,000. Sam recognizes \$30,000 of gain. Sam's stock basis = \$100,000 − \$130,000 + \$30,000 = **\$0**. Bear Co.'s basis in the land = \$100,000 + \$30,000 = **\$130,000**.
 
 ### S Corporation Formation
 
@@ -178,7 +178,7 @@ An S corporation liquidation is economically similar to a C corporation liquidat
 | **Entity level** | S corporation recognizes gain or loss on all assets as if sold at FMV — gain/loss **flows through** to shareholders |
 | **Shareholder level** | Shareholder treats the distribution as payment in exchange for stock — capital gain or loss (FMV received − adjusted stock basis) |
 
-> **Example:** MAS Inc. (S corporation, 100% owned by Jordan) liquidates. MAS Inc. has equipment (FMV \$180,000, adjusted basis \$100,000). The S corporation recognizes an \$80,000 gain, which flows through to Jordan (increasing stock basis by \$80,000). Jordan then receives \$180,000 in the liquidating distribution and recognizes capital gain equal to \$180,000 minus the adjusted stock basis.
+> **Example:** Polar Inc. (S corporation, 100% owned by Jordan) liquidates. Polar Inc. has equipment (FMV \$180,000, adjusted basis \$100,000). The S corporation recognizes an \$80,000 gain, which flows through to Jordan (increasing stock basis by \$80,000). Jordan then receives \$180,000 in the liquidating distribution and recognizes capital gain equal to \$180,000 minus the adjusted stock basis.
 
 :::info
 

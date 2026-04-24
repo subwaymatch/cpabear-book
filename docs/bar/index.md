@@ -53,8 +53,8 @@ This is the largest content area and the heart of what makes BAR unique. Rather 
 - **Financial Statement Analysis** — horizontal and vertical analysis, common-size statements, ratio analysis (liquidity, profitability, solvency, activity ratios), and the use of data analytics to identify trends. If **Bear Co.** reports a declining current ratio over three years while revenue is growing, you need to evaluate what that signals about working capital management.
 - **Non-Financial and Non-GAAP Measures** — balanced scorecard, key performance indicators (KPIs), benchmarking, and how non-GAAP measures (such as EBITDA or adjusted earnings) supplement GAAP reporting.
 - **Managerial and Cost Accounting** — job-order costing, process costing, activity-based costing (ABC), variable vs. absorption costing, and cost-volume-profit (CVP) analysis. Variance analysis — including material, labor, and overhead variances — is heavily tested.
-- **Budgeting, Forecasting, and Projection** — master budgets, flexible budgets, rolling forecasts, and pro forma financial statements. When **Gies Co.** prepares its annual operating budget, you must understand how sales forecasts cascade into production, purchasing, and cash budgets.
-- **Capital Structure** — financial and operating leverage, cost of capital (WACC), liquidity analysis, loan covenant compliance, and working capital management. Understanding how **MAS Inc.** structures its debt-to-equity ratio to satisfy bank covenants is a core tested skill.
+- **Budgeting, Forecasting, and Projection** — master budgets, flexible budgets, rolling forecasts, and pro forma financial statements. When **Bear Co.** prepares its annual operating budget, you must understand how sales forecasts cascade into production, purchasing, and cash budgets.
+- **Capital Structure** — financial and operating leverage, cost of capital (WACC), liquidity analysis, loan covenant compliance, and working capital management. Understanding how **Polar Inc.** structures its debt-to-equity ratio to satisfy bank covenants is a core tested skill.
 - **Financial Valuation and Decision Models** — net present value (NPV), internal rate of return (IRR), payback period, accounting rate of return, and profitability index. These tools help evaluate whether **BIF Partners** should accept a proposed capital investment.
 - **Risk Management and COSO ERM** — the COSO Enterprise Risk Management framework, including ESG (Environmental, Social, and Governance) risks, risk appetite, risk response strategies, and the integration of risk management into business strategy.
 - **Economic and Market Influences** — business cycles, inflation, interest rate effects, foreign exchange risk, and the impact of market conditions on financial reporting and business decisions.
@@ -149,4 +149,4 @@ Many candidates underestimate BAR because they view it as "just more FAR." BAR d
 
 ## Let's Get Started
 
-Select a topic area from the sidebar to begin, or start with the first topic — **[Financial Statement Analysis](/bar/business-analysis/financial-statement-analysis)**.
+Select a topic area from the sidebar to begin, or start with the first topic — **[Financial Statement Analysis](/bar/business-analysis-historical/financial-statement-analysis)**.

@@ -155,4 +155,4 @@ Many candidates underestimate TCP because they view it as "just more REG." TCP d
 
 ## Let's Get Started
 
-Select a topic area from the sidebar to begin, or start with the first topic — **[Individual Compliance and Tax Planning](/tcp/individual-tax-compliance-and-planning/individual-compliance-and-tax-planning)**.
+Select a topic area from the sidebar to begin, or start with the first topic — **[Individual Compliance and Tax Planning](/tcp/individual-compliance-and-tax-planning/)**.

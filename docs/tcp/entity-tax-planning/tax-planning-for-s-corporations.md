@@ -64,7 +64,7 @@ The remaining \$50,000 of gain (\$200,000 − \$150,000) represents post-convers
 | **Installment sales** | If gain is recognized on the installment method, BIG tax applies only to installments received within the recognition period |
 | **Track NUBIG ceiling** | Cumulative recognized built-in gain cannot exceed NUBIG — once the ceiling is reached, no further BIG tax applies |
 
-> **Example:** Gies Co. converted to S status with a NUBIG of \$500,000 and a C corporation NOL carryforward of \$200,000. In Year 2, Gies Co. sells an asset and recognizes \$300,000 of built-in gain. The NOL offsets \$200,000, leaving \$100,000 subject to BIG tax. BIG tax = 21% × \$100,000 = **\$21,000**. Remaining NUBIG ceiling = \$500,000 − \$300,000 = \$200,000.
+> **Example:** Bear Co. converted to S status with a NUBIG of \$500,000 and a C corporation NOL carryforward of \$200,000. In Year 2, Bear Co. sells an asset and recognizes \$300,000 of built-in gain. The NOL offsets \$200,000, leaving \$100,000 subject to BIG tax. BIG tax = 21% × \$100,000 = **\$21,000**. Remaining NUBIG ceiling = \$500,000 − \$300,000 = \$200,000.
 
 :::tip[Exam Tip]
 
@@ -214,7 +214,7 @@ S corporation shareholders can increase their basis for loss deduction purposes 
 | **Shareholder guarantees third-party loan** | **No** debt basis until the shareholder makes an actual economic outlay |
 | **Back-to-back loan** | Shareholder borrows from bank, then lends to S corp — creates debt basis (the shareholder has personal liability and makes a direct loan to the corporation) |
 
-> **Example:** MAS Inc. (S corporation) allocates a \$120,000 loss to sole shareholder Jordan. Jordan's stock basis is \$50,000 and debt basis is \$0. Jordan can deduct only \$50,000 of the loss. If Jordan lends \$70,000 directly to MAS Inc. before year-end, Jordan's debt basis increases to \$70,000, allowing the full \$120,000 loss to be deducted (\$50,000 from stock basis + \$70,000 from debt basis).
+> **Example:** Polar Inc. (S corporation) allocates a \$120,000 loss to sole shareholder Jordan. Jordan's stock basis is \$50,000 and debt basis is \$0. Jordan can deduct only \$50,000 of the loss. If Jordan lends \$70,000 directly to Polar Inc. before year-end, Jordan's debt basis increases to \$70,000, allowing the full \$120,000 loss to be deducted (\$50,000 from stock basis + \$70,000 from debt basis).
 
 :::warning
 

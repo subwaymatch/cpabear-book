@@ -48,7 +48,7 @@ C corporations have unique capital loss rules compared to individuals.
 | **Carryback** | **3 years** (carried back as short-term capital loss) | No carryback |
 | **Carryforward** | **5 years** (carried forward as short-term capital loss) | Indefinite |
 
-> **Example:** Gies Co. has \$200,000 of ordinary income and a \$50,000 net capital loss in 2024, with no capital gains. Gies Co. cannot use the capital loss to offset ordinary income. The \$50,000 capital loss is carried back 3 years (to 2021 first) to offset capital gains in those years. Any remaining loss is carried forward up to 5 years.
+> **Example:** Bear Co. has \$200,000 of ordinary income and a \$50,000 net capital loss in 2024, with no capital gains. Bear Co. cannot use the capital loss to offset ordinary income. The \$50,000 capital loss is carried back 3 years (to 2021 first) to offset capital gains in those years. Any remaining loss is carried forward up to 5 years.
 
 :::tip[Exam Tip]
 
@@ -71,7 +71,7 @@ When a shareholder transfers property to a corporation solely in exchange for st
 | **Corporation's basis in property** | Carryover basis from shareholder + gain recognized by shareholder |
 | **Boot received** | Gain is recognized to the extent of boot received (but not in excess of realized gain) |
 
-> **Example:** Jordan transfers equipment (FMV \$100,000, adjusted basis \$60,000) and \$10,000 cash to MAS Inc. in exchange for 100% of MAS Inc. stock plus \$15,000 cash (boot). Jordan's realized gain is \$100,000 + \$10,000 − \$60,000 − \$10,000 = \$40,000. Jordan recognizes gain equal to boot received: \$15,000. Jordan's basis in the stock: \$60,000 − \$15,000 + \$15,000 = \$60,000. MAS Inc.'s basis in the equipment: \$60,000 + \$15,000 = \$75,000.
+> **Example:** Jordan transfers equipment (FMV \$100,000, adjusted basis \$60,000) and \$10,000 cash to Polar Inc. in exchange for 100% of Polar Inc. stock plus \$15,000 cash (boot). Jordan's realized gain is \$100,000 + \$10,000 − \$60,000 − \$10,000 = \$40,000. Jordan recognizes gain equal to boot received: \$15,000. Jordan's basis in the stock: \$60,000 − \$15,000 + \$15,000 = \$60,000. Polar Inc.'s basis in the equipment: \$60,000 + \$15,000 = \$75,000.
 
 #### Assumption of Liabilities
 

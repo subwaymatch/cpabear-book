@@ -73,7 +73,7 @@ To determine total ownership for the more-than-50% test, add direct ownership to
 
 #### Step-by-Step: Family Attribution
 
-> **Example:** Alex owns 25% of MAS Inc. stock directly. Alex's spouse, Dana, owns 30% of MAS Inc. stock directly.
+> **Example:** Alex owns 25% of Polar Inc. stock directly. Alex's spouse, Dana, owns 30% of Polar Inc. stock directly.
 >
 > | Source | Ownership |
 > |---|---|
@@ -81,27 +81,27 @@ To determine total ownership for the more-than-50% test, add direct ownership to
 > | Attributed from spouse Dana | 30% |
 > | **Total (direct + constructive)** | **55%** |
 >
-> Because Alex's total ownership exceeds 50%, Alex and MAS Inc. are **related parties** under §267. Any loss on a sale between Alex and MAS Inc. would be **disallowed**.
+> Because Alex's total ownership exceeds 50%, Alex and Polar Inc. are **related parties** under §267. Any loss on a sale between Alex and Polar Inc. would be **disallowed**.
 
 #### Step-by-Step: Entity Attribution
 
-> **Example:** Priya owns a 60% capital and profits interest in BIF Partners. BIF Partners owns 400 of the 1,000 outstanding shares of Gies Co. (40%).
+> **Example:** Priya owns a 60% capital and profits interest in BIF Partners. BIF Partners owns 400 of the 1,000 outstanding shares of Bear Co. (40%).
 >
-> Priya's constructive ownership of Gies Co. stock through BIF Partners:
+> Priya's constructive ownership of Bear Co. stock through BIF Partners:
 >
 > $$
 > 60\% \times 40\% = 24\%
 > $$
 >
-> If Priya also owns 30% of Gies Co. directly:
+> If Priya also owns 30% of Bear Co. directly:
 >
-> | Source | Ownership of Gies Co. |
+> | Source | Ownership of Bear Co. |
 > |---|---|
 > | Priya — direct | 30% |
 > | Attributed from BIF Partners (60% × 40%) | 24% |
 > | **Total** | **54%** |
 >
-> Priya and Gies Co. are related parties (54% > 50%).
+> Priya and Bear Co. are related parties (54% > 50%).
 
 #### Multiple-Chain Attribution
 
@@ -228,7 +228,7 @@ Think of the disallowed loss as a "coupon" that the buyer holds. It can **reduce
 
 ### Comprehensive Worked Example
 
-> **Example:** Jordan owns 60% of MAS Inc. Jordan sells equipment (adjusted basis \$80,000) to MAS Inc. for \$55,000.
+> **Example:** Jordan owns 60% of Polar Inc. Jordan sells equipment (adjusted basis \$80,000) to Polar Inc. for \$55,000.
 >
 > **Step 1 — Disallowed loss:**
 >
@@ -236,9 +236,9 @@ Think of the disallowed loss as a "coupon" that the buyer holds. It can **reduce
 > \text{Realized loss} = \$55{,}000 - \$80{,}000 = (\$25{,}000)
 > $$
 >
-> Loss is **disallowed** because Jordan and MAS Inc. are related parties (60% > 50%). Jordan recognizes \$0. MAS Inc.'s basis in the equipment = \$55,000.
+> Loss is **disallowed** because Jordan and Polar Inc. are related parties (60% > 50%). Jordan recognizes \$0. Polar Inc.'s basis in the equipment = \$55,000.
 >
-> **Step 2 — MAS Inc. sells the equipment to an unrelated buyer for \$72,000:**
+> **Step 2 — Polar Inc. sells the equipment to an unrelated buyer for \$72,000:**
 >
 > $$
 > \text{Realized gain} = \$72{,}000 - \$55{,}000 = \$17{,}000
@@ -287,7 +287,7 @@ The key distinction: under §1239, the **more-than-50% ownership test** uses con
 
 :::
 
-> **Example:** Alex owns 100% of Gies Co. Alex sells a building to Gies Co. for \$500,000. Alex's adjusted basis in the building is \$350,000. Gies Co. will use the building in its business and depreciate it.
+> **Example:** Alex owns 100% of Bear Co. Alex sells a building to Bear Co. for \$500,000. Alex's adjusted basis in the building is \$350,000. Bear Co. will use the building in its business and depreciate it.
 >
 > | Item | Amount |
 > |---|---|
@@ -296,7 +296,7 @@ The key distinction: under §1239, the **more-than-50% ownership test** uses con
 > | Gain | \$150,000 |
 > | **Character under §1239** | **Ordinary income** |
 >
-> Without §1239, the gain might have been §1231 gain (long-term capital gain treatment). Because the buyer (Gies Co.) is related to the seller (Alex, 100% owner) and will depreciate the building, the entire \$150,000 gain is **ordinary income**.
+> Without §1239, the gain might have been §1231 gain (long-term capital gain treatment). Because the buyer (Bear Co.) is related to the seller (Alex, 100% owner) and will depreciate the building, the entire \$150,000 gain is **ordinary income**.
 
 > **Example:** Dana sells a computer (adjusted basis \$2,000) to Dana's sibling, Priya, for \$5,000. Priya uses the computer in her sole proprietorship.
 >

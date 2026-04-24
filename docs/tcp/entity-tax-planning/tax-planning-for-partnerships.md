@@ -61,7 +61,7 @@ Contributing property with FMV less than adjusted basis creates a **built-in los
 | **Built-in loss allocation** | Must be allocated to the **contributing partner** under §704(c) |
 | **§704(c)(1)(C) limitation** | For contributed property with built-in loss, the partnership's basis for allocating loss to **non-contributing** partners is limited to **FMV at contribution** |
 
-> **Example:** Gies Co. Partnership has two equal partners — Alex and Sam. Alex contributes equipment (FMV \$60,000, adjusted basis \$100,000, built-in loss of \$40,000). If the partnership sells the equipment for \$50,000:
+> **Example:** Bear Co. Partnership has two equal partners — Alex and Sam. Alex contributes equipment (FMV \$60,000, adjusted basis \$100,000, built-in loss of \$40,000). If the partnership sells the equipment for \$50,000:
 
 | Calculation | Amount |
 |---|---|
@@ -236,7 +236,7 @@ When a partner contributes property and receives a related distribution within *
 | Contribution and distribution within **2 years** | **Presumed** to be a sale (rebuttable) |
 | Contribution and distribution **after 2 years** | **Presumed** not to be a sale (rebuttable) |
 
-> **Example:** Sam contributes property (FMV \$400,000, basis \$150,000) to MAS Inc. partnership and receives a \$400,000 cash distribution 6 months later. This is presumed to be a disguised sale. Sam would recognize \$250,000 of gain (\$400,000 − \$150,000) as if the property were sold to the partnership.
+> **Example:** Sam contributes property (FMV \$400,000, basis \$150,000) to Polar Inc. partnership and receives a \$400,000 cash distribution 6 months later. This is presumed to be a disguised sale. Sam would recognize \$250,000 of gain (\$400,000 − \$150,000) as if the property were sold to the partnership.
 
 :::tip[Exam Tip]
 
