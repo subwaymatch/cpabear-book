@@ -26,17 +26,6 @@ const ROTATING_WORDS = [
   "the CPA Exam",
 ];
 
-const FLOATING_SYMBOLS = [
-  { char: "$", top: "12%", left: "6%", delay: "0s", duration: "14s" },
-  { char: "%", top: "22%", left: "88%", delay: "2s", duration: "18s" },
-  { char: "Σ", top: "68%", left: "4%", delay: "4s", duration: "16s" },
-  { char: "∫", top: "78%", left: "92%", delay: "1s", duration: "20s" },
-  { char: "π", top: "44%", left: "94%", delay: "3s", duration: "15s" },
-  { char: "§", top: "8%", left: "46%", delay: "5s", duration: "19s" },
-  { char: "¢", top: "86%", left: "40%", delay: "2.5s", duration: "17s" },
-  { char: "€", top: "34%", left: "2%", delay: "6s", duration: "21s" },
-];
-
 const TICKER_TERMS = [
   "GAAP",
   "IFRS",
@@ -135,20 +124,6 @@ export default function App() {
             <div className={`${styles.blob} ${styles.blobB}`} />
             <div className={`${styles.blob} ${styles.blobC}`} />
             <div className={styles.grid} />
-            {FLOATING_SYMBOLS.map((s, i) => (
-              <span
-                key={i}
-                className={styles.floatingSymbol}
-                style={{
-                  top: s.top,
-                  left: s.left,
-                  animationDelay: s.delay,
-                  animationDuration: s.duration,
-                }}
-              >
-                {s.char}
-              </span>
-            ))}
           </div>
 
           <div className={styles.heroInner}>
@@ -217,22 +192,24 @@ export default function App() {
             </div>
 
             <div className={styles.heroArt} aria-hidden="true">
-              <div className={styles.bearHalo} />
-              <div className={styles.bearRing} />
-              <div className={styles.bearOrbit}>
-                <span className={`${styles.orbitDot} ${styles.orbitDot1}`} />
-                <span className={`${styles.orbitDot} ${styles.orbitDot2}`} />
-                <span className={`${styles.orbitDot} ${styles.orbitDot3}`} />
+              <div className={styles.bearStage}>
+                <div className={styles.bearScene}>
+                  <div className={styles.bearHead}>
+                    <span className={`${styles.bearEar} ${styles.bearEarLeft}`}>
+                      <span className={styles.bearEarInner} />
+                    </span>
+                    <span className={`${styles.bearEar} ${styles.bearEarRight}`}>
+                      <span className={styles.bearEarInner} />
+                    </span>
+                    <span className={styles.bearShine} />
+                    <span className={`${styles.bearEye} ${styles.bearEyeLeft}`} />
+                    <span className={`${styles.bearEye} ${styles.bearEyeRight}`} />
+                    <span className={styles.bearSnout}>
+                      <span className={styles.bearNose} />
+                    </span>
+                  </div>
+                </div>
               </div>
-              <img
-                src="/img/logo-variants/cpabear-lime.svg"
-                alt=""
-                className={styles.bear}
-              />
-              <div className={`${styles.chip} ${styles.chipFar}`}>FAR</div>
-              <div className={`${styles.chip} ${styles.chipAud}`}>AUD</div>
-              <div className={`${styles.chip} ${styles.chipReg}`}>REG</div>
-              <div className={`${styles.chip} ${styles.chipBar}`}>BAR</div>
             </div>
           </div>
 
