@@ -150,7 +150,7 @@ The key adjustment to remember: capital gains allocable to **corpus** are genera
 
 :::
 
-> **Example:** The Gies Family Trust has the following items:
+> **Example:** The Bear Family Trust has the following items:
 
 | Item | Amount |
 |---|---|
@@ -201,7 +201,7 @@ Distributions from a trust carry out a **proportionate share** of each type of i
 | Tax-exempt interest | Tax-exempt / total DNI |
 | Rental income | Rental / total DNI |
 
-> **Example:** If the Gies Family Trust distributes \$60,000 to beneficiary Sam and DNI is \$80,000 (composed of \$50,000 interest, \$21,000 dividends, and \$9,000 tax-exempt interest), Sam's distribution carries out:
+> **Example:** If the Bear Family Trust distributes \$60,000 to beneficiary Sam and DNI is \$80,000 (composed of \$50,000 interest, \$21,000 dividends, and \$9,000 tax-exempt interest), Sam's distribution carries out:
 > - Interest: \$60,000 × (\$50,000 / \$80,000) = **\$37,500**
 > - Dividends: \$60,000 × (\$21,000 / \$80,000) = **\$15,750**
 > - Tax-exempt interest: \$60,000 × (\$9,000 / \$80,000) = **\$6,750**

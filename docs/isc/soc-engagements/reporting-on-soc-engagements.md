@@ -36,7 +36,7 @@ The ISC exam tests this topic at the **Remembering and Understanding** level (ex
 | **User Auditor Action** | User auditor tests CUECs as part of the audit of financial statements               | User auditor or management evaluates whether CUECs support the applicable TSC |
 
 :::tip
-**Bear Co.** outsources payroll processing to **MAS Inc.** The SOC 1® report from MAS Inc. identifies a CUEC: "User entities should reconcile payroll reports to their general ledger monthly." Bear Co.'s external auditor must test whether Bear Co. actually performs this reconciliation before relying on MAS Inc.'s controls.
+**Bear Co.** outsources payroll processing to **Polar Inc.** The SOC 1® report from Polar Inc. identifies a CUEC: "User entities should reconcile payroll reports to their general ledger monthly." Bear Co.'s external auditor must test whether Bear Co. actually performs this reconciliation before relying on Polar Inc.'s controls.
 :::
 
 ---
@@ -163,7 +163,7 @@ When exceptions are identified, the service auditor documents:
 3. **Impact** — Whether the exception represents a control deficiency and its severity
 4. **Management response** — Any corrective actions taken (optional but common)
    :::tip
-   **Gies Co.** is preparing the SOC 2® Type 2 report for **Illini Security**, a managed security services provider. During testing of CC6.3, the auditor found that 2 of 25 sampled access removals exceeded the 24-hour SLA. The test results entry states: "Exception: 2 of 25 sampled terminations had access removed between 25 and 48 hours after termination. Management implemented an automated workflow on July 15 to address the delay." This exception alone does not automatically result in a modified opinion — the auditor evaluates whether it constitutes a material deficiency.
+   **Bear Co.** is preparing the SOC 2® Type 2 report for **Illini Security**, a managed security services provider. During testing of CC6.3, the auditor found that 2 of 25 sampled access removals exceeded the 24-hour SLA. The test results entry states: "Exception: 2 of 25 sampled terminations had access removed between 25 and 48 hours after termination. Management implemented an automated workflow on July 15 to address the delay." This exception alone does not automatically result in a modified opinion — the auditor evaluates whether it constitutes a material deficiency.
    :::
 
 ---

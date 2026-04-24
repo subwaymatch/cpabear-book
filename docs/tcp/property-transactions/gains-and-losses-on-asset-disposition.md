@@ -60,7 +60,7 @@ The §1231 lookback rule prevents taxpayers from selectively timing dispositions
 
 **Rule:** If the taxpayer had **net §1231 losses** in any of the **prior 5 tax years** that were treated as ordinary losses, the current year's net §1231 gain is **recharacterized as ordinary income** to the extent of those prior unrecaptured ordinary losses.
 
-> **Example:** Gies Co. reported the following §1231 results over the past several years:
+> **Example:** Bear Co. reported the following §1231 results over the past several years:
 >
 > | Year | Net §1231 Result | Character |
 > |---|---|---|
@@ -77,7 +77,7 @@ The §1231 lookback rule prevents taxpayers from selectively timing dispositions
 > - Year 4 recaptured: (\$15,000)
 > - **Remaining unrecaptured losses = \$30,000 + \$10,000 − \$15,000 = \$25,000**
 >
-> Of Gies Co.'s \$50,000 net §1231 gain in Year 6:
+> Of Bear Co.'s \$50,000 net §1231 gain in Year 6:
 > - **\$25,000** is recharacterized as **ordinary income** (lookback recapture)
 > - **\$25,000** is treated as **long-term capital gain**
 
@@ -118,7 +118,7 @@ Any gain **in excess of** the total depreciation is §1231 gain (and enters the 
 | §1245 ordinary income | Lesser of gain realized or total depreciation |
 | §1231 gain (if any) | Gain realized − §1245 ordinary income |
 
-> **Example:** MAS Inc. purchased equipment for \$120,000 and claimed \$45,000 in depreciation. The equipment is sold for \$100,000.
+> **Example:** Polar Inc. purchased equipment for \$120,000 and claimed \$45,000 in depreciation. The equipment is sold for \$100,000.
 >
 > - Adjusted basis = \$120,000 − \$45,000 = **\$75,000**
 > - Gain realized = \$100,000 − \$75,000 = **\$25,000**
@@ -127,7 +127,7 @@ Any gain **in excess of** the total depreciation is §1231 gain (and enters the 
 >
 > The entire \$25,000 gain is **ordinary income** because the gain does not exceed the total depreciation claimed.
 
-> **Example:** Now suppose MAS Inc. sells the same equipment for \$140,000 instead.
+> **Example:** Now suppose Polar Inc. sells the same equipment for \$140,000 instead.
 >
 > - Adjusted basis = \$120,000 − \$45,000 = **\$75,000**
 > - Gain realized = \$140,000 − \$75,000 = **\$65,000**
@@ -465,7 +465,7 @@ When the buyer assumes an existing mortgage, the calculation requires additional
 
 When the mortgage assumed by the buyer **exceeds** the seller's adjusted basis, the excess is treated as a payment received in the year of sale.
 
-> **Example:** Gies Co. sells property for \$400,000. The buyer assumes Gies Co.'s \$250,000 mortgage. Gies Co.'s adjusted basis is \$180,000.
+> **Example:** Bear Co. sells property for \$400,000. The buyer assumes Bear Co.'s \$250,000 mortgage. Bear Co.'s adjusted basis is \$180,000.
 >
 > - Excess mortgage over basis = \$250,000 − \$180,000 = **\$70,000** (treated as Year 1 payment)
 > - Gross profit = \$400,000 − \$180,000 = **\$220,000**

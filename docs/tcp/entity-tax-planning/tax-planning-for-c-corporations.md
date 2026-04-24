@@ -34,7 +34,7 @@ The §382 limitation can dramatically reduce the value of a corporation's NOLs a
 | **Built-in gain recognition** | If the corporation has a **net unrealized built-in gain** at the change date, gains recognized within the 5-year recognition period increase the §382 limitation |
 | **Evaluate NOL value in acquisition pricing** | Discount the NOL carryforward by the present value of the restricted annual usage |
 
-> **Example:** MAS Inc. is being acquired in a transaction that will trigger an ownership change. MAS Inc. has \$2,000,000 in NOLs. The FMV of MAS Inc. stock is \$5,000,000, and the long-term tax-exempt rate is 4%. The annual §382 limitation = \$5,000,000 × 4% = **\$200,000**. At 21% tax rate, the annual tax savings = \$200,000 × 21% = \$42,000. The acquirer should value the NOLs at the present value of \$42,000 per year — not the full \$2,000,000 face value.
+> **Example:** Polar Inc. is being acquired in a transaction that will trigger an ownership change. Polar Inc. has \$2,000,000 in NOLs. The FMV of Polar Inc. stock is \$5,000,000, and the long-term tax-exempt rate is 4%. The annual §382 limitation = \$5,000,000 × 4% = **\$200,000**. At 21% tax rate, the annual tax savings = \$200,000 × 21% = \$42,000. The acquirer should value the NOLs at the present value of \$42,000 per year — not the full \$2,000,000 face value.
 
 :::warning
 
@@ -53,7 +53,7 @@ C corporation capital losses can only offset capital gains and have limited carr
 | **Carryback first** | Capital losses are carried back 3 years first — amend prior returns to recover tax paid on capital gains |
 | **Convert to ordinary income/loss if possible** | §1244 stock losses (up to \$50,000/\$100,000) are ordinary — consider whether any capital losses can be recharacterized |
 
-> **Example:** Gies Co. has a \$150,000 capital loss carryforward from 2022, expiring after 2027. In 2024, Gies Co. holds stock investments with \$200,000 of unrealized gains. By selling \$150,000 of investments in 2024, Gies Co. generates capital gains that are fully offset by the capital loss carryforward — **\$0 net tax on the gains**. If Gies Co. waits until 2028, the carryforward expires worthless.
+> **Example:** Bear Co. has a \$150,000 capital loss carryforward from 2022, expiring after 2027. In 2024, Bear Co. holds stock investments with \$200,000 of unrealized gains. By selling \$150,000 of investments in 2024, Bear Co. generates capital gains that are fully offset by the capital loss carryforward — **\$0 net tax on the gains**. If Bear Co. waits until 2028, the carryforward expires worthless.
 
 :::tip[Exam Tip]
 
@@ -218,7 +218,7 @@ Cr. Land[a] 120,000
 | **Corporate level** | Recognizes gain (FMV − adjusted basis) — taxed at 21% |
 | **Shareholder level** | Distribution = FMV of property; taxed as dividend to extent of E&P |
 
-> **Example:** MAS Inc. distributes land (FMV \$300,000, adjusted basis \$180,000) to sole shareholder Dana. MAS Inc. recognizes a \$120,000 gain (taxed at 21% = \$25,200). Dana receives a \$300,000 distribution — taxable as a dividend to the extent of E&P (at qualified dividend rates up to 20% + 3.8% NIIT). Total tax on the \$120,000 of appreciation: corporate tax of \$25,200 plus shareholder tax on the dividend — illustrating the double taxation problem.
+> **Example:** Polar Inc. distributes land (FMV \$300,000, adjusted basis \$180,000) to sole shareholder Dana. Polar Inc. recognizes a \$120,000 gain (taxed at 21% = \$25,200). Dana receives a \$300,000 distribution — taxable as a dividend to the extent of E&P (at qualified dividend rates up to 20% + 3.8% NIIT). Total tax on the \$120,000 of appreciation: corporate tax of \$25,200 plus shareholder tax on the dividend — illustrating the double taxation problem.
 
 #### Loss Property Distributions
 

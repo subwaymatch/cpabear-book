@@ -172,7 +172,7 @@ When a partner provides services to the partnership, the tax treatment depends o
 | **As a partner** | **Guaranteed payment** | Ordinary income to partner; deductible by partnership; subject to self-employment tax |
 | **Not in capacity as a partner** (outsider) | **IRC §707(a) payment** | Treated as a payment to a third party — ordinary income to partner, deductible by partnership if an ordinary business expense |
 
-> **Example:** Dana, a partner in Gies Co. partnership, provides legal services to the partnership. If Dana acts in her capacity as a partner and receives a guaranteed payment of \$80,000, it is ordinary income to Dana and deductible by Gies Co. If Dana provides the same services in a transaction not in her capacity as a partner (e.g., a separately negotiated contract), the \$80,000 is a §707(a) payment — still ordinary income to Dana and deductible by Gies Co., but a §707(a) payment is generally **not** subject to self-employment tax (unlike a guaranteed payment, which **is** subject to SE tax).
+> **Example:** Dana, a partner in Bear Co. partnership, provides legal services to the partnership. If Dana acts in her capacity as a partner and receives a guaranteed payment of \$80,000, it is ordinary income to Dana and deductible by Bear Co. If Dana provides the same services in a transaction not in her capacity as a partner (e.g., a separately negotiated contract), the \$80,000 is a §707(a) payment — still ordinary income to Dana and deductible by Bear Co., but a §707(a) payment is generally **not** subject to self-employment tax (unlike a guaranteed payment, which **is** subject to SE tax).
 
 ### Contributions of Noncash Property
 

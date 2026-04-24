@@ -95,7 +95,7 @@ Boot property received (non-like-kind property) gets a **new** holding period st
 
 ### Example 1: Basic Like-Kind Exchange (No Boot)
 
-> **Example:** Bear Co. owns a warehouse (adjusted basis \$200,000, FMV \$350,000) used in its business. Bear Co. exchanges the warehouse directly for an office building (FMV \$350,000) owned by Gies Co., also used in business.
+> **Example:** Bear Co. owns a warehouse (adjusted basis \$200,000, FMV \$350,000) used in its business. Bear Co. exchanges the warehouse directly for an office building (FMV \$350,000) owned by Polar Inc., also used in business.
 
 | Step | Calculation | Amount |
 |---|---|---|
@@ -132,9 +132,9 @@ Verification: Basis (\$300,000) = FMV of retail space (\$440,000) − Deferred g
 
 ### Example 3: Like-Kind Exchange with Mortgage Relief (Boot)
 
-> **Example:** MAS Inc. owns a factory building (adjusted basis \$400,000, FMV \$700,000, subject to a \$150,000 mortgage). MAS Inc. exchanges the factory for a distribution center (FMV \$550,000) owned by Dana. Dana assumes the \$150,000 mortgage on the factory. No other boot is exchanged.
+> **Example:** Polar Inc. owns a factory building (adjusted basis \$400,000, FMV \$700,000, subject to a \$150,000 mortgage). Polar Inc. exchanges the factory for a distribution center (FMV \$550,000) owned by Dana. Dana assumes the \$150,000 mortgage on the factory. No other boot is exchanged.
 
-From MAS Inc.'s perspective, the mortgage assumed by Dana is **boot received**.
+From Polar Inc.'s perspective, the mortgage assumed by Dana is **boot received**.
 
 | Step | Calculation | Amount |
 |---|---|---|
@@ -367,7 +367,7 @@ Recognized gain under §1033 can **never exceed** the realized gain. Even if the
 
 ### Example 8: Direct Conversion
 
-> **Example:** The city condemns Gies Co.'s commercial building and provides a replacement building directly (no cash proceeds). The old building had an adjusted basis of \$450,000, and the replacement building has a FMV of \$600,000.
+> **Example:** The city condemns Bear Co.'s commercial building and provides a replacement building directly (no cash proceeds). The old building had an adjusted basis of \$450,000, and the replacement building has a FMV of \$600,000.
 
 | Step | Result |
 |---|---|

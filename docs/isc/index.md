@@ -129,7 +129,7 @@ ISC is a unique exam that blends **IT knowledge** with **audit and advisory skil
 
 4. **Learn the terminology.** ISC uses specialized IT and cybersecurity vocabulary that may be unfamiliar to candidates with accounting backgrounds. Invest time in understanding terms like IaaS, PaaS, SaaS, VPN, DDoS, SQL injection, zero-trust, and data normalization. Misunderstanding a key term in a question stem can lead to an incorrect answer.
 
-5. **Practice scenario-based questions.** The exam will present scenarios where **MAS Inc.** needs to evaluate its cloud provider's controls, or where **Gies Co.** is assessing whether its change management process has adequate segregation of duties. Practice identifying the specific control, deficiency, or procedure that applies in each scenario.
+5. **Practice scenario-based questions.** The exam will present scenarios where **Polar Inc.** needs to evaluate its cloud provider's controls, or where **Bear Co.** is assessing whether its change management process has adequate segregation of duties. Practice identifying the specific control, deficiency, or procedure that applies in each scenario.
 
 6. **Connect the content areas.** A single scenario may span multiple areas. A question about evaluating a service organization's security controls could require knowledge of threat types (Area II), the Trust Services Criteria (Area III), and the underlying IT infrastructure (Area I).
 
@@ -145,4 +145,4 @@ Many candidates underestimate ISC because they assume IT knowledge alone is suff
 
 ## Let's Get Started
 
-Select a topic area from the sidebar to begin, or start with the first topic — **[IT Infrastructure](/isc/information-systems-and-data-management/it-infrastructure)**.
+Select a topic area from the sidebar to begin, or start with the first topic — **[IT Infrastructure](/isc/information-systems/it-infrastructure)**.
