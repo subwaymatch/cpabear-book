@@ -26,7 +26,8 @@ CPA Bear Book is an open-source, Docusaurus-based textbook for CPA exam candidat
 
 - **Framework:** [Docusaurus v3](https://docusaurus.io/) (React, TypeScript, MDX)
 - **Language:** TypeScript (`~7.0`)
-- **Node.js:** ≥ 20.0
+- **Node.js:** ≥ 22.0 (pinned in `.node-version` for CI and Cloudflare builds)
+- **Hosting:** Cloudflare Workers static assets, deployed with Wrangler (`wrangler.jsonc`)
 - **Package manager:** npm (use `npm ci` for installs, not `yarn`)
 - **Math rendering:** KaTeX via `remark-math` + `rehype-katex`
 - **Diagrams:** Mermaid via `@docusaurus/theme-mermaid`
@@ -59,6 +60,7 @@ cpabear-book/
 ├── docusaurus.config.ts      # Site configuration (title, navbar, footer, plugins)
 ├── sidebars.ts               # Sidebar structure for all six exam sections
 ├── tsconfig.json             # TypeScript configuration
+├── wrangler.jsonc            # Cloudflare Workers config (production domain, previews)
 └── package.json
 ```
 
@@ -141,7 +143,12 @@ Sidebars are defined in `sidebars.ts` and exported as `farSidebar`, `audSidebar`
 
 ## Deployment
 
-The site deploys automatically to GitHub Pages when changes are pushed to `main` (see `.github/workflows/deploy.yml`). There is also a `test-deploy.yml` workflow for non-main branches.
+The site is hosted on Cloudflare Workers as static assets and deployed by Workers Builds, Cloudflare's Git integration:
+
+- Pushes to `main` run `npm run build`, then `npx wrangler deploy`, publishing production at `book.cpabear.com`.
+- Pushes to any other branch run `npm run build`, then `npx wrangler preview`. Cloudflare comments the preview URL on the pull request.
+
+The build and deploy commands live in the Cloudflare dashboard (Worker **Settings** > **Builds**), and the Worker settings live in `wrangler.jsonc`. Keep the Worker `name` in `wrangler.jsonc` in sync with the dashboard, or builds fail. Pull requests also run the `test-deploy.yml` GitHub Actions build check. To reproduce Cloudflare's routing locally (trailing-slash redirects, 404 handling), run `npm run build && npx wrangler dev`.
 
 ## TypeScript
 

@@ -6,7 +6,7 @@ The site is built with [Docusaurus 3](https://docusaurus.io/) and TypeScript, wi
 
 ## Requirements
 
-- Node.js 20 or later (CI uses Node 22)
+- Node.js 22 or later (CI and Cloudflare builds use the version in `.node-version`)
 - npm (the repository uses `package-lock.json`, so use npm rather than yarn)
 
 ## Getting Started
@@ -27,6 +27,7 @@ Most changes reload automatically while the dev server is running. Search is bui
 | `npm run serve` | Serve the production build locally |
 | `npm run typecheck` | Run TypeScript type checking |
 | `npm run clear` | Clear the Docusaurus cache |
+| `npx wrangler dev` | Serve `build/` locally with Cloudflare's asset routing (run after a build) |
 
 Before opening a pull request, run `npm run build && npm run typecheck`. The build fails on broken internal links.
 
@@ -40,6 +41,7 @@ Before opening a pull request, run `npm run build && npm run typecheck`. The bui
 | `src/pages/` | Home, about, and 2026 blueprint pages |
 | `src/theme/` | Swizzled theme components (code blocks and search) |
 | `docusaurus.config.ts` | Site configuration |
+| `wrangler.jsonc` | Cloudflare Workers configuration for production and preview deployments |
 
 ## Writing Content
 
@@ -51,4 +53,11 @@ See [AGENTS.md](AGENTS.md) for the authoring conventions, including:
 
 ## Deployment
 
-Every push to `main` builds the site and deploys it to GitHub Pages through GitHub Actions (`.github/workflows/deploy.yml`). Pull requests into `main` run a test build (`.github/workflows/test-deploy.yml`) but are not published.
+The site is hosted on [Cloudflare Workers](https://developers.cloudflare.com/workers/static-assets/) as static assets, deployed by Workers Builds (Cloudflare's Git integration). `wrangler.jsonc` holds the configuration.
+
+- **Production:** every push to `main` runs `npm run build`, then `npx wrangler deploy`, which publishes to [book.cpabear.com](https://book.cpabear.com).
+- **Previews:** every other branch runs `npm run build`, then `npx wrangler preview`. Cloudflare posts the preview URL as a comment on the pull request and updates it on each push.
+
+Pull requests into `main` also run a GitHub Actions build check (`.github/workflows/test-deploy.yml`).
+
+To deploy by hand from a machine logged in with `npx wrangler login`, run `npm run deploy` (production) or `npm run deploy:preview` (a preview for the current branch).

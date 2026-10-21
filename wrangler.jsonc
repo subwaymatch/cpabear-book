@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // The static Docusaurus build, served by Cloudflare Workers.
+  // Workers Builds runs `npm run build`, then `npx wrangler deploy` for pushes
+  // to main (production) and `npx wrangler preview` for every other branch.
+  "name": "cpabear-book",
+  "compatibility_date": "2026-10-19",
+  "assets": {
+    "directory": "./build",
+    // Unknown URLs get Docusaurus's 404.html with a 404 status.
+    "not_found_handling": "404-page"
+  },
+  // Production is served only at book.cpabear.com. This requires the
+  // cpabear.com zone to be active on Cloudflare.
+  "routes": [{ "pattern": "book.cpabear.com", "custom_domain": true }],
+  "workers_dev": false,
+  // Pull request previews get their own workers.dev URLs, which Cloudflare
+  // marks noindex.
+  "preview_urls": true,
+  "previews": {}
+}

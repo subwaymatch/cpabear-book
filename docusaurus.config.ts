@@ -17,16 +17,9 @@ const config: Config = {
     faster: true,
   },
 
-  // Set the production url of your site here
+  // Production URL. The site is deployed to Cloudflare Workers (see wrangler.jsonc).
   url: "https://book.cpabear.com",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "subwaymatch", // Usually your GitHub org/user name.
-  projectName: "cpabear-book", // Usually your repo name.
   trailingSlash: false, // Don't add a trailing slash to the end of URLs
 
   onBrokenLinks: "throw",
