@@ -1,163 +1,104 @@
 # Written Representations
 
-The **management representation letter** is one of the final, and most important, pieces of audit evidence the auditor obtains before issuing the audit report. Written representations are formal statements made by management to confirm matters discussed during the audit and to acknowledge management's responsibilities for the financial statements. They are required by AU-C 580 for nonissuers and AS 2805 for issuers.
+Near the end of the audit, the auditor asks management to put in writing what it has said throughout the engagement: that it is responsible for the financial statements, that it has given the auditor everything relevant, that it knows of no fraud beyond what it has disclosed, and more. This **management representation letter** does not prove much on its own, but it puts management formally on record, and a refusal to sign it is one of the clearest warning signs an auditor can get. This chapter covers the purpose of written representations, who provides them, which ones are required, their date, and what happens when representations are doubtful or refused.
 
-:::info
-
-Written representations are **necessary but not sufficient** audit evidence. They complement, but do not replace, other audit procedures. If management's representations contradict other evidence, the auditor must investigate the inconsistency.
-
-:::
+For nonissuers, the standard is **AU-C 580**; for issuers, **AS 2805**.
 
 ---
 
-## Purpose and Nature of Written Representations
+## What Written Representations Are For
 
-Written representations serve two primary purposes:
+Written representations do two things. They **confirm management's responsibilities** for the financial statements, and they **support other audit evidence** about specific matters, especially matters within management's knowledge that are hard to verify any other way, such as management's intentions.
 
-1. **Confirming management's responsibility** for the preparation and fair presentation of the financial statements in accordance with the applicable financial reporting framework
-2. **Confirming information** provided to the auditor during the engagement, especially where other evidence may not be available
+They are **necessary but not sufficient** evidence. They never replace procedures the auditor would otherwise perform, and a representation that contradicts other evidence is a problem to investigate, not a tiebreaker in management's favor. Their value is greatest for matters of judgment or intent. When classification depends on what management plans to do, such as holding a debt security to maturity or refinancing a short-term loan on a long-term basis, the auditor considers whether management's past actions are consistent with its stated intent and obtains a written representation about it.
 
-Representations may address matters that are:
-
-- **Explicitly required** by auditing standards (e.g., completeness of information)
-- **Necessary to support other audit evidence** obtained during the engagement
-- **Specific to the entity** and its circumstances (e.g., unusual transactions)
-
-**Example:** While auditing Bear Co., the engagement partner requests a written representation from Bear Co.'s CEO and CFO confirming that all material transactions have been recorded and that no side agreements exist with customers. These representations supplement the auditor's revenue testing procedures.
+**Example:** In auditing Bear Co.'s revenue, the auditor tests contracts, shipments, and cash receipts. The auditor also asks Bear Co.'s CEO and CFO to represent in writing that there are no side agreements with customers that change the terms of the recorded sales. The representation supports, but does not replace, the revenue testing.
 
 ---
 
 ## Who Provides the Representations
 
-Written representations must be requested from **members of management with appropriate responsibilities and knowledge** of the matters involved. Typically, this includes:
-
-- The **Chief Executive Officer (CEO)**, responsible for overall operations
-- The **Chief Financial Officer (CFO)**, responsible for financial reporting
-
-:::tip[Exam Tip]
-
-The representation letter should be signed by the **highest-level individuals** who have responsibility for the financial statements and knowledge of the matters covered. For most entities, this means both the CEO and CFO. Don't confuse this with the engagement letter, which is signed at the start of the audit.
-
-:::
-
-The auditor should also consider whether representations from other individuals are needed (for example, from the head of a subsidiary or from legal counsel regarding litigation matters).
+The auditor requests written representations from **members of management with appropriate responsibilities for the financial statements and knowledge of the matters concerned**, normally the **chief executive officer and chief financial officer** or people in equivalent roles. When appropriate, the auditor may also request representations from those charged with governance. A representation letter comes from the entity's management; the separate letter from the entity's legal counsel about litigation is a different piece of evidence.
 
 ---
 
-## Required Representations
+## Representations the Auditor Must Request
 
-Certain representations are **mandatory** on every audit engagement. The auditor must obtain written representations from management that confirm:
+Some representations are required on every audit. They fall into a few groups.
 
-| Required Representation | Description |
-|---|---|
-| **Responsibility for financial statements** | Management acknowledges its responsibility for preparing and fairly presenting the financial statements in accordance with the applicable framework |
-| **Completeness of information** | Management has provided the auditor with all relevant information and access, as agreed in the engagement letter terms |
-| **Completeness of transactions** | All transactions have been recorded and are reflected in the financial statements |
-| **Recognition, measurement, and disclosure** | Management believes the effects of any uncorrected misstatements are immaterial, individually and in the aggregate |
-| **Reasonable estimates** | Significant assumptions used in making accounting estimates are reasonable |
+**Management's responsibilities.** Management represents that:
 
----
+- it has fulfilled its responsibility for preparing and fairly presenting the financial statements in accordance with the applicable framework, as set out in the terms of the engagement;
+- it has provided the auditor with all relevant information and access, as agreed; and
+- all transactions have been recorded and are reflected in the financial statements.
 
-## Specific Representations
+**Fraud and noncompliance.** Management represents that it:
 
-Beyond the required general representations, the auditor obtains written representations on specific topics relevant to the engagement:
+- acknowledges its responsibility for internal control to prevent and detect fraud;
+- has disclosed the results of its assessment of the risk of fraud;
+- has disclosed its knowledge of any fraud or suspected fraud involving management, employees with significant roles in internal control, or others when the fraud could have a material effect;
+- has disclosed any allegations of fraud or suspected fraud communicated by employees, former employees, regulators, or others; and
+- has disclosed all known instances of noncompliance or suspected noncompliance with laws and regulations whose effects should be considered in preparing the financial statements.
 
-### Fraud
-Management confirms that it has:
-- Disclosed to the auditor all known instances of **fraud or suspected fraud** affecting the entity involving management, employees with significant roles in internal control, or others where the fraud could have a material effect
-- Disclosed all **allegations of fraud** communicated by employees, former employees, analysts, regulators, or others
+**Specific matters in the financial statements.** Management represents its belief that:
 
-### Laws and Regulations
-Management represents that all known instances of **noncompliance or suspected noncompliance** with laws and regulations whose effects should be considered in preparing the financial statements have been disclosed.
+- the effects of **uncorrected misstatements** are immaterial, individually and in the aggregate (a summary of them is attached to the letter);
+- all known actual or possible **litigation and claims** have been disclosed to the auditor and properly accounted for and disclosed;
+- the methods, data, and significant assumptions used in making **accounting estimates** are appropriate;
+- the identity of **related parties**, and all related party relationships and transactions, have been disclosed to the auditor and properly accounted for and disclosed; and
+- all **subsequent events** requiring adjustment or disclosure have been adjusted or disclosed.
 
-### Related Parties
-Management confirms that it has disclosed:
-- The identity of all **related parties** and the nature of all related-party relationships
-- All **related-party transactions** that have been properly recorded and disclosed
+The auditor requests additional representations when they are needed to support other evidence, such as representations about management's plans when there is substantial doubt about going concern, or about management's intent and ability to carry out a planned course of action.
 
-### Subsequent Events
-Management acknowledges that all events occurring **after the balance sheet date** that require adjustment or disclosure have been properly reflected in the financial statements.
-
-**Example:** During the audit of Kodiak Partners, the auditor learns through inquiry that a significant customer filed for bankruptcy in January, after Kodiak Partners' December 31 fiscal year-end. The auditor obtains a written representation that management has disclosed all subsequent events, including this customer's bankruptcy, and has evaluated whether an adjustment to accounts receivable is necessary.
+**Example:** During the audit of Kodiak Partners, the auditor learns that a significant customer filed for bankruptcy in January, after the December 31 year-end. After evaluating the customer's condition at year-end and the adjustment to the allowance, the auditor obtains the standard representation on subsequent events and confirms that the letter does not contradict what the auditor found.
 
 ---
 
-## Date and Period Covered
+## Date and Periods Covered
 
-The representation letter must be dated **as of the date of the auditor's report**, not before and not after. This is the same date the auditor has obtained sufficient appropriate audit evidence.
+The representation letter is dated **as of the date of the auditor's report**. That is the date through which the auditor is responsible for subsequent events, so management's representations need to cover the same period. A letter dated earlier leaves a gap, and the auditor would need an updated letter.
 
-Key timing requirements:
-
-- The representations cover the **period(s) referred to in the auditor's report** (e.g., the fiscal year ended December 31, 20X4)
-- If the auditor's report is **dual-dated** due to a subsequent event, an additional representation may be needed to cover the later date
-- The letter should be obtained **before or on the date** the audit report is issued
-
-:::caution
-
-If management dates the representation letter before the audit report date, the auditor may need to obtain an updated letter. The representation letter should never be dated after the auditor's report date, as this would mean the representations were not available when the auditor formed the opinion.
-
-:::
+The representations cover **all the financial statements and periods referred to in the auditor's report**. If the report covers two years, the letter covers both years, even if current management was not in place for the earlier one. When the auditor dual dates the report for a later event, the auditor may need an additional representation about that event as of the later date.
 
 ---
 
-## Effect of Unreliable or Refused Representations
+## When Representations Are Doubtful or Refused
 
-### Doubt About Reliability
-If the auditor has concerns about the **competence, integrity, or ethical values** of management, or if management's representations are inconsistent with other audit evidence, the auditor must:
+### Doubts About Reliability
 
-1. Consider the effect on the **reliability of other representations** and audit evidence
-2. Take appropriate action, which may include **modifying the audit opinion**
-3. Consider whether to **withdraw from the engagement**
+If the auditor has concerns about the competence, integrity, or ethical values of management, or if a written representation is **inconsistent with other evidence**, the auditor performs procedures to resolve the matter. If it remains unresolved, the auditor reconsiders the assessment of management's integrity and the effect on the reliability of all representations and other evidence, and determines the possible effect on the opinion.
 
 ### Refusal to Provide Representations
-If management **refuses** to provide one or more of the requested written representations, the auditor must:
 
-- Discuss the refusal with management and those charged with governance
-- Reevaluate management's integrity and the effect on the reliability of other representations
-- **Disclaim an opinion** on the financial statements (if management refuses to provide the required representations about its responsibility or completeness)
+If management does not provide one or more requested representations, the auditor discusses the matter with management, reevaluates management's integrity and the effect on the reliability of other representations and evidence, and determines the effect on the opinion.
+
+The consequences depend on which representations are involved. If management will not provide the representations about **its responsibilities** (preparing the financial statements, providing information and access, and recording all transactions), or if the auditor concludes that those representations are unreliable because of serious doubts about management's integrity, the auditor **disclaims an opinion or withdraws** from the engagement. Without those representations, the foundation of the audit is missing. If management refuses some other representation, the auditor evaluates its importance; the result may be a qualified opinion or a disclaimer. AS 2805 reaches a similar result for issuers: a refusal is a scope limitation that precludes an unqualified opinion and is ordinarily sufficient to cause the auditor to disclaim or withdraw.
+
+**Example:** Honey Entertainment's CEO signs the representation letter, but the CFO, who is responsible for the financial statements, refuses, citing personal legal concerns. Without the CFO's representations about management's responsibilities, the auditor cannot obtain the required representations from management with appropriate responsibility. After discussing the matter with the audit committee and reevaluating management's integrity, the auditor disclaims an opinion.
 
 :::warning
 
-A refusal to provide the required representation letter is a **scope limitation** serious enough to require a **disclaimer of opinion** in virtually all cases. This is a high-priority exam topic; the CPA exam frequently tests the consequences of a refused representation letter.
+A refusal to provide the representations about management's responsibilities leads to a **disclaimer of opinion or withdrawal**. It is not a situation that a qualified opinion can fix.
 
 :::
-
-**Example:** Honey Entertainment's CEO agrees to sign the representation letter, but the CFO refuses, citing personal legal concerns. The auditor must evaluate the impact. If the CFO's refusal means the auditor cannot obtain adequate representations about the financial statements, the auditor should issue a disclaimer of opinion.
 
 ---
 
-## Relationship to Other Audit Evidence
+## Other Engagements
 
-Written representations are an essential but **complementary** form of audit evidence. Key principles:
-
-- Representations **do not substitute** for other audit procedures the auditor would otherwise perform
-- If a representation contradicts other evidence, the auditor must **investigate the discrepancy** and consider the effect on other aspects of the audit
-- Representations about matters already corroborated through other procedures provide **additional assurance** but are not the primary source of evidence
-- Representations are particularly valuable for matters involving **management intent** (e.g., the intent to hold a debt instrument to maturity), which are difficult to corroborate through other means
-
-:::tip[Exam Tip]
-
-On the CPA exam, remember: the representation letter is **required** audit evidence, but it is **not sufficient** by itself. The auditor still needs to perform substantive testing and other procedures. Think of the representation letter as a "safety net" that ensures management has gone on record about key assertions, not a shortcut that eliminates the need for other evidence.
-
-:::
+Written representations are not limited to audits. Accountants obtain them in **reviews** of financial statements under the SSARSs and in **reviews of interim financial information**, and practitioners obtain them from the responsible party in **attestation engagements**. The content follows the same logic: management takes responsibility for the subject matter and confirms that it has provided all relevant information.
 
 ---
 
 ## Summary
 
-| Topic | Key Point |
+| Topic | Key point |
 |---|---|
-| **Purpose** | Confirm management's responsibility and information provided during the audit |
-| **Who signs** | CEO and CFO (or equivalent members of management with appropriate responsibilities) |
-| **Date** | Same date as the auditor's report |
-| **Required topics** | Responsibility, completeness, recognition/measurement/disclosure, uncorrected misstatements |
-| **Specific topics** | Fraud, laws/regulations, related parties, subsequent events |
-| **Refusal effect** | Disclaimer of opinion (scope limitation) |
-| **Reliability concern** | Reevaluate integrity; possible opinion modification or withdrawal |
-| **Relationship to other evidence** | Complements but does not replace other procedures |
-
-:::tip[Exam Tip]
-
-When you see an exam question about the management representation letter, focus on three things: **(1)** it must be dated as of the auditor's report date, **(2)** it is signed by the CEO and CFO, and **(3)** a refusal to sign results in a disclaimer of opinion. These three facts cover the majority of representation letter questions.
-
-:::
+| **Purpose** | Confirm management's responsibilities and support other evidence; necessary but not sufficient |
+| **Who signs** | Management with appropriate responsibility and knowledge, normally the CEO and CFO |
+| **Required topics** | Management's responsibilities; fraud and noncompliance; uncorrected misstatements; litigation; estimates; related parties; subsequent events |
+| **Date** | As of the date of the auditor's report |
+| **Periods** | All financial statements and periods referred to in the report |
+| **Inconsistent representations** | Investigate; reconsider management's integrity and the reliability of other evidence |
+| **Refusal of the responsibility representations** | Disclaim an opinion or withdraw |
+| **Refusal of other representations** | Evaluate the effect; may lead to a qualified opinion or a disclaimer |

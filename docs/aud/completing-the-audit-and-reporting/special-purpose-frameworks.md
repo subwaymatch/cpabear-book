@@ -1,261 +1,122 @@
 # Special-Purpose Frameworks
 
-Not all financial statements are prepared in accordance with U.S. GAAP or IFRS. Many entities, particularly smaller businesses, government contractors, and regulated industries, prepare financial statements using a **special-purpose framework** (SPF). These frameworks include the cash basis, tax basis, regulatory basis, contractual basis, and other bases of accounting. Auditors must understand the unique reporting requirements that apply when opining on financial statements prepared under a special-purpose framework.
-
-This section covers the definition and types of special-purpose frameworks, the requirements under AU-C 800, factors to consider when reporting, report modifications, alert paragraphs that restrict use, and how special-purpose framework reporting compares to GAAP-basis reporting.
+Not every set of financial statements is prepared under U.S. GAAP. A small business may keep its books on the cash basis, a partnership may report on the same basis it uses for its tax return, an insurance company may file statements under its regulator's rules, and a borrower may prepare statements under accounting rules written into its loan agreement. These are **special-purpose frameworks**, and auditing statements prepared under them follows **AU-C 800**. The audit itself is much like any other; what changes is the acceptability of the framework, the disclosures, and the auditor's report. This chapter describes the five special-purpose frameworks, the auditor's responsibilities at acceptance and during the audit, and the reporting requirements, including when the report must restrict its use.
 
 ---
 
-## Definition of Special-Purpose Frameworks
+## The Five Special-Purpose Frameworks
 
 A **special-purpose framework** is a financial reporting framework other than GAAP that is one of the following:
 
-| Framework | Description | Common Users |
-|-----------|-------------|-------------|
-| **Cash basis** | Revenue is recognized when cash is received; expenses are recognized when cash is paid | Small businesses, sole proprietors |
-| **Tax basis** | Financial statements are prepared using the basis of accounting used for income tax returns (IRC) | Partnerships, S corporations, small businesses |
-| **Regulatory basis** | Financial statements are prepared in accordance with a financial reporting framework established by a government regulatory agency | Insurance companies, utilities, banks |
-| **Contractual basis** | Financial statements are prepared in accordance with the financial reporting provisions of a contract or agreement | Entities with specific lender or investor agreements |
-| **Other basis** | A definite set of logical, reasonable criteria applied to all material items (e.g., price-level adjusted financial statements) | Specialized situations |
+| Framework | What it is | Typical users |
+|---|---|---|
+| **Cash basis** | Revenues recorded when cash is received and expenses when cash is paid; often modified (a **modified cash basis**) for items with substantial support, such as depreciating fixed assets or recording debt | Small businesses, owner-managed entities |
+| **Tax basis** | The basis the entity uses, or expects to use, to file its income tax return | Partnerships, S corporations, small companies |
+| **Regulatory basis** | A basis that a regulatory agency requires entities under its jurisdiction to use | Insurance companies (statutory accounting), some utilities |
+| **Contractual basis** | A basis the entity uses to comply with an agreement with a third party other than a regulator | Borrowers under loan agreements; parties to a purchase agreement |
+| **Other basis** | A basis using a definite set of logical, reasonable criteria applied to all material items | Uncommon; for example, statements prepared on a price-level-adjusted basis |
 
-:::info
+The cash, tax, regulatory, and other bases were long called **other comprehensive bases of accounting (OCBOA)**, a term you may still see in older materials. AU-C 800 uses "special-purpose framework" for all five.
 
-The term "Other Comprehensive Basis of Accounting" (OCBOA) was previously used to describe these frameworks. Under current AICPA standards, the preferred term is **special-purpose framework**. However, you may still see OCBOA referenced in older materials and on the CPA exam.
+### Cash Basis
 
-:::
+Under the pure cash basis, there are no receivables, payables, accruals, or deferrals; the statements show cash received and cash paid. Under a modified cash basis, the entity adds a few accrual-basis items that have substantial support in practice, such as capitalizing and depreciating property and recording long-term debt.
 
----
+**Example:** Bear Co., a small consulting firm, prepares cash-basis financial statements. It reports \$800,000 of revenue collected and \$620,000 of expenses paid. Unpaid client invoices and unpaid vendor bills at year-end do not appear in the statements.
 
-## Cash Basis
+### Tax Basis
 
-Under the **cash basis** of accounting, transactions are recorded only when cash changes hands:
+Under the tax basis, the statements follow the rules used on the entity's income tax return. Common differences from GAAP include:
 
-- **Revenue** is recognized when cash is received (not when earned)
-- **Expenses** are recognized when cash is paid (not when incurred)
-- Accruals, prepayments, and deferrals are generally **not recorded**
+| Item | Tax basis | GAAP |
+|---|---|---|
+| **Depreciation** | Tax methods such as MACRS, bonus depreciation, and Section 179 expensing | A systematic method over the asset's useful life |
+| **Bad debts** | Generally the direct write-off method | An allowance for expected credit losses (ASC 326) |
+| **Deferred taxes** | Not recorded | Recorded for temporary differences |
 
-### Modified Cash Basis
+**Example:** Ursa Security, a privately held security company, prepares tax-basis statements because its owners and its bank are mainly interested in taxable income. Depreciation is \$450,000 under MACRS, compared with \$280,000 under the straight-line method Ursa Security would use under GAAP. A note describes the tax basis and its main differences from GAAP.
 
-Many entities use a **modified cash basis**, which is the cash basis with certain modifications that have substantial support (e.g., capitalizing and depreciating fixed assets, recording long-term debt). The modifications must be logical and reasonable.
+### Regulatory and Contractual Bases
 
-**Example:** Bear Co. (a small consulting firm) prepares its financial statements on the cash basis. Revenue of \$800,000 is reported based on cash collections, and expenses of \$620,000 are reported based on cash disbursements. Accounts receivable and accounts payable do not appear on the statement of assets and liabilities.
+A **regulatory basis** follows rules a regulator sets. State insurance regulators, for example, require insurers to file statements under statutory accounting principles, which differ from GAAP in areas such as the valuation of investments and the immediate expensing of policy acquisition costs.
 
-:::tip
-
-On the CPA exam, remember that cash-basis financial statements use different titles than GAAP financial statements. Instead of a "Balance Sheet," the entity presents a "Statement of Assets and Liabilities Arising from Cash Transactions." Instead of an "Income Statement," it presents a "Statement of Revenue Collected and Expenses Paid."
-
-:::
+A **contractual basis** follows the financial reporting provisions of an agreement, such as a loan agreement that tells the borrower to compute certain amounts in a specific way. Because the provisions are written for the parties to the contract, the statements are meaningful mainly to them.
 
 ---
 
-## Tax Basis
+## Acceptance and Performing the Audit
 
-Under the **tax basis** of accounting, financial statements are prepared using the same rules the entity follows for its income tax return:
+Before accepting the engagement, the auditor obtains an understanding of the purpose for which the financial statements are prepared, the intended users, and the steps management took to determine that the framework is **acceptable in the circumstances**. When management has a choice of frameworks, it is responsible for choosing an acceptable one, and the engagement letter describes that responsibility. For a contractual basis, the auditor also understands any significant interpretations of the contract that management made in preparing the statements.
 
-- Revenue is recognized according to **tax rules** (which may differ from GAAP)
-- Expenses are deducted according to **tax deductibility rules**
-- Depreciation follows **tax methods** (e.g., MACRS) rather than GAAP methods (e.g., straight-line)
-- Items like tax-exempt income or non-deductible expenses are treated per the **Internal Revenue Code**
+The audit is performed under GAAS, as in any audit. In forming the opinion, the auditor evaluates whether the financial statements:
 
-**Example:** Bear Co. prepares its financial statements on the tax basis. Depreciation expense is \$450,000 (using MACRS), compared to \$280,000 that would have been reported under GAAP (straight-line). The financial statements include a note explaining the basis of accounting and how it differs from GAAP.
+- are **suitably titled** (a "balance sheet" or "income statement" suggests GAAP; a cash-basis entity presents a "statement of assets and liabilities arising from cash transactions" and a "statement of revenues collected and expenses paid");
+- include a **summary of significant accounting policies** that adequately describes the framework and how it differs from GAAP (the effects of the differences do not need to be quantified); and
+- for items that are the same as or similar to items in GAAP statements, include **informative disclosures** similar to those GAAP would require, plus any additional disclosures needed for fair presentation.
 
-### Common Differences Between Tax Basis and GAAP
-
-| Item | Tax Basis Treatment | GAAP Treatment |
-|------|-------------------|----------------|
-| **Depreciation** | MACRS / Section 179 / Bonus depreciation | Straight-line or other systematic method |
-| **Revenue recognition** | Per IRC rules (may use completed contract, installment method) | ASC 606 (performance obligations) |
-| **Inventory** | LIFO permitted without LIFO conformity issues | LIFO, FIFO, weighted average (with specific impairment rules) |
-| **Bad debts** | Direct write-off method | Allowance method (expected credit losses under ASC 326) |
-| **Lease accounting** | May differ from ASC 842 | Right-of-use assets and lease liabilities |
+For a contractual basis, the statements also describe any significant interpretations of the contract on which they are based.
 
 ---
 
-## Regulatory Basis
+## Reporting
 
-Financial statements prepared on a **regulatory basis** follow rules established by a government regulatory agency:
+### What the Report Includes
 
-- Common in **insurance**, **banking**, **utilities**, and other regulated industries
-- The regulatory framework may differ significantly from GAAP
-- The financial statements are intended to meet the **regulatory agency's** reporting requirements
+The auditor's report on special-purpose financial statements follows the usual form of an audit report, adjusted in a few ways:
 
-**Example:** Grizzly Industries (an insurance company) prepares financial statements on a statutory basis as required by the state insurance commissioner. Statutory accounting principles differ from GAAP in areas such as the valuation of investments, recognition of premiums, and treatment of deferred acquisition costs.
+- The opinion states that the financial statements are presented fairly, in all material respects, **in accordance with the special-purpose framework**, for example "in accordance with the income tax basis of accounting described in Note 1." It never refers to GAAP.
+- When management has a choice of frameworks, the description of management's responsibility includes its responsibility for **determining that the framework is acceptable** in the circumstances.
+- For a regulatory or contractual basis, the report describes the **purpose** for which the statements are prepared, or refers to a note that does.
+- The report includes an **emphasis-of-matter paragraph** (usually headed "Basis of Accounting") that states that the statements are prepared in accordance with the special-purpose framework, refers to the note that describes it, and states that the framework is a basis of accounting other than GAAP.
 
-### General-Use vs. Restricted-Use Reports
+**Example:** Honey Entertainment prepares its statements on the income tax basis. They are titled "Statement of Assets, Liabilities, and Equity (Income Tax Basis)" and "Statement of Revenues and Expenses (Income Tax Basis)." The opinion says the statements "present fairly, in all material respects, the assets, liabilities, and equity of Honey Entertainment as of December 31, 20X5, and its revenues and expenses for the year then ended in accordance with the income tax basis of accounting described in Note 1." A Basis of Accounting paragraph follows, noting that the income tax basis is a basis other than GAAP.
 
-| Scenario | Report Type |
-|----------|------------|
-| Regulatory basis financial statements are intended for **general use** (i.e., the framework is widely understood and provides useful information for a broad range of users) | General-use report with no restriction on use |
-| Regulatory basis financial statements are intended **only for filing with the regulatory agency** | Restricted-use report; an alert paragraph is included to restrict distribution |
+### When the Report Restricts Its Use
 
----
+For two of the frameworks, the auditor's report must also include an **alert that restricts the use** of the report: statements prepared on a **contractual basis**, and statements prepared on a **regulatory basis** (unless they are intended for general use, discussed below). The alert states that the report is intended solely for the information and use of the specified parties, such as the parties to the contract or the regulator and the entity's management, and is not intended to be and should not be used by anyone else. No alert is required for the cash basis, the tax basis, or the other basis.
 
-## Contractual Basis
+| Framework | Restricted-use alert? |
+|---|---|
+| **Cash basis** | No |
+| **Tax basis** | No |
+| **Other basis** | No |
+| **Regulatory basis** | Yes, unless the statements are intended for general use |
+| **Contractual basis** | Yes |
 
-Financial statements prepared on a **contractual basis** follow the financial reporting provisions specified in a contract or agreement:
+**Example:** Polar Inc.'s loan agreement with First National Bank requires annual statements prepared under the agreement's own accounting provisions, which, for instance, exclude certain noncash gains from earnings. The auditor's report states that the statements are prepared in accordance with the financial reporting provisions of the loan agreement, describes their purpose, includes a Basis of Accounting paragraph, and ends with an alert:
 
-- Common in **loan agreements**, **partnership agreements**, and **joint venture contracts**
-- The reporting framework is tailored to the needs of the **contracting parties**
-- These financial statements are always **restricted-use** because they are meaningful only to the parties to the contract
+> *This report is intended solely for the information and use of the board of directors and management of Polar Inc. and First National Bank and is not intended to be and should not be used by anyone other than these specified parties.*
 
-**Example:** Polar Inc. has a loan agreement with First National Bank that requires annual financial statements prepared using specific accounting methods defined in the loan covenant (e.g., capitalizing all leases, excluding non-recurring items from EBITDA). The auditor reports on these financial statements under the contractual basis.
+The auditor is not responsible for controlling who actually receives a restricted-use report. The alert tells readers who the report was written for.
 
-:::warning
+### Regulatory-Basis Statements Intended for General Use
 
-Financial statements prepared on a contractual basis are **always** restricted-use. The auditor's report must include an **alert paragraph** that restricts the use of the report to the parties to the contract.
+Sometimes statements prepared on a regulatory basis are meant for general use, for example when they are filed publicly and distributed beyond the regulator. Then the alert is not appropriate, and the auditor reports differently: the report includes an opinion on whether the statements are presented fairly **in accordance with GAAP** (which will usually be an adverse opinion, because the regulatory basis differs from GAAP), together with a separate opinion on whether they are presented in accordance with the **regulatory basis**.
 
-:::
-
----
-
-## AU-C 800 Requirements
-
-AU-C 800 governs audits of financial statements prepared in accordance with special-purpose frameworks. Key requirements include:
-
-### Acceptance and Planning
-
-| Requirement | Details |
-|-------------|---------|
-| **Acceptability of framework** | The auditor must determine that the special-purpose framework is acceptable for the engagement |
-| **Engagement letter** | Must specify the framework and identify any supplemental disclosures required |
-| **Understanding with management** | Management must acknowledge responsibility for the financial statements and the adequacy of disclosures |
-
-### Disclosures
-
-Even under a special-purpose framework, the entity must include disclosures that are:
-
-1. **Informative**: sufficient for users to understand the basis of accounting
-2. **Comparable**: describing how the special-purpose framework differs from GAAP (this is required for cash, tax, and regulatory basis frameworks)
-3. **Adequate**: addressing all matters that are essential to the fair presentation of the financial statements under the special-purpose framework
-
-:::note
-
-The financial statements must include a **note describing the basis of accounting** and how it differs from GAAP. This is sometimes called the "summary of significant accounting policies" note, and it is critical for special-purpose framework financial statements.
-
-:::
+**Example:** Grizzly Mutual Insurance prepares statutory-basis statements solely for filing with its state insurance department. The auditor's report gives an opinion on the statutory basis, includes a Basis of Accounting paragraph, and restricts use to the insurance department and the company's board and management. If Grizzly Mutual instead distributed the same statements to the public as its general-purpose statements, the auditor would give an adverse opinion on GAAP and a separate opinion on the statutory basis.
 
 ---
 
-## Reporting on Special-Purpose Framework Financial Statements
+## Comparison With GAAP-Basis Reporting
 
-### Report Elements
-
-The auditor's report on special-purpose framework financial statements includes all the standard elements of an audit report, plus the following **additional elements**:
-
-| Element | Purpose |
-|---------|---------|
-| **Description of the framework** | The report must describe the special-purpose framework used (e.g., "income tax basis of accounting") |
-| **Reference to the note** | The report refers to the note in the financial statements that describes the basis of accounting |
-| **Opinion wording** | The opinion states that the financial statements present fairly, in all material respects, in accordance with the **[specific special-purpose framework]**, not "in accordance with GAAP" |
-| **Alert paragraph** (if applicable) | For regulatory and contractual basis frameworks, an alert paragraph restricts the use of the report |
-
-### Financial Statement Titles
-
-Special-purpose framework financial statements should use **titles that distinguish them** from GAAP financial statements:
-
-| GAAP Title | Special-Purpose Framework Title (Examples) |
-|-----------|------------------------------------------|
-| Balance Sheet / Statement of Financial Position | Statement of Assets and Liabilities (Tax Basis) |
-| Income Statement | Statement of Revenue and Expenses (Income Tax Basis) |
-| Statement of Cash Flows | Statement of Cash Receipts and Disbursements |
-| Balance Sheet | Statement of Assets and Liabilities Arising from Cash Transactions |
-
-**Example:** Honey Entertainment prepares its financial statements on the income tax basis of accounting. The financial statements are titled "Statement of Assets, Liabilities, and Equity (Income Tax Basis)" and "Statement of Revenue and Expenses (Income Tax Basis)." The auditor's report states: "In our opinion, the financial statements present fairly, in all material respects, the assets, liabilities, and equity of Honey Entertainment as of December 31, 2025, and its revenue and expenses for the year then ended, in accordance with the income tax basis of accounting described in Note 1."
-
----
-
-## Alert Paragraph: Restricting Use
-
-For certain special-purpose frameworks, the auditor must include an **alert paragraph** that restricts the use of the report:
-
-| Framework | Alert Paragraph Required? | Reason |
-|-----------|--------------------------|--------|
-| **Cash basis** | No | Generally understandable by a wide range of users |
-| **Tax basis** | No | Generally understandable by a wide range of users |
-| **Regulatory basis** (general use) | No | Framework is widely understood |
-| **Regulatory basis** (restricted use) | **Yes** | Financial statements are intended only for the regulatory agency |
-| **Contractual basis** | **Yes** | Financial statements are meaningful only to the contracting parties |
-| **Other basis** | Depends | Based on whether the financial statements are intended for general or restricted use |
-
-### Content of the Alert Paragraph
-
-The alert paragraph states that:
-
-- The financial statements are prepared in accordance with [specific framework]
-- The financial statements are **not intended to be presented in accordance with GAAP**
-- The report is intended solely for the **specified parties** (e.g., the regulatory agency or the contracting parties)
-- The report is **not intended for anyone other than the specified parties**
-
-:::caution
-
-Even though the report includes a restriction on use, there is **nothing the auditor can do** to prevent the report from being distributed to other parties. The restriction is a notification, not a legal prohibition. However, including the alert paragraph limits the auditor's responsibility to the specified parties.
-
-:::
-
-**Example:** Kodiak Partners prepares financial statements under the terms of its partnership agreement (contractual basis). The auditor's report includes an alert paragraph:
-
-> *This report is intended solely for the information and use of the partners of Kodiak Partners and First National Bank and is not intended to be and should not be used by anyone other than these specified parties.*
-
----
-
-## Comparison with GAAP-Basis Reporting
-
-| Feature | GAAP-Basis Report | Special-Purpose Framework Report |
-|---------|-------------------|--------------------------------|
-| **Opinion reference** | "In accordance with accounting principles generally accepted in the United States of America" | "In accordance with [specific framework]" (e.g., income tax basis, cash basis) |
-| **Financial statement titles** | Standard titles (Balance Sheet, Income Statement, etc.) | Descriptive titles indicating the framework |
-| **Disclosure of basis differences** | Not applicable; GAAP is the standard | Required note describing the framework and how it differs from GAAP |
-| **Alert paragraph** | Not included | Required for regulatory (restricted-use) and contractual basis |
-| **User restriction** | None; report is general use | May be restricted to specified parties |
-| **Supplementary GAAP disclosures** | Required by GAAP | Not required but may be included; if included, the auditor considers whether they are appropriate |
-
----
-
-## Common Special-Purpose Framework Engagements
-
-### Small Business Tax-Basis Engagement
-
-**Scenario:** Ursa Security (a small private security firm) prepares its financial statements on the income tax basis because its primary users are the owners and the IRS. The auditor:
-
-1. Accepts the engagement, confirming the tax basis is an acceptable framework
-2. Plans the audit using the same risk-based approach as a GAAP audit
-3. Tests revenue, expenses, and balances using the **tax basis** criteria
-4. Evaluates the adequacy of disclosures, including the note describing how the tax basis differs from GAAP
-5. Issues a report stating the financial statements present fairly in accordance with the **income tax basis of accounting**
-
-### Regulatory-Basis Insurance Company
-
-**Scenario:** Grizzly Industries (an insurance company) prepares statutory financial statements for filing with the state insurance department. The auditor:
-
-1. Evaluates the **statutory accounting principles** as the applicable framework
-2. Tests the financial statements against the regulatory requirements
-3. Determines that the statements are intended **solely for regulatory filing** (restricted use)
-4. Issues a report with an **alert paragraph** restricting use to the insurance department and management
-
-### Contractual-Basis Loan Agreement
-
-**Scenario:** Polar Inc. has a loan agreement requiring financial statements prepared using specific covenants defined in the loan contract. The auditor:
-
-1. Reviews the **contract terms** to understand the required basis of accounting
-2. Tests compliance with the contractual reporting provisions
-3. Issues a report with an **alert paragraph** restricting use to Polar Inc., the lender, and their respective legal counsel
-4. The opinion states the financial statements present fairly in accordance with the **financial reporting provisions of the loan agreement**
+| Feature | GAAP-basis report | Special-purpose framework report |
+|---|---|---|
+| **Opinion refers to** | Accounting principles generally accepted in the United States of America | The specific framework, for example the cash basis described in Note 1 |
+| **Statement titles** | Balance sheet, income statement, and so on | Titles that identify the basis |
+| **Basis of accounting paragraph** | Not included | Required emphasis-of-matter paragraph |
+| **Description of differences from GAAP** | Not applicable | Required in the summary of significant accounting policies (not quantified) |
+| **Restriction on use** | None | Required for contractual and regulatory bases (unless regulatory-basis statements are for general use) |
 
 ---
 
 ## Summary
 
-| Concept | Key Points |
-|---------|-----------|
-| **Special-purpose frameworks** | Cash basis, tax basis, regulatory basis, contractual basis, other basis |
-| **AU-C 800** | AICPA standard governing audits of special-purpose framework financial statements |
-| **Cash basis** | Revenue when received, expenses when paid; no accruals |
-| **Tax basis** | Follows income tax return rules (IRC); MACRS depreciation, direct write-off method |
-| **Regulatory basis** | Rules set by a government regulatory agency; may be general or restricted use |
-| **Contractual basis** | Follows terms of a contract or agreement; always restricted use |
-| **Financial statement titles** | Must differ from GAAP titles to avoid confusion |
-| **Disclosure requirements** | Must describe the framework and how it differs from GAAP |
-| **Alert paragraph** | Required for regulatory (restricted-use) and contractual basis reports |
-| **Opinion wording** | "In accordance with [specific framework]"; never references GAAP |
-| **GAAP comparison** | Special-purpose framework reports require additional description, may be restricted use, and use distinct titles |
-| **OCBOA** | Former term for special-purpose frameworks; still seen in older materials |
+| Concept | Key point |
+|---|---|
+| **Frameworks** | Cash, tax, regulatory, contractual, and other basis; all but the contractual basis were once called OCBOA |
+| **Acceptance** | Understand the purpose, users, and why management considers the framework acceptable |
+| **Fair presentation** | Suitable titles, an adequate description of the framework and how it differs from GAAP, and informative disclosures for GAAP-like items |
+| **Opinion** | In accordance with the special-purpose framework, never GAAP |
+| **Basis of Accounting paragraph** | Required emphasis-of-matter paragraph in every special-purpose framework report |
+| **Restricted-use alert** | Contractual basis and regulatory basis (unless intended for general use) |
+| **General-use regulatory statements** | Opinion on GAAP (usually adverse) plus an opinion on the regulatory basis |

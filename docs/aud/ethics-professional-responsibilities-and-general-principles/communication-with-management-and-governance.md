@@ -1,208 +1,114 @@
-# Communication with Management and Those Charged with Governance
+# Communication With Management and Those Charged With Governance
 
-Effective communication between the auditor and the entity's management and those charged with governance is essential to a successful audit engagement. These communications ensure that all parties understand the planned scope and timing of the audit, share relevant information, and address findings that arise during the engagement, particularly those related to internal control deficiencies. Poor communication can lead to misunderstandings, delayed resolution of issues, and, ultimately, a less effective audit.
+An audit is not performed in isolation. The auditor needs information from the client, and the client's board and audit committee need information from the auditor to do their oversight job. The standards make this a **two-way** relationship and specify what must be communicated, to whom, in what form, and by when. The blueprint focuses on two groups of matters: the **planned scope and timing** of the engagement, and **internal control deficiencies**, including significant deficiencies and material weaknesses. This chapter covers both, then summarizes timing and the differences between AICPA and PCAOB requirements.
 
-This section covers the **communication of planned scope and timing**, the **preparation of presentation materials**, the identification and reporting of **internal control deficiencies** (including significant deficiencies and material weaknesses), and the **timing and form** of required communications.
+The governing standards are **AU-C 260** (communication with those charged with governance) and **AU-C 265** (communicating internal control related matters) for nonissuers, and **AS 1301** (communications with audit committees) and **AS 1305** (communications about control deficiencies) for issuers. Other required communications at the end of the audit, such as significant findings and uncorrected misstatements, are covered in [Communications With Audit Committees](/aud/completing-the-audit-and-reporting/communications-with-audit-committees).
 
-:::info
-
-Communication requirements are established by **AU-C 260** (Overall Objectives: Communication with Those Charged with Governance), **AU-C 265** (Communicating Internal Control Related Matters), and **PCAOB AS 1301** (Communications with Audit Committees). Both frameworks require timely, clear, and two-way communication between the auditor and those responsible for governance and management of the entity.
-
-:::
+**Those charged with governance** are the people responsible for overseeing the entity's strategic direction and accountability, including the financial reporting process. In a public company that is usually the audit committee. In a small private company it may be the full board, or the owner-manager.
 
 ---
 
-## Communication of Planned Scope and Timing
+## Planned Scope and Timing
 
-At the outset of the audit, the auditor communicates with those charged with governance about the planned scope and timing of the engagement. This communication serves multiple purposes: it sets expectations, facilitates coordination, and provides an opportunity for governance to share information relevant to the audit.
+Early in the engagement, the auditor communicates an overview of the **planned scope and timing** of the audit to those charged with governance. The goal is coordination, not a detailed audit program. The communication typically covers:
 
-### Matters to Communicate
+- how the auditor plans to address the **significant risks** of material misstatement, whether due to fraud or error;
+- the auditor's general approach to **internal control** relevant to the audit;
+- how the auditor applies the **concept of materiality**, focusing on the factors considered rather than specific amounts;
+- the planned use of **specialists**, the **internal audit function**, or, in a group audit, **component auditors** and referred-to auditors; and
+- the expected **timing** of interim work, year-end fieldwork, and the report.
 
-The auditor should communicate the following matters to those charged with governance:
+The auditor is careful not to say so much that the procedures become predictable, because predictable procedures are easier to circumvent. That is one reason specific materiality amounts and detailed sample sizes are usually not shared.
 
-| Matter | Description |
+Communication runs both ways. The auditor asks those charged with governance about their views on risks, known or suspected fraud, significant communications with regulators, and other matters relevant to the audit.
+
+The auditor also coordinates practical matters with **management**: the fieldwork schedule, a **client assistance request list** (often called a PBC, or "prepared by client," list) of the schedules and documents the team will need, access to people, facilities, and systems, and the timing of management's draft financial statements.
+
+**Example:** Before the audit of Bear Co. begins, the engagement partner meets with the audit committee. She explains that revenue recognition and inventory valuation are significant risks, that the firm will use a valuation specialist for the goodwill impairment test, and that inventory counts will be observed at three warehouses in late December. She asks the committee whether it is aware of any fraud or concerns about management. Separately, the audit senior sends Bear Co.'s controller a PBC list and schedules interim fieldwork for October.
+
+### Presentation Materials and Supporting Schedules
+
+The blueprint expects candidates to be able to prepare the materials used in these communications. For an audit committee meeting, these usually include a summary of the engagement terms, a short presentation of the audit plan (key risks, approach, team, and timeline), a packet of the communications the standards require, and supporting schedules, such as a summary of corrected and uncorrected misstatements with their individual and aggregate effects. Written communications are expected for significant matters. When the auditor communicates something orally, the auditor documents what was said, when, and to whom.
+
+---
+
+## Internal Control Deficiencies
+
+During the audit, the auditor may find weaknesses in internal control, even though a financial statement audit is not designed to find them all. AU-C 265 and AS 1305 classify deficiencies by severity.
+
+| Classification | Definition |
 |---|---|
-| **Overall audit strategy** | The general approach to the audit, including areas of focus and emphasis |
-| **Planned scope** | The nature of procedures to be performed, including any planned use of specialists, internal auditors, or other auditors |
-| **Timing of the audit** | The expected timeline for fieldwork, interim and year-end procedures, and report issuance |
-| **Significant risks identified** | Key risks of material misstatement that the auditor has identified during planning |
-| **Materiality** | The concept of materiality as it applies to the audit (though specific materiality amounts are generally not communicated) |
-| **Areas of higher risk** | Accounts, transactions, or disclosures that require special audit attention |
-| **Use of specialists** | Whether the auditor intends to involve specialists (e.g., valuators, actuaries, IT specialists) |
-| **Group audit considerations** | If the entity is part of a group, the planned involvement of component auditors |
+| **Deficiency in internal control** | The design or operation of a control does not allow management or employees, in the normal course of performing their assigned functions, to prevent, or detect and correct, misstatements on a timely basis |
+| **Significant deficiency** | A deficiency, or combination of deficiencies, that is less severe than a material weakness yet important enough to merit the attention of those charged with governance |
+| **Material weakness** | A deficiency, or combination of deficiencies, such that there is a **reasonable possibility** that a material misstatement of the financial statements will not be prevented, or detected and corrected, on a timely basis |
 
-:::tip[Exam Tip]
+Two factors drive the classification: the **likelihood** that the deficiency could lead to a misstatement, and the **magnitude** of the misstatement that could result. "Reasonable possibility" means more than remote. The severity depends on what *could* happen, not on whether a misstatement actually occurred; a material weakness can exist even if the auditor found no misstatement. The auditor also considers whether **compensating controls** reduce the risk, and evaluates deficiencies in combination, because several deficiencies affecting the same account can together be a material weakness.
 
-The auditor is **not required** to communicate specific materiality dollar amounts to those charged with governance. Communicating the general concept and how materiality affects the audit approach is sufficient. However, the auditor may choose to share specific amounts at their discretion.
+**Example:** At Bear Co., the accounts payable clerk can both enter vendor invoices and release payments. That lack of segregation of duties is a deficiency. The controller reviews a monthly report of all disbursements over \$5,000 and investigates unusual payments, which reduces but does not eliminate the risk. Because a material misstatement is not reasonably possible after considering the controller's review, but the problem is important enough that the board should know about it, the auditor classifies it as a **significant deficiency**.
 
-:::
-
-### Communication with Management
-
-In addition to governance, the auditor also communicates with **management** about planning matters. Management communications typically include:
-
-- **Scheduling** of fieldwork and interim testing
-- **Information requests**: Prepared-by-client (PBC) lists detailing the documents and schedules the auditor will need
-- **Access requirements**: Access to personnel, facilities, records, and IT systems
-- **Expected timeline** for management review of draft financial statements and disclosures
-- **Coordination** with internal audit, if applicable
-
-**Example:** Before beginning the audit of Bear Co., the engagement partner meets with the audit committee to discuss the planned scope, including the intention to use a valuation specialist for testing goodwill impairment and the timing of inventory observations at three warehouse locations. Separately, the audit senior provides management with a PBC list and schedules interim fieldwork for October.
-
-### Preparation of Presentation Materials and Supporting Schedules
-
-Auditors frequently prepare presentation materials for formal communications with those charged with governance, particularly audit committees. These materials typically include:
-
-| Material | Content |
-|---|---|
-| **Engagement letter summary** | Overview of the engagement terms, responsibilities, and fees |
-| **Audit plan presentation** | Visual summary of the audit approach, key risks, and timeline |
-| **Required communications packet** | A structured document addressing all matters required by professional standards |
-| **Supporting schedules** | Detailed schedules of adjustments, unadjusted differences, and other findings |
-| **Management letter** | Written communication of recommendations for improvements (often issued separately) |
-
-**Example:** Grizzly Industries' audit committee requires a formal presentation at each quarterly meeting. The engagement team prepares a slide deck summarizing the status of the audit, significant findings to date, and any issues requiring the committee's attention. A supporting schedule lists all proposed audit adjustments, including their individual and aggregate impact on the financial statements.
-
-:::note
-
-The form of communication (oral vs. written) depends on the nature and significance of the matter. **Significant matters** should generally be communicated in **writing** to provide a clear record. Oral communications of significant matters should be documented in the audit workpapers.
-
-:::
+**Example:** Polar Inc. has no effective controls over its financial close. Journal entries are posted without review, account reconciliations are not prepared, and nobody reviews the trial balance before the statements are drafted. A material misstatement could easily go undetected, so the auditor concludes there is a **material weakness**.
 
 ---
 
-## Internal Control Related Matters
+## Communicating Deficiencies
 
-During the course of the audit, the auditor may identify deficiencies in the entity's internal control over financial reporting. Professional standards establish a hierarchy of deficiency severity and specific requirements for communicating these findings.
+Under AU-C 265, the auditor must communicate **significant deficiencies and material weaknesses** identified during the audit **in writing** to those charged with governance. This is required even if the matters were discussed orally or were reported in a prior year and remain uncorrected. The auditor also communicates to **management**:
 
-### Understanding the Hierarchy: Deficiency, Significant Deficiency, and Material Weakness
+- in writing, the significant deficiencies and material weaknesses communicated to those charged with governance (unless communicating them directly to management would be inappropriate, for example when management is involved in the problem); and
+- other deficiencies that are important enough to merit management's attention, either orally or in writing.
 
-| Classification | Definition | Severity |
-|---|---|---|
-| **Deficiency in internal control** | A deficiency exists when the design or operation of a control does not allow management or employees, in the normal course of performing their assigned functions, to prevent or detect and correct misstatements on a timely basis | Lowest |
-| **Significant deficiency** | A deficiency, or combination of deficiencies, in internal control that is less severe than a material weakness yet important enough to merit attention by those charged with governance | Middle |
-| **Material weakness** | A deficiency, or combination of deficiencies, in internal control such that there is a **reasonable possibility** that a material misstatement of the entity's financial statements will not be prevented or detected and corrected on a timely basis | Highest |
+The written communication to those charged with governance should include:
 
-:::warning
+1. the definition of a material weakness and, where relevant, of a significant deficiency;
+2. a description of the deficiencies and an explanation of their potential effects;
+3. context explaining that the audit was performed to express an opinion on the financial statements, that the auditor considered internal control only to design audit procedures and is not expressing an opinion on its effectiveness, and that the auditor's consideration was not designed to identify all deficiencies; and
+4. an alert restricting the use of the communication to management, those charged with governance, others within the organization, and any governmental authority to which the auditor must report.
 
-The key distinction between a significant deficiency and a material weakness is the **likelihood and magnitude** of potential misstatement. A material weakness involves a **reasonable possibility** of a **material** misstatement going undetected. A significant deficiency is serious enough to warrant governance attention but does not rise to the level of a material weakness.
+One thing the auditor may **not** do is issue a written communication stating that no significant deficiencies were identified. Because the audit was not designed to find them, such a statement could be misunderstood as assurance on internal control.
 
-:::
-
-### Evaluating Deficiencies
-
-When the auditor identifies a control deficiency, they must evaluate its severity by considering:
-
-1. **The magnitude of the potential misstatement**: Could the deficiency result in a material misstatement?
-2. **The likelihood of occurrence**: Is there a reasonable possibility that the deficiency will lead to a misstatement?
-3. **Whether compensating controls exist**: Are there other controls that mitigate the risk posed by the deficiency?
-4. **The nature of the financial statement accounts and assertions involved**: Some accounts are inherently more susceptible to misstatement
-
-**Example:** During the audit of Bear Co., the engagement team discovers that the accounts payable clerk can both enter invoices and approve payments without a secondary review. This lack of segregation of duties creates a deficiency in internal control. The auditor evaluates the magnitude of potential misstatements and the volume of transactions processed and determines that this represents a **significant deficiency** because compensating controls (monthly management review of disbursements) partially mitigate the risk, but not to a level below "important enough to merit governance attention."
-
-### Another Example: Material Weakness
-
-**Example:** While auditing Polar Inc., the auditor discovers that the company has no controls over the financial statement close process. Journal entries are posted without review, account reconciliations are not performed, and the trial balance is not reviewed by a supervisor before the financial statements are prepared. The auditor concludes that this represents a **material weakness** because there is a reasonable possibility that a material misstatement could occur and not be detected or corrected on a timely basis.
+**Example:** After the audit of Honey Entertainment, the engagement partner sends a letter to the audit committee describing two significant deficiencies: inadequate review of complex revenue contracts and weak IT access controls over the general ledger. The letter defines the terms, describes the potential effects, explains the limits of the audit, and restricts its use. In a separate meeting with the controller, the partner discusses less serious deficiencies, such as inconsistent documentation of inventory count procedures.
 
 ---
 
-## Required Communications of Internal Control Deficiencies
-
-### Written Communication Requirement
-
-Both AICPA and PCAOB standards require that **significant deficiencies and material weaknesses** identified during the audit be communicated to **those charged with governance** in **writing**.
-
-| Communication | Recipient | Form | Standard |
-|---|---|---|---|
-| **Material weaknesses** | Those charged with governance | **Written** (required) | AU-C 265 / AS 1305 |
-| **Significant deficiencies** | Those charged with governance | **Written** (required) | AU-C 265 / AS 1305 |
-| **Other deficiencies** | Management | Oral or written (auditor's discretion) | AU-C 265 |
-
-:::caution
-
-The written communication of significant deficiencies and material weaknesses must be made **even if** these matters were previously communicated orally. The oral communication does not substitute for the written requirement. The written communication provides a formal record and ensures governance has clear documentation of the findings.
-
-:::
-
-### Content of the Written Communication
-
-The written communication to those charged with governance must include:
-
-1. **Description of the deficiencies** and an explanation of their potential effects
-2. **The definition** of the applicable terms (significant deficiency and/or material weakness) so the recipients understand the severity classification
-3. A statement that the communication is intended solely for those charged with governance and management (and, when applicable, other specified parties) and is **not intended for anyone else**
-4. A statement that the auditor's purpose was **not to identify all deficiencies** in internal control; the audit was designed to express an opinion on the financial statements, not to provide assurance on internal control (unless an integrated audit is being performed)
-
-**Example:** Following the audit of Honey Entertainment, the engagement partner sends a written communication to the audit committee identifying two significant deficiencies: (1) inadequate review of complex revenue arrangements and (2) insufficient IT access controls over the general ledger. The letter includes definitions of the terms "significant deficiency" and "material weakness," describes the potential effects of each finding, and notes that the purpose of the audit was not to identify all internal control deficiencies.
-
-### Communication to Management
-
-In addition to communicating with governance, the auditor should communicate to **management**:
-
-- **All significant deficiencies and material weaknesses** identified (management should be aware of all matters communicated to governance)
-- **Other deficiencies** in internal control that, in the auditor's professional judgment, are of sufficient importance to merit management's attention
-
-**Example:** In addition to the written communication to Honey Entertainment's audit committee, the engagement partner discusses with management several other control deficiencies that were not severe enough to be classified as significant deficiencies, including inconsistent documentation of inventory count procedures and a lack of formal policies for approving vendor additions.
-
----
-
-## Timing of Communications
-
-The timing of communications depends on the nature and urgency of the matter:
+## Timing
 
 | Matter | Timing |
 |---|---|
-| **Planned scope and timing** | Before or at the beginning of the audit |
-| **Significant difficulties encountered** | As soon as practicable during the audit |
-| **Significant deficiencies and material weaknesses** | In writing, no later than **60 days** after the report release date (AICPA); on a **timely basis** (PCAOB) |
-| **Disagreements with management** | As they arise, or as part of the final communication |
-| **Other audit findings** | At the conclusion of the audit, or during the audit if timely communication is important |
-| **Fraud or illegal acts** | As soon as practicable; significant matters must be reported directly to those charged with governance |
+| **Planned scope and timing** | Early in the engagement, before significant fieldwork |
+| **Significant difficulties or disagreements with management** | As they arise, when timely communication helps resolve them |
+| **Fraud or suspected fraud involving management** | As soon as practicable, directly to those charged with governance |
+| **Significant deficiencies and material weaknesses (AICPA)** | Best made by the report release date, and no later than **60 days** after it |
+| **Significant deficiencies and material weaknesses (PCAOB)** | In writing, **before the auditor's report is issued** |
 
-:::tip[Exam Tip]
+The 60-day outer limit under AU-C 265 matches the 60-day documentation completion date for nonissuers, which makes both easy to remember. The deadline is a ceiling, not a target. If the auditor finds a serious problem during interim work, especially one that exposes the entity to loss, the auditor should communicate it right away.
 
-The 60-day deadline for written communication of significant deficiencies and material weaknesses (AU-C 265) coincides with the documentation completion date for nonissuer engagements. This is a useful memory aid for the CPA exam.
-
-:::
-
-### Early Communication of Significant Matters
-
-The auditor should not wait until the end of the audit to communicate matters that require immediate attention. If the auditor identifies a material weakness during interim fieldwork, it should be communicated to governance **as soon as practicable**, not deferred to the final communication.
-
-**Example:** During October interim testing at Kodiak Partners, the audit team identifies a material weakness in the company's controls over cash disbursements: specifically, the absence of dual authorization for wire transfers over \$50,000. Given the severity of this finding and the risk of loss, the engagement partner communicates this matter to the audit committee immediately rather than waiting for the year-end audit to conclude.
+**Example:** During October interim testing at Kodiak Partners, the team finds that wire transfers of any size can be released by a single employee without a second approval. Given the risk of loss, the engagement partner tells the audit committee immediately instead of waiting for the year-end letter.
 
 ---
 
-## Differences Between AICPA and PCAOB Communication Requirements
+## AICPA and PCAOB Differences
 
-| Requirement | AICPA (AU-C 260, 265) | PCAOB (AS 1301, AS 1305) |
+| Requirement | AICPA (AU-C 260 and 265) | PCAOB (AS 1301 and 1305) |
 |---|---|---|
-| **Scope** | Nonissuers | Issuers |
-| **Primary governance body** | Those charged with governance (may be the full board, audit committee, or owner-manager) | Audit committee of the board of directors |
-| **Communication of scope and timing** | Required | Required |
-| **Written communication of significant deficiencies and material weaknesses** | Required; no later than 60 days after report release | Required; on a timely basis |
-| **Two-way communication** | Emphasized; the auditor should obtain information from governance, not just provide it | Emphasized; must include discussion of significant audit and accounting matters |
-| **Critical accounting policies** | Not specifically required (though significant accounting policies are discussed) | Required; the auditor must discuss critical accounting policies and practices with the audit committee |
-| **Integrated audit (ICFR)** | Not applicable for most nonissuers | Required for issuers; material weaknesses must be identified in the auditor's report on internal control |
+| **Recipient** | Those charged with governance (board, audit committee, or owner-manager) | The audit committee |
+| **Terms of the engagement** | Agreed with management or those charged with governance | Established with the audit committee; engagement letter provided annually |
+| **Written deficiency communication** | No later than 60 days after the report release date | Before the auditor's report is issued |
+| **Accounting matters** | Qualitative aspects of significant accounting practices | Also critical accounting policies and practices, critical accounting estimates, and significant unusual transactions |
+| **Critical audit matters** | Not applicable unless the auditor is engaged to report key audit matters | The auditor provides the draft report and discusses critical audit matters with the audit committee |
+| **Integrated audit** | Engagement is optional (AU-C 940) | Required for accelerated and large accelerated filers; material weaknesses appear in the public report on internal control |
 
-:::note
-
-For **issuers** subject to an integrated audit under PCAOB standards, material weaknesses in internal control over financial reporting (ICFR) are not only communicated to the audit committee but also reported in the **auditor's public report** on internal control. This is a much higher level of public accountability than the private written communication required for nonissuers.
-
-:::
+In an integrated audit of an issuer, a material weakness is not only communicated privately to the audit committee; it leads to an adverse opinion on internal control in the auditor's public report. See [Reporting on Internal Control](/aud/completing-the-audit-and-reporting/reporting-on-internal-control).
 
 ---
 
 ## Summary
 
-| Topic | Key Takeaway |
+| Topic | Key takeaway |
 |---|---|
-| **Planned scope and timing** | Communicated to those charged with governance before or at the start of the audit; includes overall strategy, risks, timing, and use of specialists |
-| **Communication with management** | Includes scheduling, PBC lists, access requirements, and coordination with internal audit |
-| **Presentation materials** | Formal presentations to governance may include audit plan summaries, required communications, supporting schedules, and management letters |
-| **Deficiency** | A control weakness that could allow misstatements to go undetected; the lowest severity level |
-| **Significant deficiency** | More severe than a deficiency but less severe than a material weakness; merits governance attention |
-| **Material weakness** | Reasonable possibility that a material misstatement will not be prevented or detected and corrected on a timely basis |
-| **Written communication** | Significant deficiencies and material weaknesses must be communicated in writing to those charged with governance |
-| **Timing** | Written communication no later than 60 days after report release (AICPA) or on a timely basis (PCAOB); urgent matters communicated immediately |
-| **PCAOB differences** | Communications directed to the audit committee; critical accounting policies discussed; material weaknesses reported publicly in integrated audits |
+| **Planned scope and timing** | Overview of significant risks, approach to internal control, materiality concept, use of others, and timing; shared without making procedures predictable |
+| **Two-way communication** | The auditor also obtains information from those charged with governance |
+| **Deficiency** | A control's design or operation does not allow timely prevention or detection of misstatements |
+| **Significant deficiency** | Less severe than a material weakness but merits governance's attention |
+| **Material weakness** | Reasonable possibility of a material misstatement not being prevented or detected on a timely basis |
+| **Written communication** | Significant deficiencies and material weaknesses in writing to governance; never a letter saying none were found |
+| **Timing** | AICPA: by 60 days after the report release date; PCAOB: before the report is issued |

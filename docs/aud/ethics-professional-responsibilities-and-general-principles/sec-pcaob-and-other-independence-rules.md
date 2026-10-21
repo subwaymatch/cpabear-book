@@ -1,237 +1,173 @@
 # SEC, PCAOB, and Other Independence Rules
 
-While the AICPA Code of Professional Conduct establishes the ethical baseline for all CPAs, auditors of **issuers** (public companies registered with the SEC) must also comply with the more stringent independence rules of the **Securities and Exchange Commission (SEC)** and the **Public Company Accounting Oversight Board (PCAOB)**. The Sarbanes-Oxley Act of 2002 (SOX) significantly tightened independence requirements in response to high-profile corporate scandals.
-
-For the AUD exam, you must understand how SEC and PCAOB rules differ from AICPA rules, which services are prohibited for issuer audit clients, and the specific requirements for partner rotation and cooling-off periods.
+The AICPA Code sets the baseline, but it is not the only independence rulebook. An auditor of a public company (an **issuer**) must also meet the rules of the **Securities and Exchange Commission (SEC)** and the **Public Company Accounting Oversight Board (PCAOB)**, which the Sarbanes-Oxley Act of 2002 (SOX) made considerably stricter. An auditor of a government or of an entity receiving government awards follows the **GAO's Government Auditing Standards**, and an auditor of an employee benefit plan covered by ERISA follows the **Department of Labor's** independence rules. Each adds requirements in specific places, and the exam tests exactly those places. This chapter takes the regulators in turn: the SEC and PCAOB rules for issuer audits (prohibited services, the audit committee's role, partner rotation, cooling-off periods, and tax services), then the GAO and DOL rules.
 
 ---
 
-## Regulatory Framework: Who Governs What?
+## Who Sets the Rules
 
-| Regulatory Body | Scope | Key Authority |
-|-----------------|-------|---------------|
-| **AICPA** | All CPAs (primarily governs nonissuer engagements) | Issues the Code of Professional Conduct; sets SASs through the Auditing Standards Board |
-| **SEC** | Public companies (issuers) and their auditors | Establishes independence rules under Regulation S-X, Rule 2-01; has ultimate authority over auditor independence for issuers |
-| **PCAOB** | Registered public accounting firms auditing issuers | Sets auditing standards (ASs) and ethics/independence rules for issuer audits; inspects registered firms |
-| **SOX (Sarbanes-Oxley Act)** | Issuers and their auditors | Federal law that created the PCAOB and established statutory prohibitions on certain non-audit services |
+| Body | Applies to | Main sources |
+|---|---|---|
+| **AICPA** | AICPA members in all engagements | Code of Professional Conduct |
+| **SEC** | Auditors of issuers | Regulation S-X, Rule 2-01, amended in 2003 to implement the independence provisions of SOX |
+| **PCAOB** | Registered firms auditing issuers and SEC-registered broker-dealers | Ethics and independence rules (the Rule 3500 series) and ethics standards |
+| **GAO** | Audits and attestation engagements performed under Government Auditing Standards | GAGAS (the Yellow Book) |
+| **DOL** | Audits of employee benefit plans subject to ERISA | Interpretive Bulletin 29 CFR 2509.75-9 |
 
-:::info
-
-For issuers, when there is a conflict between AICPA rules and SEC/PCAOB rules, the **more restrictive rule** applies. In practice, the SEC and PCAOB rules are almost always more restrictive. For nonissuers, only AICPA rules apply (unless state boards or other regulators impose additional requirements).
-
-:::
+The rules stack rather than replace each other. An AICPA member auditing an issuer must comply with the Code and with the SEC and PCAOB rules, so in practice the stricter requirement governs. For a nonissuer audit, the Code applies, plus any state board rules and, where relevant, GAO or DOL requirements.
 
 ---
 
 ## SEC Independence Rules
 
-The SEC's independence framework is codified primarily in **Regulation S-X, Rule 2-01**. The SEC defines independence broadly: an auditor is not independent if the auditor is not, or a reasonable investor would conclude the auditor is not, capable of exercising **objective and impartial judgment** on all issues in the audit.
+The SEC states a general standard: an auditor is not independent if the auditor is not capable of exercising objective and impartial judgment on all issues in the engagement, or if a reasonable investor with knowledge of all relevant facts would conclude that the auditor is not capable of doing so. Behind the specific rules are four principles. An auditor should not:
 
-### Key Differences from AICPA Rules
+1. have a mutual or conflicting interest with the audit client;
+2. audit its own work;
+3. function as management or as an employee of the audit client; or
+4. act as an advocate for the audit client.
 
-| Area | AICPA Rule | SEC Rule |
-|------|-----------|----------|
-| **Financial interests** | Direct = always prohibited; indirect = prohibited if material | Same general framework, but SEC rules apply to a broader set of "covered persons" in the firm (not just the engagement team) |
-| **Business relationships** | Evaluated through conceptual framework | More prescriptive; joint business ventures and similar arrangements are specifically prohibited |
-| **Nonattest services** | Permitted with three safeguards (client oversight, management responsibility, no management role) | Many services are **categorically prohibited** by SOX; safeguards cannot cure the impairment |
-| **Scope of "covered persons"** | "Covered members" include the engagement team, those who can influence the engagement, and the firm | SEC's definition of "covered persons" can extend to other partners in the **office** that participates in a significant portion of the audit |
-| **Cooling-off period** | One year before a former practitioner's association with a client impairs independence | **One year** before a former engagement team member can accept certain positions at an issuer client (see below) |
-| **Contingent fees** | Prohibited for attest clients | Prohibited for audit clients and certain related entities |
+Those four principles explain most of the differences between the SEC and AICPA approaches. The AICPA asks whether safeguards can reduce a threat to an acceptable level. The SEC, for the most serious threats, simply prohibits the relationship.
 
-**Example:** Bear Co. is a publicly traded company. Its audit firm wants to provide internal audit outsourcing services to Bear Co. Under AICPA rules, this might be permissible with appropriate safeguards. Under SEC/PCAOB rules, internal audit outsourcing for an issuer audit client is **prohibited**, and no amount of safeguards can remedy the impairment.
-
----
-
-## Prohibited Non-Audit Services Under SOX and PCAOB Rules
-
-Section 201 of the Sarbanes-Oxley Act explicitly prohibits a registered public accounting firm from providing the following non-audit services to an issuer audit client **contemporaneously with the audit**:
-
-| Prohibited Service | Rationale |
-|-------------------|-----------|
-| **Bookkeeping** or other services related to the accounting records or financial statements | Creates a self-review threat because the auditor would be auditing their own work |
-| **Financial information systems design and implementation** | Could impair objectivity if the auditor designed the systems they are now evaluating |
-| **Appraisal or valuation services, fairness opinions, or contribution-in-kind reports** | The auditor would be auditing estimates or valuations they produced |
-| **Actuarial services** | Self-review threat for pension and insurance-related amounts |
-| **Internal audit outsourcing** | The auditor would be relying on their own internal audit work during the financial statement audit |
-| **Management functions or human resources** | Management participation threat |
-| **Broker-dealer, investment adviser, or investment banking services** | Creates financial self-interest and advocacy threats |
-| **Legal services and expert services** unrelated to the audit | Advocacy threat |
-| **Any other service** the PCAOB determines by regulation is impermissible | Catch-all provision |
-
-:::caution
-
-These prohibitions are **absolute** for issuer audit clients. Unlike AICPA rules, there is no conceptual framework exception; the services simply cannot be provided to an audit client regardless of safeguards. However, the firm may provide these services to **non-audit clients** and to **affiliates of the audit client that are not in the audit scope**, subject to specific conditions.
-
-:::
-
-### Permitted Non-Audit Services for Issuers
-
-Not all non-audit services are prohibited. A firm may provide other services (most notably **tax compliance and tax planning** services) to an issuer audit client, provided:
-
-1. The services are **pre-approved** by the audit committee
-2. The services do not involve **prohibited tax transactions** (see Tax Services section below)
-
----
-
-## Audit Committee Pre-Approval Requirement
-
-Under SOX and SEC rules, **all audit and non-audit services** provided by the audit firm to an issuer client must be **pre-approved by the audit committee** of the client's board of directors.
-
-- The audit committee may establish **pre-approval policies and procedures** for certain routine services, rather than approving each engagement individually
-- There is a **de minimis exception**: non-audit services that do not exceed **5% of total fees** paid to the auditor may be approved retroactively, provided they were not recognized as non-audit services at the time and are brought to the committee's attention promptly
-- The audit committee **cannot delegate** pre-approval authority to management
-
-**Example:** Grizzly Industries' audit committee reviews and pre-approves a list of permitted tax services and their estimated fees at the beginning of each year. When the audit firm proposes providing a new advisory service mid-year, the firm must return to the audit committee for specific approval before beginning the work.
-
----
-
-## Partner Rotation Requirements
-
-### PCAOB Rules (Issuers)
-
-To prevent familiarity threats, the PCAOB and SEC require **mandatory rotation** of certain audit partners on issuer engagements:
-
-| Partner Role | Rotation Requirement | Cooling-Off Period |
-|-------------|---------------------|-------------------|
-| **Lead engagement partner** | Must rotate off after **5 consecutive years** | **5-year** cooling-off period before returning |
-| **Engagement quality review (EQR) partner** | Must rotate off after **5 consecutive years** | **5-year** cooling-off period |
-| **Other audit partners** (those with significant engagement responsibilities) | Must rotate off after **5 consecutive years** | **2-year** cooling-off period |
-
-:::tip[Exam Tip]
-
-The key numbers to memorize are **5-5-5-2**: five years on, five-year cooling-off for lead and EQR partners, and two-year cooling-off for other significant partners. The AICPA does not require mandatory rotation for nonissuer engagements (though firms may adopt rotation policies voluntarily).
-
-:::
-
-### AICPA Rules (Nonissuers)
-
-The AICPA does **not** require mandatory partner rotation for nonissuer engagements. However, the AICPA's quality management standards encourage firms to establish policies addressing long association with an attest client and the familiarity threat it creates.
-
----
-
-## Cooling-Off Period for Employment
-
-### SEC Rules
-
-When a member of the **audit engagement team** leaves the audit firm and joins an issuer audit client in a **financial reporting oversight role**, a **one-year cooling-off period** applies. Specifically:
-
-- The individual must not have been a member of the engagement team during the **one-year period preceding the date that audit procedures began** for the fiscal year that includes the date of the individual's employment
-- **Financial reporting oversight role** includes positions such as CEO, CFO, controller, chief accounting officer, and any other position that exercises influence over the financial statements
-
-**Example:** A senior manager at the firm that audits Polar Inc. accepts a position as Polar Inc.'s controller. For the firm to remain independent, the individual must not have served on the Polar Inc. engagement team during the one-year period before the start of the audit for the fiscal year in which the individual joins Polar Inc. If the manager worked on the Polar Inc. audit within the prior year, the firm's independence is impaired.
-
-:::warning
-
-The SEC cooling-off rule is more prescriptive than the AICPA rule. The AICPA uses a conceptual framework approach for former practitioners, while the SEC imposes a **bright-line one-year rule** for issuer audits.
-
-:::
-
----
-
-## Tax Services Restrictions Under PCAOB Rules
-
-While tax services are not categorically banned for issuer audit clients, the PCAOB imposes important restrictions:
-
-### Prohibited Tax Services for Issuer Audit Clients
-
-1. **Tax services to persons in financial reporting oversight roles** at the audit client (and their immediate family members) are **prohibited**
-2. **Marketing, planning, or opining in favor of aggressive tax positions** that are initially recommended by the auditor and that are confidential or aggressive (lacking substantial authority) are prohibited
-3. **Tax services related to certain "listed transactions"** (transactions identified by the IRS as tax avoidance) are prohibited
-
-### Permitted Tax Services
-
-- Routine **tax compliance** (preparing tax returns): permitted with audit committee pre-approval
-- **Tax planning and advice** on established positions: permitted with audit committee pre-approval, provided the firm does not act as an advocate
-
-**Example:** Kodiak Partners (a public company) asks its audit firm to prepare its corporate tax return. This is permitted as long as the audit committee pre-approves the service. However, if the audit firm were to design and market an aggressive tax shelter strategy to Kodiak Partners, that service would be prohibited.
-
----
-
-## Comparison: AICPA vs. SEC/PCAOB Independence
-
-| Feature | AICPA (Nonissuers) | SEC/PCAOB (Issuers) |
-|---------|--------------------|--------------------|
-| **Approach** | Conceptual framework (threats and safeguards) supplemented by specific rules | Specific prohibitions supplemented by a general independence standard |
-| **Nonattest services** | Permitted with three safeguards | Many services **categorically prohibited** by SOX |
-| **Partner rotation** | Not required | Required: 5 years on, 5-year or 2-year cooling-off |
-| **Audit committee pre-approval** | Not required (no audit committee requirement for most nonissuers) | **Required** for all audit and non-audit services |
-| **Tax services** | Generally permitted with safeguards | Permitted with restrictions and audit committee approval; certain tax services prohibited |
-| **Cooling-off for employment** | Conceptual framework evaluation | Bright-line **one-year** rule |
+| Area | AICPA (nonissuers) | SEC and PCAOB (issuers) |
+|---|---|---|
+| **Approach** | Conceptual framework supplemented by specific rules | Specific prohibitions supplemented by the general standard |
+| **Nonaudit services** | Many permitted if the client assumes management responsibilities | Nine categories prohibited outright; safeguards cannot cure them |
+| **Approval of services** | No audit committee approval required | Audit committee must preapprove all audit and permitted nonaudit services |
+| **Partner rotation** | Not required | Lead and engagement quality review partners rotate after 5 years; other audit partners after 7 |
+| **Former team member joins client** | Conditions on amounts owed and continuing ties, plus the conceptual framework | One-year cooling-off period for financial reporting oversight roles |
 | **Contingent fees** | Prohibited for attest clients | Prohibited for audit clients |
-| **Scope of covered persons** | Engagement team, those who influence engagement, the firm | Broader; can include all partners in the office participating in a significant portion of the audit |
+| **Independence communications** | No required written communication | Written communication to the audit committee before the engagement and at least annually |
 
-:::info
-
-On the CPA exam, many independence questions ask you to determine whether independence is impaired. Always consider first: **Is the client an issuer or nonissuer?** This determines which set of rules applies. If the client is an issuer, apply the more restrictive SEC/PCAOB rules.
-
-:::
+**Example:** Bear Co. is a public company. Its audit firm offers to run Bear Co.'s internal audit function. Under the AICPA Code, a firm can perform some internal audit services for a nonissuer attest client if management keeps responsibility for the function. For an issuer, internal audit outsourcing is one of the prohibited services, and no safeguard makes it acceptable.
 
 ---
 
-## SOX Whistle-Blower Protections
+## Services an Issuer's Auditor May Not Provide
 
-Section 806 of the Sarbanes-Oxley Act provides **federal protection** for employees of publicly traded companies who report suspected fraud or securities violations. These protections are designed to encourage internal reporting and shield whistle-blowers from employer retaliation.
+Section 201 of SOX, implemented by the SEC's rules, prohibits a registered firm from providing the following services to an issuer audit client:
 
-### Protected Activities
+| Prohibited service | Why it is prohibited |
+|---|---|
+| **Bookkeeping** or other services related to the accounting records or financial statements | The auditor would audit its own work |
+| **Financial information systems design and implementation** | The auditor would evaluate systems it built |
+| **Appraisal or valuation services, fairness opinions, or contribution-in-kind reports** | The auditor would audit its own valuations |
+| **Actuarial services** | The auditor would audit its own actuarial estimates |
+| **Internal audit outsourcing** | The auditor would rely on its own internal audit work |
+| **Management functions or human resources** | The auditor would act as management |
+| **Broker-dealer, investment adviser, or investment banking services** | The auditor would promote the client's securities and could profit from them |
+| **Legal services and expert services unrelated to the audit** | The auditor would act as the client's advocate |
+| **Any other service the PCAOB determines by regulation is impermissible** | A catch-all |
 
-An employee is protected when they provide information or assist in an investigation regarding conduct the employee **reasonably believes** constitutes:
+Services not on the list, most notably **tax compliance and tax planning**, remain permitted if the audit committee preapproves them and they do not fall within the PCAOB's specific tax prohibitions described below.
 
-- A violation of **federal securities laws** (including SEC rules and regulations)
-- **Mail fraud**, **wire fraud**, or **bank fraud**
-- Any rule or regulation of the **SEC**
-- **Shareholder fraud** or other violations related to the company's financial statements
+---
 
-The employee may report to a **federal regulatory or law enforcement agency**, any **member or committee of Congress**, or a **person with supervisory authority** over the employee within the company.
+## The Audit Committee's Role
 
-### Prohibited Retaliation
+SOX puts the audit committee, not management, in charge of the auditor relationship. Under Section 301, the audit committee of a listed company is directly responsible for appointing, compensating, and overseeing the auditor, and the auditor reports directly to it. The committee's members must be independent, and the committee must establish procedures for handling complaints about accounting, internal control, and auditing matters, including confidential, anonymous submissions by employees.
 
-An employer (including officers, employees, contractors, subcontractors, and agents) may **not** discharge, demote, suspend, threaten, harass, or in any other manner discriminate against an employee because of lawful whistle-blowing activity.
+The audit committee must **preapprove** every audit service and every permitted nonaudit service. It may do so engagement by engagement or through detailed preapproval policies, and it may delegate the authority to one or more of its own members (who report back to the full committee). It may never delegate preapproval to management. A narrow **de minimis exception** covers nonaudit services that were not recognized as nonaudit services when the engagement began, if their total is no more than 5% of the fees the client paid the auditor for the year and they are promptly brought to the committee and approved before the audit is completed.
 
-### Remedies for Retaliation
+The PCAOB adds two communication rules. Before the audit committee preapproves a tax service, the firm must describe the scope of the service and its fee structure in writing, discuss with the committee how the service could affect independence, and document that discussion (Rule 3524). And before accepting an initial engagement, and at least annually afterward, the firm must describe in writing all relationships between the firm and the company that may reasonably be thought to bear on independence, discuss their potential effects with the audit committee, and affirm in writing that the firm is independent (Rule 3526).
 
-If an employee prevails in a whistle-blower complaint, the compensatory damages typically awarded include:
+**Example:** At the start of each year, Grizzly Industries' audit committee preapproves a list of permitted tax compliance services and estimated fees. In July, the audit firm proposes a new advisory project. Because it is not covered by the existing preapproval, the firm must obtain the committee's specific approval before starting the work.
 
-| Remedy | Description |
-|--------|-------------|
-| **Reinstatement** | Restoration to the same or equivalent position with the same seniority status |
-| **Back pay with interest** | Compensation for lost wages during the period of wrongful termination or demotion |
-| **Special damages** | Compensation for additional harm such as litigation costs, expert witness fees, and reasonable attorney fees |
+---
+
+## Partner Rotation and Cooling-Off Periods
+
+### Partner Rotation
+
+To limit familiarity threats, the SEC's rules require audit partners on an issuer engagement to rotate off after a set number of years and stay off for a "time-out" period:
+
+| Partner role | Maximum consecutive years | Time-out before returning |
+|---|---|---|
+| **Lead engagement partner** | 5 | 5 years |
+| **Engagement quality review partner** (the rule calls this role the concurring partner) | 5 | 5 years |
+| **Other audit partners** with significant responsibility for the engagement | 7 | 2 years |
 
 :::tip[Exam Tip]
 
-SOX whistle-blower protections apply to employees of **publicly traded companies** (issuers). The employee need only have a **reasonable belief** that a violation occurred; the belief does not have to be correct. Filing a complaint must occur within **180 days** of the retaliatory action.
+Remember the pairs **5 and 5** for the lead and engagement quality review partners and **7 and 2** for other audit partners. The AICPA has no mandatory rotation requirement for nonissuer engagements, although a firm's system of quality management must address the familiarity threat that long association creates.
 
 :::
 
+### Employment Cooling-Off
+
+When a member of the audit engagement team leaves the firm to join an issuer audit client in a **financial reporting oversight role** (such as CEO, CFO, controller, chief accounting officer, or any role with influence over the financial statements), the firm's independence is impaired unless the individual did not participate in the audit during the **one-year period** before the audit procedures began for the fiscal period that includes the date the individual was hired. Team members who provided 10 or fewer hours of audit services are excluded.
+
+**Example:** A senior manager on the Polar Inc. audit accepts a job as Polar Inc.'s controller. If she worked on the Polar Inc. audit during the year before the current audit began, the firm is not independent. Polar Inc. would have to engage a different firm or wait until the cooling-off period has passed. The AICPA, by contrast, has no fixed waiting period; it looks at the amounts owed to the former employee, her continuing ties to the firm, and the familiarity threat.
+
 ---
 
-## Other Independence Considerations
+## PCAOB Rules on Tax Services
 
-### Government Auditing Standards (Yellow Book)
+Tax services are not banned for issuer audit clients, but the PCAOB restricts them in three ways:
 
-Auditors performing audits under **Government Auditing Standards** (issued by the GAO) must comply with additional independence requirements. These standards are generally consistent with AICPA rules but include more restrictive provisions on nonattest services provided to government audit clients.
+- **Confidential and aggressive tax transactions (Rule 3522).** The firm is not independent if it markets, plans, or opines in favor of the tax treatment of a confidential transaction or an aggressive tax position transaction. An aggressive tax position transaction is a listed transaction (one the IRS has identified as tax avoidance) or a transaction the firm initially recommended, with a significant purpose of tax avoidance, unless the proposed tax treatment is at least more likely than not to be allowed.
+- **Tax services for people in financial reporting oversight roles (Rule 3523).** The firm is not independent if it provides tax services to a person in a financial reporting oversight role at the audit client, or to that person's immediate family.
+- **Preapproval documentation (Rule 3524).** As described above, tax services require written disclosure to, and discussion with, the audit committee before preapproval.
 
-### State Boards of Accountancy
+**Example:** Kodiak Partners, a public company, asks its audit firm to prepare its corporate income tax return. That is permitted once the audit committee preapproves it. If the firm also offered to prepare the personal tax return of Kodiak Partners' CFO, or to design and market a tax shelter to Kodiak Partners, independence would be impaired.
 
-Individual state boards may impose additional independence requirements beyond those of the AICPA, SEC, or PCAOB. CPAs must comply with the rules of the state(s) in which they are licensed.
+---
+
+## PCAOB Ethics: EI 1000
+
+The PCAOB's ethics requirements for integrity and objectivity are being updated alongside its new quality control standard. **EI 1000**, *Integrity and Objectivity*, replaces the PCAOB's interim ethics standard (ET 102) on December 15, 2026, the same day QC 1000 takes effect. It requires firm personnel to act with integrity and objectivity, avoid conflicts of interest, and neither knowingly misrepresent facts nor subordinate their judgment to others. EI 1000 is expected to be eligible for testing from January 1, 2027.
+
+---
+
+## Government Auditing Standards (GAO)
+
+Auditors who perform audits or attestation engagements under **Government Auditing Standards** follow the GAO's ethical principles (serving the public interest; integrity; objectivity; proper use of government information, resources, and positions; and professional behavior) and its independence requirements. The auditor and the audit organization must be independent in mind and in appearance, both during the period covered by the subject matter and during the engagement.
+
+GAGAS uses a conceptual framework much like the AICPA's: identify threats, evaluate their significance, and apply safeguards, declining or ending the engagement if threats cannot be reduced to an acceptable level. Its stricter features concern **nonaudit services**. Before providing one to an audited entity, the auditor must determine that management will assume all management responsibilities and has designated an individual with suitable skill, knowledge, or experience to oversee the service, and the auditor documents that conclusion. Some services, such as assuming management responsibilities, impair independence regardless of safeguards. Others create significant threats that must be documented and addressed with safeguards; for example, GAGAS treats preparing an entity's financial statements in their entirety from its trial balance as a significant threat.
+
+The [Governmental Auditing](/aud/attestation-and-review-engagements/governmental-auditing) chapter covers GAGAS engagements in more detail.
+
+---
+
+## Department of Labor (ERISA Plan Audits)
+
+Audits of employee benefit plans subject to ERISA are filed with the Department of Labor, and the DOL has its own independence rules. They are stricter than the AICPA Code in three notable ways. First, they apply not only during the engagement and at the date of the opinion but also **during the period covered by the financial statements**. Second, they reach the **plan sponsor** as well as the plan. Third, they prohibit **bookkeeping** outright.
+
+Under the DOL rules, an accountant is not independent of a plan if, during any of those periods, the accountant, the firm, or a member of the firm:
+
+- had or was committed to acquire any **direct financial interest**, or any **material indirect financial interest**, in the plan or the plan sponsor;
+- was connected with the plan or plan sponsor as a **promoter, underwriter, investment adviser, voting trustee, director, officer, or employee**; or
+- **maintained the financial records** of the plan.
+
+Some relationships are expressly allowed. The firm may be engaged by the plan sponsor for other professional services, and actuarial services provided by an actuary associated with the firm do not by themselves impair independence. A former officer or employee of the plan or sponsor may work for the firm if the person has completely disassociated from the plan and sponsor and does not work on the plan's audit for any period during which the person was employed by them.
+
+**Example:** Bear Co. sponsors a 401(k) plan, and Bear Co.'s audit firm keeps the plan's accounting records. Under the AICPA Code, bookkeeping for an attest client can be acceptable if management oversees it. Under the DOL rules, maintaining the plan's financial records means the firm is not independent of the plan and cannot audit its financial statements.
+
+---
+
+## State Boards of Accountancy
+
+State boards license CPAs and may impose independence rules beyond those of the AICPA, SEC, or PCAOB. A CPA must follow the rules of each state in which the CPA is licensed or practices.
 
 ---
 
 ## Summary
 
-| Rule | Key Takeaway |
-|------|-------------|
-| SOX prohibited services | Nine categories of services are absolutely prohibited for issuer audit clients |
-| Audit committee pre-approval | Required for all audit and non-audit services provided to issuers |
-| Lead/EQR partner rotation | 5 years on, 5-year cooling-off |
-| Other partner rotation | 5 years on, 2-year cooling-off |
-| Employment cooling-off | 1 year before joining an issuer client in a financial reporting oversight role |
-| Tax services | Generally permitted with pre-approval, but aggressive/listed transactions are prohibited |
-| AICPA vs. SEC/PCAOB | SEC/PCAOB rules are more restrictive and apply to issuer engagements |
-| SOX whistle-blower protections | Employees of issuers who report fraud are protected from retaliation; remedies include reinstatement, back pay with interest, and special damages |
+| Rule | Key takeaway |
+|---|---|
+| SEC general standard | Not independent if not capable of objective and impartial judgment, in fact or in the eyes of a reasonable investor |
+| SOX prohibited services | Nine categories prohibited for issuer audit clients; safeguards cannot cure them |
+| Audit committee | Appoints and oversees the auditor; preapproves all audit and permitted nonaudit services; cannot delegate to management |
+| PCAOB communications | Written independence communication before the engagement and at least annually (Rule 3526); written description and discussion before preapproving tax services (Rule 3524) |
+| Partner rotation | Lead and engagement quality review partners 5 years on, 5 off; other audit partners 7 on, 2 off |
+| Employment cooling-off | One year before a former team member can take a financial reporting oversight role at the issuer |
+| PCAOB tax rules | No confidential or aggressive tax position transactions; no tax services for people in financial reporting oversight roles |
+| EI 1000 | Replaces ET 102 on December 15, 2026; expected to be testable January 1, 2027 |
+| GAO | Conceptual framework plus strict documentation and limits on nonaudit services |
+| DOL | Applies during the period covered by the financial statements, reaches the plan sponsor, and prohibits maintaining the plan's records |
 
-:::tip[Final Exam Tip]
+:::tip[Exam Tip]
 
-When a CPA exam question involves independence for a **public company**, immediately think SOX and PCAOB. The prohibited services list, partner rotation schedule, and cooling-off rules are heavily tested. For private company questions, apply AICPA rules and the conceptual framework approach.
+Start every independence question by identifying the client. A public company means SOX, the SEC, and the PCAOB: look for prohibited services, missing preapproval, rotation, and cooling-off. A government or federal award recipient means GAGAS. An ERISA plan means the DOL rules. Otherwise, apply the AICPA Code and its conceptual framework.
 
 :::
