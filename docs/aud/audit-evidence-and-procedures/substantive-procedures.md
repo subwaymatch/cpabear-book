@@ -1,137 +1,88 @@
 # Substantive Procedures
 
-Substantive procedures are the auditor's primary weapon for detecting material misstatements in account balances, transaction classes, and disclosures. While tests of controls evaluate whether the client's safeguards are working, substantive procedures go directly to the numbers, examining whether the financial statements themselves are materially correct.
+Tests of controls ask whether the client's safeguards work. **Substantive procedures** go straight to the numbers: they are designed to **detect material misstatements at the assertion level** in classes of transactions, account balances, and disclosures. Every audit includes them, however good the controls are. This chapter explains why they are always required, describes the two kinds (tests of details and substantive analytical procedures), shows how the assessed risk shapes their nature, timing, and extent, and ends with examples by account.
 
 ---
 
-## Purpose of Substantive Procedures
+## Why Substantive Procedures Are Always Required
 
-The fundamental purpose of substantive procedures is to **detect material misstatements at the assertion level**. Regardless of the assessed level of control risk, the auditor must perform substantive procedures for every significant class of transactions, account balance, and disclosure.
+Whatever the assessed risk of material misstatement, the auditor must design and perform substantive procedures for the relevant assertions of each **material** class of transactions, account balance, and disclosure. (PCAOB standards state the same rule for each relevant assertion of each **significant** account and disclosure.) The reason is that the risk assessment is a judgment that could be wrong, and internal control has inherent limitations, including the possibility that management overrides it. Effective controls can **reduce** substantive testing, but they can never **eliminate** it.
 
-:::warning
+Two further requirements apply in every audit:
 
-Even when internal controls are strong and tested as effective, substantive procedures **cannot be eliminated entirely** for significant accounts. Controls can reduce, but never remove, the need for substantive testing.
-
-:::
+- **The financial statement closing process.** The auditor agrees or reconciles the financial statements, including the disclosures, to the underlying accounting records, and examines material journal entries and other adjustments made in preparing the statements.
+- **Significant risks.** The auditor performs substantive procedures that respond specifically to each significant risk. If the response to a significant risk consists only of substantive procedures, it must include **tests of details**; substantive analytical procedures alone are not enough.
 
 ---
 
-## Two Categories of Substantive Procedures
-
-Substantive procedures fall into two broad categories, each suited to different circumstances.
+## Two Kinds of Substantive Procedures
 
 ### Tests of Details
 
-Tests of details examine **individual transactions, balances, or disclosures** to determine whether they are correctly stated. These procedures provide direct evidence about specific assertions.
+**Tests of details** examine individual transactions, balances, or disclosure items to determine whether they are correctly stated. They provide direct evidence about specific assertions:
 
 | Assertion | Example Test of Details |
 |---|---|
-| Existence | Confirm accounts receivable balances with **Bear Co.'s** customers |
-| Completeness | Trace shipping documents from **Grizzly Industries'** dock to the sales journal |
-| Valuation | Inspect aging reports for **Polar Inc.'s** receivables and evaluate the allowance for doubtful accounts |
-| Rights & Obligations | Examine title documents and loan agreements at **Kodiak Partners** |
-| Presentation & Disclosure | Review financial statement footnotes for proper classification of **Honey Entertainment's** lease obligations |
+| **Existence** | Confirm accounts receivable balances with Bear Co.'s customers |
+| **Completeness** | Trace shipping documents from Grizzly Inc.'s shipping log to the sales journal |
+| **Accuracy, valuation, and allocation** | Test Polar Inc.'s receivables aging and evaluate the allowance for doubtful accounts |
+| **Rights and obligations** | Examine title documents and loan agreements at Kodiak Partners |
+| **Presentation** | Read Cub Entertainment's notes to check that lease obligations are properly classified and described |
 
-Tests of details are especially useful when:
+Tests of details are the natural choice when the risk is high, when an account consists of a few large items (such as major fixed asset additions), or when relationships among the data are not predictable enough for analytical procedures.
 
-- The assertion involves a high risk of material misstatement
-- The account consists of individually significant items (e.g., large fixed assets)
-- Analytical procedures are not practical or sufficient on their own
+Technology has blurred the lines between procedures. An auditor can now analyze every transaction in an account and flag items for follow-up, which looks partly like an analytical procedure and partly like a test of details. **PCAOB amendments to AS 1105 and AS 2301**, effective for fiscal years beginning on or after December 15, 2025, address this. They clarify what makes a procedure a test of details, require the auditor to investigate the items such a test identifies for follow-up, and provide that when one procedure is designed to serve more than one purpose (for example, both risk assessment and a test of details), the auditor must achieve the objective of each purpose.
 
 ### Substantive Analytical Procedures
 
-Substantive analytical procedures evaluate financial data by developing an **independent expectation** and comparing it to the client's recorded amounts. If the recorded balance falls outside the expected range, the auditor investigates the difference.
+**Substantive analytical procedures** develop an independent **expectation** of a recorded amount and compare it with the amount recorded. If the difference is larger than the auditor can accept, the auditor investigates.
 
-:::info[Example]
+**Example:** The auditor estimates Sloth Security's payroll expense as average headcount × average pay per period × number of pay periods. If recorded payroll differs from this expectation by more than the acceptable threshold, the auditor investigates the difference.
 
-The auditor estimates **Ursa Security's** payroll expense by multiplying the average number of employees by the average wage rate by the number of pay periods. If the recorded payroll expense differs significantly from this expectation, the auditor performs additional procedures to investigate the cause.
-
-:::
-
-Substantive analytical procedures work best when:
-
-- The relationship between data elements is predictable and stable
-- The data used to form the expectation is reliable
-- The expectation is developed with sufficient precision to detect material misstatements
+Substantive analytical procedures work best when the relationships among the data are plausible and predictable, the data used to build the expectation are reliable, and the expectation is precise enough to detect a material misstatement. The [Analytical Procedures](./analytical-procedures.md) chapter walks through the full process.
 
 ---
 
-## Relationship Between Assessed Risk and Substantive Testing
+## Nature, Timing, and Extent
 
-The auditor adjusts the nature, extent, and timing of substantive procedures based on the **assessed risk of material misstatement**. The higher the risk, the more persuasive the substantive evidence must be.
+The auditor tailors substantive procedures to the **assessed risk of material misstatement**. The higher the risk, the more **persuasive** the evidence must be, and persuasiveness comes from all three dimensions, not just from testing more items.
 
-| Risk Level | Impact on Substantive Procedures |
-|---|---|
-| **Higher risk** | Use more reliable procedures, test more items, test closer to year-end |
-| **Lower risk** | May use less costly procedures, test fewer items, perform some testing at an interim date |
-
-:::tip
-
-Think of it as a sliding scale. When the auditor assesses a higher risk of material misstatement (whether due to weak controls, fraud risk, or complex transactions), the response should be to increase the **persuasiveness** of substantive testing, not just the volume.
-
-:::
-
----
-
-## Nature, Extent, and Timing of Substantive Procedures
-
-### Nature
-
-Nature refers to the **type and purpose** of the procedure. The auditor selects procedures that directly address the relevant assertions and the identified risks.
-
-- For higher-risk assertions, the auditor selects procedures that provide **stronger evidence** (e.g., external confirmations rather than internal inquiries).
-- Tests of details generally provide stronger evidence than analytical procedures for high-risk assertions.
-
-### Extent
-
-Extent refers to the **quantity** of testing: how many items are selected or how large the sample size is.
-
-- Greater extent is required when the risk of material misstatement is higher.
-- Greater extent is also needed when individual items of evidence are less persuasive.
-
-:::info[Example]
-
-If **Panda Records** has a large number of small customer accounts with inconsistent payment patterns, the auditor may need to confirm a larger sample of receivables compared to a client with fewer, well-established customers.
-
-:::
-
-### Timing
-
-Timing refers to **when** the procedures are performed: at an interim date or at period end.
-
-- **Interim testing**: Procedures performed before the balance sheet date. If interim testing is used, the auditor must perform additional procedures to cover the rollforward period (the gap between the interim date and year-end).
-- **Year-end testing**: Procedures performed at or after the balance sheet date. This approach provides stronger evidence because it tests the actual balance reported.
-
-| Factor | Test at Interim | Test at Year-End |
+| Dimension | Higher Assessed Risk | Lower Assessed Risk |
 |---|---|---|
-| Assessed risk | Lower | Higher |
-| Internal controls | Effective controls over the rollforward period | Controls are weak or untested |
-| Nature of account | Predictable, stable balances | Volatile or judgmental balances |
+| **Nature** (type of procedure) | More reliable, more direct evidence: tests of details, external confirmations, physical inspection | Substantive analytical procedures or less extensive tests may suffice |
+| **Timing** (when) | At or near year-end | Some work at an interim date |
+| **Extent** (how much) | Larger samples, more items tested | Smaller samples |
 
-:::warning
+**Nature** matters most. For a high-risk assertion, an external confirmation is stronger than an internal inquiry, and a test of details is usually stronger than an analytical procedure.
 
-When the auditor performs substantive procedures at an interim date, the rollforward period introduces additional risk. The auditor must obtain evidence that no material misstatements arose during that gap, often through a combination of substantive analytical procedures and limited tests of details covering the remaining period.
+**Extent** is the quantity of testing. More testing is needed when risk is higher or when each item of evidence is less persuasive. But testing more items with a weak procedure does not make it a strong one.
 
-:::
+**Example:** Panda Industries has thousands of small customer accounts with erratic payment patterns. The auditor confirms a larger sample of receivables than it would for a client with a few long-standing customers who pay on time.
+
+**Timing** concerns when the work is done. Testing at the balance sheet date gives the most direct evidence about the year-end balance. Testing at an **interim date** is acceptable when risk is lower, but the auditor must then cover the **remaining period** to year-end, either with further substantive procedures alone or with substantive procedures combined with tests of controls, so that the interim conclusions can reasonably be extended to year-end.
+
+| Factor | Interim Testing More Appropriate | Year-End Testing More Appropriate |
+|---|---|---|
+| **Assessed risk** | Lower | Higher |
+| **Internal controls** | Effective over the remaining period | Weak or untested |
+| **Nature of the account** | Predictable, stable balances | Volatile or judgmental balances |
 
 ---
 
-## Examples of Substantive Procedures by Account
-
-The following table illustrates how different substantive procedures apply to specific accounts:
+## Examples by Account
 
 | Account | Test of Details | Substantive Analytical Procedure |
 |---|---|---|
-| **Cash** | Confirm bank balances; inspect bank reconciliations at **Bear Co.** | Compare interest income to average cash balances |
-| **Accounts Receivable** | Confirm customer balances at **Grizzly Industries**; vouch recorded sales to shipping documents | Compare days sales outstanding to prior years and industry benchmarks |
-| **Inventory** | Observe physical inventory count at **Panda Records**; test pricing by examining vendor invoices | Compare gross margin percentages to prior years |
-| **Fixed Assets** | Inspect assets; examine purchase invoices and title documents at **Kodiak Partners** | Compare depreciation expense to the asset base and useful lives |
-| **Accounts Payable** | Search for unrecorded liabilities by examining payments after year-end at **Polar Inc.** | Compare ending payables to purchase volume and prior periods |
-| **Revenue** | Vouch recorded revenue to contracts and delivery evidence at **Honey Entertainment** | Compare revenue trends to industry data and prior-year patterns |
-| **Payroll** | Recompute payroll amounts for selected pay periods at **Ursa Security** | Estimate total payroll from headcount and average wage data |
+| **Cash** | Confirm bank balances; test Bear Co.'s year-end bank reconciliations | Compare interest income with average cash balances |
+| **Accounts receivable** | Confirm customer balances at Grizzly Inc.; vouch recorded sales to shipping documents | Compare days sales outstanding with prior years and the industry |
+| **Inventory** | Observe Panda Industries' physical count; test pricing against vendor invoices | Compare gross margin percentages with prior years |
+| **Fixed assets** | Inspect major additions; examine purchase invoices and title documents at Kodiak Partners | Compare depreciation expense with the asset base and useful lives |
+| **Accounts payable** | Search for unrecorded liabilities by examining Polar Inc.'s payments after year-end | Compare ending payables with purchase volume and prior periods |
+| **Revenue** | Vouch recorded revenue to contracts and delivery evidence at Cub Entertainment | Compare revenue trends with industry data and prior-year patterns |
+| **Payroll** | Recompute payroll for selected pay periods at Sloth Security | Estimate total payroll from headcount and average pay |
 
 :::note[Exam Strategy]
 
-When the CPA exam presents a scenario and asks which substantive procedure is "most appropriate," consider the **specific assertion** at risk and choose the procedure that most directly addresses it. Confirmations test existence; searching for unrecorded liabilities tests completeness; aging analysis tests valuation.
+When a question asks which substantive procedure is "most appropriate," identify the **assertion at risk** first, then choose the procedure that addresses it most directly. Confirmations test existence; the search for unrecorded liabilities tests completeness; aging analysis tests valuation.
 
 :::

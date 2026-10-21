@@ -1,273 +1,181 @@
 # Audit Data Analytics
 
-Audit Data Analytics (ADAs) represent a significant evolution in how auditors gather and evaluate evidence. Rather than relying solely on manual inspection and traditional sampling, auditors increasingly use technology-driven analysis of complete data sets to identify anomalies, assess risks, and test assertions. Understanding ADAs is essential both for the CPA exam and for modern audit practice.
+For most of auditing's history, the auditor looked at a sample because looking at everything was impossible. **Audit data analytics (ADAs)** change that: with the right data and software, the auditor can analyze every transaction in a population, find the handful that look wrong, and focus the work there. This chapter covers what ADAs are and the process for performing them, the data skills the blueprint tests (how relational databases are structured, measurement scales, requesting and transforming data), the four categories of analytics, how ADAs are used at each stage of the audit, and how to read and act on the results. The reliability of the underlying data is covered in [Reliability of Data and Information](./reliability-of-data-and-information.md).
 
 ---
 
-## What Are Audit Data Analytics?
+## What Audit Data Analytics Are
 
-Audit Data Analytics are techniques that analyze **complete populations of data** (or very large subsets) to identify patterns, correlations, outliers, and anomalies that may indicate risks of material misstatement. ADAs go beyond traditional analytical procedures by leveraging technology to process volumes of data that would be impossible to review manually.
+Audit data analytics are techniques for discovering and analyzing **patterns, anomalies, and other useful information** in the data underlying an audit, often across **entire populations**, through analysis, modeling, and visualization. They can be used in risk assessment, tests of controls, substantive procedures, and the overall conclusion.
 
-**Key functions of ADAs include:**
+**Example:** The audit team at Bear Co. compares every sales transaction recorded during the year with the shipping records. The analysis flags 47 sales totaling \$218,000 that were recorded with no shipment within 15 days. Instead of hoping a random sample of invoices would hit a cutoff problem, the team now knows exactly which transactions to examine.
 
-- **Identifying anomalies**: Flagging transactions or balances that deviate from expected patterns
-- **Evaluating completeness**: Comparing data sets to ensure all expected transactions are recorded
-- **Assessing risk**: Highlighting areas where the risk of misstatement is elevated
-- **Corroborating expectations**: Providing evidence that recorded amounts are consistent with auditor-developed expectations
-- **Enhancing efficiency**: Analyzing entire populations rather than relying on samples
-
-:::info[Example]
-
-The audit team at **Bear Co.** uses data analytics to compare every sales transaction recorded during the year against shipping records. The analysis flags 47 transactions totaling \$218,000 where revenue was recorded but no corresponding shipment occurred within 15 days. This directs the auditor's attention to a potential cutoff issue far more efficiently than selecting a random sample of sales invoices.
-
-:::
-
-### Benefits of ADAs in the Audit
-
-| Benefit | Description |
-|---|---|
-| **Broader coverage** | Analyze 100% of transactions instead of a sample |
-| **Pattern detection** | Identify trends, clusters, and outliers invisible to manual review |
-| **Risk-focused testing** | Direct audit effort toward the highest-risk items |
-| **Improved audit quality** | Stronger evidence from full-population analysis |
-| **Greater efficiency** | Automate repetitive analysis tasks |
-| **Enhanced professional skepticism** | Data-driven insights challenge management assertions with objective evidence |
+The main benefits are broader coverage (100% of transactions instead of a sample), better targeting of audit effort toward the riskiest items, and patterns that manual review would miss. ADAs do not replace judgment: the auditor still decides what to analyze, whether the data can be trusted, and what the results mean.
 
 ---
 
-## ADA Tools and Techniques
+## The ADA Process
 
-### The Five-Step ADA Process
+The AICPA's guidance describes five steps:
 
-Performing audit data analytics follows a structured workflow. Each step is essential to ensure the analysis produces reliable, relevant audit evidence.
-
-| Step | Activity | Key Considerations |
+| Step | Activity | Key Questions |
 |---|---|---|
-| **1. Plan** | Define the objective, identify the data needed, and determine the analytical technique | What assertion or risk does the analysis address? What data is required? |
-| **2. Access data** | Obtain the relevant data from the client's systems or external sources | Is the data complete? Has it been altered? What format is it in? |
-| **3. Review and prepare data** | Cleanse, validate, and format the data for analysis | Check for missing fields, duplicates, and formatting inconsistencies |
-| **4. Perform the analysis** | Execute the analytical technique and generate results | Use appropriate tools and methods for the objective |
-| **5. Evaluate results** | Interpret findings, investigate exceptions, and determine the audit implications | Do the results provide sufficient appropriate evidence? Are follow-up procedures needed? |
+| **1. Plan the ADA** | Define the objective, the population, the technique, and what will count as a notable item | What risk or assertion does the analysis address? What data are needed? |
+| **2. Access and prepare the data** | Request or extract the data and transform it into a usable form | Where do the data come from? What format are they in? |
+| **3. Consider relevance and reliability** | Validate the data before relying on them | Are the data complete and accurate? Could they have been altered? |
+| **4. Perform the ADA** | Run the analysis | Is the technique appropriate for the objective? |
+| **5. Evaluate the results and conclude** | Investigate notable items and decide whether the objective was met | Is the evidence sufficient and appropriate? Are more procedures needed? |
 
-:::tip
-
-Think of the ADA process as a mini-audit within the audit. Just as the overall engagement follows a plan, execute, conclude framework, each ADA follows the same logic. The planning step is critical: an analysis without a clear objective produces noise, not evidence.
-
-:::
-
-### Software and Tools
-
-Auditors use a range of software to perform data analytics, from general-purpose tools to specialized audit platforms:
-
-- **Spreadsheet software** (e.g., Excel): Suitable for smaller data sets, pivot tables, and basic statistical analysis
-- **Data analysis languages** (e.g., Python, R, SQL): Enable complex transformations, statistical modeling, and automation of repetitive analyses
-- **Specialized audit analytics software** (e.g., IDEA, ACL/Galvanize, TeamMate Analytics): Purpose-built for audit testing with features like Benford's Law analysis, gap detection, and stratification
-- **Visualization tools** (e.g., Tableau, Power BI): Create interactive dashboards and visual representations of audit data
-
-### The Four Categories of Analytics
-
-ADAs fall into four categories, each representing a progressively deeper level of analysis:
-
-| Category | Question It Answers | Audit Application Example |
-|---|---|---|
-| **Descriptive** | *What happened?* | Summarizing all journal entries posted by **Polar Inc.** during the year by user, date, and amount to identify posting patterns |
-| **Diagnostic** | *Why did it happen?* | Investigating why **Bear Co.**'s warranty expense spiked 40% in Q3 by drilling into product return data and correlating with specific product lines |
-| **Predictive** | *What is likely to happen?* | Building a model to estimate expected bad debt expense for **Honey Entertainment** based on historical collection patterns and current receivable aging |
-| **Prescriptive** | *What should we do about it?* | Recommending that the audit team increase sample sizes for revenue testing at **Kodiak Partners** based on predictive risk scoring of customer segments |
-
-:::note
-
-For the CPA exam, **descriptive** and **diagnostic** analytics are the most commonly tested categories. Predictive and prescriptive analytics are emerging areas but appear less frequently on the exam. Know all four categories and be able to classify a given procedure into the correct category.
-
-:::
+The planning step is where many analytics go wrong. An analysis without a clear objective produces a list of oddities, not audit evidence.
 
 ---
 
-## Applying ADAs Throughout the Audit
+## Working With Data
 
-ADAs are not limited to a single phase of the audit. They can enhance procedures at every stage of the engagement.
+### Relational Databases
+
+Most accounting data lives in **relational databases**, which organize data into related tables.
+
+- A **table** holds data about one kind of thing, such as customers, invoices, or products.
+- Each row is a **record** (one customer, one invoice).
+- Each column is a **field**, also called an **attribute** (customer name, invoice date, amount).
+- A **primary key** is a field that uniquely identifies each record in a table, such as the invoice number.
+- A **foreign key** is a field in one table that refers to the primary key of another, which is how tables are linked. The customer number on each invoice is a foreign key pointing to the customer table.
+
+**Normalization** is the process of organizing tables so that each fact is stored only once. In a normalized design, a customer's address is kept in the customer table, not repeated on every invoice. That reduces redundancy and prevents inconsistencies, such as one invoice showing an old address and another the new one. For the auditor, the practical consequence is that answering most questions requires **joining** tables through their keys.
+
+**Example:** Grizzly Inc.'s sales orders, shipments, and invoices sit in three tables linked by the order number. The auditor writes a query that joins the shipping table to the invoice table and lists shipments with no matching invoice. Each one is a possible unbilled, unrecorded sale, so the query tests the **completeness** of revenue.
+
+### Measurement Scales
+
+The type of data determines which analyses make sense:
+
+| Scale | Characteristics | Audit Examples | Meaningful Operations |
+|---|---|---|---|
+| **Nominal** | Labels or categories with no order | Vendor ID, state, general ledger account type | Counting, grouping |
+| **Ordinal** | Categories with a meaningful order but unequal gaps | Credit ratings, risk ratings (high, medium, low) | Ranking, medians |
+| **Interval** | Ordered, equal gaps, no true zero | Calendar dates, temperature in degrees Fahrenheit | Differences (days between dates) |
+| **Ratio** | Ordered, equal gaps, and a true zero | Dollar amounts, quantities, days outstanding | All arithmetic, including ratios |
+
+Data are also **discrete** or **continuous**. Discrete data take countable values, such as the number of invoices or employees. Continuous data can take any value in a range, such as weight or elapsed time. Averaging a nominal field such as vendor ID produces a number with no meaning, so matching the analysis to the scale matters.
+
+### Requesting Data
+
+A good **data extraction request** is specific. It identifies the source system and tables, the fields (attributes) needed and their data types, the period covered, the file format, and the control totals (record counts and dollar totals) that should accompany the file so the auditor can check that the extraction is complete. A data dictionary describing each field helps the auditor interpret the data correctly.
+
+### Transforming Data
+
+Raw data rarely arrive ready to analyze. Auditors often describe preparation as **ETL: extract, transform, load**.
+
+| Stage | Key Activities | Risk If Done Poorly |
+|---|---|---|
+| **Extract** | Pull data from the source system by query, download, or interface | Missing records or periods |
+| **Transform** | Clean and scrub the data: remove duplicates, standardize dates, currencies, and names, handle blank fields, convert data types, join tables | Analysis distorted by data quality problems or by errors introduced during cleaning |
+| **Load** | Import the prepared data into the analysis tool | Truncated or corrupted records during import |
+
+Every transformation should be documented, and the auditor should confirm that the prepared data still reconcile to the source totals. Cleaning that silently drops records is a common way for an analysis to go wrong.
+
+### Structured and Unstructured Data
+
+Most ADAs use **structured data**, which fits predefined rows and fields: general ledger detail, payroll registers, inventory files. **Unstructured data**, such as emails, contracts, and scanned documents, has no predefined format and must be processed before it can be analyzed, which raises extra questions about completeness and extraction accuracy. AI tools that read contracts or summarize documents are one way auditors now work with unstructured data; their output still has to be checked against the source documents.
+
+---
+
+## Four Categories of Analytics
+
+| Category | Question It Answers | Audit Example |
+|---|---|---|
+| **Descriptive** | What happened? | Summarizing all of Polar Inc.'s journal entries by user, date, and amount |
+| **Diagnostic** | Why did it happen? | Drilling into Bear Co.'s 40% third-quarter jump in warranty expense by product line and return data |
+| **Predictive** | What is likely to happen? | Modeling expected bad debts for Cub Entertainment from historical collections and the current aging |
+| **Prescriptive** | What should we do about it? | Using risk scores by customer segment to decide where Kodiak Partners' revenue testing should concentrate |
+
+Most audit analytics in use today are descriptive or diagnostic. Be ready to classify a described procedure into the right category.
+
+---
+
+## Using ADAs Throughout the Audit
 
 ### Risk Assessment
 
-During planning, ADAs help auditors identify areas of elevated risk by analyzing trends, ratios, and patterns across the full data set.
+ADAs help identify where misstatements are most likely: unusual growth by product line or customer, journal entries posted at odd hours, by unusual users, or in round amounts, and digit patterns that depart from what **Benford's Law** predicts.
 
-- Compare current-year revenue by product line, region, or customer to prior periods to identify unusual growth patterns
-- Analyze journal entry data to identify entries posted outside normal business hours, by unusual users, or in round-dollar amounts
-- Perform Benford's Law analysis on payables data to detect potential fictitious vendors
+**Example:** Planning the audit of Grizzly Inc., the team runs a Benford's Law analysis on all vendor payments over \$1,000. Payments beginning with the digit 8 occur far more often than expected. Investigation finds a procurement clerk who set up a fictitious vendor and billed between \$8,000 and \$8,999 each time, staying just under the \$10,000 level that requires a manager's approval.
 
-:::info[Example]
+### Tests of Controls
 
-While planning the audit of **Grizzly Industries**, the engagement team runs a Benford's Law analysis on all vendor payments exceeding \$1,000. The analysis reveals that payments beginning with the digit "8" occur far more frequently than expected. The auditor investigates and discovers that a procurement clerk created a fictitious vendor with invoices consistently priced between \$8,000 and \$8,999 to stay below the manager-approval threshold of \$10,000.
-
-:::
-
-### Evaluating the Design and Operating Effectiveness of Controls
-
-ADAs can test controls over entire populations rather than relying on a sample of transactions.
-
-- Test the **three-way match** control (purchase order, receiving report, vendor invoice) across all purchase transactions to identify any that bypassed the matching process
-- Verify that all disbursements above the \$5,000 approval threshold at **Ursa Security** received the required manager authorization
-- Analyze user access logs to confirm that segregation of duties controls operated throughout the period
+ADAs can test a control across the whole population instead of a sample: checking every purchase for a three-way match, confirming that every disbursement over the approval limit at Sloth Security carries the required authorization, or analyzing user access logs for conflicts in segregation of duties.
 
 ### Tests of Details
 
-When used as substantive procedures, ADAs can provide **direct evidence** about assertions at the account or transaction level.
+ADAs can provide direct evidence about assertions: matching the full revenue population to shipping records (occurrence and cutoff), comparing the inventory master file to the general ledger, or recalculating depreciation for every asset Bear Co. owns. When an analysis covers the whole population and the data are reliable, the auditor may not need a separate sample for that assertion. Under PCAOB amendments effective for fiscal years beginning on or after December 15, 2025, the auditor must investigate the items such an analysis flags and, if one analysis serves several purposes, achieve the objective of each (see [Substantive Procedures](./substantive-procedures.md)).
 
-- Match the complete revenue population against shipping records to test the **occurrence** and **cutoff** assertions
-- Compare the inventory master file to the general ledger to test **existence** and **valuation**
-- Recalculate depreciation for every fixed asset owned by **Bear Co.** and compare the results to recorded depreciation expense
+### Analytical Procedures and the Overall Conclusion
 
-:::tip
-
-When an ADA covers the full population (e.g., recalculating depreciation for every asset), the auditor may not need to perform additional sampling-based tests of details for that assertion. However, the auditor must still evaluate whether the data used in the analysis is reliable.
-
-:::
-
-### Analytical Procedures
-
-ADAs enhance both required and optional analytical procedures:
-
-- **Planning analytics:** Use regression analysis to develop an expectation of monthly revenue for **Polar Inc.** based on headcount, contract volume, and seasonal factors, then compare to recorded revenue
-- **Substantive analytics:** Build a predictive model of expected payroll expense by department and compare to actual amounts to identify departments with unexplained variances
-- **Overall review analytics:** Visualize key financial ratios across all quarters to confirm the financial statements as a whole are consistent with the auditor's understanding
-
-### Forming Conclusions
-
-At the conclusion of the audit, ADAs can help the auditor:
-
-- Aggregate all identified misstatements and project undetected misstatements across the population
-- Confirm that the overall financial statement relationships are consistent with the auditor's understanding of the entity
-- Document the results of data analytics in the audit workpapers with clear linkage to the assertions and risks addressed
+ADAs sharpen analytical procedures: a regression of Polar Inc.'s monthly revenue on headcount, contract volume, and season gives a much more precise expectation than a simple trend. At the end of the audit, visualizing key ratios by quarter helps the auditor judge whether the statements as a whole fit what was learned during the audit.
 
 ---
 
-## Sourcing and Reviewing Data
+## Reading and Acting on the Results
 
-The reliability of any ADA depends entirely on the quality and integrity of the underlying data. The principle is straightforward: **garbage in, garbage out.** Auditors must evaluate the data itself before relying on the results of an analysis.
+### Visualizations
 
-### Data Sources
-
-| Source Type | Examples | Considerations |
+| Visualization | Best Used For | Audit Example |
 |---|---|---|
-| **Internal: client systems** | General ledger, subledgers, ERP transaction logs, HR databases | Under management's control; auditor must assess completeness and accuracy |
-| **Internal: auditor systems** | Prior-year workpapers, permanent file data, auditor-developed benchmarks | Generally reliable but must be assessed for continued relevance |
-| **External: third party** | Industry benchmarks, market data, government statistics, credit reports | Often more reliable than client-generated data due to independence from management |
+| **Bar or column chart** | Comparing categories | Revenue by product line at Bear Co. across periods |
+| **Line chart** | Trends over time | Monthly sales at Grizzly Inc., to spot departures from seasonality |
+| **Scatter plot** | Relationships and outliers | Invoice amount against days to payment at Polar Inc. |
+| **Heat map** | Concentrations of activity | Journal entry volume by user and hour at Sloth Security |
+| **Histogram** | Frequency distributions | Vendor payment amounts at Bear Co., including leading-digit patterns |
 
-### Structured vs. Unstructured Data
-
-| Data Type | Characteristics | Examples |
-|---|---|---|
-| **Structured** | Organized in predefined formats (rows, columns, fields); easily imported into analytics tools | General ledger data, payroll registers, inventory files, bank statements |
-| **Unstructured** | No predefined format; requires additional processing before analysis | Emails, contracts, meeting minutes, scanned documents, social media posts |
-
-:::caution
-
-Most ADAs rely on **structured data** because it can be directly imported and analyzed. When working with unstructured data (e.g., analyzing email communications for related-party indicators at **Kodiak Partners**), the auditor faces additional challenges around completeness, extraction accuracy, and relevance. The CPA exam generally focuses on structured data applications.
-
-:::
-
-### Data Attributes and Reliability
-
-Before performing an ADA, the auditor evaluates several attributes of the data:
-
-- **Completeness**: Does the data set include all transactions for the period? Are there gaps in the sequence?
-- **Accuracy**: Do the data fields contain correct values? Are amounts, dates, and descriptions consistent with source documents?
-- **Validity**: Does the data represent real, authorized transactions?
-- **Integrity**: Has the data been altered or manipulated since extraction? Were there errors in the transfer process?
-
-**Procedures to assess data reliability include:**
-
-1. **Reconcile** the extracted data to control totals (e.g., confirm that the sum of all extracted journal entries ties to the general ledger trial balance)
-2. **Test for completeness** by checking record counts, date ranges, and sequence gaps
-3. **Trace a sample** of extracted records back to source documents
-4. **Evaluate IT general controls** over the systems that generated the data
-5. **Assess the source**: data from an independent external source (e.g., a bank confirmation) is generally more reliable than data generated internally by **Honey Entertainment**'s management
-
----
-
-## Procedures on Visualizations and Reports
-
-ADAs often produce **visualizations and reports** that the auditor must interpret. The ability to read, evaluate, and draw audit conclusions from data output is a critical skill.
-
-### Types of Data Visualizations
-
-| Visualization | Best Used For | Audit Application |
-|---|---|---|
-| **Bar/column charts** | Comparing discrete categories | Comparing revenue by product line at **Bear Co.** across periods to spot unusual changes |
-| **Line charts** | Showing trends over time | Tracking monthly sales trends at **Grizzly Industries** to identify seasonality deviations |
-| **Scatter plots** | Identifying correlations and outliers | Plotting invoice amount vs. days-to-payment for **Polar Inc.** to find outlier transactions |
-| **Heat maps** | Highlighting concentrations of activity | Showing journal entry volume by user and time-of-day at **Ursa Security** to detect unusual posting patterns |
-| **Histograms** | Showing frequency distributions | Analyzing the distribution of vendor payment amounts at **Bear Co.** to assess Benford's Law conformity |
+A scatter plot is the natural choice for spotting outliers, and a line chart for trends over time.
 
 ### Interpretation Techniques
 
-#### Regression Analysis
+**Regression analysis** models the relationship between the amount being audited and one or more drivers, then compares the model's prediction with the recorded amount.
 
-Regression analysis establishes a **mathematical relationship** between a dependent variable (the amount being audited) and one or more independent variables (predictive factors). The auditor uses the regression model to develop an expected value and compares it to the recorded amount.
+**Example:** The auditor models Cub Entertainment's monthly revenue using active subscribers, average ticket price, and a seasonal index. The model predicts December revenue of \$4.2 million; recorded revenue is \$5.1 million. The \$900,000 difference exceeds the auditor's threshold. Investigation shows that management recorded \$850,000 of gift card sales as revenue instead of deferring them as a contract liability.
 
-:::info[Example]
+**Variance analysis** compares recorded amounts with budgets, prior periods, or benchmarks, such as identifying Kodiak Partners' departments that overspent budget by more than 10% and corroborating management's explanations. **Trend analysis** looks for unusual changes over time, such as a buildup of Bear Co.'s inventory over three years or a falling allowance-to-receivables ratio.
 
-The auditor builds a regression model predicting monthly revenue for **Honey Entertainment** using three independent variables: number of active subscribers, average ticket price, and seasonal index. The model predicts December revenue of \$4.2 million, but the recorded amount is \$5.1 million, a difference of \$900,000. This exceeds the auditor's threshold and triggers further investigation, which reveals that management recorded \$850,000 in revenue from gift card sales that should have been deferred as unearned revenue.
+### Evaluating Exceptions
 
-:::
+When an ADA flags items, the auditor:
 
-#### Variance Analysis
-
-Variance analysis compares recorded amounts to expectations (budgets, prior periods, or auditor-developed benchmarks) and investigates significant differences.
-
-- Compare actual operating expenses by department to budgeted amounts
-- Identify departments at **Kodiak Partners** where actual spending exceeds budget by more than 10% and investigate the causes
-- Evaluate whether management's explanations for variances are consistent with corroborating evidence
-
-#### Trend Analysis
-
-Trend analysis examines changes in financial data **over time** to identify patterns, anomalies, or shifts that warrant further investigation.
-
-- Plot quarterly inventory balances for **Bear Co.** over the past three years to identify unusual buildups
-- Analyze the ratio of allowance for doubtful accounts to gross receivables over time
-- Evaluate whether sudden changes in trends are explained by known business events
-
-### Evaluating Potential Misstatements
-
-When an ADA identifies exceptions or anomalies, the auditor must:
-
-1. **Investigate the cause**: Is the exception due to a misstatement, an unusual but legitimate transaction, or a data quality issue?
-2. **Determine the magnitude**: What is the dollar impact of the identified exception? Does it exceed the tolerable misstatement threshold?
-3. **Assess the assertion-level impact**: Which financial statement assertions are affected (existence, completeness, valuation, rights and obligations, presentation and disclosure)?
-4. **Consider the population-level implications**: If the exception reflects a systematic error, what is the projected misstatement across the full population?
-5. **Determine the need for additional procedures**: Are further tests required to resolve the matter, or does the ADA provide sufficient evidence on its own?
+1. **Investigates the cause**: a misstatement, an unusual but legitimate transaction, or a data problem
+2. **Measures the amount** and compares it with tolerable misstatement
+3. **Identifies the assertions** affected
+4. **Considers the population**: whether a systematic error implies a larger misstatement
+5. **Decides whether more procedures are needed** or the ADA provides sufficient evidence
 
 :::warning
 
-An ADA that identifies zero exceptions does **not** automatically mean the assertion is free of misstatement. The auditor must consider whether the analysis was properly designed, the data was reliable, and the technique was sensitive enough to detect the types of misstatements that could occur. Professional skepticism applies to data analytics just as it does to any other audit procedure.
+An ADA that finds **no exceptions** does not prove the assertion is free of misstatement. The auditor must consider whether the analysis was designed well, whether the data were reliable, and whether the technique could have detected the misstatements that might exist.
 
 :::
 
 ---
 
-## Putting It All Together
+## Putting It Together: Auditing Revenue at Grizzly Inc.
 
-The following example illustrates how ADAs integrate into a real audit engagement.
+Grizzly Inc., a midsize manufacturer, reports revenue of \$48 million.
 
-:::info[Comprehensive Example: Auditing Revenue at Grizzly Industries]
+- **Planning (descriptive):** The auditor imports all 32,000 sales transactions and summarizes them by month, customer, and product line. December revenue is 35% above the monthly average, and one customer accounts for 22% of annual revenue.
+- **Risk assessment (diagnostic):** Drilling into December shows that 60% of the increase comes from five large orders in the last week of the year, a **cutoff** risk. The customer concentration raises a **valuation** (collectibility) risk.
+- **Testing (full-population matching):** The auditor matches all 32,000 sales to shipping records. It finds 112 sales totaling \$1.3 million that were recorded in December but not shipped until January. The five large orders did ship before year-end.
+- **Evaluation:** The \$1.3 million cutoff error exceeds tolerable misstatement of \$500,000. The auditor proposes moving the revenue to January, and management records the correction.
+- **Documentation:** The workpapers record the objective, the data source and the reliability testing, the technique, the results, and the conclusion, linked to the **occurrence** and **cutoff** assertions for revenue.
 
-The engagement team is auditing revenue (\$48 million) for **Grizzly Industries**, a mid-size manufacturer.
+---
 
-**Planning (Descriptive Analytics):**
-The auditor imports all 32,000 sales transactions for the year and generates summary statistics: total revenue by month, by customer, and by product line. The analysis reveals that December revenue is 35% higher than the monthly average, and a single customer accounts for 22% of annual revenue.
+## Summary
 
-**Risk Assessment (Diagnostic Analytics):**
-The auditor drills into the December spike and discovers that 60% of the increase is attributable to five large orders placed in the last week of December. This raises a **cutoff risk**. The concentration in one customer raises a **collectibility risk**.
-
-**Testing (Full-Population Matching):**
-The auditor matches all 32,000 sales transactions to shipping records. The analysis identifies 112 transactions (\$1.3 million) where goods were not shipped until January but revenue was recorded in December. The auditor also confirms that the five large December orders were shipped before year-end.
-
-**Evaluation:**
-The \$1.3 million cutoff difference exceeds tolerable misstatement (\$500,000). The auditor proposes an adjustment to defer \$1.3 million of revenue to January. Management agrees and posts the correcting entry.
-
-**Documentation:**
-The auditor documents the ADA objective, data source, reliability assessment, technique used, results, and conclusion in the workpapers, linking the analysis to the **occurrence** and **cutoff** assertions for revenue.
-
-:::
-
-Audit data analytics are not a replacement for professional judgment; they are a tool that enhances it. By analyzing complete data sets, auditors can direct their attention to the areas that matter most, gather stronger evidence, and ultimately improve the quality of the audit opinion.
+| Topic | Key Point |
+|---|---|
+| **ADA process** | Plan; access and prepare data; consider relevance and reliability; perform; evaluate and conclude |
+| **Relational databases** | Tables of records and fields linked by primary and foreign keys; normalization stores each fact once |
+| **Measurement scales** | Nominal, ordinal, interval, ratio; discrete or continuous |
+| **Data preparation** | Specific extraction requests with control totals; documented cleaning that still reconciles to the source |
+| **Four categories** | Descriptive, diagnostic, predictive, prescriptive |
+| **Uses** | Risk assessment, tests of controls, tests of details, analytical procedures, overall conclusion |
+| **Zero exceptions** | Not proof of no misstatement; consider design, data reliability, and sensitivity |

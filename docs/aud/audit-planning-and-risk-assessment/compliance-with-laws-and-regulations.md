@@ -1,183 +1,116 @@
 # Compliance with Laws and Regulations
 
-Entities operate within a complex web of laws and regulations. Some of these directly determine how amounts are presented in the financial statements, while others govern the entity's operations and may only indirectly affect financial reporting. The auditor has a responsibility to consider the effect of laws and regulations on the financial statements, but the extent of that responsibility differs depending on whether the law has a **direct** or **indirect** effect on the financial statements.
-
-This section covers the auditor's consideration of **laws and regulations** under AU-C 250 and AS 2405, the distinction between **direct-effect** and **indirect-effect** laws, the auditor's **responsibility for detecting noncompliance**, **procedures for identifying noncompliance**, **reporting obligations**, the effect on the **audit opinion**, **legal letter (attorney letter) requirements**, and **going concern considerations** related to noncompliance.
-
-:::info
-
-The auditor is **not** an attorney and is not expected to have the legal expertise to identify all instances of noncompliance. However, the auditor **is** responsible for obtaining reasonable assurance that the financial statements are free from material misstatement, including misstatements arising from noncompliance with laws and regulations that have a direct and material effect on the financial statements.
-
-:::
+Every entity operates under laws: tax codes, pension rules, environmental and workplace safety regulations, anti-bribery laws, licensing requirements. Some of these laws determine amounts in the financial statements directly. Others govern how the business operates and affect the statements only when they are broken, through fines, penalties, or lawsuits. The auditor is not a lawyer and cannot be expected to spot every violation, so the standards set a different level of responsibility for each kind of law. This chapter explains the two categories, the procedures the auditor performs, what happens when noncompliance is found or suspected (including the AICPA Code's NOCLAR requirements), the auditor's communication and reporting duties, and the effect on the auditor's report. The AICPA standard is AU-C 250; the PCAOB standard is AS 2405, *Illegal Acts by Clients*.
 
 ---
 
-## Direct-Effect vs. Indirect-Effect Laws
+## Two Categories of Laws and Regulations
 
-The distinction between direct-effect and indirect-effect laws is fundamental to understanding the auditor's responsibilities:
-
-| Category | Definition | Examples | Auditor's Responsibility |
+| Category | What It Covers | Examples | Auditor's Responsibility |
 |---|---|---|---|
-| **Direct-effect laws** | Laws and regulations that have a **direct and material effect** on the determination of amounts and disclosures in the financial statements | Tax laws, pension and benefit regulations (ERISA), revenue recognition rules for government contractors, banking reserve requirements | The auditor designs procedures to obtain **reasonable assurance** of detecting noncompliance that could cause material misstatement |
-| **Indirect-effect laws** | Laws and regulations related to the entity's **operating activities** that do not directly affect financial statement amounts but whose noncompliance may result in fines, penalties, or litigation that require disclosure | Environmental regulations, occupational safety laws (OSHA), antitrust laws, data privacy regulations, anti-corruption laws (FCPA) | The auditor's responsibility is limited to performing specified **inquiry and inspection** procedures; the auditor is not required to design specific procedures to detect noncompliance |
+| **Laws with a direct effect** | Laws and regulations generally recognized to have a direct effect on the determination of material amounts and disclosures | Tax laws; pension and benefit laws (such as ERISA); laws and contract terms that determine revenue on government contracts and grants | Obtain sufficient appropriate evidence about compliance, the same responsibility as for any other material misstatement |
+| **Other laws and regulations** (often called indirect-effect laws) | Laws with no direct effect on amounts, but compliance with which may be fundamental to the entity's operations, its ability to continue in business, or avoiding material penalties | Environmental rules, workplace safety (OSHA), antitrust, data privacy, anti-corruption (FCPA), operating licenses | Perform specified procedures to help identify noncompliance that may have a material effect; no requirement to design procedures to detect all of it |
 
-**Example:** Bear Co. is a government contractor. Federal Acquisition Regulation (FAR) cost accounting standards directly affect how Bear Co. recognizes revenue and allocates costs on government contracts. These are **direct-effect** laws. Bear Co. is also subject to OSHA workplace safety regulations. Violations of OSHA rules could result in fines or litigation but do not directly determine financial statement amounts. These are **indirect-effect** laws.
+**Example:** Bear Co. is a government contractor. The federal cost accounting rules in its contracts determine how it allocates costs and recognizes revenue, so they have a **direct effect**. Bear Co. is also subject to OSHA workplace safety rules. Violating them could lead to fines or lawsuits, but the rules do not determine any amount in the statements, so they are **other laws**.
 
-:::tip[Exam Tip]
+A practical test: if a law tells you **how much** to record or **what** to disclose, it has a direct effect. If it governs **how the business operates**, it belongs to the other category.
 
-The CPA exam frequently tests the distinction between direct-effect and indirect-effect laws. Remember: if a law tells you **how much** to record or **how** to disclose something in the financial statements, it is a direct-effect law. If a law governs **how the business operates**, it is an indirect-effect law.
-
-:::
+PCAOB AS 2405 draws the same distinction between illegal acts with a direct and material effect and those with an indirect effect. The PCAOB has proposed replacing AS 2405 with a new standard on noncompliance, but none has been adopted, so AS 2405 remains the standard for issuer audits.
 
 ---
 
-## Auditor's Responsibility for Detecting Noncompliance
+## Procedures the Auditor Performs
 
-### Direct-Effect Laws
+As part of understanding the entity, the auditor obtains a general understanding of the legal and regulatory framework that applies to the entity and its industry, and of how the entity complies with it. For **other laws**, the specified procedures are to **inquire** of management and those charged with governance about compliance and to **inspect correspondence** with licensing and regulatory authorities. Beyond that, the auditor stays alert throughout the audit, because ordinary procedures often bring noncompliance to light.
 
-For direct-effect laws, the auditor has the **same level of responsibility** as for detecting other material misstatements. The auditor must:
-
-- Obtain a **general understanding** of the legal and regulatory framework applicable to the entity and the industry
-- Determine how the entity **complies** with those laws and regulations
-- **Design and perform audit procedures** to detect noncompliance that could result in material misstatement
-- Evaluate **identified instances** of noncompliance for their effect on the financial statements
-
-### Indirect-Effect Laws
-
-For indirect-effect laws, the auditor's responsibility is **more limited**. The auditor should:
-
-- **Inquire of management** about the entity's compliance with laws and regulations
-- **Inspect correspondence** with relevant regulatory authorities and licensing agencies
-- Remain **alert** for information indicating possible noncompliance
-
-The auditor is **not required** to design specific procedures to detect noncompliance with indirect-effect laws. However, if the auditor becomes **aware** of possible noncompliance, the auditor must investigate further.
-
----
-
-## Procedures for Identifying Noncompliance
-
-The auditor performs the following procedures to identify potential noncompliance:
-
-| Procedure | Description |
+| Procedure | What It Involves |
 |---|---|
-| **Inquire of management** | Ask management whether the entity is in compliance with applicable laws and regulations, and whether any notices of noncompliance have been received |
-| **Inquire of legal counsel** | Ask the entity's in-house or external legal counsel about litigation, claims, and known regulatory matters |
-| **Inspect correspondence** | Review correspondence with regulatory agencies, taxing authorities, and licensing bodies |
-| **Read minutes** | Review minutes of board of directors and audit committee meetings for discussion of legal or regulatory matters |
-| **Review compliance reports** | Examine internal audit or compliance department reports on regulatory compliance |
-| **Review contracts and agreements** | Examine significant contracts for compliance-related provisions (e.g., debt covenants, grant requirements) |
-| **Obtain written representations** | Include in the management representation letter a statement that management has disclosed all known or suspected noncompliance |
+| **Inquire of management and those charged with governance** | Whether the entity complies with applicable laws and whether any notices of violation have been received |
+| **Inspect regulatory correspondence** | Letters and reports from regulators, taxing authorities, and licensing bodies |
+| **Read minutes** | Board and audit committee discussions of legal and regulatory matters |
+| **Inquire of legal counsel** | In-house or outside lawyers about litigation, claims, and regulatory matters |
+| **Read significant contracts** | Compliance-related provisions such as covenants and grant requirements |
+| **Obtain written representations** | Management states that it has disclosed all known or suspected noncompliance |
 
-**Example:** During the audit of Ursa Security, the auditor inquires of management about compliance with data privacy regulations. Management discloses that the company received a notice from a state attorney general regarding a potential violation of data breach notification requirements. The auditor must evaluate whether this potential noncompliance could result in a material liability or required disclosure.
-
----
-
-## Evaluating Identified or Suspected Noncompliance
-
-When the auditor identifies or suspects noncompliance, the following steps are required:
-
-1. **Obtain an understanding** of the nature of the act and the circumstances in which it occurred
-2. **Evaluate the effect** on the financial statements, considering potential fines, penalties, damages, loss of revenue, contingent liabilities, and required disclosures
-3. **Consult with management** and, if appropriate, legal counsel about the matter
-4. **Consider the implications** for other aspects of the audit, including the reliability of management's representations and the assessment of fraud risk
-5. **Determine whether the matter should be communicated** to those charged with governance
-6. **Document** the findings, the auditor's assessment, and the conclusions reached
-
-:::caution
-
-If the auditor suspects that **management is involved** in noncompliance, this raises significant concerns about the **integrity of management** and the reliability of management's representations. The auditor should consider the effect on the overall audit, including whether it is appropriate to continue the engagement.
-
-:::
+**Example:** Asked about compliance, Sloth Security's management discloses that a state attorney general has sent a notice alleging that the company violated data breach notification rules. The auditor must now evaluate whether the matter could lead to a material liability or a required disclosure.
 
 ---
 
-## Reporting Obligations for Noncompliance
+## When Noncompliance Is Identified or Suspected
 
-### Communication to Those Charged with Governance
+When the auditor becomes aware of possible noncompliance, the auditor:
 
-The auditor must communicate **all identified or suspected noncompliance** with laws and regulations to those charged with governance (e.g., the audit committee), unless the matters are clearly inconsequential.
+1. **Obtains an understanding** of the nature of the act and the circumstances in which it occurred
+2. **Obtains further information** to evaluate the possible effect on the financial statements: fines, penalties, damages, contingent liabilities, and required disclosures
+3. **Discusses the matter with management** and, where appropriate, those charged with governance, and may suggest that the entity consult legal counsel
+4. **Considers the implications** for the rest of the audit, including the risk assessment and the reliability of management's written representations
+5. **Documents** the matter, the discussions, and the conclusions
 
-### Communication to Management
+If management or those charged with governance appear to be **involved** in the noncompliance, the auditor must question the integrity of management and the reliability of every representation it has made, and consider whether to withdraw from the engagement.
 
-If the noncompliance involves **management**, the auditor communicates to those charged with governance **directly**, bypassing management.
+### The AICPA Code's NOCLAR Requirements
 
-### External Reporting
+Since June 30, 2023, the AICPA Code of Professional Conduct has included interpretations on **Responding to Noncompliance With Laws and Regulations (NOCLAR)**, under the Integrity and Objectivity Rule, for members in public practice and members in business. A member who encounters NOCLAR during an audit must obtain an understanding of the matter, discuss it with the appropriate level of management and, where appropriate, those charged with governance, and then consider whether further action is needed. Further action can include withdrawing from the engagement.
 
-Under AICPA standards, the auditor generally has no obligation to report noncompliance to parties outside the entity. However, important exceptions exist:
+NOCLAR also affects new engagements. Under **SAS 147**, before accepting an engagement the successor auditor must ask the predecessor auditor about any identified or suspected fraud and noncompliance with laws and regulations, and must document those inquiries.
+
+---
+
+## Communicating and Reporting Noncompliance
+
+### Inside the Entity
+
+The auditor communicates to **those charged with governance** all matters involving identified or suspected noncompliance that come to the auditor's attention, other than matters that are clearly inconsequential. Noncompliance that the auditor believes is **intentional and material** is communicated as soon as practicable. If senior management or those charged with governance are involved, the auditor goes to the **next higher level of authority**, such as the audit committee; if there is none, the auditor considers obtaining legal advice.
+
+### Outside the Entity
+
+The auditor's duty of confidentiality ordinarily prevents reporting noncompliance to outside parties. Exceptions arise from law, regulation, or the type of engagement:
 
 | Situation | Reporting Obligation |
 |---|---|
-| **Successor auditor inquiry** | The predecessor auditor should disclose matters affecting the decision to accept the engagement |
-| **Subpoena or legal proceedings** | The auditor may be compelled to disclose information |
-| **Government audit requirements** | Audits under Government Auditing Standards (Yellow Book) or Single Audit Act require reporting of noncompliance to regulatory bodies |
-| **SEC-registered entities** | Under Section 10A of the Securities Exchange Act of 1934, auditors of issuers must report illegal acts to the SEC if management and the board fail to take appropriate remedial action |
+| **Successor auditor inquiries** | The predecessor responds to the successor's inquiries about fraud and NOCLAR, with the client's permission |
+| **Subpoena or legal proceedings** | The auditor may be compelled to provide information |
+| **GAGAS and single audits** | Government auditing requirements may require reporting to the funding agency or other outside parties |
+| **Issuer audits (Section 10A)** | A specific escalation process under the Securities Exchange Act, described below |
 
-**Example:** During the audit of Grizzly Industries (an SEC registrant), the auditor discovers that management has been making improper payments to foreign government officials in violation of the Foreign Corrupt Practices Act (FCPA). After the auditor reports this to the audit committee, the board fails to take timely remedial action. Under Section 10A, the auditor is required to report the illegal act directly to the SEC.
+### Section 10A for Issuer Audits
+
+Section 10A of the Securities Exchange Act of 1934 sets out a sequence for illegal acts found in an audit of an issuer:
+
+1. The auditor informs management and the audit committee, unless the act is clearly inconsequential.
+2. If the act is material, senior management and the board fail to take timely and appropriate remedial action, and that failure is expected to lead to a modified report or the auditor's resignation, the auditor reports its conclusions directly to the **board of directors**.
+3. The board must notify the **SEC within one business day** and give the auditor a copy of the notice.
+4. If the auditor does not receive that copy within one business day, the auditor must furnish its report to the SEC itself (and may resign).
+
+**Example:** In the audit of Grizzly Inc., an SEC registrant, the auditor finds that management paid bribes to foreign officials in violation of the FCPA. The auditor informs management and the audit committee. The amounts are material, and the board takes no remedial action. The auditor reports its conclusions to the board, which then has one business day to notify the SEC. When the auditor receives no copy of a notice, the auditor sends its report to the SEC the next business day.
 
 ---
 
-## Effect on the Audit Opinion
+## Effect on the Auditor's Report
 
-Noncompliance with laws and regulations can affect the audit opinion in several ways:
-
-| Situation | Effect on Opinion |
+| Situation | Effect on the Opinion |
 |---|---|
-| **Material misstatement due to noncompliance** (e.g., unrecorded liability for fines) and management **refuses to adjust** | **Qualified** or **adverse** opinion |
-| **Scope limitation**: the auditor is unable to determine whether noncompliance has occurred or to evaluate its financial statement effect | **Qualified** opinion or **disclaimer** of opinion |
-| **Noncompliance is properly reflected** in the financial statements (recorded/disclosed) | No modification required; **unmodified** opinion |
-| **Substantial doubt about going concern** due to noncompliance (e.g., loss of operating license) | Add an **emphasis-of-matter** paragraph (nonissuers) or **explanatory paragraph** (issuers) |
+| Noncompliance is properly recorded and disclosed | **Unmodified** opinion |
+| Material misstatement from noncompliance (for example, an unrecorded liability for fines) and management will not correct it | **Qualified** or **adverse** opinion |
+| The auditor cannot obtain enough evidence to evaluate whether noncompliance occurred or its effect | **Qualified** opinion or **disclaimer** (scope limitation) |
+| Noncompliance raises substantial doubt about going concern (for example, loss of an operating license) | A separate going concern section in the report (an explanatory paragraph under PCAOB standards) |
 
 ---
 
-## Legal Letter Requirements (Attorney Letter / Inquiry of Client's Lawyer)
+## Related Procedures
 
-The **letter of audit inquiry to the client's lawyer** (commonly called the "legal letter" or "attorney letter") is a critical procedure for identifying contingent liabilities related to litigation, claims, and assessments, many of which arise from potential noncompliance.
-
-### Purpose
-
-The legal letter provides the auditor with **corroborative evidence** about:
-
-- **Pending or threatened litigation** and claims
-- Management's evaluation of the **likelihood of unfavorable outcomes**
-- Management's estimate of the **range of potential loss**
-- **Unasserted claims** that the lawyer has been asked to evaluate
-
-### Process
-
-1. **Management prepares** a letter describing all pending and threatened litigation, claims, and assessments
-2. **The auditor sends** the letter to the entity's external legal counsel, asking the lawyer to confirm or supplement the information
-3. **The lawyer responds** directly to the auditor, commenting on each item
-
-### Key Considerations
-
-- If the lawyer's response is **limited** (e.g., the lawyer refuses to comment on certain matters), the auditor must evaluate whether this constitutes a **scope limitation**
-- The lawyer is not expected to comment on **unasserted claims** unless management has specifically identified them to the lawyer
-- A **failure to receive** a response from the lawyer is a **scope limitation** that could result in a qualified opinion or disclaimer
-
-**Example:** Polar Inc.'s auditor sends a legal letter to the company's outside counsel. The lawyer confirms one pending lawsuit with a probable unfavorable outcome and an estimated loss range of \$2 million to \$5 million. The lawyer declines to comment on two additional matters, citing attorney-client privilege. The auditor evaluates whether the refusal to comment creates a scope limitation and considers whether alternative procedures can provide the needed evidence.
-
-:::tip[Exam Tip]
-
-The legal letter is sent **by the auditor** but is prepared based on information provided **by management**. The response comes **from the lawyer directly to the auditor**. This three-party process is designed to ensure that the auditor receives independent corroboration of management's assertions about litigation and claims.
-
-:::
+Two other parts of the audit often surface noncompliance. The **letter of audit inquiry to the client's lawyers**, which the auditor sends and the lawyer answers directly to the auditor, corroborates management's information about litigation, claims, and assessments; it is covered in the litigation chapter. And noncompliance can threaten an entity's survival. When Cub Entertainment's state liquor commission moves to revoke the license that its concert venues depend on, the auditor must evaluate whether there is substantial doubt about Cub's ability to continue as a going concern, as described in the [Going Concern](../completing-the-audit-and-reporting/going-concern.md) chapter.
 
 ---
 
-## Going Concern Considerations Related to Noncompliance
+## Summary
 
-Noncompliance with laws and regulations can raise **substantial doubt about the entity's ability to continue as a going concern**. Situations that may trigger going concern considerations include:
-
-- **Loss of a critical license or permit** required to operate (e.g., a bank losing its charter, a broadcaster losing its FCC license)
-- **Significant fines or penalties** that threaten the entity's financial viability
-- **Government sanctions or debarment** that would prevent the entity from operating in key markets
-- **Environmental remediation obligations** that exceed the entity's financial capacity
-- **Criminal prosecution** of the entity or key management personnel
-
-**Example:** Honey Entertainment holds a liquor license that is essential to its concert venue operations. The state liquor control commission initiates proceedings to revoke the license due to repeated violations. If the license is revoked, Honey Entertainment would lose a substantial portion of its revenue. The auditor evaluates whether this raises substantial doubt about the entity's ability to continue as a going concern and considers the adequacy of the entity's disclosures.
-
-:::warning
-
-When noncompliance raises going concern issues, the auditor must evaluate management's **plans to mitigate** the adverse effects. If substantial doubt remains after considering management's plans, the auditor must include an **emphasis-of-matter paragraph** (nonissuers) or **explanatory paragraph** (issuers) in the audit report, regardless of whether the financial statements include adequate disclosure.
-
-:::
+| Topic | Key Takeaway |
+|---|---|
+| **Direct-effect laws** | Same responsibility as for other material misstatements |
+| **Other laws** | Inquiry of management and governance, inspection of regulatory correspondence, and alertness |
+| **Identified noncompliance** | Understand it, evaluate the effect, discuss with management, consider integrity and representations |
+| **NOCLAR** | AICPA Code interpretations since June 30, 2023; SAS 147 requires successor inquiries about fraud and NOCLAR |
+| **Communication** | To those charged with governance unless clearly inconsequential; next higher level if management is involved |
+| **Section 10A** | Auditor reports to the board; board notifies the SEC within one business day; otherwise the auditor does |
+| **PCAOB** | AS 2405 remains the issuer standard |

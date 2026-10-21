@@ -1,194 +1,124 @@
 # Using the Work of Others
 
-Auditors do not operate in isolation. Modern audits frequently rely on the work of **internal auditors**, **specialists**, **component auditors**, and **IT auditors** to address the complexity and breadth of today's business environment. However, the external auditor must carefully evaluate the competence, objectivity, and reliability of anyone whose work is used, because the ultimate responsibility for the audit opinion can never be shared or delegated.
+Few audits are performed by the engagement team alone. Internal auditors know the business, specialists bring expertise in valuation or actuarial science, IT auditors test systems, and other audit firms may audit a subsidiary in another country. The standards let the auditor use all of this work, but only after evaluating it, and the auditor keeps **sole responsibility** for the opinion in every case except one: making reference to another auditor in a group audit. This chapter covers the internal audit function (including direct assistance), management's and the auditor's specialists, IT auditors, and group audits under SAS 149, then closes with the responsibility principle that ties them together.
 
-This section covers how auditors use **internal auditors** (including direct assistance), how they rely on the work of **specialists**, the role of **component auditors** in group audits, **IT auditors** as engagement team members, and the critical principle of what the external auditor **cannot share responsibility for**.
-
-:::info
-
-The use of others' work is addressed in multiple standards: **AU-C 610** (using internal auditors), **AU-C 620** (using specialists), and **AU-C 600** (group audits/component auditors) under AICPA standards. PCAOB equivalents include **AS 2605** and **AS 1205**.
-
-:::
-
----
-
-## Using Internal Auditors
-
-Internal auditors are employees (or outsourced professionals) who perform assurance and consulting activities within an organization. Their work can be a valuable resource for the external auditor, but it comes with important limitations.
-
-### Two Ways to Use Internal Auditors
-
-The external auditor can use internal auditors' work in two distinct ways:
-
-| Approach | Description | Key Consideration |
+| Whose Work | AICPA Standard | PCAOB Standard |
 |---|---|---|
-| **Using the work of internal auditors** | The external auditor considers and evaluates work already performed by the internal audit function | The external auditor assesses whether the internal auditors' work is adequate for the external auditor's purposes |
-| **Using internal auditors for direct assistance** | Internal auditors perform audit procedures **under the direction, supervision, and review** of the external auditor | The external auditor treats these individuals as extensions of the engagement team (with limitations) |
-
-### Assessing Competence and Objectivity
-
-Before relying on the work of internal auditors (whether performed independently or as direct assistance), the external auditor must evaluate the internal auditors' **competence** and **objectivity**.
-
-#### Competence Factors
-
-- Educational qualifications and professional certifications (e.g., CIA designation)
-- Relevant experience and technical training
-- Quality of work documentation and adherence to professional standards
-- Adequacy of audit programs, workpapers, and conclusions
-
-#### Objectivity Factors
-
-- Organizational status: Does the internal audit function report to an **appropriate level** within the organization (ideally to the audit committee or board)?
-- Freedom from conflicting responsibilities: Are internal auditors required to perform operational or management functions that could impair their objectivity?
-- Independence from the activities they audit: Do internal auditors audit areas for which they have previously had operational responsibility?
-- Policies and procedures supporting objectivity: Does the entity have policies promoting internal auditor independence?
-
-**Example:** Bear Co.'s internal audit department reports directly to the audit committee and is led by a Certified Internal Auditor (CIA) with fifteen years of experience. Internal auditors do not perform any operational duties. The external auditor evaluates these factors positively and determines that the internal audit function has both competence and objectivity sufficient to rely on their work.
-
-:::warning
-
-Even when the internal audit function has strong competence and objectivity, the external auditor must **always re-perform or independently test** areas involving significant judgments, significant risks, or matters requiring extensive professional judgment. Internal auditor work can supplement, but not replace, the external auditor's own procedures in these areas.
-
-:::
-
-### Direct Assistance: Special Requirements
-
-When internal auditors provide **direct assistance** (performing procedures under the external auditor's direction), additional requirements apply:
-
-- The external auditor must **direct, supervise, and review** the internal auditors' work, just as they would for any engagement team member
-- The external auditor must evaluate **threats to objectivity** specific to the direct assistance arrangement
-- Internal auditors providing direct assistance must follow the external auditor's instructions and the firm's quality control policies
-- The external auditor must obtain **written acknowledgment** from the internal auditors that they will keep the audit matters confidential
-
-:::note
-
-**PCAOB restriction:** Under PCAOB standards (for issuer audits), external auditors are **prohibited from using internal auditors to provide direct assistance**. The PCAOB takes a stricter position because internal auditors are employees of the entity and cannot meet the independence requirements for public company audits. Direct assistance is permitted only under AICPA standards for nonissuer engagements.
-
-:::
+| **Internal audit function** | AU-C 610 | AS 2605 (AS 2201 in an integrated audit) |
+| **Auditor's specialist** | AU-C 620 | AS 1210 (specialist engaged by the firm); AS 1201 (specialist employed by the firm) |
+| **Management's specialist** | AU-C 500 | AS 1105 |
+| **Component auditors and referred-to auditors** | AU-C 600 (as revised by SAS 149) | AS 1201 (supervising other auditors); AS 1206 (dividing responsibility) |
 
 ---
 
-## Using the Work of a Specialist
+## Using the Internal Audit Function
 
-A **specialist** (also called an "auditor's specialist" or "management's specialist") is an individual or organization possessing expertise in a field other than accounting or auditing. Auditors engage specialists when the audit requires knowledge beyond the engagement team's competence.
+Internal auditors are employees or outsourced professionals who provide assurance and consulting services within an organization. The external auditor can use them in two ways:
 
-### Common Areas Requiring Specialists
-
-| Specialist Type | Engagement Example |
+| Approach | What Happens |
 |---|---|
-| **Valuation expert** | Fair value of complex financial instruments, real estate, or business combinations |
-| **Actuary** | Pension obligations, insurance reserves |
-| **Engineer** | Useful lives of assets, environmental remediation estimates |
-| **Legal counsel** | Litigation contingencies, regulatory compliance |
-| **Geologist** | Mineral or petroleum reserves |
-| **IT security expert** | Cybersecurity controls, data integrity |
+| **Using the work of the internal audit function** | The external auditor uses work the internal auditors have already done for their own purposes, such as their tests of a process |
+| **Direct assistance** | Individual internal auditors perform audit procedures **under the direction, supervision, and review** of the external auditor |
 
-### Evaluating the Specialist
+### Evaluating the Function
 
-Before relying on a specialist's work, the external auditor must evaluate:
+Under AU-C 610, the external auditor can use the function's work only after evaluating three things:
 
-1. **Competence**: Does the specialist have the necessary credentials, experience, and reputation?
-2. **Capabilities**: Can the specialist perform the work required for the specific engagement?
-3. **Objectivity**: Is the specialist free from bias or conflicts of interest with the entity?
+1. **Objectivity**: whether the function's organizational status and policies support it, for example by reporting to the audit committee and having no operating responsibilities
+2. **Competence**: the internal auditors' education, certifications (such as the CIA), experience, and training
+3. **A systematic and disciplined approach**, including quality control: documented audit programs, supervision, and review
 
-**Example:** Kodiak Partners is auditing Grizzly Industries, which holds significant real estate investments. The engagement team lacks expertise in commercial real estate valuation, so Kodiak Partners engages an independent appraiser to determine the fair value of the properties. The auditor evaluates the appraiser's credentials (MAI designation), reviews their methodology, and considers whether the appraiser has any financial relationship with Grizzly Industries that could impair objectivity.
+If objectivity is not adequately supported, competence is lacking, or the function does not work in a systematic and disciplined way, the external auditor cannot use its work at all.
 
-### Management's Specialist vs. Auditor's Specialist
+**Example:** Bear Co.'s internal audit department reports to the audit committee, has no operating duties, follows documented audit programs, and is led by a Certified Internal Auditor with fifteen years of experience. The external auditor concludes that the function's work can be used.
+
+### How Much to Use
+
+Even a strong internal audit function cannot take over the external auditor's judgments. The external auditor makes **all significant judgments** and does more of the work directly when the work involves more judgment, the assessed risk of material misstatement is higher, the function's objectivity is less strongly supported, or its competence is lower. Before using the function's work, the external auditor performs procedures on it, including reperforming some of it, to confirm it is adequate for the audit's purposes.
+
+### Direct Assistance
+
+When internal auditors provide **direct assistance**, the external auditor directs, supervises, and reviews their work like that of any team member. AU-C 610 adds safeguards:
+
+- The entity must agree in writing that the internal auditors may follow the external auditor's instructions without interference, and the internal auditors must agree in writing to keep the audit matters confidential and to report any threat to their objectivity.
+- Internal auditors may **not** be used to perform procedures that involve significant judgments, that relate to higher assessed risks where more than limited judgment is required, that relate to work they were involved in, or that relate to the external auditor's decisions about using the internal audit function.
+
+PCAOB standards also permit direct assistance. Under AS 2605, the auditor assesses the competence and objectivity of the internal auditors and supervises, reviews, evaluates, and tests their work.
+
+---
+
+## Using the Work of Specialists
+
+A **specialist** is an individual or organization with expertise in a field **other than accounting or auditing**, such as valuation, actuarial science, engineering, or geology. Who engaged the specialist determines how the auditor treats the work.
 
 | Feature | Management's Specialist | Auditor's Specialist |
 |---|---|---|
-| **Engaged by** | Management (the entity) | The auditor or the audit firm |
-| **Relationship** | Works for or on behalf of the entity | Works for or on behalf of the auditor |
-| **Auditor's evaluation** | Must evaluate competence, capabilities, and objectivity; also evaluate appropriateness of the specialist's work as audit evidence | Must evaluate competence, capabilities, and objectivity |
-| **Reference in audit report** | Generally **not referenced** in an unmodified opinion | Generally **not referenced** in an unmodified opinion |
+| **Works for** | The entity | The auditor (employed by the firm, or engaged from outside it) |
+| **Typical use** | Produces information management uses to prepare the statements, such as an actuarial pension valuation | Helps the auditor obtain evidence, such as an independent estimate of fair value |
+| **Auditor evaluates** | Competence, capabilities, and objectivity; the specialist's work; whether the work is appropriate evidence for the assertion | Competence, capabilities, and objectivity; agrees on the scope of work; evaluates whether the findings, assumptions, methods, and source data are adequate |
 
-:::tip[Exam Tip]
+Common examples include valuation experts (complex financial instruments, real estate, business combinations), actuaries (pensions, insurance reserves), engineers (environmental remediation estimates), and geologists (oil, gas, and mineral reserves).
 
-The auditor does **not** mention the specialist in the audit report when issuing an unmodified opinion, because doing so might be misunderstood as a qualification of the opinion or a division of responsibility. The specialist may be referenced only in a **modified opinion** to explain the basis for the modification.
+**Example:** Kodiak Partners, a CPA firm, is auditing Grizzly Inc., which holds significant commercial real estate. The engagement team lacks valuation expertise, so the firm engages an independent appraiser to develop its own estimate of the properties' fair value. The team evaluates the appraiser's credentials and any financial relationship with Grizzly, agrees on the scope of the work, and then evaluates the appraiser's methods, assumptions, and source data before comparing the estimate with management's.
 
-:::
-
----
-
-## Component Auditors in Group Audits
-
-A **group audit** occurs when the financial statements include the financial information of more than one component (e.g., subsidiaries, divisions, or branches). When different auditors are responsible for different components, the auditor of the group financial statements (the **group engagement partner**) must coordinate with the **component auditors**.
-
-### Role of the Group Engagement Partner
-
-The group engagement partner is responsible for:
-
-- **Overall direction, supervision, and performance** of the group audit
-- Determining the **type of work** to be performed on each component (full audit, specified procedures, or analytical procedures)
-- **Evaluating the component auditor's** competence, independence, and compliance with ethical requirements
-- **Communicating** with component auditors about the scope of work, significant risks, and reporting requirements
-- **Evaluating** the component auditor's work and conclusions
-
-### Evaluating the Component Auditor
-
-Before involving a component auditor, the group engagement partner must assess:
-
-- **Professional competence**: Is the component auditor qualified and experienced?
-- **Independence**: Does the component auditor meet all applicable independence requirements?
-- **Regulatory environment**: Does the component auditor operate in a jurisdiction with adequate professional oversight?
-- **Resources**: Does the component auditor have the capacity to perform the required work?
-
-**Example:** Honey Entertainment has a foreign subsidiary, Polar Inc., that operates in a different country. The group engagement partner determines that a component auditor in that jurisdiction should perform audit procedures on Polar Inc.'s financial information. The group engagement partner evaluates the component auditor's firm (reviewing their regulatory standing, independence, and experience with entertainment industry clients) before providing instructions on the scope of work and the group's materiality thresholds.
-
-:::warning
-
-The group engagement partner must be involved in the component auditor's work at a level sufficient to obtain adequate audit evidence. The group engagement partner cannot simply accept the component auditor's report without evaluation; this would be an abdication of responsibility.
-
-:::
+The auditor does **not** refer to an auditor's specialist in a report containing an **unmodified** opinion; readers might take the reference as a qualification or as a division of responsibility. A reference is allowed only in a **modified** report when it helps explain the modification, and the report must then say that the reference does not reduce the auditor's responsibility.
 
 ---
 
-## IT Auditors as Engagement Team Members
+## IT Auditors on the Engagement Team
 
-IT auditors (also called **IT specialists** or **IT audit professionals**) are individuals with specialized knowledge of information technology who assist the engagement team in understanding and evaluating IT-related controls.
+**IT auditors** are professionals with specialized knowledge of information technology who help the engagement team understand and test IT. They are typically involved when the entity's systems are complex, when IT general controls (access, program change, IT operations) must be evaluated, when automated application controls are tested, or when data integrity or cybersecurity is a concern.
 
-### When IT Auditors Are Needed
+IT auditors from the audit firm are **members of the engagement team**. Their work is directed, supervised, and reviewed like any other team member's, and they must meet the firm's independence and quality management requirements.
 
-IT auditors are typically involved when:
-
-- The entity has **complex IT systems** that process significant financial transactions
-- The auditor needs to evaluate **general IT controls** (access controls, change management, computer operations, program development)
-- The engagement involves testing **automated application controls** (e.g., automated three-way matching, system-generated calculations)
-- There are concerns about **data integrity, cybersecurity**, or IT governance
-
-### Role on the Engagement Team
-
-Unlike external specialists, IT auditors who are part of the engagement team or the audit firm are treated as **members of the engagement team**. This means:
-
-- Their work is subject to the same **supervision and review** requirements as other team members
-- They must comply with the firm's **independence** and **quality management** requirements
-- The engagement partner is responsible for **directing and overseeing** their work
-
-**Example:** Ursa Security processes millions of security monitoring transactions through an automated billing system. The engagement team includes an IT auditor from the firm who evaluates the general IT controls over the billing system (testing logical access controls, change management procedures, and automated calculations) to determine whether the engagement team can rely on system-generated reports as audit evidence.
+**Example:** Sloth Security bills millions of monitoring transactions through an automated system. An IT auditor on the engagement team tests logical access, change management, and the system's automated calculations so the team can decide whether system-generated reports can be relied on as audit evidence.
 
 ---
 
-## What the External Auditor Cannot Share Responsibility For
+## Group Audits
 
-One of the most fundamental principles in auditing is that the external auditor bears **sole responsibility** for the audit opinion expressed. This responsibility cannot be reduced, shared, or delegated, regardless of how much the auditor relies on the work of others.
+A **group audit** is an audit of financial statements that include the financial information of more than one **component**, such as subsidiaries, divisions, or branches. The **group engagement partner** is responsible for the group audit and for the auditor's report on the group financial statements.
 
-### Key Principles
+**SAS 149** revised AU-C 600 for audits of group financial statements for periods ending on or after December 15, 2026. SAS 149 is eligible for testing starting January 1, 2027. A 2026 candidate was tested on the earlier AU-C 600, which built the audit around "significant components" and treated component auditors as outside the engagement team.
+
+### Key Ideas in SAS 149
+
+- **Risk-based scoping.** The group auditor decides what work to perform, and where, based on the assessed risks of material misstatement of the group financial statements. The old concept of a "significant component" is gone.
+- **Component auditors are on the engagement team.** A component auditor performs audit work on a component for the group audit and is subject to the group engagement partner's **direction, supervision, and review**, like any other team member.
+- **Aggregation risk and component performance materiality.** Misstatements that are small in each component can add up to a material amount for the group. To address that **aggregation risk**, component performance materiality is set **lower than group performance materiality**.
+- **Two-way communication.** The group auditor tells component auditors what work is required, and component auditors report back their findings, including matters relevant to going concern.
+
+### Two Ways to Work With Another Auditor
+
+| Approach | Who Is Involved | Effect on the Report |
+|---|---|---|
+| **Being involved in the work of component auditors** (formerly "assuming responsibility") | Component auditors, as members of the engagement team | No mention of the component auditor; the group engagement partner takes full responsibility |
+| **Making reference** to the audit of a **referred-to auditor** | A referred-to auditor, who audits a component's financial statements and is **not** on the engagement team | The report says that part of the group was audited by another auditor and gives its size (dollar amounts or percentages); the opinion on that part rests on the other auditor's report |
+
+When the group engagement partner is involved in a component auditor's work, the partner evaluates the component auditor's competence, capabilities, independence, and compliance with ethical requirements, communicates the work required, and determines how much of that work to review. Making reference is a choice, not an obligation, and it is available only when conditions are met. Generally, the referred-to auditor must have audited the component's financial statements under GAAS or PCAOB standards and issued a report that is not restricted, and the component's statements must use the same financial reporting framework as the group (or the group auditor must evaluate the adjustments). Even then, the group auditor still evaluates the referred-to auditor's competence and independence. The referred-to auditor is named in the report only with its permission and when its report is presented with the group auditor's report.
+
+**Example:** Cub Entertainment's group audit includes a foreign subsidiary, Polar Studios. The group engagement partner uses a component auditor in that country, who becomes part of the engagement team. The partner evaluates the firm's competence and independence, sets component performance materiality below group performance materiality, sends written instructions, and reviews the component auditor's key workpapers. Cub's domestic distribution subsidiary is audited by a different firm whose own audit report the partner decides to rely on. That firm is a referred-to auditor, and the group report makes reference to its audit.
+
+**Issuer audits** follow PCAOB standards. AS 1201 governs the lead auditor's supervision of other auditors who participate in the audit, and AS 1206 permits **dividing responsibility** by making reference to the audit of another accounting firm. Both apply to audits of fiscal years ending on or after December 15, 2024.
+
+---
+
+## The Auditor's Responsibility Cannot Be Delegated
+
+Whatever work the auditor uses, the responsibility for the opinion stays with the auditor.
 
 | Principle | Explanation |
 |---|---|
-| **Sole responsibility for the opinion** | The external auditor's report is the auditor's alone. The auditor cannot divide or share responsibility for the opinion with internal auditors, specialists, or component auditors |
-| **No reduction of responsibility** | Using the work of internal auditors, specialists, or others does not reduce the external auditor's responsibility in any way |
-| **Reference to others in the report** | Under AICPA standards, the group engagement partner may make reference to a component auditor in the audit report (dividing responsibility), but this is an exception specific to group audits. Under PCAOB standards, the auditor generally may not divide responsibility |
-| **Supervision obligation** | The external auditor must supervise and review the work of anyone whose work is used, ensuring it meets the auditor's standards |
-| **Professional judgment** | All significant judgments and conclusions must ultimately be evaluated and approved by the external auditor |
+| **Sole responsibility for the opinion** | Using internal auditors, specialists, IT auditors, or component auditors does not reduce the auditor's responsibility |
+| **Evaluation and supervision** | The auditor evaluates and, where applicable, directs, supervises, and reviews the work used |
+| **Significant judgments** | All significant judgments are made by the auditor |
+| **The one exception** | In a group audit, the auditor may divide responsibility by making reference to a referred-to auditor (AICPA) or another accounting firm (PCAOB) |
 
-:::danger
+:::danger[Common Exam Trap]
 
-A common exam trap: the fact that the auditor used a specialist, internal auditor, or component auditor does **not** allow the auditor to disclaim responsibility. If the auditor references a specialist in an unmodified opinion, this is generally inappropriate. The auditor is always responsible for the audit opinion.
+Using a specialist, internal auditor, or component auditor never lets the auditor disclaim responsibility. Referring to a specialist in an **unmodified** opinion is not appropriate. The only report wording that divides responsibility is a reference to another auditor's audit of a component in a group audit.
 
 :::
-
-**Example:** Kodiak Partners engages a valuation specialist to assist with auditing the fair value of Panda Records' catalog of music rights. Even though the specialist performs the valuation analysis, Kodiak Partners remains solely responsible for the audit opinion on Panda Records' financial statements. If the valuation is materially wrong and the financial statements are misstated as a result, Kodiak Partners cannot shift blame to the specialist.
 
 ---
 
@@ -196,9 +126,9 @@ A common exam trap: the fact that the auditor used a specialist, internal audito
 
 | Topic | Key Takeaway |
 |---|---|
-| **Internal auditors** | External auditor must assess competence and objectivity; can use their work or (for nonissuers only) use them for direct assistance |
-| **Direct assistance** | External auditor directs, supervises, and reviews internal auditors' work; prohibited under PCAOB standards |
-| **Specialists** | Used for expertise outside accounting/auditing; auditor evaluates competence, capabilities, and objectivity |
-| **Component auditors** | Group engagement partner evaluates and supervises their work; responsible for overall group audit |
-| **IT auditors** | Members of the engagement team; subject to same supervision and quality requirements |
-| **Sole responsibility** | External auditor's responsibility for the opinion is never reduced by using others' work |
+| **Internal audit function** | Evaluate objectivity, competence, and a systematic and disciplined approach; the auditor makes all significant judgments |
+| **Direct assistance** | Permitted under AICPA and PCAOB standards; directed, supervised, and reviewed; barred from significant judgments and higher-risk areas needing more than limited judgment |
+| **Specialists** | Evaluate competence, capabilities, and objectivity; no reference in an unmodified report |
+| **IT auditors** | Engagement team members subject to supervision and review |
+| **SAS 149 group audits** | Risk-based; component auditors are engagement team members; component performance materiality below group performance materiality; tested starting January 1, 2027 |
+| **Making reference** | To a referred-to auditor (AICPA) or another firm (PCAOB); the only way to divide responsibility |
