@@ -1,6 +1,6 @@
 # Reporting on Compliance
 
-Auditors are frequently engaged to report on an entity's **compliance** with specific requirements—whether those requirements arise from contracts, regulations, grant agreements, or other authoritative sources. Compliance reporting may be the **principal objective** of an engagement or **incidental** to a financial statement audit. Understanding the different types of compliance reports, the standards that govern them, and the opinions that may be expressed is important for the AUD exam.
+Auditors are frequently engaged to report on an entity's **compliance** with specific requirements, whether those requirements arise from contracts, regulations, grant agreements, or other authoritative sources. Compliance reporting may be the **principal objective** of an engagement or **incidental** to a financial statement audit. Understanding the different types of compliance reports, the standards that govern them, and the opinions that may be expressed is important for the AUD exam.
 
 :::info
 
@@ -65,7 +65,7 @@ In an AUP engagement, the CPA:
 
 | Engagement Type | Assurance Level | Report Expression |
 |---|---|---|
-| **Examination** | Reasonable (high) | "In our opinion, [entity] complied, in all material respects, with [requirements]…" |
+| **Examination** | Reasonable (high) | "In our opinion, [entity] complied, in all material respects, with [requirements]..." |
 | **Agreed-upon procedures** | None (findings only) | Factual findings; no opinion or conclusion |
 
 :::caution
@@ -117,11 +117,11 @@ When the CPA performs an examination of compliance, the opinion may be **modifie
 
 ### Qualified Opinion
 - Issued when the CPA identifies **material noncompliance** that is limited to specific requirements, and the overall compliance is not pervasive enough to warrant an adverse opinion
-- The opinion states: "Except for [specific noncompliance], the entity complied, in all material respects…"
+- The opinion states: "Except for [specific noncompliance], the entity complied, in all material respects..."
 
 ### Adverse Opinion
 - Issued when noncompliance is so **material and pervasive** that the entity did not comply with the specified requirements in all material respects
-- The opinion states: "The entity did not comply, in all material respects…"
+- The opinion states: "The entity did not comply, in all material respects..."
 
 ### Disclaimer of Opinion
 - Issued when the CPA is unable to obtain **sufficient appropriate evidence** to form an opinion on compliance (scope limitation)

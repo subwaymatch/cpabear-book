@@ -1,6 +1,6 @@
 # Comparative Statements and Consistency
 
-When financial statements for two or more periods are presented together, the auditor must evaluate whether they are consistent and comparable. Changes in accounting principles, corrections of material misstatements, and reclassifications can all affect the comparability of financial statements across periods. Understanding how these changes impact the auditor's report — and when an emphasis-of-matter paragraph or opinion modification is required — is essential for the AUD exam.
+When financial statements for two or more periods are presented together, the auditor must evaluate whether they are consistent and comparable. Changes in accounting principles, corrections of material misstatements, and reclassifications can all affect the comparability of financial statements across periods. Understanding how these changes impact the auditor's report, and when an emphasis-of-matter paragraph or opinion modification is required, is essential for the AUD exam.
 
 This section covers the consistency standard under AU-C 708, factors affecting comparability, reporting implications for various changes, predecessor auditor considerations, and the difference between comparative financial statements and corresponding figures.
 
@@ -78,7 +78,7 @@ When a consistency matter is identified, the auditor adds an emphasis-of-matter 
 
 :::note
 
-The emphasis-of-matter paragraph does **not** change the opinion. The auditor can still issue an unmodified opinion — the paragraph simply draws the reader's attention to the change in principle or restatement.
+The emphasis-of-matter paragraph does **not** change the opinion. The auditor can still issue an unmodified opinion; the paragraph simply draws the reader's attention to the change in principle or restatement.
 
 :::
 
@@ -208,6 +208,6 @@ For the CPA exam, focus on the **comparative financial statements** approach, as
 | **Updating prior-period opinion** | The auditor may update the opinion based on new information or resolution of prior issues |
 | **Initial engagements** | Auditor must obtain evidence about opening balances; inability may lead to scope limitation on income statement and cash flows |
 | **Predecessor auditor** | If predecessor does not reissue report, include an other-matter paragraph with type of opinion, date, and any modifications |
-| **Comparative statements** | U.S. standard — auditor opines on each period presented |
-| **Corresponding figures** | International approach — auditor opines only on the current period |
+| **Comparative statements** | U.S. standard: auditor opines on each period presented |
+| **Corresponding figures** | International approach: auditor opines only on the current period |
 | **Emphasis-of-matter placement** | After the opinion paragraph; does not modify the opinion |

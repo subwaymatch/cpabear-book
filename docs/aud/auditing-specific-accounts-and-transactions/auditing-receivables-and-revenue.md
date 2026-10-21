@@ -1,6 +1,6 @@
 # Auditing Receivables and Revenue
 
-The revenue cycle is one of the most critical areas of the audit because revenue recognition is a presumed fraud risk under auditing standards. Understanding the flow of transactions—from sales order through cash collection—is essential for designing effective audit procedures.
+The revenue cycle is one of the most critical areas of the audit because revenue recognition is a presumed fraud risk under auditing standards. Understanding the flow of transactions, from sales order through cash collection, is essential for designing effective audit procedures.
 
 ## Revenue Cycle Overview
 
@@ -21,9 +21,9 @@ The revenue cycle involves several key departments, each with distinct responsib
 :::info[Cash Receipts Flow]
 
 When cash is received, a **cash receipts listing** (also called a remittance listing or prelist) is prepared and distributed to three areas:
-1. **Cashier** – deposits funds intact daily
-2. **Accounts Receivable** – posts payments to customer accounts in the subsidiary ledger
-3. **General Accounting** – records the deposit in the general ledger and reconciles
+1. **Cashier**: deposits funds intact daily
+2. **Accounts Receivable**: posts payments to customer accounts in the subsidiary ledger
+3. **General Accounting**: records the deposit in the general ledger and reconciles
 
 This three-way distribution ensures no single individual can both handle cash and record the transaction.
 
@@ -53,7 +53,7 @@ Confirmations are a primary substantive procedure for verifying the existence an
 |---|---|---|
 | **Positive Confirmation** | Asks the customer to respond whether they agree or disagree with the stated balance | Combined assessed risk of material misstatement is **high**; large individual balances; accounts in dispute |
 | **Negative Confirmation** | Asks the customer to respond **only if they disagree** with the stated balance | Combined assessed risk of material misstatement is **low**; large number of small, homogeneous balances; low expected exception rate; no reason to believe recipients will disregard the request |
-| **Blank (Open) Confirmation** | A type of positive confirmation that does **not** state the balance—asks the customer to fill in the amount or provide details | Provides stronger evidence because the customer must look up the balance independently rather than simply agreeing |
+| **Blank (Open) Confirmation** | A type of positive confirmation that does **not** state the balance; it asks the customer to fill in the amount or provide details | Provides stronger evidence because the customer must look up the balance independently rather than simply agreeing |
 
 :::tip[Exam Tip]
 
@@ -72,12 +72,12 @@ The auditor of Kodiak Partners selects a sample of receivable balances for confi
 
 ### 1. Tracing Shipping Documents to the Sales Journal
 
-The auditor selects a sample of **shipping documents** (bills of lading) and traces them forward to the sales journal to test for **completeness**—ensuring all shipments were recorded as sales.
+The auditor selects a sample of **shipping documents** (bills of lading) and traces them forward to the sales journal to test for **completeness**, ensuring all shipments were recorded as sales.
 
 :::note[Direction of Testing]
 
-- **Tracing** (from source document → journal) tests **completeness** (Did we record everything that happened?)
-- **Vouching** (from journal → source document) tests **existence/occurrence** (Did a transaction really happen?)
+- **Tracing** (from source document to journal) tests **completeness** (Did we record everything that happened?)
+- **Vouching** (from journal to source document) tests **existence/occurrence** (Did a transaction really happen?)
 
 :::
 
@@ -126,8 +126,8 @@ Revenue is a **presumed fraud risk** under AU-C 240 / AS 2401. The auditor must 
 
 | Procedure | Primary Assertion Tested |
 |---|---|
-| Trace shipping docs → sales journal | Completeness |
-| Vouch sales journal → shipping docs | Occurrence/Existence |
+| Trace shipping docs to sales journal | Completeness |
+| Vouch sales journal to shipping docs | Occurrence/Existence |
 | Cutoff testing | Cutoff (Period) |
 | AR confirmations | Existence, Rights, Valuation |
 | Allowance testing | Valuation |

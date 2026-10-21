@@ -4,7 +4,7 @@ Related party transactions present unique audit risks because they may not occur
 
 ## Identifying Related Parties
 
-Related parties include entities or individuals that can significantly influence or be influenced by the reporting entity—such as parent companies, subsidiaries, affiliates, principal owners, management, and their immediate family members.
+Related parties include entities or individuals that can significantly influence or be influenced by the reporting entity, such as parent companies, subsidiaries, affiliates, principal owners, management, and their immediate family members.
 
 ### Procedures to Identify Related Parties
 
@@ -13,7 +13,7 @@ Related parties include entities or individuals that can significantly influence
 | **Evaluate client's own procedures** | Review management's process for identifying, authorizing, and disclosing related party transactions |
 | **Inquire of management** | Ask management to identify all related parties and the nature of relationships and transactions |
 | **Review SEC filings** | Examine proxy statements, Forms 10-K and 10-Q, and beneficial ownership filings for disclosed related parties and transactions |
-| **Review unusual transactions** | Scrutinize transactions that appear unusual in nature, timing, or amount—these may involve undisclosed related parties |
+| **Review unusual transactions** | Scrutinize transactions that appear unusual in nature, timing, or amount; these may involve undisclosed related parties |
 | **Review prior year documentation** | Examine the predecessor auditor's workpapers and the prior year audit file for previously identified related parties |
 | **Inquire of predecessor auditor** | Ask the predecessor auditor about known related parties and any issues encountered |
 | **Review conflict of interest statements** | Examine questionnaires or declarations completed by management and board members |
@@ -96,10 +96,10 @@ When the auditor concludes there is substantial doubt about going concern:
 
 When substantial doubt about going concern exists and is not alleviated by management's plans, the auditor's report must include specific language. The following phrases are **required** in the going concern emphasis-of-matter/explanatory paragraph:
 
-- **"substantial doubt"** – The auditor must use this exact phrase
-- **"going concern"** – The auditor must reference the entity's ability to continue as a going concern
+- **"substantial doubt"**: The auditor must use this exact phrase
+- **"going concern"**: The auditor must reference the entity's ability to continue as a going concern
 
-The paragraph is added **after** the opinion paragraph (for AICPA standards) and does **not** modify the opinion—it remains an **unmodified opinion** with an emphasis-of-matter paragraph.
+The paragraph is added **after** the opinion paragraph (for AICPA standards) and does **not** modify the opinion. It remains an **unmodified opinion** with an emphasis-of-matter paragraph.
 
 :::
 
@@ -119,7 +119,7 @@ The auditor includes an emphasis-of-matter paragraph in the audit report:
 |---|---|
 | **Identifying related parties** | Inquiry, SEC filings, unusual transactions, prior year files, predecessor auditor |
 | **Related party risks** | Non-arm's-length transactions, undisclosed relationships, management integrity concerns |
-| **Going concern – FASB** | One year from date financial statements are issued |
-| **Going concern – GASB** | One year from auditor's report date |
+| **Going concern (FASB)** | One year from date financial statements are issued |
+| **Going concern (GASB)** | One year from auditor's report date |
 | **Going concern report language** | Must include "substantial doubt" and "going concern" |
-| **Opinion type** | Going concern does **not** change the opinion to qualified—it is an emphasis-of-matter paragraph with an unmodified opinion |
+| **Opinion type** | Going concern does **not** change the opinion to qualified; it is an emphasis-of-matter paragraph with an unmodified opinion |

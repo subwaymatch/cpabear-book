@@ -59,7 +59,7 @@ So the full model becomes:
 
 :::info
 
-The auditor does **not control** inherent risk or control risk—these are characteristics of the entity. The only component the auditor can directly influence is **detection risk**, by adjusting the nature, timing, and extent of audit procedures.
+The auditor does **not control** inherent risk or control risk; these are characteristics of the entity. The only component the auditor can directly influence is **detection risk**, by adjusting the nature, timing, and extent of audit procedures.
 
 :::
 
@@ -84,7 +84,7 @@ Factors that **increase** inherent risk include:
 - **Industry conditions** (e.g., rapidly changing technology, heavy regulation)
 - **Economic environment** (e.g., recession, market downturns)
 
-**Example:** Honey Entertainment produces feature films and must estimate the ultimate revenue and amortization of film costs—a highly subjective process involving significant management judgment. The inherent risk for the film cost asset is high due to the complexity and uncertainty of the estimates.
+**Example:** Honey Entertainment produces feature films and must estimate the ultimate revenue and amortization of film costs, a highly subjective process involving significant management judgment. The inherent risk for the film cost asset is high due to the complexity and uncertainty of the estimates.
 
 ### Control Risk (CR)
 
@@ -97,7 +97,7 @@ Key points about control risk:
 - If the auditor decides not to test controls, control risk is assessed at the **maximum** (i.e., the auditor assumes controls are ineffective)
 - Even when controls are well-designed and operating effectively, control risk can never be reduced to **zero** due to inherent limitations of internal control
 
-**Example:** Kodiak Partners assesses control risk for Ursa Security's cash disbursements cycle. Ursa Security has a strong segregation of duties—one person prepares checks, another signs them, and a third reconciles the bank statement. After testing these controls and finding them operating effectively, Kodiak Partners assesses control risk as low for the cash disbursements assertions.
+**Example:** Kodiak Partners assesses control risk for Ursa Security's cash disbursements cycle. Ursa Security has a strong segregation of duties: one person prepares checks, another signs them, and a third reconciles the bank statement. After testing these controls and finding them operating effectively, Kodiak Partners assesses control risk as low for the cash disbursements assertions.
 
 ---
 
@@ -116,7 +116,7 @@ Detection risk has an **inverse relationship** with the risk of material misstat
 
 :::warning
 
-The auditor can **never** set detection risk at zero. There is always some risk that procedures will not detect a material misstatement—due to the inherent limitations of sampling, the possibility of selecting inappropriate procedures, or human error in performing or evaluating procedures.
+The auditor can **never** set detection risk at zero. There is always some risk that procedures will not detect a material misstatement due to the inherent limitations of sampling, the possibility of selecting inappropriate procedures, or human error in performing or evaluating procedures.
 
 :::
 
@@ -138,15 +138,15 @@ When the auditor needs to **decrease detection risk** (because RMM is high), the
 
 When the assessed risk of material misstatement is high, the auditor must obtain **more persuasive audit evidence** through substantive procedures. The auditor achieves this by:
 
-1. **Increasing the quantity of evidence** — Testing more transactions, examining more documents, confirming more balances
-2. **Improving the quality of evidence** — Relying on external rather than internal sources, using original documents rather than copies, obtaining evidence directly rather than through inquiry alone
-3. **Performing procedures closer to year-end** — Evidence obtained at or after the balance sheet date is generally more relevant than evidence obtained during interim periods
-4. **Using more experienced personnel** — Assigning senior auditors or specialists to high-risk areas
-5. **Increasing the unpredictability of procedures** — Varying the procedures performed, the timing, or the locations tested to reduce the risk that management can anticipate and circumvent auditor testing
+1. **Increasing the quantity of evidence**: Testing more transactions, examining more documents, confirming more balances
+2. **Improving the quality of evidence**: Relying on external rather than internal sources, using original documents rather than copies, obtaining evidence directly rather than through inquiry alone
+3. **Performing procedures closer to year-end**: Evidence obtained at or after the balance sheet date is generally more relevant than evidence obtained during interim periods
+4. **Using more experienced personnel**: Assigning senior auditors or specialists to high-risk areas
+5. **Increasing the unpredictability of procedures**: Varying the procedures performed, the timing, or the locations tested to reduce the risk that management can anticipate and circumvent auditor testing
 
 :::tip[Exam Tip]
 
-The CPA exam often tests the inverse relationship between RMM and detection risk. If a question describes a situation where inherent risk is high (e.g., complex estimates, susceptibility to fraud), the correct answer will involve the auditor performing **more work**—larger samples, more reliable evidence, testing closer to year-end.
+The CPA exam often tests the inverse relationship between RMM and detection risk. If a question describes a situation where inherent risk is high (e.g., complex estimates, susceptibility to fraud), the correct answer will involve the auditor performing **more work**: larger samples, more reliable evidence, testing closer to year-end.
 
 :::
 

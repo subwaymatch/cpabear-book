@@ -1,6 +1,6 @@
 # Understanding the Entity and Its Environment
 
-Before an auditor can assess the risk of material misstatement and design appropriate audit procedures, the auditor must first develop a deep understanding of the entity being audited and the environment in which it operates. This is not a formality—it is the **foundation** of the entire risk-based audit. Without this understanding, the auditor cannot identify what could go wrong, where misstatements are most likely to occur, or how to allocate audit resources effectively.
+Before an auditor can assess the risk of material misstatement and design appropriate audit procedures, the auditor must first develop a deep understanding of the entity being audited and the environment in which it operates. This is not a formality; it is the **foundation** of the entire risk-based audit. Without this understanding, the auditor cannot identify what could go wrong, where misstatements are most likely to occur, or how to allocate audit resources effectively.
 
 This section covers the requirements under **AU-C 315** (AICPA) and **AS 2110** (PCAOB), the **external and internal factors** the auditor must consider, the entity's **accounting policies** and **financial reporting framework**, the auditor's understanding of **internal control components**, the **risk assessment procedures** used to obtain this understanding, and key **sources of information** about the entity.
 
@@ -23,7 +23,7 @@ Understanding the entity and its environment enables the auditor to:
 - **Detect conditions** that may indicate fraud risk or going concern issues
 - **Exercise professional skepticism** more effectively
 
-**Example:** Grizzly Industries is a manufacturer that sells products internationally. If the auditor does not understand that Grizzly has significant foreign currency transactions, the auditor may fail to assess the risk of misstatement related to foreign currency translation and remeasurement—a potentially material area.
+**Example:** Grizzly Industries is a manufacturer that sells products internationally. If the auditor does not understand that Grizzly has significant foreign currency transactions, the auditor may fail to assess the risk of misstatement related to foreign currency translation and remeasurement, a potentially material area.
 
 ---
 
@@ -113,7 +113,7 @@ The auditor must understand the entity's selection and application of **accounti
 - **Revenue recognition** methods and the timing of revenue
 - **Inventory valuation** methods (FIFO, weighted average, etc.)
 - **Depreciation and amortization** policies
-- **Estimates and judgments** — including assumptions underlying significant estimates
+- **Estimates and judgments**, including assumptions underlying significant estimates
 - **Changes** in accounting policies or adoption of new standards
 - **Industry-specific accounting** requirements
 
@@ -132,15 +132,15 @@ The auditor evaluates whether the entity's accounting policies are appropriate f
 
 As part of understanding the entity, the auditor must obtain an understanding of each of the **five components of internal control** (as defined by the COSO framework):
 
-1. **Control environment** — Tone at the top, governance, integrity, and ethical values
-2. **Risk assessment** — The entity's process for identifying and responding to business risks relevant to financial reporting
-3. **Information and communication** — The information system and how the entity communicates roles and responsibilities for internal control
-4. **Control activities** — Policies and procedures that help ensure management directives are carried out (e.g., authorizations, reconciliations, segregation of duties)
-5. **Monitoring activities** — The entity's process for assessing the quality of internal control performance over time
+1. **Control environment**: Tone at the top, governance, integrity, and ethical values
+2. **Risk assessment**: The entity's process for identifying and responding to business risks relevant to financial reporting
+3. **Information and communication**: The information system and how the entity communicates roles and responsibilities for internal control
+4. **Control activities**: Policies and procedures that help ensure management directives are carried out (e.g., authorizations, reconciliations, segregation of duties)
+5. **Monitoring activities**: The entity's process for assessing the quality of internal control performance over time
 
 :::caution
 
-The auditor is required to obtain an understanding of **all five components** of internal control in every audit. However, the auditor is **not required to test** all controls—only those the auditor intends to rely upon to reduce substantive testing. Understanding internal control is distinct from testing its operating effectiveness.
+The auditor is required to obtain an understanding of **all five components** of internal control in every audit. However, the auditor is **not required to test** all controls, only those the auditor intends to rely upon to reduce substantive testing. Understanding internal control is distinct from testing its operating effectiveness.
 
 :::
 
@@ -161,7 +161,7 @@ Asking management, those charged with governance, and other personnel within the
 
 ### Observation
 
-Physically observing the entity's operations, facilities, and processes—such as touring a manufacturing plant, watching how transactions are processed, or observing the physical security of assets.
+Physically observing the entity's operations, facilities, and processes, such as touring a manufacturing plant, watching how transactions are processed, or observing the physical security of assets.
 
 ### Inspection
 
@@ -186,7 +186,7 @@ Performing **preliminary analytical procedures** to identify unusual trends, une
 
 :::tip[Exam Tip]
 
-Risk assessment procedures are **not sufficient by themselves** to provide a basis for the audit opinion. They must be complemented by **further audit procedures** (tests of controls and/or substantive procedures). Think of risk assessment procedures as the diagnostic step—they tell you where to look, not what to conclude.
+Risk assessment procedures are **not sufficient by themselves** to provide a basis for the audit opinion. They must be complemented by **further audit procedures** (tests of controls and/or substantive procedures). Think of risk assessment procedures as the diagnostic step: they tell you where to look, not what to conclude.
 
 :::
 
@@ -196,12 +196,12 @@ Risk assessment procedures are **not sufficient by themselves** to provide a bas
 
 The auditor must understand how significant classes of transactions are:
 
-- **Initiated** — How do transactions begin? (e.g., customer places an order)
-- **Authorized** — Who approves the transaction?
-- **Recorded** — How and when are transactions captured in the accounting records?
-- **Processed** — What steps occur between recording and reporting?
-- **Reported** — How do transactions flow into the financial statements?
-- **Corrected** — How are errors identified and corrected?
+- **Initiated**: How do transactions begin? (e.g., customer places an order)
+- **Authorized**: Who approves the transaction?
+- **Recorded**: How and when are transactions captured in the accounting records?
+- **Processed**: What steps occur between recording and reporting?
+- **Reported**: How do transactions flow into the financial statements?
+- **Corrected**: How are errors identified and corrected?
 
 This understanding is often documented using **flowcharts**, **narratives**, or **walkthrough procedures** (tracing a transaction from initiation to recording).
 

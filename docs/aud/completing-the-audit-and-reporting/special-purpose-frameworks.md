@@ -1,6 +1,6 @@
 # Special-Purpose Frameworks
 
-Not all financial statements are prepared in accordance with U.S. GAAP or IFRS. Many entities — particularly smaller businesses, government contractors, and regulated industries — prepare financial statements using a **special-purpose framework** (SPF). These frameworks include the cash basis, tax basis, regulatory basis, contractual basis, and other bases of accounting. Auditors must understand the unique reporting requirements that apply when opining on financial statements prepared under a special-purpose framework.
+Not all financial statements are prepared in accordance with U.S. GAAP or IFRS. Many entities, particularly smaller businesses, government contractors, and regulated industries, prepare financial statements using a **special-purpose framework** (SPF). These frameworks include the cash basis, tax basis, regulatory basis, contractual basis, and other bases of accounting. Auditors must understand the unique reporting requirements that apply when opining on financial statements prepared under a special-purpose framework.
 
 This section covers the definition and types of special-purpose frameworks, the requirements under AU-C 800, factors to consider when reporting, report modifications, alert paragraphs that restrict use, and how special-purpose framework reporting compares to GAAP-basis reporting.
 
@@ -85,8 +85,8 @@ Financial statements prepared on a **regulatory basis** follow rules established
 
 | Scenario | Report Type |
 |----------|------------|
-| Regulatory basis financial statements are intended for **general use** (i.e., the framework is widely understood and provides useful information for a broad range of users) | General-use report — no restriction on use |
-| Regulatory basis financial statements are intended **only for filing with the regulatory agency** | Restricted-use report — an alert paragraph is included to restrict distribution |
+| Regulatory basis financial statements are intended for **general use** (i.e., the framework is widely understood and provides useful information for a broad range of users) | General-use report with no restriction on use |
+| Regulatory basis financial statements are intended **only for filing with the regulatory agency** | Restricted-use report; an alert paragraph is included to restrict distribution |
 
 ---
 
@@ -124,9 +124,9 @@ AU-C 800 governs audits of financial statements prepared in accordance with spec
 
 Even under a special-purpose framework, the entity must include disclosures that are:
 
-1. **Informative** — sufficient for users to understand the basis of accounting
-2. **Comparable** — describing how the special-purpose framework differs from GAAP (this is required for cash, tax, and regulatory basis frameworks)
-3. **Adequate** — addressing all matters that are essential to the fair presentation of the financial statements under the special-purpose framework
+1. **Informative**: sufficient for users to understand the basis of accounting
+2. **Comparable**: describing how the special-purpose framework differs from GAAP (this is required for cash, tax, and regulatory basis frameworks)
+3. **Adequate**: addressing all matters that are essential to the fair presentation of the financial statements under the special-purpose framework
 
 :::note
 
@@ -146,7 +146,7 @@ The auditor's report on special-purpose framework financial statements includes 
 |---------|---------|
 | **Description of the framework** | The report must describe the special-purpose framework used (e.g., "income tax basis of accounting") |
 | **Reference to the note** | The report refers to the note in the financial statements that describes the basis of accounting |
-| **Opinion wording** | The opinion states that the financial statements present fairly, in all material respects, in accordance with the **[specific special-purpose framework]** — not "in accordance with GAAP" |
+| **Opinion wording** | The opinion states that the financial statements present fairly, in all material respects, in accordance with the **[specific special-purpose framework]**, not "in accordance with GAAP" |
 | **Alert paragraph** (if applicable) | For regulatory and contractual basis frameworks, an alert paragraph restricts the use of the report |
 
 ### Financial Statement Titles
@@ -155,16 +155,16 @@ Special-purpose framework financial statements should use **titles that distingu
 
 | GAAP Title | Special-Purpose Framework Title (Examples) |
 |-----------|------------------------------------------|
-| Balance Sheet / Statement of Financial Position | Statement of Assets and Liabilities — Tax Basis |
-| Income Statement | Statement of Revenue and Expenses — Income Tax Basis |
+| Balance Sheet / Statement of Financial Position | Statement of Assets and Liabilities (Tax Basis) |
+| Income Statement | Statement of Revenue and Expenses (Income Tax Basis) |
 | Statement of Cash Flows | Statement of Cash Receipts and Disbursements |
 | Balance Sheet | Statement of Assets and Liabilities Arising from Cash Transactions |
 
-**Example:** Honey Entertainment prepares its financial statements on the income tax basis of accounting. The financial statements are titled "Statement of Assets, Liabilities, and Equity — Income Tax Basis" and "Statement of Revenue and Expenses — Income Tax Basis." The auditor's report states: "In our opinion, the financial statements present fairly, in all material respects, the assets, liabilities, and equity of Honey Entertainment as of December 31, 2025, and its revenue and expenses for the year then ended, in accordance with the income tax basis of accounting described in Note 1."
+**Example:** Honey Entertainment prepares its financial statements on the income tax basis of accounting. The financial statements are titled "Statement of Assets, Liabilities, and Equity (Income Tax Basis)" and "Statement of Revenue and Expenses (Income Tax Basis)." The auditor's report states: "In our opinion, the financial statements present fairly, in all material respects, the assets, liabilities, and equity of Honey Entertainment as of December 31, 2025, and its revenue and expenses for the year then ended, in accordance with the income tax basis of accounting described in Note 1."
 
 ---
 
-## Alert Paragraph — Restricting Use
+## Alert Paragraph: Restricting Use
 
 For certain special-purpose frameworks, the auditor must include an **alert paragraph** that restricts the use of the report:
 
@@ -204,9 +204,9 @@ Even though the report includes a restriction on use, there is **nothing the aud
 |---------|-------------------|--------------------------------|
 | **Opinion reference** | "In accordance with accounting principles generally accepted in the United States of America" | "In accordance with [specific framework]" (e.g., income tax basis, cash basis) |
 | **Financial statement titles** | Standard titles (Balance Sheet, Income Statement, etc.) | Descriptive titles indicating the framework |
-| **Disclosure of basis differences** | Not applicable — GAAP is the standard | Required note describing the framework and how it differs from GAAP |
+| **Disclosure of basis differences** | Not applicable; GAAP is the standard | Required note describing the framework and how it differs from GAAP |
 | **Alert paragraph** | Not included | Required for regulatory (restricted-use) and contractual basis |
-| **User restriction** | None — report is general use | May be restricted to specified parties |
+| **User restriction** | None; report is general use | May be restricted to specified parties |
 | **Supplementary GAAP disclosures** | Required by GAAP | Not required but may be included; if included, the auditor considers whether they are appropriate |
 
 ---
@@ -256,6 +256,6 @@ Even though the report includes a restriction on use, there is **nothing the aud
 | **Financial statement titles** | Must differ from GAAP titles to avoid confusion |
 | **Disclosure requirements** | Must describe the framework and how it differs from GAAP |
 | **Alert paragraph** | Required for regulatory (restricted-use) and contractual basis reports |
-| **Opinion wording** | "In accordance with [specific framework]" — never references GAAP |
+| **Opinion wording** | "In accordance with [specific framework]"; never references GAAP |
 | **GAAP comparison** | Special-purpose framework reports require additional description, may be restricted use, and use distinct titles |
 | **OCBOA** | Former term for special-purpose frameworks; still seen in older materials |

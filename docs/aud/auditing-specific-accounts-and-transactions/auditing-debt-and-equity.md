@@ -157,7 +157,7 @@ The payroll cycle involves the authorization, recording, and payment of employee
 
 :::warning
 
-A common payroll fraud scheme is the **ghost employee**—a fictitious employee on the payroll whose checks are diverted by a perpetrator. Proper segregation between HR (authorization) and payroll (recording) helps prevent this fraud.
+A common payroll fraud scheme is the **ghost employee**, a fictitious employee on the payroll whose checks are diverted by a perpetrator. Proper segregation between HR (authorization) and payroll (recording) helps prevent this fraud.
 
 :::
 

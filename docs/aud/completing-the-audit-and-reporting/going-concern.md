@@ -4,7 +4,7 @@ The **going concern assumption** is fundamental to the preparation of financial 
 
 :::info
 
-**Going concern** means that the entity is expected to continue operating for a reasonable period of time—it will not be forced to liquidate or cease operations. Financial statements are prepared on this basis unless management intends to liquidate or has no realistic alternative.
+**Going concern** means that the entity is expected to continue operating for a reasonable period of time; it will not be forced to liquidate or cease operations. Financial statements are prepared on this basis unless management intends to liquidate or has no realistic alternative.
 
 :::
 
@@ -18,7 +18,7 @@ The auditor's responsibility regarding going concern differs between nonissuers 
 2. **Consider** the adequacy of related financial statement disclosures
 3. **Determine the effect** on the audit report
 
-The auditor is **not required to design procedures solely** to detect going concern issues. Rather, going concern considerations arise from evidence obtained during the normal course of the audit—such as recurring losses, negative cash flows, or debt covenant violations.
+The auditor is **not required to design procedures solely** to detect going concern issues. Rather, going concern considerations arise from evidence obtained during the normal course of the audit, such as recurring losses, negative cash flows, or debt covenant violations.
 
 **Example:** While performing the audit of Polar Inc., the engagement team notices that the company has reported net losses for three consecutive years, has negative working capital, and is in technical default on its bank loan. These conditions trigger the auditor's going concern evaluation procedures.
 
@@ -48,7 +48,7 @@ The following are common indicators that may raise **substantial doubt** about a
 
 :::tip[Exam Tip]
 
-The CPA exam may list several conditions and ask you to identify which raise going concern doubt. Remember that **no single condition** automatically means there is substantial doubt—the auditor must consider conditions and events **in the aggregate** and evaluate management's plans to mitigate them.
+The CPA exam may list several conditions and ask you to identify which raise going concern doubt. Remember that **no single condition** automatically means there is substantial doubt. The auditor must consider conditions and events **in the aggregate** and evaluate management's plans to mitigate them.
 
 :::
 
@@ -125,7 +125,7 @@ The going concern emphasis-of-matter (or explanatory) paragraph should:
 
 :::tip[Exam Tip]
 
-A going concern paragraph added to an unmodified opinion does **not** change the opinion type—it is still an unmodified (clean) opinion. The going concern paragraph is informational. However, if management refuses to include adequate going concern disclosures in the financial statements, the auditor must modify the opinion (qualified or adverse) for the disclosure deficiency.
+A going concern paragraph added to an unmodified opinion does **not** change the opinion type. It is still an unmodified (clean) opinion. The going concern paragraph is informational. However, if management refuses to include adequate going concern disclosures in the financial statements, the auditor must modify the opinion (qualified or adverse) for the disclosure deficiency.
 
 :::
 

@@ -1,6 +1,6 @@
 # Using the Work of Others
 
-Auditors do not operate in isolation. Modern audits frequently rely on the work of **internal auditors**, **specialists**, **component auditors**, and **IT auditors** to address the complexity and breadth of today's business environment. However, the external auditor must carefully evaluate the competence, objectivity, and reliability of anyone whose work is used—because the ultimate responsibility for the audit opinion can never be shared or delegated.
+Auditors do not operate in isolation. Modern audits frequently rely on the work of **internal auditors**, **specialists**, **component auditors**, and **IT auditors** to address the complexity and breadth of today's business environment. However, the external auditor must carefully evaluate the competence, objectivity, and reliability of anyone whose work is used, because the ultimate responsibility for the audit opinion can never be shared or delegated.
 
 This section covers how auditors use **internal auditors** (including direct assistance), how they rely on the work of **specialists**, the role of **component auditors** in group audits, **IT auditors** as engagement team members, and the critical principle of what the external auditor **cannot share responsibility for**.
 
@@ -14,7 +14,7 @@ The use of others' work is addressed in multiple standards: **AU-C 610** (using 
 
 ## Using Internal Auditors
 
-Internal auditors are employees (or outsourced professionals) who perform assurance and consulting activities within an organization. Their work can be a valuable resource for the external auditor—but it comes with important limitations.
+Internal auditors are employees (or outsourced professionals) who perform assurance and consulting activities within an organization. Their work can be a valuable resource for the external auditor, but it comes with important limitations.
 
 ### Two Ways to Use Internal Auditors
 
@@ -27,7 +27,7 @@ The external auditor can use internal auditors' work in two distinct ways:
 
 ### Assessing Competence and Objectivity
 
-Before relying on the work of internal auditors—whether performed independently or as direct assistance—the external auditor must evaluate the internal auditors' **competence** and **objectivity**.
+Before relying on the work of internal auditors (whether performed independently or as direct assistance), the external auditor must evaluate the internal auditors' **competence** and **objectivity**.
 
 #### Competence Factors
 
@@ -38,16 +38,16 @@ Before relying on the work of internal auditors—whether performed independentl
 
 #### Objectivity Factors
 
-- Organizational status — Does the internal audit function report to an **appropriate level** within the organization (ideally to the audit committee or board)?
-- Freedom from conflicting responsibilities — Are internal auditors required to perform operational or management functions that could impair their objectivity?
-- Independence from the activities they audit — Do internal auditors audit areas for which they have previously had operational responsibility?
-- Policies and procedures supporting objectivity — Does the entity have policies promoting internal auditor independence?
+- Organizational status: Does the internal audit function report to an **appropriate level** within the organization (ideally to the audit committee or board)?
+- Freedom from conflicting responsibilities: Are internal auditors required to perform operational or management functions that could impair their objectivity?
+- Independence from the activities they audit: Do internal auditors audit areas for which they have previously had operational responsibility?
+- Policies and procedures supporting objectivity: Does the entity have policies promoting internal auditor independence?
 
 **Example:** Bear Co.'s internal audit department reports directly to the audit committee and is led by a Certified Internal Auditor (CIA) with fifteen years of experience. Internal auditors do not perform any operational duties. The external auditor evaluates these factors positively and determines that the internal audit function has both competence and objectivity sufficient to rely on their work.
 
 :::warning
 
-Even when the internal audit function has strong competence and objectivity, the external auditor must **always re-perform or independently test** areas involving significant judgments, significant risks, or matters requiring extensive professional judgment. Internal auditor work can supplement—but not replace—the external auditor's own procedures in these areas.
+Even when the internal audit function has strong competence and objectivity, the external auditor must **always re-perform or independently test** areas involving significant judgments, significant risks, or matters requiring extensive professional judgment. Internal auditor work can supplement, but not replace, the external auditor's own procedures in these areas.
 
 :::
 
@@ -87,9 +87,9 @@ A **specialist** (also called an "auditor's specialist" or "management's special
 
 Before relying on a specialist's work, the external auditor must evaluate:
 
-1. **Competence** — Does the specialist have the necessary credentials, experience, and reputation?
-2. **Capabilities** — Can the specialist perform the work required for the specific engagement?
-3. **Objectivity** — Is the specialist free from bias or conflicts of interest with the entity?
+1. **Competence**: Does the specialist have the necessary credentials, experience, and reputation?
+2. **Capabilities**: Can the specialist perform the work required for the specific engagement?
+3. **Objectivity**: Is the specialist free from bias or conflicts of interest with the entity?
 
 **Example:** Kodiak Partners is auditing Grizzly Industries, which holds significant real estate investments. The engagement team lacks expertise in commercial real estate valuation, so Kodiak Partners engages an independent appraiser to determine the fair value of the properties. The auditor evaluates the appraiser's credentials (MAI designation), reviews their methodology, and considers whether the appraiser has any financial relationship with Grizzly Industries that could impair objectivity.
 
@@ -104,7 +104,7 @@ Before relying on a specialist's work, the external auditor must evaluate:
 
 :::tip[Exam Tip]
 
-The auditor does **not** mention the specialist in the audit report when issuing an unmodified opinion—doing so might be misunderstood as a qualification of the opinion or a division of responsibility. The specialist may be referenced only in a **modified opinion** to explain the basis for the modification.
+The auditor does **not** mention the specialist in the audit report when issuing an unmodified opinion, because doing so might be misunderstood as a qualification of the opinion or a division of responsibility. The specialist may be referenced only in a **modified opinion** to explain the basis for the modification.
 
 :::
 
@@ -128,16 +128,16 @@ The group engagement partner is responsible for:
 
 Before involving a component auditor, the group engagement partner must assess:
 
-- **Professional competence** — Is the component auditor qualified and experienced?
-- **Independence** — Does the component auditor meet all applicable independence requirements?
-- **Regulatory environment** — Does the component auditor operate in a jurisdiction with adequate professional oversight?
-- **Resources** — Does the component auditor have the capacity to perform the required work?
+- **Professional competence**: Is the component auditor qualified and experienced?
+- **Independence**: Does the component auditor meet all applicable independence requirements?
+- **Regulatory environment**: Does the component auditor operate in a jurisdiction with adequate professional oversight?
+- **Resources**: Does the component auditor have the capacity to perform the required work?
 
-**Example:** Honey Entertainment has a foreign subsidiary, Polar Inc., that operates in a different country. The group engagement partner determines that a component auditor in that jurisdiction should perform audit procedures on Polar Inc.'s financial information. The group engagement partner evaluates the component auditor's firm—reviewing their regulatory standing, independence, and experience with entertainment industry clients—before providing instructions on the scope of work and the group's materiality thresholds.
+**Example:** Honey Entertainment has a foreign subsidiary, Polar Inc., that operates in a different country. The group engagement partner determines that a component auditor in that jurisdiction should perform audit procedures on Polar Inc.'s financial information. The group engagement partner evaluates the component auditor's firm (reviewing their regulatory standing, independence, and experience with entertainment industry clients) before providing instructions on the scope of work and the group's materiality thresholds.
 
 :::warning
 
-The group engagement partner must be involved in the component auditor's work at a level sufficient to obtain adequate audit evidence. The group engagement partner cannot simply accept the component auditor's report without evaluation—this would be an abdication of responsibility.
+The group engagement partner must be involved in the component auditor's work at a level sufficient to obtain adequate audit evidence. The group engagement partner cannot simply accept the component auditor's report without evaluation; this would be an abdication of responsibility.
 
 :::
 
@@ -164,13 +164,13 @@ Unlike external specialists, IT auditors who are part of the engagement team or 
 - They must comply with the firm's **independence** and **quality management** requirements
 - The engagement partner is responsible for **directing and overseeing** their work
 
-**Example:** Ursa Security processes millions of security monitoring transactions through an automated billing system. The engagement team includes an IT auditor from the firm who evaluates the general IT controls over the billing system—testing logical access controls, change management procedures, and automated calculations—to determine whether the engagement team can rely on system-generated reports as audit evidence.
+**Example:** Ursa Security processes millions of security monitoring transactions through an automated billing system. The engagement team includes an IT auditor from the firm who evaluates the general IT controls over the billing system (testing logical access controls, change management procedures, and automated calculations) to determine whether the engagement team can rely on system-generated reports as audit evidence.
 
 ---
 
 ## What the External Auditor Cannot Share Responsibility For
 
-One of the most fundamental principles in auditing is that the external auditor bears **sole responsibility** for the audit opinion expressed. This responsibility cannot be reduced, shared, or delegated—regardless of how much the auditor relies on the work of others.
+One of the most fundamental principles in auditing is that the external auditor bears **sole responsibility** for the audit opinion expressed. This responsibility cannot be reduced, shared, or delegated, regardless of how much the auditor relies on the work of others.
 
 ### Key Principles
 

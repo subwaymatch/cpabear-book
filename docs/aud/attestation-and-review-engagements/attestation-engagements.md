@@ -1,6 +1,6 @@
 # Attestation Engagements
 
-**Attestation engagements** allow CPAs to provide assurance on subject matter beyond traditional financial statement audits. The AICPA's **Statements on Standards for Attestation Engagements (SSAEs)** establish the framework for these engagements, which can cover a wide range of subject matters—from internal control effectiveness to compliance with regulations to prospective financial information. Understanding the types, assurance levels, and reporting requirements for attestation engagements is essential for the AUD exam.
+**Attestation engagements** allow CPAs to provide assurance on subject matter beyond traditional financial statement audits. The AICPA's **Statements on Standards for Attestation Engagements (SSAEs)** establish the framework for these engagements, which can cover a wide range of subject matters, from internal control effectiveness to compliance with regulations to prospective financial information. Understanding the types, assurance levels, and reporting requirements for attestation engagements is essential for the AUD exam.
 
 :::info
 
@@ -16,9 +16,9 @@ The SSAEs define three types of attestation engagements, each providing a differ
 
 | Type | Level of Assurance | Nature of Procedures | Report Expression |
 |---|---|---|---|
-| **Examination** | Reasonable (high) assurance | Extensive procedures similar to an audit—inspection, confirmation, observation, inquiry, analytical procedures | Positive opinion: "In our opinion, the subject matter is presented fairly…" |
-| **Review** | Limited (moderate) assurance | Primarily inquiry and analytical procedures | Negative assurance: "We are not aware of any material modifications that should be made…" |
-| **Agreed-upon procedures (AUP)** | No assurance (findings only) | Specific procedures agreed to by the practitioner and the engaging party | Report of factual findings only—no opinion or conclusion |
+| **Examination** | Reasonable (high) assurance | Extensive procedures similar to an audit (inspection, confirmation, observation, inquiry, analytical procedures) | Positive opinion: "In our opinion, the subject matter is presented fairly..." |
+| **Review** | Limited (moderate) assurance | Primarily inquiry and analytical procedures | Negative assurance: "We are not aware of any material modifications that should be made..." |
+| **Agreed-upon procedures (AUP)** | No assurance (findings only) | Specific procedures agreed to by the practitioner and the engaging party | Report of factual findings only, with no opinion or conclusion |
 
 :::tip[Exam Tip]
 
@@ -32,14 +32,14 @@ The assurance hierarchy is a favorite CPA exam topic. Remember: **Examination = 
 
 Every attestation engagement involves two essential components:
 
-1. **Subject matter** — The information or condition being evaluated (e.g., an entity's internal controls, a compliance assertion, or a forecast)
-2. **Suitable criteria** — The benchmarks against which the subject matter is evaluated (e.g., COSO framework for internal controls, regulatory requirements for compliance)
+1. **Subject matter**: The information or condition being evaluated (e.g., an entity's internal controls, a compliance assertion, or a forecast)
+2. **Suitable criteria**: The benchmarks against which the subject matter is evaluated (e.g., COSO framework for internal controls, regulatory requirements for compliance)
 
 The criteria must be:
-- **Objective** — Free from bias
-- **Measurable** — Capable of consistent evaluation
-- **Complete** — Cover all relevant aspects of the subject matter
-- **Relevant** — Related to the subject matter in a meaningful way
+- **Objective**: Free from bias
+- **Measurable**: Capable of consistent evaluation
+- **Complete**: Cover all relevant aspects of the subject matter
+- **Relevant**: Related to the subject matter in a meaningful way
 
 **Example:** Bear Co. engages a CPA to examine the effectiveness of its cybersecurity controls. The subject matter is Bear Co.'s cybersecurity risk management program; the criteria are the AICPA's cybersecurity reporting framework. The CPA performs an examination and issues an opinion on whether Bear Co.'s cybersecurity controls are effective based on those criteria.
 
@@ -47,11 +47,11 @@ The criteria must be:
 
 ## Examination Engagements
 
-An **examination engagement** provides the **highest level of assurance** available in an attestation engagement—**reasonable assurance**. The practitioner:
+An **examination engagement** provides the **highest level of assurance** available in an attestation engagement: **reasonable assurance**. The practitioner:
 
 - Obtains sufficient appropriate evidence through a variety of procedures
 - Forms an **opinion** on the subject matter (or on management's assertion about the subject matter)
-- Issues a report with a **positive form of expression** (e.g., "In our opinion…")
+- Issues a report with a **positive form of expression** (e.g., "In our opinion...")
 
 ### Examination Report Elements
 
@@ -73,7 +73,7 @@ The examination report includes:
 
 In an **AUP engagement**, the practitioner performs only the specific procedures that the engaging party (and, if applicable, other specified parties) has agreed to. Key characteristics:
 
-- **No opinion or conclusion** is expressed—only factual findings
+- **No opinion or conclusion** is expressed, only factual findings
 - The report is **restricted to the specified parties** who agreed to the procedures, unless the engagement is performed under AT-C 215 (which allows for general-use AUP reports)
 - The specified parties are responsible for determining whether the procedures are **sufficient for their purposes**
 - The practitioner must be **independent** (but can still perform AUP while not independent under AT-C 215 if disclosed)
@@ -105,8 +105,8 @@ Prospective financial statements are forward-looking and come in two forms:
 
 | Type | Definition | Distribution |
 |---|---|---|
-| **Forecast** | Prospective statements that present an entity's **expected** financial position, results, and cash flows based on assumptions reflecting conditions the responsible party expects to exist and the course of action it expects to take | **General use** — may be distributed to any third party |
-| **Projection** | Prospective statements that present an entity's expected financial position, results, and cash flows based on one or more **hypothetical assumptions** (i.e., "what if" scenarios) | **Limited use** — restricted to the responsible party and third parties with whom the responsible party is negotiating directly |
+| **Forecast** | Prospective statements that present an entity's **expected** financial position, results, and cash flows based on assumptions reflecting conditions the responsible party expects to exist and the course of action it expects to take | **General use**: may be distributed to any third party |
+| **Projection** | Prospective statements that present an entity's expected financial position, results, and cash flows based on one or more **hypothetical assumptions** (i.e., "what if" scenarios) | **Limited use**: restricted to the responsible party and third parties with whom the responsible party is negotiating directly |
 
 ### Engagements on Prospective Financial Statements
 
@@ -116,7 +116,7 @@ Prospective financial statements are forward-looking and come in two forms:
 
 :::warning
 
-You **cannot** perform a review engagement on prospective financial statements—only examination, compilation, or agreed-upon procedures are available. This is a frequently tested point on the CPA exam.
+You **cannot** perform a review engagement on prospective financial statements. Only examination, compilation, or agreed-upon procedures are available. This is a frequently tested point on the CPA exam.
 
 :::
 
@@ -140,7 +140,7 @@ A practitioner may perform an **examination** or a **review** of pro forma finan
 
 ## Compliance Attestation
 
-Under **AT-C 315**, a practitioner may be engaged to examine or perform agreed-upon procedures related to an entity's **compliance with specified requirements**—such as contractual agreements, regulatory requirements, or conditions of a grant.
+Under **AT-C 315**, a practitioner may be engaged to examine or perform agreed-upon procedures related to an entity's **compliance with specified requirements**, such as contractual agreements, regulatory requirements, or conditions of a grant.
 
 - An **examination** of compliance results in an opinion on whether the entity complied, in all material respects, with the specified requirements
 - An **AUP** engagement results in a report of factual findings related to compliance
@@ -157,7 +157,7 @@ Under **AT-C 315**, a practitioner may be engaged to examine or perform agreed-u
 | **Examination** | Reasonable (high) | Positive opinion | None |
 | **Review** | Limited (moderate) | Negative assurance | Not available for prospective FS or compliance |
 | **Agreed-upon procedures** | None (findings only) | Factual findings | Restricted use (unless general-use AUP) |
-| **Prospective FS — Forecast** | Exam/compilation/AUP only | Varies | No review permitted; general use |
-| **Prospective FS — Projection** | Exam/compilation/AUP only | Varies | No review permitted; limited use |
+| **Prospective FS: Forecast** | Exam/compilation/AUP only | Varies | No review permitted; general use |
+| **Prospective FS: Projection** | Exam/compilation/AUP only | Varies | No review permitted; limited use |
 | **Pro forma** | Exam or review | Varies | Historical FS must be audited or reviewed |
 | **Compliance** | Exam or AUP | Varies | No review engagement available |

@@ -1,6 +1,6 @@
 # Reporting on Internal Control
 
-For **issuers** (public companies), auditors are required by the Sarbanes-Oxley Act to perform an **integrated audit**—an audit of both the financial statements and internal control over financial reporting (ICFR). This requirement is governed by **PCAOB Auditing Standard No. 2201** (AS 2201), which sets forth the standards for planning, performing, and reporting on an audit of internal control. Understanding how the auditor evaluates and reports on internal control is a critical AUD exam topic.
+For **issuers** (public companies), auditors are required by the Sarbanes-Oxley Act to perform an **integrated audit**, which is an audit of both the financial statements and internal control over financial reporting (ICFR). This requirement is governed by **PCAOB Auditing Standard No. 2201** (AS 2201), which sets forth the standards for planning, performing, and reporting on an audit of internal control. Understanding how the auditor evaluates and reports on internal control is a critical AUD exam topic.
 
 :::info
 
@@ -28,10 +28,10 @@ In an integrated audit, the auditor must:
 
 AS 2201 requires the auditor to use a **top-down, risk-based approach** to identify the controls to test. This means:
 
-1. **Start at the financial statement level** — Understand entity-level controls (such as the control environment, risk assessment process, and monitoring activities)
-2. **Focus on significant accounts and disclosures** — Identify which accounts and disclosures present a reasonable possibility of material misstatement
-3. **Identify relevant assertions** — For each significant account, determine which assertions (existence, completeness, valuation, etc.) are most at risk
-4. **Select controls to test** — Choose controls that address the identified risks for each relevant assertion
+1. **Start at the financial statement level**: Understand entity-level controls (such as the control environment, risk assessment process, and monitoring activities)
+2. **Focus on significant accounts and disclosures**: Identify which accounts and disclosures present a reasonable possibility of material misstatement
+3. **Identify relevant assertions**: For each significant account, determine which assertions (existence, completeness, valuation, etc.) are most at risk
+4. **Select controls to test**: Choose controls that address the identified risks for each relevant assertion
 5. **Test the operating effectiveness** of selected controls
 
 :::tip[Exam Tip]
@@ -65,11 +65,11 @@ A central concept in reporting on internal control is the **classification of de
 
 :::caution
 
-The threshold for a material weakness is **reasonable possibility**—not "probable" and not "remote." This is an intermediate likelihood standard. A "reasonable possibility" exists when the chance of a material misstatement is more than remote but need not be probable.
+The threshold for a material weakness is **reasonable possibility**, not "probable" and not "remote." This is an intermediate likelihood standard. A "reasonable possibility" exists when the chance of a material misstatement is more than remote but need not be probable.
 
 :::
 
-**Example:** During the integrated audit of Polar Inc., the auditor discovers that no one reviews the bank reconciliation prepared by the accounts payable clerk—the same person who processes cash disbursements. This lack of segregation of duties over cash, combined with the absence of a compensating review control, constitutes a **material weakness** because there is a reasonable possibility that a material misstatement in cash could go undetected.
+**Example:** During the integrated audit of Polar Inc., the auditor discovers that no one reviews the bank reconciliation prepared by the accounts payable clerk, who is the same person who processes cash disbursements. This lack of segregation of duties over cash, combined with the absence of a compensating review control, constitutes a **material weakness** because there is a reasonable possibility that a material misstatement in cash could go undetected.
 
 ---
 
@@ -77,7 +77,7 @@ The threshold for a material weakness is **reasonable possibility**—not "proba
 
 ### Adverse Opinion for Material Weakness
 
-If one or more **material weaknesses** exist as of the assessment date, the auditor must issue an **adverse opinion** on internal control. There is no option to qualify the ICFR opinion when a material weakness exists—the only permissible opinion is adverse.
+If one or more **material weaknesses** exist as of the assessment date, the auditor must issue an **adverse opinion** on internal control. There is no option to qualify the ICFR opinion when a material weakness exists; the only permissible opinion is adverse.
 
 ### Unqualified Opinion on ICFR
 
@@ -107,14 +107,14 @@ Unlike the financial statement opinion (which can be qualified, adverse, or disc
 The auditor has specific communication obligations:
 
 ### To the Audit Committee
-- **Material weaknesses** — must be communicated **in writing** before the issuance of the auditor's report on ICFR
-- **Significant deficiencies** — must be communicated **in writing** to the audit committee
+- **Material weaknesses**: must be communicated **in writing** before the issuance of the auditor's report on ICFR
+- **Significant deficiencies**: must be communicated **in writing** to the audit committee
 
 ### To Management
 - All deficiencies identified during the audit (including those less severe than significant deficiencies) should be communicated to management in writing
 - Management is responsible for assessing and remediating identified deficiencies
 
-**Example:** Grizzly Industries' auditor identifies three control deficiencies in the revenue cycle, one of which individually constitutes a significant deficiency. The auditor communicates all three deficiencies to management in writing. The significant deficiency is also communicated in writing to the audit committee. Because none of the deficiencies—individually or in combination—rise to the level of a material weakness, the auditor issues an unqualified opinion on ICFR.
+**Example:** Grizzly Industries' auditor identifies three control deficiencies in the revenue cycle, one of which individually constitutes a significant deficiency. The auditor communicates all three deficiencies to management in writing. The significant deficiency is also communicated in writing to the audit committee. Because none of the deficiencies, individually or in combination, rise to the level of a material weakness, the auditor issues an unqualified opinion on ICFR.
 
 ---
 
@@ -128,10 +128,10 @@ The two opinions in an integrated audit are **related but separate**:
 
 | ICFR Opinion | Financial Statement Opinion | Is This Possible? |
 |---|---|---|
-| Unqualified | Unqualified | ✅ Yes (most common) |
-| Adverse | Unqualified | ✅ Yes (expanded substantive testing) |
-| Adverse | Qualified or Adverse | ✅ Yes (if material misstatement found) |
-| Unqualified | Adverse | ✅ Yes (rare—FS issue unrelated to controls) |
+| Unqualified | Unqualified | Yes (most common) |
+| Adverse | Unqualified | Yes (expanded substantive testing) |
+| Adverse | Qualified or Adverse | Yes (if material misstatement found) |
+| Unqualified | Adverse | Yes (rare; FS issue unrelated to controls) |
 
 :::tip[Exam Tip]
 
@@ -148,7 +148,7 @@ The auditor may present the ICFR opinion and the financial statement opinion in 
 | Format | Description |
 |---|---|
 | **Combined report** | A single document containing both the opinion on the financial statements and the opinion on ICFR. This is the more common approach. |
-| **Separate reports** | Two distinct reports—one on the financial statements and one on ICFR. Each report must reference the other. |
+| **Separate reports** | Two distinct reports, one on the financial statements and one on ICFR. Each report must reference the other. |
 
 When using separate reports, the report on ICFR must include a **reference to the separate financial statement audit report**, and the financial statement report must reference the ICFR report.
 
@@ -160,11 +160,11 @@ When using separate reports, the report on ICFR must include a **reference to th
 
 | Topic | Key Point |
 |---|---|
-| **Integrated audit** | Required for issuers—covers both financial statements and ICFR |
+| **Integrated audit** | Required for issuers; covers both financial statements and ICFR |
 | **Standard** | PCAOB AS 2201 |
 | **Approach** | Top-down, risk-based |
-| **Material weakness** | Reasonable possibility of undetected material misstatement → adverse ICFR opinion |
+| **Material weakness** | Reasonable possibility of undetected material misstatement; results in an adverse ICFR opinion |
 | **Significant deficiency** | Less severe; communicated to audit committee but no opinion modification |
 | **ICFR opinions available** | Unqualified, adverse, or disclaimer (no qualified option) |
-| **FS and ICFR opinions** | Related but separate—adverse ICFR does not mandate adverse FS opinion |
+| **FS and ICFR opinions** | Related but separate; adverse ICFR does not mandate adverse FS opinion |
 | **Report format** | Combined or separate (combined is more common) |

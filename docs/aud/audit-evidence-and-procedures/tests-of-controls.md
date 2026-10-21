@@ -1,6 +1,6 @@
 # Tests of Controls
 
-After the auditor obtains an understanding of internal control and identifies controls relevant to the audit, the next decision is whether to **test** those controls. **Tests of controls** are audit procedures performed to evaluate whether controls are operating effectively—that is, whether they are actually functioning as designed throughout the period under audit. The results of tests of controls directly affect the auditor's assessment of **control risk** and, in turn, the nature, timing, and extent of **substantive procedures**.
+After the auditor obtains an understanding of internal control and identifies controls relevant to the audit, the next decision is whether to **test** those controls. **Tests of controls** are audit procedures performed to evaluate whether controls are operating effectively, that is, whether they are actually functioning as designed throughout the period under audit. The results of tests of controls directly affect the auditor's assessment of **control risk** and, in turn, the nature, timing, and extent of **substantive procedures**.
 
 This section covers the **purpose** of tests of controls, **when** they are required versus optional, the **types** of tests of controls, how auditors **evaluate operating effectiveness**, the **timing** of tests, how results are used to **assess control risk**, the **relationship** between control risk and substantive testing, and **dual-purpose tests**.
 
@@ -51,7 +51,7 @@ Auditors use four primary procedures to test the operating effectiveness of cont
 
 ### Inquiry
 
-**Inquiry** involves asking personnel who perform or oversee the control about how it operates, how consistently it is applied, and whether exceptions have occurred. Inquiry alone is **not sufficient** to test operating effectiveness—it must be combined with other procedures.
+**Inquiry** involves asking personnel who perform or oversee the control about how it operates, how consistently it is applied, and whether exceptions have occurred. Inquiry alone is **not sufficient** to test operating effectiveness; it must be combined with other procedures.
 
 **Example:** The auditor asks Grizzly Industries' accounts payable clerk how she verifies that a vendor invoice matches the purchase order and receiving report before processing payment. The clerk describes the three-way matching process in detail. While informative, this inquiry alone does not provide evidence that the control is actually being performed.
 
@@ -92,10 +92,10 @@ Auditors use four primary procedures to test the operating effectiveness of cont
 
 After performing tests of controls, the auditor evaluates whether the controls operated effectively throughout the relevant period. Key considerations include:
 
-- **How the control was applied** — Was it applied consistently, or only sporadically?
-- **By whom** — Was the control performed by qualified, authorized individuals?
-- **Frequency** — For controls that operate on each transaction (e.g., approvals), effectiveness is evaluated for each occurrence tested. For controls that operate periodically (e.g., monthly reconciliations), the auditor tests a sufficient number of occurrences
-- **Deviations** — Were there exceptions (deviations from the prescribed control)? If so, what is the rate of deviation, and does it exceed the tolerable rate?
+- **How the control was applied**: Was it applied consistently, or only sporadically?
+- **By whom**: Was the control performed by qualified, authorized individuals?
+- **Frequency**: For controls that operate on each transaction (e.g., approvals), effectiveness is evaluated for each occurrence tested. For controls that operate periodically (e.g., monthly reconciliations), the auditor tests a sufficient number of occurrences
+- **Deviations**: Were there exceptions (deviations from the prescribed control)? If so, what is the rate of deviation, and does it exceed the tolerable rate?
 
 ### Evaluating Deviations
 
@@ -149,7 +149,7 @@ The results of tests of controls determine the auditor's **assessed level of con
 | Controls have **significant deviations** or are not operating effectively | **Maximum** (or near maximum) | Substantive procedures must be **expanded** to compensate for the lack of control reliance |
 | Controls were **not tested** (substantive approach) | **Maximum** | Full substantive procedures are required |
 
-**Example:** After testing Bear Co.'s three-way matching control over accounts payable, the auditor finds no deviations in a sample of 50 transactions. The auditor assesses control risk for the existence/occurrence assertion for accounts payable at a low level and reduces the extent of substantive testing—for example, by selecting a smaller sample for vouching of disbursements.
+**Example:** After testing Bear Co.'s three-way matching control over accounts payable, the auditor finds no deviations in a sample of 50 transactions. The auditor assesses control risk for the existence/occurrence assertion for accounts payable at a low level and reduces the extent of substantive testing, for example, by selecting a smaller sample for vouching of disbursements.
 
 ---
 

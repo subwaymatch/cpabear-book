@@ -1,6 +1,6 @@
 # Review of Interim Financial Information
 
-A review of interim financial information provides a level of assurance that is substantially less than an audit. Rather than expressing a positive opinion, the auditor (or accountant) expresses **negative assurance** — stating that nothing came to their attention that causes them to believe the interim financial information is not presented fairly in accordance with the applicable framework. Understanding the nature, scope, and reporting requirements of interim reviews is important for the AUD exam, particularly the distinction between AICPA and PCAOB standards.
+A review of interim financial information provides a level of assurance that is substantially less than an audit. Rather than expressing a positive opinion, the auditor (or accountant) expresses **negative assurance**, stating that nothing came to their attention that causes them to believe the interim financial information is not presented fairly in accordance with the applicable framework. Understanding the nature, scope, and reporting requirements of interim reviews is important for the AUD exam, particularly the distinction between AICPA and PCAOB standards.
 
 This section covers the applicable standards, the nature of limited assurance, the scope of an interim review, reporting content and modifications, the relationship between the interim review and the annual audit, SEC quarterly reporting, and key differences between AICPA and PCAOB approaches.
 
@@ -21,14 +21,14 @@ Under AU-C 930, the accountant performing the interim review must also be the **
 
 ---
 
-## Nature of a Review — Limited Assurance
+## Nature of a Review: Limited Assurance
 
 An interim review provides **limited assurance** (also called negative assurance), which is substantially less than the reasonable assurance provided by an audit.
 
 | Characteristic | Audit | Review of Interim Financial Information |
 |---------------|-------|----------------------------------------|
 | **Assurance level** | Reasonable (high but not absolute) | Limited (moderate) |
-| **Type of opinion/conclusion** | Positive opinion ("presents fairly…") | Negative assurance ("nothing came to our attention…") |
+| **Type of opinion/conclusion** | Positive opinion ("presents fairly...") | Negative assurance ("nothing came to our attention...") |
 | **Primary procedures** | Inspection, observation, confirmation, recalculation, reperformance, analytical procedures, inquiry | Primarily inquiry and analytical procedures |
 | **Testing of controls** | Yes (if relying on controls) | Generally not performed specifically for the review |
 | **Scope of work** | Extensive | Significantly narrower |
@@ -38,7 +38,7 @@ An interim review provides **limited assurance** (also called negative assurance
 
 :::tip
 
-Remember the key phrase for negative assurance: **"Nothing came to our attention"** or **"We are not aware of any material modifications."** This language signals limited assurance — the auditor is not saying the statements are fairly presented, only that nothing was found to suggest otherwise.
+Remember the key phrase for negative assurance: **"Nothing came to our attention"** or **"We are not aware of any material modifications."** This language signals limited assurance: the auditor is not saying the statements are fairly presented, only that nothing was found to suggest otherwise.
 
 :::
 
@@ -75,7 +75,7 @@ The auditor applies analytical procedures to the interim financial data, includi
 - Comparing current interim data with **budgets or forecasts**
 - Evaluating **relationships among financial statement elements** expected to conform to a predictable pattern (e.g., gross margin percentages, expense ratios)
 
-**Example:** While reviewing Bear Co.'s Q3 financial information, the auditor notices that the gross margin dropped from 42% (Q3 of the prior year) to 28%. This significant fluctuation prompts additional inquiries with management about potential causes — pricing changes, inventory write-downs, or product mix shifts.
+**Example:** While reviewing Bear Co.'s Q3 financial information, the auditor notices that the gross margin dropped from 42% (Q3 of the prior year) to 28%. This significant fluctuation prompts additional inquiries with management about potential causes, such as pricing changes, inventory write-downs, or product mix shifts.
 
 ---
 
@@ -111,10 +111,10 @@ If conditions or events raise substantial doubt about the entity's ability to co
 |---------|---------|
 | **Title** | "Report of Independent Registered Public Accounting Firm" (PCAOB) or "Independent Auditor's Review Report" (AICPA) |
 | **Addressee** | Typically the board of directors and shareholders |
-| **Identification** | Identifies the interim financial information reviewed (e.g., balance sheet, income statement, cash flows for Q1–Q3) |
+| **Identification** | Identifies the interim financial information reviewed (e.g., balance sheet, income statement, cash flows for Q1-Q3) |
 | **Management's responsibility** | States that management is responsible for the preparation and fair presentation of the interim financial information |
 | **Auditor's responsibility** | Describes the auditor's responsibility to conduct the review in accordance with applicable standards |
-| **Scope description** | States that the review consists primarily of inquiries and analytical procedures — substantially less in scope than an audit |
+| **Scope description** | States that the review consists primarily of inquiries and analytical procedures, substantially less in scope than an audit |
 | **Negative assurance conclusion** | "Based on our review, we are not aware of any material modifications that should be made to the accompanying interim financial information for it to be in conformity with [applicable framework]" |
 | **Signature** | Firm name |
 | **Date** | Date the review was completed |
@@ -129,7 +129,7 @@ If the interim financial information contains a **departure from the applicable 
 
 | Nature of Departure | Modification |
 |--------------------|-------------|
-| **Material departure — entity refuses to revise** | Modify the conclusion to describe the departure and its effects (qualified conclusion) |
+| **Material departure that the entity refuses to revise** | Modify the conclusion to describe the departure and its effects (qualified conclusion) |
 | **Material and pervasive departure** | Express an adverse conclusion or withdraw from the engagement |
 | **Scope limitation** | Modify the conclusion or withdraw from the engagement if the scope limitation is material |
 
@@ -191,7 +191,7 @@ Public companies (issuers) registered with the SEC are required to file **quarte
 
 :::caution
 
-The 10-Q financial statements are **not audited** — they are reviewed. Exam questions may test whether you understand that quarterly financial statements receive limited assurance (review) rather than reasonable assurance (audit). The annual 10-K filing contains the audited financial statements.
+The 10-Q financial statements are **not audited**; they are reviewed. Exam questions may test whether you understand that quarterly financial statements receive limited assurance (review) rather than reasonable assurance (audit). The annual 10-K filing contains the audited financial statements.
 
 :::
 
@@ -208,7 +208,7 @@ The 10-Q financial statements are **not audited** — they are reviewed. Exam qu
 | **Primary procedures** | Inquiry and analytical procedures | Inquiry and analytical procedures |
 | **Independence** | AICPA Code of Professional Conduct | SEC and PCAOB independence rules |
 | **Report title** | "Independent Auditor's Review Report" | "Report of Independent Registered Public Accounting Firm" |
-| **Negative assurance language** | "We are not aware of any material modifications…" | "We are not aware of any material modifications…" |
+| **Negative assurance language** | "We are not aware of any material modifications..." | "We are not aware of any material modifications..." |
 | **Going concern** | Consider and disclose if applicable | Consider and disclose if applicable |
 | **Filing requirements** | Not typically filed publicly | Related to SEC 10-Q filings |
 | **Communication of misstatements** | To management and those charged with governance | To management and audit committee |
@@ -222,13 +222,13 @@ While the core procedures are similar between AICPA and PCAOB interim reviews, t
 
 ---
 
-## Ursa Security Example — Putting It Together
+## Ursa Security Example: Putting It Together
 
 Ursa Security is a publicly traded company that files 10-Q reports with the SEC. During the Q2 interim review:
 
 1. The auditor performs **inquiries** of management about unusual transactions, changes in accounting policies, and litigation
 2. The auditor applies **analytical procedures**, comparing Q2 results to Q1, the prior-year Q2, and the budget
-3. The auditor notices that security service revenue is 30% higher than expected — management explains this is due to a new government contract
+3. The auditor notices that security service revenue is 30% higher than expected, and management explains this is due to a new government contract
 4. The auditor reviews the **contract terms** and finds the revenue recognition is appropriate
 5. The auditor identifies no material modifications needed
 6. The review report expresses **negative assurance**: "We are not aware of any material modifications that should be made to the interim financial information"
@@ -241,12 +241,12 @@ The Q2 10-Q is filed within 40 days, with the condensed financial statements lab
 
 | Concept | Key Points |
 |---------|-----------|
-| **Nature of interim review** | Limited assurance engagement — substantially less in scope than an audit |
+| **Nature of interim review** | Limited assurance engagement, substantially less in scope than an audit |
 | **Assurance type** | Negative assurance ("nothing came to our attention") |
 | **Primary procedures** | Inquiry and analytical procedures |
 | **AU-C 930** | AICPA standard for nonissuer interim reviews |
 | **AS 4105** | PCAOB standard for issuer interim reviews |
-| **Independence** | Required — auditor cannot issue a review report if not independent |
+| **Independence** | Required; auditor cannot issue a review report if not independent |
 | **Going concern** | Must be considered during interim reviews; may require emphasis-of-matter paragraph |
 | **Report modifications** | Material departures from the framework lead to qualified or adverse conclusion |
 | **Relationship to annual audit** | Interim review findings inform annual audit planning and risk assessment |

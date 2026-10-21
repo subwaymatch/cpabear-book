@@ -23,7 +23,7 @@ The Yellow Book establishes standards for auditing government entities and organ
 
 | Area | Yellow Book Requirement |
 |---|---|
-| **Independence** | More restrictive than AICPA standards—includes **nonaudit services** restrictions and specific threat/safeguard considerations |
+| **Independence** | More restrictive than AICPA standards; includes **nonaudit services** restrictions and specific threat/safeguard considerations |
 | **CPE** | Auditors must complete **at least 24 hours** of CPE in government auditing every 2 years (80 hours total CPE) |
 | **Peer review** | Audit organizations must have a peer review at least **every 3 years** |
 | **Reporting** | Additional reports on internal control and compliance are required beyond the standard audit report |
@@ -47,7 +47,7 @@ The Yellow Book identifies three types of engagements:
 ### 3. Performance Audits
 - Evaluate the **effectiveness, economy, and efficiency** of government programs
 - May also assess **compliance** with laws and regulations applicable to the program
-- These are unique to governmental auditing—there is no private-sector equivalent
+- These are unique to governmental auditing; there is no private-sector equivalent
 - Performance audit reports describe the **objectives, scope, methodology, findings, and recommendations**
 
 :::tip[Exam Tip]
@@ -77,7 +77,7 @@ When conducting a **financial audit** under GAGAS, the auditor must issue additi
 
 :::caution
 
-Under GAGAS, the internal control and compliance reports are required **in addition to** the standard financial statement opinion. These reports are issued even when no deficiencies or noncompliance are found—the auditor states that none were identified.
+Under GAGAS, the internal control and compliance reports are required **in addition to** the standard financial statement opinion. These reports are issued even when no deficiencies or noncompliance are found. The auditor states that none were identified.
 
 :::
 
@@ -133,13 +133,13 @@ For the CPA exam, remember the key percentages: the auditor must cover at least 
 
 For each major program, the auditor tests compliance with requirements that could have a **direct and material effect** on the program. The types of compliance requirements include:
 
-- **Activities allowed or unallowed** — Were funds used for their intended purposes?
-- **Cash management** — Were drawdowns of federal funds properly timed?
-- **Eligibility** — Were program participants properly eligible?
-- **Matching, level of effort, earmarking** — Did the entity meet cost-sharing requirements?
-- **Procurement** — Were procurement processes compliant with federal requirements?
-- **Reporting** — Were required reports filed accurately and on time?
-- **Period of performance** — Were costs incurred within the applicable period?
+- **Activities allowed or unallowed**: Were funds used for their intended purposes?
+- **Cash management**: Were drawdowns of federal funds properly timed?
+- **Eligibility**: Were program participants properly eligible?
+- **Matching, level of effort, earmarking**: Did the entity meet cost-sharing requirements?
+- **Procurement**: Were procurement processes compliant with federal requirements?
+- **Reporting**: Were required reports filed accurately and on time?
+- **Period of performance**: Were costs incurred within the applicable period?
 
 These requirements are described in the **Compliance Supplement** issued by the Office of Management and Budget (OMB), which provides guidance specific to each federal program.
 

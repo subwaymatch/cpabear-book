@@ -1,6 +1,6 @@
 # Sampling for Substantive Tests
 
-While attribute sampling addresses the **rate of deviations** for tests of controls, substantive testing focuses on the **dollar amounts** of account balances and transactions. Variables sampling—also known as estimation sampling—allows the auditor to estimate a numerical value (such as the total dollar amount of a population) or to determine whether a recorded balance is materially misstated.
+While attribute sampling addresses the **rate of deviations** for tests of controls, substantive testing focuses on the **dollar amounts** of account balances and transactions. Variables sampling (also known as estimation sampling) allows the auditor to estimate a numerical value (such as the total dollar amount of a population) or to determine whether a recorded balance is materially misstated.
 
 ---
 
@@ -34,19 +34,19 @@ Several factors influence the sample size for variables sampling. Understanding 
 
 | Factor | Relationship to Sample Size | Explanation |
 |---|---|---|
-| **Variability in the population** | Direct | Greater variability (larger standard deviation) → larger sample needed for precision |
-| **Tolerable misstatement** | Inverse | Smaller tolerable misstatement → larger sample needed |
-| **Acceptable risk of incorrect acceptance** | Inverse | Lower acceptable risk → larger sample (more evidence required) |
-| **Expected misstatement** | Direct | Higher expected misstatement → larger sample needed to distinguish between actual and expected errors |
-| **Assessed risk of material misstatement** | Direct | Higher assessed risk → larger sample needed |
+| **Variability in the population** | Direct | Greater variability (larger standard deviation) requires a larger sample for precision |
+| **Tolerable misstatement** | Inverse | Smaller tolerable misstatement requires a larger sample |
+| **Acceptable risk of incorrect acceptance** | Inverse | Lower acceptable risk requires a larger sample (more evidence required) |
+| **Expected misstatement** | Direct | Higher expected misstatement requires a larger sample to distinguish between actual and expected errors |
+| **Assessed risk of material misstatement** | Direct | Higher assessed risk requires a larger sample |
 | **Population size** | Direct (minimal effect) | Larger populations may require marginally larger samples, but the effect is usually small |
 
 :::warning
 
 The most commonly tested relationships on the CPA exam are:
-- **Tolerable misstatement ↑ → Sample size ↓** (inverse)
-- **Expected misstatement ↑ → Sample size ↑** (direct)
-- **Acceptable risk of incorrect acceptance ↑ → Sample size ↓** (inverse)
+- **Higher tolerable misstatement means a smaller sample size** (inverse)
+- **Higher expected misstatement means a larger sample size** (direct)
+- **Higher acceptable risk of incorrect acceptance means a smaller sample size** (inverse)
 
 :::
 
@@ -66,8 +66,8 @@ After the sample is tested, the auditor uses the results to calculate a **point 
 
 | Scenario | Conclusion |
 |---|---|
-| The **recorded book value** falls **within** the confidence interval | The balance is **not materially misstated** — accept the book value |
-| The **recorded book value** falls **outside** the confidence interval | The balance **may be materially misstated** — investigate further or propose an adjustment |
+| The **recorded book value** falls **within** the confidence interval | The balance is **not materially misstated**; accept the book value |
+| The **recorded book value** falls **outside** the confidence interval | The balance **may be materially misstated**; investigate further or propose an adjustment |
 
 :::info[Example]
 
@@ -156,22 +156,22 @@ PPS sampling (also known as **monetary unit sampling** or **dollar unit sampling
 
 ### Definition
 
-In PPS sampling, every **dollar** in the account balance has an equal chance of being selected. Larger items are more likely to be selected because they contain more dollars—effectively building stratification into the sample design.
+In PPS sampling, every **dollar** in the account balance has an equal chance of being selected. Larger items are more likely to be selected because they contain more dollars, effectively building stratification into the sample design.
 
 ### Advantages of PPS Sampling
 
-- **Automatically emphasizes larger items** — No separate stratification step is needed
-- **Easier to apply** — Sample size formulas are simpler than classical methods
-- **Efficient for populations with few expected misstatements** — Works well when the auditor expects a low rate of error
-- **Can begin sampling before the complete population is available** — The auditor needs only the total recorded balance, not a complete listing, to determine the sampling interval
-- **Conservative results** — Tends to produce larger projected misstatements, which is a safeguard
+- **Automatically emphasizes larger items**: No separate stratification step is needed
+- **Easier to apply**: Sample size formulas are simpler than classical methods
+- **Efficient for populations with few expected misstatements**: Works well when the auditor expects a low rate of error
+- **Can begin sampling before the complete population is available**: The auditor needs only the total recorded balance, not a complete listing, to determine the sampling interval
+- **Conservative results**: Tends to produce larger projected misstatements, which is a safeguard
 
 ### Disadvantages of PPS Sampling
 
-- **Not well-suited for understatements** — Since larger recorded amounts are more likely to be selected, items recorded at zero or understated amounts may be missed
-- **Overstated items with zero balances are excluded** — An item recorded at \$0 has zero chance of selection
-- **Can overstate misstatements when many errors exist** — If the population contains numerous misstatements, PPS may produce an overly conservative projection
-- **Requires special consideration for negative balances** — Credit balances in a debit population (or vice versa) require special handling
+- **Not well-suited for understatements**: Since larger recorded amounts are more likely to be selected, items recorded at zero or understated amounts may be missed
+- **Overstated items with zero balances are excluded**: An item recorded at \$0 has zero chance of selection
+- **Can overstate misstatements when many errors exist**: If the population contains numerous misstatements, PPS may produce an overly conservative projection
+- **Requires special consideration for negative balances**: Credit balances in a debit population (or vice versa) require special handling
 
 :::warning
 
@@ -230,7 +230,7 @@ Every 66,667th dollar is selected, and the transaction (or customer balance) tha
 
 ### Purpose
 
-**Stratification** is the process of dividing a population into subgroups (strata) that share similar characteristics—typically dollar value—before selecting a sample from each stratum. The primary purpose is to **reduce variability** within each subgroup, which improves the efficiency and precision of the sample.
+**Stratification** is the process of dividing a population into subgroups (strata) that share similar characteristics (typically dollar value) before selecting a sample from each stratum. The primary purpose is to **reduce variability** within each subgroup, which improves the efficiency and precision of the sample.
 
 ### When Stratification Is Used
 
@@ -247,7 +247,7 @@ Stratification is particularly useful when:
 | Stratum | Balance Range | Number of Accounts | Approach |
 |---|---|---|---|
 | 1 | Over \$100,000 | 25 | Test 100% (individually significant) |
-| 2 | \$10,000 – \$100,000 | 275 | Select a statistical sample |
+| 2 | \$10,000 to \$100,000 | 275 | Select a statistical sample |
 | 3 | Under \$10,000 | 2,700 | Select a smaller statistical sample |
 
 By stratifying, the auditor ensures comprehensive coverage of large balances while maintaining an efficient sample size for smaller balances.
@@ -258,7 +258,7 @@ By stratifying, the auditor ensures comprehensive coverage of large balances whi
 
 :::note
 
-PPS sampling **inherently stratifies** because each dollar has an equal probability of selection. Larger items are automatically more likely to be included in the sample. Therefore, separate stratification is generally unnecessary when using PPS sampling—it is already built into the methodology.
+PPS sampling **inherently stratifies** because each dollar has an equal probability of selection. Larger items are automatically more likely to be included in the sample. Therefore, separate stratification is generally unnecessary when using PPS sampling; it is already built into the methodology.
 
 :::
 

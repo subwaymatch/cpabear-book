@@ -1,6 +1,6 @@
 # Accounting and Review Services
 
-The **Statements on Standards for Accounting and Review Services (SSARS)**, issued by the AICPA's Accounting and Review Services Committee (ARSC), govern engagements involving the financial statements of **nonissuers** (private companies) when the CPA is not performing an audit. The three primary service levels—**preparation**, **compilation**, and **review**—each have distinct requirements for assurance, reporting, and independence. Understanding the differences among these engagement types is a core AUD exam topic.
+The **Statements on Standards for Accounting and Review Services (SSARS)**, issued by the AICPA's Accounting and Review Services Committee (ARSC), govern engagements involving the financial statements of **nonissuers** (private companies) when the CPA is not performing an audit. The three primary service levels (**preparation**, **compilation**, and **review**) each have distinct requirements for assurance, reporting, and independence. Understanding the differences among these engagement types is a core AUD exam topic.
 
 :::info
 
@@ -15,8 +15,8 @@ SSARS engagements apply only to **nonissuers**. Issuers (public companies) are s
 | Engagement | Standard | Assurance | Report Required? | Independence Required? |
 |---|---|---|---|---|
 | **Preparation** | AR-C 70 | None | No (but each page must state "no assurance is provided") | No |
-| **Compilation** | AR-C 80 | None | Yes — compilation report | No (but lack of independence must be disclosed) |
-| **Review** | AR-C 90 | Limited (moderate) | Yes — review report | Yes |
+| **Compilation** | AR-C 80 | None | Yes (compilation report) | No (but lack of independence must be disclosed) |
+| **Review** | AR-C 90 | Limited (moderate) | Yes (review report) | Yes |
 
 :::tip[Exam Tip]
 
@@ -34,7 +34,7 @@ A **preparation engagement** is the most basic service. The CPA assists manageme
 - **No assurance** is provided on the financial statements
 - **No report** is issued by the CPA
 - Each page of the financial statements must include a legend: **"No assurance is provided on these financial statements"** (or substantially similar language)
-- **Independence is not required** — the CPA can prepare financial statements even if not independent
+- **Independence is not required**: the CPA can prepare financial statements even if not independent
 - The CPA must have an **understanding with the client** (documented through an engagement letter)
 
 ### Omission of Disclosures
@@ -52,7 +52,7 @@ In a **compilation engagement**, the CPA assists management in presenting financ
 
 ### Key Characteristics
 - The CPA presents financial statements based on information **provided by management**
-- **No assurance** is provided — the CPA does not perform inquiry, analytical procedures, or other verification
+- **No assurance** is provided; the CPA does not perform inquiry, analytical procedures, or other verification
 - The CPA must have an **understanding of the industry** and knowledge of the client
 - The CPA must **read the financial statements** and consider whether they are appropriate in form and free from obvious material errors
 - An **engagement letter** is required
@@ -91,7 +91,7 @@ A **review engagement** provides **limited (moderate) assurance** that no materi
 
 ### Key Characteristics
 - Provides **limited assurance** through **inquiry and analytical procedures**
-- **Independence is required** — the CPA must be independent of the entity
+- **Independence is required**: the CPA must be independent of the entity
 - The CPA issues a **review report** containing negative assurance
 - The CPA must obtain an **engagement letter** and a **representation letter** from management
 - The CPA must have an **understanding of the industry** and the entity
@@ -134,12 +134,12 @@ The review report includes:
 | **Key procedures** | Read statements for obvious errors | Inquiry and analytical procedures |
 | **Independence** | Not required (but disclose if lacking) | Required |
 | **Representation letter** | Not required | Required |
-| **Report expression** | "We do not express an opinion or any form of assurance" | "We are not aware of any material modifications…" |
+| **Report expression** | "We do not express an opinion or any form of assurance" | "We are not aware of any material modifications..." |
 | **Level of service** | Lower | Higher |
 
 :::tip[Exam Tip]
 
-If the CPA discovers a **material misstatement** during a compilation, the CPA should request that management revise the financial statements. If management refuses, the CPA should **withdraw from the engagement**. The same principle applies to review engagements—if management refuses to correct material issues, the CPA considers the effect on the review report.
+If the CPA discovers a **material misstatement** during a compilation, the CPA should request that management revise the financial statements. If management refuses, the CPA should **withdraw from the engagement**. The same principle applies to review engagements: if management refuses to correct material issues, the CPA considers the effect on the review report.
 
 :::
 

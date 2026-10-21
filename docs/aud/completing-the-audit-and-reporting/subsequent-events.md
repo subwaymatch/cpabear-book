@@ -1,6 +1,6 @@
 # Subsequent Events
 
-The financial statements reflect conditions as of a specific date — the balance sheet date. But events don't stop happening just because the reporting period ends. Between the balance sheet date and the date the auditor's report is issued, significant events may occur that could affect the financial statements or the auditor's report. Understanding **subsequent events** — what they are, how to classify them, what the auditor must do about them, and how they affect report dating — is a heavily tested topic on the AUD exam.
+The financial statements reflect conditions as of a specific date: the balance sheet date. But events don't stop happening just because the reporting period ends. Between the balance sheet date and the date the auditor's report is issued, significant events may occur that could affect the financial statements or the auditor's report. Understanding **subsequent events** (what they are, how to classify them, what the auditor must do about them, and how they affect report dating) is a heavily tested topic on the AUD exam.
 
 ---
 
@@ -16,9 +16,9 @@ The key question is: **Did the condition exist on the balance sheet date?** If y
 
 **Examples of Type 1 events:**
 
-- A customer whose receivable was outstanding at year-end **declares bankruptcy** shortly after year-end — this confirms the receivable was likely impaired as of the balance sheet date
-- **Settlement of litigation** that was pending at year-end at an amount different from what was accrued — the lawsuit existed at year-end, so the settlement provides better evidence of the liability's value
-- **Discovery of a fraud or error** that existed in the financial statements — the misstatement existed at the balance sheet date
+- A customer whose receivable was outstanding at year-end **declares bankruptcy** shortly after year-end, which confirms the receivable was likely impaired as of the balance sheet date
+- **Settlement of litigation** that was pending at year-end at an amount different from what was accrued. The lawsuit existed at year-end, so the settlement provides better evidence of the liability's value
+- **Discovery of a fraud or error** that existed in the financial statements, because the misstatement existed at the balance sheet date
 
 **Example:** Bear Co. has a \$2 million receivable from a major customer as of December 31, 20X4. On January 20, 20X5 (before the audit report is issued), the customer files for bankruptcy. This event confirms that the receivable was likely uncollectible at year-end. Bear Co. should adjust its December 31 financial statements to record the impairment.
 
@@ -40,8 +40,8 @@ The key question is: **Did this condition arise after the balance sheet date?** 
 
 :::tip[Exam Mnemonic]
 
-**Type 1 = Adjust** (condition existed at the balance sheet date — update the numbers).
-**Type 2 = Disclose** (condition arose after the balance sheet date — add a note, but don't change the financial statements).
+**Type 1 = Adjust** (condition existed at the balance sheet date; update the numbers).
+**Type 2 = Disclose** (condition arose after the balance sheet date; add a note, but don't change the financial statements).
 
 :::
 
@@ -56,7 +56,7 @@ The key question is: **Did this condition arise after the balance sheet date?** 
 
 ---
 
-## Auditor Procedures During the Subsequent Period — The PRIME Mnemonic
+## Auditor Procedures During the Subsequent Period: The PRIME Mnemonic
 
 The auditor has a responsibility to perform specific procedures to identify subsequent events that may require adjustment or disclosure. The **subsequent period** runs from the balance sheet date through the date of the auditor's report.
 
@@ -64,11 +64,11 @@ A helpful mnemonic for remembering the key procedures is **PRIME**:
 
 | Letter | Procedure | Description |
 |--------|-----------|-------------|
-| **P** | **Procedures — read minutes** | Read the minutes of meetings of the board of directors, audit committee, and shareholders held after the balance sheet date |
-| **R** | **Review — interim statements** | Review the entity's latest available interim financial statements and compare them to the financial statements being reported on |
-| **I** | **Inquire — of management** | Inquire of management about whether any subsequent events have occurred that might affect the financial statements (e.g., unusual adjustments, new commitments, contingencies, changes in financial position) |
-| **M** | **Minutes — of legal counsel** | Obtain and review a letter from the entity's legal counsel regarding litigation, claims, and assessments (this overlaps with the attorney letter procedures) |
-| **E** | **Examine — available evidence** | Examine other available evidence, such as bank statements, loan agreements executed after year-end, or correspondence from regulatory agencies |
+| **P** | **Procedures (read minutes)** | Read the minutes of meetings of the board of directors, audit committee, and shareholders held after the balance sheet date |
+| **R** | **Review (interim statements)** | Review the entity's latest available interim financial statements and compare them to the financial statements being reported on |
+| **I** | **Inquire (of management)** | Inquire of management about whether any subsequent events have occurred that might affect the financial statements (e.g., unusual adjustments, new commitments, contingencies, changes in financial position) |
+| **M** | **Minutes (of legal counsel)** | Obtain and review a letter from the entity's legal counsel regarding litigation, claims, and assessments (this overlaps with the attorney letter procedures) |
+| **E** | **Examine (available evidence)** | Examine other available evidence, such as bank statements, loan agreements executed after year-end, or correspondence from regulatory agencies |
 
 ### Specific Inquiries of Management
 
@@ -108,7 +108,7 @@ Once the financial statements have been **issued** (released to users), the audi
 
 1. The auditor should **discuss the matter with management** and those charged with governance
 2. **Determine whether the financial statements need to be revised**
-3. If revision is needed, **inquire how management plans to address the matter** — typically by issuing revised financial statements or providing disclosure of the newly discovered facts
+3. If revision is needed, **inquire how management plans to address the matter**, typically by issuing revised financial statements or providing disclosure of the newly discovered facts
 4. If management **cooperates** and revises the financial statements, the auditor should:
    - Perform necessary audit procedures on the revised statements
    - Issue a **new auditor's report** on the revised financial statements
@@ -117,7 +117,7 @@ Once the financial statements have been **issued** (released to users), the audi
    - Notify management and those charged with governance that the auditor will take steps to prevent future reliance on the auditor's report
    - Take appropriate action (which may include notifying regulatory authorities or the entity's shareholders)
 
-**Example:** After Honey Entertainment's audited financial statements have been issued to shareholders, the auditor discovers that a significant receivable was fictitious — it was fabricated by a former employee and did not exist at the balance sheet date. The auditor discusses this with management, who agrees to restate the financial statements. The auditor performs procedures on the restated financials and issues a new report.
+**Example:** After Honey Entertainment's audited financial statements have been issued to shareholders, the auditor discovers that a significant receivable was fictitious: it was fabricated by a former employee and did not exist at the balance sheet date. The auditor discusses this with management, who agrees to restate the financial statements. The auditor performs procedures on the restated financials and issues a new report.
 
 :::warning
 
@@ -145,7 +145,7 @@ The auditor changes the report date to the **later date** for the entire report.
 
 :::tip
 
-**Dual dating is more common** because it limits the auditor's extended responsibility. Using a single later date means the auditor must extend subsequent events procedures to cover the entire period through the new date — which is more work and more risk.
+**Dual dating is more common** because it limits the auditor's extended responsibility. Using a single later date means the auditor must extend subsequent events procedures to cover the entire period through the new date, which is more work and more risk.
 
 :::
 
@@ -158,24 +158,16 @@ The auditor changes the report date to the **later date** for the entire report.
 
 ---
 
-## Actions After Report Issuance — Summary of Steps
+## Actions After Report Issuance: Summary of Steps
 
 When facts are discovered after the financial statements and auditor's report have been issued:
 
-```
-1. Discuss with management and those charged with governance
-       ↓
-2. Determine if financial statements need revision
-       ↓
-3. If YES → Management should revise and notify users
-       ↓
-4. Auditor performs procedures on revised statements
-       ↓
-5. Issue new auditor's report on revised financial statements
-       ↓
-6. If management REFUSES → Auditor takes steps to prevent
-   future reliance (notify board, regulators, etc.)
-```
+1. Discuss with management and those charged with governance.
+2. Determine if financial statements need revision.
+3. If **yes**, management should revise and notify users.
+4. Auditor performs procedures on revised statements.
+5. Issue new auditor's report on revised financial statements.
+6. If management **refuses**, the auditor takes steps to prevent future reliance (notify board, regulators, etc.).
 
 ---
 
@@ -183,8 +175,8 @@ When facts are discovered after the financial statements and auditor's report ha
 
 | Topic | Key Point |
 |-------|-----------|
-| **Type 1 events** | Condition existed at the balance sheet date → **adjust** the financial statements |
-| **Type 2 events** | Condition arose after the balance sheet date → **disclose** only |
+| **Type 1 events** | Condition existed at the balance sheet date, so **adjust** the financial statements |
+| **Type 2 events** | Condition arose after the balance sheet date, so **disclose** only |
 | **PRIME procedures** | Procedures, Review, Inquire, Minutes, Examine |
 | **Subsequent period** | Balance sheet date through the auditor's report date |
 | **After report date, before issuance** | No obligation to search, but must act if facts come to attention |

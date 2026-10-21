@@ -2,7 +2,7 @@ import { useState } from "react";
 import Layout from "@theme/Layout";
 import styles from "./blueprint.module.css";
 
-/* ────────────────────── Data ────────────────────── */
+/* Data */
 
 const sections = [
   {
@@ -23,25 +23,25 @@ const sections = [
       { label: "Testlet 5", count: 2, type: "TBS" },
     ],
     skills: {
-      remembering: "30–40%",
-      application: "30–40%",
-      analysis: "15–25%",
-      evaluation: "5–15%",
+      remembering: "30-40%",
+      application: "30-40%",
+      analysis: "15-25%",
+      evaluation: "5-15%",
     },
     areas: [
       {
         name: "Ethics, Professional Responsibilities and General Principles",
-        weight: "15–25%",
+        weight: "15-25%",
       },
       {
         name: "Assessing Risk and Developing a Planned Response",
-        weight: "25–35%",
+        weight: "25-35%",
       },
       {
         name: "Performing Further Procedures and Obtaining Evidence",
-        weight: "30–40%",
+        weight: "30-40%",
       },
-      { name: "Forming Conclusions and Reporting", weight: "10–20%" },
+      { name: "Forming Conclusions and Reporting", weight: "10-20%" },
     ],
   },
   {
@@ -62,15 +62,15 @@ const sections = [
       { label: "Testlet 5", count: 2, type: "TBS" },
     ],
     skills: {
-      remembering: "5–15%",
-      application: "45–55%",
-      analysis: "35–45%",
-      evaluation: "–",
+      remembering: "5-15%",
+      application: "45-55%",
+      analysis: "35-45%",
+      evaluation: "N/A",
     },
     areas: [
-      { name: "Financial Reporting", weight: "30–40%" },
-      { name: "Select Balance Sheet Accounts", weight: "30–40%" },
-      { name: "Select Transactions", weight: "25–35%" },
+      { name: "Financial Reporting", weight: "30-40%" },
+      { name: "Select Balance Sheet Accounts", weight: "30-40%" },
+      { name: "Select Transactions", weight: "25-35%" },
     ],
   },
   {
@@ -91,25 +91,25 @@ const sections = [
       { label: "Testlet 5", count: 3, type: "TBS" },
     ],
     skills: {
-      remembering: "25–35%",
-      application: "35–45%",
-      analysis: "25–35%",
-      evaluation: "–",
+      remembering: "25-35%",
+      application: "35-45%",
+      analysis: "25-35%",
+      evaluation: "N/A",
     },
     areas: [
       {
         name: "Ethics, Professional Responsibilities and Federal Tax Procedures",
-        weight: "10–20%",
+        weight: "10-20%",
       },
-      { name: "Business Law", weight: "15–25%" },
+      { name: "Business Law", weight: "15-25%" },
       {
         name: "Federal Taxation of Property Transactions",
-        weight: "5–15%",
+        weight: "5-15%",
       },
-      { name: "Federal Taxation of Individuals", weight: "22–32%" },
+      { name: "Federal Taxation of Individuals", weight: "22-32%" },
       {
         name: "Federal Taxation of Entities (including tax preparation)",
-        weight: "23–33%",
+        weight: "23-33%",
       },
     ],
   },
@@ -131,15 +131,15 @@ const sections = [
       { label: "Testlet 5", count: 2, type: "TBS" },
     ],
     skills: {
-      remembering: "10–20%",
-      application: "45–55%",
-      analysis: "30–40%",
-      evaluation: "–",
+      remembering: "10-20%",
+      application: "45-55%",
+      analysis: "30-40%",
+      evaluation: "N/A",
     },
     areas: [
-      { name: "Business Analysis", weight: "40–50%" },
-      { name: "Technical Accounting and Reporting", weight: "35–45%" },
-      { name: "State and Local Governments", weight: "10–20%" },
+      { name: "Business Analysis", weight: "40-50%" },
+      { name: "Technical Accounting and Reporting", weight: "35-45%" },
+      { name: "State and Local Governments", weight: "10-20%" },
     ],
   },
   {
@@ -160,20 +160,20 @@ const sections = [
       { label: "Testlet 5", count: 2, type: "TBS" },
     ],
     skills: {
-      remembering: "55–65%",
-      application: "20–30%",
-      analysis: "10–20%",
-      evaluation: "–",
+      remembering: "55-65%",
+      application: "20-30%",
+      analysis: "10-20%",
+      evaluation: "N/A",
     },
     areas: [
       {
         name: "Information Systems and Data Management",
-        weight: "35–45%",
+        weight: "35-45%",
       },
-      { name: "Security, Confidentiality and Privacy", weight: "35–45%" },
+      { name: "Security, Confidentiality and Privacy", weight: "35-45%" },
       {
         name: "Considerations for System and Organization Controls (SOC) Engagements",
-        weight: "15–25%",
+        weight: "15-25%",
       },
     ],
   },
@@ -195,21 +195,21 @@ const sections = [
       { label: "Testlet 5", count: 2, type: "TBS" },
     ],
     skills: {
-      remembering: "5–15%",
-      application: "55–65%",
-      analysis: "25–35%",
-      evaluation: "–",
+      remembering: "5-15%",
+      application: "55-65%",
+      analysis: "25-35%",
+      evaluation: "N/A",
     },
     areas: [
       {
         name: "Tax Compliance and Planning for Individuals and Personal Financial Planning",
-        weight: "30–40%",
+        weight: "30-40%",
       },
-      { name: "Entity Tax Compliance", weight: "30–40%" },
-      { name: "Entity Tax Planning", weight: "10–20%" },
+      { name: "Entity Tax Compliance", weight: "30-40%" },
+      { name: "Entity Tax Planning", weight: "10-20%" },
       {
         name: "Property Transactions (disposition of assets)",
-        weight: "10–20%",
+        weight: "10-20%",
       },
     ],
   },
@@ -262,16 +262,16 @@ const dotMap: Record<string, string> = {
   tcp: styles.dotTcp,
 };
 
-/* ── Helpers ── */
+/* Helpers */
 
-/** Parse "30–40%" to its midpoint as a number */
+/** Parse "30-40%" to its midpoint as a number */
 function midpoint(range: string): number {
-  const match = range.match(/(\d+)[–-](\d+)/);
+  const match = range.match(/(\d+)-(\d+)/);
   if (!match) return 0;
   return (parseInt(match[1]) + parseInt(match[2])) / 2;
 }
 
-/* ── Components ── */
+/* Components */
 
 function BarChart({
   rows,
@@ -315,7 +315,7 @@ function SectionDetailPanel({
             <span className={`${styles.sectionDot} ${dotMap[section.id]}`} />
             {section.code}
           </span>{" "}
-          — {section.name}
+          {section.name}
         </div>
         <div className={styles.detailPanelSubtitle}>
           {section.type} Section &middot; {section.hours} hours &middot;{" "}
@@ -397,8 +397,8 @@ function SectionDetailPanel({
             {
               label: "Evaluation",
               value:
-                section.skills.evaluation === "–"
-                  ? "0–0%"
+                section.skills.evaluation === "N/A"
+                  ? "0%"
                   : section.skills.evaluation,
             },
           ]}
@@ -408,7 +408,7 @@ function SectionDetailPanel({
   );
 }
 
-/* ── Main Page ── */
+/* Main Page */
 
 export default function Blueprint2026() {
   const [activeSection, setActiveSection] = useState("aud");
@@ -417,10 +417,10 @@ export default function Blueprint2026() {
   return (
     <Layout
       title="CPA Exam Blueprint 2026"
-      description="Comprehensive guide to the 2026 Uniform CPA Examination Blueprint — exam structure, content areas, skill allocations, and detailed section breakdowns."
+      description="Comprehensive guide to the 2026 Uniform CPA Examination Blueprint: exam structure, content areas, skill allocations, and detailed section breakdowns."
     >
       <div className={styles.page}>
-        {/* ── Hero ── */}
+        {/* Hero */}
         <div className={styles.hero}>
           <div className={styles.heroEyebrow}>
             <span>●</span> Effective January 2026
@@ -430,7 +430,7 @@ export default function Blueprint2026() {
           </h1>
           <p className={styles.heroSubtitle}>
             A comprehensive visual guide to the 2026 CPA Exam structure,
-            covering all six sections — three Core and three Discipline — with
+            covering all six sections (three Core and three Discipline) with
             content areas, skill allocations, and question breakdowns.
           </p>
           <div className={styles.heroBadges}>
@@ -451,7 +451,7 @@ export default function Blueprint2026() {
         </div>
 
         <div className={styles.container}>
-          {/* ── Overview Stats ── */}
+          {/* Overview Stats */}
           <section className={styles.section}>
             <div className={styles.sectionHeader}>
               <div className={styles.sectionEyebrow}>Overview</div>
@@ -485,7 +485,7 @@ export default function Blueprint2026() {
             </div>
           </section>
 
-          {/* ── Exam Structure Table ── */}
+          {/* Exam Structure Table */}
           <section className={styles.section}>
             <div className={styles.sectionHeader}>
               <div className={styles.sectionEyebrow}>Structure</div>
@@ -544,7 +544,7 @@ export default function Blueprint2026() {
             </div>
           </section>
 
-          {/* ── Bloom's Taxonomy Skill Levels ── */}
+          {/* Bloom's Taxonomy Skill Levels */}
           <section className={styles.section}>
             <div className={styles.sectionHeader}>
               <div className={styles.sectionEyebrow}>Skill Framework</div>
@@ -578,7 +578,7 @@ export default function Blueprint2026() {
             </div>
           </section>
 
-          {/* ── Skill Allocation by Section ── */}
+          {/* Skill Allocation by Section */}
           <section className={styles.section}>
             <div className={styles.sectionHeader}>
               <div className={styles.sectionEyebrow}>Skills</div>
@@ -639,7 +639,7 @@ export default function Blueprint2026() {
                       />
                       {s.code}
                     </span>{" "}
-                    — {s.name}
+                    {s.name}
                   </div>
                   <BarChart
                     colorClass={colorMap[s.id]}
@@ -656,8 +656,8 @@ export default function Blueprint2026() {
                       {
                         label: "Evaluation",
                         value:
-                          s.skills.evaluation === "–"
-                            ? "0–0%"
+                          s.skills.evaluation === "N/A"
+                            ? "0%"
                             : s.skills.evaluation,
                       },
                     ]}
@@ -667,7 +667,7 @@ export default function Blueprint2026() {
             </div>
           </section>
 
-          {/* ── Section Deep Dives ── */}
+          {/* Section Deep Dives */}
           <section className={styles.section}>
             <div className={styles.sectionHeader}>
               <div className={styles.sectionEyebrow}>Deep Dive</div>
@@ -696,12 +696,12 @@ export default function Blueprint2026() {
             <SectionDetailPanel section={current} />
           </section>
 
-          {/* ── Content Area Summary ── */}
+          {/* Content Area Summary */}
           <section className={styles.section}>
             <div className={styles.sectionHeader}>
               <div className={styles.sectionEyebrow}>Content Areas</div>
               <h2 className={styles.sectionTitle}>
-                Content Area Allocations — All Sections
+                Content Area Allocations Across All Sections
               </h2>
               <p className={styles.sectionDescription}>
                 A consolidated view of every content area and its weight across
@@ -735,7 +735,7 @@ export default function Blueprint2026() {
                           />
                           {s.code}
                         </span>{" "}
-                        — {s.name}
+                        {s.name}
                       </div>
                       <BarChart
                         colorClass={colorMap[s.id]}
@@ -801,7 +801,7 @@ export default function Blueprint2026() {
                           />
                           {s.code}
                         </span>{" "}
-                        — {s.name}
+                        {s.name}
                       </div>
                       <BarChart
                         colorClass={colorMap[s.id]}
@@ -843,7 +843,7 @@ export default function Blueprint2026() {
             </div>
           </section>
 
-          {/* ── Testlet Structure Table ── */}
+          {/* Testlet Structure Table */}
           <section className={styles.section}>
             <div className={styles.sectionHeader}>
               <div className={styles.sectionEyebrow}>Testlets</div>
@@ -890,7 +890,7 @@ export default function Blueprint2026() {
             </div>
           </section>
 
-          {/* ── Source attribution ── */}
+          {/* Source attribution */}
           <div className={styles.footer}>
             Source:{" "}
             <a
@@ -900,8 +900,8 @@ export default function Blueprint2026() {
               rel="noopener noreferrer"
             >
               AICPA Uniform CPA Examination Blueprints
-            </a>{" "}
-            — Approved by the Board of Examiners, Aug. 18, 2025. Effective
+            </a>
+            . Approved by the Board of Examiners, Aug. 18, 2025. Effective
             January 2026.
           </div>
         </div>

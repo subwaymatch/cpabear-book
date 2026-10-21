@@ -157,7 +157,7 @@ export default function App() {
               </h1>
 
               <p className={styles.heroSubtitle}>
-                An experimental, open-source CPA textbook built like software —
+                An experimental, open-source CPA textbook built like software:
                 versioned, reviewed, and continuously updated. Every chapter
                 tracks the latest AICPA blueprint so you study what&rsquo;s
                 actually tested.
@@ -229,7 +229,7 @@ export default function App() {
           <div id="sections" className={styles.sectionsIntro}>
             <h2 className={styles.sectionsHeading}>Six sections. One book.</h2>
             <p className={styles.sectionsSubhead}>
-              Jump into any section — each has chapters, practice questions,
+              Jump into any section. Each has chapters, practice questions,
               and study guides aligned to the AICPA blueprint.
             </p>
           </div>

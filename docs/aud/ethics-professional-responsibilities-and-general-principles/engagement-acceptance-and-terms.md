@@ -1,6 +1,6 @@
 # Engagement Acceptance and Terms
 
-Before any audit work begins, the auditor must decide whether to accept or continue an engagement and agree upon the terms with the client. This process is not merely administrative—it serves as a critical quality control safeguard that protects the public interest, the firm, and the profession. Getting engagement acceptance right reduces the risk of association with clients who lack integrity or present unmanageable risk.
+Before any audit work begins, the auditor must decide whether to accept or continue an engagement and agree upon the terms with the client. This process is not merely administrative; it serves as a critical quality control safeguard that protects the public interest, the firm, and the profession. Getting engagement acceptance right reduces the risk of association with clients who lack integrity or present unmanageable risk.
 
 This section covers the **preconditions for an audit**, the required elements of an **engagement letter**, considerations for **recurring engagements**, and the proper handling of **changes in engagement terms**.
 
@@ -20,9 +20,9 @@ Engagement acceptance is a multi-step evaluation that occurs before the auditor 
 
 Before accepting an engagement, the auditor must determine that the following **preconditions** exist:
 
-1. **Acceptable financial reporting framework** — Management must prepare the financial statements using a framework that is acceptable (e.g., U.S. GAAP, IFRS, or a special-purpose framework). Without an appropriate framework, the auditor has no basis for forming an opinion.
+1. **Acceptable financial reporting framework**: Management must prepare the financial statements using a framework that is acceptable (e.g., U.S. GAAP, IFRS, or a special-purpose framework). Without an appropriate framework, the auditor has no basis for forming an opinion.
 
-2. **Management acknowledgment of responsibilities** — Management must understand and agree to its responsibilities, which include:
+2. **Management acknowledgment of responsibilities**: Management must understand and agree to its responsibilities, which include:
    - Preparing and fairly presenting the financial statements in accordance with the applicable framework
    - Designing, implementing, and maintaining **internal controls** relevant to the preparation of financial statements that are free from material misstatement
    - Providing the auditor with **unrestricted access** to all information, personnel, and records relevant to the audit
@@ -30,7 +30,7 @@ Before accepting an engagement, the auditor must determine that the following **
 
 :::warning
 
-If management refuses to acknowledge its responsibilities—such as denying responsibility for internal controls or refusing to provide a representation letter—the auditor should **not accept the engagement**. These are non-negotiable preconditions.
+If management refuses to acknowledge its responsibilities (such as denying responsibility for internal controls or refusing to provide a representation letter), the auditor should **not accept the engagement**. These are non-negotiable preconditions.
 
 :::
 
@@ -38,10 +38,10 @@ If management refuses to acknowledge its responsibilities—such as denying resp
 
 Beyond the formal preconditions, the auditor performs additional evaluations:
 
-- **Integrity of management** — The auditor considers the honesty and ethical values of those who own, manage, or govern the entity. Red flags might include prior regulatory sanctions, known fraud, or a reputation for aggressive financial reporting.
-- **Competence to perform** — The firm must assess whether it has the staff, expertise, and resources to perform the engagement properly.
-- **Independence** — The firm must confirm that it can comply with all applicable independence requirements.
-- **Communication with predecessor auditor** — When a new auditor is being engaged to replace a predecessor, the **successor auditor is required to communicate with the predecessor auditor** before accepting the engagement (with the prospective client's permission). This helps the successor learn about matters such as disagreements with management, integrity concerns, or reasons for the change in auditors.
+- **Integrity of management**: The auditor considers the honesty and ethical values of those who own, manage, or govern the entity. Red flags might include prior regulatory sanctions, known fraud, or a reputation for aggressive financial reporting.
+- **Competence to perform**: The firm must assess whether it has the staff, expertise, and resources to perform the engagement properly.
+- **Independence**: The firm must confirm that it can comply with all applicable independence requirements.
+- **Communication with predecessor auditor**: When a new auditor is being engaged to replace a predecessor, the **successor auditor is required to communicate with the predecessor auditor** before accepting the engagement (with the prospective client's permission). This helps the successor learn about matters such as disagreements with management, integrity concerns, or reasons for the change in auditors.
 
 **Example:** Kodiak Partners is considering taking on Honey Entertainment as a new audit client. Before accepting, the engagement partner at Kodiak Partners contacts the predecessor auditor, who reveals that Honey Entertainment's management refused to adjust a material misstatement in the prior year. This information significantly influences Kodiak Partners' acceptance decision.
 
@@ -75,7 +75,7 @@ The engagement letter must include the following elements:
 
 :::note
 
-The engagement letter should be signed by **both parties**—the auditor and an appropriate representative of the entity (typically a member of management or those charged with governance). The letter is generally addressed to those charged with governance.
+The engagement letter should be signed by **both parties**: the auditor and an appropriate representative of the entity (typically a member of management or those charged with governance). The letter is generally addressed to those charged with governance.
 
 :::
 
@@ -83,7 +83,7 @@ The engagement letter should be signed by **both parties**—the auditor and an 
 
 ## Recurring Engagements
 
-When the auditor has an ongoing relationship with a client and is engaged to perform the audit year after year, the terms of the engagement may not need to be renegotiated each year—but the auditor must still evaluate whether circumstances warrant a **new or revised engagement letter**.
+When the auditor has an ongoing relationship with a client and is engaged to perform the audit year after year, the terms of the engagement may not need to be renegotiated each year, but the auditor must still evaluate whether circumstances warrant a **new or revised engagement letter**.
 
 ### When to Reassess Terms
 
@@ -109,7 +109,7 @@ For recurring engagements, the auditor is **not required** to send a new engagem
 
 ## Changes in Engagement Terms
 
-Sometimes, after an engagement has been accepted, the client requests a **change in the terms**—most commonly a request to downgrade the level of service. For example, a client might ask the auditor to change from an **audit** to a **review** or a **compilation**.
+Sometimes, after an engagement has been accepted, the client requests a **change in the terms**, most commonly a request to downgrade the level of service. For example, a client might ask the auditor to change from an **audit** to a **review** or a **compilation**.
 
 ### Evaluating a Request to Change Terms
 

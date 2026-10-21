@@ -1,6 +1,6 @@
 # Planning the Audit
 
-Audit planning is the foundation of every effective audit. A well-planned audit is more likely to identify material misstatements, allocate resources efficiently, and be completed on time. Planning is not a one-time activity—it is an **iterative process** that begins early and continues throughout the engagement as the auditor gathers new information and reassesses risk.
+Audit planning is the foundation of every effective audit. A well-planned audit is more likely to identify material misstatements, allocate resources efficiently, and be completed on time. Planning is not a one-time activity; it is an **iterative process** that begins early and continues throughout the engagement as the auditor gathers new information and reassesses risk.
 
 This section covers the distinction between the **audit strategy and audit plan**, the nature and organization of **audit documentation**, the **engagement partner's responsibilities**, the key **factors affecting planning**, and the critical concept of **financial statement assertions**.
 
@@ -20,11 +20,11 @@ Although the terms are sometimes used interchangeably in casual conversation, th
 
 The audit strategy is the **high-level roadmap** for the engagement. It sets the scope, timing, and direction of the audit and guides the development of the more detailed audit plan. Key elements include:
 
-- **Scope of the audit** — Which entities, locations, or components are covered?
-- **Reporting objectives** — What type of opinion does the auditor expect to issue?
-- **Timing** — When will fieldwork occur? What are the interim and year-end dates?
-- **Significant factors** — Known risks, industry conditions, or changes in the entity that will influence the audit approach
-- **Resource allocation** — How many staff members are needed? What level of expertise is required? Will specialists be used?
+- **Scope of the audit**: Which entities, locations, or components are covered?
+- **Reporting objectives**: What type of opinion does the auditor expect to issue?
+- **Timing**: When will fieldwork occur? What are the interim and year-end dates?
+- **Significant factors**: Known risks, industry conditions, or changes in the entity that will influence the audit approach
+- **Resource allocation**: How many staff members are needed? What level of expertise is required? Will specialists be used?
 
 ### Audit Plan
 
@@ -40,7 +40,7 @@ Think of the audit strategy as the "what and why" and the audit plan as the "how
 
 :::
 
-**Example:** The engagement partner at Bear Co.'s audit firm develops the overall audit strategy: the audit will cover all five operating segments, fieldwork will begin October 15 with interim testing and conclude in February after year-end procedures, and two staff members with industry expertise will be assigned due to the complexity of the entity's revenue arrangements. The audit plan then details the specific procedures—such as testing revenue cutoff, vouching receivables, and performing inventory observations—for each segment.
+**Example:** The engagement partner at Bear Co.'s audit firm develops the overall audit strategy: the audit will cover all five operating segments, fieldwork will begin October 15 with interim testing and conclude in February after year-end procedures, and two staff members with industry expertise will be assigned due to the complexity of the entity's revenue arrangements. The audit plan then details the specific procedures (such as testing revenue cutoff, vouching receivables, and performing inventory observations) for each segment.
 
 ---
 
@@ -76,9 +76,9 @@ Under auditing standards, documentation must be sufficient to enable an **experi
 
 ### Assembly and Retention
 
-- **Assembly deadline** — Documentation must be assembled into the final engagement file within **60 days** after the report release date (for nonissuers under AICPA standards) or **45 days** (for issuers under PCAOB standards)
-- **Retention period** — Completed engagement files must be retained for a minimum of **5 years** (AICPA) or **7 years** (PCAOB) from the report release date
-- **No deletion after assembly** — Once the file is assembled, documentation must not be deleted or discarded before the end of the retention period
+- **Assembly deadline**: Documentation must be assembled into the final engagement file within **60 days** after the report release date (for nonissuers under AICPA standards) or **45 days** (for issuers under PCAOB standards)
+- **Retention period**: Completed engagement files must be retained for a minimum of **5 years** (AICPA) or **7 years** (PCAOB) from the report release date
+- **No deletion after assembly**: Once the file is assembled, documentation must not be deleted or discarded before the end of the retention period
 
 ---
 
@@ -116,13 +116,13 @@ No two audits are the same. The auditor must tailor the planning process based o
 | **Going concern considerations** | If there are doubts about the entity's ability to continue as a going concern, additional procedures are necessary |
 | **Group audits** | Auditing a group with multiple components introduces coordination challenges |
 
-**Example:** Honey Entertainment is a small, privately held company with straightforward operations. The audit plan is relatively lean, with a small team and a compressed timeline. Contrast this with Grizzly Industries, a large multinational manufacturer with complex supply chains, foreign subsidiaries, and significant estimates—the planning process for Grizzly is far more extensive and resource-intensive.
+**Example:** Honey Entertainment is a small, privately held company with straightforward operations. The audit plan is relatively lean, with a small team and a compressed timeline. Contrast this with Grizzly Industries, a large multinational manufacturer with complex supply chains, foreign subsidiaries, and significant estimates. The planning process for Grizzly is far more extensive and resource-intensive.
 
 ---
 
 ## Financial Statement Assertions
 
-**Assertions** are the representations—explicit or implicit—made by management when presenting the financial statements. Every number, disclosure, and classification in the financial statements embodies one or more assertions. The auditor's job is to **design procedures that test these assertions** to determine whether the financial statements are free from material misstatement.
+**Assertions** are the representations, explicit or implicit, made by management when presenting the financial statements. Every number, disclosure, and classification in the financial statements embodies one or more assertions. The auditor's job is to **design procedures that test these assertions** to determine whether the financial statements are free from material misstatement.
 
 :::info
 
@@ -155,10 +155,10 @@ Assertions are categorized differently depending on whether they relate to **cla
 | **Presentation and disclosure** | Occurrence and rights and obligations, completeness, classification and understandability, accuracy and valuation |
 
 **Example:** Consider Ursa Security's accounts receivable balance at year-end:
-- **Existence** — Do the recorded receivables actually represent amounts owed to Ursa Security by real customers?
-- **Completeness** — Have all amounts owed by customers been recorded?
-- **Valuation** — Are the receivables recorded at the correct net realizable value, considering the allowance for doubtful accounts?
-- **Rights** — Does Ursa Security actually own the rights to collect these receivables, or have they been factored or assigned?
+- **Existence**: Do the recorded receivables actually represent amounts owed to Ursa Security by real customers?
+- **Completeness**: Have all amounts owed by customers been recorded?
+- **Valuation**: Are the receivables recorded at the correct net realizable value, considering the allowance for doubtful accounts?
+- **Rights**: Does Ursa Security actually own the rights to collect these receivables, or have they been factored or assigned?
 
 :::tip[Exam Tip]
 
