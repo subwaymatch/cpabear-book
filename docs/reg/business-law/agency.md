@@ -2,176 +2,152 @@
 
 ## Introduction
 
-An **agency relationship** exists when one party (the **principal**) authorizes another party (the **agent**) to act on the principal's behalf in dealings with third parties. Agency law governs everything from everyday business transactions to complex corporate dealings. Understanding how agency relationships are formed, the rights and duties they create, and how they affect third-party liability is essential for the REG exam.
+Businesses act through people. A corporation signs contracts through its officers, a partnership through its partners, and a sole proprietor through employees. **Agency** is the body of law that decides when one person's acts bind another. An agency relationship exists when one party, the **principal**, authorizes another, the **agent**, to act on the principal's behalf and subject to the principal's control. On the exam, agency questions usually ask whether an agent had authority, who is liable to a third party, or what duties the parties owe each other. This chapter takes those questions in order, then covers independent contractors and how an agency ends.
 
 ---
 
-## Formation of Agency Relationships
+## Formation of an Agency
 
-An agency can be created through:
+Most agencies are created by **agreement**, which may be oral or written. No consideration is required, so a friend who agrees to run an errand for free can be an agent. The principal must have legal capacity to enter the contracts the agent will make, but the agent need not: a minor can serve as an agent.
 
-- **Agreement**: the most common method; may be oral or written (no consideration is required to form an agency)
-- **Ratification**: a principal approves an agent's previously unauthorized act, retroactively creating an agency
-- **Estoppel**: a principal's conduct leads a third party to reasonably believe an agency exists
-- **Operation of law**: law imposes an agency in certain emergency situations (e.g., a spouse authorized to act in a medical emergency)
+An agency can also arise without an agreement:
 
-:::info
+- **Ratification:** the principal later approves an act that was unauthorized when it was done.
+- **Estoppel:** the principal's conduct leads a third party to reasonably believe an agency exists, and the principal is not allowed to deny it.
+- **Operation of law:** a court or statute recognizes an agency, for example in an emergency.
 
-An agency agreement generally does **not** need to be in writing. The major exception is the **equal dignities rule**: if the contract the agent is authorized to execute must be in writing under the Statute of Frauds, the agency authorization must also be in writing (a power of attorney).
-
-:::
+An agency agreement generally does not need to be in writing. The exception is the **equal dignities rule**: if the contract the agent will sign must be in writing under the Statute of Frauds (a sale of land, for example), the agent's authority must also be in writing. A written grant of authority is called a **power of attorney**.
 
 ---
 
 ## Types of Authority
 
-A principal's liability to third parties depends on whether the agent acted with **authority**:
+A principal is bound by an agent's contract only if the agent acted with authority. There are three kinds.
 
 ### Actual Authority
 
-**Actual authority** is the power the principal has explicitly or implicitly granted to the agent.
+**Actual authority** is the authority the principal actually gives the agent.
 
 | Type | Description | Example |
 |---|---|---|
-| **Express** | Explicitly stated in words (oral or written) | Polar Co.'s board resolution authorizing the CEO to sign contracts up to \$500,000 |
-| **Implied** | Reasonably necessary to carry out express authority, based on custom or the agent's position | The CEO's authority to hire staff needed to perform an authorized contract |
+| **Express** | Stated in words, orally or in writing | Polar Co.'s board authorizes its CEO to sign contracts up to \$500,000 |
+| **Implied** | Reasonably necessary to carry out the express authority, based on custom or the agent's position | The CEO's authority to hire the staff needed to perform an authorized contract |
 
 ### Apparent Authority
 
-**Apparent authority** arises when a principal's conduct causes a **reasonable third party** to believe the agent has authority, even if no actual authority exists. The key is the principal's actions, not the agent's claims.
+**Apparent authority** arises when the principal's words or conduct lead a **reasonable third party** to believe the agent has authority, even though the agent has none. The belief must come from the principal. An agent's own claims of authority never create apparent authority.
 
-> **Example:** Kodiak Inc. has always allowed its sales manager to negotiate and sign contracts with vendors. Kodiak Inc. secretly revokes this authority but does not notify vendors. When the sales manager signs a new contract with a vendor, Kodiak Inc. is bound because the vendor reasonably relied on the sales manager's apparent authority.
+> **Example:** Kodiak Inc. has always let its sales manager sign contracts with vendors. It secretly revokes that authority but does not tell the vendors. When the sales manager signs a new contract, Kodiak Inc. is bound, because the vendor reasonably relied on the authority Kodiak Inc. appeared to give.
 
-### Authority by Ratification
+### Ratification
 
-A principal may **ratify** an unauthorized act if:
+A principal can ratify an unauthorized act, which binds the principal as if the act had been authorized from the start. Ratification requires that:
 
-1. The agent purported to act on behalf of the principal
-2. The principal had **knowledge of the material facts**
-3. The principal ratifies the **entire transaction** (no partial ratification)
-4. The principal had **capacity** to have authorized the act originally
+1. The agent purported to act on the principal's behalf.
+2. The principal knew all the **material facts** when ratifying.
+3. The principal ratifies the **entire** transaction. Partial ratification is not allowed.
+4. The principal had **capacity** to authorize the act, both when it was done and when it was ratified.
 
-Ratification is retroactive: it relates back to the time of the original act.
-
-:::tip[Exam Tip]
-
-Ratification requires the principal to know all material facts. A principal who ratifies without full knowledge may later rescind the ratification.
-
-:::
+Ratification may be express or implied from conduct, such as accepting the benefits of the contract. A principal who ratified without knowing the material facts may rescind the ratification.
 
 ---
 
-## Agent's Duties to the Principal
+## Duties Between Principal and Agent
 
-An agent owes **fiduciary duties** to the principal:
+### The Agent's Duties
+
+An agent is a **fiduciary** of the principal and owes these duties:
 
 | Duty | Description |
 |---|---|
-| **Loyalty** | Act solely in the principal's interest; avoid self-dealing and conflicts of interest |
+| **Loyalty** | Act solely in the principal's interest; no self-dealing, secret profits, or competing with the principal |
 | **Obedience** | Follow the principal's reasonable and lawful instructions |
-| **Care (Reasonable Diligence)** | Exercise the skill and care that a reasonable person would use in similar circumstances |
-| **Accounting** | Keep accurate records of all transactions involving the principal's property or funds |
-| **Notification** | Inform the principal of all material facts relevant to the agency |
+| **Care** | Use the skill and care a reasonable agent would use in similar circumstances |
+| **Accounting** | Keep the principal's property separate and account for all money and property received |
+| **Notification** | Tell the principal all material facts that relate to the agency |
 
-> **Example:** Grizzly Partners appoints an agent to purchase commercial real estate. The agent learns that the seller is willing to accept a much lower price than what the principal authorized. The agent has a duty of **notification**, so she must inform Grizzly Partners of this material fact rather than pocketing the difference.
+> **Example:** Grizzly Partners hires an agent to buy a commercial building. The agent learns that the seller will accept far less than the price Grizzly authorized. The duty of **notification** requires the agent to tell Grizzly, and the duty of **loyalty** forbids the agent from buying at the lower price and pocketing the difference.
 
----
-
-## Principal's Duties to the Agent
+### The Principal's Duties
 
 | Duty | Description |
 |---|---|
-| **Compensation** | Pay the agent the agreed-upon compensation (or reasonable value if no amount was agreed) |
-| **Reimbursement** | Repay the agent for authorized expenses incurred on the principal's behalf |
-| **Indemnification** | Hold the agent harmless for losses suffered while acting within the scope of authorized duties |
-| **Cooperation** | Not unreasonably interfere with the agent's performance of duties |
+| **Compensation** | Pay the agreed compensation, or the reasonable value of the services if none was agreed |
+| **Reimbursement** | Repay authorized expenses the agent incurs |
+| **Indemnification** | Cover losses the agent suffers while acting within the scope of authority |
+| **Cooperation** | Not interfere unreasonably with the agent's performance |
 
 ---
 
 ## Liability to Third Parties
 
-### Types of Principals
+### Contracts
 
-A principal's liability to third parties depends on how much the third party knows about the principal's existence and identity:
+Who is liable on a contract the agent signs depends on what the third party knew about the principal.
 
-| Type | Third Party's Knowledge | Principal Liable? | Agent Liable? |
+| Type of Principal | What the Third Party Knows | Principal Liable? | Agent Liable? |
 |---|---|---|---|
-| **Disclosed** | Knows principal's identity | Yes (if agent had authority) | Generally no |
-| **Partially Disclosed** | Knows a principal exists but not the identity | Yes (if agent had authority) | Yes |
-| **Undisclosed** | Does not know a principal exists | Yes (if agent had authority) | Yes |
+| **Disclosed** | That there is a principal, and who it is | Yes, if the agent had authority | Generally no |
+| **Partially disclosed** | That there is a principal, but not who | Yes, if the agent had authority | Yes |
+| **Undisclosed** | Nothing; believes the agent acts for itself | Yes, if the agent had actual authority | Yes |
 
-:::caution
+With an undisclosed principal, the third party thought it was dealing with the agent personally, so the agent is always liable. Once the principal is discovered, the third party may choose to hold either the principal or the agent liable, but not both. An undisclosed principal cannot be bound by apparent authority, because the third party never knew there was a principal to rely on.
 
-When the principal is **undisclosed**, the agent is **always** liable on the contract because the third party believed it was dealing with the agent personally. If the principal is later discovered, the third party may elect to hold either the principal or the agent liable, but not both.
+An agent who signs a contract without any authority, actual or apparent, is personally liable to the third party for breaching the implied promise that the agent had authority.
 
-:::
+> **Example:** Honey Security authorizes an agent to lease office space without revealing that Honey Security is the real tenant. The landlord believes the agent is leasing for himself. Honey Security is an **undisclosed principal**, so both Honey Security and the agent are liable on the lease, and the landlord may elect which one to pursue.
 
-> **Example:** Honey Security authorizes an agent to lease office space without revealing that Honey Security is the actual tenant. The landlord believes the agent is leasing for himself. This is an **undisclosed principal** situation. Both Honey Security and the agent are potentially liable on the lease.
+### Torts
 
-### Tort Liability
-
-A principal is liable for the **torts** of an agent committed within the **scope of employment** under the doctrine of **respondeat superior** (vicarious liability). Key factors in determining scope of employment include:
-
-- Whether the act was authorized by the principal
-- The time, place, and purpose of the act
-- Whether the act was commonly performed by employees
-- Whether the agent was serving the principal's interests at the time
+A principal is liable for the **torts** of an **employee** committed within the **scope of employment** under the doctrine of **respondeat superior** (vicarious liability). Courts look at whether the act was the kind the employee was hired to do, whether it happened substantially within working hours and places, and whether it was meant, at least in part, to serve the employer. The employee remains personally liable too. An employer is generally not liable for an employee's crimes unless it authorized or took part in them.
 
 ---
 
-## Independent Contractors vs. Employees
+## Employees and Independent Contractors
 
-The distinction between an **employee** and an **independent contractor** is critical because respondeat superior generally applies only to employees.
+Respondeat superior generally applies only to employees, so the line between an **employee** and an **independent contractor** matters. The central question is **control**: an employer controls how an employee does the work, while a client controls only the result an independent contractor delivers.
 
 | Factor | Employee | Independent Contractor |
 |---|---|---|
-| **Control** | Principal controls **how** work is performed | Principal controls only the **result** |
-| **Tools/Equipment** | Provided by principal | Provided by contractor |
-| **Schedule** | Set by principal | Set by contractor |
-| **Payment** | Regular wages or salary | Per project or contract |
-| **Tax treatment** | Principal withholds taxes | Contractor pays own taxes (Form 1099) |
+| **Control** | Employer controls how the work is done | Client controls only the result |
+| **Tools and equipment** | Usually provided by the employer | Usually the contractor's own |
+| **Schedule** | Set by the employer | Set by the contractor |
+| **Payment** | Wages or salary | By the job or project |
 
-:::warning
+The same distinction drives employment taxes, covered in [Government Regulation of Business](./government-regulation-of-business.md#worker-classification).
 
-A principal who hires an independent contractor is generally **not** liable for the contractor's torts. Exceptions include: (1) the work is **inherently dangerous**, (2) the principal retains **control** over the manner of work, or (3) the duty is **nondelegable** by law.
+A principal is generally **not** liable for an independent contractor's torts. The exceptions are work that is **inherently dangerous**, a principal who retains **control** over how the work is done, and duties the law makes **nondelegable**.
 
-:::
-
-> **Example:** Panda Industries hires Cub Records (an independent contractor) to perform demolition work at a construction site. Demolition is considered **inherently dangerous** activity. Panda Industries may be vicariously liable for injuries caused by Cub Records' negligence despite Cub Records' independent contractor status.
+> **Example:** Panda Industries hires Cub Demolition, an independent contractor, to knock down an old warehouse. Demolition is **inherently dangerous**, so Panda Industries may be liable for injuries caused by Cub Demolition's negligence despite its independent contractor status.
 
 ---
 
-## Termination of Agency
+## Termination of an Agency
 
-### By Act of the Parties
+### By the Parties
 
-- **Mutual agreement** of the principal and agent
-- **Revocation** by the principal (but the principal may be liable for breach of contract)
-- **Renunciation** by the agent (the agent may be liable for breach)
-- **Expiration** of the agreed-upon term or accomplishment of the agency's purpose
+An agency ends by **mutual agreement**, by **expiration** of its term, or when its **purpose is accomplished**. Either party may also end it unilaterally: the principal by **revocation**, or the agent by **renunciation**. A party always has the **power** to end the agency this way, but may not have the **right**. If ending it breaches a contract, the party who ended it owes damages.
 
 ### By Operation of Law
 
-- **Death** of either the principal or agent
-- **Incapacity** of either party
-- **Bankruptcy** of the principal (or of the agent if it affects the agency)
-- **Illegality**: the subject matter of the agency becomes illegal
-- **Destruction** of the subject matter
+An agency ends automatically on the **death** or **incapacity** of either party, the **bankruptcy** of the principal, the **destruction** of the subject matter, or a change in law that makes the agency **illegal**.
 
-:::info
+An **agency coupled with an interest**, in which the agent holds a property interest in the subject matter (for example, a lender authorized to sell the collateral), is the exception. The principal cannot revoke it, and it survives the principal's death or incapacity.
 
-An **agency coupled with an interest** (where the agent has a property interest in the subject matter) is **irrevocable**: it cannot be terminated by the principal's revocation, death, or incapacity.
+### Notice to Third Parties
+
+When an agency is ended by act of the parties, the agent's **apparent authority** continues until third parties learn of the termination. To cut it off, the principal must give:
+
+- **Actual notice** to third parties who dealt with the agent
+- **Constructive notice**, such as a newspaper notice, to third parties who knew of the agency but had not dealt with the agent
+
+When an agency ends by operation of law, such as the principal's death, authority ends immediately and no notice is required.
+
+:::tip[Exam Tip]
+
+When a fact pattern says the principal "revoked" an agent's authority, check whether the third party was told. Without notice, apparent authority survives and the principal is still bound.
 
 :::
-
-### Notice Requirements Upon Termination
-
-When an agency is terminated by act of the parties, the principal must give:
-
-- **Actual notice** to third parties who have previously dealt with the agent
-- **Constructive notice** (e.g., publication) to third parties who knew of the agency but had not dealt with the agent
-
-Failure to give proper notice allows the agent to continue binding the principal through apparent authority.
 
 ---
 
@@ -179,12 +155,13 @@ Failure to give proper notice allows the agent to continue binding the principal
 
 | Topic | Key Rule |
 |---|---|
-| Formation | Agreement, ratification, estoppel, operation of law; generally no writing required |
-| Actual authority | Express or implied; granted by the principal |
-| Apparent authority | Created by the principal's conduct toward third parties |
+| Formation | Agreement, ratification, estoppel, or operation of law; no consideration or writing required, except under the equal dignities rule |
+| Actual authority | Express or implied; given by the principal |
+| Apparent authority | Created by the principal's conduct toward a reasonable third party |
+| Ratification | Principal with full knowledge approves the entire transaction |
 | Agent's duties | Loyalty, obedience, care, accounting, notification |
-| Disclosed principal | Principal liable; agent generally not liable |
-| Undisclosed principal | Both principal and agent liable |
-| Respondeat superior | Principal liable for employee torts within scope of employment |
-| Independent contractors | Generally no vicarious liability (exceptions for inherently dangerous work) |
-| Termination | By parties or by operation of law; coupled with an interest is irrevocable |
+| Disclosed principal | Principal liable; agent generally not |
+| Undisclosed principal | Principal and agent both liable; third party elects one |
+| Respondeat superior | Employer liable for employee torts within the scope of employment |
+| Independent contractors | Generally no vicarious liability, except for inherently dangerous or nondelegable work |
+| Termination | By the parties (notice needed) or by operation of law (immediate); an agency coupled with an interest is irrevocable |

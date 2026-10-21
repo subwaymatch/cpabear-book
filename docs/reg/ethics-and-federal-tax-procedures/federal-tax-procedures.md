@@ -1,200 +1,52 @@
 # Federal Tax Procedures
 
-## Tax Return Preparers
+## Introduction
 
-### 1. What is a "Tax Return Preparer"?
+The federal income tax runs on **self-assessment**: taxpayers compute their own tax, file a return, and pay what they owe. The IRS then checks a small share of returns through examinations. When a taxpayer disagrees with the result, the dispute moves through IRS Appeals and, if necessary, the courts. This chapter follows that path, then covers the rules that decide how exposed a return is along the way: how long the IRS has to act, when a position must be disclosed, what substantiation is enough, which penalties apply, and how much weight each source of tax law carries. It ends with the reporting rules for foreign bank accounts.
 
-Under Internal Revenue Code (IRC) Section 7701(a)(36), a **Tax Return Preparer (TRP)** is defined as any person who prepares for compensation, or who employs one or more persons to prepare for compensation, all or a substantial portion of any tax return or claim for refund.
-
-**Key elements of this definition for the exam:**
-
-- **Compensation is mandatory:** If someone prepares a tax return for a friend or family member for free, they are *not* legally considered a TRP.
-
-- **Substantial portion:** A professional does not have to prepare the entire return to be classified as a TRP. If they prepare a schedule or provide tax advice on an entry that represents a "substantial portion" of the overall tax liability, they fall under the TRP rules and are subject to preparer penalties.
-
-- **Exclusions:** A person is strictly *not* a TRP if they only provide mechanical or clerical assistance (like typing, formatting, or basic data entry), if they prepare a return for their regular, continuous employer, or if they prepare a return while acting as a fiduciary (like an executor of an estate).
+The rules for tax return preparers and the penalties imposed on them are covered in [Ethics and Responsibilities in Tax Practice](./ethics-and-responsibilities-in-tax-practice.md).
 
 ---
 
-### 2. Can More Than One Preparer Work on a Tax Return?
+## The Audit Process
 
-Absolutely. In professional accounting environments, it is standard practice. A single Form 1040 might be handled by a junior associate doing initial entry, a senior accountant handling complex flow-through schedules (like K-1s), and a tax manager reviewing the final product.
+### How Returns Are Selected
 
-Because multiple professionals often work on a single return, the IRS divides TRPs into two distinct categories:
+The IRS uses several methods to choose returns for examination:
 
-- **Signing Preparers:** The individual who formally signs the return.
-
-- **Nonsigning Preparers:** Individuals who prepare all or a substantial portion of the return for compensation but do not sign it. It is critical to note that nonsigning preparers are still considered TRPs and are subject to IRS penalties if they take unreasonable tax positions.
-
----
-
-### 3. Multiple Preparers: Who Signs the Form 1040?
-
-When multiple preparers collaborate on a return, the IRS has a strict rule dictating whose signature must go on the final document. Under Treasury Regulations, the **signing tax return preparer** must be the individual TRP who has the **primary responsibility for the overall substantive accuracy** of the preparation of the return.
-
-This signature requirement does not simply default to the person who spent the most billable hours on the file, nor does it automatically go to the highest-ranking partner in the firm. It goes to the specific individual who reviews the collective work, makes the final technical decisions, ensures all tax laws were appropriately applied, and takes ultimate responsibility for the return's correctness before it is presented to the taxpayer.
-
----
-
-### 4. Representation Rights
-
-Not all tax return preparers have the same ability to represent taxpayers before the IRS.
-
-| **Category** | **Who Qualifies** | **Rights** |
-| --- | --- | --- |
-| **Unlimited Representation** | CPAs, attorneys, enrolled agents (EAs) | May represent any taxpayer before the IRS on any matter, including audits, appeals, and collections |
-| **Limited Representation** | Annual Filing Season Program (AFSP) participants | May represent only taxpayers whose returns they signed and prepared, and only before revenue agents and customer service representatives |
-
-:::tip
-
-For the CPA exam, remember that CPAs, attorneys, and EAs have **unlimited** representation rights. All other preparers (including AFSP participants) have limited or no representation rights.
-
-:::
-
----
-
-### Application in Practice: The Tax Firm Scenario
-
-> **Example: CPA Bear Tax Services**
-> CPA Bear Tax Services, a firm located in Champaign, Illinois, is preparing a complex Form 1040 for a new client.
->
-> - **Alex** (an intern) enters all the W-2s, 1099s, and basic demographic data into the firm's tax software.
->
-> - **Taylor** (a senior tax associate) prepares the Schedule C for the client's sole proprietorship and calculates the MACRS depreciation for several newly acquired assets, which constitutes a substantial portion of the return.
->
-> - **Morgan** (the tax manager) performs a comprehensive review of Alex and Taylor's work, verifies that all tax positions meet the "substantial authority" threshold, resolves a complex question regarding a passive activity loss, and finalizes the return for filing.
-
-**Analysis:**
-
-- **Is Alex a Tax Return Preparer?** No. Alex is merely providing mechanical and data entry assistance.
-
-- **Is Taylor a Tax Return Preparer?** Yes. Even though Taylor doesn't sign the return, Taylor prepared a substantial portion of it for compensation. Taylor is classified as a **nonsigning tax return preparer**.
-
-- **Who signs the Form 1040?** Morgan. As the manager who conducted the final review, resolved the technical issues, and finalized the tax positions, Morgan holds the primary responsibility for the overall substantive accuracy of the return. Morgan is the **signing tax return preparer**.
-
----
-
-## Tax Return Preparer Compliance Penalties
-
-When a preparer takes an improper position on a return, the IRS imposes graduated penalties under IRC §6694. The severity depends on the preparer's level of culpability.
-
-### IRC §6694(a): Unreasonable Position
-
-A penalty applies when a preparer takes a position on a return that the IRS later determines was **unreasonable**.
-
-| **Scenario** | **Standard Required** |
-| --- | --- |
-| **Undisclosed position** | Must meet the **substantial authority** standard |
-| **Disclosed position** (Form 8275 or 8275-R filed) | Must have a **reasonable basis** |
-| **Tax shelter or reportable transaction** | Must meet the **more-likely-than-not** standard (>50% likelihood of being sustained) |
-
-**Penalty amount:** The **greater of \$1,000 or 50%** of the income derived (or to be derived) by the preparer with respect to the return.
-
-> **Example:** Marcus, a CPA at Bear Co., prepares a return and claims an aggressive deduction without disclosing it. The position does not meet the substantial authority standard. Marcus earned a \$3,000 fee for preparing the return. His penalty is the greater of \$1,000 or 50% × \$3,000 = **\$1,500**.
-
-### IRC §6694(b): Willful or Reckless Conduct
-
-This more severe penalty applies when a preparer's conduct rises to the level of **willful understatement** of tax liability or **reckless or intentional disregard** of rules and regulations.
-
-**Penalty amount:** The **greater of \$5,000 or 75%** of the income derived (or to be derived) by the preparer with respect to the return.
-
-> **Example:** Sarah, a preparer at Polar Co., intentionally ignores Treasury Regulations and fabricates deductions to reduce a client's tax liability. She earned a \$10,000 fee. Her penalty is the greater of \$5,000 or 75% × \$10,000 = **\$7,500**.
-
-:::caution
-
-The §6694(b) penalty is reduced by any §6694(a) penalty already assessed on the same return. The two penalties are not stacked on top of each other.
-
-:::
-
----
-
-## Tax Return Preparer Penalties for Unethical Behavior
-
-Beyond taking unreasonable positions, preparers face separate penalties for failing to meet basic compliance and ethical obligations.
-
-| **Violation** | **Penalty** | **IRC Section** |
-| --- | --- | --- |
-| Failure to provide a copy of the return to the taxpayer | \$50 per failure (max \$27,000/year) | §6695(a) |
-| Failure to sign the return | \$50 per failure (max \$27,000/year) | §6695(b) |
-| Failure to furnish a Preparer Tax Identification Number (PTIN) | \$50 per failure (max \$27,000/year) | §6695(c) |
-| Failure to retain copies or a list of returns prepared (must keep for **3 years**) | \$50 per failure (max \$27,000/year) | §6695(d) |
-| Failure to file correct information returns | \$50 per failure (max \$27,000/year) | §6695(e) |
-| Endorsing or negotiating a client's refund check | \$530 per check | §6695(f) |
-| Failure to exercise due diligence for credits (EITC, CTC, AOTC, HOH status) | \$560 per failure per return | §6695(g) |
-
-:::info
-
-A preparer must **never** endorse or cash a client's refund check. Even depositing the check into a client trust account is a violation. The only permissible arrangement is having the refund direct-deposited into the client's own bank account.
-
-:::
-
-> **Example:** Jamie, a preparer at Kodiak Inc., files 600 returns during the tax season. On 10 of those returns, Jamie fails to include the PTIN. The total penalty is 10 × \$50 = **\$500**.
-
----
-
-## Other Preparer Penalties
-
-### Aiding and Abetting Understatement (IRC §6701)
-
-Any person (not limited to TRPs) who aids or assists in preparing any portion of a return, claim, or other document knowing it will be used in connection with a **material understatement of tax** is subject to a penalty of:
-
-- **\$1,000** per return for individual taxpayer returns
-- **\$10,000** per return for corporate taxpayer returns
-
-### Wrongful Disclosure or Use of Tax Return Information (IRC §6713 / §7216)
-
-Tax return preparers have a duty to protect client information. Unauthorized disclosure or use of tax return information triggers:
-
-- **Civil penalty (§6713):** \$250 per disclosure (max \$10,000/year)
-- **Criminal penalty (§7216):** Up to \$1,000 fine and/or up to 1 year imprisonment per violation
-
-> **Example:** Derek, a tax preparer at Honey Security, shares a client's financial data with a mortgage broker without the client's written consent. Derek faces a \$250 civil penalty under §6713 and potential criminal prosecution under §7216.
-
----
-
-## Audit Process
-
-### The Self-Assessment System
-
-The U.S. tax system operates on a **voluntary compliance (self-assessment)** model. Taxpayers are responsible for calculating their own tax liability, filing returns, and paying the amount due. The IRS then has the authority to examine (audit) those returns to verify accuracy.
-
-### Methods of Selecting Returns for Audit
-
-The IRS uses several methods to select returns for examination:
-
-| **Method** | **Description** |
-| --- | --- |
-| **Discriminant Information Function (DIF) scoring** | Statistical models that assign a score based on the likelihood that a return contains errors; higher scores are more likely to be selected |
-| **Random selection** | Returns chosen at random for the National Research Program to maintain compliance data |
-| **Prior audit history** | Taxpayers with a history of noncompliance are more likely to be reexamined |
-| **Information matching** | IRS computers match W-2s, 1099s, and K-1s against filed returns to identify discrepancies |
-| **Related examinations** | A return may be selected because a related party (e.g., business partner, employer) is already under audit |
-| **Excessive deductions** | Deductions that are disproportionately large relative to income may trigger scrutiny |
+| Method | Description |
+|---|---|
+| **Discriminant Information Function (DIF) scoring** | Statistical models score each return on the likelihood of errors; higher scores are more likely to be selected |
+| **Information matching** | IRS systems match W-2s, 1099s, and K-1s against filed returns to find discrepancies |
+| **Related examinations** | A return may be selected because a related party, such as a business partner, is already under audit |
+| **Random selection** | The National Research Program examines randomly chosen returns to measure compliance |
 
 ### Types of Audits
 
-| **Audit Type** | **Description** | **Complexity** |
-| --- | --- | --- |
-| **Correspondence audit** | Conducted entirely by mail; the IRS sends a letter requesting documentation for a specific item (e.g., charitable contributions) | Simplest |
-| **Office audit** | The taxpayer is asked to appear at a local IRS office with records; typically covers a few specific issues | Moderate |
-| **Field audit** | An IRS revenue agent visits the taxpayer's home or place of business to conduct a comprehensive examination of books and records | Most complex |
+| Audit Type | Description |
+|---|---|
+| **Correspondence audit** | Conducted entirely by mail; the IRS asks for documents supporting a specific item, such as charitable contributions |
+| **Office audit** | The taxpayer brings records to a local IRS office; usually limited to a few issues |
+| **Field audit** | A revenue agent examines the books and records at the taxpayer's home or place of business; the most comprehensive type |
 
-> **Example:** Panda Industries, a mid-size manufacturer, reported unusually high cost of goods sold relative to revenue. The IRS DIF score flagged the return, and a revenue agent was assigned to conduct a **field audit** at Panda's corporate offices.
+> **Example:** Panda Industries, a mid-size manufacturer, reported unusually high cost of goods sold relative to revenue. Its DIF score flagged the return, and a revenue agent was assigned to conduct a **field audit** at Panda's offices.
+
+### Math Error Notices
+
+Not every IRS adjustment is an audit. For a **mathematical or clerical error**, the IRS may assess the corrected tax directly and send a math error notice. The taxpayer then has 60 days to ask the IRS to abate the assessment, and if the taxpayer does, the IRS must follow the normal deficiency procedures described below. OBBBA expanded this authority: a missing or incorrect Social Security number on a claim for the new senior, tips, and overtime deductions, the child tax credit, or the education credits is treated as a math error. A 2025 law, P.L. 119-39, also requires each math error notice to explain the error in plain language and state the abatement deadline; it is expected to be eligible for testing starting July 1, 2027.
 
 ---
 
-## Appeals Process
+## Appeals
 
-If a taxpayer disagrees with the results of an IRS audit, a structured appeals process is available before the matter reaches a court.
-
-### Step-by-Step Appeals Timeline
+A taxpayer who disagrees with an examiner's proposed changes can contest them within the IRS before going to court.
 
 ```mermaid
 flowchart TD
-    A[Audit Completed, IRS Proposes Adjustments] --> B[30-Day Letter Issued]
+    A["Audit Completed, IRS Proposes Adjustments"] --> B[30-Day Letter Issued]
     B --> C{Taxpayer Responds Within 30 Days?}
     C -->|Yes, Requests Appeal| D[IRS Appeals Conference]
-    C -->|No Response or Disagreement| E[90-Day Letter Issued: Notice of Deficiency]
+    C -->|No Response or Disagreement| E["90-Day Letter Issued: Notice of Deficiency"]
     D --> F{Settlement Reached?}
     F -->|Yes| G[Case Closed, Taxpayer Pays Agreed Amount]
     F -->|No| E
@@ -203,186 +55,181 @@ flowchart TD
     H -->|No, 90 Days Expire| J[Assessment Becomes Final, IRS Collects]
 ```
 
-### Key Documents
+The **30-day letter** tells the taxpayer about the proposed changes and the right to appeal. It is an administrative step, not a statutory notice.
 
-- **30-Day Letter:** A preliminary letter informing the taxpayer of proposed changes and their right to appeal within 30 days. This is *not* a statutory notice; it is an administrative courtesy.
+An **Appeals conference** is an informal meeting with an Appeals Officer. The Independent Office of Appeals is separate from the examination function and may settle a case based on the **hazards of litigation**, meaning its estimate of how likely the IRS is to win in court.
 
-- **IRS Appeals Conference:** An informal meeting with an IRS Appeals Officer. The Appeals Office is independent from the examination division and has authority to settle cases based on the **hazards of litigation** (the likelihood that the IRS would win in court).
-
-- **90-Day Letter (Notice of Deficiency):** A **statutory notice** that is legally required before the IRS can assess additional tax. The taxpayer has exactly **90 days** (150 days if the taxpayer is outside the United States) to file a petition with the U.S. Tax Court.
-
-:::warning
-
-If the taxpayer does **not** petition the Tax Court within the 90-day window, the proposed deficiency becomes final and the IRS may proceed with collection. This deadline is strictly enforced and cannot be extended.
-
-:::
+The **90-day letter**, or **statutory notice of deficiency**, is legally required before the IRS can assess additional income tax. The taxpayer has **90 days** (150 days if the notice is addressed to a taxpayer outside the United States) to file a petition with the U.S. Tax Court. If no petition is filed, the deficiency is assessed and the IRS may begin collection. The IRS cannot extend this period.
 
 ---
 
-## Federal Judicial Process
-
-When a tax dispute cannot be resolved administratively, the taxpayer may litigate in one of three trial-level courts. Each court has different rules regarding prepayment of tax and jury availability.
+## The Federal Judicial Process
 
 ### Trial Courts
 
-| **Court** | **Prepayment Required?** | **Jury Trial Available?** | **Key Features** |
-| --- | --- | --- | --- |
-| **U.S. Tax Court** | **No** (taxpayer does not pay the deficiency before trial) | **No** | Specialized tax court; judges are tax experts; most common forum for tax disputes; petition must be filed within 90 days of the notice of deficiency |
-| **U.S. District Court** | **Yes** (taxpayer must pay the full amount and then sue for a refund) | **Yes** (the only forum where a jury trial is available) | General jurisdiction; applies the law of the circuit in which it sits |
-| **U.S. Court of Federal Claims** | **Yes** (taxpayer must pay and sue for a refund) | **No** | Sits in Washington, D.C.; applies Federal Circuit law; no jury |
+A taxpayer who litigates chooses among three trial courts. The choice turns on whether the taxpayer can pay first and whether a jury is wanted.
+
+| Court | Pay the Tax First? | Jury Trial? | Key Features |
+|---|---|---|---|
+| **U.S. Tax Court** | **No** | **No** | Judges specialize in tax; the most common forum; petition due within 90 days of the notice of deficiency |
+| **U.S. District Court** | **Yes** (pay, then sue for a refund) | **Yes**, the only forum with a jury | General jurisdiction; follows the law of its circuit |
+| **U.S. Court of Federal Claims** | **Yes** (pay, then sue for a refund) | **No** | Sits in Washington, D.C.; appeals go to the Federal Circuit |
+
+For disputes of **\$50,000 or less** for a year, the taxpayer may elect the Tax Court's **small tax case** procedure. It is informal, but its decisions cannot be appealed.
 
 :::tip[Exam Tip]
 
-The **U.S. Tax Court** is the only forum where the taxpayer does **not** have to pay the disputed tax before going to trial. If a question asks "where can a taxpayer litigate without prepaying?" the answer is always the Tax Court.
+The **Tax Court** is the only forum where the taxpayer does **not** have to pay the disputed tax before trial. If a question asks where a taxpayer can litigate without prepaying, the answer is the Tax Court.
 
 :::
 
 ### Appellate Courts
 
-- **U.S. Courts of Appeals (Circuit Courts):** Appeals from the Tax Court and District Courts go to the circuit court for the taxpayer's geographic area. Appeals from the Court of Federal Claims go to the U.S. Court of Appeals for the Federal Circuit.
+Appeals from the Tax Court and the district courts go to the **U.S. Court of Appeals** for the taxpayer's circuit. Appeals from the Court of Federal Claims go to the Court of Appeals for the **Federal Circuit**. The **U.S. Supreme Court** hears tax cases only when it grants a **writ of certiorari**, which it does for very few tax cases each term.
 
-- **U.S. Supreme Court:** The final court of appeal. The Supreme Court hears tax cases only on a discretionary basis through a **writ of certiorari** and accepts very few tax cases each term.
-
-> **Example:** Priya, a sole proprietor, receives a notice of deficiency for \$45,000. She disagrees with the IRS but cannot afford to pay upfront. Priya's best option is to petition the **U.S. Tax Court** within 90 days, where she can litigate without prepaying the disputed amount.
+> **Example:** Priya, a sole proprietor, receives a notice of deficiency for \$45,000. She disagrees but cannot afford to pay first. Her best option is to petition the **Tax Court** within 90 days.
 
 ---
 
-## Taxpayer Penalties
+## Statute of Limitations
 
-The IRS imposes a variety of penalties on taxpayers who fail to comply with filing, payment, and accuracy requirements.
+The IRS has a limited time to assess additional tax, and the taxpayer has a limited time to claim a refund.
 
-### Filing and Payment Penalties
+| Situation | Assessment Period |
+|---|---|
+| **General rule** | **3 years** after the later of the return's due date or the date it was filed (a return filed early is treated as filed on the due date) |
+| **Omission of more than 25% of gross income** | **6 years** |
+| **Fraudulent return, or no return filed** | **No limit** |
+| **Agreement to extend** | The taxpayer and the IRS may agree in writing to extend the period |
 
-| **Penalty** | **Rate** | **Details** |
-| --- | --- | --- |
-| **Failure-to-file (FTF)** | **5% per month** (or partial month) of the tax due, up to a **maximum of 25%** | Minimum penalty for returns filed more than 60 days late: the **lesser of \$510 or 100% of tax due** |
-| **Failure-to-pay (FTP)** | **0.5% per month** (or partial month) of the tax due, up to a **maximum of 25%** | Rate increases to 1% per month if the IRS issues a notice of intent to levy and the taxpayer does not pay within 10 days |
+Once tax is assessed, the IRS generally has **10 years** to collect it.
 
-:::info
+A **refund claim** must be filed within **3 years** of the date the return was filed or **2 years** of the date the tax was paid, whichever is later. For bad debts and worthless securities, the period is 7 years.
 
-When both FTF and FTP penalties apply in the same month, the FTF penalty is **reduced** by the FTP penalty. So the combined rate is still 5% per month (4.5% FTF + 0.5% FTP), not 5.5%.
+> **Example:** Bear Co. files its calendar-year 2025 return on March 1, 2026, before its April 15, 2026 due date. The return is treated as filed on April 15, 2026, so the IRS generally has until April 15, 2029 to assess more tax. If Bear Co. left out more than 25% of its gross income, the period runs to April 15, 2032.
 
-:::
-
-### Accuracy-Related Penalties (IRC §6662)
-
-All accuracy-related penalties under §6662 are assessed at a rate of **20% of the underpayment** attributable to the violation.
-
-| **Penalty** | **Trigger** |
-| --- | --- |
-| **Negligence or disregard** | Failure to make a reasonable attempt to comply with tax law; failure to keep adequate books and records |
-| **Substantial understatement** | Understatement exceeds the **greater of 10% of the correct tax or \$5,000** (individuals); for C corporations, the greater of 10% or \$10,000 |
-| **Substantial valuation misstatement** | The value or adjusted basis of any property claimed on the return is **150% or more** of the correct amount; penalty increases to **40%** for a **gross valuation misstatement** (200% or more) |
-
-### Fraud Penalties
-
-| **Type** | **Penalty** | **Burden of Proof** |
-| --- | --- | --- |
-| **Civil fraud (§6663)** | **75%** of the underpayment attributable to fraud | IRS must prove fraud by **clear and convincing evidence** |
-| **Criminal fraud (§7201, Tax Evasion)** | Up to **\$250,000 fine** and/or **5 years imprisonment** (individuals) | Government must prove guilt **beyond a reasonable doubt** |
-
-:::caution
-
-The civil fraud penalty and the accuracy-related penalty under §6662 **cannot** be imposed on the same portion of an underpayment. If fraud is established, §6663 supersedes §6662 for that amount.
-
-:::
-
-### Other Taxpayer Penalties
-
-| **Penalty** | **Description** |
-| --- | --- |
-| **Estimated tax underpayment** | Applies when a taxpayer fails to make adequate quarterly estimated tax payments; the penalty is calculated as interest on the underpaid amount for the period of underpayment |
-| **Erroneous claim for refund or credit** | 20% of the excessive amount claimed, if the excessive amount exceeds the greater of \$5,000 or the correct refund/credit |
-| **EITC denial** | If the IRS denies the Earned Income Tax Credit due to reckless or intentional disregard, the taxpayer cannot claim the EITC for **2 years**; if due to fraud, the ban is **10 years** |
-
-> **Example:** Bear Co. files its corporate tax return 3 months late. The tax due is \$100,000. The failure-to-file penalty is 5% × 3 months = 15% × \$100,000 = **\$15,000**. The failure-to-pay penalty is 0.5% × 3 months = 1.5% × \$100,000 = **\$1,500**. However, because both penalties apply simultaneously, the FTF is reduced by the FTP amount each month, so the combined total is (4.5% + 0.5%) × 3 months × \$100,000 = **\$15,000** total (not \$16,500).
+When a federally declared disaster strikes, the IRS may **postpone** filing and payment deadlines for affected taxpayers, and it may now do the same for qualifying disasters declared by a state.
 
 ---
 
 ## Substantiation and Disclosure
 
-### Levels of Authority for Tax Positions
+### Standards for Return Positions
 
-When a taxpayer or preparer takes a position on a return, the IRS evaluates the position against a hierarchy of legal standards. The higher the standard met, the more protection the taxpayer has against penalties.
+Each position on a return can be measured against a ladder of confidence. The percentages are rules of thumb used to compare the standards; they do not appear in the regulations. The higher the rung a position reaches, the more protection it gives against penalties, for the taxpayer and for the preparer.
 
-| **Standard** | **Approximate Confidence Level** | **Description** |
-| --- | --- | --- |
-| **Not frivolous** | ~10% | The position is not patently improper; this is the lowest possible standard and offers virtually no penalty protection |
-| **Reasonable basis** | ~20% | The position is arguable but relatively unlikely to be sustained; meets the threshold for a **disclosed** position under §6694(a) |
-| **Substantial authority** | ~40% | The position is supported by significant legal authority; this is the standard for an **undisclosed** position under §6694(a) and also the threshold for avoiding the substantial understatement penalty for individuals |
-| **More-likely-than-not** | >50% | The position has a greater than 50% chance of being sustained on its merits; required for tax shelters and reportable transactions |
+| Standard | Rough Likelihood of Being Sustained | What It Does |
+|---|---|---|
+| **Not frivolous** | Above 5%-10% | The floor. A frivolous position cannot be saved by disclosure and can draw a separate penalty |
+| **Reasonable basis** | About 20% | Enough for a **disclosed** position: the taxpayer avoids the substantial understatement penalty and the preparer avoids the §6694(a) penalty |
+| **Substantial authority** | About 40% | Needed for an **undisclosed** position, by both taxpayer and preparer |
+| **More likely than not** | More than 50% | Needed for **tax shelters** and **reportable transactions**, where disclosure does not help |
 
-### Penalty Avoidance Through Disclosure
+Substantial authority is an **objective** test. It asks whether the weight of the authorities supporting the position is substantial compared with the weight of those against it. Only certain sources count, as described under [authoritative hierarchy](#authoritative-hierarchy) below.
 
-A taxpayer can reduce the standard required to avoid the substantial understatement penalty by adequately disclosing the uncertain position:
+### Disclosing a Position
 
-- **Without disclosure:** The position must meet the **substantial authority** standard
-- **With disclosure** (using Form 8275 or 8275-R): The position need only meet the **reasonable basis** standard
+A taxpayer discloses an uncertain position on **Form 8275**, or on **Form 8275-R** if the position is contrary to a Treasury regulation. Disclosure lowers the standard the position must meet from substantial authority to reasonable basis. It does **not** protect a position with no reasonable basis, a tax shelter position, or an item the taxpayer failed to substantiate or keep records for.
 
-:::tip
+### Substantiation
 
-Disclosure does **not** protect a taxpayer who has no reasonable basis at all, and it does **not** protect against the negligence penalty if the taxpayer has no reasonable basis for the position.
+The taxpayer bears the burden of proving the income, deductions, and credits on a return, so adequate records are essential. Some items carry specific requirements:
 
-:::
+| Item | What Is Required |
+|---|---|
+| **Travel, gifts, and listed property** (§274(d)) | Adequate records or sufficient evidence of the amount, the time and place, the business purpose, and (for gifts) the business relationship. Estimates are not allowed |
+| **Receipts for business expenses** | Documentary evidence, such as a receipt, for any lodging cost and for any other expense of **\$75 or more** |
+| **Cash or property contributions of \$250 or more** | A contemporaneous written acknowledgment from the charity |
+| **Noncash contributions over \$5,000** | A qualified appraisal, in most cases |
 
-### Reasonable Cause / Good Faith Defense
+> **Example:** Kodiak Partners deducts \$9,000 of client travel. Its employees kept hotel bills and airline receipts but no record of whom they met or why. Because §274(d) requires the business purpose to be documented, the substantiation is not sufficient, and the deduction can be disallowed even though the trips really happened.
 
-Even if a penalty would otherwise apply, the taxpayer may avoid accuracy-related penalties (but **not** the fraud penalty) by demonstrating that:
+### Reasonable Cause and Good Faith
 
-1. There was **reasonable cause** for the underpayment, **and**
-2. The taxpayer acted in **good faith**
-
-Factors the IRS considers include the taxpayer's efforts to determine the correct tax, the complexity of the issue, and whether the taxpayer relied on professional advice from a competent tax advisor.
-
----
-
-## Substantial Authority
-
-The substantial authority standard is an objective standard. The taxpayer does not need to disclose a position if there is substantial authority for it. The following are considered authorities for purposes of determining whether substantial authority exists:
-
-- Internal Revenue Code (IRC) and prior tax statutes
-- Treasury Regulations (proposed, temporary, and final)
-- Revenue Rulings and Revenue Procedures
-- Tax treaties and their official explanations
-- Court cases (Supreme Court, Courts of Appeals, Tax Court, District Courts, Court of Federal Claims)
-- Congressional intent as reflected in committee reports
-- Joint Committee on Taxation explanations (the "Blue Book")
-- Private letter rulings (to the taxpayer only)
-- IRS Notices and Announcements
-- General Explanations of Tax Legislation
-
-:::note
-
-Conclusions reached in treatises, legal periodicals, and tax opinions from law firms are **not** considered substantial authority. A CPA firm's internal position paper, no matter how well-reasoned, does not constitute substantial authority.
-
-:::
+A taxpayer can avoid the accuracy-related penalty (but **not** the fraud penalty) by showing **reasonable cause** for the underpayment **and** that the taxpayer acted in **good faith**. The IRS looks at the taxpayer's efforts to find the correct tax, the complexity of the issue, and whether the taxpayer reasonably relied on advice from a competent tax professional.
 
 ---
 
-## Reporting Requirements for Foreign Bank Accounts
+## Taxpayer Penalties
 
-### FBAR (FinCEN Report 114)
+### Filing and Payment Penalties
 
-U.S. persons (citizens, residents, and domestic entities) who have a financial interest in or signature authority over **foreign financial accounts** must file a Report of Foreign Bank and Financial Accounts (FBAR) if the **aggregate value of all foreign accounts exceeds \$10,000 at any time during the calendar year**.
+| Penalty | Rate | Details |
+|---|---|---|
+| **Failure to file** | **5% per month** or partial month of the unpaid tax, up to **25%** | A return more than 60 days late owes at least the lesser of an indexed minimum (\$525 for returns due in 2026) or 100% of the tax due |
+| **Failure to pay** | **0.5% per month** or partial month of the unpaid tax, up to **25%** | Rises to 1% per month after the IRS issues a notice of intent to levy; drops to 0.25% for an individual paying under an installment agreement on a timely filed return |
 
-**Key rules:**
+When both penalties apply in the same month, the failure-to-file penalty is reduced by the failure-to-pay penalty. The combined rate for that month is therefore 5%, not 5.5%.
 
-- The FBAR is filed with the **Financial Crimes Enforcement Network (FinCEN)**, not the IRS, though the IRS administers enforcement
-- The filing deadline is **April 15** with an automatic extension to **October 15**
-- The \$10,000 threshold is based on the **aggregate** of all foreign accounts, not each individual account
+> **Example:** Bear Co. files its return 3 months late without paying the \$100,000 tax due. The failure-to-pay penalty is 0.5% × 3 × \$100,000 = \$1,500. The failure-to-file penalty is (5% - 0.5%) × 3 × \$100,000 = \$13,500. The total is **\$15,000**, not \$16,500.
 
-### Penalties for FBAR Violations
+### Accuracy-Related Penalties (§6662)
 
-| **Violation** | **Penalty** |
-| --- | --- |
-| **Non-willful failure to file** | Up to **\$10,000** per violation |
-| **Willful failure to file** | The **greater of \$100,000 or 50% of the account balance** at the time of the violation |
-| **Criminal penalties** | Up to **\$250,000 fine** and/or **5 years imprisonment** |
+The accuracy-related penalty is **20% of the underpayment** attributable to any of the following:
 
-> **Example:** Priya, a U.S. citizen, maintains two bank accounts in India, one with a peak balance of \$7,000 and another with a peak balance of \$5,000. Although neither account individually exceeds \$10,000, the **aggregate** peak value is \$12,000. Priya must file an FBAR.
+| Ground | Trigger |
+|---|---|
+| **Negligence or disregard of rules** | Failure to make a reasonable attempt to comply, including failure to keep adequate books and records |
+| **Substantial understatement** | For individuals, the understatement exceeds the greater of 10% of the correct tax or \$5,000. For most C corporations, it exceeds the lesser of (1) 10% of the correct tax (or \$10,000, if greater) or (2) \$10,000,000 |
+| **Substantial valuation misstatement** | The value or adjusted basis claimed for property is **150% or more** of the correct amount. The rate doubles to **40%** for a **gross** valuation misstatement (200% or more) |
+
+### Fraud
+
+| Type | Penalty | Burden of Proof |
+|---|---|---|
+| **Civil fraud (§6663)** | **75%** of the underpayment attributable to fraud | The IRS must prove fraud by **clear and convincing evidence** |
+| **Criminal tax evasion (§7201)** | A felony punishable by fines and up to **5 years** in prison | The government must prove guilt **beyond a reasonable doubt** |
+
+The civil fraud penalty and the accuracy-related penalty cannot apply to the same part of an underpayment. Once fraud is established for an amount, §6663 replaces §6662 for that amount.
+
+### Other Taxpayer Penalties
+
+| Penalty | Description |
+|---|---|
+| **Underpaid estimated tax** | Computed like interest on each underpaid installment for the period it was underpaid |
+| **Excessive refund claim (§6676)** | **20%** of the excessive amount of a refund or credit claim, unless the taxpayer shows reasonable cause. OBBBA extended it to employment tax refund claims such as Employee Retention Credit claims |
+| **Frivolous return (§6702)** | **\$5,000** for a return or submission based on a frivolous position or meant to delay tax administration |
+| **Disallowed credits after reckless or fraudulent claims** | A taxpayer whose earned income credit, child tax credit, or American Opportunity credit is denied for reckless or intentional disregard of the rules may not claim it for **2 years**; for fraud, the ban is **10 years** |
+
+---
+
+## Authoritative Hierarchy
+
+Not every source of tax law carries the same weight. **Primary authority** comes from the three branches of government; **secondary authority**, such as treatises, journal articles, and tax services, explains the law but is not law.
+
+| Source | Examples | Weight |
+|---|---|---|
+| **Statutory** | The Constitution, the Internal Revenue Code, tax treaties | Highest. The Code controls over any regulation or ruling that conflicts with it |
+| **Administrative** | Treasury regulations (final, temporary, proposed), revenue rulings, revenue procedures, private letter rulings, notices | Final regulations carry the most weight, then temporary regulations. Proposed regulations do not bind anyone. Revenue rulings and procedures bind the IRS and can be relied on by any taxpayer with the same facts. A private letter ruling binds the IRS only for the taxpayer who requested it |
+| **Judicial** | Supreme Court, Courts of Appeals, Tax Court, district courts, Court of Federal Claims | A Supreme Court decision binds every court. A Court of Appeals decision binds the trial courts in its circuit, and the Tax Court follows the law of the circuit to which a case would be appealed |
+
+How courts treat Treasury regulations changed in 2024. In ***Loper Bright Enterprises v. Raimondo***, the Supreme Court overruled the *Chevron* doctrine. Courts no longer defer to an agency's reasonable reading of an ambiguous statute; they decide for themselves what the statute means. Regulations remain highly persuasive, and courts still respect them where Congress expressly gave Treasury the authority to fill in details. But do not describe *Chevron* deference as current law.
+
+For the **substantial authority** test, the regulations list what counts: the Code and other statutes; proposed, temporary, and final regulations; revenue rulings and revenue procedures; tax treaties and Treasury's explanations of them; court cases; congressional committee reports and the Joint Committee on Taxation's General Explanation (the "Blue Book"); private letter rulings and technical advice memoranda; and IRS notices, announcements, and press releases. Conclusions in treatises, journal articles, legal opinions, and opinions of other tax professionals are **not** authority, no matter how well reasoned.
+
+---
+
+## Reporting Foreign Accounts (FBAR)
+
+A U.S. person (a citizen, resident, or domestic entity) with a financial interest in, or signature authority over, **foreign financial accounts** must file a **Report of Foreign Bank and Financial Accounts (FBAR)**, FinCEN Form 114, if the **aggregate** value of those accounts exceeds **\$10,000** at any time during the calendar year.
+
+- The FBAR is filed electronically with the **Financial Crimes Enforcement Network (FinCEN)**, not with the tax return, although the IRS enforces it.
+- It is due **April 15**, with an automatic extension to **October 15**.
+- The \$10,000 threshold applies to the total of all foreign accounts, not to each account.
+- Under FinCEN's current position, a foreign account that holds **only virtual currency** is not reportable on the FBAR. FinCEN has said it intends to propose changing this.
+
+> **Example:** Priya, a U.S. citizen, has two bank accounts in India with peak balances of \$7,000 and \$5,000. Neither account alone exceeds \$10,000, but the aggregate of \$12,000 does, so Priya must file an FBAR.
+
+| Violation | Penalty |
+|---|---|
+| **Non-willful** | Up to \$10,000 per violation (adjusted for inflation). The Supreme Court held in 2023 that the penalty applies per report, not per account |
+| **Willful** | The greater of \$100,000 (adjusted for inflation) or 50% of the account balance at the time of the violation |
+| **Criminal** | Fines and imprisonment for willful violations |
+
+The FBAR is separate from **Form 8938**, which certain taxpayers attach to their income tax return to report specified foreign financial assets above higher thresholds. A taxpayer may have to file both.
 
 :::warning
 
-FBAR requirements are frequently tested on the CPA exam. Remember that the threshold is based on the **aggregate** of all foreign accounts, and the filing is with **FinCEN**, not the IRS.
+The FBAR is frequently tested. Remember two points: the threshold is based on the **aggregate** of all foreign accounts, and the report goes to **FinCEN**, not to the IRS with the return.
 
 :::

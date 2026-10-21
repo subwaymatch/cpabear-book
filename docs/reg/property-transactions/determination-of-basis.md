@@ -1,245 +1,194 @@
 # Determination of Basis
 
-The **basis** of an asset is the starting point for calculating gain or loss on its sale or disposition. How basis is determined depends on how the taxpayer acquired the property: by purchase, gift, inheritance, or conversion.
+**Basis** is the taxpayer's investment in an asset for tax purposes. It is the starting point for depreciation while the taxpayer owns the asset and for gain or loss when the taxpayer sells it, so an error in basis carries through every later computation. How basis is determined depends on how the taxpayer acquired the property. This chapter starts with property bought for cash, then covers property received as a gift or inheritance, stock acquired in a wash sale, property converted from personal to business use, and intangible assets such as start-up costs. Along the way it explains the related rule for when a cost must be capitalized into basis rather than deducted.
 
 ---
 
 ## Purchased Property
 
-When a taxpayer purchases property, the basis is simply the **cost** of the property. Cost includes the purchase price plus all amounts paid to acquire the asset and make it ready for its intended use.
+### Cost Basis
 
-**Cost basis includes:**
-- Purchase price
+When a taxpayer buys property, basis is its **cost**: the purchase price plus the amounts paid to acquire the asset and get it ready for use. Cost includes:
+
+- The purchase price, including any debt the buyer assumes or takes the property subject to
 - Sales tax
-- Freight and installation charges
-- Legal fees related to acquisition
-- Recording fees and transfer taxes
+- Freight and installation
+- Legal fees, recording fees, and transfer taxes connected with the purchase
+
+When a taxpayer buys land and a building together, the cost must be **allocated** between them in proportion to their fair market values, because the building can be depreciated and the land cannot.
 
 ### Adjusted Basis
 
-Over time, the original cost basis is modified to produce the **adjusted basis**:
+Over time, basis changes. Capital improvements increase it, and depreciation, amortization, casualty losses, and Section 179 expensing decrease it:
 
-$$\text{Adjusted Basis} = \text{Cost} - \text{Accumulated Depreciation} + \text{Capital Improvements}$$
+$$\text{Adjusted Basis} = \text{Cost} + \text{Capital Improvements} - \text{Depreciation and Other Recoveries}$$
 
-> **Example:** Bear Co. purchases a delivery truck for \$40,000 and pays \$2,000 for sales tax and delivery charges. The initial cost basis is \$42,000. After 3 years, Bear Co. has claimed \$18,000 in MACRS depreciation. The adjusted basis is \$42,000 - \$18,000 = **\$24,000**.
+> **Example:** Bear Co. buys a delivery truck for \$40,000 and pays \$2,000 of sales tax and delivery charges. Its cost basis is \$42,000. After 3 years, Bear Co. has claimed \$18,000 of MACRS depreciation, so its adjusted basis is \$42,000 - \$18,000 = **\$24,000**.
 
 ### Holding Period
 
-For purchased property, the holding period begins the **day after the acquisition date**. If Jamie buys stock on March 1, the holding period begins on March 2.
+For purchased property, the holding period starts the **day after** the acquisition date and includes the day of sale. If Jamie buys stock on March 1, her holding period begins on March 2. The holding period decides whether a later gain or loss is short-term or long-term, as explained in [Gains and Losses](./gains-and-losses.md#holding-period).
+
+### Digital Assets
+
+The same cost rule applies to **digital assets** such as cryptocurrency, stablecoins, and NFTs. Basis is generally the amount paid in U.S. dollars, plus fees and commissions. A digital asset received as **income**, such as payment for services or a staking reward, takes a basis equal to the fair market value that was included in income.
+
+When a taxpayer holds units of the same asset bought at different prices, basis is tracked **wallet by wallet** (or account by account) starting January 1, 2025. The taxpayer identifies which units were sold by **specific identification**; otherwise, the units held longest in that wallet or account are treated as sold first (**FIFO**).
+
+> **Example:** Priya buys 2 units of a cryptocurrency in her exchange account for \$30,000, paying a \$150 fee. Her basis is \$30,150, or \$15,075 per unit. If she later receives a third unit as a staking reward when it is worth \$16,000, she includes \$16,000 in income and takes a \$16,000 basis in that unit.
+
+---
+
+## Capitalize or Expense?
+
+A cost that creates or improves an asset is **capitalized**: added to basis and recovered through depreciation or amortization. A cost that only keeps property in its ordinary operating condition is **expensed**: deducted in the current year.
+
+| Capitalize | Expense |
+|---|---|
+| Improvements that better, restore, or adapt property to a new use | Routine repairs and maintenance |
+| Additions to property | Supplies used up during the year |
+| A new roof, HVAC system, or structural change | Painting, patching, and cleaning |
+
+Two simplifying rules let taxpayers deduct small items:
+
+- **Materials and supplies** may be deducted if an item costs **\$200 or less** or has a useful life of **12 months or less**.
+- Under the **de minimis safe harbor**, an annual election, a taxpayer may deduct items costing up to **\$5,000** per item or invoice if it has an **applicable financial statement** (such as audited financial statements), or up to **\$2,500** if it does not. The taxpayer must also expense these items on its books. A taxpayer with an applicable financial statement must have a written accounting policy to that effect at the start of the year.
+
+> **Example:** Polar Co. has audited financial statements and buys 20 laptops at \$2,400 each. Each laptop costs less than \$5,000, so Polar Co. may elect to deduct the full \$48,000 under the de minimis safe harbor instead of depreciating the laptops.
 
 ---
 
 ## Gifted Property
 
-When property is received as a gift, the basis rules depend on whether the donee later sells at a **gain** or a **loss**.
+Property received as a gift generally keeps the donor's basis, but a special rule prevents a donor from passing a built-in **loss** to the donee.
 
-### Gain Basis (Carryover Basis)
+### When FMV Is at Least the Donor's Basis
 
-If the donee sells the gifted property for **more** than the donor's adjusted basis, the donee uses the **donor's adjusted basis** (carryover basis). The donor's holding period also **tacks on**, meaning it carries over to the donee.
+If the property's **fair market value (FMV)** at the date of the gift equals or exceeds the donor's adjusted basis, the donee simply takes the **donor's adjusted basis** (a **carryover basis**). The donor's holding period **tacks on** to the donee's. If the donor paid gift tax, the donee's basis is increased by the part of the gift tax attributable to the property's appreciation while the donor held it.
 
-### Loss Basis (FMV Rule)
+### When FMV Is Below the Donor's Basis: The Dual Basis Rule
 
-If the **FMV at the date of the gift** is **less than** the donor's adjusted basis, a special dual-basis rule applies:
+If the FMV at the date of the gift is **less than** the donor's adjusted basis, the donee's basis depends on the price at which the donee later sells:
 
-- If the donee sells at a **gain** (above donor's basis): use the **donor's basis**
-- If the donee sells at a **loss** (below FMV at the date of the gift): use the **FMV at the date of the gift**
-- If the donee sells for an amount **between** the donor's basis and the FMV at the gift date: **no gain and no loss** is recognized (the "limbo" zone)
+| Donee Sells For | Basis Used | Result |
+|---|---|---|
+| **More than** the donor's basis | Donor's basis | Gain |
+| **Less than** FMV at the date of the gift | FMV at the date of the gift | Loss |
+| **Between** FMV and the donor's basis | Neither | No gain and no loss |
 
-> **Example:** Sarah receives stock as a gift from her uncle. The uncle's adjusted basis was \$10,000, and the FMV on the gift date was \$7,000.
+> **Example:** Sarah receives stock from her uncle. His adjusted basis was \$10,000, and the FMV on the date of the gift was \$7,000.
 >
-> - If Sarah sells for \$12,000: gain of \$12,000 - \$10,000 = **\$2,000 gain** (uses donor's basis)
-> - If Sarah sells for \$5,000: loss of \$5,000 - \$7,000 = **\$2,000 loss** (uses FMV at gift date)
-> - If Sarah sells for \$8,500: the sale price falls between \$7,000 and \$10,000, so there is **no gain or loss**
+> - If Sarah sells for \$12,000, she uses the donor's basis: \$12,000 - \$10,000 = **\$2,000 gain**.
+> - If Sarah sells for \$5,000, she uses the FMV at the gift date: \$5,000 - \$7,000 = **\$2,000 loss**.
+> - If Sarah sells for \$8,500, the price falls between \$7,000 and \$10,000, so there is **no gain or loss**.
 
-### Holding Period for Gifts
-
-- **If using the donor's carryover basis** (gain situation): the donor's holding period **tacks on** to the donee's
-- **If using FMV at the gift date** (loss situation): the holding period begins on the **date of the gift**
-
-:::tip
-
-A quick way to remember the gift basis rule: **Gains use the donor's basis; losses use FMV.** If the sale price is in the middle, it's a wash.
-
-:::
+The holding period follows the basis used. When the donor's basis is used, the donor's holding period tacks on. When the FMV at the gift date is used to compute a loss, the holding period starts on the date of the gift.
 
 ---
 
 ## Inherited Property
 
-When a taxpayer inherits property, the general rule is that the basis is "stepped" to the value of the asset at the time of the decedent's death. This is a crucial concept for the CPA exam, as it differs significantly from the carryover basis rules used for gifted property.
+### Basis Is FMV at Death
 
-### 1. The General Rule: Step-Up (or Step-Down) to FMV
+The basis of property acquired from a decedent is generally its **FMV at the date of death**. This differs sharply from the carryover rule for gifts.
 
-In most cases, the basis of inherited property is the **Fair Market Value (FMV) at the date of the decedent's death.**
+- **Step-up:** if the decedent bought property for \$10,000 and it was worth \$50,000 at death, the heir's basis is \$50,000. The \$40,000 of appreciation is never taxed as income.
+- **Step-down:** if the property was worth only \$8,000 at death, the heir's basis is \$8,000. The \$2,000 decline is never deductible by anyone.
 
-- **Step-Up:** If the property appreciated (e.g., the decedent bought it for \$10,000 and it was worth \$50,000 at death), the heir's basis is \$50,000. The \$40,000 of appreciation is never taxed.
+### Alternative Valuation Date
 
-- **Step-Down:** If the property declined in value (e.g., the decedent bought it for \$10,000 and it was worth \$8,000 at death), the heir's basis is \$8,000. The \$2,000 pre-death loss disappears and cannot be claimed by anyone.
+The executor may elect the **alternative valuation date** for the estate, but only if the election reduces **both** the value of the gross estate **and** the estate tax. The election applies to all of the estate's property. Each asset is then valued at the earlier of **6 months after death** or the date it is distributed or sold.
 
-### 2. The Alternative Valuation Date (AVD)
+> **Example:** An asset is worth \$100,000 at the date of death and \$90,000 six months later, and it is still in the estate. If the executor validly elects the alternative valuation date, the heir's basis is **\$90,000**.
 
-The executor of an estate may elect an **Alternative Valuation Date** to value all estate property. This election is only available if it **decreases both** the total gross estate value **and** the estate tax due.
+### Holding Period
 
-If the AVD is elected, each asset's basis equals its FMV at the **earlier of:**
+Property acquired from a decedent is **always long-term**, however briefly the decedent or the heir held it.
 
-1. **Six months** after the date of death, or
-2. The **date the asset is distributed or sold** (if that occurs before the six-month mark).
+### Income in Respect of a Decedent
 
-> **Example:**
->
-> - FMV at date of death: \$100,000
-> - FMV six months later: \$90,000
->
-> If the executor validly elects AVD, the heir's basis is **\$90,000**.
+The FMV rule does not apply to **income in respect of a decedent (IRD)**: amounts the decedent earned or was entitled to but had not yet included in income, such as traditional IRA and 401(k) balances, unpaid wages, and installment sale receivables. The heir takes the decedent's basis (often zero for pre-tax retirement accounts) and reports the income as it is received, with the same character it would have had for the decedent. If the IRD also bore estate tax, the heir may deduct the estate tax attributable to it.
 
-:::note
-
-The AVD election applies to **all** estate assets; the executor cannot cherry-pick which assets to value at the AVD.
-
-:::
-
-### 3. The Automatic Long-Term Holding Period
-
-Regardless of how long the decedent owned the property or how long the heir holds it before selling, inherited property is **automatically deemed to have a long-term holding period.**
-
-Even if the decedent bought stock one day before dying and the heir sells it one day after inheriting it, any gain or loss is treated as a **long-term capital gain or loss (LTCG/L).**
-
-### 4. Comparison: Gifted vs. Inherited Property
-
-| **Feature** | **Gifted Property** | **Inherited Property** |
-| --- | --- | --- |
-| **Basis Rule** | Carryover (donor's) basis | FMV at date of death |
-| **Holding Period** | "Tacks on" from donor's acquisition date | Always long-term |
-| **Loss Rule** | Dual basis: lower of adjusted basis or FMV at date of gift | FMV at death (step-down permanently eliminates the loss) |
+| Feature | Gifted Property | Inherited Property |
+|---|---|---|
+| **Basis** | Donor's basis (carryover) | FMV at death (or alternative valuation date) |
+| **Built-in loss** | Dual basis rule: FMV at gift date for losses | Lost permanently (step-down) |
+| **Holding period** | Tacks on when the donor's basis is used | Always long-term |
 
 :::caution[Common Pitfall]
 
-On the CPA exam, do not confuse gifted and inherited property. A gift uses the **donor's carryover basis**; inherited property uses **FMV at death**. These rules are frequently tested together.
-
-:::
-
-### 5. Exception: Income in Respect of a Decedent (IRD)
-
-The step-up (or step-down) rule does **not** apply to assets that constitute **Income in Respect of a Decedent (IRD)**. IRD items are amounts the decedent had earned or was entitled to receive but had not yet recognized for income tax purposes before death.
-
-- **Common examples:** Traditional IRAs, 401(k)s, uncollected wages, accrued interest, and installment sale receivables.
-
-- **Tax treatment:** The heir takes the decedent's basis (typically \$0 for pre-tax retirement accounts) and pays **ordinary income tax** on distributions, just as the decedent would have.
-
-:::note
-
-IRD assets are still included in the decedent's **gross estate** for estate tax purposes, but the heir does receive a deduction for the estate taxes attributable to the IRD item (the "IRD deduction" under IRC §691(c)), which partially offsets the income tax burden.
+Do not mix up the gift and inheritance rules. A **gift** carries over the donor's basis, subject to the dual basis rule for built-in losses. An **inheritance** gets a new basis equal to FMV at death. Exam questions often test the two side by side.
 
 :::
 
 ---
 
-## Capitalize or Expense
+## Stock Acquired in a Wash Sale
 
-When a business incurs a cost, a critical question is whether the expenditure should be **capitalized** (added to the basis of an asset and recovered over time through depreciation or amortization) or **expensed** (deducted immediately in the current year).
+A **wash sale** occurs when a taxpayer sells stock or securities at a loss and buys substantially identical stock or securities within 30 days before or after the sale. The loss is disallowed, but it is not lost: it is **added to the basis** of the replacement shares, and the holding period of the old shares **tacks on** to the new ones. The disallowance rule itself is covered in [Gains and Losses](./gains-and-losses.md#wash-sales).
 
-### General Rule
+$$\text{Basis of Replacement Shares} = \text{Cost of Replacement Shares} + \text{Disallowed Loss}$$
 
-If the expenditure creates or improves an asset with a **useful life greater than one year**, it must be **capitalized**. If it merely maintains existing property in its current operating condition, it is generally an **expense**.
-
-| **Capitalize** | **Expense** |
-| --- | --- |
-| Improvements (betterments, restorations, adaptations) | Routine repairs and maintenance |
-| Additions to property | Supplies used and consumed in the year |
-| New roof, HVAC system, structural modifications | Painting, patching, cleaning |
-
-### Materials and Supplies
-
-A taxpayer may deduct amounts paid for **materials and supplies** if the item meets either of these criteria:
-
-- The item costs **\$200 or less**, or
-- The item has a useful life of **12 months or less**
-
-Items that do not meet either threshold must be capitalized.
-
-### De Minimis Safe Harbor Election
-
-Taxpayers may elect to expense items that would otherwise be capitalized if the cost per item (or per invoice) does not exceed a specific threshold:
-
-| **Taxpayer Type** | **Threshold Per Item** |
-| --- | --- |
-| Taxpayer with an **Applicable Financial Statement (AFS)** (e.g., audited financials) | **\$5,000** |
-| Taxpayer **without** an AFS | **\$2,500** |
-
-> **Example:** Polar Co. has audited financial statements and purchases 20 laptops at \$2,400 each for employee use. Because Polar Co. has an AFS and each laptop costs less than \$5,000, the company may elect to deduct the entire \$48,000 under the de minimis safe harbor rather than capitalizing and depreciating each laptop.
-
-:::info
-
-The de minimis safe harbor is an **annual election** made on the tax return. The taxpayer must have a written accounting policy in place at the beginning of the tax year to capitalize amounts below the threshold on its books.
-
-:::
+> **Example:** Sarah sells 100 shares of Grizzly Inc. for \$4,000. Her basis was \$7,000, so she has a \$3,000 loss. Fifteen days later she buys 100 shares of Grizzly Inc. for \$4,500. The loss is disallowed, and her basis in the new shares is \$4,500 + \$3,000 = **\$7,500**.
 
 ---
 
 ## Property Converted from Personal to Business Use
 
-When a taxpayer converts personal-use property (e.g., a personal residence) to business or income-producing use (e.g., a rental property), special basis rules apply because losses that accrued during personal use are not deductible.
+When a taxpayer converts personal-use property, such as a home, to business or rental use, the basis rules keep the taxpayer from deducting a decline in value that occurred during personal use. Only the building is depreciable; any land must be separated out.
 
-### Depreciation Basis
+**Basis for depreciation** is the **lesser of** the property's adjusted basis or its FMV on the date of conversion.
 
-The basis for computing **depreciation** on the converted property is the **lesser of:**
+**Basis for a later sale** depends on the result:
 
-1. The taxpayer's **adjusted basis** at the date of conversion (original cost + improvements - any depreciation, though personal-use property has none), or
-2. The **FMV** of the property at the date of conversion
+| Purpose | Basis Used |
+|---|---|
+| **Computing a gain** | Adjusted basis at conversion, minus depreciation taken after conversion |
+| **Computing a loss** | Lesser of adjusted basis or FMV at conversion, minus depreciation taken after conversion |
 
-### Gain and Loss Basis
+If the sale price falls between the two figures, there is no gain or loss.
 
-| **Purpose** | **Basis Used** |
-| --- | --- |
-| **Computing gain** on a later sale | Original **cost basis** (adjusted for depreciation taken after conversion) |
-| **Computing loss** on a later sale | **Lesser of** cost or FMV at date of conversion (adjusted for depreciation) |
-
-> **Example:** Marcus purchased a home for \$300,000. He later converts it to a rental when the FMV is \$250,000.
+> **Example:** Marcus bought a home for \$300,000 (all figures here are for the building only). He converts it to a rental when its FMV is \$250,000.
 >
-> - **Depreciation basis:** Lesser of \$300,000 (cost) or \$250,000 (FMV) = **\$250,000**
-> - If Marcus later sells for \$350,000 after claiming \$30,000 in depreciation:
->   - Gain basis = \$300,000 - \$30,000 = \$270,000, so gain = \$350,000 - \$270,000 = **\$80,000**
-> - If Marcus later sells for \$200,000 after claiming \$30,000 in depreciation:
->   - Loss basis = \$250,000 - \$30,000 = \$220,000, so loss = \$200,000 - \$220,000 = **(\$20,000)**
-
-:::caution
-
-The conversion rules prevent taxpayers from claiming a loss that is attributable to a decline in value during personal use. Only losses that occur **after** the conversion to business use are deductible.
-
-:::
+> - **Depreciation basis:** the lesser of \$300,000 or \$250,000, which is **\$250,000**.
+> - If he later sells for \$350,000 after claiming \$30,000 of depreciation, his gain basis is \$300,000 - \$30,000 = \$270,000, and his gain is \$350,000 - \$270,000 = **\$80,000**.
+> - If he instead sells for \$200,000, his loss basis is \$250,000 - \$30,000 = \$220,000, and his loss is \$200,000 - \$220,000 = **(\$20,000)**.
+> - A sale for any price between \$220,000 and \$270,000 produces no gain or loss.
 
 ---
 
-## Intangible Property
+## Intangible Assets
 
 ### Purchased Intangibles
 
-When a taxpayer purchases an intangible asset (such as a patent, trademark, copyright, or goodwill), the basis is the **cost** of the intangible. If the intangible is acquired as part of a business purchase, the amount allocated to the intangible under IRC §1060 becomes its basis.
-
-Most purchased intangibles that are part of a business acquisition (IRC §197 intangibles) are amortized over **15 years** using the straight-line method.
+A purchased intangible, such as a patent, trademark, customer list, or goodwill, has a basis equal to its **cost**. When intangibles are acquired as part of a business, the purchase price is allocated among the assets acquired, and the amount allocated to each intangible becomes its basis. Most intangibles acquired with a business are **Section 197 intangibles**, amortized over **15 years**, as described in [Cost Recovery](./cost-recovery-depreciation-and-amortization.md#amortization-of-intangibles).
 
 ### Organizational and Start-Up Costs
 
-When a new business is formed, it may incur organizational costs (costs of creating the legal entity) and start-up costs (costs incurred before the business begins operations).
+A new business incurs two kinds of costs before it starts operating. **Organizational costs** are the costs of creating the legal entity. **Start-up costs** are the costs of investigating or getting ready to operate the business before it opens.
 
-**Each category is treated the same way:**
+| Cost Type | Examples |
+|---|---|
+| **Organizational costs** | Legal fees for drafting the charter or partnership agreement, state filing fees, accounting fees to set up the entity |
+| **Start-up costs** | Market research, training employees before opening, advertising the opening, consultant fees for choosing a site |
 
-1. The taxpayer may **immediately deduct up to \$5,000** in the first year
-2. The \$5,000 deduction is **reduced dollar-for-dollar** for costs exceeding \$50,000 (fully phased out at \$55,000)
-3. Any remaining costs are amortized over **180 months** (15 years), beginning in the month the business starts operations
+Each category is treated separately, under the same three-step rule:
 
-| **Cost Type** | **Examples** |
-| --- | --- |
-| **Organizational costs** | Legal fees for drafting articles of incorporation/partnership agreements, state filing fees, accounting fees for setting up the entity's books |
-| **Start-up costs** | Market research, employee training before opening, advertising for the grand opening, consultant fees for site selection |
+1. The taxpayer may deduct **up to \$5,000** in the year the business begins.
+2. The \$5,000 is reduced dollar for dollar by the amount by which the category's total costs exceed **\$50,000**, so it disappears at \$55,000.
+3. The rest is amortized ratably over **180 months**, beginning with the month the business begins.
 
-> **Example:** Salmon Entertainment, a new LLC, incurs \$8,000 in organizational costs and \$42,000 in start-up costs.
+Costs of issuing or selling stock or partnership interests, such as underwriting commissions, are neither organizational nor start-up costs and are never deductible.
+
+> **Example:** Salmon Entertainment LLC begins business on January 1 after incurring \$8,000 of organizational costs and \$42,000 of start-up costs.
 >
-> - **Organizational costs:** Deduct \$5,000 immediately; amortize the remaining \$3,000 over 180 months (\$16.67/month)
-> - **Start-up costs:** Deduct \$5,000 immediately; amortize the remaining \$37,000 over 180 months (\$205.56/month)
+> - **Organizational costs:** deduct \$5,000 now and amortize the remaining \$3,000 over 180 months (\$16.67 a month).
+> - **Start-up costs:** deduct \$5,000 now and amortize the remaining \$37,000 over 180 months (\$205.56 a month).
+>
+> The two categories are never combined: each gets its own \$5,000 deduction and its own \$50,000 phase-out.
 
-:::note
+### Loan Costs
 
-Organizational and start-up costs are treated as **separate categories**: each gets its own \$5,000 deduction and 180-month amortization. Do not combine them.
+Fees a business pays to obtain a loan, such as points, commitment fees, and legal fees for the loan documents, are capitalized and **amortized over the term of the loan**. If the loan is paid off early, any unamortized balance is deducted then.
 
-:::
+> **Example:** Kodiak Partners pays \$6,000 of fees to obtain a 5-year business loan on July 1. It amortizes \$100 a month (\$6,000 ÷ 60 months), deducting \$600 in the first year.

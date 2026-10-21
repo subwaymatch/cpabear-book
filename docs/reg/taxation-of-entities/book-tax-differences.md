@@ -2,110 +2,97 @@
 
 ## Introduction
 
-Financial accounting income (book income) and taxable income are computed under different sets of rules: **GAAP** governs the books while the **Internal Revenue Code** governs the tax return. The resulting differences are reconciled on **Schedule M-1** or **Schedule M-3** of Form 1120. Understanding whether a difference is **permanent** or **temporary** is critical for both financial reporting (ASC 740) and the CPA exam REG section. The primary authorities are **IRC §§441 through 530** (accounting methods), the specific Code sections creating each difference, and **Reg. §1.6011-4** (Schedule M-3 requirements).
+A corporation keeps two sets of numbers. Its books follow **GAAP**, which aims to measure economic performance, while its tax return follows the **Internal Revenue Code**, which serves other goals, such as raising revenue and encouraging investment. The gap between **book income** and **taxable income** is reconciled on **Schedule M-1** or **Schedule M-3** of Form 1120. The REG blueprint asks you to classify each difference as **permanent** or **temporary**, compute the adjustments, and find them by reviewing a trial balance. This chapter explains the two kinds of differences, walks through the M-1 and M-3 formats, and finishes with a checklist for reviewing a trial balance and the traps the exam likes to set.
 
 ---
 
-## Schedule M-1 vs. Schedule M-3
+## Schedule M-1 or Schedule M-3?
 
-### When Each Is Required
-
-| Schedule | Requirement |
+| Schedule | Who Files It |
 |---|---|
-| **M-1** | C corporations with **total assets under \$10 million** at year end |
-| **M-3** | C corporations with total assets of **\$10 million or more** (or filing a consolidated return) |
+| **M-1** | Corporations with total assets of **less than \$10 million** at year end |
+| **M-3** | Corporations with total assets of **\$10 million or more** |
 
-:::info
-
-Schedule M-3 provides far more detail than M-1, breaking each reconciling item into **temporary** and **permanent** columns. The IRS uses M-3 to identify aggressive tax positions and improve audit selection.
-
-:::
+A corporation with both total receipts and total assets under \$250,000 does not have to complete Schedule M-1. Schedule M-3 is far more detailed: it reconciles line by line and splits each difference into **temporary** and **permanent** parts, which helps the IRS spot issues for examination.
 
 ---
 
 ## Permanent Differences
 
-Permanent differences are items that appear on the **books but never on the tax return** (or vice versa). They create a **permanent** divergence between book and taxable income and affect the **effective tax rate** but do **not** create deferred tax assets or liabilities.
+A **permanent difference** is an item that is counted for book purposes but never for tax purposes, or the reverse. It never reverses. Permanent differences change the corporation's effective tax rate, but they do **not** create deferred tax assets or liabilities.
 
 | Permanent Difference | Book Treatment | Tax Treatment | M-1 Adjustment |
 |---|---|---|---|
-| **Tax-exempt interest** (municipal bonds) | Included in book income | **Excluded** from taxable income | Subtract from book income |
-| **Life insurance premiums** (company is beneficiary) | Deducted as expense on books | **Not deductible** (IRC §264) | Add back to book income |
-| **Life insurance proceeds** | Included in book income | **Excluded** from taxable income (IRC §101) | Subtract from book income |
-| **Meals expense** (50% limitation) | 100% deducted on books | Only **50%** deductible (IRC §274) | Add back 50% |
-| **Fines and penalties** | Deducted on books | **Not deductible** (IRC §162(f)) | Add back to book income |
-| **Political contributions** | Deducted on books | **Not deductible** (IRC §162(e)) | Add back to book income |
-| **Federal income tax expense** | Deducted on books | **Not deductible** (IRC §275) | Add back to book income |
-| **Domestic production activities** | Not on books | Deduction on tax return (if applicable) | Subtract from book income |
+| **Tax-exempt interest** (municipal bonds) | Income | Excluded | Subtract |
+| **Life insurance premiums** when the corporation is the beneficiary | Expense | Not deductible (§264) | Add back |
+| **Life insurance proceeds** | Income | Excluded (§101) | Subtract |
+| **Business meals** | 100% expense | Generally 50% deductible (§274) | Add back the nondeductible 50% |
+| **Entertainment** | Expense | Not deductible | Add back |
+| **Employer-provided meals** at an on-site eating facility or for the employer's convenience, from 2026 | Expense | Not deductible, with limited exceptions | Add back |
+| **Fines and penalties** paid to a government | Expense | Not deductible (§162(f)) | Add back |
+| **Political contributions and lobbying** | Expense | Not deductible (§162(e)) | Add back |
+| **Federal income tax expense** | Expense | Not deductible (§275) | Add back |
 
-> **Example:** Bear Co. reports \$500,000 of book income. Its books include \$10,000 of municipal bond interest income and \$20,000 of federal income tax expense. For the M-1 reconciliation, subtract \$10,000 (tax-exempt interest) and add \$20,000 (nondeductible federal income tax), yielding a \$10,000 net increase to arrive at taxable income.
+The **dividends-received deduction** is also a permanent difference. Because it is a special deduction taken after the line where Schedule M-1 ends, it does not appear in the M-1 reconciliation.
 
-:::tip[Exam Tip]
-
-**Federal income tax expense** is the most commonly tested permanent difference. It is always deducted on the books but **never** deductible on the tax return.
-
-:::
+> **Example:** Bear Co. reports \$500,000 of book income after taxes. Its books include \$10,000 of municipal bond interest and \$20,000 of federal income tax expense. On Schedule M-1, Bear Co. subtracts the \$10,000 of tax-exempt interest and adds back the \$20,000 of federal income tax, a net increase of \$10,000, for taxable income of \$510,000 (before any other adjustments).
 
 ---
 
 ## Temporary Differences
 
-Temporary differences arise when items are recognized in **different periods** for book and tax purposes. They reverse over time and create **deferred tax assets** (future deductible amounts) or **deferred tax liabilities** (future taxable amounts) under ASC 740.
+A **temporary difference** arises when an item is recognized in **different years** for book and tax purposes. Over time, it reverses. Temporary differences create **deferred tax liabilities** (when taxable income is lower now and will be higher later) or **deferred tax assets** (when taxable income is higher now and will be lower later).
 
-### Common Temporary Differences
-
-| Temporary Difference | Book Method | Tax Method | Taxable Income Effect in Current Year |
+| Temporary Difference | Book Treatment | Tax Treatment | Effect on Taxable Income This Year |
 |---|---|---|---|
-| **Depreciation** | Straight-line (book life) | MACRS (accelerated) | Tax depreciation > book, so taxable income is **lower** than book |
-| **Bad debt expense** | Allowance method (estimated) | Direct write-off (actual) | Book expense > tax deduction, so taxable income is **higher** than book |
-| **Warranty expense** | Accrued when sold (estimated) | Deducted when **paid** | Book expense > tax deduction, so taxable income is **higher** |
-| **Prepaid income** | Deferred on books (earned over time) | Taxed when **received** (IRC §451) | Tax income > book income, so taxable income is **higher** |
-| **Section 179 expensing** | Not available on books | Full deduction in year 1 | Tax deduction > book expense, so taxable income is **lower** |
-| **Bonus depreciation** | Not available on books | 40% (2025), declining per TCJA | Tax deduction > book expense, so taxable income is **lower** |
-| **Installment sales** | Full gain recognized at sale | Gain recognized as **payments received** (IRC §453) | Book income > tax income, so taxable income is **lower** |
-| **NOL carryforward** | Not deducted on books (recognized as DTA) | Deducted on tax return (80% limit) | Reduces taxable income in carryforward year |
-| **Organizational costs** | Expensed or amortized on books | \$5,000 deducted + remainder amortized over 180 months (IRC §248) | Timing difference |
-| **Rent received in advance** | Recognized over lease term on books | Fully taxable when received | Tax income > book in Year 1; reverses later |
+| **Depreciation** | Straight-line over the useful life | MACRS, often with 100% bonus depreciation or Section 179 | Usually **lower** than book in early years |
+| **Bad debts** | Allowance method (estimated expense) | Deducted only when specific accounts are written off | **Higher** than book while the allowance grows |
+| **Warranty expense** | Accrued when products are sold | Deducted when costs are **paid** | **Higher** than book when accruals exceed payments |
+| **Advance payments for goods or services** | Deferred and recognized as earned | Taxed when received, or deferred one year at most if the taxpayer elects | **Higher** than book in the year received |
+| **Rent received in advance** | Recognized over the lease term | Taxable when received | **Higher** than book in the year received |
+| **Installment sales** | Full gain at the time of sale | Gain recognized as payments are received (§453) | **Lower** than book in the year of sale |
+| **Organizational and start-up costs** | Expensed when incurred | \$5,000 deducted, the rest amortized over 180 months | **Higher** than book in the first year |
+| **Business interest over the §163(j) limit** | Expense | Disallowed now, carried forward indefinitely | **Higher** than book in the year disallowed |
+| **Net capital loss** | Reduces book income | Not deductible this year; carried back 3 years and forward 5 | **Higher** than book in the loss year |
+| **Charitable contributions over the 10% limit** | Expense | Carried forward 5 years | **Higher** than book in the year given |
+| **NOL carryforward** | No book deduction | Deducted in later years, up to 80% of taxable income | **Lower** than book in the carryforward year |
 
-> **Example:** Panda Industries purchases equipment for \$100,000. Book depreciation (straight-line, 10 years) = \$10,000/year. MACRS depreciation (7-year property) = \$14,290 in Year 1. The temporary difference in Year 1 is \$4,290, creating a **deferred tax liability** because taxable income is lower than book income now, but will be higher in the future when MACRS depreciation is less than book depreciation.
+Starting in 2026, a corporation may deduct charitable contributions only to the extent they exceed **1%** of taxable income, still subject to the 10% cap. The part below the 1% floor carries forward only from a year in which contributions also exceeded the 10% cap; otherwise it is lost, which makes it a **permanent** difference. The details are in [C Corporation](./c-corporation.md#charitable-contributions).
 
-:::note
+> **Example:** In 2026, Panda Industries buys equipment for \$100,000 and claims 100% bonus depreciation. For the books, it depreciates the equipment straight-line over 10 years, or \$10,000 a year (assume a full year). Tax depreciation of \$100,000 exceeds book depreciation by \$90,000, so taxable income is \$90,000 lower than book income this year. That temporary difference creates a **deferred tax liability**, which reverses over the next 9 years as Panda records \$10,000 of book depreciation each year with no tax depreciation left to claim.
 
-A helpful mnemonic: if tax depreciation is **higher** than book depreciation in the current year, taxable income is **lower**, and a **deferred tax liability** exists (you will pay more tax in the future when the difference reverses).
-
-:::
+When tax depreciation runs **ahead** of book depreciation, taxable income is lower now and will be higher later, so the corporation records a deferred tax liability.
 
 ---
 
-## Schedule M-1 Reconciliation Format
+## Schedule M-1 Format
 
-Schedule M-1 reconciles **book income to taxable income** in four steps:
+Schedule M-1 starts with net income per books and arrives at taxable income before the NOL deduction and special deductions:
 
-$$
-\text{Taxable Income} = \text{Book Income} + \text{Additions} - \text{Subtractions}
-$$
+$$\text{Taxable Income} = \text{Book Income} + \text{Additions} - \text{Subtractions}$$
 
 | Direction | Category | Examples |
 |---|---|---|
-| **Add** | Expenses on books **not deductible** for tax | Federal income tax, fines, penalties, life insurance premiums, excess book depreciation |
-| **Add** | Income on tax return **not on books** | Prepaid income taxable for tax but deferred on books |
-| **Subtract** | Income on books **not taxable** | Tax-exempt interest, life insurance proceeds |
-| **Subtract** | Deductions on tax return **not on books** | Excess tax depreciation (MACRS > book), Section 179 |
+| **Add** | Federal income tax expense | Current and deferred federal tax expense on the books |
+| **Add** | Expenses on the books **not deductible** for tax | Fines, nondeductible meals, life insurance premiums, excess capital losses, book depreciation in excess of tax depreciation |
+| **Add** | Income taxable **but not on the books** | Advance payments taxed when received |
+| **Subtract** | Income on the books **not taxable** | Tax-exempt interest, life insurance proceeds |
+| **Subtract** | Deductions on the return **not on the books** | Tax depreciation in excess of book depreciation |
 
-### M-1 Walkthrough Example
+### Walkthrough Example
 
-> **Polar Co.** reports the following for 2024:
+> **Polar Co.** reports the following for 2026:
 >
 > | Item | Amount |
 > |---|---|
 > | Net income per books (after tax) | \$400,000 |
 > | Federal income tax expense | \$100,000 |
 > | Tax-exempt interest income | \$15,000 |
-> | Life insurance premiums (company is beneficiary) | \$8,000 |
-> | Excess of MACRS over book depreciation | \$25,000 |
+> | Life insurance premiums (Polar Co. is the beneficiary) | \$8,000 |
+> | Excess of tax depreciation over book depreciation | \$25,000 |
 > | Fines and penalties | \$5,000 |
 >
-> **M-1 Reconciliation:**
+> **Schedule M-1 reconciliation:**
 >
 > | | Amount |
 > |---|---|
@@ -114,12 +101,12 @@ $$
 > | **Add:** Life insurance premiums | +\$8,000 |
 > | **Add:** Fines and penalties | +\$5,000 |
 > | **Subtract:** Tax-exempt interest | -\$15,000 |
-> | **Subtract:** Excess MACRS depreciation | -\$25,000 |
+> | **Subtract:** Excess tax depreciation | -\$25,000 |
 > | **Taxable income** | **\$473,000** |
 
 :::caution
 
-When the M-1 starts with net income per books **after** federal income tax, you must **add back** the federal income tax expense. Some questions give book income **before** tax; in that case, do **not** add it back. Read the question carefully.
+Schedule M-1 starts with net income per books **after** federal income tax, so federal income tax expense must be added back. Some exam questions give book income **before** tax instead; in that case, do not add it back. Always check the starting point.
 
 :::
 
@@ -127,63 +114,53 @@ When the M-1 starts with net income per books **after** federal income tax, you 
 
 ## Schedule M-3 Format
 
-Schedule M-3 provides a three-column reconciliation for each line item:
+Schedule M-3 reconciles each line item using four columns:
 
 | Column | Description |
 |---|---|
-| **Column (a)** | Amount per income statement (financial statements) |
-| **Column (b)** | Temporary difference |
-| **Column (c)** | Permanent difference |
-| **Column (d)** | Amount per tax return |
+| **(a)** | Income (loss) per the income statement |
+| **(b)** | Temporary difference |
+| **(c)** | Permanent difference |
+| **(d)** | Income (loss) per the tax return |
 
-The relationship: **Column (a) + Column (b) + Column (c) = Column (d)**
+Column (a) + Column (b) + Column (c) = Column (d).
 
-> **Example:** Kodiak Inc. has \$60,000 of depreciation expense on its income statement. MACRS depreciation is \$85,000. On M-3:
-> - Column (a): \$60,000 (book depreciation)
-> - Column (b): \$25,000 (temporary difference: additional tax depreciation)
-> - Column (c): \$0 (no permanent difference)
-> - Column (d): \$85,000 (tax depreciation)
+> **Example:** Kodiak Inc. records \$60,000 of depreciation expense on its income statement, and its tax depreciation is \$85,000. On the depreciation line of Schedule M-3, it reports \$60,000 in column (a), \$25,000 in column (b) as a temporary difference, \$0 in column (c), and \$85,000 in column (d).
 
 ---
 
 ## Reviewing a Trial Balance for Book-Tax Differences
 
-When reviewing an entity's adjusted book trial balance, look for these common items that signal book-tax differences:
+When you review an adjusted trial balance, certain accounts should prompt you to look for a difference:
 
-| Trial Balance Account | Likely Difference | Type |
+| Trial Balance Account | What to Check | Type |
 |---|---|---|
-| Depreciation expense | MACRS vs. straight-line | Temporary |
-| Allowance for doubtful accounts | Allowance vs. direct write-off | Temporary |
-| Warranty liability / expense | Accrual vs. payment | Temporary |
-| Federal income tax expense | Nondeductible | Permanent |
-| Tax-exempt interest income | Excluded from taxable income | Permanent |
-| Meals expense | 50% nondeductible | Permanent |
-| Life insurance (officer policies) | Premiums nondeductible; proceeds nontaxable | Permanent |
-| Fines, penalties, or lobbying | Nondeductible | Permanent |
-| Deferred revenue | May be taxable when received | Temporary |
-| Accumulated depreciation | Compare book vs. tax basis of assets | Temporary |
-| Capital loss carryforward | Limited to capital gains; carryforward 5 years for corps | Temporary |
+| Depreciation expense and accumulated depreciation | Book depreciation versus MACRS, bonus, and Section 179 | Temporary |
+| Bad debt expense and allowance for doubtful accounts | Book expense versus actual write-offs | Temporary |
+| Warranty expense and warranty liability | Accruals versus payments | Temporary |
+| Deferred revenue | Whether advance payments were taxable when received | Temporary |
+| Interest expense | Whether the §163(j) limit applies | Temporary |
+| Charitable contributions | The 1% floor and 10% cap | Temporary or permanent |
+| Capital gains and losses | Whether a net capital loss must be carried over | Temporary |
+| Federal income tax expense | Not deductible | Permanent |
+| Tax-exempt interest income | Not taxable | Permanent |
+| Meals and entertainment | 50% or 0% deductible | Permanent |
+| Officer life insurance | Premiums not deductible; proceeds not taxable | Permanent |
+| Fines, penalties, political contributions, and lobbying | Not deductible | Permanent |
 
-> **Example:** Salmon Entertainment's trial balance shows a \$50,000 allowance for doubtful accounts and \$12,000 in actual write-offs during the year. Book bad debt expense is the change in the allowance; the tax deduction is only the \$12,000 actually written off. The difference is **temporary**; it will reverse when the estimated accounts are ultimately written off.
-
-:::warning
-
-**Capital losses** for C corporations can only offset **capital gains** (no \$3,000 deduction against ordinary income like individuals). Unused capital losses carry back 3 years and forward 5 years. This creates a temporary difference when a corporation has a net capital loss.
-
-:::
+> **Example:** Salmon Entertainment's allowance for doubtful accounts was \$40,000 at the start of the year and \$50,000 at year end, and it wrote off \$12,000 of specific accounts during the year. Book bad debt expense is \$50,000 - \$40,000 + \$12,000 = \$22,000. The tax deduction is only the \$12,000 written off. Salmon adds back \$10,000 on Schedule M-1, a **temporary** difference that reverses when the remaining accounts are written off.
 
 ---
 
 ## Common Exam Traps
 
-1. **Federal income tax expense**: Always a permanent difference, so add it back.
-2. **State income tax**: This **is** deductible for federal tax purposes (unlike federal income tax). Do **not** add it back.
-3. **Officer life insurance**: Premiums are nondeductible (permanent), and proceeds are nontaxable (permanent). Both adjustments are needed.
-4. **Depreciation**: In early years, MACRS usually exceeds book depreciation (subtract the excess). In later years, the relationship reverses.
-5. **M-1 starting point**: Know whether the question gives book income before or after federal income tax.
-6. **Installment sales**: Book recognizes the full gain; tax recognizes gain as cash is collected. The difference is temporary.
+1. **Federal income tax expense** is always a permanent difference. Add it back when the starting point is after-tax book income.
+2. **State income tax** is deductible for federal purposes. It is not a book-tax difference (unlike federal income tax).
+3. **Officer life insurance** creates two permanent differences: premiums are not deductible, and proceeds are not taxable.
+4. **Depreciation** usually reduces taxable income below book income in early years, especially with 100% bonus depreciation, and the relationship reverses later.
+5. **Installment sales** create a temporary difference: the books recognize the full gain at once, while the return recognizes it as cash is collected.
 
-> **Example:** Honey Security's M-1 starts with net income per books of \$200,000 (after tax). A student who forgets to add back the \$50,000 federal income tax expense will understate taxable income by \$50,000. Always check the starting point.
+> **Example:** Honey Security's Schedule M-1 starts with after-tax book income of \$200,000. A preparer who forgets to add back the \$50,000 of federal income tax expense understates taxable income by \$50,000.
 
 ---
 
@@ -191,15 +168,14 @@ When reviewing an entity's adjusted book trial balance, look for these common it
 
 | Concept | Key Rule |
 |---|---|
-| **Permanent difference** | Never reverses; affects effective tax rate; no deferred tax effect |
-| **Temporary difference** | Reverses over time; creates DTA or DTL under ASC 740 |
-| **Schedule M-1** | Required for C corps with total assets < \$10 million |
-| **Schedule M-3** | Required for C corps with total assets ≥ \$10 million |
+| **Permanent difference** | Never reverses; affects the effective tax rate; no deferred tax |
+| **Temporary difference** | Reverses over time; creates a deferred tax asset or liability |
+| **Schedule M-1** | Corporations with total assets under \$10 million |
+| **Schedule M-3** | Corporations with total assets of \$10 million or more; splits temporary and permanent |
 | **M-1 formula** | Book income + additions - subtractions = taxable income |
-| **Federal income tax** | Always permanent (nondeductible); most common exam item |
-| **State income tax** | Deductible for federal tax, so not a book-tax difference |
-| **Depreciation** | Temporary difference (MACRS vs. book straight-line) |
-| **Bad debts** | Temporary (allowance method vs. direct write-off) |
-| **Tax-exempt interest** | Permanent (subtract from book income) |
-| **Fines/penalties** | Permanent (add back to book income) |
-| **Capital losses (corps)** | Offset capital gains only; carry back 3 / forward 5 years |
+| **Federal income tax** | Permanent; added back |
+| **State income tax** | Deductible; not a difference |
+| **Depreciation** | Temporary; bonus depreciation makes it large in year 1 |
+| **Bad debts** | Temporary; allowance method versus write-offs |
+| **Charitable contributions** | Excess over 10% is temporary; amounts below the 1% floor can be permanent |
+| **Capital losses (corporations)** | Offset capital gains only; carried back 3 years and forward 5 |

@@ -2,192 +2,95 @@
 
 ## Introduction
 
-CPAs face legal liability from multiple sources: **common law** (contracts and torts), **federal securities statutes**, and state regulatory proceedings. The scope of liability, the parties who can bring claims, and the defenses available all depend on which legal theory applies. This chapter examines the framework of CPA liability to clients, third parties, and the public, and the key defenses practitioners should understand.
+When a CPA agrees to prepare a return or give tax advice, the engagement creates legal duties beyond the tax rules themselves. A client who is harmed by poor work can sue under **contract** or **tort** law, and in some states so can third parties who relied on the work. Separate rules protect what the client tells the CPA: confidentiality duties, privacy laws, and a limited privilege for tax advice. The REG blueprint frames these topics from the tax return preparer's point of view, and so does this chapter. (Liability under the federal securities laws is not in the REG blueprint, so it is not covered here.)
 
 ---
 
-## Common Law Liability to Clients
+## Liability to Clients
 
-A CPA's liability to clients arises primarily from three theories:
+A client can base a claim on three theories. They differ in what the client must prove and in the damages available.
 
 ### Breach of Contract
 
-A client may sue the CPA for breach of the engagement agreement. Common claims include:
+The engagement letter defines what the CPA promised to do. A client may sue if the CPA fails to do it, for example by missing a filing deadline or failing to perform agreed services. The client must prove the contract, the CPA's breach, and resulting **damages**.
 
-- Failure to complete the engagement on time
-- Failure to detect errors or fraud that should have been discovered under the terms of the engagement
-- Failure to follow agreed-upon procedures
-
-The client must prove the existence of a contract, the CPA's breach, and resulting **damages**.
-
-> **Example:** Polar Co. engages a CPA firm to complete its corporate tax return by the March 15 filing deadline. The CPA firm misses the deadline, and Polar Co. incurs \$25,000 in late-filing penalties. Polar Co. may recover those penalties as breach-of-contract damages.
+> **Example:** Polar Co. engages a CPA firm to file its corporate return by the April 15 due date. The firm misses the deadline, and Polar Co. owes \$25,000 of late-filing penalties. Polar Co. can recover the penalties as damages. It generally cannot recover the tax itself, which it owed anyway.
 
 ### Negligence
 
-To establish a negligence claim, the client must prove four elements:
+Negligence is the most common claim against tax preparers. The client must prove four elements:
 
-1. **Duty of care**: the CPA owed a duty to perform with the skill and competence of a reasonable CPA
-2. **Breach**: the CPA failed to meet that standard (e.g., violated GAAS or GAAP)
-3. **Causation**: the CPA's breach was the proximate cause of the client's loss
-4. **Damages**: the client suffered actual financial harm
+1. **Duty:** the CPA owed the client a duty to perform with the skill and care of a reasonably competent tax practitioner.
+2. **Breach:** the CPA failed to meet that standard.
+3. **Causation:** the failure was the proximate cause of the client's loss.
+4. **Damages:** the client suffered an actual loss.
 
-:::info
+The standard is reasonable competence, not perfection. Evidence that the CPA ignored Circular 230, professional standards, or the firm's own procedures helps show a breach.
 
-The standard of care for CPAs is based on what a **reasonably competent CPA** would have done under similar circumstances, not perfection. A CPA is not a guarantor against all errors.
+> **Example:** Kodiak Partners' CPA fails to make a time-sensitive election that the facts clearly called for. As a result, the partners lose deductions and pay \$12,000 more tax than they would have. The CPA may be liable in negligence for that extra tax, because the partners would not have owed it if the work had been done properly.
 
-:::
+### Fraud and Constructive Fraud
 
-### Fraud (Intentional Misrepresentation)
+**Fraud** requires proof that the CPA made a **material misrepresentation** of fact, **knowing it was false** (scienter) or with reckless disregard for the truth, with **intent** that the client rely on it, that the client **justifiably relied**, and that the client suffered **damages**. **Constructive fraud** replaces knowledge with **gross negligence**: a reckless disregard of professional duties that is treated like fraud even though there was no intent to deceive.
 
-Fraud requires proof that the CPA:
+Fraud carries two consequences that ordinary negligence does not. The client may recover **punitive damages**, and contract terms that limit the CPA's liability generally do not protect against fraud.
 
-1. Made a **material misrepresentation** of fact
-2. With **knowledge of its falsity** (scienter) or reckless disregard for the truth
-3. With **intent to induce reliance**
-4. The client **justifiably relied** on the misrepresentation
-5. The client suffered **damages** as a result
+### Defenses
 
-:::warning
+A CPA sued by a client typically argues one or more of the following:
 
-Unlike negligence, fraud can result in **punitive damages** in addition to compensatory damages. Fraud also eliminates many contractual defenses, such as limitation-of-liability clauses.
-
-:::
+- **No breach:** the work met the standard of a reasonably competent practitioner.
+- **No causation:** the loss came from something other than the CPA's work.
+- **The client's own fault:** the client withheld information or supplied false information. Depending on the state, this reduces or bars recovery (comparative or contributory negligence).
+- **Statute of limitations:** the claim was filed too late.
 
 ---
 
-## Common Law Liability to Third Parties
+## Liability to Third Parties
 
-CPAs may also face liability to third parties (such as creditors or investors) who rely on the CPA's work. Three primary tests have emerged:
+A lender, investor, or buyer who relies on a CPA's work may also suffer a loss. Because the third party has no contract with the CPA, courts limit who can sue for **negligence**. Three approaches have developed:
 
-### Primary Benefit Test (Ultramares Doctrine)
+| Approach | Who Can Sue the CPA for Negligence |
+|---|---|
+| **Ultramares (privity or near privity)** | Only a third party the CPA knew would rely on the work, for a particular purpose. The narrowest approach |
+| **Restatement (Second) of Torts (foreseen users)** | A person or limited group the CPA knew would receive and rely on the work, even if the CPA did not know their identity. The majority approach |
+| **Foreseeable users** | Anyone the CPA could reasonably foresee would rely on the work. The broadest approach, followed by few states |
 
-Under this traditional and most restrictive approach, a CPA is liable to a third party **only if** the CPA knew the engagement was being performed for the **primary benefit** of that specific third party.
+> **Example:** Kodiak Inc. tells its CPA that it will give its tax returns and financial statements to "a bank" to support a loan application, though it has not chosen the bank. First National Bank lends in reliance on the returns, which contain a negligent error. Under the Restatement approach, the bank is a foreseen user and may sue. Under Ultramares, it may not, because the CPA did not know the bank's identity or that it was the one relying.
 
-> **Example:** A CPA audits Kodiak Inc.'s financial statements. First National Bank later relies on those statements to extend a \$2 million loan. Under the Ultramares approach, the CPA is liable to the bank only if the CPA knew at the time of the engagement that the audit was being conducted specifically for First National Bank's benefit.
-
-### Foreseen Users / Restatement Approach
-
-Under the **Restatement (Second) of Torts** approach (adopted by a majority of states), a CPA is liable to:
-
-- Persons or classes of persons the CPA **knew** would receive the financial statements
-- Even if the CPA did not know the specific identity of each user
-
-> **Example:** The CPA knows that Kodiak Inc. intends to use the audited financial statements to apply for bank financing, though the specific bank has not yet been selected. Under the Restatement approach, any bank that extends credit in reliance on those statements is a **foreseen user** and may sue the CPA.
-
-### Foreseeable Users (Rosenblum Approach)
-
-Under this broadest approach, a CPA is liable to **any person** the CPA could reasonably foresee might obtain and rely on the financial statements.
-
-| Test | Scope of Liability | Key Requirement |
-|---|---|---|
-| **Ultramares (Primary Benefit)** | Narrowest | CPA knew the specific third party |
-| **Restatement (Foreseen Users)** | Moderate | CPA knew the class of users |
-| **Rosenblum (Foreseeable Users)** | Broadest | CPA could foresee any user |
+For **fraud** or constructive fraud, these limits fall away. A CPA who commits fraud is liable to any third party who reasonably relied on the work and was harmed.
 
 :::tip[Exam Tip]
 
-The **Restatement (foreseen users)** approach is the most commonly tested and is the majority rule. Know all three approaches and be able to distinguish them based on the facts presented.
+The **Restatement (foreseen users)** approach is the majority rule and the one most often tested. Read the facts for what the CPA knew at the time of the engagement: a specific named user, a known class of users, or only the general public.
 
 :::
 
 ---
 
-## Statutory Liability Under Federal Securities Laws
+## Confidentiality and Privacy
 
-### Securities Act of 1933: Section 11
+### Duties to Protect Client Information
 
-**Section 11** imposes liability on anyone who signs a **registration statement** (including accountants who certify financial statements included in the registration) if the statement contains material misstatements or omissions.
+Tax return information is protected by statute. A preparer may not disclose or use a client's return information without the client's **written consent**, except in situations the regulations allow, such as filing the return, responding to a court order, or sharing it with others in the firm who work on the return. Unauthorized disclosure brings a civil penalty under §6713 and can be a crime under §7216 (see [preparer penalties](./ethics-and-responsibilities-in-tax-practice.md#other-penalties)).
 
-Key features of Section 11:
+Federal privacy law adds an obligation to **safeguard** client data. Tax preparers are treated as financial institutions under the Gramm-Leach-Bliley Act, so they must protect the security and confidentiality of client information and maintain a written information security plan.
 
-| Element | Rule |
-|---|---|
-| **Who can sue** | Any purchaser of the security |
-| **Plaintiff's burden** | Must prove material misstatement or omission and damages; **need not** prove reliance, negligence, or fraud |
-| **CPA's defense** | **Due diligence**: the CPA, after reasonable investigation, had reasonable grounds to believe the financial statements were accurate |
-| **Standard** | Negligence standard; no scienter required |
+The AICPA Code of Professional Conduct also bars members from disclosing confidential client information without consent. Its exceptions let a CPA comply with a valid subpoena or summons, respond to an ethics investigation, take part in a peer review, and comply with applicable laws and professional standards.
 
-> **Example:** Salmon Entertainment issues stock through an IPO. The registration statement contains financial statements audited by a CPA firm. The financial statements materially overstate revenue. A purchaser of the stock can sue the CPA firm under Section 11 without proving the CPA firm acted negligently; instead, the CPA firm must prove it conducted a **reasonable investigation** (due diligence defense).
+### Privileged Communications
 
-:::caution
+A **privilege** lets a client refuse to disclose a communication, even in litigation. Federal law recognizes **no general accountant-client privilege**. What exists is narrower:
 
-Under Section 11, the burden of proof shifts to the **defendant**. The CPA must affirmatively prove due diligence; the plaintiff does not need to prove negligence.
+- **Federally authorized tax practitioner privilege (IRC §7525).** Tax advice from a CPA, enrolled agent, or attorney is protected to the same extent it would be if it came from an attorney. It applies only in **noncriminal** tax matters before the IRS and in **noncriminal** federal tax proceedings in federal court. It does **not** cover return preparation, and it does **not** cover written communications that promote participation in a tax shelter.
+- **Attorney-client privilege.** When an attorney engages a CPA to help the attorney give legal advice, the attorney-client privilege may extend to the CPA's work.
+- **State privileges.** Many states have an accountant-client privilege, but it generally does not apply in federal tax matters.
 
-:::
+> **Example:** Cub Entertainment asks its CPA how to treat a disputed deduction, and the CPA answers in a memo. In a later IRS examination, the memo is protected under §7525. The worksheets the CPA used to prepare the return are not, and if the IRS opens a criminal investigation, the §7525 privilege does not apply at all.
 
-### Securities Exchange Act of 1934: Section 10(b) and Rule 10b-5
+### Working Papers
 
-**Section 10(b)** and **Rule 10b-5** create liability for fraud in connection with the **purchase or sale** of any security (not just newly registered securities).
-
-| Element | Rule |
-|---|---|
-| **Who can sue** | Purchasers or sellers of the security |
-| **Plaintiff's burden** | Must prove: (1) material misstatement or omission, (2) **scienter** (intent to deceive), (3) reliance, (4) connection with purchase or sale, (5) damages |
-| **CPA's defense** | Lack of scienter (no intent to deceive or reckless disregard) |
-| **Standard** | Fraud standard: scienter is **required** |
-
-:::tip[Exam Tip]
-
-The critical distinction: **Section 11** (1933 Act) requires only negligence and applies only to registration statements. **Section 10(b)/Rule 10b-5** (1934 Act) requires **scienter** but applies to all securities transactions. Memorize this distinction because it is heavily tested.
-
-:::
-
-### Comparison of Section 11 and Section 10(b)
-
-| Feature | Section 11 (1933 Act) | Section 10(b) / Rule 10b-5 (1934 Act) |
-|---|---|---|
-| Applies to | Registration statements only | Any purchase or sale of securities |
-| Scienter required | No | Yes |
-| Reliance required | No (presumed) | Yes |
-| Burden of proof | Shifts to defendant (due diligence) | Plaintiff bears full burden |
-| Privity required | No | No |
-| Damages | Measured by decline in value | Out-of-pocket losses |
-
----
-
-## Key Defenses
-
-### Due Diligence Defense (Section 11)
-
-To establish the due diligence defense, a CPA must show that after **reasonable investigation**, the CPA had reasonable grounds to believe, and did believe, that the statements in the registration statement were true and that no material facts were omitted.
-
-### Lack of Scienter (Section 10(b))
-
-A CPA can defeat a Rule 10b-5 claim by demonstrating the absence of **scienter**, meaning the CPA did not act with intent to deceive, manipulate, or defraud. Mere negligence is **not** sufficient to establish scienter.
-
-> **Example:** A CPA firm audits Panda Industries and fails to detect a material inventory overstatement due to inadequate sampling procedures. Under Rule 10b-5, investors must prove the CPA firm **intentionally** or **recklessly** disregarded evidence of the overstatement; ordinary negligence would not be enough.
-
----
-
-## Working Papers: Ownership and Confidentiality
-
-### Ownership
-
-**Working papers** prepared by the CPA during an engagement are the **property of the CPA**, not the client. However, the CPA may not withhold client records (e.g., general ledgers, journals, tax returns) to enforce payment of fees.
-
-### Confidentiality
-
-CPAs have a duty to maintain the **confidentiality** of client information. Exceptions under the AICPA Code of Professional Conduct include:
-
-- Compliance with a **valid subpoena** or enforceable legal process
-- An authorized **peer review**
-- Response to an **ethics investigation**
-- Compliance with GAAS (e.g., successor auditor communications)
-
-### Privileged Communication
-
-Under **federal law**, there is generally **no** CPA-client privilege. The tax practitioner privilege under IRC §7525 is limited:
-
-- Applies only to **tax advice** (not preparation of tax returns)
-- Applies only before the IRS and in **noncriminal** federal tax proceedings
-- Does **not** extend to corporate tax shelters
-- Does **not** apply in criminal matters
-
-:::warning
-
-Many states grant some form of CPA-client privilege under state law, but no such privilege exists under federal common law. Do not confuse state privilege statutes with the limited federal privilege under IRC §7525.
-
-:::
+**Working papers** the CPA prepares during an engagement belong to the **CPA**, not the client. The CPA must still keep them confidential and may not release them to others without the client's consent, except as the law requires. The client's own **records**, such as ledgers, source documents, and returns already filed, must be returned on request even if fees are unpaid.
 
 ---
 
@@ -195,10 +98,12 @@ Many states grant some form of CPA-client privilege under state law, but no such
 
 | Topic | Key Rule |
 |---|---|
-| Negligence (clients) | CPA must exercise reasonable care; client must prove four elements |
-| Fraud | Requires scienter; may result in punitive damages |
-| Third-party liability | Three tests: Ultramares, Restatement (majority), Rosenblum |
-| Section 11 (1933 Act) | No scienter required; CPA must prove due diligence |
-| Section 10(b) / Rule 10b-5 | Scienter required; plaintiff bears burden of proof |
-| Working papers | Owned by CPA; client records must be returned |
-| Privileged communication | No federal CPA-client privilege; limited IRC §7525 privilege |
+| Breach of contract | Client proves contract, breach, and damages |
+| Negligence | Duty, breach, causation, damages; standard is a reasonably competent practitioner |
+| Fraud | Requires scienter; punitive damages possible |
+| Constructive fraud | Gross negligence treated like fraud |
+| Third parties (negligence) | Ultramares (narrow), Restatement (majority), foreseeable users (broad) |
+| Third parties (fraud) | Liable to any reasonably relying third party |
+| Return information | Disclosure or use needs written client consent (§§6713, 7216) |
+| Privilege | No general federal accountant-client privilege; §7525 covers tax advice in noncriminal matters only |
+| Working papers | Owned by the CPA; client records must be returned |

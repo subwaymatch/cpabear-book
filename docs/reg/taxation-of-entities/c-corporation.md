@@ -1,248 +1,137 @@
 # C Corporation
 
-A **C corporation** is a separate legal and taxable entity. For REG, it is the classic corporate tax model: the corporation pays tax on its income, and shareholders may be taxed again when profits are distributed.
+A **C corporation** is a separate legal and taxable entity. It pays tax on its own income at a flat 21% rate, and its shareholders are taxed again when profits are distributed as dividends. For REG, the core skill is computing a C corporation's taxable income: the deductions with special limits, the treatment of capital losses and NOLs, the dividends-received deduction, and the credits that reduce the tax. This chapter covers those computations first, then the tax, credits, and estimated payments, and closes with a brief look at distributions and other corporate topics that are tested mainly in TCP.
 
 ## Core legal and tax profile
 
-- **Owners:** Shareholders.
+- **Owners:** Shareholders, with no limit on number or type.
 - **Liability:** Shareholders generally have limited liability.
-- **Federal return:** **Form 1120**.
-- **Tax character:** Entity-level taxation with possible second-level shareholder taxation.
-
-## Formation and capital structure
-
-### Section 351 formation
-
-When one or more persons transfer property to a corporation in exchange for stock and are in **control** immediately after the exchange, the transfer is generally tax free under **Section 351**.
-
-### Basis rules
-
-- Shareholder basis in stock generally starts with the basis of property transferred, adjusted for boot and other items.
-- The corporation generally takes a **carryover basis** in property received.
-
-### Capital structure
-
-Corporations can issue different classes of stock and debt, which makes them useful when a business needs outside capital.
+- **Federal return:** **Form 1120**, due the 15th day of the 4th month after year end (April 15 for a calendar-year corporation).
+- **Tax character:** Entity-level tax, with a second level of tax when shareholders receive dividends.
 
 ---
 
-## Taxation of operations
+## Computing taxable income
 
-### Corporate taxable income computation
+### The basic formula
 
-The corporation computes taxable income separately and pays tax at corporate rates. The basic formula mirrors individual income computation but uses corporate-specific rules:
+A corporation's taxable income follows the same broad pattern as an individual's, but with corporate rules for many items:
 
 | Step | Description |
 |------|-------------|
-| Gross income | Revenue from sales, services, dividends, interest, rents, royalties, and other sources |
-| Less: Cost of goods sold | Direct costs associated with producing revenue |
+| Gross income | Sales, services, dividends, interest, rents, royalties, and gains |
+| Less: Cost of goods sold | The cost of the goods sold during the year |
 | **Gross profit** | |
-| Less: Ordinary deductions | Compensation, rent, depreciation, repairs, bad debts, etc. |
-| Less: Special deductions | Dividends-received deduction (DRD), NOL deduction |
-| **Taxable income** | The amount subject to the corporate tax rate |
+| Less: Ordinary deductions | Compensation, rent, depreciation, repairs, bad debts, interest, taxes, charitable contributions, and so on |
+| **Taxable income before special deductions** | |
+| Less: Special deductions | The dividends-received deduction and the NOL deduction |
+| **Taxable income** | Taxed at 21% |
 
-:::info[Accounting Method: Accrual Requirement]
+A C corporation must use the **accrual method** unless it meets the small business **gross receipts test**: average annual gross receipts for the prior three years at or below a threshold that is indexed for inflation (\$32 million for 2026). Inventory may be valued using FIFO, LIFO, average cost, or specific identification. A corporation that uses LIFO for tax must also use it in its financial statements (the **LIFO conformity rule**).
 
-C corporations with average annual **gross receipts exceeding \$31 million** (for tax years beginning in 2025) over the prior three-year period must use the **accrual method** of accounting. Smaller corporations may use either the cash or accrual method. The threshold is adjusted annually for inflation.
+### Compensation
 
-:::
+Compensation is deductible if it is **reasonable** in amount and paid for services actually performed. Three limits are commonly tested:
 
-### Compensation deductions
+- **Public company pay over \$1 million.** A publicly held corporation cannot deduct more than \$1,000,000 a year of pay to a **covered employee**: the CEO, the CFO, the three other highest-paid officers, and anyone who was a covered employee in any year after 2016. Starting in 2026, pay from every member of the corporation's controlled group counts toward the limit. For tax years beginning after 2026, the next five highest-paid employees are added; that change is expected to be eligible for testing starting July 1, 2027.
+- **Accrued bonuses.** An accrual-method corporation may deduct a bonus accrued at year end only if it is paid within **2½ months** after the year ends. If Bear Co. accrues a \$50,000 bonus for a vice president on December 31, 2026, it must pay the bonus by **March 15, 2027** to deduct it for 2026.
+- **Related parties.** An accrual-method corporation cannot deduct an amount owed to a related cash-method person, such as a shareholder who owns more than 50% of the stock, until the year that person includes it in income.
 
-Compensation paid to employees is generally deductible if it is **reasonable in amount** and paid for services actually rendered.
-
-**Key limitations:**
-
-- **\$1 million cap on covered employees:** Under Section 162(m), a publicly traded C corporation cannot deduct compensation in excess of \$1 million per year for its **top five highest-compensated executives** (CEO, CFO, and three others). This limit applies to salary, bonuses, commissions, and nearly all other forms of remuneration.
-- **Accrual-basis bonus timing:** An accrual-basis corporation may deduct a bonus in the year it is accrued only if the bonus is paid **within 2½ months** after the close of the tax year. If Bear Co. accrues a \$50,000 bonus for its VP on December 31, 2025, it must pay the bonus by **March 15, 2026** to deduct it in 2025.
-- **Related-party payments:** Compensation owed to a related party (e.g., a controlling shareholder) by an accrual-basis corporation is not deductible until the year the related party **includes it in income**, effectively forcing cash-basis treatment for the deduction.
-
-:::caution[Compensation vs. Dividends]
-
-The IRS closely scrutinizes shareholder-employee compensation. If compensation is deemed unreasonably **high**, the excess is recharacterized as a nondeductible **dividend**. Conversely, if a corporation pays no salary and distributes all profits, the IRS may recharacterize distributions as compensation subject to payroll taxes.
-
-:::
+Compensation that the IRS finds **unreasonably high** for a shareholder-employee is recharacterized as a nondeductible **dividend**.
 
 ### Bad debts
 
-For tax purposes, C corporations must use the **direct write-off method**: a deduction is allowed only when a specific receivable becomes **wholly or partially worthless**.
+For tax purposes, a corporation deducts a bad debt only when a specific receivable becomes **wholly or partially worthless** (the direct write-off method). The GAAP allowance method is not allowed for tax, which makes bad debts one of the most common book-tax differences.
 
-| Method | Tax | GAAP |
-|--------|-----|------|
-| Direct write-off | Required | Not acceptable |
-| Allowance method | Not allowed | Required |
-
-This difference is one of the most common book-to-tax adjustments on the exam.
-
-**Example:** Polar Co. has \$200,000 in accounts receivable at year end. Under GAAP, Polar estimates \$12,000 of allowance for doubtful accounts. For tax, Polar can only deduct the specific receivable of \$3,500 from Den Corp that was determined to be uncollectible during the year.
+> **Example:** Polar Co. has \$200,000 of accounts receivable at year end and records a \$12,000 allowance for doubtful accounts on its books. For tax, it may deduct only the \$3,500 receivable from Den Corp. that it determined was uncollectible during the year.
 
 ### Business interest expense limitation
 
-Under **Section 163(j)**, the deduction for business interest expense is limited to:
+Under **Section 163(j)**, a corporation's deduction for business interest expense is limited to:
 
 $$
-\text{Business Interest Deduction} = \text{Business Interest Income} + 30\% \times \text{Adjusted Taxable Income (ATI)}
+\text{Deductible Business Interest} = \text{Business Interest Income} + 30\% \times \text{Adjusted Taxable Income (ATI)}
 $$
 
-- **ATI** is roughly taxable income before interest, NOLs, and depreciation/amortization adjustments.
-- Disallowed interest carries forward **indefinitely**.
-- Small businesses with average annual gross receipts of **\$31 million or less** (2025 threshold) are exempt from this limitation.
+**ATI** is taxable income computed **without** business interest expense and income, NOL deductions, and, for tax years beginning after 2024, **depreciation, amortization, and depletion**. In other words, ATI is roughly EBITDA. Interest disallowed in one year carries forward **indefinitely**. Corporations that meet the gross receipts test described above are exempt.
 
-**Example:** Panda Industries has \$500,000 of business interest expense, \$20,000 of business interest income, and ATI of \$1,200,000. The deduction limit is \$20,000 + (30% × \$1,200,000) = **\$380,000**. The remaining \$120,000 is carried forward.
+> **Example:** Panda Industries has \$500,000 of business interest expense, \$20,000 of business interest income, and ATI of \$1,200,000, computed before \$300,000 of depreciation. The limit is \$20,000 + (30% × \$1,200,000) = **\$380,000**, and the remaining \$120,000 carries forward. Because ATI is computed before depreciation, the \$300,000 of depreciation does not reduce the limit.
 
-### Charitable contribution limits
+### Charitable contributions
 
-A C corporation may deduct charitable contributions up to **10% of taxable income** computed **before** the charitable deduction, the DRD, NOL carryback, and capital loss carryback.
+A corporation may deduct charitable contributions up to **10%** of its taxable income computed **before** the charitable deduction, the dividends-received deduction, and any NOL or capital loss carryback. Beginning in 2026, OBBBA adds a **1% floor**: contributions are deductible only to the extent they exceed 1% of that same taxable income.
 
 | Rule | Detail |
 |------|--------|
-| Limitation | 10% of modified taxable income |
-| Carryforward | **5 years** (on a FIFO basis) |
+| Floor | Contributions are deductible only above **1%** of modified taxable income (from 2026) |
+| Cap | Total deductible contributions cannot exceed **10%** of modified taxable income |
+| Carryforward | Contributions over the cap carry forward **5 years**. Amounts disallowed by the 1% floor carry forward only from a year in which the 10% cap was also exceeded |
 | Carryback | Not allowed |
-| Accrual-basis timing | Board may authorize in current year; payment must occur by **15th day of 4th month** of next year |
+| Accrual-method timing | A contribution authorized by the board during the year may be deducted that year if it is paid by the **15th day of the 4th month** after year end |
 
-**Example:** Kodiak Inc. has taxable income of \$800,000 before charitable contributions and DRD. The maximum deduction is 10% × \$800,000 = **\$80,000**. If Kodiak donated \$95,000, only \$80,000 is deducted currently; the \$15,000 excess carries forward for up to five years.
-
-:::tip[Accrual-Basis Timing Rule]
-
-An accrual-basis C corporation can elect to deduct a charitable contribution in the year the **board of directors authorizes** the donation, as long as payment is made by the **15th day of the 4th month** following the close of the tax year (e.g., April 15 for a calendar-year corporation).
-
-:::
-
-### Business casualty losses
-
-A C corporation can deduct **casualty and theft losses** related to business property. Unlike individuals, corporations are **not** subject to the \$100 floor or the 10%-of-AGI threshold. Business casualty losses are deductible as ordinary losses.
-
-If insurance proceeds exceed the adjusted basis of the destroyed property, the corporation recognizes a gain but may defer it under **Section 1033** (involuntary conversion) if replacement property is acquired within the required period.
-
-### Organizational expenditures and start-up costs
-
-A corporation may **immediately expense** up to **\$5,000** of organizational expenditures in the year the corporation begins business, with the remainder amortized over **180 months** (15 years).
-
-The \$5,000 immediate deduction is **reduced dollar-for-dollar** when total organizational expenditures exceed **\$50,000**.
-
-| Cost Type | Examples | Immediate Deduction | Amortization |
-|-----------|----------|-------------------|--------------|
-| Organizational | Legal fees for charter, state filing fees, temporary directors' fees | Up to \$5,000 | 180 months |
-| Start-up costs | Market surveys, advertising before opening, training employees | Up to \$5,000 | 180 months |
-
-:::note
-
-Costs of issuing stock (e.g., commissions, printing stock certificates) are **not** organizational expenditures. They reduce paid-in capital and are never deductible.
-
-:::
-
-**Example:** Salmon Entertainment incorporates and incurs \$4,200 in organizational expenditures and \$48,000 in start-up costs. In year one, it deducts \$4,200 of organizational expenditures immediately (under the \$5,000 limit). For start-up costs, it deducts \$5,000 immediately and amortizes the remaining \$43,000 over 180 months.
+> **Example:** In 2026, Kodiak Inc. has modified taxable income of \$800,000 and gives \$50,000 to charity. The floor is 1% × \$800,000 = \$8,000, and the cap is 10% × \$800,000 = \$80,000. Kodiak deducts \$50,000 - \$8,000 = **\$42,000**. Because its contributions did not exceed the cap, the \$8,000 below the floor does not carry forward; it is a permanent book-tax difference.
 
 ### Capital gains and losses
 
-C corporations follow unique capital gain and loss rules:
-
 | Rule | C Corporation Treatment |
 |------|------------------------|
-| Capital gains rate | Taxed at **ordinary corporate rates** (no preferential rate) |
-| Net capital loss deduction | **Cannot** offset ordinary income (no \$3,000 deduction) |
-| Capital loss carryback | **3 years** |
-| Capital loss carryforward | **5 years** |
-| Character on carryback/forward | Always carried as **short-term** capital loss |
+| Rate on capital gains | Taxed at the regular **21%** rate; no preferential rate |
+| Net capital loss | **Cannot** offset ordinary income (no \$3,000 allowance) |
+| Carryback | **3 years** |
+| Carryforward | **5 years** |
+| Character when carried | Always a **short-term** capital loss |
 
-**Example:** Bear Co. has \$600,000 of ordinary income and a \$45,000 net capital loss in 2025. Bear Co. cannot deduct any of the capital loss against ordinary income. It must carry the loss back 3 years or forward up to 5 years to offset capital gains in those years.
+> **Example:** Bear Co. has \$600,000 of ordinary income and a \$45,000 net capital loss in 2026. It cannot deduct any of the capital loss this year. It carries the loss back 3 years, then forward up to 5 years, to offset capital gains in those years.
 
-:::caution
+### Dividends-received deduction
 
-Unlike individuals, C corporations receive **no preferential tax rate** on long-term capital gains; all capital gains are taxed at the flat 21% corporate rate.
+A corporation that receives dividends from a domestic corporation may deduct part of them, which keeps corporate profits from being taxed three or more times as they move between corporations. The percentage depends on the recipient's ownership:
 
-:::
-
-### Inventory valuation methods
-
-C corporations with inventory must account for it using an acceptable method:
-
-- **FIFO** (First-In, First-Out)
-- **LIFO** (Last-In, First-Out): if used for tax, must also be used for **financial reporting** (LIFO conformity rule)
-- **Weighted average cost**
-- **Specific identification**
-
-Inventory must be valued at the **lower of cost or market** (LCM) under FIFO, or simply at **cost** under LIFO.
-
-### Dividends-Received Deduction (DRD)
-
-When a C corporation receives dividends from another domestic C corporation, it may claim a **dividends-received deduction** to mitigate triple taxation. The percentage depends on the ownership level:
-
-| Ownership Percentage | DRD Percentage |
+| Ownership of the Paying Corporation | DRD |
 |---------------------|---------------|
 | Less than 20% | **50%** |
 | 20% to less than 80% | **65%** |
 | 80% or more (affiliated group) | **100%** |
 
-**Taxable income limitation:** The 50% and 65% DRD cannot exceed the same percentage of **taxable income** computed without the DRD, NOL deduction, and capital loss carryback. However, this limitation **does not apply** if taking the full DRD creates or increases a **net operating loss**.
+**Taxable income limit.** The 50% and 65% deductions cannot exceed that same percentage of taxable income computed without the DRD, the NOL deduction, and any capital loss carryback. The limit does **not** apply if taking the full DRD creates or increases a net operating loss.
 
-**Example: DRD computation**
+> **Example:** Polar Co. owns 25% of Kodiak Inc. and receives \$100,000 of dividends. Its taxable income before the DRD is \$140,000.
+>
+> | Step | Amount |
+> |------|--------|
+> | Dividends received | \$100,000 |
+> | DRD percentage (20% to 80% ownership) | 65% |
+> | Tentative DRD | \$65,000 |
+> | Taxable income limit: 65% × \$140,000 | \$91,000 |
+> | DRD allowed (the lesser) | **\$65,000** |
+>
+> If Polar Co.'s taxable income before the DRD were only \$80,000, the limit would be 65% × \$80,000 = \$52,000. A full \$65,000 DRD would still leave \$15,000 of taxable income, so the limit applies and the DRD is **\$52,000**. If its taxable income before the DRD were \$60,000 instead, a full \$65,000 DRD would create a \$5,000 NOL. The limit then does not apply, and Polar Co. deducts the full **\$65,000**.
 
-Polar Co. owns 25% of Kodiak Inc. stock and receives \$100,000 in dividends. Polar Co.'s taxable income before the DRD is \$140,000.
+### Organizational and start-up costs
 
-| Step | Amount |
-|------|--------|
-| Dividend income received | \$100,000 |
-| DRD percentage (20%-80% ownership) | 65% |
-| Tentative DRD | \$65,000 |
-| Taxable income limitation: 65% × \$140,000 | \$91,000 |
-| DRD allowed (lesser of tentative or TI limit) | **\$65,000** |
+A corporation may deduct up to **\$5,000** of organizational expenditures and, separately, up to **\$5,000** of start-up costs in the year it begins business. Each \$5,000 is reduced by the amount by which that category exceeds \$50,000, and the rest is amortized over **180 months**. The full rules are in [Determination of Basis](../property-transactions/determination-of-basis.md#organizational-and-start-up-costs). Costs of issuing stock, such as underwriting commissions, are neither: they reduce paid-in capital and are never deductible.
 
-Since \$65,000 < \$91,000, the full \$65,000 DRD is allowed.
+> **Example:** Salmon Entertainment Inc. incurs \$4,200 of organizational expenditures and \$48,000 of start-up costs before it opens. It deducts all \$4,200 of organizational expenditures in its first year. For start-up costs, it deducts \$5,000 and amortizes the remaining \$43,000 over 180 months.
 
-:::info[NOL Exception]
+### Business casualty losses
 
-If applying the full DRD would create or increase an NOL, the taxable income limitation is **disregarded** and the corporation takes the full DRD. This exception is commonly tested.
+A corporation deducts casualty and theft losses on business property as ordinary losses, without the \$100 floor or the 10%-of-AGI limit that apply to an individual's personal losses. If insurance proceeds exceed the property's adjusted basis, the resulting gain may be deferred by buying replacement property under the involuntary conversion rules.
 
-:::
+### Net operating losses
 
----
+| Feature | NOLs Arising Before 2018 | NOLs Arising After 2017 |
+|---------|--------------|----------------|
+| Carryback | 2 years | **None** (with narrow exceptions) |
+| Carryforward | 20 years | **Indefinite** |
+| Limit when used | 100% of taxable income | **80%** of taxable income (before the NOL deduction) |
 
-## Book-to-tax differences
+> **Example:** Bear Co. has a \$500,000 NOL in 2025. In 2026, its taxable income before the NOL deduction is \$400,000. It may deduct 80% × \$400,000 = **\$320,000**, leaving taxable income of \$80,000, and carries the remaining \$180,000 forward indefinitely.
 
-Because GAAP and tax rules differ, corporations must reconcile **book income** (per financial statements) to **taxable income**. Differences fall into two categories:
+The 80% limit means a corporation using post-2017 NOLs still pays some tax in a profitable year. OBBBA did not change the NOL rules.
 
-### Temporary differences
+### Book-to-tax differences
 
-These reverse over time and create **deferred tax assets** or **deferred tax liabilities**.
-
-| Item | Book Treatment | Tax Treatment |
-|------|---------------|---------------|
-| Depreciation | Straight-line (typically) | MACRS (accelerated) |
-| Bad debts | Allowance method | Direct write-off |
-| Prepaid income | Deferred on books | Often taxable when received |
-| Warranty expense | Accrued when estimated | Deductible when paid |
-| Installment sales | Full gain at sale | Gain as payments received |
-
-### Permanent differences
-
-These **never** reverse and create no deferred tax effect.
-
-| Item | Explanation |
-|------|-------------|
-| Tax-exempt municipal bond interest | Included in book income, excluded from taxable income |
-| Federal income tax expense | Deducted on books, **never** deductible for tax |
-| Life insurance premiums (corp is beneficiary) | Deducted on books, not deductible for tax |
-| Life insurance proceeds | Not taxable, but included in book income |
-| Meals (50% limit) | Full deduction on books, only 50% for tax |
-| Penalties and fines | Deducted on books, **never** deductible for tax |
-
-### Schedule M-1 and Schedule M-3
-
-- **Schedule M-1** reconciles book income to taxable income for corporations with total assets **under \$10 million**.
-- **Schedule M-3** is required for corporations with total assets of **\$10 million or more** and provides a more detailed reconciliation with separate columns for temporary and permanent differences.
-
-:::tip[Schedule M-1 Shortcut]
-
-Start with **book income**, then:
-- **Add back** items deducted on books but not on the return (e.g., federal tax expense, excess capital losses, 50% of meals)
-- **Add back** income reported on the return but not on books (e.g., prepaid income received)
-- **Subtract** income on books not on the return (e.g., tax-exempt interest)
-- **Subtract** deductions on the return not on books (e.g., excess tax depreciation)
-= **Taxable income**
-
-:::
+Because GAAP and the tax law differ, a corporation reconciles book income to taxable income on Schedule M-1 or M-3. Permanent and temporary differences, the reconciliation formats, and trial balance review are covered in [Book-Tax Differences](./book-tax-differences.md).
 
 ---
 
@@ -250,177 +139,75 @@ Start with **book income**, then:
 
 ### The 21% flat rate
 
-Since the Tax Cuts and Jobs Act (TCJA), C corporations pay a **flat 21%** federal income tax rate on taxable income. There are no graduated brackets.
+C corporations pay a **flat 21%** federal income tax on taxable income, with no graduated brackets. The rate was set by the Tax Cuts and Jobs Act and was not changed by OBBBA.
 
 $$
 \text{Federal Tax} = \text{Taxable Income} \times 21\%
 $$
 
-**Example:** Panda Industries has taxable income of \$2,000,000. Federal tax = \$2,000,000 × 21% = **\$420,000**.
-
-### Estimated tax payments
-
-A C corporation must make **quarterly estimated tax payments** if it expects to owe \$500 or more in tax. Payments are due on the **15th day of the 4th, 6th, 9th, and 12th months** of the tax year.
-
-| Quarter | Due Date (Calendar Year) |
-|---------|------------------------|
-| 1st | April 15 |
-| 2nd | June 15 |
-| 3rd | September 15 |
-| 4th | December 15 |
-
-To avoid an underpayment penalty, the corporation generally must pay the **lesser of**:
-- 100% of current-year tax liability, or
-- 100% of prior-year tax liability (not available for **large corporations** after the first installment)
-
-:::note[Large Corporation Rule]
-
-A **large corporation** (taxable income ≥ \$1 million in any of the three preceding years) may use the prior-year safe harbor only for the **first installment**. The remaining three installments must be based on the current-year liability.
-
-:::
+> **Example:** Panda Industries has taxable income of \$2,000,000. Its federal income tax is \$2,000,000 × 21% = **\$420,000**.
 
 ### Tax credits
 
-C corporations may reduce their tax liability with various credits:
+Credits reduce the tax dollar for dollar:
 
 | Credit | Description |
 |--------|-------------|
-| **General Business Credit (GBC)** | An umbrella credit that includes the investment credit, work opportunity credit, low-income housing credit, and others. Subject to a limitation based on tax liability. |
-| **Research & Development Credit** | 20% of qualified research expenditures exceeding a base amount (regular method), or 14% using the alternative simplified credit. |
-| **Foreign Tax Credit** | Credit for income taxes paid to foreign governments, limited to the U.S. tax attributable to foreign-source income. Excess credits carry back 1 year and forward 10 years. |
-| **Minimum Tax Credit** | Corporations that paid AMT in years before 2018 may have minimum tax credit carryforwards to offset regular tax. |
+| **General business credit** | An umbrella for many business credits, such as the research credit, the work opportunity credit, the low-income housing credit, and the employer credits for child care and paid family leave. Limited each year based on tax liability; unused credits carry back 1 year and forward 20 |
+| **Research credit** | 20% of qualified research expenses above a base amount, or 14% under the alternative simplified method |
+| **Foreign tax credit** | Credit for foreign income taxes, limited to the U.S. tax on foreign-source income; excess credits carry back 1 year and forward 10 |
+
+### Estimated tax payments
+
+A corporation that expects to owe **\$500 or more** of tax must pay estimated tax in four installments, due on the 15th day of the **4th, 6th, 9th, and 12th months** of the tax year (April 15, June 15, September 15, and December 15 for a calendar-year corporation).
+
+To avoid an underpayment penalty, each installment must be at least 25% of the **lesser** of:
+
+- 100% of the **current year's** tax, or
+- 100% of the **prior year's** tax, if the prior year was a full 12-month year with a positive tax liability
+
+A **large corporation**, one with taxable income of \$1 million or more in any of the three preceding years, may use the prior-year amount only for its **first** installment. Its remaining installments must be based on the current year's tax.
 
 ---
 
-## Penalty taxes
+## Other corporate topics
 
-### Accumulated earnings tax
+### Distributions
 
-The **accumulated earnings tax** discourages C corporations from retaining earnings beyond the reasonable needs of the business to help shareholders avoid dividend taxation.
+A nonliquidating distribution to shareholders is taxed in three tiers:
 
-| Feature | Detail |
-|---------|--------|
-| Tax rate | **20%** of accumulated taxable income |
-| Exemption | First **\$250,000** of accumulated E&P (\$150,000 for personal service corporations) |
-| Applies to | Corporations that accumulate earnings **beyond reasonable business needs** |
-| Key defense | Specific, definite, and feasible plans for using the retained earnings |
+1. **Dividend** to the extent of the corporation's current and accumulated **earnings and profits (E&P)**
+2. **Return of capital**, tax-free, to the extent of the shareholder's stock basis
+3. **Capital gain** for any excess
 
-**Example:** Honey Security is a C corporation with accumulated E&P of \$400,000 and no specific plans for using the excess funds. The IRS may assert the accumulated earnings tax on the amount exceeding \$250,000 (that is, on \$150,000), resulting in a potential tax of \$150,000 × 20% = **\$30,000**.
+Dividends are not deductible by the corporation, which is the source of double taxation. A corporation that distributes appreciated property also recognizes gain as if it had sold the property. Property distributions, E&P computations, liquidations, and reorganizations are tested in TCP and covered in [Formation and Liquidation](../../tcp/entity-tax-planning/formation-and-liquidation.md).
 
-:::caution
+### Formation
 
-The accumulated earnings tax is based on the **subjective** determination that the corporation is retaining earnings to avoid dividends. Corporations should document specific, definite, and feasible **business plans** for retained funds (e.g., expansion, debt retirement, working capital needs).
+When one or more persons transfer property to a corporation for its stock and together **control** it (own at least 80%) immediately afterward, no gain or loss is generally recognized under **Section 351**. The shareholders take a basis in their stock equal to the basis of the property transferred, adjusted for any boot, and the corporation takes a carryover basis in the property.
 
-:::
+### Penalty taxes
 
-### Personal holding company (PHC) tax
+Two corporate penalty taxes exist mainly to stop shareholders from using a corporation to avoid dividend tax: the **accumulated earnings tax**, a 20% tax on earnings kept beyond the reasonable needs of the business, and the **personal holding company tax**, a 20% tax on the undistributed passive income of a closely held corporation. Neither is named in the 2027 REG blueprint, so recognizing what each targets is enough.
 
-The PHC tax targets closely held corporations used primarily to hold passive investments.
+### Choosing a C corporation
 
-**Two-part test (both must be met):**
-
-1. **Ownership test:** More than **50%** of the corporation's outstanding stock is owned (directly or constructively) by **five or fewer individuals** at any time during the last half of the tax year.
-2. **Income test:** At least **60%** of the corporation's **adjusted ordinary gross income** is **personal holding company income** (PHCI), which includes dividends, interest, rents (sometimes), royalties, and certain personal service income.
-
-| Feature | Detail |
-|---------|--------|
-| Tax rate | **20%** of undistributed PHC income |
-| Avoidance | Pay a **deficiency dividend** to eliminate or reduce the PHC tax |
-| Common PHCI | Dividends, interest, rents (if < 50% of AOGI), royalties, personal service contract income |
+Businesses often choose a C corporation when they need several classes of stock, plan to raise money from institutional or venture investors, want to reinvest earnings at the 21% rate, or want shareholders to qualify for the exclusion of gain on **qualified small business stock** (see [Gains and Losses](../property-transactions/gains-and-losses.md#rates)). The cost is the second layer of tax on distributed profits, and losses stay inside the corporation rather than passing through to the owners.
 
 ---
-
-## Net operating losses (NOLs)
-
-The treatment of corporate NOLs depends on when the loss arose:
-
-| Feature | Pre-2018 NOLs | Post-2017 NOLs |
-|---------|--------------|----------------|
-| Carryback | 2 years (general rule) | **No carryback** (with limited exceptions) |
-| Carryforward | 20 years | **Indefinitely** |
-| Limitation | Could offset **100%** of taxable income | Limited to **80%** of taxable income in the carryforward year |
-
-**Example:** Bear Co. generates a \$500,000 NOL in 2025. In 2026, Bear Co. has taxable income of \$400,000 before the NOL deduction. The maximum NOL deduction in 2026 is 80% × \$400,000 = **\$320,000**. The remaining \$180,000 carries forward indefinitely.
-
-:::info
-
-The 80% limitation ensures that a profitable corporation always pays **some** tax in years when it uses post-2017 NOL carryforwards. This is a frequently tested concept.
-
-:::
-
-### Capital loss rules recap
-
-Remember that C corporation capital losses follow different rules from individuals:
-
-- **No deduction** against ordinary income
-- Carryback **3 years**, carryforward **5 years**
-- Always carried as **short-term** capital losses
-- Must be used against **capital gains only**
-
----
-
-## Deductible versus nondeductible payments
-
-- **Reasonable compensation** paid to employee-shareholders is generally deductible by the corporation.
-- **Dividends** are not deductible.
-
-This distinction is a common REG issue because taxpayers may try to label dividends as compensation.
-
-## Corporate distributions
-
-A nonliquidating distribution follows a three-step pattern at the shareholder level:
-
-1. Dividend income to the extent of current and accumulated **earnings and profits (E&P)**
-2. Return of capital to the extent of stock basis
-3. Capital gain for any excess
-
-The corporation may also recognize gain when it distributes appreciated property.
-
-## Liquidation and reorganization themes
-
-### Liquidation
-
-- The corporation may recognize gain or loss on property distributed in complete liquidation.
-- Shareholders generally treat liquidating distributions as payment in exchange for their stock.
-
-### Reorganizations
-
-Some reorganizations can qualify for nonrecognition treatment if statutory requirements are met, but REG usually focuses on the broad idea that not every restructuring creates immediate tax.
-
-## When businesses choose a C corporation
-
-C corporations are often preferred when a business needs:
-
-- Multiple classes of equity
-- Institutional or venture capital investors
-- Easier retention of earnings inside the entity
-- The possibility of **qualified small business stock (QSBS)** treatment if requirements are met
-
-## Advantages and disadvantages
-
-| Topic | C Corporation |
-| --- | --- |
-| Liability protection | Strong |
-| Capital raising | Best among common entity forms |
-| Tax regime | Entity-level tax plus possible dividend tax |
-| Loss use | Losses stay with the corporation |
-| Ownership flexibility | Broadest flexibility |
 
 ## REG quick hits
 
-- C corporations file Form 1120.
-- The corporation is a separate taxpayer.
-- Section 351 is central to formation questions.
-- Dividends are not deductible; the DRD reduces triple taxation on intercorporate dividends.
-- The flat corporate rate is **21%**.
-- Charitable contributions are limited to **10%** of modified taxable income.
-- Capital losses cannot offset ordinary income; they carry back 3 years and forward 5 years.
+- C corporations file Form 1120 and pay a flat **21%** tax.
+- The 163(j) limit is business interest income plus **30% of ATI**, and ATI is computed before depreciation, amortization, and depletion.
+- Charitable contributions are deductible only above a **1% floor** (from 2026) and up to a **10% cap** of modified taxable income; excess over the cap carries forward 5 years.
+- Capital losses offset only capital gains; they carry back 3 years and forward 5 years as short-term losses.
+- The DRD is 50%, 65%, or 100%, subject to a taxable income limit that does not apply when the full DRD creates or increases an NOL.
 - Post-2017 NOLs carry forward indefinitely but are limited to **80%** of taxable income.
-- The accumulated earnings tax and PHC tax are penalty taxes on retained earnings and passive income.
-- Distributions depend on E&P and shareholder stock basis.
-- Liquidating distributions and reorganizations have their own corporate tax rules.
-- Book-to-tax differences are reconciled on Schedule M-1 (small) or M-3 (large).
+- Accrued bonuses must be paid within 2½ months of year end to be deducted.
+- Large corporations may use the prior-year estimated tax safe harbor only for the first installment.
+- Book-to-tax differences are reconciled on Schedule M-1 (smaller corporations) or M-3 (assets of \$10 million or more).
 
 ## Bottom line
 
-A C corporation offers strong liability protection and the most financing flexibility, but that comes with entity-level taxation and possible double taxation. On REG, expect questions on formation, E&P, distributions, liquidation, the DRD, book-to-tax differences, NOL limitations, penalty taxes, and the difference between compensation and dividends.
+A C corporation offers strong liability protection and the most flexible way to raise capital, but its profits are taxed at the corporate level and again when distributed. On REG, expect to compute taxable income with its special limits (interest, charitable contributions, capital losses, NOLs, and the DRD), apply credits and the 21% rate, and reconcile book income to taxable income.

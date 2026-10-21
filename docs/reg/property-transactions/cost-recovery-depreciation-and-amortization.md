@@ -2,271 +2,195 @@
 
 ## Introduction
 
-Cost recovery allows a taxpayer to deduct the cost of business or income-producing property over its useful life. The primary system for tangible property is the **Modified Accelerated Cost Recovery System (MACRS)**. Additional provisions (**Section 179 expensing**, **bonus depreciation**, and **Section 197 amortization**) accelerate or simplify cost recovery. This chapter also covers depletion of natural resources and the interplay between cost recovery and depreciation recapture.
+A business that buys an asset lasting more than a year generally cannot deduct the cost right away. It recovers the cost over time through **depreciation** (for tangible property) or **amortization** (for intangibles). For most tangible property, the rules come from the **Modified Accelerated Cost Recovery System (MACRS)**. Two provisions let a business deduct much more in the first year: **bonus depreciation** and the **Section 179** election. Both were expanded by the One Big Beautiful Bill Act (OBBBA) in 2025, so they matter more on the exam than ever.
+
+This chapter covers MACRS recovery periods, methods, and conventions; then bonus depreciation and Section 179 and how they fit together; then listed property, amortization of intangibles, and research expenditures. It ends with how to review a depreciation schedule, which the blueprint tests directly.
 
 ---
 
 ## MACRS Depreciation
 
-### Overview
+### Recovery Periods
 
-MACRS applies to most tangible property placed in service after 1986. It assigns each asset a **recovery period** and a **depreciation method** based on the asset's class. MACRS has two subsystems:
+MACRS assigns each asset a **recovery period** based on its class. The **General Depreciation System (GDS)** applies unless the taxpayer must or chooses to use the Alternative Depreciation System (ADS) described below.
 
-| System | Name | When Used |
-|---|---|---|
-| **GDS** | General Depreciation System | Default for most property |
-| **ADS** | Alternative Depreciation System | Required for listed property failing the business-use test, property used predominantly outside the U.S., tax-exempt bond-financed property, and any property for which the taxpayer elects ADS |
-
-:::info
-
-ADS uses the **straight-line method** over a longer recovery period. It is also required for computing earnings and profits (E&P) and, historically, for AMT depreciation adjustments.
-
-:::
-
-### Recovery Periods Under GDS
-
-| Recovery Period | Property Examples |
+| Recovery Period | Examples |
 |---|---|
-| **3-year** | Tractor units, racehorses (2+ years old), qualified rent-to-own property |
-| **5-year** | Automobiles, light trucks, computers, office equipment, research equipment |
-| **7-year** | Office furniture, fixtures, agricultural machinery, any property without a designated class |
-| **10-year** | Water transportation equipment, single-purpose agricultural structures |
-| **15-year** | Land improvements (sidewalks, fences, parking lots), qualified improvement property (QIP) |
+| **3-year** | Tractor units for over-the-road use, certain racehorses |
+| **5-year** | Automobiles, light trucks, computers, copiers and other office equipment, research equipment |
+| **7-year** | Office furniture and fixtures, agricultural machinery, and any property with no assigned class |
+| **10-year** | Vessels and barges, single-purpose agricultural structures |
+| **15-year** | Land improvements (sidewalks, fences, parking lots) and qualified improvement property (QIP), meaning interior improvements to nonresidential buildings |
 | **20-year** | Farm buildings, municipal sewers |
-| **27.5-year** | Residential rental property (apartments, rental houses) |
-| **39-year** | Nonresidential real property (offices, warehouses, retail buildings) |
+| **27.5-year** | Residential rental property |
+| **39-year** | Nonresidential real property, such as offices, warehouses, and stores |
 
-> **Example:** Polar Co. purchases office furniture for \$70,000 and a warehouse for \$500,000. The furniture is 7-year MACRS property; the warehouse is 39-year MACRS property.
+Land is never depreciable.
 
-### Depreciation Methods Under GDS
+> **Example:** Polar Co. buys office furniture for \$70,000 and a warehouse for \$500,000. The furniture is 7-year property, and the warehouse is 39-year property.
 
-| Property Type | Method |
+### Methods
+
+| Property | Method |
 |---|---|
-| 3-, 5-, 7-, 10-year property | **200% declining balance** switching to straight-line |
-| 15- and 20-year property | **150% declining balance** switching to straight-line |
+| 3-, 5-, 7-, and 10-year property | **200% declining balance**, switching to straight-line when that gives a larger deduction |
+| 15- and 20-year property | **150% declining balance**, switching to straight-line |
 | 27.5- and 39-year real property | **Straight-line** |
 
-### ADS Recovery Periods (Selected)
+On the exam, you will usually be given a MACRS percentage table. The first-year rate for 5-year property under the half-year convention, for example, is 20%.
 
-| Property | ADS Life |
+### The Alternative Depreciation System
+
+**ADS** uses the **straight-line method** over longer recovery periods. It is **required** for listed property used 50% or less for business, property used mainly outside the United States, and property financed with tax-exempt bonds, and a taxpayer may elect it for any class of property. ADS is also used to compute earnings and profits.
+
+| Property | ADS Recovery Period |
 |---|---|
-| Automobiles | 5 years |
-| Computers | 5 years |
+| Automobiles and computers | 5 years |
 | Office furniture | 10 years |
+| Qualified improvement property | 20 years |
 | Residential rental property | 30 years |
 | Nonresidential real property | 40 years |
-| Qualified improvement property | 20 years |
 
 ---
 
-## Depreciation Conventions
+## Conventions
 
-A **convention** determines how much depreciation is allowed in the year property is placed in service and the year it is disposed of.
+A **convention** sets how much depreciation is allowed in the year an asset is placed in service and the year it is disposed of.
 
-### Half-Year Convention (Default)
+### Half-Year Convention
 
-All property placed in service (or disposed of) during the year is treated as placed in service (or disposed of) at the **midpoint** of the year. The taxpayer receives **half a year's depreciation** in Year 1.
+The default for personal property. Every asset placed in service or disposed of during the year is treated as if it happened at the **midpoint of the year**, so the first year gets half a year of depreciation.
 
 ### Mid-Quarter Convention
 
-Applies when **more than 40%** of the total depreciable basis of all MACRS personal property placed in service during the year is placed in service in the **last quarter** (Q4). Under this convention, each asset is treated as placed in service at the midpoint of the quarter in which it was actually placed in service.
+The mid-quarter convention replaces the half-year convention for **all** personal property placed in service during the year if **more than 40%** of the year's depreciable basis in that property was placed in service in the **last quarter**. Each asset is then treated as placed in service at the midpoint of its quarter, so an asset placed in service in the first quarter gets 10.5 months of depreciation, and one placed in service in the fourth quarter gets only 1.5 months. Property expensed under Section 179 is left out of the 40% test.
 
-:::tip[Exam Tip]
-
-The mid-quarter convention can **help or hurt** a taxpayer. Property placed in service in Q1 gets 10.5 months of depreciation, while Q4 property gets only 1.5 months. Watch for exam questions with large Q4 purchases that trigger this convention.
-
-:::
-
-> **Example:** Kodiak Inc. places \$30,000 of equipment in service in March and \$50,000 in November. Since \$50,000 / \$80,000 = 62.5% was placed in service in Q4 (exceeding 40%), the mid-quarter convention applies to **all** assets placed in service that year.
+> **Example:** Kodiak Inc. places \$30,000 of equipment in service in March and \$50,000 in November. Because \$50,000 ÷ \$80,000 = 62.5% of the year's basis was placed in service in the fourth quarter, more than 40%, the mid-quarter convention applies to **both** purchases.
 
 ### Mid-Month Convention
 
-Applies to **real property** (27.5-year and 39-year). Property is treated as placed in service at the **midpoint of the month** it is actually placed in service.
+Real property (27.5-year and 39-year) uses the **mid-month** convention: the property is treated as placed in service, or disposed of, in the middle of the month.
 
-> **Example:** Panda Industries places a commercial building in service on March 8. Under the mid-month convention, depreciation begins on March 15, so the taxpayer claims 9.5 months of depreciation in Year 1 (mid-March through December).
-
----
-
-## Section 179 Expensing Election
-
-### Overview
-
-IRC §179 allows a taxpayer to **expense** (immediately deduct) the cost of qualifying tangible personal property and certain improvements in the year placed in service, rather than depreciating it over multiple years.
-
-### Key Limits (2024 Approx.)
-
-| Provision | Amount |
-|---|---|
-| Maximum §179 deduction | \$1,220,000 |
-| Investment ceiling (phase-out begins) | \$3,050,000 |
-| Phase-out | Dollar-for-dollar reduction after ceiling |
-
-### Qualifying Property
-
-- Tangible personal property purchased for use in the active conduct of a trade or business.
-- Off-the-shelf computer software.
-- Qualified improvement property (QIP): interior improvements to nonresidential real property.
-- Certain improvements to nonresidential real property: roofs, HVAC, fire protection, alarm systems, and security systems.
-
-### Limitations
-
-1. **Business income limitation**: The §179 deduction cannot exceed the taxpayer's aggregate taxable income from all active trades or businesses. Any excess carries forward indefinitely.
-2. **Dollar-for-dollar phase-out**: When total qualifying property placed in service exceeds the investment ceiling, the maximum deduction is reduced dollar-for-dollar.
-
-> **Example:** Grizzly Partners places \$3,100,000 of qualifying equipment in service. The excess is \$3,100,000 - \$3,050,000 = \$50,000. The maximum §179 deduction is reduced to \$1,220,000 - \$50,000 = **\$1,170,000**.
-
-:::caution
-
-Section 179 is an **election**; it is not automatic. The taxpayer specifies which assets and how much cost to expense on the return. The election may be revoked only with IRS consent.
-
-:::
+> **Example:** Panda Industries places a commercial building in service on March 8. Under the mid-month convention, depreciation begins in mid-March, so the first year includes 9.5 months (half of March plus April through December).
 
 ---
 
-## Bonus Depreciation (IRC §168(k))
+## Bonus Depreciation
 
-### Overview
+### The Rule
 
-Bonus depreciation allows taxpayers to deduct a **percentage** of the cost of qualifying new (and used, post-TCJA) property in the year placed in service, **before** regular MACRS depreciation.
+**Bonus depreciation** (§168(k)), also called the special depreciation allowance, lets a business deduct a percentage of an eligible asset's cost in the year it is placed in service, before regular MACRS depreciation. OBBBA restored a **permanent 100%** rate for property **acquired after January 19, 2025**. Property counts as acquired before that date if a written binding contract for it existed before January 20, 2025.
 
-### Phase-Down Schedule
+Property acquired **before** January 20, 2025 stays on the old phase-down schedule: 40% if placed in service in 2025, 20% in 2026, and nothing after that. For the first tax year ending after January 19, 2025, a taxpayer may also elect a reduced 40% rate on new property.
 
-| Year Placed in Service | Bonus Rate |
-|---|---|
-| 2020-2022 | 100% |
-| 2023 | 80% |
-| 2024 | 60% |
-| 2025 | 40% |
-| 2026 | 20% |
-| 2027+ | 0% |
+Bonus depreciation applies automatically. A taxpayer that does not want it must **elect out** for an entire class of property for the year (for example, all 5-year property).
 
-### Qualifying Property
+### Eligible Property
 
-- MACRS property with a recovery period of **20 years or less**.
-- Qualified improvement property (QIP).
-- Computer software depreciable over 3 years.
-- Water utility property.
-- Certain film, television, and live theatrical productions.
+- MACRS property with a recovery period of **20 years or less**, such as equipment, vehicles, furniture, and land improvements
+- **Qualified improvement property**
+- Off-the-shelf computer software
+- **Used** property, if the taxpayer did not use it before and did not buy it from a related party
 
-:::info
+Buildings themselves (27.5-year and 39-year property) are not eligible. OBBBA added a separate, elective 100% allowance for **qualified production property**: the part of a new nonresidential building used directly in manufacturing, production, or refining, if construction begins after January 19, 2025 and before 2029. Offices and other non-production space in the building do not qualify, and the deduction is recaptured if the use changes within 10 years.
 
-Unlike §179, bonus depreciation has **no taxable income limitation** and **no investment ceiling**. It can create or increase a net operating loss.
-
-:::
-
-### Interaction With Section 179
-
-When a taxpayer claims both §179 and bonus depreciation on different assets, the order of deductions is:
-
-1. **Section 179** deduction first (subject to income limitation).
-2. **Bonus depreciation** on remaining eligible basis.
-3. **Regular MACRS** depreciation on any remaining basis.
-
-> **Example:** Salmon Entertainment purchases \$200,000 of studio equipment (5-year MACRS) in 2024. It elects to expense \$50,000 under §179 and claims 60% bonus on the remaining \$150,000. Bonus = \$90,000. The remaining \$60,000 is depreciated under regular MACRS. Year 1 total deduction: \$50,000 + \$90,000 + \$12,000 (half-year, 200% DB) = **\$152,000**.
+Bonus depreciation has **no dollar limit** and **no taxable income limit**, so it can create or increase a net operating loss.
 
 ---
 
-## Listed Property
+## Section 179 Expensing
 
-**Listed property** includes assets susceptible to personal use, such as passenger automobiles, entertainment property, and computers (if not used exclusively at a regular business establishment). Special rules apply:
+### The Election
 
-1. If business use is **50% or less**, the taxpayer must use **ADS straight-line** depreciation instead of MACRS and cannot claim §179 or bonus depreciation.
-2. **Passenger automobiles** are subject to annual depreciation caps (luxury auto limits).
+**Section 179** lets a taxpayer elect to **expense** the cost of eligible property in the year it is placed in service instead of depreciating it. Unlike bonus depreciation, it is chosen asset by asset, and it is subject to two limits.
 
-### Luxury Auto Depreciation Caps (2024 Approx.)
+Eligible property includes:
 
-| Year | With Bonus | Without Bonus |
-|---|---|---|
-| Year 1 | \$20,400 | \$12,400 |
-| Year 2 | \$19,800 | \$19,800 |
-| Year 3 | \$11,900 | \$11,900 |
-| Year 4+ | \$7,160 | \$7,160 |
+- Tangible personal property bought for use in the active conduct of a trade or business (more than 50% business use)
+- Off-the-shelf computer software
+- **Qualified improvement property**
+- Certain improvements to nonresidential buildings: roofs, HVAC systems, fire protection and alarm systems, and security systems
+
+Because Section 179 covers these building improvements, which bonus depreciation does not (except for QIP), it remains useful even with 100% bonus depreciation.
+
+### The Limits
+
+1. **Dollar limit with phase-out.** The deduction is capped at a maximum amount, and the cap is reduced **dollar for dollar** by the cost of Section 179 property placed in service during the year above an investment threshold. OBBBA set the cap at **\$2,500,000** and the threshold at **\$4,000,000** for 2025; both are indexed after 2025 (\$2,560,000 and \$4,090,000 for 2026).
+2. **Business income limit.** The deduction cannot exceed the taxpayer's taxable income from all active trades or businesses. Any amount disallowed by this limit carries forward indefinitely.
+
+> **Example:** In 2025, Grizzly Partners places \$4,050,000 of equipment in service. The cost exceeds the \$4,000,000 threshold by \$50,000, so the maximum Section 179 deduction is \$2,500,000 - \$50,000 = **\$2,450,000**. If the partnership's business income is only \$1,000,000, the deduction is limited to \$1,000,000, and \$1,450,000 carries forward.
+
+A taxpayer may revoke a Section 179 election for any property on an amended return, but a revocation cannot later be undone.
+
+### Combining Section 179, Bonus, and MACRS
+
+When a taxpayer uses more than one provision on the same asset, they apply in this order:
+
+1. **Section 179** first, on the amount elected
+2. **Bonus depreciation** on the remaining basis
+3. **Regular MACRS** on whatever basis is left
+
+> **Example:** In 2026, Salmon Entertainment places in service \$200,000 of 5-year studio equipment it bought that year, and it elects to expense \$50,000 under Section 179.
+>
+> - **With 100% bonus depreciation**, bonus covers the remaining \$150,000. The first-year deduction is \$50,000 + \$150,000 = **\$200,000**, the entire cost.
+> - **If Salmon elects out of bonus depreciation** for 5-year property, the remaining \$150,000 is depreciated under MACRS at the first-year rate of 20%, or \$30,000. The first-year deduction is \$50,000 + \$30,000 = **\$80,000**.
+
+---
+
+## Listed Property and Vehicles
+
+**Listed property** is property that lends itself to personal use, mainly **passenger automobiles** and other vehicles. Two rules apply:
+
+1. If business use is **50% or less**, the taxpayer must use **ADS straight-line** depreciation and may not claim Section 179 or bonus depreciation. If business use later drops to 50% or less, excess depreciation claimed in earlier years is recaptured as income.
+2. **Passenger automobiles** are subject to annual dollar caps on depreciation (often called the luxury auto limits), including a higher first-year cap when bonus depreciation is claimed. The caps are indexed each year, so an exam question will give them.
+
+A sport utility vehicle with a gross vehicle weight rating of more than **6,000 pounds** is not a passenger automobile, so the annual caps do not apply. Its Section 179 deduction, however, is limited to a separate indexed amount (\$32,000 for 2026).
+
+> **Example:** Honey Security buys a \$55,000 sedan used 100% for business. Assume the first-year cap for a passenger automobile with bonus depreciation is \$20,000. Honey Security's first-year depreciation is limited to **\$20,000**, even though the full cost would otherwise qualify for bonus depreciation. The unrecovered cost is deducted in later years, subject to the caps for those years.
+
+---
+
+## Amortization of Intangibles
+
+### Section 197 Intangibles
+
+Most intangibles acquired in the purchase of a business are **Section 197 intangibles**, amortized **straight-line over 15 years** (180 months) beginning in the month of acquisition. They include:
+
+- Goodwill and going-concern value
+- Customer lists, supplier relationships, and workforce in place
+- Covenants not to compete entered into in connection with buying a business
+- Franchises, trademarks, and trade names
+- Patents, copyrights, and software acquired as part of a business
+- Licenses and permits granted by a government
+
+**Self-created** intangibles, such as a patent the taxpayer develops, generally are not Section 197 intangibles. If the taxpayer sells or abandons one Section 197 intangible at a loss while keeping others acquired in the same transaction, the loss is not deductible; it is added to the basis of the intangibles kept.
+
+> **Example:** Cub Records buys a competitor's business for \$1,500,000, and \$300,000 of the price is allocated to a customer list. Cub Records amortizes the customer list over 15 years, or \$300,000 ÷ 15 = **\$20,000** for each full year.
+
+Organizational costs, start-up costs, and loan costs have their own amortization rules, covered in [Determination of Basis](./determination-of-basis.md#organizational-and-start-up-costs).
+
+### Research and Experimental Expenditures
+
+Starting with tax years beginning after 2024, **domestic** research and experimental expenditures, including software development costs, can again be **deducted currently** under new §174A. A taxpayer may instead elect to capitalize them and amortize them over at least 60 months. **Foreign** research costs must still be amortized over **15 years**. A taxpayer that capitalized domestic research costs in 2022 through 2024, as the law then required, may deduct the unamortized balance in its first tax year beginning after 2024 or spread it over two years. A business that claims the research credit must coordinate it with the deduction.
+
+---
+
+## Reviewing a Depreciation Schedule
+
+The blueprint asks candidates to review a depreciation and amortization schedule against its source data and to resolve discrepancies flagged by diagnostic software. A careful review checks:
+
+- **Additions:** each new asset's cost, placed-in-service date, and class match the invoices, and land is not being depreciated.
+- **Conventions:** the mid-quarter test was performed, and real property uses the mid-month convention.
+- **Elections:** bonus depreciation was applied (or elected out of) consistently by class, the acquisition date supports the bonus rate used, and Section 179 stays within both the dollar limit and the business income limit.
+- **Listed property:** business-use percentages are documented, and vehicles stay within the annual caps.
+- **Disposals:** sold or retired assets are removed, with depreciation in the year of disposal computed under the right convention.
+- **Intangibles:** each Section 197 intangible is amortized over 180 months from the month acquired.
 
 :::tip[Exam Tip]
 
-SUVs with a gross vehicle weight rating (GVWR) exceeding **6,000 pounds** are exempt from the luxury auto caps but are subject to a \$28,900 (2024) Section 179 limit. These are not considered passenger automobiles for cap purposes.
+Diagnostic flags in a simulation often point to one of a few errors: depreciating land, using the half-year convention when the mid-quarter test was met, claiming bonus depreciation on a building, or taking Section 179 above the business income limit. Check those first.
 
 :::
-
-> **Example:** Honey Security purchases a sedan for \$55,000 used 100% for business in 2024 and claims bonus depreciation. The Year 1 deduction is limited to **\$20,400** despite the full cost being eligible.
-
----
-
-## Amortization of Intangibles (Section 197)
-
-### Overview
-
-**Section 197 intangibles** are amortized ratably over **15 years** (180 months) using the straight-line method beginning in the month of acquisition.
-
-### Qualifying Section 197 Intangibles
-
-- Goodwill
-- Going-concern value
-- Covenants not to compete (acquired as part of a business)
-- Customer lists, supplier relationships
-- Franchises, trademarks, and trade names
-- Patents and copyrights acquired as part of a business acquisition
-- Workforce in place
-- Licenses and permits granted by governmental units
-
-### Key Rules
-
-- Self-created intangibles are generally **not** Section 197 property (e.g., internally developed patents are depreciated under their own rules or §167).
-- A **loss on disposition** of a §197 intangible is not deductible if the taxpayer retains other §197 intangibles acquired in the same transaction; the disallowed loss is added to the basis of the retained intangibles.
-
-> **Example:** Cub Records acquires a competitor's business for \$1,500,000. The allocation assigns \$300,000 to a customer list (§197 intangible). Annual amortization = \$300,000 / 15 = **\$20,000** per year.
-
----
-
-## Depletion
-
-Depletion allows recovery of the cost of **natural resources** (oil, gas, minerals, timber) as they are extracted or harvested.
-
-### Cost Depletion
-
-**Cost depletion** uses the formula:
-
-> (Adjusted basis of resource ÷ Estimated recoverable units) × Units sold during the year
-
-Cost depletion is available to **all** taxpayers and reduces the basis of the resource.
-
-### Percentage Depletion
-
-**Percentage depletion** applies a statutory percentage to **gross income** from the property. The deduction is limited to **50% of taxable income** from the property (computed without the depletion deduction). For oil and gas, percentage depletion is generally available only to **independent producers and royalty owners**, not integrated oil companies.
-
-| Resource | Percentage Rate |
-|---|---|
-| Oil and gas (independent producers) | 15% |
-| Gold, silver, copper | 15% |
-| Coal | 10% |
-| Gravel, sand, stone | 5% |
-
-:::caution
-
-Percentage depletion can exceed the adjusted basis of the property; it is **not** limited to cost basis. This distinguishes it from cost depletion.
-
-:::
-
-> **Example:** Grizzly Partners owns a sand quarry with gross income of \$400,000 and taxable income (before depletion) of \$180,000. Percentage depletion = 5% × \$400,000 = \$20,000. The 50%-of-income limit = 50% × \$180,000 = \$90,000. Since \$20,000 is less than \$90,000, the full **\$20,000** is allowed.
-
----
-
-## Depreciation Recapture: Conceptual Overview
-
-When depreciable property is sold at a gain, part or all of the gain may be recharacterized as **ordinary income** rather than capital gain. The two main recapture provisions are:
-
-| Section | Applies To | Recapture Rule |
-|---|---|---|
-| **§1245** | Personal property (equipment, vehicles, furniture) | Gain is ordinary to the extent of **all** prior depreciation |
-| **§1250** | Real property | Gain is ordinary to the extent depreciation exceeded straight-line (rare post-1986); **unrecaptured §1250 gain** taxed at max 25% |
-
-:::info
-
-Since MACRS requires straight-line for real property, §1250 recapture is rare. However, the **25% rate on unrecaptured §1250 gain** (the portion of gain attributable to straight-line depreciation) is frequently tested.
-
-:::
-
-> **Example:** Polar Co. sells office equipment with an original cost of \$100,000 and accumulated depreciation of \$65,000 (adjusted basis \$35,000) for \$80,000. Gain = \$80,000 - \$35,000 = \$45,000. Under §1245, the gain is ordinary income to the extent of prior depreciation (\$65,000). Since the gain (\$45,000) is less than total depreciation, the entire \$45,000 is ordinary income.
 
 ---
 
@@ -274,21 +198,13 @@ Since MACRS requires straight-line for real property, §1250 recapture is rare. 
 
 | Topic | Key Rule |
 |---|---|
-| MACRS GDS | 200% DB for 3-10 yr; 150% DB for 15-20 yr; SL for real property |
-| Half-year convention | Default; half-year depreciation in Year 1 |
-| Mid-quarter convention | Triggered when >40% of basis placed in service in Q4 |
-| Mid-month convention | Real property; begins at midpoint of placed-in-service month |
-| Section 179 | Expense up to \$1,220,000; limited by business income |
-| Bonus depreciation (2024) | 60%; no income limit; can create NOL |
-| Listed property (under 50% business use) | Must use ADS straight-line |
-| Section 197 intangibles | 15-year straight-line amortization |
-| Cost depletion | Based on units extracted; limited to basis |
-| Percentage depletion | Statutory % of gross income; can exceed basis |
-| §1245 recapture | Ordinary income to extent of all prior depreciation |
-| Unrecaptured §1250 gain | Taxed at maximum 25% rate |
-
-:::warning
-
-The CPA exam tests cost recovery across multiple question formats. Be prepared to calculate depreciation for a specific asset given its class, convention, and method, and to determine the tax impact of disposition through recapture rules.
-
-:::
+| MACRS methods | 200% declining balance for 3- to 10-year property; 150% for 15- and 20-year; straight-line for real property |
+| Half-year convention | Default for personal property |
+| Mid-quarter convention | Required when more than 40% of the year's personal property basis is placed in service in the fourth quarter |
+| Mid-month convention | Real property |
+| Bonus depreciation | 100% for property acquired after January 19, 2025; no dollar or income limit; election out by class |
+| Section 179 | Elective; dollar cap with phase-out (\$2,500,000 and \$4,000,000 for 2025, then indexed); limited to business income |
+| Order | Section 179, then bonus, then MACRS |
+| Listed property | 50% or less business use requires ADS straight-line; passenger auto caps apply |
+| Section 197 | 15-year straight-line amortization |
+| Domestic research costs | Deductible currently under §174A (or elect 60-month amortization); foreign research over 15 years |
