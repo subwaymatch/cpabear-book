@@ -1,10 +1,10 @@
 # Capital Assets and Infrastructure Assets
 
-State and local governments report **capital assets** — including land, buildings, improvements, machinery, equipment, **infrastructure**, leases, and construction in progress — in the **government-wide financial statements** and **proprietary fund** statements. Unlike governmental fund statements (which use the current financial resources measurement focus), the government-wide statements capitalize and depreciate long-lived assets under the **economic resources measurement focus** and **accrual basis** of accounting.
+State and local governments report **capital assets** (including land, buildings, improvements, machinery, equipment, **infrastructure**, leases, and construction in progress) in the **government-wide financial statements** and **proprietary fund** statements. Unlike governmental fund statements (which use the current financial resources measurement focus), the government-wide statements capitalize and depreciate long-lived assets under the **economic resources measurement focus** and **accrual basis** of accounting.
 
 :::info[Blueprint Coverage]
 
-This section maps to **BAR Area III, Group C, Topic 3 – Capital Assets and Infrastructure Assets**. Representative tasks:
+This section maps to **BAR Area III, Group C, Topic 3: Capital Assets and Infrastructure Assets**. Representative tasks:
 
 1. **Identify** capital assets reported in the government-wide financial statements of state and local governments.
 2. **Calculate** the net capital assets balance (e.g., including land, buildings and improvements, machinery and equipment, leases) for state and local governments and prepare journal entries (initial measurement and subsequent depreciation and amortization).
@@ -45,7 +45,7 @@ flowchart TD
     A --> D[Governmental Fund Statements]
     B --> E[Statement of Net Position<br/>Governmental & Business-Type Activities]
     C --> F[Statement of Net Position<br/>Enterprise & Internal Service Funds]
-    D --> G[NOT reported here —<br/>Current financial resources focus]
+    D --> G[NOT reported here due to<br/>current financial resources focus]
 ```
 
 | Reporting Level | Capital Assets Reported? | Depreciation Reported? |
@@ -57,7 +57,7 @@ flowchart TD
 
 :::warning[Key Point]
 
-When a governmental fund (e.g., General Fund or Capital Projects Fund) purchases a capital asset, the fund records an **expenditure** — not an asset. The capital asset is then recorded in the government-wide statements through the conversion/reconciliation process.
+When a governmental fund (e.g., General Fund or Capital Projects Fund) purchases a capital asset, the fund records an **expenditure**, not an asset. The capital asset is then recorded in the government-wide statements through the conversion/reconciliation process.
 
 :::
 
@@ -75,7 +75,7 @@ Capital assets are measured at **historical cost** or, if donated or obtained in
 | Nonexchange transaction | Acquisition value at date of receipt |
 | Leased (right-of-use) | Present value of lease payments + initial direct costs |
 
-### Example — Purchased Capital Asset (Government-Wide Entry)
+### Example: Purchased Capital Asset (Government-Wide Entry)
 
 Bear City purchases a new fire truck for \$650,000 cash. At the government-wide level:
 
@@ -87,17 +87,17 @@ Dr. Machinery and Equipment[a] 650,000
 At the governmental fund level (General Fund), this would instead be recorded as:
 
 ```journal
-Dr. Expenditures – Capital Outlay 650,000
+Dr. Expenditures (Capital Outlay) 650,000
     Cr. Cash[a] 650,000
 ```
 
-### Example — Donated Capital Asset
+### Example: Donated Capital Asset
 
 A local developer donates land with an acquisition value of \$1,200,000 to the city for a new park. Government-wide entry:
 
 ```journal
 Dr. Land[a] 1,200,000
-    Cr. Program Revenues – Contributions 1,200,000
+    Cr. Program Revenues (Contributions) 1,200,000
 ```
 
 ---
@@ -110,11 +110,11 @@ All capital assets with finite useful lives must be depreciated (or amortized fo
 
 | Asset Category | Typical Useful Life |
 |---|---|
-| Buildings | 25–50 years |
-| Improvements other than buildings | 10–25 years |
-| Machinery and equipment | 5–15 years |
-| Vehicles | 5–10 years |
-| Infrastructure (roads, bridges) | 20–50 years |
+| Buildings | 25-50 years |
+| Improvements other than buildings | 10-25 years |
+| Machinery and equipment | 5-15 years |
+| Vehicles | 5-10 years |
+| Infrastructure (roads, bridges) | 20-50 years |
 | Leased assets | Shorter of useful life or lease term |
 
 ### Depreciation Calculation
@@ -123,7 +123,7 @@ $$
 \text{Annual Depreciation (Straight-Line)} = \frac{\text{Cost} - \text{Salvage Value}}{\text{Useful Life}}
 $$
 
-### Example — Annual Depreciation
+### Example: Annual Depreciation
 
 Bear City's fire truck cost \$650,000 with a salvage value of \$50,000 and a useful life of 10 years.
 
@@ -134,8 +134,8 @@ $$
 Government-wide journal entry for annual depreciation:
 
 ```journal
-Dr. Depreciation Expense – Public Safety 60,000
-    Cr. Accumulated Depreciation – Machinery and Equipment[a] 60,000
+Dr. Depreciation Expense (Public Safety) 60,000
+    Cr. Accumulated Depreciation (Machinery and Equipment)[ca] 60,000
 ```
 
 :::tip[Exam Tip]
@@ -156,16 +156,16 @@ $$
 
 ### Comprehensive Example
 
-**Pine County — Governmental Activities Capital Assets, June 30, 20X5:**
+**Pine County Governmental Activities Capital Assets, June 30, 20X5:**
 
 | Category | Cost | Accumulated Depreciation | Net Value |
 |---|---|---|---|
-| Land | \$4,500,000 | — | \$4,500,000 |
+| Land | \$4,500,000 | N/A | \$4,500,000 |
 | Buildings | 28,000,000 | (\$8,400,000) | 19,600,000 |
 | Improvements | 6,200,000 | (2,480,000) | 3,720,000 |
 | Machinery & equipment | 9,800,000 | (5,880,000) | 3,920,000 |
 | Infrastructure | 52,000,000 | (15,600,000) | 36,400,000 |
-| Construction in progress | 3,100,000 | — | 3,100,000 |
+| Construction in progress | 3,100,000 | N/A | 3,100,000 |
 | **Total** | **\$103,600,000** | **(\$32,360,000)** | **\$71,240,000** |
 
 ---
@@ -217,13 +217,13 @@ GASB Statement No. 42 addresses impairment of capital assets. Impairment occurs 
 | Service units approach | Change in manner/duration of use |
 | Deflated depreciated replacement cost | Technological obsolescence |
 
-### Example — Impairment Entry
+### Example: Impairment Entry
 
 A flood damages a county bridge with a carrying value of \$8,000,000. Restoration cost is estimated at \$2,500,000.
 
 ```journal
-Dr. Loss on Impairment – Public Works 2,500,000
-    Cr. Accumulated Depreciation – Infrastructure[a] 2,500,000
+Dr. Loss on Impairment (Public Works) 2,500,000
+    Cr. Accumulated Depreciation (Infrastructure)[ca] 2,500,000
 ```
 
 ---
@@ -232,7 +232,7 @@ Dr. Loss on Impairment – Public Works 2,500,000
 
 Costs incurred on capital projects that are not yet complete are accumulated in **Construction in Progress (CIP)**. Once the project is substantially complete, CIP is reclassified.
 
-### Example — CIP and Capitalization
+### Example: CIP and Capitalization
 
 Bear City begins constructing a new library. During the year, \$4,200,000 is spent:
 
@@ -261,20 +261,20 @@ Dr. Buildings[a] 6,000,000
 
 Under GASB 87, governments recognize a **right-of-use (ROU) asset** and a corresponding **lease liability** at the commencement of the lease.
 
-### Example — Lease Capitalization
+### Example: Lease Capitalization
 
 Bear City enters a 5-year lease for office space. The present value of lease payments is \$420,000:
 
 ```journal
-Dr. Right-of-Use Asset – Building[a] 420,000
+Dr. Right-of-Use Asset (Building)[a] 420,000
     Cr. Lease Liability[l] 420,000
 ```
 
 Annual amortization (\$420,000 ÷ 5 years = \$84,000):
 
 ```journal
-Dr. Amortization Expense – General Government 84,000
-    Cr. Accumulated Amortization – ROU Asset[a] 84,000
+Dr. Amortization Expense (General Government) 84,000
+    Cr. Accumulated Amortization (ROU Asset)[ca] 84,000
 ```
 
 ---
@@ -284,8 +284,8 @@ Dr. Amortization Expense – General Government 84,000
 | Transaction | Debit | Credit |
 |---|---|---|
 | Purchase capital asset (government-wide) | Capital Asset [specific category] | Cash |
-| Record donation | Capital Asset | Program Revenue – Contributions |
-| Annual depreciation | Depreciation Expense – [Function] | Accumulated Depreciation |
+| Record donation | Capital Asset | Program Revenue (Contributions) |
+| Annual depreciation | Depreciation Expense (by function) | Accumulated Depreciation |
 | Impairment loss | Loss on Impairment | Accumulated Depreciation (or asset directly) |
 | Accumulate CIP | Construction in Progress | Cash/Contracts Payable |
 | Complete CIP | Capital Asset [category] | Construction in Progress |

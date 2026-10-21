@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Tax planning for C corporations focuses on strategies to **minimize the combined entity-level and shareholder-level tax burden** while maintaining compliance. The TCP exam tests your ability to calculate tax savings from NOL and capital loss carryovers, optimize state and local tax positions, time income and deductions in response to changing tax rates, compute estimated tax payments to avoid penalties, and analyze the tax consequences of post-formation shareholder-corporation transactions. The emphasis throughout is on **quantitative analysis** — deriving the dollar impact of planning strategies and comparing alternative approaches.
+Tax planning for C corporations focuses on strategies to **minimize the combined entity-level and shareholder-level tax burden** while maintaining compliance. The TCP exam tests your ability to calculate tax savings from NOL and capital loss carryovers, optimize state and local tax positions, time income and deductions in response to changing tax rates, compute estimated tax payments to avoid penalties, and analyze the tax consequences of post-formation shareholder-corporation transactions. The emphasis throughout is on **quantitative analysis**: deriving the dollar impact of planning strategies and comparing alternative approaches.
 
-This page builds on the C corporation compliance concepts covered in the Entity Tax Compliance section and focuses on the **planning dimension** — the strategies a CPA uses to reduce a corporation's effective tax rate.
+This page builds on the C corporation compliance concepts covered in the Entity Tax Compliance section and focuses on the **planning dimension**, meaning the strategies a CPA uses to reduce a corporation's effective tax rate.
 
 ---
 
@@ -18,7 +18,7 @@ Net operating losses are among the most valuable tax attributes a C corporation 
 |---|---|
 | **Accelerate income into carryforward years** | Recognize income in years when NOLs are available to offset it |
 | **Defer deductions in carryforward years** | Postpone discretionary deductions (e.g., bonus depreciation elections) to preserve taxable income for NOL absorption |
-| **Monitor the 80% limitation** | Post-2017 NOLs can only offset 80% of taxable income — plan for the 20% minimum tax each year |
+| **Monitor the 80% limitation** | Post-2017 NOLs can only offset 80% of taxable income; plan for the 20% minimum tax each year |
 | **Pre-acquisition planning** | Before an ownership change, evaluate the §382 limitation impact on existing NOLs |
 
 > **Example:** Bear Co. has a \$1,000,000 NOL carryforward. In 2024, Bear Co. expects taxable income (before NOL) of \$600,000. The NOL deduction is limited to 80% × \$600,000 = **\$480,000**. Bear Co. will pay tax on \$120,000 regardless of the NOL. To maximize utilization, Bear Co. should consider accelerating an additional \$250,000 of income (e.g., selling appreciated investments) to use \$200,000 more of its NOL (80% × \$250,000), reducing the carryforward to \$320,000.
@@ -30,11 +30,11 @@ The §382 limitation can dramatically reduce the value of a corporation's NOLs a
 | Planning Approach | Detail |
 |---|---|
 | **Structure acquisitions to avoid ownership change** | Keep the shift in 5% shareholders below 50 percentage points over the 3-year testing period |
-| **Maximize FMV before ownership change** | The annual limitation equals FMV × long-term tax-exempt rate — a higher FMV means a higher annual cap |
+| **Maximize FMV before ownership change** | The annual limitation equals FMV × long-term tax-exempt rate, so a higher FMV means a higher annual cap |
 | **Built-in gain recognition** | If the corporation has a **net unrealized built-in gain** at the change date, gains recognized within the 5-year recognition period increase the §382 limitation |
 | **Evaluate NOL value in acquisition pricing** | Discount the NOL carryforward by the present value of the restricted annual usage |
 
-> **Example:** Polar Inc. is being acquired in a transaction that will trigger an ownership change. Polar Inc. has \$2,000,000 in NOLs. The FMV of Polar Inc. stock is \$5,000,000, and the long-term tax-exempt rate is 4%. The annual §382 limitation = \$5,000,000 × 4% = **\$200,000**. At 21% tax rate, the annual tax savings = \$200,000 × 21% = \$42,000. The acquirer should value the NOLs at the present value of \$42,000 per year — not the full \$2,000,000 face value.
+> **Example:** Polar Inc. is being acquired in a transaction that will trigger an ownership change. Polar Inc. has \$2,000,000 in NOLs. The FMV of Polar Inc. stock is \$5,000,000, and the long-term tax-exempt rate is 4%. The annual §382 limitation = \$5,000,000 × 4% = **\$200,000**. At 21% tax rate, the annual tax savings = \$200,000 × 21% = \$42,000. The acquirer should value the NOLs at the present value of \$42,000 per year, not the full \$2,000,000 face value.
 
 :::warning
 
@@ -50,10 +50,10 @@ C corporation capital losses can only offset capital gains and have limited carr
 |---|---|
 | **Harvest capital gains before carryforward expiration** | Sell appreciated capital assets to generate gains that absorb expiring capital loss carryforwards |
 | **Coordinate timing of capital gains and losses** | Defer capital gains to years with available capital loss carryovers |
-| **Carryback first** | Capital losses are carried back 3 years first — amend prior returns to recover tax paid on capital gains |
-| **Convert to ordinary income/loss if possible** | §1244 stock losses (up to \$50,000/\$100,000) are ordinary — consider whether any capital losses can be recharacterized |
+| **Carryback first** | Capital losses are carried back 3 years first; amend prior returns to recover tax paid on capital gains |
+| **Convert to ordinary income/loss if possible** | §1244 stock losses (up to \$50,000/\$100,000) are ordinary; consider whether any capital losses can be recharacterized |
 
-> **Example:** Bear Co. has a \$150,000 capital loss carryforward from 2022, expiring after 2027. In 2024, Bear Co. holds stock investments with \$200,000 of unrealized gains. By selling \$150,000 of investments in 2024, Bear Co. generates capital gains that are fully offset by the capital loss carryforward — **\$0 net tax on the gains**. If Bear Co. waits until 2028, the carryforward expires worthless.
+> **Example:** Bear Co. has a \$150,000 capital loss carryforward from 2022, expiring after 2027. In 2024, Bear Co. holds stock investments with \$200,000 of unrealized gains. By selling \$150,000 of investments in 2024, Bear Co. generates capital gains that are fully offset by the capital loss carryforward, resulting in **\$0 net tax on the gains**. If Bear Co. waits until 2028, the carryforward expires worthless.
 
 :::tip[Exam Tip]
 
@@ -81,7 +81,7 @@ Multistate corporations apportion income among states using formulas that typica
 |---|---|
 | **Locate operations in favorable states** | Place employees and property in states with no income tax or favorable apportionment rules while directing sales to market states |
 | **Elect alternative apportionment** | Some states allow alternative methods if the standard formula does not fairly represent business activity |
-| **Manage throwback/throwout rules** | States with throwback rules attribute sales to the state of origin if the destination state cannot tax the seller — plan sales routing accordingly |
+| **Manage throwback/throwout rules** | States with throwback rules attribute sales to the state of origin if the destination state cannot tax the seller; plan sales routing accordingly |
 | **Transfer pricing between affiliates** | Arm's-length intercompany pricing can shift income between state jurisdictions (subject to audit scrutiny) |
 
 > **Example:** Illini Entertainment operates in State A (10% income tax, 100% sales factor) and State B (0% income tax). If Illini shifts \$500,000 of payroll from State A to State B, this has **no effect on State A apportionment** under a single sales factor formula. However, if State A used an equal-weighted 3-factor formula, the payroll shift would reduce the State A apportionment percentage and save tax.
@@ -120,14 +120,14 @@ When tax rates are expected to change, the timing of income recognition and expe
 | **Accelerate/defer revenue** | Adjust billing cycles, prepayment terms, or contract completion dates (within accounting method constraints) |
 | **Bonus depreciation elections** | Elect or decline bonus depreciation to shift deductions between years |
 | **§179 expensing** | Expense qualifying assets in the current year vs. capitalizing and depreciating |
-| **Charitable contribution timing** | C corporations may deduct charitable contributions up to 10% of taxable income — time large donations to maximize the deduction |
+| **Charitable contribution timing** | C corporations may deduct charitable contributions up to 10% of taxable income; time large donations to maximize the deduction |
 | **Accrued compensation** | Accrue bonuses to related parties within 2½ months of year-end to deduct in the current year (§267 limitation) |
 
-> **Example:** Bear Co. (C corporation) expects the corporate tax rate to increase from 21% to 28% next year. Bear Co. has \$400,000 of discretionary expenses it can pay this year or next. If Bear Co. **defers** the expenses to next year, the tax savings increase by \$400,000 × (28% − 21%) = **\$28,000**. Conversely, if Bear Co. has \$500,000 of income it can accelerate into this year, it saves \$500,000 × 7% = **\$35,000** by recognizing the income at the lower 21% rate.
+> **Example:** Bear Co. (C corporation) expects the corporate tax rate to increase from 21% to 28% next year. Bear Co. has \$400,000 of discretionary expenses it can pay this year or next. If Bear Co. **defers** the expenses to next year, the tax savings increase by \$400,000 × (28% - 21%) = **\$28,000**. Conversely, if Bear Co. has \$500,000 of income it can accelerate into this year, it saves \$500,000 × 7% = **\$35,000** by recognizing the income at the lower 21% rate.
 
 :::caution
 
-Timing strategies must comply with the corporation's **method of accounting** (cash or accrual). An accrual-method taxpayer cannot simply defer recognizing revenue that has been earned and is fixed in amount — the all-events test determines the year of inclusion regardless of collection timing.
+Timing strategies must comply with the corporation's **method of accounting** (cash or accrual). An accrual-method taxpayer cannot simply defer recognizing revenue that has been earned and is fixed in amount. The all-events test determines the year of inclusion regardless of collection timing.
 
 :::
 
@@ -164,7 +164,7 @@ Corporations with seasonal or uneven income may use the **annualized income inst
 | First 8 months | × 12/8 |
 | First 11 months | × 12/11 |
 
-> **Example:** Kingfisher Industries (large corporation) earns most of its income in Q4. Using the annualized income installment method, Kingfisher calculates estimated tax based on actual income earned through each period — resulting in lower payments in Q1–Q3 and a larger Q4 payment. This avoids tying up cash in estimated payments before income is actually earned.
+> **Example:** Kingfisher Industries (large corporation) earns most of its income in Q4. Using the annualized income installment method, Kingfisher calculates estimated tax based on actual income earned through each period, resulting in lower payments in Q1-Q3 and a larger Q4 payment. This avoids tying up cash in estimated payments before income is actually earned.
 
 :::tip[Exam Tip]
 
@@ -193,9 +193,9 @@ Post-formation contributions to a C corporation must still satisfy the §351 con
 
 | Planning Consideration | Detail |
 |---|---|
-| **Contributing appreciated property** | Shareholder defers gain under §351; corporation takes carryover basis — future gain is taxed at corporate level (and again on distribution) |
-| **Contributing depreciated property** | Loss is **not recognized** under §351 — the loss is permanently lost if the property is contributed to the corporation |
-| **Alternative: sell property to corporation** | If the shareholder wants to recognize a loss, selling (rather than contributing) the property allows loss recognition — but related party rules (§267) disallow losses between > 50% owners |
+| **Contributing appreciated property** | Shareholder defers gain under §351; corporation takes carryover basis; future gain is taxed at corporate level (and again on distribution) |
+| **Contributing depreciated property** | Loss is **not recognized** under §351, and the loss is permanently lost if the property is contributed to the corporation |
+| **Alternative: sell property to corporation** | If the shareholder wants to recognize a loss, selling (rather than contributing) the property allows loss recognition, but related party rules (§267) disallow losses between > 50% owners |
 
 :::warning
 
@@ -215,10 +215,10 @@ Cr. Land[a] 120,000
 
 | Level | Tax Consequence |
 |---|---|
-| **Corporate level** | Recognizes gain (FMV − adjusted basis) — taxed at 21% |
+| **Corporate level** | Recognizes gain (FMV - adjusted basis), taxed at 21% |
 | **Shareholder level** | Distribution = FMV of property; taxed as dividend to extent of E&P |
 
-> **Example:** Polar Inc. distributes land (FMV \$300,000, adjusted basis \$180,000) to sole shareholder Dana. Polar Inc. recognizes a \$120,000 gain (taxed at 21% = \$25,200). Dana receives a \$300,000 distribution — taxable as a dividend to the extent of E&P (at qualified dividend rates up to 20% + 3.8% NIIT). Total tax on the \$120,000 of appreciation: corporate tax of \$25,200 plus shareholder tax on the dividend — illustrating the double taxation problem.
+> **Example:** Polar Inc. distributes land (FMV \$300,000, adjusted basis \$180,000) to sole shareholder Dana. Polar Inc. recognizes a \$120,000 gain (taxed at 21% = \$25,200). Dana receives a \$300,000 distribution, taxable as a dividend to the extent of E&P (at qualified dividend rates up to 20% + 3.8% NIIT). Total tax on the \$120,000 of appreciation: corporate tax of \$25,200 plus shareholder tax on the dividend. This illustrates the double taxation problem.
 
 #### Loss Property Distributions
 
@@ -233,8 +233,8 @@ A stock redemption occurs when a corporation repurchases its own stock. The tax 
 
 | Treatment | Shareholder Tax Result | When Does It Apply? |
 |---|---|---|
-| **Exchange treatment** | Capital gain or loss (amount received − stock basis) | Substantially disproportionate (§302(b)(2)), complete termination (§302(b)(3)), or not essentially equivalent to a dividend (§302(b)(1)) |
-| **Dividend treatment** | Entire proceeds taxed as dividend to extent of E&P | Fails all §302(b) tests — constructive ownership rules apply |
+| **Exchange treatment** | Capital gain or loss (amount received - stock basis) | Substantially disproportionate (§302(b)(2)), complete termination (§302(b)(3)), or not essentially equivalent to a dividend (§302(b)(1)) |
+| **Dividend treatment** | Entire proceeds taxed as dividend to extent of E&P | Fails all §302(b) tests; constructive ownership rules apply |
 
 :::tip[Exam Tip]
 
@@ -247,7 +247,7 @@ The **constructive ownership rules** (§318) are critical for redemption analysi
 | Strategy | Tax Benefit |
 |---|---|
 | **Reasonable compensation** | Deductible by corporation as ordinary expense; reduces E&P and corporate tax |
-| **Excessive compensation** | Nondeductible to the extent the IRS determines it is unreasonable — recharacterized as a disguised dividend |
+| **Excessive compensation** | Nondeductible to the extent the IRS determines it is unreasonable; recharacterized as a disguised dividend |
 | **§162(m) limitation** | Publicly traded corporations cannot deduct compensation exceeding \$1,000,000 per year for covered employees |
 | **Deferred compensation** | §409A rules govern timing of deductions and income recognition for nonqualified deferred compensation |
 
@@ -264,7 +264,7 @@ The **constructive ownership rules** (§318) are critical for redemption analysi
 | Income/expense timing | Accelerate income when rates are rising; defer deductions when rates are rising; reverse when rates are falling |
 | Estimated tax payments | Quarterly payments required; large corporations can use prior year's tax for Q1 only |
 | Annualized income method | Reduces early-quarter payments for seasonal businesses |
-| Post-formation contributions | §351 nonrecognition; never contribute depreciated property — loss is permanently lost |
+| Post-formation contributions | §351 nonrecognition; never contribute depreciated property, because the loss is permanently lost |
 | Property distributions | Corporation recognizes gain (not loss); shareholder taxed on FMV as dividend to extent of E&P |
 | Stock redemptions | Exchange treatment (capital gain) if substantially disproportionate or complete termination; otherwise dividend |
 | Compensation planning | Reasonable compensation is deductible; excess is recharacterized as dividend; §162(m) caps deduction at \$1M for public companies |

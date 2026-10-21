@@ -1,6 +1,6 @@
 # Enterprise and Accounting Information Systems
 
-Modern organizations rely on integrated information systems to manage their business processes and produce reliable financial information. **Enterprise Resource Planning (ERP) systems** and **accounting information systems (AIS)** form the backbone of these operations — connecting procurement, production, sales, human resources, treasury, and financial reporting into a unified platform. For CPAs performing IT audit and advisory services, understanding how these systems work, how they interact, and how controls ensure processing integrity is essential.
+Modern organizations rely on integrated information systems to manage their business processes and produce reliable financial information. **Enterprise Resource Planning (ERP) systems** and **accounting information systems (AIS)** form the backbone of these operations, connecting procurement, production, sales, human resources, treasury, and financial reporting into a unified platform. For CPAs performing IT audit and advisory services, understanding how these systems work, how they interact, and how controls ensure processing integrity is essential.
 
 This section covers **ERP and accounting information systems**, the **business processes they enable**, **controls over processing integrity**, the use of **blockchain** in financial reporting contexts, opportunities for **process improvement** (including robotic process automation), and how to **reconcile actual processes to documented procedures**.
 
@@ -42,7 +42,7 @@ graph LR
     D --> E["COGS Entry<br/>(GL Module)"]
 ```
 
-**Example:** When **Polar Inc.** enters a sales order in the sales module, the ERP system automatically creates an accounts receivable entry, reduces inventory quantities, recognizes cost of goods sold, and posts the corresponding journal entries to the general ledger — all from a single transaction initiation.
+**Example:** When **Polar Inc.** enters a sales order in the sales module, the ERP system automatically creates an accounts receivable entry, reduces inventory quantities, recognizes cost of goods sold, and posts the corresponding journal entries to the general ledger, all from a single transaction initiation.
 
 This integration eliminates the need for manual data re-entry between systems, reduces the risk of transcription errors, and ensures that financial data is updated in real time. However, it also means that an error or control weakness in one module can propagate throughout the entire system.
 
@@ -78,11 +78,11 @@ The ISC exam expects you to understand the following key business processes and 
 
 Organizations document their business processes using several formats. The ISC exam may ask you to reconcile the actual steps in a process against the documented procedure:
 
-- **Flowcharts** — visual diagrams that depict the sequence of steps, decision points, and the flow of documents and information in a process
-- **Business process diagrams** — similar to flowcharts but often use standardized notation such as Business Process Model and Notation (BPMN)
-- **Narratives** — written descriptions of the process steps, controls, and personnel involved
+- **Flowcharts**: visual diagrams that depict the sequence of steps, decision points, and the flow of documents and information in a process
+- **Business process diagrams**: similar to flowcharts but often use standardized notation such as Business Process Model and Notation (BPMN)
+- **Narratives**: written descriptions of the process steps, controls, and personnel involved
 
-**Example:** During a SOC 2® engagement at **Bear Co.**, the auditor walks through the purchasing process and observes that the actual process includes an unauthorized purchasing agent approving orders above their authority limit. Comparing this to the documented flowchart — which requires manager approval for orders above $5,000 — reveals a control deviation.
+**Example:** During a SOC 2® engagement at **Bear Co.**, the auditor walks through the purchasing process and observes that the actual process includes an unauthorized purchasing agent approving orders above their authority limit. Comparing this to the documented flowchart, which requires manager approval for orders above \$5,000, reveals a control deviation.
 
 ---
 
@@ -111,7 +111,7 @@ Organizations document their business processes using several formats. The ISC e
 
 :::warning
 
-Processing integrity controls are a high-priority topic on the ISC exam, particularly in the context of SOC 2® engagements. You must be able to identify specific controls, explain their purpose, and — at the Analysis level — detect deficiencies in their design or operation.
+Processing integrity controls are a high-priority topic on the ISC exam, particularly in the context of SOC 2® engagements. You must be able to identify specific controls, explain their purpose, and (at the Analysis level) detect deficiencies in their design or operation.
 
 :::
 
@@ -145,10 +145,10 @@ The ISC exam tests your ability to determine potential changes to business proce
 
 **Robotic process automation (RPA)** uses software "robots" to automate repetitive, rule-based tasks that were previously performed manually. RPA is particularly well suited for accounting processes such as:
 
-- **Invoice processing** — Extracting data from vendor invoices and matching it to purchase orders and receiving reports
-- **Bank reconciliation** — Comparing bank statement transactions to general ledger entries and flagging exceptions
-- **Journal entry posting** — Preparing and posting standard recurring journal entries
-- **Report generation** — Compiling financial reports from multiple data sources
+- **Invoice processing**: Extracting data from vendor invoices and matching it to purchase orders and receiving reports
+- **Bank reconciliation**: Comparing bank statement transactions to general ledger entries and flagging exceptions
+- **Journal entry posting**: Preparing and posting standard recurring journal entries
+- **Report generation**: Compiling financial reports from multiple data sources
 
 **Benefits of RPA:**
 
@@ -181,9 +181,9 @@ Upgrading or replacing an accounting information system can address performance 
 
 A critical skill for IT audit and advisory work is the ability to **walk through** an actual business process and compare what is observed to the documented procedure (such as a flowchart, business process diagram, or narrative). This reconciliation can reveal:
 
-- **Control deviations** — instances where the actual process does not follow the documented control procedure
-- **Design deficiencies** — cases where the documented procedure lacks a necessary control
-- **Unauthorized process changes** — modifications to the process that were not approved through formal change management
+- **Control deviations**: instances where the actual process does not follow the documented control procedure
+- **Design deficiencies**: cases where the documented procedure lacks a necessary control
+- **Unauthorized process changes**: modifications to the process that were not approved through formal change management
 
 ### Walkthrough Procedures
 
@@ -205,8 +205,8 @@ In the context of a SOC 2® engagement, the auditor evaluates controls related t
 
 When detecting deficiencies, the auditor considers:
 
-- **Suitability of design** — Is the control designed to effectively address the applicable trust services criterion? A design deficiency exists when a necessary control is missing or is not designed to achieve the control objective.
-- **Operating effectiveness** — Is the control operating as designed? An operating deficiency (deviation) exists when the control exists but is not followed consistently.
+- **Suitability of design**: Is the control designed to effectively address the applicable trust services criterion? A design deficiency exists when a necessary control is missing or is not designed to achieve the control objective.
+- **Operating effectiveness**: Is the control operating as designed? An operating deficiency (deviation) exists when the control exists but is not followed consistently.
 
 :::note
 

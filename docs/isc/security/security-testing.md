@@ -29,11 +29,11 @@ A **security awareness training program** educates employees about cybersecurity
 
 When evaluating a security awareness program, a CPA should:
 
-1. **Inspect training materials** — Verify content aligns with the organization's security policies and addresses current threats
-2. **Review completion records** — Confirm all personnel (including contractors) completed required training within the prescribed timeframe
-3. **Analyze simulation results** — Examine phishing simulation click rates and trends; declining rates indicate improving awareness
-4. **Interview personnel** — Ask employees about security policies to gauge actual knowledge retention
-5. **Observe behaviors** — Verify that practices match training (e.g., locked screens, badge-only access, clean desks)
+1. **Inspect training materials**: Verify content aligns with the organization's security policies and addresses current threats
+2. **Review completion records**: Confirm all personnel (including contractors) completed required training within the prescribed timeframe
+3. **Analyze simulation results**: Examine phishing simulation click rates and trends; declining rates indicate improving awareness
+4. **Interview personnel**: Ask employees about security policies to gauge actual knowledge retention
+5. **Observe behaviors**: Verify that practices match training (e.g., locked screens, badge-only access, clean desks)
 
 ### Common Deficiencies
 
@@ -82,7 +82,7 @@ When documenting findings from tests of controls, each finding should include:
 | **Medium**   | Control partially effective but gaps exist that increase risk                        | Remediation within 90 days     |
 | **Low**      | Minor observations or improvement opportunities; risk is minimal                     | Address in next review cycle   |
 
-> **Example:** **Polar Inc.** engages an auditor to perform security control testing. The auditor discovers that the intrusion detection system (IDS) has not been updated with new threat signatures in 6 months. The finding is documented as: Condition — IDS signatures 6 months out of date; Criteria — Policy requires monthly signature updates; Cause — The administrator responsible left the company and the task was not reassigned; Effect — Network may not detect attacks using recently discovered exploit techniques; Severity — High.
+> **Example:** **Polar Inc.** engages an auditor to perform security control testing. The auditor discovers that the intrusion detection system (IDS) has not been updated with new threat signatures in 6 months. The finding is documented as: Condition: IDS signatures 6 months out of date; Criteria: Policy requires monthly signature updates; Cause: The administrator responsible left the company and the task was not reassigned; Effect: Network may not detect attacks using recently discovered exploit techniques; Severity: High.
 
 ## IT Security Walkthroughs
 
@@ -101,12 +101,12 @@ flowchart LR
 
 During a walkthrough, the auditor:
 
-1. **Selects the procedure** — Identifies the IT security process to evaluate
-2. **Reviews documentation** — Reads the written policy, procedure, or standard
-3. **Observes execution** — Watches personnel perform the procedure or inspects evidence of execution
-4. **Makes inquiries** — Asks personnel to explain their understanding of the procedure
-5. **Compares** — Determines whether observed practices match documented requirements
-6. **Documents deviations** — Records any differences between policy and practice
+1. **Selects the procedure**: Identifies the IT security process to evaluate
+2. **Reviews documentation**: Reads the written policy, procedure, or standard
+3. **Observes execution**: Watches personnel perform the procedure or inspects evidence of execution
+4. **Makes inquiries**: Asks personnel to explain their understanding of the procedure
+5. **Compares**: Determines whether observed practices match documented requirements
+6. **Documents deviations**: Records any differences between policy and practice
 
 ### Areas Covered in IT Security Walkthroughs
 
@@ -126,7 +126,7 @@ A **deviation** occurs when the observed procedure does not match the documented
 - Personnel are not following established procedures
 - Controls are not operating as designed
 - Training on the procedure is insufficient
-  **Example:** **Bear Co.** has a documented policy requiring that background checks be completed for all new hires before granting system access. During a walkthrough, the auditor observes that three recent hires were granted access to the ERP system before their background checks were returned. The auditor documents this as a deviation — the observed procedure does not match the policy requirement.
+  **Example:** **Bear Co.** has a documented policy requiring that background checks be completed for all new hires before granting system access. During a walkthrough, the auditor observes that three recent hires were granted access to the ERP system before their background checks were returned. The auditor documents this as a deviation because the observed procedure does not match the policy requirement.
   :::warning
   A walkthrough alone does not provide sufficient evidence of operating effectiveness over a period of time. It provides understanding of the process and may identify design deficiencies, but additional testing (e.g., sampling) is required to conclude on operating effectiveness.
   :::
@@ -137,7 +137,7 @@ A **deviation** occurs when the observed procedure does not match the documented
 
 In a **SOC 2®** engagement, the practitioner evaluates a service organization's controls relevant to its **service commitments** and **system requirements** using the **Trust Services Criteria (TSC)**. The security category uses the **Common Criteria (CC series)**, which apply across all Trust Services engagements.
 
-### Trust Services Criteria — Security (Common Criteria)
+### Trust Services Criteria: Security (Common Criteria)
 
 | CC Series | Focus Area                    | Example Controls                                                                             |
 | --------- | ----------------------------- | -------------------------------------------------------------------------------------------- |
@@ -162,7 +162,7 @@ In a **SOC 2®** engagement, the practitioner evaluates a service organization's
 
 | Deficiency Type         | Definition                                                                                     | Example                                                                                                                                 |
 | ----------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **Design deficiency**   | The control, even if operating as intended, would not effectively meet the applicable criteria | A password policy requires only 4-character passwords — even if enforced perfectly, this is insufficient to prevent brute-force attacks |
+| **Design deficiency**   | The control, even if operating as intended, would not effectively meet the applicable criteria | A password policy requires only 4-character passwords; even if enforced perfectly, this is insufficient to prevent brute-force attacks |
 | **Operating deviation** | The control is suitably designed but did not operate as designed during the period             | The organization requires quarterly access reviews, but one quarter was skipped due to staff turnover                                   |
 
 ### Examples of SOC 2® Security Control Deficiencies
@@ -172,12 +172,12 @@ In a **SOC 2®** engagement, the practitioner evaluates a service organization's
 | **CC6.1** (Logical access)      | No process exists to remove access for terminated employees                                           | Design deficiency   |
 | **CC6.1** (Logical access)      | Access removal process exists but 4 of 20 terminated employees retained access for more than 48 hours | Operating deviation |
 | **CC7.2** (Incident monitoring) | Security monitoring tool was offline for 3 weeks during migration with no compensating control        | Operating deviation |
-| **CC5.3** (Change management)   | Changes deployed directly to production without testing — no test environment exists                  | Design deficiency   |
+| **CC5.3** (Change management)   | Changes deployed directly to production without testing; no test environment exists                  | Design deficiency   |
 | **CC2.1** (Communication)       | Security policies not communicated to new hires during onboarding                                     | Operating deviation |
 
-**Example:** **Illini Security** provides managed security services and undergoes a SOC 2® Type 2 examination. The auditor identifies that the organization's service commitment states "all security events are investigated within 4 hours." However, testing reveals that 8 of 30 sampled security events were not investigated within the 4-hour window. This is an **operating deviation** — the control is suitably designed (4-hour SLA with an investigation procedure) but did not operate effectively during the examination period.
+**Example:** **Illini Security** provides managed security services and undergoes a SOC 2® Type 2 examination. The auditor identifies that the organization's service commitment states "all security events are investigated within 4 hours." However, testing reveals that 8 of 30 sampled security events were not investigated within the 4-hour window. This is an **operating deviation**: the control is suitably designed (4-hour SLA with an investigation procedure) but did not operate effectively during the examination period.
 :::tip[Exam Tip]
-On the ISC exam, distinguish between design deficiencies and operating deviations by asking: "If this control worked perfectly every single time, would it address the risk?" If **no** — it is a **design deficiency**. If **yes**, but it did not work perfectly during the period — it is an **operating deviation**.
+On the ISC exam, distinguish between design deficiencies and operating deviations by asking: "If this control worked perfectly every single time, would it address the risk?" If **no**, it is a **design deficiency**. If **yes**, but it did not work perfectly during the period, it is an **operating deviation**.
 :::
 
 ---
@@ -189,7 +189,7 @@ On the ISC exam, distinguish between design deficiencies and operating deviation
 | Security awareness training | Evaluated by content coverage, delivery methods, frequency, participation tracking, phishing simulations, and metrics; deficiencies include incomplete participation and outdated content         |
 | Security assessment reports | Document findings using Condition, Criteria, Cause, Effect, and Recommendation; assign severity ratings (Critical, High, Medium, Low)                                                             |
 | IT security walkthroughs    | Compare observed procedures to documented policies; cover IT risk management, HR security, access review, training, and incident response                                                         |
-| SOC 2® security controls    | Use Trust Services Common Criteria (CC1–CC9); distinguish design deficiencies (control would not meet criteria even if operating) from operating deviations (control did not operate as designed) |
+| SOC 2® security controls    | Use Trust Services Common Criteria (CC1-CC9); distinguish design deficiencies (control would not meet criteria even if operating) from operating deviations (control did not operate as designed) |
 
 ---
 
@@ -200,6 +200,6 @@ On the ISC exam, distinguish between design deficiencies and operating deviation
 3. **Bear Co.** hires a new IT security manager who performs a walkthrough of the employee termination process. The documented policy requires that system access be revoked within 24 hours of termination. During the walkthrough, the manager observes that the HR department sends termination notifications to IT via email, but there is no automated workflow, no tracking mechanism, and no verification step to confirm access was actually revoked. What type of deficiency is this, and why?
    :::tip[Answers]
 4. The steady 22% click rate despite repeated training indicates the program is **not effectively changing behavior**. The CPA should investigate: (a) whether training content is relevant and engaging, (b) whether consequences exist for repeated failures, (c) whether training is tailored to the types of simulations being conducted, and (d) whether high-risk repeat clickers receive additional targeted training. Recommendations include implementing role-based training, escalating consequences for repeat offenders, varying simulation difficulty, and incorporating real-world examples from the organization's industry.
-5. The 6 late reviews represent **operating deviations** — the control is suitably designed (quarterly reviews by managers) but did not operate within the required timeframe. The 2 reviews with no evidence of completion are also **operating deviations** and are more severe because there is no evidence the control operated at all for those cases. The auditor should document these as exceptions, noting the deviation rate (8 of 25 = 32%), assess the severity, and determine whether the deviations prevent the organization from meeting the applicable Trust Services Criteria (likely CC6.1 regarding logical access controls).
-6. This is a **design deficiency**. Even if the email notification process operates exactly as designed every single time, the control would not reliably meet the 24-hour revocation requirement because: (a) there is no automated workflow to ensure timely action, (b) there is no tracking to prevent notifications from being overlooked, and (c) there is no verification step to confirm access was actually revoked. The control, as designed, relies entirely on manual email processing with no accountability mechanism — it is insufficient to meet the stated criteria regardless of how consistently it is followed.
+5. The 6 late reviews represent **operating deviations**: the control is suitably designed (quarterly reviews by managers) but did not operate within the required timeframe. The 2 reviews with no evidence of completion are also **operating deviations** and are more severe because there is no evidence the control operated at all for those cases. The auditor should document these as exceptions, noting the deviation rate (8 of 25 = 32%), assess the severity, and determine whether the deviations prevent the organization from meeting the applicable Trust Services Criteria (likely CC6.1 regarding logical access controls).
+6. This is a **design deficiency**. Even if the email notification process operates exactly as designed every single time, the control would not reliably meet the 24-hour revocation requirement because: (a) there is no automated workflow to ensure timely action, (b) there is no tracking to prevent notifications from being overlooked, and (c) there is no verification step to confirm access was actually revoked. The control, as designed, relies entirely on manual email processing with no accountability mechanism, so it is insufficient to meet the stated criteria regardless of how consistently it is followed.
    :::

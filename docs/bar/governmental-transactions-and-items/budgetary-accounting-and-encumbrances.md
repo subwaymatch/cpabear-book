@@ -1,10 +1,10 @@
 # Budgetary Accounting and Encumbrances
 
-State and local governments use **budgetary accounting** to formally integrate the legally adopted budget into the accounting records of governmental funds. Unlike the private sector, government budgets carry the force of law — **appropriations** represent legal spending authority, and **encumbrances** track outstanding commitments against those appropriations. Together, these mechanisms ensure that governments do not overspend their authorized resources.
+State and local governments use **budgetary accounting** to formally integrate the legally adopted budget into the accounting records of governmental funds. Unlike the private sector, government budgets carry the force of law: **appropriations** represent legal spending authority, and **encumbrances** track outstanding commitments against those appropriations. Together, these mechanisms ensure that governments do not overspend their authorized resources.
 
 :::info[Blueprint Coverage]
 
-This section maps to **BAR Area III, Group C, Topic 8 – Budgetary Accounting and Encumbrances**. Representative tasks:
+This section maps to **BAR Area III, Group C, Topic 8: Budgetary Accounting and Encumbrances**. Representative tasks:
 
 1. **Recall and explain** the types of budgets used by state and local governments.
 2. **Prepare** journal entries to record budgets (original and final) of state and local governments.
@@ -34,7 +34,7 @@ The **annual (or biennial) operating budget** is the one formally recorded in th
 
 ### Legal Level of Budgetary Control
 
-The **appropriation** is the legal authorization to spend. The level at which spending cannot be exceeded without legislative approval is called the **legal level of budgetary control** — often at the department or fund level. Spending beyond the appropriated amount is an **overexpenditure** and may be illegal.
+The **appropriation** is the legal authorization to spend. The level at which spending cannot be exceeded without legislative approval is called the **legal level of budgetary control**, often at the department or fund level. Spending beyond the appropriated amount is an **overexpenditure** and may be illegal.
 
 ---
 
@@ -46,8 +46,8 @@ $$
 \text{Estimated Revenues} - \text{Appropriations} = \text{Budgetary Fund Balance}
 $$
 
-- If Estimated Revenues > Appropriations → **credit** to Budgetary Fund Balance (planned surplus)
-- If Estimated Revenues < Appropriations → **debit** to Budgetary Fund Balance (planned deficit)
+- If Estimated Revenues > Appropriations, the difference is a **credit** to Budgetary Fund Balance (planned surplus)
+- If Estimated Revenues < Appropriations, the difference is a **debit** to Budgetary Fund Balance (planned deficit)
 
 ```mermaid
 flowchart TD
@@ -74,7 +74,7 @@ When the budget is formally adopted, the government records **budgetary accounts
 | Estimated Other Financing Uses | Credit | Authorized transfers out |
 | Budgetary Fund Balance | Debit or Credit | Plug figure (surplus or deficit) |
 
-### Example — Recording the Original Budget
+### Example: Recording the Original Budget
 
 **Bear City** adopts its General Fund budget for the fiscal year with estimated revenues of \$5,000,000 and appropriations of \$4,800,000.
 
@@ -88,11 +88,11 @@ Dr. Estimated Revenues 5,000,000
 
 :::warning[Common Pitfall]
 
-Budgetary accounts are **not** the same as actual revenue and expenditure accounts. Estimated Revenues is a budgetary control account — it does not record actual cash received. Keep budgetary entries separate from actual transaction entries.
+Budgetary accounts are **not** the same as actual revenue and expenditure accounts. Estimated Revenues is a budgetary control account; it does not record actual cash received. Keep budgetary entries separate from actual transaction entries.
 
 :::
 
-### Example — Budget with a Planned Deficit
+### Example: Budget with a Planned Deficit
 
 **Illini Township** adopts a budget with estimated revenues of \$3,200,000 and appropriations of \$3,500,000. The planned deficit is \$300,000.
 
@@ -106,9 +106,9 @@ Dr. Budgetary Fund Balance 300,000
 
 ## Budget Amendments
 
-During the fiscal year, the legislative body may amend the budget to reflect changing circumstances. Amendments are recorded as adjustments to the original budgetary entry — only the **net change** is recorded.
+During the fiscal year, the legislative body may amend the budget to reflect changing circumstances. Amendments are recorded as adjustments to the original budgetary entry; only the **net change** is recorded.
 
-### Example — Budget Amendment
+### Example: Budget Amendment
 
 Midway through the year, Bear City's council amends the budget:
 - Estimated revenues are increased by \$150,000 (new total: \$5,150,000)
@@ -116,13 +116,7 @@ Midway through the year, Bear City's council amends the budget:
 
 Net effect on Budgetary Fund Balance: the planned surplus decreases by \$50,000 (from \$200,000 to \$150,000).
 
-```journal
-Dr. Estimated Revenues 150,000
-    Cr. Appropriations 200,000
-    Cr. Budgetary Fund Balance 50,000
-```
-
-Wait — in this case Estimated Revenues increases by \$150,000 (debit) and Appropriations increases by \$200,000 (credit), so the difference of \$50,000 must be a **debit** to Budgetary Fund Balance (reducing the planned surplus):
+Estimated Revenues increases by \$150,000 (debit) and Appropriations increases by \$200,000 (credit), so the \$50,000 difference is a **debit** to Budgetary Fund Balance, reducing the planned surplus:
 
 ```journal
 Dr. Estimated Revenues 150,000
@@ -132,7 +126,7 @@ Dr. Budgetary Fund Balance 50,000
 
 :::tip[Exam Tip]
 
-On the exam, the **final (amended) budget** equals the original budget plus all amendments. When asked to "record the final budget," you may need to combine the original entry and all amendments into one net entry — or show them separately. Read the question carefully.
+On the exam, the **final (amended) budget** equals the original budget plus all amendments. When asked to "record the final budget," you may need to combine the original entry and all amendments into one net entry or show them separately. Read the question carefully.
 
 :::
 
@@ -142,7 +136,7 @@ On the exam, the **final (amended) budget** equals the original budget plus all 
 
 At the end of the fiscal year, all budgetary accounts are closed by **reversing the original and amended budget entries**. This removes the budgetary accounts from the ledger.
 
-### Example — Closing Entry
+### Example: Closing Entry
 
 Continuing Bear City (after amendment): Estimated Revenues = \$5,150,000, Appropriations = \$5,000,000, Budgetary Fund Balance = \$150,000 (credit).
 
@@ -179,8 +173,8 @@ flowchart LR
 
 | Stage | Debit | Credit |
 |---|---|---|
-| Issue purchase order | Encumbrances | Budgetary Fund Balance – Reserve for Encumbrances |
-| Receive goods/services | Budgetary Fund Balance – Reserve for Encumbrances | Encumbrances |
+| Issue purchase order | Encumbrances | Budgetary Fund Balance (Reserve for Encumbrances) |
+| Receive goods/services | Budgetary Fund Balance (Reserve for Encumbrances) | Encumbrances |
 | Record actual cost | Expenditures | Vouchers Payable (or Cash) |
 
 ---
@@ -189,13 +183,13 @@ flowchart LR
 
 When a purchase order is issued, the government records the **estimated** cost as an encumbrance:
 
-### Example — Purchase Order Issued
+### Example: Purchase Order Issued
 
 Bear City issues a purchase order for \$75,000 of supplies.
 
 ```journal
 Dr. Encumbrances 75,000
-    Cr. Budgetary Fund Balance – Reserve for Encumbrances 75,000
+    Cr. Budgetary Fund Balance (Reserve for Encumbrances) 75,000
 ```
 
 This entry does **not** record an expenditure or a liability. It simply reserves \$75,000 of the available appropriation so that it cannot be committed elsewhere.
@@ -209,36 +203,36 @@ When goods or services are received, the process involves **two entries**:
 1. **Reverse** the encumbrance at the **originally estimated** amount
 2. **Record** the actual expenditure at the **actual** amount
 
-### Example — Goods Received at Estimated Cost
+### Example: Goods Received at Estimated Cost
 
 The \$75,000 of supplies ordered by Bear City arrive, and the invoice is exactly \$75,000.
 
-**Entry 1 — Reverse the encumbrance:**
+**Entry 1: Reverse the encumbrance**
 
 ```journal
-Dr. Budgetary Fund Balance – Reserve for Encumbrances 75,000
+Dr. Budgetary Fund Balance (Reserve for Encumbrances) 75,000
     Cr. Encumbrances 75,000
 ```
 
-**Entry 2 — Record the actual expenditure:**
+**Entry 2: Record the actual expenditure**
 
 ```journal
 Dr. Expenditures 75,000
     Cr. Vouchers Payable[l] 75,000
 ```
 
-### Example — Goods Received at Different Cost
+### Example: Goods Received at Different Cost
 
 Bear City issued a purchase order for office furniture estimated at \$40,000. The actual invoice arrives at \$42,500.
 
-**Entry 1 — Reverse the encumbrance at the original estimated amount (\$40,000):**
+**Entry 1: Reverse the encumbrance at the original estimated amount (\$40,000)**
 
 ```journal
-Dr. Budgetary Fund Balance – Reserve for Encumbrances 40,000
+Dr. Budgetary Fund Balance (Reserve for Encumbrances) 40,000
     Cr. Encumbrances 40,000
 ```
 
-**Entry 2 — Record the actual expenditure at the actual invoice amount (\$42,500):**
+**Entry 2: Record the actual expenditure at the actual invoice amount (\$42,500)**
 
 ```journal
 Dr. Expenditures 42,500
@@ -247,7 +241,7 @@ Dr. Expenditures 42,500
 
 :::warning[Important]
 
-Always reverse encumbrances at the **original estimated amount** — not the actual cost. The expenditure is always recorded at the **actual amount**. Any difference between estimated and actual does not require an adjustment to the encumbrance entry.
+Always reverse encumbrances at the **original estimated amount**, not the actual cost. The expenditure is always recorded at the **actual amount**. Any difference between estimated and actual does not require an adjustment to the encumbrance entry.
 
 :::
 
@@ -266,26 +260,26 @@ Outstanding encumbrances are closed at year-end and reported as a **restriction 
 Assume Bear City has \$25,000 in outstanding encumbrances at year-end.
 
 ```journal
-Dr. Budgetary Fund Balance – Reserve for Encumbrances 25,000
+Dr. Budgetary Fund Balance (Reserve for Encumbrances) 25,000
     Cr. Encumbrances 25,000
 ```
 
 The fund balance is then reclassified to show the commitment:
 
 ```journal
-Dr. Fund Balance – Unassigned[e] 25,000
-    Cr. Fund Balance – Committed[e] 25,000
+Dr. Fund Balance (Unassigned)[e] 25,000
+    Cr. Fund Balance (Committed)[e] 25,000
 ```
 
 :::tip[Exam Tip]
 
-Under GASB 54, outstanding encumbrances at year-end are reported as **committed** or **assigned** fund balance — never as expenditures or liabilities. The specific classification depends on the government's policy and whether the commitment was made by the highest level of decision-making authority.
+Under GASB 54, outstanding encumbrances at year-end are reported as **committed** or **assigned** fund balance, never as expenditures or liabilities. The specific classification depends on the government's policy and whether the commitment was made by the highest level of decision-making authority.
 
 :::
 
 ### If Appropriations Do Not Lapse
 
-Some governments allow appropriations to carry over into the next fiscal year. In this case, the encumbrance remains open and is not closed. No fund balance reclassification is needed — the encumbrance continues to reserve the appropriation in the next period.
+Some governments allow appropriations to carry over into the next fiscal year. In this case, the encumbrance remains open and is not closed. No fund balance reclassification is needed; the encumbrance continues to reserve the appropriation in the next period.
 
 ---
 
@@ -299,13 +293,13 @@ Under GASB Statement No. 54, fund balance is classified in a hierarchy:
 | **Restricted** | Externally imposed constraints | N/A |
 | **Committed** | Constraints imposed by highest decision-making authority | Outstanding encumbrances (if committed by governing body) |
 | **Assigned** | Intended use established by governing body or designee | Outstanding encumbrances (if assigned by management) |
-| **Unassigned** | Residual — available for any purpose | Reduced by amount reclassified |
+| **Unassigned** | Residual; available for any purpose | Reduced by amount reclassified |
 
 ---
 
 ## Complete Worked Example
 
-**Grizzly County General Fund — Fiscal Year 20X5**
+**Grizzly County General Fund, Fiscal Year 20X5**
 
 ### Step 1: Record the Original Budget
 
@@ -334,7 +328,7 @@ The county issues a purchase order for a new vehicle fleet estimated at \$320,00
 
 ```journal
 Dr. Encumbrances 320,000
-    Cr. Budgetary Fund Balance – Reserve for Encumbrances 320,000
+    Cr. Budgetary Fund Balance (Reserve for Encumbrances) 320,000
 ```
 
 ### Step 4: Receive the Vehicles
@@ -344,7 +338,7 @@ The vehicles are delivered and the actual invoice is \$318,500.
 **Reverse the encumbrance:**
 
 ```journal
-Dr. Budgetary Fund Balance – Reserve for Encumbrances 320,000
+Dr. Budgetary Fund Balance (Reserve for Encumbrances) 320,000
     Cr. Encumbrances 320,000
 ```
 
@@ -362,15 +356,15 @@ The county has one remaining purchase order for computer equipment, estimated at
 **Close the outstanding encumbrance:**
 
 ```journal
-Dr. Budgetary Fund Balance – Reserve for Encumbrances 45,000
+Dr. Budgetary Fund Balance (Reserve for Encumbrances) 45,000
     Cr. Encumbrances 45,000
 ```
 
 **Reclassify fund balance:**
 
 ```journal
-Dr. Fund Balance – Unassigned[e] 45,000
-    Cr. Fund Balance – Committed[e] 45,000
+Dr. Fund Balance (Unassigned)[e] 45,000
+    Cr. Fund Balance (Committed)[e] 45,000
 ```
 
 ### Step 6: Close Budgetary Accounts
@@ -383,18 +377,18 @@ Dr. Budgetary Fund Balance 150,000
     Cr. Estimated Revenues 10,000,000
 ```
 
-### Step 7: Next Year — Re-establish the Encumbrance
+### Step 7: Next Year, Re-establish the Encumbrance
 
 When the new fiscal year begins and the appropriation is re-authorized, the encumbrance is re-established:
 
 ```journal
 Dr. Encumbrances 45,000
-    Cr. Budgetary Fund Balance – Reserve for Encumbrances 45,000
+    Cr. Budgetary Fund Balance (Reserve for Encumbrances) 45,000
 ```
 
 ---
 
-## Encumbrances vs. Expenditures — Key Distinctions
+## Encumbrances vs. Expenditures: Key Distinctions
 
 | | Encumbrances | Expenditures |
 |---|---|---|
@@ -404,7 +398,7 @@ Dr. Encumbrances 45,000
 | **Normal balance** | Debit | Debit |
 | **Effect on fund balance** | Reserve (committed/assigned) | Reduces unassigned fund balance |
 | **Reported on financial statements** | Note disclosure or fund balance classification | Operating statement (expenditures line) |
-| **GAAP basis?** | Budgetary control only | Yes — recognized under modified accrual |
+| **GAAP basis?** | Budgetary control only | Yes; recognized under modified accrual |
 
 :::warning[Exam Alert]
 
@@ -425,7 +419,7 @@ A common exam trap: Encumbrances do **not** appear as expenditures on the GAAP-b
 | Receive goods (reverse encumbrance) | Reserve for Encumbrances | Encumbrances |
 | Record actual expenditure | Expenditures | Vouchers Payable |
 | Close outstanding encumbrances | Reserve for Encumbrances | Encumbrances |
-| Reclassify fund balance | Fund Balance – Unassigned | Fund Balance – Committed |
+| Reclassify fund balance | Fund Balance (Unassigned) | Fund Balance (Committed) |
 | Close budgetary accounts at year-end | Appropriations; Budgetary Fund Balance | Estimated Revenues |
 
 :::tip[Exam Tip]

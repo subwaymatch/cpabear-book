@@ -1,6 +1,6 @@
 # Threats and Attacks
 
-Understanding cybersecurity threats and attacks is essential for CPAs working in IT audit, advisory, and assurance. Organizations face a constantly evolving threat landscape — from disgruntled insiders to sophisticated nation-state actors — and each threat requires a different set of controls. As a CPA, you must be able to classify threat agents, identify attack types and techniques, explain how cyber-attacks progress through stages, and evaluate the cybersecurity risks specific to cloud, IoT, and mobile environments.
+Understanding cybersecurity threats and attacks is essential for CPAs working in IT audit, advisory, and assurance. Organizations face a constantly evolving threat landscape, from disgruntled insiders to sophisticated nation-state actors, and each threat requires a different set of controls. As a CPA, you must be able to classify threat agents, identify attack types and techniques, explain how cyber-attacks progress through stages, and evaluate the cybersecurity risks specific to cloud, IoT, and mobile environments.
 This section covers **types of threat agents and their motivations**, **categories of attacks**, **specific cyber-attack techniques**, **the stages of a cyber-attack (Cyber Kill Chain)**, **cloud cybersecurity risks**, **IoT cybersecurity risks**, **mobile technology risks**, **threat modeling and threat landscape**, and **determining threats to third-party connections and organizational systems**.
 :::info
 The ISC exam tests threats and attacks primarily at the Remembering and Understanding level, with select topics tested at the Application and Analysis levels. You should be able to classify threat agents, identify attack types and techniques, explain the stages of a cyber-attack, and determine specific cybersecurity threats for a given scenario.
@@ -19,7 +19,7 @@ A **threat agent** (also called a threat actor) is any individual, group, or ent
 | **Internal threats** | Individuals with authorized access to the organization's systems who misuse that access           | Employees, contractors, temporary workers, business partners with VPN access |
 | **External threats** | Individuals or groups without authorized access who attempt to breach the organization's defenses | Hackers, organized crime groups, nation-state actors, hacktivists            |
 
-Internal threats are particularly dangerous because insiders already have legitimate credentials, knowledge of internal systems, and physical access to facilities — making detection more difficult.
+Internal threats are particularly dangerous because insiders already have legitimate credentials, knowledge of internal systems, and physical access to facilities, which makes detection more difficult.
 
 ### Categories of Threat Actors
 
@@ -57,7 +57,7 @@ Physical attacks exploit the physical environment rather than digital vulnerabil
 
 ### Distributed Denial of Service (DDoS)
 
-A **Distributed Denial of Service (DDoS)** attack overwhelms a target system, server, or network with a flood of traffic from multiple sources, making it unavailable to legitimate users. DDoS attacks do not typically steal data — they disrupt availability.
+A **Distributed Denial of Service (DDoS)** attack overwhelms a target system, server, or network with a flood of traffic from multiple sources, making it unavailable to legitimate users. DDoS attacks do not typically steal data; they disrupt availability.
 Key characteristics:
 
 - Traffic originates from many compromised devices (a **botnet**)
@@ -71,7 +71,7 @@ Key characteristics:
 | Malware Type | Description | Propagation |
 |---|---|---|
 | **Virus** | Malicious code that attaches to a legitimate program and executes when the host program runs | Requires user action (opening a file, running a program) |
-| **Worm** | Self-replicating malware that spreads across networks without user interaction | Automatic — exploits network vulnerabilities |
+| **Worm** | Self-replicating malware that spreads across networks without user interaction | Automatic; exploits network vulnerabilities |
 | **Trojan horse** | Malware disguised as legitimate software that performs hidden malicious functions | User downloads and installs what appears to be legitimate software |
 | **Ransomware** | Encrypts the victim's data and demands payment for the decryption key | Typically via phishing emails or exploited vulnerabilities |
 | **Spyware** | Secretly monitors user activity and collects sensitive information | Bundled with downloads or installed via exploits |
@@ -86,8 +86,8 @@ Key characteristics:
 | **Phishing** | Mass emails impersonating a trusted entity to trick recipients into revealing credentials or clicking malicious links | Email |
 | **Spear phishing** | Targeted phishing directed at a specific individual or organization using personalized information | Email |
 | **Whaling** | Spear phishing targeting senior executives (CEO, CFO) | Email |
-| **Vishing** | Voice phishing — using phone calls to trick victims into revealing sensitive information | Phone |
-| **Smishing** | SMS phishing — using text messages to deliver malicious links | Text message |
+| **Vishing** | Voice phishing: using phone calls to trick victims into revealing sensitive information | Phone |
+| **Smishing** | SMS phishing: using text messages to deliver malicious links | Text message |
 | **Pretexting** | Creating a fabricated scenario to gain a victim's trust and extract information | Any medium |
 | **Baiting** | Leaving infected media (USB drives) in public areas hoping someone will plug them in | Physical |
 :::warning
@@ -98,10 +98,10 @@ Social engineering is the **most common initial attack vector** in data breaches
 
 Web application attacks target vulnerabilities in web-based software:
 
-- **SQL injection** — inserting malicious SQL code into input fields to manipulate databases
-- **Cross-site scripting (XSS)** — injecting malicious scripts into web pages viewed by other users
-- **Cross-site request forgery (CSRF)** — tricking authenticated users into performing unintended actions
-- **Session hijacking** — stealing or predicting session tokens to impersonate authenticated users
+- **SQL injection**: inserting malicious SQL code into input fields to manipulate databases
+- **Cross-site scripting (XSS)**: injecting malicious scripts into web pages viewed by other users
+- **Cross-site request forgery (CSRF)**: tricking authenticated users into performing unintended actions
+- **Session hijacking**: stealing or predicting session tokens to impersonate authenticated users
 
 ### Mobile Device Attacks
 
@@ -137,7 +137,7 @@ Buffer overflow and SQL injection are among the most historically common and dan
 
 ## Stages of a Cyber-Attack (Cyber Kill Chain)
 
-A cyber-attack is not a single event — it unfolds through a sequence of stages. Understanding these stages helps organizations detect and stop attacks at each phase. Two commonly referenced frameworks describe these stages:
+A cyber-attack is not a single event; it unfolds through a sequence of stages. Understanding these stages helps organizations detect and stop attacks at each phase. Two commonly referenced frameworks describe these stages:
 
 ### Lockheed Martin Cyber Kill Chain
 
@@ -153,7 +153,7 @@ graph LR
 
 | Stage                      | Description                                                                                          | Example                                                      |
 | -------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| **Reconnaissance**         | Attacker researches the target — gathering information about systems, employees, and vulnerabilities | Scanning **Bear Co.**'s public-facing servers for open ports |
+| **Reconnaissance**         | Attacker researches the target, gathering information about systems, employees, and vulnerabilities | Scanning **Bear Co.**'s public-facing servers for open ports |
 | **Weaponization**          | Attacker creates a deliverable payload (e.g., malware embedded in a document)                        | Building a malicious PDF exploiting a known vulnerability    |
 | **Delivery**               | Attacker transmits the weapon to the target                                                          | Sending a spear-phishing email to Bear Co.'s CFO             |
 | **Exploitation**           | The payload triggers and exploits a vulnerability                                                    | The malicious PDF executes code when opened                  |
@@ -173,7 +173,7 @@ The CPA exam also references these stages:
 | **Network exploitation** | Moving laterally across the network to access additional systems and data |
 | **Covering tracks** | Deleting logs, modifying timestamps, and removing evidence of the intrusion |
 :::tip[Exam Tip]
-Both stage models describe the same concept — a cyber-attack progresses through sequential phases. A key takeaway is that **early detection is critical**. If an organization detects an attacker during the reconnaissance phase, it can prevent all subsequent stages. The further an attacker progresses, the more damage they can inflict and the harder it is to contain.
+Both stage models describe the same concept: a cyber-attack progresses through sequential phases. A key takeaway is that **early detection is critical**. If an organization detects an attacker during the reconnaissance phase, it can prevent all subsequent stages. The further an attacker progresses, the more damage they can inflict and the harder it is to contain.
 :::
 
 ---
@@ -208,7 +208,7 @@ The **Internet of Things (IoT)** refers to physical devices (sensors, cameras, t
 | **Insecure communication** | IoT devices may transmit data without encryption, exposing it to interception |
 | **Physical accessibility** | IoT devices are often deployed in public or uncontrolled locations where they can be physically tampered with |
 :::note
-The Mirai botnet attack (2016) demonstrated how compromised IoT devices — primarily security cameras and routers with default passwords — could be used to launch massive DDoS attacks. This illustrates why default credential management is a critical IoT control.
+The Mirai botnet attack (2016) demonstrated how compromised IoT devices (primarily security cameras and routers with default passwords) could be used to launch massive DDoS attacks. This illustrates why default credential management is a critical IoT control.
 :::
 
 ---
@@ -243,7 +243,7 @@ Mobile devices (smartphones, tablets) present unique cybersecurity challenges be
    | Methodology | Description | Focus |
    |---|---|---|
    | **STRIDE** | Categorizes threats into six types: Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege | Application-level threats |
-   | **PASTA** | Process for Attack Simulation and Threat Analysis — a seven-stage risk-centric methodology | Business risk alignment |
+   | **PASTA** | Process for Attack Simulation and Threat Analysis, a seven-stage risk-centric methodology | Business risk alignment |
    | **Attack trees** | Graphical representations of possible attacks, with the goal at the root and attack methods as branches | Specific attack scenarios |
    | **DREAD** | Rates threats by Damage, Reproducibility, Exploitability, Affected users, Discoverability | Risk prioritization |
 
@@ -295,8 +295,8 @@ When analyzing threats in a scenario, consider the **specific context** of the o
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Threat agents            | Classified as internal/external and by motivation (financial, political, espionage); nation-state actors are the most sophisticated                 |
 | Types of attacks         | Include physical attacks, DDoS, malware, social engineering, web application attacks, and mobile attacks                                            |
-| Cyber-attack techniques  | Buffer overflow, SQL injection, XSS, replay attacks, and others exploit specific technical vulnerabilities — most are prevented by input validation |
-| Stages of a cyber-attack | Attacks progress through reconnaissance → access → privilege escalation → persistence → exploitation → covering tracks                              |
+| Cyber-attack techniques  | Buffer overflow, SQL injection, XSS, replay attacks, and others exploit specific technical vulnerabilities; most are prevented by input validation |
+| Stages of a cyber-attack | Attacks progress through reconnaissance, access, privilege escalation, persistence, exploitation, and covering tracks, in that order          |
 | Cloud risks              | Shared responsibility gaps, misconfigured storage, API vulnerabilities, and data co-mingling are primary concerns                                   |
 | IoT risks                | Default credentials, inability to patch, and large attack surfaces make IoT devices attractive targets for botnets                                  |
 | Mobile risks             | BYOD, unsecured Wi-Fi, device loss, and jailbreaking create entry points outside the organization's perimeter                                       |
@@ -308,10 +308,10 @@ When analyzing threats in a scenario, consider the **specific context** of the o
 ## Practice Questions
 
 1. **Bear Co.** is a mid-sized manufacturing company. A security analyst discovers that an attacker has been present in the network for six months, slowly exfiltrating intellectual property related to a proprietary manufacturing process. The attacker appears to be well-funded and uses custom malware not seen in any public threat database. How should this threat agent be classified?
-2. **Polar Inc.** receives a report that its cloud-based HR application has a storage bucket containing employee Social Security numbers that is accessible to anyone with the URL — no authentication required. What type of cloud cybersecurity risk does this represent, and what is the most likely root cause?
+2. **Polar Inc.** receives a report that its cloud-based HR application has a storage bucket containing employee Social Security numbers that is accessible to anyone with the URL, with no authentication required. What type of cloud cybersecurity risk does this represent, and what is the most likely root cause?
 3. **Kingfisher Industries** operates a smart building with 2,000 IoT sensors monitoring temperature, lighting, and security cameras. The IT security team has never changed the factory-default credentials on these devices. During a recent audit, several sensors were found to be sending traffic to unknown external IP addresses. What IoT-specific risk has materialized, and what stage of the cyber-attack lifecycle does the observed behavior represent?
    :::tip[Answers]
 4. This is an **Advanced Persistent Threat (APT)**, likely **nation-state sponsored**. The key indicators are: (a) prolonged, stealthy presence (six months), (b) sophisticated custom malware, (c) targeting of intellectual property, and (d) substantial resources and patience. APTs are external, nation-state or state-sponsored threat actors focused on long-term intelligence gathering.
-5. This represents a **misconfigured storage** risk — the most common cloud security failure. The root cause is a **shared responsibility gap**: the CSP provides the tools to secure storage buckets, but it is the customer's (Polar Inc.'s) responsibility to configure proper access controls. Someone either left the default public-access setting unchanged or incorrectly configured the bucket's permissions.
-6. The materialized risk is **botnet recruitment** due to **default credentials**. The devices were compromised because factory-default passwords were never changed — a fundamental IoT security failure. The observed behavior (traffic to unknown external IPs) indicates the devices have reached the **Command & Control (C2) stage** of the cyber-attack lifecycle, where compromised devices communicate with the attacker's infrastructure to receive instructions.
+5. This represents a **misconfigured storage** risk, the most common cloud security failure. The root cause is a **shared responsibility gap**: the CSP provides the tools to secure storage buckets, but it is the customer's (Polar Inc.'s) responsibility to configure proper access controls. Someone either left the default public-access setting unchanged or incorrectly configured the bucket's permissions.
+6. The materialized risk is **botnet recruitment** due to **default credentials**. The devices were compromised because factory-default passwords were never changed, which is a fundamental IoT security failure. The observed behavior (traffic to unknown external IPs) indicates the devices have reached the **Command & Control (C2) stage** of the cyber-attack lifecycle, where compromised devices communicate with the attacker's infrastructure to receive instructions.
    :::

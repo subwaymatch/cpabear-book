@@ -1,6 +1,6 @@
 # Internally Developed Software
 
-Companies routinely build software — either for their own operations or to sell to customers. U.S. GAAP draws a sharp line between these two scenarios and prescribes different capitalization rules for each. The BAR exam expects you to know **when** costs move from expense to asset, **which** costs qualify, and **how** to compute amortization once the asset is placed in service. This page covers the two authoritative frameworks: **ASC 350-40** (internal-use software) and **ASC 985-20** (software to be sold, leased, or otherwise marketed).
+Companies routinely build software, either for their own operations or to sell to customers. U.S. GAAP draws a sharp line between these two scenarios and prescribes different capitalization rules for each. The BAR exam expects you to know **when** costs move from expense to asset, **which** costs qualify, and **how** to compute amortization once the asset is placed in service. This page covers the two authoritative frameworks: **ASC 350-40** (internal-use software) and **ASC 985-20** (software to be sold, leased, or otherwise marketed).
 :::info[Blueprint Coverage]
 This topic maps to **Area II, Group B** of the 2026 CPA Exam Blueprints for **Business Analysis and Reporting (BAR)**. The blueprint expects candidates to:
 
@@ -12,17 +12,17 @@ This topic maps to **Area II, Group B** of the 2026 CPA Exam Blueprints for **Bu
 
 ## Two Frameworks at a Glance
 
-| Feature                    | ASC 350-40 — Internal Use                                         | ASC 985-20 — For Sale / Lease                                  |
+| Feature                    | ASC 350-40 (Internal Use)                                         | ASC 985-20 (For Sale / Lease)                                  |
 | -------------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------- |
 | **Scope**                  | Software used internally (back-office, ERP, intranet)             | Software to be sold, leased, or marketed externally            |
 | **Capitalization trigger** | When management commits to the project and preliminary stage ends | After **technological feasibility** is established             |
-| **Phases**                 | Preliminary → Application Development → Post-Implementation       | Research & planning → After tech feasibility → General release |
+| **Phases**                 | Preliminary, then Application Development, then Post-Implementation | Research & planning, then after tech feasibility, then general release |
 | **Amortization method**    | Straight-line over estimated useful life                          | Greater of (a) revenue-based ratio or (b) straight-line        |
 | **Impairment model**       | ASC 360 (long-lived assets)                                       | Net realizable value (NRV) test each period                    |
 
 ---
 
-## Part 1 — Software Developed for Internal Use (ASC 350-40)
+## Part 1: Software Developed for Internal Use (ASC 350-40)
 
 ### Scope
 
@@ -43,9 +43,9 @@ graph LR
 
 | Phase                                   | Activities                                                                                                              | Accounting Treatment    |
 | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| **1 — Preliminary Project**             | Conceptual formulation, evaluating alternatives, determining technology, selecting vendors                              | **Expense as incurred** |
-| **2 — Application Development**         | Coding, testing, installation of hardware/software, data conversion (to the extent needed for the software to function) | **Capitalize**          |
-| **3 — Post-Implementation / Operation** | Training, maintenance, minor bug fixes, ongoing data conversion                                                         | **Expense as incurred** |
+| **1. Preliminary Project**              | Conceptual formulation, evaluating alternatives, determining technology, selecting vendors                              | **Expense as incurred** |
+| **2. Application Development**          | Coding, testing, installation of hardware/software, data conversion (to the extent needed for the software to function) | **Capitalize**          |
+| **3. Post-Implementation / Operation**  | Training, maintenance, minor bug fixes, ongoing data conversion                                                         | **Expense as incurred** |
 
 :::tip[Exam Tip]
 Think of the mnemonic **P-A-P**: **P**reliminary = expense, **A**pplication development = capitalize, **P**ost-implementation = expense. Only the middle phase creates an asset.
@@ -66,7 +66,7 @@ During the application development stage, the following costs are capitalized:
 - Data conversion costs **unless** the conversion is necessary for the software to be capable of performing its intended function
 - Costs of re-engineering business processes
   :::warning
-  **Training costs are never capitalized** — even when training occurs simultaneously with the application development stage. This is a frequent exam trap.
+  **Training costs are never capitalized**, even when training occurs simultaneously with the application development stage. This is a frequent exam trap.
   :::
 
 ### When to Start and Stop Capitalizing
@@ -78,13 +78,13 @@ During the application development stage, the following costs are capitalized:
 
 ---
 
-### Example — Bear Co. Develops an Internal ERP System
+### Example: Bear Co. Develops an Internal ERP System
 
 Bear Co. incurs the following costs developing a custom ERP system:
 | Cost | Amount | Phase |
 |------|--------|-------|
 | Feasibility study and vendor evaluation | \$50,000 | Preliminary |
-| External consultant — coding and configuration | \$400,000 | Application Development |
+| External consultant (coding and configuration) | \$400,000 | Application Development |
 | Internal programmers' salaries (directly devoted) | \$200,000 | Application Development |
 | Testing before go-live | \$80,000 | Application Development |
 | Training end-users | \$60,000 | Post-Implementation |
@@ -102,7 +102,7 @@ $$
 $$
 
 ```journal
-Dr. Software — Internal Use[a] 680,000
+Dr. Software (Internal Use)[a] 680,000
 Dr. Software Development Expense 140,000
     Cr. Cash[a] 820,000
 ```
@@ -117,7 +117,7 @@ $$
 \text{Annual Amortization} = \frac{\text{Capitalized Cost} - \text{Residual Value}}{\text{Estimated Useful Life}}
 $$
 
-### Example — Bear Co. ERP Amortization
+### Example: Bear Co. ERP Amortization
 
 Bear Co.'s ERP system (capitalized at \$680,000) is placed in service on January 1, Year 1. The estimated useful life is 5 years with no residual value.
 
@@ -127,7 +127,7 @@ $$
 
 ```journal
 Dr. Amortization Expense 136,000
-    Cr. Accumulated Amortization — Software[ca] 136,000
+    Cr. Accumulated Amortization (Software)[ca] 136,000
 ```
 
 ---
@@ -136,21 +136,21 @@ Dr. Amortization Expense 136,000
 
 Internal-use software is a **finite-lived intangible asset** and follows the **ASC 360 two-step impairment model** for long-lived assets:
 
-1. **Recoverability test** — Compare the asset's carrying amount to the **undiscounted future cash flows** expected from the asset. If carrying amount exceeds undiscounted cash flows, proceed to Step 2.
-2. **Measurement** — Impairment loss equals the amount by which the carrying amount exceeds the asset's **fair value**.
+1. **Recoverability test**: Compare the asset's carrying amount to the **undiscounted future cash flows** expected from the asset. If carrying amount exceeds undiscounted cash flows, proceed to Step 2.
+2. **Measurement**: Impairment loss equals the amount by which the carrying amount exceeds the asset's **fair value**.
    $$
    \text{Impairment Loss} = \text{Carrying Amount} - \text{Fair Value}
    $$
    :::warning
-   Do **not** confuse the internal-use software impairment model (ASC 360 — two-step for finite-lived assets) with the goodwill impairment model (ASC 350-20 — one-step at the reporting-unit level). The exam may test both in the same problem set.
+   Do **not** confuse the internal-use software impairment model (ASC 360, two-step for finite-lived assets) with the goodwill impairment model (ASC 350-20, one-step at the reporting-unit level). The exam may test both in the same problem set.
    :::
 
-### Example — Bear Co. Software Impairment
+### Example: Bear Co. Software Impairment
 
 Bear Co. has internal-use software with a carrying amount of \$420,000. Due to a shift in business strategy, the software's expected undiscounted future cash flows are \$350,000 and its fair value is \$300,000.
-**Step 1 — Recoverability test:**
-Carrying amount (\$420,000) > Undiscounted cash flows (\$350,000) → **impairment exists**.
-**Step 2 — Measure the loss:**
+**Step 1: Recoverability test.**
+Carrying amount (\$420,000) > Undiscounted cash flows (\$350,000), so **impairment exists**.
+**Step 2: Measure the loss.**
 
 $$
 \text{Impairment Loss} = \$420{,}000 - \$300{,}000 = \$120{,}000
@@ -158,7 +158,7 @@ $$
 
 ```journal
 Dr. Impairment Loss 120,000
-    Cr. Accumulated Amortization — Software[ca] 120,000
+    Cr. Accumulated Amortization (Software)[ca] 120,000
 ```
 
 After the write-down, the software is carried at its new basis of **\$300,000** and amortized over its remaining useful life. The impairment loss is **never reversed** under U.S. GAAP.
@@ -167,24 +167,24 @@ After the write-down, the software is carried at its new basis of **\$300,000** 
 
 If management decides to **abandon** the software project before it is placed in service, any capitalized costs are written off immediately as a loss.
 
-### Example — Polar Inc. Abandons a Software Project
+### Example: Polar Inc. Abandons a Software Project
 
 Polar Inc. capitalized \$250,000 during the application development stage of an internal-use software project. The project is subsequently abandoned.
 
 ```journal
 Dr. Loss on Abandoned Software 250,000
-    Cr. Software — Internal Use[a] 250,000
+    Cr. Software (Internal Use)[a] 250,000
 ```
 
 ---
 
-## Part 2 — Software Developed for Sale (ASC 985-20)
+## Part 2: Software Developed for Sale (ASC 985-20)
 
 ### Scope
 
 ASC 985-20 applies to software that a company develops (or purchases and modifies) with the intent to **sell, lease, or otherwise market** externally.
 
-### Key Concept — Technological Feasibility
+### Key Concept: Technological Feasibility
 
 The central milestone under ASC 985-20 is **technological feasibility**. All costs incurred **before** technological feasibility is established are treated as **research and development** and expensed as incurred.
 Technological feasibility is established when the entity has completed either:
@@ -228,17 +228,17 @@ In practice, many companies establish technological feasibility very late in the
 
 ---
 
-### Example — Bear Co. Develops Software for Sale
+### Example: Bear Co. Develops Software for Sale
 
 Bear Co. develops a new tax preparation software product. The following costs are incurred:
 | Cost | Amount | Timing |
 |------|--------|--------|
 | Market research and concept design | \$100,000 | Before tech feasibility |
-| Coding — initial prototype and testing | \$300,000 | Before tech feasibility |
-| Completion of working model (tech feasibility established) | — | Milestone |
+| Coding (initial prototype and testing) | \$300,000 | Before tech feasibility |
+| Completion of working model (tech feasibility established) | N/A | Milestone |
 | Coding and testing after working model | \$200,000 | After tech feasibility |
 | Production of product masters | \$40,000 | After tech feasibility |
-| Product available for general release | — | Milestone |
+| Product available for general release | N/A | Milestone |
 | Duplication and packaging for customers | \$25,000 | After general release |
 | Post-release customer support | \$50,000 | After general release |
 **R&D expense (before tech feasibility):**
@@ -273,13 +273,13 @@ Dr. Customer Support Expense 50,000
 
 Once the product is **available for general release** to customers, the capitalized cost is amortized each period using the **greater of**:
 
-1. **Revenue-based ratio** — The ratio of current-period revenue to total expected revenue over the product's life, applied to the capitalized cost.
-2. **Straight-line** — Capitalized cost divided by the estimated economic life of the product.
+1. **Revenue-based ratio**: the ratio of current-period revenue to total expected revenue over the product's life, applied to the capitalized cost.
+2. **Straight-line**: capitalized cost divided by the estimated economic life of the product.
    $$
    \text{Amortization} = \max\!\left(\text{Capitalized Cost} \times \frac{\text{Current Period Revenue}}{\text{Total Expected Revenue}},\;\frac{\text{Capitalized Cost}}{\text{Economic Life}}\right)
    $$
 
-### Example — Bear Co. Software Amortization (Year 1)
+### Example: Bear Co. Software Amortization (Year 1)
 
 Bear Co.'s capitalized software cost is \$240,000. The product has an estimated economic life of 4 years. Total expected revenue over the product's life is \$1,200,000. Year 1 revenue is \$480,000.
 **Revenue-based amount:**
@@ -298,7 +298,7 @@ $$
 
 ```journal
 Dr. Amortization Expense 96,000
-    Cr. Accumulated Amortization — Software[ca] 96,000
+    Cr. Accumulated Amortization (Software)[ca] 96,000
 ```
 
 :::tip[Exam Tip]
@@ -307,7 +307,7 @@ The "greater-of" rule ensures that amortization is **at least** the straight-lin
 
 ---
 
-### Impairment of Software for Sale — NRV Test
+### Impairment of Software for Sale: NRV Test
 
 At **each balance sheet date**, the entity compares the **unamortized capitalized cost** (carrying amount) to the **net realizable value (NRV)** of the software product. NRV is the estimated future gross revenue from the product less the estimated future costs of completing and disposing of the product.
 
@@ -317,7 +317,7 @@ $$
 
 Any write-down is charged to cost of sales or a separate line item and **cannot be reversed**.
 
-### Example — Polar Inc. Software NRV Impairment
+### Example: Polar Inc. Software NRV Impairment
 
 Polar Inc. has a software product with an unamortized capitalized cost of \$180,000. Due to a competitor releasing a superior product, Polar Inc. estimates the remaining gross revenue at \$200,000 and the remaining costs to complete and sell at \$90,000.
 
@@ -344,10 +344,10 @@ After the write-down, the software is carried at **\$110,000**. This new basis i
 | **Capitalize ending when**   | Software is ready for intended use            | Product is available for general release  |
 | **Amortization method**      | Straight-line                                 | Greater of revenue-based or straight-line |
 | **Amortization begins**      | When ready for intended use                   | When available for general release        |
-| **Impairment model**         | ASC 360 — recoverability test then fair value | NRV test each period                      |
+| **Impairment model**         | ASC 360: recoverability test, then fair value | NRV test each period                      |
 | **Impairment reversal**      | Not allowed                                   | Not allowed                               |
 | **Training costs**           | Always expensed                               | N/A                                       |
-| **Costs before threshold**   | Preliminary stage → expensed                  | Before tech feasibility → R&D expense     |
+| **Costs before threshold**   | Preliminary stage: expensed                   | Before tech feasibility: R&D expense      |
 
 ---
 
@@ -357,14 +357,14 @@ After the write-down, the software is carried at **\$110,000**. This new basis i
 | ------------------------------------ | -------------------------------------------------------------------------------------- |
 | **Internal-use software**            | Reported within **intangible assets** or **property & equipment** on the balance sheet |
 | **Software for sale (capitalized)**  | Reported within **other assets** or as a separate intangible line item                 |
-| **Amortization — internal use**      | Classified based on the function the software supports (e.g., SG&A, cost of sales)     |
-| **Amortization — for sale**          | Classified as **cost of sales**                                                        |
+| **Amortization, internal use**       | Classified based on the function the software supports (e.g., SG&A, cost of sales)     |
+| **Amortization, for sale**           | Classified as **cost of sales**                                                        |
 | **Impairment losses**                | Reported within operating income                                                       |
 | **R&D costs (pre-tech-feasibility)** | Expensed and disclosed as R&D                                                          |
 
 ---
 
-## Comprehensive Multi-Year Example — Bear Co. Software for Sale
+## Comprehensive Multi-Year Example: Bear Co. Software for Sale
 
 Bear Co. develops a cloud-based auditing tool for sale to accounting firms. The following timeline applies:
 | Event | Date |
@@ -377,8 +377,8 @@ Bear Co. develops a cloud-based auditing tool for sale to accounting firms. The 
 
 | Period                            | Costs Incurred | Treatment   |
 | --------------------------------- | -------------- | ----------- |
-| Jan 1 – Jun 30, Year 1            | \$500,000      | R&D expense |
-| Jul 1 – Dec 31, Year 1            | \$300,000      | Capitalize  |
+| Jan 1 to Jun 30, Year 1           | \$500,000      | R&D expense |
+| Jul 1 to Dec 31, Year 1           | \$300,000      | Capitalize  |
 | Year 2 (post-release maintenance) | \$60,000       | Expense     |
 
 **Capitalized software cost = \$300,000**
@@ -406,7 +406,7 @@ $$
 
 ```journal
 Dr. Amortization Expense 50,000
-    Cr. Accumulated Amortization — Software[ca] 50,000
+    Cr. Accumulated Amortization (Software)[ca] 50,000
 ```
 
 ---
@@ -423,5 +423,5 @@ Dr. Amortization Expense 50,000
 | **Can I reverse impairment?**     | No                                                                              | No                                                                          |
 
 :::info
-**Key takeaway:** The critical distinction is **purpose**. If the software is built for the company's own use, follow ASC 350-40 and capitalize during the application development stage. If the software is built to sell, follow ASC 985-20 and capitalize only after technological feasibility. Both frameworks prohibit capitalizing early-stage costs and require impairment testing — but they use different impairment models and different amortization methods.
+**Key takeaway:** The critical distinction is **purpose**. If the software is built for the company's own use, follow ASC 350-40 and capitalize during the application development stage. If the software is built to sell, follow ASC 985-20 and capitalize only after technological feasibility. Both frameworks prohibit capitalizing early-stage costs and require impairment testing, but they use different impairment models and different amortization methods.
 :::

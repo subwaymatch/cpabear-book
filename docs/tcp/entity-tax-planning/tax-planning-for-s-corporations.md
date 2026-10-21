@@ -2,7 +2,7 @@
 
 ## Introduction
 
-S corporation tax planning revolves around preserving the **pass-through tax advantage** while navigating the unique constraints of Subchapter S. The TCP exam tests your ability to calculate projected built-in gains (BIG) tax exposure on asset dispositions, evaluate the consequences of terminating the S election, analyze shareholder-level transactions (contributions, distributions, and loans), and plan distributions from the Accumulated Adjustments Account (AAA) versus accumulated Earnings and Profits (AEP). The focus is on **quantitative planning** — computing the tax impact of contemplated transactions and recommending the optimal approach.
+S corporation tax planning revolves around preserving the **pass-through tax advantage** while navigating the unique constraints of Subchapter S. The TCP exam tests your ability to calculate projected built-in gains (BIG) tax exposure on asset dispositions, evaluate the consequences of terminating the S election, analyze shareholder-level transactions (contributions, distributions, and loans), and plan distributions from the Accumulated Adjustments Account (AAA) versus accumulated Earnings and Profits (AEP). The focus is on **quantitative planning**: computing the tax impact of contemplated transactions and recommending the optimal approach.
 
 This page builds on the S corporation compliance concepts covered in the Entity Tax Compliance section and focuses on strategies to **minimize taxes and preserve S election benefits**.
 
@@ -16,15 +16,15 @@ When a C corporation converts to an S corporation, any **net unrealized built-in
 
 | Element | Rule |
 |---|---|
-| **NUBIG** | FMV of all assets − adjusted basis of all assets on the S election effective date |
+| **NUBIG** | FMV of all assets - adjusted basis of all assets on the S election effective date |
 | **Recognition period** | **5 years** from the first day of the first S corporation tax year |
-| **Tax rate** | Highest corporate rate — currently **21%** |
+| **Tax rate** | Highest corporate rate, currently **21%** |
 | **Limitation** | BIG tax in any year is limited to the lesser of (1) recognized built-in gain for the year or (2) the corporation's taxable income as if it were a C corporation |
 | **NOL offset** | Pre-conversion C corporation NOL carryforwards can offset recognized built-in gain |
 
 :::warning
 
-The BIG tax is an **entity-level tax** — one of the few taxes an S corporation pays directly. It effectively preserves the C corporation double-taxation result on appreciation that existed before the S election. The gain still flows through to shareholders (net of the BIG tax), so shareholders pay tax on the gain as well.
+The BIG tax is an **entity-level tax**, one of the few taxes an S corporation pays directly. It effectively preserves the C corporation double-taxation result on appreciation that existed before the S election. The gain still flows through to shareholders (net of the BIG tax), so shareholders pay tax on the gain as well.
 
 :::
 
@@ -52,23 +52,23 @@ On June 15, 2025 (within the 5-year recognition period), Bear Co. sells the land
 | **Recognized built-in gain** (lesser of total gain or built-in gain) | **\$150,000** |
 | BIG tax (21% × \$150,000) | **\$31,500** |
 
-The remaining \$50,000 of gain (\$200,000 − \$150,000) represents post-conversion appreciation and is **not** subject to BIG tax. The entire \$200,000 gain (minus the \$31,500 BIG tax) flows through to shareholders.
+The remaining \$50,000 of gain (\$200,000 - \$150,000) represents post-conversion appreciation and is **not** subject to BIG tax. The entire \$200,000 gain (minus the \$31,500 BIG tax) flows through to shareholders.
 
 ### Strategies to Minimize BIG Tax
 
 | Strategy | Description |
 |---|---|
-| **Wait out the recognition period** | Defer asset sales until after the 5-year period — built-in gain on assets sold after the period is not subject to BIG tax |
+| **Wait out the recognition period** | Defer asset sales until after the 5-year period; built-in gain on assets sold after the period is not subject to BIG tax |
 | **Use C corporation NOL carryforwards** | Pre-conversion NOLs offset recognized built-in gain dollar-for-dollar, reducing or eliminating BIG tax |
 | **Sell low-BIG assets first** | Dispose of assets with minimal built-in gain during the recognition period; defer high-BIG asset sales |
 | **Installment sales** | If gain is recognized on the installment method, BIG tax applies only to installments received within the recognition period |
-| **Track NUBIG ceiling** | Cumulative recognized built-in gain cannot exceed NUBIG — once the ceiling is reached, no further BIG tax applies |
+| **Track NUBIG ceiling** | Cumulative recognized built-in gain cannot exceed NUBIG; once the ceiling is reached, no further BIG tax applies |
 
-> **Example:** Bear Co. converted to S status with a NUBIG of \$500,000 and a C corporation NOL carryforward of \$200,000. In Year 2, Bear Co. sells an asset and recognizes \$300,000 of built-in gain. The NOL offsets \$200,000, leaving \$100,000 subject to BIG tax. BIG tax = 21% × \$100,000 = **\$21,000**. Remaining NUBIG ceiling = \$500,000 − \$300,000 = \$200,000.
+> **Example:** Bear Co. converted to S status with a NUBIG of \$500,000 and a C corporation NOL carryforward of \$200,000. In Year 2, Bear Co. sells an asset and recognizes \$300,000 of built-in gain. The NOL offsets \$200,000, leaving \$100,000 subject to BIG tax. BIG tax = 21% × \$100,000 = **\$21,000**. Remaining NUBIG ceiling = \$500,000 - \$300,000 = \$200,000.
 
 :::tip[Exam Tip]
 
-The exam frequently tests the interaction between the NUBIG ceiling and individual asset sales. Remember: the BIG tax on any single asset sale is limited to the **built-in gain in that specific asset at the conversion date** — not the total post-conversion gain. Additionally, cumulative recognized built-in gain across all years cannot exceed the original NUBIG.
+The exam frequently tests the interaction between the NUBIG ceiling and individual asset sales. Remember: the BIG tax on any single asset sale is limited to the **built-in gain in that specific asset at the conversion date**, not the total post-conversion gain. Additionally, cumulative recognized built-in gain across all years cannot exceed the original NUBIG.
 
 :::
 
@@ -113,11 +113,11 @@ An **inadvertent termination** (e.g., an ineligible shareholder accidentally acq
 ```mermaid
 flowchart TD
     A["S Corp with Accumulated C Corp E&P"] --> B{"Passive income > 25% of gross receipts?"}
-    B -->|"No"| C["No termination risk — monitor annually"]
-    B -->|"Yes, Year 1"| D["Warning — begin planning"]
+    B -->|"No"| C["No termination risk, monitor annually"]
+    B -->|"Yes, Year 1"| D["Warning: begin planning"]
     D --> E{"Passive income > 25% in Year 2?"}
     E -->|"No"| C
-    E -->|"Yes, Year 2"| F["Critical — must act before Year 3"]
+    E -->|"Yes, Year 2"| F["Critical: must act before Year 3"]
     F --> G{"Passive income > 25% in Year 3?"}
     G -->|"Yes"| H["S election TERMINATED on Day 1 of Year 4"]
     G -->|"No"| C
@@ -136,7 +136,7 @@ Post-formation contributions to an S corporation follow **IRC §351** rules (sam
 | Planning Consideration | Detail |
 |---|---|
 | **Appreciated property** | Defers gain; corporation takes carryover basis; future gain passes through to all shareholders (not just the contributor) |
-| **Depreciated property** | Loss is **not recognized** — avoid contributing property with FMV < basis |
+| **Depreciated property** | Loss is **not recognized**; avoid contributing property with FMV < basis |
 | **Liability assumption** | Reduces shareholder's stock basis; gain recognized if liabilities exceed basis of all contributed property |
 
 :::info
@@ -169,7 +169,7 @@ When an S corporation has accumulated E&P from prior C corporation years, distri
 
 ### AEP vs. AAA Distribution Election (IRC §1368(e)(3))
 
-An S corporation with accumulated E&P may elect to **distribute from AEP first** (before AAA). This is the **deemed dividend election** — a critical planning tool.
+An S corporation with accumulated E&P may elect to **distribute from AEP first** (before AAA). This is the **deemed dividend election**, a critical planning tool.
 
 | Approach | When to Use |
 |---|---|
@@ -186,7 +186,7 @@ An S corporation with accumulated E&P may elect to **distribute from AEP first**
 | Accumulated E&P | \$50,000 | Taxable dividend |
 | **Total** | **\$250,000** | |
 
-Remaining AEP = \$80,000 − \$50,000 = **\$30,000** (passive income risk continues).
+Remaining AEP = \$80,000 - \$50,000 = **\$30,000** (passive income risk continues).
 
 **With §1368(e)(3) election (AEP first):**
 
@@ -200,7 +200,7 @@ Remaining AEP = **\$0** (passive income termination risk eliminated).
 
 :::tip[Exam Tip]
 
-The exam may present a scenario with an S corporation that has passive investment income approaching the 25% threshold and ask whether the §1368(e)(3) election should be made. The answer is almost always **yes** — the cost of dividend treatment on the E&P portion is far less than the cost of losing the S election. Calculate the tax cost of the dividend vs. the risk of termination.
+The exam may present a scenario with an S corporation that has passive investment income approaching the 25% threshold and ask whether the §1368(e)(3) election should be made. The answer is almost always **yes**, because the cost of dividend treatment on the E&P portion is far less than the cost of losing the S election. Calculate the tax cost of the dividend vs. the risk of termination.
 
 :::
 
@@ -210,15 +210,15 @@ S corporation shareholders can increase their basis for loss deduction purposes 
 
 | Approach | Effect on Basis |
 |---|---|
-| **Shareholder loans directly to S corp** | Creates **debt basis** — allows additional loss deductions beyond stock basis |
+| **Shareholder loans directly to S corp** | Creates **debt basis**, allowing additional loss deductions beyond stock basis |
 | **Shareholder guarantees third-party loan** | **No** debt basis until the shareholder makes an actual economic outlay |
-| **Back-to-back loan** | Shareholder borrows from bank, then lends to S corp — creates debt basis (the shareholder has personal liability and makes a direct loan to the corporation) |
+| **Back-to-back loan** | Shareholder borrows from bank, then lends to S corp; creates debt basis (the shareholder has personal liability and makes a direct loan to the corporation) |
 
 > **Example:** Polar Inc. (S corporation) allocates a \$120,000 loss to sole shareholder Jordan. Jordan's stock basis is \$50,000 and debt basis is \$0. Jordan can deduct only \$50,000 of the loss. If Jordan lends \$70,000 directly to Polar Inc. before year-end, Jordan's debt basis increases to \$70,000, allowing the full \$120,000 loss to be deducted (\$50,000 from stock basis + \$70,000 from debt basis).
 
 :::warning
 
-The **back-to-back loan** strategy requires genuine economic substance. The shareholder must borrow funds independently (creating personal liability) and then lend those funds directly to the S corporation. A loan from a bank directly to the corporation — even if guaranteed by the shareholder — does **not** create debt basis for the shareholder.
+The **back-to-back loan** strategy requires genuine economic substance. The shareholder must borrow funds independently (creating personal liability) and then lend those funds directly to the S corporation. A loan from a bank directly to the corporation, even if guaranteed by the shareholder, does **not** create debt basis for the shareholder.
 
 :::
 
@@ -232,7 +232,7 @@ When an S corporation repays a shareholder loan after debt basis has been reduce
 | Debt basis reduced by prior losses | Gain recognized to extent repayment exceeds reduced debt basis |
 | Net income in subsequent year | Restores **debt basis first**, then increases stock basis |
 
-> **Example:** Dana loaned \$50,000 to Kingfisher Industries (S corporation). Losses reduced Dana's debt basis to \$15,000. If Kingfisher repays the \$50,000 loan, Dana recognizes a **\$35,000 gain** (\$50,000 − \$15,000). If instead Kingfisher first allocates \$35,000 of income to Dana (restoring debt basis to \$50,000), the subsequent loan repayment is **tax-free**.
+> **Example:** Dana loaned \$50,000 to Kingfisher Industries (S corporation). Losses reduced Dana's debt basis to \$15,000. If Kingfisher repays the \$50,000 loan, Dana recognizes a **\$35,000 gain** (\$50,000 - \$15,000). If instead Kingfisher first allocates \$35,000 of income to Dana (restoring debt basis to \$50,000), the subsequent loan repayment is **tax-free**.
 
 ---
 
@@ -240,11 +240,11 @@ When an S corporation repays a shareholder loan after debt basis has been reduce
 
 ### Distributions During the PTTP
 
-After an S election terminates, there is a **post-termination transition period (PTTP)** — generally the 1-year period beginning on the termination date (plus any extended audit period).
+After an S election terminates, there is a **post-termination transition period (PTTP)**, generally the 1-year period beginning on the termination date (plus any extended audit period).
 
 | Rule | Treatment |
 |---|---|
-| **Cash distributions during PTTP** | Applied against **AAA** first — tax-free to the extent of remaining AAA and stock basis |
+| **Cash distributions during PTTP** | Applied against **AAA** first; tax-free to the extent of remaining AAA and stock basis |
 | **Suspended losses** | Shareholders can deduct suspended losses (from basis limitations) against stock basis during the PTTP |
 | **After PTTP expires** | All distributions are treated under C corporation rules (dividend to extent of E&P) |
 
@@ -279,7 +279,7 @@ The PTTP is a **limited window** for shareholders to extract remaining AAA tax-f
 | Termination planning | Shareholder agreements, monitor passive income, purge C corp E&P, choose revocation timing carefully |
 | AAA vs. AEP ordering | Default: AAA first (tax-free), then AEP (dividend); election under §1368(e)(3) reverses the order to purge E&P |
 | AEP purge strategy | Elect to distribute from AEP first when passive income threatens S election termination |
-| Shareholder contributions | §351 rules apply; no §704(c) equivalent — built-in gain allocated to all shareholders pro rata |
+| Shareholder contributions | §351 rules apply; no §704(c) equivalent, so built-in gain is allocated to all shareholders pro rata |
 | Loan planning | Direct shareholder loans create debt basis; guarantees do not; back-to-back loans require economic substance |
 | Debt basis restoration | Net income restores debt basis first; loan repayment triggers gain if debt basis was reduced |
 | Post-termination transition | 1-year window to distribute AAA tax-free and deduct suspended losses against stock basis |

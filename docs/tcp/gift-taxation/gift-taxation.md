@@ -4,7 +4,7 @@
 
 Gift taxation is a critical component of the TCP exam that intersects tax compliance and planning. The federal gift tax applies to the **transfer of property by one individual to another** while receiving nothing, or less than full value, in return. Gift tax rules work in tandem with the estate tax through the **unified transfer tax system**, which means that gift planning decisions directly affect a donor's future estate tax exposure.
 
-The TCP exam tests your ability to recall gift tax rules (exclusions, deductions, and credits), calculate taxable gifts, and identify planning strategies that minimize a donor's current and future tax liability — including selecting the optimal property to gift.
+The TCP exam tests your ability to recall gift tax rules (exclusions, deductions, and credits), calculate taxable gifts, and identify planning strategies that minimize a donor's current and future tax liability, including selecting the optimal property to gift.
 
 ---
 
@@ -37,13 +37,13 @@ The **annual exclusion** allows a donor to give up to a specified amount per rec
 
 | Rule | Detail |
 |---|---|
-| **Per-donee exclusion** | Applies separately to each recipient — a donor can give the annual exclusion amount to an unlimited number of people |
+| **Per-donee exclusion** | Applies separately to each recipient; a donor can give the annual exclusion amount to an unlimited number of people |
 | **Present interest required** | The exclusion applies only to gifts of a **present interest** (the donee has an immediate right to use, possess, or enjoy the property) |
 | **Future interest gifts** | Gifts of a future interest (e.g., remainder interests) do **not** qualify for the annual exclusion |
 
 ### Gift Splitting
 
-Married couples may elect to **split gifts** — treating each gift as if half came from each spouse. This effectively doubles the annual exclusion per recipient.
+Married couples may elect to **split gifts**, treating each gift as if half came from each spouse. This effectively doubles the annual exclusion per recipient.
 
 > **Example:** Bear Co. founders Sam and Pat (married) want to make gifts to their three children. With gift splitting, they can give up to **2× the annual exclusion** per child (combining both spouses' exclusions) without any gift tax consequences. If the annual exclusion is \$18,000, each child can receive up to \$36,000 tax-free.
 
@@ -118,7 +118,7 @@ flowchart TD
 
 :::info
 
-The applicable exclusion amount is a large number (indexed for inflation) that shelters most taxpayers from actually paying gift or estate tax. However, the exam tests the **mechanics** of the system — how the credit works, how it is reduced by lifetime gifts, and how it carries over to the estate computation.
+The applicable exclusion amount is a large number (indexed for inflation) that shelters most taxpayers from actually paying gift or estate tax. However, the exam tests the **mechanics** of the system: how the credit works, how it is reduced by lifetime gifts, and how it carries over to the estate computation.
 
 :::
 
@@ -144,12 +144,12 @@ The TCP exam requires you to compute the amount of taxable gifts for federal gif
 >
 > | Gift | Amount | Annual Exclusion | Other Deduction |
 > |---|---|---|---|
-> | Cash to child Alex | \$50,000 | (\$18,000) | — |
+> | Cash to child Alex | \$50,000 | (\$18,000) | None |
 > | Cash to spouse (U.S. citizen) | \$200,000 | (\$18,000) | (\$182,000) marital deduction |
-> | Stock to friend Pat | \$25,000 | (\$18,000) | — |
-> | Cash to qualifying charity | \$100,000 | — | (\$100,000) charitable deduction |
+> | Stock to friend Pat | \$25,000 | (\$18,000) | None |
+> | Cash to qualifying charity | \$100,000 | N/A | (\$100,000) charitable deduction |
 >
-> **Taxable gifts:** (\$50,000 − \$18,000) + (\$200,000 − \$18,000 − \$182,000) + (\$25,000 − \$18,000) + (\$100,000 − \$100,000) = \$32,000 + \$0 + \$7,000 + \$0 = **\$39,000**
+> **Taxable gifts:** (\$50,000 - \$18,000) + (\$200,000 - \$18,000 - \$182,000) + (\$25,000 - \$18,000) + (\$100,000 - \$100,000) = \$32,000 + \$0 + \$7,000 + \$0 = **\$39,000**
 
 ---
 
@@ -185,7 +185,7 @@ Gifting loss property is generally a poor planning strategy because the loss dis
 
 When the planning objective is to minimize the donor's future estate, the optimal strategy is to gift property with the **highest expected future appreciation**. By removing the property from the estate now, all future growth escapes estate taxation.
 
-> **Example:** Polar Inc. founder Lee owns two assets — Property X (current FMV \$500,000, expected to appreciate to \$2,000,000 over 10 years) and Property Y (current FMV \$500,000, expected to remain stable). To minimize the future estate, Lee should gift Property X because the \$1,500,000 of future appreciation will occur outside the estate.
+> **Example:** Polar Inc. founder Lee owns two assets: Property X (current FMV \$500,000, expected to appreciate to \$2,000,000 over 10 years) and Property Y (current FMV \$500,000, expected to remain stable). To minimize the future estate, Lee should gift Property X because the \$1,500,000 of future appreciation will occur outside the estate.
 
 ### Selecting Property to Minimize the Donee's Future Tax
 
@@ -206,7 +206,7 @@ When the planning objective is to minimize the donee's future income tax on a sa
 | Charitable deduction | Unlimited for gift tax purposes (no AGI limitation) |
 | Tuition/medical exclusion | Must be paid **directly** to the institution or provider |
 | Unified credit | Single credit against both gift tax and estate tax; used against lifetime gifts first |
-| Taxable gifts calculation | Total gifts − annual exclusions − marital deduction − charitable deduction |
+| Taxable gifts calculation | Total gifts - annual exclusions - marital deduction - charitable deduction |
 | Appreciated property gifts | Removes appreciation from estate; donee takes carryover basis |
 | Loss property gifts | Loss disappears; generally better to sell and gift cash |
 | Planning to minimize estate | Gift property with highest expected future appreciation |

@@ -14,7 +14,7 @@ The ISC exam tests IT infrastructure concepts primarily at the Remembering and U
 
 ## Key Components of IT Architecture
 
-IT architecture refers to the overall design and structure of an organization's technology environment. Understanding its major components is essential for evaluating how information flows through an enterprise and where controls exist — or are missing.
+IT architecture refers to the overall design and structure of an organization's technology environment. Understanding its major components is essential for evaluating how information flows through an enterprise and where controls exist (or are missing).
 
 ### Operating Systems
 
@@ -47,11 +47,11 @@ Common types of servers in an enterprise environment include:
 
 **Network infrastructure** encompasses the hardware and software components that enable communication between devices. Key elements include:
 
-- **Routers** — direct network traffic between different networks (e.g., between an organization's internal network and the internet)
-- **Switches** — connect devices within the same network and manage data traffic
-- **Firewalls** — enforce security policies by controlling incoming and outgoing network traffic based on predetermined rules
-- **Load balancers** — distribute network traffic across multiple servers to ensure availability and performance
-- **Wireless access points** — enable wireless connectivity for devices within the network
+- **Routers**: direct network traffic between different networks (e.g., between an organization's internal network and the internet)
+- **Switches**: connect devices within the same network and manage data traffic
+- **Firewalls**: enforce security policies by controlling incoming and outgoing network traffic based on predetermined rules
+- **Load balancers**: distribute network traffic across multiple servers to ensure availability and performance
+- **Wireless access points**: enable wireless connectivity for devices within the network
 
 :::tip[Exam Tip]
 
@@ -75,9 +75,9 @@ Controls over end-user devices include:
 
 ## Cloud Computing
 
-**Cloud computing** delivers IT resources — computing power, storage, databases, networking, software, and more — over the internet ("the cloud") on a pay-as-you-go basis. Rather than owning and maintaining physical data centers and servers, organizations can access technology services from a **cloud service provider (CSP)** such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP).
+**Cloud computing** delivers IT resources (computing power, storage, databases, networking, software, and more) over the internet ("the cloud") on a pay-as-you-go basis. Rather than owning and maintaining physical data centers and servers, organizations can access technology services from a **cloud service provider (CSP)** such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP).
 
-Cloud computing has transformed how organizations build and manage their IT infrastructure. For CPAs, understanding cloud computing is critical because it affects how controls are designed, implemented, and tested — and it shifts certain responsibilities from the organization to the cloud service provider.
+Cloud computing has transformed how organizations build and manage their IT infrastructure. For CPAs, understanding cloud computing is critical because it affects how controls are designed, implemented, and tested, and it shifts certain responsibilities from the organization to the cloud service provider.
 
 ### Cloud Computing Models
 
@@ -136,7 +136,7 @@ Key points about CSP responsibilities:
 
 :::warning
 
-Moving to the cloud does not eliminate the organization's responsibility for controls. The organization must still ensure that its data is protected, access is properly managed, and the CSP's controls are evaluated — typically through a SOC 2® report. When evaluating **Kingfisher Industries**' cloud environment, you would review the CSP's SOC report, assess complementary user entity controls (CUECs), and verify that Kingfisher has implemented all controls that remain its responsibility.
+Moving to the cloud does not eliminate the organization's responsibility for controls. The organization must still ensure that its data is protected, access is properly managed, and the CSP's controls are evaluated, typically through a SOC 2® report. When evaluating **Kingfisher Industries**' cloud environment, you would review the CSP's SOC report, assess complementary user entity controls (CUECs), and verify that Kingfisher has implemented all controls that remain its responsibility.
 
 :::
 
@@ -150,11 +150,11 @@ The **Committee of Sponsoring Organizations of the Treadway Commission (COSO)** 
 
 This COSO publication addresses the risks associated with cloud adoption and how the ERM framework can be applied to identify, assess, and manage those risks. Key considerations include:
 
-- **Strategic alignment** — Does the cloud strategy support the organization's overall objectives?
-- **Vendor risk** — What are the risks of dependence on a specific CSP, including vendor lock-in and service disruptions?
-- **Data sovereignty** — Where is the data physically stored, and does the location comply with applicable laws and regulations?
-- **Regulatory compliance** — Does the cloud deployment meet the requirements of relevant regulations (e.g., HIPAA, GDPR)?
-- **Business continuity** — What happens if the CSP experiences an outage or goes out of business?
+- **Strategic alignment**: Does the cloud strategy support the organization's overall objectives?
+- **Vendor risk**: What are the risks of dependence on a specific CSP, including vendor lock-in and service disruptions?
+- **Data sovereignty**: Where is the data physically stored, and does the location comply with applicable laws and regulations?
+- **Regulatory compliance**: Does the cloud deployment meet the requirements of relevant regulations (e.g., HIPAA, GDPR)?
+- **Business continuity**: What happens if the CSP experiences an outage or goes out of business?
 
 ### Blockchain and Internal Control: The COSO Perspective
 
@@ -162,10 +162,10 @@ This COSO publication examines how blockchain technology affects internal contro
 
 Key internal control considerations for blockchain include:
 
-- **Processing integrity** — How does the consensus mechanism ensure that transactions are recorded accurately?
-- **Access controls** — Who has permission to initiate, validate, and view transactions on the blockchain?
-- **Change management** — How are updates to the blockchain protocol or smart contracts controlled?
-- **Data governance** — Who is responsible for the data recorded on the blockchain, and how is it validated?
+- **Processing integrity**: How does the consensus mechanism ensure that transactions are recorded accurately?
+- **Access controls**: Who has permission to initiate, validate, and view transactions on the blockchain?
+- **Change management**: How are updates to the blockchain protocol or smart contracts controlled?
+- **Data governance**: Who is responsible for the data recorded on the blockchain, and how is it validated?
 
 :::note
 
@@ -181,7 +181,7 @@ The ISC exam tests blockchain at a conceptual level within the COSO framework co
 |---|---|
 | IT architecture components | Understand the purpose of operating systems, servers, network infrastructure, and end-user devices |
 | Cloud computing models | IaaS provides raw infrastructure, PaaS adds a development platform, SaaS delivers a complete application |
-| Cloud deployment models | Public (shared), private (dedicated), hybrid (combination) — the choice depends on cost, security, and regulatory requirements |
+| Cloud deployment models | Public (shared), private (dedicated), hybrid (combination); the choice depends on cost, security, and regulatory requirements |
 | Shared responsibility | The CSP manages the cloud infrastructure; the customer manages data, access, and application configuration |
 | COSO and cloud governance | COSO frameworks provide a structured approach to evaluating cloud-related risks, including vendor risk, data sovereignty, and regulatory compliance |
 
@@ -191,13 +191,13 @@ The ISC exam tests blockchain at a conceptual level within the COSO framework co
 
 1. **Illini Security** is considering moving its financial reporting system to a cloud environment where the CSP will provide the hardware, operating system, and middleware. Illini Security will develop and deploy its own custom application on this platform. Which cloud computing model is being described?
 
-2. **Polar Inc.** uses a SaaS-based accounting application. A new employee in the accounting department requests administrative access to the application. Under the shared responsibility model, who is responsible for granting or denying this access — Polar Inc. or the cloud service provider?
+2. **Polar Inc.** uses a SaaS-based accounting application. A new employee in the accounting department requests administrative access to the application. Under the shared responsibility model, who is responsible for granting or denying this access: Polar Inc. or the cloud service provider?
 
 3. **Bear Co.** is evaluating its cloud service provider's controls. What type of report should Bear Co. request from the CSP to obtain assurance over the design and operating effectiveness of the CSP's controls related to security, availability, and processing integrity?
 
 :::tip[Answers]
 
-1. **PaaS (Platform as a Service).** The CSP provides hardware, OS, and middleware, and the customer develops its own application — this is the defining characteristic of PaaS.
+1. **PaaS (Platform as a Service).** The CSP provides hardware, OS, and middleware, and the customer develops its own application. This is the defining characteristic of PaaS.
 
 2. **Polar Inc.** Even in a SaaS model, identity and access management remains the customer's responsibility. Polar Inc. must evaluate whether the employee needs administrative access and configure the user's permissions accordingly.
 

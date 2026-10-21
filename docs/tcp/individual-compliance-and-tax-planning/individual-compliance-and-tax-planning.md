@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This topic covers the nonroutine individual tax compliance and planning issues tested on the TCP section of the CPA exam. While the core REG section addresses fundamental individual tax concepts (filing status, dependency, standard income inclusions and deductions), TCP goes deeper — testing equity compensation, Alternative Minimum Tax (AMT) items, the kiddie tax, imputed interest, and year-end planning strategies to minimize tax liability. The focus is on a newly licensed CPA's role in both **preparing and reviewing** tax returns and **advising clients** on tax planning opportunities.
+This topic covers the nonroutine individual tax compliance and planning issues tested on the TCP section of the CPA exam. While the core REG section addresses fundamental individual tax concepts (filing status, dependency, standard income inclusions and deductions), TCP goes deeper, testing equity compensation, Alternative Minimum Tax (AMT) items, the kiddie tax, imputed interest, and year-end planning strategies to minimize tax liability. The focus is on a newly licensed CPA's role in both **preparing and reviewing** tax returns and **advising clients** on tax planning opportunities.
 
 ---
 
@@ -17,8 +17,8 @@ Incentive stock options under **IRC §422** receive favorable tax treatment when
 | Event | Tax Consequence |
 |---|---|
 | **Grant** | No taxable event |
-| **Exercise** | No regular income tax; the **bargain element** (FMV − exercise price) is an AMT adjustment |
-| **Qualifying disposition** (held > 2 years from grant and > 1 year from exercise) | Entire gain (sale price − exercise price) is **long-term capital gain** |
+| **Exercise** | No regular income tax; the **bargain element** (FMV - exercise price) is an AMT adjustment |
+| **Qualifying disposition** (held > 2 years from grant and > 1 year from exercise) | Entire gain (sale price - exercise price) is **long-term capital gain** |
 | **Disqualifying disposition** (holding periods not met) | Bargain element at exercise is **ordinary income**; any additional gain is capital gain |
 
 :::tip[Exam Tip]
@@ -34,15 +34,15 @@ NQSOs do not receive the same favorable treatment as ISOs.
 | Event | Tax Consequence |
 |---|---|
 | **Grant** | No taxable event (if no readily ascertainable FMV) |
-| **Exercise** | Bargain element (FMV − exercise price) is **ordinary income** subject to employment taxes |
+| **Exercise** | Bargain element (FMV - exercise price) is **ordinary income** subject to employment taxes |
 | **Sale** | Gain or loss measured from FMV at exercise is **capital gain or loss** |
 
 ### Restricted Stock and Restricted Stock Units (RSUs)
 
 | Award Type | Default Treatment | IRC §83(b) Election Available? |
 |---|---|---|
-| **Restricted stock** | Taxed as ordinary income at FMV when restrictions lapse (vesting) | Yes — elect to recognize income at grant date |
-| **RSUs** | Taxed as ordinary income at FMV when shares are delivered | No — §83(b) is not available for RSUs |
+| **Restricted stock** | Taxed as ordinary income at FMV when restrictions lapse (vesting) | Yes; elect to recognize income at grant date |
+| **RSUs** | Taxed as ordinary income at FMV when shares are delivered | No; §83(b) is not available for RSUs |
 
 :::info
 
@@ -63,11 +63,11 @@ flowchart TD
     A[Regular Taxable Income] --> B[+ AMT Adjustments]
     B --> C[+ Tax Preference Items]
     C --> D[= Alternative Minimum Taxable Income - AMTI]
-    D --> E["− AMT Exemption Amount"]
+    D --> E["Less: AMT Exemption Amount"]
     E --> F["× AMT Rate (26% or 28%)"]
     F --> G[= Tentative Minimum Tax]
     G --> H{"Tentative Minimum Tax > Regular Tax?"}
-    H -->|Yes| I["AMT = Tentative Minimum Tax − Regular Tax"]
+    H -->|Yes| I["AMT = Tentative Minimum Tax - Regular Tax"]
     H -->|No| J[AMT = $0]
 ```
 
@@ -83,7 +83,7 @@ flowchart TD
 
 :::warning
 
-The AMT exemption amount is **phased out** at higher income levels. The exam will provide the specific amounts and phase-out thresholds when needed — focus on understanding the computation mechanics, not memorizing the dollar figures.
+The AMT exemption amount is **phased out** at higher income levels. The exam will provide the specific amounts and phase-out thresholds when needed, so focus on understanding the computation mechanics, not memorizing the dollar figures.
 
 :::
 
@@ -143,8 +143,8 @@ U.S. citizens and resident aliens are taxed on **worldwide income**, regardless 
 
 To qualify, the taxpayer must have a **tax home** in a foreign country and meet either:
 
-- The **bona fide residence test** — a bona fide resident of a foreign country for an uninterrupted period that includes an entire tax year, or
-- The **physical presence test** — physically present in a foreign country for at least **330 full days** during a 12-month period
+- The **bona fide residence test**: a bona fide resident of a foreign country for an uninterrupted period that includes an entire tax year, or
+- The **physical presence test**: physically present in a foreign country for at least **330 full days** during a 12-month period
 
 The maximum exclusion amount is adjusted annually for inflation. In addition to the earned income exclusion, taxpayers may also exclude or deduct a **foreign housing amount**.
 
@@ -203,7 +203,7 @@ The TCP exam tests your ability to evaluate the planning implications of choosin
 
 ### Bunching Strategy
 
-A common planning strategy is **bunching** — concentrating deductible expenses into a single year to exceed the standard deduction, then taking the standard deduction in alternate years.
+A common planning strategy is **bunching**: concentrating deductible expenses into a single year to exceed the standard deduction, then taking the standard deduction in alternate years.
 
 > **Example:** Kingfisher Industries employee Alex normally has \$12,000 in annual charitable contributions. With a standard deduction of \$15,000 (single), itemizing does not produce a benefit. By making two years of contributions (\$24,000) in Year 1, Alex exceeds the standard deduction and itemizes in Year 1, then takes the standard deduction in Year 2. Total two-year deductions: \$24,000 + \$15,000 = \$39,000 vs. \$15,000 + \$15,000 = \$30,000.
 
@@ -248,7 +248,7 @@ The TCP exam tests your ability to calculate the potential tax savings when dona
 | Property Type | Deduction Amount | AGI Limitation |
 |---|---|---|
 | **Long-term capital gain property** donated to a **public charity** | Fair market value | 30% of AGI |
-| **Long-term capital gain property** — elect reduced deduction | Adjusted basis | 50% of AGI |
+| **Long-term capital gain property** (elect reduced deduction) | Adjusted basis | 50% of AGI |
 | **Ordinary income property** (inventory, short-term gain property) | Adjusted basis | 50% of AGI |
 | **Tangible personal property** unrelated to charity's purpose | Adjusted basis | 50% of AGI |
 
@@ -289,7 +289,7 @@ The exam may present scenarios where enacted or proposed changes in tax rates af
 
 :::warning
 
-Year-end planning questions often involve multiple interacting variables — income timing, deduction timing, estimated tax payments, and AGI-based phase-outs. Read the scenario carefully and identify which variable the question is asking you to optimize.
+Year-end planning questions often involve multiple interacting variables: income timing, deduction timing, estimated tax payments, and AGI-based phase-outs. Read the scenario carefully and identify which variable the question is asking you to optimize.
 
 :::
 

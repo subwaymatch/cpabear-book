@@ -1,6 +1,6 @@
 # Managerial and Cost Accounting
 
-Managerial and cost accounting provides the internal information managers need to plan, control, and evaluate operations. Unlike financial accounting—which produces GAAP-compliant reports for external users—cost accounting focuses on measuring the cost of products, services, and activities so that managers can make better decisions. The BAR section of the CPA exam tests your ability to classify costs, apply costing methods, perform variance analysis, and interpret sales results.
+Managerial and cost accounting provides the internal information managers need to plan, control, and evaluate operations. Unlike financial accounting, which produces GAAP-compliant reports for external users, cost accounting focuses on measuring the cost of products, services, and activities so that managers can make better decisions. The BAR section of the CPA exam tests your ability to classify costs, apply costing methods, perform variance analysis, and interpret sales results.
 
 :::info[Why This Matters]
 
@@ -40,7 +40,7 @@ Whether a cost is direct or indirect depends on the **cost object**. Salary for 
 
 ---
 
-## Separating Mixed Costs — The High-Low Method
+## Separating Mixed Costs: The High-Low Method
 
 The high-low method estimates the variable and fixed components of a mixed cost using only the highest and lowest activity levels.
 
@@ -54,7 +54,7 @@ $$
 \text{Fixed Cost} = \text{Total Cost} - (\text{Variable Rate} \times \text{Activity Level})
 $$
 
-### Worked Example — Bear Co. Utilities
+### Worked Example: Bear Co. Utilities
 
 Bear Co. recorded the following utility costs over the past six months:
 
@@ -67,18 +67,18 @@ Bear Co. recorded the following utility costs over the past six months:
 | May | 1,600 | $1,880 |
 | June | 3,600 | $3,060 |
 
-**Step 1 — Identify the high and low points:**
+**Step 1: Identify the high and low points**
 
-- High: April — 4,000 hours, $3,300
-- Low: May — 1,600 hours, $1,880
+- High: April (4,000 hours, $3,300)
+- Low: May (1,600 hours, $1,880)
 
-**Step 2 — Variable rate:**
+**Step 2: Variable rate**
 
 $$
 \text{Variable Rate} = \frac{\$3{,}300 - \$1{,}880}{4{,}000 - 1{,}600} = \frac{\$1{,}420}{2{,}400} \approx \$0.592 \text{ per machine-hour}
 $$
 
-**Step 3 — Fixed cost (using the high point):**
+**Step 3: Fixed cost (using the high point)**
 
 $$
 \text{Fixed Cost} = \$3{,}300 - (\$0.592 \times 4{,}000) = \$3{,}300 - \$2{,}368 = \$932
@@ -98,7 +98,7 @@ The high-low method is simple but uses only two data points, making it sensitive
 
 ### Job-Order Costing
 
-Job-order costing tracks costs to **individual jobs, batches, or contracts**. It is appropriate when products or services are distinct and identifiable—such as custom furniture, construction projects, or audit engagements.
+Job-order costing tracks costs to **individual jobs, batches, or contracts**. It is appropriate when products or services are distinct and identifiable, such as custom furniture, construction projects, or audit engagements.
 
 **Flow of costs:**
 
@@ -109,7 +109,7 @@ $$
 \text{POHR} = \frac{\text{Estimated Total Manufacturing Overhead}}{\text{Estimated Total Allocation Base}}
 $$
 
-**Example — Bear Co.** estimates annual overhead of $600,000 and expects 40,000 direct labor hours.
+**Example:** Bear Co. estimates annual overhead of $600,000 and expects 40,000 direct labor hours.
 
 $$
 \text{POHR} = \frac{\$600{,}000}{40{,}000 \text{ DLH}} = \$15 \text{ per DLH}
@@ -122,27 +122,27 @@ Dr. Work-in-Process Inventory[a] 1,800
     Cr. Manufacturing Overhead 1,800
 ```
 
-At year-end, any difference between actual and applied overhead is either **overapplied** (credit balance—favorable) or **underapplied** (debit balance—unfavorable) and typically closed to Cost of Goods Sold.
+At year-end, any difference between actual and applied overhead is either **overapplied** (credit balance, favorable) or **underapplied** (debit balance, unfavorable) and typically closed to Cost of Goods Sold.
 
 ### Process Costing
 
-Process costing accumulates costs by **department or process** rather than by job. It is used in continuous or mass-production environments—chemicals, beverages, petroleum refining.
+Process costing accumulates costs by **department or process** rather than by job. It is used in continuous or mass-production environments such as chemicals, beverages, and petroleum refining.
 
-The key concept is **equivalent units of production (EUP)**—converting partially completed units into the number of fully completed units they represent.
+The key concept is **equivalent units of production (EUP)**: converting partially completed units into the number of fully completed units they represent.
 
 | Method | Beginning WIP Treatment | Best For |
 |---|---|---|
 | **Weighted average** | Blends beginning WIP costs with current-period costs | Simpler calculations; stable cost environments |
 | **FIFO** | Separates beginning WIP costs from current-period costs | More accurate current-period unit costs |
 
-**Equivalent Units — FIFO Example — Polar Inc.**
+**Equivalent Units: FIFO Example (Polar Inc.)**
 
 Polar Inc.'s Mixing Department reports the following for June:
 
 | Item | Units | % Complete (Conversion) |
 |---|---|---|
 | Beginning WIP | 3,000 | 40% |
-| Started during June | 18,000 | — |
+| Started during June | 18,000 | N/A |
 | Completed and transferred out | 17,000 | 100% |
 | Ending WIP | 4,000 | 25% |
 
@@ -156,7 +156,7 @@ $$
 \text{EUP} = 1{,}800 + 14{,}000 + 1{,}000 = 16{,}800
 $$
 
-The 60% for beginning WIP reflects the work **remaining** (100% − 40% already completed).
+The 60% for beginning WIP reflects the work **remaining** (100% - 40% already completed).
 
 ### Activity-Based Costing (ABC)
 
@@ -170,7 +170,7 @@ ABC refines overhead allocation by assigning costs to **activities** (cost pools
 | 4 | Compute an activity rate for each pool |
 | 5 | Allocate costs to products based on their consumption of each driver |
 
-**Example — Kingfisher Industries** manufactures two products:
+**Example:** Kingfisher Industries manufactures two products:
 
 | Activity Pool | Total Cost | Cost Driver | Total Driver Volume |
 |---|---|---|---|
@@ -215,7 +215,7 @@ $$
 - When **production < sales**, absorption income is **lower** (previously deferred fixed costs flow into COGS).
 - When **production = sales**, both methods yield **the same** income.
 
-**Example — BIF Partners**
+**Example: BIF Partners**
 
 BIF Partners produces 10,000 units and sells 8,000. Fixed MOH totals $200,000, so fixed MOH per unit is $20.
 
@@ -229,7 +229,7 @@ Absorption income exceeds variable income by $40,000 because $40,000 of fixed MO
 
 ## Standard Costing and Variance Analysis
 
-Standard costing assigns **predetermined** costs to products and then compares actual results to the standard. Differences—called **variances**—highlight areas that need management attention.
+Standard costing assigns **predetermined** costs to products and then compares actual results to the standard. Differences, called **variances**, highlight areas that need management attention.
 
 ### Direct Materials Variances
 
@@ -243,13 +243,13 @@ $$
 
 Where AQ = actual quantity, AP = actual price, SP = standard price, SQ = standard quantity allowed for actual output.
 
-**Example — Illini Entertainment**
+**Example: Illini Entertainment**
 
 Illini Entertainment sets a standard of 3 lbs of material per unit at $5/lb. During the month, the company produced 2,000 units, purchased 6,500 lbs at $5.20/lb, and used 6,300 lbs.
 
-- **MPV** = 6,500 × ($5.20 − $5.00) = 6,500 × $0.20 = **$1,300 Unfavorable**
+- **MPV** = 6,500 × ($5.20 - $5.00) = 6,500 × $0.20 = **$1,300 Unfavorable**
 - **SQ Allowed** = 2,000 × 3 = 6,000 lbs
-- **MQV** = (6,300 − 6,000) × $5.00 = 300 × $5.00 = **$1,500 Unfavorable**
+- **MQV** = (6,300 - 6,000) × $5.00 = 300 × $5.00 = **$1,500 Unfavorable**
 
 ### Direct Labor Variances
 
@@ -263,13 +263,13 @@ $$
 
 Where AH = actual hours, AR = actual rate, SR = standard rate, SH = standard hours allowed.
 
-**Example — Illini Entertainment (continued)**
+**Example: Illini Entertainment (continued)**
 
 Standard: 0.5 hours per unit at $18/hr. Actual: 1,050 hours at $17.50/hr for 2,000 units.
 
-- **LRV** = 1,050 × ($17.50 − $18.00) = 1,050 × (−$0.50) = **$525 Favorable**
+- **LRV** = 1,050 × ($17.50 - $18.00) = 1,050 × (-$0.50) = **$525 Favorable**
 - **SH Allowed** = 2,000 × 0.5 = 1,000 hours
-- **LEV** = (1,050 − 1,000) × $18.00 = 50 × $18.00 = **$900 Unfavorable**
+- **LEV** = (1,050 - 1,000) × $18.00 = 50 × $18.00 = **$900 Unfavorable**
 
 ### Overhead Variances
 
@@ -279,9 +279,9 @@ Overhead variances can be analyzed using a **two-way** or **three-way** decompos
 
 | Variance | Formula |
 |---|---|
-| **Spending** | Actual OH − (Budgeted Fixed OH + Variable OH Rate × Actual Hours) |
-| **Efficiency** | (Actual Hours − Standard Hours Allowed) × Variable OH Rate |
-| **Volume** | (Standard Hours Allowed − Denominator Hours) × Fixed OH Rate |
+| **Spending** | Actual OH - (Budgeted Fixed OH + Variable OH Rate × Actual Hours) |
+| **Efficiency** | (Actual Hours - Standard Hours Allowed) × Variable OH Rate |
+| **Volume** | (Standard Hours Allowed - Denominator Hours) × Fixed OH Rate |
 
 **Two-way analysis:**
 
@@ -296,20 +296,20 @@ The **volume variance** relates only to fixed overhead. It measures whether the 
 
 :::
 
-**Example — Illini Security**
+**Example: Illini Security**
 
 Illini Security budgets 5,000 standard machine-hours per month. Budgeted fixed overhead is $50,000 and the variable overhead rate is $6 per machine-hour. Actual results: 4,800 actual hours worked, 4,600 standard hours allowed, and actual overhead of $82,000.
 
 - **Fixed OH Rate** = $50,000 ÷ 5,000 = $10 per hour
-- **Spending** = $82,000 − ($50,000 + $6 × 4,800) = $82,000 − $78,800 = **$3,200 Unfavorable**
-- **Efficiency** = (4,800 − 4,600) × $6 = **$1,200 Unfavorable**
-- **Volume** = (4,600 − 5,000) × $10 = **$4,000 Unfavorable**
+- **Spending** = $82,000 - ($50,000 + $6 × 4,800) = $82,000 - $78,800 = **$3,200 Unfavorable**
+- **Efficiency** = (4,800 - 4,600) × $6 = **$1,200 Unfavorable**
+- **Volume** = (4,600 - 5,000) × $10 = **$4,000 Unfavorable**
 
 ---
 
 ## Cost-Volume-Profit (CVP) Analysis
 
-CVP analysis examines how changes in costs and volume affect operating income. It rests on the **contribution margin**—the portion of revenue that remains after deducting variable costs.
+CVP analysis examines how changes in costs and volume affect operating income. It rests on the **contribution margin**, the portion of revenue that remains after deducting variable costs.
 
 $$
 \text{Contribution Margin per Unit} = \text{Selling Price} - \text{Variable Cost per Unit}
@@ -345,15 +345,15 @@ $$
 \text{Margin of Safety \%} = \frac{\text{Margin of Safety}}{\text{Actual Sales}} \times 100
 $$
 
-### Worked Example — Bear Co.
+### Worked Example: Bear Co.
 
 Bear Co. sells a product for $50 per unit. Variable cost is $30 per unit and total fixed costs are $160,000.
 
-- **CM per unit** = $50 − $30 = $20
+- **CM per unit** = $50 - $30 = $20
 - **CM ratio** = $20 ÷ $50 = 40%
 - **Breakeven** = $160,000 ÷ $20 = **8,000 units** (or $160,000 ÷ 0.40 = **$400,000**)
-- **Target profit of $60,000** → ($160,000 + $60,000) ÷ $20 = **11,000 units**
-- If budgeted sales are 10,000 units ($500,000), **margin of safety** = $500,000 − $400,000 = **$100,000 (20%)**
+- **Target profit of $60,000** requires ($160,000 + $60,000) ÷ $20 = **11,000 units**
+- If budgeted sales are 10,000 units ($500,000), **margin of safety** = $500,000 - $400,000 = **$100,000 (20%)**
 
 :::caution
 
@@ -363,7 +363,7 @@ CVP analysis assumes a **constant sales mix**, linear cost behavior, and that al
 
 ---
 
-## Sales Analysis — Price, Volume, and Mix Variances
+## Sales Analysis: Price, Volume, and Mix Variances
 
 When actual sales differ from budget, management needs to know **why**. Sales variances decompose the total revenue variance into its component drivers.
 
@@ -387,7 +387,7 @@ $$
 \text{Sales Mix Variance} = (\text{Actual Mix \%} - \text{Budgeted Mix \%}) \times \text{Total Actual Units} \times \text{Budgeted CM per Unit}
 $$
 
-### Worked Example — Bear Co. Multi-Product Sales
+### Worked Example: Bear Co. Multi-Product Sales
 
 Bear Co. budgeted and actual results for two products:
 
@@ -401,14 +401,14 @@ Bear Co. budgeted and actual results for two products:
 
 **Sales price variances:**
 
-- Alpha: ($42 − $40) × 5,500 = **$11,000 Favorable**
-- Beta: ($58 − $60) × 5,500 = **$11,000 Unfavorable**
+- Alpha: ($42 - $40) × 5,500 = **$11,000 Favorable**
+- Beta: ($58 - $60) × 5,500 = **$11,000 Unfavorable**
 
 **Sales mix variances (using budgeted CM):**
 
-- Alpha: (50% − 60%) × 11,000 × $16 = −0.10 × 11,000 × $16 = **$17,600 Unfavorable**
-- Beta: (50% − 40%) × 11,000 × $30 = 0.10 × 11,000 × $30 = **$33,000 Favorable**
-- **Net mix variance** = −$17,600 + $33,000 = **$15,400 Favorable**
+- Alpha: (50% - 60%) × 11,000 × $16 = -0.10 × 11,000 × $16 = **$17,600 Unfavorable**
+- Beta: (50% - 40%) × 11,000 × $30 = 0.10 × 11,000 × $30 = **$33,000 Favorable**
+- **Net mix variance** = -$17,600 + $33,000 = **$15,400 Favorable**
 
 The net favorable mix variance tells Bear Co. that the shift toward the higher-margin Beta product more than offset the decline in Alpha's share.
 
@@ -424,18 +424,18 @@ A favorable sales mix variance occurs when the actual mix shifts toward products
 
 | Formula | Equation |
 |---|---|
-| High-low variable rate | (High cost − Low cost) ÷ (High activity − Low activity) |
+| High-low variable rate | (High cost - Low cost) ÷ (High activity - Low activity) |
 | POHR | Estimated total MOH ÷ Estimated total allocation base |
-| Materials price variance | AQ purchased × (AP − SP) |
-| Materials quantity variance | (AQ used − SQ allowed) × SP |
-| Labor rate variance | AH × (AR − SR) |
-| Labor efficiency variance | (AH − SH allowed) × SR |
+| Materials price variance | AQ purchased × (AP - SP) |
+| Materials quantity variance | (AQ used - SQ allowed) × SP |
+| Labor rate variance | AH × (AR - SR) |
+| Labor efficiency variance | (AH - SH allowed) × SR |
 | Breakeven (units) | Fixed costs ÷ CM per unit |
 | Breakeven (dollars) | Fixed costs ÷ CM ratio |
-| Margin of safety | Actual sales − Breakeven sales |
-| Sales price variance | (Actual price − Budgeted price) × Actual quantity |
-| Sales volume variance | (Actual quantity − Budgeted quantity) × Budgeted price |
-| Sales mix variance | (Actual mix % − Budgeted mix %) × Total actual units × Budgeted CM/unit |
+| Margin of safety | Actual sales - Breakeven sales |
+| Sales price variance | (Actual price - Budgeted price) × Actual quantity |
+| Sales volume variance | (Actual quantity - Budgeted quantity) × Budgeted price |
+| Sales mix variance | (Actual mix % - Budgeted mix %) × Total actual units × Budgeted CM/unit |
 
 ---
 
@@ -443,10 +443,10 @@ A favorable sales mix variance occurs when the actual mix shifts toward products
 
 :::info[Key Takeaways]
 
-1. **Cost behavior** — Fixed costs are constant in total; variable costs are constant per unit. Mixed costs require separation (high-low method or regression).
-2. **Costing methods** — Job-order costing traces costs to individual jobs; process costing averages costs over equivalent units; ABC assigns costs through activity cost pools and drivers; absorption costing capitalizes fixed MOH while variable costing expenses it immediately.
-3. **Variance analysis** — Compare actual results to standards. Materials variances split into price and quantity; labor variances split into rate and efficiency; overhead variances split into spending, efficiency, and volume (three-way) or budget and volume (two-way).
-4. **CVP analysis** — Contribution margin drives breakeven, target profit, and margin of safety calculations. Assumes linear behavior and constant mix.
-5. **Sales analysis** — Decompose revenue variances into price, volume, and mix components to identify the true drivers of performance versus plan.
+1. **Cost behavior**: Fixed costs are constant in total; variable costs are constant per unit. Mixed costs require separation (high-low method or regression).
+2. **Costing methods**: Job-order costing traces costs to individual jobs; process costing averages costs over equivalent units; ABC assigns costs through activity cost pools and drivers; absorption costing capitalizes fixed MOH while variable costing expenses it immediately.
+3. **Variance analysis**: Compare actual results to standards. Materials variances split into price and quantity; labor variances split into rate and efficiency; overhead variances split into spending, efficiency, and volume (three-way) or budget and volume (two-way).
+4. **CVP analysis**: Contribution margin drives breakeven, target profit, and margin of safety calculations. Assumes linear behavior and constant mix.
+5. **Sales analysis**: Decompose revenue variances into price, volume, and mix components to identify the true drivers of performance versus plan.
 
 :::

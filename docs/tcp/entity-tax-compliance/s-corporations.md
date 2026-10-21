@@ -2,7 +2,7 @@
 
 ## Introduction
 
-An S corporation is a corporation that has elected pass-through tax treatment under **Subchapter S** of the Internal Revenue Code. Income, losses, deductions, and credits flow through to shareholders on **Schedule K-1** and are reported on their individual returns. While REG covers the fundamentals of S corporation taxation, the TCP exam goes deeper — testing your ability to calculate shareholder stock and debt basis, trace the impact of contributions, distributions, and loans on basis, and determine the tax consequences of transactions between an S corporation and its shareholders.
+An S corporation is a corporation that has elected pass-through tax treatment under **Subchapter S** of the Internal Revenue Code. Income, losses, deductions, and credits flow through to shareholders on **Schedule K-1** and are reported on their individual returns. While REG covers the fundamentals of S corporation taxation, the TCP exam goes deeper, testing your ability to calculate shareholder stock and debt basis, trace the impact of contributions, distributions, and loans on basis, and determine the tax consequences of transactions between an S corporation and its shareholders.
 
 ---
 
@@ -13,14 +13,14 @@ Before diving into basis and transactions, recall the requirements that a corpor
 | Requirement | Detail |
 |---|---|
 | **Domestic corporation** | Must be organized in the U.S. |
-| **Eligible shareholders** | Individuals, estates, certain trusts, and tax-exempt organizations — **no** partnerships, corporations, or nonresident aliens |
+| **Eligible shareholders** | Individuals, estates, certain trusts, and tax-exempt organizations; **no** partnerships, corporations, or nonresident aliens |
 | **Maximum shareholders** | **100** shareholders (members of a family treated as one shareholder) |
 | **One class of stock** | Only one class of stock allowed (differences in voting rights are permitted) |
 | **Tax year** | Must use a calendar year (or a fiscal year with a valid business purpose, or §444 election) |
 
 :::info
 
-An S corporation files **Form 1120-S** as an information return. The entity generally does not pay federal income tax — income flows through to shareholders.
+An S corporation files **Form 1120-S** as an information return. The entity generally does not pay federal income tax; income flows through to shareholders.
 
 :::
 
@@ -40,13 +40,13 @@ Stock basis is adjusted annually in a specific order:
 |---|---|---|
 | 1 | Contributions of cash or property | **Increase** |
 | 2 | All income items (ordinary + separately stated, including tax-exempt income) | **Increase** |
-| 3 | Nondeductible expenses that are not chargeable to capital (e.g., 50% meals disallowance, penalties, expenses related to tax-exempt income) | **Decrease** |
-| 4 | Distributions (nondividend) | **Decrease** |
+| 3 | Distributions (nondividend) | **Decrease** |
+| 4 | Nondeductible expenses that are not chargeable to capital (e.g., 50% meals disallowance, penalties, expenses related to tax-exempt income) | **Decrease** |
 | 5 | Losses and deductions (ordinary + separately stated) | **Decrease** |
 
 :::caution
 
-The **ordering** of adjustments matters. Income items increase basis **before** distributions reduce it, ensuring that current-year income can be distributed tax-free. Losses are applied **last** — stock basis cannot go below **zero**.
+The **ordering** of adjustments matters. Income items increase basis **before** distributions reduce it, ensuring that current-year income can be distributed tax-free. Losses are applied **last**, and stock basis cannot go below **zero**.
 
 :::
 
@@ -56,12 +56,12 @@ When a shareholder contributes noncash property to an S corporation:
 
 | Scenario | Shareholder's Impact | Corporation's Basis |
 |---|---|---|
-| **§351 applies** (≥ 80% control) | Substituted basis in stock (adjusted basis of property − liabilities assumed + gain recognized) | Carryover basis from shareholder + gain recognized |
+| **§351 applies** (≥ 80% control) | Substituted basis in stock (adjusted basis of property - liabilities assumed + gain recognized) | Carryover basis from shareholder + gain recognized |
 | **§351 does not apply** | Recognize gain or loss; basis in stock = FMV of property transferred | FMV basis |
 
-If the corporation assumes liabilities in a §351 exchange, the assumption is treated as a distribution of money to the shareholder for basis purposes — it **reduces** the shareholder's stock basis.
+If the corporation assumes liabilities in a §351 exchange, the assumption is treated as a distribution of money to the shareholder for basis purposes, so it **reduces** the shareholder's stock basis.
 
-> **Example:** Jordan contributes equipment (FMV \$80,000, adjusted basis \$50,000, subject to a \$20,000 liability) to Bear Co. (an S corporation) in a §351 exchange. Jordan's stock basis = \$50,000 (property basis) − \$20,000 (liability assumed) = **\$30,000**. Bear Co.'s basis in the equipment is \$50,000 (carryover).
+> **Example:** Jordan contributes equipment (FMV \$80,000, adjusted basis \$50,000, subject to a \$20,000 liability) to Bear Co. (an S corporation) in a §351 exchange. Jordan's stock basis = \$50,000 (property basis) - \$20,000 (liability assumed) = **\$30,000**. Bear Co.'s basis in the equipment is \$50,000 (carryover).
 
 #### Impact of Operations on Stock Basis
 
@@ -84,9 +84,9 @@ Each year, the shareholder adjusts stock basis for their **pro rata share** of t
 | Beginning stock basis | \$75,000 |
 | + Ordinary income | +\$40,000 |
 | + Tax-exempt income | +\$2,000 |
-| − Nondeductible expenses (none in this example) | \$0 |
-| − Distribution | −\$30,000 |
-| − Charitable contribution (separately stated deduction) | −\$5,000 |
+| - Nondeductible expenses (none in this example) | \$0 |
+| - Distribution | -\$30,000 |
+| - Charitable contribution (separately stated deduction) | -\$5,000 |
 | **Ending stock basis** | **\$82,000** |
 
 ### Debt Basis
@@ -107,7 +107,7 @@ This is a critical distinction from partnerships. A partner's basis includes the
 
 #### Using Debt Basis to Deduct Losses
 
-When a shareholder's stock basis is reduced to zero, losses can be deducted against **debt basis** — but only to the extent of that debt basis.
+When a shareholder's stock basis is reduced to zero, losses can be deducted against **debt basis**, but only to the extent of that debt basis.
 
 | Step | Rule |
 |---|---|
@@ -124,7 +124,7 @@ Once debt basis has been reduced by losses, it must be **restored** before the s
 | Net income in a subsequent year | Restores **debt basis first**, then increases stock basis |
 | Corporation repays loan while debt basis is below face amount | Shareholder recognizes **gain** to the extent the repayment exceeds the reduced debt basis |
 
-> **Example:** Dana holds stock in Bear Co. (S corporation) with a stock basis of \$10,000 and a debt basis of \$25,000 (from a direct loan). Bear Co. allocates a \$30,000 loss to Dana. The first \$10,000 reduces stock basis to zero. The next \$20,000 reduces debt basis to \$5,000. If Bear Co. repays the full \$25,000 loan next year (before any net income), Dana recognizes a **\$20,000 gain** (\$25,000 repayment − \$5,000 debt basis).
+> **Example:** Dana holds stock in Bear Co. (S corporation) with a stock basis of \$10,000 and a debt basis of \$25,000 (from a direct loan). Bear Co. allocates a \$30,000 loss to Dana. The first \$10,000 reduces stock basis to zero. The next \$20,000 reduces debt basis to \$5,000. If Bear Co. repays the full \$25,000 loan next year (before any net income), Dana recognizes a **\$20,000 gain** (\$25,000 repayment - \$5,000 debt basis).
 
 ### Reviewing Stock and Debt Basis Schedules
 
@@ -140,7 +140,7 @@ The TCP Blueprint includes a representative task requiring candidates to review 
 
 :::tip[Exam Tip]
 
-Simulation questions may present a completed basis schedule with embedded errors. Work through the adjustments in the correct order: (1) income, (2) nondeductible expenses, (3) distributions, (4) losses. Verify that debt basis is from direct loans only and that loan repayments are tested against reduced debt basis.
+Simulation questions may present a completed basis schedule with embedded errors. Work through the adjustments in the correct order: (1) income, (2) distributions, (3) nondeductible expenses, (4) losses. Verify that debt basis is from direct loans only and that loan repayments are tested against reduced debt basis.
 
 :::
 
@@ -150,12 +150,12 @@ Simulation questions may present a completed basis schedule with embedded errors
 
 ### Contributions of Noncash Property
 
-Contributions to an S corporation follow the same **IRC §351** rules as C corporations — if the transferor(s) control ≥ 80% of the corporation immediately after the exchange, the transaction is generally nonrecognition.
+Contributions to an S corporation follow the same **IRC §351** rules as C corporations: if the transferor(s) control ≥ 80% of the corporation immediately after the exchange, the transaction is generally nonrecognition.
 
 | Element | Rule |
 |---|---|
 | **Shareholder gain/loss** | No gain or loss recognized (unless boot received or liabilities exceed basis) |
-| **Shareholder's stock basis** | Adjusted basis of property − boot received − liabilities assumed + gain recognized |
+| **Shareholder's stock basis** | Adjusted basis of property - boot received - liabilities assumed + gain recognized |
 | **Corporation's basis in property** | Carryover basis + gain recognized by shareholder |
 
 > **Example:** Sam contributes land (FMV \$120,000, adjusted basis \$70,000) to Kingfisher Industries (S corporation) for 100% of the stock. No boot is received. Sam's stock basis = \$70,000. Kingfisher's basis in the land = \$70,000.
@@ -167,7 +167,7 @@ S corporation distributions follow a different framework than C corporation dist
 ```mermaid
 flowchart TD
     A[S Corporation Distributes Cash or Property] --> B{"Does the S corp have accumulated C corp E&P?"}
-    B -->|No| C["Distribution reduces stock basis → excess is capital gain"]
+    B -->|No| C["Distribution reduces stock basis, and any excess is capital gain"]
     B -->|Yes| D["Distribution sourced from AAA first (tax-free to extent of basis)"]
     D --> E["Then from accumulated E&P (taxable dividend)"]
     E --> F["Then reduces remaining stock basis"]
@@ -183,7 +183,7 @@ flowchart TD
 
 :::info
 
-Most S corporations that have always been S corporations have **no accumulated E&P** — distributions simply reduce stock basis, and any excess is capital gain. The AAA/E&P ordering becomes relevant only for corporations that converted from C to S status with accumulated E&P.
+Most S corporations that have always been S corporations have **no accumulated E&P**, so distributions simply reduce stock basis, and any excess is capital gain. The AAA/E&P ordering becomes relevant only for corporations that converted from C to S status with accumulated E&P.
 
 :::
 
@@ -206,7 +206,7 @@ In a complete liquidation of an S corporation:
 | Party | Tax Consequence |
 |---|---|
 | **S corporation** | Recognizes gain or loss on all assets as if sold at FMV |
-| **Shareholder** | Treats the distribution as payment in exchange for stock — **capital gain or loss** (FMV of assets received − stock basis) |
+| **Shareholder** | Treats the distribution as payment in exchange for stock, producing **capital gain or loss** (FMV of assets received - stock basis) |
 | **Shareholder's basis in property received** | **FMV** on the date of distribution |
 
 ### Allocation of Income/Loss After Sale of Ownership Interest
@@ -226,13 +226,13 @@ When an S corporation shareholder sells their stock during the year, the corpora
 
 | Topic | Key Concept |
 |---|---|
-| Stock basis adjustments | Income → nondeductible expenses → distributions → losses (in that order); cannot go below zero |
+| Stock basis adjustments | Income, nondeductible expenses, distributions, then losses (in that order); cannot go below zero |
 | Noncash contributions | §351 applies if ≥ 80% control; substituted basis for shareholder; carryover basis for corporation |
-| Debt basis | Only from **direct shareholder loans** — not entity debt, not guarantees (until payment) |
-| Loss deduction ordering | Stock basis first → debt basis second → excess suspended indefinitely |
+| Debt basis | Only from **direct shareholder loans**, not entity debt or guarantees (until payment) |
+| Loss deduction ordering | Stock basis first, debt basis second, and any excess suspended indefinitely |
 | Debt basis restoration | Net income restores debt basis **first**, then stock basis |
 | Distributions (no E&P) | Reduce stock basis; excess is capital gain |
-| Distributions (with C corp E&P) | AAA first (tax-free) → accumulated E&P (dividend) → stock basis → capital gain |
+| Distributions (with C corp E&P) | AAA first (tax-free), then accumulated E&P (dividend), then stock basis, then capital gain |
 | Property distributions | S corp recognizes gain (flows through); shareholder takes FMV basis |
 | Liquidating distributions | S corp recognizes gain/loss; shareholder has capital gain/loss |
 | Income allocation on sale | Default is per-day; elective interim closing of books requires consent |

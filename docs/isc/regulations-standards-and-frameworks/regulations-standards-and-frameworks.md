@@ -1,11 +1,11 @@
 # Regulations, Standards, and Frameworks
-Organizations operating in today's digital environment must comply with a complex web of regulations, standards, and frameworks that govern how they protect information, maintain privacy, and manage cybersecurity risk. For CPAs — particularly those performing IT audit, advisory, and SOC engagements — understanding these requirements is essential. A single organization may simultaneously be subject to HIPAA, GDPR, and PCI DSS while voluntarily adopting NIST and CIS frameworks to structure its security program.
+Organizations operating in today's digital environment must comply with a complex web of regulations, standards, and frameworks that govern how they protect information, maintain privacy, and manage cybersecurity risk. For CPAs, particularly those performing IT audit, advisory, and SOC engagements, understanding these requirements is essential. A single organization may simultaneously be subject to HIPAA, GDPR, and PCI DSS while voluntarily adopting NIST and CIS frameworks to structure its security program.
 This section covers **HIPAA** (Security and Privacy Rules), **GDPR** (scope, principles, and key concepts), **PCI DSS** (requirements and compliance levels), the **NIST Cybersecurity Framework**, the **NIST Privacy Framework**, **NIST SP 800-53** (security and privacy control catalog), the **CIS Controls**, and **COBIT 2019** (governance system and framework principles).
 :::info
-The ISC exam tests this topic at the **Remembering and Understanding** skill level. You must be able to recall the key provisions, scope, and structure of each regulation, standard, and framework covered below. No application or analysis is required — focus on memorizing the components, principles, and organizational structures.
+The ISC exam tests this topic at the **Remembering and Understanding** skill level. You must be able to recall the key provisions, scope, and structure of each regulation, standard, and framework covered below. No application or analysis is required; focus on memorizing the components, principles, and organizational structures.
 :::
 ---
-## HIPAA — Health Insurance Portability and Accountability Act
+## HIPAA: Health Insurance Portability and Accountability Act
 The **Health Insurance Portability and Accountability Act (HIPAA)** establishes national standards for the protection of individually identifiable health information (known as **Protected Health Information** or **PHI**).
 ### Covered Entities
 HIPAA applies to three categories of **covered entities**:
@@ -26,7 +26,7 @@ The **Privacy Rule** permits covered entities to use and disclose PHI without in
 | **Public interest activities** | Required by law, public health, victims of abuse, judicial proceedings |
 | **Limited data set** | Research, public health, or health care operations (with a data use agreement) |
 :::tip[Exam Tip]
-Remember the acronym **TPO** — Treatment, Payment, and Operations. These are the three primary permitted uses of PHI that do not require patient authorization. All other disclosures generally require written patient consent.
+Remember the acronym **TPO**: Treatment, Payment, and Operations. These are the three primary permitted uses of PHI that do not require patient authorization. All other disclosures generally require written patient consent.
 :::
 ### The Three HIPAA Rules
 | Rule | Purpose | Key Requirements |
@@ -41,7 +41,7 @@ Remember the acronym **TPO** — Treatment, Payment, and Operations. These are t
 | **Physical** | Facility access controls, workstation use policies, device and media controls |
 | **Technical** | Access controls, audit controls, integrity controls, transmission security (encryption) |
 ---
-## GDPR — General Data Protection Regulation
+## GDPR: General Data Protection Regulation
 The **General Data Protection Regulation (GDPR)** is a European Union regulation that governs the collection, processing, storage, and transfer of personal data belonging to individuals in the EU.
 ### Scope
 The GDPR applies to:
@@ -59,7 +59,7 @@ The GDPR establishes six principles that govern all processing of personal data:
 | 5 | **Storage Limitation** | Data must be kept in a form that permits identification of data subjects for no longer than necessary |
 | 6 | **Integrity and Confidentiality** | Data must be processed with appropriate security, including protection against unauthorized processing, accidental loss, destruction, or damage |
 :::warning
-The GDPR principle of **data minimization** is frequently tested. It does not mean "collect no data" — it means collect only what is **adequate, relevant, and limited to what is necessary** for the stated purpose.
+The GDPR principle of **data minimization** is frequently tested. It does not mean "collect no data"; it means collect only what is **adequate, relevant, and limited to what is necessary** for the stated purpose.
 :::
 ### Key GDPR Concepts
 | Concept | Definition |
@@ -73,10 +73,10 @@ The GDPR principle of **data minimization** is frequently tested. It does not me
 | **Data Portability** | Data subjects have the right to receive their data in a structured, commonly used, machine-readable format |
 | **72-Hour Breach Notification** | Data controllers must notify the supervisory authority within 72 hours of becoming aware of a personal data breach |
 ---
-## PCI DSS — Payment Card Industry Data Security Standard
+## PCI DSS: Payment Card Industry Data Security Standard
 The **Payment Card Industry Data Security Standard (PCI DSS)** is a set of security requirements designed to ensure that all entities that store, process, or transmit payment card data maintain a secure environment.
 ### Scope
-PCI DSS applies to **any entity** that stores, processes, or transmits cardholder data or sensitive authentication data — including merchants, processors, acquirers, issuers, and service providers.
+PCI DSS applies to **any entity** that stores, processes, or transmits cardholder data or sensitive authentication data, including merchants, processors, acquirers, issuers, and service providers.
 ### The 12 Requirements (Organized by 6 Goals)
 | Goal | Requirement | Description |
 |---|---|---|
@@ -96,15 +96,15 @@ PCI DSS applies to **any entity** that stores, processes, or transmits cardholde
 | Level | Transaction Volume (Annual) | Validation Requirement |
 |---|---|---|
 | **Level 1** | Over 6 million transactions | Annual on-site assessment by a Qualified Security Assessor (QSA) |
-| **Level 2** | 1–6 million transactions | Annual Self-Assessment Questionnaire (SAQ) + quarterly network scan |
-| **Level 3** | 20,000–1 million e-commerce transactions | Annual SAQ + quarterly network scan |
+| **Level 2** | 1 to 6 million transactions | Annual Self-Assessment Questionnaire (SAQ) + quarterly network scan |
+| **Level 3** | 20,000 to 1 million e-commerce transactions | Annual SAQ + quarterly network scan |
 | **Level 4** | Fewer than 20,000 e-commerce or up to 1 million other transactions | Annual SAQ + quarterly network scan (recommended) |
 :::note
 The distinction between a **Self-Assessment Questionnaire (SAQ)** and an **external audit by a QSA** is determined by merchant level. Only Level 1 merchants are required to undergo an on-site assessment conducted by a Qualified Security Assessor.
 :::
 ---
 ## NIST Cybersecurity Framework (CSF)
-The **NIST Cybersecurity Framework (CSF)** — published by the National Institute of Standards and Technology — provides a voluntary, risk-based approach to managing cybersecurity risk. The framework is organized into three main parts.
+The **NIST Cybersecurity Framework (CSF)**, published by the National Institute of Standards and Technology, provides a voluntary, risk-based approach to managing cybersecurity risk. The framework is organized into three main parts.
 ### Three Parts of the NIST CSF
 ```mermaid
 graph TD
@@ -119,7 +119,7 @@ graph TD
     D --> D1["Current Profile"]
     D --> D2["Target Profile"]
 ```
-### CSF Core — Six Functions
+### CSF Core: Six Functions
 The Core consists of six concurrent and continuous **functions** that provide a high-level strategic view of cybersecurity risk management:
 | Function | Purpose | Example Activities |
 |---|---|---|
@@ -142,8 +142,8 @@ Tiers describe the degree to which an organization's cybersecurity risk manageme
 | **Tier 4** | Adaptive | Organization adapts cybersecurity practices based on lessons learned and predictive indicators; continuous improvement |
 ### CSF Organizational Profiles
 An **Organizational Profile** describes an organization's current or desired cybersecurity posture in terms of the CSF Core outcomes:
-- **Current Profile** — The cybersecurity outcomes the organization is currently achieving
-- **Target Profile** — The desired cybersecurity outcomes the organization aims to achieve
+- **Current Profile**: The cybersecurity outcomes the organization is currently achieving
+- **Target Profile**: The desired cybersecurity outcomes the organization aims to achieve
 The gap between the Current Profile and the Target Profile helps prioritize improvement actions and resource allocation.
 ---
 ## NIST Privacy Framework
@@ -153,8 +153,8 @@ The **NIST Privacy Framework** is a voluntary tool for improving privacy through
 |---|---|
 | **Framework Core** | A set of privacy protection activities and outcomes organized into functions, categories, and subcategories |
 | **Framework Profiles** | Represent an organization's current or target privacy activities (analogous to CSF Profiles) |
-| **Framework Implementation Tiers** | Describe the degree to which an organization's privacy risk management practices exhibit defined characteristics (Tiers 1–4, same as CSF) |
-### Privacy Framework Core — Five Functions
+| **Framework Implementation Tiers** | Describe the degree to which an organization's privacy risk management practices exhibit defined characteristics (Tiers 1-4, same as CSF) |
+### Privacy Framework Core: Five Functions
 | Function | ID | Purpose |
 |---|---|---|
 | **Identify-P** | ID-P | Develop organizational understanding of privacy risk to individuals arising from data processing |
@@ -235,7 +235,7 @@ The **Center for Internet Security (CIS) Controls** are a prioritized set of act
 CIS Controls are organized into three **Implementation Groups (IGs)** based on organizational resources and risk profile:
 | Group | Target Organization | Scope |
 |---|---|---|
-| **IG1** | Small organizations with limited IT expertise; essential cyber hygiene | A subset of controls that every organization should implement — the minimum standard of information security |
+| **IG1** | Small organizations with limited IT expertise; essential cyber hygiene | A subset of controls that every organization should implement; the minimum standard of information security |
 | **IG2** | Organizations with moderate IT complexity managing sensitive data | Includes all IG1 controls plus additional controls for organizations with greater risk exposure |
 | **IG3** | Large organizations or those subject to regulatory oversight with dedicated security teams | Includes all IG1 and IG2 controls plus advanced controls for comprehensive defense |
 :::tip[Exam Tip]
@@ -292,7 +292,7 @@ Do not confuse COBIT's **governance system principles** (6 principles about how 
 | HIPAA | Applies to covered entities (health plans, clearinghouses, providers) and business associates; permits TPO disclosures; requires administrative, physical, and technical safeguards |
 | GDPR | Applies to any entity processing EU personal data; six principles govern data processing; 72-hour breach notification required |
 | PCI DSS | 12 requirements under 6 goals; applies to any entity handling payment card data; Level 1 merchants require QSA audit |
-| NIST CSF | Three parts: Core (6 functions: G-I-P-D-R-R), Tiers (1–4), and Organizational Profiles (current vs. target) |
+| NIST CSF | Three parts: Core (6 functions: G-I-P-D-R-R), Tiers (1-4), and Organizational Profiles (current vs. target) |
 | NIST Privacy Framework | Three parts: Core (5 functions: Identify-P, Govern-P, Control-P, Communicate-P, Protect-P), Profiles, and Implementation Tiers |
 | NIST SP 800-53 | Comprehensive control catalog; mandatory for federal systems; 20 control families; organizations select, implement, assess, and monitor controls |
 | CIS Controls | 18 prioritized controls; three Implementation Groups (IG1 = essential, IG2 = intermediate, IG3 = advanced) |
@@ -304,6 +304,6 @@ Do not confuse COBIT's **governance system principles** (6 principles about how 
 3. **Polar Inc.** is implementing the NIST Cybersecurity Framework and has completed a Current Profile assessment. The CISO presents the results to the board and recommends developing a Target Profile. The board asks what the difference is between a Tier and a Profile. How should the CISO explain the distinction?
 :::tip[Answers]
 1. The **Breach Notification Rule** requires Bear Co. to notify affected individuals. Because the breach affected more than 500 individuals, Bear Co. must also notify the U.S. Department of Health and Human Services (HHS) and prominent media outlets serving the affected area. Notification to individuals must occur **within 60 days** of discovering the breach. Additionally, because the cloud provider is a business associate, it must notify Bear Co. of the breach without unreasonable delay (and no later than as specified in the BAA).
-2. The CEO is **incorrect**. The GDPR applies to organizations outside the EU that offer goods or services to individuals in the EU. Because Kingfisher sells products to customers in France and Germany through its website, it is processing personal data of EU residents and must comply with the GDPR regardless of its physical location. The **data minimization** principle (Principle 3) requires Kingfisher to collect only personal data that is adequate, relevant, and limited to what is necessary for processing the transaction — for example, collecting a shipping address is necessary, but collecting a customer's date of birth for a product purchase likely is not.
-3. The CISO should explain that **Tiers** and **Profiles** serve different purposes. **Tiers** (1–4: Partial, Risk Informed, Repeatable, Adaptive) describe the maturity of the organization's cybersecurity risk management *processes* — how sophisticated and integrated those practices are. **Profiles** describe the specific cybersecurity *outcomes* the organization is achieving (Current Profile) or wants to achieve (Target Profile) relative to the CSF Core functions and categories. An organization at Tier 2 (Risk Informed) might have a Current Profile that shows strong outcomes in Protect and Detect but weak outcomes in Respond and Recover. The Tier tells you about the rigor of the process; the Profile tells you what you are accomplishing.
+2. The CEO is **incorrect**. The GDPR applies to organizations outside the EU that offer goods or services to individuals in the EU. Because Kingfisher sells products to customers in France and Germany through its website, it is processing personal data of EU residents and must comply with the GDPR regardless of its physical location. The **data minimization** principle (Principle 3) requires Kingfisher to collect only personal data that is adequate, relevant, and limited to what is necessary for processing the transaction. For example, collecting a shipping address is necessary, but collecting a customer's date of birth for a product purchase likely is not.
+3. The CISO should explain that **Tiers** and **Profiles** serve different purposes. **Tiers** (1-4: Partial, Risk Informed, Repeatable, Adaptive) describe the maturity of the organization's cybersecurity risk management *processes*, meaning how sophisticated and integrated those practices are. **Profiles** describe the specific cybersecurity *outcomes* the organization is achieving (Current Profile) or wants to achieve (Target Profile) relative to the CSF Core functions and categories. An organization at Tier 2 (Risk Informed) might have a Current Profile that shows strong outcomes in Protect and Detect but weak outcomes in Respond and Recover. The Tier tells you about the rigor of the process; the Profile tells you what you are accomplishing.
 :::

@@ -1,10 +1,10 @@
 # Management's Discussion and Analysis
 
-Management's Discussion and Analysis (MD&A) is **required supplementary information (RSI)** that precedes the basic financial statements in a state or local government's Annual Comprehensive Financial Report (ACFR). Required by GASB Statement No. 34, MD&A presents a narrative overview and analysis of the government's financial activities based on currently known facts, decisions, or conditions — written by management to help readers understand the financial statements.
+Management's Discussion and Analysis (MD&A) is **required supplementary information (RSI)** that precedes the basic financial statements in a state or local government's Annual Comprehensive Financial Report (ACFR). Required by GASB Statement No. 34, MD&A presents a narrative overview and analysis of the government's financial activities based on currently known facts, decisions, or conditions, written by management to help readers understand the financial statements.
 
 :::info[Blueprint Coverage]
 
-This section maps to **BAR Area III, Group A, Topic 6 – Management's discussion and analysis**. Representative tasks:
+This section maps to **BAR Area III, Group A, Topic 6: Management's discussion and analysis**. Representative tasks:
 
 1. **Recall** the objectives and components of management's discussion and analysis in the annual comprehensive financial report for state and local governments.
 
@@ -18,7 +18,7 @@ MD&A serves as an **introductory narrative** that provides government management
 
 | Characteristic | Description |
 |---|---|
-| **Authoritative source** | GASB Statement No. 34, paragraphs 8–11 |
+| **Authoritative source** | GASB Statement No. 34, paragraphs 8-11 |
 | **Classification** | Required Supplementary Information (RSI) |
 | **Placement** | Immediately before the basic financial statements |
 | **Responsibility** | Government's management |
@@ -27,7 +27,7 @@ MD&A serves as an **introductory narrative** that provides government management
 
 :::tip[Exam Tip]
 
-MD&A is **required** — it is not optional. However, it is classified as RSI, not as part of the basic financial statements. This distinction matters for auditing: the auditor applies **limited procedures** to RSI rather than auditing it as part of the basic financial statements.
+MD&A is **required**; it is not optional. However, it is classified as RSI, not as part of the basic financial statements. This distinction matters for auditing: the auditor applies **limited procedures** to RSI rather than auditing it as part of the basic financial statements.
 
 :::
 
@@ -42,7 +42,7 @@ flowchart TD
     A[Annual Comprehensive Financial Report] --> B[Introductory Section]
     A --> C[Financial Section]
     A --> D[Statistical Section]
-    C --> E["MD&A (RSI — Before)"]
+    C --> E["MD&A (RSI, Before)"]
     C --> F[Basic Financial Statements]
     C --> G["Other RSI (After)"]
     F --> H[Government-Wide Statements]
@@ -84,7 +84,7 @@ GASB 34 specifies **eight required topics** that must be addressed in the MD&A. 
 
 :::tip[Exam Tip]
 
-A helpful mnemonic for the eight MD&A components: **"Big Cities Build Infrastructures For Better Future Growth"** — Basic financial statements discussion, Condensed comparative data, Budget variances, Infrastructure (modified approach), Fund analysis, capital asset/debt (Balance sheet long-term items), Future known facts, Government-wide overall analysis.
+A helpful mnemonic for the eight MD&A components: **"Big Cities Build Infrastructures For Better Future Growth"**: Basic financial statements discussion, Condensed comparative data, Budget variances, Infrastructure (modified approach), Fund analysis, capital asset/debt (Balance sheet long-term items), Future known facts, Government-wide overall analysis.
 
 :::
 
@@ -119,11 +119,11 @@ One of the most important MD&A components is the presentation of **condensed com
 | | **Current Year** | **Prior Year** | **Current Year** | **Prior Year** |
 | Program revenues: | | | | |
 | &emsp;Charges for services | \$3,200,000 | \$3,000,000 | \$5,900,000 | \$5,600,000 |
-| &emsp;Operating grants | 1,800,000 | 1,700,000 | — | — |
+| &emsp;Operating grants | 1,800,000 | 1,700,000 | 0 | 0 |
 | &emsp;Capital grants | 2,500,000 | 2,000,000 | 1,000,000 | 800,000 |
 | General revenues: | | | | |
-| &emsp;Property taxes | 10,500,000 | 10,000,000 | — | — |
-| &emsp;Sales taxes | 4,800,000 | 4,500,000 | — | — |
+| &emsp;Property taxes | 10,500,000 | 10,000,000 | 0 | 0 |
+| &emsp;Sales taxes | 4,800,000 | 4,500,000 | 0 | 0 |
 | &emsp;Other | 900,000 | 850,000 | 200,000 | 180,000 |
 | **Total revenues** | **23,700,000** | **22,050,000** | **7,100,000** | **6,580,000** |
 | Total expenses | 22,200,000 | 21,500,000 | 6,100,000 | 5,900,000 |
@@ -238,7 +238,7 @@ Under the modified approach, infrastructure assets are **not depreciated**. Inst
 
 ## Currently Known Facts, Decisions, or Conditions
 
-The final required component addresses **forward-looking information** — but only information based on facts that are **currently known** as of the report date. This is not a forecast or projection section.
+The final required component addresses **forward-looking information**, but only information based on facts that are **currently known** as of the report date. This is not a forecast or projection section.
 
 Examples of items to discuss:
 
@@ -265,7 +265,7 @@ GASB 34 explicitly limits what may be included in MD&A:
 
 :::warning[Exam Alert]
 
-A government **cannot** use MD&A to present information that GASB does not specifically require or authorize for MD&A. This is a common exam point — if a question asks whether a particular item belongs in MD&A, check whether it falls within one of the eight required topics.
+A government **cannot** use MD&A to present information that GASB does not specifically require or authorize for MD&A. This is a common exam point. If a question asks whether a particular item belongs in MD&A, check whether it falls within one of the eight required topics.
 
 :::
 
@@ -277,13 +277,13 @@ A government **cannot** use MD&A to present information that GASB does not speci
 
 **High-yield MD&A concepts for the BAR exam:**
 
-1. MD&A is **RSI** — not part of the basic financial statements, but it is **required** (not optional).
-2. MD&A is placed **before** the basic financial statements — it is the only RSI with this placement.
+1. MD&A is **RSI**, not part of the basic financial statements, but it is **required** (not optional).
+2. MD&A is placed **before** the basic financial statements; it is the only RSI with this placement.
 3. MD&A must include **condensed comparative data** from the government-wide statements (current vs. prior year).
-4. The **eight required components** are specifically enumerated by GASB 34 — governments should confine their discussion to these topics.
+4. The **eight required components** are specifically enumerated by GASB 34; governments should confine their discussion to these topics.
 5. Budget variance analysis covers **original vs. final budget** and **final budget vs. actual** for the General Fund.
-6. MD&A is based on **currently known facts** — it is not a forecast or promotional document.
-7. **Management** is responsible for preparing MD&A — not the auditor.
+6. MD&A is based on **currently known facts**; it is not a forecast or promotional document.
+7. **Management** is responsible for preparing MD&A, not the auditor.
 8. If the government uses the **modified approach** for infrastructure, MD&A must discuss condition assessments and maintenance levels.
 9. The auditor applies **limited procedures** to MD&A (it is RSI, not audited financial statements).
 

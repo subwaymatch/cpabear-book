@@ -1,10 +1,10 @@
 # Proprietary Funds Financial Statements
 
-Proprietary funds account for government activities that operate similarly to private-sector businesses, providing goods or services to external customers or to other departments on a fee-for-service basis. They use the **economic resources measurement focus** and **full accrual basis** of accounting — the same model as commercial enterprises — and report capital assets, long-term liabilities, and depreciation directly on their fund-level statements.
+Proprietary funds account for government activities that operate similarly to private-sector businesses, providing goods or services to external customers or to other departments on a fee-for-service basis. They use the **economic resources measurement focus** and **full accrual basis** of accounting (the same model as commercial enterprises) and report capital assets, long-term liabilities, and depreciation directly on their fund-level statements.
 
 :::info[Blueprint Coverage]
 
-This section maps to **BAR Area III, Group A, Topic 3 – Proprietary funds financial statements**. Representative tasks:
+This section maps to **BAR Area III, Group A, Topic 3: Proprietary funds financial statements**. Representative tasks:
 
 1. **Identify and recall** basic concepts and principles associated with proprietary fund financial statements (e.g., required funds, financial statements, financial statement components).
 2. **Prepare** the statement of revenues, expenses, and changes in fund net position for the proprietary funds of a state or local government from trial balances and supporting documentation.
@@ -34,7 +34,7 @@ flowchart TD
     E --> G[Typically consolidated into<br/>Governmental Activities in GWFS]
 ```
 
-### Enterprise Funds — When Required
+### Enterprise Funds: When Required
 
 An enterprise fund **must** be used when one or more of the following criteria are met:
 
@@ -48,10 +48,10 @@ Remember the "debt, law, pricing" mnemonic for mandatory enterprise fund usage. 
 
 :::
 
-### Internal Service Funds — Key Characteristics
+### Internal Service Funds: Key Characteristics
 
 - Used when one government department sells goods/services to another department on a **cost-reimbursement** basis.
-- Never required — always a **management choice**.
+- Never required; always a **management choice**.
 - If the internal service fund predominantly serves **governmental** activities, its assets and liabilities are typically reported within governmental activities in the government-wide statements.
 
 ---
@@ -106,11 +106,11 @@ Net position is divided into three components:
 |---|---|
 | **Net investment in capital assets** | Capital assets, net of accumulated depreciation, minus outstanding debt related to those assets (plus unspent bond proceeds) |
 | **Restricted** | Resources with externally imposed constraints (creditors, grantors, laws) or constitutional provisions |
-| **Unrestricted** | All remaining net position — may include board designations, but these are **not** restrictions |
+| **Unrestricted** | All remaining net position; may include board designations, but these are **not** restrictions |
 
-### Example — Statement of Net Position
+### Example: Statement of Net Position
 
-**Bear City Water Utility Fund — Statement of Net Position — December 31, 20X5**
+**Bear City Water Utility Fund: Statement of Net Position, December 31, 20X5**
 
 | | Amount |
 |---|---|
@@ -162,13 +162,13 @@ Below the nonoperating section, report:
 
 :::tip[Exam Tip]
 
-**Interest expense** on revenue bonds is always classified as **nonoperating** — even though the bonds finance the core operations of the enterprise fund. The GASB considers interest a financing cost, not an operating cost.
+**Interest expense** on revenue bonds is always classified as **nonoperating**, even though the bonds finance the core operations of the enterprise fund. The GASB considers interest a financing cost, not an operating cost.
 
 :::
 
-### Example — Statement of Revenues, Expenses, and Changes in Fund Net Position
+### Example: Statement of Revenues, Expenses, and Changes in Fund Net Position
 
-**Bear City Water Utility Fund — Year Ended December 31, 20X5**
+**Bear City Water Utility Fund: Year Ended December 31, 20X5**
 
 | | Amount |
 |---|---|
@@ -193,8 +193,8 @@ Below the nonoperating section, report:
 | Capital contributions | 600,000 |
 | Transfers out | (150,000) |
 | **Change in net position** | **1,390,000** |
-| Net position — beginning of year | 12,570,000 |
-| **Net position — end of year** | **\$13,960,000** |
+| Net position, beginning of year | 12,570,000 |
+| **Net position, end of year** | **\$13,960,000** |
 
 ---
 
@@ -237,9 +237,9 @@ The GASB splits FASB's single "financing activities" category into two: **noncap
 | Interest paid on capital debt | Capital and related financing | Financing activities |
 | Interest paid on noncapital debt | Noncapital financing | Financing activities |
 
-### Example — Statement of Cash Flows
+### Example: Statement of Cash Flows
 
-**Bear City Water Utility Fund — Year Ended December 31, 20X5**
+**Bear City Water Utility Fund: Year Ended December 31, 20X5**
 
 | | Amount |
 |---|---|
@@ -262,8 +262,8 @@ The GASB splits FASB's single "financing activities" category into two: **noncap
 | &emsp;Interest received | 85,000 |
 | &emsp;**Net cash provided by investing activities** | **85,000** |
 | **Net increase in cash and cash equivalents** | **1,080,000** |
-| Cash and cash equivalents — beginning of year | 1,370,000 |
-| **Cash and cash equivalents — end of year** | **\$2,450,000** |
+| Cash and cash equivalents, beginning of year | 1,370,000 |
+| **Cash and cash equivalents, end of year** | **\$2,450,000** |
 
 ### Required Reconciliation Schedule
 
@@ -282,7 +282,7 @@ A reconciliation of **operating income to net cash provided by operating activit
 
 :::tip[Exam Tip]
 
-Even though the statement uses the **direct method**, GASB still requires the reconciliation schedule. Think of it as getting **both** methods — direct in the body, indirect as a supplementary schedule.
+Even though the statement uses the **direct method**, GASB still requires the reconciliation schedule. Think of it as getting **both** methods: direct in the body, indirect as a supplementary schedule.
 
 :::
 
@@ -355,7 +355,7 @@ Dr. Cash[a] 1,000,000
     Cr. Revenue Bonds Payable[l] 1,000,000
 ```
 
-### Internal Service Fund — Billing Other Departments
+### Internal Service Fund: Billing Other Departments
 
 Illini Township motor pool bills the police department \$45,000 for vehicle maintenance:
 
@@ -380,7 +380,7 @@ Dr. Due from General Fund[a] 45,000
 
 :::tip[Exam Tip]
 
-The statement of cash flows is **only** required for proprietary funds — not governmental funds and not government-wide statements. If an exam question asks which statement uses the direct method, the answer is always the **proprietary fund statement of cash flows**.
+The statement of cash flows is **only** required for proprietary funds, not governmental funds and not government-wide statements. If an exam question asks which statement uses the direct method, the answer is always the **proprietary fund statement of cash flows**.
 
 :::
 

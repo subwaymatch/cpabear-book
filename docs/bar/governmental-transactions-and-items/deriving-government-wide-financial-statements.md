@@ -4,7 +4,7 @@ The **government-wide financial statements** are prepared using the **economic r
 
 :::info[Blueprint Coverage]
 
-This section maps to **BAR Area III, Group B – Deriving Government-Wide Financial Statements and Reconciliation Requirements**. Representative tasks:
+This section maps to **BAR Area III, Group B: Deriving Government-Wide Financial Statements and Reconciliation Requirements**. Representative tasks:
 
 1. **Prepare** worksheets to convert the governmental fund financial statements to the governmental activities reported in the government-wide financial statements.
 2. **Prepare** the schedule to reconcile the total fund balances and the net change in fund balances reported in the governmental fund financial statements to the net position and change in net position reported in the government-wide financial statements.
@@ -66,7 +66,7 @@ The following categories of adjustments transform fund-level data into governmen
 
 ---
 
-## Balance Sheet Reconciliation (Fund Balance → Net Position)
+## Balance Sheet Reconciliation (Fund Balance to Net Position)
 
 GASB 34 requires a reconciliation from **total governmental fund balances** to **net position of governmental activities**. This is presented either on the face of the balance sheet or in an accompanying schedule.
 
@@ -74,18 +74,18 @@ GASB 34 requires a reconciliation from **total governmental fund balances** to *
 
 | Reconciling Item | Effect on Net Position |
 |---|---|
-| Capital assets (net of depreciation) | **Add** — assets not in fund statements |
-| Long-term liabilities (bonds, notes, leases) | **Subtract** — liabilities not in fund statements |
-| Accrued interest payable | **Subtract** — not recognized until due in funds |
-| Deferred inflows for unavailable revenues | **Add** — revenue earned but not available |
-| Internal service fund net position | **Add** — typically combined with governmental activities |
-| Deferred outflows/inflows (pensions, OPEB) | **Add/Subtract** — not in fund statements |
-| Compensated absences (long-term portion) | **Subtract** — not due and payable from current resources |
-| Bond premiums/discounts (unamortized) | **Subtract/Add** — reported with long-term debt |
+| Capital assets (net of depreciation) | **Add** (assets not in fund statements) |
+| Long-term liabilities (bonds, notes, leases) | **Subtract** (liabilities not in fund statements) |
+| Accrued interest payable | **Subtract** (not recognized until due in funds) |
+| Deferred inflows for unavailable revenues | **Add** (revenue earned but not available) |
+| Internal service fund net position | **Add** (typically combined with governmental activities) |
+| Deferred outflows/inflows (pensions, OPEB) | **Add/Subtract** (not in fund statements) |
+| Compensated absences (long-term portion) | **Subtract** (not due and payable from current resources) |
+| Bond premiums/discounts (unamortized) | **Subtract/Add** (reported with long-term debt) |
 
-### Numerical Example — Balance Sheet Reconciliation
+### Numerical Example: Balance Sheet Reconciliation
 
-**Cedar Township — Reconciliation of Governmental Fund Balance to Net Position**
+**Cedar Township: Reconciliation of Governmental Fund Balance to Net Position**
 **June 30, 20X5**
 
 | Item | Amount |
@@ -96,7 +96,7 @@ GASB 34 requires a reconciliation from **total governmental fund balances** to *
 | Less: Accumulated depreciation | (32,000,000) |
 | Net capital assets | **+53,000,000** |
 | Deferred outflows of resources (pensions) | **+2,100,000** |
-| Deferred inflows – unavailable revenue (property taxes not yet available) | **+860,000** |
+| Deferred inflows for unavailable revenue (property taxes not yet available) | **+860,000** |
 | Bonds payable | (28,000,000) |
 | Unamortized bond premium | (1,200,000) |
 | Accrued interest payable | (540,000) |
@@ -109,7 +109,7 @@ GASB 34 requires a reconciliation from **total governmental fund balances** to *
 
 ---
 
-## Operating Statement Reconciliation (Change in Fund Balances → Change in Net Position)
+## Operating Statement Reconciliation (Change in Fund Balances to Change in Net Position)
 
 A parallel reconciliation converts the **net change in fund balances** to the **change in net position** for governmental activities.
 
@@ -117,10 +117,10 @@ A parallel reconciliation converts the **net change in fund balances** to the **
 
 | Reconciling Item | Effect on Change in Net Position |
 |---|---|
-| Capital outlay expenditures (capitalized) | **Add** — not an expense in accrual |
-| Depreciation expense | **Subtract** — not recognized in funds |
-| Bond/note proceeds (Other Financing Sources) | **Subtract** — not revenue in accrual |
-| Principal payments on debt (expenditures) | **Add** — not an expense in accrual |
+| Capital outlay expenditures (capitalized) | **Add** (not an expense in accrual) |
+| Depreciation expense | **Subtract** (not recognized in funds) |
+| Bond/note proceeds (Other Financing Sources) | **Subtract** (not revenue in accrual) |
+| Principal payments on debt (expenditures) | **Add** (not an expense in accrual) |
 | Change in accrued interest | **Subtract** (if increased) |
 | Change in compensated absences | **Subtract** (if liability increased) |
 | Change in unavailable revenue | **Add** (if revenues became earned) |
@@ -128,14 +128,14 @@ A parallel reconciliation converts the **net change in fund balances** to the **
 | Amortization of bond premium | **Subtract** (reduces interest expense) |
 | Internal service fund change in net position | **Add/Subtract** |
 
-### Numerical Example — Operating Statement Reconciliation
+### Numerical Example: Operating Statement Reconciliation
 
-**Cedar Township — Reconciliation of Change in Fund Balances to Change in Net Position**
+**Cedar Township: Reconciliation of Change in Fund Balances to Change in Net Position**
 **For the Year Ended June 30, 20X5**
 
 | Item | Amount |
 |---|---|
-| Net change in fund balances — total governmental funds | \$1,800,000 |
+| Net change in fund balances (total governmental funds) | \$1,800,000 |
 | **Adjustments:** | |
 | Capital outlay reported as expenditures in the funds | +6,200,000 |
 | Depreciation expense not reported in the funds | (3,400,000) |
@@ -171,63 +171,63 @@ Many governments use a **conversion worksheet** to systematically transform fund
 
 Below are the journal-entry-style adjustments that appear on the conversion worksheet:
 
-**Adjustment 1 — Capitalize current-year capital outlay:**
+**Adjustment 1: Capitalize current-year capital outlay**
 
 ```journal
 Dr. Capital Assets[a] 6,200,000
     Cr. Capital Outlay Expenditures 6,200,000
 ```
 
-**Adjustment 2 — Record depreciation expense:**
+**Adjustment 2: Record depreciation expense**
 
 ```journal
 Dr. Depreciation Expense 3,400,000
     Cr. Accumulated Depreciation[a] 3,400,000
 ```
 
-**Adjustment 3 — Remove bond proceeds (Other Financing Source):**
+**Adjustment 3: Remove bond proceeds (Other Financing Source)**
 
 ```journal
-Dr. Other Financing Sources – Bond Proceeds 4,000,000
+Dr. Other Financing Sources (Bond Proceeds) 4,000,000
     Cr. Bonds Payable[l] 4,000,000
 ```
 
-**Adjustment 4 — Remove debt principal expenditure:**
+**Adjustment 4: Remove debt principal expenditure**
 
 ```journal
 Dr. Bonds Payable[l] 2,800,000
-    Cr. Debt Service Expenditures – Principal 2,800,000
+    Cr. Debt Service Expenditures (Principal) 2,800,000
 ```
 
-**Adjustment 5 — Accrue interest expense:**
+**Adjustment 5: Accrue interest expense**
 
 ```journal
 Dr. Interest Expense 45,000
     Cr. Accrued Interest Payable[l] 45,000
 ```
 
-**Adjustment 6 — Amortize bond premium:**
+**Adjustment 6: Amortize bond premium**
 
 ```journal
 Dr. Premium on Bonds Payable[l] 120,000
     Cr. Interest Expense 120,000
 ```
 
-**Adjustment 7 — Recognize unavailable revenue:**
+**Adjustment 7: Recognize unavailable revenue**
 
 ```journal
-Dr. Deferred Inflows – Unavailable Revenue[l] 315,000
-    Cr. Revenues – Property Taxes 315,000
+Dr. Deferred Inflows (Unavailable Revenue)[l] 315,000
+    Cr. Revenues (Property Taxes) 315,000
 ```
 
-**Adjustment 8 — Accrue compensated absences:**
+**Adjustment 8: Accrue compensated absences**
 
 ```journal
 Dr. Compensated Absences Expense 180,000
     Cr. Compensated Absences Payable[l] 180,000
 ```
 
-**Adjustment 9 — Remove capital asset disposal:**
+**Adjustment 9: Remove capital asset disposal**
 
 ```journal
 Dr. Accumulated Depreciation[a] 400,000

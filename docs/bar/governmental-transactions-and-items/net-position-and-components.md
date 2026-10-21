@@ -4,7 +4,7 @@
 
 :::info[Blueprint Coverage]
 
-This section maps to **BAR Area III, Group C, Topic 1 – Net Position and Components Thereof**. Representative tasks:
+This section maps to **BAR Area III, Group C, Topic 1: Net Position and Components Thereof**. Representative tasks:
 
 1. **Calculate** the net position balances (unrestricted, restricted, and net investment in capital assets) for state and local governments and prepare journal entries.
 
@@ -101,7 +101,7 @@ Net investment in capital assets is typically the **largest** component for gove
 | Bonds payable (issued for capital projects) | \$22,000,000 |
 | Unamortized bond premium (capital-related) | \$400,000 |
 | Unspent bond proceeds (restricted for construction) | \$3,500,000 |
-| Deferred outflow – debt refunding (capital-related) | \$600,000 |
+| Deferred outflow, debt refunding (capital-related) | \$600,000 |
 
 $$
 \text{Capital Assets, net} = \$50{,}000{,}000 - \$18{,}000{,}000 = \$32{,}000{,}000
@@ -121,8 +121,8 @@ $$
 
 Net position is **restricted** when constraints are placed on its use by either:
 
-1. **External parties** — creditors, grantors, contributors, or laws/regulations of other governments
-2. **Enabling legislation** — constitutional provisions or laws enacted by the government itself that require resources be used for a specific purpose
+1. **External parties**: creditors, grantors, contributors, or laws/regulations of other governments
+2. **Enabling legislation**: constitutional provisions or laws enacted by the government itself that require resources be used for a specific purpose
 
 ### Examples of Restricted Net Position
 
@@ -136,7 +136,7 @@ Net position is **restricted** when constraints are placed on its use by either:
 
 ### Restricted vs. Unrestricted Spending Order
 
-When both restricted and unrestricted resources are available for an expenditure, governments **spend restricted resources first** — unless legal requirements or the governing body has established a different policy.
+When both restricted and unrestricted resources are available for an expenditure, governments **spend restricted resources first**, unless legal requirements or the governing body has established a different policy.
 
 :::warning[Key Distinction]
 
@@ -148,7 +148,7 @@ When both restricted and unrestricted resources are available for an expenditure
 
 ## Unrestricted Net Position
 
-The **unrestricted** component is the residual — the amount of net position that is neither invested in capital assets (net of related debt) nor restricted.
+The **unrestricted** component is the residual: the amount of net position that is neither invested in capital assets (net of related debt) nor restricted.
 
 $$
 \text{Unrestricted Net Position} = \text{Total Net Position} - \text{NICA} - \text{Restricted Net Position}
@@ -158,14 +158,14 @@ $$
 
 - Can be **positive or negative**
 - A negative unrestricted net position is **common** and does not mean insolvency
-- Unrestricted does **not** mean "available for any purpose" — the governing body may have designated or committed resources for specific uses
+- Unrestricted does **not** mean "available for any purpose"; the governing body may have designated or committed resources for specific uses
 - Unrestricted net position is simply the residual after the other two components are calculated
 
 ---
 
 ## Negative Unrestricted Net Position
 
-Many governments report a **negative** unrestricted net position. The most common cause is the recognition of large long-term liabilities — particularly **net pension liabilities** and **OPEB (Other Post-Employment Benefits) liabilities** under GASB 68 and GASB 75.
+Many governments report a **negative** unrestricted net position. The most common cause is the recognition of large long-term liabilities, particularly **net pension liabilities** and **OPEB (Other Post-Employment Benefits) liabilities** under GASB 68 and GASB 75.
 
 ### Why It Happens
 
@@ -185,7 +185,7 @@ Many governments report a **negative** unrestricted net position. The most commo
 
 :::tip[Exam Tip]
 
-If a question asks whether a negative unrestricted net position indicates financial distress, the answer is **no** — it is common and reflects the timing of liability recognition. Governments have taxing authority and ongoing revenue streams to meet obligations.
+If a question asks whether a negative unrestricted net position indicates financial distress, the answer is **no**. It is common and reflects the timing of liability recognition. Governments have taxing authority and ongoing revenue streams to meet obligations.
 
 :::
 
@@ -229,7 +229,7 @@ Dr. Construction in Progress[a] 4,200,000
 ```
 
 **Effect on net position components:**
-- Net investment in capital assets = \$4,200,000 − \$5,000,000 + \$800,000 = **\$0**
+- Net investment in capital assets = \$4,200,000 - \$5,000,000 + \$800,000 = **\$0**
 - Restricted net position increases by \$800,000 (unspent proceeds restricted for construction)
 - Unrestricted net position: no net change
 
@@ -247,7 +247,7 @@ Dr. Cash[a] 1,200,000
 When the grant is spent on the bridge:
 
 ```journal
-Dr. Infrastructure – Bridges[a] 1,200,000
+Dr. Infrastructure (Bridges)[a] 1,200,000
     Cr. Cash[a] 1,200,000
 ```
 
@@ -279,7 +279,7 @@ Dr. Bonds Payable[l] 500,000
 
 ## Complete Worked Example
 
-**Bear City — Statement of Net Position (Governmental Activities) at December 31, 20X4**
+**Bear City: Statement of Net Position (Governmental Activities) at December 31, 20X4**
 
 ### Given Information
 
@@ -288,13 +288,13 @@ Dr. Bonds Payable[l] 500,000
 | Capital assets (gross) | \$85,000,000 |
 | Accumulated depreciation | \$32,000,000 |
 | Other assets (cash, receivables, etc.) | \$14,500,000 |
-| Deferred outflows – pensions | \$3,200,000 |
-| Deferred outflows – debt refunding (capital-related) | \$750,000 |
+| Deferred outflows, pensions | \$3,200,000 |
+| Deferred outflows, debt refunding (capital-related) | \$750,000 |
 | Revenue bonds payable (for capital assets) | \$38,000,000 |
 | Unamortized premium on revenue bonds | \$1,100,000 |
 | Net pension liability | \$21,000,000 |
 | Other liabilities | \$4,600,000 |
-| Deferred inflows – pensions | \$2,800,000 |
+| Deferred inflows, pensions | \$2,800,000 |
 | Unspent bond proceeds (restricted for construction) | \$5,000,000 |
 | Resources restricted by grantors | \$2,100,000 |
 | Resources restricted by enabling legislation | \$900,000 |
@@ -345,7 +345,7 @@ $$
 
 :::warning[Watch Out]
 
-Unspent capital-related debt proceeds are added back in the NICA formula **and** excluded from restricted net position. Do not count them in both components — that would overstate total net position.
+Unspent capital-related debt proceeds are added back in the NICA formula **and** excluded from restricted net position. Do not count them in both components; that would overstate total net position.
 
 :::
 
@@ -370,7 +370,7 @@ $$
 \$19{,}650{,}000 + \$3{,}000{,}000 + (-\$18{,}700{,}000) = \$3{,}950{,}000 \checkmark
 $$
 
-The negative unrestricted net position is primarily driven by the \$21,000,000 net pension liability — a common result under GASB 68.
+The negative unrestricted net position is primarily driven by the \$21,000,000 net pension liability, a common result under GASB 68.
 
 ---
 
