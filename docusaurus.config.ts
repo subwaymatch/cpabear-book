@@ -75,6 +75,14 @@ const config: Config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
+    announcementBar: {
+      id: "blueprint-2027",
+      content:
+        'Updated for the 2027 CPA Exam Blueprints. Testing before January 1, 2027? <a href="/blueprint/2027#testing-in-2026">This book still applies.</a>',
+      backgroundColor: "#f7fee7",
+      textColor: "#1a2e05",
+      isCloseable: true,
+    },
     mermaid: {
       theme: { light: "neutral", dark: "dark" },
       options: {
@@ -150,8 +158,8 @@ const config: Config = {
           title: "Links",
           items: [
             {
-              label: "CPA Exam Blueprint 2026",
-              to: "/blueprint/2026",
+              label: "CPA Exam Blueprints 2027",
+              to: "/blueprint/2027",
             },
             {
               label: "Discord",

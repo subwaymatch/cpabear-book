@@ -1,0 +1,838 @@
+/* CPA Exam Blueprints 2027 guide */
+
+.page {
+  --bp-surface: #ffffff;
+  --bp-subtle: #f7f8f5;
+  --bp-border: #e5e7e1;
+  --bp-muted: #5b6156;
+  --bp-ink: #1c1f1a;
+  --bp-accent: #4d7c0f;
+  --bp-accent-soft: rgba(77, 124, 15, 0.1);
+  --bp-mcq: #e6f0d6;
+  --bp-tbs: #dbe8f8;
+
+  --bp-aud: #2563eb;
+  --bp-far: #65a30d;
+  --bp-reg: #059669;
+  --bp-bar: #7c3aed;
+  --bp-isc: #ea580c;
+  --bp-tcp: #e11d48;
+
+  color: var(--bp-ink);
+  background: var(--bp-subtle);
+}
+
+[data-theme="dark"] .page {
+  --bp-surface: #1f2120;
+  --bp-subtle: #171918;
+  --bp-border: #333733;
+  --bp-muted: #a5aba1;
+  --bp-ink: #eceee9;
+  --bp-accent: #a3e635;
+  --bp-accent-soft: rgba(163, 230, 53, 0.12);
+  --bp-mcq: #2c3a1c;
+  --bp-tbs: #1d2c40;
+
+  --bp-aud: #60a5fa;
+  --bp-far: #a3e635;
+  --bp-reg: #34d399;
+  --bp-bar: #a78bfa;
+  --bp-isc: #fb923c;
+  --bp-tcp: #fb7185;
+}
+
+/* Section colors */
+.aud { --bp-color: var(--bp-aud); }
+.far { --bp-color: var(--bp-far); }
+.reg { --bp-color: var(--bp-reg); }
+.bar { --bp-color: var(--bp-bar); }
+.isc { --bp-color: var(--bp-isc); }
+.tcp { --bp-color: var(--bp-tcp); }
+
+.dot {
+  display: inline-block;
+  flex: none;
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-right: 0.5rem;
+  border-radius: 999px;
+  background: var(--bp-color, var(--bp-accent));
+}
+
+/* Hero */
+
+.hero {
+  padding: 4.5rem 1rem 3.5rem;
+  background:
+    radial-gradient(60rem 24rem at 15% -10%, rgba(132, 204, 22, 0.16), transparent 70%),
+    radial-gradient(40rem 20rem at 95% 0%, rgba(14, 165, 233, 0.1), transparent 70%),
+    var(--bp-surface);
+  border-bottom: 1px solid var(--bp-border);
+}
+
+.heroInner {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.35rem 0.85rem;
+  margin-bottom: 1.25rem;
+  border-radius: 999px;
+  border: 1px solid rgba(77, 124, 15, 0.25);
+  background: var(--bp-accent-soft);
+  color: var(--bp-accent);
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.heroTitle {
+  margin: 0 0 1rem;
+  font-size: clamp(2.1rem, 5vw, 3.4rem);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+}
+
+.heroAccent {
+  background: linear-gradient(90deg, var(--ifm-color-primary), #22c55e 55%, #0ea5e9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroSubtitle {
+  max-width: 42rem;
+  margin: 0 0 1.75rem;
+  color: var(--bp-muted);
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2.25rem;
+}
+
+.primaryCta,
+.secondaryCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.625rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: transform 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.primaryCta {
+  background: linear-gradient(135deg, #4d7c0f, #65a30d 60%, #84cc16);
+  color: #ffffff !important;
+  box-shadow: 0 10px 24px -12px rgba(77, 124, 15, 0.7);
+}
+
+.primaryCta:hover {
+  transform: translateY(-1px);
+}
+
+.secondaryCta {
+  border: 1px solid var(--bp-border);
+  background: var(--bp-surface);
+  color: var(--bp-ink) !important;
+}
+
+.secondaryCta:hover {
+  border-color: var(--bp-accent);
+}
+
+.heroFacts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  max-width: 40rem;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+  border: 1px solid var(--bp-border);
+  border-radius: 0.875rem;
+  background: var(--bp-border);
+}
+
+.heroFacts li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.9rem 1rem;
+  background: var(--bp-surface);
+}
+
+.heroFacts strong {
+  font-size: 1.05rem;
+}
+
+.heroFacts span {
+  color: var(--bp-muted);
+  font-size: 0.8125rem;
+}
+
+/* Layout */
+
+.main {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2.5rem 1rem 4rem;
+}
+
+.block {
+  margin-top: 4rem;
+}
+
+.blockHeader {
+  max-width: 44rem;
+  margin-bottom: 1.5rem;
+}
+
+.kicker {
+  margin: 0 0 0.4rem;
+  color: var(--bp-accent);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.blockTitle {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 1.2;
+}
+
+.blockLead {
+  margin: 0;
+  color: var(--bp-muted);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+/* Testing in 2026 callout */
+
+.callout {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  border: 1px solid rgba(77, 124, 15, 0.3);
+  border-radius: 1rem;
+  background: var(--bp-surface);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.02), 0 12px 32px -20px rgba(77, 124, 15, 0.5);
+}
+
+.calloutIcon {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.75rem;
+  background: var(--bp-accent-soft);
+  color: var(--bp-accent);
+}
+
+.calloutTitle {
+  margin: 0.2rem 0 0.6rem;
+  font-size: 1.25rem;
+  line-height: 1.35;
+}
+
+.callout p {
+  margin: 0 0 0.75rem;
+  line-height: 1.65;
+}
+
+.calloutList {
+  margin: 0;
+  padding-left: 1.1rem;
+  line-height: 1.65;
+}
+
+.calloutList li + li {
+  margin-top: 0.4rem;
+}
+
+/* Core and Discipline paths */
+
+.pathGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.pathCard {
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--bp-border);
+  border-radius: 1rem;
+  background: var(--bp-surface);
+}
+
+.pathCard h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+}
+
+.pathCard ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pathCard li {
+  display: flex;
+  align-items: center;
+  padding: 0.35rem 0;
+}
+
+.pathCard a {
+  color: var(--bp-ink);
+}
+
+/* Section explorer */
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+  scrollbar-width: thin;
+}
+
+.tab {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--bp-border);
+  border-radius: 999px;
+  background: var(--bp-surface);
+  color: var(--bp-ink);
+  font: inherit;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.tab:hover {
+  border-color: var(--bp-muted);
+}
+
+.tab:focus-visible {
+  outline: 2px solid var(--bp-accent);
+  outline-offset: 2px;
+}
+
+.tabActive {
+  border-color: var(--bp-ink);
+  background: var(--bp-ink);
+  color: var(--bp-surface);
+}
+
+.tabActive:hover {
+  border-color: var(--bp-ink);
+}
+
+.tabKind {
+  margin-left: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.panel {
+  padding: 1.5rem;
+  border: 1px solid var(--bp-border);
+  border-radius: 1rem;
+  background: var(--bp-surface);
+}
+
+.panelHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.panelEyebrow {
+  display: flex;
+  align-items: center;
+  color: var(--bp-muted);
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.panelTitle {
+  margin: 0.35rem 0 0;
+  font-size: 1.35rem;
+}
+
+.panelLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--bp-border);
+  border-radius: 0.625rem;
+  color: var(--bp-ink) !important;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.panelLink:hover {
+  border-color: var(--bp-accent);
+}
+
+.factGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0 0 1.25rem;
+}
+
+.fact {
+  padding: 0.75rem 0.9rem;
+  border-radius: 0.75rem;
+  background: var(--bp-subtle);
+}
+
+.fact dt {
+  margin-bottom: 0.2rem;
+  color: var(--bp-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.fact dd {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.testlets {
+  display: grid;
+  grid-template-columns: 3fr 3fr 1.4fr 1.4fr 1.4fr;
+  gap: 0.4rem;
+  margin-bottom: 1.75rem;
+}
+
+.testlet {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+  padding: 0.55rem 0.7rem;
+  border-radius: 0.6rem;
+}
+
+.testletMcq {
+  background: var(--bp-mcq);
+}
+
+.testletTbs {
+  background: var(--bp-tbs);
+}
+
+.testletNumber {
+  color: var(--bp-muted);
+  font-size: 0.7rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.testletCount {
+  font-size: 0.875rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.panelColumns {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 2rem;
+}
+
+.panelSubhead {
+  margin: 0 0 0.75rem;
+  color: var(--bp-muted);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.rangeRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 8rem 3.75rem;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.45rem 0;
+}
+
+.rangeLabel {
+  font-size: 0.875rem;
+  line-height: 1.35;
+}
+
+.rangeTrack {
+  position: relative;
+  height: 0.5rem;
+  border-radius: 999px;
+  background: var(--bp-subtle);
+  box-shadow: inset 0 0 0 1px var(--bp-border);
+}
+
+.rangeBand {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: 999px;
+  background: var(--bp-color);
+}
+
+.rangeValue {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.panelChange {
+  margin: 1.5rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--bp-border);
+  color: var(--bp-muted);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.panelChange strong {
+  color: var(--bp-ink);
+}
+
+/* What changed */
+
+.changeGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.changeCard {
+  padding: 1.1rem 1.25rem;
+  border: 1px solid var(--bp-border);
+  border-radius: 1rem;
+  background: var(--bp-surface);
+}
+
+.changeCard h3 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.changeCard p {
+  margin: 0;
+  color: var(--bp-muted);
+  font-size: 0.9375rem;
+  line-height: 1.55;
+}
+
+/* Timeline */
+
+.timeline {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  left: 0.35rem;
+  width: 2px;
+  background: var(--bp-border);
+}
+
+.timelineItem {
+  position: relative;
+  display: grid;
+  grid-template-columns: 11rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 0 0 1.5rem 1.75rem;
+}
+
+.timelineItem::before {
+  content: "";
+  position: absolute;
+  top: 0.4rem;
+  left: 0;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 2px solid var(--bp-accent);
+  border-radius: 999px;
+  background: var(--bp-surface);
+}
+
+.timelineDate {
+  color: var(--bp-accent);
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.timelineTitle {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+}
+
+.timelineItem p {
+  margin: 0;
+  color: var(--bp-muted);
+  line-height: 1.6;
+}
+
+.note {
+  margin: 0.5rem 0 0;
+  padding: 0.9rem 1.1rem;
+  border-radius: 0.75rem;
+  background: var(--bp-surface);
+  border: 1px solid var(--bp-border);
+  color: var(--bp-muted);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+/* Comparison table */
+
+.tableWrap {
+  overflow-x: auto;
+  border: 1px solid var(--bp-border);
+  border-radius: 1rem;
+  background: var(--bp-surface);
+}
+
+.table {
+  display: table;
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem 0.9rem;
+  border: 0;
+  border-bottom: 1px solid var(--bp-border);
+  text-align: left;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.table thead th {
+  color: var(--bp-muted);
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: normal;
+  vertical-align: bottom;
+}
+
+.table tr {
+  border: 0;
+  background: transparent !important;
+}
+
+.table tbody tr:last-child th,
+.table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.table tbody th {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.tableKind {
+  margin-left: 0.5rem;
+  color: var(--bp-muted);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.muted {
+  color: var(--bp-muted);
+}
+
+/* Skill levels */
+
+.skillGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skillCard {
+  padding: 1.1rem 1.25rem;
+  border: 1px solid var(--bp-border);
+  border-radius: 1rem;
+  background: var(--bp-surface);
+}
+
+.skillLevel {
+  color: var(--bp-accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.skillCard h3 {
+  margin: 0.35rem 0 0.4rem;
+  font-size: 1rem;
+}
+
+.skillCard p {
+  margin: 0;
+  color: var(--bp-muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+/* Sources */
+
+.sources {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--bp-border);
+  color: var(--bp-muted);
+  font-size: 0.9rem;
+}
+
+.sourcesTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 0.75rem;
+  color: var(--bp-ink);
+  font-size: 1rem;
+}
+
+.sources ul {
+  margin: 0 0 1rem;
+  padding-left: 1.1rem;
+}
+
+.sources li + li {
+  margin-top: 0.3rem;
+}
+
+/* Responsive */
+
+@media (max-width: 996px) {
+  .changeGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .skillGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .panelColumns {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero {
+    padding: 3rem 1rem 2.5rem;
+  }
+
+  .heroFacts,
+  .pathGrid,
+  .changeGrid,
+  .skillGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .factGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* Two MCQ testlets on the first row, three TBS testlets on the second */
+  .testlets {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 0.3rem;
+  }
+
+  .testletMcq {
+    grid-column: span 3;
+  }
+
+  .testletTbs {
+    grid-column: span 2;
+  }
+
+  .testlet {
+    padding: 0.45rem 0.5rem;
+  }
+
+  .callout {
+    flex-direction: column;
+    padding: 1.25rem;
+  }
+
+  .panel {
+    padding: 1.1rem;
+  }
+
+  .rangeRow {
+    grid-template-columns: minmax(0, 1fr) 3.75rem;
+    row-gap: 0.35rem;
+  }
+
+  .rangeTrack {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .timelineItem {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.25rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .primaryCta,
+  .secondaryCta,
+  .tab {
+    transition: none;
+  }
+}
