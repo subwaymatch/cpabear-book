@@ -30,7 +30,7 @@ CPA Bear Book is an open-source, Docusaurus-based textbook for CPA exam candidat
 - **Hosting:** Cloudflare Workers static assets, deployed with Wrangler (`wrangler.jsonc`)
 - **Package manager:** npm (use `npm ci` for installs, not `yarn`)
 - **Math rendering:** KaTeX via `remark-math` + `rehype-katex`
-- **Diagrams:** Mermaid via `@docusaurus/theme-mermaid`
+- **Diagrams:** Mermaid via `@docusaurus/theme-mermaid`, pinned to Mermaid 11 with an npm `overrides` entry in `package.json` (Mermaid 12 left diagrams blank after switching color modes)
 - **Icons:** `lucide-react`
 
 ## Repository Structure
@@ -53,10 +53,13 @@ cpabear-book/
 │   │   └── custom.css        # Global custom CSS
 │   ├── pages/
 │   │   ├── index.tsx         # Home page
-│   │   └── about.tsx         # About page
+│   │   ├── about.tsx         # About page
+│   │   └── blueprint/2027/   # CPA Exam Blueprints 2027 guide (/blueprint/2027)
 │   └── theme/
-│       └── CodeBlock/        # Swizzled CodeBlock to intercept `journal` language fences
-├── static/                   # Static assets (images, favicon)
+│       ├── CodeBlock/        # Swizzled CodeBlock to intercept `journal` language fences
+│       ├── Mermaid/          # Swizzled Mermaid: serial rendering and click-to-enlarge viewer
+│       └── SearchBar/        # Pagefind search
+├── static/                   # Static assets (images, favicon, `_redirects`)
 ├── docusaurus.config.ts      # Site configuration (title, navbar, footer, plugins)
 ├── sidebars.ts               # Sidebar structure for all six exam sections
 ├── tsconfig.json             # TypeScript configuration
@@ -135,7 +138,7 @@ Use standard LaTeX syntax. Inline: `$formula$`. Block: `$$formula$$`.
 
 ### Diagrams
 
-Use standard Mermaid syntax in ` ```mermaid ` fences.
+Use standard Mermaid syntax in ` ```mermaid ` fences. Readers can click any diagram to open it full screen, but every diagram should still be legible inline. The docs column is about 860px wide on desktop, so prefer left-to-right (`LR`) layouts for trees with many siblings, split large diagrams, and break long labels with `<br/>`.
 
 ## Sidebar Configuration
 
@@ -149,6 +152,8 @@ The site is hosted on Cloudflare Workers as static assets and deployed by Worker
 - Pushes to any other branch run `npm run build`, then `npx wrangler preview`. Cloudflare comments the preview URL on the pull request.
 
 The build and deploy commands live in the Cloudflare dashboard (Worker **Settings** > **Builds**), and the Worker settings live in `wrangler.jsonc`. Keep the Worker `name` in `wrangler.jsonc` in sync with the dashboard, or builds fail. Pull requests also run the `test-deploy.yml` GitHub Actions build check. To reproduce Cloudflare's routing locally (trailing-slash redirects, 404 handling), run `npm run build && npx wrangler dev`.
+
+When a page moves, add a 301 rule to `static/_redirects` (Cloudflare's `_redirects` format) so old links keep working. For example, `/blueprint/2026` redirects to `/blueprint/2027`.
 
 ## TypeScript
 

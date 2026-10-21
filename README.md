@@ -38,8 +38,8 @@ Before opening a pull request, run `npm run build && npm run typecheck`. The bui
 | `docs/<section>/` | Chapter content in Markdown (MDX), one folder per exam section |
 | `sidebars.ts` | Sidebar structure for each section |
 | `src/components/` | Custom components, including the `JournalEntry` table |
-| `src/pages/` | Home, about, and 2026 blueprint pages |
-| `src/theme/` | Swizzled theme components (code blocks and search) |
+| `src/pages/` | Home, about, and 2027 blueprint guide pages |
+| `src/theme/` | Swizzled theme components (code blocks, Mermaid diagrams, and search) |
 | `docusaurus.config.ts` | Site configuration |
 | `wrangler.jsonc` | Cloudflare Workers configuration for production and preview deployments |
 
