@@ -147,4 +147,4 @@ The site deploys automatically to GitHub Pages when changes are pushed to `main`
 
 - The `tsconfig.json` extends `@docusaurus/tsconfig` and unsets its `baseUrl`, which TypeScript 7 no longer supports.
 - Run `npm run typecheck` to check types without building.
-- All source files in `src/` should be TypeScript (`.ts` / `.tsx`).
+- All source files in `src/` should be TypeScript (`.ts` / `.tsx`). Never commit compiled `.js` copies next to them (they are gitignored): webpack resolves `.js` before `.tsx`, so a stale copy silently replaces the real component, and duplicate pages cause "Duplicate routes found" warnings.
