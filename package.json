@@ -7,7 +7,8 @@
     "start": "docusaurus start --port 3030",
     "build": "docusaurus build && pagefind --site build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
+    "deploy": "npm run build && wrangler deploy",
+    "deploy:preview": "npm run build && wrangler preview",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
@@ -33,7 +34,8 @@
     "@docusaurus/tsconfig": "^3.10.2",
     "@docusaurus/types": "^3.10.2",
     "pagefind": "^1.5.2",
-    "typescript": "~7.0.2"
+    "typescript": "~7.0.2",
+    "wrangler": "^4.151.3"
   },
   "browserslist": {
     "production": [
@@ -48,6 +50,6 @@
     ]
   },
   "engines": {
-    "node": ">=20.0"
+    "node": ">=22.0"
   }
 }
