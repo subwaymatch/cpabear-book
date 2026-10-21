@@ -1,249 +1,205 @@
 # Reporting on SOC Engagements
 
-Once a SOC engagement is planned and performed, the service auditor must communicate results through a structured report. The reporting phase is where the auditor determines the form and content of the report, evaluates deficiencies, documents test results, addresses complementary user entity controls (CUECs), and decides how subservice organizations are presented. Understanding SOC reporting is essential for the ISC section of the CPA exam because CPAs must be able to prepare and interpret these reports in practice.
-This section covers the **effect of CUECs on SOC reports**, the **carve-out vs. inclusive method** for reporting on subservice organizations (CSOCs), **types of opinions and report modifications**, **preparing test results for SOC 2® reports** (including handling exceptions), and the **form and content of SOC 1® and SOC 2® reports**.
-:::info
-The ISC exam tests this topic at the **Remembering and Understanding** level (explaining CUECs, summarizing carve-out vs. inclusive, explaining opinion types) and the **Application** level (preparing test results and determining appropriate report form and content). You must recall how CUECs affect reliance, distinguish between report methods for subservice organizations, identify when each opinion type applies, and construct SOC 2® test result entries.
-:::
+All the planning and testing in a SOC engagement ends in a report, and the report is what users actually read. A user auditor deciding how much to rely on a payroll processor, or a customer deciding whether to trust a cloud provider with its data, will look first at the opinion, then at the system description, and then at the exceptions in the test results. The service auditor has to put each of those pieces together correctly.
+
+This chapter covers how complementary user entity controls and subservice organizations show up in the report, the types of opinions and when each is issued, how test results and exceptions are presented in a SOC 2® report, and the overall form and content of SOC 1® and SOC 2® reports. The tasks are at the Remembering and Understanding and Application levels: expect to explain report features and to choose or prepare the right content for a given situation.
 
 ---
 
-## Effect of CUECs on the SOC Report
+## The Effect of CUECs on the Report
 
-**Complementary User Entity Controls (CUECs)** are controls that the service organization's system is designed to assume will be implemented by user entities. The service organization's controls alone may not achieve the control objectives or meet the trust services criteria without these complementary controls operating effectively at the user entity.
+**Complementary user entity controls (CUECs)** are controls that the service organization's system assumes user entities will perform, such as reconciling output reports or removing access for their own departed employees. They appear in three places in the report:
 
-### How CUECs Appear in the Report
+- **The system description** lists them, so users know what is expected of them.
+- **The service auditor's report** explains that the description includes CUECs, that the service auditor did not evaluate them, and that the control objectives or criteria can be achieved only if user entities perform them.
+- **The opinion itself is conditioned on them.** It says, in effect, that the controls were suitably designed (and, in a Type 2 report, operated effectively) to achieve the objectives **if** user entities applied the complementary controls assumed in the design.
 
-| Report Component                          | Treatment of CUECs                                                                                        |
-| ----------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| **System Description (Section III)**      | CUECs are listed and described, typically as assumptions about controls at user entities                  |
-| **Service Auditor's Report (Section I)**  | The opinion references that achieving control objectives/criteria depends in part on CUECs being in place |
-| **Control Objectives / TSC (Section IV)** | CUECs are identified alongside the service organization's own controls                                    |
+The existence of CUECs does not cause a modified opinion; nearly every SOC report has them. Their effect falls on the users. A user auditor relying on a SOC 1® report must consider whether the client actually performs the CUECs relevant to its audit, and a SOC 2® user should check the same for its own operations.
 
-### Key Principles
-
-- The **service auditor does not test CUECs**; they are outside the scope of the examination.
-- CUECs are **identified by management** of the service organization in the system description.
-- The service auditor's opinion is **not modified** solely because CUECs exist; their existence is a normal feature of SOC reports.
-- **User entity auditors** must evaluate whether their client has implemented the CUECs when relying on the SOC report.
-
-### SOC 1® vs. SOC 2® Differences
-
-| Aspect                  | SOC 1®                                                                              | SOC 2®                                                                        |
-| ----------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| **Terminology**         | Complementary User Entity Controls                                                  | Complementary User Entity Controls                                            |
-| **Relevance**           | Needed to achieve control objectives relevant to user entities' financial reporting | Needed to meet trust services criteria (security, availability, etc.)         |
-| **User Auditor Action** | User auditor tests CUECs as part of the audit of financial statements               | User auditor or management evaluates whether CUECs support the applicable TSC |
-
-:::tip
-**Bear Co.** outsources payroll processing to **Polar Inc.** The SOC 1® report from Polar Inc. identifies a CUEC: "User entities should reconcile payroll reports to their general ledger monthly." Bear Co.'s external auditor must test whether Bear Co. actually performs this reconciliation before relying on Polar Inc.'s controls.
-:::
+**Example:** **Grizzly Inc.** outsources payroll to **Bear Co.** Bear Co.'s SOC 1® report lists a CUEC: "User entities reconcile payroll registers to their general ledger each pay period." Before relying on Bear Co.'s controls, Grizzly Inc.'s auditor needs evidence that Grizzly Inc. actually performs that reconciliation. If it does not, the controls described in Bear Co.'s report do not, by themselves, achieve the related control objective for Grizzly Inc.
 
 ---
 
-## Carve-Out vs. Inclusive Method for CSOCs
+## Reporting Under the Carve-Out and Inclusive Methods
 
-When a service organization uses a **subservice organization** (another third party) to perform some of its services, the service auditor must determine how to report on the subservice organization's controls. There are two methods:
+The previous chapter explained how management chooses between the two methods for presenting a **subservice organization**. The choice changes the report in specific ways:
 
-### Comparison Table
+| Report Element | Carve-Out Method | Inclusive Method |
+|---|---|---|
+| **System description** | Identifies the subservice organization, describes the services it provides, and lists the **complementary subservice organization controls (CSOCs)** assumed to operate there | Describes the subservice organization's relevant services, components, and controls, and identifies which parts of the system belong to it |
+| **Management's assertion** | Only service organization management's assertion | Assertions from both service organization and subservice organization management |
+| **Scope of the service auditor's report** | States that the subservice organization's controls are excluded and were not evaluated | Covers the subservice organization's relevant controls |
+| **Opinion** | Conditioned on the CSOCs operating as assumed, as well as on the CUECs | Covers the subservice organization's controls directly |
+| **Tests and results** | No tests of the subservice organization's controls (only of the service organization's monitoring of it) | Tests of the subservice organization's controls are included |
+| **What users must do** | Obtain separate assurance over the subservice organization, usually its own SOC report | Rely on one report for the whole chain |
 
-| Feature                       | Carve-Out Method                                                                                                                   | Inclusive Method                                                                   |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| **Scope of examination**      | Subservice organization's controls are **excluded** from scope                                                                     | Subservice organization's controls are **included** in scope                       |
-| **System description**        | Describes the nature of services provided by subservice org; identifies **Complementary Subservice Organization Controls (CSOCs)** | Describes both the service org's and subservice org's systems and controls         |
-| **Testing**                   | Service auditor does **not** test subservice org controls                                                                          | Service auditor **tests** subservice org controls (or uses another auditor's work) |
-| **Report coverage**           | Opinion covers only the service organization's controls                                                                            | Opinion covers both service org and subservice org controls                        |
-| **User auditor implications** | User auditor may need a separate SOC report from the subservice org or perform alternative procedures                              | User auditor can rely on a single report for the entire chain                      |
-
-### When Each Method Is Used
-
-| Method        | Typical Scenario                                                                                                                                |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Carve-out** | Subservice org is unwilling or unable to participate; the service org wants a narrower scope; most common in practice                           |
-| **Inclusive** | Service org and subservice org have a close relationship (e.g., same corporate family); subservice org agrees to participate in the examination |
-
-```mermaid
-graph LR
-    A["User Entity"] --> B["Service Organization"]
-    B --> C["Subservice Organization"]
-    subgraph "Carve-Out Method"
-        D["Service Org Controls<br/>In Scope"]
-        E["Subservice Org Controls<br/>Excluded"]
-    end
-    subgraph "Inclusive Method"
-        F["Service Org Controls<br/>In Scope"]
-        G["Subservice Org Controls<br/>In Scope"]
-    end
-```
-
-:::warning
-Under the **carve-out method**, the system description must clearly identify **CSOCs**, which are controls that the subservice organization is expected to implement. These are analogous to CUECs but apply to the subservice organization rather than the user entity.
-:::
+CSOCs work like CUECs, one level over: they are controls the service organization assumes its **subservice organization** performs, disclosed but not tested. The carve-out method is the more common in practice, because many subservice organizations, especially large cloud providers, will not take part in their customers' examinations. The inclusive method is most practical when the two organizations are closely related, such as members of the same corporate group, and the subservice organization agrees to participate.
 
 ---
 
 ## Types of Opinions and Report Modifications
 
-The service auditor issues an opinion on whether (1) the system description is fairly presented, (2) controls are suitably designed, and (for Type 2 reports) (3) controls operated effectively during the period.
+In a SOC 1® or SOC 2® report, the service auditor's opinion addresses the same matters as management's assertion: (1) the description (fairly presented in SOC 1®, or presented in accordance with the description criteria in SOC 2®), (2) the suitability of design of the controls, and, in a Type 2 report, (3) their operating effectiveness throughout the period.
 
-### Opinion Types
+| Opinion | When It Is Issued |
+|---|---|
+| **Unmodified** | The description, design, and (for Type 2) operation all meet the criteria in all material respects |
+| **Qualified** | A material problem exists but is confined to a specific part of the report, such as one control objective or one criterion; the rest is fairly stated |
+| **Adverse** | The problems are both material and pervasive, so the description or the controls as a whole fail to meet the criteria |
+| **Disclaimer** | The service auditor cannot obtain sufficient appropriate evidence, and the possible effects are pervasive, so no opinion is expressed |
 
-| Opinion Type                 | When Issued                                                                                                                |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| **Unqualified (Unmodified)** | No material exceptions; controls are suitably designed and (for Type 2) operated effectively                               |
-| **Qualified**                | A specific, identified area has a material deficiency or scope limitation, but the remainder of the report is not affected |
-| **Adverse**                  | Pervasive material control deficiencies exist, or the system description is materially misstated                           |
-| **Disclaimer**               | Scope limitations are so significant the auditor cannot form an opinion                                                    |
+The causes of modification and their usual results:
 
-### Causes of Report Modifications
+| Cause | Likely Result |
+|---|---|
+| The description is materially misstated or omits required information | Qualified or adverse, depending on pervasiveness |
+| Controls are not suitably designed to achieve a control objective or meet a criterion | Qualified or adverse |
+| Deviations show that controls did not operate effectively enough to achieve an objective or meet a criterion (Type 2 only) | Qualified or adverse |
+| A scope limitation prevents the service auditor from obtaining sufficient evidence | Qualified or disclaimer, depending on pervasiveness |
 
-| Cause                                                        | Likely Result                   |
-| ------------------------------------------------------------ | ------------------------------- |
-| Material deficiency in control design (Type 1 or Type 2)     | Qualified or adverse opinion    |
-| Material deficiency in operating effectiveness (Type 2 only) | Qualified or adverse opinion    |
-| Material misstatement in the system description              | Qualified or adverse opinion    |
-| Scope limitation (inability to obtain sufficient evidence)   | Qualified opinion or disclaimer |
-| Pervasive deficiencies or misstatements                      | Adverse opinion                 |
+A deviation in test results does **not** automatically modify the opinion. The question is whether, considering all the evidence (including other controls that address the same objective or criterion), the control objective was still achieved or the criterion still met. A Type 2 report often contains exceptions alongside an unmodified opinion.
 
-### Type 1 vs. Type 2 Considerations
-
-| Report Type | What Is Evaluated                                    | Effect of Deficiency                                                                                  |
-| ----------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| **Type 1**  | Suitability of design at a point in time             | Deficiency in design leads to modification of opinion on design                                        |
-| **Type 2**  | Design **and** operating effectiveness over a period | Deficiency in design or operations leads to modification of opinion on design and/or operating effectiveness |
-
-:::note
-A **qualified opinion** on a SOC 2® Type 2 report might state: "Except for the deficiency described in the basis for qualified opinion paragraph, controls were suitably designed and operated effectively..." The deficiency is isolated and does not pervade the entire system.
-:::
+When the opinion is modified, a paragraph before the opinion describes the matter, and the opinion is phrased to fit. A qualified opinion in a SOC 2® Type 2 report might read: "In our opinion, except for the matter described in the preceding paragraph, in all material respects... the controls stated in the description operated effectively throughout the period..."
 
 ---
 
-## Preparing Test Results for SOC 2® Reports
+## Preparing Test Results for a SOC 2® Report
 
-Section IV of a SOC 2® Type 2 report includes detailed results of the service auditor's testing. Each control is presented with the test applied and the results obtained.
+A SOC 2® Type 2 report includes the service auditor's **description of the tests of controls and the results**, usually as a separate section. The blueprint asks you to prepare these results, including when a test found an exception.
 
-### Structure of Test Results
+### What Each Entry Contains
 
-Each entry in Section IV typically includes:
-| Column | Description |
+| Column | Content |
 |---|---|
-| **Trust Services Criteria** | The specific criterion (e.g., CC6.1) being addressed |
-| **Control Activity** | Description of the control implemented by the service organization |
-| **Test Applied** | The procedure the service auditor performed (inquiry, observation, inspection, re-performance) |
-| **Test Results** | Whether the control operated effectively or an exception was identified |
+| **Criterion** | The Trust Services criterion the control addresses, such as CC6.2 |
+| **Control** | The service organization's control, as stated in the description |
+| **Test performed** | What the service auditor did, including the nature of the test and the sample tested |
+| **Results** | "No exceptions noted," or a factual description of each exception |
 
-### Testing Methodologies
+The tests themselves are the familiar ones:
 
-| Method             | Description                                                                 | Example                                                                        |
-| ------------------ | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| **Inquiry**        | Questioning personnel about their understanding and performance of controls | Asked the IT manager about the access review process                           |
-| **Observation**    | Watching a process or procedure being performed                             | Observed the quarterly access review meeting                                   |
-| **Inspection**     | Examining documents, records, or configurations                             | Inspected access review sign-off documentation for a sample of 25 reviews      |
-| **Re-performance** | Independently executing the control procedure                               | Re-performed the user access provisioning process for a sample of 20 new hires |
+| Test | Description | Example |
+|---|---|---|
+| **Inquiry** | Asking personnel how the control works | Asked the security manager how access reviews are performed |
+| **Observation** | Watching the control being performed | Observed a quarterly access review meeting |
+| **Inspection** | Examining documents, records, or system settings | Inspected sign-offs for a sample of 25 access reviews |
+| **Reperformance** | Performing the control independently | Reperformed the comparison of terminated employees to active accounts for a sample of 20 terminations |
 
-### Sample Test Results: No Exceptions
+Inquiry alone is never enough to conclude that a control operated effectively. It is always combined with observation, inspection, or reperformance.
 
-| TSC   | Control                                                                 | Test Applied                                                              | Results             |
-| ----- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------- |
-| CC6.1 | Access to production systems requires multi-factor authentication (MFA) | Inspected system configuration settings for all production servers        | No exceptions noted |
-| CC7.2 | Security events are monitored via a SIEM tool with alerts for anomalies | Inspected SIEM alert configurations and observed the monitoring dashboard | No exceptions noted |
+### Results With and Without Exceptions
 
-### Sample Test Results: Exception Identified
+| Criterion | Control | Test Performed | Results |
+|---|---|---|---|
+| CC6.1 | Access to production systems requires multi-factor authentication | Inspected the authentication settings for all production servers | No exceptions noted |
+| CC7.2 | Security events are monitored with a SIEM tool that alerts on anomalies | Inspected the SIEM alert rules and, for a sample of 25 days, evidence that alerts were reviewed | No exceptions noted |
+| CC6.2 | Access is removed within 24 hours of an employee's termination | Inspected access removal records for a sample of 30 employees terminated during the period | **Exception noted:** For 3 of the 30 terminations sampled, access was removed 2 to 5 days after termination |
 
-| TSC   | Control                                                  | Test Applied                                                                               | Results                                                                                                                                                                                            |
-| ----- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| CC6.3 | Terminated employees have access removed within 24 hours | Inspected access removal records for a sample of 30 terminated employees during the period | **Exception:** 3 of 30 (10%) sampled terminations had access removed after 24 hours (range: 2 to 5 days). Management remediated by implementing automated termination triggers effective September 1. |
+When an exception is found, the results should state **how many items were tested** and the **number and nature of the deviations**, factually and without minimizing them. The service auditor also investigates the cause of each deviation and considers its effect on whether the criterion was met; that evaluation shapes the opinion.
 
-### Handling Exceptions
+**Management's responses** to exceptions, such as "we installed automated termination triggers on September 1," are management's statements, not the service auditor's findings. They do not belong in the service auditor's test results. If management wants to include them, they usually go in a separate section of other information provided by the service organization, which the service auditor reads for material inconsistencies but does not cover in the opinion.
 
-When exceptions are identified, the service auditor documents:
-
-1. **Nature**: What specifically went wrong (e.g., late access removal)
-2. **Frequency**: How many exceptions out of the sample (e.g., 3 of 30)
-3. **Impact**: Whether the exception represents a control deficiency and its severity
-4. **Management response**: Any corrective actions taken (optional but common)
-   :::tip
-   **Bear Co.** is preparing the SOC 2® Type 2 report for **Illini Security**, a managed security services provider. During testing of CC6.3, the auditor found that 2 of 25 sampled access removals exceeded the 24-hour SLA. The test results entry states: "Exception: 2 of 25 sampled terminations had access removed between 25 and 48 hours after termination. Management implemented an automated workflow on July 15 to address the delay." This exception alone does not automatically result in a modified opinion; the auditor evaluates whether it constitutes a material deficiency.
-   :::
+**Example:** The service auditor for **Illini Security**, a managed security provider, finds that 2 of 25 sampled terminations had access removed 25 to 48 hours after termination, against a 24-hour requirement. The results column reads: "Exception noted: For 2 of the 25 terminations sampled, access was removed between 25 and 48 hours after termination." The exception alone does not modify the opinion; the service auditor evaluates whether CC6.2 was still met.
 
 ---
 
 ## Form and Content of SOC 1® and SOC 2® Reports
 
-### SOC 1® Report Structure
+SOC reports are commonly organized in the sections below. The numbering is convention, not a requirement, but the content is consistent.
 
-| Section | Title                                                       | Contents                                                                                                                                       |
-| ------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| **I**   | Independent Service Auditor's Report                        | Opinion on fairness of description, suitability of design, and (Type 2) operating effectiveness; scope, responsibilities, inherent limitations |
-| **II**  | Management's Assertion                                      | Management's written assertion regarding the system description and controls                                                                   |
-| **III** | Description of the Service Organization's System            | System boundaries, infrastructure, software, people, procedures, data; CUECs and CSOCs identified                                              |
-| **IV**  | Control Objectives, Related Controls, and Tests of Controls | (Type 1) Control objectives and related controls; (Type 2) adds tests of controls and results                                                  |
-| **V**   | Other Information Provided by Management                    | Optional; not covered by the service auditor's opinion (e.g., future plans, additional context)                                               |
+### SOC 1® Report
 
-### SOC 2® Report Structure
+| Section | Title | Contents |
+|---|---|---|
+| **I** | Independent Service Auditor's Report | Scope, responsibilities, inherent limitations, and the opinion on fair presentation of the description, suitability of design, and (Type 2) operating effectiveness |
+| **II** | Management's Assertion | Management's written assertion about the description and the controls |
+| **III** | Description of the System | Services provided, classes of transactions, processing procedures, records and reports, control objectives and controls, CUECs, and subservice organizations (with CSOCs under the carve-out method) |
+| **IV** | Control Objectives, Controls, and Tests | The control objectives and related controls; in a Type 2 report, the tests of controls and results |
+| **V** | Other Information (optional) | Information from management not covered by the opinion, such as responses to exceptions |
 
-| Section | Title                                                         | Contents                                                                                                                   |
-| ------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| **I**   | Independent Service Auditor's Report                          | Opinion on fairness of description, suitability of design, and (Type 2) operating effectiveness relative to TSC            |
-| **II**  | Management's Assertion                                        | Management's assertion that the description is presented in accordance with the description criteria and controls meet TSC |
-| **III** | Description of the Service Organization's System              | Principal service commitments, system requirements, components, boundaries, CUECs, CSOCs                                   |
-| **IV**  | Trust Services Criteria, Related Controls, Tests, and Results | (Type 1) Criteria and related controls; (Type 2) adds tests and results for each criterion                                 |
-| **V**   | Other Information Provided by Management                      | Optional; not covered by the service auditor's opinion                                                                    |
+### SOC 2® Report
 
-### Key Differences Between SOC 1® and SOC 2®
+| Section | Title | Contents |
+|---|---|---|
+| **I** | Independent Service Auditor's Report | Scope, responsibilities, inherent limitations, and the opinion on the description, suitability of design, and (Type 2) operating effectiveness against the applicable Trust Services Criteria |
+| **II** | Management's Assertion | Management's assertion that the description follows the description criteria and that the controls provide reasonable assurance of achieving the service commitments and system requirements |
+| **III** | Description of the System | Services, principal service commitments and system requirements, the five system components, relevant system incidents, the applicable criteria and related controls, CUECs, subservice organizations and CSOCs, and (Type 2) significant changes |
+| **IV** | Criteria, Controls, Tests, and Results | The applicable criteria mapped to the related controls; in a Type 2 report, the tests and results |
+| **V** | Other Information (optional) | Management's additional information, not covered by the opinion |
 
-| Dimension                     | SOC 1®                                             | SOC 2®                                                           |
-| ----------------------------- | -------------------------------------------------- | ---------------------------------------------------------------- |
-| **Standards**                 | SSAE 18 (AT-C 320)                                 | SSAE 18 (AT-C 205 + TSC)                                         |
-| **Criteria**                  | Control objectives relevant to user entities' ICFR | Trust Services Criteria (security + optional categories)         |
-| **Primary audience**          | User entity auditors and management                | Broad stakeholders (regulators, customers, partners, management) |
-| **Section IV focus**          | Control objectives and related controls            | TSC criteria and related controls                                |
-| **Restricted use**            | Yes (Type 1 and Type 2)                            | Yes for Type 2; SOC 3® is the general-use version                |
-| **Financial reporting focus** | Yes; directly supports ICFR audit                  | No; focuses on operational controls related to TSC               |
+### The Service Auditor's Report
 
-:::info
-**Kingfisher Industries** receives both a SOC 1® report and a SOC 2® report from its cloud hosting provider. The SOC 1® is used by Kingfisher's external auditor to evaluate controls relevant to financial reporting (e.g., automated journal entry controls). The SOC 2® is used by Kingfisher's IT governance team to assess security, availability, and confidentiality controls.
-:::
+Deciding the appropriate form and content of the report comes down to including the right elements. A SOC 2® Type 2 report from the service auditor typically contains:
+
+1. A **title** that includes the word "independent."
+2. An **addressee**, usually the service organization's management or board.
+3. A **scope** section identifying the description, the period, the criteria, and how CUECs, subservice organizations, and any other information are treated.
+4. The **service organization's responsibilities** for the description, the assertion, the controls, and the commitments.
+5. The **service auditor's responsibilities**, including that the examination was conducted under AICPA attestation standards to obtain reasonable assurance.
+6. The **inherent limitations** of controls, including the risk of projecting conclusions to future periods.
+7. A reference to the **description of tests of controls** and their results.
+8. The **opinion**.
+9. A **restricted use** paragraph naming the specified parties.
+10. The firm's **signature**, its **city and state**, and the **report date**.
+
+A Type 1 report omits the operating effectiveness opinion and the tests of operating effectiveness. A SOC 3® report is much shorter: a general-use report with the service auditor's opinion, management's assertion, and a brief description of the system and its boundaries, without a detailed description or test results.
+
+### SOC 1® and SOC 2® Compared
+
+| Dimension | SOC 1® | SOC 2® |
+|---|---|---|
+| **Standard** | AT-C 320 | AT-C 105 and 205, with the SOC 2® guide |
+| **Criteria** | Control objectives relevant to user entities' ICFR | Trust Services Criteria (security, plus any other categories selected) and the description criteria |
+| **Primary users** | User auditors and user entity management | User entities and other specified parties: customers, business partners, regulators |
+| **Use** | Restricted (Type 1 and Type 2) | Restricted (Type 1 and Type 2); SOC 3® is the general-use alternative |
+| **Supports a financial statement audit?** | Yes, directly | No; it addresses operational and compliance concerns |
+
+**Example:** **Kingfisher Industries** runs its accounting on a cloud ERP application and receives two reports from the provider. Its external auditor uses the **SOC 1®** report to evaluate controls relevant to financial reporting, such as controls over automated calculations, interfaces, and changes to the application. Kingfisher's IT governance team uses the **SOC 2®** report to evaluate the provider's security, availability, and confidentiality controls.
 
 ---
 
 ## Summary
 
-| Topic                  | Key Takeaway                                                                                               |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------- |
-| CUECs                  | Controls user entities must implement; service auditor does not test them; disclosed in system description |
-| Carve-out method       | Subservice org controls excluded from scope; CSOCs identified; most common approach                        |
-| Inclusive method       | Subservice org controls included and tested; single report covers the chain                                |
-| Unqualified opinion    | No material exceptions in design or (for Type 2) operating effectiveness                                   |
-| Qualified opinion      | Isolated material deficiency or scope limitation                                                           |
-| Adverse opinion        | Pervasive material deficiencies or misstatements                                                           |
-| Disclaimer             | Unable to obtain sufficient evidence to form an opinion                                                    |
-| Test results structure | TSC criterion, then control, then test applied, then results (including exceptions)                        |
-| SOC 1® focus           | Control objectives relevant to user entities' ICFR                                                         |
-| SOC 2® focus           | Trust Services Criteria (security, availability, processing integrity, confidentiality, privacy)           |
+| Topic | Key Takeaway |
+|---|---|
+| CUECs | Listed in the description, not tested, and built into the opinion's wording; their existence does not modify the opinion |
+| Carve-out reporting | Subservice controls excluded; CSOCs listed; opinion conditioned on them; most common method |
+| Inclusive reporting | Subservice controls included and tested; the subservice organization also asserts |
+| Opinions | Unmodified, qualified (material but confined), adverse (material and pervasive), disclaimer (pervasive scope limitation) |
+| Test results | Criterion, control, test performed, results; exceptions state items tested and number and nature of deviations; management responses belong in other information |
+| Report form | Service auditor's report, management's assertion, system description, tests and results, optional other information |
 
 ---
 
 ## Practice Questions
 
-**1.** **Illini Entertainment** relies on a SOC 1® Type 2 report from its payroll service provider. The report identifies a CUEC stating that user entities must review and approve payroll exception reports weekly. What action should Illini Entertainment's external auditor take?
-A. Accept the SOC 1® report without further testing since the service auditor issued an unqualified opinion
-B. Request that the service auditor test the CUEC in the next engagement
-C. Test whether Illini Entertainment actually reviews and approves payroll exception reports weekly
-D. Issue a qualified opinion because a CUEC exists
-**2.** A service organization uses a cloud infrastructure provider as a subservice organization and reports using the **carve-out method**. Which of the following best describes how the subservice organization appears in the SOC 2® report?
-A. The subservice organization's controls are tested and included in Section IV
-B. The subservice organization is not mentioned anywhere in the report
-C. The system description identifies the subservice organization and lists CSOCs, but its controls are not tested
-D. The service auditor issues a separate opinion on the subservice organization
-**3.** During a SOC 2® Type 2 engagement, the service auditor inspected access removal records for 40 terminated employees and found that 12 had access removed more than 72 hours after termination, violating the organization's 24-hour policy. What is the most likely effect on the report?
-A. No effect, because exceptions under 50% do not impact the report
-B. The exception is noted in the test results, but the opinion remains unqualified because management remediated the issue
-C. The service auditor evaluates whether the 30% exception rate represents a material deficiency that warrants a qualified or adverse opinion
-D. The service auditor must issue a disclaimer of opinion
+**1.** **Illini Entertainment** relies on a SOC 1® Type 2 report from its payroll provider. The report lists a CUEC requiring user entities to review and approve payroll exception reports weekly. What should Illini Entertainment's external auditor do?
+
+- A. Accept the SOC 1® report without further work, because the opinion is unmodified
+- B. Ask the service auditor to test the CUEC next year
+- C. Test whether Illini Entertainment actually reviews and approves the exception reports weekly
+- D. Modify the audit opinion because a CUEC exists
+
+**2.** A service organization uses a cloud infrastructure provider as a subservice organization and reports under the **carve-out method**. How does the subservice organization appear in the SOC 2® report?
+
+- A. Its controls are tested and the results appear with the other tests
+- B. It is not mentioned anywhere in the report
+- C. The description identifies it and lists CSOCs, but its controls are not tested
+- D. The service auditor issues a separate opinion on it
+
+**3.** In a SOC 2® Type 2 examination, the service auditor inspects access removal records for 40 terminated employees and finds that 12 kept access for more than 72 hours, against a 24-hour policy. What is the most likely effect?
+
+- A. None, because fewer than half of the items were exceptions
+- B. The exceptions are listed in the results, but the opinion is unmodified because management has since fixed the process
+- C. The service auditor evaluates whether the 30% deviation rate means the related criterion was not met, which would call for a qualified or adverse opinion
+- D. The service auditor must disclaim an opinion
+
 :::tip[Answers]
 
-1. **C.** The user entity auditor must test whether the CUEC is implemented at their client. CUECs are outside the scope of the service auditor's testing, but they are necessary for the control objectives to be achieved. The user auditor cannot simply rely on the unqualified opinion without confirming the CUEC is in place.
-2. **C.** Under the carve-out method, the subservice organization is identified in the system description and CSOCs are listed, but the subservice organization's controls are excluded from the scope of testing. The service auditor's opinion covers only the service organization's own controls.
-3. **C.** A 30% exception rate (12 of 40) is significant. The service auditor must evaluate whether this represents a material deficiency in operating effectiveness. If material, the opinion would be qualified (if the deficiency is isolated to this control) or adverse (if pervasive). The auditor does not automatically disclaim and does not ignore high exception rates.
-   :::
+1. **C.** CUECs are outside the service auditor's testing but necessary for the control objectives to be achieved. The user auditor must obtain evidence that the client performs the CUEC before relying on the service organization's controls.
+
+2. **C.** Under the carve-out method, the description identifies the subservice organization and lists the CSOCs assumed to operate there, but its controls are excluded from the examination, and the opinion is conditioned on those CSOCs.
+
+3. **C.** A 30% deviation rate (12 of 40) is high. The service auditor must evaluate whether the deviations mean the related criterion was not met; if so, the opinion is qualified if the problem is confined, or adverse if it is pervasive. Remediation after the fact does not erase deviations during the period (so B is wrong), and nothing here limits the scope of the examination (so D is wrong).
+
+:::

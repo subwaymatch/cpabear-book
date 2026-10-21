@@ -1,112 +1,76 @@
 # Tests of Controls
 
-After the auditor obtains an understanding of internal control and identifies controls relevant to the audit, the next decision is whether to **test** those controls. **Tests of controls** are audit procedures performed to evaluate whether controls are operating effectively, that is, whether they are actually functioning as designed throughout the period under audit. The results of tests of controls directly affect the auditor's assessment of **control risk** and, in turn, the nature, timing, and extent of **substantive procedures**.
+Once the auditor understands an entity's internal control and has identified the controls that address the risks of material misstatement, the next decision is whether to **test** them. A test of controls asks a simple question: did this control actually work, consistently, throughout the period? The answer drives the auditor's assessment of **control risk** and therefore how much substantive testing is needed. This chapter covers when tests of controls are required, the procedures used, how deviations are evaluated, timing and the use of evidence from prior audits, and dual-purpose tests. The AICPA standard is AU-C 330; the PCAOB standards are AS 2301 and, in an integrated audit, AS 2201.
 
-This section covers the **purpose** of tests of controls, **when** they are required versus optional, the **types** of tests of controls, how auditors **evaluate operating effectiveness**, the **timing** of tests, how results are used to **assess control risk**, the **relationship** between control risk and substantive testing, and **dual-purpose tests**.
-
-:::info
-
-Tests of controls are performed under **AU-C 330** (AICPA) and **AS 2301** (PCAOB). They are distinct from the auditor's initial understanding of internal control (which is obtained through risk assessment procedures under AU-C 315 / AS 2110). Risk assessment procedures tell the auditor **what** controls exist; tests of controls tell the auditor **whether** those controls are working.
-
-:::
+Testing controls is different from understanding them. During risk assessment, the auditor evaluates the **design** of relevant controls and determines whether they have been **implemented** (see [Risk Assessment Procedures](../audit-planning-and-risk-assessment/risk-assessment-procedures.md)). That tells the auditor a control exists and could work. Only a test of **operating effectiveness** shows that it did work over the period.
 
 ---
 
-## Purpose of Tests of Controls
-
-The purpose of tests of controls is to evaluate the **operating effectiveness** of controls in preventing or detecting and correcting material misstatements at the assertion level. When controls are operating effectively, the auditor can assess control risk at a level **below maximum**, which allows the auditor to reduce the extent of substantive procedures.
-
-In other words, tests of controls answer the question: **"Is this control actually working in practice?"**
-
-**Example:** Bear Co. has a policy requiring two authorized signatures on all disbursements over \$10,000. The auditor's understanding of internal control identified this control as relevant to the completeness and occurrence assertions for expenses. To test whether this control is operating effectively, the auditor selects a sample of disbursements over \$10,000 and inspects the supporting documentation for evidence of two signatures. This is a test of controls.
-
----
-
-## When Tests of Controls Are Required vs. Optional
-
-Tests of controls are **required** in the following situations:
+## When Tests of Controls Are Required
 
 | Situation | Why Testing Is Required |
 |---|---|
-| **The auditor's risk assessment assumes controls are operating effectively** | If the auditor plans to rely on controls to reduce substantive testing, the auditor must test those controls to support the lower assessed level of control risk |
-| **Substantive procedures alone are insufficient** | When the nature of the risk is such that substantive procedures alone cannot provide sufficient appropriate evidence (e.g., highly automated processes with no paper trail) |
-| **Integrated audit (issuers)** | PCAOB standards require auditors of issuers to test controls as part of the audit of internal control over financial reporting (ICFR) under AS 2201 |
+| **The auditor plans to rely on controls** | If the risk assessment assumes controls operate effectively, so that substantive testing can be reduced, the auditor must test them to support that assumption |
+| **Substantive procedures alone cannot provide sufficient evidence** | In highly automated processes with little or no paper trail, evidence about the amounts may exist only if the controls over processing are effective |
+| **Integrated audit of an issuer** | When an issuer's auditor must report on internal control over financial reporting under SOX Section 404(b), AS 2201 requires testing controls to support that opinion |
 
-Tests of controls are **optional** when:
+Otherwise, testing controls is a choice. The auditor may decide that a **substantive approach** is more efficient, for example when there are few, large transactions. In that case, control risk is assessed at the **maximum**, so the risk of material misstatement equals inherent risk, and substantive procedures carry the full load.
 
-- The auditor plans to assess control risk at the **maximum level** and use a purely **substantive approach**
-- The auditor determines that testing controls would not be **efficient** (i.e., the cost of testing controls exceeds the benefit of reduced substantive procedures)
-
-:::tip[Exam Tip]
-
-A common CPA exam question asks: "When must the auditor test controls?" The answer is when the auditor **intends to rely on controls** to reduce the assessed level of control risk, or when **substantive procedures alone are not sufficient** to reduce detection risk to an acceptably low level. For issuer audits, testing controls is always required for the ICFR opinion.
-
-:::
+**Example:** Bear Co. requires two authorized signatures on every disbursement over \$10,000, a control that addresses the **occurrence** of recorded expenses (that only authorized, legitimate payments are made). To test it, the auditor selects a sample of disbursements over \$10,000 and inspects them for both signatures.
 
 ---
 
-## Types of Tests of Controls
-
-Auditors use four primary procedures to test the operating effectiveness of controls:
+## Procedures Used to Test Controls
 
 ### Inquiry
 
-**Inquiry** involves asking personnel who perform or oversee the control about how it operates, how consistently it is applied, and whether exceptions have occurred. Inquiry alone is **not sufficient** to test operating effectiveness; it must be combined with other procedures.
+**Inquiry** means asking the people who perform or oversee a control how it works, how consistently it is applied, and what happens when exceptions occur. It is a useful starting point, but **inquiry alone is never sufficient** to test operating effectiveness.
 
-**Example:** The auditor asks Grizzly Industries' accounts payable clerk how she verifies that a vendor invoice matches the purchase order and receiving report before processing payment. The clerk describes the three-way matching process in detail. While informative, this inquiry alone does not provide evidence that the control is actually being performed.
+**Example:** Grizzly Inc.'s accounts payable clerk explains in detail how she matches each invoice to the purchase order and receiving report before approving payment. The explanation is helpful but is not evidence that she actually does it.
 
 ### Observation
 
-**Observation** involves watching the control being performed. It provides evidence about how the control operates at the **point in time** the auditor observes it but does not provide evidence about how the control operated at other times during the period.
+**Observation** means watching the control being performed. It is good evidence for the moment observed and weak evidence for any other time, because people tend to follow procedures more carefully when the auditor is watching.
 
-**Example:** The auditor observes the warehouse supervisor at Polar Inc. counting incoming shipments and comparing them to the packing slip before signing the receiving report. This observation provides evidence that the receiving control is being performed on the day observed.
+**Example:** The auditor watches Polar Inc.'s warehouse supervisor count an incoming shipment and compare it to the packing slip before signing the receiving report. That shows the control operated on the day of the visit.
 
 ### Inspection
 
-**Inspection** involves examining documents, records, or reports for evidence that a control was performed. This is often the most practical method for testing controls that leave a **documentary trail**.
+**Inspection** means examining documents or records for evidence that the control was performed, such as signatures, initials, or electronic approvals. It is the most practical test for controls that leave a **documentary trail**.
 
-**Example:** The auditor selects a sample of journal entries at Kodiak Partners and inspects each for evidence of supervisory approval (an authorized signature or electronic sign-off). The presence of the approval signature provides evidence that the journal entry review control operated for those specific entries.
+**Example:** The auditor selects journal entries at Kodiak Partners and inspects each for evidence of supervisory approval in the accounting system.
 
 ### Reperformance
 
-**Reperformance** involves the auditor independently executing the control procedure to determine whether the same result is achieved. This provides the **strongest evidence** of operating effectiveness.
+**Reperformance** means the auditor independently executes the control to see whether it produces the right result. It provides the **strongest evidence** of operating effectiveness.
 
-**Example:** Honey Entertainment has an automated control that rejects sales transactions exceeding a customer's credit limit. The auditor reperforms this control by attempting to process test transactions that exceed credit limits and verifying that the system correctly rejects them.
+**Example:** Cub Entertainment's sales system is supposed to reject orders that exceed a customer's credit limit. The auditor enters test transactions over the limit and confirms that the system rejects them.
 
-| Procedure | Evidence Strength | Best Used When |
+| Procedure | Strength of Evidence | Best Used For |
 |---|---|---|
-| **Inquiry** | Lowest (must be supplemented) | Gaining understanding; always used in combination with other procedures |
-| **Observation** | Moderate (point-in-time only) | Controls that leave no documentary evidence; physical controls |
-| **Inspection** | Strong | Controls that produce documents or records (signatures, approvals, reconciliations) |
-| **Reperformance** | Strongest | Automated controls; calculations; reconciliations |
+| **Inquiry** | Weakest; never sufficient alone | Understanding the control; always combined with another procedure |
+| **Observation** | Moderate; point in time only | Controls that leave no documentation, such as physical controls |
+| **Inspection** | Strong | Controls that leave evidence (signatures, approvals, reviewed reconciliations) |
+| **Reperformance** | Strongest | Calculations, reconciliations, and automated controls |
 
-:::caution
-
-**Inquiry alone is never sufficient** as a test of controls. It must always be supplemented with at least one other procedure (observation, inspection, or reperformance). This is a frequently tested concept on the CPA exam.
-
-:::
+**Automated controls** behave consistently unless the program changes. So if the IT general controls over program changes and access are effective, testing a single operation of an automated control can provide sufficient evidence for the whole period. If the ITGCs are deficient, that conclusion does not hold.
 
 ---
 
-## Evaluating Operating Effectiveness
+## Evaluating Operating Effectiveness and Deviations
 
-After performing tests of controls, the auditor evaluates whether the controls operated effectively throughout the relevant period. Key considerations include:
+The auditor evaluates how the control was applied at relevant times during the period, how **consistently** it was applied, **by whom**, and **by what means**. For a control that operates on every transaction (an approval), the auditor tests a sample of transactions. For a periodic control (a monthly reconciliation), the auditor tests a sample of the periods.
 
-- **How the control was applied**: Was it applied consistently, or only sporadically?
-- **By whom**: Was the control performed by qualified, authorized individuals?
-- **Frequency**: For controls that operate on each transaction (e.g., approvals), effectiveness is evaluated for each occurrence tested. For controls that operate periodically (e.g., monthly reconciliations), the auditor tests a sufficient number of occurrences
-- **Deviations**: Were there exceptions (deviations from the prescribed control)? If so, what is the rate of deviation, and does it exceed the tolerable rate?
+A **deviation** occurs when the control was not performed as designed. When deviations are found, the auditor:
 
-### Evaluating Deviations
+1. Determines their **nature and cause** (an isolated lapse, a misunderstanding, or deliberate circumvention)
+2. Compares the **sample deviation rate** with the **tolerable rate** set during planning, considering sampling risk
+3. Decides whether the control can still be relied on and what that means for control risk
+4. Evaluates whether the deviations indicate a **control deficiency**, and if so, how severe it is (see [Misstatements and Internal Control Deficiencies](../completing-the-audit-and-reporting/misstatements-and-internal-control-deficiencies.md))
 
-A **deviation** occurs when a control is not performed as designed. When deviations are found, the auditor must:
+**Example:** The auditor selects 40 purchase orders at Sloth Security and tests whether each was approved by an authorized manager before ordering. Three lack approval, a sample deviation rate of 7.5% (3 ÷ 40). The tolerable rate is 5%. Because the sample rate already exceeds the tolerable rate, the auditor cannot rely on the control as planned, even though all three were small supply orders. Control risk for the related assertions goes up, substantive testing is expanded, and the deviations are evaluated as a possible control deficiency.
 
-1. Determine the **nature and cause** of the deviation
-2. Evaluate whether the deviation is an **isolated incident** or indicates a systematic weakness
-3. Assess whether the **deviation rate** exceeds the **tolerable deviation rate** established during planning
-4. Determine the effect on the **assessed level of control risk**
-
-**Example:** The auditor selects 40 purchase orders from Ursa Security and tests whether each was approved by an authorized manager before the goods were ordered. The auditor finds that 3 out of 40 purchase orders lack the required approval. The auditor must evaluate whether this 7.5% deviation rate exceeds the tolerable deviation rate and whether the nature of the deviations (e.g., all three were for low-dollar supply purchases) affects the conclusion about control effectiveness.
+The statistics behind sample sizes and deviation rates (attribute sampling) are covered in the [Sampling for Tests of Controls](../audit-sampling/sampling-for-tests-of-controls.md) chapter.
 
 ---
 
@@ -114,94 +78,55 @@ A **deviation** occurs when a control is not performed as designed. When deviati
 
 ### Testing at an Interim Date
 
-The auditor may perform tests of controls at an **interim date** (before year-end) and then determine whether additional evidence is needed for the **remaining period** (from the interim date to year-end). Factors to consider include:
+The auditor may test controls at an **interim date** and then decide what additional evidence is needed for the **remaining period** to year-end. The factors include the significance of the assessed risks, the controls tested and the results, the length of the remaining period, any changes in controls since the interim date, and whether substantive procedures will cover the remaining period.
 
-- The significance of the assessed risks
-- The specific controls tested and the results
-- The length of the remaining period
-- Whether the control environment changed during the remaining period
-- Whether substantive procedures will be performed for the remaining period
+### Using Evidence From Prior Audits
 
-### Updating Tests from Prior Periods
+The AICPA and PCAOB standards differ here, and the exam tests the difference.
 
-If the auditor tested controls in a **prior-year audit** and found them effective, the auditor may consider whether to rely on that evidence in the current year. However:
+Under **AICPA standards (AU-C 330)**, the auditor may use evidence about operating effectiveness obtained in a prior audit, but only after confirming that the control has **not changed**. That confirmation requires inquiry combined with observation or inspection. If the control has changed, it must be tested in the current audit. If it has not changed, the auditor must still test it **at least once every third audit** and should test some controls in each audit. Controls that address a **significant risk** must be tested in the current period.
 
-- The auditor must test controls **at least once every three years** (and more frequently for higher-risk areas)
-- If the control has changed, the prior-year evidence is **not relevant**
-- The auditor should test **some controls every year**, rotating which controls are tested in detail
-
-:::tip[Exam Tip]
-
-For the CPA exam, remember the rule of thumb: the auditor must test controls **in the current period** if the auditor plans to rely on them. Prior-year evidence can supplement but generally cannot replace current-year testing, except that the PCAOB allows a rotation approach for lower-risk controls (testing at least every third year).
-
-:::
+Under **PCAOB standards**, there is no three-year rotation. The auditor obtains evidence each year about the controls it relies on, although knowledge from prior audits can reduce the amount of testing needed.
 
 ---
 
-## Using Results to Assess Control Risk
+## Using the Results: Control Risk and Substantive Testing
 
-The results of tests of controls determine the auditor's **assessed level of control risk**:
+Under SAS 145, the auditor assesses inherent risk and control risk **separately**. The results of tests of controls set control risk, and control risk and the needed amount of substantive testing move in the same direction: the more effective the controls, the lower the control risk and the less substantive work is needed.
 
-| Test Results | Assessed Control Risk | Effect on Substantive Testing |
+| Test Results | Assessed Control Risk | Effect on Substantive Procedures |
 |---|---|---|
-| Controls are **operating effectively** with few or no deviations | **Below maximum** (low to moderate) | Substantive procedures can be **reduced** in nature, timing, or extent |
-| Controls have **some deviations** but within tolerable limits | **Moderate** | Substantive procedures are performed at a **moderate level** |
-| Controls have **significant deviations** or are not operating effectively | **Maximum** (or near maximum) | Substantive procedures must be **expanded** to compensate for the lack of control reliance |
-| Controls were **not tested** (substantive approach) | **Maximum** | Full substantive procedures are required |
+| Controls operated effectively, with deviations within the tolerable rate | Below maximum | May be reduced in nature, timing, or extent |
+| Deviations exceed the tolerable rate, or controls did not operate effectively | Maximum (or close to it) | Expanded to compensate |
+| Controls not tested (substantive approach) | Maximum | Full substantive procedures; RMM equals inherent risk |
 
-**Example:** After testing Bear Co.'s three-way matching control over accounts payable, the auditor finds no deviations in a sample of 50 transactions. The auditor assesses control risk for the existence/occurrence assertion for accounts payable at a low level and reduces the extent of substantive testing, for example, by selecting a smaller sample for vouching of disbursements.
+**Example:** The auditor tests Bear Co.'s three-way match (purchase order, receiving report, and vendor invoice) on a sample of 50 purchases and finds no deviations. Control risk for the occurrence of purchases and existence of accounts payable is assessed as low, so the auditor vouches a smaller sample of recorded disbursements than it otherwise would.
 
----
-
-## Relationship Between Control Risk and Substantive Testing
-
-Control risk and substantive testing have an **inverse relationship**. This is a core concept in audit risk:
-
-$$\text{Audit Risk} = \text{Inherent Risk} \times \text{Control Risk} \times \text{Detection Risk}$$
-
-When control risk is assessed **lower** (because controls are effective), the auditor can accept a **higher** level of detection risk, which means **less extensive** substantive testing is needed to achieve the desired level of audit risk.
-
-When control risk is assessed at **maximum** (because controls are ineffective or not tested), the auditor must set detection risk **lower**, which requires **more extensive** substantive testing.
-
-| Control Risk Assessment | Detection Risk | Substantive Testing |
-|---|---|---|
-| Low | Higher acceptable level | Less extensive |
-| Maximum | Lower required level | More extensive |
+Even with excellent controls, substantive procedures can be reduced but never eliminated for material classes of transactions, account balances, and disclosures. The [Risk Assessment Procedures](../audit-planning-and-risk-assessment/risk-assessment-procedures.md) chapter shows how control risk fits into the audit risk model.
 
 ---
 
 ## Dual-Purpose Tests
 
-A **dual-purpose test** is a single audit procedure that simultaneously serves as both a **test of controls** and a **substantive test**. This approach is efficient because it allows the auditor to obtain evidence about both control effectiveness and the accuracy of account balances or transactions from the same sample.
+A **dual-purpose test** uses the same sample of transactions for a test of controls and a substantive test of details at the same time. It is efficient, and it is common in practice.
 
-**Example:** The auditor selects a sample of 50 sales invoices from Panda Records. For each invoice, the auditor:
+**Example:** The auditor selects 50 sales invoices at Panda Industries. For each one, the auditor:
 
-- **Test of controls:** Inspects whether the invoice was approved by an authorized supervisor before shipment (testing the operating effectiveness of the approval control)
-- **Substantive test:** Verifies that the invoice amount, date, and customer agree to the shipping documents and customer order (testing the accuracy and occurrence of revenue)
+- **Tests the control:** inspects for evidence that a supervisor approved the customer's credit before shipment
+- **Tests the details:** agrees the invoice amount, date, and customer to the shipping document and customer order
 
-### Key Considerations for Dual-Purpose Tests
-
-- The **sample must be designed** to meet the objectives of **both** tests (i.e., the sample size must be sufficient for both purposes)
-- **Deviations** found during the test of controls portion must be evaluated **separately** from **misstatements** found during the substantive portion
-- A deviation does not necessarily mean a misstatement occurred, and vice versa
-- If control deviations are found, the auditor must consider whether the planned level of substantive testing remains appropriate
-
-:::tip[Exam Tip]
-
-Dual-purpose tests save time and are commonly used in practice. On the CPA exam, remember that findings from each component must be evaluated independently. A control deviation (e.g., missing approval) is a control issue; a dollar misstatement (e.g., wrong price on the invoice) is a substantive issue. Both may be found in the same transaction but have different implications.
-
-:::
+Two rules apply. The sample must be large enough for **both** objectives. And the results must be **evaluated separately**: a missing credit approval is a control deviation, while a wrong price is a monetary misstatement. One can occur without the other, and they have different consequences. If the control test reveals deviations, the auditor also reconsiders whether the planned substantive testing is still enough.
 
 ---
 
-## Summary: Tests of Controls in the Audit Process
+## Summary
 
-| Step | Description |
+| Topic | Key Point |
 |---|---|
-| 1. **Obtain understanding** | Understand the entity's internal controls through risk assessment procedures (AU-C 315 / AS 2110) |
-| 2. **Identify relevant controls** | Determine which controls are relevant to financial statement assertions |
-| 3. **Decide whether to test** | Determine whether to rely on controls (combined approach) or use a substantive-only approach |
-| 4. **Design tests of controls** | Select appropriate procedures: inquiry + observation, inspection, or reperformance |
-| 5. **Perform tests** | Execute procedures on selected samples across the relevant period |
-| 6. **Evaluate results** | Assess deviation rates, nature of deviations, and effect on control risk assessment |
-| 7. **Determine substantive response** | Adjust the nature, timing, and extent of substantive procedures based on the assessed level of control risk |
+| **Purpose** | Evidence that controls operated effectively throughout the period of reliance |
+| **When required** | Planned reliance on controls; substantive procedures alone insufficient; integrated audit of an issuer |
+| **Procedures** | Inquiry (never alone), observation, inspection, reperformance (strongest) |
+| **Deviations** | Compare the sample rate with the tolerable rate; consider cause; evaluate as a possible deficiency |
+| **Prior-year evidence** | AICPA: allowed if unchanged, test at least every third audit, significant-risk controls every year; PCAOB: no rotation |
+| **Effect on substantive work** | Effective controls reduce, but never eliminate, substantive procedures |
+| **Dual-purpose tests** | One sample, two objectives; evaluate deviations and misstatements separately |

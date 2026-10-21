@@ -1,31 +1,23 @@
 # Interfund Activity and Transfers
 
-Interfund activity encompasses all transactions and flows of resources that occur between funds of the same governmental entity. GASB Statement No. 34 classifies these activities into four distinct categories, each with unique recognition, reporting, and elimination requirements. Understanding how to record interfund activity at the fund level and how to eliminate or reclassify it in the government-wide statements is essential for the CPA exam.
+A government with dozens of funds moves resources among them constantly. The General Fund lends cash to a utility, the motor pool bills the police department, and the council sends money to the debt service fund to pay bondholders. Each fund records its side of these **interfund activities** as if it were dealing with an outsider. When the funds are combined into the government-wide statements, though, many of these internal flows would double-count if left in place.
 
-:::info[Blueprint Coverage]
-
-**BAR Area III, Group C, Topic 5: Interfund activity, including transfers.** Representative tasks: (1) Prepare eliminations of interfund activity in government-wide financial statements; (2) Prepare journal entries to recognize interfund activity within state and local governments.
-
-:::
+The BAR blueprint asks you to prepare the journal entries for interfund activity and the eliminations made in the government-wide statements. This chapter defines the four kinds of interfund activity under GASB 34, shows the fund entries for each, and then explains which ones are eliminated, which are reclassified, and which survive.
 
 ---
 
-## Four Categories of Interfund Activity
+## Four Kinds of Interfund Activity
 
-GASB 34 establishes four categories of interfund activity. Each has distinct accounting treatment.
+GASB 34 sorts interfund activity into two groups. **Reciprocal** activity is the internal equivalent of an exchange: loans and sales of services. **Nonreciprocal** activity is the internal equivalent of a nonexchange: transfers and reimbursements.
 
-| Category | Description | Repayment Required? | Reported Separately? |
-|----------|-------------|---------------------|---------------------|
-| **Interfund Loans** | Amounts provided with a requirement for repayment | Yes | Yes, as Due from / Due to |
-| **Interfund Services Provided and Used** | Sales of goods or services at approximate external exchange values | N/A (exchange) | Yes, as revenues and expenditures/expenses |
-| **Interfund Transfers** | One-way flows of assets without equivalent return, authorized by budget or law | No | Yes, as Other Financing Sources/Uses |
-| **Interfund Reimbursements** | Repayment to the fund that initially recorded the expenditure/expense on behalf of another fund | No | No; reduces original expenditure |
+| Kind | What it is | Fund reporting |
+|----------|-------------|---------------------|
+| **Interfund loans** | Amounts provided with a requirement for repayment | Due from / due to other funds (advances if long-term); not revenue or expenditure |
+| **Interfund services provided and used** | Sales of goods or services between funds at prices equivalent to external exchange values | Revenue in the seller; expenditure or expense in the buyer |
+| **Interfund transfers** | Flows of assets without an equivalent flow in return and without a requirement for repayment | Transfers in and out: other financing sources and uses in governmental funds |
+| **Interfund reimbursements** | Repayments to the fund that paid for an expenditure or expense that belongs to another fund | Not reported as interfund activity: the paying fund reduces its expenditure, and the responsible fund records it |
 
-:::tip[Exam Tip]
-
-The key distinction between a **transfer** and a **reimbursement** is timing: a reimbursement repays a fund for an expenditure it already recorded on behalf of another fund. A transfer is simply a one-way shift of resources authorized by the governing body.
-
-:::
+Two classifications trip candidates up. A loan that will not be repaid within a reasonable time is not really a loan: the part not expected to be repaid is reported as a **transfer**. And a **reimbursement** is about correcting which fund bears a cost that one fund paid on another's behalf, while a **transfer** is a deliberate shift of resources, usually authorized in the budget, such as the General Fund's annual subsidy to a transit system or its payment to the debt service fund.
 
 ---
 
@@ -33,195 +25,142 @@ The key distinction between a **transfer** and a **reimbursement** is timing: a 
 
 ### Interfund Loans
 
-When the General Fund lends \$200,000 to an Enterprise Fund:
+The General Fund lends \$200,000 to the Water Utility Fund, to be repaid next year.
 
-**General Fund (lending fund):**
+General Fund:
 
 ```journal
-Dr. Due from Enterprise Fund[a] 200,000
+Dr. Due from Water Utility Fund[a] 200,000
 Cr. Cash[a] 200,000
 ```
 
-**Enterprise Fund (borrowing fund):**
+Water Utility Fund:
 
 ```journal
 Dr. Cash[a] 200,000
 Cr. Due to General Fund[l] 200,000
 ```
 
-When the loan is repaid, the entries reverse.
+When the loan is repaid, both entries reverse. A long-term interfund loan is called an **advance** (advance to or from other funds). In the lending governmental fund, the advance is a long-term receivable, so an equal amount of fund balance is nonspendable unless the repayments are already restricted, committed, or assigned.
 
 ### Interfund Services Provided and Used
 
-When the Internal Service Fund provides \$50,000 of printing services to the General Fund:
+The Water Utility Fund bills the General Fund \$50,000 for water used in city buildings, at the same rates other customers pay.
 
-**Internal Service Fund (providing fund):**
+Water Utility Fund:
 
 ```journal
 Dr. Due from General Fund[a] 50,000
 Cr. Charges for Services 50,000
 ```
 
-**General Fund (receiving fund):**
+General Fund:
 
 ```journal
 Dr. Expenditures 50,000
-Cr. Due to Internal Service Fund[l] 50,000
+Cr. Due to Water Utility Fund[l] 50,000
 ```
-
-:::warning[Key Point]
-
-Interfund services provided and used are treated like **external transactions**. They are recognized as revenues and expenditures/expenses and are **NOT eliminated** in the government-wide statements (unless between funds within the same activity column and the amounts are not at approximate external exchange prices).
-
-:::
 
 ### Interfund Transfers
 
-When the General Fund transfers \$500,000 to a Capital Projects Fund:
+The General Fund transfers \$500,000 to a capital projects fund to help pay for a new station.
 
-**General Fund (sending fund):**
+General Fund:
 
 ```journal
 Dr. Transfer Out to Capital Projects Fund 500,000
 Cr. Cash[a] 500,000
 ```
 
-**Capital Projects Fund (receiving fund):**
+Capital Projects Fund:
 
 ```journal
 Dr. Cash[a] 500,000
 Cr. Transfer In from General Fund 500,000
 ```
 
-:::tip[Exam Tip]
-
-Transfers In are classified as **Other Financing Sources** and Transfers Out as **Other Financing Uses**. They appear below the revenues/expenditures section on the fund operating statement but above the change in fund balance.
-
-:::
+In governmental funds, transfers in are **other financing sources** and transfers out are **other financing uses**, reported after revenues and expenditures. In a proprietary fund, under **GASB 103**, transfers are **noncapital subsidies** (or, if restricted for capital assets, other nonoperating revenues), as explained in [Proprietary Funds Financial Statements](../governmental-financial-statements/proprietary-funds-financial-statements.md).
 
 ### Interfund Reimbursements
 
-The Parks Department (Special Revenue Fund) had \$30,000 of supplies initially paid by the General Fund. The Special Revenue Fund now reimburses the General Fund:
+The General Fund paid \$30,000 for supplies that belong to a special revenue fund. The special revenue fund now repays it.
 
-**General Fund (receiving reimbursement):**
+General Fund (the expenditure was never really its own, so it reverses it):
 
 ```journal
 Dr. Cash[a] 30,000
 Cr. Expenditures 30,000
 ```
 
-**Special Revenue Fund (making reimbursement):**
+Special Revenue Fund:
 
 ```journal
 Dr. Expenditures 30,000
 Cr. Cash[a] 30,000
 ```
 
-The General Fund's original expenditure is reversed (credited), and the expenditure is now properly reported in the Special Revenue Fund. No "transfer" accounts are involved.
+No transfer accounts are used. After the reimbursement, the expenditure appears only in the fund that should bear it.
 
 ---
 
-## Elimination Rules for Government-Wide Statements
+## Where It Appears in the Fund Statements
 
-This is a **critical exam topic**. The government-wide statements consolidate fund data into two columns: Governmental Activities and Business-Type Activities.
+On the **governmental funds balance sheet**, "due from other funds" and "due to other funds" are current assets and liabilities, and "advances to (from) other funds" are long-term.
 
-```mermaid
-flowchart TD
-    A[Interfund Activity] --> B{Between which activity types?}
-    B -->|Within Governmental| C[Eliminate in Governmental Activities column]
-    B -->|Within Business-Type| D[Eliminate in Business-Type Activities column]
-    B -->|Between Governmental & Business-Type| E{What type of activity?}
-    E -->|Loans / Due from-Due to| F[Report as Internal Balances]
-    E -->|Transfers| G[Report on Transfers line - NOT eliminated]
-    E -->|Services Provided & Used| H[NOT eliminated - treat as external]
+On the **governmental funds statement of revenues, expenditures, and changes in fund balances**, transfers appear in the other financing sources and uses section:
+
+```
+  Revenues                                    X,XXX
+- Expenditures                               (X,XXX)
+= Excess (deficiency) of revenues
+    over expenditures                         X,XXX
+  Other financing sources (uses):
+    Transfers in                              X,XXX
+    Transfers out                            (X,XXX)
+  Unusual or infrequent items (if any)        X,XXX
+= Net change in fund balances                 X,XXX
 ```
 
-### Summary of Elimination Rules
+---
 
-| Interfund Activity Type | Within Same Activity Type | Between Activity Types |
+## Eliminations in the Government-Wide Statements
+
+The government-wide statements have two columns for the primary government: **governmental activities** and **business-type activities**. The question for each interfund item is whether both sides land in the same column.
+
+| Kind of activity | Both sides in the same column | Sides in different columns |
 |------------------------|--------------------------|----------------------|
-| Interfund Loans (Due from/Due to) | Eliminate | Reclassify as "Internal Balances" |
-| Interfund Transfers (Transfer In/Out) | Eliminate | Report as "Transfers" line item |
-| Interfund Services Provided and Used | **Do NOT eliminate** | **Do NOT eliminate** |
-| Interfund Reimbursements | Already netted at fund level | Already netted at fund level |
+| Interfund loans (due to/from) | Eliminated | Reported as **internal balances**, which offset in the total column |
+| Interfund transfers | Eliminated | Reported on the **transfers** line, which offsets in the total column |
+| Interfund services provided and used | Not eliminated between functions (see internal service funds below) | Not eliminated; reported as revenue and expense |
+| Interfund reimbursements | Already removed at the fund level | Already removed at the fund level |
 
-:::warning[Critical Elimination Rule]
+**Interfund services between functions are not eliminated** because they reflect real costs of the buying function at real prices. When a water utility bills the police department at its standard rates, public safety really does incur a water expense, and the utility really does earn charges for services.
 
-**Interfund services provided and used are NEVER eliminated** in the government-wide statements because they approximate arm's-length transactions. This is the only category that survives consolidation regardless of which columns are involved.
+**Internal service funds** are the exception. Most of their customers are governmental departments, and their assets and liabilities are folded into governmental activities. If their billings to those departments stayed in, governmental activities would show the motor pool's costs twice: once as the motor pool's own salaries and depreciation, and again as the departments' charges. So the billings are eliminated, and any profit or loss the internal service fund made is allocated back to the functions it billed. The details are in [Deriving Government-Wide Financial Statements](deriving-government-wide-financial-statements.md).
+
+:::tip[Exam Tip]
+
+Ask two questions. First: is it an interfund service at external prices between functions? If yes, it stays (unless it is an internal service fund billing). Second: does it cross between governmental and business-type activities? If yes, loans become internal balances and transfers stay on the transfers line. If it is neither, eliminate it.
 
 :::
 
 ---
 
-## Balance Sheet / Statement of Net Position Presentation
-
-### Fund-Level Balance Sheet
-
-| Line Item | Reporting |
-|-----------|-----------|
-| Due from Other Funds | Current asset |
-| Due to Other Funds | Current liability |
-| Advances to Other Funds | Non-current asset (with nonspendable fund balance) |
-| Advances from Other Funds | Non-current liability |
-
-### Government-Wide Statement of Net Position
-
-| Situation | Presentation |
-|-----------|-------------|
-| Receivables/payables within governmental activities | Eliminated (not shown) |
-| Receivables/payables within business-type activities | Eliminated (not shown) |
-| Receivables/payables between governmental and business-type | Reported as **"Internal Balances"** |
-
----
-
-## Operating Statement Presentation
-
-### Fund-Level Statement of Revenues, Expenditures, and Changes in Fund Balance
-
-```
-  Revenues                          $X,XXX
-- Expenditures                      (X,XXX)
-= Excess (deficiency)               X,XXX
-+ Other Financing Sources:
-    Transfer In                      X,XXX
-- Other Financing Uses:
-    Transfer Out                    (X,XXX)
-= Net Change in Fund Balance        $X,XXX
-```
-
-### Government-Wide Statement of Activities
-
-Transfers between governmental and business-type activities appear as a separate line:
-
-```
-  Governmental Activities:
-    Change in net position before transfers    $X,XXX
-    Transfers                                  (X,XXX)
-    Change in net position                     $X,XXX
-
-  Business-Type Activities:
-    Change in net position before transfers    $X,XXX
-    Transfers                                   X,XXX
-    Change in net position                     $X,XXX
-```
-
----
-
 ## Comprehensive Example: Bear City
 
-Bear City has the following interfund transactions during the fiscal year:
+Bear City has these interfund transactions during the year. The water utility and the transit system are enterprise funds (business-type activities). The General Fund, debt service fund, and special revenue fund are governmental.
 
-| # | Transaction | Amount | Funds Involved |
-|---|-------------|--------|----------------|
-| 1 | General Fund loans cash to Water Utility Fund | \$100,000 | GF to Enterprise |
-| 2 | Internal Service Fund provides fleet maintenance to General Fund | \$75,000 | ISF to GF |
-| 3 | General Fund transfers operating subsidy to Transit Fund (Enterprise) | \$300,000 | GF to Enterprise |
-| 4 | General Fund transfers to Debt Service Fund | \$400,000 | GF to DSF |
-| 5 | Special Revenue Fund reimburses General Fund for supplies | \$20,000 | SRF to GF |
+| # | Transaction | Amount |
+|---|-------------|--------|
+| 1 | General Fund lends cash to the Water Utility Fund, repayable next year | \$100,000 |
+| 2 | Water Utility Fund bills the General Fund for water at standard rates | \$75,000 |
+| 3 | General Fund transfers an operating subsidy to the Transit Fund | \$300,000 |
+| 4 | General Fund transfers cash to the Debt Service Fund | \$400,000 |
+| 5 | Special Revenue Fund reimburses the General Fund for supplies | \$20,000 |
 
-### Step 1: Fund-Level Journal Entries
+### Step 1: Fund Entries
 
-**Transaction 1: Interfund Loan (GF to Enterprise)**
+**Transaction 1, loan.** General Fund, then Water Utility Fund:
 
 ```journal
 Dr. Due from Water Utility Fund[a] 100,000
@@ -233,7 +172,7 @@ Dr. Cash[a] 100,000
 Cr. Due to General Fund[l] 100,000
 ```
 
-**Transaction 2: Interfund Services (ISF to GF)**
+**Transaction 2, interfund service.** Water Utility Fund, then General Fund (unpaid at year-end):
 
 ```journal
 Dr. Due from General Fund[a] 75,000
@@ -242,10 +181,10 @@ Cr. Charges for Services 75,000
 
 ```journal
 Dr. Expenditures 75,000
-Cr. Due to Internal Service Fund[l] 75,000
+Cr. Due to Water Utility Fund[l] 75,000
 ```
 
-**Transaction 3: Transfer (GF to Transit Enterprise Fund)**
+**Transaction 3, transfer.** General Fund, then Transit Fund:
 
 ```journal
 Dr. Transfer Out to Transit Fund 300,000
@@ -257,7 +196,7 @@ Dr. Cash[a] 300,000
 Cr. Transfer In from General Fund 300,000
 ```
 
-**Transaction 4: Transfer (GF to Debt Service Fund)**
+**Transaction 4, transfer.** General Fund, then Debt Service Fund:
 
 ```journal
 Dr. Transfer Out to Debt Service Fund 400,000
@@ -269,7 +208,7 @@ Dr. Cash[a] 400,000
 Cr. Transfer In from General Fund 400,000
 ```
 
-**Transaction 5: Reimbursement (SRF reimburses GF)**
+**Transaction 5, reimbursement.** General Fund, then Special Revenue Fund:
 
 ```journal
 Dr. Cash[a] 20,000
@@ -281,103 +220,42 @@ Dr. Expenditures 20,000
 Cr. Cash[a] 20,000
 ```
 
-### Step 2: Government-Wide Elimination Analysis
+### Step 2: Government-Wide Treatment
 
-| # | Activity Classification | Elimination Treatment |
+| # | Columns involved | Treatment |
 |---|------------------------|----------------------|
-| 1 | Between Governmental (GF) and Business-Type (Enterprise) | Reclassify as **Internal Balances** |
-| 2 | Within Governmental (ISF is typically governmental) | **Do NOT eliminate** (interfund services) |
-| 3 | Between Governmental (GF) and Business-Type (Enterprise) | Report as **Transfers** line; not eliminated |
-| 4 | Within Governmental (GF and DSF both governmental) | **Eliminate** (transfer within same column) |
-| 5 | Within Governmental (GF and SRF) | Already netted; no action needed |
+| 1 | Governmental and business-type | Reclassify to **internal balances** |
+| 2 | Governmental and business-type | Not eliminated. Business-type activities report \$75,000 of charges for services; governmental activities report \$75,000 of expense in the functions that used the water. The unpaid \$75,000 is an internal balance. |
+| 3 | Governmental and business-type | Reported on the **transfers** line: (\$300,000) governmental, \$300,000 business-type |
+| 4 | Governmental only | **Eliminated** |
+| 5 | Governmental only | Nothing to do; already netted in the funds |
 
-:::tip[Exam Tip]
-
-Internal Service Funds are almost always reported in the **Governmental Activities** column of the government-wide statements because their predominant customers are governmental funds. Only if the predominant customer is a business-type activity would it be classified differently.
-
-:::
-
-### Step 3: Government-Wide Elimination Entries
-
-**Elimination of Transaction 4 (Transfer within Governmental Activities):**
+The elimination of transaction 4 within governmental activities:
 
 ```journal
 Dr. Transfer In from General Fund 400,000
 Cr. Transfer Out to Debt Service Fund 400,000
 ```
 
-**Reclassification of Transaction 1 (Loan between activity types):**
+### Step 3: The Result
 
-On the Statement of Net Position:
-- Remove "Due from Water Utility Fund" from Governmental Activities
-- Remove "Due to General Fund" from Business-Type Activities
-- Report as **Internal Balances**: Governmental Activities shows \$100,000 receivable; Business-Type Activities shows \$100,000 payable under the line item "Internal Balances"
+The due to and due from amounts from transactions 1 and 2 become internal balances. Governmental activities have a net internal receivable of \$25,000 (\$100,000 lent less \$75,000 owed for water), and business-type activities have the matching \$25,000 payable.
 
-**Transaction 3 (Transfer between activity types), no elimination:**
+| Line | Governmental activities | Business-type activities | Total |
+|------|------------------------|-------------------------|----------------|
+| Internal balances (statement of net position) | \$25,000 | (\$25,000) | \$0 |
+| Transfers (statement of activities) | (\$300,000) | \$300,000 | \$0 |
+| Transfer between General Fund and Debt Service Fund | Eliminated | | |
 
-Reported on the Statement of Activities:
-- Governmental Activities: Transfers Out (\$300,000)
-- Business-Type Activities: Transfers In \$300,000
-
-### Step 4: Consolidation Worksheet
-
-| Item | Governmental Activities | Business-Type Activities | Eliminations | Gov-Wide Total |
-|------|------------------------|-------------------------|--------------|----------------|
-| Due from Water Utility Fund | \$100,000 | 0 | (\$100,000) | 0 |
-| Due to General Fund | 0 | \$100,000 | (\$100,000) | 0 |
-| Internal Balances (asset) | 0 | 0 | \$100,000 | \$100,000 |
-| Internal Balances (liability) | 0 | 0 | \$100,000 | \$100,000 |
-| Transfer In (DSF from GF) | \$400,000 | 0 | (\$400,000) | 0 |
-| Transfer Out (GF to DSF) | (\$400,000) | 0 | \$400,000 | 0 |
-| Transfer Out (GF to Transit) | (\$300,000) | 0 | 0 | (\$300,000) |
-| Transfer In (Transit from GF) | 0 | \$300,000 | 0 | \$300,000 |
-
----
-
-## Common Exam Scenarios
-
-### Scenario: Identifying the Correct Category
-
-| Facts Given | Correct Category |
-|-------------|-----------------|
-| General Fund pays for a police car later reimbursed by a grant fund | Reimbursement |
-| Water fund charges the General Fund for water at standard rates | Interfund services provided and used |
-| Council authorizes annual subsidy from GF to transit system | Transfer |
-| General Fund provides short-term cash to Capital Projects Fund, to be repaid in 6 months | Interfund loan |
-
-### Scenario: What Survives Elimination?
-
-:::info[Decision Framework]
-
-Ask two questions: (1) Is this interfund services provided and used? If yes, never eliminate. (2) Is it between governmental and business-type activities? If yes, reclassify (loans become internal balances; transfers remain as a separate line). If no to both, eliminate entirely.
-
-:::
-
----
-
-## Key Formulas
-
-The net effect of transfers on government-wide statements when between activity types:
-
-$$
-\text{Governmental Activities Net Position Change} = \text{Operating Result} - \text{Transfers Out to BTA} + \text{Transfers In from BTA}
-$$
-
-$$
-\text{Business-Type Activities Net Position Change} = \text{Operating Result} + \text{Transfers In from GA} - \text{Transfers Out to GA}
-$$
-
-Total government-wide change in net position is unaffected by transfers (they net to zero in the total column).
+Both internal balances and transfers net to zero in the total column, so neither changes the net position of the primary government as a whole. They only move resources between the two columns.
 
 ---
 
 ## Summary
 
-| Topic | Key Rule |
-|-------|----------|
-| Interfund Loans | Due from/Due to; eliminate within same type; internal balances between types |
-| Interfund Services | Revenue/Expenditure; **NEVER** eliminated |
-| Interfund Transfers | OFS/OFU; eliminate within same type; report as "Transfers" between types |
-| Interfund Reimbursements | Reduce original expenditure; not reported separately |
-| Internal Balances | Only arise between governmental and business-type activities |
-| Government-wide total column | Transfers always net to zero; internal balances always net to zero |
+| Kind | Fund reporting | Government-wide |
+|-------|----------|----------|
+| Interfund loans | Due from / due to (advances if long-term) | Eliminated within a column; internal balances between columns |
+| Interfund services provided and used | Revenue and expenditure or expense | Not eliminated (except internal service fund billings, which are eliminated and allocated back) |
+| Interfund transfers | Other financing sources and uses (governmental funds); noncapital subsidies or other nonoperating items (proprietary funds) | Eliminated within a column; transfers line between columns |
+| Interfund reimbursements | Reduce the paying fund's expenditure | Already removed |

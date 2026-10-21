@@ -1,38 +1,26 @@
 # Enterprise and Accounting Information Systems
 
-Modern organizations rely on integrated information systems to manage their business processes and produce reliable financial information. **Enterprise Resource Planning (ERP) systems** and **accounting information systems (AIS)** form the backbone of these operations, connecting procurement, production, sales, human resources, treasury, and financial reporting into a unified platform. For CPAs performing IT audit and advisory services, understanding how these systems work, how they interact, and how controls ensure processing integrity is essential.
+A sale at a modern company does not get typed into a journal. Someone enters an order, and the system takes it from there: it checks credit, reserves inventory, triggers shipping, creates an invoice, and posts revenue, receivables, and cost of goods sold to the general ledger. The systems that do this work are **enterprise resource planning (ERP) systems** and **accounting information systems (AIS)**. Because so much of the accounting happens inside them, a CPA has to understand how they are built, what other systems feed them, and which controls keep their processing complete and accurate.
 
-This section covers **ERP and accounting information systems**, the **business processes they enable**, **controls over processing integrity**, the use of **blockchain** in financial reporting contexts, opportunities for **process improvement** (including robotic process automation), and how to **reconcile actual processes to documented procedures**.
-
-:::info
-
-The ISC exam tests this topic across all three skill levels. You must be able to summarize what ERP and AIS systems encompass (Remembering and Understanding), determine potential improvements to business processes (Application), and detect deficiencies in processing integrity controls in a SOC 2® engagement (Analysis).
-
-:::
+This chapter describes ERP systems and the business processes an AIS supports, then the other systems that exchange data with them, including electronic data interchange and blockchain. It then covers controls over processing integrity, how to reconcile an actual process to its documentation, and ways to improve an AIS. The exam tests this topic at every skill level, up to detecting processing integrity deficiencies in a SOC 2® engagement.
 
 ---
 
 ## Enterprise Resource Planning (ERP) Systems
 
-An **enterprise resource planning (ERP) system** is an integrated software platform that manages and automates core business processes across an organization. Rather than operating separate systems for finance, human resources, procurement, and manufacturing, an ERP system consolidates these functions into a single database and user interface.
-
-### What ERP Systems Encompass
-
-A typical ERP system includes modules for:
+An **ERP system** is an integrated software platform that runs an organization's core business processes from one shared database. Instead of separate programs for finance, purchasing, sales, and human resources, each with its own copy of the data, the ERP system's modules all read from and write to the same records.
 
 | Module | Business Functions |
 |---|---|
-| **Financial Accounting** | General ledger, accounts payable, accounts receivable, fixed assets, financial reporting |
-| **Management Accounting** | Cost center accounting, profit center analysis, product costing |
-| **Human Resources** | Payroll, benefits administration, time tracking, workforce planning |
-| **Procurement** | Purchase requisitions, purchase orders, vendor management, receiving |
-| **Sales and Distribution** | Sales orders, pricing, shipping, billing, customer management |
-| **Production Planning** | Bill of materials, production scheduling, capacity planning, quality management |
-| **Treasury** | Cash management, bank reconciliation, investment management |
+| **Financial accounting** | General ledger, accounts payable, accounts receivable, fixed assets, financial reporting |
+| **Management accounting** | Cost centers, profit centers, product costing |
+| **Human resources** | Payroll, benefits, time tracking |
+| **Procurement** | Requisitions, purchase orders, vendor management, receiving |
+| **Sales and distribution** | Sales orders, pricing, shipping, billing, customer records |
+| **Production planning** | Bills of materials, production scheduling, capacity planning |
+| **Treasury** | Cash management, bank reconciliation, investments |
 
-### How ERP Modules Interact
-
-The power of an ERP system lies in its **integration**. When a transaction is entered in one module, it automatically updates related modules:
+The value of an ERP system is **integration**: one entry updates every module it touches.
 
 ```mermaid
 graph LR
@@ -42,177 +30,128 @@ graph LR
     D --> E["COGS Entry<br/>(GL Module)"]
 ```
 
-**Example:** When **Polar Inc.** enters a sales order in the sales module, the ERP system automatically creates an accounts receivable entry, reduces inventory quantities, recognizes cost of goods sold, and posts the corresponding journal entries to the general ledger, all from a single transaction initiation.
+**Example:** When **Polar Inc.** enters a sales order, its ERP system creates the receivable, reduces inventory, records cost of goods sold, and posts the related journal entries, all from that one entry. Nobody re-keys the data, so transcription errors disappear and the ledger is current.
 
-This integration eliminates the need for manual data re-entry between systems, reduces the risk of transcription errors, and ensures that financial data is updated in real time. However, it also means that an error or control weakness in one module can propagate throughout the entire system.
-
-:::tip[Exam Tip]
-
-ERP integration is a double-edged sword for controls. On one hand, automated posting reduces manual errors. On the other hand, if the sales module allows unauthorized price overrides, the resulting revenue, receivables, and inventory entries will all be incorrect. When evaluating an ERP system, consider how a control failure in one module affects downstream processes.
-
-:::
+Integration cuts both ways, though. If the sales module lets a clerk override prices without approval, the wrong price flows automatically into revenue, receivables, and margin reports. When you evaluate an ERP system, follow a control weakness downstream to every module it feeds.
 
 ---
 
 ## Accounting Information Systems (AIS)
 
-An **accounting information system (AIS)** is the component of an organization's information system that collects, records, stores, and processes financial data to produce information for decision makers. An AIS may be a module within an ERP system or a standalone application.
+An **accounting information system (AIS)** is the part of an organization's information system that collects, records, stores, and processes financial data to produce information for decision makers. An AIS may be a set of modules within an ERP system or a standalone application. The blueprint lists the key business processes an AIS supports:
 
-### Key Business Processes in an AIS
-
-The ISC exam expects you to understand the following key business processes and the controls associated with each:
-
-| Business Process | Key Activities | Key Documents/Records |
+| Business Process | Key Activities | Key Documents and Records |
 |---|---|---|
-| **Sales / Revenue** | Order entry, credit approval, shipping, billing, revenue recognition | Sales orders, shipping documents, invoices |
-| **Cash Collections** | Receiving payments, recording deposits, applying cash to receivables | Remittance advices, deposit slips, bank statements |
-| **Purchasing** | Requisitioning, vendor selection, purchase order creation, receiving | Purchase requisitions, purchase orders, receiving reports |
-| **Disbursements** | Invoice processing, three-way match, payment authorization, check signing | Vendor invoices, payment vouchers, checks/EFTs |
-| **Human Resources / Payroll** | Employee onboarding, time tracking, payroll processing, tax withholding | Timesheets, payroll registers, tax filings |
-| **Production** | Work order creation, material issuance, labor tracking, cost allocation | Work orders, material requisitions, production reports |
-| **Treasury** | Cash forecasting, investment management, debt management, bank reconciliation | Cash flow projections, bank confirmations |
-| **Fixed Assets** | Asset acquisition, depreciation, impairment testing, disposal | Asset registers, depreciation schedules |
-| **General Ledger / Reporting** | Journal entry processing, trial balance, financial statement preparation | Journal entries, trial balance, financial statements |
+| **Sales** | Order entry, credit approval, shipping, billing | Sales orders, shipping documents, invoices |
+| **Cash collections** | Receiving and depositing payments, applying cash to receivables | Remittance advices, deposit records, bank statements |
+| **Purchasing** | Requisitioning, selecting vendors, issuing purchase orders, receiving | Requisitions, purchase orders, receiving reports |
+| **Disbursements** | Matching invoices, authorizing and making payments | Vendor invoices, payment vouchers, checks and electronic payments |
+| **Human resources and payroll** | Hiring, time tracking, payroll processing, withholding | Personnel files, timesheets, payroll registers |
+| **Production** | Work orders, material issues, labor tracking, cost allocation | Work orders, material requisitions, production reports |
+| **Treasury** | Cash forecasting, investments, borrowing | Cash projections, bank and broker statements |
+| **Fixed assets** | Acquisition, depreciation, impairment, disposal | Asset register, depreciation schedules |
+| **General ledger and reporting** | Journal entries, trial balance, financial statements | Journal entries, trial balance, financial statements |
 
-### Documenting Business Processes
+---
 
-Organizations document their business processes using several formats. The ISC exam may ask you to reconcile the actual steps in a process against the documented procedure:
+## Systems That Interact with ERP and AIS
 
-- **Flowcharts**: visual diagrams that depict the sequence of steps, decision points, and the flow of documents and information in a process
-- **Business process diagrams**: similar to flowcharts but often use standardized notation such as Business Process Model and Notation (BPMN)
-- **Narratives**: written descriptions of the process steps, controls, and personnel involved
+An ERP system rarely works alone. It receives orders from e-commerce sites, sends payment files to banks, exchanges documents with customers and suppliers, sends data to payroll providers and data warehouses, and in some industries reads from or writes to a blockchain. The blueprint asks you to **recognize** these other systems, and it names two: electronic data interchange and blockchain.
 
-**Example:** During a SOC 2® engagement at **Bear Co.**, the auditor walks through the purchasing process and observes that the actual process includes an unauthorized purchasing agent approving orders above their authority limit. Comparing this to the documented flowchart, which requires manager approval for orders above \$5,000, reveals a control deviation.
+Every one of these connections is an **interface**, and interfaces are control points. Data must arrive complete, accurate, and authorized, and it must not be duplicated or lost on the way. Typical interface controls include record counts and control totals compared on both sides, edit checks on incoming data, error queues that someone reviews, and reconciliations between the two systems.
+
+### Electronic Data Interchange (EDI)
+
+**Electronic data interchange (EDI)** is the computer-to-computer exchange of business documents, such as purchase orders, invoices, shipping notices, and payment remittances, between trading partners in a standard format. Because the format is standard, the receiving system can process the document without anyone re-entering it. Partners connect directly over the internet or through a third-party network provider.
+
+EDI speeds up the order-to-cash and purchase-to-pay cycles and removes keying errors. It also removes the paper trail and lets transactions flow with little human review, so the risks are unauthorized or fictitious transactions, transmission errors, and duplicate processing. Common controls are a **trading partner agreement** that sets out each party's responsibilities, authentication of each partner, encryption in transit, acknowledgments confirming each transmission was received, edit checks on incoming documents, and logs of all transactions sent and received.
+
+**Example:** **Polar Inc.** sends purchase orders to **Bear Co.** by EDI, and each order automatically becomes a sales order in Bear Co.'s ERP system. Bear Co.'s system checks every incoming order against its customer master file and approved price list, sends Polar Inc. an acknowledgment, and compares the day's count of orders received with the count Polar Inc. reports sending.
+
+### Blockchain
+
+A **blockchain** is a ledger that is shared across a network of participants (called nodes) instead of being held by one party. New transactions are grouped into blocks. Each block carries a cryptographic hash (a digital fingerprint) of the block before it, so changing an old record would break the chain and be obvious to everyone. The participants follow a **consensus mechanism**, a set of rules for agreeing which new blocks are valid. Public blockchains let anyone participate; private or permissioned blockchains limit participation to approved members. Many blockchains also run **smart contracts**, programs that execute automatically when specified conditions are met, such as releasing a payment when a shipment is recorded.
+
+For the exam, see blockchain as one more system that exchanges data with the ERP and accounting systems. A company might track inventory across its supply chain on a shared blockchain, settle payments on one, or hold digital assets recorded on one. The ERP system receives data from the blockchain, or sends data to it, through an interface. The blockchain does not replace the company's own books. The entity still records its transactions in its general ledger, and the same interface questions apply: is the data coming from the blockchain complete and accurate, does it reconcile to the ledger, and who controls the private keys that authorize transactions?
+
+:::note[Testing before January 1, 2027?]
+
+The 2026 Blueprint also asked candidates to explain how the COSO internal control framework can be used to evaluate blockchain risks in financial reporting, based on COSO's *Blockchain and Internal Control: The COSO Perspective*. The 2027 Blueprint removed that task. If you test in 2026, be ready to apply the five COSO components to blockchain risks such as smart contract errors, private key management, and reconciling on-chain records to the general ledger.
+
+:::
 
 ---
 
 ## Controls Over Processing Integrity
 
-**Processing integrity** means that system processing is complete, valid, accurate, timely, and authorized. The AICPA Trust Services Criteria define processing integrity as one of the five categories evaluated in SOC 2® engagements.
+**Processing integrity** means that system processing is complete, valid, accurate, timely, and authorized to meet the entity's objectives. It is one of the five Trust Services categories, so it can be the subject of a SOC 2® engagement as well as an everyday control concern.
 
-### Types of Processing Controls
+Processing controls are usually grouped by where they act:
 
 | Control Type | Purpose | Examples |
 |---|---|---|
-| **Input controls** | Ensure data entered into the system is complete, accurate, and authorized | Validation checks, input masks, authorization requirements, batch totals |
-| **Processing controls** | Ensure data is processed correctly and completely | Run-to-run totals, sequence checks, limit checks, reasonableness tests |
-| **Output controls** | Ensure output is complete, accurate, and distributed to authorized recipients | Report reconciliation, distribution lists, output logging |
+| **Input controls** | Make sure data entered is complete, accurate, and authorized | Validation checks, required fields, approvals, batch totals |
+| **Processing controls** | Make sure data is processed correctly and completely | Run-to-run totals, sequence checks, limit and reasonableness checks |
+| **Output controls** | Make sure output is complete, accurate, and reaches only authorized recipients | Reconciling output to input, distribution lists, output logs |
 
-### Common Input Validation Controls
+Input validation deserves special attention because errors are cheapest to stop at the point of entry:
 
-| Control | Description | Example |
+| Control | What It Does | Example |
 |---|---|---|
-| **Validity check** | Verifies that entered data matches a list of valid values | Customer ID must exist in the customer master file |
-| **Range check** | Ensures a value falls within an acceptable range | Hourly wage must be between \$7.25 and \$500.00 |
-| **Completeness check** | Verifies that all required fields have been populated | Invoice cannot be submitted without a purchase order number |
-| **Check digit** | Uses a mathematical algorithm to verify the accuracy of an identification number | Validates the check digit in a bank routing number |
-| **Batch totals** | Compares control totals (hash totals, record counts, financial totals) before and after processing | Total of invoices entered must match the batch control total |
-| **Duplicate check** | Prevents the same transaction from being entered twice | System rejects a second payment for the same invoice number |
+| **Validity check** | Compares the entry with a list of valid values | The customer ID must exist in the customer master file |
+| **Range (limit) check** | Confirms a value falls within set bounds | An hourly wage must be between \$7.25 and \$500.00 |
+| **Completeness check** | Confirms required fields are filled in | An invoice cannot be saved without a purchase order number |
+| **Check digit** | Uses a formula to catch mistyped identification numbers | Validates the last digit of a bank routing number |
+| **Batch totals** | Compares control totals (record counts, dollar totals, hash totals) before and after processing | The total of invoices entered must equal the batch control total |
+| **Duplicate check** | Rejects a transaction already entered | The system refuses a second payment of the same invoice number |
 
-:::warning
+### Processing Integrity in a SOC 2® Engagement
 
-Processing integrity controls are a high-priority topic on the ISC exam, particularly in the context of SOC 2® engagements. You must be able to identify specific controls, explain their purpose, and (at the Analysis level) detect deficiencies in their design or operation.
+In a SOC 2® engagement that includes processing integrity, the service auditor evaluates the service organization's controls against five additional criteria, on top of the common criteria that apply to every SOC 2® engagement:
 
-:::
-
----
-
-## Blockchain in the Context of Financial Reporting
-
-**Blockchain** is a distributed ledger technology that records transactions across a network of computers in a way that makes the records difficult to alter retroactively. Each block contains a set of transactions, a timestamp, and a cryptographic hash of the previous block, creating an immutable chain.
-
-### COSO Internal Control Framework and Blockchain
-
-The COSO publication *Blockchain and Internal Control: The COSO Perspective* provides a framework for evaluating blockchain-related risks and designing controls to address them. Key considerations include:
-
-| COSO Component | Blockchain Consideration |
+| Criterion | In Plain English |
 |---|---|
-| **Control Environment** | Does management understand blockchain technology and its implications for financial reporting? |
-| **Risk Assessment** | What risks does blockchain introduce (e.g., smart contract errors, consensus failures, key management)? |
-| **Control Activities** | Are controls in place to authorize transactions, validate smart contract logic, and manage cryptographic keys? |
-| **Information and Communication** | Is blockchain-related data integrated into financial reporting systems, and are discrepancies identified? |
-| **Monitoring** | Are blockchain systems monitored for performance, errors, and security events? |
+| **PI1.1** | The entity defines and communicates what it processes: data definitions and product and service specifications |
+| **PI1.2** | Controls over inputs make them complete and accurate |
+| **PI1.3** | Controls over processing produce the intended results |
+| **PI1.4** | Output is delivered completely, accurately, and on time, in line with specifications |
+| **PI1.5** | Inputs, items in processing, and outputs are stored completely and accurately |
 
-**Example:** **Kingfisher Industries** is piloting a blockchain-based system for tracking inventory across its supply chain. Using the COSO framework, the auditor would evaluate whether Kingfisher has controls to ensure that inventory transactions recorded on the blockchain are complete, accurate, and properly reflected in its financial statements.
+The service auditor looks for two kinds of problems. A **design deficiency** exists when a needed control is missing, or when the control would not meet the criterion even if performed exactly as designed. An **operating deviation** exists when a well-designed control was not performed, or was performed incorrectly, during the period. The test is simple: if the control worked perfectly every time, would it address the risk? If not, the design is deficient. If it would, but it did not always work, the operation deviated.
 
----
-
-## Process Improvement Opportunities
-
-The ISC exam tests your ability to determine potential changes to business processes that could improve the performance of an accounting information system. Common improvement opportunities include:
-
-### Robotic Process Automation (RPA)
-
-**Robotic process automation (RPA)** uses software "robots" to automate repetitive, rule-based tasks that were previously performed manually. RPA is particularly well suited for accounting processes such as:
-
-- **Invoice processing**: Extracting data from vendor invoices and matching it to purchase orders and receiving reports
-- **Bank reconciliation**: Comparing bank statement transactions to general ledger entries and flagging exceptions
-- **Journal entry posting**: Preparing and posting standard recurring journal entries
-- **Report generation**: Compiling financial reports from multiple data sources
-
-**Benefits of RPA:**
-
-- Reduces manual errors and increases processing speed
-- Frees up staff for higher-value analytical work
-- Provides a complete audit trail of automated actions
-- Operates 24/7 without fatigue
-
-**Risks of RPA:**
-
-- Automating a flawed process amplifies the flaw
-- Bots must be monitored and updated when underlying systems change
-- Access controls must ensure bots have only the permissions needed for their tasks
-
-### Outsourcing
-
-Organizations may outsource certain business processes (e.g., payroll processing, IT hosting) to a service organization. When evaluating outsourcing decisions, consider:
-
-- The impact on the organization's control environment
-- The need for a SOC report to evaluate the service organization's controls
-- The organization's responsibility for complementary user entity controls (CUECs)
-
-### System Changes
-
-Upgrading or replacing an accounting information system can address performance issues, improve integration, and enhance control capabilities. System changes are covered in detail in the **Change Management** topic.
+**Example:** **Sloth Security** runs a billing platform for its customers and has a SOC 2® report that covers processing integrity. Its documented procedure says that any batch of usage records that fails to reconcile to the source system is held until an analyst resolves the difference. The service auditor finds that the platform has no reconciliation at all for one data feed added during the year (a design deficiency for that feed), and that in 3 of 25 sampled batches from the other feeds, an unreconciled batch was released without review (an operating deviation).
 
 ---
 
 ## Reconciling Actual Processes to Documented Procedures
 
-A critical skill for IT audit and advisory work is the ability to **walk through** an actual business process and compare what is observed to the documented procedure (such as a flowchart, business process diagram, or narrative). This reconciliation can reveal:
+Organizations document their processes in three common forms: **flowcharts**, which show the steps, decision points, and document flows; **business process diagrams**, often drawn in the standard Business Process Model and Notation (BPMN); and **narratives**, which describe the steps, controls, and people in words. The blueprint asks you to reconcile what actually happens in a key process to what the documentation says should happen.
 
-- **Control deviations**: instances where the actual process does not follow the documented control procedure
-- **Design deficiencies**: cases where the documented procedure lacks a necessary control
-- **Unauthorized process changes**: modifications to the process that were not approved through formal change management
+The tool for this is a **walkthrough**. The auditor typically:
 
-### Walkthrough Procedures
+1. Selects one transaction from the process.
+2. Traces it from initiation through processing, recording, and reporting.
+3. Asks the people who perform each step what they do and which controls they apply, and inspects the evidence.
+4. Compares each observed step, document, and tool with the documented procedure.
+5. Notes where they differ.
 
-When performing a walkthrough, the auditor typically:
+Differences come in three kinds. The process may skip or alter a documented control (a deviation). The documentation may lack a control the process needs (a design gap). Or the process may have changed without approval, so the documentation is simply out of date.
 
-1. Selects a single transaction or event from each major class of transactions
-2. Traces the transaction from initiation through processing, recording, and reporting
-3. Asks the personnel who perform each step to describe what they do and what controls they apply
-4. Compares the observed process to the documented procedure
-5. Evaluates whether the controls described are suitably designed and have been implemented
+**Example:** During a walkthrough of **Bear Co.**'s purchasing process, the auditor watches a purchasing agent approve a \$7,500 order on her own authority, even though the flowchart requires a manager's approval for orders over \$5,000. That is a deviation from a documented control. The auditor also notices that neither the flowchart nor the actual process compares vendor invoices with receiving reports before payment, so Bear Co. could pay for goods it never received. That is a design gap.
 
-**Example:** During a SOC 2® engagement at **Illini Entertainment**, the auditor selects a customer subscription transaction and traces it from the sales order through billing, revenue recognition, and financial reporting. The auditor observes that the revenue recognition step does not include a review for multiple performance obligations, even though the documented procedure requires it. This is a processing integrity control deficiency.
+A walkthrough shows how a process works and whether a control has been implemented. It does not, by itself, show that the control operated throughout a period; that takes testing a sample over the period. The [Data Management](../data-management/data-management.md) chapter covers how to read a business process model to find improvements.
 
 ---
 
-## Detecting Deficiencies in a SOC 2® Engagement
+## Improving the Performance of an AIS
 
-In the context of a SOC 2® engagement, the auditor evaluates controls related to processing integrity using the **Trust Services Criteria**. The processing integrity criteria require that system processing is complete, valid, accurate, timely, and authorized to meet the entity's objectives.
+The blueprint also asks you to determine changes that would improve how an AIS performs. Three are named.
 
-When detecting deficiencies, the auditor considers:
+**Robotic process automation (RPA)** uses software "bots" to perform repetitive, rule-based tasks that people used to do by hand: matching invoices to purchase orders and receiving reports, comparing bank transactions to the ledger, posting recurring journal entries, or compiling standard reports. Bots work quickly, around the clock, and consistently, and they log what they do. The catch is that a bot automates whatever process it is given, flaws included. Bots also break when the systems they read from change, and each bot needs its own credentials, which should carry only the access the task requires. So RPA needs controls of its own: change management over the bot's logic, monitoring of its output, and least-privilege access.
 
-- **Suitability of design**: Is the control designed to effectively address the applicable trust services criterion? A design deficiency exists when a necessary control is missing or is not designed to achieve the control objective.
-- **Operating effectiveness**: Is the control operating as designed? An operating deficiency (deviation) exists when the control exists but is not followed consistently.
+**Outsourcing** moves a process, such as payroll or IT hosting, to a service organization. It can lower costs and bring in specialized skills, but the entity keeps responsibility for the process. It will need the provider's SOC report to understand the provider's controls, and it must perform the complementary user entity controls the report assumes.
 
-:::note
-
-The distinction between a design deficiency and an operating deviation is critical for the ISC exam. A design deficiency means the control *would not work even if performed as intended*. An operating deviation means the control is *well designed but not consistently performed*. Both can result in processing integrity failures.
-
-:::
+**System changes** such as upgrading or replacing an AIS can improve integration and automate controls. They also bring conversion risk, which the [Change Management](./change-management.md) chapter covers.
 
 ---
 
@@ -220,29 +159,34 @@ The distinction between a design deficiency and an operating deviation is critic
 
 | Topic | Key Takeaway |
 |---|---|
-| ERP systems | Integrated platforms that connect all business functions; a control failure in one module can propagate to others |
-| Accounting information systems | Collect, record, store, and process financial data; key business processes include sales, purchasing, payroll, and reporting |
-| Processing integrity controls | Input, processing, and output controls ensure completeness, accuracy, and authorization |
-| Blockchain and COSO | The COSO framework provides a structured approach to evaluating blockchain risks in financial reporting |
-| RPA and process improvement | Automation can improve efficiency but requires controls over bot access, monitoring, and change management |
-| Reconciling processes | Walk through actual processes and compare to documented procedures to detect deviations and design deficiencies |
+| ERP systems | One integrated database across business functions; a weakness in one module flows into others |
+| AIS business processes | Sales, collections, purchasing, disbursements, payroll, production, treasury, fixed assets, and reporting |
+| Interacting systems | EDI, blockchain, banks, e-commerce, and other systems connect through interfaces that need completeness and accuracy controls |
+| Processing integrity | Input, processing, and output controls; in SOC 2®, criteria PI1.1-PI1.5 |
+| Design vs. operation | A design deficiency fails even if performed perfectly; an operating deviation is a good control not performed as designed |
+| Walkthroughs | Trace one transaction and compare each step with the documentation |
+| Improving an AIS | RPA, outsourcing, and system changes, each with its own control needs |
 
 ---
 
 ## Practice Questions
 
-1. **Bear Co.** uses an ERP system where sales orders automatically generate accounts receivable entries and reduce inventory. A sales representative enters a sales order for a product that has been discontinued and removed from inventory. However, the ERP system does not reject the order. What type of input control is missing?
+1. **Bear Co.**'s ERP system accepted a sales order for a product that had been discontinued and removed from the product master file. What input control is missing?
 
-2. **Polar Inc.** has documented its cash disbursement process in a flowchart that requires two approvals for payments over \$10,000. During a walkthrough, the auditor observes that the second approval is routinely bypassed for payments to established vendors. Is this a design deficiency or an operating deviation?
+2. **Polar Inc.**'s flowchart for cash disbursements requires two approvals for payments over \$10,000. In a walkthrough, the auditor sees that the second approval is routinely skipped for payments to long-standing vendors. Is this a design deficiency or an operating deviation?
 
-3. **Bear Co.** implements an RPA bot to automate bank reconciliations. The bot is configured with read-only access to the bank statement data and write access to the reconciliation workpaper. Six months later, the underlying bank statement format changes, and the bot begins misclassifying transactions. What control over the RPA bot has failed?
+3. **Bear Co.** uses an RPA bot to prepare bank reconciliations. Six months after the bot goes live, the bank changes its statement format and the bot begins misclassifying transactions. Nobody notices until quarter-end. Which controls over the bot failed?
+
+4. **Kingfisher Industries** receives customer purchase orders electronically, in a standard format, directly into its ERP system. Last month several orders were processed twice. What kind of system is sending the orders, and which controls would catch the problem?
 
 :::tip[Answers]
 
-1. A **validity check**. The system should verify that the product ID in the sales order exists in the current active inventory master file. A validity check would reject orders for discontinued products.
+1. A **validity check**. The system should confirm that the product code on the order exists in the current product master file and reject the order if it does not.
 
-2. This is an **operating deviation** (not a design deficiency). The control is properly designed (two approvals for payments over \$10,000), but it is not being consistently followed. The bypass for established vendors represents a failure in operating effectiveness.
+2. An **operating deviation**. The documented control (two approvals over \$10,000) is suitably designed, but it is not being performed consistently.
 
-3. **Monitoring and change management controls** over the RPA bot have failed. RPA bots must be monitored for errors when underlying systems change, and updates to the bot should go through formal change management procedures.
+3. **Change management and monitoring.** Changes to the systems a bot depends on should trigger review and testing of the bot, and someone should monitor the bot's output so errors are caught quickly.
+
+4. The orders arrive through **electronic data interchange (EDI)**. A duplicate check on incoming documents (for example, rejecting a second order with the same customer purchase order number), together with comparing daily counts of orders received with the counts the customer reports sending, would catch the duplicates.
 
 :::

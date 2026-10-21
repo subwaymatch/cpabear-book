@@ -1,34 +1,38 @@
 # General Partnership
 
-A **general partnership** is an unincorporated business with two or more owners carrying on a trade or business for profit. For REG, the most important point is that a general partnership is usually a **pass-through entity** for federal income tax purposes, even though it is a separate entity for many accounting and legal purposes.
+A **general partnership** is an unincorporated business with two or more owners carrying on a trade or business for profit. Legally it is a separate entity in many respects, but for federal income tax it is a **pass-through**: the partnership files a return and pays no income tax, and the partners pay tax on their shares of its income whether or not any cash is distributed.
+
+For REG, the partnership rules come down to three skills: computing ordinary business income and separately stated items, computing a partner's basis, and applying the limits on losses. This chapter covers formation, the Form 1065 computation, guaranteed payments, start-up costs, the QBI deduction, basis, losses, self-employment tax, and distributions. The same rules apply to limited partnerships and to LLCs taxed as partnerships.
 
 ## Core legal and tax profile
 
 - **Owners:** Two or more general partners.
 - **Liability:** Each general partner generally has **unlimited personal liability** for partnership obligations.
-- **Federal return:** The partnership files **Form 1065**, but the entity usually does not pay federal income tax.
+- **Federal return:** **Form 1065**, an information return; the partnership usually pays no federal income tax.
 - **Tax character:** Items flow through to partners on **Schedule K-1**.
+
+---
 
 ## Formation and basis rules
 
 ### Contributions to the partnership
 
-A contribution of cash or property to a partnership is generally **nonrecognition** to both the partner and the partnership, unless an exception applies.
+When a partner contributes cash or property in exchange for a partnership interest, neither the partner nor the partnership generally recognizes gain or loss (§721).
 
 ### Outside basis
 
-A partner's **outside basis** usually begins with:
+A partner's **outside basis** (tax basis in the partnership interest) starts with:
 
 - Cash contributed
-- Adjusted basis of property contributed
+- Plus the adjusted basis of property contributed
 - Plus the partner's share of partnership liabilities
-- Minus liabilities assumed by the partnership that reduce the partner's economic burden
+- Minus any of the partner's own liabilities that the partnership assumes (the other partners' share of that debt is treated as a cash distribution to the contributing partner)
 
 ### Inside basis
 
-The partnership's **inside basis** in contributed property is generally a **carryover basis**.
+The partnership's **inside basis** in contributed property is the partner's **carryover basis**, and the partner's holding period carries over as well.
 
-These basis rules are heavily tested because they drive the treatment of losses, distributions, and the sale of a partnership interest.
+These basis rules matter because outside basis decides how much loss a partner can deduct, whether a distribution is taxable, and the gain or loss when the partner sells the interest.
 
 ---
 
@@ -36,59 +40,53 @@ These basis rules are heavily tested because they drive the treatment of losses,
 
 ### How Form 1065 works
 
-The partnership itself is **not a taxpaying entity**; it files Form 1065 as an **information return** to report its income, deductions, gains, losses, and credits. The results are allocated to partners via **Schedule K** (partnership-level summary) and individual **Schedule K-1s** (one per partner).
-
-Each partner reports their share of partnership items on their own Form 1040 (or other applicable return) regardless of whether the income was actually distributed.
+The partnership files **Form 1065** to report its income, deductions, gains, losses, and credits. Schedule K summarizes the partnership-level totals, and each partner receives a **Schedule K-1** showing his or her share. Each partner then reports those items on his or her own return.
 
 :::info
 
-A partnership must file Form 1065 by the **15th day of the 3rd month** after the close of its tax year (March 15 for calendar-year partnerships). This is **one month earlier** than individual returns. The partnership may request a 6-month extension.
+Form 1065 is due by the **15th day of the 3rd month** after the end of the partnership's tax year (March 15 for a calendar-year partnership), one month earlier than an individual return, so partners have their K-1s in time. A six-month extension is available.
 
 :::
 
 ### Ordinary business income vs. separately stated items
 
-Partnership income is divided into two categories:
+**Ordinary business income (loss)** is the net of items that every partner treats the same way: sales, cost of goods sold, operating expenses, guaranteed payments, and regular depreciation. These are netted on page 1 of Form 1065.
 
-**Ordinary business income (loss)** includes items that do not need separate treatment, such as revenue, COGS, operating expenses, depreciation, and similar items. These are netted on page 1 of Form 1065.
+**Separately stated items** are reported individually because each partner may face different limits or rates:
 
-**Separately stated items** must be reported individually because they may be subject to different limitations or treatment at the partner level:
-
-| Category | Examples |
+| Category | Why It Is Separately Stated |
 |----------|----------|
-| Capital gains and losses | Short-term and long-term |
-| Section 1231 gains and losses | Gains/losses on business property held > 1 year |
-| Charitable contributions | Subject to partner-level AGI limitations |
-| Interest income | Portfolio and tax-exempt |
-| Dividend income | Qualified and nonqualified |
-| Rental income and losses | Subject to passive activity rules at partner level |
-| Section 179 expense | Subject to partner-level dollar and income limits |
-| Foreign taxes paid | Eligible for credit or deduction at partner level |
-| Investment interest expense | Subject to investment interest limitation |
-| Self-employment earnings | Used for SE tax computation |
+| Short-term and long-term capital gains and losses | Preferential rates; netted with the partner's other capital items |
+| §1231 gains and losses | Netted with the partner's other §1231 items |
+| Charitable contributions | Subject to the partner's own AGI limits |
+| Interest and dividend income | Portfolio income; qualified dividends get preferential rates |
+| Tax-exempt income | Excluded from income but increases basis |
+| Rental real estate income and losses | Subject to passive activity rules at the partner level |
+| §179 expense | Subject to dollar and business income limits at the partner level |
+| Foreign taxes paid | Credit or deduction at the partner level |
+| Investment interest expense | Limited to the partner's net investment income |
+| Guaranteed payments and self-employment earnings | Used for the partner's SE tax |
 
-**Example:** Grizzly Partners (a general partnership with two equal partners, Jamie and Sarah) has \$200,000 of ordinary business income, \$30,000 of long-term capital gain, and \$10,000 of charitable contributions. Each partner's K-1 reports \$100,000 of ordinary income, \$15,000 of LTCG, and \$5,000 of charitable contributions. The charitable contributions are separately stated because each partner's deduction depends on their own AGI.
+> **Example:** Grizzly Partners, a general partnership with two equal partners, Jamie and Sarah, has \$200,000 of ordinary business income, \$30,000 of long-term capital gain, and \$10,000 of charitable contributions. Each partner's K-1 shows \$100,000 of ordinary income, \$15,000 of long-term capital gain, and \$5,000 of charitable contributions. The contributions are separately stated because each partner's deduction depends on his or her own AGI.
 
 ---
 
 ## Guaranteed payments
 
-A **guaranteed payment** is a payment to a partner for services rendered or for the use of capital, determined **without regard** to the partnership's income.
-
-### Tax treatment
+A **guaranteed payment** is a payment to a partner for services or for the use of capital, determined **without regard** to the partnership's income (§707(c)).
 
 | Aspect | Treatment |
 |--------|-----------|
 | To the **partnership** | Deductible as an ordinary business expense (reduces ordinary income) |
-| To the **receiving partner** | **Ordinary income**, reported on the partner's return |
-| Self-employment tax | **Subject to SE tax** for the receiving partner |
-| Timing | Included in the partner's income for the **partnership's tax year** in which the partnership deducted the payment |
+| To the **receiving partner** | **Ordinary income**, whether or not the partnership has income |
+| Self-employment tax | A payment for services is **subject to SE tax** |
+| Timing | Included in the partner's tax year in which the partnership's tax year ends |
 
-**Example:** Marcus is a partner in Grizzly Partners and receives a guaranteed payment of \$60,000 for management services. Grizzly Partners deducts the \$60,000 as an expense. Marcus reports \$60,000 as ordinary income on his Form 1040, and it is included in his self-employment income, even if Grizzly Partners had a loss for the year.
+> **Example:** Marcus, a partner in Grizzly Partners, receives a \$60,000 guaranteed payment for management services. Grizzly Partners deducts the \$60,000. Marcus reports \$60,000 of ordinary income, and it is self-employment income to him, even if Grizzly Partners has a loss for the year.
 
 :::tip[Guaranteed Payments vs. Distributions]
 
-Guaranteed payments are for **services or use of capital** and are deductible by the partnership. Regular **distributions** are returns of partnership profits/capital, are **not** deductible, and reduce the partner's outside basis. Know the difference; it is heavily tested.
+Guaranteed payments are compensation: deductible by the partnership and income to the partner. A **distribution** is a withdrawal of the partner's share of profits or capital: it is not deductible, is not separately taxed (the partner was already taxed on the income), and reduces outside basis. Expect a question that tests the difference.
 
 :::
 
@@ -96,170 +94,98 @@ Guaranteed payments are for **services or use of capital** and are deductible by
 
 ## Organizational and start-up costs
 
-A partnership may **immediately expense** up to **\$5,000** of organizational expenditures, with the remainder amortized over **180 months**. The same rule applies separately to **start-up costs**.
-
-The \$5,000 immediate deduction is **reduced dollar-for-dollar** when total costs exceed **\$50,000**.
+A partnership may **deduct up to \$5,000** of organizational expenditures in the year it begins business and **amortize the rest over 180 months**. The same rule applies separately to **start-up costs**. Each \$5,000 deduction is **reduced dollar for dollar** once that category's total costs exceed **\$50,000**. These amounts are fixed by statute.
 
 | Cost Type | Examples | Treatment |
 |-----------|----------|-----------|
-| **Organizational** | Legal fees for partnership agreement, filing fees, accounting fees for setting up books | Up to \$5,000 immediate + 180-month amortization |
-| **Start-up** | Market research, advertising before operations begin, employee training | Up to \$5,000 immediate + 180-month amortization |
-| **Syndication costs** | Commissions and fees for selling partnership interests | **Never deductible** (must be capitalized) |
+| **Organizational** | Legal fees for drafting the partnership agreement, filing fees, accounting fees for setting up the books | Up to \$5,000 deducted; rest over 180 months |
+| **Start-up** | Market research, advertising before operations begin, training employees | Up to \$5,000 deducted; rest over 180 months |
+| **Syndication** | Commissions and fees for selling partnership interests | **Never deductible or amortizable** (capitalized) |
 
-**Example:** Grizzly Partners incurs \$3,500 in organizational costs and \$52,000 in start-up costs. The organizational costs (\$3,500) are fully deductible immediately. For start-up costs, the \$5,000 immediate deduction is reduced by \$2,000 (\$52,000 - \$50,000), so Grizzly Partners deducts \$3,000 immediately and amortizes the remaining \$49,000 over 180 months.
-
-:::caution[Syndication Costs]
-
-Costs of marketing and selling partnership interests (brokerage fees, printing prospectuses, etc.) are **syndication costs**; they are capitalized and **never** deductible or amortizable.
-
-:::
+> **Example:** Grizzly Partners incurs \$3,500 of organizational costs and \$52,000 of start-up costs. It deducts all \$3,500 of organizational costs. For start-up costs, the \$5,000 deduction is reduced by \$2,000 (\$52,000 - \$50,000), so it deducts \$3,000 and amortizes the remaining \$49,000 over 180 months.
 
 ---
 
-## Qualified Business Income (QBI) deduction
+## Qualified business income (QBI) deduction
 
-Partners may be eligible for the **Section 199A QBI deduction**, worth up to **20%** of qualified business income flowing through from the partnership. The deduction is taken at the **partner level** on Form 1040.
+Partners may claim the **§199A QBI deduction** of up to **20%** of the qualified business income that flows through from the partnership. The One Big Beautiful Bill Act (OBBBA, P.L. 119-21) made the deduction permanent. It is computed on each partner's own return, using QBI, W-2 wage, and property information from the K-1. A partner's **guaranteed payments are not QBI**.
 
-For higher-income taxpayers, the deduction may be limited by:
-- **W-2 wages** paid by the partnership
-- **Unadjusted basis immediately after acquisition (UBIA)** of qualified property
-- Whether the business is a **specified service trade or business (SSTB)**
+For partners with taxable income above the threshold, the deduction can be limited by the W-2 wages the partnership paid, by the unadjusted basis of its qualified property, and by whether the business is a **specified service trade or business (SSTB)**. See [Adjustments and Deductions](../taxation-of-individuals/adjustments-and-deductions.md) for the full computation.
 
-**Example:** Jamie's share of Grizzly Partners' qualified business income is \$100,000. If she is under the income threshold, her QBI deduction is 20% × \$100,000 = **\$20,000**, a deduction taken on her personal return.
+> **Example:** Jamie's share of Grizzly Partners' qualified business income is \$100,000, and her taxable income is below the threshold. Her QBI deduction is 20% × \$100,000 = **\$20,000** (assuming 20% of her taxable income is at least that much), claimed on her own return.
 
 ---
 
 ## Partner's tax basis (outside basis)
 
-A partner's **outside basis** (tax basis in the partnership interest) determines the deductibility of losses, the tax treatment of distributions, and the gain or loss on sale of the interest.
-
 ### The BASE mnemonic
 
 :::tip[BASE: Memorize This]
 
-Use the **BASE** mnemonic to compute a partner's ending outside basis:
-
 | Letter | Component |
 |--------|-----------|
 | **B** | **Beginning** tax basis |
-| **A** | **Add**: contributions, all income items (ordinary + separately stated + tax-exempt income), and increase in share of partnership liabilities |
-| **S** | **Subtract**: distributions, all losses and deductions, nondeductible expenses (e.g., 50% of meals, penalties), and decrease in share of partnership liabilities |
-| **E** | **Ending** tax basis |
+| **A** | **Add**: contributions, all income items (ordinary, separately stated, and tax-exempt), and any increase in the partner's share of partnership liabilities |
+| **S** | **Subtract**: distributions, all losses and deductions, nondeductible expenses (for example, the disallowed 50% of meals, and penalties), and any decrease in the partner's share of partnership liabilities |
+| **E** | **Ending** tax basis (never below zero) |
 
 :::
 
-### Detailed basis adjustments
+A partner's share of **partnership liabilities**, recourse and nonrecourse, is part of basis. An increase in that share is treated as a cash contribution, and a decrease is treated as a **cash distribution**, which can trigger gain if it exceeds basis. This is the most important difference from an S corporation, where entity-level debt never adds to a shareholder's basis.
 
-| Adjustment | Direction |
-|-----------|-----------|
-| Cash contributions | **Increase** |
-| Property contributions (at adjusted basis) | **Increase** |
-| Partner's share of partnership liabilities | **Increase** |
-| All income items (ordinary + separately stated) | **Increase** |
-| Tax-exempt income (e.g., municipal bond interest) | **Increase** |
-| Cash distributions received | **Decrease** |
-| Property distributions (at adjusted basis to partnership) | **Decrease** |
-| Decrease in share of partnership liabilities | **Decrease** |
-| All loss and deduction items | **Decrease** |
-| Nondeductible, noncapital expenditures | **Decrease** |
-
-:::info[Partnership Liabilities Increase Basis]
-
-A critical distinction from S corporations: in a partnership, a partner's share of **entity-level liabilities** (recourse and nonrecourse) increases outside basis. This means a partner can deduct losses funded by partnership borrowing, something an S corporation shareholder generally cannot do.
-
-:::
-
-**Example: Outside basis computation**
-
-Sarah contributes \$40,000 cash to Grizzly Partners for a 50% interest. The partnership borrows \$100,000 from a bank (recourse). Sarah's share of liabilities is \$50,000.
-
-| Item | Amount |
-|------|--------|
-| Cash contribution | \$40,000 |
-| Share of partnership liabilities (50% × \$100,000) | +\$50,000 |
-| **Initial outside basis** | **\$90,000** |
-
-During the year, the partnership earns \$60,000 of ordinary income, \$10,000 of tax-exempt interest, and distributes \$20,000 cash to Sarah.
+**Example: outside basis computation.** Sarah contributes \$40,000 of cash to Grizzly Partners for a 50% interest. The partnership borrows \$100,000 from a bank, and Sarah's share of that liability is \$50,000, so her initial outside basis is \$90,000. During the year, the partnership earns \$60,000 of ordinary income and \$10,000 of tax-exempt interest and distributes \$20,000 of cash to Sarah.
 
 | Adjustment | Amount |
 |-----------|--------|
-| Beginning basis | \$90,000 |
-| + Share of ordinary income (50%) | +\$30,000 |
-| + Share of tax-exempt income (50%) | +\$5,000 |
-| - Cash distribution | -\$20,000 |
+| Beginning basis (\$40,000 cash + \$50,000 share of liabilities) | \$90,000 |
+| + Share of ordinary income (50%) | \$30,000 |
+| + Share of tax-exempt income (50%) | \$5,000 |
+| - Cash distribution | (\$20,000) |
 | **Ending outside basis** | **\$105,000** |
+
+If the partnership later repays \$40,000 of the loan, Sarah's share of liabilities falls by \$20,000. That decrease is a deemed cash distribution that reduces her basis to \$85,000.
 
 ---
 
-## Tax basis limitation on losses
+## Limits on deducting partnership losses
 
-A partner can deduct passed-through losses only to the extent of their **outside basis**. Basis cannot go below zero.
-
-### Loss suspension and carryforward
-
-| Rule | Detail |
-|------|--------|
-| **Limitation** | Losses limited to outside basis |
-| **Suspended losses** | Carried forward **indefinitely** until the partner obtains additional basis |
-| **Sources of additional basis** | Contributions, income allocations, increased share of liabilities |
-| **Losses on disposal** | Suspended losses that have not been utilized are **permanently lost** when the partner disposes of the partnership interest |
+A partner can deduct passed-through losses only to the extent of **outside basis**. Losses above basis are **suspended** and carry forward indefinitely until the partner has more basis, from contributions, income allocations, or a larger share of liabilities.
 
 :::warning[Losses Lost on Disposal]
 
-If a partner sells or abandons a partnership interest while suspended losses remain, those losses are **permanently lost**; they cannot be deducted on the final return. This makes it critical to plan basis increases before exiting a partnership.
+Losses suspended for lack of basis are **lost** if the partner sells or otherwise disposes of the interest before restoring basis. They cannot be deducted on the final return.
 
 :::
 
-**Example:** Jamie's outside basis in Grizzly Partners is \$15,000. Her share of ordinary losses for the year is \$22,000. She can deduct only \$15,000 (reducing her basis to zero). The remaining \$7,000 is suspended and carries forward. If Jamie sells her interest next year before restoring basis, the \$7,000 is lost forever.
+> **Example:** Jamie's outside basis in Grizzly Partners is \$15,000, and her share of the year's ordinary loss is \$22,000. She deducts \$15,000, reducing her basis to zero, and the remaining \$7,000 is suspended. If she sells her interest next year without restoring basis, the \$7,000 is never deductible.
 
-### Full loss limitation ordering
-
-After the basis limitation, losses must also pass through the **at-risk limitation** and the **passive activity loss limitation** before they are deductible:
-
-1. **Tax basis limitation** (outside basis)
-2. **At-risk limitation** (Section 465)
-3. **Passive activity limitation** (Section 469)
-4. **Excess business loss limitation** (Section 461(l))
+A loss that passes the basis test must then clear the at-risk limit (§465), the passive activity limit (§469), and the excess business loss limit (§461(l)), in that order. See [Loss Limitations](../taxation-of-individuals/loss-limitations.md).
 
 ---
 
 ## Self-employment tax
 
-A general partner's distributive share of trade or business income is generally included in **self-employment income**. This includes both:
-
-- The partner's share of **ordinary business income**
-- Any **guaranteed payments** received for services
-
-:::note[Limited Partners]
-
-A **limited partner's** distributive share is generally **not** subject to self-employment tax (except for guaranteed payments for services). This distinction is a key planning consideration.
-
-:::
+A general partner's distributive share of ordinary business income is **self-employment income**, and so is any guaranteed payment for services. A **limited partner's** distributive share is generally not self-employment income, although guaranteed payments for services still are.
 
 ---
 
-## LLC tax classification
+## LLCs taxed as partnerships
 
-A domestic **limited liability company (LLC)** with two or more members is classified as a **partnership** by default under the IRS "check-the-box" regulations, unless it elects to be treated as a corporation.
-
-| Number of Members | Default Classification | Can Elect |
-|------------------|----------------------|-----------|
-| Single member | Disregarded entity (sole proprietorship) | Corporation |
-| Two or more members | **Partnership** | Corporation (C or S) |
-
-An LLC taxed as a partnership follows all the rules discussed above (Form 1065 filing, K-1 distribution, basis rules, guaranteed payments, and SE tax treatment), but LLC members typically enjoy **limited liability** protection (unlike general partners).
+A domestic LLC with two or more members is taxed as a partnership by default. It follows every rule in this chapter (Form 1065, K-1s, basis, guaranteed payments, SE tax) while giving its members limited liability. See [Limited Liability Company](./limited-liability-company.md) for the classification rules.
 
 ---
 
-## Distributions and liquidation
+## Distributions
 
-### Nonliquidating distributions
+### Nonliquidating (current) distributions
 
-A current distribution is usually tax free to the extent of the partner's outside basis. Gain is generally recognized only if cash distributed exceeds outside basis.
+A current distribution is generally tax free. The partner recognizes gain only if **cash** distributed, including a deemed cash distribution from a decrease in the partner's share of liabilities, exceeds outside basis. Distributed property generally takes the partnership's basis, limited to the partner's remaining outside basis, and reduces outside basis by that amount.
 
 ### Liquidating distributions
 
-A liquidating distribution ends the partner's interest. Basis must be allocated to the distributed assets, and special rules apply to cash, receivables, and inventory items.
+A liquidating distribution ends the partner's interest. The partner's remaining outside basis is allocated to the assets received. A loss can be recognized only when the partner receives nothing but cash, unrealized receivables, and inventory, and the total is less than outside basis.
+
+---
 
 ## Advantages and disadvantages
 
@@ -267,25 +193,22 @@ A liquidating distribution ends the partner's interest. Basis must be allocated 
 | --- | --- |
 | Tax regime | Pass-through taxation |
 | Formation | Flexible and easy to organize |
-| Liability protection | General partners usually have none |
-| Basis flexibility | Liability allocations can increase outside basis |
+| Liability protection | None for general partners |
+| Basis flexibility | Shares of partnership debt increase outside basis |
 | Management | Partners can participate directly |
 
 ## REG quick hits
 
-- Form 1065 is informational, not usually tax-paying, and is due **March 15** for calendar-year partnerships.
-- Partners receive Schedule K-1s with their share of all items.
-- Track both **inside basis** and **outside basis**.
-- Use the **BASE** mnemonic: Beginning + All income - Subtractions (losses, distributions, nondeductible) = Ending basis.
-- Partnership liabilities increase outside basis (unlike S corps).
-- Losses are limited to outside basis; suspended losses carry forward indefinitely but are **lost on disposal**.
-- Guaranteed payments: ordinary income to partner, deductible by partnership, subject to SE tax.
-- General partners usually pay self-employment tax on business income.
-- Organizational costs: \$5,000 immediate + 180-month amortization (reduced dollar-for-dollar above \$50,000).
-- **Syndication costs are never deductible.**
-- Partners may claim the **QBI deduction** (up to 20%) at the individual level.
-- LLCs with 2+ members default to partnership taxation.
+- Form 1065 is an information return, due **March 15** for a calendar-year partnership.
+- Each partner receives a Schedule K-1 showing his or her share of every item.
+- Use **BASE** to compute outside basis; it never goes below zero.
+- A partner's share of partnership liabilities increases basis; a decrease is a deemed cash distribution.
+- Losses above outside basis carry forward indefinitely but are **lost on disposal**.
+- Guaranteed payments are deductible by the partnership, ordinary income to the partner, and SE income if for services.
+- General partners pay SE tax on their share of business income; limited partners generally do not.
+- Organizational and start-up costs: \$5,000 each deducted, rest over 180 months, reduced dollar for dollar above \$50,000. **Syndication costs are never deductible.**
+- Partners claim the QBI deduction (up to 20%) on their own returns; guaranteed payments are not QBI.
 
 ## Bottom line
 
-A general partnership combines pass-through taxation with management flexibility, but the tradeoff is unlimited liability for the partners. On the exam, the major themes are basis computation (the BASE mnemonic), liability allocations, separately stated items, guaranteed payments, SE tax, the loss limitation ordering, and the tax treatment of distributions.
+A general partnership combines pass-through taxation with management flexibility, at the cost of unlimited liability for the partners. On the exam, the recurring themes are separately stated items, guaranteed payments, basis (including liability shares), the loss limits, SE tax, and the treatment of distributions.

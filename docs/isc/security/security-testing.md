@@ -1,205 +1,184 @@
 # Security Testing
 
-# Security Testing
+A security policy on paper proves little. The question for a CPA is whether the controls it describes are suitably designed and actually work. **Security testing**, in the blueprint's sense, is the work a CPA does to answer that question: understanding how an entity builds security awareness, walking through its security procedures, documenting what testing finds, and detecting deficiencies against the Trust Services Criteria in a SOC 2® engagement.
 
-Security testing is the process of evaluating an organization's security controls, awareness programs, and operational procedures to determine whether they are suitably designed and operating effectively. CPAs engaged in IT audit, advisory, and SOC 2® engagements must understand how to assess security awareness training, document findings in security assessment reports, perform walkthroughs of IT security procedures, and detect control deficiencies related to the Trust Services Criteria.
-This section covers **security awareness training programs**, **security assessment reports**, **IT security walkthroughs**, and **SOC 2® security controls evaluation using the Trust Services Criteria**.
-:::info
-The ISC exam tests security testing at the Application and Analysis levels. You should be able to evaluate an organization's security awareness program, document issues and recommendations from control testing, perform and interpret walkthroughs of IT security procedures, and detect deficiencies in the design and operation of SOC 2® security controls.
-:::
+This chapter takes those tasks in turn: evaluating a security awareness training program, writing up findings for a security assessment report, performing walkthroughs of IT security procedures, and evaluating security controls in a SOC 2® engagement. The tasks are tested at the Application and Analysis levels, so expect scenarios that ask what procedure to perform or how to classify a finding.
 
 ---
 
 ## Security Awareness Training Programs
 
-A **security awareness training program** educates employees about cybersecurity threats, organizational policies, and expected behaviors to reduce human-factor risk. CPAs evaluate whether the program effectively communicates security knowledge and models appropriate behaviors.
+People are the target of most social engineering attacks, so a **security awareness training program** is one of the main ways an entity reduces human risk. It teaches personnel about threats, explains the entity's policies, and models the behavior expected of them. In SOC 2® terms, it is part of how the entity communicates information to support internal control.
 
-### Components of an Effective Program
+### What an Effective Program Includes
 
-| Component                  | Description                                                                                                                              |
-| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| **Content coverage**       | Topics include phishing recognition, password hygiene, data handling, physical security, incident reporting, and acceptable use policies |
-| **Delivery methods**       | Computer-based training (CBT), in-person sessions, videos, newsletters, posters, and micro-learning modules                              |
-| **Frequency**              | Initial onboarding training plus recurring refresher training (typically annual at minimum, quarterly for high-risk roles)               |
-| **Participation tracking** | Records of who completed training, when, and whether they passed assessments                                                             |
-| **Phishing simulations**   | Simulated phishing emails sent to employees to test recognition and reporting behaviors                                                  |
-| **Metrics and reporting**  | Click rates on simulated phishing, training completion percentages, time-to-report metrics, and trends over time                         |
+| Element | Description |
+|---|---|
+| **Content** | Phishing recognition, password practices, data handling, physical security, incident reporting, acceptable use |
+| **Delivery** | Online courses, live sessions, videos, short refreshers, newsletters |
+| **Frequency** | Training at onboarding plus regular refreshers (at least annually, more often for high-risk roles) |
+| **Role-specific content** | Extra training for higher-risk roles, such as finance staff who can send wire transfers |
+| **Participation tracking** | Records of who completed which training and when, and test scores |
+| **Phishing simulations** | Fake phishing emails that test whether people recognize and report them |
+| **Metrics** | Completion rates, simulation click rates, reporting rates, and trends over time |
 
-### Procedures to Assess Effectiveness
+### Procedures to Understand and Evaluate the Program
 
-When evaluating a security awareness program, a CPA should:
+To understand how the entity communicates security knowledge, and whether the program works, the CPA can:
 
-1. **Inspect training materials**: Verify content aligns with the organization's security policies and addresses current threats
-2. **Review completion records**: Confirm all personnel (including contractors) completed required training within the prescribed timeframe
-3. **Analyze simulation results**: Examine phishing simulation click rates and trends; declining rates indicate improving awareness
-4. **Interview personnel**: Ask employees about security policies to gauge actual knowledge retention
-5. **Observe behaviors**: Verify that practices match training (e.g., locked screens, badge-only access, clean desks)
+1. **Inspect the training materials** to see whether they match the entity's policies and address current threats.
+2. **Inspect completion records** to see whether everyone required (including contractors) finished on time.
+3. **Analyze phishing simulation results** and their trend; falling click rates and rising reporting rates suggest the program is working.
+4. **Interview personnel** to gauge what they actually know.
+5. **Observe behavior**, such as locked screens, badge use, and clean desks, to see whether practice matches training.
 
 ### Common Deficiencies
 
-| Deficiency                                      | Impact                                                                      |
-| ----------------------------------------------- | --------------------------------------------------------------------------- |
-| Training not completed by all personnel         | Untrained employees are more susceptible to social engineering attacks      |
-| Content not updated for emerging threats        | Employees unaware of new attack vectors (e.g., AI-generated phishing)       |
-| No consequences for failed phishing simulations | Employees do not take training seriously                                    |
-| Generic, one-size-fits-all content              | Role-specific risks (e.g., finance staff wire transfer fraud) not addressed |
-| No tracking of completion or test scores        | Inability to demonstrate compliance to auditors                             |
+| Deficiency | Why It Matters |
+|---|---|
+| Not all personnel complete training | Untrained people are easier targets for social engineering |
+| Content is not updated | People do not recognize new tactics, such as convincing AI-generated phishing |
+| One-size-fits-all content | Role-specific risks, such as payment fraud aimed at finance staff, go unaddressed |
+| No follow-up on repeated simulation failures | Repeat clickers keep putting the entity at risk |
+| No tracking of completion or results | The entity cannot show that the program operates |
 
-> **Example:** **Bear Co.** conducts annual security awareness training but has no phishing simulation program. During a SOC 2® engagement, the auditor notes that 15% of employees did not complete the most recent training cycle and there is no mechanism to test whether employees can identify phishing emails in practice. This represents a deficiency in the operating effectiveness of the awareness program.
-
-## Security Assessment Reports
-
-A **security assessment report** documents the issues, findings, and recommendations identified during security control testing. CPAs must be able to structure and contribute to these reports as part of IT audit and SOC engagements.
-
-### Report Structure
-
-| Section                  | Purpose                                                                            |
-| ------------------------ | ---------------------------------------------------------------------------------- |
-| **Executive summary**    | High-level overview of scope, methodology, and key findings for management         |
-| **Scope and objectives** | Defines systems, controls, and criteria evaluated                                  |
-| **Issues identified**    | Specific conditions observed that deviate from expected criteria                   |
-| **Findings**             | Detailed descriptions linking observed conditions to specific controls or criteria |
-| **Recommendations**      | Suggested remediation actions to address identified issues                         |
-| **Severity/risk rating** | Classification of findings by impact and likelihood (Critical, High, Medium, Low)  |
-
-### Documenting Control Test Results
-
-When documenting findings from tests of controls, each finding should include:
-| Element | Description | Example |
-|---|---|---|
-| **Condition** | What was observed (the factual situation) | "3 of 25 sampled user access reviews were not completed within the required 90-day period" |
-| **Criteria** | What should have occurred (the standard) | "Policy requires quarterly access reviews completed within 90 days" |
-| **Cause** | Why the deviation occurred | "The access review tool did not send automated reminders to department managers" |
-| **Effect** | The risk or impact of the deviation | "Unauthorized access may persist beyond the review period, increasing the risk of data breach" |
-| **Recommendation** | How to remediate | "Implement automated reminder notifications and escalation procedures for overdue reviews" |
-
-### Severity Rating Framework
-
-| Severity     | Definition                                                                           | Action Required                |
-| ------------ | ------------------------------------------------------------------------------------ | ------------------------------ |
-| **Critical** | Immediate risk of material harm; control does not exist or is completely ineffective | Immediate remediation required |
-| **High**     | Significant control weakness that could lead to material impact if exploited         | Remediation within 30 days     |
-| **Medium**   | Control partially effective but gaps exist that increase risk                        | Remediation within 90 days     |
-| **Low**      | Minor observations or improvement opportunities; risk is minimal                     | Address in next review cycle   |
-
-> **Example:** **Polar Inc.** engages an auditor to perform security control testing. The auditor discovers that the intrusion detection system (IDS) has not been updated with new threat signatures in 6 months. The finding is documented as: Condition: IDS signatures 6 months out of date; Criteria: Policy requires monthly signature updates; Cause: The administrator responsible left the company and the task was not reassigned; Effect: Network may not detect attacks using recently discovered exploit techniques; Severity: High.
-
-## IT Security Walkthroughs
-
-A **walkthrough** is a procedure in which the auditor traces a transaction or process from initiation to completion to understand how the organization executes its security procedures. The auditor then compares what was observed with what is documented in the organization's policies.
-
-### Walkthrough Methodology
-
-```mermaid
-flowchart LR
-    A[Select procedure to evaluate] --> B[Review documented policy]
-    B --> C[Observe actual execution]
-    C --> D[Compare observed vs. documented]
-    D --> E[Identify deviations]
-    E --> F[Document results]
-```
-
-During a walkthrough, the auditor:
-
-1. **Selects the procedure**: Identifies the IT security process to evaluate
-2. **Reviews documentation**: Reads the written policy, procedure, or standard
-3. **Observes execution**: Watches personnel perform the procedure or inspects evidence of execution
-4. **Makes inquiries**: Asks personnel to explain their understanding of the procedure
-5. **Compares**: Determines whether observed practices match documented requirements
-6. **Documents deviations**: Records any differences between policy and practice
-
-### Areas Covered in IT Security Walkthroughs
-
-| Area                         | Procedures Evaluated                                                           | What to Observe                                                                                                      |
-| ---------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
-| **IT risk management**       | Risk assessment processes, risk register maintenance, risk treatment decisions | Whether risk assessments are performed at the required frequency; whether the risk register reflects current threats |
-| **Human resources security** | Background checks, onboarding/offboarding, access provisioning/deprovisioning  | Whether terminated employees' access is revoked within the timeframe specified in policy                             |
-| **Access review**            | Periodic access certification, segregation of duties reviews                   | Whether managers actually review and approve/deny access as documented                                               |
-| **Training and education**   | Security awareness training delivery and tracking                              | Whether training records match policy requirements for content and frequency                                         |
-| **Incident response**        | Incident detection, escalation, communication procedures                       | Whether incident response team members can describe their roles consistent with the documented plan                  |
-
-### Identifying Deviations
-
-A **deviation** occurs when the observed procedure does not match the documented policy. Deviations may indicate:
-
-- The policy is outdated and no longer reflects actual operations
-- Personnel are not following established procedures
-- Controls are not operating as designed
-- Training on the procedure is insufficient
-  **Example:** **Bear Co.** has a documented policy requiring that background checks be completed for all new hires before granting system access. During a walkthrough, the auditor observes that three recent hires were granted access to the ERP system before their background checks were returned. The auditor documents this as a deviation because the observed procedure does not match the policy requirement.
-  :::warning
-  A walkthrough alone does not provide sufficient evidence of operating effectiveness over a period of time. It provides understanding of the process and may identify design deficiencies, but additional testing (e.g., sampling) is required to conclude on operating effectiveness.
-  :::
+**Example:** **Bear Co.** holds annual security training but runs no phishing simulations. During a SOC 2® examination, the service auditor finds that 15% of employees did not complete the most recent training cycle. The incomplete training is an operating deviation from Bear Co.'s own training requirement. The absence of any way to test whether employees can spot phishing is a weakness in the program's design that the auditor would evaluate as well.
 
 ---
 
-## SOC 2® Security Controls Evaluation
+## Security Assessment Reports
 
-In a **SOC 2®** engagement, the practitioner evaluates a service organization's controls relevant to its **service commitments** and **system requirements** using the **Trust Services Criteria (TSC)**. The security category uses the **Common Criteria (CC series)**, which apply across all Trust Services engagements.
+A **security assessment report** documents the issues, findings, and recommendations that come out of testing security controls. The blueprint asks you to provide input into one, so know its structure and how to write up a finding.
 
-### Trust Services Criteria: Security (Common Criteria)
+| Section | Purpose |
+|---|---|
+| **Executive summary** | A short overview of scope, approach, and key findings for management |
+| **Scope and objectives** | The systems, controls, and criteria evaluated |
+| **Findings** | Each issue observed, linked to the control or criterion it relates to |
+| **Risk rating** | The severity of each finding, based on impact and likelihood |
+| **Recommendations** | Suggested actions to fix each issue |
 
-| CC Series | Focus Area                    | Example Controls                                                                             |
-| --------- | ----------------------------- | -------------------------------------------------------------------------------------------- |
-| **CC1**   | Control environment           | Tone at the top, governance structure, personnel commitment to competence and accountability |
-| **CC2**   | Communication and information | Internal/external communication of security policies, reporting mechanisms                   |
-| **CC3**   | Risk assessment               | Identification of threats and vulnerabilities, risk analysis, fraud risk consideration       |
-| **CC4**   | Monitoring activities         | Ongoing and separate evaluations, communication of deficiencies                              |
-| **CC5**   | Control activities            | Logical access controls, change management, system operations controls                       |
-| **CC6**   | Logical and physical access   | Authentication, authorization, physical access restrictions, encryption                      |
-| **CC7**   | System operations             | Incident detection, monitoring, incident response                                            |
-| **CC8**   | Change management             | Change authorization, testing, approval, implementation                                      |
-| **CC9**   | Risk mitigation               | Vendor management, business continuity, insurance                                            |
+Each finding should answer five questions, a structure that will be familiar from internal audit:
 
-### Design Suitability vs. Operating Effectiveness
+| Element | Question | Example |
+|---|---|---|
+| **Condition** | What did we find? | "3 of 25 sampled quarterly access reviews were not completed on time" |
+| **Criteria** | What should have happened? | "Policy requires each access review to be completed within 30 days after quarter-end" |
+| **Cause** | Why did it happen? | "The review tool sends no reminders to department managers" |
+| **Effect** | What is the risk? | "Inappropriate access may go unnoticed, increasing the risk of unauthorized activity" |
+| **Recommendation** | What should be done? | "Add automated reminders and escalate overdue reviews to the CISO" |
 
-| Evaluation Type             | Question Answered                                                               | Example                                                                                                   |
-| --------------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| **Design suitability**      | If the control operates as designed, would it effectively meet the criteria?    | "Is requiring MFA for all remote access a suitably designed control to address unauthorized access risk?" |
-| **Operating effectiveness** | Did the control actually operate as designed throughout the examination period? | "Was MFA consistently enforced for all remote access sessions during the 12-month period?"                |
+Organizations rate severity with their own scales. A typical scheme rates a finding **critical** when a key control is missing or wholly ineffective and the risk is immediate, **high** when a significant weakness could lead to serious harm if exploited, **medium** when a control works only partly, and **low** for minor improvements. Each rating usually carries an expected remediation timeline.
 
-### Types of Deficiencies
+**Example:** Testing at **Polar Inc.** finds that its intrusion detection system has not received new threat signatures in six months. The write-up reads: *Condition:* IDS signatures are six months out of date. *Criteria:* Policy requires monthly signature updates. *Cause:* The administrator responsible left the company and the task was never reassigned. *Effect:* The IDS may miss attacks that use recently discovered techniques. *Rating:* High. *Recommendation:* Assign the task to a role rather than a person, and automate signature updates with alerts on failure.
 
-| Deficiency Type         | Definition                                                                                     | Example                                                                                                                                 |
-| ----------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **Design deficiency**   | The control, even if operating as intended, would not effectively meet the applicable criteria | A password policy requires only 4-character passwords; even if enforced perfectly, this is insufficient to prevent brute-force attacks |
-| **Operating deviation** | The control is suitably designed but did not operate as designed during the period             | The organization requires quarterly access reviews, but one quarter was skipped due to staff turnover                                   |
+---
 
-### Examples of SOC 2® Security Control Deficiencies
+## Walkthroughs of IT Security Procedures
 
-| Criteria                        | Deficiency                                                                                            | Type                |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------- |
-| **CC6.1** (Logical access)      | No process exists to remove access for terminated employees                                           | Design deficiency   |
-| **CC6.1** (Logical access)      | Access removal process exists but 4 of 20 terminated employees retained access for more than 48 hours | Operating deviation |
-| **CC7.2** (Incident monitoring) | Security monitoring tool was offline for 3 weeks during migration with no compensating control        | Operating deviation |
-| **CC5.3** (Change management)   | Changes deployed directly to production without testing; no test environment exists                  | Design deficiency   |
-| **CC2.1** (Communication)       | Security policies not communicated to new hires during onboarding                                     | Operating deviation |
+A **walkthrough** follows a procedure from start to finish to see how the entity actually performs it, then compares what was observed with what the documented policy requires. The steps are:
 
-**Example:** **Illini Security** provides managed security services and undergoes a SOC 2® Type 2 examination. The auditor identifies that the organization's service commitment states "all security events are investigated within 4 hours." However, testing reveals that 8 of 30 sampled security events were not investigated within the 4-hour window. This is an **operating deviation**: the control is suitably designed (4-hour SLA with an investigation procedure) but did not operate effectively during the examination period.
-:::tip[Exam Tip]
-On the ISC exam, distinguish between design deficiencies and operating deviations by asking: "If this control worked perfectly every single time, would it address the risk?" If **no**, it is a **design deficiency**. If **yes**, but it did not work perfectly during the period, it is an **operating deviation**.
+1. **Select the procedure** to evaluate, such as terminating a user's access.
+2. **Read the documentation**: the written policy, procedure, or standard.
+3. **Observe or trace** the procedure being performed, or inspect evidence that it was performed for a specific instance.
+4. **Ask questions** of the people who perform it.
+5. **Compare** the observed practice with the documented requirement.
+6. **Document** any differences.
+
+The blueprint names IT risk management, human resources, and training and education as examples of procedures to walk through. Access reviews and incident response are common choices as well:
+
+| Area | Procedure | What to Look For |
+|---|---|---|
+| **IT risk management** | Risk assessments and the risk register | Assessments performed as often as required; a register that reflects current threats |
+| **Human resources** | Background checks, onboarding, termination | Checks completed before access is granted; access removed on time when people leave |
+| **Access reviews** | Periodic review of user access | Managers actually reviewing and acting on the lists, not just signing them |
+| **Training and education** | Security awareness training | Training content and frequency matching the policy |
+| **Incident response** | Detection, escalation, communication | Team members describing their roles the way the plan does |
+
+A difference between practice and policy can mean that people are not following the procedure, that the policy is out of date, or that training is inadequate. Each possibility leads to a different recommendation, so ask why the difference exists.
+
+**Example:** **Bear Co.**'s policy says no new hire may receive system access until the background check is complete. In a walkthrough, the auditor finds that three recent hires were given ERP access before their checks came back. The observed practice does not match the policy, so the auditor documents a deviation.
+
+:::warning
+
+A walkthrough shows how a procedure works and whether a control has been implemented, and it can reveal design problems. It does not show that a control operated effectively throughout a period. That takes testing a sample of instances across the period.
+
 :::
+
+---
+
+## Evaluating Security Controls in a SOC 2® Engagement
+
+In a SOC 2® engagement, the service auditor evaluates whether the service organization's controls achieve its **service commitments and system requirements** related to security, using the **Trust Services Criteria**. The criteria for security are the **common criteria**, numbered CC1 through CC9, which apply in every SOC 2® engagement whatever other categories are included.
+
+| Series | Topic | What It Covers |
+|---|---|---|
+| **CC1** | Control environment | Integrity and ethics, board oversight, structure and authority, competence, accountability |
+| **CC2** | Communication and information | Quality information, internal communication (including how to report problems), external communication |
+| **CC3** | Risk assessment | Objectives, risk identification and analysis, fraud risk, assessing changes |
+| **CC4** | Monitoring activities | Ongoing and separate evaluations, communicating deficiencies |
+| **CC5** | Control activities | Selecting control activities, general controls over technology, policies and procedures |
+| **CC6** | Logical and physical access | Access security, granting and removing access, physical access, disposal of data, protection against outside threats, encryption in transit, malware prevention |
+| **CC7** | System operations | Detecting vulnerabilities and anomalies, evaluating security events, responding to and recovering from incidents |
+| **CC8** | Change management | Authorizing, designing, testing, approving, and implementing changes |
+| **CC9** | Risk mitigation | Mitigating business disruption risk, managing vendors and business partners |
+
+CC1 through CC5 restate COSO's 17 internal control principles. CC6 through CC9 are **supplemental criteria** that add security-specific detail; the [Planning and Performing SOC Engagements](../soc-engagements/planning-and-performing-soc-engagements.md) chapter explains this structure.
+
+### Design Deficiencies and Operating Deviations
+
+The auditor evaluates two things. **Suitability of design** asks whether the control, if it operated as described, would meet the criterion. **Operating effectiveness** (in a Type 2 engagement) asks whether it did operate as described throughout the period.
+
+| Problem | Definition | Example |
+|---|---|---|
+| **Design deficiency** | A needed control is missing, or the control would not meet the criterion even if performed perfectly | The password policy allows 4-character passwords; enforcing it perfectly would still leave accounts easy to crack |
+| **Operating deviation** | A suitably designed control was not performed, or not performed as designed, during the period | Quarterly access reviews are required, but one quarter was skipped during staff turnover |
+
+:::tip[Exam Tip]
+
+Ask: "If this control worked perfectly every time, would it address the risk?" If **no**, it is a **design deficiency**. If **yes**, but it did not always work during the period, it is an **operating deviation**.
+
+:::
+
+Here are typical findings mapped to the criteria they relate to:
+
+| Criterion | Finding | Classification |
+|---|---|---|
+| **CC6.2** (removing access) | No process exists to remove access when employees leave | Design deficiency |
+| **CC6.2** (removing access) | A removal process exists, but 4 of 20 departed employees kept access for more than 48 hours | Operating deviation |
+| **CC7.2** (monitoring for anomalies) | The security monitoring tool was offline for three weeks during a migration, with nothing in its place | Operating deviation |
+| **CC8.1** (change management) | No test environment exists, so changes go to production untested | Design deficiency |
+| **CC2.2** (internal communication) | Policy requires new hires to receive the security policies at onboarding, but a sample shows several did not | Operating deviation |
+
+**Example:** **Illini Security** provides managed security services and undergoes a SOC 2® Type 2 examination. Its service commitment says every security alert is investigated within 4 hours. Testing finds that 8 of 30 sampled alerts were investigated late. The control (a 4-hour investigation procedure with assigned analysts) is suitably designed, but it did not operate as designed for those alerts, so this is an **operating deviation**.
 
 ---
 
 ## Summary
 
-| Topic                       | Key Takeaway                                                                                                                                                                                      |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Security awareness training | Evaluated by content coverage, delivery methods, frequency, participation tracking, phishing simulations, and metrics; deficiencies include incomplete participation and outdated content         |
-| Security assessment reports | Document findings using Condition, Criteria, Cause, Effect, and Recommendation; assign severity ratings (Critical, High, Medium, Low)                                                             |
-| IT security walkthroughs    | Compare observed procedures to documented policies; cover IT risk management, HR security, access review, training, and incident response                                                         |
-| SOC 2® security controls    | Use Trust Services Common Criteria (CC1-CC9); distinguish design deficiencies (control would not meet criteria even if operating) from operating deviations (control did not operate as designed) |
+| Topic | Key Takeaway |
+|---|---|
+| Security awareness training | Evaluate content, frequency, role-specific coverage, tracking, simulations, and metrics |
+| Security assessment reports | Write each finding as condition, criteria, cause, effect, and recommendation, with a risk rating |
+| Walkthroughs | Compare observed practice with documented policy; a walkthrough alone does not prove operating effectiveness |
+| SOC 2® security | Common criteria CC1-CC9; distinguish design deficiencies from operating deviations |
 
 ---
 
 ## Practice Questions
 
-1. **Kingfisher Industries** conducts quarterly phishing simulations as part of its security awareness program. Over the past year, the click rate has remained steady at 22% despite employees receiving training after each failed simulation. Management asks the CPA to evaluate the program's effectiveness. What deficiencies should the CPA investigate, and what recommendations are appropriate?
-2. **Illini Entertainment** is undergoing a SOC 2® Type 2 examination. The organization's documented policy states that all user access is reviewed quarterly by department managers. During testing, the auditor selects a sample of 25 access reviews and finds that 6 reviews were completed 45 days past the quarterly deadline, and 2 reviews have no evidence of completion at all. How should the auditor classify these findings?
-3. **Bear Co.** hires a new IT security manager who performs a walkthrough of the employee termination process. The documented policy requires that system access be revoked within 24 hours of termination. During the walkthrough, the manager observes that the HR department sends termination notifications to IT via email, but there is no automated workflow, no tracking mechanism, and no verification step to confirm access was actually revoked. What type of deficiency is this, and why?
-   :::tip[Answers]
-4. The steady 22% click rate despite repeated training indicates the program is **not effectively changing behavior**. The CPA should investigate: (a) whether training content is relevant and engaging, (b) whether consequences exist for repeated failures, (c) whether training is tailored to the types of simulations being conducted, and (d) whether high-risk repeat clickers receive additional targeted training. Recommendations include implementing role-based training, escalating consequences for repeat offenders, varying simulation difficulty, and incorporating real-world examples from the organization's industry.
-5. The 6 late reviews represent **operating deviations**: the control is suitably designed (quarterly reviews by managers) but did not operate within the required timeframe. The 2 reviews with no evidence of completion are also **operating deviations** and are more severe because there is no evidence the control operated at all for those cases. The auditor should document these as exceptions, noting the deviation rate (8 of 25 = 32%), assess the severity, and determine whether the deviations prevent the organization from meeting the applicable Trust Services Criteria (likely CC6.1 regarding logical access controls).
-6. This is a **design deficiency**. Even if the email notification process operates exactly as designed every single time, the control would not reliably meet the 24-hour revocation requirement because: (a) there is no automated workflow to ensure timely action, (b) there is no tracking to prevent notifications from being overlooked, and (c) there is no verification step to confirm access was actually revoked. The control, as designed, relies entirely on manual email processing with no accountability mechanism, so it is insufficient to meet the stated criteria regardless of how consistently it is followed.
-   :::
+1. **Kingfisher Industries** runs quarterly phishing simulations. For a year, the click rate has stayed at 22%, even though employees who click must complete extra training. Management asks the CPA to evaluate the program. What should the CPA look into, and what might the CPA recommend?
+
+2. **Illini Entertainment** is in a SOC 2® Type 2 examination. Its policy says department managers review user access every quarter. Of 25 sampled reviews, 6 were completed 45 days late and 2 have no evidence of being done at all. How should the auditor classify these findings?
+
+3. A new IT security manager at **Bear Co.** walks through the employee termination process. Policy requires system access to be removed within 24 hours of termination. HR notifies IT by ordinary email; there is no workflow, no tracking, and no check that access was actually removed. What kind of deficiency is this, and why?
+
+:::tip[Answers]
+
+1. A flat 22% click rate means the program is **not changing behavior**. The CPA should look at whether the content is relevant and current, whether training matches the kinds of phishing being simulated, whether repeat clickers get escalating follow-up, and whether high-risk roles get targeted training. Recommendations could include role-based content, escalation for repeat clickers, varied simulation difficulty, real examples from the entity's own industry, and measuring the reporting rate as well as the click rate.
+
+2. All 8 are **operating deviations**: the control (quarterly manager reviews) is suitably designed, but it did not operate as designed for these instances. The 2 reviews with no evidence are more serious, since there is no sign the control operated at all. The auditor documents the exceptions (8 of 25, or 32%), investigates their cause, and evaluates whether the deviations mean the related criteria, such as CC6.2 and CC6.3 on granting, changing, and removing access, were not met.
+
+3. A **design deficiency**. Even if HR sent every email and IT read every one, the process has no mechanism to make removal happen within 24 hours, no tracking to keep a notice from being overlooked, and no check that access was actually removed. As designed, it cannot reliably meet the requirement, however faithfully people follow it.
+
+:::

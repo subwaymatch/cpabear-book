@@ -1,12 +1,16 @@
 # Accounting for Income Taxes
 
-## GAAP vs. Tax Differences
+A company keeps two sets of rules in mind when it reports income: generally accepted accounting principles (GAAP) for its financial statements and the Internal Revenue Code (IRC) for its tax return. The two often recognize the same revenue or expense in different years, and sometimes one recognizes an item the other never does. Accounting Standards Codification (ASC) 740 reconciles them. The result is income tax expense that has two parts: the tax actually owed for the year, and the future tax effects of differences that will reverse later. FAR tests this topic through calculation: current and deferred tax, the journal entry for the provision, valuation allowances, and uncertain tax positions. The chapter closes with the income tax disclosures introduced by ASU 2023-09.
 
-Generally accepted accounting principles (GAAP) and the Internal Revenue Code (IRC) recognize some revenues and expenses differently. These differences cause **book income** (pretax financial income) to differ from **taxable income**.
+## Why Book Income and Taxable Income Differ
+
+**Pretax financial income** (book income) is computed under GAAP. **Taxable income** is computed under the IRC. The bridge between them is:
 
 $$
 \text{Taxable Income} = \text{Pretax Financial Income} \pm \text{Permanent Differences} \pm \text{Temporary Differences}
 $$
+
+The two kinds of differences are treated very differently, so the first job in any tax question is to sort them.
 
 ---
 
@@ -14,33 +18,27 @@ $$
 
 ### Permanent Differences
 
-Permanent differences **never reverse**. They affect either book income or taxable income, but not both, so they do **not** create deferred taxes.
+**Permanent differences** never reverse. They affect book income or taxable income, but not both, so they never create deferred taxes. They do change the effective tax rate.
 
 | Example | Effect |
 |---|---|
 | Municipal bond interest | Included in book income; never taxable |
-| Life insurance premiums (company-owned) | Book expense; never deductible |
+| Life insurance premiums (company is the beneficiary) | Book expense; never deductible |
 | Fines and penalties | Book expense; never deductible |
-| Life insurance proceeds (company-owned) | Included in book income; never taxable |
+| Life insurance proceeds (company is the beneficiary) | Included in book income; never taxable |
 
 ### Temporary Differences
 
-Temporary differences **reverse** in future periods. They create **deferred tax assets (DTAs)** or **deferred tax liabilities (DTLs)**.
+**Temporary differences** arise when the book basis of an asset or liability differs from its tax basis. They reverse in future periods, and they create **deferred tax assets (DTAs)** or **deferred tax liabilities (DTLs)**. To classify one, ask what it will do when it reverses. If it will **increase** future taxable income (a future taxable amount), it creates a **DTL**. If it will **decrease** future taxable income (a future deductible amount), it creates a **DTA**.
 
 | Example | Timing | Creates |
 |---|---|---|
-| Depreciation (straight-line for book, Modified Accelerated Cost Recovery System (MACRS) for tax) | Larger tax deduction now, larger book expense later | **DTL** |
-| Estimated warranty liability | Book expense now, tax deduction when paid | **DTA** |
-| Bad debt expense (allowance method) | Book expense now, tax deduction when written off | **DTA** |
-| Rent collected in advance (unearned rent) | Taxable when received, book income when earned | **DTA** |
+| Depreciation (straight-line for books, accelerated for tax) | Larger tax deduction now, larger book expense later | **DTL** |
 | Installment sales | Book income now, taxable when collected | **DTL** |
-
-:::info[Key Principle]
-
-- **Future taxable amounts** create a deferred tax liability (DTL).
-- **Future deductible amounts** create a deferred tax asset (DTA).
-
-:::
+| Allowance for credit losses | Book expense now, tax deduction when the receivable is written off | **DTA** |
+| Estimated warranty liability | Book expense now, tax deduction when paid | **DTA** |
+| Rent collected in advance (unearned rent) | Taxable when received, book income when earned | **DTA** |
+| Inventory costs capitalized for tax but expensed for books (uniform capitalization rules) | Book expense now, tax deduction when the inventory is sold | **DTA** |
 
 ---
 
@@ -49,36 +47,36 @@ Temporary differences **reverse** in future periods. They create **deferred tax 
 Total income tax expense has two components:
 
 $$
-\text{Total Tax Expense} = \text{Current Tax Expense (CTE)} + \text{Deferred Tax Expense (DTE)}
+\text{Total Tax Expense} = \text{Current Tax Expense} + \text{Deferred Tax Expense (Benefit)}
 $$
 
-### Current Tax Expense
+**Current tax expense** is the tax on this year's return:
 
 $$
-\text{CTE} = \text{Taxable Income} \times \text{Enacted Tax Rate}
+\text{Current Tax Expense} = \text{Taxable Income} \times \text{Enacted Tax Rate}
 $$
 
-### Deferred Tax Expense
+**Deferred tax expense** is the change in the deferred tax balances during the year. ASC 740 uses a balance sheet approach: compute the deferred tax balances that should exist at year-end (each temporary difference times the **enacted** rate expected to apply when it reverses), then compare them with the beginning balances.
 
 $$
-\text{DTE} = \Delta DTL - \Delta DTA
+\text{Deferred Tax Expense} = \Delta \text{DTL} - \Delta \text{DTA}
 $$
 
-Here $\Delta$ is the change in the balance during the period. Deferred tax balances are measured using the **enacted** tax rate expected to apply when the temporary differences reverse.
+An increase in a DTL adds to tax expense. An increase in a DTA reduces it.
 
 ---
 
 ## DTL and DTA Calculations
 
-### Deferred Tax Liability Example
+### Deferred Tax Liability
 
-Bear Co. buys equipment for \$100,000. Book depreciation is straight-line over 5 years (\$20,000 per year). Tax depreciation uses MACRS, with a Year 1 deduction of \$33,000. The enacted tax rate is 21%.
+Bear Co. buys equipment for \$100,000. Book depreciation is straight-line over 5 years (\$20,000 per year). Tax depreciation in Year 1 is \$33,000. The enacted tax rate is 21%.
 
 | | Book | Tax | Difference |
 |---|---|---|---|
 | Year 1 depreciation | \$20,000 | \$33,000 | \$13,000 |
 
-The \$13,000 excess tax deduction means Bear Co. will pay **more tax in the future** when the difference reverses.
+At year-end the equipment's book basis (\$80,000) exceeds its tax basis (\$67,000) by \$13,000. Bear Co. has deducted more for tax than for books, so it will have smaller tax deductions, and pay **more tax**, in later years when the difference reverses:
 
 $$
 \text{DTL} = \$13{,}000 \times 21\% = \$2{,}730
@@ -89,22 +87,9 @@ Dr. Income tax expense          2,730
     Cr. Deferred tax liability          2,730
 ```
 
-### Deferred Tax Asset Example
+### Deferred Tax Asset
 
-Polar Co. records an estimated warranty liability of \$50,000. For tax purposes, warranty costs are deductible only when paid. The tax rate is 21%.
-
-$$
-\text{DTA} = \$50{,}000 \times 21\% = \$10{,}500
-$$
-
-```journal
-Dr. Deferred tax asset         10,500
-    Cr. Income tax expense             10,500
-```
-
-### Bad Debt Example
-
-Grizzly Inc. uses the allowance method and records bad debt expense of \$30,000. For tax purposes, bad debts are deductible only when written off (the direct write-off method). No accounts were written off this year.
+Grizzly Inc. records credit loss expense of \$30,000, building its allowance for credit losses to \$30,000. For tax purposes, bad debts are deductible only when specific accounts are written off, and none were written off this year. The \$30,000 will be deductible in the future:
 
 $$
 \text{DTA} = \$30{,}000 \times 21\% = \$6{,}300
@@ -115,11 +100,13 @@ Dr. Deferred tax asset          6,300
     Cr. Income tax expense              6,300
 ```
 
+An accrued warranty liability works the same way: the expense is recorded for books now and deducted for tax when the repairs are paid.
+
 ---
 
 ## Comprehensive Example
 
-Panda Industries has pretax financial income of \$500,000 and a 21% tax rate. The following differences exist:
+Panda Industries has pretax financial income of \$500,000 and a 21% tax rate. The following differences arose this year:
 
 | Item | Amount | Type |
 |---|---|---|
@@ -155,7 +142,7 @@ $$
 \$95{,}550 + \$8{,}400 - \$3{,}150 = \$100{,}800
 $$
 
-Check: (\$500,000 - \$20,000) × 21% = \$100,800. Only the permanent difference changes total tax expense.
+Check: (\$500,000 - \$20,000) × 21% = \$100,800. Temporary differences shift tax between years but do not change total tax expense; only the permanent difference does.
 
 ```journal
 Dr. Income tax expense        100,800
@@ -168,52 +155,40 @@ Dr. Deferred tax asset          3,150
 
 ## Valuation Allowance
 
-A **valuation allowance** reduces a DTA to the amount that is **more likely than not** (a likelihood of more than 50%) to be realized.
+A DTA is worth something only if the company will have enough taxable income in the future to use the deductions. A **valuation allowance** reduces a DTA to the amount that is **more likely than not** (a likelihood of more than 50%) to be realized. If it is more likely than not that some or all of the DTA will **not** be realized, an allowance is required for that portion.
 
-:::warning
+The judgment weighs all available evidence. Realization depends on future taxable income from four possible sources:
 
-If it is more likely than not that **some or all** of the DTA will not be realized, a valuation allowance must be recorded.
+1. Future reversals of existing taxable temporary differences (existing DTLs)
+2. Future taxable income from operations, excluding reversing differences
+3. Taxable income in prior carryback years, if carryback is permitted
+4. Tax-planning strategies the company would use to keep the benefit from expiring
 
-:::
+Negative evidence points toward an allowance: cumulative losses in recent years, losses expected in the near future, a history of carryforwards expiring unused, and uncertainties that could hurt future profits. Objectively verifiable negative evidence, such as recent cumulative losses, is hard to overcome.
 
-Factors suggesting a valuation allowance is needed:
-
-- A history of operating losses
-- Losses expected in the near future
-- Carryforwards that expire unused
-- A lack of future sources of taxable income
-
-**Example:** Kodiak Partners has a DTA of \$60,000 but determines that only \$40,000 is more likely than not to be realized:
+Kodiak Partners has a DTA of \$60,000 but determines that only \$40,000 is more likely than not to be realized:
 
 ```journal
 Dr. Income tax expense         20,000
     Cr. Valuation allowance            20,000
 ```
 
-The DTA is presented net: \$60,000 - \$20,000 = \$40,000.
+The DTA is presented net: \$60,000 - \$20,000 = \$40,000. The allowance is reassessed every period. If the evidence later improves, the allowance is reduced, and the reduction lowers income tax expense.
 
 ---
 
 ## Enacted Tax Rate Changes
 
-When an **enacted** tax rate changes, deferred tax balances are adjusted to the new rate. The adjustment goes to income from continuing operations in the **period of enactment**.
+Deferred taxes are measured using **enacted** rates, never rates that are only proposed. When a new rate is enacted, the deferred tax balances are remeasured, and the entire effect goes to income tax expense from continuing operations in the **period of enactment**.
 
 $$
 \text{Adjustment} = \text{Temporary Difference Balance} \times (\text{New Rate} - \text{Old Rate})
 $$
 
-Bear Co. has a cumulative temporary difference of \$200,000 that created a DTL. The rate changes from 35% to 21%:
+Bear Co. has a cumulative taxable temporary difference of \$200,000. The enacted rate for future years falls from 35% to 21%:
 
 $$
-\text{Old DTL} = \$200{,}000 \times 35\% = \$70{,}000
-$$
-
-$$
-\text{New DTL} = \$200{,}000 \times 21\% = \$42{,}000
-$$
-
-$$
-\text{Reduction} = \$70{,}000 - \$42{,}000 = \$28{,}000
+\text{Reduction in DTL} = \$200{,}000 \times (35\% - 21\%) = \$28{,}000
 $$
 
 ```journal
@@ -223,111 +198,103 @@ Dr. Deferred tax liability     28,000
 
 ---
 
-## Net Operating Losses (NOL)
+## Net Operating Losses
 
-A **net operating loss (NOL)** occurs when allowable tax deductions exceed gross income. The carryback and carryforward rules depend on the year the loss arose.
+A **net operating loss (NOL)** occurs when allowable tax deductions exceed gross income. Under current federal law, an NOL arising in a tax year beginning after 2020 cannot be carried back (apart from narrow exceptions such as farming losses). It is carried forward indefinitely, but the NOL deduction in any year is limited to **80% of taxable income** computed before the deduction. Older losses followed different rules, such as a 2-year carryback and 20-year carryforward for losses arising before 2018.
 
-### NOL Rules by Period
+Because an NOL carryforward will reduce future taxes, it creates a **DTA** in the year of the loss, subject to the same valuation allowance assessment as any other DTA.
 
-| Period of Loss | Carryback | Carryforward |
-| -------------- | --------- | ------------ |
-| Tax years before 2018 | 2 years back | 20 years forward |
-| 2018 to 2020 (CARES Act) | 5 years back | Indefinite (80% limit in tax years after 2020) |
-| 2021 and later | **No carryback** | Indefinite, limited to **80% of taxable income** |
-
-The CARES Act is the Coronavirus Aid, Relief, and Economic Security Act of 2020.
-
-:::tip[Exam Tip]
-
-For losses arising in 2021 and later, an NOL carryforward can offset only **80%** of taxable income in any year. The remaining 20% is taxable.
-
-:::
-
-**Example:** Sloth Security has a 2024 NOL of \$100,000 and taxable income of \$150,000 in 2025.
-
-$$
-\text{NOL limit} = \$150{,}000 \times 80\% = \$120{,}000
-$$
-
-The \$100,000 NOL is below the \$120,000 limit, so all of it can be used:
-
-$$
-\text{Taxable income after NOL} = \$150{,}000 - \$100{,}000 = \$50{,}000
-$$
-
-When the NOL arises in 2024, Sloth recognizes a DTA of \$100,000 × 21% = \$21,000:
+Sloth Security has a 2024 NOL of \$100,000 and records a DTA of \$100,000 × 21% = \$21,000:
 
 ```journal
 Dr. Deferred tax asset         21,000
     Cr. Income tax benefit             21,000
 ```
 
-When the NOL is used in 2025:
+In 2025, Sloth has taxable income of \$110,000 before the NOL deduction. The deduction is limited to \$110,000 × 80% = \$88,000, so taxable income after the deduction is \$22,000 and \$12,000 of the NOL carries forward. Sloth uses \$88,000 × 21% = \$18,480 of the DTA:
 
 ```journal
-Dr. Income tax expense         21,000
-    Cr. Deferred tax asset             21,000
+Dr. Income tax expense         18,480
+    Cr. Deferred tax asset             18,480
 ```
+
+The remaining DTA is \$2,520 (\$12,000 × 21%).
 
 ---
 
 ## Uncertain Tax Positions
 
-Accounting Standards Codification (ASC) 740-10 uses a **two-step approach** for uncertain tax positions:
+A company sometimes takes a position on its return that the tax authority might challenge, such as an aggressive deduction. ASC 740-10 lets the company recognize the benefit of the position in its financial statements only to the extent the benefit is likely to survive an examination. It uses a **two-step approach**:
 
-1. **Recognition:** Recognize the tax benefit only if the position is **more likely than not** (more than 50%) to be sustained on examination, based on its technical merits.
-2. **Measurement:** Recognize the **largest amount** of benefit that is more than 50% likely to be realized on settlement.
+1. **Recognition:** recognize a benefit only if the position is **more likely than not** (more than 50%) to be sustained on examination, based on its technical merits. Assume the tax authority will examine the position with full knowledge of all relevant information.
+2. **Measurement:** recognize the **largest amount** of benefit that has a cumulative probability of more than 50% of being realized on settlement.
 
-```mermaid
-graph TD
-    A[Tax Position Taken] --> B{More likely than not to be sustained?}
-    B -->|Yes| C[Recognize largest amount > 50% likely]
-    B -->|No| D[Do not recognize any benefit]
+Polar Co. takes a deduction worth \$21,000 of tax on its return and concludes the position is more likely than not to be sustained. It estimates these possible outcomes:
+
+| Benefit Realized | Probability | Cumulative Probability |
+|---|---|---|
+| \$21,000 | 30% | 30% |
+| \$15,000 | 30% | 60% |
+| \$8,000 | 40% | 100% |
+
+The largest benefit with a cumulative probability above 50% is \$15,000, so Polar recognizes \$15,000. Because it claimed the full \$21,000 on its return, it records a **liability for unrecognized tax benefits** for the \$6,000 difference:
+
+```journal
+Dr. Income tax expense          6,000
+    Cr. Liability for unrecognized tax benefits[l] 6,000
 ```
+
+If the position had failed step 1, Polar would recognize no benefit at all and the liability would be the full \$21,000. Interest and penalties on unrecognized tax benefits are accrued. The company elects, as a policy applied consistently, whether to classify them as income tax expense or as interest and other expense.
 
 ---
 
 ## Balance Sheet Presentation
 
-Under current GAAP (Accounting Standards Update (ASU) 2015-17), **all** deferred tax assets and liabilities are classified as **noncurrent**. DTAs and DTLs of the same tax jurisdiction are netted.
-
-| Component | Classification |
-|---|---|
-| Income tax payable | Current liability |
-| Deferred tax asset | Noncurrent asset |
-| Deferred tax liability | Noncurrent liability |
+All deferred tax assets and liabilities are classified as **noncurrent**. Within each tax-paying component and tax jurisdiction, DTAs and DTLs are netted and presented as a single noncurrent amount. Income taxes payable for the current year are a current liability.
 
 ---
 
 ## Investee Undistributed Earnings
 
-Under the equity method, the investor's share of investee earnings is book income, but only dividends are taxable. Undistributed earnings therefore create a temporary difference and a DTL.
+Under the equity method, the investor's share of investee earnings is book income, but only dividends are taxable. The undistributed earnings are therefore a temporary difference that creates a DTL:
 
 $$
 \text{DTL} = \text{Undistributed Earnings} \times \text{Tax Rate}
 $$
 
-This simplified formula ignores any dividends-received deduction (DRD). If a DRD applies, use only the taxable portion of the undistributed earnings.
-
-:::note
-
-The **indefinite reversal** exception applies only to the undistributed earnings of **foreign subsidiaries and foreign corporate joint ventures** that are essentially permanent in duration. If the investor can show those earnings will be reinvested indefinitely, no DTL is recorded. The exception does not apply to an ordinary equity-method investee.
-
-:::
+This simplified formula ignores any dividends-received deduction (DRD). If a DRD applies, use only the taxable portion of the undistributed earnings. The **indefinite reversal** exception, which allows a company to skip the DTL when it can show the earnings will be reinvested indefinitely, applies only to the undistributed earnings of **foreign subsidiaries and foreign corporate joint ventures** that are essentially permanent in duration. It does not apply to an ordinary equity-method investee.
 
 ---
 
-## Summary
+## Income Tax Disclosures (ASU 2023-09)
 
-:::note[Chapter Checklist]
+ASU 2023-09 rewrote the income tax footnote to give investors more detail about where a company pays tax and why its effective rate differs from the statutory rate.
 
-- [ ] Distinguish permanent from temporary differences
-- [ ] Calculate current tax expense from taxable income
-- [ ] Determine DTLs and DTAs from temporary differences
-- [ ] Apply the more-likely-than-not test for the valuation allowance
-- [ ] Adjust deferred taxes for enacted rate changes
-- [ ] Apply NOL carryback and carryforward rules by time period
-- [ ] Evaluate uncertain tax positions using the two-step approach
-- [ ] Present all deferred taxes as noncurrent
+**All entities** disclose:
 
-:::
+- **Income taxes paid** (net of refunds), split among federal, state, and foreign, and further split by any individual jurisdiction that accounts for at least 5% of total income taxes paid
+- **Pretax income (loss) from continuing operations**, split between domestic and foreign
+- **Income tax expense (benefit) from continuing operations**, split among federal, state, and foreign
+
+**Public business entities** also present a tabular **rate reconciliation**, in both percentages and dollar amounts, from the statutory rate to the effective rate. It uses eight specific categories:
+
+1. State and local income tax, net of federal income tax effect
+2. Foreign tax effects
+3. Effect of changes in tax laws or rates enacted in the current period
+4. Effect of cross-border tax laws
+5. Tax credits
+6. Changes in valuation allowances
+7. Nontaxable or nondeductible items
+8. Changes in unrecognized tax benefits
+
+Within these categories, any reconciling item equal to at least **5%** of the amount computed by multiplying pretax income by the statutory rate must be shown separately. Entities that are not public business entities instead describe the nature and effect of their significant reconciling items in words.
+
+For Panda Industries in the comprehensive example, the only reconciling item is the nontaxable municipal bond interest:
+
+| | Amount | Percent |
+|---|---|---|
+| Tax at the U.S. federal statutory rate (\$500,000 × 21%) | \$105,000 | 21.00% |
+| Nontaxable or nondeductible items (municipal bond interest) | (4,200) | (0.84%) |
+| **Income tax expense and effective rate** | **\$100,800** | **20.16%** |
+
+ASU 2023-09 also removed two older disclosures: the estimate of how unrecognized tax benefits could reasonably change within the next 12 months, and the cumulative amount of temporary differences for which no DTL was recognized on investments in subsidiaries and corporate joint ventures.

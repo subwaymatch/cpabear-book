@@ -1,186 +1,103 @@
 # Professional Skepticism and Professional Judgment
 
-Professional skepticism and professional judgment are foundational principles that permeate every phase of an audit engagement. They are not abstract concepts; they directly influence how auditors gather evidence, evaluate findings, and reach conclusions. Without a questioning mind and sound judgment, even the most technically precise audit procedures can fail to detect material misstatements or produce misleading reports.
+Two auditors can perform the same procedures on the same account and reach different conclusions. The difference is usually not technique. It is whether the auditor questioned what the evidence showed and made a sound decision about what to do next. Those two qualities, **professional skepticism** and **professional judgment**, run through every stage of an audit, and the blueprint tests both the concepts and the things that get in their way: unconscious biases, threats, incentives, and mental shortcuts. This chapter defines each concept, shows how they work together, and then looks at the impediments.
 
-This section covers the nature and application of **professional skepticism**, the role of **professional judgment**, common **unconscious auditor biases**, other **impediments** to effective skepticism and judgment, and how these two principles **interrelate** throughout an engagement.
-
-:::info
-
-Professional skepticism and professional judgment are required by both **AICPA** (AU-C 200) and **PCAOB** (AS 1015, AS 2401) standards. Both frameworks emphasize that these qualities must be exercised throughout the entire audit, from planning through reporting.
-
-:::
+Both sets of standards require them. For nonissuers, AU-C 200 requires the auditor to plan and perform the audit with professional skepticism and to exercise professional judgment. For issuers, **AS 1000**, *General Responsibilities of the Auditor in Conducting an Audit*, requires due professional care, which includes professional skepticism. AS 1000 replaced several older PCAOB standards, including AS 1015 on due professional care, for audits of fiscal years beginning on or after December 15, 2024.
 
 ---
 
 ## Professional Skepticism
 
-**Professional skepticism** is an attitude that includes a questioning mind, being alert to conditions that may indicate possible misstatement due to fraud or error, and a critical assessment of audit evidence. It does not mean the auditor assumes management is dishonest, but it also does not mean the auditor assumes management is unquestionably honest.
+**Professional skepticism** is an attitude that includes a questioning mind, alertness to conditions that may indicate misstatement due to error or fraud, and a critical assessment of audit evidence. A skeptical auditor does not assume management is dishonest, but also does not assume management is unquestionably honest. The auditor lets the evidence decide.
 
-### Key Elements of Professional Skepticism
+In practice, skepticism means probing explanations instead of accepting them at face value, actively looking for evidence that contradicts management's assertions (not only evidence that supports them), questioning whether documents are authentic and information is reliable, and holding off on a conclusion until the evidence is sufficient. It applies from planning, when the team asks how the financial statements could be misstated, through the final review, when the auditor asks whether the evidence really supports the opinion.
 
-| Element | Description |
-|---|---|
-| **Questioning mind** | The auditor does not accept explanations or evidence at face value; instead, the auditor probes further and considers alternatives |
-| **Critical assessment of evidence** | The auditor evaluates whether evidence is sufficient, relevant, and reliable before drawing conclusions |
-| **Alertness to contradictory evidence** | The auditor actively looks for information that contradicts management's assertions or the auditor's initial expectations |
-| **Suspension of judgment** | The auditor avoids reaching conclusions prematurely and keeps an open mind until sufficient evidence has been gathered |
+**Example:** Bear Co.'s fourth-quarter sales are 35% higher than in any prior quarter. Management says a new product launch drove the increase. A skeptical auditor does not stop at the explanation. The auditor examines shipping records and customer contracts for late-December sales and reviews January returns and credit memos, looking for signs of channel stuffing or revenue recorded before the goods shipped.
+
+Skepticism matters just as much when the evidence comes from a system rather than a person. Reports from the client's ERP system, schedules produced by data analytics, and analyses generated using artificial intelligence can look precise and still be incomplete, built on the wrong data, or (for some AI tools) simply wrong. The 2027 blueprint asks candidates to consider the relevance, reliability, and authenticity of information used as evidence, including information generated using technologies such as artificial intelligence. The skeptical question is the same either way: how do I know this is complete and accurate?
 
 :::tip[Exam Tip]
 
-Professional skepticism means the auditor **neither assumes dishonesty nor assumes unquestioned honesty**. The CPA exam frequently tests this balanced definition, so watch for answer choices that overstate skepticism as distrust or understate it as acceptance.
+Watch for answer choices that overstate or understate skepticism. "The auditor should assume management may be dishonest" overstates it. "The auditor may rely on management's representations because management has been honest in the past" understates it. The correct framing is a neutral, questioning mind.
 
 :::
-
-### Application in Practice
-
-Professional skepticism applies throughout the engagement:
-
-- **Planning:** Questioning whether the entity's risks are adequately identified, including fraud risks
-- **Performing procedures:** Evaluating whether the source and nature of evidence is truly reliable
-- **Evaluating results:** Considering whether audit findings might indicate something other than the most obvious explanation
-- **Forming conclusions:** Assessing whether the accumulated evidence supports the opinion or whether additional work is needed
-
-**Example:** While auditing Bear Co.'s revenue, the audit team notices that fourth-quarter sales spiked dramatically compared to prior periods. Rather than accepting management's explanation that a new product launch drove the increase, a skeptical auditor would corroborate this claim by examining shipping records, customer contracts, and post-year-end returns to rule out channel stuffing or premature revenue recognition.
 
 ---
 
 ## Professional Judgment
 
-**Professional judgment** is the application of relevant training, knowledge, and experience within the context provided by auditing, accounting, and ethical standards in making informed decisions about appropriate courses of action in the circumstances of the audit engagement.
+**Professional judgment** is the application of relevant training, knowledge, and experience, within the context of auditing, accounting, and ethical standards, in making informed decisions about the appropriate course of action in the circumstances of the engagement.
 
-### Characteristics of Professional Judgment
+Judgment is not a license to do whatever seems reasonable. A judgment must be grounded in the facts of the engagement, consistent with the standards, and documented well enough that an experienced auditor with no connection to the engagement could understand the basis for it. A decision without that support is not professional judgment; it is a deficiency.
 
-Professional judgment is not a license to do whatever the auditor wants. It involves:
+The areas that call for the most judgment are the ones that shape the whole audit:
 
-1. **Applying relevant knowledge**: Drawing on education, professional standards, and industry experience
-2. **Considering the specific facts and circumstances**: Recognizing that audit decisions must be tailored to the engagement
-3. **Making informed decisions**: Weighing alternatives and selecting the most appropriate course of action
-4. **Documenting the rationale**: Recording the basis for significant judgments so that another experienced auditor could understand and evaluate them
-
-:::warning
-
-Professional judgment must be **exercised**, not just claimed. If an auditor makes a decision without adequate basis, that is not professional judgment; it is a deficiency. The auditor must be able to articulate why a particular decision was appropriate in the circumstances.
-
-:::
-
-### Areas Requiring Significant Professional Judgment
-
-| Area | Judgment Required |
+| Area | Judgment required |
 |---|---|
-| **Materiality** | Determining the appropriate materiality level for the engagement and performance materiality for individual accounts |
-| **Risk assessment** | Identifying and assessing the risks of material misstatement, including significant risks |
-| **Nature, timing, and extent of procedures** | Deciding which audit procedures to perform, when to perform them, and how extensively |
-| **Evaluating evidence** | Assessing whether sufficient appropriate audit evidence has been obtained |
-| **Forming the opinion** | Concluding whether the financial statements are free from material misstatement |
-| **Evaluating estimates** | Determining whether management's accounting estimates are reasonable |
+| **Materiality** | Setting materiality for the financial statements as a whole and performance materiality |
+| **Risk assessment** | Identifying and assessing risks of material misstatement, including significant risks |
+| **Nature, timing, and extent of procedures** | Choosing which procedures to perform, when, and how much |
+| **Accounting estimates** | Deciding whether management's methods, assumptions, and data are reasonable |
+| **Evaluating evidence** | Concluding whether sufficient appropriate evidence has been obtained |
+| **Forming the opinion** | Concluding whether the financial statements are free of material misstatement |
 
-**Example:** Polar Inc. has a complex warranty reserve that requires significant estimation. The engagement partner must exercise professional judgment in determining whether to rely on management's internal actuarial model, engage an auditor's specialist, or develop an independent estimate, considering factors such as the complexity of the model, the history of estimation accuracy, and the materiality of the balance.
-
----
-
-## Unconscious Auditor Biases
-
-Even experienced auditors are susceptible to unconscious biases that can undermine professional skepticism and impair professional judgment. Recognizing these biases is the first step toward mitigating their effects.
-
-| Bias | Description | Example |
-|---|---|---|
-| **Confirmation bias** | The tendency to seek, interpret, or favor information that confirms the auditor's pre-existing beliefs or expectations | An auditor who expects inventory to be fairly stated may unconsciously focus on evidence that supports this conclusion while downplaying red flags |
-| **Anchoring bias** | The tendency to rely too heavily on the first piece of information encountered (the "anchor") when making subsequent judgments | The auditor anchors on the prior year's allowance for doubtful accounts and does not sufficiently adjust for changed economic conditions |
-| **Availability bias** | The tendency to overweight information that is easily recalled or readily available, often because it is recent or vivid | After reading about a fraud in the healthcare industry, the auditor overestimates the likelihood of fraud in an unrelated manufacturing client |
-| **Overconfidence bias** | The tendency to overestimate one's own ability, knowledge, or the accuracy of one's judgments | A senior auditor who has audited Bear Co. for five years may become overconfident that they understand all of the entity's risks, leading them to perform fewer procedures than warranted |
-| **Automation bias** | The tendency to over-rely on automated systems, data analytics tools, or computer-generated outputs without applying sufficient critical evaluation | An auditor accepts the results of an automated three-way match without investigating exceptions flagged by the system |
-
-:::caution
-
-Biases are **unconscious**: the auditor is typically unaware they are occurring. This is why audit standards emphasize structured decision-making processes, team discussions, and engagement quality reviews as safeguards. Simply telling auditors to "be less biased" is not an effective remedy.
-
-:::
-
-### Mitigating Unconscious Bias
-
-Audit teams can take deliberate steps to counteract bias:
-
-- **Brainstorming sessions**: Team discussions about fraud risks and alternative explanations encourage diverse perspectives
-- **Devil's advocate approach**: Assigning a team member to challenge prevailing conclusions
-- **Structured decision frameworks**: Using checklists and decision trees to ensure all relevant factors are considered
-- **Rotation of personnel**: Rotating engagement team members reduces familiarity and overconfidence
-- **Engagement quality review**: An independent reviewer provides a fresh perspective on significant judgments
+**Example:** Polar Inc. records a large warranty reserve using an internal model. The engagement partner must decide whether to test management's model, engage an auditor's specialist, or develop an independent estimate. The decision depends on the model's complexity, how accurate management's past estimates have been, and how close the reserve is to materiality. Whatever the choice, the reasons go in the workpapers.
 
 ---
 
-## Other Impediments to Professional Skepticism and Judgment
+## How Skepticism and Judgment Work Together
 
-Beyond unconscious biases, auditors face additional impediments that can compromise their skepticism and judgment.
+Skepticism is the mindset; judgment is the decision-making. One without the other fails. A skeptical auditor with poor judgment raises questions but cannot resolve them, and an auditor with good judgment but no skepticism resolves the wrong questions efficiently. On an engagement they work in a cycle:
 
-### Threats to Independence and Objectivity
+1. **Skepticism identifies the issue.** A questioning mind notices something unusual, such as an unexpected jump in Honey Entertainment's deferred revenue.
+2. **Judgment designs the response.** The auditor decides how to investigate: examine contracts, test a sample of transactions, or inquire of people outside accounting.
+3. **Skepticism evaluates the results.** The auditor critically assesses whether the evidence is sufficient and whether management's explanations hold up.
+4. **Judgment forms the conclusion.** The auditor decides whether a misstatement exists and, if so, whether it is material.
 
-| Threat | Description | Example |
+**Example:** Just before year-end, Bear Co. completes a large sale of land to a company owned by a board member, at a price that produces a gain well above what the land seems worth. Skepticism prompts the team to question the substance of the transaction. Judgment leads the team to obtain independent evidence of fair value, evaluate the related-party disclosures, and consider whether the sale was arranged to improve reported results.
+
+---
+
+## What Gets in the Way
+
+The blueprint lists four kinds of impediments to skepticism and judgment: unconscious biases, threats, incentives, and judgment-making shortcuts.
+
+### Unconscious Biases
+
+Biases are systematic errors in thinking that the auditor usually does not notice. Five come up most often:
+
+| Bias | What it is | Audit example |
 |---|---|---|
-| **Self-interest threat** | Financial or other interests that could inappropriately influence the auditor's judgment | The audit firm has a significant fee dependence on Grizzly Industries, making the team reluctant to raise contentious issues |
-| **Self-review threat** | The auditor reviews work they previously performed or helped prepare | A firm that assisted Honey Entertainment with implementing a new revenue recognition system is now asked to audit the results |
-| **Advocacy threat** | The auditor promotes a client's position to the point where objectivity is compromised | An auditor actively helps Kodiak Partners negotiate a regulatory matter and then audits the related disclosures |
-| **Familiarity threat** | A close or long-standing relationship with the client makes the auditor too sympathetic or trusting | An engagement partner who has audited Bear Co. for many years develops a close personal friendship with the CFO |
-| **Intimidation threat** | The auditor is deterred from acting objectively by actual or perceived threats from the client | Management of Ursa Security threatens to replace the audit firm if the auditor insists on a particular adjustment |
+| **Confirmation bias** | Seeking or favoring evidence that supports what you already believe | Expecting inventory to be fine, the auditor gives weight to clean count results and explains away an unusual pattern of credit memos |
+| **Anchoring bias** | Relying too heavily on a starting point | The auditor starts from last year's allowance for doubtful accounts and adjusts too little for a sharp change in customers' credit |
+| **Availability bias** | Overweighting information that is recent or vivid | After reading about a fraud at a hospital, the auditor overestimates fraud risk at an unrelated manufacturer |
+| **Overconfidence bias** | Overestimating one's own knowledge or accuracy | A senior who has audited Bear Co. for five years assumes nothing important has changed and skips a planned walkthrough |
+| **Automation bias** | Over-relying on output from systems, analytics, or AI tools | The auditor accepts an AI-generated reconciliation without checking that it used the complete population |
 
-### Incentive-Based Impediments
+Because these biases are unconscious, telling auditors to "be less biased" does not work. Structure does: brainstorming sessions that invite alternative explanations, assigning someone to argue the opposite view, explicit criteria for decisions, consultation on difficult matters, and review by someone outside the team, such as an engagement quality reviewer.
 
-- **Fee pressure:** Tight budgets may incentivize auditors to cut corners or reduce the scope of testing
-- **Time pressure:** Unrealistic deadlines can lead to hurried judgments and insufficient evidence gathering
-- **Client retention:** The desire to keep profitable clients may discourage auditors from taking tough positions
+### Threats
+
+The threats described in the [Code of Professional Conduct](/aud/ethics-professional-responsibilities-and-general-principles/code-of-professional-conduct) erode skepticism as well as independence. A **self-interest threat**, such as heavy fee dependence on Grizzly Industries, makes the team reluctant to raise contentious issues. A **familiarity threat**, such as a long friendship with the CFO, makes management's explanations easier to accept. An **undue influence threat** (other frameworks call it intimidation), such as Ursa Security's CEO hinting that the firm will be replaced, pressures the auditor to back down. A **self-review threat** arises when the firm audits its own earlier work, because people rarely look hard for their own mistakes.
+
+### Incentives and Pressures
+
+Some impediments come from the way audits are run. **Fee pressure** and tight budgets can encourage cutting procedures. **Deadline pressure** can lead to hurried conclusions. The desire to **keep a profitable client** can discourage taking a hard position. None of these is an excuse; the standards require sufficient appropriate evidence regardless of budget.
 
 ### Judgment-Making Shortcuts
 
-Under time or cognitive pressure, auditors may resort to mental shortcuts (heuristics) that reduce the quality of judgment:
-
-- **Accepting management's initial explanation** without independent corroboration
-- **Relying on prior-year workpapers** without critically evaluating whether conditions have changed
-- **Pattern matching**: assuming the current engagement is "just like" a previous one without considering unique circumstances
-
-:::note
-
-Standards require that when the auditor identifies information that is inconsistent with the auditor's final conclusion, the auditor must **document how the inconsistency was addressed**. This requirement is a built-in safeguard against judgment-making shortcuts.
-
-:::
-
----
-
-## How Professional Skepticism and Professional Judgment Interrelate
-
-Professional skepticism and professional judgment are distinct but deeply interconnected concepts. Neither can function effectively without the other.
-
-| Concept | Focus | Role |
-|---|---|---|
-| **Professional skepticism** | *Mindset*: How the auditor approaches the engagement | Drives the auditor to question, probe, and remain alert to the possibility of misstatement |
-| **Professional judgment** | *Decision-making*: How the auditor resolves issues encountered during the engagement | Guides the auditor in determining the appropriate response to identified risks and evidence |
-
-### The Interrelationship in Action
-
-1. **Skepticism identifies the issue.** A questioning mind alerts the auditor to something unusual, such as an unexpected fluctuation in Honey Entertainment's deferred revenue balance.
-2. **Judgment determines the response.** The auditor then applies professional judgment to decide how to investigate, perhaps by examining underlying contracts, testing a sample of transactions, or making inquiries of management.
-3. **Skepticism evaluates the response.** After performing procedures, the auditor critically assesses whether the evidence obtained is sufficient and whether management's explanations are reasonable.
-4. **Judgment forms the conclusion.** Finally, the auditor uses professional judgment to determine whether any misstatement exists and, if so, whether it is material.
-
-**Example:** During the audit of Bear Co., the engagement team notices that a significant related-party transaction was completed just before year-end at terms that appear unusually favorable to Bear Co. Professional skepticism prompts the team to question the substance of the transaction. Professional judgment guides the team to obtain independent evidence of the transaction's fair value, consult with the engagement partner about disclosure requirements, and evaluate whether the transaction was designed to manipulate financial results.
-
-:::tip[Exam Tip]
-
-If a question asks about the **relationship** between skepticism and judgment, remember: skepticism is the **attitude** (questioning mind), and judgment is the **action** (making informed decisions). They work together in a continuous cycle throughout the engagement.
-
-:::
+Under time or cognitive pressure, auditors fall back on mental shortcuts: accepting management's first explanation without corroboration, rolling forward last year's workpapers without asking whether conditions have changed, or assuming this engagement is "just like" another one. The standards push back in a specific way: if the auditor identifies information that is inconsistent with the auditor's final conclusion on a significant matter, the auditor must document how the inconsistency was addressed. That requirement forces the auditor to confront contrary evidence instead of setting it aside.
 
 ---
 
 ## Summary
 
-| Topic | Key Takeaway |
+| Topic | Key takeaway |
 |---|---|
-| **Professional skepticism** | A questioning mind and critical assessment of evidence; the auditor neither assumes dishonesty nor unquestioned honesty |
-| **Professional judgment** | The application of training, knowledge, and experience to make informed audit decisions within the context of professional standards |
-| **Confirmation bias** | Tendency to favor evidence that supports pre-existing beliefs |
-| **Anchoring bias** | Over-reliance on the first piece of information encountered |
-| **Availability bias** | Overweighting easily recalled or vivid information |
-| **Overconfidence bias** | Overestimating one's own ability or the accuracy of one's judgments |
-| **Automation bias** | Over-reliance on automated tools without sufficient critical evaluation |
-| **Threats** | Self-interest, self-review, advocacy, familiarity, and intimidation threats can impair objectivity |
-| **Other impediments** | Fee pressure, time pressure, client retention incentives, and judgment-making shortcuts |
-| **Interrelationship** | Skepticism is the mindset that identifies issues; judgment is the decision-making process that resolves them. They work in a continuous cycle |
+| **Professional skepticism** | A questioning mind, alertness to possible misstatement, and critical assessment of evidence; neither assumes dishonesty nor unquestioned honesty |
+| **Professional judgment** | Applying training, knowledge, and experience within the standards to make informed, documented decisions |
+| **Relationship** | Skepticism is the attitude that raises issues; judgment is the decision-making that resolves them |
+| **Standards** | AU-C 200 (nonissuers); AS 1000, which replaced AS 1015 (issuers) |
+| **Biases** | Confirmation, anchoring, availability, overconfidence, and automation bias |
+| **Other impediments** | Threats (self-interest, familiarity, undue influence, self-review), incentives (fees, deadlines, client retention), and shortcuts |
+| **Safeguards** | Team discussion, challenge, consultation, engagement quality review, and documenting how contrary evidence was addressed |

@@ -6,100 +6,87 @@ title: AUD
 
 # Auditing and Attestation (AUD)
 
-Welcome to the **Auditing and Attestation** section of the CPA Bear Book. This section covers everything you need to know about the AUD portion of the CPA exam, from the ethical foundation of the profession to the final issuance of audit reports and attestation opinions.
+Auditing and Attestation is the Core section of the CPA exam that asks you to think like an auditor. You decide whether to accept a client, assess where the financial statements could go wrong, gather evidence to find out whether they did, and then say so in a report that other people will rely on. The same reasoning carries over to reviews, compilations, attestation engagements, and audits of governments and federal award recipients. This section of the CPA Bear Book follows that sequence, from the ethical rules that come first to the reports that come last.
 
-The AUD exam tests your ability to think like an auditor: evaluating risk, designing audit procedures, gathering evidence, and reaching well-supported conclusions about whether financial statements are free of material misstatement. Whether a publicly traded company like **Grizzly Industries** is filing with the SEC or a private business like **Honey Entertainment** needs compiled financial statements, the principles in this section apply.
-
----
-
-## What This Section Covers
-
-The AUD section is organized into **eight major topic areas**, each corresponding to a core domain of auditing knowledge tested on the CPA exam.
-
-### 1. Ethics & Professional Responsibilities
-
-The profession is built on trust. This area covers the **AICPA Code of Professional Conduct**, independence requirements (conceptual framework and specific rules), and the regulatory landscape, including **SEC** and **PCAOB** independence rules for audits of public companies (issuers). You will learn how to navigate threats to independence, evaluate ethical dilemmas, and understand quality management standards that firms must follow.
-
-:::info[Example]
-
-Suppose your firm audits **Honey Entertainment** and a senior manager on the engagement owns stock in the company. The Code of Professional Conduct requires you to evaluate this financial interest and likely remove the manager from the engagement to preserve independence.
-
-:::
-
-### 2. Audit Planning & Risk Assessment
-
-Before performing a single test, auditors must understand the client's business, industry, and internal environment. This area covers **planning the audit**, setting **materiality** thresholds, performing **risk assessment procedures**, assessing **fraud risk** (including the fraud triangle), and evaluating the entity's compliance with laws and regulations.
-
-For example, planning the audit of **Bear Co.** might involve setting overall materiality at 5% of pre-tax income, identifying revenue recognition as a significant risk, and designing an audit strategy that responds to those assessed risks.
-
-### 3. Internal Control
-
-Auditors must understand and evaluate the entity's system of internal control over financial reporting. This area covers the **COSO framework** (the five components of internal control), **information technology controls** (general IT controls and application controls), and **SOC reports** used to evaluate controls at service organizations.
-
-### 4. Audit Evidence & Procedures
-
-This is the heart of fieldwork. You will study the nature of **audit evidence**, what makes evidence sufficient and appropriate, how to perform **tests of controls** and **substantive procedures**, when and how to use **analytical procedures**, and how to leverage the work of specialists, internal auditors, and other auditors. This area also covers **audit data analytics**, the use of technology and data analysis techniques to enhance audit quality.
-
-### 5. Audit Sampling
-
-When it is impractical to test an entire population, auditors use sampling. This area covers the fundamental concepts of **audit sampling** (statistical and nonstatistical), sampling for **tests of controls** (attribute sampling), and sampling for **substantive tests** (variables sampling, including monetary-unit sampling).
-
-:::tip
-
-Audit sampling is one of the most quantitative topics on the AUD exam. Be comfortable calculating sample sizes, evaluating deviations, and projecting misstatements. If **Bear Co.** has 10,000 purchase orders and the auditor can only test 60, sampling theory determines whether those 60 items provide enough evidence to draw a conclusion about the entire population.
-
-:::
-
-### 6. Auditing Specific Accounts & Transactions
-
-Each financial statement account has unique risks and audit considerations. This area walks through the audit approach for major balance sheet and income statement line items, including **cash and investments**, **receivables and revenue**, **inventory and cost of sales**, **property, plant, and equipment**, **payables and expenses**, **debt and equity**, **accounting estimates**, and **related-party transactions**.
-
-### 7. Completing the Audit & Reporting
-
-After gathering evidence, the auditor must form an opinion and communicate results. This area covers **forming an opinion**, the four types of **audit reports** (unmodified, qualified, adverse, and disclaimer), **emphasis-of-matter and other-matter paragraphs**, **subsequent events**, **written representations** from management, **going concern** evaluations, **communications with audit committees**, **reporting on internal control** (integrated audits), and the treatment of **supplementary information**.
-
-### 8. Attestation & Review Engagements
-
-Not all engagements are audits. This area covers **attestation engagements** under the **SSAEs** (Statements on Standards for Attestation Engagements), **compilation and review engagements** under the **SSARSs** (Statements on Standards for Accounting and Review Services), **reporting on compliance**, and **governmental auditing** under Government Auditing Standards (the Yellow Book) and Single Audits under the Uniform Guidance.
+Whether a publicly traded company like **Grizzly Industries** files its statements with the SEC or a private business like **Honey Entertainment** needs a review for its bank, the ideas in this section apply. The difference is which set of standards governs the work, and the exam expects you to notice it.
 
 ---
 
-## Key Standards You Will Encounter
+## The Exam at a Glance
 
-Throughout this section, you will work with several authoritative frameworks:
+AUD is a four-hour section with **78 multiple-choice questions** and **7 task-based simulations**. Each format counts for 50% of the score. The AICPA blueprint divides the content into four areas:
 
-| Abbreviation        | Full Name                                                  | Applies To                                                     |
-| ------------------- | ---------------------------------------------------------- | -------------------------------------------------------------- |
-| **GAAS**            | Generally Accepted Auditing Standards                      | Audits of nonissuers (private companies) under AICPA standards |
-| **PCAOB Standards** | Public Company Accounting Oversight Board Standards        | Audits of issuers (public companies) and broker-dealers        |
-| **SSARSs**          | Statements on Standards for Accounting and Review Services | Compilation and review engagements for nonissuers              |
-| **SSAEs**           | Statements on Standards for Attestation Engagements        | Examination, review, and agreed-upon procedures engagements    |
+| Blueprint area | Weight |
+|---|---|
+| I. Ethics, Professional Responsibilities and General Principles | 15-25% |
+| II. Assessing Risk and Developing a Planned Response | 25-35% |
+| III. Performing Further Procedures and Obtaining Evidence | 30-40% |
+| IV. Forming Conclusions and Reporting | 10-20% |
 
-:::caution[Issuer vs. Nonissuer]
+The blueprint also sets how much of the exam tests each skill level: Remembering and Understanding 30-40%, Application 30-40%, Analysis 15-25%, and Evaluation 5-15%. In practice, that means you need to know the rules, but most of your points come from applying them to a fact pattern. Questions tell you whether the entity is an issuer or a nonissuer and which kind of engagement is involved ("an audit of an issuer," "a review engagement," "a compilation engagement"), so read those words first.
 
-One of the most tested distinctions on the AUD exam is the difference between **issuer** and **nonissuer** engagements. Issuers (public companies) are subject to **PCAOB standards**, while nonissuers (private companies) follow **AICPA standards (GAAS)**. Many rules overlap, but there are critical differences, especially around internal control reporting, partner rotation, and communication requirements. Pay close attention to which set of standards applies in each scenario.
+### What the 2027 Blueprint Changes
+
+This book is written for the **2027 CPA Exam Blueprints**, which take effect January 1, 2027. For AUD, the AICPA says the revisions are not intended to change the nature or scope of the section in any significant way. Four representative tasks in Area III were reworded:
+
+- **Reliability of data and information** now gives, as examples, analyses, schedules, or reconciliations "generated using various technologies including artificial intelligence."
+- **Sufficient appropriate evidence** adds information generated using technologies, including artificial intelligence, to the list of sources the auditor may use as audit evidence.
+- **Sampling techniques** now pairs the methods with the procedures: attribute sampling for tests of controls and variables sampling for tests of details.
+- **Investments in securities** now focuses on the audit considerations for measuring and disclosing the fair value of investments, rather than on the accounting itself.
+
+Several new standards also become eligible for testing on January 1, 2027: the PCAOB's **QC 1000**, *A Firm's System of Quality Control* (except the provisions the PCAOB amended in September 2026, which await SEC approval); **SAS 149** on audits of group financial statements; and **SSARS 27**, which clarifies that the preparation standard does not apply to financial statements prepared as part of certain consulting engagements. Each is covered on the relevant page.
+
+:::note[Testing before January 1, 2027?]
+
+This book still works for you. The 2026 and 2027 AUD blueprints are nearly identical, and the standards taught here are the ones in force. The exceptions are QC 1000, SAS 149, and SSARS 27, which are not tested until January 1, 2027. Until then, the exam tests the rules they replace, such as the earlier group audit standard (extant AU-C 600) and the PCAOB's interim quality control standards. Each affected page points out the difference.
 
 :::
 
+Exam delivery is also changing in 2027. No appointments are available from July 1 to July 11, 2027, and testing resumes on July 12, 2027 on a new delivery platform. For about a year after the launch, scores are released on an adjusted, roughly quarterly schedule, so plan your credit window with that in mind and check your board of accountancy's rules.
+
+For a section-by-section summary, see the [2027 blueprint guide](/blueprint/2027).
+
 ---
 
-## How to Use This Section
+## How This Section Is Organized
 
-:::note[Study Guide]
+The pages follow the order of an actual engagement, which is also the order of the blueprint.
 
-1. **Start with Ethics & Professional Responsibilities.** Understanding the ethical framework provides the foundation for every topic that follows. If you do not know why independence matters, the rest of the audit process will not make full sense.
-2. **Follow the audit process sequentially.** The topics are arranged in the approximate order of an actual audit engagement, from planning and risk assessment through evidence gathering to reporting. This mirrors how the exam tests concepts.
-3. **Practice with examples.** Each page includes practical scenarios using companies like **Polar Inc.**, **Ursa Security**, and **Bear Co.** Work through these examples actively rather than passively reading them.
-4. **Focus on the "why."** The exam often asks you to choose the _best_ answer among several plausible options. Understanding the reasoning behind audit procedures, not just memorizing rules, is the key to selecting the correct response.
-5. **Use the journal entry blocks.** Several topics (especially in auditing specific accounts) include journal entries that illustrate the transactions auditors are testing. These help connect AUD concepts to your FAR knowledge.
-   :::
+**Ethics, Professional Responsibilities, and General Principles** (Area I) starts with the AICPA Code of Professional Conduct and its independence rules, then the stricter SEC, PCAOB, GAO, and Department of Labor rules. It continues with professional skepticism, the types of engagements, engagement acceptance and terms, documentation, communications with management and those charged with governance, and quality management at the firm and engagement level.
 
-:::tip[Exam Strategy]
+**Audit Planning and Risk Assessment** and **Internal Control** (Area II) cover the overall strategy, understanding the entity and its environment, materiality, risk assessment, fraud risk, and compliance with laws and regulations. The internal control pages explain the COSO framework, the limits of any control system, IT general controls, and how a user auditor relies on a SOC 1 report.
 
-The AUD exam is known for its emphasis on **judgment and professional skepticism**. Questions frequently present a scenario and ask what the auditor should do _next_ or which procedure is _most appropriate_. Build the habit of thinking through each scenario systematically: What is the risk? What evidence do I need? What standard applies? What is the correct response?
+**Audit Evidence and Procedures**, **Audit Sampling**, and **Auditing Specific Accounts and Transactions** (Area III) are the heart of fieldwork: what makes evidence sufficient and appropriate, tests of controls and substantive procedures, analytical procedures, data analytics, confirmations, using the work of others, sampling, and the audit approach for cash, receivables, inventory, estimates, litigation, related parties, and other accounts.
+
+**Completing the Audit and Reporting** (Areas III and IV) covers subsequent events, going concern, written representations, forming an opinion, modified reports, emphasis-of-matter and other-matter paragraphs, reporting on internal control, and the other reporting topics the blueprint lists: consistency, other information, interim reviews, supplementary information, and special-purpose frameworks.
+
+**Attestation and Review Engagements** (Areas I, II, and IV) covers SSAE examinations, reviews, and agreed-upon procedures; SSARS preparation, compilation, and review engagements; reporting on compliance; and audits under Government Auditing Standards and the Uniform Guidance for single audits.
+
+---
+
+## Standards You Will Use
+
+| Abbreviation | Full name | Applies to |
+|---|---|---|
+| **GAAS** (AU-C sections) | Statements on Auditing Standards, issued by the AICPA Auditing Standards Board | Audits of nonissuers |
+| **PCAOB standards** (AS sections) | Auditing standards and ethics and independence rules of the Public Company Accounting Oversight Board | Audits of issuers and SEC-registered broker-dealers |
+| **SSAEs** (AT-C sections) | Statements on Standards for Attestation Engagements | Examinations, reviews, and agreed-upon procedures |
+| **SSARSs** (AR-C sections) | Statements on Standards for Accounting and Review Services | Preparation, compilation, and review of nonissuer financial statements |
+| **SQMSs** | Statements on Quality Management Standards | A firm's system of quality management |
+| **GAGAS** (the Yellow Book) | Government Auditing Standards, issued by the GAO | Audits of governments and entities receiving government awards |
+
+:::caution[Issuer or nonissuer?]
+
+The single most useful habit on AUD is to ask which entity type the question describes. Issuers (public companies) are audited under PCAOB standards and SEC independence rules. Nonissuers are audited under GAAS and the AICPA Code. Many rules overlap, but the differences (documentation deadlines, partner rotation, prohibited services, internal control reporting) are exactly what the exam likes to test.
 
 :::
 
 ---
 
-Ready to begin? Start with **[Ethics & Professional Responsibilities](/aud/ethics-professional-responsibilities-and-general-principles/code-of-professional-conduct)** or jump to any topic area using the sidebar navigation.
+## How to Study This Section
+
+Start with ethics. Independence and the threats-and-safeguards approach show up in planning, evidence, and reporting questions, so the rest of the section makes more sense once they are familiar. Then work through the pages in order, because each stage of the audit builds on the one before it.
+
+As you read, focus on the reason behind each requirement. AUD questions often present several plausible procedures and ask for the *best* one or the one to perform *next*. Candidates who know why a procedure exists (what risk it addresses and what evidence it produces) can reason their way to the answer even when the scenario is unfamiliar. Work through the examples with companies like **Polar Inc.**, **Kodiak Partners**, and **Bear Co.** actively, and use the journal entry blocks on the account pages to connect what the auditor tests to what you learned in FAR.
+
+Ready to begin? Start with the **[Code of Professional Conduct](/aud/ethics-professional-responsibilities-and-general-principles/code-of-professional-conduct)**, or jump to any topic in the sidebar.

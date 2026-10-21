@@ -1,220 +1,100 @@
 # Nature and Scope of Engagements
 
-CPAs perform a range of professional engagements, each with different objectives, levels of assurance, and applicable standards. Understanding the nature and scope of these engagements, and how they differ from one another, is foundational to the AUD exam. This section covers the standard-setting bodies, the purpose and limitations of an audit, the general GAAS requirements, and the full spectrum of engagement types from audits to compilations.
+A CPA firm can be hired to do many different things with a set of financial statements: audit them, review them, compile them, simply prepare them, or perform specific procedures someone has asked for. Each engagement has its own objective, its own level of assurance, and its own set of standards, and the report must match what was actually done. The exam regularly describes a client's situation and asks which engagement fits, which standards apply, or what the report can say. This chapter starts with who sets the standards, then explains what an audit is and what it cannot do, the general requirements of GAAS, the different kinds of audits, and finally the attestation and accounting and review services engagements.
 
 ---
 
-## Professional Standards: Who Sets the Rules?
+## Who Sets the Standards
 
-The standards that govern a CPA's work depend on the **type of client** and the **type of engagement**:
+The applicable standards depend on two things: what kind of entity the client is, and what kind of engagement it wants.
 
-| Client / Engagement Type | Standard-Setter | Standards |
-|--------------------------|-----------------|-----------|
-| **Nonissuers** (audits) | AICPA Auditing Standards Board (ASB) | Statements on Auditing Standards (SASs), codified as AU-C sections |
-| **Issuers** (audits) | Public Company Accounting Oversight Board (PCAOB) | Auditing Standards (ASs) |
-| **Nonissuers** (reviews, compilations, preparation) | AICPA Accounting and Review Services Committee (ARSC) | Statements on Standards for Accounting and Review Services (SSARSs), codified as AR-C sections |
+| Engagement | Standard-setter | Standards |
+|---|---|---|
+| **Audits of nonissuers** | AICPA Auditing Standards Board (ASB) | Statements on Auditing Standards (SASs), codified as AU-C sections |
+| **Audits of issuers** | Public Company Accounting Oversight Board (PCAOB) | PCAOB auditing standards (AS sections) |
 | **Attestation engagements** | AICPA ASB | Statements on Standards for Attestation Engagements (SSAEs), codified as AT-C sections |
+| **Preparation, compilation, and review of nonissuer financial statements** | AICPA Accounting and Review Services Committee (ARSC) | Statements on Standards for Accounting and Review Services (SSARSs), codified as AR-C sections |
+| **Audits of governments and entities receiving government awards** | U.S. Government Accountability Office (GAO) | Government Auditing Standards (GAGAS), which build on the SASs and SSAEs |
 
-:::info
+An **issuer** is, broadly, an entity whose securities are registered with the SEC or that must file reports with the SEC. Every other entity (private companies, most not-for-profits, and governments) is a **nonissuer**.
 
-**Issuers** are entities whose securities are registered with the SEC (public companies). **Nonissuers** are all other entities: private companies, nonprofits, government entities, and others. The CPA exam tests your ability to identify which standards apply to a given engagement.
-
-:::
-
-**Example:** When Grizzly Industries (a publicly traded company) engages an audit firm, the audit is performed under **PCAOB standards** (ASs). When Bear Co. (a private company) engages an auditor, the audit is performed under **AICPA standards** (SASs). If Bear Co. only needs a review or compilation, the engagement falls under **SSARS** (AR-C sections).
+**Example:** Grizzly Industries is publicly traded, so its audit follows PCAOB standards. Bear Co. is privately held, so its audit follows GAAS. If Bear Co. decides it needs only a review or a compilation, the engagement follows the SSARSs instead.
 
 ---
 
-## Purpose of an Audit Engagement
+## What an Audit Is
 
-The fundamental purpose of a financial statement audit is to **enhance the degree of confidence** that intended users can place in the financial statements. The auditor accomplishes this by expressing an **opinion** on whether the financial statements are presented fairly, in all material respects, in accordance with the applicable financial reporting framework (such as U.S. GAAP or IFRS).
+The purpose of an audit is to **enhance the degree of confidence** that intended users can place in the financial statements. The auditor does this by expressing an opinion on whether the financial statements are presented fairly, in all material respects, in accordance with the applicable financial reporting framework, such as U.S. GAAP.
 
-Key characteristics of an audit:
+The opinion rests on **reasonable assurance**: a high, but not absolute, level of assurance that the financial statements as a whole are free from material misstatement, whether caused by error or fraud. The audit also rests on a premise about management. Management, not the auditor, is responsible for preparing the financial statements, for the internal control needed to prepare them, and for giving the auditor access to everything relevant. The auditor confirms that management accepts these responsibilities before accepting the engagement.
 
-- Provides **reasonable assurance**, a high but not absolute level of assurance
-- The opinion addresses **fair presentation**, not absolute accuracy
-- The auditor evaluates whether the financial statements are free from **material misstatement**, whether caused by error or fraud
+**Example:** Polar Inc.'s auditor assesses risks, tests controls over revenue and cash, performs substantive procedures on significant accounts, and concludes that the financial statements are presented fairly. The opinion gives Polar Inc.'s lenders good reason to rely on the statements. It does not certify that every number is exactly right.
 
-**Example:** Polar Inc. engages an audit firm to audit its annual financial statements. After performing risk assessment, testing internal controls, and executing substantive procedures, the auditor concludes the financial statements present fairly in all material respects. The auditor's opinion gives Polar Inc.'s lenders and investors confidence that the financial statements are reliable, but it does not guarantee that every single number is perfectly correct.
+### Why Assurance Is Reasonable, Not Absolute
 
----
+Several **inherent limitations** keep an audit from providing absolute assurance. Financial reporting involves judgment, and many amounts are estimates that cannot be known precisely. Audit procedures have limits: the auditor tests samples rather than every transaction, management may withhold information, and fraud can be concealed through collusion, forgery, or management override of controls. Finally, an audit must be completed in a reasonable time and at a reasonable cost. That last point is not an excuse to skip a necessary procedure, but it explains why the auditor focuses on the areas where misstatement is most likely.
 
-## Inherent Limitations of an Audit
-
-An audit provides reasonable assurance, **not absolute assurance**. Several inherent limitations prevent the auditor from guaranteeing the financial statements are completely free from misstatement:
-
-| Limitation | Description |
-|------------|-------------|
-| **Nature of financial reporting** | Financial statements involve management's judgments, estimates, and assumptions that are inherently uncertain |
-| **Nature of audit procedures** | Auditors use sampling; they test a portion of transactions, not every transaction |
-| **Timeliness** | There are practical limits on the time and cost an audit can consume |
-| **Fraud concealment** | Fraud involving collusion, forgery, or intentional management override of controls may be extremely difficult to detect |
-| **Internal control limitations** | Internal controls can be circumvented by management override or collusion among employees |
-
-:::caution
-
-The CPA exam may test your understanding that an audit provides **reasonable assurance**, not absolute assurance. An auditor is not an insurer or guarantor of the financial statements. Even a properly planned and executed audit may fail to detect a material misstatement, particularly one involving sophisticated fraud.
-
-:::
+The practical consequence is that an auditor is not a guarantor. A properly planned and performed audit can still miss a material misstatement, especially one caused by a well-concealed fraud. Whether the auditor met the standards depends on whether the audit was performed with due care, not on whether a misstatement later surfaced.
 
 ---
 
-## Five General GAAS Requirements (SEJEC)
+## The General Requirements of GAAS
 
-The AICPA's generally accepted auditing standards establish five overarching requirements for all audit engagements. A useful mnemonic is **SEJEC**:
+AU-C 200 sets out the overall requirements that apply to every audit of a nonissuer. The auditor must:
 
-| Letter | Requirement | Description |
-|--------|-------------|-------------|
-| **S** | **Professional Skepticism** | The auditor must maintain a questioning mind and critically assess audit evidence. Skepticism means neither assuming management is dishonest nor assuming unquestioned honesty. |
-| **E** | **Ethical Requirements (including Independence)** | The auditor must comply with relevant ethical requirements, including independence in both fact and appearance for attest engagements. |
-| **J** | **Professional Judgment** | The auditor must apply training, knowledge, and experience to make informed decisions throughout the audit process. |
-| **E** | **Sufficient Appropriate Audit Evidence** | The auditor must obtain enough evidence of sufficient quality to support the opinion. Evidence must be both sufficient (quantity) and appropriate (quality, meaning relevance and reliability). |
-| **C** | **Compliance with Standards** | The auditor must comply with all applicable SASs (for nonissuers) or ASs (for issuers) relevant to the engagement. |
+1. **comply with relevant ethical requirements**, including independence;
+2. **plan and perform the audit with professional skepticism**;
+3. **exercise professional judgment** throughout the audit;
+4. **obtain sufficient appropriate audit evidence** to reduce audit risk to an acceptably low level, so that the auditor can draw reasonable conclusions; and
+5. **comply with every AU-C section relevant to the audit**. The auditor may not claim compliance with GAAS without having complied with all the relevant requirements.
+
+The standards also use two levels of obligation. An **unconditional requirement** (the word "must") has to be followed whenever it is relevant. A **presumptively mandatory requirement** (the word "should") also has to be followed, except that in rare circumstances the auditor may depart from it by performing alternative procedures that achieve its intent and documenting the justification.
+
+**Example:** Honey Entertainment's revenue rose 40% while the rest of its industry was flat. Skepticism leads the auditor to treat the increase as a possible risk rather than good news, judgment shapes the extra procedures, and the auditor does not conclude until the evidence explains the increase.
+
+---
+
+## Types of Audit Engagements
+
+The blueprint asks you to distinguish the kinds of audits performed for issuers and nonissuers. They share the same foundation but have different objectives.
+
+- **Financial statement audit.** An opinion on whether the financial statements are fairly presented. This is the engagement most of the AUD section describes.
+- **Integrated audit of internal control over financial reporting.** An opinion on the effectiveness of internal control, combined with the financial statement audit. Accelerated and large accelerated filers must obtain one under SOX Section 404(b) and PCAOB AS 2201. A nonissuer can be engaged to have one under AU-C 940. See [Reporting on Internal Control](/aud/completing-the-audit-and-reporting/reporting-on-internal-control).
+- **Compliance audit.** An opinion on whether the entity complied with the requirements of laws, regulations, or grant agreements, performed under AU-C 935 when a law, regulation, or award requires it. See [Reporting on Compliance](/aud/attestation-and-review-engagements/reporting-on-compliance).
+- **Audits under Government Auditing Standards and single audits.** GAGAS adds requirements to GAAS for audits of governments and recipients of government awards. A nonfederal entity that expends \$1,000,000 or more of federal awards in a fiscal year beginning on or after October 1, 2024 must have a **single audit** under the Uniform Guidance, which covers both the financial statements and compliance for major federal programs. See [Governmental Auditing](/aud/attestation-and-review-engagements/governmental-auditing).
+- **Audits of employee benefit plans subject to ERISA.** These follow AU-C 703. In an ERISA section 103(a)(3)(C) audit, plan management may elect to have the auditor exclude from audit procedures investment information certified by a qualified bank or insurance company, but the auditor still performs specified procedures on that information.
+
+---
+
+## Other Engagements: Attestation and Accounting and Review Services
+
+Not every engagement is an audit. The table below compares the main alternatives with an audit.
+
+| Engagement | Standards | Assurance | What the report says | Independence required? |
+|---|---|---|---|---|
+| **Audit** | GAAS or PCAOB | Reasonable | An opinion: "present fairly, in all material respects" | Yes |
+| **Review of financial statements** | SSARSs (AR-C 90) | Limited | A conclusion: "not aware of any material modifications that should be made" | Yes |
+| **Review of interim financial information** | AU-C 930 (nonissuers); AS 4105 (issuers) | Limited | A conclusion: "not aware of any material modifications that should be made" | Yes |
+| **Compilation** | SSARSs (AR-C 80) | None | States that the accountant did not audit or review the statements and provides no assurance | No, but a lack of independence must be disclosed |
+| **Preparation** | SSARSs (AR-C 70) | None | No report; each page carries a "no assurance is provided" legend | No, and no disclosure is needed |
+| **Examination** | SSAEs (AT-C 205 or 206) | Reasonable | An opinion on the subject matter or an assertion | Yes |
+| **Attestation review** | SSAEs (AT-C 210) | Limited | A conclusion on the subject matter or an assertion | Yes |
+| **Agreed-upon procedures** | SSAEs (AT-C 215) | None | The procedures performed and the findings; users draw their own conclusions | Yes |
+
+A **review** of financial statements consists mainly of **inquiry** and **analytical procedures**. The accountant obtains written representations from management but is not required to obtain an understanding of internal control, assess fraud risk, or test the accounting records. The result is limited assurance, expressed as a conclusion that the accountant is not aware of any material modifications needed.
+
+A **compilation** goes one step down. The accountant helps management present financial information in the form of financial statements, then reads them to consider whether they are appropriate in form and free from obvious material misstatements. The accountant does not verify the information, and the report says so.
+
+A **preparation** engagement is the most basic service. The accountant prepares the financial statements, issues no report, and places a legend such as "No assurance is provided" on each page. SSARS 27 clarifies that the preparation standard does not apply when financial statements are prepared as part of a consulting engagement whose primary objective is something other than preparing them, a situation common in client advisory services. SSARS 27 becomes eligible for testing January 1, 2027.
+
+**Attestation engagements** apply the same three levels of service to subject matter other than historical financial statements, such as compliance with a contract, the effectiveness of controls, or greenhouse gas emissions. In an **examination**, the practitioner gathers enough evidence to give an opinion. In a **review**, the practitioner gives limited assurance. In an **agreed-upon procedures** engagement, the practitioner performs the specific procedures that the engaging party agreed are appropriate and reports the findings without any opinion or conclusion.
+
+**Example:** Grizzly Industries' lender wants to know whether Grizzly's debt-to-equity ratio meets its loan covenant. Grizzly engages its CPA to perform agreed-upon procedures: recalculate the ratio from the financial statements, agree its components to the general ledger, and agree the debt balances to the lender's statements. The report lists each procedure and what the CPA found. It does not say whether the covenant was met; the lender draws that conclusion.
+
+The [Attestation Engagements](/aud/attestation-and-review-engagements/attestation-engagements) and [Accounting and Review Services](/aud/attestation-and-review-engagements/accounting-and-review-services) chapters cover these engagements in detail.
 
 :::tip[Exam Tip]
 
-The SEJEC mnemonic is heavily tested. Professional skepticism, in particular, appears in many AUD questions. The auditor must always maintain a questioning mind and cannot simply accept management's explanations at face value.
-
-:::
-
-**Example:** During the audit of Honey Entertainment, the auditor discovers that revenue increased 40% while the industry average was flat. Professional skepticism requires the auditor to question this trend, design additional procedures to investigate the increase, and not accept management's explanation without corroborating evidence.
-
----
-
-## Types of Professional Engagements
-
-CPAs can perform several types of engagements, each providing a different level of assurance. The following table summarizes the key engagement types:
-
-| Engagement Type | Level of Assurance | Standards | Opinion/Report Language | Applicable To |
-|----------------|-------------------|-----------|------------------------|---------------|
-| **Audit** | Reasonable (high) | SAS (AU-C) or AS | "In our opinion, the financial statements present fairly..." | Issuers and nonissuers |
-| **Review** | Limited (moderate) | SSARS (AR-C) for nonissuers; SAS for interim reviews of issuers | "We are not aware of any material modifications..." (negative assurance) | Primarily nonissuers |
-| **Compilation** | None | SSARS (AR-C) | "We did not audit or review..." (no assurance) | Nonissuers only |
-| **Preparation** | None | SSARS (AR-C) | No report is required (but each page states "no assurance is provided") | Nonissuers only |
-| **Agreed-Upon Procedures (AUP)** | None (findings only) | SSAE (AT-C) or SSARS (AR-C) | Report lists procedures performed and findings; users draw their own conclusions | Any entity |
-| **Examination (Attestation)** | Reasonable (high) | SSAE (AT-C) | Opinion on subject matter or assertion | Any entity |
-| **Review (Attestation)** | Limited (moderate) | SSAE (AT-C) | Negative assurance on subject matter or assertion | Any entity |
-
----
-
-### Audit Engagements
-
-An audit provides the **highest level of assurance** (reasonable assurance) that the financial statements as a whole are free from material misstatement. The auditor performs:
-
-- **Risk assessment procedures** to understand the entity and its environment
-- **Tests of controls** (when relying on internal controls)
-- **Substantive procedures** (tests of details and analytical procedures) to detect material misstatements
-
-The auditor issues an **opinion** (unmodified, qualified, adverse, or disclaimer) based on the evidence obtained.
-
-**Example:** Kodiak Partners engages an audit firm for an annual financial statement audit. The auditor plans the engagement, assesses risks of material misstatement, tests controls over revenue and cash, performs substantive procedures on all significant account balances, and ultimately issues an unmodified opinion stating that the financial statements present fairly in all material respects.
-
----
-
-### Review Engagements
-
-A review provides **limited assurance**, which is substantially less than an audit but more than a compilation. The accountant performs:
-
-- **Inquiries** of management and others within the entity
-- **Analytical procedures** applied to the financial statements
-
-The review report expresses **negative assurance**: the accountant states they are "not aware of any material modifications that should be made" to the financial statements. The accountant does **not** obtain an understanding of internal control, assess fraud risk, test controls, or perform substantive tests of details.
-
-**Example:** Ursa Security (a private company) needs reviewed financial statements to satisfy a bank loan covenant. The accountant performs analytical procedures and inquires of management about unusual transactions, significant estimates, and subsequent events. The report states: "Based on our review, we are not aware of any material modifications that should be made to the accompanying financial statements."
-
-:::tip[Exam Tip]
-
-The key distinction between an audit and a review is the **level of assurance** and the **nature of procedures**. Audits use substantive testing and control testing; reviews rely on inquiry and analytical procedures only. Memorize this distinction; it appears in many exam questions.
-
-:::
-
----
-
-### Compilation Engagements
-
-A compilation involves assisting management in **presenting financial statements** without providing any assurance. The accountant:
-
-- Reads the financial statements and considers whether they are **appropriate in form** and free from **obvious material errors**
-- Does **not** perform inquiries, analytical procedures, or any verification procedures
-- Is **not required** to be independent (but must disclose a lack of independence in the compilation report)
-
-The compilation report states that the accountant did not audit or review the financial statements and, accordingly, does not express an opinion or provide any assurance.
-
-**Example:** Panda Records (a small private company) needs basic financial statements for internal use. The accountant compiles the financial statements from information provided by management. The report states: "We did not audit or review the financial statements and, accordingly, do not express an opinion or provide any assurance about whether the financial statements are in accordance with the applicable financial reporting framework."
-
----
-
-### Preparation Engagements
-
-A preparation engagement is the **least involved** service. The accountant assists management in preparing financial statements but:
-
-- Issues **no report** and provides **no assurance**
-- Each page of the prepared financial statements must include a legend such as **"no assurance is provided on these financial statements"**
-- The accountant need **not be independent**, but there is no required independence disclosure
-
-**Example:** Bear Co. asks its CPA to prepare monthly financial statements for internal management use. The CPA prepares the statements from Bear Co.'s trial balance and supporting schedules. Each page includes the required legend, and no report is issued.
-
----
-
-### Agreed-Upon Procedures (AUP) Engagements
-
-In an AUP engagement, the practitioner performs **specific procedures** agreed to by the engaging party and reports the **findings** without providing an opinion or any assurance. Key characteristics:
-
-- The procedures are **specified by the engaging party** (and, under current standards, the report is no longer restricted to specified parties)
-- The practitioner reports **findings only**; users draw their own conclusions
-- No opinion or assurance is expressed
-
-**Example:** Grizzly Industries' lender wants to verify that Grizzly's debt-to-equity ratio meets loan covenant requirements. The lender and Grizzly agree with the CPA on specific procedures: recalculate the ratio from the financial statements, trace the components to the general ledger, and confirm debt balances with third parties. The CPA performs only these procedures and reports the factual findings without expressing an opinion on whether the covenant was met.
-
----
-
-### Attestation Engagements
-
-Attestation engagements are a broad category in which a practitioner is engaged to issue a report on **subject matter or an assertion** that is the responsibility of another party. Attestation engagements follow the SSAEs and can take three forms:
-
-| Form | Level of Assurance | Report Expression |
-|------|-------------------|-------------------|
-| **Examination** | Reasonable (high) | Opinion on subject matter or assertion |
-| **Review** | Limited (moderate) | Negative assurance |
-| **Agreed-Upon Procedures** | None (findings only) | Procedures and findings |
-
-Common examples of attestation subject matter include prospective financial statements, compliance with specified requirements, internal controls (for non-SEC entities), and sustainability/ESG metrics.
-
-**Example:** Polar Inc. asserts that its internal controls over customer data privacy comply with the AICPA Trust Services Criteria. An independent CPA performs an examination-level attestation engagement, tests the controls, and issues an opinion on whether Polar Inc.'s assertion is fairly stated.
-
----
-
-## SSARS vs. SAS: When Each Applies
-
-| Standard | Applies To | Engagement Types |
-|----------|-----------|-----------------|
-| **SAS (AU-C)** | Audits of nonissuers | Audit engagements only |
-| **SSARS (AR-C)** | Compilation, review, and preparation engagements for nonissuers | Compilations, reviews, preparations, and certain AUP engagements |
-| **AS (PCAOB)** | Audits of issuers | Audit engagements for public companies |
-| **SSAE (AT-C)** | Attestation engagements | Examinations, reviews, and AUP on subject matter other than financial statements |
-
-:::info
-
-A common mistake is confusing SAS (audit standards) with SSARS (accounting and review services standards). Remember: **SAS = audits**, **SSARS = reviews, compilations, and preparations**. Both apply only to nonissuers. Issuers follow PCAOB standards for audits.
-
-:::
-
----
-
-## Levels of Assurance: A Visual Summary
-
-The following table arranges engagement types by their level of assurance, from highest to lowest:
-
-| Level of Assurance | Engagement Type | Expression |
-|-------------------|-----------------|------------|
-| **Reasonable (highest)** | Audit / Examination | Positive opinion ("In our opinion...") |
-| **Limited (moderate)** | Review | Negative assurance ("We are not aware of...") |
-| **None** | Compilation | No assurance; disclaimer statement |
-| **None** | Preparation | No assurance; legend on each page |
-| **None (findings only)** | Agreed-Upon Procedures | Procedures and findings; no opinion |
-
-:::tip[Final Exam Tip]
-
-A common AUD exam question presents a scenario and asks what level of assurance is provided, or what type of report is appropriate. Always match the engagement type to the assurance level: audits and examinations provide reasonable assurance (positive opinion), reviews provide limited assurance (negative assurance), and compilations, preparations, and AUPs provide no assurance. Knowing this hierarchy is essential.
+Match the engagement to the assurance and the wording. Audits and examinations give reasonable assurance and an opinion. Reviews give limited assurance and a conclusion ("not aware of any material modifications"). Compilations, preparations, and agreed-upon procedures give no assurance. Then check independence: required for everything except compilations (where a lack of independence must be disclosed) and preparations.
 
 :::

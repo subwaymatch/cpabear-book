@@ -1,275 +1,123 @@
 # Analytical Procedures
 
-Analytical procedures involve evaluating financial information through the study of plausible relationships among both financial and nonfinancial data. They are one of the most versatile tools available to auditors, used in planning, substantive testing, and the final review of the financial statements.
+**Analytical procedures** evaluate financial information by studying **plausible relationships** among financial and nonfinancial data. The auditor builds an expectation of what an amount or ratio should be and compares it with what was recorded; a large unexplained difference points to a possible misstatement. Few tools are as versatile. Analytical procedures are required when planning the audit, optional as substantive evidence, and required again at the end. This chapter covers the types of analytical procedures, when each use is required, the step-by-step process for a substantive analytical procedure with a worked example, and the final overall review.
+
+The AICPA standards are AU-C 315 (risk assessment) and AU-C 520 (substantive and final analytical procedures). The PCAOB counterparts are AS 2110, AS 2305, and AS 2810.
 
 ---
 
-## Definition
+## Types of Analytical Procedures
 
-Analytical procedures consist of evaluations of financial information made by studying **plausible relationships** among financial and nonfinancial data. They involve comparisons of recorded amounts (or ratios derived from them) to expectations developed by the auditor. When recorded amounts deviate significantly from expectations, the auditor investigates the cause.
+| Type | What the Auditor Does | Typical Precision |
+|---|---|---|
+| **Trend analysis** | Compares the current balance with prior periods | Lowest |
+| **Ratio analysis** | Compares ratios (gross margin, receivables turnover) with prior periods, budgets, or the industry | Low to moderate |
+| **Reasonableness test** | Builds an independent estimate from operating data (headcount × average pay, units × price) | Moderate to high |
+| **Regression analysis** | Uses a statistical model of the relationship between the account and one or more drivers | Highest |
 
-Common forms of analytical procedures include:
-
-- **Trend analysis**: Comparing current-year balances to prior periods
-- **Ratio analysis**: Calculating financial ratios and comparing them to expectations
-- **Reasonableness testing**: Developing an independent estimate and comparing it to the recorded balance
-- **Regression analysis**: Using statistical models to predict expected values
+Precision is how close the expectation is likely to be to the correct amount. A more precise expectation can detect smaller misstatements, so it provides more assurance.
 
 ---
 
-## When Are Analytical Procedures Required vs. Optional?
-
-Understanding when analytical procedures are **mandatory** versus **discretionary** is critical for the CPA exam.
+## When Analytical Procedures Are Required
 
 | Audit Phase | Required? | Purpose |
 |---|---|---|
-| **Planning** | Required | Identify areas of potential misstatement; enhance the auditor's understanding of the entity and its environment |
-| **Substantive Testing** | Optional | May be used as a substantive procedure to detect material misstatements at the assertion level |
-| **Overall Review (Near Completion)** | Required | Assess whether the financial statements as a whole are consistent with the auditor's understanding of the entity |
+| **Risk assessment (planning)** | Required | Identify unusual amounts, ratios, and trends that point to risks of material misstatement |
+| **Substantive testing** | Optional | Provide evidence about an assertion, alone or with tests of details |
+| **Overall review near the end of the audit** | Required | Form an overall conclusion about whether the statements are consistent with the auditor's understanding of the entity |
 
 :::danger[Common Exam Trap]
 
-Analytical procedures are **required** during planning and during the overall review near the end of the audit. They are **optional** during substantive testing. The exam frequently tests whether candidates know this distinction.
+Analytical procedures are **required** in risk assessment and in the overall review near the end of the audit. They are **optional** as substantive procedures. Questions often test whether you know which use is optional.
 
 :::
 
-### Planning Phase
+### Analytical Procedures in Risk Assessment
 
-During planning, analytical procedures help the auditor identify unusual transactions, unexpected balances, and areas where the risk of material misstatement may be elevated.
+At the planning stage, the auditor usually works with high-level data, such as annual or quarterly totals, so these procedures are not precise. Their job is to point the auditor toward areas that need attention.
 
-:::info[Example]
-
-While planning the audit of **Bear Co.**, the auditor compares the current year's gross margin to the prior three years. A significant decline triggers further investigation and may lead the auditor to classify revenue recognition as a higher-risk area.
-
-:::
-
-### Overall Review Stage
-
-At the end of the audit, analytical procedures serve as a "sanity check." The auditor steps back and considers whether the financial statements, taken as a whole, are consistent with the auditor's understanding of the entity developed throughout the engagement.
-
-- Do the financial statements make sense given the auditor's knowledge of the industry, the economy, and the client's operations?
-- Are there any previously unrecognized risks of material misstatement?
-
-If the overall review reveals unexpected relationships, the auditor may need to perform additional procedures before issuing the opinion.
+**Example:** Planning the audit of Bear Co., the auditor compares this year's gross margin with the prior three years. Gross margin fell from 40% to 31% even though the industry was stable. The auditor treats inventory valuation and revenue cutoff as higher-risk areas and plans more work there.
 
 ---
 
-## Using Analytical Procedures as Substantive Tests
+## Substantive Analytical Procedures
 
-When used as substantive procedures, analytical procedures must meet a higher standard of precision and rigor. The auditor follows a structured process:
+When an analytical procedure is used as **substantive evidence**, it must be designed with more care. The auditor works through five steps.
 
 ### Step 1: Determine Suitability
 
-Evaluate whether an analytical procedure is appropriate for the assertion being tested. Analytical procedures work best when:
+The auditor decides whether an analytical procedure suits the assertion and the assessed risk. Analytical procedures work best for large volumes of transactions whose relationships are **plausible and predictable** over time. That is why they often suit **income statement accounts** (interest expense, payroll, rental revenue) better than balance sheet accounts, which are snapshots that can be affected by a few unusual transactions.
 
-- The data relationships are **predictable and stable**
-- The account balance can be reasonably estimated from available data
+Analytical procedures alone are rarely enough for a **significant risk**. When the auditor responds to a significant risk only with substantive procedures, those procedures must include tests of details.
 
-:::tip
+### Step 2: Evaluate the Reliability of the Data
 
-Analytical procedures are generally more suitable for income statement accounts (which accumulate over time and are more predictable) than for balance sheet accounts (which represent a point-in-time snapshot and may be more volatile).
+The expectation is only as good as the data it is built on. The auditor considers:
 
-:::
-
-### Step 2: Evaluate Reliability of Data
-
-The auditor must assess whether the data used to develop the expectation is reliable. Consider:
-
-- The source of the data (internal vs. external)
-- Whether the data was subjected to audit testing
-- The conditions under which the data was gathered
+- The **source** of the data (independent external sources are generally more reliable)
+- The **comparability** of the data (industry averages may not fit an entity with an unusual product mix)
+- The **nature and relevance** of the data (budgets prepared to be achievable, or prepared as stretch goals)
+- The **controls** over preparing the data, and whether the data were themselves audited or tested
 
 ### Step 3: Develop an Expectation
 
-The auditor forms an independent expectation of the recorded amount. The more precise the expectation, the more effective the procedure.
+The auditor forms an independent expectation of the recorded amount. Precision depends on:
 
-:::info[Example]
+- **Disaggregation:** monthly amounts by product line or location give a far more precise expectation than an annual total
+- **Predictability** of the relationship
+- **Reliability** of the data
+- **Type** of procedure (a reasonableness test or regression is more precise than a simple trend)
 
-To test **Ursa Security's** total revenue, the auditor gathers data on the number of active client contracts, average monthly contract value, and the number of months in the period. Multiplying these factors produces an independent estimate of expected revenue.
+### Step 4: Set the Threshold and Compare
 
-:::
-
-### Step 4: Compare to Recorded Amount
-
-The auditor compares the expected amount to the client's recorded balance and determines whether the difference exceeds a pre-established threshold of acceptable variation.
+Before comparing, the auditor decides how large a difference can be accepted **without further investigation**. The threshold is based on materiality (usually performance materiality) and the assurance the auditor wants from the procedure. The auditor then compares the expectation with the recorded amount.
 
 ### Step 5: Investigate Significant Differences
 
-If the recorded amount differs materially from the expectation, the auditor:
+For a difference above the threshold, the auditor:
 
-1. Inquires of management to obtain explanations
-2. Corroborates management's explanations with additional evidence
-3. Performs alternative procedures if the explanation is insufficient
+1. **Inquires** of management for an explanation
+2. **Corroborates** the explanation with evidence; an explanation alone is not evidence
+3. Performs **other procedures** if the explanation cannot be corroborated
 
----
+A difference that remains unexplained is treated as a likely misstatement and evaluated with the other misstatements found in the audit. Under PCAOB AS 2305, when a substantive analytical procedure is the principal procedure for a significant assertion, the auditor documents the expectation and how it was developed, the results of the comparison, and any additional procedures performed.
 
-## Audit Data Analytics (ADAs)
+### Worked Example
 
-Audit data analytics represent the application of data analysis techniques (often technology-driven) to audit procedures. ADAs enhance the auditor's ability to identify patterns, anomalies, and risks in large datasets.
+Sloth Security sells alarm monitoring under monthly contracts. The auditor plans a substantive analytical procedure for revenue.
 
-### Definition
+1. **Suitability:** Revenue is driven by the number of contracts and the monthly fee, a stable relationship.
+2. **Reliability:** The contract count comes from the customer master file, which the auditor reconciled to signed contracts; ITGCs over the billing system were tested.
+3. **Expectation:** Sloth had 400 active contracts all year at \$250 per month. Expected revenue is 400 × \$250 × 12 = **\$1,200,000**.
+4. **Threshold and comparison:** The auditor sets a threshold of \$40,000. Recorded revenue is \$1,265,000, a difference of \$65,000, which exceeds the threshold.
+5. **Investigation:** Management explains that the monthly fee rose to \$275 on October 1. The auditor inspects the price-change notice sent to customers and a sample of October to December invoices, which confirm the new price. The refined expectation is (400 × \$250 × 9) + (400 × \$275 × 3) = \$900,000 + \$330,000 = **\$1,230,000**. The remaining difference of \$35,000 is within the threshold, so the auditor accepts recorded revenue for this procedure.
 
-Audit data analytics (ADAs) are techniques that analyze complete populations or large datasets of financial and nonfinancial information to identify patterns, correlations, and anomalies relevant to the audit.
-
-### Benefits of ADAs
-
-- Analyze **entire populations** rather than samples
-- Identify **unusual transactions** that might escape traditional sampling
-- Improve **audit quality** through deeper understanding of the data
-- Enhance **efficiency** by focusing attention on high-risk items
-
-### Steps for Implementing ADAs
-
-1. **Define the objective**: Determine what the auditor is trying to accomplish
-2. **Obtain and prepare data**: Extract data from the client's systems and prepare it for analysis
-3. **Perform the analysis**: Apply the chosen analytical technique
-4. **Interpret results**: Evaluate findings in the context of the audit
-5. **Document conclusions**: Record the procedures performed and conclusions reached
-
-### Four Categories of Audit Data Analytics
-
-| Category | Question It Answers | Example |
-|---|---|---|
-| **Descriptive** | *What happened?* | Summarize all journal entries posted by **Polar Inc.'s** accounting staff during the year, showing volume and dollar amounts by user |
-| **Diagnostic** | *Why did it happen?* | Investigate why **Grizzly Industries'** warranty expense spiked in Q3 by correlating with product return data |
-| **Predictive** | *What is likely to happen?* | Forecast expected bad debt expense for **Kodiak Partners** based on historical collection patterns and current aging |
-| **Prescriptive** | *What should we do about it?* | Recommend which inventory locations at **Panda Records** should receive additional testing based on historical discrepancy rates |
-
-:::note
-
-Descriptive and diagnostic analytics are most commonly used in current audit practice. Predictive and prescriptive analytics represent the frontier of audit innovation and are increasingly tested on the CPA exam.
-
-:::
-
-### ADA Applications
-
-#### Applied to Tests of Details
-
-ADAs can enhance tests of details by enabling the auditor to:
-
-- Analyze all transactions in a population rather than relying on a sample
-- Flag transactions with unusual characteristics (e.g., entries posted outside business hours, round-dollar amounts, entries just below authorization thresholds)
-- Match datasets to identify exceptions (e.g., comparing vendor addresses to employee addresses to detect fictitious vendors)
-
-:::info[Example]
-
-The auditor uses data analytics to compare **Honey Entertainment's** complete vendor master file against the employee address database. Three matches are found, prompting further investigation into potential fictitious vendor fraud.
-
-:::
-
-#### Applied to Analytical Procedures
-
-ADAs can strengthen analytical procedures by:
-
-- Incorporating more data points and variables into the analysis
-- Using visualization tools to identify trends and outliers
-- Building statistical models that produce more precise expectations
+Notice that management's explanation did not end the work. The auditor corroborated it and then refined the expectation.
 
 ---
 
-## Methods to Obtain ADA Data
+## The Overall Review Near the End of the Audit
 
-Auditors can obtain data for analytics through several methods:
+Near the end of the audit, the auditor steps back and reads the financial statements as a whole. Do the amounts and relationships make sense given everything learned about the entity, its industry, and the economy? This review often uses the same comparisons as planning (trends, ratios, the current year against expectations) but with audited figures.
 
-- **Direct system access**: Connecting to the client's ERP or accounting system
-- **Data exports**: Requesting structured data files (CSV, Excel, XML) from the client
-- **API connections**: Pulling data programmatically from the client's systems
-- **Third-party data**: Obtaining external benchmarking or industry data
-- **Screen scraping / OCR**: Extracting data from documents or legacy systems
-
-:::warning
-
-The auditor must evaluate the **completeness and accuracy** of data obtained for analytics. If the underlying data is unreliable, the ADA results will be misleading. This is analogous to evaluating the reliability of data used in any analytical procedure.
-
-:::
+If the review reveals a previously unrecognized risk of material misstatement, for example an unexplained jump in a ratio that no audit work addressed, the auditor revises the risk assessment and performs additional procedures before issuing the report.
 
 ---
 
-## Techniques to Interpret ADA Results
+## Analytics and Technology
 
-Interpreting the output of audit data analytics requires both technical and professional skills:
-
-- **Filtering and sorting**: Isolating items that meet specific criteria (e.g., all transactions over a threshold)
-- **Statistical analysis**: Applying measures of central tendency, dispersion, and correlation
-- **Pattern recognition**: Identifying recurring anomalies or clusters of unusual activity
-- **Benchmarking**: Comparing results to industry data, prior periods, or budgets
-- **Exception testing**: Focusing on items that fall outside expected parameters
+Data analytics software has made analytical procedures far more powerful. Auditors can build expectations from disaggregated data, run regressions on thousands of data points, and visualize trends across every location. The underlying logic is unchanged: reliable data, a precise expectation, a defined threshold, and corroborated explanations. The [Audit Data Analytics](./audit-data-analytics.md) chapter covers the tools, data preparation, and visualizations.
 
 ---
 
-## Data Visualizations
+## Summary
 
-Visual representations of data can make patterns and anomalies easier to identify. Common visualizations used in audit analytics include:
-
-| Visualization | Use Case |
+| Topic | Key Point |
 |---|---|
-| **Bar / column charts** | Comparing balances across periods or categories |
-| **Line charts** | Identifying trends over time (e.g., monthly revenue at **Bear Co.**) |
-| **Scatter plots** | Detecting outliers in large datasets |
-| **Heat maps** | Highlighting areas of concentration or risk |
-| **Histograms** | Showing the distribution of transaction amounts |
-| **Pie charts** | Illustrating proportional composition (e.g., revenue by segment at **Honey Entertainment**) |
-
-:::tip
-
-On the CPA exam, you may be asked to identify which type of visualization is most appropriate for a given audit objective. Scatter plots are ideal for outlier detection, while trend lines are best for time-series comparisons.
-
-:::
-
----
-
-## Relational Databases
-
-Much of the data used in audit analytics resides in **relational databases**, structured systems that organize data into related tables.
-
-Key concepts:
-
-- **Tables**: Store data in rows (records) and columns (fields)
-- **Primary key**: A unique identifier for each record in a table
-- **Foreign key**: A field in one table that references the primary key of another table, establishing a relationship
-- **Queries**: Requests to retrieve, filter, or combine data from one or more tables (commonly written in SQL)
-
-:::info[Example]
-
-**Grizzly Industries** stores its accounting data in a relational database. The auditor writes a query joining the sales order table, shipping table, and invoice table to identify shipments that were never invoiced. This is a test of the completeness assertion for revenue.
-
-:::
-
----
-
-## The ETL Process (Extract, Transform, Load)
-
-When performing audit data analytics, auditors frequently work with data from multiple sources. The **ETL process** standardizes this workflow:
-
-### Extract
-
-Pull raw data from the client's systems, databases, or external sources. This may involve:
-
-- Downloading data files
-- Running database queries
-- Accessing data through APIs
-
-### Transform
-
-Clean and standardize the extracted data to make it suitable for analysis:
-
-- Removing duplicates
-- Standardizing date formats, currency codes, and naming conventions
-- Validating data integrity (e.g., checking for missing values or impossible entries)
-- Converting data types as needed
-
-### Load
-
-Import the transformed data into the auditor's analytical tool or platform for analysis.
-
-:::note
-
-The ETL process is essential for ensuring that the data used in analytics is complete, accurate, and in a usable format. Errors in any stage (extraction, transformation, or loading) can compromise the reliability of the entire analysis.
-
-:::
-
-| Stage | Key Activity | Risk If Done Poorly |
-|---|---|---|
-| **Extract** | Pull data from source systems | Incomplete data; missing records |
-| **Transform** | Clean, standardize, and validate data | Inaccurate analysis due to data quality issues |
-| **Load** | Import into analysis tool | Corruption during import; format incompatibility |
+| **Definition** | Evaluating financial information through plausible relationships among financial and nonfinancial data |
+| **Required uses** | Risk assessment and the overall review near the end of the audit |
+| **Optional use** | Substantive procedures |
+| **Suitability** | Best for large volumes with predictable relationships; not enough alone for significant risks |
+| **Precision** | Improved by disaggregation, predictable relationships, reliable data, and more rigorous techniques |
+| **Investigating differences** | Inquire, corroborate, and perform other procedures; unexplained differences are likely misstatements |

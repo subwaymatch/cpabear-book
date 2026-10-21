@@ -1,243 +1,202 @@
 # Uniform Guidance for Single Audits
 
-When entities receive and expend significant amounts of federal financial assistance, they are subject to heightened accountability requirements. The **Uniform Guidance** (formally codified in **2 CFR Part 200**), issued by the **Office of Management and Budget (OMB)**, provides a comprehensive framework governing the administration, cost principles, and audit requirements for federal awards. Subpart F of the Uniform Guidance specifically addresses **audit requirements**, including the **single audit**, a rigorous, organization-wide audit designed to ensure that recipients of federal funds comply with applicable laws, regulations, and program requirements. Understanding single audit concepts is essential for the AUD section of the CPA exam, particularly blueprint topics **II.G.4** and **III.E.6**.
+A university or a large nonprofit may receive dozens of federal awards from different agencies. If every agency sent its own auditor, the entity would face a stream of overlapping audits. The **Single Audit Act** solves that problem by requiring one audit of the whole entity that serves every federal agency at once. The audit requirements are set by the Office of Management and Budget (OMB) in the **Uniform Guidance**, 2 CFR Part 200, **Subpart F**. This chapter follows a single audit in the order the auditor works: deciding whether one is required, the layers of standards that apply, the schedule of federal expenditures, choosing major programs, testing compliance and internal control over compliance, and reporting. The blueprint tests when a single audit is required and how major programs are identified (Area II), the testing of federal award transactions (Area III), and the single audit reports (Area IV).
 
-:::info
+---
 
-The **Single Audit Act Amendments of 1996** established the legal foundation for the single audit. The **Uniform Guidance (2 CFR Part 200, Subpart F)** implements the Act and replaces the former OMB Circulars A-133, A-87, A-21, and A-122, consolidating audit, cost, and administrative requirements into a single framework.
+## Legal Background
 
-:::
+The Single Audit Act was passed in 1984 and amended in 1996. The Uniform Guidance consolidated several older OMB circulars (including Circular A-133, the former audit circular) into one set of administrative, cost, and audit requirements. OMB revised the Uniform Guidance in 2024. The revised audit requirements in Subpart F apply to **auditee fiscal years beginning on or after October 1, 2024**. The two changes that matter most for the exam are the higher single audit threshold and the new Type A program table, both covered below.
 
 ---
 
 ## When Is a Single Audit Required?
 
-The single audit requirement is triggered by the **total amount of federal awards expended** during an entity's fiscal year, not by the number of programs or grants.
+Subpart F applies to non-federal entities: states, local governments, Indian tribes, institutions of higher education, and nonprofit organizations. The trigger is the total amount of federal awards the entity **expends** during its fiscal year, not the amount it is awarded or receives, and not the number of programs.
 
-| Federal Awards Expended | Audit Requirement |
+| Federal Awards Expended in the Fiscal Year | Audit Requirement |
 |---|---|
-| **Less than \$750,000** | No single audit or program-specific audit required |
-| **\$750,000 or more** | Single audit required under 2 CFR Part 200, Subpart F |
+| **Less than \$1,000,000** | No single audit required |
+| **\$1,000,000 or more** | Single audit required (or, in limited cases, a program-specific audit) |
 
-**Example:** Bear Co., a nonprofit community health organization, expended \$620,000 in federal awards during its fiscal year. Because this amount is below the \$750,000 threshold, Bear Co. is **not** required to have a single audit performed. However, if Bear Co. also receives a new \$200,000 federal grant the following year (bringing total expenditures to \$820,000), a single audit would be required for that year.
+The \$1,000,000 threshold applies to fiscal years beginning on or after October 1, 2024. For earlier fiscal years the threshold was \$750,000, so older study materials and questions may show the lower figure.
 
-:::note
-
-The \$750,000 threshold applies to **expenditures**, not to the amount of awards received or the award balances. An entity may hold large federal award balances but only trigger the single audit if it actually **expends** \$750,000 or more during the fiscal year.
-
-:::
+**Example:** Panda Community Clinic, a nonprofit, is awarded a \$2 million federal grant but spends only \$820,000 of it during its fiscal year. Because expenditures are below \$1,000,000, no single audit is required, even though the award is larger. The next year the clinic spends \$1.1 million of federal awards, and a single audit is required for that year.
 
 ---
 
-## Relationship to Government Auditing Standards (Yellow Book)
+## Layers of Standards
 
-A single audit conducted under the Uniform Guidance **must also be performed in accordance with Government Auditing Standards** (the Yellow Book / GAGAS) issued by the Government Accountability Office (GAO). This means the auditor must comply with:
+A single audit stacks three sets of requirements:
 
-- All applicable **AICPA auditing standards** (GAAS)
-- All additional **Yellow Book** requirements (enhanced independence, CPE, reporting on internal control and compliance over financial reporting)
-- All **Uniform Guidance** requirements (major program determination, compliance testing, SEFA, schedule of findings)
+1. **GAAS** (the AICPA's auditing standards) for the financial statement audit, plus **AU-C 935** for the compliance audit
+2. **Government Auditing Standards** (the Yellow Book), which add ethics, competence, quality management, and the GAGAS reports on internal control and compliance
+3. The **Uniform Guidance**, which adds major program determination, compliance testing of each major program, the schedule of expenditures of federal awards, and the schedule of findings and questioned costs
 
-:::tip[Exam Tip]
-
-Think of the single audit as a **layered** set of requirements: GAAS forms the foundation, Yellow Book adds governmental requirements on top, and the Uniform Guidance adds federal award-specific requirements on top of that. All three layers apply simultaneously.
-
-:::
+All three apply at the same time. GAAS is the foundation, the Yellow Book sits on top of it, and the Uniform Guidance adds the federal program layer.
 
 ---
 
 ## The Schedule of Expenditures of Federal Awards (SEFA)
 
-The **SEFA** is a critical component of the single audit. It provides a complete listing of all federal awards expended by the auditee during the audit period.
+The **SEFA** lists every federal award the auditee expended during the period. **The auditee prepares it**, and the auditor audits it. It shows:
 
-### Key SEFA Requirements
+- Each federal program, grouped by federal agency, with its **Assistance Listing Number** (formerly the CFDA number)
+- For awards received through a pass-through entity, the name of the pass-through entity and the award number it assigned
+- Total federal awards expended for each program
+- Amounts the auditee **passed through to subrecipients**
+- For loan and loan guarantee programs, balances outstanding at year-end
+- Notes describing the basis of accounting used
 
-| Element | Description |
-|---|---|
-| **Federal agency** | Identifies the pass-through entity or direct federal awarding agency |
-| **Program name** | The title of the federal program |
-| **CFDA/ALN number** | The Assistance Listing Number (formerly CFDA number) that uniquely identifies each federal program |
-| **Award identification** | Grant or contract numbers |
-| **Expenditures** | Total federal awards expended during the period for each program |
-| **Pass-through awards** | Separately identifies amounts passed through to subrecipients |
-| **Loans and loan guarantees** | Outstanding balances at year-end for federal loan programs |
+The auditor reports on whether the SEFA is fairly stated, in all material respects, **in relation to the financial statements as a whole** (an "in relation to" opinion, the same approach used for supplementary information).
 
-**Example:** Bear Co., a state university, prepares its SEFA listing 14 federal programs totaling \$18.5 million in expenditures. The SEFA includes the ALN number, awarding agency, and expenditure amount for each program, and separately identifies \$2.1 million passed through to subrecipient research partners.
-
-:::caution
-
-The auditor must **audit the SEFA** in relation to the financial statements as a whole. The SEFA must be prepared by the auditee, and the auditor must determine whether it is fairly stated in all material respects in relation to the financial statements taken as a whole.
-
-:::
+**Example:** Polar University, a state university, lists 14 federal programs totaling \$18.5 million on its SEFA, including \$2.1 million passed through to research partners that are subrecipients.
 
 ---
 
-## Identification of Federal Awards and Major Programs
+## Identifying Major Programs
 
-Not every federal program is subject to full compliance testing. The auditor must determine which programs are **major programs** using a risk-based approach.
+The auditor does not test compliance for every program. Instead, the Uniform Guidance prescribes a **risk-based approach** for choosing the **major programs** that will be tested. It works in four steps.
 
-### Type A and Type B Programs
+### Step 1: Classify Programs as Type A or Type B
 
-Programs are first classified based on a **dollar threshold**:
+**Type A programs** are those whose expenditures exceed the Type A threshold. All other programs are **Type B**. The threshold depends on the auditee's total federal awards expended:
 
-| Classification | Criteria | Default Treatment |
-|---|---|---|
-| **Type A** | Programs exceeding the larger of: (1) \$750,000, or (2) a sliding-scale percentage of total federal expenditures | Presumed to be **major** unless assessed as low risk |
-| **Type B** | All programs below the Type A threshold | Presumed to be **non-major** unless assessed as high risk |
-
-The Type A threshold uses a sliding scale:
-
-| Total Federal Expenditures | Type A Threshold |
+| Total Federal Awards Expended | Type A Threshold |
 |---|---|
-| Up to \$25 million | The larger of \$750,000 or 3% of total |
-| \$25 million to \$100 million | \$1.875 million |
-| \$100 million to \$1 billion | The larger of \$3 million or 0.3% of total |
-| Over \$1 billion | \$30 million |
+| \$1,000,000 to \$34 million | \$1,000,000 |
+| Over \$34 million to \$100 million | Total expenditures × 3% |
+| Over \$100 million to \$1 billion | \$3 million |
+| Over \$1 billion to \$10 billion | Total expenditures × 0.3% |
+| Over \$10 billion to \$20 billion | \$30 million |
+| Over \$20 billion | Total expenditures × 0.15% |
 
-### Risk-Based Approach to Determining Major Programs
+### Step 2: Identify Low-Risk Type A Programs
 
-The auditor performs a **four-step process** to determine major programs:
+A Type A program can be **low risk** only if it was audited as a major program in at least one of the two most recent audit periods and, in the most recent audit period, it had none of the following:
 
-1. **Identify Type A programs** using the dollar threshold
-2. **Assess risk for each Type A program**: classify as low risk or high risk
-3. **Identify high-risk Type B programs**: at least one high-risk Type B must be tested as major for every low-risk Type A excluded from testing (with a cap equal to 25% of the number of low-risk Type A programs)
-4. **Verify coverage**: total major programs must cover at least **20%** (low-risk auditee) or **40%** (non-low-risk auditee) of total federal expenditures
+- A material weakness in internal control over compliance
+- A modified opinion on the program
+- Known or likely questioned costs exceeding 5% of the program's expenditures
 
-**Example:** Grizzly Industries, a large nonprofit, expended \$12 million in federal awards across 10 programs. Using the 3% threshold (\$360,000 is less than \$750,000, so the threshold is \$750,000), four programs exceed \$750,000 and are classified as Type A. The auditor assesses one Type A program as low risk (clean findings for two consecutive years) and three as high risk. The auditor also identifies one high-risk Type B program with prior-year findings. All four high-risk programs are tested as major, covering 72% of total federal expenditures.
+Even when those tests are met, the auditor uses judgment: findings, weak oversight by the federal agency, or changes in personnel or systems can make a program high risk.
 
-:::info
+### Step 3: Identify High-Risk Type B Programs
 
-A **low-risk auditee** is one that has had single audits for the prior two years with: (1) unmodified opinions on the financial statements and SEFA, (2) no material weaknesses in internal control, (3) no known or likely questioned costs exceeding 5% of a major program's expenditures, and (4) timely submission of the reporting package.
+The auditor assesses risk only for Type B programs that exceed **25% of the Type A threshold**; smaller programs are not risk-assessed. The auditor is not required to identify more high-risk Type B programs than **one-fourth of the number of low-risk Type A programs**.
 
-:::
+### Step 4: Determine the Major Programs and Check Coverage
+
+At a minimum, the major programs are:
+
+1. All Type A programs that are **not** low risk
+2. The high-risk Type B programs identified in Step 3
+3. Any additional programs needed to meet the **percentage-of-coverage rule**: the major programs must cover at least **40%** of total federal awards expended, or **20%** for a **low-risk auditee**
+
+### Worked Example
+
+Grizzly Foundation expends \$20 million of federal awards across 10 programs, and it had a material weakness in last year's single audit, so it is **not** a low-risk auditee.
+
+1. Total expenditures are under \$34 million, so the Type A threshold is **\$1,000,000**. Six programs exceed it and are Type A; together they total \$18 million. The other four programs (\$2 million in total) are Type B.
+2. Four Type A programs are low risk. The other two, totaling \$6 million, are high risk.
+3. The auditor risk-assesses only Type B programs over \$250,000 (25% of \$1,000,000). With four low-risk Type A programs, the auditor need not identify more than one high-risk Type B program. One \$500,000 program with recent findings is high risk.
+4. The two high-risk Type A programs and the high-risk Type B program total \$6.5 million, or 32.5% of \$20 million. That falls short of the 40% coverage required for an auditee that is not low risk (\$8 million). The auditor adds one low-risk Type A program of \$2 million, bringing coverage to \$8.5 million, or 42.5%.
+
+The auditor therefore audits four major programs.
+
+### Low-Risk Auditees
+
+An auditee qualifies as **low risk**, and so needs only 20% coverage, if it meets all of these conditions for **each of the two preceding audit periods**:
+
+- Single audits were performed annually and submitted on time
+- The auditor's opinions on the financial statements and the in-relation-to opinion on the SEFA were unmodified
+- No material weaknesses in internal control were reported under GAGAS
+- The auditor did not report substantial doubt about the auditee's ability to continue as a going concern
+- No Type A program had a material weakness in internal control over compliance, a modified compliance opinion, or known or likely questioned costs exceeding 5% of its expenditures
 
 ---
 
-## Compliance Requirements for Federal Awards
+## Compliance Requirements and the Compliance Supplement
 
-For each major program, the auditor tests the entity's compliance with requirements that could have a **direct and material effect** on the program. The Uniform Guidance identifies **12 types of compliance requirements**:
+For each major program, the auditor tests compliance with the requirements that could have a **direct and material effect** on the program. The **OMB Compliance Supplement**, updated each year, groups these into 12 types:
 
-| Compliance Requirement | Description |
+| Compliance Requirement | What It Covers |
 |---|---|
-| **Activities allowed or unallowed** | Funds must be used only for authorized purposes |
-| **Allowable costs/cost principles** | Costs charged must meet federal cost principles (reasonable, allocable, consistent) |
-| **Cash management** | Federal funds must be drawn down on a timely basis to minimize federal cash on hand |
-| **Eligibility** | Only eligible participants or entities may receive benefits |
-| **Equipment and real property management** | Proper tracking, use, and disposition of federally funded assets |
-| **Matching, level of effort, earmarking** | Entity must meet cost-sharing or matching requirements and earmark funds as required |
-| **Period of performance** | Costs must be incurred within the authorized grant period |
-| **Procurement and suspension/debarment** | Purchases must follow federal procurement standards; contractors must not be suspended or debarred |
-| **Program income** | Income generated by the program must be handled according to federal requirements |
-| **Reporting** | Required financial and performance reports must be accurate and timely |
-| **Subrecipient monitoring** | Pass-through entities must monitor subrecipients for compliance |
-| **Special tests and provisions** | Program-specific requirements unique to certain federal programs |
+| **Activities allowed or unallowed** | Funds are used only for authorized purposes |
+| **Allowable costs/cost principles** | Costs charged meet federal cost principles (reasonable, allocable, consistently treated) |
+| **Cash management** | Federal funds are drawn down in a way that minimizes the time federal cash is held |
+| **Eligibility** | Only eligible individuals or entities receive benefits |
+| **Equipment and real property management** | Federally funded assets are tracked, used, and disposed of properly |
+| **Matching, level of effort, earmarking** | Cost-sharing, spending-level, and earmarking requirements are met |
+| **Period of performance** | Costs are incurred within the authorized period |
+| **Procurement and suspension and debarment** | Purchases follow federal procurement standards; contractors are not suspended or debarred |
+| **Program income** | Income earned by the program is handled as required |
+| **Reporting** | Required financial and performance reports are accurate and timely |
+| **Subrecipient monitoring** | Pass-through entities monitor their subrecipients |
+| **Special tests and provisions** | Requirements unique to a particular program |
 
-**Example:** Polar Inc. receives a \$1.2 million federal workforce development grant. The auditor tests key compliance requirements: (1) **Eligibility**, verifying that program participants met income thresholds, (2) **Activities allowed**, confirming that training expenditures aligned with the grant agreement, (3) **Reporting**, checking that quarterly performance reports were filed on time, and (4) **Period of performance**, ensuring no costs were incurred outside the grant period.
+Not every requirement applies to every program. The Compliance Supplement identifies which ones apply, and are subject to audit, for each program it covers, and it describes suggested audit procedures. For a program not covered, the auditor determines the applicable requirements from the Supplement's general guidance and the terms of the award.
 
-:::warning
-
-Not all 12 compliance requirements apply to every program. The auditor must consult the **Compliance Supplement** to determine which requirements are applicable to each specific federal program being tested.
-
-:::
-
----
-
-## The Compliance Supplement
-
-The **Compliance Supplement** (officially the *OMB Compliance Supplement*) is an annual publication that provides:
-
-- **Program-specific guidance** for the largest federal programs, detailing which compliance requirements apply and suggested audit procedures
-- A **generic section** (Part 2) for programs not specifically listed, describing the compliance requirements that may apply
-- **Internal control guidance** describing the controls the auditor should expect over each compliance requirement
-- Guidance on **audit sampling** and testing approaches
-
-:::tip[Exam Tip]
-
-The Compliance Supplement is the auditor's **primary reference** for determining which compliance requirements apply to a specific federal program. It is issued annually by OMB and updated to reflect changes in federal programs and requirements.
-
-:::
+**Example:** Kodiak Partners, a nonprofit, operates a \$1.2 million federal workforce development program that is a major program. The auditor tests **eligibility** by agreeing a sample of participant files to the program's income limits, **activities allowed** by comparing training costs to the grant agreement, **reporting** by agreeing quarterly reports to the accounting records and checking filing dates, and **period of performance** by confirming that no costs fell outside the grant period.
 
 ---
 
 ## Internal Control Over Compliance
 
-In addition to testing compliance, the auditor must **understand and test internal controls over compliance** for each major program. This includes:
+Testing compliance is only half of the major program work. For each major program, the auditor must:
 
-- **Planning**: Obtain an understanding of internal controls relevant to each direct and material compliance requirement
-- **Risk assessment**: Evaluate the design and implementation of controls
-- **Testing**: Test the operating effectiveness of controls to support a low assessed level of control risk (if planned)
-- **Deficiency evaluation**: Evaluate whether identified deficiencies constitute significant deficiencies or material weaknesses **in internal control over compliance**
+1. Obtain an understanding of internal control over compliance for each direct and material compliance requirement
+2. **Plan the testing** of internal control over compliance to support a **low assessed level of control risk**
+3. **Perform the tests of controls** as planned
+4. Evaluate deficiencies and report significant deficiencies and material weaknesses in internal control over compliance
 
-**Example:** Honey Entertainment operates a federal arts education program. The auditor identifies the following internal controls over compliance: (1) a checklist used to verify participant eligibility before enrollment, (2) supervisory review of quarterly financial reports before submission, and (3) automated system controls that prevent expenditure entries outside the grant period. The auditor tests each control and concludes they are operating effectively.
+This is stricter than a financial statement audit, where testing controls is optional unless the auditor plans to rely on them. The one exception: if the controls over a compliance requirement are **likely to be ineffective**, the auditor does not have to plan for a low level of control risk, but must report the matter as a significant deficiency or material weakness.
 
-:::note
+Internal control over compliance is a separate subject from internal control over financial reporting. An entity can keep excellent accounting records and still have weak controls over who qualifies for its program.
 
-Internal control over compliance is **separate from** internal control over financial reporting. An entity may have strong financial reporting controls but weak compliance controls for its federal programs (or vice versa). The auditor must evaluate and report on both.
-
-:::
+**Example:** Cub Arts Council runs a federal arts education program. Its controls over compliance include an eligibility checklist reviewed before each participant enrolls, supervisory review of quarterly reports before they are filed, and a system control that blocks charges dated outside the grant period. The auditor tests each control, finds them operating effectively, and reports no deficiencies in internal control over compliance.
 
 ---
 
-## Reporting Requirements
+## Reporting
 
-The single audit produces a comprehensive **reporting package** consisting of several components.
+### The Auditor's Reports
 
-### Auditor's Reports
+A single audit produces these auditor's reports:
 
-The auditor issues multiple reports as part of the single audit:
-
-| Report | Purpose |
+| Report | What It Says |
 |---|---|
-| **Opinion on financial statements** | Standard GAAS audit opinion |
-| **Report on internal control over financial reporting and compliance (GAGAS)** | Yellow Book report on controls and compliance related to the financial statement audit |
-| **Opinion on compliance for each major program** | Expresses whether the entity complied, in all material respects, with requirements applicable to each major program |
-| **Report on internal control over compliance** | Describes the scope of testing and any deficiencies in controls over compliance with federal award requirements |
-
-The compliance opinion for major programs can be **unmodified**, **qualified**, **adverse**, or a **disclaimer**, following the same framework as financial statement opinions.
+| **Opinion on the financial statements**, with an in-relation-to opinion on the SEFA | GAAS opinion; the SEFA is fairly stated in relation to the financial statements as a whole |
+| **GAGAS report on internal control over financial reporting and on compliance** | Scope of testing and findings; no opinion |
+| **Report on compliance for each major program** | An opinion for each major program: unmodified, qualified, adverse, or disclaimer |
+| **Report on internal control over compliance** (usually combined with the major program report) | Scope of testing and any significant deficiencies or material weaknesses; no opinion |
 
 ### Schedule of Findings and Questioned Costs
 
-This schedule is a critical deliverable that contains three sections:
+The auditor also prepares the **schedule of findings and questioned costs**, which has three parts:
 
-1. **Summary of auditor's results**: the type of opinion on the financial statements, whether material weaknesses or significant deficiencies were identified (for both financial reporting and compliance), the type of compliance opinion for major programs, and whether the auditee qualifies as low risk
-2. **Financial statement findings**: findings related to the financial statement audit under GAGAS
-3. **Federal award findings and questioned costs**: compliance findings for major programs, including the ALN number, program name, federal agency, and the specific compliance requirement involved
+1. **Summary of the auditor's results**: the type of opinion on the financial statements, whether material weaknesses or significant deficiencies were found (for financial reporting and for compliance), the type of compliance opinion for each major program, the major programs, the Type A threshold, and whether the auditee qualified as low risk
+2. **Financial statement findings** required to be reported under GAGAS
+3. **Federal award findings and questioned costs**
 
-**Example:** Kodiak Partners, a regional transit authority, receives a qualified opinion on compliance for its Federal Transit Administration grant due to unallowable expenditures totaling \$85,000. The schedule of findings and questioned costs reports: (1) the finding number, (2) the federal program and ALN, (3) a description of the condition (unallowable travel expenditures), (4) the criteria (grant agreement and 2 CFR Part 200 cost principles), (5) the questioned cost amount (\$85,000), (6) the cause and effect, and (7) a recommendation.
+**Questioned costs** are costs the auditor questions because they result from a violation of a requirement, are not supported by adequate documentation, or appear unreasonable. Each finding presents the federal program and award, the **criteria**, the **condition**, the **cause**, the **effect**, any **questioned costs**, whether it repeats a prior finding, a **recommendation**, and the views of responsible officials.
 
-:::caution
+**Example:** Sloth County, a local government, receives a qualified compliance opinion on its federal transit grant because \$85,000 of travel costs were not allowable. The finding gives the program and Assistance Listing Number, the condition (unallowable travel charged to the grant), the criteria (the grant agreement and the federal cost principles), the cause and effect, the \$85,000 of questioned costs, and a recommendation.
 
-Each finding must include the following elements: **condition**, **criteria**, **cause**, **effect**, **questioned costs** (if applicable), and a **recommendation**. The auditee must also prepare a **corrective action plan** for each finding and a **summary schedule of prior audit findings** showing the status of findings from the previous audit.
+### The Auditee's Documents
 
-:::
+The auditee, not the auditor, prepares the **summary schedule of prior audit findings** (the status of findings from earlier audits) and a **corrective action plan** for each current-year finding. The full reporting package (financial statements, SEFA, auditor's reports, schedule of findings and questioned costs, summary schedule of prior audit findings, and corrective action plan) is submitted electronically to the **Federal Audit Clearinghouse**, together with the **data collection form (Form SF-SAC)**, which summarizes the audit results and is completed by both the auditee and the auditor.
 
----
+### Submission Deadline
 
-## Data Collection Form and Federal Audit Clearinghouse
+The submission is due by the **earlier of**:
 
-### Data Collection Form (SF-SAC)
+- **30 calendar days** after the auditee receives the auditor's reports, or
+- **Nine months** after the end of the audit period
 
-The **Data Collection Form (SF-SAC)** is a standardized form that summarizes key information from the single audit, including:
+**Example:** Sloth County's fiscal year ends June 30, and it receives the auditor's reports on October 15. The package is due November 14 (30 days after receipt), which is earlier than the nine-month deadline of March 31.
 
-- The type of audit report issued
-- The list of federal programs and expenditures
-- Whether findings or questioned costs were identified
-- The auditee's contact information and fiscal year
-
-### Federal Audit Clearinghouse (FAC)
-
-The **Federal Audit Clearinghouse** serves as the central repository for all single audit submissions:
-
-- Operated by the **U.S. Census Bureau** on behalf of OMB
-- The complete reporting package (including the SF-SAC, audited financial statements, SEFA, and all auditor reports) must be submitted electronically
-- Submission deadline: the **earlier** of 30 days after receipt of the auditor's report or **9 months** after the end of the audit period
-
-**Example:** Ursa Security, a county government, completes its single audit for the fiscal year ended June 30. The auditor's report is dated October 15. Ursa Security must submit the complete reporting package to the Federal Audit Clearinghouse by **November 14** (30 days after receipt of the report), since this is earlier than the 9-month deadline of March 31.
-
-:::warning
-
-Failure to submit the single audit reporting package to the Federal Audit Clearinghouse by the deadline can result in the entity being designated as **high risk**, potential withholding of federal funds, or other sanctions by federal awarding agencies.
-
-:::
+Late submission keeps an auditee from qualifying as low risk and can lead federal agencies to impose sanctions, such as withholding payments.
 
 ---
 
@@ -245,17 +204,13 @@ Failure to submit the single audit reporting package to the Federal Audit Cleari
 
 | Topic | Key Point |
 |---|---|
-| **Single audit threshold** | Required when an entity expends **\$750,000 or more** in federal awards during a fiscal year |
-| **Governing framework** | Uniform Guidance, **2 CFR Part 200, Subpart F** |
-| **Relationship to GAGAS** | Single audits must also comply with **Government Auditing Standards** (Yellow Book) and GAAS |
-| **SEFA** | Lists all federal awards expended; audited in relation to the financial statements as a whole |
-| **Type A programs** | Larger programs exceeding a dollar threshold; presumed major unless assessed as low risk |
-| **Type B programs** | Smaller programs below the Type A threshold; presumed non-major unless assessed as high risk |
-| **Coverage requirement** | Major programs must cover at least **20%** (low-risk auditee) or **40%** of total federal expenditures |
-| **Compliance requirements** | 12 types, including activities allowed, eligibility, cash management, matching, reporting, subrecipient monitoring |
-| **Compliance Supplement** | OMB publication that identifies which compliance requirements apply to each federal program |
-| **Internal control over compliance** | Must be understood, tested, and reported on separately from financial reporting controls |
-| **Auditor's reports** | Financial statement opinion, GAGAS reports, major program compliance opinion, internal control over compliance report |
-| **Schedule of findings** | Includes summary of results, financial statement findings, and federal award findings with questioned costs |
-| **Data Collection Form** | SF-SAC summarizing audit results, submitted to the **Federal Audit Clearinghouse** |
-| **Submission deadline** | Earlier of **30 days** after auditor's report or **9 months** after fiscal year-end |
+| **Threshold** | Single audit required at **\$1,000,000 or more** of federal awards expended (fiscal years beginning on or after October 1, 2024; \$750,000 before) |
+| **Governing rules** | Single Audit Act; Uniform Guidance, 2 CFR Part 200, Subpart F; GAAS, AU-C 935, and GAGAS also apply |
+| **SEFA** | Prepared by the auditee; audited in relation to the financial statements as a whole |
+| **Type A threshold** | \$1,000,000 for total expenditures up to \$34 million, rising on a sliding scale above that |
+| **Major programs** | High-risk Type A, high-risk Type B, plus enough programs to reach 40% coverage (20% for a low-risk auditee) |
+| **Compliance requirements** | 12 types in the Compliance Supplement; test those that are direct and material to each major program |
+| **Internal control over compliance** | Plan and perform tests to support a low assessed level of control risk |
+| **Reports** | Financial statement and SEFA opinions, GAGAS report, opinion on each major program, report on internal control over compliance |
+| **Schedule of findings** | Summary of results, financial statement findings, federal award findings and questioned costs |
+| **Submission** | Federal Audit Clearinghouse by the earlier of 30 days after receiving the reports or nine months after year-end |

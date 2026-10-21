@@ -1,133 +1,91 @@
 # Conceptual Framework for Financial Reporting
 
-## Overview
+The **FASB Conceptual Framework** is the set of objectives and fundamental concepts that the Financial Accounting Standards Board (FASB) uses to develop accounting standards. Think of it as the constitution of financial reporting: it does not prescribe specific rules, but every topic in the Accounting Standards Codification (ASC) is built on it, and preparers can use it to reason through transactions that no standard addresses. On the exam, the framework shows up in direct definition questions and, more quietly, as the logic behind classification answers. This chapter follows the framework's own order: the objective of reporting, the qualities that make information useful, the elements, recognition and measurement, and finally the assumptions and principles that sit underneath them.
 
-The **FASB Conceptual Framework** is a set of objectives and fundamental concepts that guides the Financial Accounting Standards Board (FASB) in developing accounting standards. It also helps preparers reason through transactions that no standard addresses. Think of it as the "constitution" of financial reporting. It does not prescribe specific rules, but every topic in the Accounting Standards Codification (ASC) is built on it.
+## The Concepts Statements
 
-The framework is set out in **Statements of Financial Accounting Concepts (SFACs)**. The FASB has been replacing the older statements with new chapters of SFAC No. 8:
+The framework is set out in **Statements of Financial Accounting Concepts (SFACs)**, also called Concepts Statements. Since 2010 the FASB has been replacing the older statements with chapters of a single statement, SFAC No. 8, *Conceptual Framework for Financial Reporting*. With the measurement chapter issued in 2024, all of the older statements covered in this chapter have now been replaced:
 
-| SFAC | Title | Status |
+| SFAC No. 8 chapter | Topic | Replaced |
 |---|---|---|
-| SFAC No. 5 | Recognition and Measurement in Financial Statements of Business Enterprises | Largely superseded by SFAC No. 8 chapters issued since 2022 |
-| SFAC No. 6 | Elements of Financial Statements | Superseded by SFAC No. 8, Chapter 4 (December 2021) |
-| SFAC No. 7 | Using Cash Flow Information and Present Value in Accounting Measurements | Active |
-| SFAC No. 8 | Conceptual Framework for Financial Reporting | Active; issued chapter by chapter (Chapters 1 and 3 replaced SFAC No. 1 and 2) |
+| Chapter 1 (2010) | Objective of general purpose financial reporting | SFAC No. 1 |
+| Chapter 3 (2010) | Qualitative characteristics of useful financial information | SFAC No. 2 |
+| Chapter 4 (December 2021) | Elements of financial statements | SFAC No. 6 |
+| Chapter 5 (August 2023) | Recognition and derecognition | The recognition guidance in SFAC No. 5 |
+| Chapter 6 (July 2024) | Measurement | SFAC No. 5 and SFAC No. 7 |
 
-:::info
+Two further chapters address presentation (Chapter 7) and notes to financial statements (Chapter 8).
 
-SFACs are **not** authoritative GAAP (generally accepted accounting principles). The FASB uses them to develop standards, and preparers can use them to reason through situations that no specific standard addresses.
-
-:::
-
----
-
-## Objective of General-Purpose Financial Reporting (SFAC No. 8, Chapter 1)
-
-The objective of general-purpose financial reporting is to provide **financial information about the reporting entity that is useful to existing and potential investors, lenders, and other creditors** in making decisions about providing resources to the entity.
-
-These users need information to assess:
-
-1. The entity's prospects for **future net cash inflows**
-2. **Management's stewardship** of the entity's economic resources
-3. The entity's **economic resources and the claims** against it (financial position)
-4. **Changes** in those resources and claims (financial performance)
-
-:::tip[Exam Tip]
-
-The objective focuses on **decision-usefulness** for **capital providers** (investors and creditors), not managers, regulators, or the general public. This is a frequently tested concept.
-
-:::
-
-### Example
-
-Polar Co. is considering whether to extend a \$500,000 line of credit to Panda Industries. Polar Co. will review Panda's financial statements to evaluate:
-
-- whether Panda has enough assets to cover its existing obligations
-- whether Panda's revenue trends suggest it can repay
-- whether Panda's cash flow from operations is positive and stable
-
-This is exactly the kind of decision the conceptual framework is designed to support.
+Concepts Statements are **not** authoritative GAAP (generally accepted accounting principles). The FASB has also removed references to them from the Codification itself (ASU 2024-02), which underlines that they guide standard setting rather than govern individual transactions.
 
 ---
 
-## Qualitative Characteristics of Useful Financial Information (SFAC No. 8, Chapter 3)
+## Objective of General Purpose Financial Reporting
 
-Useful financial information has certain **qualitative characteristics**. They are organized in two tiers: fundamental and enhancing.
+The objective of general purpose financial reporting (Chapter 1) is to provide **financial information about the reporting entity that is useful to existing and potential investors, lenders, and other creditors** in making decisions about providing resources to the entity.
 
-### Fundamental Characteristics
+To make those decisions, users need to assess the entity's prospects for future net cash inflows and how well management has discharged its stewardship of the entity's resources. That in turn requires information about the entity's economic resources and the claims against them (financial position) and about changes in those resources and claims (financial performance).
 
-Information must have **both** fundamental characteristics to be useful: relevance and faithful representation.
+The key word is **decision-usefulness**, and the key audience is **capital providers**: investors and creditors, not managers, regulators, or the general public. Exam questions often offer one of those other groups as a distractor.
 
-#### 1. Relevance
+Consider Polar Co., which is deciding whether to extend a \$500,000 line of credit to Panda Industries. Polar will look at whether Panda has enough assets to cover its existing obligations, whether its revenue trends suggest it can repay, and whether its operating cash flow is positive and stable. That is exactly the kind of decision the framework is designed to support.
 
-Information is **relevant** if it can make a difference in a user's decision. Relevance has three aspects:
+---
 
-- **Predictive value**: the information helps users form expectations about future outcomes.
-- **Confirmatory value**: the information provides feedback on prior evaluations.
-- **Materiality**: information is material if omitting or misstating it could influence users' decisions.
+## Qualitative Characteristics of Useful Information
 
-Information can have predictive value, confirmatory value, or both.
-
-:::note[Materiality]
-
-Materiality is an entity-specific aspect of relevance, so there is no universal dollar threshold. What is material for a small company like Kodiak Partners may be immaterial for a Fortune 500 corporation.
-
-:::
-
-#### 2. Faithful Representation
-
-Information **faithfully represents** an economic phenomenon when it is:
-
-- **Complete**: it includes everything a user needs to understand the phenomenon.
-- **Neutral**: it is free from bias in selection or presentation.
-- **Free from error**: the description of the phenomenon has no errors or omissions.
-
-Free from error does not mean perfectly precise. An estimate can be free from error if it is clearly described as an estimate.
-
-:::warning
-
-"Faithful representation" replaced the older term "reliability" when SFAC No. 8 was issued in 2010. The exam uses the newer term.
-
-:::
-
-### Enhancing Characteristics
-
-Enhancing characteristics **improve** the usefulness of information that is already relevant and faithfully represented:
-
-| Characteristic | Description |
-|---|---|
-| **Comparability** | Users can identify similarities and differences between entities or periods |
-| **Verifiability** | Different knowledgeable observers could reach consensus that the information is faithfully represented |
-| **Timeliness** | Information is available to decision-makers before it loses its capacity to influence decisions |
-| **Understandability** | Information is classified, characterized, and presented clearly and concisely |
+Chapter 3 describes the qualities that make financial information useful. They come in two tiers. The **fundamental** characteristics, relevance and faithful representation, are required: information without both is not useful. The **enhancing** characteristics make information that is already relevant and faithfully represented more useful.
 
 ```mermaid
-graph TD
-    A["Useful Financial Information"] --> B["Fundamental Characteristics"]
-    A --> C["Enhancing Characteristics"]
+graph LR
+    A["Useful<br/>information"] --> B["Fundamental"]
+    A --> C["Enhancing"]
     B --> D["Relevance"]
-    B --> E["Faithful Representation"]
-    D --> D1["Predictive Value"]
-    D --> D2["Confirmatory Value"]
+    B --> E["Faithful<br/>representation"]
+    D --> D1["Predictive<br/>value"]
+    D --> D2["Confirmatory<br/>value"]
     D --> D3["Materiality"]
     E --> E1["Complete"]
     E --> E2["Neutral"]
-    E --> E3["Free from Error"]
+    E --> E3["Free from<br/>error"]
     C --> F["Comparability"]
     C --> G["Verifiability"]
     C --> H["Timeliness"]
     C --> I["Understandability"]
 ```
 
+### Relevance
+
+Information is **relevant** if it can make a difference in a user's decision. It does so by having **predictive value** (it helps users form expectations about future outcomes), **confirmatory value** (it gives feedback on earlier evaluations), or both.
+
+**Materiality** is an entity-specific aspect of relevance. Information is material if omitting or misstating it could influence users' decisions. Because materiality depends on the entity's own circumstances, there is no universal dollar threshold: an amount that is material for a small company like Kodiak Partners may be immaterial for a large public company.
+
+### Faithful Representation
+
+Information **faithfully represents** an economic phenomenon when it is **complete** (it includes everything a user needs to understand the phenomenon), **neutral** (it is free from bias in selection or presentation), and **free from error** (the description has no errors or omissions). Free from error does not mean perfectly precise. An estimate can be free from error if it is clearly described as an estimate and the process used to make it was applied without error.
+
+"Faithful representation" replaced the older term "reliability" when Chapter 3 was issued in 2010. Expect the newer term on the exam.
+
+### Enhancing Characteristics
+
+| Characteristic | Description |
+|---|---|
+| **Comparability** | Users can identify similarities and differences between entities or periods |
+| **Verifiability** | Different knowledgeable and independent observers could reach consensus that the information is faithfully represented |
+| **Timeliness** | Information is available to decision makers before it loses its capacity to influence decisions |
+| **Understandability** | Information is classified, characterized, and presented clearly and concisely |
+
 ### The Cost Constraint
 
-The benefits of reporting financial information should justify the costs of providing it. This **cost constraint** (also called the cost-benefit constraint) applies to all financial reporting. It is a constraint on useful reporting, not a qualitative characteristic.
+The benefits of reporting financial information should justify the costs of providing and using it. This **cost constraint** applies to all financial reporting. It is a constraint on useful reporting, not a qualitative characteristic.
 
-## Elements of Financial Statements (SFAC No. 8, Chapter 4)
+---
 
-The conceptual framework defines **ten elements** of financial statements. They are the building blocks of every financial statement. Since December 2021, the definitions have appeared in Concepts Statement No. 8 (SFAC No. 8), Chapter 4, which replaced SFAC No. 6.
+## Elements of Financial Statements
 
-### Balance Sheet Elements (Stock Concepts)
+The framework defines **ten elements**, the building blocks of every financial statement. Since December 2021 the definitions have appeared in Chapter 4, which replaced SFAC No. 6.
+
+### Balance Sheet Elements
 
 | Element | Definition |
 | --- | --- |
@@ -135,20 +93,18 @@ The conceptual framework defines **ten elements** of financial statements. They 
 | **Liabilities** | A present obligation of an entity to transfer an economic benefit |
 | **Equity (Net Assets)** | The residual interest in the assets of an entity after deducting its liabilities: $\text{Equity} = \text{Assets} - \text{Liabilities}$ |
 
-:::note[Older definitions]
+These definitions replaced the SFAC No. 6 versions, which described assets and liabilities as "probable" future economic benefits and sacrifices. You may still see the older wording in some study materials.
 
-The Chapter 4 definitions of assets and liabilities replaced the SFAC No. 6 versions, which described them as "probable" future economic benefits and sacrifices. You may still see the older wording in some study materials.
+### Income Statement Elements
 
-:::
-
-### Income Statement Elements (Flow Concepts)
-
-| Element      | Definition                                                                                                                                                                                                  |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Revenues** | Inflows or enhancements of assets (or settlements of liabilities) from delivering goods, rendering services, or other activities that constitute the entity's ongoing major or central operations           |
+| Element      | Definition |
+| ------------ | ---------- |
+| **Revenues** | Inflows or enhancements of assets (or settlements of liabilities) from delivering goods, rendering services, or other activities that constitute the entity's ongoing major or central operations |
 | **Expenses** | Outflows or using up of assets (or incurrences of liabilities) from delivering goods, rendering services, or carrying out other activities that constitute the entity's ongoing major or central operations |
-| **Gains**    | Increases in equity from peripheral or incidental transactions (not from revenues or investments by owners)                                                                                                 |
-| **Losses**   | Decreases in equity from peripheral or incidental transactions (not from expenses or distributions to owners)                                                                                               |
+| **Gains**    | Increases in equity from peripheral or incidental transactions (not from revenues or investments by owners) |
+| **Losses**   | Decreases in equity from peripheral or incidental transactions (not from expenses or distributions to owners) |
+
+The difference between revenue and a gain is the nature of the activity, not the effect on net assets. For Bear Co., a retailer, selling merchandise produces **revenue**, while selling a delivery truck at a profit produces a **gain**.
 
 ### Other Elements
 
@@ -158,85 +114,84 @@ The Chapter 4 definitions of assets and liabilities replaced the SFAC No. 6 vers
 | **Investments by Owners** | Increases in equity from transfers of assets to the entity by owners |
 | **Distributions to Owners** | Decreases in equity from transfers of assets from the entity to owners (dividends) |
 
-:::tip[Revenue vs. Gain]
+---
 
-**Revenue** arises from an entity's _central_ operations. **Gains** arise from _peripheral_ transactions. For Bear Co. (a retail company), selling merchandise generates **revenue**, while selling a delivery truck at a profit generates a **gain**. Both events increase net assets; the classification depends on the nature of the entity's operations.
+## Recognition and Derecognition
 
-:::
+**Recognition** means depicting an item in the financial statements in both words and numbers, with the amount included in the statement totals. Disclosing an amount in the notes is not a substitute for recognizing it.
+
+Chapter 5, issued in August 2023, sets out **three recognition criteria**. An item is recognized when:
+
+1. **Definitions**: it meets the definition of an element of financial statements.
+2. **Measurability**: it is measurable and has a relevant measurement attribute.
+3. **Faithful representation**: it can be depicted and measured with faithful representation.
+
+All three criteria are subject to the cost constraint and to materiality.
+
+The older SFAC No. 5 list had four criteria, with relevance as a separate one. Chapter 5 drops relevance as a separate test, because an item that meets the three criteria is already relevant. If your study materials list four recognition criteria, they are out of date.
+
+**Derecognition** is the reverse: removing an asset, liability, or equity item from the statements. It occurs when an item no longer meets any one of the three recognition criteria. For example, a receivable that has been collected no longer meets the definition of an asset.
 
 ---
 
-## Recognition and Measurement Concepts
+## Measurement
 
-### Recognition Criteria
+Chapter 6, issued in July 2024, says that measurement is anchored in **prices**. When an exchange takes place, the price is an entry price to one party and an exit price to the other:
 
-An item is **recognized** (recorded in the financial statements) only when it meets all four of these criteria:
+- An **entry price** is the price paid to acquire an asset or received to assume a liability.
+- An **exit price** is the price received to sell an asset or paid to transfer or settle a liability.
 
-1. **Definitions**: it meets the definition of a financial statement element.
-2. **Measurability**: it has a relevant attribute that can be measured.
-3. **Relevance**: the information can make a difference in user decisions.
-4. **Faithful representation**: the information is complete, neutral, and free from error.
+From these prices come two measurement systems. Both record entry prices when an item is acquired and exit prices when it is sold or settled. They differ in what happens at each reporting date in between.
 
-### Measurement Attributes
+| | Entry price system | Exit price system |
+|---|---|---|
+| **Initial amount** | Cost (entry price) | Cost (entry price) |
+| **At later reporting dates** | Cost is allocated over the benefit or obligation period, for example through depreciation, amortization, or interest accretion | The item is remeasured to its current exit price |
+| **Most relevant when** | The entity's exit price is unique to it (for example, inventory or equipment used with other assets) | Entities would realize the same price for the item (for example, a commodity or a traded security) |
+| **GAAP examples** | PP&E at depreciated cost; inventory at cost; bonds payable at amortized cost | Trading debt securities and equity securities at fair value |
 
-GAAP uses several measurement attributes, depending on the type of asset or liability:
+Both systems rest on a common premise: an asset should not be reported above what is recoverable through use or sale, and a liability should not be reported below what it would take to settle it. That premise explains the write-downs you will see in later chapters, such as inventory written down to net realizable value and impaired long-lived assets.
+
+In the Codification, these systems appear as specific **measurement attributes**:
 
 | Attribute | Description | Example |
 |---|---|---|
 | **Historical cost** | Original transaction price | Property, plant, and equipment (PP&E) at acquisition cost |
-| **Current cost (replacement cost)** | Cost to acquire an equivalent asset today | Inventory under the lower of cost or market rule (used with last-in, first-out or the retail inventory method) |
-| **Current market value (fair value)** | Price in an orderly transaction between market participants | Trading debt securities, equity securities |
+| **Fair value** | Exit price in an orderly transaction between market participants | Trading debt securities, equity securities |
 | **Net realizable value (NRV)** | Expected selling price less costs to complete and sell (for receivables, the amount expected to be collected) | Inventory under the lower of cost and NRV rule; accounts receivable (net of allowance) |
-| **Present value of future cash flows** | Discounted value of expected cash flows | Long-term notes receivable, bonds payable |
+| **Current cost (replacement cost)** | Cost to acquire an equivalent asset today | "Market" in the lower of cost or market rule (used with last-in, first-out or the retail inventory method) |
+| **Present value of future cash flows** | Discounted value of expected cash flows, used to estimate a price when none is observable | Long-term notes receivable and bonds payable at issuance |
 
-:::info
-
-Fair value measurement (ASC 820) uses a three-level hierarchy of inputs: Level 1 (quoted prices in active markets for identical items), Level 2 (other observable inputs), and Level 3 (unobservable inputs). Level 1 is the most reliable; Level 3 requires the most judgment.
-
-:::
+Fair value measurement (ASC 820) is covered in its own chapter. In brief, it ranks inputs in a three-level hierarchy: Level 1 (quoted prices in active markets for identical items), Level 2 (other observable inputs), and Level 3 (unobservable inputs). Level 3 requires the most judgment.
 
 ---
 
 ## Underlying Assumptions
 
-Four assumptions underlie all financial reporting under GAAP.
+Four assumptions underlie financial reporting under GAAP.
 
-### 1. Economic Entity Assumption
+**Economic entity.** The activities of the business are separate from those of its owners and other entities. Bear Co.'s financial statements do not include its CEO's personal expenses.
 
-The activities of the business are **separate and distinct** from those of its owners and other entities. For example, Bear Co.'s financial statements do not include its CEO's personal expenses.
+**Going concern.** The entity is assumed to continue operating long enough to carry out its existing commitments. This assumption justifies reporting assets at cost rather than at liquidation value. Under ASC 205-40, management must evaluate whether there is **substantial doubt** about the entity's ability to continue as a going concern within one year after the date the financial statements are issued (or available to be issued). If substantial doubt exists, management considers whether its plans alleviate it. Disclosure is required either way. If the plans alleviate the doubt, the entity discloses the conditions and the plans. If they do not, the entity must also state that there is substantial doubt.
 
-### 2. Going Concern Assumption
+**Monetary unit.** Financial statements are expressed in a stable monetary unit, such as U.S. dollars, and ignore changes in purchasing power. A \$100,000 building purchased in 2000 is still reported at its \$100,000 cost less accumulated depreciation.
 
-The entity is assumed to continue operating for the **foreseeable future**, long enough to carry out its existing commitments. This assumption justifies reporting assets at cost rather than at liquidation value.
-
-:::danger
-
-Under ASC 205-40, management must evaluate whether there is **substantial doubt** about the entity's ability to continue as a going concern within one year after the financial statements are issued (or available to be issued). If substantial doubt exists, management considers whether its plans alleviate that doubt. Disclosure is required either way. If the plans alleviate the doubt, the entity discloses the conditions and the plans. If they do not, the entity must also state that there is substantial doubt.
-
-:::
-
-### 3. Monetary Unit Assumption
-
-Financial statements are expressed in a **stable monetary unit** (for example, U.S. dollars). This assumption ignores inflation and deflation. A \$100,000 building purchased in 2000 is still reported at its \$100,000 cost (less accumulated depreciation), even though the dollar's purchasing power has changed.
-
-### 4. Periodicity (Time Period) Assumption
-
-The economic life of a business can be divided into **artificial time periods** (months, quarters, years) for reporting purposes. This assumption makes interim and annual financial reporting possible.
+**Periodicity.** The life of a business can be divided into artificial time periods (months, quarters, years). This assumption makes interim and annual reporting possible.
 
 ## Principles of Financial Reporting
 
-### 1. Historical Cost Principle (Measurement Principle)
+### Historical Cost
 
-Assets and liabilities are initially recorded at their **original transaction price**. However, GAAP increasingly permits or requires fair value for certain items, such as trading securities and derivatives.
+Assets and liabilities are initially recorded at their **original transaction price**, the entry price described above. GAAP then permits or requires fair value for certain items, such as trading securities and derivatives.
 
-**Example:** Grizzly Inc. buys equipment for \$80,000. It records the equipment at \$80,000, regardless of its appraised market value:
+Grizzly Inc. buys equipment for \$80,000. It records the equipment at \$80,000, regardless of its appraised value:
 
 ```journal
 Dr. Equipment                  80,000
     Cr. Cash                       80,000
 ```
 
-### 2. Revenue Recognition Principle (ASC 606)
+### Revenue Recognition (ASC 606)
 
 Revenue is recognized when (or as) the entity satisfies a **performance obligation** by transferring a promised good or service to a customer. ASC 606 applies a five-step model:
 
@@ -246,9 +201,7 @@ Revenue is recognized when (or as) the entity satisfies a **performance obligati
 4. Allocate the transaction price to the performance obligations.
 5. Recognize revenue when (or as) each performance obligation is satisfied.
 
-**Example:** Cub Entertainment sells a \$120 annual streaming subscription on July 1. It recognizes revenue of \$10 per month as it delivers the service.
-
-When the cash is received:
+Cub Entertainment sells a \$120 annual streaming subscription on July 1 and collects the cash up front:
 
 ```journal
 July 1
@@ -256,7 +209,7 @@ Dr. Cash                       120
     Cr. Unearned Revenue           120
 ```
 
-After one month of service is delivered:
+It recognizes \$10 of revenue each month as it delivers the service:
 
 ```journal
 July 31
@@ -264,57 +217,27 @@ Dr. Unearned Revenue           10
     Cr. Service Revenue            10
 ```
 
-### 3. Expense Recognition (Matching) Principle
+### Expense Recognition (Matching)
 
-Expenses are recognized in the **same period** as the revenues they help generate. As a result, the income statement shows the cost of earning each period's revenue.
-
-There are three approaches to matching:
+Expenses are recognized in the **same period** as the revenues they help generate, so the income statement shows the cost of earning each period's revenue. There are three ways to do this:
 
 | Approach | When Used | Example |
 |---|---|---|
 | **Direct association (cause and effect)** | A direct link exists between the cost and revenue | Cost of goods sold matched to sales revenue |
 | **Systematic and rational allocation** | The cost benefits multiple periods | Depreciation of equipment over its useful life |
-| **Immediate recognition** | The cost has no future benefit or cannot be reliably allocated | Advertising expense, CEO salary |
+| **Immediate recognition** | The cost has no future benefit or cannot be reasonably allocated | Advertising expense, CEO salary |
 
-### 4. Full Disclosure Principle
+### Full Disclosure
 
-Financial statements should include all information needed to **keep them from being misleading**. Disclosure is provided through:
-
-- the face of the financial statements
-- the notes (footnotes) to the financial statements
-- supplementary information and schedules
-
-:::note
-
-The notes are an **integral part** of the financial statements, not optional appendices. The first note typically describes significant accounting policies (ASC 235).
-
-:::
+Financial statements should include all information needed to keep them from being misleading, whether on the face of the statements, in the notes, or in supplementary schedules. The notes are an integral part of the financial statements, not optional appendices. The first note typically describes significant accounting policies (ASC 235).
 
 ---
 
-## Accrual Basis vs. Cash Basis Accounting
+## Accrual Basis vs. Cash Basis
 
-### Accrual Basis (GAAP)
+Under the **accrual basis**, which GAAP requires, transactions are recognized when the economic event occurs, regardless of when cash changes hands. Revenue is recognized when a performance obligation is satisfied, and expenses are recognized when incurred. Under the **cash basis**, revenue is recognized when cash is received and expenses when cash is paid.
 
-Under the accrual basis, transactions are recognized when the **economic event occurs**, regardless of when cash changes hands:
-
-- **Revenue** is recognized when a performance obligation is satisfied.
-- **Expenses** are recognized when incurred (when the benefit is consumed or the obligation arises).
-
-### Cash Basis (Non-GAAP)
-
-Under the cash basis, transactions are recognized only when **cash is received or paid**:
-
-- **Revenue** is recognized when cash is received.
-- **Expenses** are recognized when cash is paid.
-
-:::warning
-
-The cash basis is **not** GAAP. The CPA Exam assumes the accrual basis unless a question says otherwise. However, converting between the cash and accrual bases is a very common exam task.
-
-:::
-
-### Conversion Example
+The cash basis is not GAAP, and the exam assumes the accrual basis unless a question says otherwise. Converting from one basis to the other, though, is a very common exam task.
 
 Sloth Security collected \$300,000 in cash from customers during the year. Additional information:
 
@@ -323,34 +246,17 @@ Sloth Security collected \$300,000 in cash from customers during the year. Addit
 | Accounts receivable (AR) | \$40,000 | \$55,000 |
 | Unearned revenue | \$10,000 | \$6,000 |
 
-**Accrual-basis revenue:**
+Accrual-basis revenue is:
 
 $$\text{Revenue} = \text{Cash collected} + \text{Increase in AR} + \text{Decrease in unearned revenue}$$
 
-$$\text{Revenue} = \$300{,}000 + (\$55{,}000 - \$40{,}000) + (\$10{,}000 - \$6{,}000)$$
-
-$$\text{Revenue} = \$300{,}000 + \$15{,}000 + \$4{,}000 = \$319{,}000$$
+$$\text{Revenue} = \$300{,}000 + (\$55{,}000 - \$40{,}000) + (\$10{,}000 - \$6{,}000) = \$319{,}000$$
 
 The \$15,000 increase in AR is revenue earned this year but not yet collected. The \$4,000 decrease in unearned revenue is cash collected in an earlier year and earned this year. Both are added to cash collections.
 
----
+:::tip[Reason from first principles]
 
-## Putting It All Together
-
-The conceptual framework builds in a logical order:
-
-```mermaid
-graph TD
-    A["Objective: Decision-useful information for capital providers"] --> B["Qualitative Characteristics"]
-    B --> C["Elements of Financial Statements"]
-    C --> D["Recognition & Measurement"]
-    D --> E["Assumptions & Principles"]
-    E --> F["Financial Statements"]
-```
-
-:::tip[Reason from First Principles]
-
-When you face an unfamiliar accounting question on the exam, return to first principles. Does the item meet the definition of an element? Can it be measured? Is the information relevant and faithfully represented? The conceptual framework is your fallback reasoning tool.
+When an exam question describes an unfamiliar item, walk through the framework in order. Does the item meet the definition of an element? Can it be measured with a relevant attribute? Can it be depicted faithfully? If the answer to any of these is no, the item is not recognized, though it may still need disclosure.
 
 :::
 
@@ -358,13 +264,15 @@ When you face an unfamiliar accounting question on the exam, return to first pri
 
 ## Summary
 
-| Concept                   | Key Points                                                                                                                           |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **Objective**             | Provide decision-useful information to investors, lenders, and other creditors                                                       |
-| **Fundamental qualities** | Relevance (predictive value, confirmatory value, materiality) and faithful representation (complete, neutral, free from error)       |
-| **Enhancing qualities**   | Comparability, verifiability, timeliness, understandability                                                                          |
+| Concept                   | Key Points |
+| ------------------------- | ---------- |
+| **Objective**             | Provide decision-useful information to investors, lenders, and other creditors |
+| **Fundamental qualities** | Relevance (predictive value, confirmatory value, materiality) and faithful representation (complete, neutral, free from error) |
+| **Enhancing qualities**   | Comparability, verifiability, timeliness, understandability |
 | **Elements**              | Assets, liabilities, equity, revenues, expenses, gains, losses, comprehensive income, investments by owners, distributions to owners |
-| **Assumptions**           | Economic entity, going concern, monetary unit, periodicity                                                                           |
-| **Principles**            | Historical cost, revenue recognition, matching (expense recognition), full disclosure                                                |
-| **Constraint**            | Cost-benefit                                                                                                                         |
-| **Basis**                 | Accrual basis is GAAP; cash basis is not                                                                                             |
+| **Recognition**           | Meets an element definition, is measurable with a relevant attribute, and can be faithfully represented (Chapter 5) |
+| **Measurement**           | Entry price system (cost, then allocation) or exit price system (remeasurement each period) (Chapter 6) |
+| **Assumptions**           | Economic entity, going concern, monetary unit, periodicity |
+| **Principles**            | Historical cost, revenue recognition, matching (expense recognition), full disclosure |
+| **Constraint**            | Cost-benefit |
+| **Basis**                 | Accrual basis is GAAP; cash basis is not |

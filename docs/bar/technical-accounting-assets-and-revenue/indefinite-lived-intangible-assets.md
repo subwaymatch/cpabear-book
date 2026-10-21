@@ -1,91 +1,58 @@
 # Indefinite-Lived Intangible Assets and Goodwill
 
-Certain intangible assets have **no foreseeable limit** on their useful life. Rather than being amortized over time, these assets are carried at cost and tested for impairment at least annually. The two most heavily tested categories on the BAR exam are **goodwill** (arising exclusively from business combinations) and **other indefinite-lived intangible assets** such as trademarks and broadcast licenses. Understanding how to recognize, measure, and test these assets for impairment, including both the qualitative and quantitative approaches, is critical for exam success.
-:::info[Blueprint Coverage]
-This topic maps to **Area II, Group A** of the 2026 CPA Exam Blueprints for **Business Analysis and Reporting (BAR)**. The blueprint expects candidates to:
+Most intangible assets wear out on a schedule: a patent expires, a customer contract ends. A few have no foreseeable end. A well-known trade name that can be renewed indefinitely, a broadcast license renewed routinely by regulators, and the goodwill bought in an acquisition can all keep producing cash flows for as long as anyone can predict. Because there is no useful life to spread their cost over, these assets are **not amortized**. Instead, they are carried at cost and tested for **impairment** at least once a year.
 
-- **Recall** impairment indicators for goodwill and other indefinite-lived intangible assets.
-- **Calculate** the carrying amount of goodwill and other indefinite-lived intangible assets reported in the financial statements (initial and subsequent measurement, including impairment) and prepare journal entries.
-  :::
+The BAR blueprint asks you to recall the impairment indicators for goodwill and other indefinite-lived intangibles and to calculate their carrying amounts (initial measurement, subsequent measurement, and impairment) with journal entries. Because BAR may test differences between public and private companies, this chapter also covers the private company alternative for goodwill. It starts with what makes an intangible indefinite-lived, then covers initial measurement, the impairment tests, and the special situations of reclassification and disposal.
 
 ---
 
-## What Are Indefinite-Lived Intangible Assets?
+## What Makes an Intangible Indefinite-Lived
 
-An intangible asset has an **indefinite** useful life when there is **no foreseeable limit** on the period over which it is expected to generate net cash flows for the entity (ASC 350-30-35-4). "Indefinite" does not mean "infinite"; it means management cannot predict when (or if) the asset will cease to provide value.
+An intangible asset has an **indefinite** useful life when no legal, regulatory, contractual, competitive, economic, or other factor limits the period over which it is expected to contribute to the entity's cash flows (ASC 350-30). "Indefinite" does not mean "infinite." It means management cannot see a limit.
 
-### Common Examples
+Typical examples:
 
-| Asset                        | Why Indefinite                                                                                         |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Goodwill**                 | No contractual or legal life; represents synergies and going-concern value from a business combination |
-| **Trademarks / Trade names** | Renewable at minimal cost; no legal or economic limit                                                  |
-| **FCC broadcast licenses**   | Renewable by regulation at negligible cost                                                             |
-| **Certain franchises**       | Renewable indefinitely at minimal cost                                                                 |
-| **Taxi medallions**          | No expiration (though economic value may change)                                                       |
+- **Goodwill**, which has no legal or contractual life at all
+- **Trademarks and trade names** that the entity intends to renew and can renew at little cost
+- **Broadcast licenses** and certain **franchises** that are routinely renewed at little cost without material changes
+- **In-process research and development** acquired in a business combination, which is indefinite-lived until the project is completed (then amortized) or abandoned (then written off); see [Research and Development Costs](research-and-development-costs.md)
 
-:::tip[Exam Tip]
-If an intangible has a **renewable** legal life and renewal is expected at **minimal cost with no material modifications**, it is typically classified as indefinite-lived.
-:::
+If an intangible's legal life can be renewed and the entity expects to renew it at minimal cost with no material modifications, the renewals count toward its useful life, which can make it indefinite.
 
-### Key Accounting Treatment
+Three rules apply to every indefinite-lived intangible, goodwill included:
 
-- **Not amortized**: carried at historical cost (less any impairment losses).
-- Tested for impairment **at least annually**, and more frequently if events or changes in circumstances indicate that the asset may be impaired.
-- Impairment losses, once recognized, are **never reversed** under U.S. GAAP.
+1. It is **not amortized**.
+2. It is tested for impairment **at least annually**, and between annual tests whenever events or changes in circumstances suggest it may be impaired.
+3. An impairment loss, once recognized, is **never reversed**.
 
 ---
 
-## What Is Goodwill?
+## Goodwill and Its Initial Measurement
 
-Goodwill is a **unique** intangible asset that can only arise in a **business combination** (ASC 805). It represents the excess of the consideration transferred over the fair value of the net identifiable assets acquired.
+**Goodwill** arises only in a **business combination** (ASC 805). It is the part of the price paid for a business that cannot be assigned to identifiable assets: an assembled workforce, expected synergies, going-concern value, and future customers not yet under contract. Internally generated goodwill is never recognized.
+
+In general, goodwill is measured as:
 
 $$
-\text{Goodwill} = \text{Consideration Transferred} - \text{Fair Value of Net Identifiable Assets Acquired}
+\text{Goodwill} = \text{Consideration Transferred} + \text{FV of Noncontrolling Interest} + \text{FV of Previously Held Interest} - \text{FV of Net Identifiable Assets}
 $$
 
-Goodwill captures the value of items that cannot be individually identified or separately recognized, such as:
+When the acquirer buys 100% in a single transaction, the middle two terms are zero, and goodwill is simply the price paid less the fair value of the identifiable net assets. Business combinations, including partial acquisitions, are covered in depth in their own chapter.
 
-- Assembled workforce
-- Synergies expected from the combination
-- Going-concern value
-- Future customers not yet under contract
-  :::warning
-  Internally generated goodwill is **never** capitalized. Only goodwill arising from a business combination is recognized as an asset on the balance sheet.
-  :::
+### Example: Bear Co. Acquires Cub Entertainment
 
----
+Bear Co. pays \$5,000,000 in cash for 100% of Cub Entertainment. At the acquisition date, the fair values of Cub's identifiable assets and liabilities are:
 
-## Goodwill vs. Other Indefinite-Lived Intangibles
-
-While both goodwill and other indefinite-lived intangibles share the "no amortization" trait, they differ in important ways:
-| Feature | Goodwill | Other Indefinite-Lived Intangibles |
-|---------|----------|------------------------------------|
-| **Source** | Business combination only | Can be purchased individually or in a business combination |
-| **Separately identifiable?** | No (residual amount) | Yes; arises from contractual/legal rights or is separable |
-| **Impairment testing level** | Reporting unit level | Individual asset level |
-| **Impairment test** | Compare fair value of reporting unit to its carrying amount | Compare fair value of asset to its carrying amount |
-| **Qualitative assessment?** | Yes (optional) | Yes (optional) |
-| **Cap on loss** | Limited to the goodwill balance of the reporting unit | Limited to the carrying amount of the individual asset |
-
----
-
-## Initial Measurement of Goodwill
-
-### Example: Bear Co. Acquires Bear Co.
-
-Bear Co. pays \$5,000,000 to acquire 100% of Bear Co. The fair values of Bear Co.'s identifiable assets and liabilities at the acquisition date are:
-| Item | Fair Value |
+| Item | Fair value |
 |------|-----------|
 | Current assets | \$1,200,000 |
-| Property, plant & equipment | \$2,400,000 |
-| Customer relationships (identifiable intangible) | \$600,000 |
-| Trade name (identifiable intangible, indefinite life) | \$400,000 |
-| **Total identifiable assets** | **\$4,600,000** |
-| Current liabilities | (\$800,000) |
-| Long-term debt | (\$1,000,000) |
-| **Total liabilities assumed** | **(\$1,800,000)** |
-| **Fair value of net identifiable assets** | **\$2,800,000** |
+| Property, plant, and equipment | 2,400,000 |
+| Customer relationships (finite-lived intangible) | 600,000 |
+| Trade name (indefinite-lived intangible) | 400,000 |
+| **Total identifiable assets** | **4,600,000** |
+| Current liabilities | (800,000) |
+| Long-term debt | (1,000,000) |
+| **Fair value of identifiable net assets** | **\$2,800,000** |
 
 $$
 \text{Goodwill} = \$5{,}000{,}000 - \$2{,}800{,}000 = \$2{,}200{,}000
@@ -93,103 +60,65 @@ $$
 
 ```journal
 Dr. Current Assets[a] 1,200,000
-Dr. Property, Plant & Equipment[a] 2,400,000
+Dr. Property, Plant, and Equipment[a] 2,400,000
 Dr. Customer Relationships[a] 600,000
 Dr. Trade Name[a] 400,000
 Dr. Goodwill[a] 2,200,000
-    Cr. Current Liabilities[l] 800,000
-    Cr. Long-Term Debt[l] 1,000,000
-    Cr. Cash[a] 5,000,000
+Cr. Current Liabilities[l] 800,000
+Cr. Long-Term Debt[l] 1,000,000
+Cr. Cash[a] 5,000,000
 ```
 
-:::tip[Exam Tip]
-When the purchase price is **less than** the fair value of net identifiable assets, the difference is recognized as a **bargain purchase gain** in the income statement, not negative goodwill. Always double-check that all assets and liabilities have been properly valued at fair value before recording a bargain purchase.
-:::
+The trade name and the goodwill are both indefinite-lived and will be tested for impairment. The customer relationships are finite-lived and will be amortized.
 
----
+If the price paid is **less** than the fair value of the identifiable net assets, the acquirer first rechecks that every asset and liability was identified and measured correctly. Any remaining excess is a **bargain purchase gain** in earnings, not negative goodwill.
 
-## Initial Measurement of Other Indefinite-Lived Intangibles
+### Other Indefinite-Lived Intangibles
 
-Other indefinite-lived intangible assets are recorded at **fair value at acquisition date** when acquired in a business combination, or at **cost** when purchased individually.
+An indefinite-lived intangible acquired in a business combination, like Cub's trade name, is recorded at **fair value**. One purchased on its own is recorded at **cost**, including costs such as legal fees needed to acquire it.
 
-### Example: Polar Inc. Purchases a Trademark
-
-Polar Inc. purchases a well-known trademark from an unrelated party for \$750,000, paying \$10,000 in legal fees to complete the transfer.
-
-$$
-\text{Trademark Cost} = \$750{,}000 + \$10{,}000 = \$760{,}000
-$$
+Polar Inc. buys a well-known trademark from an unrelated company for \$750,000 and pays \$10,000 of legal fees to complete the transfer. Polar intends to renew the registration indefinitely at negligible cost.
 
 ```journal
 Dr. Trademark[a] 760,000
-    Cr. Cash[a] 760,000
+Cr. Cash[a] 760,000
 ```
-
-The trademark has an indefinite life because Polar Inc. intends to renew the registration indefinitely at negligible cost. It is **not amortized** but will be tested for impairment annually.
-
-## Impairment Indicators
-
-Entities must evaluate whether events or changes in circumstances indicate that an indefinite-lived intangible asset or goodwill may be impaired. Common indicators include:
-
-### Indicators for Goodwill
-
-| Category                          | Examples                                                                                       |
-| --------------------------------- | ---------------------------------------------------------------------------------------------- |
-| **Macroeconomic**                 | Deterioration in general economic conditions, rising interest rates, increased cost of capital |
-| **Industry & market**             | Decline in market-dependent multiples, increased competition, regulatory changes               |
-| **Cost factors**                  | Rising raw material costs, labor costs, or other costs that erode margins                      |
-| **Financial performance**         | Declining revenues, operating losses, negative cash flows at the reporting unit level          |
-| **Entity-specific events**        | Loss of key personnel, loss of a major customer, pending litigation, restructuring plans       |
-| **Sustained stock price decline** | Market capitalization drops below book value for a sustained period                            |
-| **Reporting unit changes**        | Disposal of a significant portion of a reporting unit, changes in reporting structure          |
-
-### Indicators for Other Indefinite-Lived Intangibles
-
-| Category               | Examples                                                                                                  |
-| ---------------------- | --------------------------------------------------------------------------------------------------------- |
-| **Legal / regulatory** | Adverse change in legal factors (e.g., loss of legal protection, unfavorable court ruling)                |
-| **Competitive**        | Actions by competitors that diminish the value of the asset (e.g., a competing trademark gains dominance) |
-| **Obsolescence**       | Technological changes that reduce the relevance of a brand or license                                     |
-| **Cost of renewal**    | Evidence that renewal costs will no longer be minimal                                                     |
-| **Reduced use**        | Entity reduces or ceases use of the intangible asset                                                      |
-
-:::warning
-The presence of one or more indicators does **not** automatically mean the asset is impaired; it means the entity must perform an impairment test. Conversely, the absence of indicators does not exempt the entity from the **annual** impairment test.
-:::
 
 ---
 
-## Impairment Testing: Other Indefinite-Lived Intangibles (ASC 350-30)
+## Impairment Indicators
 
-### Overview
+An entity must watch for events and circumstances that suggest an asset may be impaired, both to decide whether to test between annual dates and as the inputs to the optional qualitative assessment.
 
-Indefinite-lived intangible assets other than goodwill are tested for impairment by comparing the asset's **fair value** to its **carrying amount**. If fair value is less than carrying amount, an impairment loss is recognized.
+**For goodwill**, the indicators are assessed for the reporting unit:
+
+| Category | Examples |
+|---|---|
+| Macroeconomic conditions | A deteriorating economy, limited access to capital, unfavorable currency or interest rate changes |
+| Industry and market | A more competitive environment, declining market multiples, regulatory or political change |
+| Cost factors | Rising raw material, labor, or other costs that squeeze earnings |
+| Financial performance | Declining actual or planned revenue or earnings, negative cash flows |
+| Entity-specific events | Loss of key personnel or a major customer, litigation, bankruptcy, a change in strategy |
+| Reporting unit events | A planned sale of all or part of the reporting unit, or a change in its composition |
+| Share price | A sustained decrease in share price |
+
+**For other indefinite-lived intangibles**, the same kinds of factors are assessed for the asset itself, along with asset-specific ones: an adverse legal or regulatory change (such as loss of legal protection), competitor actions that diminish the asset's value, obsolescence, a rise in the cost of renewal, or a decision to stop using the asset.
+
+An indicator does not mean the asset is impaired. It means the entity has to look harder. And the absence of indicators never excuses the **annual** test.
+
+---
+
+## Impairment of Other Indefinite-Lived Intangibles
+
+The test for an indefinite-lived intangible other than goodwill is a direct comparison at the **individual asset** level:
 
 $$
-\text{Impairment Loss} = \text{Carrying Amount} - \text{Fair Value}
+\text{Impairment Loss} = \text{Carrying Amount} - \text{Fair Value} \quad (\text{if positive})
 $$
 
-### Qualitative Assessment (Optional)
+The entity may first perform an optional **qualitative assessment**. If, after weighing the indicators, it concludes that it is **not more likely than not** (a likelihood of 50% or less) that the asset is impaired, no further testing is needed. Otherwise, or if the entity skips the qualitative step, it measures fair value and compares. An entity can skip the qualitative step for any asset in any period and use it again later.
 
-An entity may first perform a **qualitative assessment** to determine whether it is **more likely than not** (greater than 50% likelihood) that the asset's fair value is less than its carrying amount. If the qualitative assessment indicates it is not more likely than not impaired, no quantitative test is required.
-
-### Quantitative Test
-
-If the qualitative screen is skipped or indicates potential impairment, the entity performs a direct comparison:
-
-```mermaid
-graph TD
-    A["Annual Test or Triggering Event"] --> B{"Qualitative Assessment<br/>(Optional)"}
-    B -->|"More likely than not<br/>FV < Carrying"| C["Quantitative Test:<br/>Compare FV to Carrying Amount"]
-    B -->|"Not more likely than not"| D["No Impairment, Stop"]
-    C --> E{"FV vs. Carrying Amount"}
-    E -->|"FV ≥ Carrying"| F["No Impairment"]
-    E -->|"FV < Carrying"| G["Impairment Loss =<br/>Carrying - FV"]
-```
-
-### Example: Bear Co. Trademark Impairment
-
-Bear Co. holds a trademark with a carrying amount of \$760,000. Due to a competitor's aggressive rebranding campaign, management determines the trademark's fair value has declined to \$580,000.
+Two years after buying its trademark, Polar Inc. faces an aggressive rebranding campaign by a competitor. It determines that the trademark's fair value has fallen to \$580,000.
 
 $$
 \text{Impairment Loss} = \$760{,}000 - \$580{,}000 = \$180{,}000
@@ -197,226 +126,171 @@ $$
 
 ```journal
 Dr. Impairment Loss 180,000
-    Cr. Trademark[a] 180,000
+Cr. Trademark[a] 180,000
 ```
 
-After the impairment, the trademark is carried at its new basis of **\$580,000**. This amount becomes the new carrying value for future impairment testing.
+The trademark's new carrying amount is \$580,000, and that is the basis for future tests.
 
 :::tip[Exam Tip]
-For indefinite-lived intangibles (other than goodwill), the impairment test is a **one-step** direct comparison of fair value to carrying amount. Do **not** confuse this with the two-step recoverability test used for **finite-lived** long-lived assets under ASC 360.
+
+The indefinite-lived test is **one step**: fair value against carrying amount. Do not apply the two-step test for finite-lived long-lived assets under ASC 360, which first asks whether undiscounted cash flows recover the carrying amount.
+
 :::
 
 ---
 
-## Impairment Testing: Goodwill (ASC 350-20)
+## Impairment of Goodwill
 
-Goodwill impairment is tested at the **reporting unit** level. A reporting unit is an operating segment or one level below an operating segment (a component).
-
-### Step-by-Step Process
+Goodwill cannot be sold or valued on its own, so it is tested at the level of a **reporting unit**: an operating segment or one level below it (a component). Goodwill is assigned to reporting units at the acquisition date.
 
 ```mermaid
-graph TD
-    A["Annual Test or Triggering Event"] --> B{"Step 0: Qualitative Assessment<br/>(Optional)"}
-    B -->|"More likely than not<br/>FV of RU < Carrying"| C["Quantitative Test"]
-    B -->|"Not more likely than not"| D["No Impairment, Stop"]
-    C --> E{"Compare FV of Reporting Unit<br/>to Carrying Amount<br/>(including goodwill)"}
-    E -->|"FV ≥ Carrying"| F["No Impairment"]
-    E -->|"FV < Carrying"| G["Impairment Loss =<br/>Carrying - FV<br/>(capped at goodwill balance)"]
+flowchart TD
+    A["Annual test or<br/>triggering event"] --> B{"Optional qualitative<br/>assessment"}
+    B -->|"More likely than not<br/>FV below carrying"| C["Quantitative test"]
+    B -->|"Not more likely<br/>than not"| D["Stop: no impairment"]
+    C --> E{"FV of reporting unit vs.<br/>carrying amount"}
+    E -->|"FV ≥ carrying"| F["No impairment"]
+    E -->|"FV below carrying"| G["Loss = carrying - FV,<br/>capped at goodwill"]
 ```
 
-### Qualitative Assessment (Step 0, Optional)
+**The qualitative assessment** (often called Step 0) asks whether it is more likely than not that the reporting unit's fair value is below its carrying amount. If not, the test stops.
 
-The entity evaluates qualitative factors to determine whether it is more likely than not that the fair value of a reporting unit is less than its carrying amount. Factors to consider include the impairment indicators discussed above.
-If the entity concludes it is **not** more likely than not that fair value is less than carrying amount, no further testing is required.
+**The quantitative test** compares the reporting unit's fair value (measured with income, market, or cost approaches) with its carrying amount, **including goodwill**. If fair value is lower, the impairment loss is the difference, but no more than the goodwill assigned to the unit:
 
-### Quantitative Test
+$$
+\text{Goodwill Impairment Loss} = \min\bigl(\text{Carrying Amount of RU} - \text{Fair Value of RU},\;\text{Goodwill of RU}\bigr)
+$$
 
-If the qualitative screen is skipped or indicates potential impairment:
+This single-step test came from ASU 2017-04, which eliminated the old Step 2 (computing an "implied fair value" of goodwill). Under the current rule, a shortfall larger than goodwill is not pushed onto the unit's other assets; goodwill simply goes to zero. The annual test can be performed at any time of year, as long as it is the same time each year.
 
-1. **Determine the fair value** of the reporting unit (using income, market, or cost approaches).
-2. **Compare** the fair value to the reporting unit's carrying amount (including goodwill).
-3. If fair value is **less than** carrying amount, recognize an impairment loss equal to the difference, **capped at the goodwill balance** allocated to that reporting unit.
+### Example 1: Partial Impairment
 
-   $$
-   \text{Goodwill Impairment Loss} = \min\bigl(\text{Carrying Amount of RU} - \text{Fair Value of RU},\;\text{Goodwill Balance}\bigr)
-   $$
+Bear Co. tests a reporting unit with these amounts:
 
-   :::warning
-   Goodwill can never be written down below **zero**. If the difference between carrying amount and fair value exceeds the goodwill balance, the loss is capped at the goodwill amount. The remaining excess is **not** allocated to other assets under the current simplified approach (post-ASU 2017-04).
-   :::
-
----
-
-## Comprehensive Goodwill Impairment Examples
-
-### Example 1: Partial Impairment (Bear Co.)
-
-Bear Co. has a single reporting unit with the following amounts at its annual impairment test date:
 | Item | Amount |
 |------|--------|
-| Net identifiable assets (carrying amount) | \$3,500,000 |
-| Goodwill | \$1,200,000 |
-| **Total carrying amount of reporting unit** | **\$4,700,000** |
-| **Fair value of reporting unit** | **\$4,100,000** |
-**Step 1: Calculate the impairment loss.**
+| Carrying amount of identifiable net assets | \$3,500,000 |
+| Goodwill | 1,200,000 |
+| **Carrying amount of the reporting unit** | **\$4,700,000** |
+| **Fair value of the reporting unit** | **\$4,100,000** |
 
-$$
-\text{Impairment} = \$4{,}700{,}000 - \$4{,}100{,}000 = \$600{,}000
-$$
-
-**Step 2: Apply the cap.**
-Since \$600,000 < \$1,200,000 (goodwill balance), the **full** \$600,000 is recognized.
+The shortfall is \$4,700,000 - \$4,100,000 = \$600,000. That is less than the \$1,200,000 of goodwill, so the full \$600,000 is recognized, leaving goodwill of \$600,000.
 
 ```journal
 Dr. Goodwill Impairment Loss 600,000
-    Cr. Goodwill[a] 600,000
+Cr. Goodwill[a] 600,000
 ```
 
-**After impairment:**
-| Item | Amount |
-|------|--------|
-| Net identifiable assets | \$3,500,000 |
-| Goodwill (\$1,200,000 - \$600,000) | \$600,000 |
-| **Total carrying amount** | **\$4,100,000** |
+### Example 2: Shortfall Exceeds Goodwill
 
----
-
-### Example 2: Impairment Exceeds Goodwill Balance (Polar Inc.)
-
-Polar Inc. has a reporting unit (its consulting division) with the following data:
-| Item | Amount |
-|------|--------|
-| Net identifiable assets (carrying amount) | \$2,000,000 |
-| Goodwill | \$300,000 |
-| **Total carrying amount of reporting unit** | **\$2,300,000** |
-| **Fair value of reporting unit** | **\$1,800,000** |
-**Step 1: Calculate the difference.**
-
-$$
-\text{Difference} = \$2{,}300{,}000 - \$1{,}800{,}000 = \$500{,}000
-$$
-
-**Step 2: Apply the cap.**
-The difference (\$500,000) **exceeds** the goodwill balance (\$300,000), so the impairment loss is capped at \$300,000.
+Polar Inc.'s consulting reporting unit has identifiable net assets of \$2,000,000, goodwill of \$300,000 (a total carrying amount of \$2,300,000), and a fair value of \$1,800,000. The shortfall is \$500,000, but the loss is capped at the \$300,000 of goodwill.
 
 ```journal
 Dr. Goodwill Impairment Loss 300,000
-    Cr. Goodwill[a] 300,000
+Cr. Goodwill[a] 300,000
 ```
 
-After this entry, goodwill is **\$0**. The remaining \$200,000 difference does **not** trigger an impairment of other assets (though a separate impairment analysis of other long-lived assets under ASC 360 may be warranted).
-:::tip[Exam Tip]
-When a question states the fair value of a reporting unit is far below its carrying amount, always check whether the impairment exceeds the goodwill balance. The loss is **capped**, and this is a favorite exam trap.
+Goodwill is now zero. The other \$200,000 does not create an impairment of goodwill, though the unit's other long-lived assets may need their own test under ASC 360.
+
+:::warning[Common Exam Trap]
+
+When the reporting unit's fair value is far below its carrying amount, always compare the shortfall with the goodwill balance. The loss is capped at goodwill.
+
 :::
 
----
+### Example 3: No Impairment
 
-### Example 3: No Impairment (Bear Co.)
-
-Bear Co. has a reporting unit (its tax advisory division) with the following data:
-| Item | Amount |
-|------|--------|
-| Net identifiable assets (carrying amount) | \$6,000,000 |
-| Goodwill | \$2,500,000 |
-| **Total carrying amount of reporting unit** | **\$8,500,000** |
-| **Fair value of reporting unit** | **\$9,200,000** |
-Since the fair value (\$9,200,000) **exceeds** the carrying amount (\$8,500,000), **no impairment** is recognized. No journal entry is needed.
+Bear Co.'s tax advisory reporting unit has identifiable net assets of \$6,000,000 and goodwill of \$2,500,000, a carrying amount of \$8,500,000. Its fair value is \$9,200,000. Fair value exceeds carrying amount, so there is no impairment and no entry.
 
 ---
 
-## Reclassification from Indefinite to Finite Life
+## The Private Company Alternative for Goodwill
 
-If circumstances change and an indefinite-lived intangible is determined to have a **finite** useful life, the entity must:
+A private company (and, by a later extension, a not-for-profit entity) may elect a simpler model for goodwill. Public business entities may not.
 
-1. Test the asset for impairment **immediately** using the indefinite-lived model (fair value vs. carrying amount).
-2. Reclassify the asset and begin **amortizing** it over its newly estimated useful life.
+| | Public business entities | Private company alternative |
+|---|---|---|
+| Amortization | None | **Straight-line over 10 years**, or less if a shorter life is more appropriate |
+| When tested | At least annually, plus on triggering events | **Only when a triggering event** occurs; the entity may elect to evaluate triggering events only at the end of each reporting period |
+| Level of testing | Reporting unit | **Entity level** or reporting unit level, by policy election |
+| Measurement | Carrying amount less fair value, capped at goodwill | Same one-step comparison at the chosen level, capped at goodwill |
 
-### Example: Polar Inc. Trademark Reclassification
+Grizzly Inc., a private company that elects the alternative, records \$1,000,000 of goodwill in an acquisition and amortizes it over 10 years:
 
-Polar Inc. previously classified a trademark (carrying amount \$500,000) as indefinite-lived. A new government regulation limits the trademark's remaining useful life to 10 years. The fair value at the assessment date is \$480,000.
-**Step 1: Impairment test (indefinite-lived model).**
+```journal
+Dr. Amortization Expense (Goodwill) 100,000
+Cr. Goodwill[a] 100,000
+```
 
-$$
-\text{Impairment Loss} = \$500{,}000 - \$480{,}000 = \$20{,}000
-$$
+A private company that elects the goodwill alternative may also elect not to recognize certain customer-related intangibles and noncompetition agreements separately in a business combination, subsuming them into goodwill instead.
+
+---
+
+## Reclassification From Indefinite to Finite Life
+
+The useful life of an indefinite-lived intangible must be reassessed each period. If an indefinite life is no longer supportable, the entity:
+
+1. Tests the asset for impairment **first**, using the indefinite-lived test (fair value against carrying amount), and then
+2. Amortizes the remaining carrying amount **prospectively** over the remaining useful life.
+
+Polar Inc. owns a second trademark, carried at \$500,000 as indefinite-lived. A new regulation limits its remaining useful life to 10 years. Its fair value is \$480,000.
+
+The impairment test comes first:
 
 ```journal
 Dr. Impairment Loss 20,000
-    Cr. Trademark[a] 20,000
+Cr. Trademark[a] 20,000
 ```
 
-**Step 2: Begin amortization over the finite life (10 years).**
-
-$$
-\text{Annual Amortization} = \frac{\$480{,}000}{10} = \$48{,}000
-$$
+Then amortization begins on the new carrying amount of \$480,000, at \$48,000 per year:
 
 ```journal
 Dr. Amortization Expense 48,000
-    Cr. Accumulated Amortization (Trademark)[ca] 48,000
+Cr. Accumulated Amortization (Trademark)[ca] 48,000
 ```
 
 ---
 
-## Disposal of Goodwill
+## Disposal of Part of a Reporting Unit
 
-When all or a portion of a reporting unit is disposed of, a proportionate amount of goodwill must be included in the carrying amount of the operation for purposes of determining the gain or loss on disposal.
+When a business within a reporting unit is sold, part of the unit's goodwill goes with it. The amount is based on the **relative fair values** of the business sold and the part of the reporting unit that is kept.
 
-### Example: Bear Co. Sells Part of a Reporting Unit
+Bear Co. has a reporting unit with \$600,000 of goodwill. It sells a business representing 40% of the reporting unit's fair value for \$1,500,000. The business's identifiable net assets have a carrying amount of \$1,100,000.
 
-Bear Co. has a reporting unit with total goodwill of \$600,000. Bear Co. sells an operation representing 40% of the fair value of the reporting unit for \$1,500,000. The carrying amount of the disposed operation's identifiable net assets is \$1,100,000.
-**Goodwill allocated to disposal:**
-
-$$
-\text{Allocated Goodwill} = \$600{,}000 \times 40\% = \$240{,}000
-$$
-
-**Total carrying amount of disposed operation:**
-
-$$
-\$1{,}100{,}000 + \$240{,}000 = \$1{,}340{,}000
-$$
-
-**Gain on disposal:**
-
-$$
-\text{Gain} = \$1{,}500{,}000 - \$1{,}340{,}000 = \$160{,}000
-$$
+- Goodwill allocated to the business sold: \$600,000 × 40% = \$240,000
+- Carrying amount disposed of: \$1,100,000 + \$240,000 = \$1,340,000
+- Gain on disposal: \$1,500,000 - \$1,340,000 = \$160,000
 
 ```journal
 Dr. Cash[a] 1,500,000
-    Cr. Net Assets Disposed[a] 1,100,000
-    Cr. Goodwill[a] 240,000
-    Cr. Gain on Disposal 160,000
+Cr. Net Assets of Business Sold[a] 1,100,000
+Cr. Goodwill[a] 240,000
+Cr. Gain on Disposal 160,000
 ```
 
----
-
-## Financial Statement Presentation and Disclosure
-
-| Item                                   | Presentation                                                                                       |
-| -------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **Goodwill**                           | Reported as a **separate line item** on the balance sheet                                          |
-| **Other indefinite-lived intangibles** | Reported as a separate line or within intangible assets; disclosed by major class                  |
-| **Impairment losses**                  | Reported within **operating income** (typically a separate line item)                              |
-| **Goodwill by reportable segment**     | Disclosed in the notes, including changes during the period (acquisitions, impairments, disposals) |
-| **Annual impairment test timing**      | Disclosed in accounting policy footnotes                                                           |
+The \$360,000 of goodwill that remains with the reporting unit is then tested for impairment.
 
 ---
 
-## Summary Comparison
+## Presentation and Disclosure
 
-| Feature                   | Goodwill                                  | Other Indefinite-Lived Intangibles      |
-| ------------------------- | ----------------------------------------- | --------------------------------------- |
-| **Amortization**          | None                                      | None                                    |
-| **Impairment frequency**  | At least annually (or triggering event)   | At least annually (or triggering event) |
-| **Impairment test level** | Reporting unit                            | Individual asset                        |
-| **Qualitative option?**   | Yes                                       | Yes                                     |
-| **Quantitative test**     | FV of reporting unit vs. carrying amount  | FV of asset vs. carrying amount         |
-| **Loss measurement**      | Carrying amount - FV (capped at goodwill) | Carrying amount - FV                    |
-| **Reversal allowed?**     | No                                        | No                                      |
-| **Can arise internally?** | No (business combinations only)           | No (but can be purchased individually)  |
+| Item | Presentation |
+|---|---|
+| Goodwill | A separate line item on the balance sheet |
+| Goodwill impairment losses | A separate line item in the income statement, within continuing operations (unless associated with a discontinued operation) |
+| Other intangible assets | At least one separate line item on the balance sheet; impairment losses within continuing operations |
+| Notes | Changes in goodwill during the year (acquisitions, impairments, disposals) by reportable segment; the facts and amounts of any impairment; and the carrying amounts of indefinite-lived intangibles by major class |
 
-:::info
-**Key takeaway:** Both goodwill and other indefinite-lived intangibles are **never amortized** and are tested for impairment **at least annually**. Goodwill impairment is tested at the **reporting unit** level with a cap equal to the goodwill balance, while other indefinite-lived intangibles are tested at the **individual asset** level by comparing fair value to carrying amount. Both tests offer an optional qualitative screen, and neither allows reversal of recognized impairment losses.
-:::
+---
+
+## Summary
+
+| Feature | Goodwill | Other indefinite-lived intangibles |
+|---|---|---|
+| Source | Business combinations only | Purchased separately or acquired in a business combination |
+| Amortization | None (private company alternative: up to 10 years) | None |
+| Impairment testing | At least annually and on triggering events (private company alternative: triggering events only) | At least annually and on triggering events |
+| Level | Reporting unit (or entity, under the private company alternative) | Individual asset |
+| Optional qualitative step | Yes | Yes |
+| Loss | Carrying amount less fair value, capped at goodwill | Carrying amount less fair value |
+| Reversal of losses | Never | Never |

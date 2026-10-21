@@ -1,394 +1,292 @@
 # Net Position and Components
 
-**Net position** is the residual measure of a government's financial position on its government-wide financial statements and proprietary fund statements, reported under the **economic resources measurement focus** and **full accrual basis** of accounting. GASB Statement No. 34 requires that net position be displayed in three components: **net investment in capital assets**, **restricted**, and **unrestricted**.
+**Net position** is what is left when a government's obligations are subtracted from its resources, measured on the economic resources measurement focus and accrual basis. It is the bottom line of the government-wide statement of net position and of each proprietary fund. Like fund balance, a single total says little on its own, so GASB requires it to be split into three components: **net investment in capital assets**, **restricted**, and **unrestricted**.
 
-:::info[Blueprint Coverage]
-
-This section maps to **BAR Area III, Group C, Topic 1: Net Position and Components Thereof**. Representative tasks:
-
-1. **Calculate** the net position balances (unrestricted, restricted, and net investment in capital assets) for state and local governments and prepare journal entries.
-
-:::
+The BAR blueprint asks you to calculate all three and to prepare the related journal entries. This chapter defines each component, works through the calculation of net investment in capital assets (where most exam errors occur), explains why unrestricted net position is often negative, and ends with a full calculation. It also covers how GASB 100 reports restatements of beginning net position.
 
 ---
 
 ## Net Position vs. Fund Balance
 
-Net position and fund balance are **not** the same concept. They appear on different financial statements and use different measurement focuses:
-
-| | Net Position | Fund Balance |
+| | Net position | Fund balance |
 |---|---|---|
-| **Appears on** | Government-wide Statement of Net Position; Proprietary fund statements | Governmental fund balance sheets |
-| **Measurement focus** | Economic resources | Current financial resources |
-| **Basis of accounting** | Full accrual | Modified accrual |
-| **Includes capital assets?** | Yes | No |
-| **Includes long-term debt?** | Yes | No |
-| **Components** | Net investment in capital assets, Restricted, Unrestricted | Nonspendable, Restricted, Committed, Assigned, Unassigned |
+| **Appears in** | Government-wide statement of net position; proprietary and fiduciary fund statements | Governmental fund balance sheets |
+| **Measurement focus and basis** | Economic resources, accrual | Current financial resources, modified accrual |
+| **Includes capital assets and long-term debt?** | Yes | No |
+| **Components** | Net investment in capital assets, restricted, unrestricted | Nonspendable, restricted, committed, assigned, unassigned |
 
-### The Net Position Equation
+The equation is:
 
 $$
 \text{Net Position} = \text{Assets} + \text{Deferred Outflows of Resources} - \text{Liabilities} - \text{Deferred Inflows of Resources}
 $$
 
-:::tip[Exam Tip]
-
-Remember that **deferred outflows** increase net position (they are like "future assets") and **deferred inflows** decrease net position (they are like "future liabilities"). These are distinct from assets and liabilities.
-
-:::
-
----
-
-## Three Components of Net Position
-
-```mermaid
-flowchart TD
-    A[Total Net Position] --> B[Net Investment in Capital Assets]
-    A --> C[Restricted]
-    A --> D[Unrestricted]
-    B --> B1[Capital Assets, net]
-    B --> B2[Less: Related Debt]
-    B --> B3[Plus: Unspent Proceeds]
-    C --> C1[Externally Imposed]
-    C --> C2[Enabling Legislation]
-    D --> D1[Residual Amount]
-    style B fill:#d5f5d5
-    style C fill:#f9e4b7
-    style D fill:#d5e8f9
-```
+Deferred outflows of resources (a consumption of resources that applies to a future period) increase net position. Deferred inflows of resources (an acquisition of resources that applies to a future period) decrease it. Neither is an asset or a liability.
 
 ---
 
 ## Net Investment in Capital Assets
 
-This component represents capital assets (net of accumulated depreciation/amortization) reduced by outstanding balances of debt attributable to the acquisition, construction, or improvement of those assets. Any **unspent debt proceeds** are added back because the resources remain available.
+### The Idea
 
-### Formula
+This component shows how much of net position is tied up in capital assets after taking away what the government still owes on them. A city with \$40 million of roads and buildings (net of depreciation) and \$25 million of debt that paid for them has \$15 million invested in capital assets, net of the related debt.
+
+### The Rule
+
+Net investment in capital assets is:
+
+- Capital assets, net of accumulated depreciation and amortization,
+- **less** the outstanding balances of bonds, notes, leases, and other borrowings **attributable to acquiring, constructing, or improving those assets** (including unamortized premiums and discounts), and
+- **plus or minus** deferred outflows and inflows of resources attributable to those assets or that debt, such as a deferred loss or gain on refunding capital-related debt.
+
+The tricky part is **unspent debt proceeds**. If a government borrows \$5 million to build a courthouse and has spent only \$4.2 million by year-end, the \$800,000 still in the bank is not a capital asset. The portion of the debt attributable to those unspent proceeds is therefore **left out** of net investment in capital assets. Instead, that portion of the debt is placed in the **same component as the unspent cash**, usually restricted (because bond covenants restrict the proceeds to construction). There, the cash and the debt offset.
+
+In formula form:
 
 $$
-\text{Net Investment in Capital Assets} = \text{Capital Assets (net)} - \text{Related Debt Outstanding} + \text{Unspent Capital-Related Debt Proceeds}
+\text{NICA} = \text{Capital Assets, net} - (\text{Capital-Related Debt} - \text{Debt Attributable to Unspent Proceeds}) \pm \text{Related Deferrals}
 $$
 
-More precisely, deferred outflows and inflows related to debt refundings on capital-related debt are also included:
-
-$$
-\text{NICA} = \text{Capital Assets, net} - \text{Related Debt} + \text{Unspent Proceeds} + \text{Deferred Outflows (refundings)} - \text{Deferred Inflows (refundings)}
-$$
-
-### What Qualifies as "Related Debt"?
-
-| Included in Related Debt | NOT Included |
+| Counts as capital-related debt | Does not count |
 |---|---|
-| Bonds issued to build/acquire capital assets | General obligation bonds used for operating purposes |
-| Capital leases / finance leases | Short-term construction loans already spent |
-| Notes payable for equipment purchases | Debt where proceeds were fully spent on capital assets (no adjustment needed beyond net calculation) |
-| Unamortized premium/discount on capital-related debt | Pension-related debt |
+| Bonds and notes issued to build or buy capital assets | Debt issued for operations or to cover a deficit |
+| Lease and subscription liabilities | Pension obligation bonds |
+| Unamortized premiums and discounts on that debt | Debt issued for capital assets the government does not own (for example, county debt that built schools owned by a separate school district) |
+| | The portion attributable to unspent proceeds |
 
-:::tip[Exam Tip]
+### Example: Calculating NICA
 
-Net investment in capital assets is typically the **largest** component for governmental activities because governments hold significant infrastructure (roads, bridges, buildings) with relatively low remaining debt.
-
-:::
-
-### Detailed Calculation Example
-
-**Bear City** reports the following at year-end:
+Bear City reports:
 
 | Item | Amount |
 |---|---|
-| Capital assets (gross) | \$50,000,000 |
-| Accumulated depreciation | \$18,000,000 |
-| Bonds payable (issued for capital projects) | \$22,000,000 |
-| Unamortized bond premium (capital-related) | \$400,000 |
-| Unspent bond proceeds (restricted for construction) | \$3,500,000 |
-| Deferred outflow, debt refunding (capital-related) | \$600,000 |
+| Capital assets, at cost | \$50,000,000 |
+| Accumulated depreciation | 18,000,000 |
+| Bonds payable, all issued for capital projects | 22,000,000 |
+| Unamortized premium on those bonds | 400,000 |
+| Unspent bond proceeds (restricted for construction) | 3,500,000 |
+| Deferred outflow: loss on refunding of capital-related bonds | 600,000 |
 
 $$
 \text{Capital Assets, net} = \$50{,}000{,}000 - \$18{,}000{,}000 = \$32{,}000{,}000
 $$
 
 $$
-\text{Related Debt} = \$22{,}000{,}000 + \$400{,}000 = \$22{,}400{,}000
+\text{Debt in NICA} = \$22{,}000{,}000 + \$400{,}000 - \$3{,}500{,}000 = \$18{,}900{,}000
 $$
 
 $$
-\text{NICA} = \$32{,}000{,}000 - \$22{,}400{,}000 + \$3{,}500{,}000 + \$600{,}000 = \$13{,}700{,}000
+\text{NICA} = \$32{,}000{,}000 - \$18{,}900{,}000 + \$600{,}000 = \$13{,}700{,}000
 $$
+
+The \$3,500,000 of debt that was left out goes to restricted net position, where it offsets the \$3,500,000 of restricted cash. The net effect of the unspent proceeds on restricted net position is zero.
 
 ---
 
 ## Restricted Net Position
 
-Net position is **restricted** when constraints are placed on its use by either:
+Net position is **restricted** when its use is constrained by:
 
-1. **External parties**: creditors, grantors, contributors, or laws/regulations of other governments
-2. **Enabling legislation**: constitutional provisions or laws enacted by the government itself that require resources be used for a specific purpose
+1. **External parties**: creditors (through debt covenants), grantors, contributors, or the laws and regulations of other governments, or
+2. **Law through constitutional provisions or enabling legislation**: a law the government itself passes that creates a revenue and legally requires it to be used for a specific purpose.
 
-### Examples of Restricted Net Position
-
-| Source of Restriction | Example |
+| Source | Example |
 |---|---|
-| Creditors | Debt service reserve required by bond covenant |
-| Grantors | Federal highway grant funds restricted for road construction |
-| Other governments | State law requiring gas tax revenue be spent on transportation |
-| Enabling legislation | City ordinance dedicating hotel tax for tourism promotion |
-| Constitutional provision | State constitution requiring lottery proceeds fund education |
+| Creditors | Debt service reserve required by a bond covenant |
+| Grantors | Unspent federal highway grant restricted to road construction |
+| Other governments' laws | State law requiring motor fuel tax to be spent on transportation |
+| Enabling legislation | A city ordinance that levies a hotel tax and legally dedicates it to tourism promotion |
+| Constitutional provision | A state constitution requiring lottery proceeds to fund education |
 
-### Restricted vs. Unrestricted Spending Order
-
-When both restricted and unrestricted resources are available for an expenditure, governments **spend restricted resources first**, unless legal requirements or the governing body has established a different policy.
+Restricted net position is the restricted assets **less** the liabilities that will be paid from them. When a permanent endowment or permanent fund is involved, restricted net position is shown in two parts: **expendable** and **nonexpendable**.
 
 :::warning[Key Distinction]
 
-**Restricted net position** (government-wide) is narrower than **restricted fund balance** (governmental funds). Restricted net position only includes constraints from external parties or enabling legislation. Constraints imposed by the governing body (committed fund balance) do **not** qualify as restricted net position.
+Restricted net position is narrower than the combination of restricted, committed, and assigned fund balance. Constraints that the government's own governing body imposes and can remove (committed and assigned fund balance) are **not** restrictions of net position. Those amounts are part of unrestricted net position. Board designations are never shown as restricted.
 
 :::
+
+When both restricted and unrestricted resources are available for the same expense, which is used first is a **policy choice**, and the policy is disclosed in the notes. (For fund balance, GASB 54 sets a default of restricted first; for net position, the government simply states its policy.)
 
 ---
 
 ## Unrestricted Net Position
 
-The **unrestricted** component is the residual: the amount of net position that is neither invested in capital assets (net of related debt) nor restricted.
+Unrestricted net position is the **residual**: total net position less net investment in capital assets and restricted net position.
 
 $$
 \text{Unrestricted Net Position} = \text{Total Net Position} - \text{NICA} - \text{Restricted Net Position}
 $$
 
-### Key Points
+It can be positive or negative. Many governments report a **negative** unrestricted balance, and that does not by itself mean the government is in trouble. The usual causes are long-term liabilities that have no related capital asset:
 
-- Can be **positive or negative**
-- A negative unrestricted net position is **common** and does not mean insolvency
-- Unrestricted does **not** mean "available for any purpose"; the governing body may have designated or committed resources for specific uses
-- Unrestricted net position is simply the residual after the other two components are calculated
-
----
-
-## Negative Unrestricted Net Position
-
-Many governments report a **negative** unrestricted net position. The most common cause is the recognition of large long-term liabilities, particularly **net pension liabilities** and **OPEB (Other Post-Employment Benefits) liabilities** under GASB 68 and GASB 75.
-
-### Why It Happens
-
-| Cause | Explanation |
+| Cause | Why it reduces unrestricted net position |
 |---|---|
-| Net pension liability | Unfunded pension obligations recognized on government-wide statements |
-| Net OPEB liability | Retiree healthcare and other benefit obligations |
-| Deferred maintenance | Capital assets depreciated without corresponding debt reduction |
-| Large debt issuances | When debt exceeds capital asset values (common after major bond issues) |
+| Net pension and OPEB liabilities | Large obligations recognized under GASB 68 and 75 with no offsetting asset |
+| Debt for assets the government does not own | The debt is not capital-related, so it falls into unrestricted |
+| Compensated absences, claims, and landfill obligations | Liabilities funded from future revenues |
 
-### What It Means
-
-- Does **not** indicate insolvency or inability to pay current obligations
-- Does **not** violate any accounting standard
-- Reflects the long-term nature of government obligations
-- The government may still have positive fund balances in its governmental funds
-
-:::tip[Exam Tip]
-
-If a question asks whether a negative unrestricted net position indicates financial distress, the answer is **no**. It is common and reflects the timing of liability recognition. Governments have taxing authority and ongoing revenue streams to meet obligations.
-
-:::
+A government can have a negative unrestricted net position and still have healthy fund balances in its governmental funds, because the funds do not report these long-term liabilities. Governments also have taxing power and ongoing revenues to meet obligations over time.
 
 ---
 
-## Deferred Outflows and Inflows of Resources
+## Journal Entries and Their Effect on the Components
 
-Deferred outflows and inflows are reported **separately** from assets and liabilities and directly impact the net position equation.
+### Borrowing and Building
 
-| Category | Effect on Net Position | Common Examples |
-|---|---|---|
-| **Deferred Outflows** | Increase net position | Pension contributions after measurement date; loss on debt refunding; OPEB contributions after measurement date |
-| **Deferred Inflows** | Decrease net position | Net difference in projected/actual pension earnings; gain on debt refunding; changes in assumptions (pension/OPEB) |
-
-### Impact on Net Investment in Capital Assets
-
-Only deferred outflows/inflows **related to capital-asset debt refundings** are included in the net investment in capital assets calculation. All other deferred outflows/inflows flow to unrestricted (or restricted, if applicable).
-
----
-
-## Journal Entries Affecting Net Position
-
-Net position is affected at the **government-wide level**. The following entries show how common transactions impact net position components.
-
-### Capital Asset Purchase with Bond Proceeds
-
-Pine County issues \$5,000,000 in bonds and uses \$4,200,000 to construct a new courthouse. The remaining \$800,000 is unspent at year-end.
-
-Recording the bond issuance:
+Kodiak County issues \$5,000,000 of bonds to build a courthouse and spends \$4,200,000 by year-end. The bond covenant restricts the unspent proceeds to construction.
 
 ```journal
 Dr. Cash[a] 5,000,000
-    Cr. Bonds Payable[l] 5,000,000
+Cr. Bonds Payable[l] 5,000,000
 ```
-
-Recording the capital asset construction:
 
 ```journal
 Dr. Construction in Progress[a] 4,200,000
-    Cr. Cash[a] 4,200,000
+Cr. Cash[a] 4,200,000
 ```
 
-**Effect on net position components:**
-- Net investment in capital assets = \$4,200,000 - \$5,000,000 + \$800,000 = **\$0**
-- Restricted net position increases by \$800,000 (unspent proceeds restricted for construction)
-- Unrestricted net position: no net change
+**Effect on the components:**
 
-### Receipt of Restricted Grant
+- Net investment in capital assets: \$4,200,000 of CIP less the \$4,200,000 of debt attributable to it (\$5,000,000 less the \$800,000 attributable to unspent proceeds) = **\$0**.
+- Restricted: \$800,000 of restricted cash less the \$800,000 of debt attributable to it = **\$0**.
+- Unrestricted: **no change**.
 
-Grizzly County receives a \$1,200,000 state grant restricted for bridge repairs:
+That is the right answer, because borrowing and spending the money on an asset does not change total net position at all.
+
+### A Restricted Grant
+
+Grizzly County receives a \$1,200,000 state grant restricted to bridge repairs, with all eligibility requirements met.
 
 ```journal
 Dr. Cash[a] 1,200,000
-    Cr. Grant Revenue 1,200,000
+Cr. Grant Revenue 1,200,000
 ```
 
-**Effect:** Restricted net position increases by \$1,200,000.
-
-When the grant is spent on the bridge:
+Restricted net position rises by \$1,200,000. When the county spends the grant on bridge improvements that are capitalized:
 
 ```journal
 Dr. Infrastructure (Bridges)[a] 1,200,000
-    Cr. Cash[a] 1,200,000
+Cr. Cash[a] 1,200,000
 ```
 
-**Effect:** Resources move from restricted net position to net investment in capital assets.
+The \$1,200,000 moves from restricted net position to net investment in capital assets. Total net position does not change.
 
-### Annual Depreciation
+### Depreciation
 
-Bear City records \$2,500,000 of depreciation on governmental activity capital assets:
+Bear City records \$2,500,000 of depreciation on governmental capital assets.
 
 ```journal
 Dr. Depreciation Expense 2,500,000
-    Cr. Accumulated Depreciation[ca] 2,500,000
+Cr. Accumulated Depreciation[ca] 2,500,000
 ```
 
-**Effect:** Reduces net investment in capital assets by \$2,500,000 and reduces total net position.
+Net investment in capital assets and total net position both fall by \$2,500,000.
 
-### Debt Principal Payment on Capital-Related Debt
+### Paying Down Capital Debt
 
-Pine County makes a \$500,000 principal payment on the courthouse bonds:
+Kodiak County pays \$500,000 of principal on the courthouse bonds from unrestricted cash.
 
 ```journal
 Dr. Bonds Payable[l] 500,000
-    Cr. Cash[a] 500,000
+Cr. Cash[a] 500,000
 ```
 
-**Effect:** Net investment in capital assets **increases** by \$500,000 (related debt decreases). Unrestricted net position **decreases** by \$500,000 (cash used). Total net position is unchanged.
+Net investment in capital assets **rises** by \$500,000 (less debt against the assets) and unrestricted net position **falls** by \$500,000 (less cash). Total net position does not change.
+
+---
+
+## Restating Beginning Net Position (GASB 100)
+
+Sometimes a government must restate the net position it reported last year. Under **GASB 100** (testable since July 1, 2023), **changes in accounting principle** and **error corrections** are reported **retroactively**: beginning net position (or fund balance) is restated for the cumulative effect. A **change to or within the financial reporting entity** (for example, adding a component unit) adjusts beginning balances of the current period. A **change in accounting estimate** is reported **prospectively**, in the current and future periods, with no restatement.
+
+The restatement appears as an adjustment to beginning net position, displayed for each reporting unit affected (for example, governmental activities, business-type activities, and each major fund). The notes include a **tabular reconciliation** of each beginning balance as previously reported, the adjustments, and the balance as restated.
 
 ---
 
 ## Complete Worked Example
 
-**Bear City: Statement of Net Position (Governmental Activities) at December 31, 20X4**
-
-### Given Information
+**Bear City governmental activities, December 31, 20X4.**
 
 | Item | Amount |
 |---|---|
-| Capital assets (gross) | \$85,000,000 |
-| Accumulated depreciation | \$32,000,000 |
-| Other assets (cash, receivables, etc.) | \$14,500,000 |
-| Deferred outflows, pensions | \$3,200,000 |
-| Deferred outflows, debt refunding (capital-related) | \$750,000 |
-| Revenue bonds payable (for capital assets) | \$38,000,000 |
-| Unamortized premium on revenue bonds | \$1,100,000 |
-| Net pension liability | \$21,000,000 |
-| Other liabilities | \$4,600,000 |
-| Deferred inflows, pensions | \$2,800,000 |
-| Unspent bond proceeds (restricted for construction) | \$5,000,000 |
-| Resources restricted by grantors | \$2,100,000 |
-| Resources restricted by enabling legislation | \$900,000 |
+| Capital assets, at cost | \$85,000,000 |
+| Accumulated depreciation | 32,000,000 |
+| Other assets (cash, investments, receivables) | 14,500,000 |
+| Deferred outflows related to pensions | 3,200,000 |
+| Deferred outflow: loss on refunding of capital-related bonds | 750,000 |
+| General obligation bonds payable, all issued for capital assets | 38,000,000 |
+| Unamortized premium on those bonds | 1,100,000 |
+| Net pension liability | 21,000,000 |
+| Other liabilities | 4,600,000 |
+| Deferred inflows related to pensions | 2,800,000 |
 
-### Step 1: Calculate Total Net Position
+Other assets include \$5,000,000 of unspent bond proceeds restricted for construction, \$2,100,000 of resources restricted by grantors, and \$900,000 restricted by enabling legislation. No liabilities are payable from the grant or enabling legislation resources.
 
-$$
-\text{Total Assets} = \$85{,}000{,}000 - \$32{,}000{,}000 + \$14{,}500{,}000 = \$67{,}500{,}000
-$$
+### Step 1: Total Net Position
 
-$$
-\text{Total Deferred Outflows} = \$3{,}200{,}000 + \$750{,}000 = \$3{,}950{,}000
-$$
-
-$$
-\text{Total Liabilities} = \$38{,}000{,}000 + \$1{,}100{,}000 + \$21{,}000{,}000 + \$4{,}600{,}000 = \$64{,}700{,}000
-$$
-
-$$
-\text{Total Deferred Inflows} = \$2{,}800{,}000
-$$
-
-$$
-\text{Total Net Position} = \$67{,}500{,}000 + \$3{,}950{,}000 - \$64{,}700{,}000 - \$2{,}800{,}000 = \$3{,}950{,}000
-$$
+| | Amount |
+|---|---|
+| Capital assets, net (\$85,000,000 - \$32,000,000) | \$53,000,000 |
+| Other assets | 14,500,000 |
+| **Total assets** | **67,500,000** |
+| Deferred outflows (\$3,200,000 + \$750,000) | 3,950,000 |
+| Liabilities (\$38,000,000 + \$1,100,000 + \$21,000,000 + \$4,600,000) | (64,700,000) |
+| Deferred inflows | (2,800,000) |
+| **Total net position** | **\$3,950,000** |
 
 ### Step 2: Net Investment in Capital Assets
 
+The debt attributable to capital assets excludes the \$5,000,000 attributable to unspent proceeds:
+
 $$
-\text{Capital Assets, net} = \$85{,}000{,}000 - \$32{,}000{,}000 = \$53{,}000{,}000
+\text{Debt in NICA} = \$38{,}000{,}000 + \$1{,}100{,}000 - \$5{,}000{,}000 = \$34{,}100{,}000
 $$
 
 $$
-\text{Related Debt} = \$38{,}000{,}000 + \$1{,}100{,}000 = \$39{,}100{,}000
-$$
-
-$$
-\text{NICA} = \$53{,}000{,}000 - \$39{,}100{,}000 + \$5{,}000{,}000 + \$750{,}000 = \$19{,}650{,}000
+\text{NICA} = \$53{,}000{,}000 - \$34{,}100{,}000 + \$750{,}000 = \$19{,}650{,}000
 $$
 
 ### Step 3: Restricted Net Position
 
-The unspent bond proceeds are added back in the NICA calculation to prevent the related debt from reducing that component before the assets are constructed. Because those proceeds are already reflected in NICA, they are **not** separately included in restricted net position (to avoid double-counting). Restricted net position includes only the other externally restricted resources:
+The \$5,000,000 of unspent proceeds is restricted cash, but it is offset by the \$5,000,000 of debt excluded from NICA, so it adds nothing. The other restrictions have no related liabilities:
 
 $$
-\text{Restricted} = \$2{,}100{,}000 + \$900{,}000 = \$3{,}000{,}000
+\text{Restricted} = (\$5{,}000{,}000 - \$5{,}000{,}000) + \$2{,}100{,}000 + \$900{,}000 = \$3{,}000{,}000
 $$
 
-:::warning[Watch Out]
+:::tip[Exam Tip]
 
-Unspent capital-related debt proceeds are added back in the NICA formula **and** excluded from restricted net position. Do not count them in both components; that would overstate total net position.
+Do not count unspent bond proceeds as both a reduction of the debt in NICA and as restricted net position. The debt you remove from NICA travels with the cash into restricted, and the two cancel.
 
 :::
 
-### Step 4: Unrestricted Net Position (Residual)
+### Step 4: Unrestricted Net Position
 
 $$
 \text{Unrestricted} = \$3{,}950{,}000 - \$19{,}650{,}000 - \$3{,}000{,}000 = -\$18{,}700{,}000
 $$
 
-### Summary
-
 | Component | Amount |
 |---|---|
-| Net investment in capital assets | **\$19,650,000** |
-| Restricted | **\$3,000,000** |
-| Unrestricted | **(\$18,700,000)** |
+| Net investment in capital assets | \$19,650,000 |
+| Restricted | 3,000,000 |
+| Unrestricted | (18,700,000) |
 | **Total net position** | **\$3,950,000** |
 
-**Verification:**
-
-$$
-\$19{,}650{,}000 + \$3{,}000{,}000 + (-\$18{,}700{,}000) = \$3{,}950{,}000 \checkmark
-$$
-
-The negative unrestricted net position is primarily driven by the \$21,000,000 net pension liability, a common result under GASB 68.
+The deficit in unrestricted net position comes mainly from the \$21,000,000 net pension liability, a common result under GASB 68. Compute the components in this order (total, then NICA, then restricted, then unrestricted as the residual) and they will always sum to the total.
 
 ---
 
-## Summary of Key Rules
+## Summary
 
 | Rule | Detail |
 |---|---|
-| Largest component (typically) | Net investment in capital assets |
-| Residual component | Unrestricted |
-| Spending order | Restricted resources spent before unrestricted (default) |
-| Negative unrestricted | Common; not an indicator of insolvency |
-| Deferred outflows/inflows in NICA | Only those related to capital-asset debt refundings |
-| Unspent bond proceeds | Added back in NICA; not double-counted in restricted |
-| Enabling legislation | Qualifies as restricted net position |
-| Committed resources | Do NOT qualify as restricted net position (only restricted fund balance) |
-
-:::tip[Exam Tip]
-
-For calculation questions, always compute NICA first, then restricted, then unrestricted as the residual. This three-step approach prevents errors and ensures the components sum to total net position.
-
-:::
+| Components | Net investment in capital assets, restricted, unrestricted |
+| NICA | Net capital assets less capital-related debt, plus or minus related deferrals; debt attributable to unspent proceeds is excluded |
+| Unspent proceeds | The excluded debt goes with the unspent cash (usually restricted), and they offset |
+| Restricted | External constraints or constitutional provisions and enabling legislation; committed and assigned amounts are unrestricted |
+| Permanent endowments | Restricted net position split into expendable and nonexpendable |
+| Restricted vs. unrestricted spending | A disclosed policy choice |
+| Unrestricted | The residual; often negative because of pension and OPEB liabilities |
+| Restatements (GASB 100) | Principle changes and error corrections retroactive; estimate changes prospective; tabular reconciliation in the notes |

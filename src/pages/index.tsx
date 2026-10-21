@@ -130,7 +130,7 @@ export default function App() {
             <div className={styles.heroCopy}>
               <div className={styles.eyebrow}>
                 <Sparkles className={styles.eyebrowIcon} />
-                <span>Open-source · Updated for 2026</span>
+                <span>Open-source · Updated for 2027</span>
               </div>
 
               <h1 className={styles.heroTitle}>
@@ -168,7 +168,7 @@ export default function App() {
                   Start studying
                   <ArrowRight className={styles.ctaIcon} />
                 </a>
-                <a href="/blueprint/2026" className={styles.secondaryCta}>
+                <a href="/blueprint/2027" className={styles.secondaryCta}>
                   Browse the blueprint
                 </a>
               </div>
@@ -180,7 +180,7 @@ export default function App() {
                 </div>
                 <div className={styles.statDivider} />
                 <div className={styles.stat}>
-                  <div className={styles.statNumber}>2026</div>
+                  <div className={styles.statNumber}>2027</div>
                   <div className={styles.statLabel}>Blueprint aligned</div>
                 </div>
                 <div className={styles.statDivider} />
@@ -251,7 +251,7 @@ export default function App() {
             <div className={styles.infoBadges}>
               <div className={styles.badge}>
                 <div className={styles.badgeDot}></div>
-                <span>Updated for 2026</span>
+                <span>Updated for 2027</span>
               </div>
               <div className={styles.badge}>
                 <div className={styles.badgeDot}></div>

@@ -1,286 +1,134 @@
 # Tax Computation and Credits
 
-## Introduction
+Once taxable income is known, two steps remain: compute the tax, then subtract credits. The tax comes from the rate schedule, with lower rates for long-term capital gains and qualified dividends, and with the alternative minimum tax as a backstop. Credits then reduce the tax dollar for dollar, and some of them can produce a refund even when no tax is owed.
 
-After determining adjusted gross income and taxable income, taxpayers must compute their tax liability using the applicable rate schedules and then apply any available credits. This chapter covers the **Section 199A qualified business income deduction**, individual tax rate schedules, the **alternative minimum tax (AMT)**, additional taxes (net investment income tax, additional Medicare tax, self-employment tax), the **kiddie tax**, and the major individual tax credits tested on the CPA exam.
-
----
-
-## Section 199A: Qualified Business Income Deduction
-
-### Overview
-
-IRC §199A provides a deduction of up to **20%** of qualified business income (QBI) from pass-through entities: sole proprietorships, partnerships, S corporations, and certain trusts. The deduction is taken **below the line** (reduces taxable income, not AGI) but is available to both itemizers and standard-deduction filers.
-
-### QBI Defined
-
-**Qualified business income** is the net amount of qualified items of income, gain, deduction, and loss from a qualified trade or business operated within the United States. QBI does **not** include:
-
-- Capital gains or losses
-- Dividend income
-- Interest income not allocable to the business
-- Wage income as an employee
-- Guaranteed payments to partners for services
-
-### Basic Calculation
-
-The Section 199A deduction equals the **lesser** of:
-
-1. **20%** of QBI, or
-2. **20%** of taxable income (before the §199A deduction) in excess of net capital gain.
-
-> **Example:** Cub Records operates as a sole proprietorship with \$200,000 of QBI. The owner's taxable income before the §199A deduction is \$180,000. The deduction is the lesser of 20% × \$200,000 = \$40,000 or 20% × \$180,000 = \$36,000. The deduction is **\$36,000**.
-
-### W-2 Wage and Capital Limitation
-
-For taxpayers above the income threshold, the deduction for each qualified business is limited to the **greater** of:
-
-- **50%** of W-2 wages paid by the business, **or**
-- **25%** of W-2 wages **plus 2.5%** of the unadjusted basis immediately after acquisition (UBIA) of qualified property.
-
-:::info
-
-These limitations phase in over a range of \$50,000 (single) or \$100,000 (MFJ) above the threshold. Below the threshold, the full 20% deduction applies without limitation.
-
-:::
-
-### Specified Service Trades or Businesses (SSTBs)
-
-An SSTB is any trade or business involving the performance of services in the fields of health, law, accounting, actuarial science, performing arts, consulting, athletics, financial services, brokerage services, or any business where the principal asset is the reputation or skill of employees or owners. **Investment management and trading** are also SSTBs.
-
-| Taxable Income (2024 Approx.) | Non-SSTB | SSTB |
-|---|---|---|
-| Below threshold (\$191,950 S / \$383,900 MFJ) | Full 20% deduction | Full 20% deduction |
-| Within phase-in range | W-2/UBIA limitation phases in | Deduction phases out entirely |
-| Above phase-in range | W-2/UBIA limitation fully applies | **No deduction** |
-
-:::tip[Exam Tip]
-
-Engineering and architecture are specifically **excluded** from the SSTB definition, so they qualify for the full deduction regardless of income level.
-
-:::
-
-### QBI Deduction Calculation Steps
-
-1. Identify each qualified trade or business.
-2. Determine QBI for each business.
-3. Apply the W-2 wage / UBIA limitation if above the threshold.
-4. Determine whether any business is an SSTB and apply phase-out if applicable.
-5. Combine QBI amounts (net negative QBI carries forward).
-6. Apply the overall taxable-income limitation.
+This chapter covers the rate structure, the AMT, and the individual credits the exam tests most. It reflects the One Big Beautiful Bill Act (OBBBA, P.L. 119-21), whose provisions with 2024 or 2025 effective dates have been eligible for REG testing since July 1, 2026. Two related topics live elsewhere: the QBI deduction is in [Adjustments and Deductions](./adjustments-and-deductions.md), and the other taxes on Form 1040 (self-employment tax, the additional Medicare tax, the net investment income tax, the kiddie tax) and the estimated tax safe harbors are in [Other Individual Taxes](./other-individual-taxes.md).
 
 ---
 
-## Tax Rate Schedules
+## Regular Tax
 
-### Ordinary Income Tax Rates
+### Ordinary Income Rates
 
-The 2024 individual tax brackets are:
+Ordinary income is taxed under a progressive schedule of seven rates: **10%, 12%, 22%, 24%, 32%, 35%, and 37%**. OBBBA made these rates permanent. The bracket thresholds differ by filing status and are indexed every year, so an exam question supplies the schedule; what you need is the mechanics.
 
-| Rate | Single | Married Filing Jointly |
-|---|---|---|
-| 10% | \$0 to \$11,600 | \$0 to \$23,200 |
-| 12% | \$11,601 to \$47,150 | \$23,201 to \$94,300 |
-| 22% | \$47,151 to \$100,525 | \$94,301 to \$201,050 |
-| 24% | \$100,526 to \$191,950 | \$201,051 to \$383,900 |
-| 32% | \$191,951 to \$243,725 | \$383,901 to \$487,450 |
-| 35% | \$243,726 to \$609,350 | \$487,451 to \$731,200 |
-| 37% | Over \$609,350 | Over \$731,200 |
+Each rate applies only to the income that falls within its bracket. The **marginal rate** is the rate on the next dollar of income. The **average (effective) rate** is total tax divided by taxable income.
 
-### Capital Gains Tax Rates
+> **Example:** For 2026, a single taxpayer's 10% bracket runs to \$12,400 and the 12% bracket to \$50,400. A single taxpayer with \$45,000 of taxable income owes:
+>
+> - 10% × \$12,400 = \$1,240
+> - 12% × (\$45,000 - \$12,400) = 12% × \$32,600 = \$3,912
+> - Total tax: **\$5,152**
+>
+> The marginal rate is 12%, and the average rate is \$5,152 ÷ \$45,000 = 11.4%.
 
-Net long-term capital gains and qualified dividends are taxed at preferential rates:
+### Net Capital Gain and Qualified Dividends
 
-| Rate | Single Taxable Income | MFJ Taxable Income |
-|---|---|---|
-| 0% | Up to \$47,025 | Up to \$94,050 |
-| 15% | \$47,026 to \$518,900 | \$94,051 to \$583,750 |
-| 20% | Over \$518,900 | Over \$583,750 |
+**Net capital gain** (net long-term capital gain minus any net short-term capital loss) and **qualified dividends** are taxed at lower rates. They are stacked on top of ordinary income, so ordinary income fills the lower brackets first.
 
-Short-term capital gains (assets held one year or less) are taxed at ordinary income rates.
+| Type of Income | Rate |
+|---|---|
+| Most long-term capital gain and qualified dividends | 0%, 15%, or 20%, depending on taxable income |
+| Unrecaptured §1250 gain (depreciation on real estate) | Maximum 25% |
+| Collectibles gain (art, coins, and NFTs that are collectibles) | Maximum 28% |
+| Short-term capital gain | Ordinary rates |
+
+The 0%, 15%, and 20% rates are statutory, but the breakpoints are indexed. For 2026, the 0% rate applies up to taxable income of \$49,450 (single) or \$98,900 (MFJ), and the 20% rate applies above \$545,500 (single) or \$613,700 (MFJ).
+
+> **Example:** In 2026, Rosa, who files single, has \$40,000 of ordinary taxable income and \$20,000 of qualified dividends, for taxable income of \$60,000. The ordinary income is taxed first: \$1,240 + 12% × (\$40,000 - \$12,400) = \$4,552. The dividends sit on top. The first \$9,450 of them fills the rest of the 0% range (up to \$49,450) and is taxed at 0%; the remaining \$10,550 is taxed at 15%, or \$1,582.50. Total tax is **\$6,134.50**.
 
 ---
 
 ## Alternative Minimum Tax (AMT)
 
-### Purpose
+The **alternative minimum tax** is a parallel tax system that keeps taxpayers with large preferences and deductions from paying too little. The taxpayer computes the regular tax and a **tentative minimum tax (TMT)**, and pays the AMT only if the TMT is higher:
 
-The AMT is a parallel tax system designed to ensure that high-income taxpayers pay at least a minimum amount of tax even when they benefit from significant deductions and exclusions under the regular tax system.
+1. Start with regular taxable income.
+2. Add **AMT adjustments and preferences** to get alternative minimum taxable income (AMTI).
+3. Subtract the **AMT exemption**, which phases out at higher AMTI.
+4. Apply the AMT rates (26%, then 28% above an indexed breakpoint of \$244,500 for 2026) to get the TMT. Net capital gain and qualified dividends keep their lower rates.
+5. **AMT = TMT - regular tax**, if positive.
 
-### Calculation
+OBBBA made the larger exemptions permanent (indexed; \$90,100 single and \$140,200 MFJ for 2026). Starting in 2026, it also reset the point where the exemption begins to phase out to \$500,000 (single) and \$1,000,000 (MFJ), indexed after 2026, and doubled the phase-out rate: the exemption now shrinks by **50 cents** for each dollar of AMTI above that point, instead of 25 cents.
 
-**Alternative Minimum Taxable Income (AMTI)** = Taxable income + AMT preferences + AMT adjustments - AMT exemption
-
-| AMT Component | 2024 Amounts (Approx.) |
+| Common Adjustment or Preference | AMT Treatment |
 |---|---|
-| Exemption (Single) | \$85,700 |
-| Exemption (MFJ) | \$133,300 |
-| Phase-out begins (Single) | \$609,350 |
-| Phase-out begins (MFJ) | \$1,218,700 |
-| AMT rate | 26% on first \$232,600 (MFJ); 28% above |
+| Itemized deduction for state and local taxes | Not allowed (added back) |
+| Standard deduction | Not allowed (added back) |
+| Interest on private activity bonds | Added back |
+| Exercise of an incentive stock option | The bargain element (FMV minus exercise price) is added at exercise |
+| 200% declining balance MACRS on personal property | Recomputed using 150% declining balance (no adjustment for bonus depreciation or straight-line property) |
 
-### Common AMT Preferences and Adjustments
-
-| Item | Treatment |
-|---|---|
-| State and local tax (SALT) deduction | Added back |
-| Private-activity municipal bond interest | Added back |
-| Incentive stock option (ISO) bargain element | Added back at exercise |
-| MACRS depreciation on personal property | Recalculated using 150% DB / ADS life |
-| Standard deduction | Added back (if claimed) |
-| Medical expenses | Only deductible to the extent exceeding 10% of AGI (same as regular tax post-2012) |
-
-:::caution
-
-The AMT is computed separately. A taxpayer owes AMT only if the **tentative minimum tax** exceeds the **regular tax**. The AMT is the excess amount.
-
-:::
-
-> **Example:** Polar Co.'s sole proprietor has a regular tax of \$42,000 and a tentative minimum tax of \$48,000. The AMT owed is \$48,000 - \$42,000 = **\$6,000**.
-
----
-
-## Additional Taxes
-
-### Net Investment Income Tax (NIIT): 3.8%
-
-A **3.8% surtax** applies to the **lesser** of:
-
-- Net investment income (NII), or
-- The excess of modified AGI (MAGI) over the threshold amount.
-
-| Filing Status | MAGI Threshold |
-|---|---|
-| Single | \$200,000 |
-| MFJ | \$250,000 |
-| MFS | \$125,000 |
-
-**Net investment income** includes interest, dividends, capital gains, rental and royalty income, and passive activity income, but **not** wages, self-employment income, or distributions from qualified retirement plans.
-
-> **Example:** Panda Industries' owner has MAGI of \$300,000 (MFJ) and NII of \$80,000. The NIIT applies to the lesser of \$80,000 or \$50,000 (\$300,000 - \$250,000). NIIT = 3.8% × \$50,000 = **\$1,900**.
-
-### Additional Medicare Tax: 0.9%
-
-An additional **0.9%** Medicare tax applies to wages and self-employment income exceeding:
-
-| Filing Status | Threshold |
-|---|---|
-| Single | \$200,000 |
-| MFJ | \$250,000 |
-| MFS | \$125,000 |
-
-The employer does not match the additional 0.9%. It is the employee's sole responsibility.
-
-### Self-Employment Tax
-
-Self-employed individuals pay both the employer and employee share of Social Security and Medicare taxes.
-
-| Component | Rate | Wage Base (2024) |
-|---|---|---|
-| Social Security (OASDI) | 12.4% | \$168,600 |
-| Medicare (HI) | 2.9% | No limit |
-| Additional Medicare | 0.9% | Above \$200,000 / \$250,000 |
-
-**Calculation steps:**
-
-1. Net self-employment income × **92.35%** = SE tax base.
-2. Apply Social Security rate (12.4%) up to the wage base.
-3. Apply Medicare rate (2.9%) on all SE earnings.
-4. **50%** of SE tax is deductible as an above-the-line deduction on Form 1040.
-
----
-
-## Kiddie Tax
-
-The **kiddie tax** applies to unearned income of a child who is:
-
-- Under age **19**, or under age **24** if a full-time student, **and**
-- Has unearned income exceeding **\$2,500** (2024 approx.).
-
-Unearned income above the threshold is taxed at the **parent's marginal rate**. The first \$1,250 is offset by the child's standard deduction; the next \$1,250 is taxed at the child's rate.
-
-:::tip[Exam Tip]
-
-The kiddie tax applies only to **unearned** income (interest, dividends, capital gains). A teenager's wages from a summer job are taxed at the child's own rate.
-
-:::
+> **Example:** Taylor, who files single, has 2026 AMTI of \$600,000. The exemption is \$90,100 - 50% × (\$600,000 - \$500,000) = \$40,100, leaving \$559,900 subject to AMT. The TMT is 26% × \$244,500 + 28% × (\$559,900 - \$244,500) = \$63,570 + \$88,312 = \$151,882. If Taylor's regular tax is \$145,000, the AMT is **\$6,882**.
 
 ---
 
 ## Tax Credits
 
-Credits directly reduce tax liability and are more valuable than deductions. Credits are classified as **nonrefundable** (limited to tax liability) or **refundable** (payable even if they exceed tax).
+A **credit** reduces tax dollar for dollar, so a \$1,000 credit is worth \$1,000 to anyone, while a \$1,000 deduction is worth only \$1,000 times the taxpayer's marginal rate.
 
-### Child Tax Credit
+### Refundable and Nonrefundable Credits
 
-| Feature | Rule (2024) |
+A **nonrefundable** credit can reduce tax to zero but no further; any excess is lost unless the credit has its own carryforward. A **refundable** credit is paid out even when it exceeds the tax, so it can produce a refund for someone who owes nothing.
+
+| Refundable | Nonrefundable |
 |---|---|
-| Amount | \$2,000 per qualifying child under age 17 |
-| Refundable portion | Up to \$1,700 (Additional Child Tax Credit) |
-| Phase-out begins | \$200,000 (Single) / \$400,000 (MFJ) |
-| Phase-out rate | \$50 per \$1,000 of excess MAGI |
+| Earned income credit | Child tax credit (the part that is not refundable) |
+| Additional child tax credit (the refundable part of the child tax credit) | Credit for other dependents |
+| 40% of the American opportunity credit | Child and dependent care credit |
+| Up to \$5,000 of the adoption credit (indexed after 2025) | Lifetime learning credit |
+| Premium tax credit | The rest of the adoption credit (5-year carryforward) |
+| Excess Social Security withholding from two or more employers | Foreign tax credit |
+
+### Child Tax Credit and Credit for Other Dependents
+
+| Feature | Rule |
+|---|---|
+| Amount | \$2,200 per qualifying child under age 17 at year-end (set by OBBBA for 2025 and indexed after; still \$2,200 for 2026) |
+| Refundable portion | Up to an indexed amount per child (\$1,700 for 2026), limited to 15% of earned income above \$2,500 |
+| Phase-out | \$50 for each \$1,000 (or part) of MAGI over \$200,000 (\$400,000 MFJ); fixed by statute |
+| SSN rules | The child needs an SSN valid for employment, issued by the return's due date; the taxpayer (or at least one spouse on a joint return) must also have an SSN |
+| Credit for other dependents | \$500, nonrefundable, for each dependent who is not a qualifying child for this credit, such as a 17-year-old child or a dependent parent |
+
+> **Example:** Jordan and Alex file jointly with MAGI of \$410,000. They have two children under 17 and a dependent 18-year-old in college. Their tentative credit is 2 × \$2,200 + \$500 = \$4,900. MAGI exceeds \$400,000 by \$10,000, so the credit is reduced by 10 × \$50 = \$500. They claim **\$4,400**.
 
 ### Child and Dependent Care Credit
 
-- Covers expenses for care of a child under 13 or a disabled dependent while the taxpayer works.
-- Maximum eligible expenses: **\$3,000** (one qualifying individual) or **\$6,000** (two or more).
-- Credit rate: **20% to 35%** of eligible expenses based on AGI.
-- **Nonrefundable.**
+This nonrefundable credit covers care for a child under 13, or a disabled spouse or dependent, so that the taxpayer (and spouse) can work or look for work. Eligible expenses are capped at **\$3,000** for one qualifying individual or **\$6,000** for two or more, cannot exceed the earned income of the lower-earning spouse, and are reduced by any excluded employer-provided dependent care assistance.
 
-> **Example:** Kodiak Inc.'s CFO pays \$8,000 in daycare for two children. Eligible expenses are capped at \$6,000. With AGI above \$43,000, the credit rate is 20%, producing a credit of \$6,000 × 20% = **\$1,200**.
+Starting in 2026, OBBBA raised the credit rate. The rate is **50%** for AGI of \$15,000 or less. It drops 1 percentage point for each \$2,000 (or part) of AGI above \$15,000 until it reaches **35%**, and stays at 35% until AGI reaches \$75,000 (\$150,000 MFJ). Above that, it drops 1 point for each \$2,000 (\$4,000 MFJ) of additional AGI, but never below **20%**. These amounts are statutory. The maximum credit is therefore \$1,500 for one qualifying individual and \$3,000 for two or more.
+
+> **Example:** In 2026, Ellen and Raj file jointly with AGI of \$130,000 and pay \$8,000 for day care for their two young children. Eligible expenses are capped at \$6,000, and their AGI is in the 35% range, so the credit is \$6,000 × 35% = **\$2,100**. If their AGI were \$250,000, the rate would fall to the 20% floor and the credit would be \$1,200.
 
 ### Earned Income Credit (EIC)
 
-- **Refundable** credit for low-to-moderate income workers.
-- Amount depends on earned income, AGI, filing status, and number of qualifying children.
-- Investment income must be **\$11,600 or less** (2024).
-- Cannot be claimed by MFS filers (with limited exceptions post-2021).
+The **earned income credit** is a **refundable** credit for low- and moderate-income workers. Its amount depends on earned income, AGI, filing status, and the number of qualifying children, and every phase-in and phase-out amount is indexed. A taxpayer loses the credit entirely if investment income exceeds an indexed limit. A worker with no qualifying child must be at least 25 and under 65. An MFS filer can claim the credit only if separated from his or her spouse.
 
 ### Education Credits
 
-| Credit | American Opportunity (AOTC) | Lifetime Learning |
+| Feature | American Opportunity (AOTC) | Lifetime Learning (LLC) |
 |---|---|---|
-| Maximum | \$2,500 per student | \$2,000 per return |
-| Refundable? | 40% refundable (\$1,000) | No |
-| Years available | First 4 years of postsecondary | Unlimited |
-| Enrollment | At least half-time | Any course load |
-| MAGI phase-out (Single) | \$80,000 to \$90,000 | \$80,000 to \$90,000 |
+| Maximum | \$2,500 per student (100% of the first \$2,000 of expenses plus 25% of the next \$2,000) | \$2,000 per return (20% of up to \$10,000 of expenses) |
+| Refundable? | 40% (up to \$1,000) | No |
+| Years available | First 4 years of postsecondary education | Unlimited |
+| Enrollment | At least half time, in a degree program | Any course load, including courses to improve job skills |
+| MAGI phase-out (single) | \$80,000 to \$90,000 | \$80,000 to \$90,000 |
 | MAGI phase-out (MFJ) | \$160,000 to \$180,000 | \$160,000 to \$180,000 |
 | Felony drug conviction | Disqualifies | No effect |
 
-:::tip[Exam Tip]
-
-The AOTC provides 100% of the first \$2,000 plus 25% of the next \$2,000 of qualified expenses. Books and supplies qualify for the AOTC even if not purchased from the institution.
-
-:::
+The phase-out ranges are fixed by statute. Books and supplies count for the AOTC even if they are not bought from the school. Starting in 2026, both credits require the taxpayer's SSN on the return (and the student's name and SSN, if the student is not the taxpayer or spouse), and the AOTC also requires the school's employer identification number. A missing number is treated as a math error.
 
 ### Adoption Credit
 
-- Maximum credit: **\$16,810** (2024) per eligible child.
-- **Nonrefundable** but may be carried forward up to 5 years.
-- Phase-out: MAGI of \$252,150 to \$292,150 (2024).
-- For a child with special needs, the full credit is available regardless of actual expenses.
+The adoption credit covers qualified adoption expenses up to an indexed maximum per child (\$17,670 for 2026), and it phases out over an indexed MAGI range. For a child with special needs, the full credit is allowed whatever the actual expenses. Starting in 2025, up to \$5,000 of the credit is **refundable** (indexed after 2025; \$5,120 for 2026). The rest is nonrefundable and carries forward up to 5 years.
 
----
+### Energy Credits That Have Ended
 
-## Estimated Tax Payments and Penalties
+OBBBA ended the main individual energy credits early. The energy efficient home improvement credit (§25C) is not available for property placed in service after December 31, 2025, and the residential clean energy credit (§25D, for solar panels and similar systems) is not available for expenditures made after that date. An expenditure is "made" when installation is complete, so a 2025 payment for a system installed in 2026 gets no credit. The new and previously owned clean vehicle credits (§§30D and 25E) are not available for vehicles acquired after September 30, 2025.
 
-Taxpayers who expect to owe **\$1,000 or more** after withholding must make quarterly estimated payments (April 15, June 15, September 15, January 15).
+### A Credit That Starts in 2027
 
-### Safe-Harbor Rules to Avoid Penalty
-
-A taxpayer avoids the underpayment penalty by paying at least the **lesser** of:
-
-1. **90%** of the current-year tax liability, or
-2. **100%** of the prior-year tax liability (**110%** if prior-year AGI exceeds \$150,000).
-
-:::warning
-
-The penalty is calculated separately for each quarter, so catching up in Q4 does not eliminate the penalty for earlier quarters.
-
-:::
-
-> **Example:** Honey Security's owner had a prior-year tax of \$60,000 and current-year AGI above \$150,000. The safe-harbor requires quarterly payments totaling at least 110% × \$60,000 = \$66,000. Each quarterly installment must be at least \$16,500.
+For tax years ending after 2026, new §25F allows a credit of up to \$1,700 per taxpayer for cash contributions to scholarship granting organizations in states that choose to participate. Under the AICPA's six-month rule, it should become eligible for testing on July 1, 2027.
 
 ---
 
@@ -288,19 +136,20 @@ The penalty is calculated separately for each quarter, so catching up in Q4 does
 
 | Topic | Key Rule |
 |---|---|
-| §199A QBI deduction | Lesser of 20% of QBI or 20% of taxable income |
-| SSTB phase-out | No deduction above the income threshold |
-| AMT | Tentative minimum tax minus regular tax (if positive) |
-| NIIT | 3.8% on lesser of NII or excess MAGI over threshold |
-| Additional Medicare | 0.9% on wages/SE income above threshold |
-| SE tax deduction | 50% of SE tax is above-the-line |
-| Child Tax Credit | \$2,000 per child; partially refundable |
+| Ordinary rates | Seven rates from 10% to 37%, permanent; brackets indexed |
+| Capital gains and qualified dividends | 0%, 15%, or 20% (25% unrecaptured §1250; 28% collectibles), stacked on top of ordinary income |
+| AMT | Tentative minimum tax minus regular tax, if positive; exemption phases out at 50 cents per dollar starting in 2026 |
+| Refundable vs. nonrefundable | Refundable credits can create a refund; nonrefundable credits stop at zero tax |
+| Child tax credit | \$2,200 per child under 17; partly refundable; phase-out at \$200,000 (\$400,000 MFJ) |
+| Child and dependent care credit | 50% to 20% of up to \$3,000 or \$6,000 of expenses (starting in 2026) |
 | AOTC | \$2,500 per student; 40% refundable |
-| EIC | Fully refundable; income limits apply |
-| Estimated tax safe harbor | 90% current year or 100%/110% prior year |
+| Lifetime learning credit | \$2,000 per return; nonrefundable |
+| EIC | Fully refundable; indexed income and investment income limits |
+| Adoption credit | Up to \$5,000 refundable starting in 2025; rest carries forward 5 years |
+| Energy credits | §§25C and 25D ended after 2025; clean vehicle credits ended for vehicles acquired after September 30, 2025 |
 
 :::info
 
-On the CPA exam, credit calculations frequently require identifying the **correct phase-out threshold** and computing the **reduction amount**. Always verify filing status and MAGI before applying a credit.
+Credit questions often turn on the phase-out. Confirm the filing status and MAGI first, then compute the reduction, watching whether the statute counts each \$1,000 of excess or "each \$1,000 or part of \$1,000."
 
 :::

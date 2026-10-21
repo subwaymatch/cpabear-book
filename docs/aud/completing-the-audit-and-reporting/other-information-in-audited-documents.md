@@ -1,223 +1,83 @@
 # Other Information in Audited Documents
 
-When an entity publishes its audited financial statements, those statements are often accompanied by additional information, such as management's discussion and analysis (MD&A), letters to shareholders, operating statistics, and other data. Although the auditor's opinion covers only the financial statements and related notes, the auditor has specific responsibilities regarding this "other information." If the other information is materially inconsistent with the audited financial statements or contains a material misstatement of fact, the auditor must take action.
+Audited financial statements rarely travel alone. They usually sit in an annual report next to a letter from the CEO, management's discussion and analysis, operating highlights, and charts. Readers do not always notice where the audited part ends, so if the surrounding material contradicts the financial statements, it undermines them. The auditor does not audit this **other information**, but it does have to read it. This chapter covers what counts as other information, the auditor's responsibilities under AU-C 720 (nonissuers) and PCAOB AS 2710 (issuers), how the auditor responds to problems, and how the auditor's report describes the work.
 
-This section covers the auditor's responsibilities under AU-C 720 and AS 2710, what constitutes other information, the procedures for reading and evaluating it, and the reporting requirements introduced under SAS 146.
+For nonissuers, AU-C 720 as revised by SAS 137 sets the auditor's responsibilities, and the "Other Information" section of the auditor's report comes from that standard together with the AICPA's reporting model in SAS 134. Both apply to audits of financial statements for periods ending on or after December 15, 2021.
 
 ---
 
-## What Constitutes "Other Information"
+## What Counts as Other Information
 
-Other information is **financial and non-financial information** (other than the financial statements and the auditor's report) included in an entity's annual report or other document containing audited financial statements.
+Under AU-C 720, **other information** is financial or nonfinancial information, other than the financial statements and the auditor's report, that is included in the entity's **annual report**. An annual report is a document, or a combination of documents, that management or those charged with governance prepare each year to tell owners (or similar stakeholders) about the entity's operations and financial results.
 
-### Common Examples
+| Other information | Not other information |
+|---|---|
+| Management's discussion and analysis (MD&A) | The financial statements and notes |
+| Letter to shareholders or the CEO's letter | Required supplementary information (covered by AU-C 730) |
+| Financial highlights, operating statistics, and charts | Supplementary information the auditor reports on (covered by AU-C 725) |
+| Selected financial data | Standalone press releases and other documents outside the annual report |
+| Corporate governance and sustainability summaries in the annual report | Offering documents such as prospectuses (covered by other standards) |
 
-| Included as Other Information | Not Other Information |
-|------------------------------|----------------------|
-| Management's Discussion and Analysis (MD&A) | The audited financial statements themselves |
-| Letter to shareholders / President's letter | Notes to the financial statements |
-| Operating and financial highlights | Required supplementary information (RSI) covered by AU-C 730 |
-| Statistical data and charts | Supplementary information covered by AU-C 725 |
-| Selected financial data | Information in a separate document not containing the F/S |
-| Corporate governance information | Press releases issued separately from the annual report |
-| Board of directors' report | Prospectuses (covered by separate standards) |
+**Example.** Grizzly Industries' annual report contains the audited financial statements, MD&A, a letter from the CEO, five years of selected financial data, and a corporate responsibility summary. Everything except the financial statements, the notes, and the auditor's report is other information.
 
-:::info
+The auditor discusses with management which documents will make up the annual report and when they will be issued, and arranges to obtain the final versions, before the report date if possible. If some of the other information will not be available until after the report date, the auditor obtains a written representation that management will provide it when it is ready.
 
-The key distinction is that other information is included **in the same document** as the audited financial statements (typically the annual report). Information published separately, such as a standalone press release, is generally not subject to these requirements, though the auditor should remain alert to any inconsistencies they become aware of.
+---
+
+## The Auditor's Responsibilities
+
+The auditor does **not** audit or review the other information and provides **no assurance** on it. The auditor's responsibility is to read it and consider it, using what the auditor already knows from the audit:
+
+1. **Read** the other information.
+2. **Consider** whether there is a material inconsistency between the other information and the **financial statements**. The auditor compares selected amounts and other items in the other information with the corresponding amounts in the statements.
+3. **Consider** whether there is a material inconsistency between the other information and the **auditor's knowledge** obtained in the audit.
+4. **Remain alert** for signs that other information unrelated to the statements or to the auditor's knowledge appears to be materially misstated.
+
+Under the revised AU-C 720, the umbrella term is a **misstatement of the other information**: other information that is incorrectly stated or otherwise misleading, including because it leaves out or obscures something needed to understand it properly. PCAOB AS 2710 still uses the older pair of terms: a **material inconsistency** with the financial statements and a **material misstatement of fact**.
+
+**Example.** Bear Co.'s MD&A says revenue grew 15% over the prior year, but the audited income statement shows growth of 8%. This is a material inconsistency, and the auditor must find out which document is wrong.
+
+**Example.** Honey Entertainment's annual report says the company operates "500 retail locations across 48 states." From the audit, the auditor knows it operates 320 locations in 35 states. The auditor raises the apparent misstatement with management.
+
+---
+
+## Responding to a Problem
+
+When the auditor identifies an apparent material inconsistency, or other information that appears to be materially misstated, the auditor discusses it with management and performs other procedures as needed to decide where the problem lies.
+
+- **If the financial statements are wrong**, the problem is a misstatement of the financial statements. If management does not correct it, the auditor evaluates it like any other misstatement and modifies the opinion if it is material.
+- **If the other information is wrong**, the auditor asks management to correct it. If management refuses, the auditor communicates the matter to those charged with governance and requests the correction. If it remains uncorrected, the auditor takes appropriate action: **describing the uncorrected material misstatement in the "Other Information" section of the report**, or, in more serious cases, withholding the report or withdrawing from the engagement. The auditor also considers what management's refusal says about its integrity and its other representations.
+
+If the auditor obtains the other information **after** the report date and finds a material misstatement in it, the auditor asks management to correct it. If management does not, the auditor considers its legal rights and obligations and takes appropriate steps to bring the matter to the attention of users, for example by communicating with those charged with governance or seeking legal advice.
+
+The auditor is not expected to be an expert in everything the other information covers. When a statement falls outside the auditor's knowledge, such as a scientific claim about a product, discussing it with management, and asking whether management has consulted a qualified party such as legal counsel, is usually enough.
+
+---
+
+## Reporting on Other Information
+
+### Nonissuers
+
+When the auditor has obtained some or all of the other information by the report date, the auditor's report includes a separate section titled **"Other Information"** (commonly "Other Information Included in the Annual Report"). It:
+
+- States that **management is responsible** for the other information
+- **Identifies** the other information obtained before the report date
+- States that the auditor's opinion **does not cover** the other information and that the auditor **does not express an opinion or any form of assurance** on it
+- Describes the auditor's **responsibility** to read the other information and consider whether it is materially inconsistent with the financial statements or otherwise appears to be materially misstated
+- States that if the auditor concludes an **uncorrected material misstatement** of the other information exists, the auditor is required to describe it in the report, and then **describes it** if one exists
+
+**Example language (paraphrased, no misstatement identified):**
+
+> *Management is responsible for the other information included in the annual report. The other information comprises the letter to shareholders and the selected financial data but does not include the financial statements and our auditor's report thereon. Our opinion on the financial statements does not cover the other information, and we do not express an opinion or any form of assurance thereon. In connection with our audit of the financial statements, our responsibility is to read the other information and consider whether a material inconsistency exists between the other information and the financial statements, or the other information otherwise appears to be materially misstated. If, based on the work performed, we conclude that an uncorrected material misstatement of the other information exists, we are required to describe it in our report.*
+
+If the auditor has obtained none of the other information by the report date, the section is not included.
+
+### Issuers
+
+PCAOB AS 2710 imposes the same read-and-consider duty but does **not** require a separate section in the auditor's report. If a material inconsistency is not resolved, the auditor considers adding an explanatory paragraph to the report describing it, withholding the report, or withdrawing from the engagement. For a material misstatement of fact that management will not correct, the auditor considers steps such as notifying the company in writing of its views and consulting its own legal counsel.
+
+:::warning[Exam Trap]
+
+The auditor provides **no assurance** on other information. It is not limited assurance, and it is not an opinion. The auditor only reads and considers the information for material inconsistencies and misstatements, and the report says so.
 
 :::
-
-**Example:** Grizzly Industries publishes an annual report that includes the audited financial statements, MD&A, a letter from the CEO, five-year selected financial data, and a corporate responsibility summary. All of these items (except the audited financial statements and notes) constitute "other information" that the auditor must read and consider.
-
----
-
-## Applicable Standards
-
-| Standard | Applies To | Key Focus |
-|----------|-----------|-----------|
-| **AU-C 720** (AICPA) | Nonissuer audits | Other information in documents containing audited financial statements |
-| **AS 2710** (PCAOB) | Issuer audits | Other information in documents containing audited financial statements |
-| **SAS 146** (AICPA) | Nonissuer audits | Updated reporting model including the "Other Information" section in the auditor's report |
-
----
-
-## Auditor's Responsibilities
-
-The auditor's responsibilities regarding other information are **limited but important**. The auditor does **not** audit, review, or provide any assurance on the other information. However, the auditor must:
-
-1. **Read** the other information
-2. **Consider** whether there is a material inconsistency between the other information and the audited financial statements
-3. **Consider** whether there is a material inconsistency between the other information and the auditor's knowledge obtained during the audit
-4. **Remain alert** for indications of a material misstatement of fact
-
-:::tip
-
-Think of the auditor's role regarding other information as a "read and consider" responsibility, not an audit or review. The auditor is leveraging knowledge already obtained during the audit to identify red flags.
-
-:::
-
----
-
-## Reading and Considering Other Information
-
-### Timing
-
-- The auditor should obtain the other information **prior to the date of the auditor's report** whenever possible
-- If the other information is not available before the report date, the auditor should read it as soon as practicable after the report date
-
-### Procedures
-
-The auditor's procedures include:
-
-| Step | Description |
-|------|-------------|
-| **1. Read** | Read the other information in its entirety |
-| **2. Compare** | Compare financial amounts and other data in the other information with corresponding information in the audited financial statements |
-| **3. Evaluate consistency** | Evaluate whether the other information is materially consistent with the auditor's understanding of the entity and its environment gained during the audit |
-| **4. Remain alert** | Be alert for information that appears to be materially misstated based on the auditor's general knowledge |
-
-**Example:** While reading Bear Co.'s annual report, the auditor notes that the MD&A states revenue grew 15% year over year. However, the audited income statement shows revenue growth of only 8%. This is a material inconsistency that requires further investigation.
-
----
-
-## Material Inconsistencies
-
-A **material inconsistency** exists when the other information contradicts information in the audited financial statements. When the auditor identifies a material inconsistency:
-
-### Before the Auditor's Report Date
-
-1. **Discuss** the inconsistency with management
-2. Determine whether the **financial statements** need to be revised (if the financial statements are wrong)
-3. Determine whether the **other information** needs to be revised (if the other information is wrong)
-4. If management refuses to make necessary revisions:
-   - If the **financial statements** are materially misstated, modify the audit opinion
-   - If the **other information** is materially misstated, describe the inconsistency in the "Other Information" section of the auditor's report
-
-### After the Auditor's Report Date
-
-If the auditor becomes aware of a material inconsistency after the report date:
-
-1. **Discuss** with management and those charged with governance
-2. If the other information is revised, no further action is needed
-3. If management refuses to revise, consider the auditor's legal and professional responsibilities, which may include:
-   - Communicating with those charged with governance
-   - Consulting with legal counsel
-   - Withholding the auditor's report (if not yet released)
-
-:::warning
-
-The auditor cannot simply ignore a material inconsistency. Even though the auditor does not provide assurance on the other information, a known inconsistency undermines the credibility of the financial statements and the auditor's report.
-
-:::
-
----
-
-## Material Misstatements of Fact
-
-A **material misstatement of fact** is information in the other information that is unrelated to the financial statements but is nonetheless incorrectly stated. The auditor may become aware of such misstatements based on general knowledge.
-
-**Example:** Honey Entertainment's annual report states that the company has "500 retail locations across 48 states." The auditor, through work performed during the audit, knows the company has only 320 retail locations in 35 states. This is a material misstatement of fact.
-
-### Auditor's Response
-
-| Step | Action |
-|------|--------|
-| **1. Discuss** | Discuss the apparent misstatement with management |
-| **2. Evaluate** | Consider whether the auditor has the expertise to assess the matter (e.g., legal claims, scientific data) |
-| **3. Request correction** | Ask management to correct the misstatement |
-| **4. If unresolved** | Consider the need to communicate with those charged with governance or obtain legal advice |
-
-:::note
-
-The auditor is **not** expected to have expertise in all areas covered by the other information. If the matter is outside the auditor's competence (e.g., a scientific claim in the annual report), the auditor may determine that no further action is necessary beyond discussing it with management.
-
-:::
-
----
-
-## Reporting Requirements Under SAS 146
-
-Under the current AICPA reporting model (SAS 146, effective for nonissuer audits), the auditor's report includes a specific section on other information.
-
-### "Other Information" Section in the Auditor's Report
-
-When the auditor has obtained the other information prior to the report date, the auditor's report includes a section titled **"Other Information"** that contains the following:
-
-| Element | Description |
-|---------|-------------|
-| **Identification** | Identifies the other information obtained by the auditor |
-| **Management's responsibility** | States that management is responsible for the other information |
-| **No opinion or assurance** | States that the auditor does not express an opinion or any form of assurance on the other information |
-| **Auditor's responsibility** | Describes the auditor's responsibility to read the other information and consider whether it is materially inconsistent with the financial statements or the auditor's knowledge |
-| **Conclusion** | States whether the auditor has identified a material inconsistency or material misstatement of fact, or states that the auditor has nothing to report |
-
-**Example report language (no issues identified):**
-
-> *We have read the other information included in Bear Co.'s annual report and considered whether it is materially inconsistent with the financial statements or our knowledge obtained during the audit. We did not audit the other information and do not express an opinion or any form of assurance thereon. Based on our reading, we have not identified any material inconsistencies.*
-
-### When a Material Inconsistency Exists
-
-If the auditor concludes that there is a material inconsistency in the other information (and management refuses to correct it), the auditor must:
-
-- **Describe** the material inconsistency in the Other Information section of the report
-
-### PCAOB Reporting
-
-Under PCAOB standards (AS 2710), the requirements are similar in substance but differ in format:
-
-- There is **no required separate section** in the auditor's report for other information (unlike SAS 146)
-- The auditor's obligations to read, consider, and respond to inconsistencies still apply
-- If a material inconsistency is identified and cannot be resolved, the auditor considers revising the report, withholding the report, or withdrawing from the engagement
-
----
-
-## No Opinion on Other Information
-
-A critical concept for the CPA exam is that the auditor provides **no opinion and no assurance** on the other information:
-
-| Auditor Provides | On What |
-|-----------------|---------|
-| **Reasonable assurance (opinion)** | Audited financial statements |
-| **Limited assurance (conclusion)** | Reviewed financial statements |
-| **No assurance** | Other information in documents containing audited F/S |
-
-**Example:** After reading Polar Inc.'s annual report, the auditor has read the MD&A section, the CEO's letter, and the five-year financial summary. Even though the auditor has read all of this material and considered it for consistency, the auditor's report makes clear that **no opinion or assurance** is expressed on any of it.
-
-:::caution
-
-Exam questions may try to trick you into thinking the auditor provides limited assurance or some form of assurance on the other information. The correct answer is always **no assurance**. The auditor only reads and considers the information for material inconsistencies and misstatements of fact.
-
-:::
-
----
-
-## Procedures When Issues Are Found: Decision Flowchart
-
-The following summarizes the auditor's decision process:
-
-| Issue Identified | Financial Statements Need Revision? | Other Information Needs Revision? | Action |
-|-----------------|-------------------------------------|-----------------------------------|--------|
-| Material inconsistency | Yes | No | Revise F/S or modify audit opinion |
-| Material inconsistency | No | Yes | Request management revise other info; if refused, describe in report |
-| Material misstatement of fact | N/A | Yes | Discuss with management; request correction; consider further steps |
-| No issues | N/A | N/A | State in the Other Information section that nothing to report |
-
-**Example:** Kodiak Partners' annual report states that net income increased 20% from the prior year. The audited financial statements show net income decreased 3%. This material inconsistency clearly resides in the other information (the MD&A), not the financial statements. The auditor discusses with management and requests that the MD&A be corrected. If management refuses, the auditor describes the inconsistency in the Other Information section of the report.
-
----
-
-## Summary
-
-| Concept | Key Points |
-|---------|-----------|
-| **Other information** | Financial and non-financial data in documents containing audited F/S (e.g., annual reports, MD&A) |
-| **AU-C 720 / AS 2710** | Govern the auditor's responsibilities regarding other information |
-| **Auditor's responsibility** | Read and consider only (not audit, review, or provide assurance) |
-| **Material inconsistency** | Contradiction between other information and audited financial statements |
-| **Material misstatement of fact** | Incorrect information unrelated to the F/S in the other information |
-| **SAS 146 reporting** | Includes an "Other Information" section in the auditor's report identifying the information, describing the auditor's responsibility, and stating the conclusion |
-| **PCAOB reporting** | No separate required section, but same read-and-consider obligations apply |
-| **Assurance level** | No opinion and no assurance on other information |
-| **Resolution process** | Discuss with management, then request correction, then describe in report or consider further action if unresolved |
-| **Timing** | Obtain other information before report date if possible; if not, read as soon as practicable |

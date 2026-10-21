@@ -1,317 +1,136 @@
 # Required Supplementary Information
 
-Required supplementary information (RSI) is information that GASB has determined is essential for placing the basic financial statements in an appropriate operational, economic, or historical context. RSI accompanies, but is not part of, the basic financial statements and is subject to limited audit procedures rather than a full audit opinion.
+Some information is too important to leave out of a government's annual report but does not belong in the financial statements themselves. A ten-year history of the pension liability, a comparison of actual spending with the legal budget, and the measured condition of the road network all fall into this group. GASB calls it **required supplementary information (RSI)**. It is required, so leaving it out is a departure from GAAP, but it is not part of the basic financial statements, and the auditor applies only limited procedures to it.
 
-:::info[Blueprint Coverage]
-
-**BAR Area III, Group A, Topic 8**: Required supplementary information (RSI) other than management's discussion and analysis. Representative task: Recall the objectives and components of RSI other than MD&A in the annual comprehensive financial report (ACFR) for state and local governments.
-
-:::
+The BAR blueprint asks you to recall the objectives and components of RSI other than MD&A (MD&A has [its own chapter](managements-discussion-and-analysis.md)). This chapter explains where RSI sits in the annual comprehensive financial report (ACFR), then covers each component: budgetary comparison schedules, pension schedules, OPEB schedules (for plans administered through a trust and plans that are not), and the schedules required when a government uses the modified approach for infrastructure.
 
 ---
 
-## Where RSI Fits in the ACFR Structure
+## Where RSI Fits
 
-The Annual Comprehensive Financial Report (ACFR) follows a specific ordering that determines where RSI appears relative to the basic financial statements.
-
-```mermaid
-flowchart TD
-    A[Introductory Section] --> B[Financial Section]
-    B --> C[RSI Before Basic FS<br/>Management's Discussion & Analysis]
-    C --> D[Basic Financial Statements]
-    D --> D1[Government-Wide Statements]
-    D --> D2[Fund Financial Statements]
-    D --> D3[Notes to the Financial Statements]
-    D --> E[RSI After Basic FS]
-    E --> E1[Budgetary Comparison Schedules]
-    E --> E2[Pension Schedules - GASB 68]
-    E --> E3[OPEB Schedules - GASB 75]
-    E --> E4[Infrastructure Condition Info]
-    B --> F[Statistical Section]
-```
+The financial section of the ACFR is arranged in a fixed order:
 
 | Position | Content | Status |
 |----------|---------|--------|
-| Before basic FS | Management's Discussion & Analysis (MD&A) | RSI |
-| Basic FS | Government-wide, fund statements, notes | Audited |
-| After basic FS | Budgetary comparisons, pension/OPEB schedules, infrastructure condition | RSI |
+| First | Management's discussion and analysis | RSI |
+| Middle | Government-wide statements, fund statements, and notes | Basic financial statements (audited) |
+| After the notes | Budgetary comparison schedules, pension and OPEB schedules, modified approach schedules | RSI |
+| Last | Combining and individual fund statements and other schedules | Other supplementary information (not RSI) |
 
-:::tip[Exam Tip]
+MD&A is the only RSI that comes before the basic financial statements. Everything else follows the notes. The ACFR also has an introductory section before the financial section and a statistical section after it, but neither is RSI.
 
-Remember the mnemonic **"MD&A before, everything else after."** MD&A is the only RSI that precedes the basic financial statements. All other RSI follows the notes.
-
-:::
-
----
-
-## RSI Other Than MD&A: Key Categories
-
-| Category | Governing Standard | When Required |
-|----------|-------------------|---------------|
-| Budgetary Comparison Schedules | GASB 34 | General Fund and major special revenue funds with legally adopted budgets |
-| Pension Schedules | GASB 67/68 | All governments with defined benefit pension plans |
-| OPEB Schedules | GASB 74/75 | All governments with defined benefit OPEB plans |
-| Infrastructure Condition Information | GASB 34 | Only when the modified approach is used for infrastructure |
+The auditor's role explains why the distinction matters. The basic financial statements receive an audit opinion. For RSI, the auditor only inquires of management about how it was prepared, compares it with the statements and with what was learned in the audit, and reports in a separate RSI section of the auditor's report. No opinion is expressed on RSI. If RSI is omitted or departs from GASB requirements, the auditor says so in that section, but the opinion on the basic financial statements is **not** modified.
 
 ---
 
 ## Budgetary Comparison Schedules
 
-### Purpose and Scope
+A government's budget is a legal document, so readers want to know whether the government lived within it. Budgetary comparison schedules answer that question. They are required for the **General Fund** and for each **major special revenue fund that has a legally adopted annual budget**.
 
-Budgetary comparison schedules demonstrate the government's compliance with its legally adopted budget. They are required for:
+**GASB 103** (testable since July 1, 2025) changed this reporting in three ways:
 
-- The **General Fund**
-- Each **major special revenue fund** with a legally adopted annual budget
+1. **RSI only.** Governments used to have the option of presenting the comparison as a basic financial statement instead of RSI. That option is gone. Budgetary comparisons are always RSI.
+2. **Two variance columns are required.** Under GASB 34 the variance column was optional. Now the schedule must show the variance between the **original and final budget** and the variance between the **final budget and actual** results.
+3. **Significant variances must be explained** in the notes to RSI.
 
-:::info[Presentation Option]
+So a 2027 schedule has five columns:
 
-Governments may present budgetary comparisons either as RSI or as a basic financial statement. If presented as a basic statement, it is covered by the audit opinion.
+| Column | Content |
+|--------|---------|
+| Original budget | The first complete appropriated budget, as adopted |
+| Final budget | The original budget adjusted for all legally authorized amendments and transfers during the year |
+| Actual (budgetary basis) | Results measured the way the budget is measured |
+| Variance: original to final | Final budget minus original budget |
+| Variance: final to actual | Actual minus final budget |
 
-:::
+The actual column uses the **budgetary basis**, which is often not GAAP. Many governments, for example, budget encumbrances as if they were expenditures. When the bases differ, the schedule must be accompanied by a **reconciliation** of budgetary amounts to the GAAP amounts in the fund statements, either on the schedule itself or in the notes to RSI. The notes to RSI also disclose any excess of expenditures over appropriations in those funds.
 
-### Required Columns
+:::warning[Superseded Rule]
 
-| Column | Description |
-|--------|-------------|
-| Original Budget | Budget as initially adopted by the legislative body |
-| Final Budget | Original budget adjusted for all legally authorized amendments and transfers |
-| Actual (Budgetary Basis) | Results reported on the same basis used for budgeting |
-| Variance (optional) | Difference between final budget and actual; encouraged but not required |
-
-### Key Requirements
-
-- Actual amounts must be reported on the **budgetary basis of accounting**
-- If the budgetary basis differs from GAAP, a **reconciliation** to GAAP must be provided (either on the face of the schedule or in a separate schedule/notes)
-- The schedule should present revenues and expenditures at the **legal level of budgetary control**
-
-:::warning[Common Exam Trap]
-
-The variance column is **encouraged but not required** by GASB. Do not select an answer that states variance columns are mandatory.
+Older study materials say the variance column is "encouraged but not required" and that a government may present the comparison as a basic statement. Both statements are superseded by GASB 103. Answer 2027 questions with the current rule: RSI only, and both variance columns required.
 
 :::
+
+The budget entries behind these schedules are covered in [Budgetary Accounting and Encumbrances](../governmental-transactions-and-items/budgetary-accounting-and-encumbrances.md), and the reporting itself in more depth in [Budgetary Comparison Reporting](budgetary-comparison-reporting.md).
 
 ---
 
-## Pension RSI Schedules (GASB 67/68)
+## Pension Schedules (GASB 67 and 68)
 
-GASB 68 requires employer governments to present two 10-year trend schedules as RSI.
+The net pension liability in the statement of net position is a single number at a single date. The pension RSI shows how it got there and where it is heading, using **10-year schedules**. A single or agent employer presents:
 
-### Schedule of Changes in Net Pension Liability and Related Ratios
+1. A **schedule of changes in the net pension liability and related ratios**, showing what changed the total pension liability and the plan fiduciary net position each year, the resulting net pension liability, the plan fiduciary net position as a percentage of the total pension liability, covered payroll, and the net pension liability as a percentage of covered payroll.
+2. A **schedule of employer contributions**, comparing the actuarially determined contribution (or the statutory or contractual requirement) with what the employer actually contributed, and showing contributions as a percentage of covered payroll.
 
-This schedule tracks the components of the net pension liability (NPL) over time.
+An employer in a **cost-sharing** plan reports its **proportionate share** of the collective net pension liability, so its first schedule shows its proportion and proportionate share instead of the full rollforward.
 
-| Component | Description |
-|-----------|-------------|
-| Beginning Total Pension Liability (TPL) | Opening balance |
-| + Service cost | Present value of benefits earned during the period |
-| + Interest on TPL | Growth in liability due to passage of time |
-| + Changes in benefit terms | Plan amendments increasing or decreasing benefits |
-| + Experience (gains)/losses | Differences between expected and actual experience |
-| + Changes in assumptions | Effect of updated actuarial assumptions |
-| - Benefit payments | Benefits paid to retirees |
-| = Ending TPL | Closing balance |
-| Beginning Plan Fiduciary Net Position | Opening plan assets |
-| + Employer contributions | Amounts contributed by the employer |
-| + Employee contributions | Amounts contributed by employees |
-| + Net investment income | Return on plan assets |
-| - Benefit payments | Benefits paid from plan assets |
-| - Administrative expenses | Plan operating costs |
-| = Ending Plan Fiduciary Net Position | Closing plan assets |
-| **Net Pension Liability (NPL)** | **TPL - Plan Fiduciary Net Position** |
+Ten years of data are not required on day one. A government builds the schedules **prospectively**: it presents as many years as are available from when it first applied the standard until ten years have accumulated, and it does not restate earlier years for later changes in benefit terms or assumptions. Instead, the notes to RSI describe factors that significantly affect the trends, such as benefit changes or new assumptions.
 
-### Key Ratios Presented
-
-| Ratio | Formula |
-|-------|---------|
-| Plan fiduciary net position as % of TPL | Plan Net Position ÷ TPL |
-| NPL as % of covered payroll | NPL ÷ Covered Employee Payroll |
-
-### Schedule of Employer Contributions
-
-| Column | Description |
-|--------|-------------|
-| Actuarially Determined Contribution (ADC) | Amount the actuary calculates is needed |
-| Actual Contribution | Amount the employer actually contributed |
-| Contribution Deficiency/(Excess) | ADC - Actual Contribution |
-| Covered Employee Payroll | Payroll of employees in the plan |
-| Actual Contribution as % of Covered Payroll | Actual ÷ Covered Payroll |
-
-### 10-Year Requirement
-
-- Governments must build up to 10 years of data **prospectively** from the effective date of GASB 68
-- If 10 years are not yet available, present as many years as exist
-- Prior-period data is not restated retroactively
-
-:::tip[Exam Tip]
-
-The 10-year build-up rule is frequently tested. If a government adopted GASB 68 three years ago, it presents only three years of data, not ten.
-
-:::
-
----
-
-## OPEB RSI Schedules (GASB 74/75)
-
-OPEB (Other Postemployment Benefits) RSI follows a **parallel structure** to pension RSI.
-
-### Required Schedules
-
-| Schedule | Content |
-|----------|---------|
-| Schedule of Changes in Net OPEB Liability and Related Ratios | Mirrors the pension NPL schedule; shows TPL, plan net position, and net OPEB liability over time |
-| Schedule of Employer Contributions | Compares actuarially determined contribution to actual contribution |
-
-### Key Differences from Pension RSI
-
-| Factor | Pension (GASB 68) | OPEB (GASB 75) |
-|--------|-------------------|-----------------|
-| Healthcare trend rates | N/A | Must disclose assumptions about healthcare cost trends |
-| Discount rate sensitivity | Presented in notes | Presented in notes |
-| 10-year requirement | Yes | Yes |
-| Build-up approach | Prospective | Prospective |
-
-:::info[Remember]
-
-Both pension and OPEB schedules require 10 years of data built up prospectively. The schedules are structurally identical; only the type of benefit differs.
-
-:::
-
----
-
-## Infrastructure Modified Approach RSI
-
-### When Required
-
-This RSI is required **only** when a government elects the modified approach for reporting infrastructure assets under GASB 34. Under the modified approach, infrastructure assets are not depreciated; instead, the government commits to maintaining them at or above an established condition level.
-
-### Required Disclosures
-
-| Disclosure | Details |
-|------------|---------|
-| Condition assessment results | Assessed condition compared to the government's established condition target |
-| Estimated vs. actual preservation costs | Comparison of amounts estimated to maintain assets vs. amounts actually spent over the last five fiscal years |
-
-### Condition Assessment Requirements
-
-- At least **three complete condition assessments** within the last **five fiscal years**
-- Assessments must be performed using a consistent methodology
-- Results must demonstrate the government is maintaining infrastructure at or above its established condition level
-
-```mermaid
-flowchart LR
-    A[Condition Assessment<br/>at least 3 in 5 years] --> B{Meets Target?}
-    B -- Yes --> C[Continue Modified Approach<br/>No Depreciation]
-    B -- No --> D[Must Switch to<br/>Depreciation Method]
-```
-
-:::warning[Exam Alert]
-
-If a government fails to meet condition assessment requirements or falls below its target, it must **revert to the depreciation method** for those infrastructure assets.
-
-:::
-
----
-
-## Auditor's Responsibility for RSI
-
-RSI occupies a unique position: it is required by GASB but is **not audited** at the same level as the basic financial statements.
-
-### Level of Assurance
-
-| Component | Level of Assurance |
-|-----------|-------------------|
-| Basic Financial Statements | Reasonable assurance (full audit) |
-| RSI | Limited procedures (no opinion expressed) |
-| Other Supplementary Information | In-relation-to opinion or disclaimer |
-
-### Procedures Applied to RSI
-
-The auditor applies **certain limited procedures** to RSI, including:
-
-1. Inquiries of management about methods of preparing RSI
-2. Comparison of RSI for consistency with the basic financial statements
-3. Comparison of RSI with relevant audit evidence obtained during the audit
-
-### Reporting on RSI
-
-The auditor's report includes a **separate RSI section** (typically an "Other Matters" paragraph or a dedicated RSI section) that:
-
-- Identifies the RSI
-- States that RSI is required by GAAP (GASB standards)
-- States that the auditor applied certain limited procedures
-- Explicitly states **no opinion or assurance** is expressed on the RSI
-
-### Departures Requiring Modification
-
-| Situation | Auditor's Action |
-|-----------|-----------------|
-| RSI is omitted entirely | Add a paragraph noting the omission |
-| RSI departs materially from GASB guidelines | Describe the departure in the RSI section |
-| Auditor is unable to complete limited procedures | State that fact in the RSI section |
-| RSI is present and conforms to guidelines | Standard unmodified RSI language |
-
-:::tip[Exam Tip]
-
-Omission of RSI does **not** result in a qualified or adverse opinion on the basic financial statements. It only affects the RSI section of the auditor's report.
-
-:::
-
----
-
-## Example: Pension RSI Schedule
-
-### Schedule of Changes in Net Pension Liability (Illustrative, 3-Year Build-Up)
+### Example: Schedule of Changes in Net Pension Liability (Three Years Accumulated)
 
 | | Year 3 | Year 2 | Year 1 |
 |---|---|---|---|
-| **Total Pension Liability (TPL)** | | | |
+| **Total pension liability** | | | |
 | Service cost | \$2,400,000 | \$2,300,000 | \$2,200,000 |
-| Interest | \$3,600,000 | \$3,400,000 | \$3,200,000 |
-| Benefit changes | \$0 | \$0 | \$500,000 |
-| Experience (gains)/losses | (\$150,000) | \$200,000 | (\$100,000) |
-| Assumption changes | \$0 | \$800,000 | \$0 |
-| Benefit payments | (\$2,800,000) | (\$2,600,000) | (\$2,400,000) |
-| **Net change in TPL** | **\$3,050,000** | **\$4,100,000** | **\$3,400,000** |
-| Beginning TPL | \$48,100,000 | \$44,000,000 | \$40,600,000 |
-| **Ending TPL** | **\$51,150,000** | **\$48,100,000** | **\$44,000,000** |
-| | | | |
-| **Plan Fiduciary Net Position** | | | |
+| Interest | 3,600,000 | 3,400,000 | 3,200,000 |
+| Changes of benefit terms | 0 | 0 | 500,000 |
+| Differences between expected and actual experience | (150,000) | 200,000 | (100,000) |
+| Changes of assumptions | 0 | 800,000 | 0 |
+| Benefit payments | (2,800,000) | (2,600,000) | (2,400,000) |
+| **Net change in total pension liability** | **3,050,000** | **4,100,000** | **3,400,000** |
+| Total pension liability, beginning | 48,100,000 | 44,000,000 | 40,600,000 |
+| **Total pension liability, ending (a)** | **\$51,150,000** | **\$48,100,000** | **\$44,000,000** |
+| **Plan fiduciary net position** | | | |
 | Employer contributions | \$2,000,000 | \$1,900,000 | \$1,800,000 |
-| Employee contributions | \$800,000 | \$750,000 | \$700,000 |
-| Net investment income | \$2,500,000 | \$2,100,000 | \$1,900,000 |
-| Benefit payments | (\$2,800,000) | (\$2,600,000) | (\$2,400,000) |
-| Administrative expenses | (\$50,000) | (\$45,000) | (\$40,000) |
-| **Net change in plan position** | **\$2,450,000** | **\$2,105,000** | **\$1,960,000** |
-| Beginning plan net position | \$34,065,000 | \$31,960,000 | \$30,000,000 |
-| **Ending plan net position** | **\$36,515,000** | **\$34,065,000** | **\$31,960,000** |
-| | | | |
-| **Net Pension Liability (NPL)** | **\$14,635,000** | **\$14,035,000** | **\$12,040,000** |
-| Plan net position as % of TPL | 71.4% | 70.8% | 72.6% |
+| Employee contributions | 800,000 | 750,000 | 700,000 |
+| Net investment income | 2,500,000 | 2,100,000 | 1,900,000 |
+| Benefit payments | (2,800,000) | (2,600,000) | (2,400,000) |
+| Administrative expense | (50,000) | (45,000) | (40,000) |
+| **Net change in plan fiduciary net position** | **2,450,000** | **2,105,000** | **1,960,000** |
+| Plan fiduciary net position, beginning | 34,065,000 | 31,960,000 | 30,000,000 |
+| **Plan fiduciary net position, ending (b)** | **\$36,515,000** | **\$34,065,000** | **\$31,960,000** |
+| **Net pension liability (a) - (b)** | **\$14,635,000** | **\$14,035,000** | **\$12,040,000** |
+| Plan fiduciary net position as % of total pension liability | 71.4% | 70.8% | 72.6% |
 | Covered payroll | \$16,000,000 | \$15,200,000 | \$14,500,000 |
-| NPL as % of covered payroll | 91.5% | 92.3% | 83.0% |
+| Net pension liability as % of covered payroll | 91.5% | 92.3% | 83.0% |
+
+Benefit payments appear twice because they reduce both the liability and the plan's assets. The Year 2 assumption change added \$800,000 to the liability, which is largely why the funded ratio fell that year even though plan assets grew.
 
 ---
 
-## Summary of RSI Components
+## OPEB Schedules (GASB 74 and 75)
 
-```mermaid
-flowchart TD
-    RSI[Required Supplementary Information]
-    RSI --> MD[MD&A<br/>Before Basic FS]
-    RSI --> After[RSI After Basic FS]
-    After --> BCS[Budgetary Comparison<br/>Schedules]
-    After --> PEN[Pension Schedules<br/>GASB 67/68]
-    After --> OPEB[OPEB Schedules<br/>GASB 74/75]
-    After --> INF[Infrastructure Condition<br/>Modified Approach Only]
-    BCS --> BCS1[Original Budget]
-    BCS --> BCS2[Final Budget]
-    BCS --> BCS3[Actual - Budgetary Basis]
-    PEN --> PEN1[Changes in NPL<br/>10-Year Trend]
-    PEN --> PEN2[Employer Contributions<br/>10-Year Trend]
-    OPEB --> OPEB1[Changes in Net OPEB Liability<br/>10-Year Trend]
-    OPEB --> OPEB2[Employer Contributions<br/>10-Year Trend]
-```
+Other postemployment benefits (OPEB), mainly retiree health care, follow the same framework as pensions, with one important fork: **is the plan administered through a trust?** A qualifying trust is one in which contributions are irrevocable, the assets are dedicated to paying benefits under the plan's terms, and the assets are legally protected from the creditors of the employer, the plan administrator, and the plan members. The 2027 BAR blueprint covers both cases.
+
+| | Plan administered through a qualifying trust | Plan not administered through a qualifying trust |
+|---|---|---|
+| Liability reported | **Net OPEB liability** (total OPEB liability less plan fiduciary net position) | **Total OPEB liability** (there are no plan assets to subtract) |
+| First 10-year schedule | Changes in the net OPEB liability and related ratios | Changes in the total OPEB liability and related ratios (including the total OPEB liability as a percentage of covered-employee payroll) |
+| Contribution schedule | Required if an actuarially determined, statutory, or contractual contribution exists | Not presented, because no contributions are made to a trust |
+| Note to the schedule | Factors that significantly affect trends | Also states that **no assets are accumulated in a trust** that meets GASB 75's criteria |
+
+Many governments pay retiree health benefits from the General Fund as the bills come due ("pay-as-you-go"), with no trust at all. That is the non-trust case, and it is common. The liability and expense rules behind these schedules are covered in [General and Proprietary Long-Term Liabilities](../governmental-transactions-and-items/general-and-proprietary-long-term-liabilities.md).
+
+Note disclosures, not RSI, carry the sensitivity analysis: the OPEB liability recalculated with a discount rate 1 percentage point higher and lower, and with a health care cost trend rate 1 percentage point higher and lower.
+
+---
+
+## Modified Approach Schedules for Infrastructure
+
+A government that elects the **modified approach** for an infrastructure network (roads or bridges, for example) does not depreciate those assets. In exchange, it must show readers that it is actually keeping them in the condition it promised. That evidence is RSI, and it is required **only** when the modified approach is used.
+
+Two schedules are presented for each network or subsystem:
+
+1. **Assessed condition**: the results of the **three most recent complete condition assessments**, with the dates they were performed. Assessments must be performed at least every three years.
+2. **Estimated versus actual preservation costs**: the amount the government estimated it needed to spend to maintain and preserve the assets at the established condition level, compared with the amount actually expensed, for **each of the past five reporting periods**.
+
+The schedules are accompanied by disclosures of the basis for the condition measurement and the measurement scale used, the condition level the government intends to maintain, and factors that significantly affect the trends.
+
+:::tip[Exam Tip]
+
+The numbers to remember are **three** and **five**: the three most recent condition assessments, and five years of estimated versus actual spending. If the government stops meeting the modified approach requirements, for example because the assets are no longer being preserved at the established level, it begins depreciating that network **prospectively**, as a change in accounting estimate.
+
+:::
 
 ---
 
@@ -319,11 +138,10 @@ flowchart TD
 
 | Concept | Remember |
 |---------|----------|
-| RSI vs. basic FS | RSI is **not** part of the basic financial statements |
-| Audit level | Limited procedures only; no opinion expressed |
-| Budgetary comparison | General Fund + major special revenue funds with adopted budgets |
-| Pension/OPEB trend | 10 years, built up prospectively |
-| Infrastructure condition | Required only under the modified approach |
-| Omission of RSI | Does not affect the opinion on basic FS |
-| Variance column | Encouraged, not required |
-| Budgetary basis ≠ GAAP | Reconciliation required when bases differ |
+| RSI vs. basic financial statements | RSI is required but is not part of the basic statements; the auditor applies limited procedures and expresses no opinion on it |
+| Placement | MD&A before the statements; all other RSI after the notes |
+| Budgetary comparison | General Fund and major special revenue funds with legally adopted annual budgets; RSI only; original-to-final and final-to-actual variance columns required; significant variances explained in notes to RSI (GASB 103) |
+| Budgetary basis vs. GAAP | Reconciliation required when the bases differ |
+| Pension and OPEB schedules | 10-year schedules, built up prospectively; trust plans report a net OPEB liability, non-trust plans a total OPEB liability with a note that no trust assets exist |
+| Modified approach | Required only when elected; three most recent condition assessments and five years of estimated vs. actual preservation costs |
+| Omitted RSI | Noted in the RSI section of the auditor's report; the opinion on the basic statements is unaffected |

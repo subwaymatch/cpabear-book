@@ -1,265 +1,185 @@
 # Expenditures and Expenses
 
-Understanding the distinction between **expenditures** and **expenses** is fundamental to governmental accounting. Governmental funds use the **modified accrual basis** and report **expenditures**: measures of current financial resources consumed. Government-wide statements and proprietary funds use the **accrual basis** and report **expenses**: measures of economic resources consumed. Mastering when and how each is recognized is essential for the CPA exam.
+Governments report two different measures of what they spend. Governmental funds report **expenditures**: decreases in current financial resources, recognized on the modified accrual basis. The government-wide statements and proprietary funds report **expenses**: the cost of economic resources used up, recognized on the accrual basis. Buying a \$500,000 fire truck is a \$500,000 expenditure this year but only \$50,000 of expense per year over its life.
 
-:::info[Blueprint Coverage]
-
-This section maps to **BAR Area III, Group C, Topic 7: Expenditures and Expenses**. Representative tasks:
-
-1. **Calculate** expenditures to be recognized under the modified accrual basis of accounting (paid from available fund financial resources) for state and local governments and prepare journal entries.
-2. **Calculate** expenses to be recognized under the accrual basis of accounting for state and local governments and prepare journal entries.
-
-:::
+The BAR blueprint asks you to calculate both, with journal entries: expenditures paid from available fund resources under modified accrual, and expenses under accrual. This chapter explains the recognition rule for each, works through the items that differ most (supplies, debt service, and employee-related liabilities), and ends with a conversion from fund expenditures to government-wide expenses.
 
 ---
 
-## Expenditures vs. Expenses: Fundamental Distinction
+## The Two Measures Side by Side
 
 | | Expenditures | Expenses |
 |---|---|---|
-| **Used in** | Governmental fund statements (modified accrual) | Government-wide & proprietary fund statements (accrual) |
-| **Measurement focus** | Current financial resources | Economic resources |
-| **Recognition** | When a fund liability is incurred and payable from current resources | When the economic benefit is consumed |
-| **Capital assets** | Entire cost recorded when acquired | Depreciation/amortization over useful life |
-| **Long-term debt principal** | Recorded as expenditure when due | Not an expense (reduction of liability) |
+| **Used in** | Governmental funds | Government-wide statements and proprietary funds |
+| **Measurement focus and basis** | Current financial resources, modified accrual | Economic resources, accrual |
+| **General recognition** | When the fund liability is incurred, if it will be paid from current resources | When the resources are consumed |
+| **Capital assets** | Full cost when acquired (capital outlay) | Depreciation or amortization over the useful life |
+| **Long-term debt principal** | Expenditure when due | Not an expense; it reduces the liability |
+| **Long-term obligations to employees** | Only the portion that has matured | The full cost as it is incurred |
 
-:::tip[Exam Tip]
-
-A quick test: if the question says "governmental fund" or "General Fund," think **expenditures** (modified accrual). If it says "government-wide," "proprietary fund," or "Statement of Activities," think **expenses** (full accrual).
-
-:::
+If a question says "General Fund" or "governmental fund," think expenditures. If it says "government-wide," "statement of activities," or "enterprise fund," think expenses.
 
 ---
 
-## Modified Accrual Basis: Governmental Funds
+## Expenditures Under Modified Accrual
 
-Under the modified accrual basis, expenditures are generally recognized when the related **fund liability is incurred**, provided the liability will be paid from **currently available financial resources**. The key exceptions involve items not normally expected to be liquidated with expendable available resources.
+The general rule is that an expenditure is recognized when the related **fund liability is incurred**: when the goods are received or the services are performed. Most expenditures (salaries, utilities, supplies under the purchase method) follow this rule, just as they would under accrual.
 
-### General Recognition Rule
+The exceptions are liabilities that are **not normally paid with expendable available financial resources**. For these, the fund recognizes an expenditure only when the amount **matures**, that is, when it becomes due and payable:
 
-$$
-\text{Expenditure recognized} = \text{Fund liability incurred} \cap \text{Payable from current resources}
-$$
+- Principal and interest on general long-term debt
+- Compensated absences
+- Pensions and OPEB
+- Claims and judgments, and landfill closure and postclosure care
 
-### Classification by Character
+The unmatured portion of each of these is a general long-term liability, reported only in the government-wide statements.
 
-| Character | Description | Examples |
-|---|---|---|
-| **Current** | Day-to-day operating costs | Salaries, supplies, contractual services |
-| **Capital outlay** | Acquisition of capital assets | Equipment, buildings, vehicles |
-| **Debt service** | Principal and interest on long-term debt | Bond principal payments, interest payments |
-| **Intergovernmental** | Payments to other governments | Grants to subrecipients, shared revenues |
+Governmental fund expenditures are classified by **character** and by **function**. Character tells the reader what kind of spending it was: **current** (salaries, supplies, services), **intergovernmental** (payments to other governments), **capital outlay** (acquiring capital assets), and **debt service** (principal and interest). Function tells the reader what it was for: general government, public safety, public works, health and welfare, culture and recreation, and so on.
 
-### Classification by Function
+### Supplies and Prepaid Items: Purchase vs. Consumption Method
 
-| Function | Examples |
-|---|---|
-| General government | Legislative, executive, finance |
-| Public safety | Police, fire, corrections |
-| Public works | Streets, sanitation, utilities |
-| Health and welfare | Social services, health department |
-| Culture and recreation | Parks, libraries, museums |
-| Education | School districts (if applicable) |
+A government may account for supplies inventory and prepaid items under either of two methods.
 
----
-
-## Specific Recognition Rules
-
-### Supplies: Purchase Method vs. Consumption Method
-
-Governments may account for supplies (inventory) under either method:
-
-| Method | At Purchase | At Consumption | Year-End Reporting |
+| Method | At purchase | When used | Year-end balance sheet |
 |---|---|---|---|
-| **Purchase method** | Debit Expenditures | No entry | Nonspendable fund balance for remaining inventory |
-| **Consumption method** | Debit Inventory | Debit Expenditures, Credit Inventory | Inventory on balance sheet; nonspendable fund balance |
+| **Purchase method** | Debit Expenditures | No entry | Significant inventory is reported as an asset, offset by nonspendable fund balance |
+| **Consumption method** | Debit Inventory | Debit Expenditures, credit Inventory | Inventory is an asset; an equal amount of fund balance is nonspendable |
 
-**Example (Purchase Method):** Bear City buys \$60,000 of supplies. At year-end, \$8,000 remains on hand.
+Bear City buys \$60,000 of supplies during the year and has \$8,000 on hand at year-end.
+
+Under the **purchase method**, the whole \$60,000 is an expenditure when bought:
 
 ```journal
 Dr. Expenditures 60,000
-    Cr. Cash[a] 60,000
+Cr. Cash[a] 60,000
 ```
 
-Year-end adjustment to report nonspendable fund balance:
+At year-end, the inventory on hand is recorded, with an equal amount of nonspendable fund balance:
 
 ```journal
 Dr. Inventory of Supplies[a] 8,000
-    Cr. Fund Balance (Nonspendable)[e] 8,000
+Cr. Fund Balance (Nonspendable)[e] 8,000
 ```
 
-**Example (Consumption Method):** Same facts.
-
-At purchase:
+Under the **consumption method**, the purchase is recorded as inventory:
 
 ```journal
 Dr. Inventory of Supplies[a] 60,000
-    Cr. Cash[a] 60,000
+Cr. Cash[a] 60,000
 ```
 
-At year-end (record consumption of \$52,000):
+At year-end, the \$52,000 used is recorded as an expenditure:
 
 ```journal
 Dr. Expenditures 52,000
-    Cr. Inventory of Supplies[a] 52,000
+Cr. Inventory of Supplies[a] 52,000
 ```
 
-:::warning[Common Pitfall]
+The balance sheet looks the same under both methods. The difference is **when** the expenditure appears: \$60,000 this year under the purchase method, \$52,000 under the consumption method. The government-wide statements always use consumption, so the expense is \$52,000.
 
-Under both methods, the fund balance sheet reports inventory as an asset with an offsetting nonspendable fund balance. The difference is **when** the expenditure hits the operating statement: at purchase or at consumption.
+### Debt Service
 
-:::
+Principal and interest on general long-term debt are expenditures, usually of the **debt service fund**, when they are **due**. Interest is not accrued between payment dates.
 
-### Prepaid Items
-
-Prepaid items follow the same two methods as supplies. Under the purchase method, the full amount is expended when paid. Under the consumption method, the prepaid asset is reduced as benefits are consumed.
-
-### Debt Service Expenditures
-
-Principal and interest on general long-term debt are recognized as expenditures in the **debt service fund** when they are **due** (maturity date):
+Bear City's debt service fund pays a \$500,000 principal installment and \$75,000 of interest on their due date:
 
 ```journal
-Dr. Expenditures (Principal) 500,000
-Dr. Expenditures (Interest) 75,000
-    Cr. Cash[a] 575,000
+Dr. Expenditures (Debt Service, Principal) 500,000
+Dr. Expenditures (Debt Service, Interest) 75,000
+Cr. Cash[a] 575,000
 ```
 
-:::tip[Exam Tip]
-
-Interest on long-term debt is recognized as an expenditure when **legally due**, not when accrued over time. This is a major difference from accrual accounting. However, if resources have been accumulated in a debt service fund for payment early in the next year, governments may accrue the expenditure at year-end.
-
-:::
+There is one optional exception. If the government has already provided resources to the debt service fund for principal and interest that fall due **early in the next year** (no more than one month after year-end), it may accrue the expenditure and the liability at year-end.
 
 ### Compensated Absences
 
-Under modified accrual, compensated absences (vacation, sick leave) are recognized as expenditures only to the extent they are expected to be **liquidated with expendable available financial resources**, typically the amount that employees have used but not yet been paid for at year-end. The long-term portion is reported only in the government-wide statements.
+Under **GASB 101** (testable since January 1, 2024), a governmental fund recognizes compensated absences expenditures for the amount that would normally be **liquidated with expendable available financial resources**. In practice, that is leave that has matured: for example, accumulated vacation owed to employees who resigned or retired before year-end but have not yet been paid, plus leave that has been used but not yet paid. The rest of the compensated absences liability is reported only in the government-wide statements. The recognition rules for that full liability are covered in [General and Proprietary Long-Term Liabilities](general-and-proprietary-long-term-liabilities.md).
+
+### Pensions, OPEB, and Claims
+
+The same pattern applies to other long-term obligations. A governmental fund's pension or OPEB expenditure equals the amounts paid plus the change in amounts that have matured and remain unpaid (for example, contributions due to the plan at year-end). Claims and judgments are expenditures to the extent the settlement is due and payable at year-end.
 
 ---
 
-## Accrual Basis: Government-Wide and Proprietary Funds
+## Expenses Under Accrual
 
-Under full accrual, expenses are recognized when the **economic benefit is consumed**, regardless of when cash is paid.
+Under the accrual basis, an expense is recognized when the resources are used up, whenever the cash is paid. The contrast with modified accrual is sharpest for these items:
 
-| Item | Expenditure (Modified Accrual) | Expense (Full Accrual) |
+| Transaction | Expenditure (modified accrual) | Expense (accrual) |
 |---|---|---|
-| Capital asset purchased for \$500,000, 10-year life | \$500,000 in year of purchase | \$50,000/year depreciation |
-| Bond principal payment of \$200,000 | \$200,000 when due | Not an expense (reduces liability) |
-| Supplies purchased \$80,000; used \$65,000 | \$80,000 (purchase method) or \$65,000 (consumption method) | \$65,000 |
-| Compensated absences earned \$120,000; paid \$90,000 | \$90,000 (amount currently due) | \$120,000 (full amount earned) |
+| Buy a \$500,000 asset with a 10-year life | \$500,000 in the year of purchase | \$50,000 per year of depreciation |
+| Pay \$200,000 of bond principal | \$200,000 when due | None; the liability decreases |
+| Buy \$80,000 of supplies, use \$65,000 | \$80,000 (purchase method) or \$65,000 (consumption method) | \$65,000 |
+| Employees earn \$120,000 of leave, of which \$90,000 matures and is paid | \$90,000 | \$120,000 |
+| Interest accrues for 3 months but is not due until next year | None | The accrued amount |
 
-### Capital Asset Depreciation
-
-In government-wide statements, capital assets are depreciated:
+Government-wide entries look like business entries. Depreciation on equipment:
 
 ```journal
 Dr. Depreciation Expense 50,000
-    Cr. Accumulated Depreciation[ca] 50,000
+Cr. Accumulated Depreciation[ca] 50,000
 ```
 
-:::warning[Remember]
-
-Governmental fund statements never report depreciation. Depreciation only appears in government-wide and proprietary fund statements.
-
-:::
-
-### Compensated Absences (Full Accrual)
+The full cost of leave earned during the year:
 
 ```journal
 Dr. Compensated Absences Expense 120,000
-    Cr. Compensated Absences Payable[l] 120,000
+Cr. Compensated Absences Payable[l] 120,000
 ```
 
----
-
-## Conversion from Fund Statements to Government-Wide Statements
-
-When preparing government-wide statements, governments must convert governmental fund expenditures to accrual-basis expenses. Key adjustments:
-
-```mermaid
-flowchart TD
-    A[Governmental Fund Expenditures] --> B[Remove Capital Outlay]
-    B --> C[Add Depreciation Expense]
-    A --> D[Remove Debt Principal Payments]
-    A --> E[Adjust Interest to Accrual Basis]
-    A --> F[Adjust Compensated Absences to Full Amount Earned]
-    A --> G[Adjust Supplies/Prepaids to Consumption]
-    B & C & D & E & F & G --> H[Government-Wide Expenses]
-```
-
-### Conversion Example
-
-Bear City's General Fund reports the following expenditures:
-
-| Item | Fund Expenditure |
-|---|---|
-| Salaries | \$2,000,000 |
-| Supplies (purchase method) | \$300,000 |
-| Capital outlay (equipment) | \$400,000 |
-| Debt service (principal) | \$250,000 |
-| Debt service (interest) | \$100,000 |
-| **Total expenditures** | **\$3,050,000** |
-
-Additional information for conversion:
-- Supplies on hand at year-end: \$45,000 (beginning inventory was \$30,000)
-- Equipment has a 10-year life, no salvage; full-year depreciation on existing assets = \$180,000
-- Accrued interest payable increased by \$15,000 during the year
-- Compensated absences earned but not yet due: \$60,000
-
-**Conversion to government-wide expenses:**
-
-| Adjustment | Amount |
-|---|---|
-| Fund expenditures | \$3,050,000 |
-| Remove capital outlay | (400,000) |
-| Add depreciation | +180,000 |
-| Remove debt principal | (250,000) |
-| Adjust supplies: reduce by inventory increase (\$45,000 - \$30,000) | (15,000) |
-| Adjust interest: add accrued increase | +15,000 |
-| Add compensated absences earned | +60,000 |
-| **Government-wide expenses** | **\$2,640,000** |
-
----
-
-## Journal Entries: Proprietary Fund (Full Accrual)
-
-Proprietary funds (enterprise and internal service) use full accrual, recording expenses like a business:
-
-**Purchase of equipment (\$400,000, 10-year life):**
-
-```journal
-Dr. Equipment[a] 400,000
-    Cr. Cash[a] 400,000
-```
-
-**Annual depreciation:**
-
-```journal
-Dr. Depreciation Expense 40,000
-    Cr. Accumulated Depreciation[ca] 40,000
-```
-
-**Record utility revenue earned and wages expense:**
+Proprietary funds record the same kinds of entries in the fund itself. For example, an enterprise fund that owes its employees \$150,000 of wages at year-end accrues them as an operating expense:
 
 ```journal
 Dr. Operating Expenses (Wages) 150,000
-    Cr. Accrued Wages Payable[l] 150,000
+Cr. Accrued Wages Payable[l] 150,000
 ```
 
 ---
 
-## Summary Comparison Table
+## Converting Fund Expenditures to Government-Wide Expenses
 
-| Transaction | Governmental Fund (Modified Accrual) | Government-Wide (Full Accrual) |
+When the government-wide statements are prepared, governmental fund expenditures are converted to expenses. The full set of conversion adjustments is covered in [Deriving Government-Wide Financial Statements](deriving-government-wide-financial-statements.md); here is the expenditure side for one fund.
+
+Bear City's General Fund reports these expenditures:
+
+| Item | Expenditure |
+|---|---|
+| Salaries | \$2,000,000 |
+| Supplies (purchase method) | 300,000 |
+| Capital outlay (equipment) | 400,000 |
+| Debt service: principal | 250,000 |
+| Debt service: interest | 100,000 |
+| **Total expenditures** | **\$3,050,000** |
+
+Additional information:
+
+- Supplies on hand rose from \$30,000 to \$45,000 during the year.
+- Depreciation on all capital assets for the year, including the new equipment, is \$180,000.
+- Accrued interest payable rose by \$15,000.
+- The compensated absences liability rose by \$60,000, none of which has matured.
+
+| Adjustment | Amount |
+|---|---|
+| Total fund expenditures | \$3,050,000 |
+| Remove capital outlay | (400,000) |
+| Add depreciation | 180,000 |
+| Remove debt principal | (250,000) |
+| Remove the increase in supplies inventory (\$45,000 - \$30,000) | (15,000) |
+| Add the increase in accrued interest | 15,000 |
+| Add the increase in compensated absences | 60,000 |
+| **Government-wide expenses** | **\$2,640,000** |
+
+The supplies adjustment works because the purchase method expensed everything bought (\$300,000), while accrual expenses only what was used. Purchases of \$300,000 less the \$15,000 that went into inventory is \$285,000 used.
+
+---
+
+## Summary
+
+| Transaction | Governmental fund (modified accrual) | Government-wide (accrual) |
 |---|---|---|
-| Buy equipment \$100,000 | Expenditure \$100,000 | Capitalize asset; depreciate |
-| Pay bond principal \$50,000 | Expenditure \$50,000 | Reduce Bonds Payable |
-| Pay bond interest \$20,000 | Expenditure \$20,000 (when due) | Expense (accrued over time) |
-| Employees earn leave \$30,000 | Expenditure only for current portion | Expense full \$30,000 |
-| Buy supplies \$10,000; use \$7,000 | Expenditure \$10,000 (purchase) or \$7,000 (consumption) | Expense \$7,000 |
-| Record depreciation | Not applicable | Expense each period |
-
-:::tip[Exam Tip]
-
-When you see a conversion or reconciliation question, remember the mnemonic **"DCALIPS"**: **D**epreciation added, **C**apital outlay removed, **A**ccrued liabilities adjusted, **L**ong-term debt principal removed, **I**nterest accrued, **P**repaids and **S**upplies adjusted.
-
-:::
+| Buy equipment | Capital outlay expenditure for the full cost | Capitalize the asset; depreciate it |
+| Pay bond principal | Expenditure when due | Reduce bonds payable |
+| Pay bond interest | Expenditure when due | Expense as it accrues |
+| Employees earn leave | Expenditure only for the matured portion | Expense for the full liability increase |
+| Buy supplies and use some | Expenditure at purchase or at use, depending on method | Expense when used |
+| Pension and OPEB cost | Amounts paid plus matured unpaid amounts | Pension or OPEB expense under GASB 68 or 75 |

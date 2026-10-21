@@ -1,79 +1,64 @@
 # Trusts
 
-## Introduction
+A trust is an arrangement in which a **grantor** transfers property to a **trustee**, who holds and manages it for one or more **beneficiaries**. For income tax purposes, most trusts are partial pass-through entities: income the trust distributes is taxed to the beneficiaries, and income it keeps is taxed to the trust. The tool that splits the income between them is **distributable net income (DNI)**. TCP tests the vocabulary (simple, complex, grantor, and revocable trusts, and the roles of the parties) and the computations: trust accounting income, DNI, the income distribution deduction, and the trust's taxable income. This chapter covers the types of trusts first, then works through one set of numbers from accounting income to taxable income.
 
-A trust is a legal arrangement in which a **grantor** transfers property to a **trustee**, who holds and manages it for the benefit of one or more **beneficiaries**. For federal income tax purposes, trusts are generally **pass-through entities**: income that is distributed or required to be distributed to beneficiaries is taxed at the beneficiary level, while income retained by the trust is taxed at the trust level. The TCP exam tests your ability to distinguish among types of trusts, understand the roles of the parties involved, and calculate **accounting income**, **distributable net income (DNI)**, and **taxable income**, including the income distribution deduction that connects the trust and its beneficiaries.
+The One Big Beautiful Bill Act (OBBBA, P.L. 119-21, signed July 4, 2025) did not amend the trust income tax rules, and it made the current rate structure permanent.
+
+---
+
+## The Parties and the Corpus
+
+| Role | Description |
+|---|---|
+| **Grantor** | The person who creates the trust and funds it with property (also called the settlor) |
+| **Trustee** | The person or institution that manages the assets and makes distributions under the trust instrument |
+| **Beneficiary** | A person or organization entitled to income, corpus, or both |
+| **Corpus** | The trust's principal: the property transferred to it, plus items such as capital gains that the trust instrument or state law adds to principal |
+
+Beneficiaries who receive the current income are **income beneficiaries**. Those who receive the corpus when the trust ends are **remaindermen**. Their interests can conflict, which is why the line between income and corpus matters so much.
 
 ---
 
 ## Types of Trusts
 
-### Simple Trusts
+### Simple and Complex Trusts
 
-A **simple trust** meets all three of the following requirements:
+A **simple trust** meets three conditions for the year: the trust instrument requires it to distribute all of its accounting income currently, it makes no charitable contributions, and it distributes no corpus. Any trust that is not simple is a **complex trust**. The test is applied each year, so a simple trust that distributes corpus in a given year is complex for that year.
 
-| Requirement | Description |
-|---|---|
-| 1. **Distributes all income currently** | The trust instrument requires that all fiduciary accounting income be distributed to beneficiaries each year |
-| 2. **No charitable contributions** | The trust does not make distributions for charitable purposes |
-| 3. **No distributions of corpus** | The trust does not distribute principal (corpus) during the year |
-
-If any of these requirements is violated in a given year, the trust is treated as a **complex trust** for that year.
-
-:::info
-
-A trust can be a simple trust in one year and a complex trust in another. The classification is determined **annually** based on the trust instrument and actual activity during the year.
-
-:::
-
-### Complex Trusts
-
-A **complex trust** is any trust that is **not** a simple trust. This includes trusts that:
-
-- Accumulate income (do not distribute all income currently)
-- Make charitable contributions
-- Distribute corpus (principal) to beneficiaries
-
-| Feature | Simple Trust | Complex Trust |
+| Feature | Simple trust | Complex trust |
 |---|---|---|
-| **Income distribution** | Must distribute all income currently | May accumulate income |
-| **Charitable contributions** | Not permitted | Permitted |
-| **Corpus distributions** | Not permitted | Permitted |
-| **Personal exemption** | **\$300** | **\$100** |
+| **Income** | Must distribute all accounting income currently | May accumulate income |
+| **Charitable contributions** | None | Allowed |
+| **Corpus distributions** | None that year | Allowed |
+| **Exemption** | **\$300** | **\$100** |
+
+The exemptions are fixed in the Code and are not indexed. (A decedent's estate, which is taxed under the same rules, gets \$600.)
 
 ### Grantor Trusts
 
-A **grantor trust** is a trust in which the grantor retains certain powers or interests that cause the trust's income, deductions, and credits to be taxed directly to the **grantor** (not the trust or its beneficiaries). The trust is essentially disregarded for income tax purposes.
+A **grantor trust** is one in which the grantor keeps enough control or benefit that the Code ignores the trust for income tax purposes. All of its income, deductions, and credits are taxed to the **grantor**, not to the trust or the beneficiaries. The trust reports the items to the grantor, either through a Form 1041 that serves as an information return or through an optional reporting method. Powers or interests that create grantor trust status include:
 
-Common powers that trigger grantor trust status include:
-
-| Power or Interest | IRC Section |
+| Power or interest | IRC section |
 |---|---|
+| A **reversionary interest** worth more than 5% of the trust | §673 |
+| Power to control **beneficial enjoyment** (decide who gets income or corpus) | §674 |
+| Certain **administrative powers**, such as the power to deal with trust assets for less than adequate consideration or to borrow without adequate interest or security | §675 |
 | Power to **revoke** the trust | §676 |
-| Power to control **beneficial enjoyment** | §674 |
-| Certain **administrative powers** (e.g., power to deal with trust assets for less than adequate consideration) | §675 |
-| **Reversionary interest** exceeding 5% of the trust corpus | §673 |
-| Income payable to or accumulated for the **grantor or grantor's spouse** | §677 |
-
-:::tip[Exam Tip]
-
-When you see a trust described as a "grantor trust" on the exam, the key takeaway is simple: **all income is taxed to the grantor**. The trust itself does not owe tax, and the beneficiaries are not taxed on trust income. The trust files Form 1041 but reports zero taxable income.
-
-:::
+| Income that is or may be paid to, or accumulated for, the **grantor or the grantor's spouse** | §677 |
 
 ### Revocable Trusts
 
-A **revocable trust** is the most common type of grantor trust. The grantor retains the power to alter, amend, or revoke the trust during their lifetime.
+A **revocable trust** (often called a living trust) is the most common grantor trust. The grantor can amend or revoke it at any time.
 
-| Feature | Treatment |
+| Stage | Treatment |
 |---|---|
-| **During grantor's lifetime** | Treated as a grantor trust; all income taxed to the grantor |
-| **At grantor's death** | Becomes **irrevocable**; assets receive a step-up in basis; trust begins functioning as a separate taxpayer (simple or complex, depending on terms) |
-| **Estate planning benefit** | Avoids probate; does **not** reduce the gross estate for estate tax purposes |
+| **During the grantor's life** | A grantor trust: all income is taxed to the grantor |
+| **At the grantor's death** | Becomes **irrevocable** and a separate taxpayer (simple or complex under its terms); because the assets are included in the grantor's estate, they get a basis equal to FMV at death |
+| **Planning effect** | Avoids probate, but does **not** remove the assets from the gross estate |
 
-### The Trust as a Pass-Through Entity
+### The Trust as a Conduit
 
-For non-grantor trusts (simple and complex), the trust functions as a **conduit**: income distributed to beneficiaries is taxed at the beneficiary level, and income retained is taxed at the trust level.
+A non-grantor trust is taxed only on income it keeps. It deducts what it distributes, and the beneficiaries report that income on their own returns from Schedule K-1 (Form 1041).
 
 ```mermaid
 flowchart TD
@@ -83,163 +68,120 @@ flowchart TD
     C --> E["Trust Claims Income Distribution Deduction"]
 ```
 
-### Key Roles
-
-| Role | Description |
-|---|---|
-| **Grantor** | Person who creates and funds the trust by transferring property |
-| **Trustee** | Person or institution responsible for managing trust assets and making distributions according to the trust instrument |
-| **Beneficiary** | Person or entity entitled to receive income or corpus from the trust |
-| **Corpus (principal)** | The body of trust assets: property originally transferred to the trust plus undistributed capital gains (generally) |
-
-:::warning
-
-Trust tax rates are **highly compressed**. The highest marginal rate (37%) is reached at a much lower income level than for individuals. This creates a strong incentive to distribute income to beneficiaries who may be in lower tax brackets, making the income distribution deduction a critical planning and compliance concept.
-
-:::
+Keeping income in the trust is expensive. The trust brackets use the same 10%, 24%, 35%, and 37% rates as individuals, but they are compressed: for 2026 the 37% rate applies to taxable income over \$16,000 (the bracket amounts are indexed). Undistributed net investment income above that same point is also subject to the 3.8% net investment income tax. Distributing income to beneficiaries in lower brackets therefore saves tax. A complex trust can even elect to treat distributions made within the first **65 days** of the next year as made on the last day of the current year, which lets the trustee fine-tune the deduction after year-end.
 
 ---
 
 ## Income and Deductions
 
-### Fiduciary Accounting Income
+### Trust Accounting Income
 
-**Fiduciary accounting income** (also called **trust accounting income** or simply **accounting income**) is determined by the trust instrument and applicable state law, and it is **not** the same as taxable income. It determines what amounts are available for distribution to income beneficiaries.
+**Trust accounting income** (also called fiduciary accounting income) is the amount available to the income beneficiaries. It is set by the **trust instrument** first and by **state law** (usually a version of the Uniform Principal and Income Act) where the instrument is silent. It is not the same as taxable income. Typical allocations are:
 
-| Item | Typically Included in Accounting Income | Typically Allocated to Corpus |
+| Item | Usually goes to | Note |
 |---|---|---|
-| Interest income | Yes | |
-| Dividend income | Yes | |
-| Rental income | Yes | |
-| Capital gains | | Yes (unless trust instrument allocates to income) |
-| Stock splits | | Yes |
-| Trustee fees | Allocated between income and corpus (or as specified in trust instrument) | Allocated between income and corpus |
-| Depreciation | Allocated between income and corpus | Allocated between income and corpus |
-| Tax-exempt interest | Yes | |
+| Interest, dividends, and rents | Income | Includes tax-exempt interest |
+| Capital gains | Corpus | Unless the trust instrument allocates them to income |
+| Stock dividends and stock splits | Corpus | They are part of the principal investment |
+| Trustee fees | Split between income and corpus | Often half each under state law, unless the instrument says otherwise |
+| Depreciation | Set by the instrument or state law | A trustee may reserve income to cover it |
 
-:::info
+> **Example:** The Bear Family Trust receives \$60,000 of taxable interest, \$20,000 of dividends, and a \$35,000 long-term capital gain. The trust instrument allocates capital gains to corpus and requires all income to be paid currently to the beneficiary, Dana, so it is a simple trust. Its accounting income is \$60,000 + \$20,000 = **\$80,000**. The \$35,000 gain stays in corpus.
 
-The allocation between income and corpus is governed by the **trust instrument first**, then by state law (usually the Uniform Principal and Income Act). Capital gains are almost always allocated to **corpus** unless the trust instrument states otherwise. This distinction is critical for computing DNI.
+### Distributable Net Income
 
-:::
+**DNI** does three jobs:
 
-> **Example:** The Bear Family Trust receives \$60,000 of interest income, \$20,000 of dividend income, and a \$35,000 long-term capital gain during the year. The trust instrument allocates capital gains to corpus and requires all income to be distributed currently to beneficiary Dana, so it is a simple trust. Accounting income = \$60,000 + \$20,000 = **\$80,000**. The \$35,000 capital gain is allocated to corpus.
-
-### Distributable Net Income (DNI)
-
-**Distributable Net Income (DNI)** is the most important concept in trust taxation. It serves three functions:
-
-1. **Caps the income distribution deduction**: the trust's deduction for distributions cannot exceed DNI
-2. **Caps the amount taxable to beneficiaries**: beneficiaries are not taxed on more than their share of DNI
-3. **Determines the character of income**: distributions carry out a proportionate share of each type of income in DNI
-
-#### DNI Calculation
+1. It **caps the income distribution deduction**: the trust cannot deduct more than DNI.
+2. It **caps what beneficiaries report**: they are not taxed on more than their share of DNI.
+3. It **sets the character** of what they report: each distribution carries out a proportionate share of each kind of income in DNI.
 
 | Step | Adjustment |
 |---|---|
-| Start with | Trust's **taxable income** (before the income distribution deduction) |
-| **Add back** | Personal exemption (\$300 for simple trusts, \$100 for complex trusts) |
-| **Add** | Tax-exempt interest (net of allocable expenses) |
-| **Subtract** | Capital gains allocated to **corpus** (unless they are distributed or required to be distributed) |
-| **Add** | Capital losses allocated to corpus (net against capital gains first) |
-| = | **Distributable Net Income (DNI)** |
+| Start with | The trust's taxable income **before** the income distribution deduction |
+| Add | The exemption (\$300 or \$100) |
+| Add | Tax-exempt interest, net of the expenses allocable to it |
+| Subtract | Capital gains allocated to **corpus** (unless they are distributed or required to be distributed) |
+| Add | Any net capital loss deducted (losses allocated to corpus stay out of DNI) |
+| = | **DNI** |
 
-:::tip[Exam Tip]
+Deductible expenses reduce DNI whether the trustee charges them to income or to corpus. Trustee fees and other costs that arise only because property is held in trust are deductible under §67(e), so the permanent repeal of miscellaneous itemized deductions does not reach them. The part of any expense that is allocable to tax-exempt income is not deductible.
 
-The key adjustment to remember: capital gains allocable to **corpus** are generally **excluded** from DNI (because they are not distributed to beneficiaries). Tax-exempt income is **included** in DNI (because it affects the character of distributions) but is then removed when calculating the income distribution deduction.
-
-:::
-
-> **Example:** The Kodiak Family Trust, a complex trust, has the following items:
-
-| Item | Amount |
-|---|---|
-| Interest income | \$50,000 |
-| Dividend income | \$30,000 |
-| Long-term capital gain (allocated to corpus) | \$25,000 |
-| Tax-exempt interest | \$10,000 |
-| Trustee fees (allocated \$8,000 to income, \$2,000 to corpus) | \$10,000 |
-| Personal exemption (complex trust) | \$100 |
-
-**DNI calculation:**
-
-Taxable income before the distribution deduction is computed **excluding** tax-exempt interest from gross income. Trustee fees must be reduced by the portion allocable to tax-exempt income (that portion is nondeductible). For simplicity, assume \$1,000 of the \$10,000 in fees is allocable to tax-exempt income.
-
-| Step | Amount |
-|---|---|
-| Taxable income before distribution deduction: \$50,000 + \$30,000 + \$25,000 - \$9,000 (deductible fees) - \$100 (exemption) = | \$95,900 |
-| + Personal exemption | +\$100 |
-| + Tax-exempt interest (net of allocable expenses: \$10,000 - \$1,000) | +\$9,000 |
-| - Capital gains allocated to corpus | -\$25,000 |
-| **DNI** | **\$80,000** |
+> **Example:** The Kodiak Family Trust, a complex trust, has the following items for the year. The trustee allocates \$1,000 of the fees to the tax-exempt interest, so that \$1,000 is not deductible.
+>
+> | Item | Amount |
+> |---|---|
+> | Taxable interest | \$50,000 |
+> | Dividends | \$30,000 |
+> | Long-term capital gain (allocated to corpus) | \$25,000 |
+> | Tax-exempt interest | \$10,000 |
+> | Trustee fees (\$8,000 charged to income, \$2,000 to corpus) | \$10,000 |
+>
+> | Step | Amount |
+> |---|---|
+> | Taxable income before the distribution deduction: \$50,000 + \$30,000 + \$25,000 - \$9,000 deductible fees - \$100 exemption | \$95,900 |
+> | Add: exemption | \$100 |
+> | Add: tax-exempt interest net of allocable fees (\$10,000 - \$1,000) | \$9,000 |
+> | Subtract: capital gain allocated to corpus | (\$25,000) |
+> | **DNI** | **\$80,000** |
 
 ### Income Distribution Deduction
 
-The **income distribution deduction** is the mechanism by which the trust avoids double taxation: it deducts the income that flows through to beneficiaries.
+The **income distribution deduction** is how the trust avoids being taxed on income the beneficiaries report.
 
-| Trust Type | Income Distribution Deduction |
+| Trust type | Deduction |
 |---|---|
-| **Simple trust** | Equal to DNI (but excluding tax-exempt income allocated to the distribution) |
-| **Complex trust** | Lesser of: (1) actual distributions or amounts required to be distributed, or (2) DNI, both reduced by tax-exempt income |
+| **Simple trust** | The accounting income required to be distributed, but not more than DNI, minus the tax-exempt income included in it |
+| **Complex trust** | The **lesser of** (1) income required to be distributed plus other amounts properly paid, or (2) DNI; either way minus the tax-exempt income included |
 
-### Taxable Income of the Trust
+The trust's taxable income is then:
 
-$$\text{Trust Taxable Income} = \text{Gross Income} - \text{Deductions} - \text{Income Distribution Deduction} - \text{Personal Exemption}$$
+$$\text{Trust taxable income} = \text{Gross income} - \text{Deductions} - \text{Income distribution deduction} - \text{Exemption}$$
 
-For a **simple trust** that distributes all income, the taxable income is typically limited to capital gains allocated to corpus (since all other income flows through to beneficiaries via the income distribution deduction).
-
-> **Example:** Return to the Bear Family Trust, the simple trust above, which distributes its \$80,000 of accounting income to Dana. It has no tax-exempt income or expenses.
+> **Example (simple trust):** The Bear Family Trust above has no tax-exempt income and no expenses.
 >
-> - Taxable income before the distribution deduction: \$60,000 + \$20,000 + \$35,000 - \$300 exemption = \$114,700
-> - DNI: \$114,700 + \$300 exemption - \$35,000 capital gain allocated to corpus = **\$80,000**
-> - Income distribution deduction: lesser of the \$80,000 required distribution or the \$80,000 DNI = **\$80,000**
-> - Trust taxable income: \$115,000 - \$80,000 - \$300 = **\$34,700**, which is the capital gain less the exemption
+> - Taxable income before the distribution deduction: \$60,000 + \$20,000 + \$35,000 - \$300 = \$114,700
+> - DNI: \$114,700 + \$300 - \$35,000 capital gain = **\$80,000**
+> - Income distribution deduction: the \$80,000 required distribution, limited to \$80,000 of DNI = **\$80,000**
+> - Trust taxable income: \$115,000 - \$80,000 - \$300 = **\$34,700**, the capital gain less the exemption
 >
-> Dana reports the \$60,000 of interest and \$20,000 of dividends.
+> Dana reports \$60,000 of interest and \$20,000 of dividends. For a simple trust that distributes all of its income, the trust's taxable income is usually just its corpus capital gains less the exemption.
 
-### Character of Distributions to Beneficiaries
+### Character of Distributions
 
-Distributions from a trust carry out a **proportionate share** of each type of income in DNI. This preserves the character of income at the beneficiary level.
+Distributions carry out each class of income in DNI in proportion to its share of DNI, so a beneficiary who receives a distribution of a trust's tax-exempt interest keeps the exemption.
 
-| Income Type in DNI | Proportion |
-|---|---|
-| Taxable interest | Interest / total DNI |
-| Dividends | Dividends / total DNI |
-| Tax-exempt interest | Tax-exempt / total DNI |
-| Rental income | Rental / total DNI |
-
-> **Example:** The Kodiak Family Trust from the DNI example distributes \$60,000 to beneficiary Sam. Its \$80,000 of DNI consists of \$50,000 of interest, \$21,000 of dividends (the trustee charged the \$9,000 of deductible fees against dividends), and \$9,000 of tax-exempt interest net of its allocable fees. Sam's distribution carries out:
+> **Example (complex trust):** The Kodiak Family Trust distributes \$60,000 to its beneficiary, Sam. Its \$80,000 of DNI is made up of \$50,000 of interest, \$21,000 of dividends (the trustee charged the \$9,000 of deductible fees against dividends), and \$9,000 of net tax-exempt interest. Sam's \$60,000 is 75% of DNI, so it carries out:
 >
-> - Interest: \$60,000 × (\$50,000 / \$80,000) = **\$37,500**
-> - Dividends: \$60,000 × (\$21,000 / \$80,000) = **\$15,750**
-> - Tax-exempt interest: \$60,000 × (\$9,000 / \$80,000) = **\$6,750**
+> | Class | Share of DNI | Carried out to Sam |
+> |---|---|---|
+> | Taxable interest | \$50,000 | \$37,500 |
+> | Dividends | \$21,000 | \$15,750 |
+> | Tax-exempt interest | \$9,000 | \$6,750 |
+> | **Total** | **\$80,000** | **\$60,000** |
+>
+> Sam reports \$37,500 + \$15,750 = **\$53,250** and excludes the \$6,750. The trust's distribution deduction is the lesser of \$60,000 or \$80,000, minus the \$6,750 of tax-exempt interest, which is **\$53,250**, matching what Sam reports. The trust's taxable income is \$95,900 - \$53,250 = **\$42,650**: the \$25,000 capital gain plus the \$17,750 of interest and dividends it kept, less the \$100 exemption.
 
-Sam includes \$37,500 + \$15,750 = **\$53,250** in taxable income and excludes the \$6,750 of tax-exempt interest.
-
-The trust's income distribution deduction matches what Sam reports: the lesser of the \$60,000 distributed or the \$80,000 DNI, reduced by the \$6,750 of tax-exempt interest carried out, is **\$53,250**. The trust's taxable income is \$95,900 - \$53,250 = **\$42,650**. That is the \$25,000 capital gain plus the \$17,750 of undistributed taxable interest and dividends, less the \$100 exemption.
-
-### Specific Deduction Rules for Trusts
+### Other Deduction Rules
 
 | Deduction | Rule |
 |---|---|
-| **Trustee fees** | Allocated between income and corpus per trust instrument or state law; the portion allocable to tax-exempt income is **not deductible** |
-| **Charitable contributions** | Deductible **without AGI limitations** if paid from gross income and authorized by the trust instrument |
-| **Depreciation** | Allocated between the trust and beneficiaries based on accounting income allocated to each |
-| **Tax-exempt income expenses** | Expenses allocable to tax-exempt income are **not deductible** (similar to the individual rule) |
+| **Charitable contributions** | Deductible with no percentage limit if paid out of gross income under the terms of the trust instrument (simple trusts cannot make them) |
+| **Depreciation** | Divided between the trust and the beneficiaries in proportion to the accounting income allocated to each, unless the instrument requires a depreciation reserve |
+| **Expenses allocable to tax-exempt income** | Not deductible |
 
 ---
 
 ## Summary
 
-| Topic | Key Concept |
+| Topic | Key rule |
 |---|---|
-| Simple trust | Must distribute all income currently; no charitable contributions; no corpus distributions; \$300 exemption |
-| Complex trust | May accumulate income, make charitable contributions, or distribute corpus; \$100 exemption |
-| Grantor trust | Income taxed to the grantor; trust disregarded for income tax purposes |
-| Revocable trust | Grantor trust during lifetime; becomes irrevocable at death; avoids probate |
-| Accounting income | Determined by trust instrument and state law; capital gains usually allocated to corpus |
-| DNI | Taxable income + exemption + tax-exempt interest - capital gains to corpus; caps distribution deduction and beneficiary inclusion |
-| Income distribution deduction | Prevents double taxation; limited to DNI (less tax-exempt income) |
-| Trust taxable income | Gross income - deductions - distribution deduction - exemption |
-| Character of distributions | Pro rata share of each income type in DNI flows through to beneficiaries |
-| Trust tax rates | Highly compressed brackets create a strong incentive to distribute income to lower-bracket beneficiaries |
+| Simple trust | Distributes all income; no charitable gifts; no corpus distributions that year; \$300 exemption |
+| Complex trust | Any other trust; may accumulate, give to charity, or distribute corpus; \$100 exemption |
+| Grantor trust | Grantor keeps powers or benefits (§§673-677); all income taxed to the grantor |
+| Revocable trust | Grantor trust during life; irrevocable at death; avoids probate but stays in the gross estate |
+| Accounting income | Set by the instrument, then state law; capital gains usually go to corpus |
+| DNI | Taxable income before the distribution deduction + exemption + net tax-exempt interest - corpus capital gains |
+| Distribution deduction | Lesser of amounts distributed (or required) or DNI, minus tax-exempt income carried out |
+| Character | Each distribution carries out a pro rata share of each class of income in DNI |
+| Rates | Same rates as individuals, but the 37% rate starts at a low, indexed amount; the 65-day election helps time distributions |

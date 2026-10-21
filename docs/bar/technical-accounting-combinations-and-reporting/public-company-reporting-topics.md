@@ -1,263 +1,223 @@
 # Public Company Reporting Topics
 
-Public companies in the United States operate under a rigorous reporting framework established by the Securities and Exchange Commission (SEC). This framework ensures that investors, analysts, and other stakeholders receive transparent, comparable, and timely financial information. CPA candidates must understand the key SEC regulations governing financial and non-financial disclosures, the role of XBRL in modern business reporting, and the segment reporting requirements under ASC 280. Together, these topics form a critical knowledge area for the BAR exam.
-:::info[Blueprint Coverage]
-**Area II: Technical Accounting and Reporting, Group J: Public Company Reporting Topics**
-
-- Recall public company reporting requirements of Regulation S-X and Regulation S-K
-- Recall the purpose, objective, and key characteristics of XBRL business reporting
-- Recall the criteria used to identify reportable segments
-- Recall the financial statement note disclosure requirements for reportable segments
-  :::
+A company whose securities trade publicly reports not only under GAAP but also under the rules of the Securities and Exchange Commission (SEC). Those rules decide what goes into an annual report, how the financial statements are formatted, how the data are tagged for computers to read, and how a company breaks its results into segments. The 2027 BAR blueprint (Area II, Group J) asks you to recall the requirements of **Regulation S-X** and **Regulation S-K**, the purpose and key characteristics of **XBRL**, the criteria for identifying **reportable segments**, and the required **segment disclosures**. All four are "recall" tasks, so this chapter focuses on the rules and the reasoning behind them, with one worked example of the segment tests.
 
 ---
 
-## Regulation S-X: Financial Statement Requirements
+## Regulation S-X: The Financial Statements
 
-Regulation S-X prescribes the **form and content** of financial statements filed with the SEC. It governs the accounting rules for all financial statements included in registration statements, annual reports (Form 10-K), and other filings.
+**Regulation S-X** sets the **form and content of the financial statements** a company files with the SEC, including those in registration statements and in the annual report on Form 10-K. One way to remember the split between the two regulations: S-X governs the numbers (the financial statements, their notes, and the periods presented), and S-K governs the words around them.
 
-### Key Provisions
+The articles most worth knowing:
 
-| Article    | Coverage                            | Key Requirements                                                |
-| ---------- | ----------------------------------- | --------------------------------------------------------------- |
-| Article 1  | Definitions                         | Defines key terms used throughout Reg S-X                       |
-| Article 2  | Qualifications of accountants       | Independence rules for auditors of SEC registrants              |
-| Article 3  | General instructions                | Periods to be covered; comparative statements                   |
-| Article 3A | Consolidated statements             | When consolidation is required                                  |
-| Article 4  | Rules of general application        | Form, order, and terminology of financial statements            |
-| Article 5  | Commercial and industrial companies | Line-item requirements for balance sheets and income statements |
-| Article 8  | Smaller reporting companies         | Scaled disclosure accommodations                                |
-| Article 11 | Pro forma financial information     | Requirements for pro forma presentations                        |
-| Article 12 | Supporting schedules                | Valuation allowances, investments, and other schedules          |
+| Article | What it covers |
+| --- | --- |
+| Article 2 | Qualifications and reports of accountants, including auditor independence |
+| Article 3 | Which financial statements are required and for which periods |
+| Article 3A | Consolidated and combined financial statements |
+| Article 4 | Rules of general application: form, order, and terminology |
+| Article 5 | Line items for commercial and industrial companies |
+| Article 8 | Financial statements of smaller reporting companies |
+| Article 10 | Interim financial statements (as in Form 10-Q) |
+| Article 11 | Pro forma financial information, for example after a significant acquisition |
+| Article 12 | Supporting schedules, such as valuation and qualifying accounts |
 
-### Periods Covered
+In an annual filing, a company generally presents:
 
-Regulation S-X requires the following financial statements in an annual filing:
+- **Balance sheets** as of the end of the two most recent fiscal years, and
+- **Statements of income, comprehensive income, cash flows, and changes in stockholders' equity** for each of the three most recent fiscal years.
 
-- **Balance Sheet**: Two most recent fiscal year-ends
-- **Income Statement**: Three most recent fiscal years
-- **Statement of Cash Flows**: Three most recent fiscal years
-- **Statement of Stockholders' Equity**: Three most recent fiscal years
-  :::tip[Exam Tip]
-  Remember that Reg S-X is about the **financial statements** themselves; think "X = eXact numbers." It dictates the periods presented, specific line items, and required schedules. Reg S-K covers everything else (non-financial disclosures).
-  :::
+A smaller reporting company, under Article 8, may present two years of each of these statements instead of three.
 
 ---
 
-## Regulation S-K: Non-Financial Disclosures
+## Regulation S-K: Everything Around the Financial Statements
 
-Regulation S-K prescribes the **non-financial statement disclosure** requirements for SEC filings. It covers qualitative and descriptive information that gives context to the numbers.
+**Regulation S-K** sets the requirements for the **nonfinancial-statement** parts of SEC filings: the business description, risk factors, management's discussion and analysis, executive compensation, governance, and similar items. These disclosures give context to the numbers.
 
-### Major Items
+| Item | Topic | What it requires |
+| --- | --- | --- |
+| 101 | Description of business | The business and its development, principal products and services, competition, and human capital |
+| 103 | Legal proceedings | Material pending legal proceedings |
+| 105 | Risk factors | The material factors that make an investment speculative or risky |
+| 106 | Cybersecurity | Processes for assessing and managing cybersecurity risks, the board's oversight, and management's role |
+| 201 | Market for common equity | Where the stock trades, holders, and dividends |
+| 303 | MD&A | Management's discussion and analysis of financial condition and results of operations |
+| 305 | Market risk | Quantitative and qualitative disclosures about market risk (Form 10-K Item 7A) |
+| 402 | Executive compensation | Pay of the named executive officers and directors |
+| 404 | Related-person transactions | Transactions with directors, officers, and major shareholders |
+| 407 | Corporate governance | Director independence, board committees, and the audit committee financial expert |
 
-| Item     | Topic                      | Description                                                                           |
-| -------- | -------------------------- | ------------------------------------------------------------------------------------- |
-| Item 101 | Description of Business    | Nature of business, principal products/services, competitive conditions               |
-| Item 103 | Legal Proceedings          | Material pending legal proceedings                                                    |
-| Item 105 | Risk Factors               | Material risks that make an investment speculative or risky                           |
-| Item 201 | Market Information         | Market price of common equity, dividends                                              |
-| Item 303 | MD&A                       | Management's Discussion and Analysis of Financial Condition and Results of Operations |
-| Item 402 | Executive Compensation     | Compensation of named executive officers and directors                                |
-| Item 404 | Related-Party Transactions | Transactions with related persons                                                     |
-| Item 407 | Corporate Governance       | Board independence, audit committee financial expert                                  |
+Two recent changes are worth knowing. Item 106, adopted in 2023, added annual cybersecurity disclosures to Form 10-K, together with a new Form 8-K Item 1.05 for material cybersecurity incidents. And the SEC's 2020 amendments **eliminated** Item 301 (selected financial data), so older materials that list a five-year selected data table are out of date.
 
-### MD&A (Item 303) Highlights
+### MD&A (Item 303)
 
-Management's Discussion and Analysis is one of the most heavily tested Reg S-K topics. MD&A requires management to discuss:
+**MD&A** is management's explanation of the financial statements, written so that investors can see the company "through the eyes of management." Its objective is to give the information needed to understand the company's financial condition, changes in it, and results of operations, with emphasis on known trends, events, and uncertainties that are reasonably likely to affect the future. MD&A covers:
 
-- **Liquidity**: Known trends, demands, commitments, or uncertainties affecting liquidity
-- **Capital resources**: Material commitments for capital expenditures
-- **Results of operations**: Revenue/expense trends and known uncertainties
-- **Critical accounting estimates**: Estimates with high uncertainty and material impact
-- **Off-balance-sheet arrangements**: Obligations not on the face of the financial statements
-  :::warning
-  Do not confuse MD&A under Reg S-K (SEC requirement for public companies) with MD&A under GASB (required supplementary information for state and local governments). They serve similar purposes but arise from entirely different authoritative frameworks.
-  :::
+- **Liquidity and capital resources**, including material cash requirements from known contractual and other obligations. Off-balance-sheet arrangements are discussed here, as part of liquidity and capital resources, rather than in a separate section.
+- **Results of operations**, including significant components of revenue and expense, unusual events, and the reasons for material changes.
+- **Critical accounting estimates**: estimates that involve a significant level of uncertainty and have had or are reasonably likely to have a material effect, with why they are uncertain and how sensitive they are.
 
----
-
-## Regulation S-X vs. Regulation S-K
-
-| Feature        | Regulation S-X                                     | Regulation S-K                                         |
-| -------------- | -------------------------------------------------- | ------------------------------------------------------ |
-| **Focus**      | Financial statements                               | Non-financial disclosures                              |
-| **Content**    | Form, content, and periods of financial statements | Business description, risk factors, MD&A, compensation |
-| **Applies to** | Financial data in SEC filings                      | Qualitative/descriptive portions of SEC filings        |
-| **Mnemonic**   | "X = eXact numbers"                                | "K = Knowledge / Kontext"                              |
+Do not confuse SEC MD&A with the MD&A that GASB requires state and local governments to present as required supplementary information. The two serve similar purposes but come from different frameworks.
 
 ---
 
-## XBRL Business Reporting
+## XBRL
 
-### Purpose and Objective
+**XBRL (eXtensible Business Reporting Language)** is an open, XML-based standard for tagging business and financial data so software can read it. The SEC requires public companies to tag the financial statements, notes, and cover page of their filings, which makes data easier to find, compare across companies, and analyze, and reduces the rekeying of numbers by hand.
 
-eXtensible Business Reporting Language (**XBRL**) is an open, XML-based standard for communicating business and financial data electronically. The SEC requires public companies to submit financial statements tagged in XBRL to improve the **accessibility, comparability, and analysis** of financial data.
-Key objectives of XBRL include:
+The SEC requires **Inline XBRL**, in which the tags are embedded directly in the HTML filing itself. A single document is therefore readable by people in a browser and by machines, instead of a human-readable filing plus a separate XBRL exhibit.
 
-- **Standardization**: Provide a uniform format for financial data across all filers
-- **Machine readability**: Enable automated extraction and analysis of financial information
-- **Transparency**: Improve the quality and timeliness of information available to investors
-- **Cost reduction**: Reduce manual data entry and re-keying errors
+Tags come from a **taxonomy**, a dictionary of standardized elements. For financial statements, filers use the **U.S. GAAP Financial Reporting Taxonomy**, maintained by the FASB. A taxonomy has several kinds of information:
 
-### Inline XBRL (iXBRL)
+| Component | What it does |
+| --- | --- |
+| Elements | Individual concepts, such as Revenues or Assets |
+| Labels | Human-readable names for each element |
+| References | Links from an element to the authoritative literature, such as the ASC paragraph |
+| Calculation relationships | How elements add up, such as current assets summing to total current assets |
+| Presentation relationships | How elements are ordered and grouped for display |
+| Dimensions | Axes for breaking data down, such as by segment or geographic area |
 
-The SEC currently requires **Inline XBRL (iXBRL)**, which embeds XBRL tags directly within an HTML document. This means a single filing is both human-readable (viewable in a browser) and machine-readable (parseable by software), eliminating the need for separate XBRL instance documents.
-
-```mermaid
-flowchart LR
-    A["Company Prepares<br/>Financial Statements"] --> B["Apply XBRL Tags<br/>Using Taxonomy"]
-    B --> C["Inline XBRL Document<br/>iXBRL"]
-    C --> D["Human-Readable<br/>HTML View"]
-    C --> E["Machine-Readable<br/>XBRL Data"]
-    D --> F[SEC EDGAR Filing]
-    E --> F
-```
-
-### XBRL Taxonomy
-
-An XBRL **taxonomy** is a dictionary of standardized elements (tags) that represent financial concepts. The SEC uses the **US GAAP Financial Reporting Taxonomy**, which is maintained by the FASB.
-| Taxonomy Component | Description |
-|-------------------|-------------|
-| **Elements** | Individual financial concepts (e.g., "Revenue," "Total Assets") |
-| **Labels** | Human-readable names for each element |
-| **References** | Links to authoritative literature (e.g., ASC references) |
-| **Calculations** | Mathematical relationships between elements |
-| **Presentation** | Hierarchical ordering for display |
-| **Dimensions** | Axes for disaggregating data (e.g., by segment, geography) |
-Companies may create **extension elements** when the standard taxonomy does not include a concept specific to their reporting. However, filers should use standard taxonomy elements whenever possible to maintain comparability.
-:::tip[Exam Tip]
-For the CPA exam, remember three key XBRL facts: (1) it is **XML-based**, (2) the SEC requires **Inline XBRL** so filings are both human- and machine-readable in a single document, and (3) the taxonomy is based on **US GAAP** and maintained by the FASB.
-:::
+When no standard element fits a concept, a company may create an **extension element**, but it should use standard elements whenever possible so its data stay comparable with other filers'. XBRL tagging is not covered by the auditor's opinion on the financial statements.
 
 ---
 
 ## Segment Reporting (ASC 280)
 
-ASC 280, _Segment Reporting_, requires public entities to disclose information about their **reportable operating segments** in annual and interim financial statements. The objective is to provide information about the different business activities and economic environments in which an entity operates.
+Investors in a diversified company want to know how each of its businesses is doing. **ASC 280** requires public entities to report information about their **operating segments**, in annual and interim statements, so readers can see the company the way its management sees it.
 
 ### The Management Approach
 
-ASC 280 uses the **management approach**, meaning segments are identified based on how the company's **chief operating decision maker (CODM)** organizes the entity internally for making operating decisions and assessing performance.
+ASC 280 uses the **management approach**: segments follow the way the **chief operating decision maker (CODM)**, the person or group that allocates resources and assesses performance (often the CEO or an executive committee), organizes the business internally.
 
-### Defining an Operating Segment
+An **operating segment** is a component of a public entity that has all three of these characteristics:
 
-An operating segment is a component of a public entity that:
+1. It engages in business activities from which it may earn revenues and incur expenses (including revenues and expenses from transactions with other parts of the same company).
+2. Its operating results are **regularly reviewed by the CODM** to make decisions about resources and assess performance.
+3. **Discrete financial information** is available for it.
 
-1. **Engages in business activities** from which it may earn revenues and incur expenses (including intersegment transactions)
-2. **Whose operating results are regularly reviewed** by the CODM to make resource allocation decisions and assess performance
-3. **For which discrete financial information is available**
-   :::warning
-   Not every component of an entity qualifies as an operating segment. A corporate headquarters that does not earn revenue and is not evaluated as a profit center typically does **not** meet the definition of an operating segment.
-   :::
+A corporate headquarters or a functional department that earns no revenue, or earns only incidental revenue, is not an operating segment.
 
----
+### Aggregation
 
-### Identifying Reportable Segments: Quantitative Thresholds
+Before applying the quantitative tests, two or more operating segments **may be aggregated** into one if aggregation is consistent with the objective of ASC 280, the segments have **similar economic characteristics** (such as similar long-term gross margins), and they are similar in **each** of the following:
 
-Once operating segments are identified, the entity must apply **three 10% quantitative threshold tests** to determine which segments are individually reportable.
-An operating segment is reportable if it meets **any one** of the following tests:
-| Test | Measure | Threshold |
-|------|---------|-----------|
-| **Revenue test** | Segment revenue (external + intersegment) | ≥ 10% of combined revenue of **all** operating segments |
-| **Profit or loss test** | Absolute amount of segment profit or loss | ≥ 10% of the greater (in absolute amount) of: (a) combined profit of all profitable segments, or (b) combined loss of all loss segments |
-| **Asset test** | Segment assets | ≥ 10% of combined assets of **all** operating segments |
+1. The nature of the products and services
+2. The nature of the production processes
+3. The type or class of customer
+4. The methods used to distribute products or provide services
+5. The nature of the regulatory environment, if applicable
+
+For example, if Bear Co.'s East Region and West Region both sell commercial insurance to mid-sized businesses through independent agents, under the same regulations and with similar margins, Bear Co. may report them as one "Commercial Insurance" segment.
+
+### The Quantitative Tests
+
+An operating segment is a **reportable segment**, and must be reported separately, if it meets **any one** of three 10% tests:
+
+| Test | The segment's... | ...is at least 10% of |
+| --- | --- | --- |
+| **Revenue** | Revenue, including intersegment sales | The combined revenue of all operating segments |
+| **Profit or loss** | Profit or loss, in absolute amount | The greater, in absolute amount, of (a) the combined profit of all segments that reported a profit, or (b) the combined loss of all segments that reported a loss |
+| **Assets** | Assets | The combined assets of all operating segments |
+
+Then a second check applies: the reportable segments together must account for at least **75% of consolidated external revenue**. If they do not, the company adds more operating segments as reportable, even ones that fail every 10% test, until the 75% level is reached. Operating segments that are not reportable are combined and shown as **"all other."** As a practical matter, once a company has more than about 10 reportable segments, it should consider whether the information has become too detailed.
 
 ```mermaid
 flowchart TD
-    A["Identify Operating Segments<br/>Using Management Approach"] --> B{"Revenue Test<br/>≥ 10% of Combined<br/>Segment Revenue?"}
-    B -- Yes --> F[Reportable Segment]
-    B -- No --> C{"Profit/Loss Test<br/>≥ 10% of Greater<br/>Absolute Profit or Loss?"}
+    A["Identify operating segments<br/>using the management approach"] --> B{"Revenue at least 10%<br/>of combined segment<br/>revenue?"}
+    B -- Yes --> F["Reportable segment"]
+    B -- No --> C{"Profit or loss at least 10%<br/>of the greater of combined<br/>profits or combined losses?"}
     C -- Yes --> F
-    C -- No --> D{"Asset Test<br/>≥ 10% of Combined<br/>Segment Assets?"}
+    C -- No --> D{"Assets at least 10%<br/>of combined<br/>segment assets?"}
     D -- Yes --> F
-    D -- No --> E["Not Individually<br/>Reportable: Include<br/>in 'All Other' Category"]
-    F --> G{"Do Reportable Segments<br/>Account for ≥ 75% of<br/>External Revenue?"}
-    G -- Yes --> H[Disclosure Complete]
-    G -- No --> I["Add More Segments<br/>Until 75% Threshold Met"]
+    D -- No --> E["Not reportable on its own;<br/>include in all other"]
+    F --> G{"Reportable segments at<br/>least 75% of consolidated<br/>external revenue?"}
+    G -- Yes --> H["Done"]
+    G -- No --> I["Add segments until<br/>75% is reached"]
 ```
 
-### The 75% External Revenue Test
+### Example: Bear Co.'s Five Segments
 
-After applying the 10% tests, the entity must verify that reportable segments together account for at least **75% of total consolidated external revenue**. If not, additional segments must be identified as reportable until the 75% threshold is met, even if those segments do not individually pass any 10% test.
+Bear Co. has five operating segments. All revenue is from external customers.
 
-### Practical Example: Bear Co.
-
-Bear Co. has five operating segments. Total combined segment revenue (including intersegment) is **\$1,000,000**. The combined profit of all profitable segments is **\$200,000**, and the combined loss of all loss segments is **\$(150,000)**. Total combined segment assets are **\$5,000,000**.
-| Segment | Revenue | Profit (Loss) | Assets |
-|---------|---------|--------------|--------|
-| Segment A | \$400,000 | \$120,000 | \$2,000,000 |
-| Segment B | \$250,000 | \$60,000 | \$1,500,000 |
-| Segment C | \$180,000 | \$20,000 | \$800,000 |
-| Segment D | \$120,000 | \$(150,000) | \$500,000 |
-| Segment E | \$50,000 | \$(10,000) | \$200,000 |
+| Segment | Revenue | Profit (loss) | Assets |
+| --- | ---: | ---: | ---: |
+| A | \$400,000 | \$120,000 | \$2,000,000 |
+| B | \$250,000 | \$60,000 | \$1,500,000 |
+| C | \$180,000 | \$20,000 | \$800,000 |
+| D | \$120,000 | (\$150,000) | \$500,000 |
+| E | \$50,000 | (\$10,000) | \$200,000 |
 | **Total** | **\$1,000,000** | **\$40,000** | **\$5,000,000** |
-**Threshold calculations:**
 
-- Revenue threshold: 10% × \$1,000,000 = **\$100,000**
-- Profit/loss threshold: Greater of |\$200,000| or |\$(150,000)| = \$200,000; 10% × \$200,000 = **\$20,000**
-- Asset threshold: 10% × \$5,000,000 = **\$500,000**
-  | Segment | Revenue Test (≥ \$100K) | Profit/Loss Test (≥ \$20K) | Asset Test (≥ \$500K) | Reportable? |
-  |---------|:---:|:---:|:---:|:---:|
-  | A | \$400K (pass) | \$120K (pass) | \$2,000K (pass) | **Yes** |
-  | B | \$250K (pass) | \$60K (pass) | \$1,500K (pass) | **Yes** |
-  | C | \$180K (pass) | \$20K (pass) | \$800K (pass) | **Yes** |
-  | D | \$120K (pass) | \$150K loss (pass) | \$500K (pass) | **Yes** |
-  | E | \$50K (fail) | \$10K loss (fail) | \$200K (fail) | **No** |
-  Segment E does not meet any 10% test and would be included in the **"All Other"** category.
+The three thresholds are:
 
----
+- **Revenue:** 10% × \$1,000,000 = \$100,000.
+- **Profit or loss:** The profitable segments earned \$200,000 in total (A, B, and C), and the loss segments lost \$160,000 in total (D and E). The greater is \$200,000, so the threshold is \$20,000. Net segment profit (\$40,000) plays no role.
+- **Assets:** 10% × \$5,000,000 = \$500,000.
 
-### Aggregation Criteria
+| Segment | Revenue at least \$100,000? | Profit or loss at least \$20,000? | Assets at least \$500,000? | Reportable? |
+| --- | --- | --- | --- | --- |
+| A | Yes | Yes | Yes | Yes |
+| B | Yes | Yes | Yes | Yes |
+| C | Yes | Yes (exactly \$20,000) | Yes | Yes |
+| D | Yes | Yes (\$150,000 loss) | Yes (exactly \$500,000) | Yes |
+| E | No | No | No | No |
 
-Two or more operating segments may be aggregated into a single reportable segment if they have **similar economic characteristics** and are similar in **all** of the following:
+Segments A through D are reportable, and E goes in "all other." The 75% check is met: the four reportable segments have \$950,000 of the \$1,000,000 of external revenue, or 95%.
 
-1. Nature of products and services
-2. Nature of the production processes
-3. Type or class of customer
-4. Methods used to distribute products or provide services
-5. Nature of the regulatory environment (if applicable)
-
-### Example: Bear Co.
-
-Bear Co. has two operating segments, East Region and West Region, that both sell commercial insurance products to mid-market businesses through independent agents, subject to the same state regulatory frameworks, and have similar profit margins. Because they share similar economic characteristics **and** meet all five similarity criteria, Bear Co. may aggregate them into a single "Commercial Insurance" reportable segment.
-
-### Required Segment Disclosures
-
-ASC 280 requires the following disclosures for each reportable segment:
-| Disclosure Category | Required Information |
-|--------------------|--------------------|
-| **General information** | Factors used to identify segments; types of products and services |
-| **Profit or loss** | Revenues (external and intersegment), interest revenue, interest expense, depreciation/amortization, significant non-cash items, income tax expense or benefit, and other significant items regularly provided to the CODM |
-| **Assets** | Total segment assets |
-| **Reconciliations** | Reconciliation of total segment revenues, profit or loss, and assets to consolidated totals |
-| **Entity-wide disclosures** | (1) Products and services revenue, (2) geographic information (revenues and long-lived assets), (3) major customer information (any single customer ≥ 10% of total revenue) |
-
-### Example: Polar Inc.
-
-Polar Inc. operates three reportable segments: Software, Consulting, and Hardware. In its annual report, Polar Inc. must disclose:
-
-- Revenue, profit, and assets for each of the three segments
-- A reconciliation showing how segment totals tie to the consolidated income statement and balance sheet
-- Entity-wide disclosure that 12% of total revenue comes from a single government customer (since it exceeds 10%, the existence and segment must be disclosed, though the customer need not be named)
-  :::tip[Exam Tip]
-  The **75% rule** and the **10% tests** are the most frequently tested quantitative thresholds. Also remember that the profit/loss test uses the **greater absolute value** of combined profits vs. combined losses, not net income. A common exam trap is using net profit instead of comparing the absolute values separately.
-  :::
+The most common mistake on this test is to compare each segment with 10% of **net** profit. The comparison base is the larger of total profits or total losses, each taken separately.
 
 ---
 
-## Practical Limits on Segments
+## Required Segment Disclosures
 
-ASC 280 provides a practical limit: once the number of reportable segments exceeds **10**, the entity should consider whether further disaggregation is useful. This is a guideline, not a hard rule, but the FASB noted that exceeding 10 segments may make disclosures overly complex.
+### Updated Requirements (ASU 2023-07)
+
+ASU 2023-07, eligible for testing since July 1, 2024, expanded segment disclosures, mainly so that investors can see each segment's major expenses. The 10% tests, the 75% test, and the aggregation criteria did not change. The main additions:
+
+- **Significant segment expenses.** For each reportable segment, the company discloses the significant expense categories and amounts that are **regularly provided to the CODM** and included in segment profit or loss.
+- **Other segment items.** For each reportable segment, the company discloses the difference between segment revenue, less the significant expenses, and segment profit or loss, with a qualitative description of what it includes.
+- **Interim reporting.** All the annual disclosures about segment profit or loss and assets are now required in **interim** periods too, and the significant expense and other segment item disclosures apply annually and in interim periods.
+- **More than one profit measure.** If the CODM uses more than one measure of segment profit or loss, the company may report more than one, but at least one must be the measure **most consistent with GAAP** as applied in the consolidated statements.
+- **The CODM.** The company discloses the CODM's **title and position** and explains how the CODM uses the reported measures to assess performance and allocate resources.
+- **Single-segment entities.** A public entity with only **one** reportable segment must provide all of the segment disclosures, including the new ones.
+
+For example, Polar Inc.'s CODM, its chief executive officer, receives monthly reports for the Software segment showing employee compensation and cloud hosting costs separately. Its segment note for Software might show:
+
+| Software segment | Amount |
+| --- | ---: |
+| Revenue | \$900,000 |
+| Less: employee compensation | (400,000) |
+| Less: cloud hosting | (150,000) |
+| Less: other segment items (rent, travel, and other operating costs) | (50,000) |
+| **Segment operating income** | **\$300,000** |
+
+### The Full Set of Disclosures
+
+| Category | What is disclosed |
+| --- | --- |
+| **General information** | The factors used to identify reportable segments (including whether segments have been aggregated), the types of products and services each segment sells, and the title and position of the CODM |
+| **Profit or loss and assets** | A measure of profit or loss and total assets for each reportable segment. Also, when included in the measure reviewed by the CODM or otherwise regularly provided to the CODM: revenues from external customers, intersegment revenues, interest revenue and expense, depreciation and amortization, income tax expense, equity in the income of equity method investees, and significant noncash items. Plus the significant expense categories and other segment items described above |
+| **Measurement** | How segment profit or loss and assets are measured, and how the CODM uses the measures |
+| **Reconciliations** | Segment totals reconciled to consolidated revenue, profit or loss (before income taxes), assets, and other significant items |
+| **Entity-wide disclosures** | Revenue by product or service; revenue and long-lived assets by geographic area (domestic and foreign); and **major customers** |
+
+The **major customer** disclosure applies when revenue from a single external customer is **10% or more** of total revenue. The company discloses that fact, the amount of revenue from each such customer, and the segment or segments reporting it, but it does not have to name the customer. A group of entities under common control counts as one customer, and so does each level of government (federal, state, local, or foreign). So if Polar Inc. earns 12% of its revenue from various agencies of the federal government, it must disclose that the federal government is a major customer, the amount, and which segments report the sales.
+
+---
 
 ## Summary
 
-| Topic                 | Key Takeaway                                                                               |
-| --------------------- | ------------------------------------------------------------------------------------------ |
-| **Regulation S-X**    | Governs the form, content, and periods of financial statements in SEC filings              |
-| **Regulation S-K**    | Governs non-financial disclosures: business description, risk factors, MD&A, compensation  |
-| **XBRL**              | XML-based standard for machine-readable financial reporting; SEC requires Inline XBRL      |
-| **Operating segment** | Component reviewed by the CODM with discrete financial information and business activities |
-| **10% tests**         | Revenue, profit/loss (absolute), and assets; meet **any one** to be reportable             |
-| **75% test**          | Reportable segments must cover ≥ 75% of consolidated external revenue                      |
-| **Aggregation**       | Requires similar economics **and** all five qualitative similarity criteria                |
-| **Major customer**    | Disclose if a single customer provides ≥ 10% of total entity revenue                       |
+| Topic | Key point |
+| --- | --- |
+| Regulation S-X | Form, content, and periods of the financial statements: two years of balance sheets, three years of the other statements (two for smaller reporting companies) |
+| Regulation S-K | Nonfinancial-statement disclosures: business, risk factors, cybersecurity (Item 106), MD&A, market risk, compensation, governance |
+| MD&A | Liquidity and capital resources, results of operations, and critical accounting estimates, through the eyes of management |
+| XBRL | XML-based tagging; Inline XBRL makes one document readable by people and machines; FASB maintains the U.S. GAAP taxonomy |
+| Operating segment | Earns revenues and incurs expenses, reviewed regularly by the CODM, with discrete information |
+| Aggregation | Similar economics and similar in all five qualitative areas |
+| 10% tests | Revenue, absolute profit or loss (against the greater of total profits or total losses), and assets; meeting any one makes a segment reportable |
+| 75% test | Reportable segments must cover at least 75% of consolidated external revenue |
+| ASU 2023-07 | Significant segment expenses, other segment items, interim disclosures, CODM title, and full disclosures for single-segment entities |
+| Major customer | 10% or more of revenue; disclose the amount and segment, not the name |

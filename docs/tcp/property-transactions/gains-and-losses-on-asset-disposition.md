@@ -2,88 +2,71 @@
 
 ## Introduction
 
-When a taxpayer disposes of property used in a trade or business, characterizing the resulting gain or loss involves a layered analysis well beyond the basic "capital vs. ordinary" framework covered in REG. The TCP exam requires you to apply the **depreciation recapture** rules of §1245 and §1250, navigate the **§1231 netting process** (including the lookback rule), compute **unrecaptured §1250 gain**, evaluate losses on **§1244 small business stock**, and calculate gain recognized under the **installment sale** method. You must also be able to review a schedule of asset dispositions and identify discrepancies in the amount or character of reported gains and losses.
+Selling a business asset raises two questions: how much gain or loss, and what kind. The amount is the familiar amount realized minus adjusted basis. The character is where TCP goes beyond REG. Gain on depreciable property can be partly ordinary income (depreciation recapture), partly gain taxed at a maximum 25% rate, and partly long-term capital gain, while losses on the same kind of property can be fully ordinary.
 
-This page builds on the foundational gain/loss concepts from REG (amount realized, adjusted basis, holding period, capital vs. ordinary character) and dives into the higher-complexity disposition rules tested on the TCP section.
+This chapter builds the character analysis in the order you apply it: Section 1231, recapture under Sections 1245 and 1250, unrecaptured Section 1250 gain, and then the netting and lookback steps that finish the job. It then covers small business stock under Sections 1244 and 1202, installment sales, and how to review a client's schedule of asset dispositions.
+
+---
+
+## Three Kinds of Property
+
+Every asset falls into one of three groups, and the group sets the starting point for character:
+
+| Group | Examples | Character of Gain or Loss |
+|---|---|---|
+| **Capital assets** | Investment stocks and bonds, investment land, personal-use property | Capital; long-term if held more than 1 year |
+| **Section 1231 property** | Depreciable property and land used in a trade or business and held more than 1 year | Net gain is long-term capital gain; net loss is ordinary (after recapture) |
+| **Ordinary assets** | Inventory, accounts receivable, business property held 1 year or less | Ordinary |
+
+**Digital assets**, such as cryptocurrency, stablecoins, and NFTs, are property, not currency. Held for investment, they are capital assets. Basis is the cost in dollars plus fees, a holding period of more than one year gives long-term treatment, and trading one digital asset for another or using one to buy goods is a taxable disposition. An NFT that represents a collectible, such as artwork, can be taxed at the 28% collectibles rate. Brokers report sales on Form 1099-DA starting with 2025 sales, and since January 1, 2025, basis must be tracked separately for each wallet or account.
 
 ---
 
 ## Section 1231: Trade or Business Property
 
-### What Qualifies as §1231 Property
+### What Qualifies
 
-**Section 1231 property** includes depreciable property and real property used in a trade or business and held for **more than one year**. It also includes certain involuntary conversions of business property and capital assets held in connection with a trade or business.
+**Section 1231 property** is depreciable property and real property used in a trade or business and held for **more than one year**. It also includes involuntary conversions of business property and of capital assets held in connection with a business.
 
-| Qualifies as §1231 Property | Does NOT Qualify |
+| Qualifies as §1231 Property | Does Not Qualify |
 |---|---|
 | Machinery and equipment used in business (held > 1 year) | Inventory or property held for sale to customers |
 | Buildings and land used in business (held > 1 year) | Personal-use property (home, personal car) |
-| Timber, coal, iron ore (with applicable election) | Securities and investment assets (these are capital assets) |
-| Unharvested crops on land sold together | Property held for ≤ 1 year (short-term = ordinary) |
-| Livestock held for draft, breeding, dairy, or sporting (with required holding periods) | Copyrights, artistic compositions (held by creator) |
-
-:::info
-
-Section 1231 property is technically a **noncapital asset** because it is excluded from the definition of a capital asset under §1221. However, net §1231 gains receive **long-term capital gain treatment**, giving taxpayers the "best of both worlds."
-
-:::
+| Timber, coal, and iron ore (under the applicable rules) | Securities and investment assets (capital assets) |
+| Unharvested crops sold with the land | Business property held 1 year or less (ordinary) |
+| Livestock held for draft, breeding, dairy, or sporting purposes (with required holding periods) | Copyrights and artistic works held by their creator |
 
 ### The §1231 Netting Process
 
-At the end of the tax year, all §1231 gains and §1231 losses are netted together:
+Section 1231 property is technically excluded from the definition of a capital asset, but it gets the better of both treatments. At year end, all §1231 gains and losses (after recapture) are netted:
 
-- If **net §1231 gains** exceed net §1231 losses, the entire net gain is treated as a **long-term capital gain** (taxed at preferential rates).
-- If **net §1231 losses** exceed net §1231 gains, the entire net loss is treated as an **ordinary loss** (fully deductible against ordinary income with no \$3,000 limitation).
+- A **net §1231 gain** is treated as **long-term capital gain**, taxed at preferential rates.
+- A **net §1231 loss** is an **ordinary loss**, fully deductible with no \$3,000 capital loss limit.
 
-This is the "**best of both worlds**" rule: gains get capital treatment, losses get ordinary treatment.
+Casualty and theft gains and losses on business property held more than a year are netted among themselves first. If the casualty losses exceed the casualty gains, they are ordinary and stay out of §1231; otherwise they join the main netting.
 
-:::tip[Exam Tip]
-
-Remember the phrase "best of both worlds" for §1231. If the exam presents a scenario where a taxpayer has a net loss from selling business property held more than one year, that loss is ordinary; it is **not** subject to the capital loss limitations.
-
-:::
-
-> **Example:** Bear Co. sold two assets during the current year, both held for more than one year and used in its business:
->
-> | Asset | Sale Price | Adjusted Basis | Gain (Loss) |
-> |---|---|---|---|
-> | Warehouse | \$600,000 | \$400,000 | \$200,000 |
-> | Delivery truck | \$8,000 | \$25,000 | (\$17,000) |
->
-> Net §1231 gain = \$200,000 - \$17,000 = **\$183,000**
->
-> Because the net result is a gain, the entire \$183,000 is treated as a **long-term capital gain**. (Note: Depreciation recapture rules under §1245 and §1250 must be applied first (covered below), which may recharacterize a portion as ordinary income.)
+> **Example:** Avery, a sole proprietor, sells two business assets held more than one year: land used as a parking lot, at a \$200,000 gain, and a delivery truck for \$8,000, less than its \$25,000 adjusted basis, at a \$17,000 loss. (A sale at a loss has no depreciation recapture.) Avery's net §1231 gain is \$200,000 - \$17,000 = \$183,000, treated as long-term capital gain unless the lookback rule applies.
 
 ### The §1231 Lookback Rule
 
-The §1231 lookback rule prevents taxpayers from selectively timing dispositions to claim ordinary losses in some years and capital gains in others.
+Without a limit, a taxpayer could sell loss assets in one year for ordinary losses and gain assets the next year for capital gains. The **lookback rule** closes that gap. A current net §1231 gain is **ordinary income** to the extent of **nonrecaptured net §1231 losses** from the **prior 5 years**, meaning losses deducted as ordinary in those years that have not already been recaptured.
 
-**Rule:** If the taxpayer had **net §1231 losses** in any of the **prior 5 tax years** that were treated as ordinary losses, the current year's net §1231 gain is **recharacterized as ordinary income** to the extent of those prior unrecaptured ordinary losses.
-
-> **Example:** Bear Co. reported the following §1231 results over the past several years:
+> **Example:** Bear Co. reported these §1231 results:
 >
-> | Year | Net §1231 Result | Character |
+> | Year | Net §1231 Result | Treatment |
 > |---|---|---|
-> | Year 1 | (\$30,000) loss | Ordinary loss |
-> | Year 2 | (\$10,000) loss | Ordinary loss |
-> | Year 3 | \$0 | N/A |
-> | Year 4 | \$15,000 gain | Ordinary income (lookback: \$15,000 recaptured) |
-> | Year 5 | \$0 | N/A |
-> | Year 6 (current) | \$50,000 gain | See below |
+> | Year 1 | (\$30,000) | Ordinary loss |
+> | Year 2 | (\$10,000) | Ordinary loss |
+> | Year 3 | \$0 | None |
+> | Year 4 | \$15,000 | Ordinary income (lookback recapture of \$15,000) |
+> | Year 5 | \$0 | None |
+> | Year 6 (current) | \$50,000 | See below |
 >
-> Unrecaptured §1231 losses from the prior 5 years (Years 1-5):
-> - Year 1: \$30,000 ordinary loss
-> - Year 2: \$10,000 ordinary loss
-> - Year 4 recaptured: (\$15,000)
-> - **Remaining unrecaptured losses = \$30,000 + \$10,000 - \$15,000 = \$25,000**
->
-> Of Bear Co.'s \$50,000 net §1231 gain in Year 6:
-> - **\$25,000** is recharacterized as **ordinary income** (lookback recapture)
-> - **\$25,000** is treated as **long-term capital gain**
+> Nonrecaptured losses from Years 1 through 5: \$30,000 + \$10,000 - \$15,000 = **\$25,000**. Of the \$50,000 net §1231 gain in Year 6, **\$25,000** is ordinary income and **\$25,000** is long-term capital gain.
 
 :::caution
 
-The lookback rule is easy to overlook. On the TCP exam, always check whether there are unrecaptured §1231 losses in the prior 5 years before characterizing a current-year net §1231 gain as a capital gain.
+The lookback rule is easy to overlook. Before you call a net §1231 gain capital, always check for nonrecaptured §1231 losses in the prior 5 years.
 
 :::
 
@@ -91,480 +74,350 @@ The lookback rule is easy to overlook. On the TCP exam, always check whether the
 
 ## Section 1245 Depreciation Recapture
 
-### Overview
+### The Rule
 
-**Section 1245** requires that gain on the sale of certain depreciable property be recaptured as **ordinary income** to the extent of **all accumulated depreciation** (or amortization) previously taken on the asset. This prevents taxpayers from claiming ordinary depreciation deductions and then treating the gain on sale as capital gain.
-
-### Property Subject to §1245
+Depreciation reduces ordinary income while the asset is used. If the asset is then sold at a gain, that gain exists largely because of the depreciation. **Section 1245** prevents the taxpayer from converting ordinary deductions into capital gain: gain is ordinary income to the extent of **all** depreciation and amortization taken.
 
 Section 1245 property includes:
 
-- **Personal property** used in a trade or business: machinery, equipment, vehicles, furniture, computers
-- **Amortizable §197 intangibles**: patents, copyrights, customer lists, goodwill
-- **Certain real property** that used accelerated depreciation methods (e.g., nonresidential real property placed in service before 1987)
-- **Single-purpose agricultural or horticultural structures**
-
-### The §1245 Recapture Formula
+- **Tangible personal property** used in a business: machinery, equipment, vehicles, furniture, and computers
+- **Amortizable §197 intangibles**, such as patents, customer lists, and purchased goodwill
+- **Single-purpose agricultural and horticultural structures**
+- **Qualified production property**: the part of a new factory building expensed under OBBBA's 100% election for production property is treated as §1245 property, so the expensed amount is recaptured as ordinary income
 
 $$
 \text{\S 1245 Ordinary Income} = \min(\text{Gain Realized},\ \text{Total Depreciation Taken})
 $$
 
-Any gain **in excess of** the total depreciation is §1231 gain (and enters the §1231 netting process).
+Any gain **above** total depreciation is §1231 gain and joins the §1231 netting.
 
-| Component | Calculation |
-|---|---|
-| Gain realized | Amount realized - Adjusted basis |
-| §1245 ordinary income | Lesser of gain realized or total depreciation |
-| §1231 gain (if any) | Gain realized - §1245 ordinary income |
-
-> **Example:** Polar Inc. purchased equipment for \$120,000 and claimed \$45,000 in depreciation. The equipment is sold for \$100,000.
+> **Example:** Polar Inc. bought equipment for \$120,000 and claimed \$45,000 of depreciation, leaving an adjusted basis of \$75,000.
 >
-> - Adjusted basis = \$120,000 - \$45,000 = **\$75,000**
-> - Gain realized = \$100,000 - \$75,000 = **\$25,000**
-> - §1245 ordinary income = min(\$25,000, \$45,000) = **\$25,000**
-> - §1231 gain = \$25,000 - \$25,000 = **\$0**
->
-> The entire \$25,000 gain is **ordinary income** because the gain does not exceed the total depreciation claimed.
+> | Sale Price | Gain | §1245 Ordinary Income | §1231 Gain |
+> |---|---|---|---|
+> | \$100,000 | \$25,000 | \$25,000 (all of it, because gain is less than depreciation) | \$0 |
+> | \$140,000 | \$65,000 | \$45,000 (limited to depreciation) | \$20,000 |
 
-> **Example:** Now suppose Polar Inc. sells the same equipment for \$140,000 instead.
->
-> - Adjusted basis = \$120,000 - \$45,000 = **\$75,000**
-> - Gain realized = \$140,000 - \$75,000 = **\$65,000**
-> - §1245 ordinary income = min(\$65,000, \$45,000) = **\$45,000**
-> - §1231 gain = \$65,000 - \$45,000 = **\$20,000**
->
-> The first \$45,000 is **ordinary income** (recaptured depreciation). The remaining \$20,000 enters the **§1231 netting process** and, if net §1231 gains result, will be treated as long-term capital gain.
-
-:::warning
-
-Section 1245 recapture applies to **all** depreciation taken, not just "excess" depreciation. Even if the taxpayer used straight-line depreciation, the full amount of depreciation claimed is subject to §1245 recapture.
-
-:::
+Recapture applies to **all** depreciation, whatever the method, and that includes **bonus depreciation** and **§179 expensing**. With 100% bonus depreciation now permanent for property acquired after January 19, 2025, this matters often. If Polar Inc. expenses an \$80,000 machine in full and later sells it for \$50,000, the entire \$50,000 gain is ordinary income.
 
 ### Sale at a Loss
 
-If §1245 property is sold at a **loss**, there is no depreciation recapture (recapture cannot create or increase a loss). The loss enters the §1231 netting process.
+Recapture can never create or increase a loss. If §1245 property is sold at a loss, there is nothing to recapture, and the loss is a §1231 loss.
 
-> **Example:** Jordan sells office furniture with an original cost of \$30,000 and accumulated depreciation of \$22,000 (adjusted basis = \$8,000) for \$5,000.
->
-> - Gain (loss) realized = \$5,000 - \$8,000 = **(\$3,000)**
-> - §1245 recapture = **\$0** (there is no gain to recapture)
-> - The \$3,000 loss is a **§1231 loss**
+> **Example:** Jordan sells office furniture that cost \$30,000, with \$22,000 of accumulated depreciation (adjusted basis \$8,000), for \$5,000. The \$3,000 loss is a §1231 loss, and there is no recapture.
 
 ---
 
 ## Section 1250 Depreciation Recapture (Real Property)
 
-### Overview
+### The Rule
 
-**Section 1250** applies to **depreciable real property** (buildings and structural components). Unlike §1245, which recaptures all depreciation, §1250 recaptures gain as ordinary income only to the extent of **excess depreciation**, which is the amount by which accelerated depreciation exceeded what straight-line depreciation would have been.
-
-### The §1250 Recapture Formula
+**Section 1250** applies to depreciable real property: buildings and their structural components. It is gentler than §1245. It recaptures as ordinary income only **excess depreciation**, the amount by which accelerated depreciation exceeded what straight-line depreciation would have been.
 
 $$
 \text{\S 1250 Ordinary Income} = \min(\text{Gain Realized},\ \text{Excess Depreciation})
 $$
 
 $$
-\text{Excess Depreciation} = \text{Actual Depreciation Taken} - \text{Straight-Line Depreciation That Would Have Been Allowed}
+\text{Excess Depreciation} = \text{Depreciation Taken} - \text{Straight-Line Depreciation}
 $$
 
-### Modern Relevance: Post-1986 Real Property
+Since 1987, residential rental property (27.5 years) and nonresidential real property (39 years) must be depreciated straight-line. With no accelerated depreciation, excess depreciation is zero, so **§1250 recapture is usually zero for buildings placed in service after 1986**. You will see it mainly for older buildings that used accelerated methods.
 
-Since the Tax Reform Act of 1986, **nonresidential real property** (39-year) and **residential rental property** (27.5-year) must use the **straight-line** method. Because there is no accelerated depreciation, the excess depreciation is **zero**, and therefore **§1250 recapture is typically zero** for property placed in service after 1986.
-
-:::info
-
-For most real property on the TCP exam, §1250 recapture will be \$0 because straight-line depreciation has been required since 1987. However, you may encounter legacy assets placed in service before 1987 that used accelerated methods. In those cases, §1250 recapture applies.
-
-:::
-
-> **Example:** Illini Entertainment purchased a commercial building in 1984 for \$500,000 (excluding land). Over the years, the company claimed \$320,000 in accelerated depreciation. Had the straight-line method been used, depreciation would have been \$280,000.
->
-> The building is sold for \$400,000.
+> **Example:** Morgan bought an apartment building in 1985 for \$500,000 (excluding land) and used accelerated depreciation, claiming \$320,000. Straight-line depreciation would have been \$280,000. Morgan sells the building for \$400,000.
 >
 > - Adjusted basis = \$500,000 - \$320,000 = **\$180,000**
-> - Gain realized = \$400,000 - \$180,000 = **\$220,000**
-> - Excess depreciation = \$320,000 - \$280,000 = **\$40,000**
-> - §1250 ordinary income = min(\$220,000, \$40,000) = **\$40,000**
-> - Remaining gain = \$220,000 - \$40,000 = **\$180,000**, which enters §1231 netting
+> - Gain = \$400,000 - \$180,000 = **\$220,000**
+> - Excess depreciation = \$320,000 - \$280,000 = **\$40,000**, which is §1250 ordinary income
+> - The remaining **\$180,000** is §1231 gain, all of it unrecaptured §1250 gain (explained next), because it is less than the \$280,000 of straight-line depreciation
+
+### Corporations: The §291 Add-On
+
+C corporations get no capital gain rate preference, so the 25% rate discussed next does not apply to them. Instead, **§291** makes a corporation treat **20%** of the depreciation-related gain on real property as ordinary income: 20% of the lesser of the gain or the straight-line depreciation (more precisely, of the excess of what §1245 would have recaptured over the §1250 recapture). The rest is §1231 gain.
 
 ---
 
 ## Unrecaptured Section 1250 Gain
 
-### What Is Unrecaptured §1250 Gain?
+### The Rule
 
-After applying §1250 recapture (which addresses excess depreciation), there is often remaining gain attributable to **straight-line depreciation** that was not recaptured as ordinary income. This gain is called **unrecaptured §1250 gain**, and it is taxed at a **maximum rate of 25%** (rather than the standard 0%/15%/20% long-term capital gain rates).
-
-### The Formula
+After any §1250 recapture, the rest of the gain on a building is §1231 gain. For individuals, and for partners and S corporation shareholders who receive their share of it, the part of that gain attributable to depreciation is **unrecaptured §1250 gain**, taxed at a **maximum rate of 25%** rather than 0%, 15%, or 20%.
 
 $$
-\text{Unrecaptured \S 1250 Gain} = \min\!\Big(\text{Remaining \S 1231 Gain},\ \text{Straight-Line Depreciation Taken}\Big)
+\text{Unrecaptured \S 1250 Gain} = \min(\text{Gain},\ \text{Total Depreciation}) - \text{\S 1250 Ordinary Income}
 $$
 
-More precisely, it equals the lesser of:
-1. The gain that enters §1231 netting (after removing any §1250 ordinary income), or
-2. The total straight-line depreciation allowed or allowable on the property
+For a post-1986 building, §1250 recapture is zero, so unrecaptured §1250 gain is simply the lesser of the gain or the depreciation taken.
 
-### Full Layering of Gain on Real Property
+Unrecaptured §1250 gain is **still §1231 gain**. It enters the §1231 netting with everything else, and the 25% rate matters only if the netting produces a net gain. When it does, the 25% portion cannot exceed the net §1231 gain, and any lookback recapture comes out of the 25% portion first.
 
-When real property used in a trade or business is sold at a gain, the gain is characterized in layers:
-
-| Layer | Character | Tax Rate |
+| Layer of Gain on a Building | Character | Maximum Rate |
 |---|---|---|
-| **1. §1250 recapture** | Ordinary income | Ordinary rates (up to 37%) |
-| **2. Unrecaptured §1250 gain** | Long-term capital gain (special category) | Maximum 25% |
-| **3. Remaining §1231 gain** | Long-term capital gain | 0%, 15%, or 20% |
+| **1. §1250 recapture** (excess depreciation) | Ordinary income | Ordinary rates |
+| **2. Unrecaptured §1250 gain** (rest of the depreciation) | §1231 gain; long-term capital gain if the netting produces a net gain | 25% |
+| **3. Remaining gain** (appreciation above original cost) | §1231 gain; long-term capital gain if the netting produces a net gain | 0%, 15%, or 20% |
 
-> **Example:** Bear Co. purchased a rental building in 2005 for \$800,000 (excluding land). Over the years, Bear Co. claimed \$250,000 in straight-line depreciation. The building is sold for \$900,000.
+> **Example:** Riley bought a commercial building in 2005 for \$800,000 (excluding land) and claimed \$250,000 of straight-line depreciation. Riley sells it for \$900,000.
 >
 > - Adjusted basis = \$800,000 - \$250,000 = **\$550,000**
-> - Gain realized = \$900,000 - \$550,000 = **\$350,000**
-> - §1250 recapture (excess depreciation) = **\$0** (straight-line was used)
-> - Unrecaptured §1250 gain = min(\$350,000, \$250,000) = **\$250,000** (taxed at max 25%)
-> - Remaining §1231 gain = \$350,000 - \$250,000 = **\$100,000** (taxed at 0%/15%/20%)
+> - Gain = \$900,000 - \$550,000 = **\$350,000**
+> - §1250 recapture = **\$0** (straight-line)
+> - Unrecaptured §1250 gain = min(\$350,000, \$250,000) = **\$250,000**, at a maximum 25%
+> - Remaining gain = **\$100,000**, at 0%, 15%, or 20%
 >
-> None of the gain is ordinary income because there is no excess depreciation. But \$250,000 of the gain attributable to straight-line depreciation is taxed at the higher 25% rate.
-
-> **Example (Pre-1987 Property):** Suppose Illini Entertainment's commercial building from the §1250 example above produces a \$220,000 gain with \$40,000 in §1250 ordinary income. What happens to the remaining \$180,000?
->
-> - Total depreciation taken = \$320,000
-> - §1250 recapture (excess depreciation) = \$40,000
-> - Straight-line depreciation = \$280,000
-> - Unrecaptured §1250 gain = min(\$180,000, \$280,000) = **\$180,000** (taxed at max 25%)
-> - Remaining §1231 gain at 0/15/20% = \$220,000 - \$40,000 - \$180,000 = **\$0**
->
-> In this case, all of the remaining gain after §1250 recapture is unrecaptured §1250 gain because the total gain (\$220,000) does not exceed total depreciation (\$320,000).
+> All \$350,000 is §1231 gain. If Riley has no other §1231 transactions and no prior §1231 losses, \$250,000 is taxed at up to 25% and \$100,000 at the regular capital gain rates. If Grizzly Inc., a C corporation, had sold the same building, §291 would make 20% × \$250,000 = \$50,000 ordinary income, and the other \$300,000 would be §1231 gain.
 
 :::tip[Exam Tip]
 
-For post-1986 real property, §1250 recapture is almost always zero. The main issue becomes **unrecaptured §1250 gain**, which equals the depreciation taken (straight-line), capped at the amount of gain. This is a frequently tested topic on TCP.
+For post-1986 buildings, §1250 recapture is almost always zero, so the real issue is **unrecaptured §1250 gain**: the depreciation taken, capped at the gain, taxed at up to 25% for individuals. For corporations, think §291 instead.
 
 :::
 
 ---
 
-## The Complete Gain Characterization Framework
+## Putting It Together: The Order of Operations
 
-When a taxpayer sells §1231 property (business-use, held > 1 year), the gain must be characterized in a specific order. The following flowchart illustrates the process:
+When a taxpayer sells business property during the year, characterize the results in this order:
 
-```mermaid
-flowchart TD
-    A["Compute Total Gain Realized<br/>(Amount Realized - Adjusted Basis)"] --> B{"Is the property<br/>§1245 property?"}
-    B -- Yes --> C["Apply §1245 Recapture<br/>Ordinary income = min(Gain, Total Depreciation)"]
-    C --> D{"Any gain remaining<br/>above §1245 recapture?"}
-    D -- Yes --> E["Remaining gain goes to §1231 netting"]
-    D -- No --> Z["Done: All gain is ordinary"]
-    B -- No --> F{"Is the property<br/>§1250 property<br/>(real property)?"}
-    F -- Yes --> G["Apply §1250 Recapture<br/>Ordinary income = min(Gain, Excess Depreciation)"]
-    G --> H["Compute Unrecaptured §1250 Gain<br/>min(Remaining Gain, Straight-Line Depreciation)<br/>Taxed at max 25%"]
-    H --> I["Remaining gain goes to §1231 netting<br/>Taxed at 0%/15%/20%"]
-    F -- No --> E
-    E --> J["§1231 Netting:<br/>Net all §1231 gains and losses"]
-    I --> J
-    J --> K{Net §1231 result?}
-    K -- "Net gain" --> L["Apply Lookback Rule:<br/>Recharacterize as ordinary income<br/>to extent of prior 5-year<br/>unrecaptured §1231 losses"]
-    L --> M["Remaining net gain =<br/>Long-term capital gain"]
-    K -- "Net loss" --> N["Entire net loss =<br/>Ordinary loss"]
-```
+1. **Compute the gain or loss** on each asset.
+2. **Apply recapture** to each asset sold at a gain: §1245 (all depreciation), §1250 (excess depreciation), and, for corporations, §291. Recapture is ordinary income.
+3. **Treat the rest as §1231 gain or loss** for business property held more than one year. For buildings sold by noncorporate taxpayers, note how much of the §1231 gain is unrecaptured §1250 gain.
+4. **Net all §1231 gains and losses.** A net loss is ordinary, and you are done.
+5. **Apply the lookback rule** to a net gain: it is ordinary income to the extent of nonrecaptured net §1231 losses from the prior 5 years.
+6. **Tax the rest as long-term capital gain.** The 25% portion is the unrecaptured §1250 gain, limited to the net §1231 gain and reduced first by any lookback recapture. The balance is taxed at 0%, 15%, or 20%.
 
-### Step-by-Step Summary
-
-1. **Calculate total gain realized** on each asset sold.
-2. **Apply §1245 recapture** (personal property): Recapture as ordinary income the lesser of gain or total depreciation.
-3. **Apply §1250 recapture** (real property): Recapture as ordinary income the lesser of gain or excess depreciation (usually \$0 for post-1986 property).
-4. **Calculate unrecaptured §1250 gain** (real property): The lesser of remaining gain or straight-line depreciation, taxed at max 25%.
-5. **Enter §1231 netting**: Pool remaining gains and all §1231 losses.
-6. **Apply lookback rule**: If net §1231 gain, recharacterize as ordinary income to the extent of unrecaptured §1231 losses from prior 5 years.
-7. **Final characterization**: Any remaining net §1231 gain is long-term capital gain; any net §1231 loss is ordinary.
-
-### Comprehensive Example
-
-> **Example:** Dana operates a sole proprietorship. During the current year, Dana disposes of three business assets, all held for more than one year:
+> **Example:** Dana, a sole proprietor, sells three business assets this year, all held more than one year. Dana has \$20,000 of nonrecaptured net §1231 losses from two years ago.
 >
-> | Asset | Type | Original Cost | Depreciation | Adj. Basis | Sale Price | Gain (Loss) |
+> | Asset | Type | Cost | Depreciation | Adjusted Basis | Sale Price | Gain (Loss) |
 > |---|---|---|---|---|---|---|
 > | Equipment | §1245 | \$200,000 | \$80,000 | \$120,000 | \$185,000 | \$65,000 |
-> | Building | §1250 (post-1986) | \$500,000 | \$150,000 | \$350,000 | \$525,000 | \$175,000 |
-> | Land | §1231 (non-depreciable) | \$100,000 | \$0 | \$100,000 | \$70,000 | (\$30,000) |
+> | Building | §1250, post-1986 | \$500,000 | \$150,000 | \$350,000 | \$575,000 | \$225,000 |
+> | Land | §1231 | \$100,000 | \$0 | \$100,000 | \$70,000 | (\$30,000) |
 >
-> Dana has \$20,000 of unrecaptured §1231 ordinary losses from Year 2 (within the prior 5 years).
+> **Step 1, recapture.** The equipment's \$65,000 gain is less than its \$80,000 of depreciation, so all \$65,000 is §1245 ordinary income. The building used straight-line depreciation, so it has no §1250 recapture.
 >
-> **Step 1: §1245 Recapture on Equipment**
-> - §1245 ordinary income = min(\$65,000 gain, \$80,000 depreciation) = **\$65,000 ordinary income**
-> - Remaining §1231 gain from equipment = \$0
+> **Step 2, §1231 gains and losses.** The building's entire \$225,000 gain is §1231 gain, of which \$150,000 (the depreciation taken) is unrecaptured §1250 gain. The land produces a \$30,000 §1231 loss.
 >
-> **Step 2: §1250 Recapture on Building**
-> - Excess depreciation = \$0 (straight-line used, post-1986)
-> - §1250 ordinary income = **\$0**
+> **Step 3, netting.** \$225,000 - \$30,000 = \$195,000 net §1231 gain.
 >
-> **Step 3: Unrecaptured §1250 Gain on Building**
-> - Unrecaptured §1250 gain = min(\$175,000 gain, \$150,000 depreciation) = **\$150,000** (taxed at max 25%)
-> - Remaining §1231 gain from building = \$175,000 - \$150,000 = \$25,000
+> **Step 4, lookback.** \$20,000 of the net gain is ordinary income. The remaining \$175,000 is long-term capital gain.
 >
-> **Step 4: §1231 Netting**
->
-> | Item | §1231 Gain (Loss) |
-> |---|---|
-> | Equipment (after §1245) | \$0 |
-> | Building (after unrecaptured §1250) | \$25,000 |
-> | Land | (\$30,000) |
-> | **Net §1231 result** | **(\$5,000)** |
->
-> Because the net result is a **loss**, the entire \$5,000 is an **ordinary loss**.
->
-> **Summary of Dana's Tax Characterization:**
+> **Step 5, rate layers.** The 25% portion is \$150,000 (less than the \$195,000 net gain) minus the \$20,000 lookback, or \$130,000. The other \$45,000 is taxed at 0%, 15%, or 20%.
 >
 > | Component | Amount | Character |
 > |---|---|---|
 > | §1245 recapture | \$65,000 | Ordinary income |
-> | Unrecaptured §1250 gain | \$150,000 | LTCG at max 25% |
-> | Net §1231 loss | (\$5,000) | Ordinary loss |
-> | **Net effect** | **\$210,000** | Mixed |
+> | §1231 lookback recapture | \$20,000 | Ordinary income |
+> | Unrecaptured §1250 gain | \$130,000 | Long-term capital gain, maximum 25% |
+> | Other net §1231 gain | \$45,000 | Long-term capital gain, 0%, 15%, or 20% |
+> | **Total** | **\$260,000** | Equals \$65,000 + \$225,000 - \$30,000 |
 >
-> Note: The lookback rule does not apply because the §1231 netting resulted in a net loss, not a gain. The \$20,000 of prior unrecaptured losses remains available for future lookback years.
+> The prior \$20,000 of §1231 losses is now fully recaptured, so none carries into future lookback years.
 
 ---
 
 ## Section 1244 Small Business Stock
 
-### Overview
+### The Rule
 
-**Section 1244** provides a special benefit: losses on the sale or worthlessness of qualifying **small business stock** are treated as **ordinary losses** rather than capital losses, up to annual limits. This allows the loss to be deducted against ordinary income without the \$3,000 capital loss limitation.
-
-### Requirements for §1244 Treatment
+Investors in a small corporation that fails would normally have a capital loss, usable only against capital gains plus \$3,000 a year. **Section 1244** turns that loss into an **ordinary loss**, up to an annual limit, so it can offset salary and other ordinary income right away.
 
 | Requirement | Detail |
 |---|---|
-| **Issuing entity** | Must be a domestic **C corporation** or **S corporation** |
-| **Capitalization limit** | Total money and property received by the corporation for stock (at time of issuance) must not exceed **\$1,000,000** |
-| **Issued for money or property** | Stock must be issued in exchange for money or property (**not services**) |
-| **Original holder** | Only the **original purchaser** of the stock qualifies (not subsequent buyers) |
-| **Active business requirement** | During the 5 years before the loss (or the corporation's existence if shorter), more than **50%** of gross receipts must come from **active business operations** (not passive income) |
-
-### Ordinary Loss Limits
+| **Issuing corporation** | A domestic corporation (C or S) |
+| **Capitalization limit** | Total money and property the corporation received for stock, as of the time the stock is issued, did not exceed **\$1,000,000** |
+| **Consideration** | Issued for money or property, **not services** (and not in exchange for other stock or securities) |
+| **Original holder** | Only an individual (or a partnership) who acquired the stock **directly from the corporation** qualifies; later buyers do not |
+| **Active business** | For the 5 years before the loss (or the corporation's life, if shorter), more than **50%** of gross receipts came from sources other than passive income such as rents, royalties, dividends, and interest |
 
 | Filing Status | Maximum Ordinary Loss Per Year |
 |---|---|
-| Single / Head of Household / Married Filing Separately | **\$50,000** |
-| Married Filing Jointly | **\$100,000** |
+| Single, head of household, or married filing separately | **\$50,000** |
+| Married filing jointly | **\$100,000** |
 
-Any loss **exceeding** the annual limit is treated as a **capital loss** (subject to normal capital loss limitations).
+These amounts are fixed in the statute. Any loss above the annual limit is a capital loss.
 
-> **Example:** Alex, a single taxpayer, purchased 1,000 shares of qualifying §1244 stock in BIF Partners Inc. for \$80,000. The corporation met all §1244 requirements. Alex later sells all 1,000 shares for \$15,000.
+> **Example:** Alex, who is single, bought 1,000 shares of qualifying §1244 stock directly from Honey Entertainment Inc. for \$80,000 and later sells all of it for \$15,000.
 >
-> - Loss realized = \$15,000 - \$80,000 = **(\$65,000)**
-> - §1244 ordinary loss = **\$50,000** (single filer limit)
-> - Remaining capital loss = \$65,000 - \$50,000 = **\$15,000** (long-term capital loss, assuming held > 1 year)
+> - Loss = \$15,000 - \$80,000 = **(\$65,000)**
+> - §1244 ordinary loss = **\$50,000** (single limit)
+> - Capital loss = **\$15,000** (long-term, assuming Alex held the shares more than 1 year)
 >
-> Alex deducts the \$50,000 ordinary loss against ordinary income in full. The \$15,000 capital loss offsets capital gains first, then up to \$3,000 against ordinary income, with any remainder carried forward.
+> Alex deducts the \$50,000 against ordinary income. The \$15,000 capital loss offsets capital gains first, then up to \$3,000 of ordinary income, with any rest carried forward.
 
-> **Example:** Sam and Priya, married filing jointly, each contributed \$40,000 to acquire §1244 stock in a qualifying small corporation (total investment = \$80,000). The stock becomes worthless.
->
-> - Total loss = **\$80,000**
-> - §1244 ordinary loss = **\$80,000** (within the \$100,000 MFJ limit)
-> - Capital loss = **\$0**
->
-> The entire \$80,000 is deductible as an ordinary loss.
+If Sam and Priya, who file jointly, had invested \$40,000 each in §1244 stock that became worthless, their entire \$80,000 loss would be ordinary, because it is within the \$100,000 joint limit.
 
 :::caution
 
-If stock was received in exchange for **services**, it does **not** qualify for §1244 treatment. Additionally, if the corporation's capitalization exceeded \$1,000,000 at the time the stock was issued, none of the stock qualifies.
-
-:::
-
-:::tip[Exam Tip]
-
-The TCP exam may test whether stock qualifies for §1244 by modifying the facts. Watch for stock issued for services, corporations with excess capitalization, or purchasers who acquired shares on the secondary market (not from the corporation directly).
+Watch for facts that knock out §1244: stock received for **services**, a corporation whose capitalization exceeded \$1,000,000 when the stock was issued, or shares **bought from another shareholder** rather than from the corporation.
 
 :::
 
 ---
 
+## Section 1202 Qualified Small Business Stock
+
+Section 1244 helps when a small business fails. **Section 1202** helps when it succeeds. A noncorporate taxpayer who sells **qualified small business stock (QSBS)** can exclude some or all of the gain. QSBS is stock of a domestic C corporation acquired at original issuance for money, property, or services, where the corporation's gross assets did not exceed a limit when the stock was issued and at least 80% of its assets are used in an active qualified business. Most service businesses, such as health, law, accounting, and consulting, cannot qualify.
+
+OBBBA expanded the exclusion for stock acquired after July 4, 2025. These changes have been eligible for testing since July 1, 2026.
+
+| Rule | Stock Acquired After July 4, 2025 | Older Stock |
+|---|---|---|
+| **Exclusion** | 50% if held at least 3 years, 75% at 4 years, 100% at 5 years or more | Requires more than 5 years; the percentage depends on when the stock was acquired (100% for stock acquired after September 27, 2010) |
+| **Per-issuer gain cap** | Greater of \$15,000,000 (indexed after 2026) or 10 times basis | Greater of \$10,000,000 or 10 times basis |
+| **Gross assets limit at issuance** | \$75,000,000 (indexed after 2026) | \$50,000,000 |
+
+The excluded gain on the newer stock is not an AMT preference. The part of a gain that is not excluded is taxed at a maximum 28% rate.
+
+> **Example:** Casey buys newly issued QSBS from Salmon Entertainment Inc. in September 2025 for \$1,000,000 and sells it in October 2029, more than 4 years but less than 5 years later, for \$5,000,000. Of the \$4,000,000 gain, 75% (\$3,000,000) is excluded, and the remaining \$1,000,000 is taxed at a maximum 28%. Had Casey held the stock until September 2030, the entire gain would have been excluded.
+
+---
+
 ## Installment Sales (IRC §453)
 
-### Overview
+### The Rule
 
-An **installment sale** is a disposition of property where at least one payment is received **after the year of sale**. Under the installment method, the taxpayer recognizes gain **proportionally** as payments are received, rather than recognizing the entire gain in the year of sale.
-
-### Key Formulas
-
-$$
-\text{Gross Profit Percentage} = \frac{\text{Gross Profit}}{\text{Contract Price}}
-$$
+An **installment sale** is a sale of property in which at least one payment is received after the year of sale. The installment method matches tax to cash: the seller recognizes gain **in proportion to the payments received**, rather than all in the year of sale. It applies automatically unless the seller elects out.
 
 $$
 \text{Gross Profit} = \text{Selling Price} - \text{Adjusted Basis} - \text{Selling Expenses}
 $$
 
 $$
-\text{Contract Price} = \text{Selling Price} - \text{Mortgages Assumed by Buyer (to the extent they do not exceed basis)}
+\text{Contract Price} = \text{Selling Price} - \text{Mortgage Assumed by Buyer} + \text{Excess of Mortgage over Basis}
+$$
+
+$$
+\text{Gross Profit Percentage} = \frac{\text{Gross Profit}}{\text{Contract Price}}
 $$
 
 $$
 \text{Gain Recognized in a Year} = \text{Payments Received} \times \text{Gross Profit Percentage}
 $$
 
-:::info
+A mortgage the buyer assumes is not a payment, except for any part that exceeds the seller's basis (plus selling expenses). That excess is treated as a payment received in the year of sale.
 
-**Payments received** include cash payments plus the portion of any mortgage assumed by the buyer that exceeds the seller's adjusted basis (this excess is treated as a payment received in the year of sale).
+### Basic Installment Sale
 
-:::
-
-### Basic Installment Sale Example
-
-> **Example:** Jordan sells undeveloped land (not subject to depreciation) with an adjusted basis of \$60,000 for \$200,000. The buyer pays \$40,000 at closing and will pay \$40,000 per year for the next 4 years. Jordan incurs no selling expenses.
+> **Example:** Taylor sells investment land with an adjusted basis of \$60,000 for \$200,000. The buyer pays \$40,000 at closing and \$40,000 a year for the next 4 years. There are no selling expenses.
 >
-> **Calculate the gross profit percentage:**
 > - Gross profit = \$200,000 - \$60,000 = \$140,000
-> - Contract price = \$200,000 (no mortgage assumed)
+> - Contract price = \$200,000 (no mortgage)
 > - Gross profit percentage = \$140,000 ÷ \$200,000 = **70%**
 >
-> **Gain recognized each year:**
->
-> | Year | Payment Received | × GP% | Gain Recognized |
-> |---|---|---|---|
-> | Year 1 (sale) | \$40,000 | 70% | \$28,000 |
-> | Year 2 | \$40,000 | 70% | \$28,000 |
-> | Year 3 | \$40,000 | 70% | \$28,000 |
-> | Year 4 | \$40,000 | 70% | \$28,000 |
-> | Year 5 | \$40,000 | 70% | \$28,000 |
-> | **Total** | **\$200,000** | | **\$140,000** |
+> Taylor recognizes \$40,000 × 70% = **\$28,000** of gain in each of the 5 years, \$140,000 in total.
 
-### Installment Sale with Mortgage
+### Installment Sale with a Mortgage
 
-When the buyer assumes an existing mortgage, the calculation requires additional steps.
-
-> **Example:** Bear Co. sells a commercial building for \$500,000. The buyer assumes Bear Co.'s \$150,000 mortgage. Bear Co.'s adjusted basis is \$200,000. The buyer pays \$50,000 at closing and the remaining \$300,000 in equal installments over 3 years (\$100,000 per year). No selling expenses.
+> **Example:** Panda Industries sells a commercial building with an adjusted basis of \$200,000 for \$500,000. The buyer assumes Panda's \$150,000 mortgage, pays \$50,000 at closing, and pays the remaining \$300,000 at \$100,000 a year for 3 years.
 >
-> **Step 1: Determine if mortgage exceeds basis**
-> - Mortgage assumed = \$150,000
-> - Adjusted basis = \$200,000
-> - Excess mortgage = \$150,000 - \$200,000 = **\$0** (mortgage does not exceed basis)
->
-> **Step 2: Compute gross profit and contract price**
+> - The mortgage (\$150,000) does not exceed basis (\$200,000), so none of it is a payment.
 > - Gross profit = \$500,000 - \$200,000 = **\$300,000**
 > - Contract price = \$500,000 - \$150,000 = **\$350,000**
+> - Gross profit percentage = \$300,000 ÷ \$350,000 = **85.71%** (6/7)
 >
-> **Step 3: Gross profit percentage**
-> - GP% = \$300,000 ÷ \$350,000 = **85.71%**
->
-> **Step 4: Gain recognized each year**
->
-> | Year | Payment | × GP% | Gain Recognized |
-> |---|---|---|---|
-> | Year 1 (closing) | \$50,000 | 85.71% | \$42,857 |
-> | Year 2 | \$100,000 | 85.71% | \$85,714 |
-> | Year 3 | \$100,000 | 85.71% | \$85,714 |
-> | Year 4 | \$100,000 | 85.71% | \$85,714 |
-> | **Total** | **\$350,000** | | **\$300,000** (rounded) |
+> | Year | Payment | Gain Recognized |
+> |---|---|---|
+> | Year 1 (closing) | \$50,000 | \$42,857 |
+> | Year 2 | \$100,000 | \$85,714 |
+> | Year 3 | \$100,000 | \$85,714 |
+> | Year 4 | \$100,000 | \$85,714 |
+> | **Total** | **\$350,000** | **\$300,000** (after rounding) |
 
 ### Mortgage Exceeding Basis
 
-When the mortgage assumed by the buyer **exceeds** the seller's adjusted basis, the excess is treated as a payment received in the year of sale.
-
-> **Example:** Bear Co. sells property for \$400,000. The buyer assumes Bear Co.'s \$250,000 mortgage. Bear Co.'s adjusted basis is \$180,000.
+> **Example:** Cub Entertainment sells property with an adjusted basis of \$180,000 for \$400,000, and the buyer assumes Cub's \$250,000 mortgage.
 >
-> - Excess mortgage over basis = \$250,000 - \$180,000 = **\$70,000** (treated as Year 1 payment)
+> - Excess of mortgage over basis = \$250,000 - \$180,000 = **\$70,000**, treated as a Year 1 payment
 > - Gross profit = \$400,000 - \$180,000 = **\$220,000**
 > - Contract price = \$400,000 - \$250,000 + \$70,000 = **\$220,000**
-> - GP% = \$220,000 ÷ \$220,000 = **100%**
+> - Gross profit percentage = \$220,000 ÷ \$220,000 = **100%**
 >
-> Every dollar received (including the \$70,000 excess mortgage) is fully taxable gain.
+> Every dollar Cub receives, including the \$70,000 deemed payment, is gain.
 
-### Depreciation Recapture and Installment Sales
+### Depreciation Recapture Is Never Deferred
 
-**Critical rule:** Depreciation recapture under §1245 and §1250 is recognized in **full in the year of sale**, regardless of whether the installment method is used. Only the gain **in excess of** recapture income can be spread over the installment period.
+All §1245 and §1250 recapture is recognized **in the year of sale**, even if no cash is received that year. Only the gain above the recapture can be spread over the payments. The recapture is added to basis when computing the gross profit percentage, so it is not taxed twice.
 
-> **Example:** Alex sells equipment (§1245 property) for \$300,000. Adjusted basis is \$100,000 (original cost \$220,000, depreciation of \$120,000). The buyer pays \$100,000 at closing, with the remaining \$200,000 paid over 2 years.
+> **Example:** Quinn sells equipment (§1245 property) for \$300,000. It cost \$220,000, and \$120,000 of depreciation was taken, so its adjusted basis is \$100,000. The buyer pays \$100,000 at closing and \$100,000 in each of the next 2 years.
 >
-> - Gain realized = \$300,000 - \$100,000 = **\$200,000**
-> - §1245 recapture = min(\$200,000, \$120,000) = **\$120,000** (ordinary income in Year 1)
-> - Remaining §1231 gain eligible for installment method = \$200,000 - \$120,000 = **\$80,000**
-> - GP% for installment portion = \$80,000 ÷ \$300,000 = **26.67%**
+> - Gain = \$300,000 - \$100,000 = **\$200,000**
+> - §1245 recapture = min(\$200,000, \$120,000) = **\$120,000**, all ordinary income in Year 1
+> - Gain eligible for the installment method = \$200,000 - \$120,000 = **\$80,000**
+> - Gross profit percentage = \$80,000 ÷ \$300,000 = **26.67%**
 >
 > | Year | Payment | Installment Gain | §1245 Recapture | Total Gain Recognized |
 > |---|---|---|---|---|
 > | Year 1 | \$100,000 | \$26,667 | \$120,000 | \$146,667 |
 > | Year 2 | \$100,000 | \$26,667 | \$0 | \$26,667 |
 > | Year 3 | \$100,000 | \$26,667 | \$0 | \$26,667 |
-> | **Total** | **\$300,000** | **\$80,000** | **\$120,000** | **\$200,000** |
+> | **Total** | **\$300,000** | **\$80,000** (after rounding) | **\$120,000** | **\$200,000** |
 
-:::warning
+### When the Installment Method Is Not Available
 
-Depreciation recapture is **never** deferred under the installment method. Even if no cash is received in the year of sale, the full recapture amount is recognized as ordinary income. This is one of the most commonly tested installment sale rules.
-
-:::
-
-### Exclusions from Installment Method
-
-The installment method is **not available** for:
-
-| Excluded Transaction | Reason |
+| Transaction | Reason |
 |---|---|
-| Sales of **inventory** | Dealer dispositions; gain recognized in full at sale |
-| Sales of **publicly traded stock or securities** | Readily marketable; gain recognized in full at sale |
-| Sales at a **loss** | Installment method applies only to gains |
-| **Depreciation recapture** portion of gain | Recognized in full in year of sale (as discussed above) |
-| Dealer dispositions of real or personal property | Gain recognized in full (with limited exceptions for farm property and timeshares) |
+| Sales of **inventory** and other dealer dispositions | Gain recognized in full at sale (limited exceptions for farm property and timeshares) |
+| Sales of **publicly traded stock or securities** | Readily marketable, so gain is recognized in full |
+| Sales at a **loss** | The method applies only to gains |
+| The **recapture** part of the gain | Recognized in full in the year of sale |
+| **Depreciable property sold to a controlled entity** (a related person under §1239) | All payments are treated as received in the year of sale, unless tax avoidance was not a principal purpose |
 
 ### Related Party Installment Sales
 
-When an installment sale is made to a **related party** (as defined in §267 and §318), and the related party **resells** the property within **2 years**, the original seller must recognize the remaining deferred gain immediately.
+Installment sales between family members invite a simple abuse: the seller defers gain while the related buyer resells the property for cash right away. Under the **second disposition rule** of §453(e), if a related buyer (as defined by the §267 and §318 attribution rules) resells the property within **2 years** of the first sale, the original seller is treated as receiving, at the time of the resale, the lesser of the resale price or the original contract price, minus the payments already received.
 
-This rule prevents taxpayers from using installment sales to related parties as a mechanism to defer gain while the related party converts the property to cash.
-
-> **Example:** Derek sells land with an adjusted basis of \$50,000 to his daughter Jamie for \$150,000 under an installment note. Jamie then sells the land to an unrelated buyer 6 months later for \$155,000.
+> **Example:** Derek sells land with a basis of \$50,000 to his daughter Jamie for \$150,000: \$30,000 down and the rest over 4 years. Derek's gross profit percentage is \$100,000 ÷ \$150,000 = 66.67%, so he reports \$20,000 of gain in the year of sale. Six months later, Jamie resells the land to an unrelated buyer for \$155,000.
 >
-> - Derek's gross profit = \$100,000 (GP% = 66.67%)
-> - Upon Jamie's resale within 2 years, Derek must **immediately recognize** all remaining deferred gain, even if he has not yet received all installment payments from Jamie.
+> - Deemed payment to Derek = lesser of \$155,000 or \$150,000, minus the \$30,000 already received = **\$120,000**
+> - Gain Derek recognizes that year = \$120,000 × 66.67% = **\$80,000**
+>
+> All \$100,000 of Derek's gain is now recognized. Jamie's later installment payments are tax-free to Derek.
 
 :::danger
 
-The related party resale rule is a **trap** on the exam. If the related-party buyer disposes of the property within 2 years, the original seller's remaining installment gain is accelerated into the year of the second disposition. Exceptions exist for involuntary conversions and sales after the death of either party.
+The second disposition rule is a common trap. The exceptions are narrow: a resale after the death of either party, an involuntary conversion, or a showing that neither sale had a principal purpose of avoiding tax.
 
 :::
+
+### Farmland Sold to Farmers (§1062)
+
+OBBBA added a separate election for sales of qualified farmland to a qualified farmer in tax years beginning after July 4, 2025. The seller may pay the net income tax on the gain in **four equal annual installments**. The land must have been farmed, or leased to a farmer, for substantially all of the 10 years before the sale, and it must carry a 10-year covenant restricting it to farming. The election defers payment of the tax, not recognition of the gain, so it is not the §453 installment method.
 
 ---
 
 ## Reviewing Asset Disposition Schedules
 
-### The CPA's Role
-
-A key competency tested on TCP is the ability to **review a schedule of asset dispositions** and supporting documentation to verify the **completeness and accuracy** of reported gains and losses. This includes verifying both the **amount** and the **character** of each gain or loss.
-
-### Key Items to Verify
+The blueprint asks you to review a client's schedule of asset dispositions and the source data behind it, and to resolve discrepancies flagged by automated diagnostic checks. The goal is to confirm both the **amount** and the **character** of every gain and loss.
 
 | Review Item | What to Check |
 |---|---|
-| **Original cost and date placed in service** | Confirm against purchase invoices, closing statements, or fixed asset ledger |
-| **Accumulated depreciation** | Reconcile to the depreciation schedule; ensure depreciation methods and conventions are correct |
-| **Sale price and date of sale** | Verify with sales agreements, closing documents, or 1099-S/1099-B |
-| **Selling expenses** | Confirm commissions, legal fees, and transfer costs are deducted from amount realized |
-| **Holding period** | Confirm > 1 year for §1231/LTCG treatment; check date placed in service vs. date of sale |
-| **Asset classification** | Ensure §1245 vs. §1250 vs. capital asset classification is correct |
-| **Depreciation recapture** | Verify §1245 and §1250 recapture computations match accumulated depreciation records |
-| **Installment reporting** | Confirm gross profit percentage, payments received, and proper deferral of §1231 gain |
-| **§1244 qualification** | Confirm capitalization limit, original issuance, and active business requirement |
-| **Prior §1231 losses** | Check 5-year lookback for unrecaptured §1231 losses that would recharacterize current gains |
+| **Cost and date placed in service** | Purchase invoices, closing statements, and the fixed asset ledger |
+| **Accumulated depreciation** | Agrees with the tax depreciation schedule, including bonus depreciation and §179 expensing |
+| **Sale price and date** | Sales agreements, closing statements, and Forms 1099-S, 1099-B, and 1099-DA |
+| **Selling expenses** | Commissions, legal fees, and transfer costs reduce the amount realized |
+| **Holding period** | More than one year for §1231 and long-term treatment |
+| **Asset classification** | §1245, §1250, capital asset, or ordinary asset |
+| **Recapture** | Computed from the depreciation records, and recognized in the year of sale even for installment sales |
+| **Prior §1231 losses** | Five-year lookback history |
+| **Stock losses and gains** | §1244 requirements for ordinary loss treatment; §1202 holding period and acquisition date for exclusions |
 
-### Common Discrepancies and Diagnostic Checks
+### Common Discrepancies
 
 | Discrepancy | Resolution |
 |---|---|
-| Depreciation on the asset schedule does not match the tax depreciation schedule | Reconcile both schedules; adjust the disposition gain/loss calculation to reflect the correct accumulated depreciation |
-| Asset classified as §1250 but is actually personal property (e.g., equipment) | Reclassify as §1245; recalculate recapture (all depreciation, not just excess) |
-| Gain treated entirely as §1231 without applying depreciation recapture | Apply §1245/§1250 recapture first; recategorize the ordinary income portion |
-| Holding period incorrectly computed (short-term treated as long-term) | Recompute holding period; if ≤ 1 year, gain/loss is ordinary rather than §1231 |
-| Installment sale gain not adjusted for depreciation recapture in year of sale | Recognize full §1245/§1250 recapture in year of sale; defer only the remaining gain |
-| §1231 lookback rule not applied | Review prior 5 years of §1231 activity; recharacterize net §1231 gain as ordinary income to the extent of unrecaptured losses |
-| §1244 loss claimed but stock was acquired on secondary market | Disallow §1244 treatment; reclassify as capital loss |
+| Depreciation on the disposition schedule does not match the tax depreciation schedule | Reconcile, then recompute adjusted basis and gain |
+| Equipment classified as §1250 property | Reclassify as §1245 and recapture all depreciation, not just excess |
+| Gain treated entirely as §1231 gain | Apply recapture first |
+| Short-term business property treated as §1231 property | If held one year or less, the gain or loss is ordinary |
+| Installment sale defers the recapture | Recognize all recapture in the year of sale |
+| Lookback rule not applied | Review the prior 5 years and recharacterize as needed |
+| §1244 loss claimed on shares bought from another shareholder | Disallow ordinary treatment; the loss is capital |
+| Form 1099-DA shows proceeds but no basis | The asset is noncovered; the taxpayer must supply basis from their own records for that wallet or account |
 
 :::tip[Exam Tip]
 
-When the exam presents a "review" scenario, systematically check: (1) Is the amount of gain/loss correct? (2) Is the character correct? (3) Were the recapture rules applied in the right order? (4) Was the lookback rule considered? These four checks will catch most discrepancies.
+In a review scenario, ask four questions of every line: Is the amount right? Is the character right? Was recapture applied before §1231 netting? Was the lookback rule considered? Those four checks catch most planted errors.
 
 :::
 
@@ -574,15 +427,15 @@ When the exam presents a "review" scenario, systematically check: (1) Is the amo
 
 | Concept | Key Rule |
 |---|---|
-| **§1231 property** | Depreciable/real property used in business, held > 1 year |
-| **§1231 netting** | Net gain is LTCG; net loss is ordinary loss ("best of both worlds") |
-| **§1231 lookback** | Net §1231 gain recharacterized as ordinary income to extent of unrecaptured §1231 losses in prior 5 years |
-| **§1245 recapture** | Gain recaptured as ordinary income = min(gain, **all** accumulated depreciation); applies to personal property |
-| **§1250 recapture** | Gain recaptured as ordinary income = min(gain, **excess** depreciation over straight-line); usually \$0 for post-1986 property |
-| **Unrecaptured §1250 gain** | Straight-line depreciation portion of gain on real property; taxed at max **25%** |
-| **§1244 stock loss** | Ordinary loss up to \$50,000 (single) / \$100,000 (MFJ) on qualifying small business stock; excess = capital loss |
-| **Installment sales** | Gain recognized proportionally as payments received; GP% = Gross Profit ÷ Contract Price |
-| **Installment + recapture** | Depreciation recapture recognized in **full** in year of sale; never deferred |
-| **Related party installment** | If related buyer resells within 2 years, seller's remaining gain is accelerated |
-| **Gain characterization order** | §1245/§1250 recapture, then unrecaptured §1250, then §1231 netting, then lookback rule |
-| **Disposition review** | Verify amount, character, recapture, lookback, and reconcile to depreciation schedules |
+| **Digital assets** | Property, not currency; capital assets when held for investment; exchanges are taxable |
+| **§1231 property** | Depreciable and real property used in business, held more than 1 year |
+| **§1231 netting** | Net gain is long-term capital gain; net loss is ordinary |
+| **§1231 lookback** | Net gain is ordinary to the extent of nonrecaptured §1231 losses from the prior 5 years |
+| **§1245 recapture** | Ordinary income up to **all** depreciation, including bonus and §179 |
+| **§1250 recapture** | Ordinary income up to **excess** depreciation; usually zero after 1986 |
+| **§291** | Corporations treat 20% of the depreciation-related gain on buildings as ordinary |
+| **Unrecaptured §1250 gain** | Depreciation portion of §1231 gain on buildings; maximum 25% for individuals; limited to net §1231 gain and reduced first by lookback recapture |
+| **§1244 stock** | Ordinary loss up to \$50,000 (\$100,000 MFJ) a year; excess is capital |
+| **§1202 stock** | Gain exclusion; for stock acquired after July 4, 2025, 50%, 75%, or 100% after 3, 4, or 5 years |
+| **Installment sales** | Gain = payments × gross profit percentage; recapture is recognized in the year of sale |
+| **Related party installment sales** | Resale by a related buyer within 2 years accelerates the seller's gain; no installment method for depreciable property sold to a controlled entity |

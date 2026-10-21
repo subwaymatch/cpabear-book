@@ -1,247 +1,154 @@
 # Understanding the Entity and Its Environment
 
-Before an auditor can assess the risk of material misstatement and design appropriate audit procedures, the auditor must first develop a deep understanding of the entity being audited and the environment in which it operates. This is not a formality; it is the **foundation** of the entire risk-based audit. Without this understanding, the auditor cannot identify what could go wrong, where misstatements are most likely to occur, or how to allocate audit resources effectively.
-
-This section covers the requirements under **AU-C 315** (AICPA) and **AS 2110** (PCAOB), the **external and internal factors** the auditor must consider, the entity's **accounting policies** and **financial reporting framework**, the auditor's understanding of **internal control components**, the **risk assessment procedures** used to obtain this understanding, and key **sources of information** about the entity.
-
-:::info
-
-Both AU-C 315 (for nonissuers) and AS 2110 (for issuers) require the auditor to obtain an understanding of the entity and its environment, including internal control, as a basis for identifying and assessing the risks of material misstatement. This understanding is obtained through **risk assessment procedures**, which are performed in every audit.
-
-:::
+An auditor cannot judge what might be wrong in the financial statements without first knowing how the business makes money, what pressures it faces, and how its numbers are produced. AU-C 315 (as revised by SAS 145) and PCAOB AS 2110 require that understanding in every audit as the basis for identifying and assessing the risks of material misstatement. This chapter works from the outside in. It starts with the external factors that affect the entity, including the basic economic concepts the blueprint tests, then turns to internal factors such as ownership, governance under the Sarbanes-Oxley Act, strategy, and the use of technology. It closes with accounting policies, internal control and the IT environment, business processes, and the sources the auditor draws on.
 
 ---
 
-## Why Understanding the Entity Matters
+## Why the Understanding Matters
 
-Understanding the entity and its environment enables the auditor to:
+The understanding of the entity is the auditor's frame of reference for the whole audit. It is used to:
 
-- **Identify risks** of material misstatement at both the financial statement and assertion levels
-- **Design audit procedures** that are responsive to assessed risks
-- **Establish expectations** for analytical procedures
-- **Evaluate accounting estimates** and the reasonableness of management's judgments
-- **Detect conditions** that may indicate fraud risk or going concern issues
-- **Exercise professional skepticism** more effectively
+- **Identify and assess risks** of material misstatement at the financial statement and assertion levels
+- **Design responses** to those risks
+- **Develop expectations** for analytical procedures
+- **Evaluate estimates** and management's judgments
+- **Recognize** conditions that suggest fraud or going concern problems, and exercise professional skepticism
 
-**Example:** Grizzly Industries is a manufacturer that sells products internationally. If the auditor does not understand that Grizzly has significant foreign currency transactions, the auditor may fail to assess the risk of misstatement related to foreign currency translation and remeasurement, a potentially material area.
+**Example:** Grizzly Inc. sells products in many countries. An auditor who did not know that Grizzly has large foreign currency transactions would never assess the risk of errors in remeasuring and translating them, which could be a material area.
 
 ---
 
 ## External Factors
 
-The auditor must understand the **external environment** in which the entity operates. Key external factors include:
+The auditor considers the factors outside the entity that could affect its operations or the inherent risk of misstatement. The blueprint lists economic, environmental, financial reporting framework, government policy, industry, regulatory, supply chain, and technology factors. In practice these include:
 
-### Industry Conditions
+- **Industry conditions**: competition, demand, seasonality, and industry-specific accounting practices
+- **Regulation**: the regulators with authority over the entity, pending rule changes, and laws such as tax and environmental rules
+- **Economic conditions**: growth or recession, inflation, interest rates, exchange rates, and access to credit
+- **Other factors**: technological change, supply chain disruption, tariffs and trade policy, and climate-related and other environmental events
 
-- Nature of the industry (e.g., manufacturing, technology, financial services)
-- Competitive environment and market demand
-- Cyclical or seasonal patterns
-- Industry-specific accounting practices
-- Key performance metrics and benchmarks
-
-### Regulatory Environment
-
-- Applicable laws and regulations that directly affect the financial statements (e.g., tax law, environmental regulations, banking regulations)
-- Regulatory agencies with oversight authority
-- Pending or recently enacted regulatory changes
-- Industry-specific compliance requirements
-
-### Economic Conditions
-
-- General economic conditions (recession, growth, inflation)
-- Interest rate environment and its effect on borrowing costs
-- Foreign exchange rates for entities with international operations
-- Availability of financing and credit market conditions
-
-### Other External Factors
-
-- Technological changes affecting the entity or its industry
-- Tax law changes
-- Trade policies, tariffs, and geopolitical events
-
-**Example:** Polar Inc. operates in the oil and gas industry. The auditor's understanding of external factors includes the current commodity price environment (which affects revenue and asset impairment risk), environmental regulations (which affect contingent liabilities for cleanup costs), and the volatile nature of capital expenditures tied to exploration and development.
+**Example:** Polar Inc. explores for and produces oil and gas. The auditor's understanding of external factors includes the commodity price environment (which affects revenue and the risk of asset impairment), environmental regulation (which affects cleanup liabilities), and the volatile capital spending tied to drilling.
 
 :::tip[Exam Tip]
 
-On the CPA exam, questions about understanding the entity often test whether you can identify which **external factor** would be most relevant to a specific audit risk. For example, a sharp decline in commodity prices is most relevant to assessing **impairment risk** for an oil and gas company.
+Questions often ask which external factor is most relevant to a specific risk. A sharp fall in commodity prices, for example, points first to **impairment** risk for an oil and gas producer.
 
 :::
+
+### Economic Concepts the Exam Tests
+
+The blueprint expects candidates to understand a few basic economic ideas and to connect them to audit risk.
+
+**Supply and demand.** The market price of a product settles where the quantity buyers want equals the quantity sellers offer. When demand falls (the demand curve shifts left), prices and quantities fall. For the auditor, falling demand raises questions about inventory obsolescence and write-downs to net realizable value, and about whether long-lived assets are impaired.
+
+**Elasticity.** The **price elasticity of demand** measures how strongly the quantity demanded responds to a price change:
+
+$$\text{Price elasticity of demand} = \frac{\%\ \text{change in quantity demanded}}{\%\ \text{change in price}}$$
+
+Demand is **elastic** when the absolute value is greater than 1 (buyers respond strongly) and **inelastic** when it is less than 1. If a 10% price increase causes a 20% drop in units sold, elasticity is 2, and revenue falls by 12% (1.10 × 0.80 = 0.88). An auditor evaluating a forecast that assumes higher prices with no loss of volume should ask whether that is plausible for an elastic product.
+
+**Profit maximization.** A firm maximizes profit by producing up to the point where **marginal revenue** (the revenue from one more unit) equals **marginal cost** (the cost of one more unit). Production beyond that point adds more cost than revenue.
+
+**The business cycle.** Economies move through four phases: **expansion**, **peak**, **recession** (contraction), and **trough**, after which expansion begins again. Recessions raise many audit risks at once: weaker collections, impairments, covenant violations, and going concern doubts.
+
+**Economic indicators.** Indicators are grouped by when they move relative to the economy. **Leading** indicators change before the economy does (examples include stock prices, building permits, new orders, and the gap between long-term bond yields and short-term rates). **Coincident** indicators move with it (gross domestic product, industrial production, personal income, payroll employment). **Lagging** indicators change afterward (the unemployment rate, consumer price inflation, the prime rate). The blueprint names several specific measures:
+
+| Indicator | What It Measures | Why the Auditor Cares |
+|---|---|---|
+| **Consumer price index (CPI)** | Prices paid by consumers for a basket of goods and services; a lagging measure of inflation | Rising costs and wages; pricing pressure; assumptions in estimates |
+| **Producer price index (PPI)** | Prices received by domestic producers; often an early signal of consumer price changes | Input cost increases that squeeze margins and affect inventory costs |
+| **Federal funds rate** | The Federal Reserve's target rate for overnight lending between banks; a policy rate | Changes flow through to borrowing costs, discount rates, and fair values |
+| **Bond yields** | The return investors require on bonds | Rising yields lower the value of bond investments and raise discount rates used in impairment tests and fair value models |
+| **Unemployment rate** | The share of the labor force without jobs; a lagging indicator | Higher unemployment hurts collections for lenders and consumer businesses |
 
 ---
 
 ## Internal Factors
 
-The auditor must also understand the entity's **internal characteristics**:
+Next the auditor looks at the entity itself. The blueprint groups the internal factors that define the nature of an entity as its operations, ownership and governance structure, investment and financing plans, selection of accounting policies, objectives and strategies, and adoption and use of technologies, including artificial intelligence.
 
-### Nature of the Entity
+- **Operations**: products and services, revenue sources, key customers and suppliers, locations and segments, and related party relationships
+- **Ownership and governance**: public or private, the legal structure, and the composition of the board and audit committee
+- **Investments and financing**: acquisitions and disposals, special-purpose entities, debt and equity financing, and related party financing
+- **Objectives and strategies**: the business risks that come with them, such as rapid expansion or a new product line
+- **Technology, including AI**: new systems, automation, and the use of AI in processes that feed the financial statements. An entity that uses an AI model to approve credit or estimate reserves creates new risks around the model's data, logic, and controls.
 
-- Ownership structure (public vs. private, partnership, subsidiary)
-- Organizational structure and legal structure
-- Types of investments and investment activities (including special-purpose entities)
-- How the entity is financed (debt, equity, related-party financing)
+**Example:** Kodiak Partners is a private equity fund organized as a limited partnership. The auditor's understanding includes its investment strategy, the valuation methods used for portfolio companies (which involve significant estimation), the management fee and carried interest arrangements, and the division of authority between the general partner and the limited partners.
 
-### Operations
+### Corporate Governance Under the Sarbanes-Oxley Act
 
-- Principal products, services, and revenue sources
-- Key customers and suppliers
-- Geographic locations and operating segments
-- Supply chain and distribution methods
-- Related party relationships and transactions
+For issuers, part of the understanding is the entity's responsibilities under the corporate governance provisions of the **Sarbanes-Oxley Act of 2002** (SOX). The key provisions are:
 
-### Governance
-
-- Structure and composition of those charged with governance (board of directors, audit committee)
-- Management's philosophy and operating style
-- Entity's policies on corporate governance, risk management, and ethics
-
-### Strategies and Objectives
-
-- The entity's business strategies and related business risks
-- Management's financial and operating objectives
-- Capital allocation priorities
-- Plans for expansion, acquisition, restructuring, or divestiture
-
-**Example:** Kodiak Partners is a private equity fund organized as a limited partnership. The auditor's understanding of internal factors includes the fund's investment strategy, the valuation methodologies used for portfolio investments (often requiring significant estimation), the fee structure (management fees and carried interest), and the governance framework (general partner authority vs. limited partner oversight).
-
----
-
-## Entity's Accounting Policies and Financial Reporting Framework
-
-The auditor must understand the entity's selection and application of **accounting policies**, including:
-
-- The applicable **financial reporting framework** (e.g., U.S. GAAP, IFRS, special-purpose framework)
-- **Revenue recognition** methods and the timing of revenue
-- **Inventory valuation** methods (FIFO, weighted average, etc.)
-- **Depreciation and amortization** policies
-- **Estimates and judgments**, including assumptions underlying significant estimates
-- **Changes** in accounting policies or adoption of new standards
-- **Industry-specific accounting** requirements
-
-The auditor evaluates whether the entity's accounting policies are appropriate for its circumstances and consistent with the applicable framework.
-
-| Area of Focus | What the Auditor Considers |
+| Section | Requirement |
 |---|---|
-| **Appropriateness** | Are the policies suitable for the entity's industry and transactions? |
-| **Consistency** | Have the policies been applied consistently from period to period? |
-| **Disclosure** | Are the policies adequately disclosed in the notes to the financial statements? |
-| **Estimates** | Are significant estimates reasonable and based on supportable assumptions? |
+| **301** | The audit committee consists of independent directors, is directly responsible for appointing, compensating, and overseeing the auditor, and sets up procedures for handling complaints, including confidential reports from employees (whistleblowers) |
+| **302** | The CEO and CFO certify each annual and quarterly report: that it contains no material misstatement, that the statements fairly present the company's position, and that they are responsible for disclosure controls and internal control and have disclosed significant deficiencies and fraud to the auditor and audit committee |
+| **402** | Personal loans to directors and executive officers are generally prohibited |
+| **404** | Management reports annually on the effectiveness of internal control over financial reporting (404(a)); for larger public companies, the auditor also attests to it (404(b)) |
+| **406** | The company discloses whether it has a code of ethics for its senior financial officers, and if not, why not |
+| **407** | The company discloses whether its audit committee includes at least one financial expert, and if not, why not |
+
+The provisions that govern auditors themselves, such as the prohibited nonaudit services, are covered in [SEC, PCAOB, and Other Independence Rules](../ethics-professional-responsibilities-and-general-principles/sec-pcaob-and-other-independence-rules.md).
 
 ---
 
-## Understanding Internal Control Components
+## Accounting Policies and the Financial Reporting Framework
 
-As part of understanding the entity, the auditor must obtain an understanding of each of the **five components of internal control** (as defined by the COSO framework):
+The auditor understands the **applicable financial reporting framework** (U.S. GAAP, IFRS, or a special-purpose framework) and how the entity selects and applies its accounting policies: revenue recognition, inventory costing, depreciation, significant estimates and their assumptions, changes in policies, and new standards adopted.
 
-1. **Control environment**: Tone at the top, governance, integrity, and ethical values
-2. **Risk assessment**: The entity's process for identifying and responding to business risks relevant to financial reporting
-3. **Information and communication**: The information system and how the entity communicates roles and responsibilities for internal control
-4. **Control activities**: Policies and procedures that help ensure management directives are carried out (e.g., authorizations, reconciliations, segregation of duties)
-5. **Monitoring activities**: The entity's process for assessing the quality of internal control performance over time
+| Area | What the Auditor Considers |
+|---|---|
+| **Appropriateness** | Are the policies suitable for the entity's transactions and consistent with the framework? |
+| **Consistency** | Have they been applied consistently from period to period? |
+| **Disclosure** | Are they adequately disclosed? |
+| **Estimates** | Are significant estimates based on supportable assumptions? |
+
+---
+
+## Internal Control and the IT Environment
+
+The auditor obtains an understanding of the entity's **system of internal control**, organized around the five COSO components (covered in detail in the [COSO Framework](../internal-control/coso-framework.md) chapter). SAS 145 distinguishes what the auditor does for each:
+
+- **Control environment, the entity's risk assessment process, and its process for monitoring controls**: the auditor understands them and evaluates whether they are appropriate for the entity's circumstances. Weaknesses here are often financial statement level risks.
+- **Information system and communication**: the auditor understands how significant transactions are initiated, recorded, processed, and reported, including the IT involved, and how the entity communicates responsibilities.
+- **Control activities**: the auditor identifies the controls that address risks at the assertion level (including controls over significant risks, controls over journal entries, and controls the auditor plans to test), then **evaluates their design** and **determines whether they have been implemented**.
+
+The auditor also understands the **IT environment**: the IT applications that produce financial information, the supporting infrastructure (including cloud and hosted systems), and the IT processes for managing access, program changes, and operations. From that, the auditor identifies the **risks arising from the use of IT** and the **IT general controls** that address them.
 
 :::caution
 
-The auditor is required to obtain an understanding of **all five components** of internal control in every audit. However, the auditor is **not required to test** all controls, only those the auditor intends to rely upon to reduce substantive testing. Understanding internal control is distinct from testing its operating effectiveness.
+Understanding internal control is required in **every** audit. **Testing** controls is required only when the auditor plans to rely on them or when substantive procedures alone cannot provide sufficient evidence. Evaluating design and implementation is not the same as testing operating effectiveness.
 
 :::
 
 ---
 
-## Risk Assessment Procedures
+## Business Processes and Walkthroughs
 
-**Risk assessment procedures** are the specific procedures the auditor performs to obtain the understanding of the entity and its environment. They are **required in every audit** and include:
+The auditor learns how each significant class of transactions is **initiated**, **authorized**, **recorded**, **processed**, **corrected**, and **reported**, and documents that flow with **flowcharts**, **process diagrams**, or **narratives**. A **walkthrough** follows a single transaction through the whole process to confirm the understanding and identify the controls along the way.
 
-### Inquiry
-
-Asking management, those charged with governance, and other personnel within the entity questions about:
-
-- The entity's business operations, strategies, and objectives
-- Known risks and how management addresses them
-- Changes in the business or operating environment
-- The financial reporting process and internal controls
-
-### Observation
-
-Physically observing the entity's operations, facilities, and processes, such as touring a manufacturing plant, watching how transactions are processed, or observing the physical security of assets.
-
-### Inspection
-
-Examining documents and records, such as:
-
-- Business plans, organizational charts, and policy manuals
-- Board and audit committee minutes
-- Internal audit reports
-- Prior-year audit workpapers and financial statements
-- Contracts, agreements, and legal correspondence
-
-### Analytical Procedures
-
-Performing **preliminary analytical procedures** to identify unusual trends, unexpected relationships, or areas requiring further investigation. This includes:
-
-- Comparing current-year financial data to prior years
-- Comparing financial data to budgets or forecasts
-- Analyzing financial ratios relative to industry benchmarks
-- Identifying significant fluctuations that may indicate misstatement risk
-
-**Example:** While performing preliminary analytical procedures on Honey Entertainment's financial statements, the auditor notices that revenue increased 25% year over year while the number of events hosted declined by 10%. This unexpected relationship suggests the possibility of fictitious revenue or significant changes in pricing that warrant further investigation.
-
-:::tip[Exam Tip]
-
-Risk assessment procedures are **not sufficient by themselves** to provide a basis for the audit opinion. They must be complemented by **further audit procedures** (tests of controls and/or substantive procedures). Think of risk assessment procedures as the diagnostic step: they tell you where to look, not what to conclude.
-
-:::
+**Example:** The auditor walks one Bear Co. sale from the customer's purchase order through credit approval, shipment, invoicing, recording in the sales journal, and posting to the general ledger. At each step the auditor notes who acts, what system is used, and what control is applied, such as the credit check before shipment.
 
 ---
 
-## Understanding Business Processes and Transaction Flows
+## Sources of Information and Documentation
 
-The auditor must understand how significant classes of transactions are:
+The understanding comes from many sources: inquiries of management, accounting staff, internal audit, and legal counsel; prior-year audit documentation; board minutes, budgets, and strategic plans; industry publications and AICPA audit guides; regulatory filings; credit reports and economic data; and observation of operations. The engagement team's discussion of how the statements could be misstated (described in [Risk Assessment Procedures](./risk-assessment-procedures.md)) pulls these together.
 
-- **Initiated**: How do transactions begin? (e.g., customer places an order)
-- **Authorized**: Who approves the transaction?
-- **Recorded**: How and when are transactions captured in the accounting records?
-- **Processed**: What steps occur between recording and reporting?
-- **Reported**: How do transactions flow into the financial statements?
-- **Corrected**: How are errors identified and corrected?
+The auditor documents the key elements of the understanding, the sources used, the identified and assessed risks at the financial statement and assertion levels, the significant risks, and the controls evaluated. That documentation becomes the basis for the audit strategy and plan.
 
-This understanding is often documented using **flowcharts**, **narratives**, or **walkthrough procedures** (tracing a transaction from initiation to recording).
-
-**Example:** The auditor walks through Bear Co.'s revenue cycle by selecting one sales transaction and tracing it from the customer's purchase order, through credit approval, shipment, invoicing, recording in the sales journal, and posting to the general ledger. This walkthrough helps the auditor confirm the understanding of the transaction flow and identify relevant controls.
+**Example:** For Panda Industries, a music distributor, the auditor documents a highly competitive and fast-changing industry, complex royalty accounting for digital rights, a change in revenue recognition policy this year, and a small accounting department with limited segregation of duties. These findings lead the auditor to treat revenue recognition and royalty liabilities as significant risks.
 
 ---
 
-## Sources of Information About the Entity
+## Summary
 
-Auditors use a variety of sources to build their understanding:
-
-| Source | Examples |
+| Topic | Key Point |
 |---|---|
-| **Client inquiries** | Discussions with management, accounting staff, legal counsel, internal audit |
-| **Prior-year workpapers** | Prior audit documentation, including risk assessments and known issues |
-| **Industry publications** | Trade journals, industry risk alerts, AICPA audit guides |
-| **Regulatory filings** | SEC filings (10-K, 10-Q, proxy statements), regulatory examination reports |
-| **External data** | Credit reports, analyst coverage, economic forecasts |
-| **Internal documents** | Board minutes, strategic plans, budgets, internal audit reports, organizational charts |
-| **Observation** | Plant tours, observation of operations and personnel |
-| **Engagement team discussions** | Brainstorming sessions among audit team members about risks and susceptibility to misstatement |
-
-:::info
-
-Auditing standards require the **engagement team** to hold a discussion about the susceptibility of the entity's financial statements to material misstatement. This brainstorming session ensures that the knowledge and insights of all team members are shared and that the team collectively considers fraud risks and other significant risks.
-
-:::
-
----
-
-## Documenting the Understanding
-
-The auditor must **document** the understanding of the entity and its environment, including internal control, in the audit workpapers. Documentation typically includes:
-
-- A description of key aspects of the entity and its environment
-- Identified risks of material misstatement at the financial statement and assertion levels
-- The rationale for the risk assessment
-- Identified significant risks requiring special audit consideration
-- An overview of the entity's internal control components relevant to the audit
-
-This documentation forms the basis for the auditor's overall audit strategy and detailed audit plan.
-
-**Example:** After completing risk assessment procedures for Panda Records, the auditor documents that the entity operates in a highly competitive and rapidly evolving industry (music distribution), faces significant risk related to digital rights and royalty accounting, has recently changed its revenue recognition policy, and has a small accounting department with limited segregation of duties. These findings drive the auditor to classify revenue recognition and royalty liabilities as significant risks requiring enhanced audit procedures.
+| **Purpose** | The basis for identifying and assessing risks and designing responses |
+| **External factors** | Industry, regulation, economy, technology, supply chain, environment |
+| **Economic concepts** | Supply and demand, elasticity, marginal revenue equals marginal cost, business cycle phases, leading, coincident, and lagging indicators |
+| **Internal factors** | Operations, ownership and governance, investments and financing, accounting policies, strategies, technology and AI |
+| **SOX governance** | Audit committee (301), certifications (302), executive loans (402), internal control reporting (404), code of ethics (406), financial expert (407) |
+| **Internal control** | Understand all components; evaluate design and implementation of identified controls; understand the IT environment and ITGCs |
+| **Walkthroughs** | Follow one transaction from initiation to reporting to confirm the understanding |

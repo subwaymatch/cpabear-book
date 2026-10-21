@@ -1,371 +1,236 @@
 # Stock Compensation (Share-Based Payments)
 
-Share-based payment arrangements are a core topic in both financial reporting and CPA exam testing. Under **ASC 718**, entities that compensate employees (or non-employees) with stock options, restricted stock, or similar instruments must **measure** the award at fair value, **classify** it as equity or a liability, and **recognize** compensation cost over the requisite service period. The BAR section asks you to recall the key concepts (grant date, vesting conditions, valuation inputs) and to prepare journal entries for both equity-classified and liability-classified awards.
-:::info[Blueprint Coverage]
-This topic maps to **Area II, Group D** of the 2026 CPA Exam Blueprints for **Business Analysis and Reporting (BAR)**. The blueprint expects candidates to:
-
-- **Recall** concepts associated with share-based payment arrangements (e.g., grant date, vesting conditions, inputs to valuation techniques, valuation models).
-- **Use** a given fair value measurement of a share-based payment arrangement classified as **equity** to prepare journal entries to recognize compensation cost.
-- **Use** given fair value measurements of a share-based payment arrangement classified as a **liability** to prepare journal entries to recognize compensation cost.
-  :::
+Companies pay employees with stock because it ties pay to the company's success and conserves cash. The accounting question is how to put a cost on something that may be worth a lot or nothing, and that the employee earns only over several years. **ASC 718** answers in three moves: **measure** the award at fair value, **classify** it as equity or a liability, and **recognize** the cost over the period the employee works to earn it. The 2027 BAR blueprint (Area II, Group D) asks you to recall the key concepts (grant date, vesting conditions, valuation inputs and models) and to prepare journal entries from a given fair value for both equity-classified and liability-classified awards. This chapter covers the vocabulary first, then equity awards, liability awards, valuation inputs, and forfeitures.
 
 ---
 
-## ASC 718 Overview
+## The Framework
 
-ASC 718, _Compensation: Stock Compensation_, establishes a single framework: **measure at fair value, recognize over the service period**. The standard applies to all share-based payment transactions in which an entity acquires goods or services by issuing (or offering to issue) its shares, stock options, or other equity instruments.
+ASC 718 applies whenever an entity acquires goods or services by issuing, or offering to issue, its own shares, options, or other equity instruments, or by incurring liabilities based on the price of its shares. It covers awards to **employees and nonemployees** alike. ASU 2024-01 (eligible for testing since January 1, 2025) added examples showing when profits interest awards, which are common in partnerships and LLCs, fall within Topic 718.
 
 ```mermaid
 graph LR
-    A["Grant Date<br/>(Measure Fair Value)"] --> B["Service / Vesting Period<br/>(Recognize Cost)"]
-    B --> C["Settlement<br/>(Exercise or Expiration)"]
+    A["Grant date<br/>Measure fair value"] --> B["Vesting period<br/>Recognize cost"]
+    B --> C["Settlement<br/>Exercise or expiration"]
     style A fill:#cfe2f3,stroke:#333
     style B fill:#d9ead3,stroke:#333
     style C fill:#fff2cc,stroke:#333
 ```
 
-| Principle                 | Description                                                                                        |
-| ------------------------- | -------------------------------------------------------------------------------------------------- |
-| **Measurement date**      | Fair value is measured at the **grant date** for equity-classified awards                          |
-| **Recognition period**    | Compensation cost is recognized over the **requisite service period** (usually the vesting period) |
-| **Classification**        | Awards are classified as **equity** or **liability** based on settlement terms                     |
-| **Forfeiture accounting** | Entities may elect to estimate forfeitures or recognize them as they occur                         |
+A few terms carry most of the weight:
 
-:::tip[Exam Tip]
-The BAR exam will **give** you the fair value; you will not need to compute Black-Scholes on the exam. Focus on knowing **what the inputs mean** and how the resulting fair value flows into the journal entries.
-:::
+| Term | Meaning |
+| --- | --- |
+| **Grant date** | The date the employer and employee reach a mutual understanding of the key terms. It is the measurement date for equity-classified awards. |
+| **Vesting** | The employee earns the right to the award by satisfying its conditions. |
+| **Requisite service period** | The period over which the employee must provide service to earn the award, usually the vesting period. Compensation cost is recognized over it. |
+| **Exercise (strike) price** | The price the option holder pays for each share. |
+| **Fair value** | The price at which the award would be exchanged between willing parties, estimated with an option pricing model. |
+| **Intrinsic value** | The share price minus the exercise price. ASC 718 uses it only in limited cases, such as the nonpublic entity election described below. |
 
----
-
-## Key Terminology
-
-Understanding these terms is critical for interpreting any share-based payment question.
-| Term | Definition |
-|------|-----------|
-| **Grant date** | The date the employer and employee reach a mutual understanding of the key terms; the measurement date for equity awards |
-| **Vesting date** | The date the employee satisfies all conditions and earns the right to the award |
-| **Requisite service period** | The period over which an employee must provide service to earn the award (typically equals the vesting period) |
-| **Exercise price (strike price)** | The price at which the option holder can purchase shares |
-| **Fair value** | The amount at which the award could be exchanged between knowledgeable, willing parties |
-| **Intrinsic value** | Market price of the stock minus the exercise price (used only in limited cases) |
+On the exam, the fair value of an award is **given**. You will not compute a Black-Scholes value, but you should know what the inputs are and which way each one moves the answer.
 
 ### Vesting Conditions
 
-ASC 718 distinguishes between conditions that affect whether an employee earns the award and conditions that affect the award after vesting.
-| Condition Type | Example | Effect on Accounting |
-|---------------|---------|---------------------|
-| **Service condition** | Employee must work for 3 years | Recognized over the 3-year service period |
-| **Performance condition** | Revenue must exceed \$10 million | Recognized when probable of being achieved; adjust cumulative cost as probability changes |
-| **Market condition** | Stock price must reach \$50 | Reflected in the **grant-date fair value** (built into the valuation model); cost is recognized regardless of whether the condition is met |
-:::warning
-**Performance conditions** are not factored into the grant-date fair value. Instead, compensation cost is recognized only when the performance target is **probable** of being achieved. **Market conditions**, on the other hand, are baked into the fair value from day one. If the market target is never met, the cost already recognized is **not** reversed.
-:::
+How an award vests changes how its cost is measured and recognized.
+
+| Condition | Example | Effect on the accounting |
+| --- | --- | --- |
+| **Service condition** | Employee must work for 3 years | Cost is recognized over the 3 years |
+| **Performance condition** | Revenue must exceed \$10 million | Not built into fair value. Cost is recognized only if achieving the target is **probable**; the cumulative cost is adjusted when that assessment changes |
+| **Market condition** | Share price must reach \$50 | Built into the **grant-date fair value**. Cost is recognized if the employee provides the service, even if the target is never met |
+
+The contrast between the last two rows is a favorite exam point. If a performance target turns out to be unreachable, previously recognized cost is reversed. If a market target is missed, nothing is reversed, because the chance of missing it was already priced into the fair value.
 
 ---
 
 ## Equity-Classified Awards
 
-An award is classified as **equity** when it will be settled by issuing the entity's own equity instruments (e.g., shares of stock). The most common equity-classified awards are **stock options** and **restricted stock units (RSUs)**.
+An award is **equity-classified** when it will be settled by issuing the entity's own shares. Stock options and restricted stock units are the usual examples. Fair value is measured **once, at the grant date**, and is never remeasured, however much the share price moves afterward. Each period's cost is credited to an equity account (additional paid-in capital).
 
-### Measurement
+### Example: Bear Co. Stock Options
 
-For equity-classified awards the fair value is measured **once**, at the **grant date**, and is never remeasured.
+On January 1, Year 1, Bear Co. grants employees 10,000 options to buy its \$1 par common stock at \$25 per share. The grant-date fair value is \$8 per option, the options cliff-vest after 4 years, and Bear Co. expects no forfeitures.
 
-### Stock Options
-
-A stock option gives the employee the right to purchase a specified number of shares at a fixed exercise price after vesting conditions are met.
-**Example: Bear Co. Stock Options**
-On January 1, Year 1, Bear Co. grants 10,000 stock options to employees. Key terms:
-| Item | Value |
-|------|-------|
-| Number of options | 10,000 |
-| Exercise price | \$25 per share |
-| Grant-date fair value per option | \$8 |
-| Vesting period | 4 years (cliff vesting) |
-| Expected forfeitures | None |
-
-$$
-\text{Total Compensation Cost} = 10{,}000 \times \$8 = \$80{,}000
-$$
-
-$$
-\text{Annual Compensation Expense} = \frac{\$80{,}000}{4} = \$20{,}000
-$$
-
-**Year 1 journal entry:**
+Total compensation cost is 10,000 × \$8 = \$80,000, recognized evenly at \$80,000 / 4 = \$20,000 per year. The same entry is made at the end of each of Years 1 through 4:
 
 ```journal
 Dec 31, Year 1
 Dr. Compensation Expense 20,000
-    Cr. Additional Paid-In Capital (Stock Options)[e] 20,000
+Cr. Additional Paid-In Capital (Stock Options)[e] 20,000
 ```
 
-**Year 2 journal entry (same pattern each year through Year 4):**
-
-```journal
-Dec 31, Year 2
-Dr. Compensation Expense 20,000
-    Cr. Additional Paid-In Capital (Stock Options)[e] 20,000
-```
-
-**When employees exercise all 10,000 options (after vesting):**
-The employees pay the exercise price (\$25 × 10,000 = \$250,000), and the APIC (Stock Options) balance is reclassified.
+After vesting, the employees exercise all 10,000 options and pay \$250,000 (10,000 × \$25). The option account is closed into common stock and APIC:
 
 ```journal
 Dr. Cash[a] 250,000
 Dr. Additional Paid-In Capital (Stock Options)[e] 80,000
-    Cr. Common Stock[e] 10,000
-    Cr. Additional Paid-In Capital[e] 320,000
+Cr. Common Stock[e] 10,000
+Cr. Additional Paid-In Capital[e] 320,000
 ```
 
-**If options expire unexercised:**
-No additional compensation cost or reversal is recorded. The APIC (Stock Options) balance is simply reclassified to APIC.
+If the options instead expire unexercised (because the share price stayed below \$25), the cost already recognized is **not** reversed. The balance is simply moved to ordinary APIC:
 
 ```journal
 Dr. Additional Paid-In Capital (Stock Options)[e] 80,000
-    Cr. Additional Paid-In Capital[e] 80,000
+Cr. Additional Paid-In Capital[e] 80,000
 ```
 
-:::tip[Exam Tip]
-For equity-classified awards, the **credit always goes to an equity account** (APIC, Stock Options). The fair value is **fixed at the grant date** and never adjusted, even if the stock price changes dramatically during the vesting period.
-:::
+### Example: Bear Co. Restricted Stock Units
 
----
+A **restricted stock unit (RSU)** entitles the employee to receive a share when it vests, with no exercise price. Its grant-date fair value is generally the share price on the grant date.
 
-### Restricted Stock Units (RSUs)
-
-RSUs entitle the employee to receive shares after vesting, with no exercise price (effectively \$0). The grant-date fair value of an RSU is typically equal to the **market price of the stock on the grant date**.
-**Example: Bear Co. RSUs**
-On January 1, Year 1, Bear Co. grants 5,000 RSUs to an executive. Key terms:
-| Item | Value |
-|------|-------|
-| Number of RSUs | 5,000 |
-| Stock price at grant date | \$40 per share |
-| Vesting period | 3 years (ratable vesting, 1/3 each year) |
-
-$$
-\text{Total Compensation Cost} = 5{,}000 \times \$40 = \$200{,}000
-$$
-
-For **ratable (graded) vesting**, each tranche is treated as a separate award. However, many entities elect the **straight-line method** over the longest vesting period when the effect is not materially different.
-Using straight-line recognition:
-
-$$
-\text{Annual Compensation Expense} = \frac{\$200{,}000}{3} \approx \$66{,}667
-$$
+On January 1, Year 1, Bear Co. grants an executive 4,500 RSUs when its share price is \$40. The RSUs cliff-vest after 3 years. Total cost is 4,500 × \$40 = \$180,000, or \$60,000 a year:
 
 ```journal
 Dec 31, Year 1
-Dr. Compensation Expense 66,667
-    Cr. Additional Paid-In Capital (RSUs)[e] 66,667
+Dr. Compensation Expense 60,000
+Cr. Additional Paid-In Capital (RSUs)[e] 60,000
 ```
 
-**When RSUs vest and shares are issued (Year 3):**
+When the RSUs vest at the end of Year 3, Bear Co. issues 4,500 shares of \$1 par stock:
 
 ```journal
-Dr. Additional Paid-In Capital (RSUs)[e] 200,000
-    Cr. Common Stock[e] 5,000
-    Cr. Additional Paid-In Capital[e] 195,000
+Dec 31, Year 3
+Dr. Additional Paid-In Capital (RSUs)[e] 180,000
+Cr. Common Stock[e] 4,500
+Cr. Additional Paid-In Capital[e] 175,500
 ```
+
+### Graded Vesting
+
+Suppose instead the RSUs vested one-third each year (**graded vesting**), so each \$60,000 tranche is earned over a different period. For an award with only service conditions, the entity makes a policy election:
+
+- **Straight-line** over the total service period: \$60,000 each year. The cumulative cost recognized must at least equal the value of the tranches already vested, which it does here.
+- **Graded (accelerated) attribution**: each tranche is treated as a separate award and expensed over its own vesting period.
+
+| Year | Tranche 1 (1 year) | Tranche 2 (2 years) | Tranche 3 (3 years) | Graded expense | Straight-line expense |
+| --- | --- | --- | --- | --- | --- |
+| 1 | \$60,000 | \$30,000 | \$20,000 | \$110,000 | \$60,000 |
+| 2 | | \$30,000 | \$20,000 | \$50,000 | \$60,000 |
+| 3 | | | \$20,000 | \$20,000 | \$60,000 |
+| **Total** | **\$60,000** | **\$60,000** | **\$60,000** | **\$180,000** | **\$180,000** |
+
+Both methods recognize \$180,000 in total; graded attribution simply front-loads it. Awards with performance or market conditions must use graded attribution.
 
 ---
 
 ## Liability-Classified Awards
 
-An award is classified as a **liability** when the entity is obligated (or may be obligated) to settle in **cash** or other assets rather than equity instruments. Common examples include **stock appreciation rights (SARs)** settled in cash and phantom stock plans.
-
-### Key Differences from Equity Classification
-
-| Feature                           | Equity-Classified                  | Liability-Classified                               |
-| --------------------------------- | ---------------------------------- | -------------------------------------------------- |
-| **Measurement date**              | Grant date (fixed)                 | Each reporting date (remeasured)                   |
-| **Balance sheet credit**          | APIC (equity)                      | Liability                                          |
-| **Remeasurement**                 | None                               | Fair value is updated each period until settlement |
-| **Effect of stock price changes** | No impact on cost after grant date | Adjusts cumulative compensation cost each period   |
+An award is **liability-classified** when the entity must, or can be required to, settle it in **cash** or other assets. Cash-settled **stock appreciation rights (SARs)** and phantom stock plans are the common examples. Shares the employee can put back to the company for cash shortly after vesting are also liabilities.
 
 ```mermaid
 graph TD
-    A["Will the award be settled<br/>in the entity's own shares?"] -->|Yes| E["Equity-Classified<br/>(ASC 718-10-25)"]
-    A -->|No / Cash settlement| L["Liability-Classified<br/>(ASC 718-30)"]
+    A["Will the award be settled<br/>in the entity's own shares?"] -->|Yes| E["Equity-classified"]
+    A -->|"No, cash settlement"| L["Liability-classified"]
     E --> E1["Measure once<br/>at grant date"]
-    L --> L1["Remeasure<br/>each reporting period"]
+    L --> L1["Remeasure at each<br/>reporting date"]
     style E fill:#d9ead3,stroke:#333
     style L fill:#f4cccc,stroke:#333
 ```
 
+The difference in measurement drives everything else. Because the company will pay cash based on the share price at settlement, a liability award is **remeasured at fair value at each reporting date until it is settled**. At each date, the cumulative cost equals the current fair value times the portion of the service period completed, and the period's expense is whatever brings the liability up (or down) to that amount:
+
+$$
+\text{Cumulative cost} = \text{Fair value per award} \times \text{Number of awards} \times \frac{\text{Service completed}}{\text{Total service period}}
+$$
+
+A **nonpublic entity** may elect to measure all of its liability-classified awards at intrinsic value instead of fair value, still remeasured each reporting date.
+
 ### Example: Polar Inc. Cash-Settled SARs
 
-On January 1, Year 1, Polar Inc. grants 6,000 cash-settled SARs to employees. Key terms:
-| Item | Value |
-|------|-------|
-| Number of SARs | 6,000 |
-| Base price | \$30 per share |
-| Vesting period | 3 years (cliff vesting) |
-| Fair value per SAR at grant date (Jan 1, Yr 1) | \$7 |
-| Fair value per SAR at Dec 31, Year 1 | \$9 |
-| Fair value per SAR at Dec 31, Year 2 | \$11 |
-| Fair value per SAR at Dec 31, Year 3 (vesting date) | \$10 |
-Because this is a **liability-classified** award, the fair value is **remeasured** at each reporting date. The cumulative compensation cost at any point is:
+On January 1, Year 1, Polar Inc. grants employees 6,000 cash-settled SARs with a base price of \$30. Each SAR pays the excess of the share price over \$30. The SARs cliff-vest after 3 years. Fair values per SAR are:
 
-$$
-\text{Cumulative Cost} = \text{Fair Value per SAR} \times \text{Number of SARs} \times \frac{\text{Service Rendered}}{\text{Total Service Period}}
-$$
+| Date | Fair value per SAR |
+| --- | --- |
+| Jan 1, Year 1 (grant) | \$7 |
+| Dec 31, Year 1 | \$9 |
+| Dec 31, Year 2 | \$11 |
+| Dec 31, Year 3 (vesting) | \$10 |
 
-**Year 1:**
+The grant-date value plays no role in the accounting, because the award is remeasured at every year-end:
 
-$$
-\text{Cumulative Cost (Yr 1)} = \$9 \times 6{,}000 \times \frac{1}{3} = \$18{,}000
-$$
+| | Year 1 | Year 2 | Year 3 |
+| --- | --- | --- | --- |
+| Fair value per SAR | \$9 | \$11 | \$10 |
+| Portion of service completed | 1/3 | 2/3 | 3/3 |
+| Cumulative cost (and liability balance) | \$18,000 | \$44,000 | \$60,000 |
+| **Expense for the year** | **\$18,000** | **\$26,000** | **\$16,000** |
 
-```journal
-Dec 31, Year 1
-Dr. Compensation Expense 18,000
-    Cr. SAR Liability[l] 18,000
-```
-
-**Year 2:**
-
-$$
-\text{Cumulative Cost (Yr 2)} = \$11 \times 6{,}000 \times \frac{2}{3} = \$44{,}000
-$$
-
-$$
-\text{Year 2 Expense} = \$44{,}000 - \$18{,}000 = \$26{,}000
-$$
+For Year 1, \$9 × 6,000 × 1/3 = \$18,000. For Year 2, \$11 × 6,000 × 2/3 = \$44,000, so the expense is \$44,000 - \$18,000 = \$26,000. Each year's entry has the same form:
 
 ```journal
 Dec 31, Year 2
 Dr. Compensation Expense 26,000
-    Cr. SAR Liability[l] 26,000
+Cr. SAR Liability[l] 26,000
 ```
 
-**Year 3 (vesting date):**
-
-$$
-\text{Cumulative Cost (Yr 3)} = \$10 \times 6{,}000 \times \frac{3}{3} = \$60{,}000
-$$
-
-$$
-\text{Year 3 Expense} = \$60{,}000 - \$44{,}000 = \$16{,}000
-$$
+On December 31, Year 3, the share price is \$40 and the employees exercise immediately. Polar Inc. pays (\$40 - \$30) × 6,000 = \$60,000, which equals the liability:
 
 ```journal
 Dec 31, Year 3
-Dr. Compensation Expense 16,000
-    Cr. SAR Liability[l] 16,000
-```
-
-**Summary table:**
-| | Year 1 | Year 2 | Year 3 |
-|---|--------|--------|--------|
-| Fair value per SAR | \$9 | \$11 | \$10 |
-| Fraction vested | 1/3 | 2/3 | 3/3 |
-| Cumulative cost | \$18,000 | \$44,000 | \$60,000 |
-| Expense recognized in period | \$18,000 | \$26,000 | \$16,000 |
-| Liability balance (end of period) | \$18,000 | \$44,000 | \$60,000 |
-**When SARs are settled in cash:**
-
-$$
-\text{Cash Payment} = (\text{Stock Price} - \text{Base Price}) \times \text{Number of SARs}
-$$
-
-Assume the stock price at settlement is \$40:
-
-$$
-\text{Cash Payment} = (\$40 - \$30) \times 6{,}000 = \$60{,}000
-$$
-
-```journal
 Dr. SAR Liability[l] 60,000
-    Cr. Cash[a] 60,000
+Cr. Cash[a] 60,000
 ```
 
-:::warning
-For liability-classified awards, the **total compensation cost is not known until settlement**. Each period-end remeasurement can **increase or decrease** the cumulative cost. If the fair value drops, the liability decreases and the entity records a **credit to compensation expense** (a reversal of previously recognized cost).
-:::
+Total cost for a liability award is not known until settlement. If the fair value falls, the cumulative cost falls with it, and the entity records a credit to compensation expense. If the SARs had stayed outstanding after vesting, Polar Inc. would keep remeasuring the full liability each period, with every change going to expense.
 
 ---
 
-## Fair Value Measurement: Black-Scholes Inputs
+## Valuation Inputs
 
-While the BAR exam will not ask you to compute option fair values from scratch, you must **recall the inputs** to common valuation models and understand how each input affects fair value.
+Options are usually valued with the **Black-Scholes-Merton** model. You will not run the model on the exam, but you should know its six inputs and their directional effects:
 
-### Black-Scholes-Merton Model Inputs
+| Input | What it is | Effect of an increase on option value |
+| --- | --- | --- |
+| Current share price | Market price of the underlying share | Increases |
+| Exercise price | Price the holder pays per share | Decreases |
+| Expected term | Expected time until exercise | Increases |
+| Risk-free interest rate | Treasury yield for the expected term | Increases |
+| Expected volatility | Expected fluctuation of the share price | Increases |
+| Expected dividends | Dividends expected during the option's life | Decreases |
 
-| Input                       | Description                                                       | Effect on Option Fair Value                |
-| --------------------------- | ----------------------------------------------------------------- | ------------------------------------------ |
-| **Stock price**             | Current market price of the underlying stock                      | Higher stock price increases fair value    |
-| **Exercise price**          | Price at which the option can be exercised                        | Higher exercise price decreases fair value |
-| **Expected term**           | Estimated time until exercise (in years)                          | Longer expected term increases fair value  |
-| **Risk-free interest rate** | Yield on U.S. Treasury instruments matching the expected term     | Higher risk-free rate increases fair value |
-| **Expected volatility**     | Anticipated fluctuation in the stock price over the expected term | Higher volatility increases fair value     |
-| **Expected dividends**      | Dividend yield or amount expected during the option's life        | Higher dividends decrease fair value       |
+The intuition is that an option holder gains from upside but has limited downside. More time and more volatility both widen the range of outcomes and so add value. A higher exercise price and higher dividends (which the option holder does not receive) both reduce it.
 
-:::tip[Exam Tip]
-Remember the directional relationships: **higher volatility and longer terms increase** option value (more time and uncertainty = more upside potential), while **higher exercise prices and dividends decrease** option value. These directional effects are commonly tested in conceptual multiple-choice questions.
-:::
-
-### Other Valuation Models
-
-| Model                        | Typical Use                                                                                                           |
-| ---------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Black-Scholes-Merton**     | Plain-vanilla stock options with a single expected exercise date                                                      |
-| **Binomial (lattice) model** | Options with complex features, such as early exercise, vesting tranches, or changing assumptions over time            |
-| **Monte Carlo simulation**   | Awards with market conditions (e.g., total shareholder return targets) where outcomes depend on simulated price paths |
+Black-Scholes-Merton assumes a single exercise date and constant inputs. A **binomial (lattice) model** handles early exercise and assumptions that change over time. A **Monte Carlo simulation** is common for awards with market conditions, such as total shareholder return targets, where the payoff depends on the path of the share price. A nonpublic entity that cannot estimate its own volatility may use the historical volatility of an appropriate industry index (the **calculated value** method).
 
 ---
 
 ## Forfeitures
 
-When employees leave before vesting, their awards are **forfeited**. ASC 718 provides two approaches:
-| Approach | How It Works |
-|----------|-------------|
-| **Estimate forfeitures** at grant date | Reduce the number of awards expected to vest; true up as actuals differ from estimates |
-| **Recognize forfeitures as they occur** (accounting policy election) | Record cost assuming all awards will vest; reverse cost in the period of forfeiture |
-**Example: Bear Co. Forfeiture True-Up**
-Bear Co. granted 10,000 options (fair value \$8 each, 4-year vest). At the end of Year 2, Bear Co. originally estimated 5% total forfeitures (9,500 options expected to vest). During Year 3, actual departures suggest 8% total forfeitures (9,200 options expected to vest).
+Employees who leave before vesting **forfeit** their awards, and cost is recognized only for awards that vest. For employee and nonemployee awards, the entity makes a policy election:
+
+- **Estimate forfeitures** at the grant date, then true up the estimate as actual departures differ, through a cumulative catch-up.
+- **Account for forfeitures as they occur**: recognize cost as if every award will vest, and reverse the cost of an award in the period it is forfeited.
+
+### Example: Forfeiture True-Up
+
+Return to Bear Co.'s grant of 10,000 options (fair value \$8, 4-year cliff vesting), but now assume Bear Co. estimates forfeitures. Through Year 2 it expected 5% to forfeit (9,500 options to vest). During Year 3, departures lead it to expect 8% (9,200 options).
 
 $$
-\text{Revised Total Cost} = 9{,}200 \times \$8 = \$73{,}600
-$$
-
-$$
-\text{Cumulative Cost through Year 3} = \$73{,}600 \times \frac{3}{4} = \$55{,}200
+\text{Cumulative cost through Year 3} = 9{,}200 \times \$8 \times \frac{3}{4} = \$55{,}200
 $$
 
 $$
-\text{Previously Recognized (Years 1-2)} = 9{,}500 \times \$8 \times \frac{2}{4} = \$38{,}000
+\text{Cost recognized through Year 2} = 9{,}500 \times \$8 \times \frac{2}{4} = \$38{,}000
 $$
 
-$$
-\text{Year 3 Expense} = \$55{,}200 - \$38{,}000 = \$17{,}200
-$$
+Year 3 expense is \$55,200 - \$38,000 = \$17,200. The catch-up keeps cumulative cost equal to the current estimate times the portion of service completed.
 
-The cumulative catch-up ensures total recognized cost always equals the revised estimate multiplied by the fraction of the service period completed.
+:::note[2027 update: awards to customers]
 
-## Putting It All Together: Classification Decision Framework
+Under ASU 2025-04 (eligible for testing starting January 1, 2027), the forfeiture election is **not** available for share-based consideration payable to a **customer**, such as warrants that vest based on the customer's purchases. The grantor must estimate forfeitures for those awards, and the vesting condition is treated as a performance condition. Awards to employees and other nonemployees keep the election. See [Revenue Recognition](./revenue-recognition.md) for how these awards reduce revenue.
 
-```mermaid
-graph TD
-    A["Share-Based Payment<br/>Arrangement Granted"] --> B{"Settlement in<br/>entity's own shares?"}
-    B -->|Yes| C["Equity-Classified"]
-    B -->|No / Cash / Variable shares| D["Liability-Classified"]
-    C --> C1["Measure at grant date<br/>(fixed fair value)"]
-    C1 --> C2["Recognize cost over<br/>requisite service period"]
-    C2 --> C3["Credit: APIC<br/>(equity account)"]
-    D --> D1["Measure at each<br/>reporting date<br/>(remeasured fair value)"]
-    D1 --> D2["Recognize cost over<br/>requisite service period"]
-    D2 --> D3["Credit: Liability account"]
-    style C fill:#d9ead3,stroke:#333
-    style D fill:#f4cccc,stroke:#333
-    style C3 fill:#d9ead3,stroke:#333
-    style D3 fill:#f4cccc,stroke:#333
-```
+:::
 
-| Step              | Equity Award                        | Liability Award                              |
-| ----------------- | ----------------------------------- | -------------------------------------------- |
-| **1. Classify**   | Settlement in shares: equity        | Settlement in cash: liability                |
-| **2. Measure**    | Fair value at grant date (fixed)    | Fair value at each reporting date (variable) |
-| **3. Recognize**  | Straight-line over service period   | Cumulative cost adjusted each period         |
-| **4. Record**     | Dr. Compensation Expense / Cr. APIC | Dr. Compensation Expense / Cr. Liability     |
-| **5. Settle**     | Reclassify APIC; issue shares       | Debit liability; credit Cash                 |
+---
+
+## Summary
+
+| Step | Equity-classified award | Liability-classified award |
+| --- | --- | --- |
+| **Classify** | Settled in the entity's own shares | Settled, or can be required to be settled, in cash |
+| **Measure** | Fair value at grant date, fixed | Fair value at each reporting date until settlement (nonpublic entities may elect intrinsic value) |
+| **Recognize** | Over the requisite service period | Cumulative cost trued up each period to current fair value |
+| **Record** | Dr. Compensation Expense, Cr. APIC | Dr. Compensation Expense, Cr. Liability |
+| **Settle** | Close APIC account to common stock and APIC | Debit the liability, credit cash |

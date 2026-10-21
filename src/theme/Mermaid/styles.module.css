@@ -1,0 +1,112 @@
+/* Rendered diagram (matches the original theme-mermaid container) */
+.container {
+  max-width: 100%;
+}
+
+.container > svg {
+  max-width: 100%;
+}
+
+/* Inline diagram with an enlarge control */
+.figure {
+  position: relative;
+  margin-bottom: var(--ifm-leading);
+}
+
+.diagram {
+  cursor: zoom-in;
+}
+
+.expandButton {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-color-emphasis-700);
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.15s, border-color 0.15s;
+}
+
+.figure:hover .expandButton,
+.expandButton:focus-visible {
+  opacity: 1;
+}
+
+.expandButton:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+/* Full-screen overlay */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(2px);
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  padding: 10px 16px;
+}
+
+.toolButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+}
+
+.toolButton:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+.zoomLevel {
+  min-width: 52px;
+  padding: 0 4px;
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+/* Scrollable stage; the diagram keeps its zoomed size and the stage pans. */
+.viewport {
+  flex: 1;
+  display: flex;
+  overflow: auto;
+  margin: 0 16px 16px;
+  padding: 24px;
+  border-radius: 12px;
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* margin: auto centers small diagrams but, unlike grid or flex centering,
+   never clips the edges of a diagram wider than the stage. */
+.viewport > svg {
+  flex: none;
+  margin: auto;
+  max-width: none;
+}

@@ -1,117 +1,88 @@
 # Auditing Payables and Expenses
 
-The expenditure cycle covers the acquisition of goods and services, from the initial purchase request through payment. Because the primary audit risk for payables is **understatement** (unrecorded liabilities), auditors focus heavily on completeness rather than existence.
+The expenditure cycle covers everything from a purchase request to the payment that settles it. For receivables, the auditor worries that management has recorded too much. For payables, the worry runs the other way: a company that wants to look healthier simply leaves bills unrecorded, which understates both liabilities and expenses. That is why the audit of payables centers on **completeness**. This chapter covers the controls in the cycle, the search for unrecorded liabilities, confirmations of payables, and the testing of expenses.
 
-## Expenditure Cycle Overview
+---
 
-### Departments and Responsibilities
+## Controls in the Expenditure Cycle
 
-| Department | Key Responsibilities |
+The basic control design separates the people who authorize purchases, receive the goods, record the liability, and pay the bill.
+
+| Function | Responsibility |
 |---|---|
-| **Purchasing** | Receives approved purchase requisitions, selects vendors, and issues **purchase orders (POs)** |
-| **Receiving** | Inspects incoming goods, counts quantities, and prepares a **receiving report** |
-| **Accounts Payable** | Matches documents, records liabilities, and approves invoices for payment |
-| **Treasurer** | Signs checks and authorizes disbursements; maintains custody of funds |
+| **Requisitioning department** | Requests goods or services, with approval |
+| **Purchasing** | Selects the vendor and issues a prenumbered **purchase order** |
+| **Receiving** | Counts and inspects goods on arrival and prepares a **receiving report** |
+| **Accounts payable** | Matches documents, records the liability, and prepares the payment voucher |
+| **Treasurer** | Reviews the approved voucher package, signs or releases the payment, and cancels the supporting documents so they cannot be paid twice |
 
-:::info[Segregation of Duties]
+The central control is the **three-way match**. Before an invoice is approved for payment, accounts payable compares the **purchase order** (what was authorized, at what price), the **receiving report** (what actually arrived), and the **vendor invoice** (what the vendor is billing). All three must agree on items, quantities, and prices, and any difference is resolved before payment.
 
-Proper segregation requires that the person who **authorizes** purchases (purchasing), the person who has **custody** of goods (receiving/warehouse), and the person who **records** the liability (accounts payable) are all different individuals. The treasurer, who disburses cash, should also be independent of the recording function.
+**Example.** Bear Co. orders 500 units at \$10 each. The receiving report shows 480 units, but the vendor bills for 500. The accounts payable clerk catches the 20-unit difference, contacts the vendor, and approves payment of \$4,800 for the units actually received.
 
-:::
+---
 
-### Example: Purchase Transaction at Grizzly Industries
+## The Search for Unrecorded Liabilities
 
-1. A department manager at Grizzly Industries submits a **purchase requisition** for raw materials.
-2. The **purchasing department** reviews the requisition, selects a vendor, and issues a **purchase order**.
-3. When goods arrive, the **receiving department** counts and inspects them, preparing a **receiving report**.
-4. The **accounts payable department** performs a three-way match and records the liability.
-5. The **treasurer** reviews the approved voucher package and signs the check for payment.
+The most important substantive procedure in the cycle is the **search for unrecorded liabilities**. Its logic is simple: an unrecorded liability is not in the accounting records, so the auditor cannot find it by sampling the records. Instead, the auditor starts with evidence **outside** the payables ledger and works back to see whether the liability was recorded at year-end.
 
-## The Three-Way Match
+The auditor:
 
-Before an invoice is approved for payment, the accounts payable department performs a **three-way match** by comparing:
+1. **Examines cash disbursements made after year-end** and the related invoices, looking for payments that relate to goods or services received before year-end.
+2. **Reviews unmatched receiving reports** from before year-end that have no recorded invoice or payable.
+3. **Examines unpaid invoices and vendor statements** received after year-end.
+4. **Inquires** of management and the purchasing department about obligations that might not have been recorded.
 
-1. **Purchase Order (PO)**: Confirms the goods were authorized and specifies agreed-upon prices and quantities
-2. **Receiving Report**: Confirms the goods were actually received and in what quantities
-3. **Vendor Invoice**: The bill from the supplier requesting payment
+The search usually runs from year-end up to near the report date, and the larger the payments, the more of them the auditor examines.
 
-:::tip[Exam Tip]
+**Example.** Reviewing Kodiak Partners' January disbursements, the auditor finds a \$150,000 payment to Sloth Security for consulting work performed in December. Kodiak had not accrued the liability, so the auditor proposes an adjusting entry:
 
-The three-way match is a critical **internal control** over the expenditure cycle. All three documents must agree on item descriptions, quantities, and prices before payment is authorized. Any discrepancies must be investigated and resolved before the invoice is approved.
+```journal
+December 31
+Dr. Consulting Expense 150,000
+Cr. Accounts Payable[l] 150,000
+```
 
-:::
+---
 
-### Example: Three-Way Match at Bear Co.
+## Confirming Accounts Payable
 
-Bear Co. orders 500 units from a supplier at \$10 each. The receiving report shows 480 units received. The vendor invoice bills for 500 units at \$10 each. The accounts payable clerk identifies the 20-unit discrepancy and contacts the vendor before approving payment, paying only for 480 units actually received.
+Confirming payables is not required, and auditors use it less often than receivable confirmations, because the auditor can usually get reliable external evidence from vendor invoices and statements. When the auditor does confirm payables, the design is the mirror image of a receivables confirmation.
 
-## Accounts Payable Confirmations
-
-Unlike AR confirmations (which are almost always performed), AP confirmations are **not required** but are used in specific circumstances.
-
-### When AP Confirmations Are Used
-
-AP confirmations are most useful when sent to vendors with **small or zero balances** per the client's records. The goal is to detect **unrecorded liabilities**: invoices the client received but never recorded.
-
-:::warning[Key Difference from AR Confirmations]
-
-- **AR confirmations** target large balances to test **existence** (overstatement risk)
-- **AP confirmations** target small or zero balances to test **completeness** (understatement risk)
-
-This is because the primary risk for payables is that liabilities are **understated**, not overstated.
-
-:::
-
-### Example: AP Confirmations at Polar Inc.
-
-The auditor of Polar Inc. identifies vendors the company regularly does business with but that show unusually low or zero balances at year-end. The auditor sends confirmations to these vendors asking them to report the amount Polar Inc. owes. If a vendor reports a balance that Polar Inc. has not recorded, the auditor has identified an **unrecorded liability**.
-
-## Search for Unrecorded Accounts Payable
-
-This is one of the most important expenditure cycle procedures and directly addresses the completeness assertion.
-
-### Procedure Steps
-
-1. **Examine cash disbursements after year-end**: Review checks written and payments made in the period following the balance sheet date to identify invoices that relate to the audit period but were not recorded as liabilities at year-end.
-2. **Review unmatched receiving reports**: Identify receiving reports near year-end that have no corresponding recorded payable (goods received but liability not yet booked).
-3. **Review unmatched purchase orders**: Examine open POs for goods that may have been received but not yet invoiced.
-4. **Examine vendor statements**: Compare vendor statements received after year-end to recorded payable balances.
-5. **Inquire of management**: Ask about any known unrecorded obligations.
-
-:::note
-
-The search for unrecorded payables starts with documentation **outside the accounting records** (such as subsequent cash disbursements or receiving reports) and traces into the records. This approach is effective because if the liability was never recorded, it will not appear in the accounting records themselves.
-
-:::
-
-### Example: Search at Kodiak Partners
-
-While auditing Kodiak Partners, the auditor reviews January disbursements and finds a \$150,000 payment to Ursa Security for consulting services performed in December. The auditor traces this payment back to the invoice and confirms the services were rendered before year-end. Since Kodiak Partners had not accrued this amount, the auditor proposes an adjusting entry to record the unrecorded liability.
-
-## Common Expenditure Cycle Audit Procedures
-
-| Procedure | Assertion Tested | Description |
+| | Accounts receivable confirmations | Accounts payable confirmations |
 |---|---|---|
-| **Search for unrecorded payables** | Completeness | Examine subsequent disbursements, unmatched receiving reports, and vendor statements |
-| **AP confirmations** (small/zero balances) | Completeness | Confirm with vendors showing low balances to detect unrecorded liabilities |
-| **Vouch recorded payables** | Existence/Occurrence | Select recorded payables and trace to supporting POs, receiving reports, and invoices |
-| **Cutoff testing** | Cutoff | Examine transactions near period-end to ensure proper recording in the correct period |
-| **Recalculate accrued liabilities** | Valuation/Accuracy | Independently compute accruals for items like utilities, wages, and interest |
-| **Review expense accounts** | Classification | Analyze large or unusual expense entries for proper classification |
-| **Disclosure review** | Presentation | Verify completeness of payable and commitment disclosures |
+| **Main risk** | Overstatement | Understatement |
+| **Assertion** | Existence | Completeness |
+| **Whom to ask** | Customers with large recorded balances | Major vendors, including those with **small or zero recorded balances** |
+| **Form** | Often states the balance | Usually asks the vendor to fill in the amount owed (a blank form) |
 
-### Cutoff Testing for Purchases
+A vendor the client buys from every month that shows a zero balance at year-end is exactly where an unrecorded invoice would hide. Payables confirmations are most useful when controls are weak, when vendor statements are not available, or when the auditor suspects the client is holding back invoices.
 
-The auditor examines the **last receiving reports** issued before year-end and the **first receiving reports** issued after year-end to verify that:
-- Goods received before year-end are recorded as purchases and payables in the current period
-- Goods received after year-end are recorded in the subsequent period
+**Example.** Polar Inc. buys raw materials from the same five suppliers every month, but two of them show no balance at December 31. The auditor sends blank confirmation requests to all five. One of the two replies that Polar owes \$62,000 for December shipments, which Polar has not recorded.
 
-### Example: Cutoff Testing at Honey Entertainment
+---
 
-Honey Entertainment's last receiving report before December 31 is #4872, and the first receiving report after year-end is #4873. The auditor verifies that all purchases through receiving report #4872 are recorded in the current year and that receiving report #4873 and subsequent reports are recorded in the following year.
+## Other Procedures for Payables and Expenses
 
-:::danger[Common Exam Trap]
+| Procedure | Assertion addressed |
+|---|---|
+| Search for unrecorded liabilities; confirm vendors with small or zero balances | Completeness |
+| Vouch recorded payables to purchase orders, receiving reports, and invoices | Existence |
+| Test purchases cutoff using receiving reports near year-end | Cutoff |
+| Recalculate accruals such as wages, interest, and utilities | Accuracy and valuation |
+| Review expense accounts for items that belong elsewhere (for example, capital expenditures charged to repairs) | Classification |
+| Review notes for purchase commitments and other obligations | Presentation and disclosure |
 
-Remember: for accounts payable, the auditor is primarily concerned with **completeness** (understatement). This is the opposite of accounts receivable, where the primary concern is **existence** (overstatement). The direction of testing and the nature of procedures reflect this difference.
+Purchases cutoff works exactly as described in [Auditing Inventory and Cost of Sales](./auditing-inventory-and-cost-of-sales.md): goods received before year-end should be recorded as purchases and payables, and goods received after year-end should not.
+
+### Testing Expenses
+
+Most expense accounts are tested with a mix of **analytical procedures** and **tests of details**. The auditor compares each expense by month and against the prior year and the budget, and investigates fluctuations that the auditor's understanding of the business does not explain. Expenses that can be predicted, such as rent under a lease or depreciation, are often tested by recalculation. The auditor also examines large or unusual entries, vouching them to invoices and approvals, and tests **prepaid expenses** and **accrued liabilities** together with the expense accounts they affect.
+
+Data analytics makes some expenditure tests far more powerful. The auditor can scan every disbursement for the year to find **duplicate payments** (same vendor, amount, and invoice number) or compare the vendor master file with the employee master file to find vendors that share an address or bank account with an employee, a common sign of fictitious vendor fraud.
+
+:::warning[Common Exam Trap]
+
+For accounts payable, the primary concern is **completeness** (understatement); for accounts receivable, it is **existence** (overstatement). Vouching recorded payables tests existence and will never find an unrecorded liability. To test completeness, the auditor must start outside the payables records.
 
 :::

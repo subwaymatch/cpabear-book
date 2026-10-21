@@ -1,132 +1,106 @@
 # Materiality
 
-Materiality is one of the most important (and most tested) concepts in auditing. It shapes virtually every decision the auditor makes, from planning procedures to evaluating misstatements to forming the audit opinion. Materiality is not a fixed number pulled from a formula; it requires **professional judgment** applied in the context of the specific engagement.
-
-This section covers the **definition of materiality**, the concept of **performance materiality**, the related idea of **tolerable misstatement**, and how the auditor **sets and revises materiality** throughout the engagement.
-
-:::info
-
-Materiality is addressed in **AU-C 320** (AICPA) for nonissuers and in **AS 2105** (PCAOB) for issuers. Both standards require the auditor to determine materiality for the financial statements as a whole during planning and to revise it as necessary during the audit.
-
-:::
+Materiality is the auditor's measure of what matters. An audit is designed to find misstatements that could change a user's decisions, not every error in the books, so the auditor needs a way to say how large a misstatement must be before it counts. That judgment shapes nearly everything else: which accounts get attention, how many items are tested, and whether the opinion must be modified. This chapter defines materiality, shows how the auditor sets it for the financial statements as a whole and for particular items, explains performance materiality and tolerable misstatement, and covers revising materiality as the audit proceeds. The AICPA standard is AU-C 320; the PCAOB standard is AS 2105.
 
 ---
 
-## Definition of Materiality
+## What Materiality Means
 
-**Materiality** is the magnitude of an omission or misstatement of accounting information that, in light of surrounding circumstances, makes it probable that the judgment of a reasonable person relying on the information would have been changed or influenced.
+Misstatements, including omissions, are **material** if there is a **substantial likelihood** that, individually or in the aggregate, they would **influence the judgment** made by a reasonable user based on the financial statements. PCAOB standards express the same idea in the language of the U.S. securities laws: a fact is material if there is a substantial likelihood that a reasonable investor would view it as significantly altering the total mix of information available.
 
-In simpler terms: a misstatement is material if it is **big enough to matter** to someone making decisions based on the financial statements.
+A few features of the concept matter for the exam:
 
-### Key Characteristics of Materiality
+- Materiality is judged from the viewpoint of **users as a group**: investors, lenders, and others who have a reasonable knowledge of business and study the statements with reasonable diligence.
+- Both **size** (quantitative) and **nature** (qualitative) matter.
+- Materiality is set in the context of the **financial statements as a whole**.
+- Setting materiality is a matter of **professional judgment**, not a formula.
 
-- Materiality is assessed from the perspective of **reasonable users** of the financial statements: investors, creditors, regulators, and other stakeholders
-- Both the **size** (quantitative) and the **nature** (qualitative) of a misstatement are relevant
-- Materiality is determined in the context of the **financial statements as a whole**, not in isolation
-- Setting materiality is a matter of **professional judgment**, not a mechanical calculation
+### Qualitative Materiality
 
-:::warning
+A small misstatement can be material because of what it does. Examples include a misstatement that:
 
-Materiality is not solely about dollar amounts. A small misstatement can be material if it:
-- Turns a profit into a loss (or vice versa)
-- Causes a debt covenant violation
-- Involves fraud or illegal acts
-- Affects management compensation or bonus calculations
-- Masks a change in earnings trend
+- Turns a profit into a loss, or a loss into a profit
+- Causes the entity to violate, or to appear to comply with, a debt covenant
+- Involves fraud or an illegal act
+- Increases management's bonus
+- Hides a change in earnings or another trend
 
-:::
+**Example:** Bear Co. reports income before taxes of \$30,000 on revenue of \$50 million, and the auditor's overall materiality is \$250,000. An uncorrected \$50,000 overstatement of revenue is far below that amount. But correcting it would turn the reported profit into a \$20,000 pretax loss, so the misstatement is **qualitatively material**.
 
-**Example:** Bear Co. has total revenues of \$50 million and net income of \$2 million. A \$50,000 misstatement might seem immaterial quantitatively. However, if that misstatement changes net income from a gain to a loss, or causes Bear Co. to violate a debt covenant requiring a minimum current ratio, it could be **qualitatively material** regardless of its dollar amount.
+---
+
+## Materiality for the Financial Statements as a Whole
+
+The auditor sets overall materiality during **planning**, usually by applying a percentage to a **benchmark** that reflects what users care about most. Audit firms publish guidelines such as these, but the standards do not prescribe any percentages:
+
+| Benchmark | Typical Range | When Used |
+|---|---|---|
+| **Income before taxes** | 5% to 10% | Profit-oriented entities with stable earnings |
+| **Total revenue** | 0.5% to 1% | Entities with volatile or near-zero earnings |
+| **Total assets** | 0.5% to 1% | Asset-based entities such as banks and investment funds |
+| **Total equity** | 1% to 2% | Entities where users focus on net assets |
+| **Total expenses** | 0.5% to 1% | Not-for-profit entities and governments |
+
+The auditor chooses the benchmark and percentage with the **primary users** in mind and may use normalized amounts (for example, average earnings) when the current year is unusual.
+
+**Example:** Polar Foundation, a not-for-profit with total expenses of \$10 million, uses total expenses as its benchmark. Applying 1% gives overall materiality of \$100,000.
+
+### Materiality for Particular Items
+
+Sometimes users care about certain amounts or disclosures at a level **below** overall materiality, such as related party transactions, executive compensation, or a key disclosure in a regulated industry. The auditor then sets a lower **materiality level for those particular classes of transactions, account balances, or disclosures**.
 
 ---
 
 ## Performance Materiality
 
-**Performance materiality** is the amount (or amounts) set by the auditor at **less than materiality for the financial statements as a whole**. Its purpose is to reduce to an appropriately low level the probability that the aggregate of uncorrected and undetected misstatements exceeds materiality.
+If every procedure were designed only to catch misstatements as large as overall materiality, several smaller misstatements, each just under that amount, could slip through and add up to a material total. **Performance materiality** prevents this. It is the amount (or amounts) set **below** overall materiality to reduce to an appropriately low level the probability that **uncorrected and undetected misstatements, in total,** exceed materiality.
 
-### Why Performance Materiality Exists
+Performance materiality is a matter of judgment, often set at roughly 50% to 75% of overall materiality. It is set **lower** when:
 
-If the auditor set a single materiality level and designed all procedures to detect misstatements only at that level, there would be a risk that multiple smaller misstatements, each below the materiality threshold, could aggregate to an amount that exceeds materiality. Performance materiality builds in a **safety margin**.
+- Prior audits found many misstatements
+- More misstatements are expected this year
+- The auditor's understanding of the entity is limited, as in a first-year audit
 
-### Setting Performance Materiality
+**Example:** Grizzly Inc.'s overall materiality is \$500,000. Several misstatements were found in last year's audit, so the auditor sets performance materiality at \$350,000 (70%). Procedures are designed around \$350,000, which leaves a \$150,000 cushion for misstatements the audit does not detect.
 
-Performance materiality is always **lower** than overall materiality. The specific amount depends on the auditor's judgment, considering:
-
-- The nature and extent of misstatements identified in **prior audits**
-- The auditor's expectations about misstatements in the **current period**
-- The degree of **uncertainty** in the audit (higher uncertainty = lower performance materiality)
-
-:::tip[Exam Tip]
-
-Think of performance materiality as a "working materiality" or "safety cushion." It is used during the audit to design procedures and evaluate results. Overall materiality is used at the end of the audit when evaluating the total effect of identified misstatements.
-
-:::
-
-**Example:** The auditor sets materiality for Grizzly Industries' financial statements at \$500,000. Based on prior audit experience (Grizzly had several misstatements identified in the prior year), the auditor sets performance materiality at \$350,000. This means the auditor will design procedures sensitive enough to detect misstatements of \$350,000 or more, providing a buffer to account for undetected or uncorrected misstatements that could aggregate above \$500,000.
+Performance materiality is used to **plan and perform** procedures. Overall materiality is used at the end to **evaluate** whether the uncorrected misstatements, taken together, are material.
 
 ---
 
 ## Tolerable Misstatement
 
-**Tolerable misstatement** is the application of performance materiality to a particular **sampling procedure**. It represents the maximum amount of misstatement in an account balance or class of transactions that the auditor is willing to accept and still conclude that the audit objective for that account or class has been achieved.
+**Tolerable misstatement** is the application of performance materiality to a particular **sampling procedure**: the amount of misstatement in a population that the auditor can accept and still conclude that the population is fairly stated. It may equal performance materiality or be set lower.
 
-### Relationship to Performance Materiality
+**Example:** Cub Entertainment's overall materiality is \$200,000 and performance materiality is \$140,000. For a sample of receivables, the auditor sets tolerable misstatement at \$140,000. If the projected misstatement from the sample approaches or exceeds \$140,000, the auditor concludes the balance may be materially misstated and performs more work.
+
+**PCAOB terminology differs.** AS 2105 does not use "performance materiality." It requires the auditor to set **tolerable misstatement** at the account or disclosure level, below materiality for the financial statements as a whole, which plays the same role. When a question involves an issuer, expect "tolerable misstatement"; for a nonissuer, expect "performance materiality."
 
 | Concept | Level | Purpose |
 |---|---|---|
-| **Materiality** | Financial statements as a whole | Benchmark for evaluating total misstatements at the end of the audit |
-| **Performance materiality** | Below overall materiality | Reduces the risk that aggregate misstatements exceed materiality; used to design audit procedures |
-| **Tolerable misstatement** | Applied to individual account balances or transaction classes | Maximum acceptable misstatement in a single account when using sampling |
+| **Overall materiality** | Financial statements as a whole | Evaluating the total of uncorrected misstatements |
+| **Materiality for particular items** | Specific classes, balances, or disclosures | Items users care about at a lower threshold |
+| **Performance materiality** (AICPA) | Below overall materiality | Designing procedures with a cushion for undetected misstatements |
+| **Tolerable misstatement** | A sample or an account (PCAOB) | Maximum acceptable misstatement in that population or account |
 
-**Example:** Honey Entertainment has overall materiality set at \$200,000 and performance materiality at \$140,000. When the auditor designs a sampling plan for testing accounts receivable, the tolerable misstatement for that sample is set at \$140,000 (equal to performance materiality). If the projected misstatement from the sample exceeds \$140,000, the auditor concludes that the account may be materially misstated and performs additional procedures.
-
-:::note
-
-In practice, tolerable misstatement is often set equal to performance materiality for individual accounts, but the auditor may use lower amounts for accounts that are more susceptible to misstatement.
-
-:::
+At the other end of the scale, the auditor also sets an amount below which misstatements are **clearly trivial**. Misstatements above that amount are accumulated and evaluated with the others found during the audit.
 
 ---
 
-## Setting and Revising Materiality Levels
+## Revising Materiality During the Audit
 
-### Establishing Materiality During Planning
+Materiality is set early, often from estimated or interim figures, so it may need to change. The auditor revises materiality whenever information comes to light that would have led to a **different amount** had it been known at the start. Common reasons are:
 
-The auditor establishes materiality during the **planning phase** of the audit. Common benchmarks used as a starting point include:
+- **Actual results** differ significantly from the estimates used in planning
+- **New information** emerges, such as previously unknown related party transactions
+- **Circumstances change**, such as a major acquisition, disposal, or restructuring
 
-| Benchmark | Typical Range | When Used |
-|---|---|---|
-| **Net income (before tax)** | 5%-10% | For-profit entities with stable earnings |
-| **Total revenue** | 0.5%-1% | Entities with volatile or near-zero earnings |
-| **Total assets** | 0.5%-1% | Asset-intensive industries (banking, real estate) |
-| **Total equity** | 1%-2% | Entities where equity is the key focus |
-| **Total expenses** | 0.5%-1% | Not-for-profit entities |
+When materiality is lowered, the auditor also reconsiders performance materiality and whether the nature, timing, and extent of further procedures are still adequate.
 
-:::warning
-
-These percentages are **guidelines**, not rules. The auditor must exercise professional judgment in selecting the appropriate benchmark and percentage. The choice should reflect the needs and perspectives of the **primary users** of the financial statements.
-
-:::
-
-**Example:** Polar Inc. is a not-for-profit organization with total expenses of \$10 million. The auditor selects total expenses as the appropriate benchmark and applies a percentage of 1%, resulting in preliminary materiality of \$100,000. Performance materiality is set at \$70,000.
-
-### Revising Materiality During the Audit
-
-Materiality is not a one-and-done calculation. The auditor must **revise materiality** if, during the course of the audit, information comes to light that would have caused the auditor to determine a different amount initially.
-
-Common reasons for revising materiality include:
-
-- **Changes in the entity's financial results**: For example, if materiality was based on estimated net income and actual net income is significantly different from the estimate
-- **Discovery of new information**: Such as previously unknown related-party transactions or significant accounting errors
-- **Changes in circumstances**: Such as a major acquisition, disposal, or restructuring during the year
-
-When materiality is revised, the auditor must also **reconsider performance materiality** and evaluate whether the **nature, timing, and extent of further audit procedures** remain appropriate.
-
-**Example:** Kodiak Partners initially sets materiality for Ursa Security's audit at \$250,000, based on estimated net income of \$5 million. During fieldwork, the auditor discovers that actual net income will be approximately \$2 million due to an unexpected impairment charge. Kodiak Partners revises materiality downward to \$150,000, recalculates performance materiality to \$100,000, and expands substantive testing to address the lower threshold.
+**Example:** Kodiak Partners, a CPA firm, sets planning materiality for Sloth Security at \$250,000, which is 5% of estimated pretax income of \$5 million. During fieldwork, an unexpected impairment charge drops expected pretax income to \$2 million. Kodiak Partners lowers materiality to \$100,000 (5% of \$2 million), lowers performance materiality to \$70,000, and expands its substantive testing to match.
 
 :::tip[Exam Tip]
 
-If the CPA exam asks when the auditor should revise materiality, the answer is whenever the auditor becomes aware of information that would have resulted in a different materiality amount initially. Materiality is a **living number** that reflects current knowledge about the entity.
+If a question asks when the auditor should revise materiality, the answer is whenever the auditor becomes aware of information that would have caused a different amount to be set initially. A lower materiality means more audit work, not less.
 
 :::
 
@@ -134,9 +108,11 @@ If the CPA exam asks when the auditor should revise materiality, the answer is w
 
 ## Summary
 
-| Concept | Definition | Key Point |
-|---|---|---|
-| **Materiality** | Magnitude of misstatement that would influence a reasonable user | Set for the financial statements as a whole; considers both quantitative and qualitative factors |
-| **Performance materiality** | Amount set below overall materiality | Provides a safety margin so aggregate uncorrected/undetected misstatements don't exceed materiality |
-| **Tolerable misstatement** | Application of performance materiality to a sampling procedure | Maximum acceptable misstatement in a single account balance or transaction class |
-| **Revision** | Adjustment of materiality during the audit | Required when new information would have changed the original determination |
+| Concept | Key Point |
+|---|---|
+| **Materiality** | Substantial likelihood that a misstatement would influence the judgment of a reasonable user; quantitative and qualitative |
+| **Overall materiality** | Set in planning as a percentage of a benchmark chosen with the primary users in mind |
+| **Particular items** | Lower materiality for items users care about at smaller amounts |
+| **Performance materiality** | Below overall materiality; leaves a cushion for undetected misstatements |
+| **Tolerable misstatement** | Performance materiality applied to a sample; the PCAOB's account-level counterpart to performance materiality |
+| **Revision** | Required when new information would have changed the original amount |

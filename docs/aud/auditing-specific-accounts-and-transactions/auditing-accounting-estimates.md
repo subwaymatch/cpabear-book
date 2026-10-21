@@ -1,136 +1,79 @@
 # Auditing Accounting Estimates
 
-Accounting estimates are approximations of financial statement amounts when precise measurement is not possible. Examples include the allowance for doubtful accounts, warranty reserves, depreciation, fair value measurements, and contingent liabilities. Because estimates involve significant management judgment, they carry inherent risk of material misstatement and potential management bias.
+Many amounts in a set of financial statements cannot be measured precisely. Management has to estimate them: the allowance for credit losses, warranty reserves, depreciation, inventory obsolescence, and the fair value of hard-to-price investments. Because an estimate rests on judgment and forecasts, it is a natural place for honest error and for management bias, and the exam expects you to recognize which estimates are risky and how the auditor tests them. This chapter follows the AICPA standard (AU-C 540, as revised by SAS 143) and notes where the PCAOB standard for issuers (AS 2501) takes the same approach. It covers why estimates carry risk, the three ways the auditor responds, how to handle contradictory evidence and specialists, and the signs of management bias.
 
-## How the Auditor Evaluates Estimates
+---
 
-The auditor uses one or a combination of the following three approaches to evaluate accounting estimates:
+## Why Estimates Carry Risk
 
-### 1. Review Management's Process
+AU-C 540 directs the auditor to look at three **inherent risk factors** when assessing an estimate:
 
-The auditor evaluates the **method, assumptions, and data** used by management to develop the estimate:
+- **Estimation uncertainty**: how precisely the amount can be measured at all. A warranty reserve for a product with ten years of claim history is far more predictable than a lawsuit's outcome.
+- **Complexity**: how complicated the method or data is, such as a credit loss model with dozens of inputs or a valuation that needs a specialist.
+- **Subjectivity**: how much judgment the method, assumptions, and data require, such as choosing a discount rate or a long-term growth rate.
 
-- **Method**: Is the estimation method appropriate and consistently applied?
-- **Assumptions**: Are the significant assumptions reasonable and supported by evidence?
-- **Data**: Is the underlying data complete, accurate, and relevant?
+The higher these factors, the higher the inherent risk, and the more susceptible the estimate is to management bias. The auditor assesses inherent risk and control risk **separately**. If the auditor does not test controls over the estimate, control risk is at the maximum and the risk of material misstatement equals inherent risk.
 
-### 2. Develop an Independent Estimate
+| Lower complexity and risk | Higher complexity and risk |
+|---|---|
+| Straight-line depreciation of standard equipment | Fair value of investments valued with unobservable inputs (Level 3) |
+| Accrued payroll and utilities | Goodwill and long-lived asset impairment |
+| Warranty reserve for a mature product with stable claims | Allowance for credit losses built on forecasts of economic conditions |
+| Bad debt percentage applied to a stable customer base | Pension and other postretirement benefit obligations |
 
-The auditor develops a **separate, independent estimate** (a point estimate or range) to compare with management's recorded amount. If the auditor's estimate differs materially from management's, further investigation is warranted.
+Before responding, the auditor learns how management makes each estimate: the method, the significant assumptions, the data, any specialists used, and the controls over the process. The auditor also performs a **retrospective review**, comparing last year's estimates to how they actually turned out. The point is not to second-guess judgments made with the information available at the time. It is to learn how reliable management's process is and to spot a pattern of bias.
 
-### 3. Review Subsequent Events
+---
 
-The auditor examines **events or transactions occurring after the balance sheet date** but before the audit report date that may provide evidence about the reasonableness of the estimate.
+## Three Ways to Respond
 
-:::info
+The auditor's further procedures for an estimate use one or more of three approaches. For a high-risk estimate, the auditor often combines them to obtain more persuasive evidence.
 
-The auditor may use one, two, or all three approaches. The choice depends on the nature of the estimate and the assessed risk of material misstatement. For high-risk estimates, the auditor may use multiple approaches to obtain more persuasive evidence.
+**1. Obtain evidence from events up to the date of the auditor's report.** Sometimes the answer arrives before the audit ends. If inventory written down at year-end sells in February for more than its carrying amount, or a lawsuit settles before the report date, the subsequent event provides direct evidence about the year-end estimate.
+
+**2. Test how management made the estimate.** The auditor evaluates whether the **method** is appropriate for the framework and applied consistently, whether the **significant assumptions** are reasonable and supported, and whether the **data** are relevant, complete, and accurate. In practice this means recalculating the estimate, reperforming management's model with the same inputs, and tracing the data back to source records.
+
+**3. Develop an auditor's point estimate or range.** The auditor builds an independent estimate and compares it to management's amount. A range must include only amounts that the evidence supports and that the auditor has evaluated as reasonable; a range so wide that it would accept almost any answer is not useful.
+
+### Example: Bear Co.'s Warranty Reserve
+
+Bear Co. records a warranty reserve of \$500,000. The auditor tests how management made it by tracing the claim rate (2% of units sold) to three years of claim records and recalculating the reserve. Using the same history and industry data, the auditor develops a range of \$480,000 to \$530,000. The auditor also reviews claims paid in January and February, which run at the expected pace. Management's \$500,000 falls inside the auditor's range and is supported by subsequent events, so the auditor concludes the estimate is reasonable.
+
+### When Management's Amount Falls Outside the Range
+
+If management's estimate lies outside the auditor's range, the misstatement is at least the difference between management's amount and the **nearest end** of the range. Suppose Grizzly Industries records an allowance for credit losses of \$400,000 and the auditor's supported range is \$450,000 to \$520,000. The allowance is understated by at least \$50,000 (\$450,000 minus \$400,000), and that amount goes on the summary of misstatements as a judgmental misstatement.
+
+---
+
+## Contradictory Evidence and Specialists
+
+The auditor evaluates all the evidence, not just the evidence that supports management. If Polar Inc.'s impairment model assumes 10% annual sales growth, but the board minutes discuss losing the company's largest customer, the minutes contradict a significant assumption. The auditor must resolve that conflict before accepting the estimate, often by asking management to revise the model and then testing the revision.
+
+Complex estimates often involve specialists. When **management** uses a specialist, such as an actuary for pension obligations or an appraiser for real estate, the auditor evaluates the specialist's competence, capabilities, and objectivity, obtains an understanding of the work, and evaluates whether it is appropriate evidence for the assertion. When the **auditor** needs specialized skill to evaluate the estimate, the auditor may engage an auditor's specialist and remains responsible for the conclusion. The [Using the Work of Others](../audit-evidence-and-procedures/using-the-work-of-others.md) chapter covers both situations.
+
+---
+
+## Indicators of Management Bias
+
+**Management bias** is a lack of neutrality in preparing information. It can exist in an estimate that still falls within a reasonable range, so the auditor looks for patterns across estimates and across years rather than judging each number alone. Common indicators include:
+
+- Changing a method or assumption when circumstances have not changed
+- Choosing assumptions that consistently sit at the end of the range that favors management's goals
+- Assumptions that are inconsistent with each other, with market data, or with management's own plans
+- Estimates that move in a way that smooths earnings or helps the entity meet a target, such as building reserves in a good year and releasing them in a bad one
+
+Indicators of possible bias do not, by themselves, make an estimate misstated. They do affect the auditor's risk assessment and the evaluation of whether the financial statements as a whole are free of material misstatement. If the bias appears intentional, the auditor considers whether it amounts to fraud.
+
+:::warning[Exam Trap]
+
+Each estimate can look reasonable on its own while the pattern tells a different story. If management picks the most favorable reasonable amount for the warranty reserve, the inventory reserve, and the credit loss allowance, the combined effect may be a material misstatement even though no single estimate falls outside its range.
 
 :::
 
-### Example: Evaluating an Estimate at Bear Co.
+---
 
-Bear Co. records a warranty reserve of \$500,000. The auditor:
-1. **Reviews management's process**: Examines the historical warranty claim rate, the assumptions about future claims, and the data used (sales volume, defect rates)
-2. **Develops an independent estimate**: Using Bear Co.'s historical claim data and industry benchmarks, the auditor independently calculates an expected warranty reserve of \$480,000 to \$530,000
-3. **Reviews subsequent events**: Examines warranty claims received in January and February to see if the pattern is consistent with management's estimate
+## Concluding on Estimates
 
-Since management's \$500,000 falls within the auditor's reasonable range, the estimate is considered acceptable.
+At the end, the auditor decides whether each significant estimate and its related disclosures are **reasonable** in the context of the framework or are **misstated**. Disclosures matter as much as the amount: when estimation uncertainty is high, the framework often requires disclosure of the assumptions used and how sensitive the amount is to them. For estimates with lower risk and complexity, less evidence is needed to reach this conclusion, but the auditor still needs enough to support it. The auditor also obtains **written representations** from management that the methods, significant assumptions, and data used in making the estimates are appropriate.
 
-## Sources of Estimation Uncertainty
-
-Accounting estimates are inherently uncertain. Key sources of uncertainty include:
-
-| Source | Description |
-|---|---|
-| **Complexity of the estimate** | Multi-variable models (e.g., pension obligations, fair value of derivatives) are more uncertain |
-| **Subjectivity of assumptions** | Assumptions about future events (e.g., discount rates, growth rates) involve significant judgment |
-| **Length of the forecast period** | Estimates requiring projections far into the future carry more uncertainty |
-| **Availability of reliable data** | Limited historical data or data from volatile markets increases uncertainty |
-| **Sensitivity to changes** | Small changes in key assumptions that produce large changes in the estimate indicate high sensitivity |
-| **Management bias** | Management may have incentives to bias estimates in a particular direction |
-
-:::warning[Management Bias]
-
-The auditor must evaluate whether management's assumptions and methods suggest **intentional bias**. A pattern of optimistic or pessimistic estimates across multiple accounts may indicate management is manipulating results. Indicators include consistently selecting assumptions at one end of a reasonable range.
-
-:::
-
-## Audit Procedures for Contingencies and Litigation
-
-Contingent liabilities arise from lawsuits, regulatory actions, tax disputes, and other uncertain situations. Auditing contingencies requires specialized procedures because management may not voluntarily disclose unfavorable legal matters.
-
-### Letter of Inquiry to the Client's Attorney
-
-The **attorney letter** (also called a letter of audit inquiry or legal letter) is a primary procedure for identifying and evaluating litigation, claims, and assessments.
-
-#### Process
-
-1. **Management prepares a letter** describing all pending or threatened litigation, claims, and assessments
-2. The letter is sent to the **client's outside legal counsel** (attorneys), requesting them to confirm or comment on:
-   - The existence of the matters described
-   - The likelihood of an unfavorable outcome (probable, reasonably possible, or remote)
-   - An estimate of the potential loss or a statement that an estimate cannot be made
-3. The attorney responds **directly to the auditor**
-
-:::note
-
-The letter is prepared by **management** (not the auditor) because it is management who has the attorney-client relationship. However, the response is sent to the **auditor** to ensure the information is not filtered through management.
-
-:::
-
-### Other Procedures for Contingencies
-
-| Procedure | Description |
-|---|---|
-| **Inquiry of management** | Ask management about known or potential claims, litigation, and regulatory actions |
-| **Review board minutes** | Board meeting minutes may reference legal matters, settlements, or claims |
-| **Review contracts and correspondence** | Examine contracts for penalty clauses, guarantees, or indemnification agreements |
-| **Review tax returns and assessments** | Identify potential tax-related contingencies |
-| **Obtain a representation letter** | Management's written representations should specifically address litigation and contingencies |
-
-### Example: Contingency Audit at Kodiak Partners
-
-Kodiak Partners is involved in a breach-of-contract lawsuit filed by Ursa Security. The auditor:
-- Reviews management's description of the lawsuit in the attorney letter
-- Sends the letter to Kodiak Partners' outside counsel, who confirms the lawsuit exists and assesses the likelihood of an unfavorable outcome as "reasonably possible" with a potential range of \$200,000 to \$400,000
-- Reviews the board minutes from the September meeting, which reference the lawsuit and discuss settlement options
-- Reviews the engagement letter between Kodiak Partners and its attorney for scope of legal representation
-- Verifies that Kodiak Partners disclosed the contingency in the notes to the financial statements
-
-## Effect on the Audit Opinion
-
-### Client Refuses to Send the Attorney Letter
-
-:::danger[Scope Limitation]
-
-If the client **refuses to allow the auditor to send a letter of inquiry** to its attorney, this constitutes a **scope limitation** imposed by the client. The auditor should consider:
-- **Qualified opinion**: If the potential misstatement could be material but not pervasive
-- **Disclaimer of opinion**: If the potential misstatement could be both material and pervasive
-- **Withdrawal from the engagement**: In some circumstances, particularly if the refusal suggests a broader integrity concern
-
-:::
-
-### Attorney Refuses to Respond
-
-If the client's attorney **refuses to furnish information** requested in the letter of inquiry, this also creates a **scope limitation**. The auditor's response depends on the significance of the matter:
-
-| Scenario | Potential Impact on Opinion |
-|---|---|
-| Attorney refuses to respond to specific items that are potentially material | Qualified opinion or disclaimer |
-| Attorney refuses to respond entirely | Disclaimer of opinion is likely warranted |
-| Attorney limits response due to inherent uncertainty (cannot estimate outcome) | Not necessarily a scope limitation; the auditor evaluates disclosure adequacy |
-
-### Example: Attorney Non-Response at Polar Inc.
-
-Polar Inc.'s attorney refuses to respond to the auditor's inquiry regarding a pending regulatory action by the SEC. The auditor is unable to obtain sufficient appropriate evidence about the potential liability. Because the matter could be material and pervasive to the financial statements, the auditor issues a **disclaimer of opinion**, citing the inability to obtain sufficient evidence about the litigation contingency.
-
-## Summary
-
-| Procedure/Concept | Key Point |
-|---|---|
-| Evaluating estimates | Three approaches: review management's process, develop independent estimate, review subsequent events |
-| Estimation uncertainty | Driven by complexity, subjectivity, forecast horizon, data availability, sensitivity, and potential bias |
-| Attorney letter | Prepared by management, sent to attorney, response goes directly to auditor |
-| Client refuses attorney inquiry | Scope limitation, resulting in a qualified opinion or disclaimer |
-| Attorney refuses to respond | Scope limitation, resulting in a qualified opinion or disclaimer |
+Two kinds of estimates get their own chapters. Loss contingencies from litigation, claims, and assessments are covered in [Litigation, Claims, and Assessments](./litigation-claims-and-assessments.md), and the fair value of investments in securities is covered in [Auditing Cash and Investments](./auditing-cash-and-investments.md).

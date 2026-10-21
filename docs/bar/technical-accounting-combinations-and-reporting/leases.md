@@ -1,611 +1,361 @@
 # Leases
 
-The FAR section introduces lessee accounting under ASC 842: right-of-use assets, lease liabilities, and the distinction between operating and finance leases from the lessee's perspective. The BAR section shifts focus to the **lessor side** of the transaction and to **interpreting complex lease arrangements**. BAR expects you to **classify** leases as sales-type, direct financing, or operating from the lessor's viewpoint, **calculate** the net investment and lease income for each classification, **prepare lessor journal entries**, **account for sale and leaseback transactions** from the seller-lessee's perspective, and **analyze lease agreements** to determine the appropriate accounting treatment.
-:::info[Blueprint Coverage]
-This topic maps to **Area II, Group I** of the 2026 CPA Exam Blueprints for **Business Analysis and Reporting (BAR)**. The blueprint expects candidates to:
-
-- **Identify** the criteria for classifying a lease arrangement for a lessor.
-- **Calculate** the carrying amount of lease-related assets and liabilities and prepare journal entries that a lessor should record.
-- **Calculate** the amount of lease income that a lessor should recognize in the income statement.
-- **Prepare** journal entries that the seller/lessee should record for a sale and leaseback transaction.
-- **Interpret** agreements, contracts, and/or other supporting documentation to determine the appropriate accounting treatment of a leasing arrangement and prepare the journal entries that the lessee should record.
-  :::
+FAR covers ASC 842 from the lessee's side: right-of-use assets, lease liabilities, and the split between finance and operating leases. BAR turns the lease around and looks at it from the **lessor's** side, and it adds two kinds of judgment: accounting for a **sale and leaseback** and reading a **lease agreement** to decide how the lessee should account for it. The 2027 BAR blueprint (Area II, Group I) asks you to identify the lessor classification criteria, calculate lessor balances and lease income and prepare the lessor's entries, prepare the seller-lessee's entries in a sale and leaseback, and interpret an agreement to prepare the lessee's entries. This chapter takes those tasks in that order.
 
 ---
 
-## Lessor Classification Framework
+## How a Lessor Classifies a Lease
 
-Under ASC 842, a lessor classifies every lease into one of three categories: **sales-type**, **direct financing**, or **operating**. The classification drives how the lessor recognizes income, measures lease-related assets, and presents the underlying asset on its balance sheet.
+A lessee has two lease categories; a lessor has three: **sales-type**, **direct financing**, and **operating**. The classification decides whether the lessor keeps the asset on its books or replaces it with a receivable, and whether it recognizes any profit at the start.
 
-### Step 1: Apply the OWNES Criteria
+### Step 1: The Five Sales-Type Criteria
 
-The five criteria are identical to those used for lessee classification. If **any one** is met, the lease is a **sales-type lease** from the lessor's perspective:
-| Letter | Criterion | Threshold |
-|--------|-----------|-----------|
-| **O** | Ownership transfer | Title transfers to lessee by end of lease |
-| **W** | Written purchase option | Lessee has option reasonably certain to exercise |
-| **N** | Ninety percent | PV of lease payments ≥ 90% of fair value |
-| **E** | Economic life | Lease term ≥ 75% of remaining economic life |
-| **S** | Specialized asset | No alternative use to lessor at end of lease |
+The lessor first applies the same five criteria a lessee uses. If **any one** is met, the lease is a **sales-type lease**, because the lessee has effectively bought the asset.
 
-### Step 2: Direct Financing Test
+| Criterion | Test |
+| --- | --- |
+| **Ownership transfer** | Title transfers to the lessee by the end of the lease term |
+| **Purchase option** | The lessee has an option to buy the asset that it is reasonably certain to exercise |
+| **Lease term** | The lease term is a major part (75% or more is a common benchmark) of the asset's remaining economic life |
+| **Present value** | The present value of the lease payments plus any residual value guaranteed by the **lessee** is substantially all (90% or more is a common benchmark) of the asset's fair value |
+| **Specialized asset** | The asset is so specialized that it has no alternative use to the lessor at the end of the term |
 
-If **none** of the OWNES criteria are met, apply two additional tests. The lease is a **direct financing lease** if **both** are satisfied:
+Many textbooks remember these as **OWNES**: Ownership, Written purchase option, Ninety percent, Economic life, Specialized.
 
-1. **PV test**: The present value of lease payments **plus** the present value of any residual value guaranteed by a **third party** (not the lessee) ≥ substantially all (90%) of the fair value of the underlying asset.
-2. **Collectibility**: It is **probable** that the lessor will collect the lease payments plus any residual value guarantee amount.
-   :::warning
-   Third-party residual value guarantees (e.g., from an insurance company) are included in the direct financing PV test but are **not** part of the OWNES "N" test. This distinction is a common exam trap: a lease that fails the 90% test under OWNES can still qualify as direct financing when a third-party guarantee is present.
-   :::
+### Step 2: The Direct Financing Test
 
-### Step 3: Default to Operating
+If none of the five is met, the lease is a **direct financing lease** if **both** of these are true:
 
-If the lease is **neither** sales-type **nor** direct financing, it is classified as an **operating lease**.
+1. The present value of the lease payments plus any residual value guaranteed by the lessee **or any third party unrelated to the lessor** is substantially all of the asset's fair value.
+2. It is **probable** that the lessor will collect the lease payments plus any amount needed to satisfy a residual value guarantee.
+
+The difference from Step 1 is the third-party guarantee. A residual value guarantee from an insurance company, for example, counts in the direct financing test but not in the sales-type test. So a lease that fails the 90% test in Step 1 can still be a direct financing lease when a third party guarantees the residual.
+
+### Step 3: Otherwise, Operating
+
+A lease that is neither sales-type nor direct financing is an **operating lease**. One more rule applies here: if a lease has variable payments that do not depend on an index or rate, and classifying it as sales-type or direct financing would produce a selling loss at commencement, the lessor classifies it as an operating lease.
 
 ```mermaid
 graph TD
-    A["Lease Contract<br/>(Lessor Perspective)"] --> B{"Any OWNES<br/>criterion met?"}
-    B -->|Yes| C["Sales-Type Lease"]
-    B -->|No| D{"PV of payments +<br/>3rd-party residual ≥ 90% FV<br/>AND collectibility probable?"}
-    D -->|"Both met"| E["Direct Financing Lease"]
-    D -->|"Either not met"| F["Operating Lease"]
+    A["Lease contract,<br/>lessor's view"] --> B{"Any of the five<br/>sales-type criteria met?"}
+    B -->|Yes| C["Sales-type lease"]
+    B -->|No| D{"PV of payments and lessee<br/>or third-party guarantee<br/>at least 90% of FV, and<br/>collection probable?"}
+    D -->|"Both met"| E["Direct financing lease"]
+    D -->|"Either not met"| F["Operating lease"]
     style C fill:#cfe2f3,stroke:#333
     style E fill:#d9ead3,stroke:#333
     style F fill:#fff2cc,stroke:#333
 ```
 
-:::tip[Exam Tip]
-The **lessee** has two categories (finance and operating). The **lessor** has three. A lease that qualifies as a finance lease for the lessee will be either sales-type or direct financing for the lessor. The OWNES criteria are the same dividing line, but the lessor adds a second classification layer when OWNES is not met.
-:::
+A lease that is a finance lease to the lessee will be sales-type or, occasionally, direct financing to the lessor.
 
 ---
 
-## Sales-Type Lease: Lessor Accounting
+## Sales-Type Leases
 
-A sales-type lease is economically similar to a sale. The lessor **derecognizes** the underlying asset, records a **net investment in the lease**, and recognizes a **selling profit or loss** at commencement if the fair value differs from the carrying amount.
+A sales-type lease is treated much like a sale on credit. At commencement, the lessor **derecognizes** the asset, records a **net investment in the lease**, and recognizes any **selling profit or loss**.
 
-### Initial Measurement
+The net investment has two parts:
 
-$$
-\text{Net Investment in Lease} = \text{Lease Receivable} + \text{Unguaranteed Residual Asset}
-$$
+- The **lease receivable**: the present value, at the rate implicit in the lease, of the lease payments, including any residual value guaranteed by the lessee or a third party.
+- The **unguaranteed residual asset**: the present value of the part of the expected residual value that no one guarantees.
 
-Where:
+The selling profit is revenue minus cost of goods sold, where:
 
-- **Lease receivable** = PV of lease payments and any guaranteed residual value (discounted at the rate implicit in the lease)
-- **Unguaranteed residual asset** = PV of the unguaranteed portion of the residual value
-  The selling profit or loss at commencement:
-  $$
-  \text{Selling Profit} = (\text{Lease Receivable} + \text{PV of Guaranteed Residual}) - \text{Carrying Amount of Asset}
-  $$
-  :::warning
-  **Initial direct costs**: If the lessor recognizes a selling profit at commencement, initial direct costs (e.g., commissions) are **expensed immediately**. If there is no selling profit (fair value = carrying amount), initial direct costs are **deferred** and included in the net investment.
-  :::
+- **Revenue** is the fair value of the asset (or, if lower, the lease receivable plus any lease payments received before commencement).
+- **Cost of goods sold** is the asset's carrying amount minus the unguaranteed residual asset. The unguaranteed residual is excluded from both revenue and cost because the lessor has not sold that part of the asset; it will get it back.
+
+**Initial direct costs**, such as commissions, are expensed at commencement if the fair value differs from the carrying amount (that is, if there is a selling profit or loss). If fair value equals carrying amount, they are deferred and included in the net investment.
 
 ### Example: Bear Co. Sales-Type Lease
 
-Bear Co. manufactures equipment at a cost of **\$72,000** and leases it to Polar Inc. on January 1 under the following terms:
-| Term | Detail |
-|------|--------|
-| Fair value of equipment | \$86,590 |
-| Cost to manufacture | \$72,000 |
-| Lease term | 5 years (= economic life) |
-| Annual payment (end of year) | \$20,000 |
-| Rate implicit in the lease | 5% |
-| Residual value | \$0 |
-Because the lease term equals the economic life, the **OWNES "E" criterion** is met, so this is a **sales-type lease**.
-**Present value of lease payments:**
+Bear Co. manufactures a machine at a cost of \$72,000 and leases it to Polar Inc. on January 1. The machine's fair value is \$86,590, the lease term is 5 years (equal to its economic life), payments of \$20,000 are due at the end of each year, the rate implicit in the lease is 5%, and the expected residual value is zero.
+
+Because the lease term equals the economic life, the lease-term criterion is met and the lease is sales-type. The lease receivable is the present value of the payments:
 
 $$
-\text{PV} = \$20{,}000 \times \frac{1 - (1.05)^{-5}}{0.05} = \$20{,}000 \times 4.32948 = \$86{,}590
+\$20{,}000 \times \frac{1 - (1.05)^{-5}}{0.05} = \$20{,}000 \times 4.32948 = \$86{,}590
 $$
 
-**Selling profit:**
-
-$$
-\text{Selling Profit} = \$86{,}590 - \$72{,}000 = \$14{,}590
-$$
-
-**Commencement entry (Bear Co.):**
+With no unguaranteed residual, revenue is \$86,590, cost of goods sold is \$72,000, and the selling profit is \$14,590.
 
 ```journal
 Jan 1
 Dr. Net Investment in Lease[a] 86,590
-    Cr. Equipment[a] 72,000
-    Cr. Selling Profit on Lease 14,590
+Cr. Machinery Inventory[a] 72,000
+Cr. Selling Profit on Lease 14,590
 ```
 
-### Subsequent Measurement: Interest Income
-
-After commencement, the lessor recognizes **interest income** using the effective interest method:
-
-$$
-\text{Interest Income} = \text{Beginning Net Investment} \times \text{Implicit Rate}
-$$
-
-**Year 1:**
-
-$$
-\text{Interest Income} = \$86{,}590 \times 5\% = \$4{,}330
-$$
+Afterward, the lessor earns **interest income** on the net investment using the effective interest method. Each payment covers the interest and reduces the net investment by the rest:
 
 ```journal
-Dec 31
+Dec 31, Year 1
 Dr. Cash[a] 20,000
-    Cr. Interest Income 4,330
-    Cr. Net Investment in Lease[a] 15,670
+Cr. Interest Income 4,330
+Cr. Net Investment in Lease[a] 15,670
 ```
 
-### Amortization Schedule
+| Year | Beginning net investment | Interest (5%) | Payment | Reduction | Ending net investment |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 1 | \$86,590 | \$4,330 | \$20,000 | \$15,670 | \$70,920 |
+| 2 | \$70,920 | \$3,546 | \$20,000 | \$16,454 | \$54,466 |
+| 3 | \$54,466 | \$2,723 | \$20,000 | \$17,277 | \$37,189 |
+| 4 | \$37,189 | \$1,859 | \$20,000 | \$18,141 | \$19,048 |
+| 5 | \$19,048 | \$952 | \$20,000 | \$19,048 | \$0 |
+| **Total** | | **\$13,410** | **\$100,000** | | |
 
-| Year      | Beg. Net Investment | Interest (5%) |       Payment | Reduction | End Net Investment |
-| --------- | ------------------: | ------------: | ------------: | --------: | -----------------: |
-| 1         |            \$86,590 |       \$4,330 |      \$20,000 |  \$15,670 |           \$70,920 |
-| 2         |            \$70,920 |       \$3,546 |      \$20,000 |  \$16,454 |           \$54,466 |
-| 3         |            \$54,466 |       \$2,723 |      \$20,000 |  \$17,277 |           \$37,189 |
-| 4         |            \$37,189 |       \$1,859 |      \$20,000 |  \$18,141 |           \$19,048 |
-| 5         |            \$19,048 |         \$952 |      \$20,000 |  \$19,048 |                \$0 |
-| **Total** |                     |  **\$13,410** | **\$100,000** |           |                    |
+Total interest income (\$13,410) is the total cash collected (\$100,000) minus the initial net investment (\$86,590). Over the lease, Bear Co. earns \$14,590 of selling profit plus \$13,410 of interest.
 
-The total interest income of \$13,410 equals total cash collected (\$100,000) minus the initial net investment (\$86,590).
+---
 
-## Direct Financing Lease: Lessor Accounting
+## Direct Financing Leases
 
-In a direct financing lease, the lessor **derecognizes** the underlying asset and recognizes the **net investment in the lease**, but does **not** recognize any selling profit at commencement. Any difference between the fair value and carrying amount of the asset is deferred and recognized over the lease term as an adjustment to the effective interest rate.
-Direct financing leases most commonly arise when:
-
-- The lessor is **not** a manufacturer or dealer (e.g., a leasing company or bank)
-- OWNES criteria are not met, but a **third-party residual value guarantee** pushes the present value to ≥ 90% of fair value
+A direct financing lease is accounted for like a sales-type lease, with one difference: the lessor **does not recognize a selling profit** at commencement. Any profit is deferred and included in the net investment, so it comes into income over the lease term through the interest rate. A selling **loss**, by contrast, is recognized at commencement. Initial direct costs are included in the net investment.
 
 ### Example: Bear Co. Direct Financing Lease
 
-Bear Co. purchases a delivery truck for **\$50,000** (= fair value) and leases it to Polar Inc. on January 1:
-| Term | Detail |
-|------|--------|
-| Cost and fair value of truck | \$50,000 |
-| Economic life | 8 years |
-| Lease term | 4 years |
-| Annual payment (end of year) | \$10,000 |
-| Residual value | \$16,000 (guaranteed by third-party insurer) |
-| Rate implicit in the lease | 4% |
-**OWNES check:**
+Bear Co. buys a delivery truck for \$50,000, its fair value, and leases it to Panda Industries on January 1 for 4 years. The truck's economic life is 8 years. Panda pays \$10,007 at the end of each year and returns the truck at the end of the lease. An insurance company unrelated to Bear Co. guarantees a residual value of \$16,000. The rate implicit in the lease is 4%.
 
-- **O**: No ownership transfer (not met)
-- **W**: No purchase option (not met)
-- **N**: PV of lease payments = \$10,000 × 3.62990 = \$36,299, which is 72.6% of FV < 90% (not met)
-- **E**: 4 / 8 = 50% < 75% (not met)
-- **S**: Truck has alternative uses (not met)
-  **Direct financing test:**
-- PV of lease payments: \$36,299
-- PV of third-party residual guarantee: \$16,000 × 0.85480 = \$13,677
-- Total: \$49,976, which is **99.9% of FV ≥ 90%** (met)
-- Collectibility is **probable** (met)
-- Result: **Direct financing lease**
-  Because carrying amount = fair value, there is no selling profit to defer.
-  **Commencement entry (Bear Co.):**
+| Test | Result |
+| --- | --- |
+| Ownership transfer, purchase option, specialized asset | Not met |
+| Lease term: 4 / 8 = 50% | Not met |
+| Present value of payments: \$10,007 × 3.62990 = \$36,324, or 73% of fair value (the third-party guarantee does not count here) | Not met |
+| Direct financing: \$36,324 + PV of the guarantee (\$16,000 × 0.85480 = \$13,677) = \$50,001, or 100% of fair value; collection is probable | **Met** |
+
+The lease is a direct financing lease. Because cost equals fair value, there is no selling profit to defer, and the net investment is \$50,000:
 
 ```journal
 Jan 1
 Dr. Net Investment in Lease[a] 50,000
-    Cr. Equipment[a] 50,000
+Cr. Truck[a] 50,000
 ```
 
-### Subsequent Measurement: Interest Income
+| Year | Beginning net investment | Interest (4%) | Payment | Reduction | Ending net investment |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 1 | \$50,000 | \$2,000 | \$10,007 | \$8,007 | \$41,993 |
+| 2 | \$41,993 | \$1,680 | \$10,007 | \$8,327 | \$33,666 |
+| 3 | \$33,666 | \$1,347 | \$10,007 | \$8,660 | \$25,006 |
+| 4 | \$25,006 | \$1,001 | \$10,007 | \$9,006 | \$16,000 |
+| **Total** | | **\$6,028** | **\$40,028** | | |
 
-The lessor applies the effective interest method to the net investment, just as in a sales-type lease:
-**Year 1:**
+(Year 4 interest includes a \$1 rounding adjustment.) The Year 1 entry is:
 
 ```journal
-Dec 31
-Dr. Cash[a] 10,000
-    Cr. Interest Income 2,000
-    Cr. Net Investment in Lease[a] 8,000
+Dec 31, Year 1
+Dr. Cash[a] 10,007
+Cr. Interest Income 2,000
+Cr. Net Investment in Lease[a] 8,007
 ```
 
-### Amortization Schedule
-
-| Year      | Beg. Net Investment | Interest (4%) |      Payment | Reduction | End Net Investment |
-| --------- | ------------------: | ------------: | -----------: | --------: | -----------------: |
-| 1         |            \$50,000 |       \$2,000 |     \$10,000 |   \$8,000 |           \$42,000 |
-| 2         |            \$42,000 |       \$1,680 |     \$10,000 |   \$8,320 |           \$33,680 |
-| 3         |            \$33,680 |       \$1,347 |     \$10,000 |   \$8,653 |           \$25,027 |
-| 4         |            \$25,027 |       \$973\* |     \$10,000 |   \$9,027 |           \$16,000 |
-| **Total** |                     |   **\$6,000** | **\$40,000** |           |                    |
-
-\*Year 4 interest adjusted for rounding so the ending balance equals the residual value.
-**At lease end, recover the residual asset:**
+When the truck comes back at the end of Year 4, Bear Co. reclassifies the remaining net investment to the truck:
 
 ```journal
-Dec 31 (Year 4)
-Dr. Equipment[a] 16,000
-    Cr. Net Investment in Lease[a] 16,000
+Dec 31, Year 4
+Dr. Truck[a] 16,000
+Cr. Net Investment in Lease[a] 16,000
 ```
 
-Total income over the lease = \$6,000 = total cash inflows (\$40,000 payments + \$16,000 residual) minus the initial investment (\$50,000).
+If the truck were worth less than \$16,000, the insurer would pay Bear Co. the shortfall. Total income over the lease, \$6,028, equals the cash inflows (\$40,028 of payments plus the \$16,000 residual) minus the \$50,000 investment.
 
-## Operating Lease: Lessor Accounting
+---
 
-Under an operating lease, the lessor **continues to recognize** the underlying asset on its balance sheet, **depreciates** it over its useful life, and recognizes **lease income on a straight-line basis** over the lease term.
+## Operating Leases
 
-### Example: Polar Inc. Operating Lease
+In an operating lease, the lessor has not given up the asset in substance, so it **keeps the asset** on its balance sheet, keeps **depreciating** it, and recognizes **lease income on a straight-line basis** over the lease term (even if the payments are uneven). Initial direct costs are deferred and expensed over the lease term. If collection of the payments is not probable, lease income is limited to the cash received.
 
-Polar Inc. owns an office building (cost \$500,000, useful life 25 years, no salvage value) and leases space to Bear Co. on January 1:
-| Term | Detail |
-|------|--------|
-| Cost of building | \$500,000 |
-| Useful life | 25 years |
-| Lease term | 5 years |
-| Annual rent (end of year) | \$45,000 |
-| Discount rate | 6% |
-**OWNES check:**
+### Example: Polar Inc. Leases Office Space
 
-- **E**: 5 / 25 = 20% < 75% (not met)
-- **N**: PV = \$45,000 × 4.21236 = \$189,556, which is 37.9% of \$500,000 < 90% (not met)
-- No other criteria are met
-- Result: **Operating lease**
-  **Annual entries (Polar Inc.):**
-  Recognize rental income:
+Polar Inc. owns an office building that cost \$500,000 (approximately its fair value), has a 25-year useful life, and has no salvage value. On January 1, it leases the building to Sloth Security for 5 years at \$45,000 a year, paid at year-end. The lease term is only 20% of the useful life, and the present value of the payments at 6% (\$45,000 × 4.21236 = \$189,556) is only 38% of fair value. No other criterion is met, so this is an operating lease.
+
+Each year, Polar Inc. records rental income and depreciation. Its net margin is \$45,000 - \$20,000 = \$25,000 a year.
 
 ```journal
-Dec 31
+Dec 31, Year 1
 Dr. Cash[a] 45,000
-    Cr. Rental Income 45,000
+Cr. Lease Income 45,000
 ```
-
-Depreciate the building:
 
 ```journal
-Dec 31
+Dec 31, Year 1
 Dr. Depreciation Expense 20,000
-    Cr. Accumulated Depreciation[ca] 20,000
+Cr. Accumulated Depreciation (Building)[ca] 20,000
 ```
-
-Annual depreciation = \$500,000 ÷ 25 = \$20,000. The lessor reports net rental margin of \$45,000 - \$20,000 = \$25,000 per year.
-:::tip[Exam Tip]
-In an operating lease, the lessor's balance sheet still shows the **underlying asset** (net of accumulated depreciation). In a sales-type or direct financing lease, the asset is replaced by a **net investment in the lease**, and the underlying asset is derecognized.
-:::
 
 ---
 
-## Lessor Classification Comparison
+## Comparing the Three Lessor Classifications
 
-| Feature                  | Sales-Type                                  | Direct Financing                                                             | Operating                   |
-| ------------------------ | ------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------- |
-| **When classified**      | Any OWNES criterion met                     | OWNES not met; PV + 3rd-party guarantee ≥ 90% FV and collectibility probable | Neither of the above        |
-| **Underlying asset**     | Derecognized                                | Derecognized                                                                 | Remains on balance sheet    |
-| **Net investment**       | Recognized at commencement                  | Recognized at commencement                                                   | Not applicable              |
-| **Selling profit**       | Recognized at commencement                  | Deferred (adjusts yield)                                                     | Not applicable              |
-| **Income pattern**       | Selling profit upfront + interest over term | Interest income over term (includes deferred profit)                         | Straight-line rental income |
-| **Initial direct costs** | Expensed if selling profit exists           | Deferred in net investment                                                   | Deferred over lease term    |
+| Feature | Sales-type | Direct financing | Operating |
+| --- | --- | --- | --- |
+| When it applies | Any of the five criteria met | None of the five met, but PV with third-party guarantee is substantially all of FV and collection is probable | Neither |
+| Underlying asset | Derecognized | Derecognized | Stays on the balance sheet and is depreciated |
+| Net investment in the lease | Recognized | Recognized | None |
+| Selling profit | Recognized at commencement | Deferred into the interest rate (a loss is recognized at once) | None |
+| Income over the term | Interest income | Interest income, including deferred profit | Straight-line lease income, less depreciation |
+| Initial direct costs | Expensed if FV differs from carrying amount; otherwise deferred | Included in the net investment | Deferred and expensed over the term |
 
----
+### Practice: Classify Three Leases
 
-## Lease Income Recognition Summary
+Bear Co. leases three assets on January 1. None transfers ownership, has a purchase option, or is specialized.
 
-The pattern of income recognition differs materially across the three classifications:
-
-```mermaid
-graph LR
-    ST["Sales-Type"] --> ST1["Day 1: Selling profit<br/>(revenue - cost)"]
-    ST1 --> ST2["Over term: Interest income<br/>on net investment"]
-    DF["Direct Financing"] --> DF1["Day 1: No profit recognized"]
-    DF1 --> DF2["Over term: Interest income<br/>(includes deferred profit)"]
-    OP["Operating"] --> OP1["Over term: Straight-line<br/>rental income"]
-    style ST fill:#cfe2f3,stroke:#333
-    style DF fill:#d9ead3,stroke:#333
-    style OP fill:#fff2cc,stroke:#333
-```
-
-| Classification       | Day 1 Income                          | Subsequent Income                                                          | Total Income                              |
-| -------------------- | ------------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------- |
-| **Sales-type**       | Selling profit (FV - carrying amount) | Interest on net investment                                                 | Selling profit + total interest           |
-| **Direct financing** | None                                  | Interest on net investment (higher effective rate absorbs deferred profit) | Total interest (includes deferred profit) |
-| **Operating**        | None                                  | Straight-line rental income less depreciation                              | Total rent less total depreciation        |
+| Asset | Facts | Classification |
+| --- | --- | --- |
+| Forklift | 6-year lease of a forklift with a 6-year economic life | Sales-type (lease term is the whole economic life) |
+| Delivery van | 4-year lease, 10-year life; PV of payments is 73% of FV; a third party guarantees a residual that brings the PV to 98% of FV; collection probable | Direct financing |
+| Office furniture | 3-year lease, 15-year life; PV of payments is 36% of FV; no guarantee | Operating |
 
 ---
 
 ## Sale and Leaseback Transactions
 
-A **sale and leaseback** occurs when an entity (the seller-lessee) sells an asset to another party (the buyer-lessor) and simultaneously leases it back. Under ASC 842, the accounting depends on whether the transfer qualifies as a **sale** under ASC 606.
+In a **sale and leaseback**, a company (the **seller-lessee**) sells an asset to another party (the **buyer-lessor**) and immediately leases it back. Companies do this to raise cash while keeping the use of the asset. The accounting turns on one question: did the buyer actually obtain **control** of the asset, so that the transfer is a **sale** under ASC 606?
 
-### Does the Transfer Qualify as a Sale?
+The transfer is **not** a sale in two common situations:
+
+- The **leaseback is a finance lease** for the seller-lessee (a sales-type lease for the buyer-lessor). In that case, the seller-lessee has kept control of the asset.
+- The seller-lessee has an **option to repurchase** the asset, unless the exercise price is the asset's fair value at the time of exercise and substantially similar assets are readily available in the market.
 
 ```mermaid
 graph TD
-    A["Sale and Leaseback<br/>Transaction"] --> B{"Does the transfer<br/>qualify as a sale<br/>under ASC 606?"}
-    B -->|Yes| C["Record as Sale<br/>+ Leaseback"]
-    B -->|No| D["Failed Sale:<br/>Financing Arrangement"]
-    C --> C1["Seller-lessee:<br/>Derecognize asset<br/>Record ROU + liability<br/>Recognize gain/loss"]
-    D --> D1["Seller-lessee:<br/>Keep asset on books<br/>Record financial liability"]
+    A["Sale and leaseback"] --> B{"Is the transfer a sale<br/>under ASC 606?"}
+    B -->|Yes| C["Seller-lessee: derecognize asset,<br/>recognize gain or loss,<br/>account for the leaseback"]
+    B -->|No| D["Failed sale: keep the asset,<br/>record a financial liability"]
     style C fill:#d9ead3,stroke:#333
     style D fill:#f4cccc,stroke:#333
 ```
 
-The transfer **does not** qualify as a sale if the seller-lessee retains control of the asset, for example, through a **repurchase option** that is reasonably certain to be exercised.
+### When the Transfer Is a Sale
 
-### Successful Sale: Seller-Lessee Accounting
+If the transfer is a sale at fair value, the seller-lessee:
 
-When the transfer qualifies as a sale and the transaction is at **fair value**:
+1. **Derecognizes** the asset and recognizes the **full gain or loss** (sale price minus carrying amount).
+2. Accounts for the **leaseback** like any other lease, recording a right-of-use asset and a lease liability.
 
-1. **Derecognize** the underlying asset
-2. **Recognize** the gain or loss on the sale
-3. **Record** the leaseback as a normal lessee lease (ROU asset + lease liability)
-   $$
-   \text{Gain on Sale} = \text{Sale Price (at FV)} - \text{Carrying Amount of Asset}
-   $$
+### Example: Bear Co. Sells and Leases Back Its Building
 
-### Example: Bear Co. Sale and Leaseback
+On January 1, Bear Co. sells a building with a carrying amount of \$400,000 to Kodiak Partners for \$600,000, its fair value, and leases it back for 10 years at \$72,000 a year, paid at year-end. The building's remaining useful life is 30 years, and Bear Co.'s incremental borrowing rate is 6%. Kodiak obtains title, and Bear Co. has no repurchase option.
 
-Bear Co. sells a building to Polar Inc. on January 1 and simultaneously leases it back:
-| Item | Amount |
-|------|--------|
-| Carrying amount of building | \$400,000 |
-| Sale price (= fair value) | \$600,000 |
-| Leaseback term | 10 years |
-| Building remaining useful life | 30 years |
-| Annual lease payment (end of year) | \$72,000 |
-| Bear Co.'s incremental borrowing rate | 6% |
-**Step 1: Confirm the sale qualifies** under ASC 606. Polar Inc. obtains title and Bear Co. has no repurchase option, so the sale is valid.
-**Step 2: Classify the leaseback (lessee perspective).**
-
-- **E**: 10 / 30 = 33% < 75% (not met)
-- **N**: PV = \$72,000 × 7.36009 = \$529,927; \$529,927 / \$600,000 = 88.3% < 90% (not met)
-- No other OWNES criteria met, so the leaseback is an **Operating lease**
-  **Step 3: Record the sale and leaseback (Bear Co.).**
-  $$
-  \text{Gain on Sale} = \$600{,}000 - \$400{,}000 = \$200{,}000
-  $$
-  $$
-  \text{Lease Liability} = \$72{,}000 \times \frac{1 - (1.06)^{-10}}{0.06} = \$72{,}000 \times 7.36009 = \$529{,}927
-  $$
+To classify the leaseback, Bear Co. applies the lessee criteria. The lease term is 10 / 30 = 33% of the remaining life, and the present value of the payments is \$72,000 × 7.36009 = \$529,927, or 88% of fair value. Neither test is met, so the leaseback is an **operating lease**, and the transfer qualifies as a sale. The gain is \$600,000 - \$400,000 = \$200,000.
 
 ```journal
 Jan 1
 Dr. Cash[a] 600,000
-    Cr. Building[a] 400,000
-    Cr. Gain on Sale of Building 200,000
+Cr. Building[a] 400,000
+Cr. Gain on Sale of Building 200,000
 ```
 
 ```journal
 Jan 1
 Dr. Right-of-Use Asset[a] 529,927
-    Cr. Lease Liability[l] 529,927
+Cr. Lease Liability[l] 529,927
 ```
 
-**Subsequent annual entry (operating leaseback):**
-Straight-line lease expense equals the annual payment for an operating lease:
+Because the leaseback is an operating lease with level payments, Bear Co. recognizes straight-line lease expense equal to the \$72,000 payment each year. (Behind that single expense, the liability accrues interest and the right-of-use asset is reduced by the difference.)
 
 ```journal
-Dec 31
+Dec 31, Year 1
 Dr. Lease Expense 72,000
-    Cr. Cash[a] 72,000
+Cr. Cash[a] 72,000
 ```
 
-### Off-Market Sale and Leaseback
+### Off-Market Terms
 
-When the sale price or lease payments are **not at fair value**, ASC 842-40 requires adjustments:
-| Scenario | Adjustment |
-|----------|-----------|
-| Sale price **above** fair value | Excess is **not** a gain; record as additional financing (financial liability) |
-| Sale price **below** fair value | Deficit is a **prepaid lease** (increases the ROU asset), unless compensated by below-market lease payments |
-| Lease payments **above** market | Excess is treated as additional financing from buyer-lessor |
-| Lease payments **below** market | Shortfall is treated as prepaid rent from seller-lessee |
-:::warning
-When the sale price exceeds fair value, the overpayment is **not** part of the gain; it represents additional financing that the buyer-lessor is providing to the seller-lessee. On the exam, always compare the sale price to fair value before calculating the gain.
-:::
+If the sale price or the lease payments are not at market, the seller-lessee adjusts so that the gain reflects fair value:
 
-### Failed Sale: Financing Treatment
+| Situation | Adjustment |
+| --- | --- |
+| Sale price **above** fair value, or lease payments **above** market | The excess is **additional financing** from the buyer-lessor, recorded as a financial liability, not as gain |
+| Sale price **below** fair value, or lease payments **below** market | The shortfall is a **prepayment of rent**, added to the right-of-use asset |
 
-If the transfer **does not** qualify as a sale (e.g., the seller-lessee has a repurchase option), neither party records a sale or purchase. The seller-lessee **keeps the asset** on its books and records the proceeds as a **financial liability**:
+Always compare the sale price with fair value before computing the gain.
+
+### When the Transfer Is Not a Sale
+
+In a **failed sale and leaseback**, neither party records a sale or purchase. The seller-lessee keeps the asset on its books, keeps depreciating it, and records the cash received as a **financial liability**:
 
 ```journal
 Jan 1
 Dr. Cash[a] 600,000
-    Cr. Financial Liability[l] 600,000
+Cr. Financial Liability[l] 600,000
 ```
 
-Payments under the leaseback are split between interest and principal; they are **not** treated as lease payments. The underlying asset continues to be depreciated by the seller-lessee.
-
-## Interpreting Lease Agreements
-
-The BAR blueprint tests your ability to read a lease agreement and determine the correct accounting treatment. Use this five-step framework:
-
-### Step 1: Identify the Lease
-
-Confirm the contract conveys the **right to control the use** of an identified asset for a period of time:
-
-- Is there an **identified asset** (explicitly or implicitly specified)?
-- Does the customer **direct the use** of the asset and obtain **substantially all economic benefits**?
-
-### Step 2: Separate Components
-
-Identify **lease components** (right to use an asset) and **non-lease components** (services like maintenance, insurance, or taxes). Allocate consideration based on relative standalone prices, or apply the **practical expedient** to combine all components into a single lease component.
-
-### Step 3: Determine the Lease Term
-
-$$
-\text{Lease Term} = \text{Noncancellable Period} + \text{Renewal Options (reasonably certain)} - \text{Early Termination (reasonably certain to exercise)}
-$$
-
-### Step 4: Identify Lease Payments
-
-Include:
-
-- **Fixed payments** (less any lease incentives received)
-- **Variable payments** tied to an index or rate
-- **Purchase option** exercise price (if reasonably certain to exercise)
-- **Residual value guarantees** (amount the lessee expects to owe)
-  Exclude:
-- Variable payments based on **usage or performance** (e.g., per-mile charges, percentage of sales), which are expensed as incurred
-
-### Step 5: Classify and Measure
-
-Apply the OWNES criteria to determine finance vs. operating (lessee) or sales-type vs. direct financing vs. operating (lessor). Then measure the lease liability and ROU asset (lessee) or net investment (lessor) using the appropriate discount rate.
-
-### Example: Bear Co. Interprets a Lease Agreement
-
-Bear Co. enters a contract with Polar Inc. to use specialized manufacturing equipment. Key terms extracted from the agreement:
-| Contract Term | Detail |
-|--------------|--------|
-| Equipment description | CNC milling machine, serial #4892 |
-| Monthly payment | \$8,000 (equipment) + \$1,200 (maintenance) |
-| Initial term | 7 years, noncancellable |
-| Renewal option | 3 years at \$9,000/month (Bear Co. is reasonably certain to exercise) |
-| Equipment fair value | \$700,000 |
-| Equipment economic life | 12 years |
-| Ownership at end of lease | Returns to Polar Inc. |
-| Purchase option | None |
-| Bear Co.'s incremental borrowing rate | 7% |
-**Analysis:**
-**Step 1:** Identified asset (serial #4892) and Bear Co. directs how the machine is used, so a **lease exists**.
-**Step 2:** Lease component = \$8,000/month; non-lease component (maintenance) = \$1,200/month. Bear Co. elects to **separate** the components and uses **\$8,000/month** for the lease measurement.
-**Step 3:** Lease term = 7-year initial term + 3-year renewal = **10 years** (renewal is reasonably certain).
-**Step 4:** Annual lease payments = \$8,000 × 12 = **\$96,000 per year** for 10 years.
-**Step 5: Classification (lessee perspective).**
-
-- **E**: 10 / 12 = 83.3% **≥ 75%** (met)
-  Because OWNES "E" is met, this is a **Finance lease**.
-  $$
-  \text{Lease Liability} = \$96{,}000 \times \frac{1 - (1.07)^{-10}}{0.07} = \$96{,}000 \times 7.02358 = \$674{,}264
-  $$
-
-```journal
-Jan 1
-Dr. Right-of-Use Asset[a] 674,264
-    Cr. Lease Liability[l] 674,264
-```
-
-**Year 1 entries:**
-Interest expense = \$674,264 × 7% = \$47,198
-
-```journal
-Dec 31
-Dr. Interest Expense 47,198
-Dr. Lease Liability[l] 48,802
-    Cr. Cash[a] 96,000
-```
-
-Amortization of ROU asset (straight-line over the 10-year lease term):
-
-$$
-\frac{\$674{,}264}{10} = \$67{,}426
-$$
-
-```journal
-Dec 31
-Dr. Amortization Expense 67,426
-    Cr. Right-of-Use Asset[a] 67,426
-```
-
-:::tip[Exam Tip]
-When interpreting a lease agreement, **read the facts carefully** for renewal and termination options. The phrase "reasonably certain" changes both the lease term and the present value calculation. A lease that appears to be an operating lease over the initial noncancellable term may become a finance lease once reasonably certain renewal periods are included.
-:::
+Its "lease" payments are then split between interest expense and repayment of the liability, like payments on a loan.
 
 ---
 
-## Comprehensive Example: Lessor with Multiple Leases
+## Interpreting a Lease Agreement (Lessee)
 
-Bear Co. owns three assets and enters into separate lease agreements on January 1. Classify each lease and prepare the commencement journal entries.
+The final BAR task is to read an agreement and decide how the lessee should account for it. Five questions organize the analysis:
 
-### Asset A: Forklift
+1. **Is there a lease?** The contract must convey the right to control the use of an **identified asset** for a period of time. The customer must have the right to obtain substantially all of the asset's economic benefits and the right to direct its use. If the supplier can substitute another asset whenever it wants and would benefit from doing so, there is no identified asset.
+2. **What are the components?** Separate **lease components** (the right to use the asset) from **nonlease components** (services such as maintenance), allocating the consideration on a relative standalone price basis. A lessee may instead elect, by class of asset, to treat each lease and its related services as a single lease component.
+3. **What is the lease term?** The noncancelable period, plus periods covered by an option to **extend** that the lessee is reasonably certain to exercise, plus periods covered by an option to **terminate** that the lessee is reasonably certain **not** to exercise.
+4. **What are the lease payments?** Fixed payments (less lease incentives), variable payments that depend on an **index or rate** (measured using the index or rate at commencement), the exercise price of a purchase option the lessee is reasonably certain to exercise, termination penalties if the term reflects termination, and amounts probable of being owed under a residual value guarantee. Variable payments based on **usage or performance**, such as a percentage of sales, are excluded and expensed as incurred.
+5. **How is it classified and measured?** Apply the five criteria (finance or operating for the lessee), then measure the lease liability at the present value of the lease payments, using the rate implicit in the lease if readily determinable or otherwise the incremental borrowing rate.
 
-| Item           | Detail   |
-| -------------- | -------- |
-| Cost (= FV)    | \$40,000 |
-| Economic life  | 6 years  |
-| Lease term     | 6 years  |
-| Annual payment | \$8,000  |
-| Implicit rate  | 5.5%     |
+### Example: Bear Co. Leases a Milling Machine
 
-- **OWNES "E"**: 6 / 6 = 100% ≥ 75% (**met**)
-- Classification: **Sales-type lease**
-- No selling profit (cost = FV)
-  $$
-  \text{PV} = \$8{,}000 \times \frac{1 - (1.055)^{-6}}{0.055} = \$8{,}000 \times 4.99553 = \$39{,}964 \approx \$40{,}000
-  $$
+Bear Co. signs a contract with Grizzly Inc. for a CNC milling machine. The contract's key terms:
 
-```journal
-Jan 1
-Dr. Net Investment in Lease[a] 40,000
-    Cr. Equipment[a] 40,000
-```
+| Term | Detail |
+| --- | --- |
+| Asset | CNC milling machine, serial number 4892 |
+| Payments, end of each year | \$96,000 for the machine plus \$14,400 for maintenance |
+| Noncancelable term | 7 years |
+| Renewal option | 3 more years at the same payments; Bear Co. is reasonably certain to renew |
+| Machine fair value | \$700,000 |
+| Machine economic life | 12 years |
+| At end of term | Machine returns to Grizzly; no purchase option |
+| Bear Co.'s incremental borrowing rate | 7% (implicit rate not readily determinable) |
 
-Year 1 interest income = \$40,000 × 5.5% = \$2,200.
+**Is there a lease?** Yes. The machine is identified by serial number, and Bear Co. directs its use and gets all of its output.
 
-### Asset B: Delivery Van
+**Components.** Bear Co. separates the components. The \$96,000 is the lease payment; the \$14,400 for maintenance is expensed as the service is received.
 
-| Item                           | Detail   |
-| ------------------------------ | -------- |
-| Cost (= FV)                    | \$60,000 |
-| Economic life                  | 10 years |
-| Lease term                     | 4 years  |
-| Annual payment                 | \$12,000 |
-| Third-party residual guarantee | \$18,000 |
-| Implicit rate                  | 4%       |
+**Lease term.** 7 years plus the 3-year renewal Bear Co. is reasonably certain to exercise, for **10 years**.
 
-- **OWNES "E"**: 4 / 10 = 40% < 75% (not met)
-- **OWNES "N"**: PV of payments = \$12,000 × 3.62990 = \$43,559, which is 72.6% < 90% (not met)
-- No other criteria met, so OWNES is **not met**
-  Direct financing test:
-- PV of payments + PV of third-party guarantee = \$43,559 + (\$18,000 × 0.85480) = \$43,559 + \$15,386 = \$58,945, which is **98.2% ≥ 90%** (met)
-- Collectibility probable (met)
-- Classification: **Direct financing lease**
+**Classification.** The lease term is 10 / 12 = 83% of the economic life, so the lease-term criterion is met and the lease is a **finance lease**. (The present value test is met as well.)
+
+**Measurement.**
+
+$$
+\text{Lease liability} = \$96{,}000 \times \frac{1 - (1.07)^{-10}}{0.07} = \$96{,}000 \times 7.02358 = \$674{,}264
+$$
 
 ```journal
-Jan 1
-Dr. Net Investment in Lease[a] 60,000
-    Cr. Equipment[a] 60,000
+Jan 1, Year 1
+Dr. Right-of-Use Asset[a] 674,264
+Cr. Lease Liability[l] 674,264
 ```
 
-Year 1 interest income = \$60,000 × 4% = \$2,400.
-
-### Asset C: Office Furniture
-
-| Item           | Detail   |
-| -------------- | -------- |
-| Cost           | \$30,000 |
-| Useful life    | 15 years |
-| Lease term     | 3 years  |
-| Annual payment | \$4,000  |
-
-- **OWNES "E"**: 3 / 15 = 20% < 75% (not met)
-- **OWNES "N"**: PV at 5% = \$4,000 × 2.72325 = \$10,893, which is 36.3% < 90% (not met)
-- No other criteria met; no third-party guarantee, so the direct financing test is **not met**
-- Classification: **Operating lease**
+At the end of Year 1, interest is \$674,264 × 7% = \$47,198, so the \$96,000 payment reduces the liability by \$48,802. The right-of-use asset is amortized straight-line over the 10-year lease term (shorter than the 12-year life, since ownership does not transfer): \$674,264 / 10 = \$67,426.
 
 ```journal
-Dec 31
-Dr. Cash[a] 4,000
-    Cr. Rental Income 4,000
-Dr. Depreciation Expense 2,000
-    Cr. Accumulated Depreciation[ca] 2,000
+Dec 31, Year 1
+Dr. Interest Expense 47,198
+Dr. Lease Liability[l] 48,802
+Cr. Cash[a] 96,000
 ```
 
-Annual depreciation = \$30,000 ÷ 15 = \$2,000. The underlying asset remains on Bear Co.'s balance sheet.
+```journal
+Dec 31, Year 1
+Dr. Amortization Expense (Right-of-Use Asset) 67,426
+Cr. Right-of-Use Asset[a] 67,426
+```
 
-### Summary of Bear Co. Year 1 Lease Income
-
-| Asset            | Classification   | Day 1 Profit | Year 1 Interest / Rental Income | Year 1 Depreciation |
-| ---------------- | ---------------- | -----------: | ------------------------------: | ------------------: |
-| A: Forklift      | Sales-type       |          \$0 |                         \$2,200 |                 N/A |
-| B: Delivery van  | Direct financing |          \$0 |                         \$2,400 |                 N/A |
-| C: Furniture     | Operating        |          N/A |                         \$4,000 |           (\$2,000) |
-| **Total**        |                  |      **\$0** |                     **\$8,600** |       **(\$2,000)** |
+Renewal and termination options are where agreements most often change the answer. Measured over the 7-year noncancelable term alone, this lease would cover only 58% of the machine's life; including the renewal that Bear Co. is reasonably certain to exercise turns it into a finance lease.
 
 ---
 
 ## Summary
 
-:::note[Chapter Checklist]
-
-- [ ] Apply the OWNES criteria to classify a lessor's lease as sales-type, direct financing, or operating
-- [ ] Recognize selling profit and net investment at commencement for a sales-type lease
-- [ ] Defer selling profit for a direct financing lease and recognize it through the effective interest rate
-- [ ] Continue recognizing the underlying asset and straight-line rental income for an operating lease
-- [ ] Calculate interest income using the effective interest method on the lessor's net investment
-- [ ] Determine whether a sale and leaseback qualifies as a sale under ASC 606
-- [ ] Record seller-lessee entries for a successful sale and leaseback (gain + ROU asset + lease liability)
-- [ ] Adjust for off-market sale and leaseback terms (excess becomes a financing liability; deficit becomes prepaid rent)
-- [ ] Record a failed sale-leaseback as a financing arrangement
-- [ ] Interpret lease agreements using the five-step framework: identify, separate, term, payments, classify
-      :::
+| Task | Key points |
+| --- | --- |
+| Classify a lease as lessor | Any of five criteria: sales-type. Otherwise, third-party guarantee test plus probable collection: direct financing. Otherwise: operating |
+| Sales-type lease | Derecognize the asset; net investment = lease receivable + unguaranteed residual; selling profit at commencement; interest income after |
+| Direct financing lease | Same, but selling profit is deferred into the interest rate |
+| Operating lease | Keep and depreciate the asset; straight-line lease income |
+| Sale and leaseback | A sale only if control transfers (no finance leaseback, no disqualifying repurchase option); then full gain plus leaseback; otherwise a financing |
+| Off-market terms | Price above fair value: additional financing. Price below fair value: prepaid rent |
+| Lessee analysis of an agreement | Identified asset and control; components; term with reasonably certain options; payments; classify and measure |

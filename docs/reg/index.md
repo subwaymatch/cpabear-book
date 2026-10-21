@@ -6,147 +6,138 @@ title: REG
 
 # Regulation (REG)
 
-The **Regulation (REG)** section of the CPA exam tests your knowledge of **ethics, professional responsibilities, business law, and federal taxation**. It bridges the legal and tax frameworks that every practicing CPA must understand, from advising clients on entity formation to preparing compliant tax returns to navigating disputes with the IRS.
+The **Taxation and Regulation (REG)** section of the CPA Exam tests the rules a newly licensed CPA works with every day: the ethics of tax practice, the business law behind ordinary commercial deals, and federal income tax for individuals and entities. It is really two subjects in one. When you analyze a contract or an agency relationship, you think like a lawyer. When you compute basis, characterize a gain, or reconcile book income to taxable income, you think like a tax preparer and reviewer.
 
-REG is unique among the CPA exam sections because it spans two fundamentally different disciplines: **law** and **taxation**. You will need to think like a lawyer when analyzing contracts and agency relationships, and like a tax adviser when computing basis, characterizing gains, and optimizing entity structures.
-
-:::info[Why REG Matters]
-
-Whether you work in public accounting, industry, or government, the material in this section forms the backbone of everyday CPA practice. Tax compliance alone generates billions of dollars in professional fees, and understanding business law protects both clients and practitioners from costly mistakes.
-
-:::
+This page explains what the 2027 blueprint covers, how this part of the book is organized, and how to approach your study.
 
 ---
 
-## What This Section Covers
+## What the 2027 Blueprint Covers
 
-REG is organized into five major topic areas, each building on the others.
+The REG material in this book follows the **2027 CPA Exam Blueprints**, which take effect on January 1, 2027. The blueprint organizes REG into five content areas:
 
-### 1. Ethics, Professional Responsibilities, and Federal Tax Procedures
+| Content Area | What It Tests | Weight |
+|---|---|---|
+| **Area I: Ethics, Professional Responsibilities and Federal Tax Procedures** | Circular 230, tax return preparer rules and penalties, state boards of accountancy, audits and appeals, disclosure and substantiation, taxpayer penalties, the authoritative hierarchy, and a preparer's legal duties | 10%-20% |
+| **Area II: Business Law** | Agency, contracts (including the sale of goods under the UCC), debtor-creditor relationships, federal laws on employment taxes, health plans, bankruptcy, worker classification, and bribery, and business structures | 15%-25% |
+| **Area III: Federal Taxation of Property Transactions** | Basis of business, personal, gifted, inherited, and intangible assets, and cost recovery (depreciation and amortization) | 5%-15% |
+| **Area IV: Federal Taxation of Individuals** | Gross income, adjustments and deductions, the QBI deduction, loss limitations, filing status, and the tax and credits | 22%-32% |
+| **Area V: Federal Taxation of Entities** | Book-tax differences, C corporations (including state and local tax), S corporations, partnerships, LLC classification, and tax-exempt organizations | 23%-33% |
 
-This area covers the **rules of the game**: the professional and legal standards that govern how CPAs interact with clients, the IRS, and the public.
+REG tests the first three skill levels. Remembering and Understanding is concentrated in Areas I and II, while Application and Analysis dominate the tax areas.
 
-Key topics include:
+| Skill Level | Weight |
+|---|---|
+| Remembering and Understanding | 25%-35% |
+| Application | 35%-45% |
+| Analysis | 25%-35% |
+| Evaluation | Not tested in REG |
 
-- **Treasury Circular 230**: regulations governing practice before the IRS, including due diligence requirements, restrictions on contingent fees, and rules for written tax advice
-- **AICPA Statements on Standards for Tax Services (SSTS)**: ethical guidelines for tax return positions, answering questions on returns, and advising clients
-- **IRS Examination and Appeals Process**: how audits are initiated, the 3-year and 6-year statutes of limitation, the burden of proof, and penalty structures (accuracy-related penalties, fraud penalties, preparer penalties)
-- **Taxpayer Rights**: the Taxpayer Bill of Rights, innocent spouse relief, offers in compromise, and installment agreements
-- **Privileged Communications**: the limited tax practitioner-client privilege under IRC §7525
+:::note[Testing in 2026?]
+
+You can use this book as is. The REG blueprint structure, content areas, and weights for 2027 are the same as for 2026. The tax law tested is also the same: the provisions of the One Big Beautiful Bill Act (OBBBA, P.L. 119-21) with 2024 or 2025 effective dates have been eligible for testing since July 1, 2026, and this book teaches that law. The 2027 change is mainly that the capital gains task now names digital assets (alongside stocks and bonds) as an example of an investment whose sale you may need to report. For a section-by-section summary, see the [2027 blueprint guide](/blueprint/2027).
+
+:::
+
+### Assumptions the Exam States
+
+The REG blueprint lists a few assumptions that shape how this book teaches tax:
+
+- **Indexed amounts are not tested.** Candidates are not expected to know rates, amounts, or limits that are indexed to inflation. This book teaches the mechanics and, when an indexed figure helps, gives it once with its year. Amounts fixed in the statute (such as the \$3,000 capital loss limit) are fair game.
+- **Wages exclude tips and overtime.** Unless a question says otherwise, references to an individual's wages or compensation do not include overtime or tips.
+- **Current year, current law.** Absent other facts, assume transactions happened in the current year and apply the most recent tax law that is eligible for testing.
+
+---
+
+## How This Section Is Organized
+
+### Ethics, Professional Responsibilities, and Federal Tax Procedures
+
+These chapters cover the rules of the game: who may practice before the IRS and what **Treasury Department Circular 230** requires of them, who counts as a tax return preparer and which penalties apply, how state boards of accountancy license and discipline CPAs, how audits, appeals, and tax litigation work, when a return position must be disclosed, which penalties taxpayers face, and how much weight each source of tax authority carries. The last chapter covers a preparer's common law liability and the limited privilege for tax advice.
 
 :::tip[Exam Strategy]
 
-Circular 230 and the penalty regime are **heavily tested**. Know the difference between a \$5,000 penalty for a frivolous return and the 75% civil fraud penalty. Memorize the key due-diligence standards, since they appear in almost every REG exam.
+Learn the return-position standards as a ladder (reasonable basis, substantial authority, more likely than not) and attach each penalty to its rung. Many Area I questions reduce to asking which rung a position reached and whether it was disclosed.
 
 :::
 
-### 2. Business Law
+### Business Law
 
-Business law questions test your understanding of the **legal frameworks** that govern commercial activity. You do not need to be a lawyer, but you must recognize legal issues and apply fundamental rules.
+Business law questions test whether you can spot the legal issue in a short fact pattern and apply a basic rule. You do not need to be a lawyer.
 
-| Sub-Topic | Key Concepts |
+| Chapter | Key Concepts |
 |---|---|
-| **Agency** | Formation, authority (actual, apparent, implied), principal's liability for agent's acts, duties of agents and principals, termination of agency |
-| **Contracts** | Offer and acceptance, consideration, capacity, legality, Statute of Frauds, parol evidence rule, assignment and delegation, breach and remedies |
-| **Debtor-Creditor Relationships** | Suretyship, guaranty, the Bankruptcy Code (Chapters 7, 11, 13), secured transactions under UCC Article 9, liens, and priorities |
-| **Government Regulation of Business** | Federal securities regulation (Securities Act of 1933, Securities Exchange Act of 1934), antitrust, employment law |
-| **Business Structures** | Sole proprietorships, general and limited partnerships, LLCs, S corporations, C corporations (formation, operation, dissolution) |
-| **Sales Article of the UCC** | Contract formation for goods, warranties, risk of loss, remedies for breach, merchant rules |
+| **Agency** | Formation, actual and apparent authority, ratification, duties of agents and principals, liability to third parties, termination |
+| **Contracts** | Offer and acceptance, consideration, capacity and legality, the Statute of Frauds, performance and discharge, breach and remedies |
+| **Debtor-Creditor Relationships** | Sureties and guarantors, secured transactions under UCC Article 9, bankruptcy and discharge |
+| **Government Regulation of Business** | Employment taxes, worker classification, the Affordable Care Act, the Foreign Corrupt Practices Act |
+| **Business Structures** | Formation, operation, and termination of partnerships, LLCs, and corporations, and the rights and duties of owners and managers |
+| **Sales Article of the UCC** | Contracts for the sale of goods, risk of loss, warranties, and remedies |
 
-:::note[UCC Focus]
+The **Uniform Commercial Code (UCC) Article 2** governs the sale of goods and relaxes several common law contract rules. For example, an acceptance that adds terms can still form a contract. Knowing where the UCC departs from common law is one of the most reliable ways to pick up points in Area II.
 
-The **Uniform Commercial Code (UCC) Article 2** governs the sale of goods and modifies many common-law contract rules. For example, the UCC does *not* require the mirror-image rule; additional terms in an acceptance may become part of the contract. Understanding where the UCC departs from common law is critical for the exam.
+### Federal Taxation of Property Transactions
 
-:::
-
-### 3. Federal Taxation of Property Transactions
-
-Property transactions test your ability to determine **basis**, characterize **gains and losses**, and apply the cost-recovery system.
-
-- **Determination of Basis**: cost basis, adjusted basis, basis of gifted property (donor's basis with potential FMV adjustment), inherited property (stepped-up basis), basis in property converted from personal to business use
-- **Gains and Losses**: realization vs. recognition, like-kind exchanges under IRC §1031, involuntary conversions under §1033, installment sales under §453, wash-sale rules under §1091
-- **Cost Recovery**: MACRS depreciation, §179 immediate expensing, bonus depreciation, amortization of §197 intangibles, depletion
+These chapters cover **basis** (purchased, gifted, inherited, and converted property, stock acquired in a wash sale, and intangibles such as start-up costs), the **character** of gains and losses, including digital assets, and **cost recovery** under MACRS, Section 179, bonus depreciation, and Section 197 amortization. Dispositions of business property (Sections 1231, 1245, and 1250), like-kind exchanges, and installment sales are tested in TCP rather than REG.
 
 :::caution[Common Trap]
 
-When Bear Co. receives property as a gift with a fair market value (FMV) *below* the donor's adjusted basis, the basis for computing a **loss** is the FMV at the date of the gift, not the donor's basis. This "dual basis" rule trips up many candidates. If Bear Co. later sells the property at a price between the donor's basis and the FMV, the result is **no gain and no loss**.
+When a donor gives property whose fair market value (FMV) is *below* the donor's adjusted basis, the donee's basis for computing a **loss** is the FMV at the date of the gift, while the basis for computing a **gain** is the donor's basis. If the donee later sells at a price between those two numbers, there is **no gain and no loss**.
 
 :::
 
-### 4. Federal Taxation of Individuals
+### Federal Taxation of Individuals
 
-Individual taxation covers the computation of **taxable income** from gross income through the final tax liability.
+Individual taxation follows Form 1040 from gross income to the final tax:
 
-- **Gross Income**: wages, interest, dividends, business income, capital gains, rental income, alimony (pre-2019 divorce agreements), Social Security benefits, and items of exclusion (municipal bond interest, life insurance proceeds, gifts, inheritances)
-- **Adjustments and Deductions**: above-the-line deductions (educator expenses, student loan interest, HSA contributions, SE tax deduction), standard vs. itemized deductions (medical expenses exceeding 7.5% of AGI, state and local taxes capped at \$10,000, mortgage interest, charitable contributions)
-- **Tax Computation and Credits**: filing status, tax brackets, AMT, child tax credit, earned income credit, education credits, estimated tax payment requirements
+- **Gross income:** wages, interest, dividends, business income, capital gains, retirement income, and the main exclusions (municipal bond interest, life insurance proceeds, gifts, and inheritances)
+- **Adjustments and deductions:** above-the-line deductions, the standard deduction, itemized deductions (including the state and local tax cap, which OBBBA raised to \$40,000 for 2025 with a phase-down at higher incomes), the QBI deduction, and the temporary 2025-2028 deductions for qualified tips, qualified overtime, car loan interest, and seniors
+- **Loss limitations, filing status, tax, and credits:** capital loss limits, basis limits for pass-through losses, filing status and dependents, refundable and nonrefundable credits, the net investment income tax, and estimated tax safe harbors
 
-:::tip
+### Federal Taxation of Entities
 
-When Polar Co.'s owner, a sole proprietor, computes self-employment tax, remember: the SE tax base is **92.35%** of net self-employment income (the equivalent of the employer's share adjustment). The deduction for one-half of SE tax is an **above-the-line** deduction: it reduces AGI, not taxable income directly.
+Entity taxation asks how each business form is taxed and how income reaches its owners. You will reconcile book income to taxable income on Schedule M-1 or M-3, compute a C corporation's taxable income (including the dividends-received deduction, NOL and capital loss limits, the business interest limit, and state apportionment), determine an S corporation's or partnership's ordinary income and separately stated items, track an owner's basis, and recall how LLCs are classified and which organizations are tax-exempt.
 
-:::
-
-### 5. Federal Taxation of Entities
-
-Entity taxation requires you to understand how **different business structures** are taxed, how income flows to owners, and when entity-level taxes apply.
-
-- **Sole Proprietorships**: Schedule C reporting, SE tax, single level of taxation
-- **Partnerships (General and Limited) and LLCs**: formation (tax-free under §721), distributive share, guaranteed payments, basis adjustments, distributions, special allocations, at-risk and passive activity rules
-- **C Corporations**: double taxation, dividends-received deduction, accumulated earnings tax, personal holding company tax, NOL rules, charitable contribution limits (10% of taxable income before certain deductions)
-- **S Corporations**: eligibility requirements (100 shareholders, one class of stock, eligible shareholders), built-in gains tax, AAA and OAA accounts, shareholder basis computation
-
-:::warning[Entity Selection]
-
-Choosing between a C corporation and an S corporation (or a partnership-taxed LLC) has enormous tax consequences. For example, when Kodiak Inc. (a C corporation) distributes \$50,000 in dividends, those dividends are taxed at the corporate level *and* again at the shareholder level. If Kodiak Inc. were instead structured as an S corporation, the income would pass through and be taxed only once at the shareholder level. Always analyze the **total tax burden** across all levels.
-
-:::
+The choice of entity drives the total tax burden. When Kodiak Inc., a C corporation, distributes \$50,000 of dividends, the profits behind them were taxed once at the corporate level and are taxed again to the shareholders. If Kodiak were an S corporation, the same profits would pass through and be taxed only once, at the shareholder level.
 
 ---
 
 ## Key Legal and Regulatory Frameworks
 
-Throughout your REG studies, you will encounter these foundational authorities:
+The REG blueprint lists the sources it draws on. These are the ones you will meet most often:
 
 | Framework | Description |
 |---|---|
-| **Internal Revenue Code (IRC)** | The statutory foundation of federal tax law; all tax rules trace back to specific IRC sections |
-| **Treasury Regulations** | Official IRS interpretations of the IRC; carry significant legal weight |
-| **Treasury Circular 230** | Governs who may practice before the IRS and the ethical standards they must follow |
-| **Uniform Commercial Code (UCC)** | Standardized state laws governing commercial transactions, especially the sale of goods (Article 2) and secured transactions (Article 9) |
-| **Bankruptcy Code** | Federal law governing the rights of debtors and creditors in bankruptcy proceedings (Chapters 7, 11, 13) |
-| **Securities Acts** | The Securities Act of 1933 (new issuances) and the Securities Exchange Act of 1934 (secondary trading and reporting) |
+| **Internal Revenue Code (IRC)** | The statute behind every federal tax rule |
+| **Treasury Regulations** | Treasury's interpretations of the Code; the most authoritative administrative guidance |
+| **Treasury Circular 230** | Who may practice before the IRS and the standards they must follow |
+| **Uniform Accountancy Act (UAA)** | Model law that most states use for CPA licensing and mobility |
+| **Uniform Commercial Code (UCC)** | State laws on commercial transactions, especially sales of goods (Article 2) and secured transactions (Article 9) |
+| **Model business entity acts** | The Revised Uniform Partnership Act, the Revised Uniform Limited Partnership Act, and the Revised Model Business Corporation Act |
+| **Bankruptcy Abuse Prevention and Consumer Protection Act of 2005** | The current form of federal bankruptcy law, including the means test |
+| **Patient Protection and Affordable Care Act** | Employer health coverage mandates and the premium tax credit |
+| **Foreign Corrupt Practices Act of 1977** | Prohibits bribing foreign officials and sets accounting requirements for public companies |
+| **P.L. 86-272 and UDITPA** | Limits on state income tax nexus and the model rules for apportioning income among states |
 
 ---
 
 ## Study Guide
 
-:::tip[How to Approach REG]
+REG rewards a structured plan because its two halves, law and tax, use different reasoning skills.
 
-**Divide and conquer.** REG rewards a structured study plan because its two halves, law and tax, use different reasoning skills.
-
-1. **Start with Business Law.** Many candidates find law concepts more intuitive. Build momentum here, focusing on contracts, agency, and the UCC.
-
-2. **Master the IRC framework.** Understand the flow of an individual tax return (gross income, then AGI, then taxable income, then tax liability, then credits) before diving into entity-specific rules.
-
-3. **Use a fact-pattern approach.** REG questions are scenario-heavy. Practice by working through examples:
-   - *Grizzly Partners* contributes property to a new partnership. What is each partner's basis?
-   - *Panda Industries* sells equipment at a gain. Is the gain ordinary, §1231, or capital?
-   - *Salmon Entertainment* enters a contract for concert equipment. Does the UCC or common law apply?
-
-4. **Memorize key thresholds.**
+1. **Start with business law.** Many candidates find the law chapters intuitive. Build momentum with contracts, agency, and the UCC.
+2. **Learn the shape of a return.** Understand the flow of an individual return (gross income, then AGI, then taxable income, then tax, then credits) before you study entity rules.
+3. **Work fact patterns.** REG questions are scenario based. Practice with short cases:
+   - *Panda Industries* places equipment in service in March and more in November. Which depreciation convention applies?
+   - *Cub Entertainment* contracts to buy sound equipment and have it installed. Does the UCC or common law govern?
+   - *Kodiak Partners* hires a bookkeeper who sets her own hours and uses her own software. Is she an employee or an independent contractor?
+4. **Memorize the fixed numbers.** Focus on amounts written into the law, not indexed ones:
    - Statute of Frauds for goods: **\$500** (UCC)
-   - General statute of limitations for tax: **3 years** from filing
-   - 25% gross income omission extends SOL to **6 years**
+   - General assessment period for tax: **3 years** from filing
+   - Omission of more than 25% of gross income: **6 years**
    - Accuracy-related penalty: **20%** of the underpayment
    - Civil fraud penalty: **75%** of the underpayment
+5. **Connect the topics.** Entity formation connects to basis, and basis connects to gain, loss, and depreciation. A client's choice of entity affects everything from self-employment tax to how losses can be used.
+6. **Focus on why.** Tax law changes, but the exam rewards understanding why a rule exists. When you know the purpose, the details are easier to remember.
 
-5. **Connect the dots across topics.** Entity formation rules (§351, §721) connect to basis, which connects to gain/loss recognition. Honey Security's choice of entity structure affects everything from self-employment tax to loss limitations.
-
-6. **Review consistently.** Tax law changes, but the exam tests **evergreen principles**. Focus on understanding *why* rules exist, not just memorizing them.
-
-:::
-
----
-
-Ready to begin? Select a topic area from the sidebar to start your REG journey.
+Ready to begin? Select a topic area from the sidebar.

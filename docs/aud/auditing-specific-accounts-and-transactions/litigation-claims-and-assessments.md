@@ -1,252 +1,82 @@
 # Litigation, Claims, and Assessments
 
-Litigation, claims, and assessments represent some of the most challenging areas in an audit because they involve future outcomes that are inherently uncertain. A pending lawsuit may result in a massive liability, or it may be dismissed entirely. Auditors must design procedures that identify these matters, evaluate their financial statement impact, and determine whether management has properly accounted for and disclosed them. This topic is tested on the CPA exam under AUD blueprint area III.E.4 and draws heavily on **AU-C 501** (AICPA) and **AS 2505** (PCAOB).
+A pending lawsuit can turn into a large liability or vanish when the case is dismissed, and management is often the party least eager to talk about it. The auditor's task is to find out what litigation, claims, and assessments exist, to evaluate their likely outcome, and to decide whether the financial statements account for and disclose them properly. The governing standards are AU-C 501 for nonissuers and PCAOB AS 2505 for issuers, and they work the same way in substance. This chapter starts with the accounting the auditor is evaluating, then covers the procedures that detect legal matters, the letter of inquiry to the client's lawyers, and the effect on the auditor's report.
 
-## Audit Procedures to Detect Litigation, Claims, and Assessments
+---
 
-Because management may not voluntarily disclose unfavorable legal matters, the auditor cannot rely solely on management inquiry. A combination of procedures is needed to identify pending or threatened litigation:
+## What the Auditor Is Evaluating
 
-### 1. Inquire of Management
+Litigation creates a **loss contingency** under ASC 450-20, and the accounting depends on how likely an unfavorable outcome is:
 
-The auditor should ask management (including in-house legal counsel) about:
-
-- Pending or threatened litigation, claims, and assessments
-- Unasserted claims that the client's lawyers have advised are probable of assertion
-- The entity's policies and procedures for identifying, evaluating, and accounting for litigation
-- Whether any litigation has arisen since the balance sheet date
-
-:::tip
-
-Frame inquiries broadly. Ask about disputes with customers, employees, regulators, and competitors, not just "lawsuits." Management may not classify a regulatory investigation or tax dispute as "litigation" unless prompted.
-
-:::
-
-### 2. Review Minutes of Board and Committee Meetings
-
-Board of directors and audit committee minutes frequently reference:
-
-- Reports from in-house or outside counsel on pending legal matters
-- Authorizations for settlement negotiations
-- Discussions of regulatory inquiries or government investigations
-- Insurance coverage decisions related to litigation risk
-
-### 3. Read Legal Invoices and Correspondence
-
-Reviewing legal invoices and correspondence can reveal matters that management has not disclosed:
-
-| Document | What It May Reveal |
-|---|---|
-| **Legal invoices** | Engagement of outside counsel for specific matters (e.g., employment disputes, patent litigation) |
-| **Demand letters received** | Threatened claims from third parties |
-| **Correspondence with regulators** | Pending investigations, consent decrees, or enforcement actions |
-| **Insurance claim filings** | Claims filed under directors & officers (D&O) or general liability policies |
-| **Settlement agreements** | Resolved matters that may require disclosure or remaining payment obligations |
-
-### 4. Other Detection Procedures
-
-- **Review contracts** for indemnification clauses, guarantees, and penalty provisions
-- **Examine tax correspondence** for disputed assessments from the IRS or state tax authorities
-- **Read financial press and SEC filings** for publicly known legal proceedings
-- **Review bank confirmations** for information about contingent liabilities
-
-:::info
-
-No single procedure is sufficient by itself. The auditor combines all of these techniques to build a complete picture of the entity's litigation exposure.
-
-:::
-
-## Letters of Inquiry to the Client's Legal Counsel
-
-The **attorney letter** (also called the audit inquiry letter or legal confirmation letter) is the most important procedure for evaluating litigation, claims, and assessments. It is required under **AU-C 501** (AICPA) and **AS 2505** (PCAOB).
-
-### How the Process Works
-
-1. **Management prepares a list** of all pending or threatened litigation, claims, and assessments, including:
-   - A description of each matter and its current status
-   - Management's evaluation of the likelihood of an unfavorable outcome
-   - An estimate of the potential loss or range of loss (or a statement that an estimate cannot be made)
-2. **Management sends the letter** to the entity's outside legal counsel, requesting the attorney to confirm or supplement management's descriptions
-3. **The attorney responds directly to the auditor**, not back to management
-
-:::note
-
-The letter is prepared and sent by **management**, not by the auditor. This is because the attorney-client relationship belongs to the client. However, the attorney's response is addressed directly to the **auditor** to preserve the independence and reliability of the evidence.
-
-:::
-
-### Content of the Inquiry Letter
-
-The inquiry letter typically requests the attorney to provide information on:
-
-| Item | Description |
-|---|---|
-| **Pending litigation** | Description, progress, and planned action for each matter identified by management |
-| **Unasserted claims** | Matters that the attorney has advised the client are probable of being asserted and, if asserted, would have a reasonable possibility of an unfavorable outcome |
-| **Attorney's evaluation** | The attorney's view on the likelihood of an unfavorable outcome and an estimate (or range) of potential loss |
-| **Omissions** | Whether management's list is complete or whether additional matters should be disclosed |
-| **Billing period** | Typically covers the period from the balance sheet date through a date near the audit report date |
-
-### Evaluating the Attorney's Response
-
-The attorney categorizes the likelihood of an unfavorable outcome using the standard contingency terminology from **ASC 450-20**:
-
-| Likelihood Category | Definition | Financial Statement Treatment |
+| Likelihood of loss | Meaning | Accounting |
 |---|---|---|
-| **Probable** | The future event is likely to occur | **Accrue** the loss if the amount is reasonably estimable; disclose in the notes |
-| **Reasonably possible** | The chance is more than remote but less than likely | **Disclose** in the notes (no accrual required) |
-| **Remote** | The chance is slight | Generally **no disclosure** required (except for certain guarantees) |
+| **Probable** | Likely to occur | **Accrue** if the amount can be reasonably estimated, and disclose. If it cannot be estimated, disclose the nature of the matter and say an estimate cannot be made |
+| **Reasonably possible** | More than remote but less than likely | **Disclose** the nature and an estimate of the possible loss or range (or say an estimate cannot be made); no accrual |
+| **Remote** | Slight | Generally no disclosure (certain guarantees are an exception) |
 
-:::warning
+When a probable loss is estimated as a range and no amount in the range is a better estimate than any other, the entity accrues the **minimum** of the range and discloses the possible additional loss. If Bear Co.'s lawyers and management conclude that a class-action product liability suit will probably result in a loss of \$3,000,000 to \$8,000,000, with no amount more likely than another, Bear Co. accrues \$3,000,000 and discloses the range.
 
-If the attorney states that a loss is "probable" but cannot provide a reasonable estimate, the entity must still disclose the contingency in the notes, even though no accrual is recorded. The auditor should evaluate whether the disclosure is adequate.
+---
 
-:::
+## Procedures to Detect Litigation
 
-### Limitations on Attorney Responses
+Because management may not volunteer unfavorable legal matters, the auditor combines several procedures:
 
-Attorneys may limit their responses due to **attorney-client privilege** and ethical obligations:
+- **Inquire of management**, including in-house legal counsel, about pending or threatened litigation, claims, and assessments, and about the entity's process for identifying and evaluating them. Frame the questions broadly: management may not think of a regulatory investigation, a tax dispute, or a demand letter from a former employee as "litigation."
+- **Obtain from management a description and evaluation** of each matter that existed at the balance sheet date or arose afterward, along with management's representation that the list is complete.
+- **Read minutes** of meetings of the board, the audit committee, and other committees for reports from counsel, settlement authorizations, and discussions of investigations.
+- **Examine legal expense accounts and lawyers' invoices.** An invoice from a firm the auditor did not know about identifies a lawyer who should receive an inquiry letter, and the invoice descriptions often name the matters.
+- **Read contracts, loan agreements, and correspondence** with regulators and taxing authorities for guarantees, penalties, indemnifications, and disputed assessments. Bank confirmations may also report guarantees and other contingent liabilities.
 
-- An attorney may **decline to respond** regarding matters where the attorney was not directly involved
-- An attorney may use **qualifying language** (e.g., "we are unable to express an opinion") for highly uncertain matters
-- An attorney may limit the response to **specified dollar thresholds** (e.g., matters involving potential losses exceeding \$100,000)
-- An attorney is generally **not required to disclose unasserted claims** unless the client has specifically authorized the disclosure
+---
 
-:::caution
+## The Letter of Audit Inquiry
 
-A refusal by the attorney to respond (or a significantly limited response) does **not** automatically mean the attorney is hiding something. However, the auditor must evaluate whether sufficient appropriate evidence has been obtained. A material limitation may constitute a **scope limitation** affecting the audit opinion.
+The **letter of audit inquiry** (often called the attorney letter or legal letter) is the auditor's primary means of corroborating management's information. Unless the other procedures show that no actual or potential legal matters exist, the auditor seeks direct communication with each external lawyer the entity consulted about litigation, claims, or assessments. **Management prepares** the letter, on its own letterhead, because the attorney-client relationship belongs to the client. Under AU-C 501 the auditor then sends it; under AS 2505 the auditor asks management to send it. Either way, the letter asks the lawyer to reply **directly to the auditor**, so the response does not pass through management's hands.
 
-:::
+### What the Letter Contains
 
-### Example: Attorney Letter at Grizzly Industries
+A typical inquiry letter includes:
 
-Grizzly Industries is defending against two lawsuits:
-1. **Patent infringement claim** filed by a competitor seeking \$2,000,000 in damages
-2. **Slip-and-fall personal injury claim** by a former employee seeking \$150,000
+- **Management's list of pending or threatened litigation, claims, and assessments** for which the lawyer has been engaged, with management's evaluation of each. The lawyer is asked to describe the nature and progress of each matter, the likelihood of an unfavorable outcome, and an estimate of the potential loss or range of loss, and to **identify any pending or threatened matters missing from the list** (or state that the list is complete).
+- **Management's list of unasserted claims** that it considers probable of assertion and that, if asserted, would have at least a reasonable possibility of an unfavorable outcome. The lawyer is asked to comment where the lawyer's views differ from management's.
+- **A statement about unasserted claims the lawyer knows of.** The lawyer is not asked to list them for the auditor, since disclosing a claim no one has made yet could breach confidentiality and invite the claim. Instead, the letter asks the lawyer to confirm the client's understanding that whenever the lawyer concludes that an unasserted claim requires disclosure, the lawyer will advise the client of that and consult with the client about it.
+- **A request to explain any limitation** on the lawyer's response.
+- **The date as of which the response is effective**, which should be close to the date of the auditor's report. If significant time passes before the report is dated, the auditor obtains an update.
 
-Management prepares a letter listing both matters and sends it to Grizzly's outside counsel. The attorney responds:
-- **Patent claim**: Likelihood of unfavorable outcome assessed as "reasonably possible"; potential loss range of \$500,000 to \$2,000,000
-- **Personal injury claim**: Likelihood assessed as "probable"; estimated loss of \$120,000
+### Limits on the Lawyer's Response
 
-Based on the response, the auditor verifies that Grizzly has:
-- **Accrued** \$120,000 for the personal injury claim (probable and estimable)
-- **Disclosed** the patent infringement claim in the notes with the range of potential loss (reasonably possible)
+Lawyers may limit their responses for legitimate reasons, and not every limit is a problem. A lawyer may respond only about matters to which the lawyer has given substantive attention. The lawyer and auditor may agree on a materiality threshold, so that only matters above a stated amount are covered. A lawyer may also say that a matter's outcome is too uncertain to evaluate. That last case is an **inherent uncertainty**, not a limitation on the audit; the auditor evaluates whether the financial statements disclose it adequately.
 
-## Financial Statement Implications
+Evidence from in-house counsel helps, but it does not replace a response that outside counsel refuses to give. When a matter is complex or management and the lawyer disagree, the auditor may meet with the lawyer, with management's permission and usually with a member of management present.
 
-### Loss Contingency Recognition Under ASC 450
+### Example: Grizzly Industries
 
-The accounting treatment for litigation-related contingencies follows **ASC 450-20** (*Contingencies: Loss Contingencies*):
+Grizzly Industries is defending two lawsuits: a patent infringement claim seeking \$2,000,000 and a personal injury claim seeking \$150,000. The lawyer's response assesses the patent claim as **reasonably possible**, with a possible loss of \$500,000 to \$2,000,000, and the injury claim as **probable**, with an estimated loss of \$120,000. The auditor checks that Grizzly has **accrued** \$120,000 for the injury claim and **disclosed** the patent claim and its range in the notes, without an accrual.
 
-| Condition | Accrual Required? | Disclosure Required? |
-|---|---|---|
-| Loss is **probable** AND **reasonably estimable** | Yes, record a liability | Yes, disclose in the notes |
-| Loss is **probable** but **not estimable** | No accrual | Yes, disclose the nature and indicate that an estimate cannot be made |
-| Loss is **reasonably possible** | No accrual | Yes, disclose the nature and estimated range of loss (or state that an estimate cannot be made) |
-| Loss is **remote** | No accrual | Generally no (except for certain guarantees under ASC 460) |
+---
 
-:::info[Accrual Best Practices]
+## Management's Written Representations
 
-When a range of loss is estimated and no amount within the range is a better estimate than any other, the entity should accrue the **minimum amount** in the range and disclose the full range. This is a frequently tested CPA exam concept.
+The management representation letter states that management has disclosed all known actual or possible litigation and claims whose effects should be considered in preparing the financial statements, and that they have been accounted for and disclosed in accordance with the framework. The representations **supplement** the lawyer's response; they do not replace it. Management's word and the lawyer's independent corroboration serve different purposes, and the auditor needs both.
 
-:::
+**Example.** During the subsequent events review, the auditor of Honey Entertainment learns of a \$5,000,000 lawsuit filed in mid-January over products sold in November. The matter appears in neither management's list nor the lawyer's response. The auditor asks management why it was omitted and obtains an updated response from counsel. Because the suit arises from sales made before year-end, the auditor evaluates whether information available before the financial statements are issued shows that a loss is probable and estimable, which would require an accrual, or whether disclosure is enough. The auditor also considers what the omission says about the reliability of management's other representations.
 
-### Example: Loss Contingency at Bear Co.
+---
 
-Bear Co. is the defendant in a class-action product liability lawsuit. Management and legal counsel evaluate the matter:
+## Effect on the Auditor's Report
 
-- Likelihood of unfavorable outcome: **Probable**
-- Estimated range of loss: **\$3,000,000 to \$8,000,000**
-- No single amount within the range is more likely than another
-
-Bear Co. should:
-1. **Accrue \$3,000,000** (the minimum of the range)
-2. **Disclose** the nature of the lawsuit and the full \$3,000,000 to \$8,000,000 range in the notes
-
-The auditor verifies this treatment is consistent with ASC 450-20 and AU-C 501.
-
-## Management Representations
-
-As part of the **management representation letter** (AU-C 580), the auditor obtains written representations from management specifically addressing:
-
-- All known pending or threatened litigation has been disclosed to the auditor
-- All unasserted claims that legal counsel has advised are probable of assertion have been disclosed
-- Financial statement accruals and disclosures related to litigation are complete and adequate
-- Management has disclosed any litigation arising after the balance sheet date through the date of the auditor's report
-
-:::tip
-
-The management representation letter supplements, but does not replace, the attorney letter. Both are required. The representation letter confirms management's responsibility for completeness; the attorney letter provides corroborating evidence from an independent legal professional.
-
-:::
-
-### Example: Representation Letter at Honey Entertainment
-
-Honey Entertainment's CFO signs a management representation letter stating: *"We have disclosed to you all pending and threatened litigation and claims. We believe the accruals and disclosures in the financial statements are adequate."* However, during the subsequent events review, the auditor discovers a new \$5,000,000 copyright infringement lawsuit filed two weeks after the balance sheet date. The auditor must:
-1. Inquire about why this was not disclosed earlier
-2. Evaluate whether the lawsuit relates to conditions existing at the balance sheet date
-3. Determine whether an accrual or disclosure adjustment is needed
-4. Consider the implications for management integrity and the reliability of representations
-
-## Impact on the Auditor's Report
-
-### Scope Limitations Related to Litigation
-
-| Scenario | Impact on Audit Report |
+| Situation | Effect on the report |
 |---|---|
-| Client **refuses to send** the attorney letter | Scope limitation: **qualified opinion** or **disclaimer of opinion** |
-| Attorney **refuses to respond** on material matters | Scope limitation: **qualified opinion** or **disclaimer of opinion** |
-| Attorney **limits response** to a dollar threshold, but no material matters are excluded | Not a scope limitation if the auditor is satisfied no material matters were omitted |
-| Attorney **cannot estimate** the loss for a probable matter | Not a scope limitation; evaluate disclosure adequacy |
+| Management **refuses to send** the inquiry letter, or will not let the auditor communicate with the lawyer | A scope limitation imposed by management: qualified opinion or disclaimer, and the auditor considers withdrawing |
+| The lawyer **refuses to furnish** the requested information, in writing or orally | A scope limitation sufficient to preclude an unmodified opinion: qualified opinion or disclaimer |
+| The lawyer limits the response to an **agreed materiality threshold** | Not a scope limitation |
+| The lawyer **cannot evaluate** the outcome because of inherent uncertainty | Not a scope limitation; the auditor evaluates the disclosure |
 
-### Emphasis-of-Matter Paragraphs
+A significant lawsuit that is properly accounted for and disclosed does not change the opinion. If the auditor believes users should pay particular attention to it, the auditor may add an **emphasis-of-matter paragraph** (an emphasis paragraph for issuers) that points to the disclosure. When litigation is serious enough to threaten the entity's survival, the auditor also evaluates going concern.
 
-When litigation creates significant uncertainty about the entity's ability to continue as a going concern or involves a material contingency, the auditor may add an **emphasis-of-matter paragraph** to the audit report to draw attention to the related disclosure without modifying the opinion itself.
+**Example.** Polar Inc. is the subject of a \$50,000,000 government fraud investigation, and its outside counsel refuses to respond to the inquiry letter about it. The auditor cannot obtain sufficient appropriate evidence about the potential liability by other means. Because the possible effect is both material and pervasive, the auditor issues a **disclaimer of opinion**. A smaller matter with a material but not pervasive effect would lead to a qualified opinion instead.
 
-### Example: Audit Report Impact at Polar Inc.
+### Issuers
 
-Polar Inc. faces a \$50,000,000 government fraud investigation. The company's outside counsel refuses to respond to the auditor's inquiry letter regarding this matter. The auditor:
-- Cannot obtain sufficient appropriate evidence about the potential liability
-- Determines the matter is both material and pervasive to the financial statements
-- Issues a **disclaimer of opinion**, citing the inability to obtain evidence about the litigation contingency
-
-## PCAOB vs. AICPA Considerations
-
-| Topic | AICPA (AU-C 501) | PCAOB (AS 2505 / AS 2503) |
-|---|---|---|
-| **Applicable entities** | Nonissuers (private companies) | Issuers (SEC-reporting companies) |
-| **Attorney letter requirement** | Required for all audits | Required for all audits |
-| **Unasserted claims** | Attorney should inform auditor of matters where assertion is probable and loss is reasonably possible | Same requirement |
-| **Management representations** | Required under AU-C 580 | Required under AS 2805 |
-| **Going concern evaluation** | AU-C 570: auditor evaluates whether litigation raises substantial doubt | AS 2415: similar requirement for issuers |
-| **Emphasis-of-matter** | Permitted for significant uncertainties (AU-C 706) | Explanatory paragraph added after the opinion paragraph (AS 3101) |
-| **Internal control over financial reporting** | Not required for nonissuers | Auditor must evaluate controls over litigation accrual and disclosure in an integrated audit |
-
-:::note[PCAOB Integrated Audits]
-
-For public companies, the auditor performs an **integrated audit** of financial statements and internal control over financial reporting (ICFR). This means the auditor must also evaluate whether the entity has effective controls over the identification, evaluation, and disclosure of litigation, claims, and assessments, not just whether the amounts in the financial statements are correct.
-
-:::
-
-### Example: PCAOB Integrated Audit at Bear Co.
-
-Bear Co. is a publicly traded manufacturer subject to PCAOB standards. The auditor:
-1. Tests controls over the **litigation tracking process**, evaluating whether management has a system to identify and monitor all legal matters
-2. Sends the **attorney letter** and evaluates the response
-3. Tests the **accuracy of accruals** for probable losses
-4. Evaluates the **completeness and adequacy of disclosures** in the notes
-5. Assesses whether any deficiency in the litigation-related controls rises to the level of a **significant deficiency** or **material weakness** in ICFR
-
-## Summary
-
-| Topic | Key Point |
-|---|---|
-| **Detection procedures** | Inquire of management, review board minutes, read legal invoices and correspondence, review contracts |
-| **Attorney letter** | Prepared by management, sent to outside counsel, response goes directly to the auditor |
-| **AU-C 501 / AS 2505** | Requires the auditor to obtain corroborating evidence from the client's legal counsel |
-| **Likelihood categories** | Probable (accrue if estimable), reasonably possible (disclose), remote (generally no action) |
-| **ASC 450-20 accrual rule** | Accrue minimum of the range when no single amount is the best estimate |
-| **Unasserted claims** | Attorney discloses if assertion is probable and loss would be reasonably possible |
-| **Management representations** | Must specifically address completeness of litigation disclosures |
-| **Scope limitation** | Client or attorney refusal to cooperate leads to a qualified opinion or disclaimer |
-| **PCAOB integrated audit** | Also evaluate controls over litigation identification, accrual, and disclosure |
-| **Emphasis-of-matter** | May be added when litigation creates significant uncertainty (does not modify the opinion) |
+For issuers, the procedures under AS 2505 are the same, and an integrated audit adds a controls dimension: the auditor tests the company's controls over identifying, evaluating, accruing, and disclosing legal matters, and evaluates whether any deficiency in them is a significant deficiency or material weakness. A large, judgmental litigation reserve is also a common **critical audit matter** in an issuer's report.

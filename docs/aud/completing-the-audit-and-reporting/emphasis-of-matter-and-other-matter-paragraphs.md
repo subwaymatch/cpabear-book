@@ -1,83 +1,45 @@
 # Emphasis of Matter and Other Matter Paragraphs
 
-Beyond the core opinion, auditors sometimes need to draw attention to important information or provide additional context in their report. The mechanisms for doing this differ between nonissuer audits (AICPA standards) and issuer audits (PCAOB standards). This section covers **emphasis-of-matter paragraphs**, **explanatory paragraphs**, and **other-matter paragraphs**: when they are required, what they contain, and how they affect the audit report.
+Sometimes the auditor wants to say more than the standard report says, without changing the opinion. AICPA standards provide two tools for this. An **emphasis-of-matter paragraph** points readers to something already disclosed in the financial statements, and an **other-matter paragraph** tells readers something about the audit or the report that the statements do not contain. PCAOB standards use explanatory and emphasis paragraphs for the same purposes. This chapter explains each tool, when it is required, and how to tell them apart on the exam.
 
-:::info
-
-An emphasis-of-matter or other-matter paragraph does **not** change the auditor's opinion. These paragraphs supplement the opinion; the auditor is still issuing an unmodified, qualified, adverse, or disclaimer opinion as appropriate.
-
-:::
+None of these paragraphs modifies the opinion. An unmodified opinion with an emphasis-of-matter paragraph is still an unmodified opinion. They also cannot fix a problem: a paragraph that draws attention to a matter is no substitute for a modified opinion when the statements are misstated, or for a disclosure that management should have made.
 
 ---
 
 ## Emphasis-of-Matter Paragraphs (Nonissuers)
 
-An **emphasis-of-matter (EOM) paragraph** is used in nonissuer audit reports to draw the reader's attention to a matter that is **appropriately presented or disclosed** in the financial statements and that, in the auditor's professional judgment, is of such importance that it is fundamental to users' understanding of the financial statements.
+Under AU-C 706, an **emphasis-of-matter paragraph** refers to a matter that is **appropriately presented or disclosed** in the financial statements and that, in the auditor's judgment, is fundamental to users' understanding of them. The paragraph:
 
-### Key Characteristics
-
-- The matter is **already properly accounted for and disclosed**, so this is not a deficiency or misstatement
-- The EOM paragraph does **not** result in a modification to the opinion
-- The paragraph is placed **after the opinion section** and before the "Other Matter" paragraph (if any)
-- The heading must include the term **"Emphasis of Matter"** (or a more descriptive heading such as "Emphasis of Matter: Going Concern")
-- The paragraph must include a **clear reference to the matter being emphasized** and to where it is disclosed in the financial statements
-- The paragraph must state that the auditor's **opinion is not modified** with respect to this matter
+- Appears in a **separate section** of the report with a heading that includes the term "Emphasis of Matter"
+- Clearly **refers to the matter** and to the note where it is disclosed
+- States that the auditor's **opinion is not modified** with respect to the matter
 
 ### When an Emphasis-of-Matter Paragraph Is Required
 
-The AICPA standards **require** an EOM paragraph in the following situations:
+Other AU-C sections require an emphasis-of-matter paragraph in specific situations:
 
-| Situation | Explanation |
-|-----------|-------------|
-| **Going concern uncertainty** | Substantial doubt exists about the entity's ability to continue as a going concern, and the matter is adequately disclosed |
-| **Change in accounting principle** | The entity has adopted a new accounting principle or changed an existing one, and the change has a material effect on the financial statements |
-| **Correction of a material misstatement in prior-period financial statements** | Restated comparative financial statements are presented due to correction of a prior-period error |
-| **Special purpose framework** | The financial statements are prepared on a special purpose framework (e.g., tax basis, cash basis), alerting users that the basis differs from GAAP |
+| Situation | Source |
+|---|---|
+| A **change in accounting principle** with a material effect | AU-C 708 (see [Comparative Statements and Consistency](./comparative-statements-and-consistency.md)) |
+| The **correction of a material misstatement** in previously issued statements | AU-C 708 |
+| Financial statements prepared under a **special-purpose framework**, such as the cash or tax basis | AU-C 800 (see [Special-Purpose Frameworks](./special-purpose-frameworks.md)) |
 
-### When an Emphasis-of-Matter Paragraph Is Optional
+Going concern used to appear on this list. Under current AICPA standards, substantial doubt about going concern is reported in its own section, headed "Substantial Doubt About the Entity's Ability to Continue as a Going Concern," rather than in an emphasis-of-matter paragraph (see [Going Concern](./going-concern.md)).
 
-The auditor may also include an EOM paragraph **at their discretion** for other matters, such as:
+### When It Is the Auditor's Choice
 
-- A significant subsequent event
-- An unusual or significant related-party transaction
-- A major catastrophe that has had (or may have) a significant effect on the entity
-- Significant uncertainties (such as pending litigation)
+The auditor may also add an emphasis-of-matter paragraph for other matters that are properly disclosed and important to users, such as:
 
-**Example:** Honey Entertainment recently changed its revenue recognition method from a completed-contract approach to the percentage-of-completion method for its long-term entertainment venue construction projects. The change is material and properly disclosed in Note 3. The auditor includes an emphasis-of-matter paragraph stating: "As discussed in Note 3 to the financial statements, the Company changed its method of accounting for long-term construction contracts in 20X4. Our opinion is not modified with respect to this matter."
+- An uncertainty about the outcome of unusually important litigation or regulatory action
+- A major catastrophe that has had, or continues to have, a significant effect on the entity's financial position
+- Significant transactions with related parties
+- An unusually important subsequent event
+
+**Example.** In February, after year-end but before the report date, a fire destroys Panda Industries' main manufacturing plant. Management discloses the fire and its expected effects in Note 15. The auditor adds an emphasis-of-matter paragraph: "As discussed in Note 15 to the financial statements, the Company's principal manufacturing facility was destroyed by fire in February 20X5. Our opinion is not modified with respect to this matter."
 
 :::tip[Exam Tip]
 
-The emphasis-of-matter paragraph always includes two things: (1) a reference to the disclosure in the financial statements, and (2) a statement that the opinion is not modified. If a question describes a paragraph that draws attention to a properly disclosed matter and includes both of these elements, it is an EOM paragraph.
-
-:::
-
----
-
-## Explanatory Paragraphs (Issuers)
-
-Under PCAOB standards, the equivalent mechanism for issuer reports is the **explanatory paragraph**. While the concept is similar to the EOM paragraph, there are differences in terminology and application.
-
-### When an Explanatory Paragraph Is Required or Permitted
-
-The PCAOB requires (or permits) the auditor to add an explanatory paragraph in situations such as:
-
-| Situation | Requirement |
-|-----------|-------------|
-| **Going concern** | Required when there is substantial doubt about the entity's ability to continue as a going concern |
-| **Lack of consistency** | Required when there is a material change in accounting principle or the method of its application |
-| **Reference to another auditor** | Required when the principal auditor decides to make reference to the work of another auditor |
-| **Restatement** | Required when prior-period financial statements have been restated |
-| **Other matters** | Permitted at the auditor's discretion to emphasize significant matters |
-
-### Placement
-
-In issuer reports, the explanatory paragraph is typically placed **after the opinion paragraph** (or after the Basis for Opinion section, depending on the specific circumstance).
-
-**Example:** Grizzly Industries is a public company that recently adopted a new lease accounting standard, resulting in material changes to its balance sheet. The auditor adds an explanatory paragraph after the opinion section noting the change in accounting principle and referencing the note where it is disclosed.
-
-:::note
-
-The PCAOB does not use the terms "emphasis-of-matter" or "other-matter." Instead, PCAOB standards refer to **explanatory paragraphs** or **explanatory language** added to the standard report. The functional purpose is the same: drawing attention to important information without modifying the opinion.
+An emphasis-of-matter paragraph always does two things: it refers to a disclosure **in the financial statements**, and it states that the opinion is **not modified**. If a question describes a paragraph that points to a properly disclosed matter and says the opinion is not modified, it is an emphasis-of-matter paragraph.
 
 :::
 
@@ -85,97 +47,55 @@ The PCAOB does not use the terms "emphasis-of-matter" or "other-matter." Instead
 
 ## Other-Matter Paragraphs (Nonissuers)
 
-An **other-matter (OM) paragraph** is used in nonissuer reports to draw attention to a matter that is **not presented or disclosed in the financial statements** but that is relevant to users' understanding of the audit, the auditor's responsibilities, or the auditor's report.
-
-### Key Characteristics
-
-- Unlike an EOM paragraph, the matter is **not disclosed in the financial statements** themselves; it relates to the audit or report
-- The OM paragraph is placed **after the opinion section and any EOM paragraphs**
-- The heading must include the term **"Other Matter"** (or a more descriptive heading)
-- The OM paragraph does **not** modify the opinion
+An **other-matter paragraph** refers to a matter **other than** those presented or disclosed in the financial statements that is relevant to users' understanding of the audit, the auditor's responsibilities, or the auditor's report. It appears in a separate section with a heading that includes the term "Other Matter."
 
 ### When an Other-Matter Paragraph Is Required
 
-| Situation | Explanation |
-|-----------|-------------|
-| **Prior-period financial statements audited by a predecessor** | The current auditor uses an OM paragraph to note that the prior year was audited by another auditor, the type of opinion they expressed, the date of their report, and any modifications |
-| **Prior-period financial statements reviewed or compiled** | The current auditor notes the lower level of service applied in the prior period |
-| **Restriction on use** | When the auditor's report is restricted to specific parties (e.g., for regulatory-basis financial statements) |
-| **Supplementary information** | When the auditor has been engaged to report on supplementary information accompanying the basic financial statements |
-| **Required supplementary information (RSI)** | The auditor reports on the results of limited procedures applied to RSI |
-| **Other information in documents** | The auditor may address other information (e.g., a president's letter) included in a document containing the audited financial statements |
+| Situation | What the paragraph says |
+|---|---|
+| The prior period was audited by a **predecessor** whose report is not reissued | The prior period was audited by other auditors, with the date and type of their opinion (and the reasons, if it was modified) |
+| The prior period was **reviewed or compiled** rather than audited | The level of service, the date of that report, and that it is substantially less than an audit |
+| The auditor's **updated opinion on a prior period differs** from the one originally issued | The date and type of the earlier opinion, the reasons for it, and that the updated opinion differs |
+| **Supplementary information** accompanies the statements and the auditor reports on it in the auditor's report | Whether the information is fairly stated in relation to the financial statements as a whole |
+| **Required supplementary information** (such as a government's MD&A) accompanies the statements | That the auditor applied limited procedures and does not express an opinion on it |
+| Use of the report must be **restricted** to specified parties (for example, some contractual or regulatory basis statements) | An alert restricting use of the report |
 
-### Distinction Between EOM and OM Paragraphs
+Other information in an annual report, such as a letter to shareholders, is **not** reported in an other-matter paragraph. It has its own "Other Information" section under AU-C 720 (see [Other Information in Audited Documents](./other-information-in-audited-documents.md)).
 
-| Feature | Emphasis-of-Matter | Other-Matter |
-|---------|-------------------|--------------|
-| **Subject** | A matter **in** the financial statements | A matter **not in** the financial statements |
-| **Purpose** | Draw attention to a properly disclosed item | Provide information about the audit or auditor's report |
-| **Placement** | After the opinion section | After the opinion and any EOM paragraphs |
-| **Modifies opinion?** | No | No |
-| **Example** | Going concern, change in accounting principle | Prior year audited by predecessor, restriction on use |
-
-**Example:** Panda Records engaged a new audit firm this year. The prior year's financial statements were audited by a different firm that issued an unmodified opinion dated March 10, 20X3. The current auditor includes an other-matter paragraph in the 20X4 report stating: "The financial statements of Panda Records for the year ended December 31, 20X3, were audited by another auditor, who expressed an unmodified opinion on those statements on March 10, 20X3."
+**Example.** Cub Entertainment changed auditors this year. The predecessor issued an unmodified opinion on the 20X3 statements dated March 10, 20X4, and is not reissuing it. The successor's 20X4 report includes an other-matter paragraph: "The financial statements of Cub Entertainment as of and for the year ended December 31, 20X3, were audited by other auditors, whose report dated March 10, 20X4, expressed an unmodified opinion on those statements."
 
 ---
 
-## Reporting Requirements Summary
+## Telling Them Apart
 
-### Nonissuer Reports
+| Feature | Emphasis of matter | Other matter |
+|---|---|---|
+| **Subject** | A matter **disclosed in** the financial statements | A matter **not in** the financial statements |
+| **Purpose** | Point readers to a properly disclosed matter that is fundamental to understanding the statements | Explain something about the audit, the auditor's responsibilities, or the report |
+| **Heading** | Includes "Emphasis of Matter" | Includes "Other Matter" |
+| **Modifies the opinion?** | No | No |
+| **Typical examples** | Change in accounting principle, restatement, special-purpose framework | Predecessor auditor, prior period reviewed, supplementary information, restricted use |
 
-| Paragraph Type | Heading Required? | Placement | Modifies Opinion? |
-|---------------|-------------------|-----------|-------------------|
-| Emphasis-of-Matter | Yes: "Emphasis of Matter" or descriptive variant | After Opinion section | No |
-| Other-Matter | Yes: "Other Matter" or descriptive variant | After Opinion and any EOM paragraphs | No |
+---
 
-### Issuer Reports
+## Explanatory and Emphasis Paragraphs (Issuers)
 
-| Paragraph Type | Heading Required? | Placement | Modifies Opinion? |
-|---------------|-------------------|-----------|-------------------|
-| Explanatory paragraph | No specific heading required by PCAOB | After Opinion section (or after Basis for Opinion) | No |
+PCAOB standards do not use the terms "emphasis of matter" or "other matter." Instead, AS 3101 and related standards require **explanatory paragraphs** in specific situations and permit **emphasis paragraphs** at the auditor's discretion. Explanatory language is required, for example, when:
+
+- There is **substantial doubt** about the company's ability to continue as a going concern (AS 2415)
+- A **change in accounting principle** or the **correction of a material misstatement** materially affects comparability (AS 2820)
+- The auditor **divides responsibility** with a referred-to auditor (AS 1206)
+
+The auditor may also add an **emphasis paragraph** to draw attention to a matter such as significant related party transactions, an unusually important subsequent event, or an uncertainty, provided the matter is disclosed in the financial statements. As with the AICPA paragraphs, none of these changes the opinion.
+
+| Scenario | Nonissuer report | Issuer report |
+|---|---|---|
+| Substantial doubt about going concern, adequately disclosed | Separate going concern section | Explanatory paragraph |
+| Adoption of a new credit loss standard with a material effect | Emphasis-of-matter paragraph | Explanatory paragraph |
+| Prior year audited by a predecessor whose report is not reissued | Other-matter paragraph | The predecessor's report is generally reissued and included in the filing with the current report |
 
 :::warning
 
-Do not confuse emphasis-of-matter paragraphs with modified opinions. A modified opinion (qualified, adverse, or disclaimer) reflects a problem, either with the financial statements or with the auditor's ability to obtain evidence. An EOM or explanatory paragraph, by contrast, highlights something the auditor believes is important but that does **not** represent a deficiency requiring a modification.
-
-:::
-
----
-
-## Practical Scenarios
-
-### Scenario 1: Going Concern with Adequate Disclosure
-
-Kodiak Partners has experienced recurring losses and negative operating cash flows. Management has disclosed its plans to address the situation (seeking additional financing and reducing costs) in Note 12. The auditor concludes that substantial doubt exists about Kodiak Partners' ability to continue as a going concern but that the disclosure is adequate.
-
-- **Nonissuer report:** Include a required **emphasis-of-matter paragraph** referencing Note 12 and stating the opinion is not modified
-- **Issuer report:** Include a required **explanatory paragraph** describing the going concern uncertainty
-
-### Scenario 2: Change in Accounting Principle
-
-Bear Co. adopted the new current expected credit losses (CECL) model for estimating its allowance for credit losses, resulting in a material cumulative-effect adjustment. The change is properly disclosed in Note 2.
-
-- **Nonissuer report:** Include a required **emphasis-of-matter paragraph** referencing Note 2
-- **Issuer report:** Include a required **explanatory paragraph** noting the lack of consistency
-
-### Scenario 3: Prior Year Audited by Predecessor
-
-Ursa Security changed auditors. The predecessor auditor issued an unmodified opinion on the 20X3 financial statements dated February 28, 20X4. The predecessor's report is not being reissued with the 20X4 comparative statements.
-
-- **Nonissuer report:** The successor auditor includes an **other-matter paragraph** identifying the predecessor, the opinion type, date, and noting the predecessor's report is not presented
-
----
-
-## Key Takeaways for the AUD Exam
-
-- **EOM paragraphs** (nonissuers) and **explanatory paragraphs** (issuers) draw attention to properly presented matters in the financial statements
-- **Other-matter paragraphs** (nonissuers) address matters outside the financial statements that are relevant to understanding the audit or report
-- None of these paragraphs modify the auditor's opinion
-- Required situations include going concern, changes in accounting principles, restatements, and special purpose frameworks
-- The auditor also has discretion to add these paragraphs for other significant matters
-
-:::tip
-
-On exam questions, watch the wording carefully: if the matter is **in** the financial statements, use an EOM paragraph. If the matter is **about the audit or report** but not in the financial statements, use an other-matter paragraph.
+Do not confuse these paragraphs with modified opinions. A qualified, adverse, or disclaimer opinion reflects a problem with the statements or with the evidence. An emphasis-of-matter, other-matter, explanatory, or emphasis paragraph adds information but leaves the opinion as it is.
 
 :::

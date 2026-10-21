@@ -1,295 +1,163 @@
 # External Confirmations
 
-External confirmations are among the most powerful forms of audit evidence because they are obtained **directly from independent third parties**. By requesting a knowledgeable outside party to confirm account balances, transactions, or terms, the auditor obtains evidence that is independent of the entity's own records. Understanding the types, procedures, and evaluation of external confirmations is essential for the CPA exam (blueprint topic III.D.3) and is one of the most frequently tested areas in the AUD section.
+An **external confirmation** is audit evidence obtained as a direct written response to the auditor from a third party (the **confirming party**), on paper or by electronic or other means. Confirmations are persuasive for two reasons: the information comes from outside the entity, and it travels directly to the auditor, so management has no chance to change it. This chapter covers when confirmations are required (an area where AICPA and PCAOB standards now differ), the forms of confirmation requests, how the auditor keeps control of the process, what to do when management refuses, and how to evaluate exceptions, nonresponses, and incomplete responses. The AICPA standards are AU-C 505 and AU-C 330; the PCAOB standard is AS 2310, *The Auditor's Use of Confirmation*.
 
 ---
 
-## Why External Confirmations Are Important
+## When Confirmations Are Required
 
-External confirmations provide **high-quality audit evidence** because they originate from sources independent of the entity being audited. Under both AICPA and PCAOB standards, the auditor is required to consider using external confirmations as a substantive procedure, particularly for significant account balances and transactions where the risk of material misstatement is elevated.
+### Nonissuers: AICPA Standards
 
-:::info[Key Principle]
+The AICPA standards ask the auditor to consider whether to use external confirmations as substantive procedures, and they create a **presumption for accounts receivable**. Under AU-C 330, the auditor should confirm accounts receivable unless one of these exceptions applies:
 
-Evidence obtained directly from independent external parties is generally **more reliable** than evidence generated internally by the entity. A bank's written confirmation of a cash balance is stronger evidence than management's general ledger printout showing the same balance, because the bank has no incentive to misstate the entity's account information.
+1. The overall receivables balance is **immaterial**
+2. Confirmation procedures would be **ineffective** (for example, customers are known not to respond)
+3. The assessed risk of material misstatement is **low** and other planned substantive procedures address that risk
 
-:::
+When the auditor relies on an exception, the reason is documented. The AICPA standards do not currently require confirming cash, although bank confirmations are standard practice.
+
+**SAS 150**, issued in July 2026, amends AU-C 505 and AU-C 330. Among other changes, it adds a requirement to confirm cash held by third parties, sets new conditions for negative confirmations, and recognizes direct access to information held by a knowledgeable external source. It is effective for periods ending on or after December 15, 2028, so under the AICPA's policy for new pronouncements it would not be eligible for testing before January 1, 2029. Until then, the exam tests the current AICPA rules described here.
+
+### Issuers: PCAOB AS 2310
+
+The PCAOB replaced AS 2310 with a new standard for audits of fiscal years ending on or after June 15, 2025. It requires the auditor to:
+
+- **Confirm cash and cash equivalents held by third parties**, or obtain the evidence by **directly accessing** the information held by a knowledgeable external source (for example, through an arrangement in which the auditor, not the company, retrieves the bank's records)
+- **Confirm accounts receivable** or use direct access. If neither is feasible, the auditor performs other substantive procedures, including tests of details that obtain external evidence indirectly, such as examining subsequent cash receipts and comparing them with remittance advices and shipping documents.
+- **Control** the selection, sending, and receipt of confirmation requests
+- Use **negative confirmations only together with other substantive procedures**, never as the only evidence
+
+If the auditor responds to a significant risk involving cash or receivables without confirming or using direct access, the auditor must communicate that response to the audit committee.
 
 ---
 
-## Types of External Confirmations
-
-External confirmations fall into two primary categories: **positive** and **negative**. Each type differs in how the third party is asked to respond.
+## Forms of Confirmation Requests
 
 ### Positive Confirmations
 
-A positive confirmation requests the recipient to respond **in all cases**, whether they agree or disagree with the information presented.
+A **positive confirmation** asks the confirming party to respond **in every case**, whether or not it agrees.
 
-| Subtype | Description | When to Use |
-|---|---|---|
-| **Blank (open) form** | Asks the recipient to fill in the balance or information without providing the auditor's figure | When the auditor wants the most reliable response, since the respondent must independently determine the amount |
-| **Formatted (closed) form** | Provides the account balance and asks the recipient to confirm agreement or state any differences | When the auditor expects fewer exceptions and wants to increase the response rate |
-
-:::tip
-
-**Blank confirmations are more reliable** than formatted confirmations because the respondent must independently generate the balance rather than simply agreeing with a number provided by the auditor. However, blank confirmations typically yield **lower response rates** because they require more effort from the recipient. The CPA exam frequently tests this tradeoff.
-
-:::
+- A **blank (open) form** gives no amount and asks the respondent to fill in the balance. It is **more reliable**, because the respondent cannot simply sign next to the auditor's number, but it usually gets **fewer responses** because it takes more effort.
+- A **formatted (closed) form** shows the recorded balance and asks the respondent to agree or describe any difference. It gets more responses, but a busy respondent may sign without checking.
 
 ### Negative Confirmations
 
-A negative confirmation asks the recipient to respond **only if they disagree** with the information provided. If no response is received, the auditor assumes the information is correct.
+A **negative confirmation** asks the confirming party to respond **only if it disagrees**. Silence is treated as agreement, which is the weakness: the auditor cannot tell whether a recipient checked the balance and agreed, or never opened the request.
 
-:::caution
+Under AICPA standards, negative confirmations may be the **sole** substantive procedure for an assertion only when **all** of these conditions are met:
 
-Negative confirmations provide **less persuasive evidence** than positive confirmations because the auditor cannot distinguish between a recipient who agreed with the balance and one who simply did not respond (perhaps because the confirmation was never received, was ignored, or was discarded). Use negative confirmations **only** when all of the following conditions are met:
+1. The risk of material misstatement is assessed as **low**, and the auditor has obtained evidence that the relevant controls operate effectively
+2. The population consists of a **large number of small, homogeneous** balances or transactions
+3. A **very low exception rate** is expected
+4. The auditor knows of no circumstances that would cause recipients to **disregard** the requests
 
-1. The risk of material misstatement is assessed as **low**
-2. A **large number of small balances** is involved
-3. The auditor has **no reason to believe** recipients will disregard the request
-4. The auditor expects a **very low exception rate**
-
-:::
-
-### Comparison of Confirmation Types
+Under PCAOB standards, negative confirmations are never enough on their own.
 
 | Feature | Positive (Blank) | Positive (Formatted) | Negative |
 |---|---|---|---|
 | **Reliability** | Highest | High | Lowest |
-| **Response rate** | Lower | Higher | N/A (non-response assumed as agreement) |
-| **Respondent effort** | High (must look up balance) | Low (review and agree/disagree) | Minimal (respond only if disagreement) |
-| **Best for** | High-risk balances, material accounts | Moderate-risk balances | Large populations of small, low-risk balances |
-| **Follow-up required** | Yes, for all non-responses | Yes, for all non-responses | No (but auditor must evaluate overall non-response implications) |
+| **Response rate** | Lower | Higher | Not applicable (silence counts as agreement) |
+| **Best for** | High-risk, material balances | Most balances | Large populations of small, low-risk balances |
+| **Nonresponses** | Follow up; alternative procedures | Follow up; alternative procedures | No individual follow-up, but the overall lack of exceptions is less persuasive |
 
 ---
 
-## Accounts Commonly Confirmed
+## What Auditors Commonly Confirm
 
-External confirmations are used across many account areas. The following table summarizes the most common applications.
-
-| Account / Balance | Confirmed With | Typical Information Confirmed |
+| Account | Confirmed With | Typical Information |
 |---|---|---|
-| **Cash and bank balances** | Banks and financial institutions | Account balances, loan balances, lines of credit, compensating balance arrangements, collateral |
-| **Accounts receivable** | Customers | Outstanding invoice amounts, payment terms, disputed amounts |
-| **Accounts payable** | Vendors / suppliers | Outstanding balances, purchase terms, credits owed |
-| **Loans and notes payable** | Lenders | Principal balance, interest rate, maturity date, collateral, covenants, guarantees |
-| **Investments** | Custodians, brokers, counterparties | Securities held, quantities, fair values, restrictions |
-| **Insurance coverage** | Insurance companies | Policy terms, coverage amounts, claims outstanding |
-| **Legal matters** | Attorneys (inquiry letters) | Pending or threatened litigation, probable outcomes, estimated liabilities |
+| **Cash** | Banks and other financial institutions | Balances, loans, lines of credit, compensating balances, collateral |
+| **Accounts receivable** | Customers | Balances, invoice amounts, terms, disputed items, side agreements |
+| **Accounts payable** | Vendors, especially major suppliers even if the recorded balance is small or zero | Amounts owed; mainly tests **completeness**, so blank forms are common |
+| **Loans and notes payable** | Lenders | Principal, interest rate, maturity, collateral, covenants, guarantees |
+| **Investments** | Custodians, brokers | Securities held and their quantities |
+| **Inventory held by others** | Warehouses, consignees | Quantities held for the entity |
 
-:::info[Example]
+Letters to the entity's lawyers about litigation are a related form of external evidence, governed by AU-C 501 and covered in the litigation chapter.
 
-While auditing **Bear Co.**, the engagement team sends positive confirmations to all three of the company's banks to confirm cash balances, outstanding loans, and lines of credit. The team also sends positive blank-form confirmations to Bear Co.'s 25 largest customers (representing 78% of total accounts receivable) and negative confirmations to the remaining 340 customers with balances under \$5,000.
-
-:::
+**Example:** Bear Co., a nonissuer, has three banks and 365 customers. The auditor sends positive confirmations to all three banks, positive confirmations to the 25 largest customers (78% of receivables), and negative confirmations to the other 340 customers, whose balances are all under \$5,000. The negative requests are acceptable as the only confirmation evidence for those small balances because all four conditions are met, including tested controls over billing and cash receipts.
 
 ---
 
-## Tools and Techniques for Confirmations
+## Maintaining Control Over the Process
 
-### Electronic Confirmations
+The value of a confirmation depends on management having no opportunity to intercept, alter, or fabricate it. The auditor must therefore **control the process from start to finish**:
 
-Electronic confirmation services (such as Confirmation.com / Confirmation by Thomson Reuters) provide a **secure, automated platform** for sending, tracking, and receiving confirmations.
+- The auditor selects the items, prepares the requests, and sends them **directly** to the confirming parties. The client may authorize the request (banks often require the customer's consent), but the client does not send it.
+- The auditor verifies addresses and contact details **independently**, for example against the respondent's website, rather than relying only on a list from management.
+- Responses go **directly to the auditor**, never to the client.
 
-| Advantage | Description |
-|---|---|
-| **Speed** | Responses are received in days rather than weeks |
-| **Security** | Encrypted transmission reduces the risk of interception or alteration |
-| **Audit trail** | Complete digital record of when confirmations were sent, received, and responded to |
-| **Higher response rates** | Automated reminders and streamlined processes improve recipient compliance |
-| **Reduced fraud risk** | Responses are sent directly to the confirmation service rather than routed through the client |
+A client who insists on mailing the requests, or a response that arrives at the client's office, undermines the evidence.
 
-:::note
+### Electronic Confirmations and Intermediaries
 
-Electronic confirmations are increasingly the **standard practice** for bank and receivable confirmations. The PCAOB has emphasized that electronic confirmations can be more reliable than traditional paper confirmations because they reduce the risk of management intercepting or altering responses. However, the auditor must still evaluate the **reliability of the electronic confirmation service** itself.
+Most bank confirmations, and many receivable confirmations, now go through **secure electronic platforms** operated by **intermediaries**. These are fast, leave a complete audit trail, and reduce the risk of interception. They do not remove the auditor's responsibility. The auditor evaluates the intermediary's controls over the process (often using its SOC report), how it authenticates respondents, and whether it has any relationship with the entity that could compromise the responses.
 
-:::
+### Paper Confirmations
 
-### Manual (Paper) Confirmations
-
-Traditional paper confirmations are mailed directly to the third party with a prepaid return envelope addressed to the auditor. While increasingly replaced by electronic methods, paper confirmations are still used in some circumstances.
-
-**Key controls over paper confirmations:**
-
-- The auditor must **maintain control** over the confirmation process from start to finish
-- Confirmations should be mailed **directly by the auditor**, not given to the client to mail
-- Return envelopes should be addressed to the **auditor's office**, not the client's address
-- The auditor should verify the **accuracy of the recipient's address** independently (e.g., using a phone directory or the entity's website rather than relying solely on management-provided addresses)
-
-:::warning
-
-A critical exam topic: the auditor must **maintain control** over the entire confirmation process. If the client insists on mailing the confirmations or if responses are returned to the client's address, the reliability of the evidence is severely compromised because management could intercept, alter, or suppress unfavorable responses.
-
-:::
-
-### Intermediary Services
-
-Some confirmations are processed through **intermediary services**, which are third-party providers that facilitate the confirmation process between the auditor and the responding party. The auditor must evaluate:
-
-- The intermediary's **independence** from the entity being audited
-- The **security** of the intermediary's systems and processes
-- Whether the intermediary has **direct access** to the respondent's records
-- The intermediary's **reputation and track record**
+Paper confirmations are still used when respondents are not on an electronic platform. The auditor mails them directly, with return envelopes addressed to the auditor, and is alert to signs that a response was altered or did not come from the expected party.
 
 ---
 
-## The Confirmation Process
+## When Management Refuses to Allow a Confirmation
 
-### Step-by-Step Procedure
+Sometimes management asks the auditor not to confirm a particular balance. The auditor must:
 
-| Step | Activity | Key Considerations |
-|---|---|---|
-| **1. Determine the need** | Assess whether confirmations are appropriate for the account and assertion | Consider risk level, materiality, nature of the balance, and availability of alternative evidence |
-| **2. Select items** | Choose specific balances or transactions to confirm | Use statistical or judgmental sampling; focus on large, unusual, or high-risk items |
-| **3. Design the confirmation** | Choose positive/negative, blank/formatted, and draft the request | Tailor the request to the information needed; include clear instructions |
-| **4. Obtain management approval** | Request management's agreement to send confirmations | Required by standards; management's refusal triggers special procedures (see below) |
-| **5. Maintain control** | Mail or transmit confirmations directly to the third party | Never allow the client to handle the confirmation mailing or transmission |
-| **6. Track responses** | Monitor which confirmations have been returned and which are outstanding | Send second (and sometimes third) requests for non-responses |
-| **7. Evaluate responses** | Analyze confirmed amounts, exceptions, and non-responses | Investigate all differences; perform alternative procedures for non-responses |
-| **8. Document results** | Record the confirmation process, results, and conclusions in the workpapers | Include the selection methodology, response rate, exceptions investigated, and audit conclusions |
+1. **Ask why**, and seek evidence about whether the reason is valid and reasonable (for example, an ongoing legal dispute with the customer)
+2. **Evaluate the implications** for the assessed risk of material misstatement, including the risk of **fraud**, and for the other procedures planned
+3. **Perform alternative procedures** to obtain relevant and reliable evidence
+
+If the refusal is **unreasonable**, or alternative procedures cannot provide sufficient evidence, the auditor communicates the matter to those charged with governance and considers the effect on the audit and the opinion. Usually that means a **scope limitation**, which leads to a qualified opinion or a disclaimer.
+
+**Example:** Grizzly Inc.'s management refuses to let the auditor confirm balances with its five largest customers, saying the customers would take their business elsewhere if they received audit confirmations. The auditor finds the explanation unreasonable, because confirmations are routine business practice, and tells the audit committee. Alternative procedures (subsequent cash receipts, shipping documents, contracts) do not provide enough evidence for these material balances, so the auditor issues a qualified opinion because of the scope limitation.
 
 ---
 
-## Management's Refusal to Allow Confirmations
+## Evaluating Responses
 
-If management **refuses to allow** the auditor to send confirmations, the auditor must:
+### Is the Response Reliable?
 
-1. **Inquire about the reasons**: Understand why management is refusing (e.g., ongoing dispute with the customer, pending litigation, business relationship concerns)
-2. **Evaluate the reasonableness**: Assess whether management's reasons are legitimate and reasonable under the circumstances
-3. **Consider the implications**: A refusal may indicate a **fraud risk factor** or a scope limitation
-4. **Perform alternative procedures**: If the refusal is reasonable, perform other substantive procedures to obtain sufficient appropriate evidence (e.g., examine subsequent cash receipts, review shipping documents, inspect contracts)
-5. **Assess the impact on the audit opinion**: If the auditor cannot obtain sufficient evidence through alternative procedures, the refusal constitutes a **scope limitation** that may require a qualified opinion or disclaimer of opinion
-
-:::warning
-
-Management's refusal to allow confirmations is a **significant event** that must be carefully evaluated. Under PCAOB standards, if management's refusal is not reasonable, the auditor should consider this a **scope limitation** and evaluate the implications for the audit report. The auditor should also consider whether the refusal indicates a risk of material misstatement due to **fraud**. This is a high-frequency CPA exam topic.
-
-:::
-
-:::info[Example]
-
-The auditor of **Grizzly Industries** requests permission to send receivable confirmations to the company's five largest customers. Management refuses, stating that these customers have threatened to take their business elsewhere if they receive audit confirmations. The auditor evaluates this explanation, determines it is **not reasonable** (audit confirmations are standard business practice), and communicates the matter to those charged with governance. The auditor performs alternative procedures (examining subsequent cash receipts, reviewing shipping documents, and inspecting contracts) but ultimately concludes that the inability to confirm these material balances represents a **scope limitation** that results in a qualified opinion.
-
-:::
-
----
-
-## Analyzing Confirmation Responses
-
-### Confirmed Without Exception
-
-When the third party confirms the balance **without exception**, the auditor has strong evidence supporting the recorded amount. However, the auditor should still consider:
-
-- Whether the response appears **authentic** (e.g., on the respondent's letterhead, from the expected contact)
-- Whether the response was returned to the **auditor directly** (not through the client)
-- Whether the confirmed amount is **mathematically consistent** with the entity's records
+Before relying on a response, the auditor considers whether it really came from the confirming party and reached the auditor directly. A response from an unexpected email address, a reply routed through the client, or signs of alteration call for follow-up, such as contacting the confirming party directly. An **oral** response is not an external confirmation. Restrictive language or a disclaimer in a response may also limit how much the auditor can rely on it.
 
 ### Exceptions
 
-An exception occurs when the third party's response **differs from the amount recorded** in the entity's books. Not all exceptions indicate misstatements.
+An **exception** is a response that differs from the entity's records. Not every exception is a misstatement.
 
 | Type of Exception | Common Cause | Auditor's Response |
 |---|---|---|
-| **Timing difference** | Payment in transit; goods shipped but not yet received | Verify the timing of the transaction; determine if the cutoff is correct |
-| **Disputed amount** | Customer disputes an invoice or claims a credit not yet recorded | Examine the nature of the dispute; determine if the entity's recorded balance is correct |
-| **Actual misstatement** | The entity recorded an incorrect amount or a fictitious transaction | Propose an audit adjustment; evaluate the nature and cause of the misstatement |
-| **Respondent error** | The third party made a mistake in its response | Investigate and resolve with the respondent; confirm the correct amount |
+| **Timing difference** | Payment or goods in transit at year-end | Verify the timing; check that cutoff is correct |
+| **Dispute** | Customer disputes an invoice or claims an unrecorded credit | Investigate whether the recorded balance is correct |
+| **Misstatement** | Wrong amount recorded, or a fictitious transaction | Propose an adjustment; consider the cause, including fraud |
+| **Respondent error** | The confirming party made a mistake | Resolve with the respondent |
 
-:::info[Example]
+**Example:** Bear Co.'s auditor sends positive confirmations to 30 customers. Twenty-five agree without exception. Three report payments mailed before year-end that arrived in January, which the auditor verifies in the January cash receipts records. One customer disputes a \$12,000 invoice for goods it returned as defective in November; receiving records show the return arrived but was never recorded, so the auditor proposes a \$12,000 reduction of receivables. The last customer confirms a \$45,000 balance as zero, and investigation shows that a sales manager recorded a fictitious sale. That finding triggers expanded fraud procedures.
 
-**Bear Co.**'s auditor sends positive confirmations to 30 customers. Twenty-five respond without exception. Three responses identify timing differences (payments mailed before year-end but not received until January), which the auditor verifies by examining the subsequent cash receipts log. One response identifies a \$12,000 disputed invoice that the customer claims was for defective merchandise returned in November. The auditor examines shipping records and confirms the return was received but not yet recorded by Bear Co. The auditor proposes an adjustment to reduce accounts receivable by \$12,000. The fifth exception reveals a \$45,000 balance confirmed by the customer at \$0, and investigation reveals the sales manager recorded a fictitious sale. This finding triggers expanded fraud procedures.
+### Nonresponses
 
-:::
+When a positive confirmation is not returned, the auditor sends a second request and may contact the respondent. If there is still no response, the auditor performs **alternative procedures**. For receivables, these include:
 
-### Non-Responses
+- Examining **subsequent cash receipts** (the strongest alternative: payment after year-end shows the receivable existed)
+- Examining **shipping documents**, invoices, and customer orders
+- Reviewing **correspondence** with the customer
 
-When a positive confirmation is not returned, the auditor cannot conclude that the balance is correct. The auditor must:
-
-1. **Send follow-up requests**: Typically a second and sometimes a third request
-2. **Attempt direct contact**: Call or email the respondent to encourage a response
-3. **Perform alternative procedures**: If no response is received after reasonable efforts, perform alternative procedures to obtain evidence about the balance
-
-**Alternative procedures for receivable non-responses include:**
-
-- Examining **subsequent cash receipts**: If the customer paid the balance after year-end, this provides evidence of existence and valuation
-- Reviewing **shipping documents**: Confirms that goods were shipped to the customer
-- Inspecting **sales contracts or purchase orders**: Provides evidence that the transaction was authorized
-- Examining **customer correspondence**: Emails, order confirmations, or complaint records that corroborate the relationship and balance
-
-:::tip
-
-On the CPA exam, the most commonly tested alternative procedure for accounts receivable non-responses is **examining subsequent cash receipts**. If a customer pays the outstanding balance in January, this provides strong evidence that the receivable existed at December 31 and was collectible.
-
-:::
+One exception matters. If the auditor has decided that a response to a positive confirmation is **necessary** to obtain sufficient evidence (for example, to confirm the terms of a large, unusual sale), alternative procedures will not provide that evidence. Without the response, the auditor must consider the effect on the audit and the opinion.
 
 ### Incomplete Responses
 
-Sometimes a third party responds but provides **incomplete information**, for example, confirming some items on the confirmation but not others, or providing a partial balance.
-
-The auditor should:
-
-- Follow up with the respondent to obtain the **missing information**
-- Perform **alternative procedures** for the unconfirmed portion
-- Evaluate whether the incomplete response provides **any useful evidence** for the confirmed portion
+A response that confirms only part of the information, such as some invoices but not others, is followed up with the respondent, and alternative procedures are performed for the unconfirmed portion.
 
 ---
 
-## Electronic vs. Paper Confirmations: Reliability Considerations
+## AICPA and PCAOB Requirements Compared
 
-| Factor | Electronic | Paper |
+| Topic | PCAOB (AS 2310, issuers) | AICPA (AU-C 505 and AU-C 330, nonissuers) |
 |---|---|---|
-| **Speed of response** | Days | Weeks |
-| **Risk of interception** | Lower (encrypted, direct to service) | Higher (physical mail can be intercepted) |
-| **Risk of alteration** | Lower (digital audit trail) | Higher (responses can be physically altered) |
-| **Authentication** | Stronger (verified respondent credentials on platform) | Weaker (signatures can be forged) |
-| **Audit trail** | Complete digital log | Manual tracking required |
-| **Cost** | Moderate (service fees) | Lower (postage only) but higher in labor |
-| **Acceptance** | Widely accepted for banks and large vendors | Still used for smaller entities or entities not on electronic platforms |
-
-:::note
-
-When using electronic confirmations, the auditor should evaluate the **confirmation service provider's controls**, including data security, access controls, and the process for authenticating respondents. The auditor's assessment of the electronic platform's reliability is analogous to evaluating ITGCs over any data-generating system.
-
-:::
-
----
-
-## PCAOB vs. AICPA Requirements
-
-While both the PCAOB and AICPA require auditors to consider external confirmations, there are important differences in emphasis and application.
-
-| Requirement | PCAOB (Public Company Audits) | AICPA (Non-Public Company Audits) |
-|---|---|---|
-| **Receivable confirmations** | **Presumptively mandatory**: AS 2310 presumes the auditor will confirm receivables unless specific conditions are met (receivables are immaterial, confirmations would be ineffective, or the auditor's assessed risk is low and other procedures provide sufficient evidence) | Recommended but not presumptively required; AU-C 505 requires the auditor to consider confirmations but does not create a presumption |
-| **Bank confirmations** | Standard practice; typically confirmed for all bank accounts | Standard practice; AICPA standard bank confirmation form is widely used |
-| **Management's refusal** | Must evaluate reasonableness; unreasonable refusal is a **scope limitation** and potential fraud indicator | Similar requirements; must evaluate and consider implications |
-| **Electronic confirmations** | PCAOB has encouraged use of electronic confirmations for improved reliability | AICPA permits; no specific preference stated |
-| **Documentation** | Extensive documentation of the confirmation process, results, and conclusions required | Documentation requirements are similar but may be less prescriptive |
-
-:::caution
-
-For the CPA exam, remember that PCAOB standards create a **presumption** that the auditor will confirm accounts receivable. This means the auditor must perform receivable confirmations **unless** the auditor documents why one of the specific exceptions applies. AICPA standards, while encouraging confirmations, do not create this same presumption for non-public company audits.
-
-:::
-
----
-
-## Confirmation Best Practices
-
-The following practices help ensure that the confirmation process produces reliable audit evidence:
-
-1. **Maintain control at all times**: The auditor, not the client, should control the sending and receiving of confirmations
-2. **Verify recipient addresses independently**: Do not rely solely on management-provided contact information
-3. **Customize confirmation requests**: Tailor the information requested to the specific audit objectives
-4. **Consider the respondent's ability and willingness**: Some third parties may not have the information requested or may not respond to audit confirmations
-5. **Evaluate the form of response**: Faxed or emailed responses may be less reliable than responses received through a secure electronic platform or original signed letters
-6. **Follow up promptly**: Send second requests within two to three weeks of the first mailing
-7. **Document everything**: Record the selection methodology, mailing dates, response tracking, exception investigation, alternative procedures, and conclusions
-
-:::info[Example]
-
-While auditing **Kodiak Partners**, the engagement team sends 40 positive formatted receivable confirmations and 15 bank confirmations. After three weeks, eight receivable confirmations remain outstanding. The team sends second requests and directly contacts three of the largest non-responding customers by phone. Ultimately, five customers respond to the second request, and alternative procedures (examination of subsequent cash receipts and shipping documents) are performed for the remaining three. All 15 bank confirmations are returned without exception. The team documents the entire process, including the response rate (92.5%), exceptions investigated, alternative procedures performed, and the conclusion that sufficient appropriate evidence was obtained.
-
-:::
+| **Accounts receivable** | Confirm or use direct access; if neither is feasible, other substantive procedures that obtain external evidence indirectly | Presumed to be confirmed unless immaterial, ineffective, or low risk with other procedures addressing it |
+| **Cash held by third parties** | Confirm or use direct access | No explicit requirement (SAS 150 adds one, effective 2028) |
+| **Negative confirmations** | Only together with other substantive procedures | May be the sole procedure if all four conditions are met |
+| **Direct access to an external source** | Recognized as an alternative to confirmation | Recognized by SAS 150, effective 2028 |
+| **Control of the process** | Auditor controls selection, sending, and receipt | Auditor maintains control |
+| **Management refusal** | Evaluate reasons; consider fraud risk and scope limitation | Same |
 
 ---
 
@@ -297,13 +165,12 @@ While auditing **Kodiak Partners**, the engagement team sends 40 positive format
 
 | Topic | Key Takeaway |
 |---|---|
-| **Purpose** | Obtain audit evidence directly from independent third parties to confirm account balances and transactions |
-| **Positive vs. negative** | Positive confirmations require a response in all cases; negative confirmations request a response only if the recipient disagrees |
-| **Blank vs. formatted** | Blank confirmations are more reliable (respondent provides the balance); formatted confirmations have higher response rates |
-| **Common accounts** | Cash, receivables, payables, loans, investments, insurance, and legal matters |
-| **Electronic confirmations** | Faster, more secure, and increasingly the standard, but the auditor must evaluate the platform's reliability |
-| **Management's refusal** | Must be evaluated for reasonableness; unreasonable refusal is a scope limitation and potential fraud indicator |
-| **Exceptions** | Investigate every difference: timing differences, disputes, actual misstatements, or respondent errors |
-| **Non-responses** | Send follow-up requests; if no response, perform alternative procedures (e.g., examine subsequent cash receipts) |
-| **PCAOB vs. AICPA** | PCAOB presumes receivable confirmation; AICPA recommends but does not presume |
-| **Control** | The auditor must maintain control over the entire confirmation process from start to finish |
+| **Definition** | A direct written response to the auditor from a third party |
+| **AICPA receivables presumption** | Confirm unless immaterial, ineffective, or low risk with other procedures; document the reason |
+| **PCAOB AS 2310** | Confirm (or directly access) cash held by third parties and receivables; negative confirmations never alone |
+| **Positive vs. negative** | Positive requires a response; negative only on disagreement and is weaker |
+| **Blank vs. formatted** | Blank is more reliable; formatted gets more responses |
+| **Control** | The auditor controls selection, sending, and receipt; responses come directly to the auditor |
+| **Management refusal** | Evaluate reasonableness and fraud risk; alternative procedures; possible scope limitation |
+| **Nonresponses** | Follow up, then alternative procedures (subsequent cash receipts), unless a response is necessary |
+| **SAS 150** | Issued July 2026; effective 2028; not tested before 2029 |

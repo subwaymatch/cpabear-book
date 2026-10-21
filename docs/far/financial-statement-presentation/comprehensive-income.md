@@ -1,115 +1,61 @@
 # Statement of Comprehensive Income
 
-**Comprehensive income** is the change in equity during a period from all _nonowner sources_. It is broader than net income because it also captures items that bypass the income statement and go directly to equity.
+Net income does not capture every change in a company's equity from nonowner sources. A few kinds of gains and losses, mostly unrealized changes in the value of certain assets and liabilities, are kept out of net income so that it is not whipsawed by remeasurements that may reverse before they are ever realized. Those items are **other comprehensive income (OCI)**, and **comprehensive income** is the total of the two:
 
 $$
-\text{Comprehensive Income} = \text{Net Income} + \text{Other Comprehensive Income (OCI)}
+\text{Comprehensive income} = \text{Net income} + \text{Other comprehensive income (OCI)}
 $$
 
-:::info[Key Concept]
-
-Comprehensive income gives the **complete picture** of an entity's performance. Net income reports the results on the income statement. Other comprehensive income (OCI) captures certain gains and losses that U.S. generally accepted accounting principles (GAAP) keep out of net income.
-
-:::
+The FAR blueprint asks you to know the purpose and structure of the statement of comprehensive income and to identify which items belong in OCI. This chapter covers the OCI items, how they accumulate in equity, the two presentation formats, and the reclassification adjustments that move items into net income when they are realized.
 
 ---
 
-## Other Comprehensive Income (OCI)
+## What Goes in OCI
 
-OCI includes gains and losses that are recognized in equity but **excluded from net income**. These items are generally unrealized, so they are "parked" in equity until they are realized or reclassified.
+OCI includes gains and losses that U.S. generally accepted accounting principles (GAAP) recognize in equity but **exclude from net income**. Most are unrealized, so they are held in equity until they are realized or reclassified. The list is short and specific: if an item is not on it, it goes through net income.
 
-### The PUFI Mnemonic
-
-:::tip[Exam Tip: PUFI]
-
-Use **PUFI** to remember the four categories of OCI:
+:::tip[Remember PUFI]
 
 | Letter | Component |
 |--------|-----------|
-| **P** | **P**ension adjustments (prior service cost and net actuarial gains and losses) |
+| **P** | **P**ension and other postretirement benefit adjustments (prior service cost and net actuarial gains and losses not yet recognized in expense) |
 | **U** | **U**nrealized gains and losses on available-for-sale (AFS) debt securities, plus gains and losses on cash flow hedges |
 | **F** | **F**oreign currency translation adjustments |
 | **I** | **I**nstrument-specific credit risk (the part of the change in fair value of a liability measured under the fair value option that is caused by the entity's own credit risk) |
 
 :::
 
-### Detailed Breakdown
+**Pension adjustments.** When an employer sponsors a defined benefit plan, two kinds of change are recognized first in OCI rather than in pension expense: **prior service cost**, from plan amendments that grant credit for past service, and **net actuarial gains and losses**, from changes in assumptions and from differences between actual and expected returns on plan assets. Both are later amortized from accumulated OCI into pension expense.
 
-#### P: Pension Adjustments
+**AFS debt securities and cash flow hedges.** AFS debt securities are reported at fair value, and their unrealized gains and losses go to OCI. The exception is credit losses, which go to net income through an allowance (see the investments chapter). For a **cash flow hedge**, the change in the hedging instrument's fair value that is included in the assessment of hedge effectiveness is recorded in OCI and reclassified to earnings when the hedged transaction affects earnings. Since ASU 2017-12, the older idea of separating an "effective portion" no longer applies.
 
-When an employer sponsors a defined benefit pension plan, certain changes are recognized first in OCI rather than in pension expense:
+**Foreign currency translation adjustments.** When a foreign subsidiary's statements are **translated** from its functional currency into the parent's reporting currency, the resulting translation adjustment goes to OCI. Do not confuse translation with **remeasurement**, which is used when the subsidiary's functional currency is the parent's currency, or with foreign currency **transaction** gains and losses on receivables and payables. Both of those go to net income.
 
-- **Prior service cost**: arises from plan amendments that grant credit for past service. It is amortized from accumulated OCI to pension expense over the employees' future service periods.
-- **Net actuarial gains and losses**: arise from changes in actuarial assumptions and from differences between the actual and expected return on plan assets. They are amortized using the corridor approach.
+**Instrument-specific credit risk.** When an entity elects the **fair value option** for a financial liability, the part of the change in fair value caused by a change in its own credit risk is reported in OCI rather than net income (ASC 825).
 
-For example, a plan amendment that creates \$45,000 of prior service cost increases the projected benefit obligation and is recorded in OCI:
+Just as important is what is **not** in OCI. Equity securities with readily determinable fair values are measured at fair value through **net income** under ASC 321, so their fair value changes never touch OCI. Unrealized gains and losses on trading debt securities also go to net income.
 
-```journal
-Dr. OCI (prior service cost)            45,000
-    Cr. Projected benefit obligation        45,000
-```
+### Recording an OCI Item
 
-#### U: Unrealized Gains and Losses on AFS Debt Securities and Hedges
-
-**AFS debt securities** are reported at fair value. Unrealized gains and losses are recorded in OCI, not net income. The exception is credit losses, which are recognized in net income through an allowance.
-
-**Example: Bear Co. holds AFS debt securities**
-
-- Amortized cost: \$200,000
-- Fair value at year-end: \$215,000
-
-The \$15,000 increase is an unrealized gain recorded in OCI:
+Bear Co. holds AFS debt securities with an amortized cost of \$200,000 and a year-end fair value of \$215,000. The \$15,000 increase is an unrealized gain recorded in OCI:
 
 ```journal
-Dr. Fair value adjustment (AFS)              15,000
+Dr. Fair value adjustment (AFS)[a]           15,000
     Cr. OCI (unrealized gain on AFS securities)   15,000
 ```
 
-For **cash flow hedges**, the change in the hedging instrument's fair value that is included in the assessment of hedge effectiveness is recorded in OCI. It is reclassified to earnings when the hedged transaction affects earnings. Accounting Standards Update (ASU) 2017-12 eliminated the separate measurement of hedge ineffectiveness, so the older term "effective portion" no longer applies.
-
-:::note
-
-**Equity securities** with readily determinable fair values are measured at fair value through **net income** under Accounting Standards Codification (ASC) 321. Their fair value changes do NOT go through OCI.
-
-:::
-
-#### F: Foreign Currency Translation Adjustments
-
-When a foreign subsidiary's financial statements are **translated** from its functional currency into the reporting currency (using the current rate method), the resulting translation adjustment is reported in OCI.
-
-$$
-\text{Translation Adjustment} = \text{Net Assets} \times (\text{Current Rate} - \text{Historical Rates Used})
-$$
-
-For example, if translating a wholly owned subsidiary's statements produces a \$32,000 translation gain, the parent (applying the equity method on its own books) records:
+OCI items have tax effects, just like items in net income. At a 25% rate, Bear also records deferred tax of \$3,750 (\$15,000 × 25%) against OCI, so the gain adds \$11,250 to equity net of tax:
 
 ```journal
-Dr. Investment in subsidiary                          32,000
-    Cr. OCI (cumulative translation adjustment)           32,000
+Dr. OCI (tax effect)               3,750
+    Cr. Deferred tax liability[l]      3,750
 ```
 
-:::warning
+---
 
-Do not confuse **translation** (OCI) with **remeasurement** (net income). Translation uses the current rate method when the subsidiary's functional currency is its local currency. Remeasurement uses the temporal method when the subsidiary's functional currency is the parent's currency.
+## Accumulated Other Comprehensive Income
 
-:::
-
-#### I: Instrument-Specific Credit Risk
-
-When an entity elects the **fair value option** for a financial liability, the part of the change in fair value caused by a change in its own (instrument-specific) credit risk is reported in OCI rather than net income (ASC 825).
-
-## Accumulated Other Comprehensive Income (AOCI)
-
-**AOCI** is the cumulative balance of all OCI items. It is reported as a separate component of **stockholders' equity** on the balance sheet.
-
-```mermaid
-flowchart TD
-    A[OCI - Current Period] -->|Accumulates in| B[AOCI on Balance Sheet]
-    B -->|Component of| C[Stockholders' Equity]
-    B -->|Reclassified to| D[Net Income when realized]
-```
-
-**Example: Polar Co. AOCI rollforward**
+Each period's OCI flows into **accumulated other comprehensive income (AOCI)**, a separate component of stockholders' equity, in the same way that net income flows into retained earnings. AOCI decreases when items are reclassified into net income. Companies track AOCI by component, and the notes show a rollforward like this one for Polar Co.:
 
 | Component | Beginning AOCI | Current OCI | Reclassification | Ending AOCI |
 |---|---:|---:|---:|---:|
@@ -120,13 +66,11 @@ flowchart TD
 
 ---
 
-## Presentation Approaches
+## Presenting Comprehensive Income
 
-GAAP allows **two options** for presenting comprehensive income. Under either option, OCI must appear in a statement of comprehensive income.
+GAAP allows two formats. Under either one, OCI must appear in a **statement of comprehensive income**; it may not be presented only in the statement of changes in stockholders' equity. (An entity with no OCI items does not need to report comprehensive income, and not-for-profit entities are not required to report it.)
 
-### Option 1: Single Continuous Statement
-
-Net income and OCI appear together in one statement.
+**A single continuous statement** shows net income and OCI together:
 
 | Cub Entertainment | Year Ended Dec. 31 |
 |---|---:|
@@ -134,159 +78,60 @@ Net income and OCI appear together in one statement.
 | Expenses | (650,000) |
 | **Net income** | **\$250,000** |
 | **Other comprehensive income:** | |
-| &emsp;Unrealized gain on AFS debt securities (net of \$5,000 tax) | 15,000 |
+| &emsp;Unrealized gain on AFS debt securities (net of \$6,000 tax) | 18,000 |
 | &emsp;Foreign currency translation loss (net of \$3,000 tax benefit) | (9,000) |
 | &emsp;Pension adjustment (net of \$2,000 tax benefit) | (6,000) |
-| **Total other comprehensive income** | **\$0** |
-| **Comprehensive income** | **\$250,000** |
+| **Total other comprehensive income** | **3,000** |
+| **Comprehensive income** | **\$253,000** |
 
-### Option 2: Two Separate but Consecutive Statements
+**Two separate but consecutive statements** consist of a traditional income statement that ends with net income, followed immediately by a statement of comprehensive income that begins with net income and adds the OCI items. For Cub, the second statement would start at net income of \$250,000 and end at the same \$253,000.
 
-1. A traditional **income statement** that ends with net income
-2. A separate **statement of comprehensive income** that immediately follows it, begins with net income, and adds the OCI items
-
-For Cub Entertainment, the separate statement looks like this:
-
-| Statement of Comprehensive Income | Amount |
-|---|---:|
-| **Net income** | **\$250,000** |
-| **Other comprehensive income:** | |
-| &emsp;Unrealized gain on AFS debt securities (net of tax) | 15,000 |
-| &emsp;Foreign currency translation loss (net of tax) | (9,000) |
-| &emsp;Pension adjustment (net of tax) | (6,000) |
-| **Total other comprehensive income** | **\$0** |
-| **Comprehensive income** | **\$250,000** |
-
-:::warning
-
-OCI items may **not** be presented only in the statement of changes in stockholders' equity. They must appear in either a single continuous statement or a separate statement of comprehensive income.
-
-:::
-
----
-
-## Tax Reporting Options
-
-Each OCI component can be presented in one of two ways. Under either approach, the tax effect of each component must be shown on the face of the statement or disclosed in the notes.
-
-| Approach | Description |
-|---|---|
-| **Net of tax** | Each OCI item is shown after deducting its own tax effect |
-| **Before tax with aggregate tax** | All OCI items are shown at pretax amounts, with a single total tax line |
-
-**Net-of-tax example:**
-
-- Unrealized gain on AFS debt securities: \$20,000 pretax, 25% tax rate
-- Reported as \$20,000 - \$5,000 = **\$15,000 net of tax**
-
-**Before-tax with aggregate tax example:**
+Either way, each OCI component can be shown **net of tax**, as above, or **before tax**, with a single line for the aggregate tax effect. The tax effect of each component must be shown on the face of the statement or disclosed in the notes. Cub's OCI presented before tax looks like this:
 
 | Item | Amount |
 |---|---:|
-| Unrealized gain on AFS securities | \$20,000 |
-| Translation loss | (12,000) |
+| Unrealized gain on AFS debt securities | \$24,000 |
+| Foreign currency translation loss | (12,000) |
 | Pension adjustment | (8,000) |
-| Total OCI before tax | \$0 |
-| Tax effect | 0 |
-| **Total OCI net of tax** | **\$0** |
+| Total OCI before tax | 4,000 |
+| Income tax effect | (1,000) |
+| **Total OCI, net of tax** | **\$3,000** |
+
+When a company has a noncontrolling interest, comprehensive income is also split between the amount attributable to the parent and the amount attributable to the noncontrolling interest.
 
 ---
 
 ## Reclassification Adjustments
 
-When an OCI item is **realized**, it is **reclassified** out of AOCI and recognized in net income. The reclassification prevents double counting.
+When an OCI item is **realized**, for example when AFS securities are sold, the gain or loss is recognized in net income. Because the same gain was already included in OCI when it arose, a **reclassification adjustment** removes it from OCI in the same period. Without it, the gain would be counted twice in comprehensive income.
 
-### Example: Kodiak Partners Sells AFS Debt Securities
-
-Kodiak Partners holds AFS debt securities with an amortized cost of \$100,000. It previously recorded a \$10,000 unrealized gain in OCI, so the securities are carried at \$110,000 (cost plus a \$10,000 fair value adjustment). In the current year, it sells them for \$110,000, a realized gain of \$10,000.
-
-**Step 1: Record the sale and the realized gain (net income)**
+Kodiak Partners holds AFS debt securities with an amortized cost of \$100,000. It previously recorded a \$10,000 unrealized gain in OCI, so the securities are carried at \$110,000. In the current year, it sells them for \$110,000. The sale produces a realized gain of \$10,000 in net income:
 
 ```journal
-Dr. Cash                                  110,000
-    Cr. AFS debt securities                   100,000
+Dr. Cash[a]                               110,000
+    Cr. AFS debt securities[a]                100,000
     Cr. Realized gain on sale of securities    10,000
 ```
 
-**Step 2: Reclassify the gain out of AOCI and remove the fair value adjustment**
+The reclassification adjustment removes the gain from OCI and eliminates the fair value adjustment:
 
 ```journal
 Dr. OCI (reclassification adjustment)     10,000
-    Cr. Fair value adjustment (AFS)           10,000
+    Cr. Fair value adjustment (AFS)[a]        10,000
 ```
 
-:::info
-
-Without the reclassification, the \$10,000 gain would be counted twice in comprehensive income: once in OCI when it arose and again in net income when it was realized. The \$10,000 reclassification adjustment reduces OCI by the amount now in net income, and AOCI for these securities returns to zero.
-
-:::
-
----
-
-## Journal Entry Summary
-
-### Recording OCI Items
-
-An unrealized gain on AFS debt securities:
-
-```journal
-Dr. Fair value adjustment (AFS)              15,000
-    Cr. OCI (unrealized gain on AFS securities)   15,000
-```
-
-### Tax Effect on OCI
-
-The deferred tax on that gain at a 25% rate (\$15,000 × 25%):
-
-```journal
-Dr. OCI (tax effect)               3,750
-    Cr. Deferred tax liability         3,750
-```
-
-### Reclassification Adjustment
-
-When the securities are sold, the realized gain is recorded in net income with the sale entry (as in the Kodiak Partners example), and the reclassification adjustment removes the gain from AOCI:
-
-```journal
-Dr. OCI (reclassification adjustment)    15,000
-    Cr. Fair value adjustment (AFS)          15,000
-```
-
----
-
-## Comprehensive Income vs. Net Income
+For the year, net income includes the \$10,000 gain and OCI includes a \$10,000 reduction, so comprehensive income is unaffected by the sale: the gain was already in comprehensive income in the year the value rose. AOCI for these securities returns to zero. Companies disclose the amounts reclassified out of AOCI, by component and by the income statement line affected, either on the face of the statement or in the notes.
 
 | Feature                      | Net Income | Comprehensive Income                 |
 | ---------------------------- | ---------- | ------------------------------------ |
 | Includes operating results   | Yes        | Yes                                  |
 | Includes OCI items           | No         | Yes                                  |
-| Reported on income statement | Yes        | Yes (combined or separate statement) |
-| Affects retained earnings    | Yes        | Only the net income portion          |
-| Affects AOCI                 | No         | OCI portion goes to AOCI             |
+| Closed to                    | Retained earnings | Net income portion to retained earnings; OCI portion to AOCI |
+| Realized OCI items           | Included when realized | Reclassified out of OCI, so not counted twice |
 
----
+:::warning[Common exam traps]
 
-## Summary
-
-```mermaid
-flowchart TD
-    A[Comprehensive Income] --> B[Net Income]
-    A --> C[Other Comprehensive Income - PUFI]
-    C --> D[Pension Adjustments]
-    C --> E[Unrealized G/L on AFS & Hedges]
-    C --> F[Foreign Currency Translation]
-    C --> G[Instrument-Specific Credit Risk]
-    C -->|Accumulates in| H[AOCI - Equity Section]
-    H -->|Reclassified when realized| B
-```
-
-:::danger[Common Exam Pitfalls]
-
-1. Including fair value changes on **equity securities** in OCI. Those go through **net income**.
-2. Forgetting to **reclassify** OCI items when they are realized, which double counts them.
-3. Confusing foreign currency **translation** adjustments (OCI) with **transaction** gains and losses (net income).
-4. Reporting OCI only in the equity statement. A statement of comprehensive income is **required**.
-5. Forgetting the **I** in PUFI. Instrument-specific credit risk is a newer addition (ASU 2016-01).
+Fair value changes on **equity securities** go to net income, not OCI. Foreign currency **transaction** gains and losses go to net income; only **translation** adjustments go to OCI. And presenting OCI only in the statement of changes in equity is not allowed.
 
 :::
 
@@ -314,5 +159,7 @@ Grizzly Inc. reports the following for the year ended December 31:
 | Translation gain | \$35,000 | None | \$35,000 |
 | Prior service cost | (\$50,000) | \$12,500 | (\$37,500) |
 | **Comprehensive income** | | | **\$382,500** |
+
+Other comprehensive income is a net loss of \$17,500, so comprehensive income is lower than net income.
 
 </details>

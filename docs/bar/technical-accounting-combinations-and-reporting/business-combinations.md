@@ -1,592 +1,328 @@
 # Business Combinations
 
-The FAR section introduces the acquisition method and the mechanics of consolidation elimination entries. The BAR section goes deeper: it asks you to **distinguish** a business combination from an asset acquisition, **calculate** the total consideration transferred (including contingent consideration and equity instruments), **prepare journal entries** for acquisitions that produce goodwill or a bargain purchase gain, **account for noncontrolling interests** under two measurement approaches, and **apply measurement period adjustments**. In short, BAR expects you to work through the full acquisition from start to finish with analytical precision.
-:::info[Blueprint Coverage]
-This topic maps to **Area II, Group F** of the 2026 CPA Exam Blueprints for **Business Analysis and Reporting (BAR)**. The blueprint expects candidates to:
-
-- **Recall** concepts associated with the accounting for business combinations (e.g., business vs. asset acquisition, contingent consideration, measurement period adjustments).
-- **Prepare** journal entries to record the identifiable net assets acquired in a business combination that results in the recognition of **goodwill** or a **bargain purchase gain**.
-- **Prepare** journal entries to record the identifiable net assets acquired in a business combination that includes a **noncontrolling interest**.
-- **Calculate** the consideration transferred in a business combination.
-  :::
+When one company buys another, the buyer's balance sheet suddenly has to show assets and liabilities it never recorded before, plus whatever premium it paid for the business as a whole. **ASC 805** governs how that happens: every business combination uses the **acquisition method**, under which the acquirer records what it bought at fair value on the date it obtains control. The 2027 BAR blueprint (Area II, Group F) asks you to recall the key concepts (business versus asset acquisition, contingent consideration, measurement period adjustments), calculate the consideration transferred, and prepare the acquisition entry when the deal produces goodwill, a bargain purchase gain, or a noncontrolling interest. This chapter follows a deal from the threshold question (is it a business at all?) through the acquisition-date entry and the adjustments that come after.
 
 ---
 
-## ASC 805 Overview
+## The Acquisition Method
 
-**ASC 805 (Business Combinations)** establishes a single model for accounting for all business combinations: the **acquisition method**. The standard requires the acquirer to measure everything at **fair value** on the acquisition date and to recognize all identifiable assets, liabilities, and any noncontrolling interest, regardless of the percentage acquired.
+The acquisition method has four steps:
 
-```mermaid
-graph LR
-    S1["Step 1<br/>Identify the<br/>Acquirer"] --> S2["Step 2<br/>Determine the<br/>Acquisition Date"]
-    S2 --> S3["Step 3<br/>Recognize & Measure<br/>Identifiable Net Assets"]
-    S3 --> S4["Step 4<br/>Recognize Goodwill<br/>or Bargain Purchase Gain"]
-    style S1 fill:#cfe2f3,stroke:#333
-    style S2 fill:#cfe2f3,stroke:#333
-    style S3 fill:#d9ead3,stroke:#333
-    style S4 fill:#fff2cc,stroke:#333
-```
+1. **Identify the acquirer**, the entity that obtains control.
+2. **Determine the acquisition date**, the date control passes.
+3. **Recognize and measure** the identifiable assets acquired, the liabilities assumed, and any noncontrolling interest, generally at fair value.
+4. **Recognize goodwill** or, rarely, a **bargain purchase gain**.
 
-| Principle                     | Description                                                                                             |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------- |
-| **Single method**             | All business combinations use the acquisition method (pooling-of-interests is prohibited)               |
-| **Fair value measurement**    | Identifiable assets acquired and liabilities assumed are measured at fair value on the acquisition date |
-| **Full goodwill**             | Goodwill reflects the full entity value (consideration + NCI - net assets at FV)                        |
-| **Expense acquisition costs** | Legal, advisory, and due-diligence fees are expensed as incurred, never capitalized as goodwill         |
+Three principles run through all four steps. First, the acquisition method is the only method; pooling of interests is prohibited. Second, everything is measured at the acquisition date, so later changes in value are post-acquisition events. Third, the acquirer's own costs of doing the deal (legal, advisory, valuation, and due diligence fees) are **expensed as incurred**. They are not part of the price paid for the business.
 
 ---
 
-## Business Combination vs. Asset Acquisition
+## Business or Asset Acquisition?
 
-One of the most important threshold questions is whether a transaction is a **business combination** or an **asset acquisition**. The accounting treatment differs significantly.
+ASC 805 applies only when the acquired set of assets and activities is a **business**. If it is not, the transaction is an **asset acquisition**, and the accounting changes in important ways.
 
-### The Screen Test (ASU 2017-01)
-
-ASC 805 includes an optional **concentration test** (sometimes called the "screen test"). If **substantially all** of the fair value of the gross assets acquired is concentrated in a **single identifiable asset or group of similar assets**, the transaction is an **asset acquisition**, not a business combination.
+The analysis starts with an optional **screen test**. If **substantially all** of the fair value of the gross assets acquired is concentrated in a **single identifiable asset or a group of similar identifiable assets** (one building, or a portfolio of similar leases), the set is not a business. If the screen is not met, the set is a business only if it includes, at a minimum, an **input and a substantive process** that together significantly contribute to the ability to create outputs.
 
 ```mermaid
 graph TD
-    A["Apply the<br/>Screen Test"] -->|"Substantially all FV<br/>in one asset or group"| B["Asset Acquisition<br/>(Not ASC 805)"]
-    A -->|"FV not concentrated<br/>in a single asset"| C["Evaluate whether a<br/>'business' was acquired"]
-    C -->|"Inputs + substantive<br/>process lead to outputs"| D["Business Combination<br/>(ASC 805)"]
+    A["Apply the<br/>screen test"] -->|"Substantially all FV<br/>in one asset or group"| B["Asset acquisition<br/>not ASC 805"]
+    A -->|"FV not<br/>concentrated"| C["Evaluate whether a<br/>business was acquired"]
+    C -->|"Input and substantive<br/>process"| D["Business combination<br/>ASC 805"]
     C -->|"No substantive<br/>process"| B
     style B fill:#f4cccc,stroke:#333
     style D fill:#d9ead3,stroke:#333
 ```
 
-### Key Differences
-
-| Feature                      | Business Combination (ASC 805)                       | Asset Acquisition                                     |
-| ---------------------------- | ---------------------------------------------------- | ----------------------------------------------------- |
-| **Goodwill**                 | Recognized if consideration + NCI > FV of net assets | **No goodwill**; excess allocated pro-rata to assets  |
-| **Bargain purchase**         | Gain recognized in earnings                          | **No gain**; discount reduces asset basis pro-rata    |
-| **Acquisition costs**        | Expensed as incurred                                 | **Capitalized** as part of the asset cost             |
-| **Contingent consideration** | Recognized at FV on acquisition date                 | Not recognized until the contingency is resolved      |
-| **Deferred taxes**           | Recognized on fair value adjustments                 | Generally no deferred tax on initial recognition      |
-| **In-process R&D**           | Capitalized as an intangible asset                   | Expensed if no alternative future use                 |
-
-:::warning
-The screen test is **optional**. An entity can skip it and go straight to evaluating whether the acquired set meets the definition of a business (inputs + a substantive process that lead to outputs). However, using the screen test can simplify the analysis significantly.
-:::
+| Feature | Business combination (ASC 805) | Asset acquisition |
+| --- | --- | --- |
+| Excess of cost over fair value of identifiable net assets | Goodwill | No goodwill; total cost is allocated to the assets based on relative fair values |
+| Price below fair value | Bargain purchase gain in earnings | No gain; total cost is allocated based on relative fair values |
+| Transaction costs | Expensed | Capitalized as part of the cost of the assets |
+| Contingent consideration | Recognized at fair value at the acquisition date | Not measured at fair value at acquisition; generally recognized when payment is probable and reasonably estimable |
+| In-process R&D | Capitalized at fair value | Expensed unless it has an alternative future use |
 
 ---
 
-## Acquisition Method: Step by Step
+## Identifying the Acquirer and the Acquisition Date
 
-### Step 1: Identify the Acquirer
+The **acquirer** is the entity that obtains control. When the deal is paid for in cash or other assets, or by taking on liabilities, the entity that pays is usually the acquirer. When the deal is done mainly by exchanging shares, the acquirer is usually the entity that issues them, but not always. The acquirer weighs factors such as which group of former owners holds the larger share of the combined entity's voting rights, which group controls the board and senior management, which entity is significantly larger, and which entity paid a premium. If the entity that issues shares turns out not to be the acquirer, the deal is a **reverse acquisition**: the legal acquiree is the acquirer for accounting purposes.
 
-The acquirer is the entity that **obtains control** of the other entity. In most cases, this is the entity that transfers consideration (cash, stock, or other assets). Factors that help identify the acquirer include:
+**Change for 2027 (ASU 2025-03).** Until now, when the legal acquiree was a variable interest entity (VIE), its primary beneficiary was always treated as the acquirer. Under ASU 2025-03, when the deal is done mainly by exchanging equity interests and the legal acquiree is a VIE that meets the definition of a business, the entity applies the same acquirer factors described above. More of these deals will therefore be accounted for as reverse acquisitions, just as with entities consolidated under the voting interest model. ASU 2025-03 is effective for annual periods beginning after December 15, 2026, and is eligible for testing starting January 1, 2027.
 
-- Which entity **issues equity** (usually the acquirer)
-- Relative **size** of the combining entities (the larger entity is often the acquirer)
-- Which entity's **management** dominates the combined entity
-- Which entity **initiates** the combination
-
-### Step 2: Determine the Acquisition Date
-
-The acquisition date is the date the acquirer **obtains control**, typically the **closing date** of the transaction. This is the measurement date for all fair values.
-
-### Step 3: Recognize and Measure Identifiable Net Assets
-
-On the acquisition date, the acquirer recognizes:
-
-- All **identifiable tangible assets** at fair value
-- All **identifiable intangible assets** that meet the contractual-legal or separability criterion
-- All **liabilities assumed** at fair value
-- Any **noncontrolling interest**
-  Intangible assets must be recognized **separately from goodwill** if they arise from contractual or legal rights, or if they are separable (can be sold, transferred, or licensed independently).
-  | Intangible Asset | Recognition Criterion |
-  |------------------|-----------------------|
-  | Customer relationships | Contractual-legal |
-  | Trade names / trademarks | Contractual-legal |
-  | Technology patents | Contractual-legal |
-  | Non-compete agreements | Contractual-legal |
-  | Customer lists | Separability |
-  | In-process R&D | Either |
-
-### Step 4: Recognize Goodwill or Bargain Purchase Gain
-
-$$
-\text{Goodwill} = \text{Consideration Transferred} + \text{NCI} - \text{Fair Value of Net Identifiable Assets}
-$$
-
-If the result is **positive**, recognize **goodwill**.
-If the result is **negative**, reassess, then recognize a **bargain purchase gain** in earnings.
+The **acquisition date** is the date the acquirer obtains control, usually the closing date. It is the measurement date for every fair value in the entry.
 
 ---
 
-## Calculating the Consideration Transferred
+## Recognizing Identifiable Assets and Liabilities
 
-The consideration transferred is measured at **fair value** on the acquisition date. It can include multiple components:
-| Component | Measurement |
-|-----------|-------------|
-| **Cash** | Face amount |
-| **Equity instruments** (shares issued) | Fair value of shares on the acquisition date |
-| **Other assets transferred** | Fair value on the acquisition date |
-| **Liabilities assumed by acquirer** | Fair value on the acquisition date |
-| **Contingent consideration** | Fair value on the acquisition date |
-:::tip[Exam Tip]
-**Acquisition-related costs** (legal fees, advisory fees, due-diligence costs) are **never** part of the consideration transferred. They are expensed as incurred. The only exception: costs to **issue equity** reduce APIC, and costs to **issue debt** reduce the carrying amount of the debt.
-:::
+On the acquisition date, the acquirer recognizes all identifiable assets acquired and liabilities assumed, generally at fair value, even items the acquiree never recorded. A few items, such as income taxes, employee benefits, and leases, follow their own standards instead of fair value.
 
-### Example: Bear Co. Acquires Bear Co. (Consideration Calculation)
+The most common examples of previously unrecorded assets are intangibles. An intangible asset is recognized **separately from goodwill** if it meets either of two criteria:
 
-Bear Co. acquires 100% of Bear Co. on July 1. The terms of the deal are:
-| Component | Details | Fair Value |
-|-----------|---------|------------|
-| Cash paid at closing | Wire transfer | \$500,000 |
-| Common shares issued | 20,000 shares × \$30 FV per share | \$600,000 |
-| Contingent earn-out | Payable if Bear Co. exceeds revenue targets | \$80,000 |
-| Advisory and legal fees | Paid to investment bank | \$45,000 |
+- **Contractual-legal**: it arises from contractual or other legal rights, such as patents, trademarks, licenses, franchise agreements, customer contracts, and noncompete agreements.
+- **Separability**: it can be separated from the business and sold, transferred, or licensed, such as a customer list.
+
+An **assembled workforce** meets neither criterion and is never recognized separately; its value is part of goodwill. Acquired in-process research and development is recognized at fair value as an indefinite-lived intangible until the project is completed or abandoned.
+
+Private companies may elect an accounting alternative under which they do not recognize customer-related intangibles (unless they can be sold or licensed separately) or noncompete agreements apart from goodwill. A private company that makes this election must also adopt the alternative to amortize goodwill.
+
+---
+
+## Measuring the Consideration Transferred
+
+The **consideration transferred** is the sum of the acquisition-date fair values of what the acquirer gives up:
+
+| Component | Measured at |
+| --- | --- |
+| Cash | Amount paid |
+| Shares issued by the acquirer | Fair value of the shares on the acquisition date |
+| Other assets transferred | Fair value on the acquisition date (any difference from carrying amount is a gain or loss) |
+| Liabilities incurred to the former owners, such as a note to the sellers | Fair value on the acquisition date |
+| Contingent consideration | Fair value on the acquisition date |
+
+Transaction costs are **never** part of the consideration. They are expensed, with one exception: costs to **issue shares** reduce additional paid-in capital, and costs to **issue debt** reduce the carrying amount of the debt.
+
+### Example: Bear Co. Acquires Cub Entertainment
+
+On July 1, Bear Co. acquires 100% of Cub Entertainment. Bear Co. pays \$500,000 in cash, issues 20,000 shares of its \$1 par common stock with a fair value of \$30 per share, and agrees to an earn-out payable if Cub's revenue exceeds a target, with a fair value of \$80,000. Bear Co. also pays its investment bank \$45,000 in advisory fees.
 
 $$
-\text{Consideration Transferred} = \$500{,}000 + \$600{,}000 + \$80{,}000 = \$1{,}180{,}000
+\text{Consideration transferred} = \$500{,}000 + (20{,}000 \times \$30) + \$80{,}000 = \$1{,}180{,}000
 $$
 
-The \$45,000 in advisory fees is **excluded** from consideration and expensed separately:
+The \$45,000 fee is excluded and expensed:
 
 ```journal
 Jul 1
 Dr. Acquisition Expense 45,000
-    Cr. Cash[a] 45,000
+Cr. Cash[a] 45,000
 ```
 
 ---
 
-## Goodwill Recognition
+## Goodwill
 
-Goodwill is the residual: the excess of consideration transferred (plus NCI, if applicable) over the fair value of net identifiable assets acquired. It represents the value of expected synergies, assembled workforce, and other factors not individually identifiable.
-
-$$
-\text{Goodwill} = (\text{Consideration} + \text{NCI at FV}) - \text{FV of Net Identifiable Assets}
-$$
-
-Key attributes of goodwill:
-
-- **Not amortized**: tested for impairment at least annually at the reporting unit level
-- Only recognized in a **business combination**; internally generated goodwill is never capitalized
-- **Cannot be negative**: a negative result triggers the bargain purchase analysis
-
-### Example: Bear Co. Acquires 100% of Bear Co.
-
-Continuing the example above, assume Bear Co.'s identifiable net assets at fair value total \$1,050,000 on July 1.
-| Item | Amount |
-|------|--------|
-| Consideration transferred | \$1,180,000 |
-| NCI | \$0 (100% acquired) |
-| FV of net identifiable assets | \$1,050,000 |
+**Goodwill** is the residual. It is what the acquirer paid for the business as a whole beyond the identifiable net assets, reflecting expected synergies, the assembled workforce, and other benefits that cannot be recognized separately.
 
 $$
-\text{Goodwill} = \$1{,}180{,}000 + \$0 - \$1{,}050{,}000 = \$130{,}000
+\text{Goodwill} = \text{Consideration transferred} + \text{Fair value of NCI} - \text{Fair value of identifiable net assets}
 $$
 
-**Journal entry to record the acquisition:**
+Goodwill arises only in a business combination; internally generated goodwill is never recorded. Public business entities do not amortize goodwill and test it for impairment at least annually at the reporting unit level. Private companies may elect to amortize it over 10 years or less.
+
+Continuing the example, Cub Entertainment's identifiable assets have a fair value of \$1,250,000 and its liabilities \$200,000, so its identifiable net assets are \$1,050,000. With no noncontrolling interest, goodwill is \$1,180,000 - \$1,050,000 = \$130,000. Bear Co.'s shares are recorded at \$20,000 of par value plus \$580,000 of APIC.
 
 ```journal
 Jul 1
 Dr. Identifiable Assets[a] 1,250,000
 Dr. Goodwill[a] 130,000
-    Cr. Liabilities Assumed[l] 200,000
-    Cr. Cash[a] 500,000
-    Cr. Common Stock[e] 20,000
-    Cr. Additional Paid-In Capital[e] 580,000
-    Cr. Contingent Consideration Liability[l] 80,000
+Cr. Liabilities Assumed[l] 200,000
+Cr. Cash[a] 500,000
+Cr. Common Stock[e] 20,000
+Cr. Additional Paid-In Capital[e] 580,000
+Cr. Contingent Consideration Liability[l] 80,000
 ```
 
-The identifiable assets of \$1,250,000 minus the liabilities assumed of \$200,000 equals the net identifiable assets of \$1,050,000. The equity credits reflect the 20,000 shares issued at par (assumed \$1 par) plus the excess to APIC.
+---
 
-## Bargain Purchase Gain
+## Bargain Purchase
 
-A **bargain purchase** occurs when the fair value of the net identifiable assets acquired exceeds the consideration transferred plus any NCI. This can happen in distressed sales, forced liquidations, or when measurement errors exist.
+A **bargain purchase** occurs when the fair value of the identifiable net assets exceeds the consideration transferred plus the fair value of any NCI. It can happen in a forced or distressed sale, but it can also signal a mistake in the valuation. So before recognizing a gain, the acquirer must **reassess** whether it has identified every asset and liability and must review the procedures it used to measure them. If an excess remains after that review, it is recognized as a **gain in earnings** on the acquisition date and attributed to the acquirer.
 
-### Required Reassessment
+### Example: Bear Co. Acquires Sloth Security
 
-Before recognizing a bargain purchase gain, the acquirer **must**:
-
-1. **Reassess** whether all identifiable assets and liabilities have been properly identified
-2. **Review** the procedures used to measure fair values
-3. Confirm the excess still exists after reassessment
-   If a bargain remains, the **gain is recognized in earnings** on the acquisition date.
-
-### Example: Bear Co. Acquires Polar Inc. (Bargain Purchase)
-
-Bear Co. acquires 100% of Polar Inc. for \$400,000 cash. After a thorough analysis, the identifiable net assets at fair value total \$460,000.
-| Item | Amount |
-|------|--------|
-| Consideration transferred (cash) | \$400,000 |
-| FV of net identifiable assets | \$460,000 |
-
-$$
-\text{Bargain Purchase Gain} = \$460{,}000 - \$400{,}000 = \$60{,}000
-$$
+Bear Co. acquires 100% of Sloth Security from a seller that must sell quickly, paying \$400,000 in cash. After reassessment, Sloth's identifiable assets have a fair value of \$560,000 and its liabilities \$100,000, for identifiable net assets of \$460,000. The bargain purchase gain is \$460,000 - \$400,000 = \$60,000.
 
 ```journal
 Jul 1
 Dr. Identifiable Assets[a] 560,000
-    Cr. Liabilities Assumed[l] 100,000
-    Cr. Cash[a] 400,000
-    Cr. Gain on Bargain Purchase 60,000
+Cr. Liabilities Assumed[l] 100,000
+Cr. Cash[a] 400,000
+Cr. Gain on Bargain Purchase 60,000
 ```
-
-:::warning
-A bargain purchase gain is rare in practice. When you see one on the exam, always look for the **reassessment step**: the acquirer must confirm that all assets and liabilities have been identified and correctly valued before booking the gain. The gain is reported in **earnings** (not OCI).
-:::
 
 ---
 
-## Noncontrolling Interest (NCI)
+## Noncontrolling Interest
 
-When an acquirer obtains control but acquires **less than 100%** of a subsidiary, the remaining ownership held by outside shareholders is the **noncontrolling interest**. NCI is presented in the **equity section** of the consolidated balance sheet.
+When the acquirer obtains control with **less than 100%** of the shares, the shares held by outsiders are the **noncontrolling interest (NCI)**. The acquirer still records 100% of the acquiree's identifiable assets and liabilities, because it controls all of them, and records the NCI in **equity**, separately from the parent's equity.
 
-### Two Measurement Approaches
+U.S. GAAP requires the NCI to be measured at its **acquisition-date fair value**, usually based on the market price of the shares the acquirer did not buy. Goodwill therefore includes the portion attributable to the NCI (often called **full goodwill**). The NCI's fair value per share may be lower than the price the acquirer paid per share, because the acquirer's price can include a premium for control.
 
-ASC 805 permits two methods for measuring NCI on the acquisition date:
-| Method | NCI Measurement | Goodwill Calculation |
-|--------|----------------|---------------------|
-| **Fair value method** (full goodwill) | NCI measured at its **fair value** | Includes goodwill attributable to **both** the parent and NCI |
-| **Proportionate share method** (partial goodwill) | NCI = NCI % × FV of net identifiable assets | Includes goodwill attributable to the **parent only** |
+### Example: Bear Co. Acquires 80% of Grizzly Inc.
 
-```mermaid
-graph TD
-    A["Measure NCI"] --> B["Fair Value Method<br/>(Full Goodwill)"]
-    A --> C["Proportionate Share Method<br/>(Partial Goodwill)"]
-    B --> B1["NCI = Fair value of<br/>non-controlling shares"]
-    C --> C1["NCI = NCI % × FV of<br/>net identifiable assets"]
-    B --> B2["Goodwill includes<br/>parent + NCI portions"]
-    C --> C2["Goodwill includes<br/>parent portion only"]
-    style B fill:#cfe2f3,stroke:#333
-    style C fill:#d9ead3,stroke:#333
-```
-
-:::tip[Exam Tip]
-US GAAP (ASC 805) requires the **fair value method** (full goodwill). The proportionate share method is permitted under **IFRS 3** but not US GAAP. However, the CPA exam may test your understanding of both approaches, so know the differences.
-:::
-
-### Example: Bear Co. Acquires 80% of Bear Co. with NCI
-
-Bear Co. acquires 80% of Bear Co. on January 1 for \$720,000 cash. The following information is available:
-| Item | Amount |
-|------|--------|
-| Identifiable assets at FV | \$1,100,000 |
-| Liabilities assumed at FV | \$250,000 |
-| **FV of net identifiable assets** | **\$850,000** |
-| Fair value of 20% NCI | \$190,000 |
-
-#### Fair Value Method (Full Goodwill)
+On January 1, Bear Co. pays \$720,000 in cash for 80% of Grizzly Inc. Grizzly's identifiable assets have a fair value of \$1,100,000 and its liabilities \$250,000, so its identifiable net assets are \$850,000. The fair value of the 20% NCI is \$175,000.
 
 $$
-\text{Goodwill} = (\$720{,}000 + \$190{,}000) - \$850{,}000 = \$60{,}000
+\text{Goodwill} = (\$720{,}000 + \$175{,}000) - \$850{,}000 = \$45{,}000
 $$
 
 ```journal
 Jan 1
 Dr. Identifiable Assets[a] 1,100,000
-Dr. Goodwill[a] 60,000
-    Cr. Liabilities Assumed[l] 250,000
-    Cr. Cash[a] 720,000
-    Cr. Noncontrolling Interest[e] 190,000
+Dr. Goodwill[a] 45,000
+Cr. Liabilities Assumed[l] 250,000
+Cr. Cash[a] 720,000
+Cr. Noncontrolling Interest[e] 175,000
 ```
 
-#### Proportionate Share Method (Partial Goodwill, IFRS)
+Of the \$45,000 of goodwill, \$40,000 belongs to Bear Co. (\$720,000 - 80% × \$850,000) and \$5,000 to the NCI (\$175,000 - 20% × \$850,000). IFRS also permits measuring NCI at its proportionate share of identifiable net assets, which records only the parent's goodwill, but U.S. GAAP does not allow that method.
 
-Under this approach, NCI is measured as its proportionate share of net identifiable assets:
-
-$$
-\text{NCI} = 20\% \times \$850{,}000 = \$170{,}000
-$$
-
-$$
-\text{Goodwill} = (\$720{,}000 + \$170{,}000) - \$850{,}000 = \$40{,}000
-$$
-
-```journal
-Jan 1
-Dr. Identifiable Assets[a] 1,100,000
-Dr. Goodwill[a] 40,000
-    Cr. Liabilities Assumed[l] 250,000
-    Cr. Cash[a] 720,000
-    Cr. Noncontrolling Interest[e] 170,000
-```
-
-### Side-by-Side Comparison
-
-|                               | Fair Value Method | Proportionate Share Method |
-| ----------------------------- | ----------------- | -------------------------- |
-| Consideration transferred     | \$720,000         | \$720,000                  |
-| NCI                           | \$190,000         | \$170,000                  |
-| FV of net identifiable assets | \$850,000         | \$850,000                  |
-| **Goodwill**                  | **\$60,000**      | **\$40,000**               |
-| Total equity (NCI line)       | \$190,000         | \$170,000                  |
-
-The \$20,000 difference in goodwill (\$60,000 - \$40,000) represents the goodwill attributable to the NCI that is included under the fair value method but excluded under the proportionate share method.
+---
 
 ## Contingent Consideration
 
-**Contingent consideration** is an obligation of the acquirer to transfer additional assets or equity to the former owners if specified future conditions are met, such as earn-out provisions tied to post-acquisition revenue or earnings targets.
+**Contingent consideration** is the acquirer's obligation to pay the former owners more (or, occasionally, its right to get some back) if specified future events occur, such as an earn-out tied to revenue or earnings targets. It is recognized at **fair value on the acquisition date** as part of the consideration transferred, whatever the probability of payment; the probability is reflected in the fair value.
 
-### Initial Recognition
+What happens afterward depends on how the obligation is classified:
 
-Contingent consideration is measured at **fair value** on the acquisition date and included in the total consideration transferred, regardless of the probability of the payout.
+| Classification | After the acquisition date |
+| --- | --- |
+| **Liability** (the usual case, for example an obligation to pay cash) | Remeasured at fair value each reporting date until settled, with changes in **earnings** |
+| **Equity** (for example, an obligation to issue a fixed number of shares) | Not remeasured; settlement is accounted for within equity |
 
-### Subsequent Measurement
+Changes in the fair value of contingent consideration after the acquisition date (such as the target becoming more likely) **never adjust goodwill**. Only measurement period adjustments, discussed next, do that.
 
-The accounting for changes in contingent consideration depends on its classification:
-| Classification | Initial Recognition | Subsequent Changes |
-|---------------|--------------------|--------------------|
-| **Liability** (most common) | Fair value at acquisition date | Remeasured at fair value each period; changes recognized in **earnings** |
-| **Equity** | Fair value at acquisition date | **Not remeasured**; settled within equity |
+### Example: Bear Co. Acquires Panda Industries with an Earn-Out
 
-### Example: Polar Inc. Earn-Out
-
-Bear Co. acquires 100% of Polar Inc. for \$300,000 cash plus a contingent earn-out with a fair value of \$50,000 on the acquisition date. The earn-out requires Bear Co. to pay an additional \$75,000 if Polar Inc. achieves revenue targets within two years.
-**At acquisition, record contingent consideration at fair value:**
-
-$$
-\text{Total Consideration} = \$300{,}000 + \$50{,}000 = \$350{,}000
-$$
-
-Assume net identifiable assets at fair value total \$310,000:
-
-$$
-\text{Goodwill} = \$350{,}000 - \$310{,}000 = \$40{,}000
-$$
+On January 1, Bear Co. acquires 100% of Panda Industries for \$300,000 in cash plus an earn-out of \$75,000 payable if Panda meets revenue targets within two years. The earn-out's acquisition-date fair value is \$50,000. Panda's identifiable assets have a fair value of \$410,000 and its liabilities \$100,000, for identifiable net assets of \$310,000. Total consideration is \$350,000, so goodwill is \$40,000.
 
 ```journal
 Jan 1
 Dr. Identifiable Assets[a] 410,000
 Dr. Goodwill[a] 40,000
-    Cr. Liabilities Assumed[l] 100,000
-    Cr. Cash[a] 300,000
-    Cr. Contingent Consideration Liability[l] 50,000
+Cr. Liabilities Assumed[l] 100,000
+Cr. Cash[a] 300,000
+Cr. Contingent Consideration Liability[l] 50,000
 ```
 
-**At December 31, the contingent liability increases to \$65,000:**
-
-$$
-\text{Increase} = \$65{,}000 - \$50{,}000 = \$15{,}000
-$$
+By December 31, the targets look more achievable and the earn-out's fair value rises to \$65,000. The \$15,000 increase is a loss:
 
 ```journal
-Dec 31
+Dec 31, Year 1
 Dr. Loss on Contingent Consideration 15,000
-    Cr. Contingent Consideration Liability[l] 15,000
+Cr. Contingent Consideration Liability[l] 15,000
 ```
 
-**When the earn-out is settled (paid \$75,000 in Year 2):**
-
-$$
-\text{Additional Loss} = \$75{,}000 - \$65{,}000 = \$10{,}000
-$$
+In Year 2, Panda meets the targets and Bear Co. pays the full \$75,000, recognizing a further \$10,000 loss:
 
 ```journal
-Dr. Loss on Contingent Consideration 10,000
+Year 2
 Dr. Contingent Consideration Liability[l] 65,000
-    Cr. Cash[a] 75,000
+Dr. Loss on Contingent Consideration 10,000
+Cr. Cash[a] 75,000
 ```
-
-:::tip[Exam Tip]
-Changes in the fair value of **liability-classified** contingent consideration are recognized in **earnings**; they do **not** adjust goodwill. Only measurement period adjustments (for facts existing at the acquisition date) adjust goodwill. Post-acquisition changes in fair value are income statement items.
-:::
 
 ---
 
 ## Measurement Period Adjustments
 
-After the acquisition date, the acquirer may obtain new information about **facts and circumstances that existed as of the acquisition date**. ASC 805 provides a **measurement period** of up to **one year** from the acquisition date to finalize the purchase price allocation.
+Valuations of a newly acquired business often are not finished by the first reporting date, so the acquirer records **provisional amounts** and refines them during the **measurement period**. The measurement period ends when the acquirer has the information it was seeking (or learns it cannot get it), and it can never last more than **one year** from the acquisition date.
 
-### Key Rules
+Only new information about **facts and circumstances that existed at the acquisition date** qualifies. An appraisal that shows a building was worth more on the acquisition date is a measurement period adjustment. A fire that damages the building a month after closing is not; it is a post-acquisition event recognized in earnings.
 
-| Rule                       | Detail                                                                                                             |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **Maximum duration**       | One year from the acquisition date                                                                                 |
-| **What qualifies**         | New information about facts that **existed at the acquisition date**                                               |
-| **What does NOT qualify**  | Events occurring **after** the acquisition date (these are recognized in current-period earnings)                  |
-| **Accounting treatment**   | Adjustments are recorded **retrospectively**, as if the revised amounts had been recorded on the acquisition date |
-| **Effect on goodwill**     | Measurement period adjustments increase or decrease goodwill                                                       |
-| **Comparative statements** | Prior-period financial statements are restated to reflect the adjustments                                          |
+A measurement period adjustment changes the provisional asset or liability and **adjusts goodwill**. It is recognized in the reporting period in which the adjustment is determined, **not** by restating prior periods. If the adjustment changes depreciation, amortization, or other income effects, the acquirer records in current-period earnings the full amount, calculated as if the accounting had been completed on the acquisition date, and discloses (or presents) the portion that relates to earlier periods.
 
-### Example: Bear Co. Measurement Period Adjustment
+After the measurement period ends, the acquisition accounting is revised only to correct an error under ASC 250.
 
-Bear Co. acquired Bear Co. on January 1 and initially recorded the following:
-| Item | Provisional Amount |
-|------|-------------------|
-| Identifiable assets at FV | \$1,100,000 |
-| Liabilities assumed at FV | \$250,000 |
-| Net identifiable assets | \$850,000 |
-| Consideration transferred | \$720,000 |
-| NCI at FV | \$190,000 |
-| **Goodwill** | **\$60,000** |
-On June 15 (within the measurement period), Bear Co. receives an updated appraisal revealing that a patent included in identifiable assets was undervalued by \$25,000 on the acquisition date.
-**Measurement period adjustment:**
+### Example: Grizzly Inc. Patent Appraisal
 
-$$
-\text{Revised Net Identifiable Assets} = \$850{,}000 + \$25{,}000 = \$875{,}000
-$$
-
-$$
-\text{Revised Goodwill} = (\$720{,}000 + \$190{,}000) - \$875{,}000 = \$35{,}000
-$$
+Return to Bear Co.'s January 1 acquisition of 80% of Grizzly Inc., which recorded provisional goodwill of \$45,000. On June 15, an appraisal shows that a patent was worth \$25,000 more on January 1 than the provisional amount. Revised identifiable net assets are \$875,000, and revised goodwill is (\$720,000 + \$175,000) - \$875,000 = \$20,000.
 
 ```journal
 Jun 15
 Dr. Patent[a] 25,000
-    Cr. Goodwill[a] 25,000
+Cr. Goodwill[a] 25,000
 ```
 
-If the patent had been **overvalued** by \$25,000:
-
-```journal
-Jun 15
-Dr. Goodwill[a] 25,000
-    Cr. Patent[a] 25,000
-```
-
-:::warning
-After the measurement period closes (one year from the acquisition date), any adjustments to the purchase price allocation are recognized in **current-period earnings**; they no longer adjust goodwill or prior-period statements. Be sure to check the timeline on exam questions.
-:::
+Bear Co. also records, in the current period, any extra amortization on the \$25,000 back to January 1. If the appraisal had instead shown the patent was overvalued by \$25,000, the entry would be reversed (debit goodwill, credit patent).
 
 ---
 
-## Comprehensive Example: Full Acquisition with All Components
+## Comprehensive Example: Bear Co. Acquires 75% of Polar Inc.
 
-Bear Co. acquires 75% of Polar Inc. on April 1. The following information is available:
-**Consideration transferred by Bear Co.:**
-| Component | Amount |
-|-----------|--------|
-| Cash | \$450,000 |
-| Bear Co. common shares issued (15,000 shares × \$20 FV) | \$300,000 |
-| Contingent earn-out (FV at acquisition date) | \$60,000 |
-| **Total consideration** | **\$810,000** |
-**Acquisition-related costs:** \$30,000 (advisory fees)
-**Polar Inc. identifiable net assets at fair value on April 1:**
-| Item | Book Value | Fair Value |
-|------|-----------|------------|
+On April 1, Bear Co. acquires 75% of Polar Inc. It pays \$450,000 in cash, issues 15,000 shares of \$1 par common stock with a fair value of \$20 per share (\$300,000), and agrees to an earn-out with an acquisition-date fair value of \$60,000. Total consideration is **\$810,000**. Bear Co. also pays \$30,000 of advisory fees. The fair value of the 25% NCI is **\$260,000**.
+
+| Polar Inc. | Book value | Fair value |
+| --- | --- | --- |
 | Cash | \$80,000 | \$80,000 |
 | Accounts receivable | \$120,000 | \$115,000 |
 | Inventory | \$200,000 | \$230,000 |
-| Property, plant & equipment | \$400,000 | \$520,000 |
-| Customer relationships | \$0 | \$75,000 |
+| Property, plant, and equipment | \$400,000 | \$520,000 |
+| Customer relationships (unrecorded) | \$0 | \$75,000 |
 | **Total identifiable assets** | **\$800,000** | **\$1,020,000** |
 | Accounts payable | \$90,000 | \$90,000 |
 | Notes payable | \$150,000 | \$150,000 |
 | **Total liabilities** | **\$240,000** | **\$240,000** |
-| **Net identifiable assets** | **\$560,000** | **\$780,000** |
-**Fair value of 25% NCI:** \$275,000
+| **Identifiable net assets** | **\$560,000** | **\$780,000** |
 
-### Step 1: Calculate Goodwill
-
-$$
-\text{Goodwill} = (\text{Consideration} + \text{NCI at FV}) - \text{FV of Net Identifiable Assets}
-$$
+**Goodwill.** Fair values, not book values, drive the calculation:
 
 $$
-\text{Goodwill} = (\$810{,}000 + \$275{,}000) - \$780{,}000 = \$305{,}000
+\text{Goodwill} = (\$810{,}000 + \$260{,}000) - \$780{,}000 = \$290{,}000
 $$
 
-### Step 2: Record Acquisition-Related Costs
+**Advisory fees.** These are expensed:
 
 ```journal
 Apr 1
 Dr. Acquisition Expense 30,000
-    Cr. Cash[a] 30,000
+Cr. Cash[a] 30,000
 ```
 
-### Step 3: Record the Business Combination
+**The acquisition.** Bear Co. records each identifiable asset and liability at fair value, goodwill, each form of consideration, and the NCI:
 
 ```journal
 Apr 1
 Dr. Cash[a] 80,000
 Dr. Accounts Receivable[a] 115,000
 Dr. Inventory[a] 230,000
-Dr. Property, Plant & Equipment[a] 520,000
+Dr. Property, Plant, and Equipment[a] 520,000
 Dr. Customer Relationships[a] 75,000
-Dr. Goodwill[a] 305,000
-    Cr. Accounts Payable[l] 90,000
-    Cr. Notes Payable[l] 150,000
-    Cr. Cash[a] 450,000
-    Cr. Common Stock[e] 15,000
-    Cr. Additional Paid-In Capital[e] 285,000
-    Cr. Contingent Consideration Liability[l] 60,000
-    Cr. Noncontrolling Interest[e] 275,000
+Dr. Goodwill[a] 290,000
+Cr. Accounts Payable[l] 90,000
+Cr. Notes Payable[l] 150,000
+Cr. Cash[a] 450,000
+Cr. Common Stock[e] 15,000
+Cr. Additional Paid-In Capital[e] 285,000
+Cr. Contingent Consideration Liability[l] 60,000
+Cr. Noncontrolling Interest[e] 260,000
 ```
 
-The equity credits assume 15,000 shares at \$1 par value (\$15,000 to Common Stock) with the remainder of the \$300,000 stock consideration going to APIC (\$285,000).
-
-### Step 4: Verify the Entry Balances
-
-|                          | Debits          | Credits         |
-| ------------------------ | --------------- | --------------- |
-| Identifiable assets      | \$1,020,000     |                 |
-| Goodwill                 | \$305,000       |                 |
-| Liabilities assumed      |                 | \$240,000       |
-| Cash paid                |                 | \$450,000       |
-| Stock issued             |                 | \$300,000       |
-| Contingent consideration |                 | \$60,000        |
-| NCI                      |                 | \$275,000       |
-| **Total**                | **\$1,325,000** | **\$1,325,000** |
-
-### Step 5: Measurement Period Adjustment (August 15)
-
-An updated appraisal determines that the PP&E was undervalued by \$40,000 on April 1.
-
-$$
-\text{Revised FV of Net Identifiable Assets} = \$780{,}000 + \$40{,}000 = \$820{,}000
-$$
-
-$$
-\text{Revised Goodwill} = (\$810{,}000 + \$275{,}000) - \$820{,}000 = \$265{,}000
-$$
+**Measurement period adjustment (August 15).** An updated appraisal shows the PP&E was worth \$40,000 more on April 1. Identifiable net assets become \$820,000, and goodwill falls to \$1,070,000 - \$820,000 = \$250,000:
 
 ```journal
 Aug 15
-Dr. Property, Plant & Equipment[a] 40,000
-    Cr. Goodwill[a] 40,000
+Dr. Property, Plant, and Equipment[a] 40,000
+Cr. Goodwill[a] 40,000
 ```
 
-### Step 6: Contingent Consideration Remeasurement (December 31)
-
-At year-end, the earn-out liability is remeasured to \$72,000. This is a **post-acquisition change in fair value**, not a measurement period adjustment:
-
-$$
-\text{Increase} = \$72{,}000 - \$60{,}000 = \$12{,}000
-$$
+**Earn-out remeasurement (December 31).** The earn-out's fair value rises to \$72,000. This is a post-acquisition change in fair value, so it goes to earnings and goodwill is unaffected:
 
 ```journal
 Dec 31
 Dr. Loss on Contingent Consideration 12,000
-    Cr. Contingent Consideration Liability[l] 12,000
+Cr. Contingent Consideration Liability[l] 12,000
 ```
+
+---
+
+## Related Topic: Joint Venture Formations
+
+A newly formed **joint venture** is not a business combination, because no party obtains control. Under ASC 805-60 (added by ASU 2023-05 for joint ventures formed on or after January 1, 2025), the joint venture applies a **new basis of accounting** in its own financial statements. It measures its identifiable net assets at fair value (with the same exceptions as a business combination) and measures its total net assets at the fair value of 100% of its equity. Any excess is goodwill. If the identifiable net assets exceed the fair value of the equity, the difference is an adjustment to additional paid-in capital, not a bargain purchase gain.
 
 ---
 
 ## Summary
 
-| Topic                              | Key Takeaway                                                                                                         |
-| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| **Business vs. asset acquisition** | Use the screen test: if FV is concentrated in one asset, it is an asset acquisition (no goodwill, capitalize costs) |
-| **Consideration transferred**      | Cash + FV of stock issued + FV of contingent consideration; exclude acquisition costs                                |
-| **Goodwill**                       | Consideration + NCI - FV of net identifiable assets; not amortized; tested for impairment                            |
-| **Bargain purchase**               | FV of net assets exceeds consideration + NCI; reassess first, then book gain in earnings                             |
-| **NCI, fair value method**         | NCI at FV, resulting in full goodwill (US GAAP required)                                                             |
-| **NCI, proportionate share**       | NCI at % of net assets, resulting in partial goodwill (IFRS option)                                                  |
-| **Contingent consideration**       | Measured at FV on acquisition date; liability remeasured through earnings; equity not remeasured                     |
-| **Measurement period**             | Up to 1 year; adjust goodwill retrospectively for acquisition-date facts; post-period changes go to earnings         |
-| **Acquisition costs**              | Expensed as incurred (except debt/equity issuance costs follow their own standards)                                  |
-
-```mermaid
-graph TD
-    A["Transaction Acquired"] --> B{"Screen Test:<br/>FV concentrated in<br/>one asset?"}
-    B -->|Yes| C["Asset Acquisition"]
-    B -->|No| D{"Inputs + Substantive<br/>Process Lead to Outputs?"}
-    D -->|No| C
-    D -->|Yes| E["Business Combination<br/>(ASC 805)"]
-    E --> F["Measure Consideration<br/>+ NCI at FV"]
-    F --> G["Measure Net<br/>Identifiable Assets at FV"]
-    G --> H{"Consideration + NCI<br/>vs. FV of Net Assets"}
-    H -->|"Greater"| I["Record Goodwill"]
-    H -->|"Less"| J["Reassess, then Record<br/>Bargain Purchase Gain"]
-    style C fill:#f4cccc,stroke:#333
-    style E fill:#d9ead3,stroke:#333
-    style I fill:#cfe2f3,stroke:#333
-    style J fill:#fff2cc,stroke:#333
-```
+| Topic | Key point |
+| --- | --- |
+| Business or asset acquisition | Screen test first; a business needs at least an input and a substantive process. Asset acquisitions have no goodwill or gain and capitalize transaction costs |
+| Acquirer | The entity that obtains control; in a share exchange, weigh voting rights, board, management, and size (now including VIE acquirees under ASU 2025-03) |
+| Consideration transferred | Cash plus fair value of shares, other assets, liabilities to former owners, and contingent consideration; transaction costs excluded |
+| Goodwill | Consideration + fair value of NCI - fair value of identifiable net assets |
+| Bargain purchase | Reassess, then recognize the remaining excess as a gain in earnings |
+| Noncontrolling interest | Measured at fair value (U.S. GAAP); presented in equity |
+| Contingent consideration | Fair value at acquisition; liability-classified remeasured through earnings, equity-classified not remeasured |
+| Measurement period | Up to one year; acquisition-date facts only; adjust goodwill in the current period, no restatement |
+| Transaction costs | Expensed, except share and debt issuance costs |

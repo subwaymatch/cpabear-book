@@ -1,248 +1,181 @@
 # Formation and Liquidation of Business Entities
 
-## Introduction
+Choosing a business entity is one of the most consequential decisions a CPA helps a client make, because the choice decides how income is taxed every year and what it costs to get out. REG teaches each entity on its own. TCP asks you to put them side by side: identify the entity a set of legal characteristics describes, compute the tax cost of forming each type with noncash property, and compare the tax cost of liquidating each type. This chapter starts with the comparison framework, then works through formation and liquidation for C corporations, S corporations, and partnerships, and ends with conversions between them.
 
-Choosing the right business entity is one of the most consequential tax planning decisions a CPA advises on. The TCP exam tests your ability to **compare the tax implications of formation and liquidation across entity types** (C corporations, S corporations, and partnerships) and to identify which structure best fits a given set of facts. Unlike REG, which tests the mechanics of each entity in isolation, TCP requires you to analyze multiple entity types side by side, evaluate the tax cost of converting between structures, and recommend the optimal choice for a client's situation.
-
-This page covers the entity selection decision framework, the tax consequences of forming each entity type with noncash property contributions, and the tax consequences of liquidating each entity type, always with an eye toward **comparative analysis** across structures.
+Two results of the One Big Beautiful Bill Act (OBBBA, P.L. 119-21, signed July 4, 2025) shape the comparison. The 21% corporate rate is unchanged, and the 20% qualified business income (QBI) deduction for owners of pass-through businesses is now permanent for tax years beginning after December 31, 2025, a change eligible for TCP testing since July 1, 2026.
 
 ---
 
-## Entity Selection Decision Framework
+## Choosing an Entity
 
-### Legal Characteristics of Entity Types
+### Legal Characteristics
 
-The CPA exam may present a set of legal characteristics and ask you to identify the entity type. Understanding the distinguishing features is the starting point for entity selection.
+The exam may describe an entity and ask what it is, or describe a client and ask which entity fits. Start with these differences:
 
-| Characteristic | C Corporation | S Corporation | Partnership (General/LP/LLC) |
+| Characteristic | C corporation | S corporation | Partnership (general, limited, or LLC) |
 |---|---|---|---|
-| **Liability protection** | Shareholders protected | Shareholders protected | General partners exposed; limited partners / LLC members protected |
-| **Number of owners** | Unlimited | Maximum 100 | Minimum 2 (except single-member LLC treated as disregarded entity) |
-| **Eligible owners** | Any person or entity | Individuals, estates, certain trusts, tax-exempt orgs; **no** nonresident aliens, partnerships, or corporations | Any person or entity |
-| **Classes of equity** | Multiple classes of stock allowed | **One class of stock** (voting differences permitted) | Flexible; multiple classes of interests allowed |
-| **Entity-level tax** | Yes; **double taxation** (entity + shareholder) | Generally no (exceptions: built-in gains tax, excess passive income tax) | No |
-| **Pass-through of losses** | No; losses trapped at entity level | Yes, limited by stock and debt basis, at-risk, and passive activity rules | Yes, limited by outside basis, at-risk, and passive activity rules |
-| **Self-employment tax** | Salary subject to FICA; distributions not subject to SE tax | Reasonable salary subject to FICA; distributions not subject to SE tax | General partners and active LLC members subject to SE tax on distributive share |
-| **Basis from entity debt** | No | Only from **direct shareholder loans** | Yes; recourse and nonrecourse debt increase partner's outside basis |
+| **Liability protection** | Shareholders protected | Shareholders protected | General partners exposed; limited partners and LLC members protected |
+| **Number of owners** | Unlimited | No more than 100 | At least 2 (a single-member LLC is disregarded unless it elects to be taxed as a corporation) |
+| **Eligible owners** | Anyone | Individuals who are U.S. citizens or residents, estates, certain trusts, and certain exempt organizations | Anyone |
+| **Classes of ownership** | Multiple classes of stock | **One class of stock** (voting differences allowed) | Flexible; special allocations allowed |
+| **Entity-level income tax** | Yes, at 21%, and again on dividends | Generally no (exceptions: built-in gains tax and excess passive income tax) | No |
+| **Losses** | Stay in the corporation | Pass through, limited by stock and debt basis, at-risk, and passive rules | Pass through, limited by outside basis, at-risk, and passive rules |
+| **Basis from entity debt** | Not applicable | Only from **direct shareholder loans** | Yes, recourse and nonrecourse debt |
+| **Payroll and self-employment tax** | Salary subject to FICA; dividends are not | Reasonable salary subject to FICA; distributions are not | General partners and active LLC members pay self-employment tax on their distributive share |
 
-:::tip[Exam Tip]
+### The Annual Tax Comparison
 
-When the exam presents a scenario with multiple owners including a foreign investor, an S corporation is immediately eliminated (nonresident aliens cannot be S corporation shareholders). When the scenario involves an owner who wants to deduct entity-level debt against personal losses, a partnership is the best choice.
+The heart of the decision is a schedule that compares the total tax on the same income under each structure. With a 21% corporate rate and a 23.8% maximum rate on dividends (20% plus the 3.8% net investment income tax), a C corporation that distributes everything costs more than a pass-through whose owner gets the full QBI deduction:
 
-:::
+> **Example:** Jordan expects his new business to earn \$100,000 a year. He is in the 37% bracket, and the business would qualify for the full 20% QBI deduction as a pass-through. Ignoring payroll and self-employment taxes:
+>
+> | Structure | Entity tax | Owner's tax | Total |
+> |---|---|---|---|
+> | C corporation, all profits paid as dividends | \$21,000 | 23.8% × \$79,000 = \$18,802 | **\$39,802** |
+> | C corporation, all profits retained | \$21,000 | None until distributed or the stock is sold | **\$21,000** for now |
+> | S corporation or partnership | None | 37% × (\$100,000 - \$20,000 QBI deduction) = \$29,600 | **\$29,600** |
+>
+> The pass-through wins if profits come out each year. The C corporation can come out ahead only if the business reinvests its profits for a long time, deferring the second tax.
 
-### Key Decision Factors
+Above an indexed income threshold, the QBI deduction can be limited by the business's W-2 wages and property and can disappear for a specified service business, so the comparison depends on the client's facts.
 
-```mermaid
-flowchart TD
-    A[Entity Selection Decision] --> B{"Will there be foreign or entity owners?"}
-    B -->|Yes| C["S corp ineligible, so choose C corp or partnership"]
-    B -->|No| D{"Is loss pass-through important in early years?"}
-    D -->|Yes| E{"Will the entity carry significant debt?"}
-    E -->|Yes| F["Partnership preferred, since debt increases basis"]
-    E -->|No| G["S corp or partnership, since both pass through losses"]
-    D -->|No| H{"Is minimizing self-employment tax a priority?"}
-    H -->|Yes| I["S corp: distributions not subject to SE tax"]
-    H -->|No| J{"Will profits be retained for growth?"}
-    J -->|Yes| K["C corp: 21% flat rate may be lower than individual rates"]
-    J -->|No| L["Pass-through entity to avoid double taxation"]
-```
+### Decision Factors
+
+Work through these questions in order. The first one that clearly applies usually drives the answer.
+
+| Question | If yes |
+|---|---|
+| Will any owner be a nonresident alien, a corporation, or a partnership? | An S corporation is not available; choose a C corporation or a partnership |
+| Will the business have losses in its early years? | Choose a pass-through so owners can deduct them; prefer a partnership if the entity will borrow, because partners get basis from entity debt |
+| Do the owners want to reduce self-employment tax on active income? | An S corporation lets owners pay payroll tax only on a reasonable salary |
+| Will most profits be reinvested for years, or does the business plan to go public? | A C corporation's 21% rate and unlimited classes of stock fit best |
+| Do the owners want flexible profit splits or to distribute appreciated property later? | A partnership allows special allocations and has no entity-level gain on distributions |
 
 ---
 
-## Tax Implications of Entity Formation
+## Formation
 
-### C Corporation Formation (IRC §351)
+### C Corporation (§351)
 
-A transfer of property to a C corporation in exchange for stock qualifies for **nonrecognition** under IRC §351 if the transferor(s) are in **control** (≥ 80% of voting power and ≥ 80% of all other classes of stock) immediately after the exchange.
+A transfer of property for stock is tax-free under **§351** if the transferors are in **control** immediately afterward: at least 80% of the voting power and at least 80% of the shares of each other class of stock.
 
-| Element | Rule |
+| Item | Rule |
 |---|---|
-| **Control test** | Transferor(s) must own ≥ 80% immediately after the exchange |
-| **Shareholder's stock basis** | Adjusted basis of property transferred - boot received + gain recognized |
-| **Corporation's basis in property** | Carryover basis from shareholder + gain recognized by shareholder |
-| **Boot received** | Gain recognized to the extent of boot (cash, other property, or excess liabilities), but not in excess of realized gain |
-| **Loss recognition** | **Never** recognized in a §351 exchange, even if FMV < adjusted basis |
+| **Gain** | Recognized only to the extent of boot (cash or other property) received, up to the realized gain, or to the extent liabilities assumed exceed basis (§357(c)) |
+| **Loss** | Never recognized |
+| **Shareholder's stock basis** | Basis of property transferred - boot received - liabilities assumed + gain recognized |
+| **Corporation's basis in property** | Shareholder's basis + gain recognized (limited to FMV for net built-in loss property unless the shareholder elects to reduce stock basis) |
+| **Liability assumed with no business purpose** | The entire liability is boot (§357(b)) |
 
-> **Example:** Bear Co. is formed as a C corporation. Jordan contributes equipment (FMV \$200,000, adjusted basis \$80,000) for 100% of Bear Co. stock. The §351 requirements are met. Jordan recognizes **no gain**. Jordan's stock basis = \$80,000. Bear Co.'s basis in the equipment = \$80,000 (carryover).
+> **Example:** Sam transfers land (FMV \$300,000, adjusted basis \$100,000, subject to a \$130,000 mortgage) to newly formed Bear Co., a C corporation, for all of its stock. The \$130,000 liability exceeds Sam's \$100,000 basis by \$30,000, so Sam recognizes **\$30,000** of gain under §357(c). His stock basis is \$100,000 - \$130,000 + \$30,000 = **\$0**, and Bear Co.'s basis in the land is \$100,000 + \$30,000 = **\$130,000**.
 
-#### Assumption of Liabilities in Formation
+### S Corporation
 
-| Scenario | Treatment |
+Forming an S corporation is a §351 transaction exactly like forming a C corporation. The S election is a separate step, made on Form 2553 with the consent of every shareholder. To take effect for the current year, it must be filed no later than 2 months and 15 days after the start of that tax year (or at any time during the preceding year); a later election takes effect the following year. The two corporate forms differ only after formation, in how income, distributions, and liquidation are taxed.
+
+### Partnership (§721)
+
+A contribution of property for a partnership interest is tax-free under **§721**, with **no control requirement**.
+
+| Item | Rule |
 |---|---|
-| Liabilities assumed ≤ total basis of property transferred | No gain recognized; liabilities reduce shareholder's stock basis |
-| **Liabilities assumed > total basis** of property transferred | Excess is recognized as gain (IRC §357(c)) |
-| Liability assumption lacks business purpose / tax avoidance motive | **Entire** liability treated as boot (IRC §357(b)) |
+| **Gain** | Only if the partner's net liability relief exceeds the basis of everything the partner contributed |
+| **Loss** | Never recognized |
+| **Partner's outside basis** | Basis of property and cash contributed - liabilities the partnership assumes + the partner's share of partnership liabilities |
+| **Partnership's inside basis** | Carryover basis |
 
-> **Example:** Bear Co. is formed as a C corporation. Sam contributes land (FMV \$300,000, adjusted basis \$100,000, subject to a \$130,000 mortgage) for 100% of stock. Liabilities (\$130,000) exceed basis (\$100,000) by \$30,000. Sam recognizes \$30,000 of gain. Sam's stock basis = \$100,000 - \$130,000 + \$30,000 = **\$0**. Bear Co.'s basis in the land = \$100,000 + \$30,000 = **\$130,000**.
+> **Example:** Alex and Dana form Kodiak Partners as equal partners. Alex contributes equipment (FMV \$150,000, adjusted basis \$90,000, subject to a \$60,000 liability that the partnership assumes). Dana contributes \$90,000 cash.
+>
+> | Outside basis | Alex | Dana |
+> |---|---|---|
+> | Basis of property or cash contributed | \$90,000 | \$90,000 |
+> | Less: liability assumed by the partnership | (\$60,000) | \$0 |
+> | Plus: 50% share of the partnership's \$60,000 liability | \$30,000 | \$30,000 |
+> | **Outside basis** | **\$60,000** | **\$120,000** |
+>
+> Alex's net liability relief of \$30,000 is less than his \$90,000 basis, so neither partner recognizes gain. Kodiak's basis in the equipment is \$90,000.
 
-### S Corporation Formation
+### Comparing Formations
 
-S corporation formation follows the **same §351 rules** as C corporation formation; the transaction is identical at the formation stage. The S election is a **separate** step filed on Form 2553.
-
-| Timing | Rule |
-|---|---|
-| **New corporation** | S election must be filed within 75 days of formation (or by the 15th day of the 3rd month of the tax year) |
-| **Existing C corporation** | S election effective for the following tax year if filed after the 2-month-and-15-day window |
-
-:::info
-
-From a **formation tax perspective**, there is no difference between forming a C corporation and forming an S corporation. The §351 analysis is identical. The distinction arises in ongoing operations (pass-through vs. entity-level tax) and in distributions and liquidation.
-
-:::
-
-### Partnership Formation (IRC §721)
-
-A contribution of property to a partnership in exchange for a partnership interest is generally a **nonrecognition** event under IRC §721.
-
-| Element | Rule |
-|---|---|
-| **Partner's outside basis** | Adjusted basis of property contributed + cash contributed - liabilities assumed by partnership (partner's relief) + partner's share of partnership liabilities |
-| **Partnership's inside basis** | **Carryover basis** from contributing partner |
-| **Holding period** | Tacks the contributing partner's holding period for capital and §1231 assets |
-| **Gain recognition** | Only if liability relief exceeds the partner's basis in all contributed property |
-| **Loss recognition** | **Never** recognized on contribution |
-
-> **Example:** Illini Entertainment is formed as a partnership. Alex contributes equipment (FMV \$150,000, adjusted basis \$90,000, subject to a \$60,000 liability) for a 50% interest. Dana contributes cash of \$90,000 for a 50% interest.
-
-| Calculation: Alex | Amount |
-|---|---|
-| Adjusted basis of equipment | \$90,000 |
-| - Liability relief (100% assumed by partnership) | -\$60,000 |
-| + Alex's share of partnership liabilities (50% × \$60,000) | +\$30,000 |
-| **Alex's outside basis** | **\$60,000** |
-
-| Calculation: Dana | Amount |
-|---|---|
-| Cash contributed | \$90,000 |
-| + Dana's share of partnership liabilities (50% × \$60,000) | +\$30,000 |
-| **Dana's outside basis** | **\$120,000** |
-
-No gain is recognized because Alex's net liability relief (\$30,000) does not exceed the adjusted basis of the contributed property (\$90,000).
-
-### Comparative Formation Analysis
-
-| Factor | C Corporation (§351) | S Corporation (§351) | Partnership (§721) |
+| Factor | C corporation (§351) | S corporation (§351) | Partnership (§721) |
 |---|---|---|---|
-| **Nonrecognition** | Yes, if ≥ 80% control | Yes, if ≥ 80% control | Yes; no control requirement |
-| **Control requirement** | ≥ 80% voting + value | ≥ 80% voting + value | **None** |
-| **Basis to entity** | Carryover + gain recognized | Carryover + gain recognized | Carryover |
-| **Basis to owner** | Substituted basis | Substituted basis | Adjusted basis ± liability adjustments |
-| **Boot triggers gain** | Yes, gain to extent of boot | Yes, gain to extent of boot | Only if net liability relief > basis |
-| **Flexibility** | Must meet strict §351 control test | Must meet strict §351 control test | Very flexible; almost any contribution qualifies |
-| **Services for equity** | Income to service provider; no deduction to corporation | Income to service provider; no deduction to corporation | Income to service partner (FMV of interest received) |
+| **Control requirement** | 80% of vote and of each other class | 80% of vote and of each other class | **None** |
+| **Boot** | Gain to the extent of boot | Gain to the extent of boot | Cash received soon after may be a disguised sale |
+| **Liabilities** | Gain if liabilities exceed basis | Gain if liabilities exceed basis | Gain if net liability relief exceeds basis |
+| **Owner's basis** | Substituted basis, reduced by liabilities assumed | Substituted basis, reduced by liabilities assumed | Contributed basis, adjusted for liabilities, including a share of entity debt |
+| **Entity's basis** | Carryover plus gain recognized | Carryover plus gain recognized | Carryover |
+| **Equity for services** | Ordinary income to the service provider at FMV; stock received only for services does not count toward control; the corporation deducts or capitalizes the cost | Same as a C corporation | A capital interest is ordinary income at FMV; a profits interest generally is not taxed on receipt |
 
 :::warning
 
-The **control requirement** is the most significant formation difference. A partnership formation under §721 has **no ownership threshold**: any contribution of property qualifies for nonrecognition. A corporate formation under §351 requires the transferor group to own ≥ 80% immediately after the exchange, which can fail when new investors are added.
+The control requirement is the biggest formation difference. A §351 exchange fails if the transferors end up with less than 80%, which can happen when a new investor contributes only services or when transferors who contribute at different times are not part of one plan. A partnership formation has no ownership threshold at all.
 
 :::
 
 ---
 
-## Tax Implications of Entity Liquidation
+## Liquidation
 
-### C Corporation Liquidation
+### C Corporation
 
-A C corporation liquidation triggers **two levels of tax**, often the most expensive liquidation scenario.
+A C corporation's liquidation is usually the most expensive exit, because it triggers **two levels of tax**. The corporation recognizes gain and loss on its assets as if it sold them at FMV (§336), and each shareholder recognizes capital gain or loss equal to the FMV received minus stock basis (§331). The shareholder's basis in the property is FMV.
 
-| Level | Tax Consequence |
+> **Example:** Panda Industries, a C corporation, owns land (FMV \$500,000, basis \$200,000) and \$63,000 of cash. It liquidates. Its \$300,000 gain on the land produces \$63,000 of corporate tax (21%), which the cash pays. It then distributes the land to its sole shareholder, Dana, whose stock basis is \$150,000. Dana recognizes a \$350,000 capital gain (\$500,000 - \$150,000), and at 23.8% she owes \$83,300. The total tax on the liquidation is **\$146,300**.
+
+Loss recognition is limited. No loss is allowed on property distributed to a shareholder who owns more than 50% if the distribution is not pro rata or the property was acquired in a §351 transfer or capital contribution within the previous 5 years.
+
+**Subsidiary liquidation (§332).** When a parent corporation owns at least 80% of a subsidiary's vote and value, neither recognizes gain or loss, and the parent takes a carryover basis in the assets and inherits the subsidiary's tax attributes.
+
+### S Corporation
+
+An S corporation also recognizes gain and loss on its assets as if it sold them, but the gain passes through to the shareholders and increases their stock basis before they compute their own gain or loss on the stock. The result is **one level of tax**. The character can still differ: the entity-level gain keeps its character (such as ordinary depreciation recapture), while the shareholder's gain or loss on the stock is capital. If the corporation converted from C status within the last 5 years, the built-in gains tax can also apply.
+
+> **Example:** Polar Inc., an S corporation, is owned entirely by Jordan, whose stock basis is \$100,000. Its only asset is equipment (FMV \$180,000, adjusted basis \$100,000). In liquidation, Polar recognizes an \$80,000 gain, which passes through to Jordan and raises his stock basis to \$180,000. Jordan receives the \$180,000 of equipment and has **no further gain**. He is taxed once, on the \$80,000.
+
+### Partnership
+
+A partnership recognizes **no gain or loss** when it distributes property in liquidation. The partner recognizes gain only if cash received exceeds outside basis, and loss only if the partner receives nothing but cash, unrealized receivables, and inventory with a total basis below outside basis. Otherwise, the partner's remaining outside basis becomes the basis of the property received, so any gain is deferred until the partner sells it.
+
+> **Example:** Kodiak Partners distributes \$50,000 cash and land (inside basis \$80,000, FMV \$120,000) to Alex in liquidation of his interest. Alex's outside basis is \$140,000. The cash reduces it to \$90,000, and Alex takes a **\$90,000** basis in the land. No one recognizes gain or loss.
+
+### Comparing Liquidations
+
+| Factor | C corporation | S corporation | Partnership |
+|---|---|---|---|
+| **Entity-level gain** | Yes, taxed at 21% | Yes, but passes through to shareholders | **No** |
+| **Owner-level gain or loss** | Capital gain or loss: FMV - stock basis | Capital gain or loss: FMV - stock basis after the pass-through | Gain only if cash exceeds outside basis; loss only with cash, receivables, and inventory alone |
+| **Levels of tax** | **Two** | **One** | **One**, often deferred |
+| **Owner's basis in property received** | FMV | FMV | Remaining outside basis |
+| **Special rule** | §332 for an 80% subsidiary | Built-in gains tax if within 5 years of conversion | None |
+
+---
+
+## Planning Strategies
+
+### When to Choose Each Entity
+
+| Situation | Usual choice | Reason |
+|---|---|---|
+| Startup expecting early losses and significant borrowing | Partnership or LLC | Losses pass through, and entity debt adds to partner basis |
+| Profitable service business with active owners | S corporation | Payroll tax applies only to a reasonable salary |
+| Business with foreign or corporate investors | C corporation or partnership | An S corporation is not available |
+| Business reinvesting most profits for years | C corporation | The 21% rate applies while the second tax is deferred |
+| Business that expects to distribute appreciated property | Partnership | No entity-level gain on distributions |
+| Business needing more than one class of equity | Partnership or C corporation | An S corporation is limited to one class of stock |
+| Business planning an initial public offering | C corporation | The standard structure for public companies |
+
+### Converting Between Entities
+
+| Conversion | Tax result |
 |---|---|
-| **Corporate level** | Corporation recognizes gain or loss on all assets as if sold at FMV |
-| **Shareholder level** | Shareholder recognizes capital gain or loss (FMV of assets received - stock basis) |
-| **Shareholder's basis in property** | FMV on date of distribution |
-
-> **Example:** Kingfisher Industries (C corporation) liquidates and distributes land (FMV \$500,000, adjusted basis \$200,000) to sole shareholder Dana (stock basis \$150,000). Kingfisher recognizes a \$300,000 corporate-level gain (taxed at 21%). Dana recognizes a \$350,000 capital gain (\$500,000 - \$150,000). **Total tax impact**: gain is taxed at both levels.
+| **C corporation to S corporation** | No immediate tax, but the built-in gains tax applies to appreciation that existed at conversion and is recognized within 5 years |
+| **S corporation to C corporation** | No immediate tax; shareholders can withdraw remaining AAA tax-free during the post-termination transition period; the corporation generally cannot re-elect S status for 5 years |
+| **Partnership to corporation** | Tax-free under §351 if the 80% control test is met; gain if liabilities exceed basis |
+| **C corporation to partnership or LLC** | Treated as a **liquidation** of the corporation followed by a contribution to the partnership, so it triggers both corporate and shareholder tax on all appreciation |
 
 :::caution
 
-Loss recognition is limited on distributions to **related parties** (> 50% shareholder). Losses on distributions of property that was contributed within the prior 5 years and declined in value may be disallowed entirely.
-
-:::
-
-#### Exception: IRC §332 Subsidiary Liquidation
-
-When a **parent corporation** owns ≥ 80% of a subsidiary, the subsidiary's liquidation qualifies for nonrecognition under IRC §332:
-
-| Party | Treatment |
-|---|---|
-| **Subsidiary** | No gain or loss recognized |
-| **Parent** | No gain or loss recognized; takes **carryover basis** in subsidiary's assets |
-
-### S Corporation Liquidation
-
-An S corporation liquidation is economically similar to a C corporation liquidation in structure, but the **pass-through** nature changes the effective tax result.
-
-| Level | Tax Consequence |
-|---|---|
-| **Entity level** | S corporation recognizes gain or loss on all assets as if sold at FMV; gain/loss **flows through** to shareholders |
-| **Shareholder level** | Shareholder treats the distribution as payment in exchange for stock, producing capital gain or loss (FMV received - adjusted stock basis) |
-
-> **Example:** Polar Inc. (S corporation, 100% owned by Jordan) liquidates. Polar Inc. has equipment (FMV \$180,000, adjusted basis \$100,000). The S corporation recognizes an \$80,000 gain, which flows through to Jordan (increasing stock basis by \$80,000). Jordan then receives \$180,000 in the liquidating distribution and recognizes capital gain equal to \$180,000 minus the adjusted stock basis.
-
-:::info
-
-Because the entity-level gain flows through and increases stock basis, the **shareholder-level capital gain is reduced** compared to a C corporation liquidation. There is effectively only **one level of tax** on the gain, a significant advantage over C corporation liquidation.
-
-:::
-
-### Partnership Liquidation
-
-Partnership liquidation follows the most **favorable** general rules:
-
-| Rule | Treatment |
-|---|---|
-| **Entity level** | Partnership recognizes **no gain or loss** on liquidating distributions |
-| **Partner: cash only** | Gain if cash exceeds outside basis; loss if cash (plus unrealized receivables and inventory) is less than outside basis |
-| **Partner: property** | Generally no gain recognized; partner takes a basis in distributed property equal to remaining outside basis (after reducing for cash received) |
-
-> **Example:** BIF Partners liquidates and distributes \$50,000 cash and land (inside basis \$80,000, FMV \$120,000) to partner Alex (outside basis \$140,000). Cash reduces Alex's outside basis to \$90,000. Alex's basis in the land = remaining outside basis = **\$90,000**. No gain or loss recognized.
-
-:::tip[Exam Tip]
-
-Partnership liquidation is generally the **most tax-efficient** because there is no entity-level gain recognition. The exam may test scenarios where this advantage drives the entity selection decision, particularly for businesses that plan to liquidate and distribute appreciated assets.
-
-:::
-
-### Comparative Liquidation Analysis
-
-| Factor | C Corporation | S Corporation | Partnership |
-|---|---|---|---|
-| **Entity-level gain** | Yes, taxed at 21% | Yes, passes through to shareholders (no entity tax) | **No** entity-level gain |
-| **Owner-level gain** | Capital gain (FMV - stock basis) | Capital gain (FMV - adjusted stock basis after flow-through) | Gain only if cash > outside basis |
-| **Owner-level loss** | Capital loss (FMV - stock basis) | Capital loss | Loss only if receiving cash, receivables, and/or inventory with basis < outside basis |
-| **Effective tax levels** | **Two** (corporate + shareholder) | **One** (flow-through to shareholder) | **One** (partner level only, and often deferred) |
-| **Basis in distributed property** | FMV | FMV | Substituted basis (remaining outside basis) |
-| **§332 exception** | Yes; parent/subsidiary nonrecognition | N/A | N/A |
-
----
-
-## Planning Strategies for Entity Selection
-
-### When to Choose Each Entity Type
-
-| Scenario | Recommended Entity | Reason |
-|---|---|---|
-| **Startup expecting losses in early years with significant debt** | Partnership (or LLC taxed as partnership) | Losses pass through; entity debt increases partner basis for loss deduction |
-| **Professional services firm seeking to minimize SE tax** | S corporation | Reasonable salary subject to FICA, but distributions avoid SE tax |
-| **Business with foreign investors** | C corporation or partnership | S corporation ineligible; C corp provides liability protection |
-| **Business planning to retain earnings for growth** | C corporation | 21% flat rate may be lower than individual marginal rates |
-| **Business expecting to distribute appreciated property on exit** | Partnership | No entity-level gain on liquidating distributions |
-| **Business needing flexible equity structure** | Partnership or C corporation | S corp limited to one class of stock |
-| **Business planning an IPO** | C corporation | Standard structure for public companies; S corp shareholder limit (100) is impractical |
-
-### Conversion Considerations
-
-| Conversion | Key Tax Implication |
-|---|---|
-| **C corp to S corp** | Built-in gains tax applies for 5 years on appreciation that existed at conversion |
-| **S corp to C corp** | No immediate tax; accumulated AAA can be distributed within post-termination transition period |
-| **Partnership to C corp** | IRC §351 applies if control test met; gain recognized to extent of boot |
-| **C corp to Partnership** | Treated as a **liquidation** of the C corp followed by contribution to partnership; triggers corporate-level and shareholder-level gain |
-
-:::danger
-
-Converting a C corporation to a partnership is the **most tax-costly** conversion because it is treated as a corporate liquidation, triggering two levels of tax on all built-in gains. This is a one-way door that should be carefully analyzed before proceeding.
+Moving a C corporation's business into a partnership or LLC is the most expensive conversion, because it is taxed as a full liquidation. A client who wants pass-through treatment for an existing C corporation usually does better with an S election, which defers the corporate-level tax and eliminates it for gain recognized after the 5-year recognition period.
 
 :::
 
@@ -250,15 +183,13 @@ Converting a C corporation to a partnership is the **most tax-costly** conversio
 
 ## Summary
 
-| Topic | Key Concept |
+| Topic | Key rule |
 |---|---|
-| Entity characteristics | C corp has double taxation; S corp limited to 100 eligible shareholders and one class of stock; partnerships offer the most flexibility |
-| C corp formation (§351) | Nonrecognition if ≥ 80% control; substituted basis for shareholder; carryover basis for corporation |
-| S corp formation | Same §351 rules as C corp; S election is a separate step |
-| Partnership formation (§721) | Nonrecognition with **no control requirement**; outside basis adjusted for liabilities |
-| Liability assumption | C/S corp: gain if liabilities > basis (§357(c)); partnership: gain if net liability relief > basis |
-| C corp liquidation | Two levels of tax: corporate gain + shareholder capital gain |
-| S corp liquidation | One effective level; gain flows through and increases basis before shareholder-level computation |
-| Partnership liquidation | No entity-level gain; partner gain only if cash > outside basis |
-| Entity conversion | C corp to partnership is most costly (deemed liquidation); C corp to S corp triggers 5-year BIG tax window |
-| Planning factors | Consider loss utilization, SE tax, debt basis, exit strategy, and owner eligibility |
+| Entity characteristics | C corporations: two levels of tax, unlimited owners and classes; S corporations: 100 eligible shareholders, one class of stock; partnerships: the most flexibility |
+| Annual comparison | 21% corporate tax plus 23.8% on dividends (about 39.8% combined) versus 37% on 80% of income with the permanent QBI deduction (29.6%) |
+| C or S formation (§351) | Tax-free with 80% control; gain to the extent of boot or liabilities over basis; no loss |
+| Partnership formation (§721) | Tax-free with no control test; gain only if net liability relief exceeds basis |
+| C liquidation | Corporate gain or loss plus shareholder capital gain or loss: two levels of tax; §332 for subsidiaries |
+| S liquidation | Entity gain passes through and raises basis first: one level of tax |
+| Partnership liquidation | No entity gain; partner gain only if cash exceeds outside basis; basis carries over to property |
+| Conversions | C to partnership is taxed as a liquidation; C to S brings a 5-year built-in gains period; S to C bars re-election for 5 years |

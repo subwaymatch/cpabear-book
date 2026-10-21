@@ -1,53 +1,37 @@
 # Non-Financial and Non-GAAP Measures of Performance
 
-GAAP financial statements provide a standardized view of an entity's economic activity, but they do not capture every dimension of performance. Non-GAAP financial measures and non-financial metrics fill critical gaps by revealing cash-generation capacity, operational efficiency, customer loyalty, and strategic progress that traditional statements may obscure.
+GAAP statements give a standardized view of an entity's results, but they do not capture everything that matters. Depreciation choices change reported income without changing cash. A one-time restructuring charge can make one year look worse than the next. And many of a company's real strengths, such as its brand, its people, and the quality of its processes, never appear on the balance sheet at all.
 
-:::info[Why This Matters]
-
-The BAR section expects you to **identify, calculate, and interpret** non-financial and non-GAAP measures. You must also understand their limitations, know when benchmarking is appropriate, and be able to construct a balanced scorecard that ties financial outcomes to the operational drivers behind them.
-
-:::
-
----
-
-## Why Non-Financial and Non-GAAP Measures Matter
-
-Financial statements prepared under GAAP are governed by recognition and measurement rules that can mask underlying performance. For example:
-
-- **Depreciation methods** affect reported income but not cash flow.
-- **One-time charges** (restructuring, litigation) distort period-over-period comparisons.
-- **Intangible drivers** (brand strength, employee expertise, process quality) never appear on the balance sheet.
-
-Non-GAAP and non-financial measures address these gaps by giving analysts, investors, and management a more complete picture of an entity's performance, risk profile, and strategic health.
+Two kinds of measures fill those gaps. **Non-GAAP financial measures** adjust GAAP numbers to show recurring operating performance or cash generation. **Non-financial measures** track customers, employees, and operations directly. The BAR section expects you to calculate and interpret both, know their limits, use them for benchmarking, and assemble them into a balanced scorecard. This chapter takes them in that order.
 
 ```mermaid
 graph LR
     A["Entity Performance"] --> B["GAAP Measures"]
     A --> C["Non-GAAP Measures"]
     A --> D["Non-Financial Measures"]
-    B --> E["Net Income, EPS, Revenue"]
-    C --> F["EBITDA, Free Cash Flow, Adjusted Net Income"]
-    D --> G["Customer Retention, Employee Turnover, Defect Rate"]
+    B --> E["Net income,<br/>EPS, revenue"]
+    C --> F["EBITDA, free cash flow,<br/>adjusted net income"]
+    D --> G["Customer retention,<br/>employee turnover,<br/>defect rate"]
 ```
 
 ---
 
 ## Non-GAAP Financial Measures
 
-Non-GAAP measures adjust GAAP results to highlight recurring operating performance or cash-generating ability. The most common measures tested on the CPA exam are summarized below.
+A non-GAAP measure starts from a GAAP amount and adds or removes items to highlight what management considers recurring performance or cash-generating ability. These are the measures you are most likely to see:
 
 | Measure | Starting Point | Key Adjustments |
 |---|---|---|
-| EBITDA | Net Income | + Interest + Taxes + Depreciation + Amortization |
-| Adjusted EBITDA | EBITDA | ± Non-recurring items (restructuring, litigation, stock-based comp) |
-| Free Cash Flow (FCF) | Operating Cash Flow | - Capital Expenditures |
-| Core Earnings | Net Income | - Non-recurring gains + Non-recurring losses |
-| Adjusted Net Income | Net Income | ± Non-recurring items (after-tax) |
-| Same-Store Sales | Prior-period revenue of comparable locations | Change in revenue for stores open in both periods |
+| EBITDA | Net income | Add back interest, taxes, depreciation, and amortization |
+| Adjusted EBITDA | EBITDA | Add or remove items management considers unrepresentative (for example, restructuring charges, stock-based compensation) |
+| Free Cash Flow (FCF) | Cash flow from operations | Subtract capital expenditures |
+| Core Earnings | Net income | Remove non-recurring gains and losses |
+| Adjusted Net Income | Net income | Remove non-recurring items, net of tax |
+| Same-Store Sales | Revenue | Count only locations open in both periods |
 
 ### EBITDA
 
-EBITDA strips out financing decisions (interest), tax jurisdictions (taxes), and non-cash allocation methods (depreciation and amortization) to approximate **operating cash-generating capacity**.
+EBITDA (earnings before interest, taxes, depreciation, and amortization) removes the effects of financing decisions (interest), tax jurisdictions (taxes), and noncash cost allocations (depreciation and amortization). The result is a rough measure of operating earning power that is easier to compare across companies with different capital structures.
 
 $$
 \text{EBITDA} = \text{Net Income} + \text{Interest Expense} + \text{Income Tax Expense} + \text{Depreciation} + \text{Amortization}
@@ -66,13 +50,13 @@ $$
 
 :::tip[Exam Tip]
 
-EBITDA is **not** a GAAP measure and is **not** a substitute for operating cash flow. It ignores working-capital changes, capital expenditures, and debt repayments. Always reconcile back to the nearest GAAP measure when presented with EBITDA data.
+EBITDA is **not** a GAAP measure and is **not** a substitute for operating cash flow. It ignores changes in working capital, capital expenditures, and debt repayments. When a question gives you EBITDA, trace it back to the nearest GAAP measure.
 
 :::
 
 ### Adjusted EBITDA
 
-Management often presents "Adjusted EBITDA" that further removes items it considers non-representative, such as stock-based compensation, restructuring charges, or acquisition-related costs.
+Management often goes a step further and presents "Adjusted EBITDA," which also removes items it considers unrepresentative of ongoing operations, such as restructuring charges, stock-based compensation, or acquisition costs.
 
 **Example: Bear Co.**
 
@@ -83,15 +67,11 @@ Management often presents "Adjusted EBITDA" that further removes items it consid
 | Add: Stock-based compensation | \$25,000 |
 | **Adjusted EBITDA** | **\$465,000** |
 
-:::warning
-
-Adjusted EBITDA gives management significant discretion over what to exclude. Analysts must scrutinize the reconciliation to determine whether excluded items are truly non-recurring or whether they represent ongoing costs repackaged as one-time events.
-
-:::
+The catch is that management chooses what to exclude. An analyst should read the reconciliation and ask whether each excluded item is truly unusual or is an ongoing cost relabeled as a one-time event. Stock-based compensation, for example, recurs every year and is a real cost of paying employees.
 
 ### Free Cash Flow (FCF)
 
-Free cash flow measures the cash available to debt and equity holders after the entity has maintained or expanded its asset base.
+Free cash flow is the cash left for debt and equity holders after the entity has paid for the capital spending needed to maintain or expand its asset base.
 
 $$
 \text{FCF} = \text{Cash Flow from Operations} - \text{Capital Expenditures}
@@ -102,72 +82,64 @@ $$
 | Item | Amount |
 |---|---|
 | Cash Flow from Operations | \$520,000 |
-| Capital Expenditures | $(180,000) |
+| Capital Expenditures | (\$180,000) |
 | **Free Cash Flow** | **\$340,000** |
 
-FCF is widely used in valuation models (DCF analysis) and dividend sustainability assessments.
+FCF is a common input to discounted cash flow valuation and to judging whether a dividend can be sustained.
 
 ### Core Earnings and Adjusted Net Income
 
-- **Core earnings** remove gains and losses that are non-recurring (such as asset sale gains, impairment charges, and litigation settlements) to reveal the entity's sustainable earning power.
-- **Adjusted net income** similarly backs out non-recurring items on an **after-tax** basis, providing a normalized bottom-line figure.
+Both measures try to show sustainable earning power. **Core earnings** remove gains and losses that are not expected to recur, such as gains on asset sales, impairment charges, and litigation settlements. **Adjusted net income** removes similar items on an **after-tax** basis, so the result is still a bottom-line figure.
 
-**Example: BIF Partners**
+**Example: Kodiak Partners**
 
 | Item | Amount |
 |---|---|
 | GAAP Net Income | \$180,000 |
-| Less: Gain on sale of subsidiary (after tax) | $(45,000) |
+| Less: Gain on sale of subsidiary (after tax) | (\$45,000) |
 | Add: Restructuring charge (after tax) | \$20,000 |
 | **Adjusted Net Income** | **\$155,000** |
 
 ### Same-Store Sales (Comparable-Store Sales)
 
-Same-store sales measure revenue growth only for locations open during **both** the current and prior periods. This metric isolates organic growth from growth achieved by opening new locations.
+Retailers and restaurant chains grow in two ways: by selling more at existing locations and by opening new ones. Same-store sales measure only the first. The calculation includes only locations open during **both** the current and prior periods, which isolates organic growth.
 
 $$
-\text{Same-Store Sales Growth} = \frac{\text{Current Period Comparable Revenue} - \text{Prior Period Comparable Revenue}}{\text{Prior Period Comparable Revenue}} \times 100
+\text{Same-Store Sales Growth} = \frac{\text{Current Comparable Revenue} - \text{Prior Comparable Revenue}}{\text{Prior Comparable Revenue}} \times 100
 $$
 
----
+### SEC Rules on Non-GAAP Measures
 
-## SEC Regulations on Non-GAAP Measures
-
-Public companies that present non-GAAP measures must comply with **Regulation G** and **Item 10(e) of Regulation S-K**.
+The SEC does not prohibit non-GAAP measures. It requires transparency, so that investors can see the adjustments and judge them. **Regulation G** applies whenever a public company discloses a non-GAAP measure publicly. **Item 10(e) of Regulation S-K** adds requirements for measures that appear in SEC filings.
 
 | Requirement | Description |
 |---|---|
-| **Reconciliation** | A quantitative reconciliation from the non-GAAP measure to the most directly comparable GAAP measure must be provided. |
-| **Equal or Greater Prominence** | The GAAP measure must be presented with equal or greater prominence than the non-GAAP measure. |
-| **No Misleading Adjustments** | Companies may not exclude charges or liabilities that require cash settlement, or adjust revenue recognition beyond GAAP. |
-| **Labeling** | Non-GAAP measures must not use titles that could be confused with GAAP measures. |
-
-:::info
-
-The SEC does **not** prohibit non-GAAP measures. Instead, it requires transparency so that investors can evaluate the adjustments management has made and form their own conclusions.
-
-:::
+| **Reconciliation** | Present the most directly comparable GAAP measure and a quantitative reconciliation to it (Regulation G and Item 10(e)). |
+| **Equal or greater prominence** | In a filing, the GAAP measure must be presented with equal or greater prominence than the non-GAAP measure. |
+| **Purpose** | In a filing, explain why management believes the measure is useful to investors. |
+| **Prohibited adjustments** | In a filing, a liquidity measure may not exclude charges that required or will require cash settlement (EBIT and EBITDA are excepted), and a performance measure may not remove an item described as non-recurring, infrequent, or unusual if a similar item is reasonably likely to recur within two years or occurred within the prior two years. |
+| **Placement and labels** | Non-GAAP measures may not appear on the face of the financial statements or in the notes, and may not use titles confusingly similar to GAAP measures. |
 
 ---
 
 ## Non-Financial Measures of Performance
 
-Non-financial measures capture operational, customer, and human-capital dimensions that financial data alone cannot reflect. These leading indicators often predict future financial performance.
+Non-financial measures track the customers, employees, and operations that produce financial results. Many are **leading indicators**: a falling retention rate or rising employee turnover usually shows up first in these measures and only later in lower revenue and higher hiring costs.
 
 ### Common Non-Financial Measures
 
-| Category | Measure | Formula / Description |
+| Category | Measure | Formula or Description |
 |---|---|---|
 | **Customer** | Customer Retention Rate | $((\text{End Customers} - \text{New Customers}) \div \text{Start Customers}) \times 100$ |
-| **Customer** | Net Promoter Score (NPS) | % Promoters - % Detractors (scale 0-10 survey) |
+| **Customer** | Net Promoter Score (NPS) | % Promoters - % Detractors (from a 0-10 "would you recommend us" survey) |
 | **Employee** | Employee Turnover Rate | $\text{Separations} \div \text{Average Headcount} \times 100$ |
 | **Productivity** | Labor Productivity Rate | $\text{Output (units or revenue)} \div \text{Labor Hours}$ |
-| **Service** | Ticket Response Time | Average time from customer inquiry to first response |
+| **Service** | Ticket Response Time | Average time from a customer inquiry to the first response |
 | **Quality** | Defect Rate | $\text{Defective Units} \div \text{Total Units Produced} \times 100$ |
 
-### Worked Example: Kingfisher Industries
+### Worked Example: Grizzly Industries
 
-Kingfisher Industries tracks the following metrics for Q1:
+Grizzly Industries tracks the following metrics for the first quarter:
 
 | Metric | Value |
 |---|---|
@@ -180,108 +152,104 @@ Kingfisher Industries tracks the following metrics for Q1:
 | Labor hours in Q1 | 25,000 |
 | Defective units in Q1 | 750 |
 
-**Customer Retention Rate:**
+The retention rate excludes new customers, because they were not there to retain:
 
 $$
 \text{Retention Rate} = \frac{2{,}150 - 350}{2{,}000} \times 100 = \frac{1{,}800}{2{,}000} \times 100 = 90\%
 $$
 
-**Employee Turnover Rate:**
-
 $$
-\text{Turnover Rate} = \frac{18}{200} \times 100 = 9\%
+\text{Turnover Rate} = \frac{18}{200} \times 100 = 9\% \text{ for the quarter}
 $$
 
-**Labor Productivity Rate:**
-
 $$
-\text{Productivity} = \frac{50{,}000}{25{,}000} = 2.0 \text{ units per labor hour}
+\text{Labor Productivity} = \frac{50{,}000}{25{,}000} = 2.0 \text{ units per labor hour}
 $$
-
-**Defect Rate:**
 
 $$
 \text{Defect Rate} = \frac{750}{50{,}000} \times 100 = 1.5\%
 $$
 
-:::note
-
-A declining retention rate or rising turnover rate often foreshadows declining revenue and rising recruitment costs, making these metrics valuable **leading indicators** of future financial performance.
-
-:::
+Note that 9% turnover in one quarter would be roughly 36% for a full year, which would be high for most industries.
 
 ---
 
 ## The Balanced Scorecard
 
-The **Balanced Scorecard** (BSC), developed by Kaplan and Norton, translates an organization's strategy into measurable objectives across **four perspectives**. It prevents management from focusing on financial results to the exclusion of the operational drivers that produce those results.
-
-```mermaid
-graph TD
-    V["Vision & Strategy"] --> F["Financial Perspective"]
-    V --> C["Customer Perspective"]
-    V --> I["Internal Process Perspective"]
-    V --> L["Learning & Growth Perspective"]
-    F --> F1["Revenue growth, ROE, EVA"]
-    C --> C1["Satisfaction, retention, market share"]
-    I --> I1["Cycle time, defect rate, throughput"]
-    L --> L1["Training hours, employee retention, innovation"]
-```
-
-### The Four Perspectives
+The **balanced scorecard**, developed by Robert Kaplan and David Norton, translates strategy into objectives and measures from **four perspectives**. Its purpose is balance: it keeps management from watching financial results while ignoring the customer, process, and people drivers that produce them.
 
 | Perspective | Key Question | Example Objectives | Example Measures |
 |---|---|---|---|
-| **Financial** | How do we look to shareholders? | Increase profitability; improve capital efficiency | ROE, EBITDA margin, FCF growth |
+| **Financial** | How do we look to shareholders? | Increase profitability; use capital efficiently | ROE, EBITDA margin, FCF growth, economic value added |
 | **Customer** | How do customers see us? | Improve satisfaction; grow market share | NPS, retention rate, on-time delivery % |
 | **Internal Process** | What must we excel at? | Reduce defects; shorten cycle times | Defect rate, order fulfillment time, process cost |
-| **Learning & Growth** | Can we continue to improve and create value? | Develop talent; foster innovation | Training hours per employee, turnover rate, patents filed |
+| **Learning and Growth** | Can we keep improving and creating value? | Develop talent; foster innovation | Training hours per employee, turnover rate, patents filed |
 
-### Balanced Scorecard Example: Illini Entertainment
+### Balanced Scorecard Example: Cub Entertainment
 
-Illini Entertainment sets the following strategic targets for the year:
+Cub Entertainment set the following targets for the year:
 
 | Perspective | Objective | Measure | Target | Actual | Status |
 |---|---|---|---|---|---|
 | Financial | Grow revenue | Revenue growth % | 12% | 14% | Met |
 | Financial | Improve cash generation | Free cash flow | \$2.0M | \$1.8M | Missed |
 | Customer | Raise loyalty | Customer retention rate | 92% | 90% | Missed |
-| Customer | Improve responsiveness | Avg. ticket response time | < 4 hrs | 3.5 hrs | Met |
-| Internal Process | Reduce errors | Defect rate | < 1.0% | 0.8% | Met |
-| Learning & Growth | Develop employees | Training hours per employee | 40 hrs | 35 hrs | Missed |
+| Customer | Improve responsiveness | Avg. ticket response time | Under 4 hrs | 3.5 hrs | Met |
+| Internal Process | Reduce errors | Defect rate | Under 1.0% | 0.8% | Met |
+| Learning and Growth | Develop employees | Training hours per employee | 40 hrs | 35 hrs | Missed |
 
-Although Illini Entertainment **exceeded** its revenue target, the scorecard reveals underlying weaknesses: missed FCF, declining retention, and underinvestment in employee development. Without the balanced scorecard, management might have focused only on the strong revenue headline.
+Cub Entertainment **beat** its revenue target, but the scorecard shows weaknesses behind the headline: free cash flow fell short, retention was below target, and training was cut. Looking only at revenue, management would have missed all three.
 
 :::tip[Exam Tip]
 
-When a question presents a balanced scorecard, look for **conflicting signals** across perspectives. The exam often tests whether you can identify that strong financial results may mask deteriorating customer or process metrics.
+When a question presents a balanced scorecard, look for **conflicting signals** across perspectives. A favorite exam point is that strong financial results can hide weakening customer, process, or learning measures.
 
 :::
+
+### Linking the Perspectives
+
+The scorecard is most useful when the measures are linked in a cause-and-effect chain, running from learning and growth, through internal processes and customers, to financial results. For a security monitoring company such as Sloth Security, the chain might look like this:
+
+```mermaid
+flowchart TD
+    L["Increase training hours per technician"] --> I["Reduce average ticket response time"]
+    I --> C["Improve customer retention rate"]
+    C --> F["Grow recurring subscription revenue"]
+    F --> V["Increase free cash flow and firm value"]
+```
+
+Tracing the chain shows management which operational levers matter most and where to spend. Different decisions call for different measures:
+
+| Decision Context | Useful Measures |
+|---|---|
+| Evaluate an acquisition target | EBITDA, adjusted EBITDA, FCF, customer retention |
+| Assess operational efficiency | Labor productivity, defect rate, cycle time |
+| Monitor strategic execution | Balanced scorecard with targets and actuals |
+| Compare with peers | Benchmarked EBITDA margins, turnover rates, NPS |
+| Evaluate dividend sustainability | FCF relative to dividend payments |
 
 ---
 
 ## Benchmarking
 
-Benchmarking is the systematic comparison of an entity's performance metrics against a reference point: either its own historical results or those of external peers.
-
-### Types of Benchmarking
+Benchmarking compares an entity's measures with a reference point: its own results elsewhere in the business, its competitors, or the best performers at a particular task.
 
 | Type | Description | Example |
 |---|---|---|
-| **Internal Benchmarking** | Compares performance across divisions, locations, or time periods within the same entity. | Illini Security compares ticket response times across its East, Central, and West regions. |
-| **External (Competitive) Benchmarking** | Compares the entity's metrics to those of direct competitors or industry averages. | Bear Co. compares its EBITDA margin to the industry median of 22%. |
-| **Functional Benchmarking** | Compares a specific function or process to best-in-class performers, even outside the entity's industry. | Polar Inc. studies Amazon's warehouse fulfillment processes to improve its own logistics. |
+| **Internal** | Compares divisions, locations, or periods within the same entity | Sloth Security compares ticket response times across its East, Central, and West regions. |
+| **External (competitive)** | Compares the entity with direct competitors or industry averages | Bear Co. compares its EBITDA margin with the industry median of 22%. |
+| **Functional** | Compares one function or process with best-in-class performers, even in other industries | Polar Inc. studies a leading online retailer's warehouse operations to improve its own order fulfillment. |
 
-### Competitor Analysis Process
+A competitor analysis follows a simple sequence:
 
-```mermaid
-flowchart LR
-    A["1. Select KPIs"] --> B["2. Gather Peer Data"]
-    B --> C["3. Normalize for Comparability"]
-    C --> D["4. Identify Gaps"]
-    D --> E["5. Develop Action Plans"]
-    E --> F["6. Monitor Progress"]
-```
+1. Select the key performance indicators (KPIs) to compare.
+2. Gather peer data.
+3. Normalize the data for comparability.
+4. Identify the gaps.
+5. Develop action plans.
+6. Monitor progress.
+
+The normalizing step deserves care. Before comparing, make sure **accounting policies**, **business models**, and **geographic mix** are similar enough. A different depreciation method or revenue recognition pattern can make a profitable company look weaker than its peers, or the reverse.
 
 **Example: Bear Co. vs. Industry**
 
@@ -292,72 +260,25 @@ flowchart LR
 | Employee Turnover | 14% | 10% | +4.0 pp |
 | Defect Rate | 2.1% | 1.4% | +0.7 pp |
 
-Bear Co. underperforms the industry across all four metrics. The elevated turnover rate likely contributes to both the higher defect rate (less experienced workforce) and lower retention (inconsistent service quality). Management should prioritize workforce-stability initiatives before expecting improvements in other areas.
-
-:::note
-
-When benchmarking externally, ensure that **accounting policies**, **business models**, and **geographic mix** are sufficiently comparable. A difference in depreciation methods or revenue recognition timing can make a profitable company appear weaker than its peers, or vice versa.
-
-:::
+Bear Co. trails the industry on all four measures (pp means percentage points). The measures are probably connected: high turnover means a less experienced workforce, which can explain both the higher defect rate and the weaker retention. Management would likely start with workforce stability before expecting the other measures to improve.
 
 ---
 
-## Integrating Non-Financial and Non-GAAP Measures into Decision-Making
+## Limitations of Non-GAAP Measures
 
-The greatest value of these measures emerges when they are **linked together** in a cause-and-effect chain. The balanced scorecard provides the framework, and benchmarking provides the external context.
-
-**Example cause-and-effect chain for Illini Security:**
-
-```mermaid
-flowchart TD
-    L["Increase training hours per technician"] --> I["Reduce average ticket response time"]
-    I --> C["Improve customer retention rate"]
-    C --> F["Grow recurring subscription revenue"]
-    F --> V["Increase free cash flow and firm value"]
-```
-
-By tracing from learning and growth through internal processes and customer outcomes to financial results, management can identify **which operational levers** have the highest strategic impact and allocate resources accordingly.
-
-| Decision Context | Useful Measures |
-|---|---|
-| Evaluate acquisition target | EBITDA, Adjusted EBITDA, FCF, customer retention |
-| Assess operational efficiency | Labor productivity, defect rate, cycle time |
-| Monitor strategic execution | Balanced scorecard with targets vs. actuals |
-| Compare to peers | Benchmarked EBITDA margins, turnover rates, NPS |
-| Evaluate dividend sustainability | FCF relative to dividend payments |
-
----
-
-## Limitations and Risks of Non-GAAP Measures
-
-While valuable, non-GAAP measures carry significant risks that analysts and exam candidates must understand.
+Non-GAAP measures are useful, but they carry risks that analysts and exam candidates must keep in mind.
 
 | Limitation | Explanation |
 |---|---|
-| **Lack of standardization** | There is no single definition of EBITDA or adjusted net income; each company defines its own adjustments, making comparisons difficult. |
-| **Management bias** | Companies may cherry-pick which items to exclude, painting an overly favorable picture of performance. |
-| **Exclusion of real costs** | Stock-based compensation and restructuring charges consume real economic resources, even if management labels them "non-recurring." |
-| **Ignoring capital intensity** | EBITDA ignores depreciation, which represents the real economic cost of asset consumption. Capital-intensive businesses may appear far more profitable on an EBITDA basis than their cash flows support. |
-| **Not audited** | Non-GAAP measures are not subject to the same audit scrutiny as GAAP financial statements. |
-| **Distraction from GAAP results** | Over-reliance on non-GAAP measures may cause stakeholders to overlook deteriorating GAAP performance. |
+| **No standard definition** | Each company defines its own EBITDA or adjusted net income, which makes comparisons difficult. |
+| **Management bias** | Companies may choose exclusions that paint an overly favorable picture. |
+| **Real costs excluded** | Stock-based compensation and restructuring charges consume real resources, whatever label management gives them. |
+| **Capital intensity ignored** | EBITDA ignores depreciation, the cost of using up long-lived assets. Capital-intensive businesses can look far more profitable on an EBITDA basis than their cash flows support. |
+| **Less assurance** | Non-GAAP measures sit outside the audited financial statements and do not receive the same audit scrutiny. |
+| **Distraction from GAAP** | Heavy reliance on adjusted figures can draw attention away from weakening GAAP results. |
 
 :::caution
 
-If a company's GAAP net income is declining while its adjusted EBITDA is rising, always investigate the **nature and frequency** of the excluded items. Recurring "non-recurring" adjustments are a red flag that management may be using non-GAAP measures to mask deteriorating fundamentals.
-
-:::
-
----
-
-## Exam Tips
-
-:::tip[CPA Exam Strategy]
-
-1. **Know the formulas.** Be prepared to calculate EBITDA, FCF, retention rate, turnover rate, labor productivity, and defect rate from raw data.
-2. **Reconcile back to GAAP.** When given a non-GAAP figure, always identify the nearest GAAP measure and trace the adjustments.
-3. **Read the scorecard holistically.** Don't stop at the financial perspective; look for warning signs in customer, process, and learning metrics.
-4. **Question "adjusted" figures.** Ask whether excluded items are truly one-time or whether they recur each period.
-5. **Match the measure to the decision.** FCF is ideal for valuation and dividend analysis; EBITDA is useful for comparing operating performance across entities with different capital structures.
-6. **Normalize before benchmarking.** Ensure comparability by adjusting for differences in accounting policies, size, and business mix.
+If GAAP net income is falling while adjusted EBITDA is rising, look closely at the **nature and frequency** of the excluded items. "Non-recurring" charges that appear every year are a red flag that the adjustments may be hiding weaker fundamentals.
 
 :::
