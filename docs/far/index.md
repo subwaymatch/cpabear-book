@@ -8,11 +8,11 @@ title: FAR
 
 ## What Is FAR?
 
-The **Financial Accounting and Reporting (FAR)** section of the CPA Exam evaluates a candidate's knowledge of the accounting standards, principles, and frameworks used to prepare and analyze financial statements. Of the four CPA Exam sections, FAR is widely regarded as the most content-heavy and technically demanding.
+The **Financial Accounting and Reporting (FAR)** section of the CPA Exam tests the accounting standards, principles, and frameworks used to prepare and analyze financial statements. FAR is widely regarded as the most content-heavy and technically demanding section of the exam.
 
 :::info[Exam Structure]
 
-FAR is one of four sections of the Uniform CPA Examination, alongside AUD (Auditing and Attestation), REG (Taxation and Regulation), and ISC/TCP/BAR (discipline sections). You must pass all sections within a rolling 30-month window.
+FAR is one of three Core sections of the Uniform CPA Examination, along with AUD (Auditing and Attestation) and REG (Taxation and Regulation). Each candidate also takes one Discipline section: BAR (Business Analysis and Reporting), ISC (Information Systems and Controls), or TCP (Tax Compliance and Planning). In most jurisdictions, you must pass all four sections within a rolling 30-month window.
 
 :::
 
@@ -20,26 +20,26 @@ FAR is one of four sections of the Uniform CPA Examination, alongside AUD (Audit
 
 ## Key Content Areas
 
-The FAR blueprint—published by the AICPA—organizes tested material into three content areas:
+The FAR blueprint, published by the American Institute of CPAs (AICPA), organizes tested material into three content areas:
 
 | Content Area | Description | Approximate Weight |
 |---|---|---|
-| **Area I — Financial Reporting** | General-purpose financial statements (for-profit and not-for-profit), state and local government concepts, public company reporting (10-Q/10-K/8-K, EPS), special-purpose frameworks, ratios and performance metrics | 30–40% |
-| **Area II — Select Balance Sheet Accounts** | Cash, receivables, inventory, PP&E, investments, intangibles, payables and accruals, long-term debt, equity, and related disclosures | 30–40% |
-| **Area III — Select Transactions** | Revenue recognition, leases, business combinations and consolidations, income taxes, fair value, accounting changes and error corrections, contingencies, subsequent events, foreign currency, and stock compensation | 25–35% |
+| **Area I: Financial Reporting** | General-purpose financial statements (for-profit and not-for-profit), state and local government concepts, public company reporting (Forms 10-Q, 10-K, and 8-K; earnings per share), special-purpose frameworks, and financial ratios and performance metrics | 30%-40% |
+| **Area II: Select Balance Sheet Accounts** | Cash, receivables, inventory, property, plant, and equipment (PP&E), investments, intangibles, payables and accruals, long-term debt, equity, and related disclosures | 30%-40% |
+| **Area III: Select Transactions** | Revenue recognition, leases, business combinations and consolidations, income taxes, fair value, accounting changes and error corrections, contingencies, subsequent events, foreign currency, and stock compensation | 25%-35% |
 
-The exam also tests skills at four levels. The current allocation is:
+The blueprint also weights questions by skill level. FAR does not test the highest level, Evaluation:
 
 | Skill Level | Approximate Weight |
 |---|---|
-| Remembering and Understanding | 5–15% |
-| Application | 45–55% |
-| Analysis | 35–45% |
-| Evaluation | — |
+| Remembering and Understanding | 5%-15% |
+| Application | 45%-55% |
+| Analysis | 35%-45% |
+| Evaluation | Not tested in FAR |
 
 :::warning[Content Weights May Shift]
 
-The AICPA periodically updates the CPA Exam blueprint. Always verify the latest version at **aicpa.org** before finalizing your study plan.
+The AICPA updates the CPA Exam blueprint periodically. Check the latest version at **aicpa.org** before you finalize your study plan.
 
 :::
 
@@ -49,47 +49,53 @@ The AICPA periodically updates the CPA Exam blueprint. Always verify the latest 
 
 ### U.S. GAAP and the FASB
 
-U.S. Generally Accepted Accounting Principles (**GAAP**) are the authoritative standards that govern financial reporting for non-governmental entities in the United States. The **Financial Accounting Standards Board (FASB)** is the primary standard-setter.
-The FASB issues guidance through the **Accounting Standards Codification (ASC)**, which organizes all authoritative GAAP into a single, searchable system. When studying FAR, you will frequently reference ASC topics such as:
+U.S. generally accepted accounting principles (**GAAP**) are the authoritative standards for financial reporting by nongovernmental entities in the United States. The **Financial Accounting Standards Board (FASB)** sets these standards.
 
-- **ASC 606** – Revenue from Contracts with Customers
-- **ASC 842** – Leases
-- **ASC 350** – Intangibles—Goodwill and Other
-- **ASC 820** – Fair Value Measurement
-- **ASC 450** – Contingencies
+The FASB issues guidance through the **Accounting Standards Codification (ASC)**, a single source that organizes all authoritative GAAP by topic. In FAR you will often see ASC topics such as:
+
+- **ASC 606**: Revenue from Contracts with Customers
+- **ASC 842**: Leases
+- **ASC 350**: Intangibles - Goodwill and Other
+- **ASC 820**: Fair Value Measurement
+- **ASC 450**: Contingencies
 
 ### The GAAP Hierarchy
 
-The GAAP hierarchy determines which sources of guidance are authoritative:
+ASC 105 recognizes only two levels of GAAP: **authoritative** and **nonauthoritative**.
+
+- **Authoritative:** the FASB ASC. For SEC registrants, rules and interpretive releases of the Securities and Exchange Commission (SEC) are also authoritative.
+- **Nonauthoritative:** everything else, including widely recognized industry practice, FASB Concepts Statements, AICPA Issues Papers, International Financial Reporting Standards (IFRS), and textbooks.
+
+When the ASC does not address a transaction, first look for ASC guidance on similar transactions and apply it by analogy. Turn to nonauthoritative sources only after that.
 
 ```mermaid
 graph TD
-    A["Level 1: FASB ASC <br/>(Authoritative GAAP)"] --> B["Level 2: Non-authoritative guidance <br/>(FASB Concepts Statements, AICPA guidance, textbooks)"]
-    B --> C["Level 3: Other sources <br/>(Industry practice, analogy)"]
+    A["Step 1: Apply the FASB ASC<br/>(plus SEC rules for SEC registrants)"] --> B["Step 2: If the ASC is silent, apply ASC guidance for similar transactions"]
+    B --> C["Step 3: If still unresolved, consider nonauthoritative sources<br/>(industry practice, Concepts Statements, IFRS, textbooks)"]
 ```
 
 :::tip[Exam Tip]
 
-For the CPA Exam, always apply **authoritative GAAP (ASC)** unless the question explicitly states otherwise (e.g., IFRS or cash basis).
+For the CPA Exam, apply **authoritative GAAP (the ASC)** unless the question says otherwise (for example, IFRS or the cash basis).
 
 :::
 
 ### The SEC
 
-The **Securities and Exchange Commission (SEC)** has legal authority over financial reporting for publicly traded companies. While the SEC generally defers to the FASB for standard-setting, it issues its own rules through:
+The **SEC** has legal authority over financial reporting by publicly traded companies. The SEC generally relies on the FASB to set accounting standards, but it issues its own rules and guidance:
 
-- **Regulation S-X** – Form and content of financial statements
-- **Regulation S-K** – Non-financial disclosures
-- **Staff Accounting Bulletins (SABs)** – Interpretive guidance
+- **Regulation S-X**: form and content of financial statements
+- **Regulation S-K**: disclosures outside the financial statements
+- **Staff Accounting Bulletins (SABs)**: interpretive guidance from the SEC staff
 
 ### IFRS and the IASB
 
-The **International Accounting Standards Board (IASB)** issues **International Financial Reporting Standards (IFRS)**. While the CPA Exam primarily tests U.S. GAAP, you should be aware of key differences between GAAP and IFRS, particularly in areas such as:
+The **International Accounting Standards Board (IASB)** issues **IFRS**. The CPA Exam primarily tests U.S. GAAP, but you should know the key differences between GAAP and IFRS, such as:
 
-- Inventory (LIFO is prohibited under IFRS)
-- Development costs (can be capitalized under IFRS if criteria are met)
-- Revaluation of long-lived assets (permitted under IFRS)
-- Component depreciation (required under IFRS)
+- **Inventory:** IFRS prohibits the last-in, first-out (LIFO) method.
+- **Development costs:** IFRS requires capitalization when certain criteria are met.
+- **Long-lived assets:** IFRS permits revaluation to fair value.
+- **Depreciation:** IFRS requires component depreciation.
 
 ---
 
@@ -97,11 +103,12 @@ The **International Accounting Standards Board (IASB)** issues **International F
 
 ### 1. Build a Strong Foundation First
 
-Start with the conceptual framework and financial statement elements before diving into complex topics like leases or pensions. Understanding _why_ a rule exists makes it far easier to remember.
+Start with the conceptual framework and the financial statement elements before moving to complex topics such as leases or pensions. Understanding _why_ a rule exists makes it much easier to remember.
 
 ### 2. Master Journal Entries
 
-FAR is fundamentally about the **accounting equation**: Assets = Liabilities + Equity. Nearly every topic comes back to journal entries. Practice writing them by hand.
+FAR is built on the **accounting equation**: Assets = Liabilities + Equity. Nearly every topic comes back to journal entries, so practice writing them by hand.
+
 For example, if Bear Co. issues 10,000 shares of \$1 par common stock at \$15 per share:
 
 ```journal
@@ -114,21 +121,21 @@ Dr. Cash                      150,000
 
 Passive reading is not enough. After studying a topic:
 
-- Close the book and write down everything you remember
-- Revisit the topic 1 day, 3 days, and 7 days later
-- Use flashcards for key definitions and formulas
+- Close the book and write down everything you remember.
+- Revisit the topic 1 day, 3 days, and 7 days later.
+- Use flashcards for key definitions and formulas.
 
 ### 4. Practice Under Exam Conditions
 
-Time yourself on practice problems. The CPA Exam includes multiple-choice questions (MCQs) and task-based simulations (TBSs). Both formats require speed and accuracy.
+Time yourself on practice problems. The CPA Exam includes multiple-choice questions (MCQs) and task-based simulations (TBSs), and both formats require speed and accuracy.
 
 ### 5. Focus on High-Weight Topics
 
-Allocate study time proportional to exam weight. Spending three weeks on governmental accounting while ignoring revenue recognition would be a strategic error.
+Allocate study time in proportion to exam weight. Spending three weeks on governmental accounting while ignoring revenue recognition would be a strategic error.
 
 :::note
 
-Government and not-for-profit topics feel unfamiliar to most candidates, but they are very testable. Budget adequate time for these areas even though the weight is lower.
+Government and not-for-profit topics are unfamiliar to most candidates, but they are very testable. Budget enough time for them even though their weight is lower.
 
 :::
 
@@ -136,21 +143,22 @@ Government and not-for-profit topics feel unfamiliar to most candidates, but the
 
 ## How This Textbook Is Organized
 
-This textbook follows a logical progression designed to build your knowledge systematically:
+The FAR chapters build from foundations to specialized topics. The sidebar groups them as follows:
+
 | Part | Topics |
 |---|---|
-| **Part 1: Foundation** | Conceptual framework, financial statement elements, general-purpose financial statements |
-| **Part 2: Assets** | Cash, receivables, inventory, PP&E, intangibles, investments |
-| **Part 3: Liabilities** | Current liabilities, long-term debt, bonds, leases, contingencies, pensions |
-| **Part 4: Equity** | Common and preferred stock, retained earnings, treasury stock, dividends, stock compensation |
-| **Part 5: Revenue & Expenses** | ASC 606 revenue recognition, expense recognition, income taxes |
-| **Part 6: Financial Statement Presentation** | Income statement, balance sheet, statement of cash flows, comprehensive income, EPS |
-| **Part 7: Special Topics** | Business combinations, consolidations, foreign currency, derivatives, fair value |
-| **Part 8: Government & NFP** | Fund accounting, government-wide statements, GASB standards, NFP reporting |
+| **Introduction and Conceptual Framework** | Financial reporting foundations, the conceptual framework |
+| **Financial Statement Presentation** | Income statement, comprehensive income, balance sheet, statement of cash flows, statement of changes in stockholders' equity, notes to financial statements |
+| **Assets** | Cash and receivables, inventory, PP&E, investments, intangible assets |
+| **Liabilities** | Current liabilities and contingencies, long-term liabilities and bonds |
+| **Equity** | Stockholders' equity, partnerships |
+| **Special Topics and Transactions** | Revenue recognition, leases, income taxes, accounting changes and error corrections, business combinations, consolidated financial statements, foreign currency, subsequent events, fair value measurement |
+| **Specialized Reporting** | Not-for-profit accounting, governmental accounting, modified cash basis, public company reporting, financial ratio analysis |
+| **Accounting Basics** | Types of accounts, adjusting journal entries |
 
 :::tip[Navigation]
 
-Use the sidebar to jump to any topic. Each chapter includes learning objectives, worked examples, journal entries, and practice questions.
+Use the sidebar to jump to any topic. Chapters include worked examples, journal entries, and exam tips, and several end with a practice problem.
 
 :::
 
@@ -158,20 +166,22 @@ Use the sidebar to jump to any topic. Each chapter includes learning objectives,
 
 ## Conventions Used in This Textbook
 
-Throughout this textbook, you will encounter several recurring conventions:
+This textbook uses the following conventions:
 
-- **Journal entries** appear in `journal` code blocks with debits listed first and credits indented
-- **Dollar amounts** are shown with the \$ symbol (e.g., \$50,000)
-- **Math formulas** use KaTeX notation: $$\text{Net Income} = \text{Revenue} - \text{Expenses}$$
-- **Company names** in examples are bear-themed (e.g., Bear Co., Polar Co., Grizzly Inc., Kodiak Partners, Panda Industries, Cub Entertainment, Sloth Security, Bruin Community Foundation, Polar University, Bear Valley Hospital)
-- **Admonitions** highlight tips, warnings, and important notes using colored callout boxes
+- **Journal entries** appear in `journal` code blocks, with debits listed first and credits indented.
+- **Dollar amounts** use the \$ symbol (for example, \$50,000).
+- **Math formulas** use KaTeX notation, such as $\text{Net Income} = \text{Revenue} - \text{Expenses}$.
+- **Company names** in examples are bear-themed (for example, Bear Co., Polar Co., Grizzly Inc., Kodiak Partners, Panda Industries, Cub Entertainment, Sloth Security, Bruin Community Foundation, Polar University, and Bear Valley Hospital).
+- **Admonitions** are colored callout boxes that highlight tips, warnings, and important notes.
 
-  :::danger[Common Pitfall]
-  Many candidates underestimate FAR because they "already know accounting." The CPA Exam tests nuance—specific rules, exceptions, and edge cases that go well beyond introductory coursework. Treat every topic with fresh eyes.
-  :::
+:::danger[Common Pitfall]
+
+Many candidates underestimate FAR because they "already know accounting." The CPA Exam tests nuance: specific rules, exceptions, and edge cases that go well beyond introductory coursework. Treat every topic with fresh eyes.
+
+:::
 
 ---
 
-## Let's Get Started
+## Getting Started
 
-Turn to the next section—**Conceptual Framework for Financial Reporting**—to begin building the foundation that every other FAR topic rests upon.
+Turn to the next chapter, **Financial Reporting Foundations**, to see how the financial statements fit together. The **Conceptual Framework for Financial Reporting** chapter follows it and lays the foundation that every other FAR topic rests on.
