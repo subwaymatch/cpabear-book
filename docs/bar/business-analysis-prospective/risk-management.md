@@ -152,7 +152,7 @@ Financial risks arise from an entity's exposure to movements in market prices, i
 
 Market risk is the risk of loss from adverse changes in market prices (equity prices, commodity prices). **Hedging with derivatives** is a common mitigation strategy.
 
-**Example (Kingfisher Industries):** Kingfisher Industries uses 50,000 barrels of crude oil per quarter. To protect against price increases, it enters into a futures contract to purchase oil at $75 per barrel. If the spot price rises to $85, Kingfisher saves $10 per barrel, or $500,000 total. If the price falls to $70, Kingfisher pays $5 above market, but has achieved price certainty.
+**Example (Kingfisher Industries):** Kingfisher Industries uses 50,000 barrels of crude oil per quarter. To protect against price increases, it enters into a futures contract to purchase oil at \$75 per barrel. If the spot price rises to \$85, Kingfisher saves \$10 per barrel, or \$500,000 total. If the price falls to \$70, Kingfisher pays \$5 above market, but has achieved price certainty.
 
 ### Interest Rate Risk
 
@@ -164,7 +164,7 @@ Interest rate risk is the risk that changes in market interest rates will affect
 | **Variable-rate borrowing** | Interest cost fluctuates with market | When rates are expected to fall |
 | **Interest rate swap** | Exchange fixed payments for variable (or vice versa) | To convert existing exposure without refinancing |
 
-**Example (Bear Co.):** Bear Co. has a $10,000,000 variable-rate loan at SOFR + 2%. Concerned about rising rates, Bear enters into a pay-fixed, receive-variable interest rate swap at 5%. If SOFR rises to 4%, Bear pays 5% fixed and receives 6% (SOFR + 2%) from the counterparty, netting an effective rate of 5%.
+**Example (Bear Co.):** Bear Co. has a \$10,000,000 variable-rate loan at SOFR + 2%. Concerned about rising rates, Bear enters into a pay-fixed, receive-variable interest rate swap at 5%. If SOFR rises to 4%, Bear pays 5% fixed and receives 6% (SOFR + 2%) from the counterparty, netting an effective rate of 5%.
 
 ### Currency Risk
 
@@ -176,7 +176,7 @@ Currency risk arises when an entity has assets, liabilities, or cash flows denom
 | **Currency options** | Provide the right (not obligation) to exchange at a set rate; offer downside protection with upside potential |
 | **Natural hedges** | Match foreign-currency revenues with foreign-currency expenses in the same currency to offset exposure |
 
-**Example (Polar Inc.):** Polar Inc. expects to receive €2,000,000 from a European customer in 90 days. The current spot rate is $1.10/€. Polar enters into a 90-day forward contract at $1.09/€, locking in proceeds of $2,180,000 regardless of future rate movements.
+**Example (Polar Inc.):** Polar Inc. expects to receive €2,000,000 from a European customer in 90 days. The current spot rate is \$1.10/€. Polar enters into a 90-day forward contract at \$1.09/€, locking in proceeds of \$2,180,000 regardless of future rate movements.
 
 ### Liquidity Risk
 
@@ -222,9 +222,9 @@ Where:
 
 | Metric | Calculation | Days |
 |---|---|---|
-| DSO | (Accounts Receivable / Revenue) × 365 = ($400,000 / $6,000,000) × 365 | 24.3 |
-| DIO | (Inventory / COGS) × 365 = ($500,000 / $3,600,000) × 365 | 50.7 |
-| DPO | (Accounts Payable / COGS) × 365 = ($300,000 / $3,600,000) × 365 | 30.4 |
+| DSO | (Accounts Receivable / Revenue) × 365 = (\$400,000 / \$6,000,000) × 365 | 24.3 |
+| DIO | (Inventory / COGS) × 365 = (\$500,000 / \$3,600,000) × 365 | 50.7 |
+| DPO | (Accounts Payable / COGS) × 365 = (\$300,000 / \$3,600,000) × 365 | 30.4 |
 | **CCC** | 24.3 + 50.7 - 30.4 | **44.6** |
 
 Illini Entertainment's cash is tied up for approximately 45 days between paying suppliers and collecting from customers.
@@ -333,12 +333,12 @@ Bear Co. has the following pre-transaction balances:
 
 | Item | Amount |
 |---|---|
-| Total Assets | $5,000,000 |
-| Total Liabilities | $2,000,000 |
-| Total Equity | $3,000,000 |
-| Net Income | $450,000 |
+| Total Assets | \$5,000,000 |
+| Total Liabilities | \$2,000,000 |
+| Total Equity | \$3,000,000 |
+| Net Income | \$450,000 |
 
-**Proposed transaction:** Bear Co. issues $1,000,000 in long-term bonds at par and uses the proceeds to repurchase common stock.
+**Proposed transaction:** Bear Co. issues \$1,000,000 in long-term bonds at par and uses the proceeds to repurchase common stock.
 
 **Before the transaction:**
 
@@ -350,7 +350,7 @@ $$
 \text{ROA} = \frac{450{,}000}{5{,}000{,}000} = 9.0\%
 $$
 
-**After the transaction:** Total assets remain $5,000,000 (cash in, stock out). Liabilities increase to $3,000,000. Equity decreases to $2,000,000.
+**After the transaction:** Total assets remain \$5,000,000 (cash in, stock out). Liabilities increase to \$3,000,000. Equity decreases to \$2,000,000.
 
 $$
 \text{Debt-to-Equity} = \frac{3{,}000{,}000}{2{,}000{,}000} = 1.50

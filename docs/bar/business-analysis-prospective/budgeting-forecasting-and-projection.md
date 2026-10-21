@@ -224,9 +224,9 @@ What-if analysis extends sensitivity analysis by changing **multiple variables s
 
 | Scenario | Units Sold | Price | Variable Cost | Fixed Cost | Net Income |
 |---|---|---|---|---|---|
-| **Best case** | 12,000 | $52 | $29 | $100,000 | $176,000 |
-| **Most likely** | 10,000 | $50 | $30 | $100,000 | $100,000 |
-| **Worst case** | 8,000 | $47 | $32 | $105,000 | $15,000 |
+| **Best case** | 12,000 | \$52 | \$29 | \$100,000 | \$176,000 |
+| **Most likely** | 10,000 | \$50 | \$30 | \$100,000 | \$100,000 |
+| **Worst case** | 8,000 | \$47 | \$32 | \$105,000 | \$15,000 |
 
 ### Breakeven Analysis
 
@@ -262,7 +262,7 @@ Kingfisher must sell 7,500 units (or \$450,000 in revenue) before earning any pr
 
 :::tip[Exam Tip]
 
-To find the units needed to achieve a **target profit**, add the target profit to fixed costs in the numerator: $(Fixed Costs + Target Profit) \div Contribution Margin per Unit$.
+To find the units needed to achieve a **target profit**, add the target profit to fixed costs in the numerator: $(\text{Fixed Costs} + \text{Target Profit}) \div \text{Contribution Margin per Unit}$.
 
 :::
 
@@ -322,17 +322,17 @@ Bear Co. is preparing a cash budget for Q2 (April through June). The following a
 
 | Source | April | May | June |
 |---|---|---|---|
-| Current month sales (60%) | $120,000 | $144,000 | $156,000 |
-| Prior month sales (35%) | $63,000 | $70,000 | $84,000 |
-| **Total collections** | **$183,000** | **$214,000** | **$240,000** |
+| Current month sales (60%) | \$120,000 | \$144,000 | \$156,000 |
+| Prior month sales (35%) | \$63,000 | \$70,000 | \$84,000 |
+| **Total collections** | **\$183,000** | **\$214,000** | **\$240,000** |
 
 **Step 2: Cash Disbursements**
 
 | Item | April | May | June |
 |---|---|---|---|
-| Purchases (50% of next month's sales) | $120,000 | $130,000 | $130,000 |
-| Fixed operating expenses (cash) | $35,000 | $35,000 | $35,000 |
-| **Total disbursements** | **$155,000** | **$165,000** | **$165,000** |
+| Purchases (50% of next month's sales) | \$120,000 | \$130,000 | \$130,000 |
+| Fixed operating expenses (cash) | \$35,000 | \$35,000 | \$35,000 |
+| **Total disbursements** | **\$155,000** | **\$165,000** | **\$165,000** |
 
 :::note
 
@@ -344,12 +344,12 @@ June purchases are assumed at 50% of July projected sales. If July sales are not
 
 | Line | April | May | June |
 |---|---|---|---|
-| Beginning cash balance | $25,000 | $53,000 | $102,000 |
-| Add: Total collections | $183,000 | $214,000 | $240,000 |
-| Less: Total disbursements | ($155,000) | ($165,000) | ($165,000) |
-| **Ending cash balance before borrowing** | **$53,000** | **$102,000** | **$177,000** |
-| Borrowing needed | $0 | $0 | $0 |
-| **Ending cash balance** | **$53,000** | **$102,000** | **$177,000** |
+| Beginning cash balance | \$25,000 | \$53,000 | \$102,000 |
+| Add: Total collections | \$183,000 | \$214,000 | \$240,000 |
+| Less: Total disbursements | (\$155,000) | (\$165,000) | (\$165,000) |
+| **Ending cash balance before borrowing** | **\$53,000** | **\$102,000** | **\$177,000** |
+| Borrowing needed | \$0 | \$0 | \$0 |
+| **Ending cash balance** | **\$53,000** | **\$102,000** | **\$177,000** |
 
 Bear Co. maintains a cash balance above the \$20,000 minimum in every month without borrowing. The rising ending balance suggests the company may have excess cash available for short-term investment or debt repayment in June.
 

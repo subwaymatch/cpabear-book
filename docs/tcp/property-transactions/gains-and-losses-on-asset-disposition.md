@@ -107,7 +107,7 @@ Section 1245 property includes:
 ### The §1245 Recapture Formula
 
 $$
-\text{§1245 Ordinary Income} = \min(\text{Gain Realized},\ \text{Total Depreciation Taken})
+\text{\S 1245 Ordinary Income} = \min(\text{Gain Realized},\ \text{Total Depreciation Taken})
 $$
 
 Any gain **in excess of** the total depreciation is §1231 gain (and enters the §1231 netting process).
@@ -163,7 +163,7 @@ If §1245 property is sold at a **loss**, there is no depreciation recapture (re
 ### The §1250 Recapture Formula
 
 $$
-\text{§1250 Ordinary Income} = \min(\text{Gain Realized},\ \text{Excess Depreciation})
+\text{\S 1250 Ordinary Income} = \min(\text{Gain Realized},\ \text{Excess Depreciation})
 $$
 
 $$
@@ -201,7 +201,7 @@ After applying §1250 recapture (which addresses excess depreciation), there is 
 ### The Formula
 
 $$
-\text{Unrecaptured §1250 Gain} = \min\!\Big(\text{Remaining §1231 Gain},\ \text{Straight-Line Depreciation Taken}\Big)
+\text{Unrecaptured \S 1250 Gain} = \min\!\Big(\text{Remaining \S 1231 Gain},\ \text{Straight-Line Depreciation Taken}\Big)
 $$
 
 More precisely, it equals the lesser of:

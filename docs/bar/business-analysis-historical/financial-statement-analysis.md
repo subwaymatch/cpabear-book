@@ -43,9 +43,9 @@ $$
 
 | Year | Revenue | Dollar Change | % Change |
 |---|---|---|---|
-| 20X1 | $800,000 | N/A | N/A |
-| 20X2 | $920,000 | $120,000 | 15.0% |
-| 20X3 | $1,012,000 | $92,000 | 10.0% |
+| 20X1 | \$800,000 | N/A | N/A |
+| 20X2 | \$920,000 | \$120,000 | 15.0% |
+| 20X3 | \$1,012,000 | \$92,000 | 10.0% |
 
 Bear Co.'s revenue grew each year, but the **rate of growth decelerated** from 15% to 10%. An analyst should investigate whether this slowdown reflects market saturation, pricing pressure, or a deliberate shift in strategy.
 
@@ -67,12 +67,12 @@ $$
 
 | Line Item | Amount | % of Revenue |
 |---|---|---|
-| Net Revenue | $500,000 | 100.0% |
-| Cost of Goods Sold | $300,000 | 60.0% |
-| Gross Profit | $200,000 | 40.0% |
-| Operating Expenses | $120,000 | 24.0% |
-| Operating Income | $80,000 | 16.0% |
-| Net Income | $55,000 | 11.0% |
+| Net Revenue | \$500,000 | 100.0% |
+| Cost of Goods Sold | \$300,000 | 60.0% |
+| Gross Profit | \$200,000 | 40.0% |
+| Operating Expenses | \$120,000 | 24.0% |
+| Operating Income | \$80,000 | 16.0% |
+| Net Income | \$55,000 | 11.0% |
 
 Common-size statements are especially useful for **comparing companies of different sizes** within the same industry or benchmarking against industry averages.
 
@@ -94,7 +94,7 @@ Liquidity ratios measure a company's ability to meet **short-term obligations** 
 
 **Example: Polar Inc.**
 
-Polar Inc. reports current assets of $240,000 (including $60,000 cash, $80,000 receivables, $70,000 inventory, and $30,000 prepaids) and current liabilities of $150,000.
+Polar Inc. reports current assets of \$240,000 (including \$60,000 cash, \$80,000 receivables, \$70,000 inventory, and \$30,000 prepaids) and current liabilities of \$150,000.
 
 $$
 \text{Current Ratio} = \frac{240{,}000}{150{,}000} = 1.60
@@ -128,7 +128,7 @@ Profitability ratios evaluate how effectively a company generates earnings relat
 
 **Example: Bear Co. Profitability (20X3)**
 
-Bear Co. reports net revenue of $1,012,000, gross profit of $405,000, operating income of $162,000, net income of $101,200, average total assets of $880,000, and average stockholders' equity of $520,000.
+Bear Co. reports net revenue of \$1,012,000, gross profit of \$405,000, operating income of \$162,000, net income of \$101,200, average total assets of \$880,000, and average stockholders' equity of \$520,000.
 
 $$
 \text{Gross Margin} = \frac{405{,}000}{1{,}012{,}000} = 40.0\%
@@ -154,7 +154,7 @@ Solvency ratios assess an entity's ability to meet **long-term obligations** and
 
 **Example: Kingfisher Industries**
 
-Kingfisher Industries reports total liabilities of $600,000, total equity of $400,000, total assets of $1,000,000, EBIT of $180,000, and interest expense of $45,000.
+Kingfisher Industries reports total liabilities of \$600,000, total equity of \$400,000, total assets of \$1,000,000, EBIT of \$180,000, and interest expense of \$45,000.
 
 $$
 \text{Debt-to-Equity} = \frac{600{,}000}{400{,}000} = 1.50
@@ -180,7 +180,7 @@ Activity ratios measure how effectively a company uses its assets to generate re
 
 **Example: Illini Entertainment**
 
-Illini Entertainment reports net credit sales of $750,000 with average receivables of $62,500 and COGS of $450,000 with average inventory of $90,000.
+Illini Entertainment reports net credit sales of \$750,000 with average receivables of \$62,500 and COGS of \$450,000 with average inventory of \$90,000.
 
 $$
 \text{Receivables Turnover} = \frac{750{,}000}{62{,}500} = 12.0\text{x}
@@ -287,17 +287,17 @@ A **favorable** variance increases income (higher revenue or lower expense). An 
 
 | Line Item | Budget | Actual | Variance | F / U |
 |---|---|---|---|---|
-| Service Revenue | $400,000 | $425,000 | $25,000 | Favorable |
-| Labor Costs | $200,000 | $215,000 | ($15,000) | Unfavorable |
-| Supplies Expense | $30,000 | $28,000 | $2,000 | Favorable |
-| Rent Expense | $48,000 | $48,000 | $0 | N/A |
-| **Operating Income** | **$122,000** | **$134,000** | **$12,000** | **Favorable** |
+| Service Revenue | \$400,000 | \$425,000 | \$25,000 | Favorable |
+| Labor Costs | \$200,000 | \$215,000 | (\$15,000) | Unfavorable |
+| Supplies Expense | \$30,000 | \$28,000 | \$2,000 | Favorable |
+| Rent Expense | \$48,000 | \$48,000 | \$0 | N/A |
+| **Operating Income** | **\$122,000** | **\$134,000** | **\$12,000** | **Favorable** |
 
-Illini Security exceeded its operating income budget by $12,000. Revenue outperformed the plan, driven by a new corporate client acquired in Q3. Labor costs ran over budget due to overtime needed to service that client. Management should evaluate whether the incremental revenue justifies the added labor cost.
+Illini Security exceeded its operating income budget by \$12,000. Revenue outperformed the plan, driven by a new corporate client acquired in Q3. Labor costs ran over budget due to overtime needed to service that client. Management should evaluate whether the incremental revenue justifies the added labor cost.
 
 :::note
 
-When analyzing variances, consider **materiality**. A $500 variance on a $2,000,000 line item is immaterial. Focus your analysis on the variances that are large enough (in both dollar and percentage terms) to affect decision-making.
+When analyzing variances, consider **materiality**. A \$500 variance on a \$2,000,000 line item is immaterial. Focus your analysis on the variances that are large enough (in both dollar and percentage terms) to affect decision-making.
 
 :::
 
@@ -318,13 +318,13 @@ For any transaction, ask:
 
 **Example: Bear Co. Issues Bonds at a Discount**
 
-Bear Co. issues $500,000 of 5-year bonds at 97 (i.e., for $485,000). The discount of $15,000 is amortized using the effective interest method over the bond term (ASC 835-30).
+Bear Co. issues \$500,000 of 5-year bonds at 97 (i.e., for \$485,000). The discount of \$15,000 is amortized using the effective interest method over the bond term (ASC 835-30).
 
 | Financial Statement | Effect |
 |---|---|
-| **Balance Sheet** | Cash increases $485,000; Bonds Payable recorded at $500,000 less unamortized discount of $15,000 |
+| **Balance Sheet** | Cash increases \$485,000; Bonds Payable recorded at \$500,000 less unamortized discount of \$15,000 |
 | **Income Statement** | Interest expense each period exceeds the cash coupon payment by the discount amortization |
-| **Cash Flow Statement** | Issuance proceeds of $485,000 reported as a financing inflow |
+| **Cash Flow Statement** | Issuance proceeds of \$485,000 reported as a financing inflow |
 | **Notes** | Disclose face amount, interest rate, maturity, and effective rate per ASC 835-30 |
 
 ```journal

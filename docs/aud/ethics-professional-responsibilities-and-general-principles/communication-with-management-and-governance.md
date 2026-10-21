@@ -169,7 +169,7 @@ The 60-day deadline for written communication of significant deficiencies and ma
 
 The auditor should not wait until the end of the audit to communicate matters that require immediate attention. If the auditor identifies a material weakness during interim fieldwork, it should be communicated to governance **as soon as practicable**, not deferred to the final communication.
 
-**Example:** During October interim testing at Kodiak Partners, the audit team identifies a material weakness in the company's controls over cash disbursements: specifically, the absence of dual authorization for wire transfers over $50,000. Given the severity of this finding and the risk of loss, the engagement partner communicates this matter to the audit committee immediately rather than waiting for the year-end audit to conclude.
+**Example:** During October interim testing at Kodiak Partners, the audit team identifies a material weakness in the company's controls over cash disbursements: specifically, the absence of dual authorization for wire transfers over \$50,000. Given the severity of this finding and the risk of loss, the engagement partner communicates this matter to the audit committee immediately rather than waiting for the year-end audit to conclude.
 
 ---
 

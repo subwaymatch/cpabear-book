@@ -103,7 +103,7 @@ Organizations document their business processes using several formats. The ISC e
 | Control | Description | Example |
 |---|---|---|
 | **Validity check** | Verifies that entered data matches a list of valid values | Customer ID must exist in the customer master file |
-| **Range check** | Ensures a value falls within an acceptable range | Hourly wage must be between $7.25 and $500.00 |
+| **Range check** | Ensures a value falls within an acceptable range | Hourly wage must be between \$7.25 and \$500.00 |
 | **Completeness check** | Verifies that all required fields have been populated | Invoice cannot be submitted without a purchase order number |
 | **Check digit** | Uses a mathematical algorithm to verify the accuracy of an identification number | Validates the check digit in a bank routing number |
 | **Batch totals** | Compares control totals (hash totals, record counts, financial totals) before and after processing | Total of invoices entered must match the batch control total |
@@ -233,7 +233,7 @@ The distinction between a design deficiency and an operating deviation is critic
 
 1. **Bear Co.** uses an ERP system where sales orders automatically generate accounts receivable entries and reduce inventory. A sales representative enters a sales order for a product that has been discontinued and removed from inventory. However, the ERP system does not reject the order. What type of input control is missing?
 
-2. **Polar Inc.** has documented its cash disbursement process in a flowchart that requires two approvals for payments over $10,000. During a walkthrough, the auditor observes that the second approval is routinely bypassed for payments to established vendors. Is this a design deficiency or an operating deviation?
+2. **Polar Inc.** has documented its cash disbursement process in a flowchart that requires two approvals for payments over \$10,000. During a walkthrough, the auditor observes that the second approval is routinely bypassed for payments to established vendors. Is this a design deficiency or an operating deviation?
 
 3. **Bear Co.** implements an RPA bot to automate bank reconciliations. The bot is configured with read-only access to the bank statement data and write access to the reconciliation workpaper. Six months later, the underlying bank statement format changes, and the bot begins misclassifying transactions. What control over the RPA bot has failed?
 
@@ -241,7 +241,7 @@ The distinction between a design deficiency and an operating deviation is critic
 
 1. A **validity check**. The system should verify that the product ID in the sales order exists in the current active inventory master file. A validity check would reject orders for discontinued products.
 
-2. This is an **operating deviation** (not a design deficiency). The control is properly designed (two approvals for payments over $10,000), but it is not being consistently followed. The bypass for established vendors represents a failure in operating effectiveness.
+2. This is an **operating deviation** (not a design deficiency). The control is properly designed (two approvals for payments over \$10,000), but it is not being consistently followed. The bypass for established vendors represents a failure in operating effectiveness.
 
 3. **Monitoring and change management controls** over the RPA bot have failed. RPA bots must be monitored for errors when underlying systems change, and updates to the bot should go through formal change management procedures.
 

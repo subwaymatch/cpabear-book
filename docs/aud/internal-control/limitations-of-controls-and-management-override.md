@@ -26,7 +26,7 @@ Internal controls can only provide **reasonable assurance**, not absolute assura
 | **Faulty judgment** | Decisions about the design and operation of controls require human judgment, which is inherently imperfect |
 | **Changing conditions** | Controls designed for current conditions may become ineffective as business circumstances, technology, or personnel change |
 
-**Example:** Bear Co. is a small manufacturing company with only three employees in the accounting department. Management recognizes that ideal segregation of duties (separating authorization, record-keeping, and custody) is not feasible given the limited staff. To compensate, the owner reviews all bank reconciliations and approves all disbursements over $500. Despite this compensating control, the inherent limitation of **separation of duties** remains because the owner cannot monitor every transaction.
+**Example:** Bear Co. is a small manufacturing company with only three employees in the accounting department. Management recognizes that ideal segregation of duties (separating authorization, record-keeping, and custody) is not feasible given the limited staff. To compensate, the owner reviews all bank reconciliations and approves all disbursements over \$500. Despite this compensating control, the inherent limitation of **separation of duties** remains because the owner cannot monitor every transaction.
 
 :::tip[Exam Tip]
 
@@ -102,7 +102,7 @@ Management may record **fictitious or inappropriate journal entries**, particula
 - Eliminate or reduce liabilities to improve the balance sheet
 - Be recorded outside the normal course of business with no clear business rationale
 
-**Example:** At the direction of the CFO, the accounting staff at Grizzly Industries records a $2.4 million journal entry on December 31 debiting accounts receivable and crediting revenue. The entry has no supporting invoice, customer order, or shipping documentation. It was made solely to ensure the company met its annual revenue target.
+**Example:** At the direction of the CFO, the accounting staff at Grizzly Industries records a \$2.4 million journal entry on December 31 debiting accounts receivable and crediting revenue. The entry has no supporting invoice, customer order, or shipping documentation. It was made solely to ensure the company met its annual revenue target.
 
 ### 2. Bias in Management Estimates
 
@@ -150,7 +150,7 @@ Because management override is a **presumed fraud risk**, auditing standards man
 | **Focus on** | Entries with unusual characteristics, such as those made to infrequently used accounts, recorded by individuals who typically do not make entries, or entries with no apparent business rationale |
 | **Determine timing** | Testing should include journal entries and adjustments made throughout the period, with particular attention to entries recorded at or near year-end |
 
-**Example:** Kodiak Partners is auditing Bear Co. and obtains a complete population of all journal entries recorded during the year. The audit team uses data analytics to identify entries with unusual characteristics: entries made on weekends, entries made by the CFO directly (bypassing the normal entry process), entries to revenue accounts that were made in the last week of December, and round-dollar entries above $100,000. The team selects a sample of these entries for detailed testing, tracing each to supporting documentation.
+**Example:** Kodiak Partners is auditing Bear Co. and obtains a complete population of all journal entries recorded during the year. The audit team uses data analytics to identify entries with unusual characteristics: entries made on weekends, entries made by the CFO directly (bypassing the normal entry process), entries to revenue accounts that were made in the last week of December, and round-dollar entries above \$100,000. The team selects a sample of these entries for detailed testing, tracing each to supporting documentation.
 
 :::tip[Exam Tip]
 
@@ -178,7 +178,7 @@ When testing journal entries, auditors should apply an element of **unpredictabi
 | **Consider** | Whether the terms of the transaction are consistent with arm's-length dealings |
 | **Examine** | Whether the transaction involves related parties or entities with limited substance |
 
-**Example:** During the audit of Honey Entertainment, the auditor discovers a $5 million consulting agreement executed in the last month of the fiscal year with a newly formed entity. The entity has no employees and shares an address with the company's chief operating officer. The auditor evaluates the business rationale, determines the transaction lacks economic substance, and concludes it was likely structured to inflate revenue. This finding is communicated to those charged with governance.
+**Example:** During the audit of Honey Entertainment, the auditor discovers a \$5 million consulting agreement executed in the last month of the fiscal year with a newly formed entity. The entity has no employees and shares an address with the company's chief operating officer. The auditor evaluates the business rationale, determines the transaction lacks economic substance, and concludes it was likely structured to inflate revenue. This finding is communicated to those charged with governance.
 
 :::warning
 

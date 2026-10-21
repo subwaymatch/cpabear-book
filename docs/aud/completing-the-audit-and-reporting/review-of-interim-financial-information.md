@@ -133,7 +133,7 @@ If the interim financial information contains a **departure from the applicable 
 | **Material and pervasive departure** | Express an adverse conclusion or withdraw from the engagement |
 | **Scope limitation** | Modify the conclusion or withdraw from the engagement if the scope limitation is material |
 
-**Example:** Grizzly Industries fails to record a $5 million inventory write-down in its Q2 interim financial information. The auditor concludes the departure is material and modifies the review report to describe the departure and its estimated effects on the interim financial information.
+**Example:** Grizzly Industries fails to record a \$5 million inventory write-down in its Q2 interim financial information. The auditor concludes the departure is material and modifies the review report to describe the departure and its estimated effects on the interim financial information.
 
 ### Going Concern
 

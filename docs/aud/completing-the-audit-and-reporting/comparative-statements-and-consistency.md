@@ -57,7 +57,7 @@ When an entity corrects a material misstatement in previously issued financial s
 - An emphasis-of-matter paragraph in the auditor's current report
 - Reference to the entity's disclosure note describing the nature of the correction
 
-**Example:** Polar Inc. discovers that it failed to record a $2 million liability in its 2024 financial statements. In 2025, Polar Inc. restates its 2024 financial statements. The auditor's 2025 report includes an emphasis-of-matter paragraph referencing the restatement of the 2024 financial statements.
+**Example:** Polar Inc. discovers that it failed to record a \$2 million liability in its 2024 financial statements. In 2025, Polar Inc. restates its 2024 financial statements. The auditor's 2025 report includes an emphasis-of-matter paragraph referencing the restatement of the 2024 financial statements.
 
 ### Material Change in Classification
 

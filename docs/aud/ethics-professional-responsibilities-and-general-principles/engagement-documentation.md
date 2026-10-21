@@ -207,7 +207,7 @@ The auditor must document the professional judgments made in reaching conclusion
 - The **alternatives considered** and why the chosen approach was most appropriate
 - **Consultations** with other professionals on difficult or contentious matters
 
-**Example:** While auditing Honey Entertainment's goodwill impairment assessment, the engagement team determines that management's cash flow projections used a growth rate significantly above industry benchmarks. The workpapers document the team's professional judgment in evaluating the reasonableness of the growth rate, the alternative scenarios considered, the discussion with the engagement partner, and the conclusion that an additional $2.3 million impairment charge was necessary.
+**Example:** While auditing Honey Entertainment's goodwill impairment assessment, the engagement team determines that management's cash flow projections used a growth rate significantly above industry benchmarks. The workpapers document the team's professional judgment in evaluating the reasonableness of the growth rate, the alternative scenarios considered, the discussion with the engagement partner, and the conclusion that an additional \$2.3 million impairment charge was necessary.
 
 ---
 

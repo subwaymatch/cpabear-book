@@ -187,7 +187,7 @@ Polar Inc. enters a fixed-price construction contract with Bear Co. to build a w
 **Year 1 calculations:**
 
 $$
-\text{% Complete} = \frac{\$720{,}000}{\$2{,}400{,}000} = 30\%
+\text{\% Complete} = \frac{\$720{,}000}{\$2{,}400{,}000} = 30\%
 $$
 
 $$

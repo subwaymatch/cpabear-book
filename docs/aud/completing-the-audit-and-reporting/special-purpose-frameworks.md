@@ -38,7 +38,7 @@ Under the **cash basis** of accounting, transactions are recorded only when cash
 
 Many entities use a **modified cash basis**, which is the cash basis with certain modifications that have substantial support (e.g., capitalizing and depreciating fixed assets, recording long-term debt). The modifications must be logical and reasonable.
 
-**Example:** Bear Co. (a small consulting firm) prepares its financial statements on the cash basis. Revenue of $800,000 is reported based on cash collections, and expenses of $620,000 are reported based on cash disbursements. Accounts receivable and accounts payable do not appear on the statement of assets and liabilities.
+**Example:** Bear Co. (a small consulting firm) prepares its financial statements on the cash basis. Revenue of \$800,000 is reported based on cash collections, and expenses of \$620,000 are reported based on cash disbursements. Accounts receivable and accounts payable do not appear on the statement of assets and liabilities.
 
 :::tip
 
@@ -57,7 +57,7 @@ Under the **tax basis** of accounting, financial statements are prepared using t
 - Depreciation follows **tax methods** (e.g., MACRS) rather than GAAP methods (e.g., straight-line)
 - Items like tax-exempt income or non-deductible expenses are treated per the **Internal Revenue Code**
 
-**Example:** Bear Co. prepares its financial statements on the tax basis. Depreciation expense is $450,000 (using MACRS), compared to $280,000 that would have been reported under GAAP (straight-line). The financial statements include a note explaining the basis of accounting and how it differs from GAAP.
+**Example:** Bear Co. prepares its financial statements on the tax basis. Depreciation expense is \$450,000 (using MACRS), compared to \$280,000 that would have been reported under GAAP (straight-line). The financial statements include a note explaining the basis of accounting and how it differs from GAAP.
 
 ### Common Differences Between Tax Basis and GAAP
 

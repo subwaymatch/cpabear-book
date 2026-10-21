@@ -21,7 +21,7 @@ Common data extraction methods include:
 | Method | Description | Example |
 |---|---|---|
 | **Manual extraction** | Users export data from a system using built-in reporting or export features | Exporting a trial balance from an accounting application to a spreadsheet |
-| **Query-based extraction** | Using a query language (typically SQL) to retrieve specific data from a database | Writing a SQL query to extract all journal entries over $100,000 from the general ledger |
+| **Query-based extraction** | Using a query language (typically SQL) to retrieve specific data from a database | Writing a SQL query to extract all journal entries over \$100,000 from the general ledger |
 | **API-based extraction** | Using application programming interfaces to programmatically retrieve data from systems | Pulling transaction data from a SaaS application via its REST API |
 | **ETL (Extract, Transform, Load)** | An automated process that extracts data from source systems, transforms it into a consistent format, and loads it into a target system (e.g., data warehouse) | Nightly ETL job that extracts sales data from three regional systems and loads it into a centralized data warehouse |
 

@@ -57,12 +57,12 @@ $$
 
 | Item | Amount |
 |---|---|
-| Net Income | $240,000 |
-| Interest Expense | $30,000 |
-| Income Tax Expense | $60,000 |
-| Depreciation | $45,000 |
-| Amortization | $15,000 |
-| **EBITDA** | **$390,000** |
+| Net Income | \$240,000 |
+| Interest Expense | \$30,000 |
+| Income Tax Expense | \$60,000 |
+| Depreciation | \$45,000 |
+| Amortization | \$15,000 |
+| **EBITDA** | **\$390,000** |
 
 :::tip[Exam Tip]
 
@@ -78,10 +78,10 @@ Management often presents "Adjusted EBITDA" that further removes items it consid
 
 | Item | Amount |
 |---|---|
-| EBITDA | $390,000 |
-| Add: Restructuring charges | $50,000 |
-| Add: Stock-based compensation | $25,000 |
-| **Adjusted EBITDA** | **$465,000** |
+| EBITDA | \$390,000 |
+| Add: Restructuring charges | \$50,000 |
+| Add: Stock-based compensation | \$25,000 |
+| **Adjusted EBITDA** | **\$465,000** |
 
 :::warning
 
@@ -101,9 +101,9 @@ $$
 
 | Item | Amount |
 |---|---|
-| Cash Flow from Operations | $520,000 |
+| Cash Flow from Operations | \$520,000 |
 | Capital Expenditures | $(180,000) |
-| **Free Cash Flow** | **$340,000** |
+| **Free Cash Flow** | **\$340,000** |
 
 FCF is widely used in valuation models (DCF analysis) and dividend sustainability assessments.
 
@@ -116,10 +116,10 @@ FCF is widely used in valuation models (DCF analysis) and dividend sustainabilit
 
 | Item | Amount |
 |---|---|
-| GAAP Net Income | $180,000 |
+| GAAP Net Income | \$180,000 |
 | Less: Gain on sale of subsidiary (after tax) | $(45,000) |
-| Add: Restructuring charge (after tax) | $20,000 |
-| **Adjusted Net Income** | **$155,000** |
+| Add: Restructuring charge (after tax) | \$20,000 |
+| **Adjusted Net Income** | **\$155,000** |
 
 ### Same-Store Sales (Comparable-Store Sales)
 
@@ -244,7 +244,7 @@ Illini Entertainment sets the following strategic targets for the year:
 | Perspective | Objective | Measure | Target | Actual | Status |
 |---|---|---|---|---|---|
 | Financial | Grow revenue | Revenue growth % | 12% | 14% | Met |
-| Financial | Improve cash generation | Free cash flow | $2.0M | $1.8M | Missed |
+| Financial | Improve cash generation | Free cash flow | \$2.0M | \$1.8M | Missed |
 | Customer | Raise loyalty | Customer retention rate | 92% | 90% | Missed |
 | Customer | Improve responsiveness | Avg. ticket response time | < 4 hrs | 3.5 hrs | Met |
 | Internal Process | Reduce errors | Defect rate | < 1.0% | 0.8% | Met |
