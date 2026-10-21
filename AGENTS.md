@@ -2,9 +2,41 @@
 
 This file describes the project structure, conventions, and workflows for AI agents working on the **CPA Bear Book** repository.
 
+## AI Agent Policy
+
+This policy applies to every AI agent working in this repository. It covers everything an agent writes: book content, code, comments, configuration, documentation, commit messages, and pull request titles and descriptions. Human contributors follow the same character rules.
+
+### Characters that read as AI-written
+
+Do not use the characters below. People rarely type them by hand, they are common in AI-generated text, and readers notice them.
+
+| Avoid | Use instead |
+|---|---|
+| Em dash (`—`) and en dash (`–`) | A comma, colon, parentheses, or a new sentence. Write ranges with a hyphen (`1-5`, `10-20%`) or with "to" (`\$100 to \$200`). |
+| Arrows (`→`, `←`, `⇒`, `↑`, `↓`) | Words such as "to", "becomes", "leads to", "increases", or "decreases" |
+| Check and cross marks (`✓`, `✅`, `✗`, `❌`) | `Yes` and `No` |
+| Emoji | Nothing, or a word |
+| Ellipsis character (`…`) | Three periods (`...`), or a rewrite |
+| Unicode minus sign (`−`) | A hyphen (`-`), including inside LaTeX math |
+| Curly quotes (`‘` `’` `“` `”`) | Straight quotes (`'` and `"`) |
+| Decorative bullets and symbols (`•`, `●`, `★`, `◆`, `▲`) | A Markdown list, or nothing |
+| Invisible characters (non-breaking, zero-width, and narrow spaces) | A normal space, or nothing |
+
+Standard notation is fine: `§`, `×`, `÷`, `±`, `≈`, `≠`, `≥`, `≤`, fractions such as `½`, and currency symbols.
+
+**The exception.** Use one of these characters only when it perfectly fits the surrounding text or is necessary. For example:
+
+- **Verbatim text:** quoting a title, statute, standard, or other source word for word, when the original uses the character and the exact wording matters.
+- **Exact matches:** text that must match something outside your control, such as a UI label, a file name, command output, or data.
+- **Code and tests:** code that must contain the character, such as a check that detects these characters or its test fixtures.
+- **Purpose-built notation:** box-drawing characters in a directory tree, like the one in this file, or the examples in this policy.
+- **Required boilerplate:** text that your tool or platform adds automatically, such as an attribution line.
+
+Convenience, habit, and emphasis are not reasons. When you are unsure, rewrite the sentence without the character. When an exception applies, use the character only where it is needed.
+
 ## Project Overview
 
-CPA Bear Book is an open-source, Docusaurus-based textbook for CPA exam candidates. The site is published at [book.cpabear.com](https://book.cpabear.com) and covers six exam sections:
+CPA Bear Book is an open-source, Docusaurus-based textbook for CPA exam candidates. It follows the 2027 CPA Exam Blueprints, which take effect January 1, 2027. The site is published at [book.cpabear.com](https://book.cpabear.com) and covers six exam sections:
 
 ### Core Sections
 
@@ -130,11 +162,22 @@ Cr. Common Stock[e] 10,000
 
 ### Writing Style
 
-Write the way a careful human author types. Do not use em dashes (`—`), en dashes (`–`), Unicode arrows (`→`, `↑`, `↓`), check or cross marks (`✓`, `✅`, `❌`), emoji, the ellipsis character (`…`), the Unicode minus sign (`−`), or curly quotes. Use commas, colons, parentheses, or separate sentences instead; write ranges as `1-5` or `\$100 to \$200`; write `Yes`/`No` in tables. Standard notation such as `§`, `×`, `÷`, `≥`, `≤`, and currency symbols is fine.
+The site should read like a readable book, not a rulebook or a dry textbook. Write for a smart candidate studying alone.
+
+- Open each chapter with a few sentences on what the topic is, why it matters, and how the chapter is organized.
+- Explain the idea in plain English, then state the precise rule, then show a short worked example with round numbers.
+- Prefer connected prose to long bullet lists. Keep lists for steps, criteria, and elements, and tables for comparisons.
+- Use admonitions (`:::tip`, `:::note`) sparingly, for real exam tips and common traps.
+- Cover what the blueprint tests and cut the rest. For REG and TCP, teach the mechanics rather than tables of inflation-indexed amounts, which the blueprint does not test.
+- Use the book's Bear-themed company names (Bear Co., Polar Inc., Grizzly Inc., Panda Industries, and so on).
+
+Follow the character rules in the [AI Agent Policy](#ai-agent-policy) above.
 
 ### Math
 
 Use standard LaTeX syntax. Inline: `$formula$`. Block: `$$formula$$`.
+
+Because a bare `$` starts math, always escape dollar amounts in prose and tables: write `\$1,000`, not `$1,000`. Inside math, write `\%` for a percent sign.
 
 ### Diagrams
 
