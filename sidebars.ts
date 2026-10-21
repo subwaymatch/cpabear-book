@@ -270,7 +270,7 @@ const sidebars: SidebarsConfig = {
     "bar/index",
     {
       type: "category",
-      label: "Business Analysis – Historical Analysis",
+      label: "Business Analysis: Historical Analysis",
       items: [
         "bar/business-analysis-historical/financial-statement-analysis",
         "bar/business-analysis-historical/non-financial-and-non-gaap-measures",
@@ -279,7 +279,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "Business Analysis – Prospective Analysis",
+      label: "Business Analysis: Prospective Analysis",
       items: [
         "bar/business-analysis-prospective/budgeting-forecasting-and-projection",
         "bar/business-analysis-prospective/capital-structure",
@@ -290,7 +290,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "Technical Accounting – Assets, Revenue, and Compensation",
+      label: "Technical Accounting: Assets, Revenue, and Compensation",
       items: [
         "bar/technical-accounting-assets-and-revenue/indefinite-lived-intangible-assets",
         "bar/technical-accounting-assets-and-revenue/internally-developed-software",
@@ -301,7 +301,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "Technical Accounting – Combinations, Derivatives, and Reporting",
+      label: "Technical Accounting: Combinations, Derivatives, and Reporting",
       items: [
         "bar/technical-accounting-combinations-and-reporting/business-combinations",
         "bar/technical-accounting-combinations-and-reporting/consolidated-financial-statements",
