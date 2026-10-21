@@ -1,179 +1,91 @@
 # Audit Sampling Concepts
 
-Audit sampling involves applying a procedure to less than 100% of items within a population for the purpose of drawing a conclusion about that entire population. Sampling is a practical necessity (auditors cannot examine every transaction), but it introduces risk that the sample may not be representative of the population. Understanding sampling concepts, risks, and methods is essential for the CPA exam.
+No auditor examines every invoice, paycheck, and receivable. Instead, the auditor tests part of a population and uses the results to reach a conclusion about the whole. That shortcut is what makes an audit affordable, but it carries a cost: the part tested may not look like the whole. This chapter explains what counts as audit sampling, how the auditor matches the sampling method to the procedure, and the risks that come with drawing conclusions from a sample. The next two chapters apply these ideas to tests of controls and to tests of details.
 
 ---
 
-## Statistical vs. Nonstatistical Sampling
+## What Counts as Audit Sampling
 
-Both approaches are acceptable under professional standards. The critical distinction lies in how the sample is selected and how results are evaluated.
+**Audit sampling** is applying an audit procedure to less than 100% of the items in a population so that the items selected are expected to be representative, and then using the results to reach a conclusion about the entire population. The key word is *representative*: the auditor projects what the sample shows onto the items that were never looked at.
 
-| Feature | Statistical Sampling | Nonstatistical Sampling |
+Not every selection of fewer than all items is sampling. When the auditor tests every item over \$50,000 in an account, or every journal entry posted on a weekend, the auditor is **selecting specific items**. The results tell the auditor about those items only; they are not projected to the rest of the population. If the remaining items could still hold a material misstatement, the auditor may sample them separately or apply other procedures.
+
+Technology has made this distinction more practical. With audit data analytics, the auditor can run a query over all 40,000 of Bear Co.'s journal entries and flag the 120 that were posted after hours by senior management. Testing those 120 entries is a test of specific items, not sampling, and the analytic itself examined 100% of the population. Sampling remains useful when each item must be examined by hand, for example when the evidence is a signed approval on a paper invoice or a customer's confirmation reply.
+
+---
+
+## Matching the Method to the Procedure
+
+The 2027 blueprint frames the choice in two pairs: the sampling method (attributes or variables) must fit the objective of the procedure (a test of controls or a test of details).
+
+| Procedure | Sampling method | What the auditor measures | Question answered |
+|---|---|---|---|
+| **Test of controls** | **Attribute sampling** | The rate of deviation from a control (a yes/no characteristic) | Is the control operating effectively enough to rely on? |
+| **Test of details** | **Variables sampling** (classical variables sampling or probability-proportional-to-size sampling) | The dollar amount of misstatement | Is the account balance or class of transactions materially misstated? |
+
+Attribute sampling counts how often something happens. Each purchase order either carries the required approval or it does not. Variables sampling measures how much: each receivable is overstated by some number of dollars, or it is not misstated at all. A single sample can serve both purposes (a **dual-purpose test**), such as examining an invoice for approval and for the correct amount, but the auditor evaluates the deviation rate and the dollar misstatements separately.
+
+---
+
+## Statistical and Nonstatistical Sampling
+
+Either attribute or variables sampling can be statistical or nonstatistical. Both are acceptable under AICPA and PCAOB standards, and both can provide sufficient appropriate evidence when properly applied.
+
+| Feature | Statistical sampling | Nonstatistical sampling |
 |---|---|---|
-| **Selection method** | Random selection (every item has a known, nonzero probability of selection) | Auditor uses judgment to select items |
-| **Evaluation** | Mathematical quantification of sampling risk | Auditor uses judgment to evaluate results |
-| **Objectivity** | Higher: results are mathematically defensible | Lower: relies more on professional judgment |
-| **Projection** | Results can be statistically projected to the population | Projection is based on auditor judgment |
+| **Selection** | Random-based selection, so every item has a known chance of selection | Judgmental selection, still expected to be representative |
+| **Evaluation** | Probability theory measures sampling risk | The auditor's judgment evaluates the results |
+| **Sampling risk** | Quantified (for example, 5% risk at 95% confidence) | Considered, but not measured |
 
-:::info[Key Point]
+The difference lies in how sampling risk is handled, not in the quality of the evidence. A nonstatistical sample should usually be about as large as a well-designed statistical sample for the same objective. Professional judgment runs through both approaches: the auditor still defines the population, sets the acceptable risk and tolerable error, and decides what the results mean.
 
-Both statistical and nonstatistical sampling require the auditor to select a sample that is **expected to be representative** of the population. The choice between them does not affect the sufficiency or appropriateness of the evidence; both can provide effective audit evidence when properly applied.
+### Selection Methods
 
-:::
-
----
-
-## Professional Judgment in Sampling
-
-Professional judgment plays a role throughout the sampling process, regardless of whether statistical or nonstatistical methods are used:
-
-- **Defining the population** and the sampling unit
-- **Determining sample size** (even in statistical sampling, inputs like confidence level and tolerable deviation rate require judgment)
-- **Evaluating results** and deciding whether additional testing is needed
-- **Assessing qualitative aspects** of identified misstatements or deviations (e.g., whether they indicate fraud)
+| Method | How it works | Use |
+|---|---|---|
+| **Random selection** | Every item has an equal chance, typically chosen with a random number generator | Statistical or nonstatistical |
+| **Systematic selection** | Every *n*th item after a random start | Statistical if the start is random; the auditor must make sure the population has no pattern that lines up with the interval |
+| **Monetary unit selection** | Every *n*th dollar, so larger items are more likely to be chosen | Probability-proportional-to-size sampling (see the substantive tests chapter) |
+| **Haphazard selection** | The auditor picks items without a structured technique but avoids conscious bias | Nonstatistical only |
+| **Block selection** | A contiguous group, such as all December disbursements | Rarely appropriate on its own, because one block seldom represents a full year |
 
 ---
 
-## Sampling Risk
+## Sampling Risk and Nonsampling Risk
 
-**Sampling risk** is the risk that the auditor's conclusion based on a sample differs from the conclusion that would be reached if the entire population were tested. It exists because the auditor examines only a subset of the population.
+**Sampling risk** is the risk that the auditor's conclusion from a sample differs from the conclusion the auditor would reach if the entire population were tested. It exists only because the auditor looked at a sample. Larger samples reduce it, and testing 100% of the items eliminates it.
 
-:::warning
+**Nonsampling risk** is the risk of a wrong conclusion for any other reason: choosing a procedure that cannot detect the problem (vouching recorded payables will never find an unrecorded one), misreading the evidence, or failing to recognize a deviation. A larger sample does nothing for nonsampling risk. Adequate planning, supervision, and the firm's quality management reduce it.
 
-Sampling risk can lead the auditor to reach an **incorrect conclusion**. The two types of incorrect conclusions depend on whether the auditor is performing tests of controls or substantive tests.
+### The Four Sampling Risks
 
-:::
+Sampling risk can push the auditor in either direction, and the consequences are not equal.
 
-### Sampling Risk for Tests of Controls
+| Procedure | Risk to audit **effectiveness** (wrong opinion) | Risk to audit **efficiency** (extra work) |
+|---|---|---|
+| **Test of controls** | **Risk of assessing control risk too low** (risk of overreliance): the sample suggests the control works when it does not | **Risk of assessing control risk too high** (risk of underreliance): the sample suggests the control fails when it works |
+| **Test of details** | **Risk of incorrect acceptance**: the sample suggests the balance is fairly stated when it is materially misstated | **Risk of incorrect rejection**: the sample suggests the balance is misstated when it is fairly stated |
 
-When testing controls, two types of sampling risk exist:
-
-| Risk | Definition | Effect | Impact |
-|---|---|---|---|
-| **Risk of assessing control risk too LOW** (risk of overreliance) | The sample suggests controls are effective when they are actually not | Auditor relies on ineffective controls and reduces substantive testing | Affects **audit effectiveness**; may lead to an incorrect opinion |
-| **Risk of assessing control risk too HIGH** (risk of underreliance) | The sample suggests controls are ineffective when they are actually working | Auditor does not rely on controls and performs excessive substantive testing | Affects **audit efficiency**; leads to more work than necessary |
-
-:::danger
-
-The risk of assessing control risk **too low** is the more serious risk because it can result in an inappropriate audit opinion. The risk of assessing control risk **too high** merely causes the auditor to do more work (an efficiency issue, not an effectiveness issue).
-
-:::
-
-### Sampling Risk for Substantive Tests
-
-When performing substantive tests, two types of sampling risk exist:
-
-| Risk | Definition | Effect | Impact |
-|---|---|---|---|
-| **Risk of incorrect ACCEPTANCE** | The sample suggests the balance is not materially misstated when it actually is | Auditor accepts a materially misstated balance | Affects **audit effectiveness**; may lead to an incorrect opinion |
-| **Risk of incorrect REJECTION** | The sample suggests the balance is materially misstated when it actually is not | Auditor rejects a balance that is fairly stated and performs additional unnecessary work | Affects **audit efficiency**; leads to wasted effort |
+The effectiveness risks are the dangerous ones. If the auditor relies on a control that does not work, or accepts a balance that is materially wrong, the audit can end in an inappropriate opinion. The efficiency risks are costly but self-correcting: the auditor does more testing than needed, and the extra work usually reveals that the population was fine.
 
 :::tip[Memory Aid]
 
-The "dangerous" sampling risks, the ones that affect audit **effectiveness**, are:
-- Tests of controls: Risk of assessing control risk **too low**
-- Substantive tests: Risk of **incorrect acceptance**
-
-Both of these risks can lead to issuing a wrong audit opinion.
+The risks that threaten the opinion are the ones that make things look **better** than they are: control risk assessed **too low**, and **incorrect acceptance**. Sample size planning focuses on these two.
 
 :::
 
----
+### Confidence Level
 
-## Relationship Between Sampling Risk and Confidence Level
-
-Sampling risk and the confidence level (also called the reliability level) are **complementary**: they sum to 100%.
+The **confidence level** (also called the reliability level) is the complement of sampling risk:
 
 $$
 \text{Confidence Level} + \text{Sampling Risk} = 100\%
 $$
 
-| Confidence Level | Sampling Risk | Interpretation |
-|---|---|---|
-| 95% | 5% | The auditor is 95% confident the sample results reflect the population; 5% chance they do not |
-| 90% | 10% | Lower confidence; higher sampling risk |
-| 99% | 1% | Very high confidence; very low sampling risk |
-
-:::info[Example]
-
-If the auditor wants only a 5% risk of incorrect acceptance when testing **Bear Co.'s** accounts receivable, they need a 95% confidence level. This will result in a larger sample size compared to accepting a 10% risk.
-
-:::
+If the auditor will accept only a 5% risk of incorrect acceptance when testing Bear Co.'s accounts receivable, the auditor is working at a 95% confidence level. Moving to 90% confidence (10% risk) allows a smaller sample, and moving to 99% confidence requires a larger one.
 
 ---
 
-## Attribute Sampling
+## How the Next Two Chapters Fit
 
-Attribute sampling is used primarily for **tests of controls**. It estimates the **rate of occurrence** of a specific characteristic (attribute) in a population, typically the deviation rate from a prescribed control.
-
-### How It Works
-
-1. The auditor defines the attribute of interest (e.g., whether a purchase order was properly approved)
-2. A sample is selected from the population
-3. Each item is evaluated as either having the attribute (deviation) or not
-4. The sample deviation rate is calculated
-5. The auditor compares the sample deviation rate to the **tolerable deviation rate**
-
-:::info[Example]
-
-The auditor tests **Polar Inc.'s** control requiring supervisory approval on all purchase orders over \$5,000. From a population of 500 such purchase orders, the auditor selects a sample of 60. If 3 items lack the required approval, the sample deviation rate is 3/60 = 5%.
-
-:::
-
-### Factors Affecting Attribute Sample Size
-
-Several factors influence how large the sample must be:
-
-| Factor | Relationship to Sample Size | Explanation |
-|---|---|---|
-| **Confidence level (1 - risk of overreliance)** | Direct | Higher confidence requires a larger sample |
-| **Tolerable deviation rate** | Inverse | Lower tolerable rate requires a larger sample (less room for error) |
-| **Expected population deviation rate** | Direct | Higher expected deviations require a larger sample |
-| **Population size** | Minimal effect | For large populations, size has negligible impact on sample size |
-
-:::tip
-
-Remember the relationships: Confidence level and expected deviation rate move in the **same direction** as sample size. Tolerable deviation rate moves in the **opposite direction**.
-
-:::
-
----
-
-## Upper Deviation Rate vs. Tolerable Deviation Rate
-
-After evaluating the sample, the auditor calculates (or looks up) the **upper deviation rate** (also called the achieved upper precision limit). This represents the maximum deviation rate in the population at the specified confidence level.
-
-| Term | Definition |
-|---|---|
-| **Tolerable deviation rate (TDR)** | The maximum rate of control deviations the auditor is willing to accept and still rely on the control |
-| **Upper deviation rate (UDR)** | The statistically calculated maximum deviation rate based on sample results |
-
-### Decision Rule
-
-- If **UDR ≤ TDR**, the control is operating effectively enough to rely upon
-- If **UDR > TDR**, the control is not operating effectively enough; the auditor should increase the assessed level of control risk and expand substantive procedures
-
-:::info[Example]
-
-The auditor sets a tolerable deviation rate of 7% for **Kodiak Partners'** cash disbursement approval control. After testing a sample, the calculated upper deviation rate is 5.2%. Since 5.2% ≤ 7%, the auditor concludes the control is operating effectively and can be relied upon.
-
-:::
-
----
-
-## Discovery Sampling
-
-Discovery sampling is a specialized form of attribute sampling designed to detect **at least one instance** of a critical deviation in a population, if such deviations exist at a specified rate or higher.
-
-Key characteristics:
-
-- Used when the expected deviation rate is **near zero**
-- The tolerable deviation rate is set very low
-- The sample is designed so that if deviations exist at or above the tolerable rate, the probability of finding at least one is high
-- If **any deviation** is found, the conclusion is that the deviation rate exceeds the tolerable level
-
-:::warning
-
-Discovery sampling is most appropriate for testing controls related to **fraud or compliance** where even a single deviation is significant, for example, testing whether any unauthorized wire transfers occurred at **Grizzly Industries**.
-
-:::
+The chapter on tests of controls covers attribute sampling in detail: defining a deviation, setting the tolerable deviation rate, sizing the sample, and comparing the upper deviation rate to the tolerable rate. The chapter on substantive tests covers variables sampling: probability-proportional-to-size sampling, the classical methods (mean-per-unit, ratio, and difference estimation), stratification, and how to project the misstatements found in a sample onto the whole population.

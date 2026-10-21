@@ -1,155 +1,86 @@
 # Auditing Cash and Investments
 
-Cash is the most liquid asset and therefore the most susceptible to theft and manipulation. The audit of cash focuses on confirming balances, testing reconciliations, and detecting fraud schemes such as lapping and kiting. The investment cycle requires verification of existence, valuation, and proper disclosure.
+Cash is the most liquid asset an entity owns, which makes it the easiest to steal and one of the easiest balances to manipulate around year-end. Investments raise a different problem: the balance may be easy to confirm, but its fair value can rest on models and judgment. This chapter covers the core cash procedures (confirmation and the bank reconciliation), two cash fraud schemes the exam likes (lapping and kiting), and then the audit of investments in securities, with emphasis on the audit considerations for measuring and disclosing fair value.
 
-## Cash Cycle
+---
+
+## Confirming Cash
+
+The auditor confirms cash balances directly with the financial institutions that hold them. For bank deposits and loans, the AICPA's **Standard Form to Confirm Account Balance Information with Financial Institutions** asks the bank to report each deposit balance and each direct loan, with its interest rate, due date, and collateral. Many confirmations are now sent and returned electronically through an intermediary service, which the auditor must evaluate for reliability (see [External Confirmations](../audit-evidence-and-procedures/external-confirmations.md)).
+
+The auditor sends requests to **every bank the client did business with during the year**, including banks where the client closed an account. An account closed in March may have been reopened, and a bank relationship may include a loan the client has not recorded. The standard form does not ask the bank to search its records comprehensively, so the auditor confirms lines of credit, compensating balance arrangements, and guarantees separately, usually with letters addressed to the bank officer responsible for the relationship.
+
+For issuers, PCAOB AS 2310 (effective for fiscal years ending on or after June 15, 2025) **requires** the auditor to confirm cash and cash equivalents held by third parties, or to obtain the same evidence by directly accessing information held by a knowledgeable external source, such as the bank's records. For nonissuers, current AICPA standards (AU-C 505) leave the decision to confirm cash to the auditor's judgment, although confirming bank balances is standard practice. SAS 150 adds an explicit cash confirmation requirement for nonissuers, but it is effective for periods ending on or after December 15, 2028, and is not testable until 2029.
+
+---
+
+## Testing the Bank Reconciliation
+
+The client's year-end bank reconciliation connects the balance the bank reports to the balance in the general ledger. The auditor tests it by:
+
+1. Agreeing the **balance per bank** to the bank confirmation and the **balance per books** to the general ledger.
+2. Recalculating the reconciliation.
+3. Tracing **outstanding checks** to checks that cleared the bank after year-end, and investigating any that are unusually large or long outstanding.
+4. Tracing **deposits in transit** to deposits the bank recorded shortly after year-end. A deposit that takes a week to appear deserves a question.
+5. Examining support for any other reconciling items.
+
+The key evidence for steps 3 and 4 is a **cutoff bank statement**: a statement covering a short period after year-end (often 7 to 10 days) that the bank sends **directly to the auditor**. Because it never passes through the client's hands, the client cannot alter it to hide a problem.
+
+**Example.** Kodiak Partners' December 31 bank reconciliation shows a balance per bank of \$425,000, outstanding checks of \$42,000, and a deposit in transit of \$15,000. The auditor agrees \$425,000 to the bank confirmation and recalculates: \$425,000 - \$42,000 + \$15,000 = \$398,000, which agrees with the general ledger. Using the cutoff bank statement through January 10, the auditor confirms that the outstanding checks cleared and that the bank recorded the \$15,000 deposit on January 2.
+
+---
+
+## Cash Fraud Schemes
 
 ### Lapping
 
-**Lapping** is a fraud scheme in which an employee conceals the theft of cash receipts by applying a subsequent customer's payment to the account of the customer whose payment was stolen.
+**Lapping** hides the theft of customer payments by applying later payments to the accounts of earlier customers. An employee at Panda Industries pockets a \$1,000 check from Customer A. When Customer B pays \$1,200, the employee credits \$1,000 of it to Customer A's account. When Customer C pays, part of that payment goes to Customer B, and so on. The shortage never disappears; it just moves from account to account, usually growing over time.
 
-#### How Lapping Works
-
-1. An employee at Panda Records receives a \$1,000 payment from Customer A and pockets the cash.
-2. When Customer B sends a \$1,200 payment, the employee applies \$1,000 of it to Customer A's account to hide the shortage.
-3. When Customer C pays, the employee applies part of that payment to Customer B's account.
-4. This cycle continues indefinitely, with the employee constantly "robbing Peter to pay Paul."
-
-:::warning
-
-Lapping becomes increasingly difficult to conceal over time because the employee must continuously redirect payments. The accounts are always partially out of date, and the total shortage grows.
-
-:::
-
-#### Detecting Lapping
-
-| Detection Method | How It Works |
-|---|---|
-| **Confirming receivables directly with customers** | Customers report balances that differ from the client's records |
-| **Comparing cash receipts listing (remittance advice) to deposits and AR postings** | Delays between receipt and posting become visible |
-| **Surprise cash counts** | Unexpected counts may reveal cash on hand that should have been deposited |
-| **Segregation of duties** | Ensuring the person who opens mail and lists cash receipts is not the same person who posts to AR |
+Lapping requires an employee who handles cash receipts and can also post to customer accounts, so the best prevention is segregating those duties. To detect it, the auditor compares the names, dates, and amounts on the **detailed deposit slips** (or the remittance list prepared when mail is opened) with the postings to individual customer accounts. Lapping shows up as payments posted to the wrong customers or posted days after the cash arrived. **Confirming receivables** can also expose it, because customers whose payments were diverted report balances lower than the client's records show.
 
 ### Kiting
 
-**Kiting** is a fraud scheme that exploits the time lag (float) between depositing a check and the check clearing the bank. The perpetrator transfers funds between bank accounts to conceal a cash shortage or to inflate cash balances at the reporting date.
+**Kiting** exploits the float, the days between depositing a check in one bank and that check clearing the bank it was drawn on. Near year-end, an employee at Bear Co. writes a check on Bank A and deposits it in Bank B. If the deposit is recorded before year-end but the disbursement is recorded after year-end, the same cash appears in both accounts on the balance sheet, overstating cash. Kiting can also conceal a shortage in one account.
 
-#### How Kiting Works
+The auditor's main tool is a **bank transfer schedule**, which lists every transfer between the client's accounts in the days around year-end, with the dates each side was recorded in the books and cleared each bank.
 
-1. Near year-end, an employee at Honey Entertainment writes a check from Bank Account A to Bank Account B.
-2. The deposit into Bank B is recorded before year-end, but the disbursement from Bank A is not recorded until after year-end.
-3. This makes it appear that cash exists in **both** accounts simultaneously, overstating the total cash balance.
-
-:::info[Bank Transfer Schedule]
-
-The primary tool for detecting kiting is a **bank transfer schedule**. This schedule lists all interbank transfers made around year-end and shows:
-- Date the check was recorded as a **disbursement** in the books
-- Date the check **cleared** Bank A (the paying bank)
-- Date the deposit was recorded as a **receipt** in the books
-- Date the deposit **cleared** Bank B (the receiving bank)
-
-If the receipt is recorded before year-end but the corresponding disbursement is recorded after year-end, kiting may be occurring.
-
-:::
-
-#### Example: Bank Transfer Schedule at Bear Co.
-
-| Transfer | Book Disbursement Date | Bank A Clear Date | Book Receipt Date | Bank B Clear Date | Potential Issue? |
+| Transfer | Disbursement recorded in books | Cleared Bank A | Receipt recorded in books | Cleared Bank B | Problem? |
 |---|---|---|---|---|---|
-| #1 | 12/30 | 1/3 | 12/30 | 1/2 | No; both sides recorded in same period |
-| #2 | **1/3** | 1/5 | **12/31** | 1/4 | **Yes; receipt recorded before disbursement (kiting indicator)** |
-| #3 | 12/29 | 1/2 | 12/29 | 1/3 | No; both sides recorded in same period |
+| #1 | 12/30 | 1/3 | 12/30 | 1/2 | No, both sides recorded in December |
+| #2 | **1/3** | 1/5 | **12/31** | 1/4 | **Yes, receipt recorded before the disbursement** |
+| #3 | 12/29 | 1/2 | 12/29 | 1/3 | No, both sides recorded in December |
 
-Transfer #2 is suspicious because the cash was recorded as received in Bank B on 12/31, but the corresponding disbursement from Bank A was not recorded until 1/3, inflating cash at year-end.
+Transfer #2 is the warning sign. Bear Co. recorded the deposit in Bank B on December 31 but did not record the matching disbursement from Bank A until January 3, so the transferred amount is counted twice in year-end cash.
 
-## Primary Cash Audit Procedures
+---
 
-### Bank Confirmations
+## Investments in Securities
 
-The auditor sends a **standard bank confirmation** (also known as a Standard Form to Confirm Account Balance Information with Financial Institutions) directly to each bank the client uses. The confirmation requests:
-- Account balances at a specified date
-- Loan balances outstanding
-- Interest rates and collateral
-- Other arrangements (lines of credit, contingent liabilities)
+### Existence, Rights, and Classification
 
-:::tip
+Most securities are held by a broker, bank, or trustee, so the auditor **confirms** the holdings with the custodian: a description and quantity of each security, and whether any are pledged or restricted. Securities the client holds itself are **inspected**, and the inspection takes place at the same time as the cash count (or with all liquid assets under the auditor's control). Otherwise an employee could use cash to cover missing securities, or securities to cover missing cash, by moving them between counts.
 
-Bank confirmations are sent to **all banks** the client has done business with during the period, including banks where accounts may have been closed. This helps detect undisclosed accounts or borrowings.
+Classification drives the accounting, so the auditor gathers evidence about management's intent. A debt security can be carried at amortized cost as held-to-maturity only if the entity has the positive intent and ability to hold it to maturity. The auditor looks for support in investment committee minutes and the entity's history of holding (or selling) such securities, and obtains a written representation about intent. The auditor also evaluates management's assessment of credit losses on debt securities, and for equity method investments obtains the investee's financial statements (preferably audited) to test the entity's share of earnings.
 
-:::
+### Fair Value: Audit Considerations
 
-### Bank Reconciliation Testing
+Fair value is an accounting estimate, so the approaches from [Auditing Accounting Estimates](./auditing-accounting-estimates.md) apply. What changes from one security to the next is how much judgment the measurement involves, and the fair value hierarchy is a good guide to the risk.
 
-The auditor tests the client's bank reconciliation to verify the reported cash balance. Key steps include:
+- **Level 1 (quoted prices in active markets).** The risk is low. The auditor agrees the prices to an independent source as of the measurement date, such as the closing exchange price on December 31, and recalculates quantity times price.
+- **Level 2 (observable inputs other than quoted prices).** Many securities, such as corporate bonds, are priced by a **pricing service** or a broker. The auditor obtains an understanding of the service's methods and inputs, considers whether a broker quote is a binding offer or only an indication, and often compares a sample of prices to a second independent source.
+- **Level 3 (unobservable inputs).** The value comes from a model, such as discounted cash flows for a private company investment. The auditor tests management's method, significant assumptions (such as the discount rate and projected cash flows), and data, or develops an independent estimate. A valuation specialist is often involved. Because small changes in assumptions can move the value a great deal, the auditor pays close attention to sensitivity and to bias.
 
-1. **Obtain the bank statement and reconciliation** for the period end
-2. **Trace the balance per bank** to the bank confirmation
-3. **Trace the balance per books** to the general ledger
-4. **Test outstanding checks**: verify they cleared in the subsequent period; investigate long-outstanding checks
-5. **Test deposits in transit**: verify they cleared the bank shortly after year-end
-6. **Verify reconciling items**: examine other adjustments for validity
-7. **Request a cutoff bank statement**: obtain a bank statement for a period (typically 7 to 10 days) after year-end to test subsequent clearing of outstanding items
+The auditor's responsibility is to evaluate fair value **as of the measurement date**, using conditions that existed at that date. The auditor is not responsible for predicting future market moves. A market decline in February does not make a December 31 fair value wrong, although a significant decline may call for a subsequent events disclosure.
 
-### Example: Bank Reconciliation at Kodiak Partners
+Disclosure is part of the measurement, not an afterthought. The auditor checks that the notes present the level of the hierarchy for each class of securities, the valuation techniques and significant inputs for Level 2 and Level 3 measurements, and (for Level 3) a reconciliation of the opening and closing balances.
 
-The auditor of Kodiak Partners receives the December 31 bank reconciliation. The bank confirmation shows a balance of \$425,000. The books show \$398,000. Outstanding checks total \$42,000 and deposits in transit total \$15,000. The auditor verifies that \$425,000 - \$42,000 + \$15,000 = \$398,000, which agrees with the books. The auditor then obtains a cutoff bank statement through January 10 to confirm that the outstanding checks cleared and the deposit in transit was received by the bank.
+### Example: Grizzly Industries' Portfolio
 
-## Investment Cycle
+Grizzly Industries holds listed equity securities, corporate bonds, and a minority stake in a private company. The auditor:
 
-### Confirmation of Securities
-
-For investments held by third-party custodians (brokers, banks, trust companies), the auditor sends **confirmations** requesting:
-- Description and quantity of securities held
-- Whether securities are pledged as collateral
-- Any restrictions on the investments
-
-### Physical Inspection
-
-If the client holds investment securities on its premises, the auditor should **physically inspect** them simultaneously with the cash count. This prevents an employee from using securities to cover a cash shortage (or vice versa).
-
-:::note
-
-All liquid assets (cash, securities, negotiable instruments) should be counted **simultaneously** or placed under the auditor's control to prevent substitution.
-
-:::
-
-### Evaluation of Disclosures
-
-The auditor verifies that investment disclosures comply with applicable standards, including:
-- Classification (trading, available-for-sale, held-to-maturity, equity method)
-- Fair value measurement methodology (Level 1, 2, or 3 inputs)
-- Unrealized gains and losses
-- Impairment considerations
-- Concentrations and related risks
-
-### Example: Investments at Grizzly Industries
-
-Grizzly Industries holds a portfolio of equity securities and corporate bonds. The auditor confirms the holdings with the brokerage firm, verifies fair values using independent pricing sources, and reviews the financial statement disclosures for proper classification and measurement under ASC 320/321.
-
-## Auditing Fair Values
-
-:::warning[Important Distinction]
-
-The auditor is responsible for obtaining **sufficient appropriate audit evidence** that fair value measurements and disclosures are reasonable and in conformity with the applicable financial reporting framework. However, the auditor is **not responsible for predicting future conditions, transactions, or events** that might affect fair values.
-
-:::
-
-When auditing fair values, the auditor may:
-- **Test management's process** for determining fair values
-- **Develop an independent estimate** of fair value for comparison
-- **Review subsequent events** that confirm or contradict the fair value estimate
-- **Evaluate the reasonableness of significant assumptions** used by management
-- **Assess the work of a specialist** engaged by management to determine fair values (e.g., an appraiser)
-
-### Example: Fair Value at Polar Inc.
-
-Polar Inc. holds Level 3 investments (valued using unobservable inputs). The auditor reviews management's valuation model, tests the key assumptions (discount rate, growth projections), develops an independent estimate using alternative assumptions, and evaluates whether subsequent events (such as a sale of similar assets in January) corroborate the year-end fair value.
-
-## Summary
-
-| Area | Key Procedures | Primary Assertions |
-|---|---|---|
-| Cash | Bank confirmations, reconciliation testing, cutoff bank statement, bank transfer schedule | Existence, Completeness, Valuation |
-| Lapping Detection | Confirmations, comparing receipts to postings, surprise counts | Existence, Valuation |
-| Kiting Detection | Bank transfer schedule around year-end | Existence, Cutoff |
-| Investments | Confirmations, physical inspection, fair value testing | Existence, Valuation, Disclosure |
+- Confirms the listed securities and bonds with the brokerage firm and confirms the private company shares with the investee.
+- Agrees the year-end prices of the listed equities (Level 1) to closing exchange prices.
+- Obtains an understanding of how the pricing service values the corporate bonds (Level 2) and compares a sample of its prices to a second pricing source.
+- Engages a valuation specialist to evaluate the discounted cash flow model for the private company stake (Level 3), tests the projected cash flows against the investee's budgets and history, and compares the discount rate to rates for similar companies.
+- Notes that a comparable private company was sold in January at a price consistent with Grizzly's valuation, which corroborates the year-end amount.
+- Reviews the fair value disclosures, including the Level 3 reconciliation.

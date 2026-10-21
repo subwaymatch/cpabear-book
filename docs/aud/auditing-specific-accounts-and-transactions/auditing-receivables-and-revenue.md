@@ -1,134 +1,106 @@
 # Auditing Receivables and Revenue
 
-The revenue cycle is one of the most critical areas of the audit because revenue recognition is a presumed fraud risk under auditing standards. Understanding the flow of transactions, from sales order through cash collection, is essential for designing effective audit procedures.
+Revenue is usually the largest number on the income statement and the one management is most tempted to inflate, which is why auditing standards presume a risk of fraud in revenue recognition. Receivables travel with revenue: a fictitious sale leaves behind a fictitious receivable. This chapter starts with the controls in the revenue cycle, then explains the fraud presumption and the substantive procedures that respond to it: tests in both directions, cutoff, confirmation of receivables, and evaluation of the allowance for credit losses.
 
-## Revenue Cycle Overview
+---
 
-The revenue cycle involves several key departments, each with distinct responsibilities that provide internal controls through segregation of duties.
+## Controls in the Revenue Cycle
 
-### Departments and Responsibilities
+A well-controlled revenue cycle splits the work so that no one person can both create a sale and hide its effects.
 
-| Department | Key Responsibilities |
+| Function | Responsibility |
 |---|---|
-| **Sales Order** | Receives customer orders, prepares sales orders, and initiates the transaction |
-| **Credit Approval** | Evaluates customer creditworthiness and authorizes credit sales before goods are shipped |
-| **Shipping** | Ships goods to the customer and prepares the **bill of lading** (shipping document proving goods left the warehouse) |
-| **Billing/Invoicing** | Prepares and sends invoices to customers based on shipping documents and approved sales orders |
-| **Accounts Receivable** | Maintains the subsidiary ledger of customer balances |
-| **General Accounting** | Records transactions in the general ledger and reconciles subsidiary ledgers |
-| **Cashier/Mail Room** | Receives and deposits customer payments; prepares the **cash receipts listing** (remittance list) |
+| **Sales order** | Receives the customer's order and prepares a sales order |
+| **Credit approval** | Approves credit before goods are shipped |
+| **Shipping** | Ships only approved orders and prepares the **bill of lading** (the shipping document) |
+| **Billing** | Invoices the customer by matching the sales order to the shipping document |
+| **Accounts receivable** | Maintains the subsidiary ledger of customer balances |
+| **Cash receipts** | Opens the mail and prepares a **remittance list** of payments received |
+| **General accounting** | Posts to the general ledger and reconciles it to the subsidiary ledger |
 
-:::info[Cash Receipts Flow]
+When payments arrive, the person opening the mail lists them on the remittance list. The checks go to the cashier for deposit intact each day, a copy of the list goes to accounts receivable for posting to customer accounts, and another copy goes to general accounting to compare against the deposit. Because the person who handles the cash never records it, a theft would show up as a difference between the deposit and the postings. Without this split, an employee could steal payments and hide the theft by lapping (see [Auditing Cash and Investments](./auditing-cash-and-investments.md)).
 
-When cash is received, a **cash receipts listing** (also called a remittance listing or prelist) is prepared and distributed to three areas:
-1. **Cashier**: deposits funds intact daily
-2. **Accounts Receivable**: posts payments to customer accounts in the subsidiary ledger
-3. **General Accounting**: records the deposit in the general ledger and reconciles
+The same logic applies to write-offs. Writing off an uncollectible account should be approved by someone independent of both cash receipts and accounts receivable, typically in the treasurer's office. Otherwise an accounts receivable clerk at Polar Inc. could write off a customer's balance, then pocket the customer's payment when it arrives, and no one would notice the missing cash.
 
-This three-way distribution ensures no single individual can both handle cash and record the transaction.
+---
 
-:::
+## Revenue Is a Presumed Fraud Risk
 
-### Example: Revenue Cycle at Bear Co.
+Under AU-C 240 (AICPA) and AS 2401 (PCAOB), the auditor presumes that there are **risks of material misstatement due to fraud in revenue recognition**. The auditor identifies which types of revenue, transactions, or assertions give rise to that risk. Common schemes include recording fictitious sales, recognizing revenue before control transfers to the customer, bill-and-hold arrangements that do not meet the criteria, and side agreements that give customers rights of return the contract does not show. The presumption can be overcome, for example when an entity has a single, simple type of revenue such as rent from one property, but the auditor must document the reasons.
 
-Bear Co. receives an order from a customer. The **sales order department** enters the order and routes it to **credit approval**, which checks the customer's credit history and limit. Once approved, the **shipping department** packages and ships the goods, generating a bill of lading. The **billing department** then matches the approved sales order with the shipping document and sends an invoice. When payment arrives, the **mail room** prepares a cash receipts listing and forwards it to the cashier, accounts receivable, and general accounting.
+The response typically combines several procedures: confirming contract terms (including the absence of side agreements) with customers, testing cutoff, examining credit memos and returns recorded after year-end, and analytical procedures such as revenue by month, gross margin, and days sales outstanding. A spike in revenue in the last week of the year, followed by heavy returns in January, is the pattern to look for.
 
-## Credit Loss Write-Off Approval
+---
 
-:::warning
+## Testing in Both Directions
 
-Write-offs of uncollectible accounts should be approved by the **treasurer's department** (or an officer independent of the accounts receivable and cash receipts functions). This segregation prevents employees who handle cash from concealing theft by writing off legitimate receivables.
+The direction of a test determines which assertion it addresses.
 
-:::
-
-For example, at Polar Inc., the accounts receivable clerk identifies a delinquent account. The clerk prepares a write-off memorandum, but only the **treasurer** has authority to approve the actual write-off. This control prevents the AR clerk from writing off an account and pocketing subsequent payments.
-
-## Accounts Receivable Confirmations
-
-Confirmations are a primary substantive procedure for verifying the existence and accuracy of receivable balances. The auditor sends requests directly to customers asking them to verify amounts owed.
-
-### Types of Confirmations
-
-| Type | Description | Best Used When |
-|---|---|---|
-| **Positive Confirmation** | Asks the customer to respond whether they agree or disagree with the stated balance | Combined assessed risk of material misstatement is **high**; large individual balances; accounts in dispute |
-| **Negative Confirmation** | Asks the customer to respond **only if they disagree** with the stated balance | Combined assessed risk of material misstatement is **low**; large number of small, homogeneous balances; low expected exception rate; no reason to believe recipients will disregard the request |
-| **Blank (Open) Confirmation** | A type of positive confirmation that does **not** state the balance; it asks the customer to fill in the amount or provide details | Provides stronger evidence because the customer must look up the balance independently rather than simply agreeing |
+- **Vouching** starts with a recorded entry and works back to the source documents. Selecting sales from the sales journal and examining the related customer orders and shipping documents tests **occurrence**: did the recorded sale really happen?
+- **Tracing** starts with source documents and works forward to the records. Selecting bills of lading from the shipping department's file and tracing them to the sales journal tests **completeness**: was every shipment recorded?
 
 :::tip[Exam Tip]
 
-Blank confirmations are considered the **most reliable** form because the customer cannot simply agree without verifying. However, response rates tend to be lower because they require more effort from the respondent.
+Ask where the sample came from. A sample drawn from the **journal or ledger** can only test whether recorded items are valid (occurrence or existence). A sample drawn from **source documents** outside the accounting records can test whether anything was left out (completeness).
 
 :::
 
-### Example: Confirmations at Kodiak Partners
+---
 
-The auditor of Kodiak Partners selects a sample of receivable balances for confirmation:
-- **Large balances** from Grizzly Industries and Honey Entertainment receive **positive confirmations** because of the material amounts involved.
-- A large pool of **small retail customer balances** receives **negative confirmations** because the individual amounts are immaterial, internal controls are strong, and the accounts are expected to be largely correct.
-- One disputed balance from Panda Records receives a **blank confirmation** to obtain the customer's independent calculation of the amount owed.
+## Cutoff
 
-## Common Revenue Cycle Audit Procedures
+Cutoff testing checks that sales near year-end are recorded in the right period. Under ASC 606, revenue from selling goods is recognized when control passes to the customer, which for shipped goods often depends on the shipping terms: FOB shipping point usually transfers control at shipment, and FOB destination at delivery. The auditor examines shipping documents for the last few days before and the first few days after year-end and compares them to the dates and terms of the recorded sales. The auditor also reviews credit memos and returns recorded after year-end, since a large return in January may reveal a December sale that should not have been recorded.
 
-### 1. Tracing Shipping Documents to the Sales Journal
+If Cub Entertainment shipped goods FOB shipping point on January 2 but recorded the sale on December 30, revenue and receivables are overstated at year-end.
 
-The auditor selects a sample of **shipping documents** (bills of lading) and traces them forward to the sales journal to test for **completeness**, ensuring all shipments were recorded as sales.
+---
 
-:::note[Direction of Testing]
+## Confirming Receivables
 
-- **Tracing** (from source document to journal) tests **completeness** (Did we record everything that happened?)
-- **Vouching** (from journal to source document) tests **existence/occurrence** (Did a transaction really happen?)
+Confirmation sends a request directly to the customer and asks the customer to respond directly to the auditor. It is strong evidence that a receivable **exists**, because it comes from an independent outside party. It is weaker evidence of **valuation**: a customer may confirm that it owes \$50,000 and still be unable to pay.
 
-:::
+### When Confirmation Is Expected
 
-### 2. Vouching Sales Journal Entries to Supporting Documents
+The two standard setters both expect receivables to be confirmed, but they frame the rule differently.
 
-The auditor selects entries from the **sales journal** and vouches them back to shipping documents, sales orders, and customer purchase orders to verify that recorded sales actually occurred.
+**Nonissuers (AICPA).** AU-C 330 presumes that the auditor will use external confirmation procedures for accounts receivable. The auditor may skip confirmation only when one of three conditions applies:
 
-### 3. Cutoff Testing
+1. The overall account balance is immaterial.
+2. Confirmation would be ineffective (for example, the customers are known not to respond).
+3. The assessed risk of material misstatement is low, and other planned substantive procedures address that risk.
 
-The auditor examines transactions recorded near the **period end** to ensure revenue is recorded in the correct accounting period. This involves:
-- Examining the **last few shipping documents** before and after year-end
-- Comparing shipping dates to the dates sales were recorded
-- Reviewing credit memos issued after year-end
+An auditor who does not confirm must document how the presumption was overcome.
 
-For example, if Ursa Security shipped goods on January 2 but recorded the sale on December 30, revenue would be overstated in the current period.
+**Issuers (PCAOB).** AS 2310 requires the auditor to confirm receivables or to obtain the evidence by **directly accessing** information held by a knowledgeable external source. If neither is feasible, the auditor performs other substantive procedures, including tests of details that obtain external evidence indirectly, such as examining subsequent cash receipts. When a significant risk involves receivables and the auditor neither confirmed nor used direct access, the auditor must tell the audit committee.
 
-### 4. Accounts Receivable Confirmations
+### Positive, Negative, and Blank Requests
 
-As discussed above, the auditor sends confirmations directly to customers to verify account balances exist and are accurately stated.
+| Type | What it asks | When it fits |
+|---|---|---|
+| **Positive** | The customer replies in every case, agreeing or disagreeing with the stated balance | Large balances, higher assessed risk, or reason to expect disputes |
+| **Blank (a form of positive request)** | The customer fills in the balance without being told the client's amount | When the auditor wants to avoid customers signing without checking; more reliable, but response rates are lower |
+| **Negative** | The customer replies only if it disagrees | Many small, similar balances where little misstatement is expected |
 
-### 5. Allowance for Credit Losses Testing
+Silence is weak evidence, so negative requests come with limits. Under AICPA standards, negative confirmations may be the **only** substantive procedure for an assertion only when all of these are true: the risk of material misstatement is assessed as low and the auditor has evidence that relevant controls operate effectively; the population consists of a large number of small, homogeneous balances; a very low exception rate is expected; and the auditor has no reason to believe recipients will ignore the request. Under PCAOB AS 2310, negative confirmations are **never sufficient on their own**; they provide evidence only when combined with other substantive procedures.
 
-The auditor evaluates management's estimate of the allowance for doubtful accounts by:
-- Reviewing the **aging schedule** of accounts receivable
-- Evaluating historical collection rates
-- Considering current economic conditions
-- Examining subsequent cash collections (payments received after year-end)
-- Testing the accuracy of the aging categories by vouching individual invoices
+**Example.** The auditor of Kodiak Partners sends **positive** requests to its largest customers, Grizzly Industries and Cub Entertainment, because their balances are material. For several thousand small retail accounts, controls are effective and few errors are expected, so the auditor sends **negative** requests and, because Kodiak Partners is a nonissuer meeting all four conditions, may rely on them for that group.
 
-### 6. Disclosure Review
+Exceptions, nonresponses, and the alternative procedures that replace a missing reply (such as tracing subsequent cash receipts to the bank, or examining the sales invoice and shipping document) are covered in [External Confirmations](../audit-evidence-and-procedures/external-confirmations.md).
 
-The auditor verifies that financial statement disclosures related to revenue and receivables are complete and accurate, including:
-- Revenue recognition policies
-- Pledged or assigned receivables
-- Related party receivables
-- Concentrations of credit risk
-- Allowance methodology
+---
 
-:::danger[Common Pitfall]
+## The Allowance for Credit Losses
 
-Revenue is a **presumed fraud risk** under AU-C 240 / AS 2401. The auditor must always consider the risk that revenue is fictitious or recorded in the wrong period, even if no specific fraud risk factors are identified. This presumption can be rebutted, but only with documented justification.
+The allowance is an accounting estimate, so the approaches in [Auditing Accounting Estimates](./auditing-accounting-estimates.md) apply. Typical procedures include:
 
-:::
+- Testing the **aging schedule** by recalculating it and vouching a sample of invoices to confirm they sit in the right age category.
+- Examining **cash collected after year-end**, which is direct evidence that a balance was collectible.
+- Evaluating management's loss rates against the entity's collection history and its forecast of economic conditions, as the current expected credit loss model requires.
+- Reviewing large past-due accounts with the credit manager and reading the customers' credit files.
+- Comparing last year's allowance to the write-offs that actually followed.
 
-## Summary
+---
 
-| Procedure | Primary Assertion Tested |
-|---|---|
-| Trace shipping docs to sales journal | Completeness |
-| Vouch sales journal to shipping docs | Occurrence/Existence |
-| Cutoff testing | Cutoff (Period) |
-| AR confirmations | Existence, Rights, Valuation |
-| Allowance testing | Valuation |
-| Disclosure review | Presentation and Disclosure |
+## Presentation and Disclosure
+
+The auditor also checks that the notes and the balance sheet tell users what they need to know: receivables that have been **pledged, factored, or sold** (which also bear on the rights assertion), receivables from related parties, concentrations of credit risk, the entity's revenue recognition policies, and the disaggregation of revenue and contract balances required by ASC 606.
