@@ -1,259 +1,171 @@
 # Fund Balances and Components
 
-**GASB Statement No. 54** (Fund Balance Reporting and Governmental Fund Type Definitions) established a **five-category hierarchy** for classifying fund balance in governmental funds. This framework replaced the older reserved/unreserved/designated system and provides financial statement users with clearer information about the constraints on how resources can be spent. Understanding the definitions, hierarchy, spending order, and journal entries for fund balance reclassification is essential for the CPA exam.
+A governmental fund's balance sheet ends with **fund balance**: the difference between its assets plus deferred outflows and its liabilities plus deferred inflows. A single number is not very useful to a reader, though. A General Fund balance of \$4 million might be free to spend on anything, or it might be tied up in inventory, promised to a grantor, or set aside by the council for a new fire station. **GASB 54** answers that question by splitting fund balance into five classifications, based on how strictly the government is bound to spend the resources for particular purposes.
 
-:::info[Blueprint Coverage]
-
-This section maps to **BAR Area III, Group C, Topic 2: Fund Balances and Components Thereof**. Representative tasks:
-
-1. **Calculate** the fund balances (assigned, unassigned, nonspendable, committed and restricted) for state and local governments and prepare journal entries.
-
-:::
+The BAR blueprint asks you to calculate each of the five classifications (nonspendable, restricted, committed, assigned, and unassigned) and to prepare the related journal entries. This chapter defines each classification, explains the spending order and how each fund type uses the classifications, and then classifies a full General Fund balance.
 
 ---
 
-## The Five Categories of Fund Balance
+## The Five Classifications
 
-Fund balance is classified from **most constrained** to **least constrained**:
+The classifications run from the most constrained to the least constrained.
 
-| Category | Constraint Source | Can Be Spent? | Examples |
-|---|---|---|---|
-| **Nonspendable** | Form of the resource | No (not in spendable form or must be maintained intact) | Inventory, prepaid items, long-term receivables, permanent fund principal |
-| **Restricted** | External parties or legislation | Only for specified purpose | Federal grant requirements, state statute constraints, bond covenants |
-| **Committed** | Government's highest decision-making authority | Only for specified purpose (requires formal action to remove) | Council resolution committing funds for future capital project |
-| **Assigned** | Governing body or its designee | Intended for a specific purpose | City manager designates funds for technology upgrades |
-| **Unassigned** | No constraint | Yes; available for any purpose | Residual balance in the General Fund |
+| Classification | Source of the constraint | Examples |
+|---|---|---|
+| **Nonspendable** | The form of the resource, or a requirement to keep it intact | Inventory, prepaid items, long-term loans receivable, permanent fund principal |
+| **Restricted** | External parties (creditors, grantors, contributors, other governments' laws) or the government's own constitution or enabling legislation | Unspent grant money, a debt service reserve required by bond covenants, a dedicated tax required by state law |
+| **Committed** | Formal action of the government's **highest level of decision-making authority** | An ordinance setting aside money for a new fire station |
+| **Assigned** | The government's **intent**, expressed by the governing body or an official it has authorized | Amounts the finance director earmarks for technology upgrades |
+| **Unassigned** | No constraint; the residual | The remaining General Fund balance |
 
-```mermaid
-flowchart TD
-    A[Total Fund Balance] --> B[Nonspendable]
-    A --> C[Spendable]
-    C --> D[Restricted]
-    C --> E[Committed]
-    C --> F[Assigned]
-    C --> G[Unassigned]
-    style B fill:#f9d5d5
-    style D fill:#f9e4b7
-    style E fill:#d5f5d5
-    style F fill:#d5e8f9
-    style G fill:#e8e8e8
-```
+The first classification is about form; the other four, together called **spendable** fund balance, are about the strength of the constraint.
 
 ---
 
-## Detailed Definitions
+## The Classifications in Detail
 
-### Nonspendable Fund Balance
+### Nonspendable
 
-Resources that are **not in spendable form** or are **legally or contractually required to be maintained intact**:
+Nonspendable fund balance includes amounts that are **not in spendable form**, such as inventory and prepaid items, and amounts that are **legally or contractually required to be maintained intact**, such as the principal of a permanent fund. Long-term receivables and property acquired for resale are also nonspendable, unless the proceeds when collected or sold are already restricted, committed, or assigned. In that case, they go in that classification instead.
 
-- Inventory and prepaid items (not in cash form)
-- Long-term portion of loans receivable
-- Principal of a permanent (endowment) fund
-- Property held for resale (not yet converted to cash)
+Nonspendable does not mean "never spent." It means not spendable now. When inventory is used or a prepaid item expires, the constraint goes away.
 
-:::tip[Exam Tip]
+### Restricted
 
-Nonspendable does not mean the resources can never be spent; it means they are not **currently** available for spending. When inventory is sold or prepaids expire, the constraint no longer applies.
+Restricted fund balance carries constraints that the government cannot remove on its own. They come from **outside parties** (creditors through debt covenants, grantors, contributors, or the laws of other governments) or from **constitutional provisions or enabling legislation**. Enabling legislation is a law the government itself passes that both authorizes a revenue (such as a tax) and legally requires it to be used for a specific purpose that outsiders can enforce.
 
-:::
+### Committed
 
-### Restricted Fund Balance
+Committed fund balance is constrained by **formal action** (an ordinance or resolution) of the government's highest level of decision-making authority, typically the city council or county board. Only the same body, through the same type of action, can remove or change the commitment. The action must be taken **before year-end**, although the exact amount may be determined after year-end.
 
-Resources subject to externally enforceable constraints imposed by:
+### Assigned
 
-- **Creditors** (bond covenants requiring reserves)
-- **Grantors** (federal grants restricted to specific programs)
-- **Contributors** (donations with donor-imposed restrictions)
-- **Laws or regulations of other governments** (state law requiring specific use)
-- **Constitutional provisions or enabling legislation**
+Assigned fund balance reflects the government's **intent** to use resources for a specific purpose, where the intent falls short of a restriction or commitment. The intent can be expressed by the governing body itself or by a body or official it has delegated authority to, such as a finance committee or the finance director. No formal ordinance is needed. Two common sources of assigned fund balance:
 
-### Committed Fund Balance
+- **Fund balance appropriated in next year's budget.** If the next year's budget uses part of the existing fund balance to cover a projected deficit, that amount (up to the projected excess of expenditures over revenues) is assigned. An assignment can never push unassigned fund balance below zero.
+- **Outstanding encumbrances.** Encumbered amounts are reported within whichever classification already applies to the resources; for ordinary General Fund money, that is usually assigned (see [Budgetary Accounting and Encumbrances](budgetary-accounting-and-encumbrances.md)). GASB 54 does not allow a separate "encumbrances" classification.
 
-Resources constrained by **formal action** of the government's **highest level of decision-making authority** (e.g., governing board, city council). The constraint can only be removed or changed by the same level of authority through the same formal process.
+In governmental funds other than the General Fund, assigned also serves as the residual: whatever is not nonspendable, restricted, or committed is assigned to the purpose of that fund.
 
-**Key requirements:**
-- Action must be taken **before** year-end (even if the amount is determined after year-end)
-- Commitment must be formalized by resolution, ordinance, or equivalent
+### Unassigned
 
-### Assigned Fund Balance
-
-Resources intended for a specific purpose by the **governing body** or a **body or official authorized by the governing body** (e.g., city manager, finance director). Less formal than committed; does not require a resolution.
-
-### Unassigned Fund Balance
-
-The **residual** classification for the General Fund: amounts not classified in any other category. Represents the most flexible resources available.
+Unassigned fund balance is the residual classification for the **General Fund**: everything not placed in another classification.
 
 :::warning[Critical Rule]
 
-Only the **General Fund** can report a **positive** unassigned fund balance. Other governmental funds (special revenue, capital projects, debt service, permanent) can only report a **negative** unassigned balance, which occurs when restricted or committed resources have been overspent.
+Only the **General Fund** reports a **positive** unassigned fund balance. Another governmental fund can report unassigned fund balance only as a **negative** amount, which arises when its expenditures for a purpose exceed the resources restricted, committed, and assigned to that purpose.
 
 :::
 
 ---
 
-## Spending Order (Hierarchy)
+## Spending Order
 
-When an expenditure is incurred for a purpose where multiple fund balance classifications are available, GASB 54 establishes a **default spending order**:
+When an expenditure qualifies for more than one classification, which resources are used first? GASB 54 sets a default: **restricted** amounts are spent first, then, among unrestricted amounts, **committed**, then **assigned**, then **unassigned**. The most constrained money goes first.
 
-$$
-\text{Restricted} \rightarrow \text{Committed} \rightarrow \text{Assigned} \rightarrow \text{Unassigned}
-$$
-
-The most constrained resources are spent **first** unless the government has formally adopted a different spending policy.
-
-| Priority | Category Used First | Rationale |
-|---|---|---|
-| 1st | Restricted | External constraints satisfied first |
-| 2nd | Committed | Highest internal authority constraint |
-| 3rd | Assigned | Management intent |
-| 4th | Unassigned | Residual / unrestricted |
-
-:::tip[Exam Tip]
-
-A government **may** establish a different spending policy (e.g., spend assigned before committed). If the question states a specific policy, follow it. If no policy is stated, apply the default order.
-
-:::
+A government may adopt a different policy, for example spending unassigned before assigned. If an exam question states a policy, follow it; if it does not, use the default. Either way, the policy is disclosed in the notes.
 
 ---
 
 ## Fund Balance by Fund Type
 
-| Fund Type | Typical Fund Balance Categories |
+| Fund type | Classifications typically used |
 |---|---|
-| **General Fund** | All five categories possible; only fund with positive unassigned |
-| **Special Revenue Fund** | Restricted and/or committed (by definition, must have a restricted/committed revenue source) |
-| **Capital Projects Fund** | Restricted, committed, or assigned |
-| **Debt Service Fund** | Restricted (typically by bond covenant) |
-| **Permanent Fund** | Nonspendable (principal) + restricted (spendable earnings) |
+| **General Fund** | All five; the only fund with positive unassigned |
+| **Special revenue fund** | Restricted or committed (its main revenue source must be restricted or committed); assigned for any other resources |
+| **Capital projects fund** | Restricted, committed, or assigned |
+| **Debt service fund** | Restricted, committed, or assigned |
+| **Permanent fund** | Nonspendable (the principal) and restricted (the spendable earnings) |
 
 ---
 
 ## Stabilization Arrangements
 
-Governments may set aside resources for **stabilization** (rainy day funds). Classification depends on the constraint:
+Many governments keep a "rainy day" amount for emergencies or revenue shortfalls. GASB 54 classifies it by the source of the constraint, but it sets a high bar for anything other than unassigned.
 
 | Circumstance | Classification |
 |---|---|
-| Stabilization formally established by highest authority with specific conditions for use | **Committed** |
-| Stabilization required by enabling legislation or constitutional provision | **Restricted** |
-| Stabilization informally earmarked by management | **Assigned** |
+| Required by enabling legislation, a constitution, or an outside party | **Restricted** |
+| Set by formal action of the highest decision-making authority, with specific circumstances for its use that are not expected to occur routinely | **Committed** |
+| Does not meet the criteria for restricted or committed | **Unassigned** (in the General Fund) |
 
-Stabilization amounts should **not** be presented as unassigned unless no constraint exists.
+The last row is the one candidates miss. A stabilization amount that is only informally earmarked, or whose conditions for use are routine, is **not** assigned. It stays in unassigned fund balance.
 
 ---
 
-## Journal Entries for Fund Balance Reclassification
+## Journal Entries for Reclassifications
 
-Fund balance reclassifications do not involve revenues or expenditures; they are equity-to-equity entries.
+Reclassifying fund balance moves amounts between classifications. It never involves revenues or expenditures, and it never changes total fund balance.
 
-### Committing Fund Balance
-
-The city council passes a resolution committing \$500,000 for a future park renovation:
+The council passes an ordinance committing \$500,000 for a park renovation:
 
 ```journal
 Dr. Fund Balance (Unassigned)[e] 500,000
-    Cr. Fund Balance (Committed)[e] 500,000
+Cr. Fund Balance (Committed)[e] 500,000
 ```
 
-### Assigning Fund Balance
-
-The finance director designates \$200,000 for technology upgrades next year:
+The finance director, under authority delegated by the council, earmarks \$200,000 for technology upgrades:
 
 ```journal
 Dr. Fund Balance (Unassigned)[e] 200,000
-    Cr. Fund Balance (Assigned)[e] 200,000
+Cr. Fund Balance (Assigned)[e] 200,000
 ```
 
-### Removing a Commitment
-
-The council rescinds the park renovation commitment:
+The council later rescinds the park commitment by ordinance:
 
 ```journal
 Dr. Fund Balance (Committed)[e] 500,000
-    Cr. Fund Balance (Unassigned)[e] 500,000
+Cr. Fund Balance (Unassigned)[e] 500,000
 ```
 
-### Recording Nonspendable Fund Balance for Inventory
-
-At year-end, the government has \$75,000 of supplies inventory (consumption method):
+At year-end, the General Fund has \$75,000 of supplies inventory under the consumption method:
 
 ```journal
 Dr. Fund Balance (Unassigned)[e] 75,000
-    Cr. Fund Balance (Nonspendable)[e] 75,000
+Cr. Fund Balance (Nonspendable)[e] 75,000
 ```
-
-:::warning[Important]
-
-Fund balance reclassification entries are typically made at year-end as part of the closing process. They do **not** affect the total fund balance; they only change its composition among the five categories.
-
-:::
 
 ---
 
-## Comprehensive Numerical Example
+## Comprehensive Example
 
-**Maple Township General Fund: Fund Balance Classification at June 30, 20X5**
+**Panda Township General Fund, June 30, 20X5.** Total fund balance is \$4,200,000. The township has the following items:
 
-Given the following information, classify the total fund balance of \$4,200,000:
-
-| Item | Amount | Source of Constraint |
+| Item | Amount | Source of constraint |
 |---|---|---|
 | Inventory of supplies | \$90,000 | Not in spendable form |
-| Prepaid insurance | \$35,000 | Not in spendable form |
-| State grant for road maintenance (unspent) | \$600,000 | State law |
-| Federal grant for homeless services | \$280,000 | Federal grantor |
-| Council resolution for new fire station | \$1,000,000 | Governing body formal action |
-| Manager's designation for IT systems | \$350,000 | Authorized official |
-| Remaining balance | Residual | No constraint |
+| Prepaid insurance | 35,000 | Not in spendable form |
+| Unspent state grant for road maintenance | 600,000 | State law |
+| Unspent federal grant for homeless services | 280,000 | Federal grantor |
+| Ordinance setting aside money for a new fire station | 1,000,000 | Formal action of the township board |
+| Finance director's earmark for IT systems | 350,000 | Official authorized by the board |
+| Rainy day amount set by informal board policy, with no specific conditions for use | 400,000 | No qualifying constraint |
 
 **Classification:**
 
-| Category | Components | Amount |
+| Classification | Components | Amount |
 |---|---|---|
-| **Nonspendable** | Inventory (\$90,000) + Prepaid (\$35,000) | **\$125,000** |
-| **Restricted** | State road grant (\$600,000) + Federal grant (\$280,000) | **\$880,000** |
-| **Committed** | Council resolution for fire station | **\$1,000,000** |
-| **Assigned** | Manager designation for IT systems | **\$350,000** |
-| **Unassigned** | \$4,200,000 - \$125,000 - \$880,000 - \$1,000,000 - \$350,000 | **\$1,845,000** |
+| **Nonspendable** | Inventory \$90,000 + prepaid insurance \$35,000 | **\$125,000** |
+| **Restricted** | State road grant \$600,000 + federal grant \$280,000 | **\$880,000** |
+| **Committed** | Fire station ordinance | **\$1,000,000** |
+| **Assigned** | IT earmark | **\$350,000** |
+| **Unassigned** | \$4,200,000 - \$125,000 - \$880,000 - \$1,000,000 - \$350,000 (includes the \$400,000 rainy day amount) | **\$1,845,000** |
 | **Total fund balance** | | **\$4,200,000** |
 
-**Verification:**
+The rainy day amount does not meet the GASB 54 criteria for restricted or committed, so it remains part of unassigned fund balance.
 
-$$
-\$125{,}000 + \$880{,}000 + \$1{,}000{,}000 + \$350{,}000 + \$1{,}845{,}000 = \$4{,}200{,}000 \checkmark
-$$
+A good method for any fund balance question: start with the total, pull out the nonspendable amounts first, classify the spendable amounts by the source and strength of each constraint, and let unassigned be the residual.
 
 ---
 
 ## Fund Balance vs. Net Position
 
-Fund balance (governmental funds) and net position (government-wide) are **not** the same:
+Fund balance (governmental funds) and net position (government-wide) are different measures.
 
-| | Fund Balance (Fund Statements) | Net Position (Government-Wide) |
+| | Fund balance | Net position |
 |---|---|---|
-| **Measurement focus** | Current financial resources | Economic resources |
-| **Includes capital assets?** | No | Yes |
-| **Includes long-term liabilities?** | No | Yes |
-| **Categories** | Nonspendable, Restricted, Committed, Assigned, Unassigned | Net investment in capital assets, Restricted, Unrestricted |
-| **Basis of accounting** | Modified accrual | Full accrual |
+| **Measurement focus and basis** | Current financial resources, modified accrual | Economic resources, accrual |
+| **Includes capital assets and long-term liabilities?** | No | Yes |
+| **Components** | Nonspendable, restricted, committed, assigned, unassigned | Net investment in capital assets, restricted, unrestricted |
 
-The reconciliation from total governmental fund balances to governmental activities net position is a required component of the basic financial statements.
-
----
-
-## Summary Table
-
-| Category | Who Constrains | How Removed | Positive in General Fund? | Positive in Other Funds? |
-|---|---|---|---|---|
-| **Nonspendable** | Nature of resource | Resource becomes spendable | Yes | Yes |
-| **Restricted** | External parties / legislation | Constraint expires or is fulfilled | Yes | Yes |
-| **Committed** | Highest decision-making authority | Same authority, same formal process | Yes | Yes |
-| **Assigned** | Governing body or designee | Intent is removed | Yes | Yes |
-| **Unassigned** | No one | N/A | Yes | **No** (only negative allowed) |
-
-:::tip[Exam Tip]
-
-A three-step approach for fund balance questions: (1) Identify the **total** fund balance. (2) Pull out **nonspendable** amounts first (not in spendable form). (3) Classify the remaining spendable amounts based on the source and strength of the constraint (restricted, then committed, then assigned, with unassigned as the residual).
-
-:::
+Committed and assigned fund balance have no counterpart in net position. Constraints imposed by the government's own governing body are not restrictions, so in the government-wide statements those amounts are part of **unrestricted** net position. See [Net Position and Components](net-position-and-components.md). The required reconciliation from total governmental fund balances to governmental activities net position is covered in [Deriving Government-Wide Financial Statements](deriving-government-wide-financial-statements.md).

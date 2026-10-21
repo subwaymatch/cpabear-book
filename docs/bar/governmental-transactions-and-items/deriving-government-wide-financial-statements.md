@@ -1,288 +1,183 @@
 # Deriving Government-Wide Financial Statements and Reconciliation
 
-The **government-wide financial statements** are prepared using the **economic resources measurement focus** and **accrual basis** of accounting, while governmental fund financial statements use the **current financial resources measurement focus** and **modified accrual basis**. Converting from one to the other requires systematic adjustments for **capital assets**, **long-term liabilities**, **deferred inflows/outflows**, and other items not recognized at the fund level. GASB 34 requires a **reconciliation** between the fund-level and government-wide amounts.
+Most governments do not keep a second set of books for the government-wide statements. They keep their governmental funds on the modified accrual basis all year, then convert those fund balances to accrual-basis amounts at year-end. The conversion adds what the funds leave out (capital assets, long-term debt, accrued interest, long-term obligations to employees) and removes what the funds include but an accrual statement would not (capital outlay and debt principal recorded as expenditures, bond proceeds recorded as financing sources).
 
-:::info[Blueprint Coverage]
-
-This section maps to **BAR Area III, Group B: Deriving Government-Wide Financial Statements and Reconciliation Requirements**. Representative tasks:
-
-1. **Prepare** worksheets to convert the governmental fund financial statements to the governmental activities reported in the government-wide financial statements.
-2. **Prepare** the schedule to reconcile the total fund balances and the net change in fund balances reported in the governmental fund financial statements to the net position and change in net position reported in the government-wide financial statements.
-
-:::
+The BAR blueprint asks you to prepare the conversion worksheet and the two required reconciliations: total fund balances to net position, and net change in fund balances to change in net position. This chapter explains why each adjustment is needed, then works through both reconciliations for one county and shows the worksheet entries behind them.
 
 ---
 
 ## Why Conversion Is Needed
 
-Governmental funds and government-wide statements use fundamentally different accounting frameworks:
+The two sets of statements answer different questions. Governmental funds report the **current financial resources** available to spend in the near term, on the **modified accrual** basis. The government-wide statements report all **economic resources** and obligations, on the **accrual** basis.
 
-| Feature | Governmental Fund Statements | Government-Wide Statements |
+| Item | Governmental fund statements | Government-wide statements |
 |---|---|---|
-| **Measurement focus** | Current financial resources | Economic resources |
-| **Basis of accounting** | Modified accrual | Full accrual |
-| **Capital assets** | Not reported (expenditure when acquired) | Capitalized and depreciated |
-| **Long-term debt** | Not reported (Other Financing Source when issued) | Reported as liability |
-| **Accrued interest** | Not reported (until due) | Accrued as incurred |
-| **Deferred items** | Limited recognition | Full recognition |
-
-```mermaid
-flowchart LR
-    A[Governmental Fund<br/>Financial Statements] -->|Conversion<br/>Adjustments| B[Government-Wide<br/>Financial Statements]
-    A -->|Modified Accrual<br/>Current Resources| C[Balance Sheet<br/>Shows Fund Balance]
-    B -->|Full Accrual<br/>Economic Resources| D[Statement of Net Position<br/>Shows Net Position]
-```
+| Capital assets | Expenditure when acquired; no asset or depreciation | Capitalized and depreciated |
+| Long-term debt | Proceeds are an other financing source; principal paid is an expenditure | Liability; principal paid reduces the liability |
+| Interest | Expenditure when due | Expense as it accrues |
+| Bond premium or discount | Other financing source (premium) or use (discount) at issuance | Added to or subtracted from the debt and amortized |
+| Revenues | Recognized when measurable and available | Recognized when earned (or when eligibility requirements are met) |
+| Compensated absences, pensions, OPEB, claims | Expenditure only for amounts that have matured | Full liability and expense |
 
 ---
 
-## Key Conversion Adjustments
+## The Conversion Adjustments
 
-The following categories of adjustments transform fund-level data into government-wide data:
+Every adjustment falls into one of four groups.
 
-### 1. Capital Assets
+**Capital assets.** Add the capital assets used in governmental activities, net of accumulated depreciation. For the year's activity, remove capital outlay expenditures and record depreciation expense instead. When an asset is sold, the funds record the cash proceeds as an other financing source; government-wide, the proceeds are replaced by a gain or loss on the asset's book value.
 
-| Fund-Level Treatment | Government-Wide Adjustment |
-|---|---|
-| Capital outlay recorded as expenditure | Capitalize the asset; remove expenditure |
-| No depreciation recorded | Add depreciation expense |
-| Proceeds from sale recorded as Other Financing Source | Remove OFS; record gain/loss on disposal |
+**Long-term debt.** Add the bonds, notes, and lease liabilities. Remove bond proceeds (other financing sources) and replace them with the liability, and remove principal payments (expenditures) and reduce the liability. Accrue interest that is owed but not yet due, and amortize premiums and discounts as adjustments to interest expense.
 
-### 2. Long-Term Liabilities
+**Other accruals and deferrals.** Recognize revenue that was earned but is not yet "available," which the funds held in deferred inflows. Recognize the full liabilities for compensated absences, pensions, OPEB, and claims, along with the deferred outflows and inflows related to pensions and OPEB.
 
-| Fund-Level Treatment | Government-Wide Adjustment |
-|---|---|
-| Bond proceeds recorded as Other Financing Source | Remove OFS; add bonds payable liability |
-| Principal payments recorded as expenditure | Remove expenditure; reduce bonds payable |
-| No accrued interest (until maturity) | Accrue interest expense |
-| Issuance premiums/discounts recorded in full | Amortize over bond life |
-
-### 3. Other Accruals and Deferrals
-
-| Fund-Level Treatment | Government-Wide Adjustment |
-|---|---|
-| Revenues not available (deferred inflows) | Recognize revenue when earned |
-| Compensated absences not due | Accrue long-term liability |
-| Pension/OPEB not due | Recognize net pension liability and expense |
+**Internal service funds.** Most internal service funds mainly serve governmental departments, so their assets and liabilities are added to governmental activities. Their internal billings are eliminated, and any profit or loss they made on those billings is allocated back to the functions they charged, so that governmental expenses reflect actual cost.
 
 ---
 
-## Balance Sheet Reconciliation (Fund Balance to Net Position)
+## Reconciling Fund Balance to Net Position
 
-GASB 34 requires a reconciliation from **total governmental fund balances** to **net position of governmental activities**. This is presented either on the face of the balance sheet or in an accompanying schedule.
+GASB 34 requires a reconciliation from **total governmental fund balances** to **net position of governmental activities**, presented on the face of the governmental funds balance sheet or in a schedule right after it.
 
-### Common Reconciling Items
+### Example: Balance Sheet Reconciliation
 
-| Reconciling Item | Effect on Net Position |
-|---|---|
-| Capital assets (net of depreciation) | **Add** (assets not in fund statements) |
-| Long-term liabilities (bonds, notes, leases) | **Subtract** (liabilities not in fund statements) |
-| Accrued interest payable | **Subtract** (not recognized until due in funds) |
-| Deferred inflows for unavailable revenues | **Add** (revenue earned but not available) |
-| Internal service fund net position | **Add** (typically combined with governmental activities) |
-| Deferred outflows/inflows (pensions, OPEB) | **Add/Subtract** (not in fund statements) |
-| Compensated absences (long-term portion) | **Subtract** (not due and payable from current resources) |
-| Bond premiums/discounts (unamortized) | **Subtract/Add** (reported with long-term debt) |
-
-### Numerical Example: Balance Sheet Reconciliation
-
-**Cedar Township: Reconciliation of Governmental Fund Balance to Net Position**
-**June 30, 20X5**
+**Grizzly County: Reconciliation of the Governmental Funds Balance Sheet to the Statement of Net Position, June 30, 20X5**
 
 | Item | Amount |
 |---|---|
-| Total governmental fund balances | \$12,400,000 |
-| **Adjustments:** | |
-| Capital assets used in governmental activities | \$85,000,000 | |
-| Less: Accumulated depreciation | (32,000,000) |
-| Net capital assets | **+53,000,000** |
-| Deferred outflows of resources (pensions) | **+2,100,000** |
-| Deferred inflows for unavailable revenue (property taxes not yet available) | **+860,000** |
+| **Total governmental fund balances** | **\$12,400,000** |
+| Capital assets used in governmental activities (cost \$85,000,000, less accumulated depreciation \$32,000,000) | 53,000,000 |
+| Deferred outflows of resources related to pensions | 2,100,000 |
+| Property taxes earned but not available (deferred inflows in the funds) | 860,000 |
+| Internal service fund net position | 1,230,000 |
 | Bonds payable | (28,000,000) |
 | Unamortized bond premium | (1,200,000) |
 | Accrued interest payable | (540,000) |
-| Compensated absences (long-term) | (1,850,000) |
+| Compensated absences | (1,850,000) |
 | Net pension liability | (8,400,000) |
-| Deferred inflows of resources (pensions) | (3,600,000) |
-| Total long-term items | **(43,590,000)** |
-| Internal service fund net position | **+1,230,000** |
+| Deferred inflows of resources related to pensions | (3,600,000) |
 | **Net position of governmental activities** | **\$26,000,000** |
+
+The logic is simple: items that make fund balance **smaller** than net position (assets and deferred outflows the funds leave out) are **added**; items that make it **larger** (liabilities and deferred inflows the funds leave out) are **subtracted**. The property tax line is added because the funds reported that receivable with an offsetting deferred inflow, while the government-wide statements report the same amount as revenue already earned.
+
+Check the math: fund balances of \$12,400,000, plus \$57,190,000 of additions, less \$43,590,000 of subtractions, equals \$26,000,000.
 
 ---
 
-## Operating Statement Reconciliation (Change in Fund Balances to Change in Net Position)
+## Reconciling the Change in Fund Balances to the Change in Net Position
 
-A parallel reconciliation converts the **net change in fund balances** to the **change in net position** for governmental activities.
+A parallel reconciliation converts the **net change in fund balances** for the year to the **change in net position** of governmental activities.
 
-### Common Reconciling Items
+### Example: Operating Statement Reconciliation
 
-| Reconciling Item | Effect on Change in Net Position |
-|---|---|
-| Capital outlay expenditures (capitalized) | **Add** (not an expense in accrual) |
-| Depreciation expense | **Subtract** (not recognized in funds) |
-| Bond/note proceeds (Other Financing Sources) | **Subtract** (not revenue in accrual) |
-| Principal payments on debt (expenditures) | **Add** (not an expense in accrual) |
-| Change in accrued interest | **Subtract** (if increased) |
-| Change in compensated absences | **Subtract** (if liability increased) |
-| Change in unavailable revenue | **Add** (if revenues became earned) |
-| Loss on disposal of capital assets | **Subtract** |
-| Amortization of bond premium | **Subtract** (reduces interest expense) |
-| Internal service fund change in net position | **Add/Subtract** |
-
-### Numerical Example: Operating Statement Reconciliation
-
-**Cedar Township: Reconciliation of Change in Fund Balances to Change in Net Position**
-**For the Year Ended June 30, 20X5**
+**Grizzly County: Reconciliation of the Statement of Revenues, Expenditures, and Changes in Fund Balances to the Statement of Activities, Year Ended June 30, 20X5**
 
 | Item | Amount |
 |---|---|
-| Net change in fund balances (total governmental funds) | \$1,800,000 |
-| **Adjustments:** | |
-| Capital outlay reported as expenditures in the funds | +6,200,000 |
-| Depreciation expense not reported in the funds | (3,400,000) |
-| Net book value of capital assets disposed | (250,000) |
-| Bond proceeds reported as financing source in the funds | (4,000,000) |
-| Principal repayments reported as expenditures in the funds | +2,800,000 |
-| Amortization of bond premium | (120,000) |
-| Change in accrued interest payable | (45,000) |
-| Change in compensated absences liability | (180,000) |
-| Change in net pension liability and related deferrals | (620,000) |
-| Revenues in government-wide not meeting availability criteria in funds | +315,000 |
-| Internal service fund change in net position | +150,000 |
-| **Change in net position of governmental activities** | **\$2,650,000** |
+| **Net change in fund balances, total governmental funds** | **\$1,800,000** |
+| Capital outlay reported as expenditures | 6,200,000 |
+| Depreciation expense | (3,400,000) |
+| Book value of capital assets retired (no proceeds) | (250,000) |
+| Bond proceeds reported as an other financing source | (4,000,000) |
+| Principal repayments reported as expenditures | 2,800,000 |
+| Amortization of bond premium (reduces interest expense) | 120,000 |
+| Increase in accrued interest payable | (45,000) |
+| Increase in compensated absences liability | (180,000) |
+| Increase in net pension liability and related deferrals | (620,000) |
+| Increase in revenues earned but not available | 315,000 |
+| Net revenue of internal service funds | 150,000 |
+| **Change in net position of governmental activities** | **\$2,890,000** |
 
----
-
-## Worksheet Approach to Conversion
-
-Many governments use a **conversion worksheet** to systematically transform fund-level data. The worksheet starts with fund statement amounts and applies adjusting entries in journal-entry form.
-
-### Worksheet Structure
-
-| Column | Content |
-|---|---|
-| **A** | Fund financial statement amounts |
-| **B** | Capital asset adjustments |
-| **C** | Long-term debt adjustments |
-| **D** | Other accrual adjustments |
-| **E** | Internal service fund adjustments |
-| **F** | Government-wide statement amounts (A+B+C+D+E) |
-
-### Worksheet Adjustment Entries
-
-Below are the journal-entry-style adjustments that appear on the conversion worksheet:
-
-**Adjustment 1: Capitalize current-year capital outlay**
-
-```journal
-Dr. Capital Assets[a] 6,200,000
-    Cr. Capital Outlay Expenditures 6,200,000
-```
-
-**Adjustment 2: Record depreciation expense**
-
-```journal
-Dr. Depreciation Expense 3,400,000
-    Cr. Accumulated Depreciation[a] 3,400,000
-```
-
-**Adjustment 3: Remove bond proceeds (Other Financing Source)**
-
-```journal
-Dr. Other Financing Sources (Bond Proceeds) 4,000,000
-    Cr. Bonds Payable[l] 4,000,000
-```
-
-**Adjustment 4: Remove debt principal expenditure**
-
-```journal
-Dr. Bonds Payable[l] 2,800,000
-    Cr. Debt Service Expenditures (Principal) 2,800,000
-```
-
-**Adjustment 5: Accrue interest expense**
-
-```journal
-Dr. Interest Expense 45,000
-    Cr. Accrued Interest Payable[l] 45,000
-```
-
-**Adjustment 6: Amortize bond premium**
-
-```journal
-Dr. Premium on Bonds Payable[l] 120,000
-    Cr. Interest Expense 120,000
-```
-
-**Adjustment 7: Recognize unavailable revenue**
-
-```journal
-Dr. Deferred Inflows (Unavailable Revenue)[l] 315,000
-    Cr. Revenues (Property Taxes) 315,000
-```
-
-**Adjustment 8: Accrue compensated absences**
-
-```journal
-Dr. Compensated Absences Expense 180,000
-    Cr. Compensated Absences Payable[l] 180,000
-```
-
-**Adjustment 9: Remove capital asset disposal**
-
-```journal
-Dr. Accumulated Depreciation[a] 400,000
-Dr. Loss on Disposal 250,000
-    Cr. Capital Assets[a] 650,000
-```
+Each line follows from the table at the top of the chapter. Capital outlay is added back because it is an expenditure but not an expense; depreciation is subtracted because it is an expense the funds never recorded. Bond proceeds are subtracted because they increase fund balance but are a liability, not revenue; principal payments are added back because they reduce a liability rather than being an expense. Premium amortization **increases** the change in net position because it reduces interest expense.
 
 :::tip[Exam Tip]
 
-On the exam, worksheet adjustments are often tested in isolation. Remember: if a transaction **increased** an expenditure in the funds but is **not** an expense at the government-wide level, you reverse the expenditure. If a transaction is an expense at government-wide but was **not** recorded in the funds, you add the expense.
+Ask one question of every item: did it increase fund balance or net position more? If the funds recorded a decrease that is not an expense (capital outlay, debt principal), add it back. If the government-wide statements have an expense or liability increase the funds did not record (depreciation, accrued interest, compensated absences), subtract it.
 
 :::
+
+---
+
+## The Conversion Worksheet
+
+Many governments, and many exam simulations, use a worksheet. It starts with the governmental fund amounts, posts adjustments in journal-entry form, and ends with government-wide amounts. A typical layout has columns for the fund amounts, the capital asset adjustments, the long-term debt adjustments, other accrual adjustments, internal service fund adjustments, and the government-wide totals.
+
+The worksheet entries for Grizzly County's year are below. Each one turns a modified accrual amount into its accrual equivalent.
+
+**1. Capitalize current-year capital outlay.**
+
+```journal
+Dr. Capital Assets[a] 6,200,000
+Cr. Expenditures (Capital Outlay) 6,200,000
+```
+
+**2. Record depreciation expense.**
+
+```journal
+Dr. Depreciation Expense 3,400,000
+Cr. Accumulated Depreciation[ca] 3,400,000
+```
+
+**3. Remove capital assets retired.** The assets cost \$650,000, had \$400,000 of accumulated depreciation, and were scrapped with no proceeds.
+
+```journal
+Dr. Accumulated Depreciation[ca] 400,000
+Dr. Loss on Disposal of Capital Assets 250,000
+Cr. Capital Assets[a] 650,000
+```
+
+**4. Replace bond proceeds with the liability.**
+
+```journal
+Dr. Other Financing Sources (Bond Proceeds) 4,000,000
+Cr. Bonds Payable[l] 4,000,000
+```
+
+**5. Replace principal expenditures with a reduction of the liability.**
+
+```journal
+Dr. Bonds Payable[l] 2,800,000
+Cr. Expenditures (Debt Service, Principal) 2,800,000
+```
+
+**6. Accrue interest.**
+
+```journal
+Dr. Interest Expense 45,000
+Cr. Accrued Interest Payable[l] 45,000
+```
+
+**7. Amortize bond premium.**
+
+```journal
+Dr. Premium on Bonds Payable[l] 120,000
+Cr. Interest Expense 120,000
+```
+
+**8. Recognize revenue that was earned but not available.**
+
+```journal
+Dr. Deferred Inflows of Resources (Unavailable Revenue) 315,000
+Cr. Property Tax Revenue 315,000
+```
+
+**9. Accrue the increase in compensated absences.**
+
+```journal
+Dr. Compensated Absences Expense 180,000
+Cr. Compensated Absences Payable[l] 180,000
+```
+
+The pension adjustment (\$620,000) and the internal service fund adjustment (\$150,000) are posted the same way, using the changes in the net pension liability, the related deferrals, and the internal service fund's balances.
 
 ---
 
 ## Internal Service Fund Adjustments
 
-**Internal service funds** (a type of proprietary fund) are reported with governmental activities in the government-wide statements because they primarily serve governmental departments. The adjustment involves:
+Internal service funds are proprietary funds, but because they mainly serve governmental departments, they are reported with **governmental activities** in the government-wide statements. Three adjustments are needed:
 
-1. **Eliminating** interfund charges (to avoid double-counting)
-2. **Adding** the internal service fund's net position to governmental activities
-3. **Adding** the internal service fund's change in net position to the change in net position of governmental activities
+1. **Add** the internal service fund's assets and liabilities (its net position) to governmental activities.
+2. **Eliminate** the internal billings. The billing departments recorded the charges as expenditures, and the internal service fund recorded them as revenue; government-wide, both are removed so expenses are not counted twice.
+3. **Allocate** the internal service fund's net income or loss back to the functions it billed. A profit means the departments were overcharged, so their expenses are reduced; a loss means they were undercharged, so their expenses are increased. This is often called the look-back adjustment.
 
-:::warning[Common Pitfall]
-
-Internal service fund activity must be combined with governmental activities at the government-wide level. If an internal service fund charges governmental funds for services, those charges are expenditures in the fund statements but are eliminated at the government-wide level to avoid overstating expenses. Only the actual costs incurred by the internal service fund (depreciation, salaries, etc.) remain.
-
-:::
-
----
-
-## Complete Reconciliation Flowchart
-
-```mermaid
-flowchart TD
-    A[Governmental Fund<br/>Balance Sheet] --> B[Add: Capital Assets net]
-    B --> C[Subtract: Long-Term Liabilities]
-    C --> D[Add: Deferred Outflows]
-    D --> E[Subtract: Deferred Inflows<br/>not in funds]
-    E --> F[Add: Unavailable Revenues]
-    F --> G[Add: Internal Service<br/>Fund Net Position]
-    G --> H[Government-Wide<br/>Net Position]
-```
-
----
-
-## Summary of Reconciling Items
-
-| Direction | Balance Sheet Reconciliation | Operating Statement Reconciliation |
-|---|---|---|
-| **Add to fund amounts** | Net capital assets; Deferred outflows; Unavailable revenues; ISF net position | Capital outlay; Debt principal payments; Revenue recognized in accrual; ISF change |
-| **Subtract from fund amounts** | Long-term liabilities; Deferred inflows; Accrued interest; Compensated absences; Net pension liability | Depreciation; Bond proceeds; Accrued interest increase; Compensated absences increase; Pension expense; Loss on disposal; Premium amortization |
-
-:::tip[Exam Tip]
-
-A quick memory device: items that make the **fund balance look smaller** than net position are **added** in the reconciliation (capital assets, deferred outflows). Items that make the fund balance look **larger** than net position are **subtracted** (long-term debt, accrued liabilities). The same logic applies in reverse for the operating statement.
-
-:::
+After these steps, the expenses in the statement of activities reflect what the services actually cost: the internal service fund's own salaries, depreciation, and supplies, charged to the functions that used them.

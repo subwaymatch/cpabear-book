@@ -1,91 +1,50 @@
 # General and Proprietary Long-Term Liabilities
 
-State and local governments report **long-term liabilities** in the **government-wide financial statements** under the economic resources measurement focus and accrual basis of accounting. These liabilities fall into two categories, **general long-term liabilities** (related to governmental activities) and **proprietary long-term liabilities** (related to business-type activities), each with distinct reporting requirements at the fund level versus the government-wide level.
+A government's long-term obligations go well beyond its bonds. It also owes its employees accumulated leave, its retirees pensions and health care, and claimants the settlements of lawsuits. Where each obligation is reported depends on which activities it belongs to. **General long-term liabilities** belong to governmental activities and appear only in the government-wide statements. **Proprietary long-term liabilities** belong to business-type activities and appear in both the proprietary fund statements and the government-wide statements.
 
-:::info[Blueprint Coverage]
-
-This section maps to **BAR Area III, Group C, Topic 4: General and Proprietary Long-Term Liabilities**. Representative tasks:
-
-1. **Identify** general and proprietary long-term liabilities reported in the government-wide financial statements of state and local governments.
-2. **Recall** the recognition and measurement requirements for a net pension liability for a defined benefit pension plan for state and local governments.
-3. **Recall** the recognition and measurement requirements for a net other post employment benefit (OPEB) liability for an OPEB plan for state and local governments.
-4. **Calculate** the total indebtedness to be reported in the government-wide financial statements of a state or local government.
-5. **Calculate** the net general long-term debt balance for state and local governments and prepare journal entries (e.g., debt issuance, interest payments, issue premiums, issue discounts).
-
-:::
+The BAR blueprint asks you to identify both kinds, recall the recognition and measurement rules for the net pension liability and for OPEB liabilities, calculate total indebtedness, and calculate net general long-term debt with journal entries for issuance, interest, premiums, and discounts. For 2027, the OPEB task covers plans administered through a trust and plans that are not. This chapter starts with debt, then covers pensions, OPEB, and compensated absences, where **GASB 101** replaced the old rules.
 
 ---
 
 ## General vs. Proprietary Long-Term Liabilities
 
-| | General Long-Term Liabilities | Proprietary Long-Term Liabilities |
+| | General long-term liabilities | Proprietary long-term liabilities |
 |---|---|---|
-| **Related to** | Governmental activities | Business-type activities |
-| **Backed by** | Full faith and credit (taxing power) | Revenue from enterprise operations |
-| **Reported in government-wide?** | Yes | Yes |
-| **Reported in fund statements?** | **No**, not in governmental fund balance sheet | Yes, in proprietary fund Statement of Net Position |
-| **Examples** | GO bonds, compensated absences, net pension liability, net OPEB liability, claims & judgments | Revenue bonds, capital leases of enterprise funds |
+| **Belong to** | Governmental activities | Business-type activities (and internal service funds) |
+| **Typical security** | Full faith and credit (taxing power) | Revenues of the enterprise |
+| **Government-wide statement of net position** | Reported (governmental activities) | Reported (business-type activities) |
+| **Fund statements** | Not in the governmental funds, except amounts that have matured | Reported in the proprietary fund statement of net position |
+| **Examples** | General obligation bonds, lease liabilities, compensated absences, net pension and OPEB liabilities, claims and judgments | Revenue bonds, enterprise fund lease liabilities, landfill obligations of an enterprise fund |
 
-:::warning[Critical Distinction]
-
-General long-term liabilities are **never** reported in governmental fund financial statements. They appear **only** in the government-wide Statement of Net Position under governmental activities. This is because governmental funds use the current financial resources measurement focus, and long-term obligations are not "current."
-
-:::
+A governmental fund uses the current financial resources measurement focus, so it reports a long-term obligation only when an amount **matures**, that is, becomes due and payable. A bond installment due today, or vacation pay owed to an employee who retired last month, is a fund liability. Everything else is a general long-term liability.
 
 ---
 
-## Where Long-Term Liabilities Are Reported
+## Types of Long-Term Liabilities
 
-```mermaid
-flowchart TD
-    A[Long-Term Liabilities] --> B[General Long-Term Liabilities]
-    A --> C[Proprietary Long-Term Liabilities]
-    B --> D[Government-Wide Statement of Net Position<br/>Governmental Activities column]
-    B --> E[NOT in Governmental Fund<br/>Balance Sheet]
-    C --> F[Government-Wide Statement of Net Position<br/>Business-Type Activities column]
-    C --> G[Proprietary Fund<br/>Statement of Net Position]
-```
+| Liability | What it is |
+|---|---|
+| **General obligation (GO) bonds** | Backed by the full faith, credit, and taxing power of the government |
+| **Revenue bonds** | Repaid from a specific revenue stream, such as water fees or tolls; usually proprietary |
+| **Special assessment debt** | Repaid from assessments levied on the properties that benefit from an improvement |
+| **Lease liabilities (GASB 87)** and **subscription liabilities (GASB 96)** | Present value of payments for the right to use an asset or IT arrangement |
+| **Compensated absences (GASB 101)** | Leave employees have earned and are expected to use or be paid for |
+| **Net pension liability (GASB 68)** | Total pension liability less the plan's fiduciary net position |
+| **OPEB liability (GASB 75)** | Net OPEB liability (trust plans) or total OPEB liability (non-trust plans) |
+| **Claims and judgments** | Lawsuits and self-insured claims that are probable and estimable |
+| **Landfill closure and postclosure care** | Estimated future cost of closing and monitoring a landfill, recognized as capacity is used |
 
-| Reporting Level | General LT Liabilities | Proprietary LT Liabilities |
-|---|---|---|
-| Government-wide Statement of Net Position | Reported | Reported |
-| Governmental fund balance sheet | Not reported | N/A |
-| Proprietary fund Statement of Net Position | N/A | Reported |
-| Notes to financial statements | Disclosed | Disclosed |
+Two short-term notes deserve a word. **Tax anticipation notes** (borrowing against taxes about to be collected) are fund liabilities. **Bond anticipation notes** are also fund liabilities, unless all legal steps to refinance them with long-term bonds have been taken and the government has demonstrated the ability to complete the refinancing; then they are general long-term liabilities.
 
 ---
 
-## Types of Governmental Debt
+## Bonds: Government-Wide Entries
 
-| Debt Type | Description | Security/Backing |
-|---|---|---|
-| **General obligation (GO) bonds** | Backed by full faith, credit, and taxing power | Property taxes / general revenues |
-| **Revenue bonds** | Repaid from specific revenue stream | User fees, tolls, utility charges |
-| **Special assessment bonds** | Repaid from assessments on benefited properties | Special assessments levied on property owners |
-| **Tax anticipation notes (TANs)** | Short-term borrowing against expected tax revenue | Anticipated tax collections |
-| **Bond anticipation notes (BANs)** | Short-term borrowing pending long-term bond issuance | Proceeds of future bond issue |
-| **Lease liabilities (GASB 87)** | Present value of future lease payments | Lease contract |
-| **Compensated absences** | Accrued vacation/sick leave owed to employees | General revenues |
-| **Claims and judgments** | Litigation settlements, self-insurance claims | General revenues |
-| **Landfill closure/postclosure care** | Estimated future costs of closing a landfill | General revenues or enterprise fees |
-| **Net pension liability (GASB 68)** | Unfunded portion of pension obligation | General revenues |
-| **Net OPEB liability (GASB 75)** | Unfunded portion of OPEB obligation | General revenues |
+At the government-wide level, bonds are recorded as liabilities, and interest is accrued as it is incurred. Premiums and discounts are reported with the bonds and amortized as adjustments to interest expense. GASB requires the effective interest method, but straight-line amortization is allowed when the results are not materially different, and exam problems often use it. Bond issuance costs (other than prepaid insurance) are expensed when incurred.
 
-:::tip[Exam Tip]
+Bear City issues \$5,000,000 of 6% general obligation bonds on January 1. Interest is paid semiannually.
 
-**GO bonds** are the most common general long-term liability tested. Remember: GO bonds are backed by taxing power, while revenue bonds are backed by a specific revenue source (e.g., water/sewer fees). Revenue bonds are typically proprietary long-term liabilities.
-
-:::
-
----
-
-## Bond Issuance Journal Entries: Government-Wide Level
-
-At the government-wide level, bonds are recorded as long-term liabilities under full accrual accounting.
-
-### Issuance at Par
-
-Bear City issues \$5,000,000 of general obligation bonds at par (face value) on January 1:
+**At par:**
 
 ```journal
 Jan 1
@@ -93,9 +52,7 @@ Dr. Cash[a] 5,000,000
 Cr. Bonds Payable[l] 5,000,000
 ```
 
-### Issuance at a Premium
-
-Bear City issues \$5,000,000 face value bonds at 102 (i.e., for \$5,100,000):
+**At 102** (proceeds of \$5,100,000):
 
 ```journal
 Jan 1
@@ -104,260 +61,64 @@ Cr. Bonds Payable[l] 5,000,000
 Cr. Premium on Bonds Payable[l] 100,000
 ```
 
-### Issuance at a Discount
-
-Bear City issues \$5,000,000 face value bonds at 98 (i.e., for \$4,900,000):
+**At 98** (proceeds of \$4,900,000):
 
 ```journal
 Jan 1
 Dr. Cash[a] 4,900,000
-Dr. Discount on Bonds Payable[ca] 100,000
+Dr. Discount on Bonds Payable[cl] 100,000
 Cr. Bonds Payable[l] 5,000,000
 ```
 
-### Interest Payment
-
-Bear City pays semiannual interest on its \$5,000,000, 6% GO bonds (coupon = \$150,000):
+**Semiannual interest** is \$5,000,000 × 6% × ½ = \$150,000. If the bonds were sold at 102 and the \$100,000 premium is amortized straight-line over 20 semiannual periods (\$5,000 each), the July 1 entry is:
 
 ```journal
 Jul 1
-Dr. Interest Expense 150,000
+Dr. Interest Expense 145,000
+Dr. Premium on Bonds Payable[l] 5,000
 Cr. Cash[a] 150,000
 ```
 
-### Premium Amortization (Straight-Line)
-
-Amortize \$100,000 premium over 20 semiannual periods (\$5,000 per period):
+If they were sold at 98, the discount amortization adds \$5,000 to interest expense:
 
 ```journal
 Jul 1
-Dr. Premium on Bonds Payable[l] 5,000
-Cr. Interest Expense 5,000
+Dr. Interest Expense 155,000
+Cr. Discount on Bonds Payable[cl] 5,000
+Cr. Cash[a] 150,000
 ```
-
-Net interest expense for the period = \$150,000 - \$5,000 = **\$145,000**.
-
-### Discount Amortization (Straight-Line)
-
-Amortize \$100,000 discount over 20 semiannual periods (\$5,000 per period):
-
-```journal
-Jul 1
-Dr. Interest Expense 5,000
-Cr. Discount on Bonds Payable[ca] 5,000
-```
-
-Net interest expense for the period = \$150,000 + \$5,000 = **\$155,000**.
 
 ---
 
-## Fund-Level Treatment: Governmental Funds
+## Bonds: Governmental Fund Entries
 
-At the governmental fund level, long-term debt is **not** recorded as a liability. Instead:
+In a governmental fund, no long-term liability is recorded. Debt proceeds and premiums are **other financing sources** (a discount is an other financing use), and principal and interest are **expenditures** when due.
 
-| Transaction | Governmental Fund Entry | Government-Wide Entry |
+| Transaction | Governmental fund | Government-wide |
 |---|---|---|
-| Bond proceeds received | Other Financing Sources: Bond Proceeds | Bonds Payable (liability) |
-| Principal payment | Expenditures: Debt Service (Principal) | Reduce Bonds Payable |
-| Interest payment | Expenditures: Debt Service (Interest) | Interest Expense |
-| Premium received | Other Financing Sources: Premium on Bonds | Premium on Bonds Payable (liability) |
+| Receive bond proceeds | Other financing source, bond proceeds | Bonds payable |
+| Receive a premium | Other financing source, premium | Premium on bonds payable, amortized |
+| Pay principal | Expenditure, debt service principal | Reduce bonds payable |
+| Pay interest | Expenditure, debt service interest, when due | Interest expense, accrued |
 
-### Example: Governmental Fund Entries for Bond Issuance at Premium
-
-Bear City's General Fund records the same \$5,100,000 bond issuance:
+Bear City's capital projects fund records the \$5,100,000 issue:
 
 ```journal
 Jan 1
 Dr. Cash[a] 5,100,000
-Cr. Other Financing Sources - Bond Proceeds 5,000,000
-Cr. Other Financing Sources - Premium on Bonds 100,000
-```
-
-### Example: Debt Service Payment (Governmental Fund)
-
-Bear City's Debt Service Fund pays \$250,000 principal and \$150,000 interest:
-
-```journal
-Jul 1
-Dr. Expenditures - Debt Service (Principal) 250,000
-Dr. Expenditures - Debt Service (Interest) 150,000
-Cr. Cash[a] 400,000
-```
-
-:::warning[Key Difference]
-
-At the governmental fund level, **no long-term liability is ever recorded**. Bond proceeds are "Other Financing Sources" and principal repayments are "Expenditures." At the government-wide level, the liability is established at issuance and reduced with each principal payment.
-
-:::
-
----
-
-## Net Pension Liability: GASB 68
-
-GASB Statement No. 68 requires state and local governments to report a **net pension liability (NPL)** on the government-wide Statement of Net Position for defined benefit pension plans.
-
-### Formula
-
-$$
-\text{Net Pension Liability (NPL)} = \text{Total Pension Liability (TPL)} - \text{Plan Fiduciary Net Position}
-$$
-
-| Component | Description |
-|---|---|
-| **Total Pension Liability (TPL)** | Present value of projected benefit payments attributable to past service (actuarial accrued liability) |
-| **Plan Fiduciary Net Position** | Fair value of plan assets available to pay benefits |
-| **Net Pension Liability** | The unfunded portion, which is what the government owes |
-
-### Measurement Approach
-
-| Element | Requirement |
-|---|---|
-| Actuarial cost method | Entry age normal |
-| Discount rate | Blended rate: long-term expected rate of return on plan investments (to extent plan assets are projected to cover benefit payments), otherwise a municipal bond index rate |
-| Attribution | Projected benefit payments attributed to periods of service using entry age normal |
-
-### Pension Expense Components
-
-$$
-\text{Pension Expense} = \text{Service Cost} + \text{Interest on TPL} - \text{Expected Return on Plan Assets} \pm \text{Amortized Items}
-$$
-
-Amortized items include:
-- Changes in assumptions
-- Differences between expected and actual experience
-- Differences between projected and actual earnings on plan assets
-
-### Deferred Outflows and Inflows Related to Pensions
-
-| Deferred Outflows (increase NPL expense over time) | Deferred Inflows (decrease NPL expense over time) |
-|---|---|
-| Net difference when actual earnings < projected | Net difference when actual earnings > projected |
-| Changes in assumptions that increase TPL | Changes in assumptions that decrease TPL |
-| Actual experience > expected (losses) | Actual experience < expected (gains) |
-| Employer contributions after measurement date | None |
-
-:::tip[Exam Tip]
-
-**Contributions made after the measurement date** are always reported as a **deferred outflow of resources** (not a reduction of the net pension liability) until the next measurement date.
-
-:::
-
----
-
-## Net OPEB Liability: GASB 75
-
-GASB Statement No. 75 mirrors GASB 68 for **other postemployment benefits (OPEB)**, which are benefits other than pensions provided to retired employees.
-
-### What Qualifies as OPEB?
-
-- Healthcare (medical, dental, vision)
-- Life insurance
-- Disability benefits
-- Long-term care
-
-### Formula
-
-$$
-\text{Net OPEB Liability} = \text{Total OPEB Liability} - \text{Plan Fiduciary Net Position}
-$$
-
-### Key Parallels to Pensions (GASB 68 vs. GASB 75)
-
-| Element | GASB 68 (Pensions) | GASB 75 (OPEB) |
-|---|---|---|
-| Liability | Net Pension Liability | Net OPEB Liability |
-| Actuarial cost method | Entry age normal | Entry age normal |
-| Discount rate | Blended rate | Blended rate |
-| Deferred outflows/inflows | Yes | Yes |
-| Expense recognition | Service cost + interest ± amortizations | Service cost + interest ± amortizations |
-| Measurement frequency | At least biennially | At least biennially |
-
-:::info[OPEB vs. Pensions]
-
-The primary conceptual difference is the benefit type: pensions provide retirement income, while OPEB provides other benefits (mainly healthcare). The accounting framework is virtually identical.
-
-:::
-
----
-
-## Compensated Absences
-
-Governments must accrue liabilities for **compensated absences** (vacation and sick leave) that employees have earned but not yet used.
-
-### Recognition Rules
-
-| Leave Type | When to Accrue | Condition |
-|---|---|---|
-| **Vacation leave** | When earned | If rights vest or accumulate |
-| **Sick leave** | Portion expected to be paid | Only if terminal payment or vesting policy exists |
-
-### Government-Wide vs. Fund-Level
-
-| Level | Treatment |
-|---|---|
-| **Government-wide** | Accrue the **full** liability for compensated absences |
-| **Governmental funds** | Recognize expenditure only for amounts **due and payable** from currently available resources (typically the current portion) |
-| **Proprietary funds** | Accrue the full liability (same as government-wide) |
-
-### Example
-
-Pine County employees have earned \$2,400,000 in unused vacation leave. Of this, \$600,000 is expected to be liquidated with current available resources.
-
-**Government-wide entry:**
-
-```journal
-Dr. Compensated Absences Expense 2,400,000
-Cr. Compensated Absences Payable[l] 2,400,000
-```
-
-**Governmental fund entry (only the current portion):**
-
-```journal
-Dr. Expenditures - Compensated Absences 600,000
-Cr. Compensated Absences Payable[l] 600,000
+Cr. Other Financing Sources (Bond Proceeds) 5,000,000
+Cr. Other Financing Sources (Premium on Bonds) 100,000
 ```
 
 ---
 
-## Calculating Total Indebtedness
+## Complete Worked Example
 
-The total indebtedness reported in the government-wide Statement of Net Position includes **all** long-term liabilities of both governmental and business-type activities.
+Bear City's fiscal year ends December 31. On July 1, Year 1, it issues \$10,000,000 of 5%, 10-year general obligation serial bonds at 103, for proceeds of \$10,300,000. Interest is paid each January 1 and July 1. The \$300,000 premium is amortized straight-line over 20 periods (\$15,000 each). The first \$1,000,000 principal installment is due July 1, Year 2.
 
-### Example: Grizzly County Total Indebtedness
+Semiannual interest is \$10,000,000 × 5% × ½ = \$250,000. Net of \$15,000 of premium amortization, interest expense is \$235,000 per period.
 
-| Liability Category | Amount |
-|---|---|
-| General obligation bonds payable | \$45,000,000 |
-| Less: Unamortized discount | (\$900,000) |
-| Revenue bonds payable (enterprise fund) | \$18,000,000 |
-| Plus: Unamortized premium | \$360,000 |
-| Capital lease obligations | \$4,200,000 |
-| Compensated absences | \$3,100,000 |
-| Claims and judgments | \$1,800,000 |
-| Net pension liability | \$12,500,000 |
-| Net OPEB liability | \$8,400,000 |
-| Landfill closure/postclosure care | \$2,600,000 |
-| **Total indebtedness** | **\$95,060,000** |
-
-$$
-\text{Total} = 45{,}000{,}000 - 900{,}000 + 18{,}000{,}000 + 360{,}000 + 4{,}200{,}000 + 3{,}100{,}000 + 1{,}800{,}000 + 12{,}500{,}000 + 8{,}400{,}000 + 2{,}600{,}000 = \$95{,}060{,}000
-$$
-
-:::tip[Exam Tip]
-
-When calculating total indebtedness, remember to **subtract** unamortized discounts and **add** unamortized premiums to the face value of bonds. The carrying value (net of premium/discount) is what appears on the Statement of Net Position.
-
-:::
-
----
-
-## Complete Worked Example: Bond Issuance and Debt Service
-
-Bear City issues \$10,000,000 of 5%, 10-year general obligation serial bonds on July 1, Year 1, at 103 (total proceeds = \$10,300,000). Interest is paid semiannually on January 1 and July 1. The \$300,000 premium is amortized straight-line over 20 semiannual periods (\$15,000 per period). The first principal payment of \$1,000,000 is due July 1, Year 2.
-
-### Government-Wide Entries (Full Accrual)
-
-**July 1, Year 1: Bond Issuance**
+### Government-Wide Entries
 
 ```journal
 Jul 1, Year 1
@@ -366,9 +127,7 @@ Cr. Bonds Payable[l] 10,000,000
 Cr. Premium on Bonds Payable[l] 300,000
 ```
 
-**December 31, Year 1: Accrue Interest at Year-End**
-
-Semiannual coupon = \$10,000,000 × 5% × ½ = \$250,000. Premium amortization = \$15,000.
+At year-end, six months of interest has accrued but is not due until January 1:
 
 ```journal
 Dec 31, Year 1
@@ -377,15 +136,11 @@ Dr. Premium on Bonds Payable[l] 15,000
 Cr. Interest Payable[l] 250,000
 ```
 
-**January 1, Year 2: Interest Payment**
-
 ```journal
 Jan 1, Year 2
 Dr. Interest Payable[l] 250,000
 Cr. Cash[a] 250,000
 ```
-
-**July 1, Year 2: Interest Payment + Premium Amortization**
 
 ```journal
 Jul 1, Year 2
@@ -394,65 +149,228 @@ Dr. Premium on Bonds Payable[l] 15,000
 Cr. Cash[a] 250,000
 ```
 
-**July 1, Year 2: Principal Payment**
-
 ```journal
 Jul 1, Year 2
 Dr. Bonds Payable[l] 1,000,000
 Cr. Cash[a] 1,000,000
 ```
 
-### Governmental Fund Entries (Modified Accrual)
+### Governmental Fund Entries
 
-**July 1, Year 1: Bond Issuance (Capital Projects Fund)**
+The capital projects fund receives the proceeds:
 
 ```journal
 Jul 1, Year 1
 Dr. Cash[a] 10,300,000
-Cr. Other Financing Sources - Bond Proceeds 10,000,000
-Cr. Other Financing Sources - Premium on Bonds 300,000
+Cr. Other Financing Sources (Bond Proceeds) 10,000,000
+Cr. Other Financing Sources (Premium on Bonds) 300,000
 ```
 
-**January 1, Year 2: Interest Payment (Debt Service Fund)**
+No entry is made on December 31, because the interest is not yet due. The debt service fund records the payments when due:
 
 ```journal
 Jan 1, Year 2
-Dr. Expenditures - Debt Service (Interest) 250,000
+Dr. Expenditures (Debt Service, Interest) 250,000
 Cr. Cash[a] 250,000
 ```
 
-**July 1, Year 2: Interest + Principal Payment (Debt Service Fund)**
-
 ```journal
 Jul 1, Year 2
-Dr. Expenditures - Debt Service (Principal) 1,000,000
-Dr. Expenditures - Debt Service (Interest) 250,000
+Dr. Expenditures (Debt Service, Principal) 1,000,000
+Dr. Expenditures (Debt Service, Interest) 250,000
 Cr. Cash[a] 1,250,000
 ```
 
-:::warning[Reconciliation Differences]
+On December 31, Year 2, after three periods of amortization (December 31, Year 1; July 1, Year 2; and December 31, Year 2), the **net general long-term debt** for this issue is \$9,000,000 of bonds plus \$255,000 of unamortized premium (\$300,000 less 3 × \$15,000), or \$9,255,000. Each reconciling difference between the two sets of entries (the proceeds, the principal payment, the accrued interest, and the premium amortization) becomes an item in the reconciliation described in [Deriving Government-Wide Financial Statements](deriving-government-wide-financial-statements.md).
 
-When preparing the reconciliation from governmental fund statements to government-wide statements, you must adjust for:
-- Bond proceeds reported as Other Financing Sources (remove and add liability)
-- Principal payments reported as expenditures (remove expenditure, reduce liability)
-- Premium/discount amortization differences
-- Accrued interest payable at year-end
+---
+
+## Calculating Total Indebtedness
+
+Total indebtedness in the government-wide statement of net position includes every long-term liability of both governmental and business-type activities, with bonds at their **carrying amount**: face value plus unamortized premium, or less unamortized discount.
+
+**Grizzly County total indebtedness:**
+
+| Liability | Amount |
+|---|---|
+| General obligation bonds payable | \$45,000,000 |
+| Less unamortized discount on GO bonds | (900,000) |
+| Revenue bonds payable (enterprise fund) | 18,000,000 |
+| Plus unamortized premium on revenue bonds | 360,000 |
+| Lease liabilities | 4,200,000 |
+| Compensated absences | 3,100,000 |
+| Claims and judgments | 1,800,000 |
+| Net pension liability | 12,500,000 |
+| Net OPEB liability | 8,400,000 |
+| Landfill closure and postclosure care | 2,600,000 |
+| **Total indebtedness** | **\$95,060,000** |
+
+---
+
+## Net Pension Liability (GASB 68)
+
+### Recognition
+
+An employer with a defined benefit pension plan administered through a qualifying trust reports a **net pension liability (NPL)** in the government-wide statements and in any proprietary fund that participates:
+
+$$
+\text{Net Pension Liability} = \text{Total Pension Liability} - \text{Plan Fiduciary Net Position}
+$$
+
+The **total pension liability (TPL)** is the actuarial present value of projected benefit payments attributed to employees' past service. The **plan fiduciary net position** is the plan's net assets, measured mostly at fair value. If the plan's assets exceed the TPL, the employer reports a net pension asset instead. An employer in a **cost-sharing** plan reports its **proportionate share** of the plan's collective NPL, based on its share of contributions.
+
+In the **governmental funds**, only the portion that has matured (for example, contributions due to the plan but unpaid at year-end) is a fund liability. Pension expenditures equal the amounts paid plus the change in matured, unpaid amounts.
+
+### Measurement
+
+| Element | Requirement |
+|---|---|
+| Attribution method | **Entry age** actuarial cost method, with service cost level as a percentage of each employee's pay |
+| Projected benefit payments | Include projected salary increases, additional service, and automatic cost-of-living adjustments |
+| Discount rate | A single rate that uses the **long-term expected rate of return** on plan investments for as long as plan assets are projected to cover benefit payments, and a **20-year, tax-exempt municipal bond rate** (AA/Aa or higher) for later periods |
+| Timing | Measured as of a date no earlier than the end of the employer's prior fiscal year; actuarial valuations at least every two years |
+
+### Pension Expense
+
+Most changes in the NPL go straight into **pension expense**. Others are deferred and recognized over time.
+
+| Recognized in pension expense immediately | Deferred, then recognized over time |
+|---|---|
+| Service cost | Differences between expected and actual experience: over the average expected remaining service lives of all employees in the plan (active and inactive) |
+| Interest on the total pension liability | Changes of assumptions or other inputs: same period |
+| Changes of benefit terms | Differences between projected and actual earnings on plan investments: over a closed **five-year** period |
+| Less projected earnings on plan investments | |
+| Less employee contributions | |
+| Plan administrative expense | |
+
+In equation form:
+
+$$
+\text{Pension Expense} = \text{Service Cost} + \text{Interest} \pm \text{Benefit Changes} - \text{Projected Earnings} - \text{Employee Contributions} + \text{Admin. Expense} \pm \text{Amortization of Deferrals}
+$$
+
+The deferred amounts sit on the statement of net position as **deferred outflows** or **deferred inflows of resources** until they are recognized.
+
+| Deferred outflows of resources | Deferred inflows of resources |
+|---|---|
+| Actual earnings below projected earnings (net, across years) | Actual earnings above projected earnings (net, across years) |
+| Experience losses (liability rose more than expected) | Experience gains (liability rose less than expected) |
+| Assumption changes that increase the TPL | Assumption changes that decrease the TPL |
+| Employer contributions made after the measurement date | |
+
+:::tip[Exam Tip]
+
+Employer contributions made **after the measurement date** but before year-end are reported as a **deferred outflow of resources**, not as a reduction of the net pension liability. They will reduce the NPL at the next measurement date.
 
 :::
 
 ---
 
-## Summary of Key Concepts
+## OPEB Liabilities (GASB 75)
 
-| Concept | Key Rule |
+**Other postemployment benefits (OPEB)** are benefits other than pensions that retirees receive, mainly health care, along with life insurance and similar benefits provided separately from a pension plan. GASB 75 uses the same framework as GASB 68, with one key fork: whether the OPEB plan is **administered through a trust** that meets three criteria:
+
+1. Contributions to the trust are **irrevocable**.
+2. Trust assets are **dedicated** to providing OPEB under the plan's terms.
+3. Trust assets are **legally protected** from the creditors of the employer, the plan administrator, and the plan members.
+
+Many governments do not have such a trust. They pay retiree health premiums from the General Fund as the bills come due ("pay-as-you-go"). The 2027 blueprint covers both cases.
+
+| | Plan administered through a qualifying trust | Plan **not** administered through a qualifying trust |
+|---|---|---|
+| **Liability recognized** | **Net OPEB liability** = total OPEB liability less plan fiduciary net position | **Total OPEB liability** (there are no plan assets to subtract) |
+| **Total OPEB liability measured** | Actuarial present value of projected benefit payments attributed to past service, entry age method | Same |
+| **Discount rate** | Single blended rate: long-term expected rate of return while plan assets are projected to cover benefits, then the municipal bond rate | **20-year, tax-exempt general obligation municipal bond rate** (AA/Aa or higher) for all periods |
+| **Investment earnings differences** | Deferred and recognized over five years | None (no plan investments) |
+| **Benefit payments by the employer** | Contributions to the trust reduce the net liability | Payments to retirees as benefits come due reduce the total OPEB liability; they are not OPEB expense |
+| **Payments after the measurement date** | Contributions are deferred outflows | Benefit payments are deferred outflows |
+| **Governmental funds** | Liability and expenditures only for matured amounts | Liability only for benefit payments that are due and payable; expenditures equal the benefits paid plus the change in matured amounts |
+
+In both cases, experience differences and assumption changes are deferred and recognized over the average expected remaining service lives of all employees in the plan.
+
+### Example: OPEB Plan Not Administered Through a Trust
+
+Kodiak County provides retiree health benefits on a pay-as-you-go basis. Its measurement date is its fiscal year-end. For the year:
+
+| | Amount |
 |---|---|
-| General long-term liabilities | Reported only in government-wide statements, never in governmental funds |
-| Proprietary long-term liabilities | Reported in both proprietary fund and government-wide statements |
-| Bond proceeds (governmental fund) | Recorded as Other Financing Sources |
-| Bond proceeds (government-wide) | Recorded as a liability |
-| Net Pension Liability | TPL - Plan Fiduciary Net Position |
-| Net OPEB Liability | Total OPEB Liability - Plan Fiduciary Net Position |
-| Compensated absences (government-wide) | Full liability accrued |
-| Compensated absences (governmental fund) | Only current portion recognized |
-| Premium on bonds | Added to carrying value; amortized to reduce interest expense |
-| Discount on bonds | Subtracted from carrying value; amortized to increase interest expense |
+| Total OPEB liability, beginning | \$10,000,000 |
+| Service cost | 500,000 |
+| Interest on the total OPEB liability | 350,000 |
+| Change of assumptions (lower municipal bond rate) | 600,000 |
+| Benefit payments made by the county | (400,000) |
+| **Total OPEB liability, ending** | **\$11,050,000** |
+
+The assumption change is deferred and recognized over the six-year average remaining service life, so \$100,000 is recognized this year and \$500,000 remains a deferred outflow. OPEB expense is service cost \$500,000 + interest \$350,000 + \$100,000 of the assumption change = \$950,000. The \$400,000 of benefits paid reduces the liability; it is not part of the expense.
+
+The government-wide entry for the year:
+
+```journal
+Dr. OPEB Expense 950,000
+Dr. Deferred Outflows of Resources (OPEB) 500,000
+Cr. Total OPEB Liability[l] 1,050,000
+Cr. Cash[a] 400,000
+```
+
+In the General Fund, the expenditure is the \$400,000 of benefits paid as they came due.
+
+---
+
+## Compensated Absences (GASB 101)
+
+**GASB 101** (testable since January 1, 2024) replaced the old GASB 16 rules with one model for all types of leave. Under the old rules, sick leave was accrued only if it would be paid out at termination. Under GASB 101, sick leave that employees are expected to **use as time off** is a liability too.
+
+### Recognition
+
+A liability is recognized for:
+
+1. **Leave that has been used but not yet paid** (or settled through noncash means), and
+2. **Leave that has not been used**, if all three of these are true:
+   - The leave is **attributable to services already rendered** (the employee has done the work needed to earn it),
+   - The leave **accumulates** (unused leave carries forward to future periods), and
+   - The leave is **more likely than not** to be used for time off or otherwise paid or settled.
+
+A government judges "more likely than not" from its leave policies and its history of how leave is actually used or paid. Leave that is more likely than not to be converted into defined benefit postemployment benefits (for example, unused sick leave credited toward a pension) is excluded, because it is part of the pension or OPEB liability instead.
+
+Some leave is recognized only when it begins. **Parental leave, military leave, and jury duty leave** are not recognized until the leave **commences**, because each depends on a sporadic event that affects only a few employees in any period.
+
+### Measurement
+
+Unused leave is generally measured at each employee's **pay rate as of the statement date**. Leave that has been used but not paid is measured at the amount to be paid. Both include **salary-related payments** that are directly and incrementally tied to paying the leave, such as the employer's share of Social Security and Medicare taxes.
+
+### Reporting
+
+| Level | What is recognized |
+|---|---|
+| **Government-wide and proprietary funds** | The full compensated absences liability and the related expense |
+| **Governmental funds** | Only the amount normally paid with expendable available financial resources: leave that has matured, such as payouts owed to employees who left before year-end |
+
+In the notes, GASB 101 lets the government disclose just the **net change** in the liability, labeled as such, instead of gross increases and decreases.
+
+### Example
+
+At year-end, Polar County employees have 30,000 hours of unused vacation and 50,000 hours of unused sick leave. Both carry forward. Based on its history, the county expects 25,000 vacation hours and 20,000 sick hours to be used as time off or paid. The average pay rate at year-end is \$40 per hour, and the employer's Social Security and Medicare rate is 7.65%.
+
+| Component | Calculation | Amount |
+|---|---|---|
+| Vacation | 25,000 hours × \$40 | \$1,000,000 |
+| Sick leave | 20,000 hours × \$40 | 800,000 |
+| Salary-related payments | \$1,800,000 × 7.65% | 137,700 |
+| **Compensated absences liability** | | **\$1,937,700** |
+
+The whole \$1,937,700 is reported in the government-wide statements. If \$120,000 of it is owed to employees who retired before year-end and has not been paid, that \$120,000 is also a liability, and an expenditure, of the General Fund.
+
+---
+
+## Summary
+
+| Concept | Key rule |
+|---|---|
+| General long-term liabilities | Government-wide only; in governmental funds only when matured |
+| Proprietary long-term liabilities | In both the proprietary fund and the government-wide statements |
+| Bond proceeds and premiums | Other financing sources in governmental funds; liabilities government-wide |
+| Bond carrying amount | Face plus unamortized premium, or less unamortized discount |
+| Net pension liability | Total pension liability less plan fiduciary net position; entry age method; blended discount rate |
+| OPEB, trust plan | Net OPEB liability; blended discount rate |
+| OPEB, non-trust plan | Total OPEB liability; 20-year AA/Aa municipal bond rate; benefit payments reduce the liability |
+| Compensated absences | Liability for leave attributable to past service that accumulates and is more likely than not to be used or paid (GASB 101); parental, military, and jury duty leave recognized when it begins |

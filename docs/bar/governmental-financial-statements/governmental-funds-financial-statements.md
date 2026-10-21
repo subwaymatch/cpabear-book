@@ -1,56 +1,30 @@
 # Governmental Funds Financial Statements
 
-Governmental funds financial statements report the **current financial resources** of a state or local government using the **modified accrual** basis of accounting. These fund-level statements emphasize **fiscal accountability** (showing whether resources obtained during the period were sufficient to cover current-period expenditures) and are the primary vehicle for demonstrating compliance with budgetary and legal requirements.
+The government-wide statements show the government's long-run financial health. The governmental fund statements answer a shorter-term question that taxpayers and legislators care about just as much: did the government raise enough this year to pay for what it spent this year? To answer it, these statements report only **current financial resources**, measured on the **modified accrual** basis. That focus on **fiscal accountability** makes them the main way a government shows it has complied with its budget and legal limits.
 
-:::info[Blueprint Coverage]
-
-This section maps to **BAR Area III, Group A, Topic 2: Governmental funds financial statements**. Representative tasks:
-
-1. **Identify and recall** basic concepts and principles associated with governmental fund financial statements (e.g., required funds, financial statements, financial statement components).
-2. **Prepare** the statement of revenues, expenditures, and changes in fund balances for the governmental funds of a state or local government from trial balances and supporting documentation.
-3. **Prepare** the balance sheet for the governmental funds of a state or local government from trial balances and supporting documentation.
-
-:::
+The BAR section tests the concepts behind these statements and asks you to prepare the balance sheet and the statement of revenues, expenditures, and changes in fund balances from trial balances. This chapter covers the five governmental fund types, the measurement rules, the format of each statement, major fund reporting, the reconciliations to the government-wide statements, and a worked example.
 
 ---
 
 ## The Five Governmental Fund Types
 
-Every state or local government uses governmental funds to account for activities financed primarily through taxes, grants, and other nonexchange revenues.
+Governmental funds account for activities financed mainly by taxes, grants, and other nonexchange revenues. There are five types:
 
-| Fund | Purpose | Required? |
+| Fund | Purpose | When Used |
 |---|---|---|
-| **General Fund** | Accounts for all financial resources **not** accounted for in another fund | Yes; every government has exactly **one** |
-| **Special Revenue Funds** | Accounts for revenues restricted or committed to specific purposes (other than debt service or capital projects) | Only when required by GAAP |
-| **Debt Service Funds** | Accounts for accumulation of resources and payment of principal and interest on general long-term debt | Only when legally mandated or resources are being accumulated |
-| **Capital Projects Funds** | Accounts for financial resources restricted or committed for acquisition or construction of major capital facilities | Only when required by GAAP |
-| **Permanent Funds** | Accounts for resources legally restricted so that only **earnings** (not principal) may be used for the government's programs | Only when applicable |
+| **General fund** | All financial resources not accounted for in another fund | Always; every government has exactly **one** |
+| **Special revenue funds** | Proceeds of specific revenue sources restricted or committed to purposes other than debt service or capital projects | When required by law or chosen by the government; a restricted or committed revenue source must be the fund's foundation |
+| **Debt service funds** | Resources restricted, committed, or assigned to pay principal and interest on general long-term debt | When legally required or when resources are being accumulated for future debt service |
+| **Capital projects funds** | Resources restricted, committed, or assigned to acquire or build capital facilities and other capital assets | When legally required or chosen for major projects |
+| **Permanent funds** | Resources legally restricted so that only the **earnings**, not the principal, may be spent on the government's programs | When the government holds such resources |
 
-```mermaid
-flowchart TD
-    A[Governmental Funds] --> B[General Fund]
-    A --> C[Special Revenue Funds]
-    A --> D[Debt Service Funds]
-    A --> E[Capital Projects Funds]
-    A --> F[Permanent Funds]
-    B --> G[All resources not in another fund]
-    C --> H[Restricted/committed revenue sources]
-    D --> I[Principal & interest payments]
-    E --> J[Capital asset acquisition/construction]
-    F --> K[Earnings only; principal intact]
-```
-
-:::tip[Exam Tip]
-
-The General Fund is **always** reported as a major fund. It is the only fund that every government is required to maintain. If a question asks which fund type is mandatory, the answer is the General Fund.
-
-:::
+The general fund is always reported as a **major fund** and is the only fund every government must have. Permanent funds are easy to confuse with private-purpose trust funds. The difference is the beneficiary: a permanent fund's earnings support the **government's own** programs (for example, an endowment for a city cemetery), while a private-purpose trust benefits individuals or organizations outside the government.
 
 ---
 
 ## Measurement Focus and Basis of Accounting
 
-Governmental funds use a unique combination that differs from both private-sector GAAP and government-wide reporting:
+Governmental funds combine a measurement focus and a basis of accounting found nowhere else:
 
 | Feature | Governmental Funds | Government-Wide Statements |
 |---|---|---|
@@ -58,47 +32,38 @@ Governmental funds use a unique combination that differs from both private-secto
 | **Basis of accounting** | Modified accrual | Full accrual |
 | **Reports capital assets?** | No | Yes |
 | **Reports long-term debt?** | No | Yes |
-| **Focus** | Fiscal accountability | Operational accountability |
+| **Accountability emphasized** | Fiscal | Operational |
 
-### Current Financial Resources Measurement Focus
+Under the **current financial resources** focus, the balance sheet reports only assets that will become cash soon and liabilities that will be paid from those resources. Capital assets are not reported, so purchases are expenditures. Long-term debt is not reported, so borrowing shows up as an other financing source. What is left over is **fund balance**, not net position.
 
-Only **current** assets and **current** liabilities are reported on the balance sheet. This means:
+### Revenue Recognition
 
-- Capital assets are **not** reported (purchases are expenditures)
-- Long-term debt is **not** reported (proceeds are other financing sources)
-- The net amount reported is **fund balance**, not net position
-
-### Modified Accrual Basis: Revenue Recognition
-
-Revenues are recognized when they are both:
-
-1. **Measurable**: the amount can be reasonably estimated
-2. **Available**: collectible within the current period or soon enough thereafter to pay current-period liabilities (typically **60 days** after year-end)
+Under modified accrual, revenues are recognized when they are both **measurable** (the amount can be reasonably estimated) and **available** (collectible within the period or soon enough after it to pay the period's liabilities). For property taxes, "soon enough" means within **60 days** after year-end, and many governments apply a similar period to other revenues.
 
 | Revenue Type | Recognition Rule |
 |---|---|
-| Property taxes | Recognized in period levied for, if collected within 60 days |
-| Sales taxes | Recognized when underlying exchange occurs, if available |
-| Income taxes | Recognized when measurable and available |
-| Grants (expenditure-driven) | Recognized when qualifying expenditures are incurred |
-| Grants (eligibility requirements) | Recognized when all eligibility requirements are met and available |
+| Property taxes | In the year for which they are levied, to the extent collected during the year or within 60 days after |
+| Sales and income taxes | When the underlying sale or income occurs, if available |
+| Expenditure-driven grants | When the qualifying expenditures are incurred, if available |
+| Other grants | When all eligibility requirements are met, if available |
 
-### Modified Accrual Basis: Expenditure Recognition
+Amounts that are receivable but not yet available are reported as **deferred inflows of resources (unavailable revenue)**. They become revenue in the period they become available.
 
-Expenditures are generally recognized when the **fund liability is incurred**, with key exceptions:
+### Expenditure Recognition
+
+Expenditures are generally recognized when the fund liability is incurred. The important exceptions involve long-term obligations, which are recognized only as they come due for payment from current resources:
 
 | Item | Recognition Rule |
 |---|---|
-| General operating costs | When liability is incurred |
-| Debt service principal | When **due** (maturity date) |
-| Debt service interest | When **due** (payment date) |
-| Compensated absences | Only the amount due and payable (current portion) |
-| Claims and judgments | Only the amount due and payable (current portion) |
-| Pensions | Amount due for the current period |
+| General operating costs | When the liability is incurred |
+| Debt service principal and interest | When **due** (payable) |
+| Compensated absences | Only the amount that has matured, such as unpaid leave owed to employees who have left |
+| Claims and judgments | Only the amount that has matured and is payable |
+| Pensions and OPEB | The amount paid or due to the plan for the period |
 
 :::warning[Key Exception: Debt Service]
 
-Debt service principal and interest are recognized as expenditures when **due**, not when incurred. This is a major exception to the general rule that expenditures are recorded when the liability is incurred. However, if resources have been accumulated in a debt service fund for payment of principal and interest due early in the following year, the expenditure may be recognized in the current year (the "early recognition" option under GASB).
+Debt service principal and interest are expenditures when they are **due**, not as interest accrues. Interest owed for December on a bond that pays in March is not recorded at a December 31 year-end. There is one option: if resources for debt service due early in the next year (no more than a month after year-end) have already been provided to the debt service fund, the government may recognize the expenditure and liability in the current year.
 
 :::
 
@@ -106,26 +71,24 @@ Debt service principal and interest are recognized as expenditures when **due**,
 
 ## Required Financial Statements
 
-Governmental funds require two financial statements plus reconciliations:
+Governmental funds present two statements, each with a column for every **major** fund and one aggregated column for all **nonmajor** funds:
 
 | Statement | Purpose |
 |---|---|
-| **Balance Sheet** | Reports current financial position (assets, deferred outflows, liabilities, deferred inflows, and fund balances) at a point in time |
-| **Statement of Revenues, Expenditures, and Changes in Fund Balances** | Reports inflows, outflows, and net change in fund balance for a period of time |
+| **Balance Sheet** | Assets, deferred outflows, liabilities, deferred inflows, and fund balances at year-end |
+| **Statement of Revenues, Expenditures, and Changes in Fund Balances** | Inflows, outflows, and the net change in fund balance for the year |
 
-Both statements must present individual columns for each **major** fund, with an aggregated column for all **non-major** funds.
+Each statement must also be reconciled to the government-wide statements, as discussed later in this chapter.
 
 ---
 
 ## Balance Sheet: Format and Components
 
-### Structure
+The balance sheet uses a balance sheet format:
 
 $$
 \text{Assets} + \text{Deferred Outflows of Resources} = \text{Liabilities} + \text{Deferred Inflows of Resources} + \text{Fund Balances}
 $$
-
-### Typical Balance Sheet Components
 
 | Assets | Liabilities | Fund Balances |
 |---|---|---|
@@ -133,37 +96,26 @@ $$
 | Investments | Accrued liabilities | Restricted |
 | Receivables (taxes, accounts) | Due to other funds | Committed |
 | Due from other funds | Unearned revenue | Assigned |
-| Inventories | Matured debt payable | Unassigned |
+| Inventories | Matured debt and interest payable | Unassigned |
 | Prepaid items | | |
 
-:::warning[What Is NOT on the Balance Sheet]
-
-Because governmental funds use the current financial resources measurement focus, the following items are **excluded** from the governmental funds balance sheet:
-- Capital assets (land, buildings, equipment, infrastructure)
-- Long-term debt (bonds payable, notes payable)
-- Net pension liability
-- Net OPEB liability
-- Accrued interest on long-term debt (unless matured)
-
-These items appear only on the **government-wide** statement of net position.
-
-:::
+Because of the current financial resources focus, several large items are **not** on this balance sheet: capital assets, bonds and notes payable, the net pension and OPEB liabilities, and interest accrued on long-term debt that is not yet due. All of them appear only on the government-wide statement of net position.
 
 ### Fund Balance Classifications
 
-Fund balances are classified in a five-tier hierarchy (per GASB 54):
+GASB 54 classifies fund balance by how tightly its use is constrained:
 
-| Classification | Constraint Level | Description |
-|---|---|---|
-| **Nonspendable** | Highest | Not in spendable form or must remain intact (e.g., inventory, prepaid items, permanent fund principal) |
-| **Restricted** | High | Externally imposed constraints (grantors, creditors, laws) |
-| **Committed** | Medium | Formal action by governing body's highest decision-making authority |
-| **Assigned** | Low | Intended purpose expressed by governing body or designee |
-| **Unassigned** | None | Residual balance in the General Fund only |
+| Classification | Description |
+|---|---|
+| **Nonspendable** | Not in spendable form (inventories, prepaid items) or legally or contractually required to stay intact (permanent fund principal) |
+| **Restricted** | Constrained by external parties (creditors, grantors, contributors, other governments' laws) or by the government's constitution or enabling legislation |
+| **Committed** | Constrained by formal action of the government's highest decision-making authority, such as an ordinance; only the same kind of action can remove the constraint |
+| **Assigned** | Intended for a specific purpose by the governing body or an official it has delegated that authority to |
+| **Unassigned** | The residual. Only the general fund reports a positive unassigned balance; another governmental fund reports negative unassigned fund balance if it has a deficit |
 
-### Example: Balance Sheet for Bear City Governmental Funds
+### Example: Bear City Governmental Funds Balance Sheet
 
-| | General Fund | Debt Service Fund | Capital Projects Fund | Non-Major Funds | Total |
+| | General Fund | Debt Service Fund | Capital Projects Fund | Nonmajor Funds | Total |
 |---|---:|---:|---:|---:|---:|
 | **Assets** | | | | | |
 | Cash and investments | \$4,800,000 | \$1,200,000 | \$3,500,000 | \$950,000 | \$10,450,000 |
@@ -191,52 +143,46 @@ Fund balances are classified in a five-tier hierarchy (per GASB 54):
 
 ## Statement of Revenues, Expenditures, and Changes in Fund Balances
 
-### Revenue Categories
+The operating statement for governmental funds follows a fixed order:
 
-Revenues are classified by **source**:
+1. **Revenues**, classified by source.
+2. **Expenditures**, classified by function for current operations, then debt service and capital outlay.
+3. **Excess (deficiency) of revenues over expenditures.**
+4. **Other financing sources and uses.**
+5. **Unusual or infrequent items**, if any.
+6. **Net change in fund balances**, then beginning and ending fund balances.
 
-| Category | Examples |
+| Revenue Category | Examples |
 |---|---|
-| Taxes | Property taxes, sales taxes, income taxes |
+| Taxes | Property, sales, and income taxes |
 | Licenses and permits | Business licenses, building permits, vehicle registrations |
 | Intergovernmental | Federal and state grants, shared revenues |
 | Charges for services | Recording fees, park fees, court costs |
-| Fines and forfeitures | Traffic violations, code enforcement penalties |
-| Investment earnings | Interest on deposits, gains on investments |
-| Miscellaneous | Donations, sale of surplus property |
+| Fines and forfeitures | Traffic fines, code enforcement penalties |
+| Investment earnings | Interest, changes in the fair value of investments |
+| Miscellaneous | Donations, small sales of surplus property |
 
-### Expenditure Classifications
+| Expenditure Classification | Examples |
+|---|---|
+| **Current:** general government, public safety, public works, health and welfare, culture and recreation, education | City council and finance department; police and fire; streets and sanitation; clinics; parks and libraries; schools (if the government runs them) |
+| **Debt service:** principal and interest | Bond principal and interest payments |
+| **Capital outlay** | Building construction, equipment purchases |
 
-Expenditures are classified by **function** (current operations), **debt service**, and **capital outlay**:
+**Other financing sources and uses** change fund balance but are not revenues or expenditures:
 
-| Classification | Description | Examples |
-|---|---|---|
-| **Current: General government** | Legislative, executive, administrative | City council, mayor's office, finance department |
-| **Current: Public safety** | Police, fire, corrections | Police department operations, fire equipment maintenance |
-| **Current: Public works** | Streets, highways, sanitation | Road repair, snow removal, trash collection |
-| **Current: Health and welfare** | Public health, social services | Clinic operations, welfare payments |
-| **Current: Culture and recreation** | Parks, libraries, museums | Library staffing, park maintenance |
-| **Current: Education** | Schools (if reported by the government) | Teacher salaries, textbooks |
-| **Debt service: Principal** | Repayment of long-term debt principal | Bond principal payments |
-| **Debt service: Interest** | Interest payments on long-term debt | Bond interest payments |
-| **Capital outlay** | Acquisition or construction of capital assets | Building construction, equipment purchases |
+| Item | Classification |
+|---|---|
+| Transfers in and transfers out | Other financing source; other financing use |
+| Face amount of bonds issued | Other financing source |
+| Premium on bonds issued (discount) | Other financing source (use) |
+| Proceeds from sales of capital assets | Usually an other financing source; small amounts are often reported as miscellaneous revenue |
+| Payment to a refunding bond escrow agent | Other financing use |
 
-### Other Financing Sources and Uses
+**Unusual or infrequent items.** GASB 103 replaced the old special and extraordinary items with one category: transactions and events that are unusual in nature **or** infrequent in occurrence. In the governmental fund operating statement, each such item is reported **after** other financing sources and uses, as the last flow before the net change in fund balances. Its inflows and outflows are shown separately, not netted. For example, flood cleanup costs of \$10,000,000 and the \$2,500,000 state grant received to help pay them would appear as two lines. Debt refundings are never unusual or infrequent items in governmental funds, because they are already reported as other financing sources and uses.
 
-Items that are **not** revenues or expenditures but affect fund balance:
+### Example: Bear City Statement of Revenues, Expenditures, and Changes in Fund Balances
 
-| Item | Classification | Description |
-|---|---|---|
-| Transfers in | Other financing source | Resources received from another fund |
-| Transfers out | Other financing use | Resources sent to another fund |
-| Bond proceeds | Other financing source | Face amount of bonds issued |
-| Premium on bonds issued | Other financing source | Amount received above par |
-| Sale of capital assets | Other financing source (if material) | Proceeds from disposing of government property |
-| Payment to refunding escrow agent | Other financing use | Resources used to defease debt |
-
-### Example: Statement of Revenues, Expenditures, and Changes in Fund Balances for Bear City
-
-| | General Fund | Debt Service Fund | Capital Projects Fund | Non-Major Funds | Total |
+| | General Fund | Debt Service Fund | Capital Projects Fund | Nonmajor Funds | Total |
 |---|---:|---:|---:|---:|---:|
 | **Revenues:** | | | | | |
 | Property taxes | \$8,200,000 | \$2,100,000 | 0 | \$600,000 | \$10,900,000 |
@@ -267,182 +213,113 @@ Items that are **not** revenues or expenditures but affect fund balance:
 | Fund balances, beginning | 5,000,000 | 1,400,000 | 780,000 | 580,000 | 7,760,000 |
 | **Fund balances, ending** | **\$5,630,000** | **\$1,500,000** | **\$2,700,000** | **\$660,000** | **\$10,490,000** |
 
-:::tip[Exam Tip]
-
-Bond proceeds are **other financing sources**, not revenues. On the government-wide statements, bond proceeds create a liability; they are never reported as revenue at either level. Transfers also net to zero across all governmental funds when viewed in total.
-
-:::
+The ending fund balances tie to the balance sheet. Transfers in and out offset to zero in the total column, and the \$3,000,000 of bond proceeds is an other financing source, never revenue.
 
 ---
 
 ## Major Fund Reporting
 
-### Definition of a Major Fund
+Each **major** fund gets its own column; all other governmental funds are combined in one nonmajor column. A fund is major if:
 
-Governments must separately present each **major** fund in a column on the financial statements.
-
-| Rule | Requirement |
-|---|---|
-| **Always major** | The General Fund |
-| **10% / 5% test** | Any governmental fund where a single element (assets + deferred outflows, liabilities + deferred inflows, revenues, or expenditures) meets **both**: |
-| | (1) ≥ 10% of the corresponding **total for all governmental funds** |
-| | (2) ≥ 5% of the corresponding total for **combined governmental and enterprise funds** |
-| **Management discretion** | Any fund management believes is important to users may be reported as major |
+- it is the **general fund** (always major); or
+- it passes **both** parts of the size test for the same element (total assets and deferred outflows, total liabilities and deferred inflows, revenues, or expenditures):
+  1. the element is at least **10%** of the corresponding total for **all governmental funds**, and
+  2. the same element is at least **5%** of the corresponding total for **all governmental and enterprise funds combined**; or
+- management believes it is particularly important to users and chooses to report it as major.
 
 ```mermaid
 flowchart TD
-    A[Is it the General Fund?] -->|Yes| B[Always Major]
-    A -->|No| C[Does any element ≥ 10% of<br>total governmental funds?]
-    C -->|No| F[Non-Major, Aggregate]
-    C -->|Yes| D[Does same element ≥ 5% of<br>combined governmental + enterprise?]
-    D -->|Yes| E[Major Fund]
+    A{"General fund?"} -->|Yes| B["Major fund"]
+    A -->|No| C{"Any element at least 10%<br/>of the total for all<br/>governmental funds?"}
+    C -->|No| F["Nonmajor, unless management<br/>chooses to report it as major"]
+    C -->|Yes| D{"Same element at least 5%<br/>of governmental and<br/>enterprise funds combined?"}
+    D -->|Yes| B
     D -->|No| F
-    F --> G[May still be reported as<br>major at management discretion]
 ```
 
-### Presentation
-
-| Column Type | Contents |
-|---|---|
-| Individual major fund columns | One column per major governmental fund |
-| Non-major aggregate column | Single column combining all non-major governmental funds |
-| Total column | Sum of all governmental funds |
-
-:::warning[Non-Major Funds]
-
-Non-major funds are presented in a **single aggregated column** labeled "Other Governmental Funds" or "Non-Major Governmental Funds." Individual fund detail for non-major funds is presented in **combining statements** included as supplementary information, not in the basic financial statements.
-
-:::
+Nonmajor funds appear in a **single aggregated column**, usually labeled "Other Governmental Funds" or "Nonmajor Governmental Funds." Detail for each nonmajor fund is presented in **combining statements**, which are supplementary information, not part of the basic financial statements.
 
 ---
 
-## Reconciliation to Government-Wide Statements
+## Reconciliation to the Government-Wide Statements
 
-A reconciliation is required either at the bottom of each governmental funds financial statement or on an accompanying schedule. These reconciliations explain why fund-level amounts differ from government-wide amounts.
+Because the two sets of statements measure different things, the governmental fund statements must be reconciled to the governmental activities column of the government-wide statements. The reconciliation appears at the bottom of each fund statement or in an accompanying schedule.
 
-### Balance Sheet Reconciliation (Fund Balance to Net Position)
+### Fund Balance to Net Position
 
 | Reconciling Item | Effect |
 |---|---|
-| Capital assets used in governmental activities | **Add** (not reported in funds) |
-| Accumulated depreciation | **Subtract** (not reported in funds) |
-| Long-term liabilities (bonds, notes, compensated absences, pensions) | **Subtract** (not reported in funds) |
-| Deferred inflows (unavailable revenues) | **Add** (revenue recognized under full accrual) |
-| Internal service fund net position | **Add** (consolidated into governmental activities) |
-| Accrued interest on long-term debt | **Subtract** (not reported until due under modified accrual) |
+| Capital assets used in governmental activities, net of accumulated depreciation | **Add** (not reported in the funds) |
+| Long-term liabilities (bonds, notes, compensated absences, net pension liability) | **Subtract** (not reported in the funds) |
+| Deferred outflows and inflows related to pensions and OPEB | **Add** outflows; **subtract** inflows |
+| Unavailable revenue (deferred inflows in the funds) | **Add** (recognized as revenue under full accrual) |
+| Internal service fund net position | **Add** (included in governmental activities) |
+| Accrued interest on long-term debt | **Subtract** (not recorded in the funds until due) |
 
-### Example: Bear City Balance Sheet Reconciliation
+**Example: Bear City**
 
 | | Amount |
 |---|---|
 | Total fund balances (governmental funds) | \$10,490,000 |
-| Capital assets used in governmental activities | +68,000,000 |
+| Capital assets used in governmental activities | 68,000,000 |
 | Accumulated depreciation | (22,000,000) |
-| Long-term liabilities: | |
-| &emsp;Bonds payable | (28,000,000) |
-| &emsp;Compensated absences | (1,200,000) |
-| &emsp;Net pension liability | (5,500,000) |
-| Deferred outflows (pensions) | +2,200,000 |
-| Deferred inflows (pensions) | (1,800,000) |
-| Deferred inflows: unavailable revenue (now recognized) | +550,000 |
-| Internal service fund net position | +1,260,000 |
+| Bonds payable | (28,000,000) |
+| Compensated absences | (1,200,000) |
+| Net pension liability | (5,500,000) |
+| Deferred outflows related to pensions | 2,200,000 |
+| Deferred inflows related to pensions | (1,800,000) |
+| Unavailable revenue recognized under full accrual | 550,000 |
+| Internal service fund net position | 1,260,000 |
 | Accrued interest payable | (450,000) |
 | **Net position of governmental activities** | **\$23,550,000** |
 
-### Operating Statement Reconciliation (Change in Fund Balances to Change in Net Position)
+### Net Change in Fund Balances to Change in Net Position
 
 | Reconciling Item | Effect |
 |---|---|
-| Capital outlay (expenditure in funds, capitalized at government-wide) | **Add** |
-| Depreciation expense (not in funds, expensed at government-wide) | **Subtract** |
-| Bond proceeds (OFS in funds, liability at government-wide) | **Subtract** |
-| Debt principal payments (expenditure in funds, liability reduction at government-wide) | **Add** |
-| Unavailable revenue changes (deferred in funds, recognized at government-wide) | **Add/Subtract** |
-| Accrued interest changes | **Subtract** (if increase) |
-| Internal service fund change in net position | **Add** |
-| Pension and OPEB expense differences | **Add/Subtract** |
+| Capital outlay (expenditure in the funds, capitalized government-wide) | **Add** |
+| Depreciation (not in the funds) | **Subtract** |
+| Bond proceeds (other financing source in the funds, liability government-wide) | **Subtract** |
+| Debt principal repaid (expenditure in the funds, reduction of the liability government-wide) | **Add** |
+| Change in unavailable revenue | **Add** an increase; **subtract** a decrease |
+| Increase in accrued interest | **Subtract** |
+| Internal service fund change in net position | **Add** (or subtract a decrease) |
+| Pension and OPEB expense in excess of contributions | **Subtract** |
+
+The chapter on [Deriving Government-Wide Financial Statements](../governmental-transactions-and-items/deriving-government-wide-financial-statements.md) works through these reconciliations step by step.
 
 ---
 
-## Worked Example: Grizzly County Governmental Funds
+## Worked Example: Grizzly County General Fund
 
-### Trial Balance Data
-
-Grizzly County has the following adjusted trial balance data at September 30, 20X5:
-
-**General Fund:**
+Grizzly County's general fund reports the following adjusted trial balance at September 30, 20X7, before closing:
 
 | Account | Debit | Credit |
 |---|---:|---:|
 | Cash | \$3,200,000 | |
 | Property taxes receivable | 800,000 | |
-| Due from Special Revenue Fund | 150,000 | |
+| Due from special revenue fund | 150,000 | |
 | Inventories | 60,000 | |
 | Accounts payable | | \$420,000 |
-| Due to Capital Projects Fund | | 100,000 |
+| Due to capital projects fund | | 100,000 |
 | Unearned revenue | | 90,000 |
-| Deferred inflows (unavailable property taxes) | | 180,000 |
+| Deferred inflows: unavailable property taxes | | 180,000 |
 | Fund balance, beginning | | 2,700,000 |
 | Property tax revenue | | 7,500,000 |
 | Sales tax revenue | | 2,800,000 |
 | Charges for services | | 620,000 |
-| Expenditures (general government) | 2,100,000 | |
-| Expenditures (public safety) | 4,200,000 | |
-| Expenditures (public works) | 1,500,000 | |
-| Expenditures (culture and recreation) | 700,000 | |
-| Capital outlay | 350,000 | |
-| Transfer out to Debt Service Fund | 800,000 | |
-| Transfer out to Capital Projects Fund | 550,000 | |
+| Expenditures: general government | 2,100,000 | |
+| Expenditures: public safety | 4,200,000 | |
+| Expenditures: public works | 1,500,000 | |
+| Expenditures: culture and recreation | 700,000 | |
+| Expenditures: capital outlay | 350,000 | |
+| Transfer out to debt service fund | 800,000 | |
+| Transfer out to capital projects fund | 550,000 | |
+| **Totals** | **\$14,410,000** | **\$14,410,000** |
 
-### Step 1: Prepare the Balance Sheet
+### Step 1: Statement of Revenues, Expenditures, and Changes in Fund Balance
 
-```journal
-Sep 30, 20X5: Closing entry (General Fund)
-Dr. Property Tax Revenue 7,500,000
-Dr. Sales Tax Revenue 2,800,000
-Dr. Charges for Services 620,000
-    Cr. Expenditures (General Government) 2,100,000
-    Cr. Expenditures (Public Safety) 4,200,000
-    Cr. Expenditures (Public Works) 1,500,000
-    Cr. Expenditures (Culture and Recreation) 700,000
-    Cr. Capital Outlay 350,000
-    Cr. Transfer Out to Debt Service Fund 800,000
-    Cr. Transfer Out to Capital Projects Fund 550,000
-    Cr. Fund Balance (Unassigned)[e] 720,000
-```
-
-**Grizzly County General Fund Balance Sheet (September 30, 20X5):**
-
-| Assets | Amount |
-|---|---:|
-| Cash | \$3,200,000 |
-| Property taxes receivable | 800,000 |
-| Due from Special Revenue Fund | 150,000 |
-| Inventories | 60,000 |
-| **Total assets** | **\$4,210,000** |
-
-| Liabilities and Fund Balance | Amount |
-|---|---:|
-| Accounts payable | \$420,000 |
-| Due to Capital Projects Fund | 100,000 |
-| Unearned revenue | 90,000 |
-| **Total liabilities** | **610,000** |
-| Deferred inflows (unavailable property taxes) | 180,000 |
-| **Fund balances:** | |
-| &emsp;Nonspendable (inventories) | 60,000 |
-| &emsp;Unassigned | 3,360,000 |
-| **Total fund balances** | **3,420,000** |
-| **Total liabilities, deferred inflows, and fund balances** | **\$4,210,000** |
-
-**Verification:**
-
-$$
-\$610{,}000 + \$180{,}000 + \$3{,}420{,}000 = \$4{,}210{,}000 \checkmark
-$$
-
-### Step 2: Prepare the Operating Statement
-
-**Grizzly County General Fund Statement of Revenues, Expenditures, and Changes in Fund Balances:**
+Start with the operating statement, because its result updates fund balance.
 
 | | Amount |
 |---|---:|
@@ -460,36 +337,52 @@ $$
 | Capital outlay | 350,000 |
 | **Total expenditures** | **8,850,000** |
 | **Excess of revenues over expenditures** | **2,070,000** |
-| **Other financing sources (uses):** | |
-| Transfer out to Debt Service Fund | (800,000) |
-| Transfer out to Capital Projects Fund | (550,000) |
+| **Other financing uses:** | |
+| Transfer out to debt service fund | (800,000) |
+| Transfer out to capital projects fund | (550,000) |
 | **Total other financing uses** | **(1,350,000)** |
 | **Net change in fund balance** | **720,000** |
 | Fund balance, beginning | 2,700,000 |
 | **Fund balance, ending** | **\$3,420,000** |
 
-:::tip[Exam Tip]
+The closing entry moves the year's activity into fund balance:
 
-Always verify that the **ending fund balance** on the operating statement ties to the **total fund balance** on the balance sheet. In this example, beginning fund balance (\$2,700,000) plus net change in fund balance (\$720,000) equals ending fund balance (\$3,420,000), which matches the balance sheet.
+```journal
+Sep 30, 20X7
+Dr. Property Tax Revenue 7,500,000
+Dr. Sales Tax Revenue 2,800,000
+Dr. Charges for Services 620,000
+    Cr. Expenditures: General Government 2,100,000
+    Cr. Expenditures: Public Safety 4,200,000
+    Cr. Expenditures: Public Works 1,500,000
+    Cr. Expenditures: Culture and Recreation 700,000
+    Cr. Expenditures: Capital Outlay 350,000
+    Cr. Transfer Out to Debt Service Fund 800,000
+    Cr. Transfer Out to Capital Projects Fund 550,000
+    Cr. Fund Balance[e] 720,000
+```
 
-:::
+### Step 2: Balance Sheet
 
----
+| Assets | Amount |
+|---|---:|
+| Cash | \$3,200,000 |
+| Property taxes receivable | 800,000 |
+| Due from special revenue fund | 150,000 |
+| Inventories | 60,000 |
+| **Total assets** | **\$4,210,000** |
 
-## Comprehensive Exam Tips
+| Liabilities, Deferred Inflows, and Fund Balance | Amount |
+|---|---:|
+| Accounts payable | \$420,000 |
+| Due to capital projects fund | 100,000 |
+| Unearned revenue | 90,000 |
+| **Total liabilities** | **610,000** |
+| Deferred inflows: unavailable property taxes | 180,000 |
+| **Fund balance:** | |
+| &emsp;Nonspendable (inventories) | 60,000 |
+| &emsp;Unassigned | 3,360,000 |
+| **Total fund balance** | **3,420,000** |
+| **Total liabilities, deferred inflows, and fund balance** | **\$4,210,000** |
 
-:::tip[Exam Tip]
-
-**High-yield governmental funds financial statement concepts for the BAR exam:**
-
-1. **Modified accrual** = revenues when measurable and **available** (60-day rule); expenditures when **liability is incurred** (except debt service, which is recognized when due).
-2. **No capital assets** on the governmental funds balance sheet. Capital purchases are **expenditures** (capital outlay). No depreciation is recorded.
-3. **No long-term debt** on the governmental funds balance sheet. Bond proceeds are **other financing sources**, not revenues.
-4. **Five fund balance categories**: Nonspendable, Restricted, Committed, Assigned, and Unassigned, in that order. Only the General Fund reports positive unassigned.
-5. **Major fund reporting**: General Fund is always major. Other funds pass the **10%/5% test** (10% of governmental total AND 5% of combined governmental + enterprise total).
-6. **Reconciliation** is required between fund balance and net position, and between change in fund balance and change in net position.
-7. **Transfers** are other financing sources/uses, not revenues or expenditures. They net to zero across all funds.
-8. **Unavailable revenue** (deferred inflow) occurs when revenue is earned but not collected within the availability period. It converts to revenue under full accrual on the government-wide statements.
-9. Expenditure classification is by **function** (public safety, public works, etc.) for current operations, with separate categories for **debt service** and **capital outlay**.
-
-:::
+The check: \$610,000 + \$180,000 + \$3,420,000 = \$4,210,000, and the \$3,420,000 fund balance matches the ending balance on the operating statement. Because inventories are not in spendable form, \$60,000 of fund balance is classified as nonspendable, and the rest of the general fund's balance is unassigned.

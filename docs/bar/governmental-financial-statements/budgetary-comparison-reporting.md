@@ -1,198 +1,135 @@
 # Budgetary Comparison Reporting
 
-State and local governments are required to present **budgetary comparison information** for the general fund and each major special revenue fund that has a **legally adopted annual budget**. This reporting allows financial statement users to evaluate whether the government operated within its legal spending authority and highlights variances between **planned** and **actual** results on the **budgetary basis** of accounting.
+For a government, the budget is more than a plan. Once the legislative body adopts it, the budget is law: appropriations set the legal limit on what the government may spend. Readers of a government's annual report therefore want to know whether the government raised and spent money as the budget allowed. **Budgetary comparison reporting** answers that question by setting the original budget, the final budget, and actual results side by side for the government's main operating funds.
 
-:::info[Blueprint Coverage]
-
-This section maps to **BAR Area III, Group A, Topic 7: Budgetary Comparison Reporting**. Representative tasks:
-
-1. **Recall** the objectives and components of budgetary comparison reporting in the annual comprehensive financial report for state and local governments.
-
-:::
+This chapter explains what the comparison is for, which funds need one, how the schedule is built under GASB Statement No. 103, and how budgetary amounts are reconciled to GAAP.
 
 ---
 
 ## Purpose and Objectives
 
-Budgetary comparison reporting serves several critical functions:
+Budgetary comparisons serve several purposes at once:
 
 | Objective | Description |
 |---|---|
-| **Legal compliance** | Demonstrates that the government did not exceed legally authorized appropriations |
-| **Accountability** | Shows citizens how actual results compared to the approved budget |
-| **Transparency** | Reveals mid-year budget amendments and their cumulative impact |
-| **Performance evaluation** | Highlights favorable and unfavorable variances for management review |
+| **Legal compliance** | Shows whether the government stayed within its legally authorized appropriations |
+| **Accountability** | Shows citizens and oversight bodies how actual results compared with the approved budget |
+| **Transparency** | Reveals how much the budget was amended during the year |
+| **Performance evaluation** | Highlights variances that management should explain |
 
-:::tip[Exam Tip]
-
-The primary objective tested on the CPA exam is **demonstrating legal compliance**: did the government stay within its appropriation authority? This is why the actual column must be presented on the **budgetary basis**, not necessarily the GAAP basis.
-
-:::
+The first objective drives the design. To show compliance with the budget, the actual amounts must be measured the same way the budget was, so the actual column is reported on the **budgetary basis**, which may differ from GAAP.
 
 ---
 
-## GASB Statement No. 34 Requirements
+## Which Funds Require a Comparison
 
-GASB 34 requires budgetary comparison information for:
-
-- The **general fund**
-- Each **major special revenue fund** with a legally adopted annual (or biennial) budget
-
-### Presentation Options
-
-Governments may present budgetary comparison information in one of two ways:
-
-| Option | Location | Classification |
-|---|---|---|
-| **Option A** | As a **basic financial statement** | Part of the fund financial statements |
-| **Option B** | As **Required Supplementary Information (RSI)** | Presented immediately after the notes to the financial statements |
-
-:::warning[Key Distinction]
-
-Regardless of where presented, the budgetary comparison must include **at minimum** the original budget, the final (amended) budget, and actual results on the budgetary basis. If presented as a basic financial statement, it is subject to audit. If presented as RSI, it receives limited procedures (not a full audit).
-
-:::
-
----
-
-## Required Columns
-
-The budgetary comparison schedule or statement must contain at least three data columns:
-
-```mermaid
-flowchart LR
-    A[Original Budget] --> B[Final Budget]
-    B --> C[Actual Results<br/>Budgetary Basis]
-    C --> D[Variance Column<br/>Optional]
-```
-
-| Column | Description |
-|---|---|
-| **Original budget** | The first complete appropriated budget adopted by the legislative body |
-| **Final budget** | The original budget adjusted for all legally authorized amendments, transfers, and revisions |
-| **Actual (budgetary basis)** | Actual inflows and outflows measured using the same basis as the budget |
-| **Variance** | Difference between final budget and actual (optional but commonly presented) |
-
-:::tip[Exam Tip]
-
-The variance column is **not required** by GASB 34 but is almost always presented in practice. When included, favorable variances for revenues mean actual exceeded budget; favorable variances for expenditures mean actual was less than budget.
-
-:::
-
----
-
-## Budgetary Basis vs. GAAP Basis
-
-Many governments prepare budgets on a basis that differs from GAAP. Common differences include:
-
-| Item | Budgetary Basis Treatment | GAAP Basis Treatment |
-|---|---|---|
-| **Encumbrances** | Treated as expenditures (charged against appropriation) | Not expenditures; disclosed in fund balance |
-| **Transfers** | May be included with revenues/expenditures | Reported as Other Financing Sources/Uses |
-| **Timing** | Cash or near-cash basis common | Modified accrual basis |
-| **Inventory** | Purchases method (expensed when purchased) | May use consumption method under GAAP |
-| **Perspective** | May include only legally budgeted items | Includes all fund activity |
-
-When the budgetary basis differs from GAAP, a **reconciliation** between budgetary actual amounts and GAAP actual amounts is required either on the face of the statement or in the notes.
-
----
-
-## Which Funds Require Budgetary Comparison
-
-Not all funds require budgetary comparison reporting:
+Budgetary comparison schedules are required for the **general fund** and for each **major special revenue fund** that has a **legally adopted annual budget**.
 
 | Fund Type | Required? | Condition |
 |---|---|---|
 | **General fund** | Yes | Always required |
-| **Major special revenue funds** | Yes | Only if a legally adopted annual budget exists |
-| **Non-major special revenue funds** | No | May be presented voluntarily |
-| **Capital projects fund** | No | Typically has project-length budgets, not annual |
-| **Debt service fund** | No | Usually not legally budgeted annually |
-| **Proprietary funds** | No | Not part of budgetary comparison RSI |
-| **Fiduciary funds** | No | Not part of budgetary comparison RSI |
+| **Major special revenue fund** | Yes | Only if it has a legally adopted annual budget |
+| **Nonmajor special revenue fund** | No | May be presented voluntarily, outside RSI |
+| **Capital projects fund** | No | Usually has project-length budgets, not annual budgets |
+| **Debt service fund** | No | Not required, even if budgeted |
+| **Proprietary and fiduciary funds** | No | Not part of the required comparison |
 
 :::warning[Common Pitfall]
 
-A special revenue fund that does **not** have a legally adopted annual budget is **not** required to present budgetary comparison information, even if it is a major fund.
+A major special revenue fund **without** a legally adopted annual budget does not need a budgetary comparison. Being major is not enough; the fund must also have a legally adopted annual budget.
 
 :::
+
+---
+
+## Presentation Under GASB 103
+
+GASB Statement No. 103, *Financial Reporting Model Improvements*, effective for fiscal years beginning after June 15, 2025, changed how the comparison is presented. Under the older GASB 34 rules, a government could present it either as a basic financial statement or as required supplementary information (RSI), and the variance columns were optional. GASB 103 removed both choices.
+
+- **Location:** Budgetary comparison schedules are presented only as **RSI**. They are no longer an option among the basic financial statements.
+- **Columns:** The schedule shows the **original budget**, the **final budget**, and **actual amounts on the budgetary basis**, plus two **required variance columns**: original budget to final budget, and final budget to actual.
+- **Explanations:** Significant variances in both columns must be explained in the **notes to RSI**.
+
+| Column | Description |
+|---|---|
+| **Original budget** | The first complete appropriated budget adopted by the legislative body |
+| **Final budget** | The original budget adjusted for all legally authorized amendments, transfers, and other changes during the year |
+| **Variance: original to final** | How much the budget was changed during the year |
+| **Actual (budgetary basis)** | Actual inflows and outflows measured on the same basis as the budget |
+| **Variance: final to actual** | How actual results compared with the final budget |
+
+Because the schedule is RSI, it sits after the notes to the basic financial statements and is not covered by the auditor's opinion on those statements. The auditor applies limited procedures to it instead.
 
 ---
 
 ## Example Budgetary Comparison Schedule
 
-**Bear City General Fund Budgetary Comparison Schedule**
-**For the Fiscal Year Ended June 30, 20X5**
+**Bear City, General Fund, Budgetary Comparison Schedule (RSI)**
+**For the Fiscal Year Ended June 30, 20X7**
 
-| | Original Budget | Final Budget | Actual (Budgetary Basis) | Variance Favorable (Unfavorable) |
-|---|---|---|---|---|
-| **Revenues:** | | | | |
-| Property taxes | \$8,000,000 | \$8,000,000 | \$8,150,000 | \$150,000 |
-| Sales taxes | 3,500,000 | 3,700,000 | 3,620,000 | (80,000) |
-| Intergovernmental | 1,200,000 | 1,200,000 | 1,250,000 | 50,000 |
-| Charges for services | 800,000 | 850,000 | 870,000 | 20,000 |
-| **Total revenues** | **13,500,000** | **13,750,000** | **13,890,000** | **140,000** |
-| **Expenditures:** | | | | |
-| General government | 2,800,000 | 2,900,000 | 2,870,000 | 30,000 |
-| Public safety | 5,200,000 | 5,400,000 | 5,380,000 | 20,000 |
-| Public works | 2,500,000 | 2,500,000 | 2,550,000 | (50,000) |
-| Culture and recreation | 1,100,000 | 1,050,000 | 1,020,000 | 30,000 |
-| **Total expenditures** | **11,600,000** | **11,850,000** | **11,820,000** | **30,000** |
-| **Excess of revenues over expenditures** | **1,900,000** | **1,900,000** | **2,070,000** | **170,000** |
-| Other financing sources (uses) | (400,000) | (400,000) | (400,000) | 0 |
-| **Net change in fund balance** | **\$1,500,000** | **\$1,500,000** | **\$1,670,000** | **\$170,000** |
+| | Original Budget | Final Budget | Variance: Original to Final, Increase (Decrease) | Actual (Budgetary Basis) | Variance: Final to Actual, Favorable (Unfavorable) |
+|---|---|---|---|---|---|
+| **Revenues:** | | | | | |
+| Property taxes | \$8,000,000 | \$8,000,000 | \$0 | \$8,150,000 | \$150,000 |
+| Sales taxes | 3,500,000 | 3,700,000 | 200,000 | 3,620,000 | (80,000) |
+| Intergovernmental | 1,200,000 | 1,200,000 | 0 | 1,250,000 | 50,000 |
+| Charges for services | 800,000 | 850,000 | 50,000 | 870,000 | 20,000 |
+| **Total revenues** | **13,500,000** | **13,750,000** | **250,000** | **13,890,000** | **140,000** |
+| **Expenditures:** | | | | | |
+| General government | 2,800,000 | 2,900,000 | 100,000 | 2,870,000 | 30,000 |
+| Public safety | 5,200,000 | 5,400,000 | 200,000 | 5,380,000 | 20,000 |
+| Public works | 2,500,000 | 2,500,000 | 0 | 2,550,000 | (50,000) |
+| Culture and recreation | 1,100,000 | 1,050,000 | (50,000) | 1,020,000 | 30,000 |
+| **Total expenditures** | **11,600,000** | **11,850,000** | **250,000** | **11,820,000** | **30,000** |
+| **Excess of revenues over expenditures** | **1,900,000** | **1,900,000** | **0** | **2,070,000** | **170,000** |
+| Other financing sources (uses) | (400,000) | (400,000) | 0 | (400,000) | 0 |
+| **Net change in fund balance** | **\$1,500,000** | **\$1,500,000** | **\$0** | **\$1,670,000** | **\$170,000** |
 
-:::tip[Exam Tip]
+Reading the schedule tells a story. During the year the council raised the sales tax estimate by \$200,000 and added \$250,000 of appropriations, mostly for public safety and general government. Actual sales taxes still fell \$80,000 short of the revised estimate. Public works spent \$2,550,000 against a final appropriation of \$2,500,000. If appropriations are legally controlled at the function level, that \$50,000 overspending is a violation of the budget, and it is exactly the kind of significant variance the notes to RSI must explain.
 
-Variance columns show favorable amounts as positive and unfavorable amounts in parentheses. For **revenues**, actual > budget is favorable. For **expenditures**, actual < budget is favorable.
-
-:::
+For the final-to-actual column, a revenue variance is favorable when actual revenue **exceeds** the budget, and an expenditure variance is favorable when actual spending is **less** than the budget. GASB's own illustrations label the variance columns "over (under)" instead. Either labeling works if it is applied consistently.
 
 ---
 
-## Reconciliation from Budgetary Basis to GAAP Basis
+## Budgetary Basis and GAAP Basis
 
-When the budgetary basis differs from GAAP, a reconciliation is required. Common reconciling items:
+Many governments budget on a basis that differs from GAAP. Common differences include:
+
+| Item | Budgetary Basis Treatment | GAAP (Modified Accrual) Treatment |
+|---|---|---|
+| **Encumbrances** | Often charged against the appropriation as if spent | Not expenditures; amounts are reported within restricted, committed, or assigned fund balance as appropriate |
+| **Transfers** | May be budgeted with revenues or expenditures | Reported as other financing sources (uses) |
+| **Timing** | Cash or near-cash basis is common | Modified accrual basis |
+| **Inventory** | Purchases method (charged when bought) | Purchases or consumption method |
+| **Perspective** | May cover only legally budgeted activities or a different fund structure | Covers all activity of the fund |
+
+When the two bases differ, the budgetary schedule must be accompanied by a **reconciliation** of the budgetary amounts to the GAAP amounts in the governmental fund statements. The reconciliation can be a separate schedule or part of the notes to RSI.
 
 ### Example Reconciliation
 
 | Item | Amount |
 |---|---|
 | Net change in fund balance (budgetary basis) | \$1,670,000 |
-| **Adjustments:** | |
-| Add: Encumbrances outstanding at end of year (not GAAP expenditures) | 95,000 |
-| Less: Encumbrances outstanding at beginning of year (GAAP expenditures in prior year) | (72,000) |
-| Add: Inventory adjustment (consumption vs. purchases method) | 15,000 |
-| Less: Transfers reclassified from expenditures to other financing uses | 0 |
+| Add: Encumbrances outstanding at year-end (budgetary expenditures, not GAAP expenditures) | 95,000 |
+| Less: Encumbrances outstanding at the beginning of the year (charged to last year's budget, but GAAP expenditures this year when the goods arrived) | (72,000) |
+| Add: Increase in inventory (consumption method under GAAP) | 15,000 |
 | **Net change in fund balance (GAAP basis)** | **\$1,708,000** |
 
-The journal entry to convert encumbrance activity at the government-wide level is conceptual, but at the fund level the reconciliation is a schedule (not a posted entry). However, for understanding:
-
-```journal
-Dr. Expenditures 72,000
-    Cr. Fund Balance[e] 72,000
-```
-
-```journal
-Dr. Fund Balance[e] 95,000
-    Cr. Expenditures 95,000
-```
-
-These represent the conceptual effect of removing current-year encumbrances from budgetary expenditures and adding prior-year encumbrances that became GAAP expenditures.
+The reconciliation is a schedule, not a set of journal entries. Nothing is posted to the ledger to prepare it.
 
 ---
 
-## Budgetary Comparison Flowchart
+## Decision Flow
 
 ```mermaid
 flowchart TD
-    A[Does the fund have a<br/>legally adopted annual budget?] -->|Yes| B[Is it the General Fund<br/>or a major special revenue fund?]
-    A -->|No| C[No budgetary comparison required]
-    B -->|Yes| D[Present budgetary comparison<br/>as basic statement or RSI]
+    A{"General fund or major<br/>special revenue fund?"} -->|No| C["No budgetary comparison<br/>required"]
+    A -->|Yes| B{"Legally adopted<br/>annual budget?"}
     B -->|No| C
-    D --> E{Budgetary basis = GAAP?}
-    E -->|Yes| F[No reconciliation needed]
-    E -->|No| G[Reconciliation required<br/>on face or in notes]
+    B -->|Yes| D["Present budgetary comparison<br/>schedule as RSI, with both<br/>variance columns"]
+    D --> E{"Budgetary basis<br/>same as GAAP?"}
+    E -->|Yes| F["No reconciliation needed"]
+    E -->|No| G["Reconcile to GAAP in a<br/>separate schedule or<br/>in the notes to RSI"]
 ```
 
 ---
@@ -201,17 +138,16 @@ flowchart TD
 
 | Concept | Key Point |
 |---|---|
-| **Required for** | General fund + major special revenue funds with legally adopted budgets |
-| **Minimum columns** | Original budget, final budget, actual (budgetary basis) |
-| **Variance column** | Optional but commonly presented |
-| **Presentation** | Basic financial statement OR Required Supplementary Information |
-| **Basis** | Actual column uses **budgetary basis** (may differ from GAAP) |
-| **Reconciliation** | Required when budgetary basis ≠ GAAP basis |
-| **GASB guidance** | GASB Statement No. 34, paragraphs 130-131 |
-| **Audit status** | Audited if basic statement; limited procedures if RSI |
+| **Required for** | General fund and each major special revenue fund with a legally adopted annual budget |
+| **Location** | Required supplementary information only (GASB 103) |
+| **Columns** | Original budget, final budget, actual on the budgetary basis, and two variance columns (original to final; final to actual) |
+| **Explanations** | Significant variances explained in the notes to RSI |
+| **Basis** | Actual column uses the budgetary basis, which may differ from GAAP |
+| **Reconciliation** | Required when the budgetary basis differs from GAAP |
+| **Audit status** | Not covered by the opinion on the basic statements; the auditor applies limited procedures |
 
 :::tip[Exam Tip]
 
-Remember the three "must-haves" for a budgetary comparison: (1) original budget, (2) final budget, and (3) actual on the budgetary basis. The variance column is the most common "extra" but is never required. Always check whether the question asks for the budgetary basis or GAAP basis; they are not the same if encumbrances are involved.
+Older study materials describe the GASB 34 rules: a choice between a basic statement and RSI, and an optional variance column. Those rules no longer apply. Under GASB 103 the comparison is always RSI, and both variance columns are required.
 
 :::

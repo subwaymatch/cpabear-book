@@ -1,290 +1,196 @@
 # Management's Discussion and Analysis
 
-Management's Discussion and Analysis (MD&A) is **required supplementary information (RSI)** that precedes the basic financial statements in a state or local government's Annual Comprehensive Financial Report (ACFR). Required by GASB Statement No. 34, MD&A presents a narrative overview and analysis of the government's financial activities based on currently known facts, decisions, or conditions, written by management to help readers understand the financial statements.
+A government's financial statements are long and technical, and most of their readers are not accountants. **Management's discussion and analysis (MD&A)** is management's plain-language guide to them. It comes just before the basic financial statements in the annual comprehensive financial report (ACFR) and gives an objective, easily readable analysis of the government's financial activities, based on currently known facts, decisions, or conditions, comparing the current year with the prior year.
 
-:::info[Blueprint Coverage]
-
-This section maps to **BAR Area III, Group A, Topic 6: Management's discussion and analysis**. Representative tasks:
-
-1. **Recall** the objectives and components of management's discussion and analysis in the annual comprehensive financial report for state and local governments.
-
-:::
+The BAR section tests the objectives and components of MD&A. Those components changed recently. GASB Statement No. 103, *Financial Reporting Model Improvements*, effective for fiscal years beginning after June 15, 2025, replaced the eight topics that GASB 34 required with **five sections**. This chapter explains where MD&A fits in the ACFR, walks through the five sections with examples, and closes with the limits on what MD&A may contain.
 
 ---
 
 ## Purpose and Nature of MD&A
 
-MD&A serves as an **introductory narrative** that provides government management the opportunity to present both a short-term and long-term analysis of the government's financial activities. It is designed to help users of the financial report assess whether the government's financial position improved or deteriorated during the year.
+MD&A lets the government's financial managers, who know the transactions, the fiscal policies, and the conditions behind the numbers, explain them to readers who may have no detailed knowledge of governmental accounting. It should help a reader judge whether the government's financial position improved or worsened during the year, and **why**.
 
 | Characteristic | Description |
 |---|---|
-| **Authoritative source** | GASB Statement No. 34, paragraphs 8-11 |
-| **Classification** | Required Supplementary Information (RSI) |
+| **Authoritative source** | GASB 34, as amended by GASB 103 |
+| **Classification** | Required supplementary information (RSI) |
 | **Placement** | Immediately before the basic financial statements |
-| **Responsibility** | Government's management |
-| **Basis** | Currently known facts, decisions, or conditions |
-| **Perspective** | Objective, factual analysis (not promotional material) |
+| **Responsibility** | The government's management |
+| **Basis** | Currently known facts, decisions, or conditions (what management knows when the statements are issued) |
+| **Comparison** | Current year with the prior year, with emphasis on the current year |
+| **Focus** | The primary government, distinguishing it from discretely presented component units |
+| **Tone** | Objective and factual, not promotional |
 
-:::tip[Exam Tip]
-
-MD&A is **required**; it is not optional. However, it is classified as RSI, not as part of the basic financial statements. This distinction matters for auditing: the auditor applies **limited procedures** to RSI rather than auditing it as part of the basic financial statements.
-
-:::
+MD&A is **required**, but it is RSI, not part of the basic financial statements. That matters for the audit: the auditor applies **limited procedures** to RSI and does not express an opinion on it.
 
 ---
 
 ## Where MD&A Fits in the ACFR
 
-The ACFR follows a specific ordering. MD&A occupies a unique position as the only RSI that appears **before** the basic financial statements.
+The ACFR has three sections. MD&A sits at the front of the financial section and is the only RSI that comes **before** the basic financial statements.
 
 ```mermaid
 flowchart TD
-    A[Annual Comprehensive Financial Report] --> B[Introductory Section]
-    A --> C[Financial Section]
-    A --> D[Statistical Section]
-    C --> E["MD&A (RSI, Before)"]
-    C --> F[Basic Financial Statements]
-    C --> G["Other RSI (After)"]
-    F --> H[Government-Wide Statements]
-    F --> I[Fund Financial Statements]
-    F --> J[Notes to Financial Statements]
+    A["ACFR"] --> B["Introductory<br/>section"]
+    A --> C["Financial<br/>section"]
+    A --> D["Statistical<br/>section"]
+    C --> E["MD&A<br/>(RSI)"]
+    C --> F["Basic financial<br/>statements"]
+    C --> G["Other RSI"]
+    C --> H["Supplementary<br/>information"]
+    F --> I["Government-wide statements,<br/>fund statements, notes"]
 ```
 
 | Component | Position | Classification |
 |---|---|---|
-| **MD&A** | Before basic financial statements | RSI |
-| Government-wide financial statements | Basic financial statements | Audited |
-| Fund financial statements | Basic financial statements | Audited |
-| Notes to financial statements | Basic financial statements | Audited |
-| Budgetary comparison schedules | After basic financial statements | RSI |
-| Pension/OPEB schedules | After basic financial statements | RSI |
+| Letter of transmittal | Introductory section | Not RSI; unaudited |
+| Independent auditor's report | Start of the financial section | Auditor's report |
+| **MD&A** | Before the basic financial statements | RSI |
+| Government-wide statements, fund statements, and notes | Basic financial statements | Covered by the audit opinion |
+| Budgetary comparison schedules, pension and OPEB schedules, modified approach information | After the notes | RSI |
+| Combining statements for nonmajor funds | After the RSI | Supplementary information |
 
 :::warning[Common Misconception]
 
-Do not confuse MD&A with the transmittal letter. The **transmittal letter** is in the introductory section and is unaudited supplementary information. **MD&A** is in the financial section, is RSI, and is subject to limited auditor procedures. The transmittal letter may be more promotional in tone; MD&A must be factual and analytical.
+Do not confuse MD&A with the **letter of transmittal**. The letter is in the introductory section, is not RSI, and receives no audit procedures. MD&A is in the financial section, is RSI, and receives limited procedures. GASB encourages governments not to repeat MD&A information in the transmittal letter.
 
 :::
 
 ---
 
-## Required Components of MD&A
+## The Five Required Sections
 
-GASB 34 specifies **eight required topics** that must be addressed in the MD&A. Governments should confine their discussion to these topics.
+Under GASB 103, MD&A is limited to the topics in five sections:
 
-| # | Required Component | Focus |
+| # | Section | What It Contains |
 |---|---|---|
-| 1 | Brief discussion of the basic financial statements | Explain what they show and the relationships between them |
-| 2 | Condensed comparative financial data | Current and prior year data from government-wide statements |
-| 3 | Overall financial position and results of operations | Analysis of changes in net position and activities |
-| 4 | Individual fund analysis | Significant changes in balances and transactions of individual funds |
-| 5 | Budget variances | Significant variations between original budget, final budget, and actual results for the General Fund |
-| 6 | Capital asset and long-term debt activity | Significant activity during the year |
-| 7 | Infrastructure condition (if modified approach) | Condition assessments and maintenance/preservation levels |
-| 8 | Currently known facts, decisions, or conditions | Events expected to significantly affect future financial position or operations |
+| 1 | **Overview of the Financial Statements** | A description of the basic financial statements and how they relate to each other, focusing on the significant differences in the information each provides |
+| 2 | **Financial Summary** | Condensed government-wide information comparing the current year with the prior year, for governmental and business-type activities |
+| 3 | **Detailed Analyses** | Explanations of **why** the government's financial position and results changed, at the government-wide level and for each major fund |
+| 4 | **Significant Capital Asset and Long-Term Financing Activity** | Significant capital asset additions and disposals, and significant debt, lease, public-private partnership (PPP), and subscription-based IT arrangement (SBITA) activity |
+| 5 | **Currently Known Facts, Decisions, or Conditions** | Facts, decisions, or conditions expected to have a significant effect on financial position or to make future results differ significantly from this year's |
 
-:::tip[Exam Tip]
+Two topics that GASB 34 placed in MD&A were moved out. The analysis of **budget variances** now appears in the notes to RSI, next to the budgetary comparison schedules. The discussion of infrastructure reported under the **modified approach** also moved to the notes to RSI. Older study materials that list eight MD&A topics, including those two, describe the superseded GASB 34 rules.
 
-A helpful mnemonic for the eight MD&A components: **"Big Cities Build Infrastructures For Better Future Growth"**: Basic financial statements discussion, Condensed comparative data, Budget variances, Infrastructure (modified approach), Fund analysis, capital asset/debt (Balance sheet long-term items), Future known facts, Government-wide overall analysis.
+### Section 1: Overview of the Financial Statements
 
-:::
+This section orients the reader. It explains what the government-wide statements, the fund statements, and the notes each show, and how they differ: for example, that the government-wide statements use full accrual accounting and report capital assets and long-term debt, while the governmental fund statements focus on current financial resources.
 
----
+### Section 2: Financial Summary
 
-## Condensed Comparative Financial Data
+The financial summary presents **condensed information from the government-wide statements**, comparing the current year with the prior year for both governmental and business-type activities. GASB 103 lists the elements to include where applicable. From the statement of net position: total assets (separating capital assets from other assets), deferred outflows, total liabilities (separating long-term liabilities from other liabilities), deferred inflows, and net position by component. From the statement of activities: program revenues by major source, general revenues by major source, total revenues, program expenses at least by function, total expenses, contributions to endowments, transfers, unusual or infrequent items, and beginning net position, change in net position, and ending net position.
 
-One of the most important MD&A components is the presentation of **condensed comparative financial data** derived from the government-wide statements. This includes both the Statement of Net Position and the Statement of Activities, comparing the current year to the prior year.
+**Condensed Statement of Net Position (Example City)**
 
-### Condensed Statement of Net Position (Example)
-
-| | Governmental Activities | | Business-Type Activities | |
+| | Governmental: Current Year | Governmental: Prior Year | Business-Type: Current Year | Business-Type: Prior Year |
 |---|---:|---:|---:|---:|
-| | **Current Year** | **Prior Year** | **Current Year** | **Prior Year** |
-| Current and other assets | \$18,300,000 | \$17,100,000 | \$5,800,000 | \$5,500,000 |
+| Current and other assets | \$17,800,000 | \$17,100,000 | \$6,300,000 | \$5,500,000 |
 | Capital assets (net) | 85,000,000 | 82,000,000 | 32,000,000 | 30,500,000 |
-| **Total assets** | **103,300,000** | **99,100,000** | **37,800,000** | **36,000,000** |
+| **Total assets** | **102,800,000** | **99,100,000** | **38,300,000** | **36,000,000** |
 | Deferred outflows of resources | 2,200,000 | 1,900,000 | 400,000 | 350,000 |
-| Current liabilities | 3,500,000 | 3,200,000 | 1,200,000 | 1,100,000 |
 | Long-term liabilities | 42,500,000 | 40,000,000 | 15,200,000 | 14,500,000 |
+| Other liabilities | 3,500,000 | 3,200,000 | 1,200,000 | 1,100,000 |
 | **Total liabilities** | **46,000,000** | **43,200,000** | **16,400,000** | **15,600,000** |
 | Deferred inflows of resources | 3,000,000 | 2,800,000 | 200,000 | 150,000 |
 | Net investment in capital assets | 42,500,000 | 41,000,000 | 16,800,000 | 16,000,000 |
 | Restricted | 5,500,000 | 5,200,000 | 1,200,000 | 1,100,000 |
-| Unrestricted | 8,500,000 | 8,800,000 | 3,600,000 | 3,500,000 |
-| **Total net position** | **\$56,500,000** | **\$55,000,000** | **\$21,600,000** | **\$20,600,000** |
+| Unrestricted | 8,000,000 | 8,800,000 | 4,100,000 | 3,500,000 |
+| **Total net position** | **\$56,000,000** | **\$55,000,000** | **\$22,100,000** | **\$20,600,000** |
 
-### Condensed Statement of Activities (Example)
+**Condensed Statement of Activities (Example City)**
 
-| | Governmental Activities | | Business-Type Activities | |
+| | Governmental: Current Year | Governmental: Prior Year | Business-Type: Current Year | Business-Type: Prior Year |
 |---|---:|---:|---:|---:|
-| | **Current Year** | **Prior Year** | **Current Year** | **Prior Year** |
-| Program revenues: | | | | |
+| **Program revenues:** | | | | |
 | &emsp;Charges for services | \$3,200,000 | \$3,000,000 | \$5,900,000 | \$5,600,000 |
-| &emsp;Operating grants | 1,800,000 | 1,700,000 | 0 | 0 |
-| &emsp;Capital grants | 2,500,000 | 2,000,000 | 1,000,000 | 800,000 |
-| General revenues: | | | | |
+| &emsp;Operating grants and contributions | 1,800,000 | 1,700,000 | 0 | 0 |
+| &emsp;Capital grants and contributions | 2,500,000 | 2,000,000 | 1,000,000 | 800,000 |
+| **General revenues:** | | | | |
 | &emsp;Property taxes | 10,500,000 | 10,000,000 | 0 | 0 |
 | &emsp;Sales taxes | 4,800,000 | 4,500,000 | 0 | 0 |
 | &emsp;Other | 900,000 | 850,000 | 200,000 | 180,000 |
 | **Total revenues** | **23,700,000** | **22,050,000** | **7,100,000** | **6,580,000** |
-| Total expenses | 22,200,000 | 21,500,000 | 6,100,000 | 5,900,000 |
+| **Program expenses:** | | | | |
+| &emsp;General government | 4,400,000 | 4,300,000 | | |
+| &emsp;Public safety | 9,200,000 | 8,500,000 | | |
+| &emsp;Public works | 5,400,000 | 5,500,000 | | |
+| &emsp;Culture and recreation | 2,000,000 | 2,000,000 | | |
+| &emsp;Interest on long-term debt | 1,200,000 | 1,200,000 | | |
+| &emsp;Water utility | | | 4,600,000 | 4,400,000 |
+| &emsp;Parking facilities | | | 1,500,000 | 1,500,000 |
+| **Total expenses** | **22,200,000** | **21,500,000** | **6,100,000** | **5,900,000** |
+| Excess before transfers | 1,500,000 | 550,000 | 1,000,000 | 680,000 |
 | Transfers | (500,000) | (400,000) | 500,000 | 400,000 |
-| **Change in net position** | **\$1,000,000** | **\$150,000** | **\$1,500,000** | **\$1,080,000** |
+| **Change in net position** | **1,000,000** | **150,000** | **1,500,000** | **1,080,000** |
+| Net position, beginning | 55,000,000 | 54,850,000 | 20,600,000 | 19,520,000 |
+| **Net position, ending** | **\$56,000,000** | **\$55,000,000** | **\$22,100,000** | **\$20,600,000** |
 
----
+### Section 3: Detailed Analyses
 
-## Analysis of Overall Financial Position
+The numbers in the financial summary are only the starting point. GASB 103 stresses that the analysis should explain **why** balances and results changed, and how much, not merely restate the amounts or percentages. It has two parts.
 
-After presenting the condensed data, MD&A must include **narrative analysis** explaining the reasons for significant changes. The analysis should address both the Statement of Net Position and the Statement of Activities.
+**Government-wide analysis.** Management summarizes the significant changes in the financial position and results of both governmental and business-type activities and explains their causes. The discussion should include facts a reader may not know (not every reader lives in the area), significant policy changes such as new tax rates or a hiring freeze, and important economic factors such as changes in the tax or employment base.
 
-### Example Analysis Paragraph
+> *"The net position of the City's governmental activities increased by \$1,000,000 (1.8%) during the current year, compared with an increase of \$150,000 in the prior year. Property tax revenue rose \$500,000 because new construction added to the tax base, and capital grants rose \$500,000 as federal funding for the Main Street bridge project began. These increases were partly offset by a \$700,000 increase in public safety expenses under new collective bargaining agreements effective July 1."*
 
-> *"The net position of the City's governmental activities increased by \$1,000,000 (1.8%) during the current fiscal year, compared to an increase of \$150,000 in the prior year. The improvement is primarily attributable to a \$500,000 increase in property tax revenues resulting from new construction and a \$500,000 increase in capital grant funding for the Main Street bridge project. These increases were partially offset by a \$700,000 increase in public safety expenses due to new collective bargaining agreements effective July 1."*
+**Major fund analysis.** Management also explains the significant changes in the fund balance or net position and results of **each major fund**, including restrictions, commitments, and assignments that significantly affect the availability of fund resources for future use. GASB 103 no longer requires an analysis of nonmajor funds in the aggregate. Where an explanation already given at the government-wide level applies to a fund, the major fund analysis may refer to it instead of repeating it.
 
-:::info[Analysis Best Practices]
-
-Effective MD&A analysis should:
-
-- Explain **why** changes occurred, not merely restate the numbers
-- Identify specific causes of significant fluctuations
-- Discuss the implications of changes for the government's financial health
-- Use dollar amounts and percentages to quantify changes
-
-:::
-
----
-
-## Individual Fund Analysis
-
-MD&A must discuss significant changes in balances and transactions for individual major funds. This section bridges the government-wide perspective with the fund-level detail.
-
-| Fund | Key Items to Discuss |
+| Fund | Typical Points to Explain |
 |---|---|
-| **General Fund** | Changes in fund balance, revenue trends, expenditure changes |
-| **Major special revenue funds** | Significant grant activity, restricted revenue changes |
-| **Major capital projects funds** | Project status, bond proceeds received and spent |
-| **Major enterprise funds** | Operating income changes, rate increases, capital investment |
+| **General fund** | Why fund balance changed; revenue and expenditure trends; significant commitments and assignments |
+| **Major special revenue funds** | Changes in the restricted revenue source; significant grant activity |
+| **Major capital projects funds** | Project progress; bond proceeds received and spent |
+| **Major enterprise funds** | Changes in operating income; rate changes; capital investment |
 
----
+### Section 4: Significant Capital Asset and Long-Term Financing Activity
 
-## Budget Variance Analysis
-
-MD&A must analyze **significant variances** between:
-
-1. **Original budget** and **final budget** (explains amendments during the year)
-2. **Final budget** and **actual results** (explains performance vs. plan)
-
-This requirement applies to the General Fund and, at the government's option, other major governmental funds with legally adopted annual budgets.
-
-### Example Budget Variance Discussion
-
-| General Fund | Original Budget | Final Budget | Actual | Variance (Final vs. Actual) |
-|---|---:|---:|---:|---:|
-| Total revenues | \$14,000,000 | \$14,200,000 | \$14,500,000 | \$300,000 favorable |
-| Total expenditures | 13,800,000 | 14,100,000 | 13,900,000 | 200,000 favorable |
-| Net change in fund balance | \$200,000 | \$100,000 | \$600,000 | \$500,000 favorable |
-
-> *"The original budget was amended during the year to appropriate \$300,000 from fund balance for emergency road repairs following the March storm. Actual revenues exceeded the final budget by \$300,000 primarily due to higher-than-anticipated sales tax collections in the fourth quarter. Actual expenditures were \$200,000 below the final budget because the emergency road repairs cost less than originally estimated."*
-
-:::tip[Exam Tip]
-
-Remember that budget variance analysis in MD&A focuses on **why** the variances occurred. The budgetary comparison schedule (separate RSI) presents the numbers; MD&A provides the narrative explanation of significant deviations.
-
-:::
-
----
-
-## Capital Asset and Long-Term Debt Activity
-
-MD&A must describe significant capital asset and long-term debt activity during the year.
-
-### Capital Asset Activity Example
+This section describes the year's significant **capital asset activity** (additions, disposals, and changes in commitments to acquire capital assets, including intangible right-to-use assets) and significant **long-term financing activity** (new debt, leases, PPPs, and SBITAs, changes in credit ratings, and changes in debt limits that could affect planned facilities or services). It may summarize the capital asset and long-term liability notes and refer readers to them for detail.
 
 | Capital Assets (Net) | Governmental Activities | Business-Type Activities |
 |---|---:|---:|
 | Beginning balance | \$82,000,000 | \$30,500,000 |
 | Additions | 6,500,000 | 3,200,000 |
-| Retirements | (300,000) | (100,000) |
-| Depreciation | (3,200,000) | (1,600,000) |
+| Disposals | (300,000) | (100,000) |
+| Depreciation and amortization | (3,200,000) | (1,600,000) |
 | **Ending balance** | **\$85,000,000** | **\$32,000,000** |
 
-### Long-Term Debt Activity Example
-
-| Outstanding Debt | Governmental Activities | Business-Type Activities |
+| Long-Term Liabilities | Governmental Activities | Business-Type Activities |
 |---|---:|---:|
 | Beginning balance | \$40,000,000 | \$14,500,000 |
-| New issuances | 5,000,000 | 2,000,000 |
-| Retirements | (2,500,000) | (1,300,000) |
+| New debt and other additions | 5,000,000 | 2,000,000 |
+| Repayments and other reductions | (2,500,000) | (1,300,000) |
 | **Ending balance** | **\$42,500,000** | **\$15,200,000** |
 
+A short narrative would then explain the main items, for example that the \$5,000,000 of new governmental debt was a bond issue for the Main Street bridge, and whether the city's credit rating changed.
+
+### Section 5: Currently Known Facts, Decisions, or Conditions
+
+The final section looks ahead, but only on the basis of what management **currently knows** when the statements are issued. It is not a forecast. It describes facts, decisions, or conditions expected to significantly affect financial position or to make future results differ significantly from this year's. GASB 103's examples include:
+
+- Trends in relevant economic and demographic data, such as population, customer base, income levels, building permits, enrollment, and unemployment.
+- Factors used in developing next year's budget, such as tax rate or fee changes, inflation, labor contracts, new laws, and program additions or cuts.
+- Expected changes in budgetary fund balance or net position.
+- Actions the government has taken on postemployment benefit liabilities, capital improvement plans, leases, PPPs, SBITAs, and other long-term financing.
+- Actions other parties have taken that will affect the government, such as new legislation or regulations imposed on it.
+
+These items may or may not also be subsequent events. A tax rate increase approved this year but effective next year is not a subsequent event, yet it belongs in this section.
+
 ---
 
-## Infrastructure Condition (Modified Approach)
+## Limits on MD&A Content
 
-If a government uses the **modified approach** for reporting infrastructure assets (preserving them at a target condition level rather than depreciating), MD&A must discuss:
+MD&A has firm boundaries. Information must relate to the topics in the five sections. A government may add detail about those topics, but information that does not relate to them belongs elsewhere, such as in the letter of transmittal or in other supplementary information.
 
-| Required Disclosure | Description |
+| Appropriate in MD&A | Not Appropriate in MD&A |
 |---|---|
-| Condition assessment results | Most recent assessment vs. condition level established by government |
-| Comparison of estimated vs. actual maintenance | Whether actual preservation spending met estimated needs |
-| Significant changes | Any changes in condition levels or estimated maintenance |
-
-:::info[Modified Approach Reminder]
-
-Under the modified approach, infrastructure assets are **not depreciated**. Instead, the government commits to maintaining them at a condition level established by the government. All maintenance and preservation costs are expensed. This approach is only available for infrastructure assets that are part of a network or subsystem managed as such.
-
-:::
-
----
-
-## Currently Known Facts, Decisions, or Conditions
-
-The final required component addresses **forward-looking information**, but only information based on facts that are **currently known** as of the report date. This is not a forecast or projection section.
-
-Examples of items to discuss:
-
-- Approved but not-yet-issued debt
-- Pending litigation with probable outcomes
-- Planned facility closures or program eliminations
-- Enacted tax rate changes effective in future periods
-- Known grant awards for future periods
-- Natural disaster impacts not yet fully reflected
-
----
-
-## Limitations on MD&A Content
-
-GASB 34 explicitly limits what may be included in MD&A:
-
-| Permitted | Not Permitted |
-|---|---|
-| Discussion of the eight required topics | Information GASB does not require or authorize |
-| Objective, factual analysis | Subjective opinions without factual basis |
-| Currently known facts | Speculation about future events |
-| Comparative data from government-wide statements | Fund-level comparative data not required by GASB 34 |
-| References to other sections of the ACFR | Promotional or marketing content |
-
-:::warning[Exam Alert]
-
-A government **cannot** use MD&A to present information that GASB does not specifically require or authorize for MD&A. This is a common exam point. If a question asks whether a particular item belongs in MD&A, check whether it falls within one of the eight required topics.
-
-:::
-
----
-
-## Comprehensive Exam Tips
+| Topics within the five required sections, with whatever detail helps explain them | Information unrelated to the required topics |
+| Objective, fact-based analysis of why amounts changed | Promotional content or unsupported opinions |
+| Currently known facts, decisions, or conditions | Speculation or forecasts |
+| Explanations focused on the most relevant information about the primary government | "Boilerplate" discussion repeated from year to year |
+| References to an explanation already given in another section | Unnecessary duplication of the same explanation |
 
 :::tip[Exam Tip]
 
-**High-yield MD&A concepts for the BAR exam:**
-
-1. MD&A is **RSI**, not part of the basic financial statements, but it is **required** (not optional).
-2. MD&A is placed **before** the basic financial statements; it is the only RSI with this placement.
-3. MD&A must include **condensed comparative data** from the government-wide statements (current vs. prior year).
-4. The **eight required components** are specifically enumerated by GASB 34; governments should confine their discussion to these topics.
-5. Budget variance analysis covers **original vs. final budget** and **final budget vs. actual** for the General Fund.
-6. MD&A is based on **currently known facts**; it is not a forecast or promotional document.
-7. **Management** is responsible for preparing MD&A, not the auditor.
-8. If the government uses the **modified approach** for infrastructure, MD&A must discuss condition assessments and maintenance levels.
-9. The auditor applies **limited procedures** to MD&A (it is RSI, not audited financial statements).
+When a question asks whether an item belongs in MD&A, test it against the five sections. A discussion of budget variances, for example, now belongs in the notes to RSI, not in MD&A. A discussion of a new bond issue belongs in Section 4, and an approved future tax increase belongs in Section 5.
 
 :::

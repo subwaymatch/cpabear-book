@@ -1,76 +1,46 @@
 # Fiduciary Funds Financial Statements
 
-**Fiduciary funds** account for resources held by a government in a **trustee** or **custodial** capacity for individuals, private organizations, or other governments. Because these resources cannot be used to support the government's own programs, fiduciary funds are excluded from the government-wide financial statements. Understanding the types of fiduciary funds, their measurement focus, and the two required financial statements is critical for the CPA exam.
+Governments sometimes hold money that is not theirs to spend. A pension plan holds assets for retired employees. A county collects property taxes on behalf of school districts. A city manages a scholarship trust for local students. **Fiduciary funds** report these resources, which the government holds as a **trustee** or **custodian** for individuals, private organizations, or other governments.
 
-:::info[Blueprint Coverage]
+Because these resources cannot be used for the government's own programs, they are left out of the government-wide financial statements entirely and reported in their own two statements. This chapter covers how to tell whether an activity is fiduciary, the four types of fiduciary funds, the two required statements, and how to prepare them from a trial balance.
 
-This section maps to **BAR Area III, Group A, Topic 4: Fiduciary Funds Financial Statements**. Representative tasks:
+---
 
-1. **Identify and recall** basic concepts and principles associated with fiduciary fund financial statements (e.g., required funds, financial statements, financial statement components).
-2. **Prepare** the statement of changes in fiduciary net position for the fiduciary funds of a state or local government from trial balances and supporting documentation.
-3. **Prepare** the statement of net position for the fiduciary funds of a state or local government from trial balances and supporting documentation.
+## Identifying a Fiduciary Activity
 
-:::
+GASB Statement No. 84, *Fiduciary Activities*, sets the test for when an activity is fiduciary. It turns on two questions: does the government **control** the assets, and are the assets really held for **someone else**?
+
+1. **Control.** The government holds the assets or has the ability to direct how they are used.
+2. **Held for others.** For pension and other postemployment benefit (OPEB) plans, controlled plan assets are fiduciary. For other activities, two conditions must both be met:
+   - The assets are **not** derived from the government's own-source revenues or from its government-mandated or voluntary nonexchange transactions (such as grants). The one exception is a pass-through grant in which the government has no administrative or direct financial involvement.
+   - The assets are held in a trust in which the government itself is not a beneficiary (dedicated to the beneficiaries and legally protected from the government's creditors), **or** they benefit individuals, organizations, or other governments outside the reporting entity, and the government has no **administrative involvement** (for example, monitoring eligibility or deciding how the money is spent) or **direct financial involvement** (for example, providing matching funds).
+
+If the government uses the assets for its own programs, or is deeply involved in deciding how they are used, the activity is not fiduciary. It belongs in a governmental or proprietary fund instead.
 
 ---
 
 ## Types of Fiduciary Funds
 
-GASB identifies four types of fiduciary funds:
+Fiduciary activities are reported in four fund types. The first three are trust funds, used when the assets are held in a qualifying trust. Custodial funds take everything else.
 
 | Fund Type | Purpose | Examples |
 |---|---|---|
-| **Pension (and other employee benefit) trust funds** | Account for resources held in trust for pension plans and OPEB | Defined benefit pension plans, retiree health plans |
-| **Investment trust funds** | Account for the external portion of investment pools operated by the government | County treasurer pools funds for school districts |
-| **Private-purpose trust funds** | Account for trust arrangements benefiting individuals or private organizations | Scholarship trust, escheat property |
-| **Custodial funds** | Account for resources held temporarily in a custodial capacity | Tax collections on behalf of other governments, special assessments held for developers |
+| **Pension (and other employee benefit) trust funds** | Resources held in trust for pension and OPEB plans | Defined benefit pension plans, retiree health plans |
+| **Investment trust funds** | The external portion of an investment pool the government operates, held in trust | A county treasurer's pool that invests cash for school districts |
+| **Private-purpose trust funds** | Other trust arrangements benefiting individuals, private organizations, or other governments | Scholarship trusts, escheat property held for owners |
+| **Custodial funds** | Fiduciary activities not reported in one of the trust funds | Taxes collected for other governments; special assessment collections for debt the government is not obligated to repay |
 
-:::tip[Exam Tip]
-
-Prior to GASB 84, custodial funds were called "agency funds." If you see either term, they refer to the same concept. GASB 84 (effective 2020) replaced the agency fund category with custodial funds and requires them to report a statement of changes in fiduciary net position, which agency funds previously did not.
-
-:::
-
----
-
-## GASB Statement 84: Fiduciary Activities
-
-GASB 84 establishes criteria for determining when a government has a **fiduciary activity**:
-
-```mermaid
-flowchart TD
-    A[Does the government control the assets?] -->|Yes| B{Are the assets from<br/>a government-mandated or<br/>voluntary nonexchange<br/>transaction?}
-    A -->|No| Z[Not fiduciary]
-    B -->|Yes| C{Are the assets for the<br/>benefit of the government<br/>itself?}
-    B -->|No| D{Does the government have<br/>administrative involvement<br/>or direct financial<br/>integration?}
-    C -->|Yes| Z
-    C -->|No| E[Fiduciary activity]
-    D -->|Yes| E
-    D -->|No| F{Are the assets held for<br/>a pension/OPEB arrangement?}
-    F -->|Yes| E
-    F -->|No| G{Are assets held for<br/>individuals, private orgs,<br/>or other governments?}
-    G -->|Yes| E
-    G -->|No| Z
-```
-
-**Key exclusion:** Assets held for the government's own programs are **not** fiduciary; they belong in governmental or proprietary funds.
+Custodial funds replaced the old **agency funds** when GASB 84 took effect (fiscal years beginning after December 15, 2019). The change in name came with a change in reporting. Agency funds reported only assets and offsetting liabilities, with no net position and no operating statement. Custodial funds report net position and a statement of changes in fiduciary net position, like the trust funds.
 
 ---
 
 ## Measurement Focus and Basis of Accounting
 
-All fiduciary funds use:
-
-| Attribute | Requirement |
-|---|---|
-| **Measurement focus** | Economic resources |
-| **Basis of accounting** | Accrual |
-
-This means fiduciary funds recognize revenues when earned and expenses when incurred, similar to proprietary funds and the government-wide statements.
+All fiduciary funds use the **economic resources measurement focus** and the **accrual basis of accounting**, the same as proprietary funds and the government-wide statements. Additions are recognized when earned and deductions when incurred, and investments are generally reported at fair value.
 
 :::warning[Critical Point]
 
-Fiduciary funds are **NOT** included in the government-wide financial statements. They appear only in the fiduciary fund financial statements, which are presented as a separate section of the basic financial statements.
+Fiduciary funds are **never** included in the government-wide financial statements. They appear only in the fiduciary fund statements, which are a separate part of the basic financial statements. If a question asks about the government-wide statement of net position or statement of activities, fiduciary balances are excluded.
 
 :::
 
@@ -78,60 +48,53 @@ Fiduciary funds are **NOT** included in the government-wide financial statements
 
 ## Required Financial Statements
 
-Fiduciary funds require exactly **two** financial statements:
+Fiduciary funds present exactly **two** statements, with a column for each fiduciary fund type:
 
 | Statement | What It Shows |
 |---|---|
-| **Statement of Fiduciary Net Position** | Assets, liabilities, and net position at a point in time (balance sheet equivalent) |
-| **Statement of Changes in Fiduciary Net Position** | Additions to and deductions from net position during the period (income statement equivalent) |
+| **Statement of Fiduciary Net Position** | Assets, deferred outflows, liabilities, deferred inflows, and net position at the end of the period |
+| **Statement of Changes in Fiduciary Net Position** | Additions to and deductions from net position during the period |
 
-### Statement of Fiduciary Net Position: Components
+The statements use their own vocabulary. Inflows are **additions**, not revenues, and outflows are **deductions**, not expenses, because the resources belong to the beneficiaries.
 
-| Section | Typical Line Items |
-|---|---|
-| **Assets** | Cash, investments (at fair value), receivables (contributions, interest), capital assets (if any) |
-| **Liabilities** | Accounts payable, benefits payable, refunds payable |
-| **Net Position** | Restricted for pensions, restricted for other purposes, or held in trust |
+| Statement | Section | Typical Line Items |
+|---|---|---|
+| Fiduciary net position | **Assets** | Cash, investments at fair value, receivables (contributions, interest), capital assets if any |
+| Fiduciary net position | **Liabilities** | Accounts payable, benefits payable, refunds payable |
+| Fiduciary net position | **Net position** | Restricted for pensions, restricted for OPEB, or restricted for individuals, organizations, and other governments |
+| Changes in fiduciary net position | **Additions** | Employer and employee contributions, net investment income (including changes in fair value), other additions |
+| Changes in fiduciary net position | **Deductions** | Benefit payments, refunds of contributions, administrative expenses |
 
-### Statement of Changes in Fiduciary Net Position: Components
-
-| Section | Typical Line Items |
-|---|---|
-| **Additions** | Employer contributions, employee contributions, investment income (net of fees), other additions |
-| **Deductions** | Benefit payments, refunds, administrative expenses |
-| **Change in net position** | Additions - Deductions |
-| **Net position, beginning** | Prior year balance |
-| **Net position, ending** | Beginning + Change |
+The statement of changes ends with the net increase (decrease) in fiduciary net position, then adds it to beginning net position to reach ending net position. Ending net position must equal net position on the statement of fiduciary net position.
 
 ---
 
 ## Example: Pension Trust Fund
 
-### Trial Balance
-
-**Bear City Employees' Pension Trust Fund Trial Balance at June 30, 20X5:**
+**Bear City Employees' Pension Trust Fund, Trial Balance, June 30, 20X7**
 
 | Account | Debit | Credit |
 |---|---|---|
 | Cash | \$2,500,000 | |
-| Investments (fair value) | \$48,000,000 | |
-| Accrued Interest Receivable | \$350,000 | |
-| Contributions Receivable (Employer) | \$800,000 | |
+| Investments (fair value) | 48,000,000 | |
+| Accrued Interest Receivable | 350,000 | |
+| Contributions Receivable (Employer) | 800,000 | |
 | Accounts Payable | | \$120,000 |
-| Benefits Payable | | \$430,000 |
-| Net Position Restricted for Pensions (beginning) | | \$44,000,000 |
-| Employer Contributions | | \$3,600,000 |
-| Employee Contributions | | \$1,800,000 |
-| Net Investment Income | | \$4,200,000 |
-| Benefit Payments | \$2,900,000 | |
-| Refunds to Terminated Employees | \$200,000 | |
-| Administrative Expenses | \$300,000 | |
+| Benefits Payable | | 430,000 |
+| Net Position Restricted for Pensions (July 1, 20X6) | | 44,900,000 |
+| Employer Contributions | | 3,600,000 |
+| Employee Contributions | | 1,800,000 |
+| Net Investment Income | | 4,200,000 |
+| Benefit Payments | 2,900,000 | |
+| Refunds to Terminated Employees | 200,000 | |
+| Administrative Expenses | 300,000 | |
 | **Totals** | **\$55,050,000** | **\$55,050,000** |
 
-### Preparing the Statement of Fiduciary Net Position
+To prepare the statements, sort the accounts: the asset and liability accounts go to the statement of fiduciary net position, and the addition and deduction accounts go to the statement of changes.
 
-**Bear City Employees' Pension Trust Fund**
-**Statement of Fiduciary Net Position, June 30, 20X5**
+### Statement of Fiduciary Net Position
+
+**Bear City Employees' Pension Trust Fund, Statement of Fiduciary Net Position, June 30, 20X7**
 
 | | Amount |
 |---|---|
@@ -147,10 +110,9 @@ Fiduciary funds require exactly **two** financial statements:
 | **Total liabilities** | **\$550,000** |
 | **Net position restricted for pensions** | **\$51,100,000** |
 
-### Preparing the Statement of Changes in Fiduciary Net Position
+### Statement of Changes in Fiduciary Net Position
 
-**Bear City Employees' Pension Trust Fund**
-**Statement of Changes in Fiduciary Net Position for the Year Ended June 30, 20X5**
+**Bear City Employees' Pension Trust Fund, Statement of Changes in Fiduciary Net Position, Year Ended June 30, 20X7**
 
 | | Amount |
 |---|---|
@@ -164,96 +126,74 @@ Fiduciary funds require exactly **two** financial statements:
 | Refunds to terminated employees | 200,000 |
 | Administrative expenses | 300,000 |
 | **Total deductions** | **\$3,400,000** |
-| **Change in net position** | **\$6,200,000** |
-| Net position, beginning | 44,000,000 |
-| Unrounded check: \$44,000,000 + \$6,200,000 | |
-| **Net position, ending** | **\$50,200,000** |
+| **Net increase in fiduciary net position** | **\$6,200,000** |
+| Net position restricted for pensions, beginning | 44,900,000 |
+| **Net position restricted for pensions, ending** | **\$51,100,000** |
 
-:::warning[Reconciliation Note]
+The two statements tie: \$44,900,000 + \$6,200,000 = \$51,100,000, which equals total assets of \$51,650,000 less total liabilities of \$550,000. Checking that tie is the fastest way to catch an error on an exam simulation.
 
-The ending net position from the Statement of Changes (\$50,200,000) should equal the net position on the Statement of Fiduciary Net Position. In our example, the Statement of Net Position shows \$51,100,000 because it reflects the balance sheet date amounts. The difference arises because the "beginning" net position in the trial balance (\$44,000,000) plus changes should net to the ending figure. Let's verify: \$44,000,000 + \$9,600,000 - \$3,400,000 = \$50,200,000. The Statement of Net Position is computed as Assets - Liabilities = \$51,650,000 - \$550,000 = \$51,100,000. This discrepancy means we must adjust: the correct beginning net position is \$44,900,000 (i.e., \$51,100,000 - \$6,200,000). Always verify that the two statements reconcile.
+### Summary Journal Entries
 
-:::
-
----
-
-## Journal Entries for Fiduciary Fund Transactions
-
-### Receiving Employer and Employee Contributions
+The year's activity can be summarized in three entries. Contributions were received in cash except for \$800,000 still due from the employer:
 
 ```journal
-Dr. Cash[a] 5,400,000
+Dr. Cash[a] 4,600,000
+Dr. Contributions Receivable[a] 800,000
     Cr. Employer Contributions 3,600,000
     Cr. Employee Contributions 1,800,000
 ```
 
-### Recording Investment Income
+Net investment income includes interest and dividends plus the change in the fair value of investments. Assume \$1,600,000 was received in cash, \$350,000 of interest was accrued, and investments rose \$2,250,000 in fair value:
 
 ```journal
-Dr. Cash[a] 4,200,000
+Dr. Cash[a] 1,600,000
+Dr. Accrued Interest Receivable[a] 350,000
+Dr. Investments[a] 2,250,000
     Cr. Net Investment Income 4,200,000
 ```
 
-### Paying Benefits to Retirees
+Benefits, refunds, and administrative expenses were paid in cash except for the amounts still payable at year-end:
 
 ```journal
 Dr. Benefit Payments 2,900,000
-    Cr. Cash[a] 2,900,000
-```
-
-### Refunds to Terminated Employees
-
-```journal
 Dr. Refunds to Terminated Employees 200,000
-    Cr. Cash[a] 200,000
-```
-
-### Administrative Expenses
-
-```journal
 Dr. Administrative Expenses 300,000
-    Cr. Accounts Payable[l] 300,000
+    Cr. Cash[a] 2,850,000
+    Cr. Benefits Payable[l] 430,000
+    Cr. Accounts Payable[l] 120,000
 ```
 
 ---
 
 ## Custodial Fund Example
 
-**Bear County** collects property taxes on behalf of three school districts. During the year, the county collects \$12,000,000 and distributes \$11,500,000 to the districts.
-
-**Record collection:**
+**Bear County** collects property taxes for three school districts. During the year it collects \$12,000,000 and distributes \$11,500,000 to the districts.
 
 ```journal
 Dr. Cash[a] 12,000,000
-    Cr. Additions (Property Tax Collections for Other Governments) 12,000,000
+    Cr. Additions: Property Tax Collections for Other Governments 12,000,000
 ```
 
-**Record distribution to school districts:**
-
 ```journal
-Dr. Deductions (Distributions to School Districts) 11,500,000
+Dr. Deductions: Payments of Property Tax to Other Governments 11,500,000
     Cr. Cash[a] 11,500,000
 ```
 
-At year-end, the custodial fund reports net position of \$500,000 (cash held pending distribution).
+At year-end the fund holds \$500,000. How it is reported depends on whether the county is already obligated to pay it. Under GASB 84, a liability to the beneficiaries is recognized when an event has occurred that **compels** the government to disburse the resources, such as a demand for payment or the absence of any further condition the beneficiary must meet. If the districts are entitled to the \$500,000 now, the county reports a liability (due to other governments) and no net position. If the amount is not yet payable, it is reported as net position restricted for other governments.
 
-:::tip[Exam Tip]
-
-Under GASB 84, custodial funds now report additions and deductions (similar to trust funds). Previously, agency funds only reported assets = liabilities with no net position. If the exam references pre-GASB 84 agency funds, remember they had **no** net position and **no** operating statement.
-
-:::
+Custodial funds that normally hold resources for three months or less may report their additions and deductions in total, as one line each, rather than in detail.
 
 ---
 
-## What Is NOT Included in Fiduciary Funds
+## What Fiduciary Funds Do Not Include
 
-| Item | Correct Fund/Reporting |
+| Item | Correct Fund or Reporting |
 |---|---|
-| Government's own pension contributions (employer side) | Expenditure in governmental fund; expense in government-wide |
-| Internal service fund assets | Proprietary funds |
-| Taxes collected for own use | General Fund |
-| Pass-through grants controlled by government | Special Revenue Fund |
-| Assets held in trust for government's own programs | Special Revenue or Capital Projects Fund |
+| The government's own contributions to its employees' pension plan (the employer side) | Expenditure in the governmental fund; pension expense and net pension liability in the government-wide statements |
+| Internal service fund resources | Proprietary funds |
+| Taxes collected for the government's own use | General fund or a special revenue fund |
+| Pass-through grants in which the government has administrative or direct financial involvement | Governmental fund, usually a special revenue fund |
+| Resources held in trust for the government's own programs | Special revenue fund, or a permanent fund if only the earnings may be spent |
 
 ---
 
@@ -261,15 +201,9 @@ Under GASB 84, custodial funds now report additions and deductions (similar to t
 
 | Characteristic | Pension Trust | Investment Trust | Private-Purpose Trust | Custodial |
 |---|---|---|---|---|
-| **Beneficiary** | Employees | External pool participants | Private individuals/orgs | Other governments/individuals |
+| **Beneficiary** | Plan members and their beneficiaries | External pool participants | Individuals, private organizations, other governments | Individuals, organizations, other governments |
 | **Measurement focus** | Economic resources | Economic resources | Economic resources | Economic resources |
 | **Basis of accounting** | Accrual | Accrual | Accrual | Accrual |
 | **In government-wide statements?** | No | No | No | No |
-| **Reports net position?** | Yes | Yes | Yes | Yes (GASB 84) |
-| **Reports changes in net position?** | Yes | Yes | Yes | Yes (GASB 84) |
-
-:::tip[Exam Tip]
-
-Remember the key rule: **Fiduciary funds are NEVER included in government-wide financial statements.** If a question asks about the Statement of Net Position or Statement of Activities at the government-wide level, fiduciary fund balances are excluded entirely.
-
-:::
+| **Statement of fiduciary net position?** | Yes | Yes | Yes | Yes |
+| **Statement of changes in fiduciary net position?** | Yes | Yes | Yes | Yes (since GASB 84) |

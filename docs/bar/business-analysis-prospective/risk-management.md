@@ -1,95 +1,58 @@
 # Risk Management
 
-Risk management is the process of identifying, assessing, and responding to events that could affect an entity's ability to achieve its objectives. Every business faces a spectrum of risks, from operational disruptions and financial market volatility to emerging environmental and social threats. On the BAR section of the CPA exam, you must understand the COSO Enterprise Risk Management (ERM) framework, apply strategies to mitigate financial risks, manage working capital, and use analytical tools like SWOT analysis to evaluate strategic options.
+Every strategy carries risk. A new product may not sell, a key supplier may fail, interest rates may jump, or a customer may never pay. **Risk management** is the discipline of identifying such events, judging how likely and how serious they are, and deciding what to do about them. The goal is not to eliminate risk, which would mean doing nothing, but to keep it within limits the organization has chosen so it can pursue its strategy with confidence.
 
-:::info[Blueprint Coverage]
-
-This topic maps to **Area I, Group B, Topic 4** of the 2026 CPA Exam Blueprints. You should be prepared to recall the purpose and objectives of the COSO ERM framework, apply it to identify risk scenarios (including ESG-related risks), use strategies to mitigate financial risks, compare working capital management approaches, derive transaction impacts on key performance measures, and interpret SWOT analyses.
-
-:::
+The BAR section tests the COSO Enterprise Risk Management (ERM) framework, including its application to environmental, social, and governance (ESG) risks, along with practical tools: strategies for mitigating financial risks, approaches to managing working capital, SWOT analysis, and the effect of a proposed transaction on key performance measures. This chapter covers them in that order.
 
 ---
 
-## Overview of Risk Management
+## Basic Risk Concepts
 
-Risk is the possibility that an event will occur and adversely (or favorably) affect the achievement of objectives. Effective risk management does not aim to eliminate all risk; it aims to bring risk within an acceptable range so that the entity can pursue its strategy with confidence.
+COSO defines **risk** as the possibility that events will occur and affect the achievement of strategy and business objectives. That effect can be negative or positive: the same uncertainty that creates a threat can also create an opportunity. Managing risk follows a continuous cycle:
 
 ```mermaid
 graph LR
-    A["Identify Risks"] --> B["Assess Likelihood & Impact"]
-    B --> C["Develop Response Strategies"]
-    C --> D["Monitor & Report"]
+    A["Identify<br/>risks"] --> B["Assess likelihood<br/>and impact"]
+    B --> C["Select<br/>responses"]
+    C --> D["Monitor<br/>and report"]
     D --> A
 ```
 
+A few terms recur throughout the framework:
+
 | Concept | Definition |
 |---|---|
-| **Inherent Risk** | The risk to an entity in the absence of any actions to alter its likelihood or impact |
-| **Residual Risk** | The risk remaining after management's response has been applied |
-| **Risk Appetite** | The broad level of risk an entity is willing to accept in pursuit of value |
-| **Risk Tolerance** | The acceptable variation in outcomes relative to a specific objective |
+| **Inherent risk** | The risk before management takes any action to change its likelihood or impact |
+| **Residual risk** | The risk that remains after management's response |
+| **Risk capacity** | The maximum amount of risk the entity is able to absorb in pursuing its strategy |
+| **Risk appetite** | The types and amount of risk, on a broad level, the entity is willing to accept in pursuit of value |
+| **Tolerance** | The acceptable range of variation in performance around a specific business objective |
 
-:::tip[Exam Tip]
+Risk appetite and tolerance work at different levels. The board sets the **risk appetite** as a broad statement about the entity as a whole. Management translates it into **tolerances**: specific, measurable limits for individual objectives.
 
-Do not confuse **risk appetite** (board-level, strategic) with **risk tolerance** (operational, measurable). Risk appetite sets the overall tone; risk tolerance translates that tone into specific, quantifiable thresholds.
-
-:::
+**Example (Bear Co.):** Bear Co.'s board adopts this risk appetite statement: "We accept moderate financial risk to pursue organic revenue growth of 8% to 12% a year." The CFO sets a tolerance for currency exposure: "Receivables denominated in foreign currencies shall not exceed 15% of total receivables."
 
 ---
 
-## COSO ERM Framework (2017)
+## The COSO ERM Framework (2017)
 
-The Committee of Sponsoring Organizations (COSO) published *Enterprise Risk Management: Integrating with Strategy and Performance* in 2017. The framework helps entities manage risk in the context of strategy and performance, not as a standalone compliance exercise.
+The Committee of Sponsoring Organizations of the Treadway Commission (COSO) published *Enterprise Risk Management: Integrating with Strategy and Performance* in 2017. Its central message is in the title. Risk is managed as part of setting and carrying out strategy, not as a separate compliance exercise. The framework's purpose is to help an organization create, preserve, and realize value by considering risk when it chooses a strategy and when it measures performance. (COSO's separate *Internal Control* framework addresses the narrower subject of internal control over operations, reporting, and compliance.)
 
-### Five Interrelated Components
+### Five Components and Twenty Principles
 
-```mermaid
-graph TD
-    A["Governance & Culture"] --> B["Strategy & Objective-Setting"]
-    B --> C["Performance"]
-    C --> D["Review & Revision"]
-    D --> E["Information, Communication & Reporting"]
-    E --> A
-```
+The framework has five interrelated components, supported by 20 principles. You do not need to memorize the principles word for word, but you should know which component each group belongs to.
 
-| Component | Focus | Key Question |
+| Component | Focus | Principles |
 |---|---|---|
-| **Governance & Culture** | Board oversight, operating structures, ethical values | *Who is responsible for risk?* |
-| **Strategy & Objective-Setting** | Aligning risk appetite with strategy and business objectives | *How much risk are we willing to take?* |
-| **Performance** | Identifying risks, assessing severity, selecting responses, developing a portfolio view | *What could go wrong, or right?* |
-| **Review & Revision** | Monitoring entity performance and revising when substantial change occurs | *Is our approach still working?* |
-| **Information, Communication & Reporting** | Leveraging information systems, communicating risk to stakeholders | *Are we sharing the right data?* |
+| **Governance and Culture** | Who is responsible for risk, and what values guide decisions | 1-5: board risk oversight, operating structures, desired culture, commitment to core values, attracting, developing, and retaining capable individuals |
+| **Strategy and Objective-Setting** | How much risk the entity is willing to take | 6-9: analyzing business context, defining risk appetite, evaluating alternative strategies, formulating business objectives |
+| **Performance** | What could go wrong, or right, and what to do about it | 10-14: identifying risk, assessing severity, prioritizing risks, implementing risk responses, developing a portfolio view |
+| **Review and Revision** | Whether the approach is still working | 15-17: assessing substantial change, reviewing risk and performance, pursuing improvement in ERM |
+| **Information, Communication, and Reporting** | Whether the right people get the right risk information | 18-20: leveraging information and technology, communicating risk information, reporting on risk, culture, and performance |
 
-### The 20 Principles (Overview)
+### Identifying and Assessing Risks
 
-The COSO ERM framework organizes its guidance into 20 principles distributed across the five components. You do not need to memorize every principle verbatim, but you should understand their grouping and purpose.
-
-| Component | Principles | Summary |
-|---|---|---|
-| Governance & Culture | 1-5 | Board risk oversight, operating structures, desired culture, commitment to core values, attracting and retaining capable individuals |
-| Strategy & Objective-Setting | 6-9 | Analyzing the business context, defining risk appetite, evaluating alternative strategies, formulating business objectives |
-| Performance | 10-14 | Identifying risk, assessing severity of risk, prioritizing risks, implementing risk responses, developing a portfolio view |
-| Review & Revision | 15-17 | Assessing substantial change, reviewing risk and performance, pursuing improvement in ERM |
-| Information, Communication & Reporting | 18-20 | Leveraging information and technology, communicating risk information, reporting on risk, culture, and performance |
-
-### Risk Appetite and Risk Tolerance
-
-**Risk appetite** is set by the board and reflects the entity's willingness to accept risk in pursuit of its mission. It guides how the entity allocates resources and prioritizes strategies.
-
-**Risk tolerance** is more granular. It defines the acceptable range of outcomes around a specific objective.
-
-**Example (Bear Co.):** Bear Co.'s board sets a risk appetite statement: "We accept moderate financial risk to pursue organic revenue growth of 8%-12% annually." The CFO then translates this into a risk tolerance for currency exposure: "Net foreign-currency-denominated receivables shall not exceed 15% of total receivables."
-
-### Risk Identification and Assessment
-
-Risk identification involves cataloging events that could affect the entity's objectives. Common techniques include brainstorming sessions, scenario analysis, process flow analysis, and industry benchmarking.
-
-After identifying risks, management assesses each risk on two dimensions:
-
-1. **Likelihood**: the probability that the event will occur
-2. **Impact**: the effect on the entity if the event does occur
-
-A **risk heat map** plots these two dimensions to prioritize management's attention:
+Within the Performance component, management first identifies the events that could affect its objectives, using techniques such as brainstorming, scenario analysis, process flow analysis, and industry benchmarking. It then assesses each risk's severity on two dimensions: **likelihood** (how probable the event is) and **impact** (how much it would matter). A **heat map** plots the two to show where attention is needed most:
 
 | | Low Impact | Medium Impact | High Impact |
 |---|---|---|---|
@@ -97,290 +60,215 @@ A **risk heat map** plots these two dimensions to prioritize management's attent
 | **Medium Likelihood** | Low | Monitor | Significant |
 | **Low Likelihood** | Low | Low | Monitor |
 
-### Risk Response Strategies
+The framework also asks for a **portfolio view**: looking at risks together, because several moderate risks that move together can add up to more than the entity's appetite.
 
-Once risks are assessed, management selects one of four response strategies:
+### Risk Responses
 
-| Strategy | Description | Example |
+For each significant risk, management chooses a response. COSO 2017 lists five:
+
+| Response | Description | Example |
 |---|---|---|
-| **Accept** | Acknowledge the risk and take no action; the risk falls within tolerance | Bear Co. accepts minor commodity price fluctuations on office supplies |
-| **Avoid** | Exit the activity that gives rise to the risk | Bear Co. exits an unprofitable foreign market to avoid currency risk |
-| **Reduce (Mitigate)** | Take action to reduce the likelihood or impact | Polar Inc. implements internal controls over financial reporting to reduce fraud risk |
-| **Share (Transfer)** | Shift a portion of the risk to a third party | BIF Partners purchases property insurance to transfer catastrophic loss risk |
+| **Accept** | Take no action, because the risk is within appetite | Bear Co. accepts minor price swings on office supplies |
+| **Avoid** | Exit the activity that creates the risk | Bear Co. leaves an unprofitable foreign market rather than carry its currency risk |
+| **Pursue** | Accept more risk to achieve better performance | Polar Inc. expands aggressively into a fast-growing market, judging that the added risk is within its appetite |
+| **Reduce** | Act to lower the likelihood or impact | Polar Inc. strengthens its controls over cash disbursements to reduce fraud risk |
+| **Share** | Transfer part of the risk to another party | Kodiak Partners buys property insurance to cover catastrophic loss |
 
-:::note
-
-On the exam, **sharing** risk typically involves insurance or hedging. The risk is not eliminated; it is transferred to a counterparty willing to bear it for a fee or premium.
-
-:::
+Sharing usually means insurance, hedging, or outsourcing. The risk does not disappear; a counterparty bears it in exchange for a premium or fee.
 
 ---
 
 ## ESG Risk Management
 
-The COSO ERM framework can be applied directly to **Environmental, Social, and Governance (ESG)** risks. In 2018, COSO and the World Business Council for Sustainable Development (WBCSD) published guidance on applying ERM to ESG-related risks, reinforcing that ESG risks should be managed through the same five components, not in a separate silo.
-
-### Categories of ESG Risk
+In 2018, COSO and the World Business Council for Sustainable Development (WBCSD) issued *Enterprise Risk Management: Applying Enterprise Risk Management to Environmental, Social and Governance-related Risks*. Its message is that ESG risks belong in the same ERM process as every other risk, not in a separate silo.
 
 | Category | Examples | Potential Impact |
 |---|---|---|
-| **Environmental** | Carbon emissions, water scarcity, waste management, climate-related physical risks | Regulatory fines, asset impairment, supply chain disruption |
-| **Social** | Labor practices, data privacy, community relations, diversity and inclusion | Litigation, reputational damage, talent attrition |
-| **Governance** | Board independence, executive compensation, anti-corruption policies, lobbying transparency | Shareholder activism, regulatory sanctions, loss of investor confidence |
+| **Environmental** | Carbon emissions, water scarcity, waste, physical climate risks such as floods | Regulatory fines, asset impairment, supply chain disruption |
+| **Social** | Labor practices, data privacy, community relations, workforce diversity | Litigation, reputational damage, loss of talent |
+| **Governance** | Board independence, executive pay, anti-corruption policies, lobbying transparency | Shareholder activism, regulatory sanctions, loss of investor confidence |
 
-### Applying COSO ERM to ESG
+The guidance walks each ESG risk through the five components:
 
-1. **Governance & Culture**: The board establishes oversight responsibility for ESG risks and sets the tone for sustainable practices.
-2. **Strategy & Objective-Setting**: Management incorporates ESG factors into the entity's risk appetite and strategic planning.
-3. **Performance**: ESG risks are identified, assessed for severity (likelihood and impact), and responses are selected (reduce carbon emissions, diversify supply chains, strengthen data privacy controls).
-4. **Review & Revision**: ESG risk exposures are monitored against targets (e.g., emissions reduction goals) and revised as regulations evolve.
-5. **Information, Communication & Reporting**: ESG metrics are reported to stakeholders through frameworks such as GRI, SASB, and TCFD (now consolidated under the ISSB standards).
+1. **Governance and Culture.** The board takes on oversight of ESG risks and sets the tone for sustainable practices.
+2. **Strategy and Objective-Setting.** Management builds ESG factors into the business context, the risk appetite, and strategic planning.
+3. **Performance.** ESG risks are identified, assessed for severity, prioritized alongside other risks, and given responses, such as reducing emissions, diversifying the supply chain, or strengthening data privacy controls.
+4. **Review and Revision.** ESG exposures are monitored against targets, such as emissions reduction goals, and the approach is revised as conditions and regulations change.
+5. **Information, Communication, and Reporting.** ESG risk information is communicated inside the entity and reported to stakeholders, often using a recognized sustainability reporting framework.
 
-:::warning[Emerging Area]
-
-ESG reporting and regulation are evolving rapidly. For the CPA exam, focus on the **conceptual application** of the COSO ERM framework to ESG risks rather than memorizing specific reporting standards.
-
-:::
+ESG regulation keeps changing, so the exam focuses on applying the COSO framework, not on any one set of reporting rules. The SEC's climate disclosure rules adopted in 2024, for example, were stayed and never took effect, and in 2026 the SEC proposed rescinding them. They are not tested as requirements.
 
 ---
 
-## Financial Risk Mitigation
+## Mitigating Financial Risks
 
-Financial risks arise from an entity's exposure to movements in market prices, interest rates, exchange rates, and liquidity constraints. The goal is not to eliminate exposure entirely but to reduce it to a level consistent with the entity's risk appetite.
+Financial risks come from movements in market prices, interest rates, and exchange rates, and from the possibility of running short of cash. As with other risks, the aim is to bring exposure within the entity's appetite, not to remove it entirely.
 
-### Market Risk
+### Market (Price) Risk
 
-Market risk is the risk of loss from adverse changes in market prices (equity prices, commodity prices). **Hedging with derivatives** is a common mitigation strategy.
+Market risk is the risk of loss from changes in market prices, such as commodity or equity prices. Derivatives are the usual hedge.
 
-**Example (Kingfisher Industries):** Kingfisher Industries uses 50,000 barrels of crude oil per quarter. To protect against price increases, it enters into a futures contract to purchase oil at \$75 per barrel. If the spot price rises to \$85, Kingfisher saves \$10 per barrel, or \$500,000 total. If the price falls to \$70, Kingfisher pays \$5 above market, but has achieved price certainty.
+**Example (Grizzly Industries):** Grizzly Industries uses 50,000 barrels of crude oil a quarter. To protect against rising prices, it buys futures contracts at \$75 a barrel. If the spot price rises to \$85, the hedge saves \$10 a barrel, or \$500,000. If the price falls to \$70, Grizzly effectively pays \$5 a barrel more than the market price. Either way, it has locked in a cost of \$75.
 
 ### Interest Rate Risk
 
-Interest rate risk is the risk that changes in market interest rates will affect the entity's borrowing costs or the fair value of its debt instruments.
+Interest rate risk is the risk that rate changes will raise borrowing costs (on variable-rate debt) or change the fair value of fixed-rate instruments.
 
-| Strategy | Description | When to Use |
+| Strategy | Description | When It Fits |
 |---|---|---|
-| **Fixed-rate borrowing** | Locks in a known interest cost | When rates are expected to rise |
-| **Variable-rate borrowing** | Interest cost fluctuates with market | When rates are expected to fall |
-| **Interest rate swap** | Exchange fixed payments for variable (or vice versa) | To convert existing exposure without refinancing |
+| **Fixed-rate borrowing** | Locks in a known interest cost | Rates are expected to rise |
+| **Variable-rate borrowing** | Interest cost moves with the market | Rates are expected to fall |
+| **Interest rate swap** | Exchanges fixed payments for variable payments, or the reverse | To change existing exposure without refinancing |
 
-**Example (Bear Co.):** Bear Co. has a \$10,000,000 variable-rate loan at SOFR + 2%. Concerned about rising rates, Bear enters into a pay-fixed, receive-variable interest rate swap at 5%. If SOFR rises to 4%, Bear pays 5% fixed and receives 6% (SOFR + 2%) from the counterparty, netting an effective rate of 5%.
+**Example (Bear Co.):** Bear Co. has a \$10,000,000 variable-rate loan at SOFR + 2%. Worried about rising rates, it enters into a pay-fixed, receive-variable swap: it pays 5% fixed and receives SOFR. Whatever SOFR does, Bear's net cost is fixed at 7%:
+
+| | SOFR at 3% | SOFR at 4% |
+|---|---|---|
+| Pay on loan (SOFR + 2%) | 5% | 6% |
+| Receive on swap (SOFR) | (3%) | (4%) |
+| Pay on swap (fixed) | 5% | 5% |
+| **Net cost** | **7%** | **7%** |
+
+The swap converts variable-rate debt into synthetic fixed-rate debt. Accounting for swaps as hedges is covered in [Derivatives and Hedge Accounting](../technical-accounting-combinations-and-reporting/derivatives-and-hedge-accounting.md).
 
 ### Currency Risk
 
-Currency risk arises when an entity has assets, liabilities, or cash flows denominated in a foreign currency.
+Currency risk arises when an entity has assets, liabilities, or expected cash flows in a foreign currency.
 
 | Strategy | Description |
 |---|---|
-| **Forward contracts** | Lock in an exchange rate for a future date; eliminates uncertainty |
-| **Currency options** | Provide the right (not obligation) to exchange at a set rate; offer downside protection with upside potential |
-| **Natural hedges** | Match foreign-currency revenues with foreign-currency expenses in the same currency to offset exposure |
+| **Forward contract** | Locks in an exchange rate for a future date, removing the uncertainty |
+| **Currency option** | Gives the right, but not the obligation, to exchange at a set rate; protects against loss while keeping the upside, for a premium |
+| **Natural hedge** | Matches revenues and expenses (or assets and liabilities) in the same foreign currency so they offset |
 
-**Example (Polar Inc.):** Polar Inc. expects to receive €2,000,000 from a European customer in 90 days. The current spot rate is \$1.10/€. Polar enters into a 90-day forward contract at \$1.09/€, locking in proceeds of \$2,180,000 regardless of future rate movements.
+**Example (Polar Inc.):** Polar Inc. expects to receive €2,000,000 from a European customer in 90 days. The spot rate is \$1.10 per euro. Polar enters a 90-day forward contract at \$1.09, locking in proceeds of \$2,180,000 regardless of how the rate moves.
 
 ### Liquidity Risk
 
-Liquidity risk is the risk that an entity will be unable to meet its short-term obligations as they come due.
-
-| Strategy | Description |
-|---|---|
-| **Cash reserves** | Maintain a buffer of liquid assets |
-| **Revolving credit facility** | Pre-arranged borrowing capacity from a bank |
-| **Cash flow forecasting** | Project inflows and outflows to anticipate shortfalls |
-| **Asset diversification** | Hold assets that can be liquidated quickly without significant loss |
-
-:::tip[Exam Tip]
-
-When a question describes a company facing liquidity pressure, look for whether the entity has access to a credit facility, can accelerate receivable collections, or can restructure payables. These are the typical exam-tested solutions.
-
-:::
+Liquidity risk is the risk that an entity cannot meet its obligations as they come due. The common defenses are a cash reserve, a **revolving credit facility** (pre-arranged borrowing capacity), careful cash flow forecasting, and holding assets that can be sold quickly without significant loss. When a question describes a company under liquidity pressure, look for whether it can draw on a credit line, speed up collections, or renegotiate payables.
 
 ---
 
 ## Working Capital Management
 
-Working capital equals current assets minus current liabilities. Effective management ensures the entity has sufficient liquidity to operate while minimizing idle cash.
+**Working capital** is current assets minus current liabilities. Managing it is a balancing act. Too little, and the entity risks missing payments. Too much, and cash sits idle when it could be earning a return.
 
 $$
 \text{Working Capital} = \text{Current Assets} - \text{Current Liabilities}
 $$
 
-### Cash Conversion Cycle (CCC)
+### Aggressive and Conservative Strategies
 
-The cash conversion cycle measures the time (in days) between paying for inventory and collecting cash from sales. A shorter CCC means the entity recovers its cash investment more quickly.
+The blueprint asks you to compare strategies for managing working capital. They differ in how much the entity holds in current assets and how it finances them.
+
+| Strategy | Current Assets Held | Financing | Result |
+|---|---|---|---|
+| **Conservative** | Ample cash and inventory | Long-term funds finance even some seasonal needs | Lower liquidity risk, lower return (more idle, costly funds) |
+| **Matching (hedging)** | Moderate | Maturity of financing matched to the life of the asset: short-term debt for seasonal needs, long-term funds for permanent needs | Balanced risk and return |
+| **Aggressive** | Lean cash and inventory | Short-term debt finances even some permanent needs | Higher return, higher liquidity and refinancing risk |
+
+### Cash Conversion Cycle
+
+The **cash conversion cycle (CCC)** measures the number of days between paying suppliers for inventory and collecting cash from customers. A shorter cycle means the entity gets its cash back sooner and needs less financing.
 
 $$
 \text{CCC} = \text{DSO} + \text{DIO} - \text{DPO}
 $$
 
-Where:
-- DSO = Days Sales Outstanding (receivables collection period)
-- DIO = Days Inventory Outstanding (inventory holding period)
-- DPO = Days Payable Outstanding (payables payment period)
+DSO is days sales outstanding (the collection period for receivables), DIO is days inventory outstanding (also called days in inventory), and DPO is days payable outstanding (the time taken to pay suppliers).
 
-**Example: Illini Entertainment**
+**Example: Cub Entertainment**
 
 | Metric | Calculation | Days |
 |---|---|---|
-| DSO | (Accounts Receivable / Revenue) × 365 = (\$400,000 / \$6,000,000) × 365 | 24.3 |
-| DIO | (Inventory / COGS) × 365 = (\$500,000 / \$3,600,000) × 365 | 50.7 |
-| DPO | (Accounts Payable / COGS) × 365 = (\$300,000 / \$3,600,000) × 365 | 30.4 |
+| DSO | (\$400,000 receivables ÷ \$6,000,000 revenue) × 365 | 24.3 |
+| DIO | (\$500,000 inventory ÷ \$3,600,000 COGS) × 365 | 50.7 |
+| DPO | (\$300,000 payables ÷ \$3,600,000 COGS) × 365 | 30.4 |
 | **CCC** | 24.3 + 50.7 - 30.4 | **44.6** |
 
-Illini Entertainment's cash is tied up for approximately 45 days between paying suppliers and collecting from customers.
+Cub Entertainment's cash is tied up for about 45 days. It can shorten the cycle by collecting faster, holding less inventory, or paying suppliers more slowly. Each lever has a cost, as the next three topics show.
 
-### Receivables Management
+### Receivables
 
 | Approach | Description | Trade-Off |
 |---|---|---|
-| **Tightening credit policy** | Stricter credit standards, shorter payment terms | Reduces bad debts but may reduce sales volume |
-| **Loosening credit policy** | More lenient terms to attract customers | Increases sales but raises bad debt expense and DSO |
-| **Factoring** | Selling receivables to a third party at a discount | Immediate cash but at a cost (the discount) |
-| **Offering early payment discounts** | Terms like 2/10, net 30 | Accelerates collections but reduces revenue per dollar collected |
+| **Tighter credit policy** | Stricter credit standards and shorter terms | Fewer bad debts, but possibly lower sales |
+| **Looser credit policy** | More lenient terms to attract customers | More sales, but higher bad debts and DSO |
+| **Factoring** | Selling receivables to a third party at a discount | Immediate cash, at the cost of the discount |
+| **Early payment discounts** | Terms such as 2/10, net 30 | Faster collection, but less cash per dollar of sales |
 
-### Inventory Management
+### Inventory
 
 | Strategy | Description | Best For |
 |---|---|---|
-| **Economic Order Quantity (EOQ)** | Calculates the order size that minimizes total ordering and holding costs | Stable demand environments |
-| **Just-in-Time (JIT)** | Inventory arrives precisely when needed in production; minimal stock on hand | Companies with reliable suppliers and predictable demand |
-| **Safety stock** | Extra inventory held as a buffer against demand or supply uncertainty | Volatile demand or unreliable supply chains |
-
-The EOQ formula:
+| **Economic order quantity (EOQ)** | The order size that minimizes total ordering and holding costs | Stable demand |
+| **Just-in-time (JIT)** | Inventory arrives just when needed, so little is held | Reliable suppliers and predictable demand |
+| **Safety stock** | Extra inventory held as a buffer | Volatile demand or unreliable supply |
 
 $$
 EOQ = \sqrt{\frac{2DS}{H}}
 $$
 
-Where $D$ is annual demand, $S$ is the ordering cost per order, and $H$ is the holding cost per unit per year.
+$D$ is annual demand in units, $S$ is the cost of placing one order, and $H$ is the cost of holding one unit for a year. If annual demand is 10,000 units, each order costs \$50, and holding a unit costs \$4 a year, the EOQ is $\sqrt{2 \times 10{,}000 \times 50 \div 4} = \sqrt{250{,}000} = 500$ units.
 
-### Payables Management
+### Payables
 
-Stretching payables (delaying payment) improves the entity's cash position but can damage supplier relationships and result in lost early-payment discounts.
+Paying suppliers later keeps cash in the business longer, but it can cost more than it appears to, because it often means giving up an early payment discount.
 
-**Example (BIF Partners):** BIF Partners receives terms of 2/10, net 30 from a supplier. By paying within 10 days, BIF saves 2%. The annualized cost of forgoing the discount is:
+**Example (Kodiak Partners):** A supplier offers Kodiak Partners terms of 2/10, net 30: a 2% discount for paying within 10 days, otherwise the full amount in 30 days. Skipping the discount means paying 2% more to keep the money for 20 extra days. The annualized cost is:
 
 $$
-\text{Annualized Cost} = \frac{\text{Discount}}{1 - \text{Discount}} \times \frac{365}{\text{Full Period} - \text{Discount Period}} = \frac{0.02}{0.98} \times \frac{365}{20} \approx 37.2\%
+\text{Annualized Cost} = \frac{\text{Discount \%}}{1 - \text{Discount \%}} \times \frac{365}{\text{Full Period} - \text{Discount Period}} = \frac{0.02}{0.98} \times \frac{365}{20} \approx 37.2\%
 $$
 
-At an annualized cost of approximately 37.2%, forgoing the discount is expensive. BIF Partners should take the discount if it has sufficient cash or can borrow at a rate below 37.2%.
-
-:::caution
-
-Stretching payables beyond agreed-upon terms is **not** a sustainable working capital strategy. It damages supplier trust, may trigger penalties, and can disrupt the supply chain.
-
-:::
+That is an expensive source of credit. Kodiak should take the discount if it has the cash, or if it can borrow for less than 37.2%. Stretching payments beyond the agreed terms is not a sustainable strategy: it damages supplier relationships, may trigger penalties, and can disrupt supply.
 
 ---
 
 ## SWOT Analysis
 
-A **SWOT analysis** evaluates an entity's **Strengths, Weaknesses, Opportunities, and Threats** to inform strategic decision-making. Strengths and weaknesses are **internal** factors; opportunities and threats are **external** factors.
-
-```mermaid
-quadrantChart
-    title SWOT Analysis Framework
-    x-axis Internal --> External
-    y-axis Negative --> Positive
-    quadrant-1 Opportunities
-    quadrant-2 Strengths
-    quadrant-3 Weaknesses
-    quadrant-4 Threats
-```
+A **SWOT analysis** looks at an entity's **Strengths, Weaknesses, Opportunities, and Threats** to help it choose a strategy. Strengths and weaknesses are **internal**: they describe the entity itself. Opportunities and threats are **external**: they describe its environment.
 
 | Factor | Source | Nature | Examples |
 |---|---|---|---|
-| **Strengths** | Internal | Positive | Strong brand, proprietary technology, low-cost production |
-| **Weaknesses** | Internal | Negative | High employee turnover, aging equipment, limited product line |
-| **Opportunities** | External | Positive | Expanding market, favorable regulation, emerging technology |
-| **Threats** | External | Negative | New competitors, economic downturn, changing consumer preferences |
+| **Strengths** | Internal | Favorable | Strong brand, proprietary technology, low-cost production |
+| **Weaknesses** | Internal | Unfavorable | High employee turnover, aging equipment, limited product line |
+| **Opportunities** | External | Favorable | Growing market, favorable regulation, emerging technology |
+| **Threats** | External | Unfavorable | New competitors, economic downturn, changing customer preferences |
 
-### Worked Example: Illini Security SWOT
+### Worked Example: Sloth Security
 
-Illini Security is a mid-size cybersecurity firm evaluating whether to expand into the government contracts market.
+Sloth Security is a mid-size cybersecurity firm deciding whether to expand into government contracts.
 
 | | Favorable | Unfavorable |
 |---|---|---|
-| **Internal** | **Strengths:** Experienced engineering team; strong client retention rate (95%); proprietary threat-detection algorithm | **Weaknesses:** Limited experience with government procurement; small sales team; high dependence on three key engineers |
-| **External** | **Opportunities:** Government cybersecurity spending projected to grow 12% annually; few competitors with FedRAMP authorization | **Threats:** Large defense contractors entering the cybersecurity space; complex compliance requirements (NIST, CMMC) |
+| **Internal** | **Strengths:** Experienced engineering team; 95% client retention rate; proprietary threat-detection software | **Weaknesses:** Little experience with government procurement; small sales team; dependence on three key engineers |
+| **External** | **Opportunities:** Government cybersecurity spending projected to grow 12% a year; few competitors hold the required federal security authorizations | **Threats:** Large defense contractors entering cybersecurity; complex federal compliance requirements |
 
-**Strategic Interpretation:** Illini Security should leverage its proprietary technology (strength) to pursue the growing government market (opportunity), but must address its limited procurement experience (weakness) through strategic hiring or partnerships before competitors (threats) capture market share.
-
-:::info[Using SWOT on the Exam]
-
-On the BAR exam, you may be given a scenario and asked to classify factors as S, W, O, or T, or to recommend a strategy based on the analysis. Always connect your recommendation back to specific SWOT factors.
-
-:::
+**Interpretation:** Sloth Security can use its proprietary technology (a strength) to pursue the growing government market (an opportunity). Before it does, it needs to fix its lack of procurement experience (a weakness), through hiring or a partnership, before larger competitors (a threat) take the market. A good SWOT conclusion ties each recommendation to specific factors, which is what exam questions ask you to do.
 
 ---
 
 ## Impact of Transactions on Key Performance Measures
 
-A common exam task is to evaluate how a proposed transaction affects key performance measures (KPMs) such as the current ratio, debt-to-equity ratio, return on assets, or earnings per share.
+A common exam task gives you a proposed transaction and asks how it would change key performance measures, such as the current ratio, debt-to-equity, return on assets (ROA), return on equity (ROE), or earnings per share. A five-step approach works every time:
 
-### Approach
+1. **Identify** the measures being tested.
+2. **Compute the baseline** before the transaction.
+3. **Apply the transaction** to every affected account, including income effects such as interest.
+4. **Recompute** the measures.
+5. **Interpret** the change.
 
-1. **Identify the KPM**: Determine which ratio or measure is being tested.
-2. **Establish the baseline**: Calculate the KPM before the transaction.
-3. **Apply the transaction**: Adjust the affected accounts.
-4. **Recalculate**: Compute the KPM after the transaction.
-5. **Interpret**: Determine whether the change is favorable or unfavorable.
+### Worked Example: Bear Co. Borrows to Buy Back Stock
 
-### Worked Example: Bear Co. Debt Issuance
+Bear Co. has total assets of \$5,000,000, total liabilities of \$2,000,000, total equity of \$3,000,000, and net income of \$450,000. It proposes to issue \$1,000,000 of long-term bonds at par at 6% and use the proceeds to repurchase common stock. Its tax rate is 25%.
 
-Bear Co. has the following pre-transaction balances:
+The bonds bring in \$1,000,000 of cash, and the buyback pays it out, so total assets stay at \$5,000,000. Liabilities rise to \$3,000,000 and equity falls to \$2,000,000. The new interest costs \$60,000 a year, or \$45,000 after tax, so net income falls to \$405,000.
 
-| Item | Amount |
-|---|---|
-| Total Assets | \$5,000,000 |
-| Total Liabilities | \$2,000,000 |
-| Total Equity | \$3,000,000 |
-| Net Income | \$450,000 |
+| Measure | Before | After |
+|---|---|---|
+| Debt-to-equity | \$2,000,000 ÷ \$3,000,000 = 0.67 | \$3,000,000 ÷ \$2,000,000 = 1.50 |
+| ROA | \$450,000 ÷ \$5,000,000 = 9.0% | \$405,000 ÷ \$5,000,000 = 8.1% |
+| ROE | \$450,000 ÷ \$3,000,000 = 15.0% | \$405,000 ÷ \$2,000,000 = 20.3% |
 
-**Proposed transaction:** Bear Co. issues \$1,000,000 in long-term bonds at par and uses the proceeds to repurchase common stock.
-
-**Before the transaction:**
-
-$$
-\text{Debt-to-Equity} = \frac{2{,}000{,}000}{3{,}000{,}000} = 0.67
-$$
-
-$$
-\text{ROA} = \frac{450{,}000}{5{,}000{,}000} = 9.0\%
-$$
-
-**After the transaction:** Total assets remain \$5,000,000 (cash in, stock out). Liabilities increase to \$3,000,000. Equity decreases to \$2,000,000.
-
-$$
-\text{Debt-to-Equity} = \frac{3{,}000{,}000}{2{,}000{,}000} = 1.50
-$$
-
-$$
-\text{ROA} = \frac{450{,}000}{5{,}000{,}000} = 9.0\%
-$$
-
-The debt-to-equity ratio increased significantly from 0.67 to 1.50, indicating higher financial leverage. ROA is unchanged because total assets did not change (ignoring interest expense effects). However, if we account for after-tax interest expense on the new debt, net income would decrease, causing ROA to decline.
-
-:::warning
-
-When analyzing transaction impacts, consider **all affected accounts**. A stock repurchase funded by debt affects liabilities, equity, and potentially net income (through interest expense). Always trace the full impact before selecting an answer.
-
-:::
-
----
-
-## Exam Tips
-
-:::tip[Key Takeaways for the BAR Exam]
-
-1. **COSO ERM is strategy-driven**: The 2017 framework integrates risk management with strategy and performance. It is not just an internal control framework.
-2. **Risk responses are not one-size-fits-all**: Know when to accept, avoid, reduce, or share risk, and be able to justify the choice.
-3. **ESG fits within existing ERM**: COSO ERM applies to ESG risks using the same five components. Treat ESG risks like any other enterprise risk.
-4. **Financial risk mitigation = hedging**: Understand derivatives (forwards, futures, swaps, options) conceptually and know which instrument addresses which risk.
-5. **Working capital is a balancing act**: Aggressive strategies maximize returns but increase liquidity risk. Conservative strategies ensure liquidity but may sacrifice profitability.
-6. **Cash conversion cycle**: Memorize the formula (DSO + DIO - DPO) and know how each component can be improved.
-7. **SWOT is internal vs. external**: Strengths and weaknesses are internal; opportunities and threats are external. Always classify correctly.
-8. **Transaction impact analysis**: Trace every debit and credit. Identify which ratios are affected and in which direction before choosing your answer.
-
-:::
+Leverage more than doubles. ROA falls because of the interest. ROE rises, because the assets earn more (9% after tax, before the new interest) than the debt costs after tax (4.5%), and the earnings are now spread over a smaller equity base. With fewer shares outstanding, EPS would also likely rise. Management has to weigh those gains against the higher financial risk and any loan covenants that limit leverage.

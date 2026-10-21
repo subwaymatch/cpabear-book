@@ -1,327 +1,149 @@
 # Notes to Financial Statements
 
-Notes to the financial statements are an integral part of the basic financial statements of state and local governments. They provide essential disclosures and additional information that cannot be presented on the face of the financial statements but are necessary for a fair presentation in conformity with GAAP. GASB standards require specific note disclosures covering accounting policies, capital assets, long-term liabilities, and numerous other topics.
+A government's financial statements compress thousands of transactions into a few pages of totals. The notes explain those totals: which accounting policies produced them, what makes up the large balances, and what obligations and risks lie behind them. GASB treats the notes as part of the basic financial statements, so they are covered by the auditor's opinion just as the statements are.
 
-:::info[Blueprint Coverage]
-
-**BAR Area III, Group A, Topic 5: Notes to financial statements**
-
-Representative tasks:
-- **Recall** the disclosure requirements for significant accounting policies, infrastructure and capital assets, and long-term liabilities in the notes to the basic financial statements of state and local governments.
-
-:::
+The BAR blueprint asks you to recall the disclosure requirements in three areas: significant accounting policies, capital assets (including infrastructure), and long-term liabilities. This chapter covers those three in depth, then surveys the other disclosures you should recognize, including several added by recent GASB statements.
 
 ---
 
-## Purpose and Role of the Notes
+## Where the Notes Fit
 
-The notes to the financial statements serve several critical functions in governmental financial reporting:
-
-| Function | Description |
-|----------|-------------|
-| Integral component | Notes are not supplementary; they are part of the basic financial statements |
-| Essential disclosures | Provide information necessary for fair presentation that cannot appear on the face of the statements |
-| Context and detail | Explain accounting policies, significant balances, and commitments |
-| GASB compliance | Required by GASB Statement No. 38 and other pronouncements |
+The **basic financial statements** of a state or local government have three parts: the government-wide statements, the fund financial statements, and the notes. **Required supplementary information (RSI)** is different. It is required by GASB, but it sits outside the basic statements and receives only limited audit procedures. MD&A comes before the basic statements; the budgetary comparison schedules, the pension and OPEB schedules, and the modified approach infrastructure schedules come after the notes.
 
 :::tip[Exam Tip]
 
-Remember that notes are part of the **basic financial statements**, not Required Supplementary Information (RSI). The basic financial statements include: (1) government-wide statements, (2) fund financial statements, and (3) notes to the financial statements.
+If a question asks whether an item is part of the basic financial statements, the notes are always "yes" and RSI is always "no." Budgetary comparison schedules are RSI under GASB 103, so they are "no" as well.
 
 :::
 
----
-
-## Organization of the Notes
-
-Notes are typically presented in a logical order that helps users understand the financial statements:
-
-```mermaid
-flowchart TD
-    A[Summary of Significant Accounting Policies] --> B[Cash and Investments]
-    B --> C[Capital Assets]
-    C --> D[Long-Term Liabilities]
-    D --> E[Pension and OPEB]
-    E --> F[Interfund Activity]
-    F --> G[Other Disclosures]
-    G --> H[Commitments and Contingencies]
-```
-
-The summary of significant accounting policies is almost always presented as the **first note** in the financial statements.
+GASB does not prescribe the order of the notes, but the **summary of significant accounting policies** comes first in practice. Most governments then follow with cash and investments, receivables, capital assets, long-term liabilities, pensions and OPEB, interfund balances and transfers, and commitments and contingencies.
 
 ---
 
-## Required Disclosures: Summary of Significant Accounting Policies
+## Summary of Significant Accounting Policies
 
-The first note typically discloses the government's significant accounting policies and provides the framework for understanding the financial statements.
+The first note gives the reader the framework for everything that follows. It describes the reporting entity, the basis of presentation, and the measurement focus and basis of accounting used in each set of statements.
 
-### Key Policy Disclosures
-
-| Policy Area | Required Disclosure |
+| Policy area | What is disclosed |
 |-------------|-------------------|
-| Reporting entity | Description of the government and its component units |
-| Government-wide statements | Basis of presentation, elimination of internal activity |
-| Fund financial statements | Major fund criteria, fund types used |
-| Measurement focus | Economic resources (government-wide, proprietary) vs. current financial resources (governmental funds) |
-| Basis of accounting | Accrual (government-wide, proprietary) vs. modified accrual (governmental funds) |
-| Revenue recognition | Availability period used for modified accrual (typically 60 days) |
-| Operating vs. nonoperating | Policy for classifying revenues/expenses in proprietary funds |
-| Capital assets | Capitalization thresholds, depreciation methods, estimated useful lives |
-| Fund balance | Policies for classifying fund balance (nonspendable, restricted, committed, assigned, unassigned) |
-| Net position | Components and policies |
+| Reporting entity | The primary government and its component units, and how each component unit is presented (blended or discrete) |
+| Basis of presentation | How the government-wide and fund statements are organized, the major funds, and the fund types used |
+| Measurement focus and basis of accounting | Economic resources and accrual for the government-wide, proprietary fund, and fiduciary fund statements; current financial resources and modified accrual for the governmental funds |
+| Revenue recognition | The period used to define "available" under modified accrual |
+| Capital assets | Capitalization threshold, depreciation methods, estimated useful lives, and any use of the modified approach for infrastructure |
+| Fund balance and net position | The fund balance classification policies and spending order, and whether restricted or unrestricted resources are applied first |
 
-### Measurement Focus and Basis of Accounting
-
-| Statement Type | Measurement Focus | Basis of Accounting |
-|---------------|-------------------|-------------------|
-| Government-wide | Economic resources | Accrual |
-| Governmental funds | Current financial resources | Modified accrual |
-| Proprietary funds | Economic resources | Accrual |
-| Fiduciary funds | Economic resources | Accrual |
-
-:::warning[Common Exam Trap]
-
-The availability period for modified accrual revenue recognition is a policy choice disclosed in the notes. Most governments use 60 days after year-end, but this is not a GAAP requirement; it is a policy decision that must be disclosed.
-
-:::
+The availability period deserves a closer look because it drives modified accrual revenue. For **property taxes**, "available" generally means collected within 60 days after year-end; a longer period is allowed only in unusual circumstances, and the period and the reasons for it must be disclosed. For other revenues, such as grants and charges, each government sets its own period (60 days, 90 days, and one year are all seen in practice) and discloses it.
 
 ---
 
-## Required Disclosures: Capital Assets and Infrastructure
+## Capital Assets and Infrastructure
 
-GASB requires detailed disclosures about capital assets, including a rollforward schedule showing beginning balances, additions, disposals, and ending balances.
+The capital asset note is built around a **rollforward schedule**: beginning balance, increases, decreases, and ending balance for each major class of capital asset, with accumulated depreciation shown the same way. Land and construction in progress are shown separately because they are not depreciated. The note also reports **depreciation expense charged to each function** in the statement of activities, and it is shown separately for governmental activities and business-type activities.
 
-### Required Capital Asset Disclosures
+**GASB 104** (testable since July 1, 2025) added two requirements:
 
-| Disclosure Element | Description |
-|-------------------|-------------|
-| Beginning and ending balances | By major class of capital asset |
-| Acquisitions | Additions during the period |
-| Sales/disposals | Retirements during the period |
-| Depreciation expense | Current period amount, by function if allocated |
-| Capitalization policy | Threshold amounts and useful lives |
-| Construction in progress | Amounts and significant commitments |
+1. **Separate disclosure of certain capital assets.** Lease assets (GASB 87) and the intangible right-to-use assets an operator recognizes in a public-private or public-public partnership (GASB 94) are disclosed separately by major class of underlying asset. Subscription assets from subscription-based IT arrangements (GASB 96) and other intangible assets are also shown separately. A right to use a building is never lumped in with buildings the government owns.
+2. **Capital assets held for sale.** An asset is held for sale if the government has decided to sell it and the sale is probable within one year of the statement date. These assets stay in their major class, but the note discloses their historical cost and accumulated depreciation by class, plus the carrying amount of any debt they secure.
 
-### Major Classes of Capital Assets
+Here is a condensed rollforward for governmental activities. The lease asset rows show the GASB 104 separation.
 
-- Land (not depreciated)
-- Buildings and improvements
-- Equipment and vehicles
-- Infrastructure (roads, bridges, water/sewer systems)
-- Construction in progress (not depreciated)
-
-### Modified Approach for Infrastructure
-
-Governments may elect to use the **modified approach** for eligible infrastructure assets instead of depreciation:
-
-| Requirement | Description |
-|-------------|-------------|
-| Asset management system | Must maintain an up-to-date inventory and perform condition assessments at least every three years |
-| Condition level | Must document that assets are being preserved at or above a condition level established by the government |
-| Disclosure | Must disclose assessed condition, target condition, and comparison of estimated vs. actual maintenance/preservation spending for the past five years |
-
-:::tip[Exam Tip]
-
-Under the modified approach, infrastructure assets are **not depreciated**. Instead, maintenance and preservation costs are expensed in the period incurred. Only additions and improvements that increase capacity or efficiency are capitalized.
-
-:::
-
-### Example Capital Asset Note Disclosure
-
-A typical capital asset rollforward schedule appears as follows:
-
-| Capital Asset Category | Beginning Balance | Additions | Disposals | Ending Balance |
+| Capital asset class | Beginning | Increases | Decreases | Ending |
 |----------------------|:-:|:-:|:-:|:-:|
-| **Non-depreciable:** | | | | |
+| **Not depreciated:** | | | | |
 | Land | \$5,000,000 | \$200,000 | \$0 | \$5,200,000 |
-| Construction in progress | \$3,500,000 | \$2,100,000 | (\$1,800,000) | \$3,800,000 |
-| **Depreciable:** | | | | |
-| Buildings | \$45,000,000 | \$1,800,000 | (\$500,000) | \$46,300,000 |
-| Equipment | \$12,000,000 | \$1,500,000 | (\$800,000) | \$12,700,000 |
-| Infrastructure | \$80,000,000 | \$4,000,000 | (\$200,000) | \$83,800,000 |
-| **Less: Accumulated depreciation** | (\$52,000,000) | (\$4,200,000) | \$1,100,000 | (\$55,100,000) |
-| **Capital assets, net** | **\$93,500,000** | **\$5,400,000** | **(\$2,200,000)** | **\$96,700,000** |
+| Construction in progress | 3,500,000 | 2,100,000 | (1,800,000) | 3,800,000 |
+| **Depreciated:** | | | | |
+| Buildings | 45,000,000 | 1,800,000 | (500,000) | 46,300,000 |
+| Equipment | 12,000,000 | 1,500,000 | (800,000) | 12,700,000 |
+| Infrastructure | 80,000,000 | 4,000,000 | (200,000) | 83,800,000 |
+| Less accumulated depreciation | (52,000,000) | (4,200,000) | 1,100,000 | (55,100,000) |
+| **Lease assets:** | | | | |
+| Equipment (right to use) | 6,000,000 | 2,000,000 | 0 | 8,000,000 |
+| Less accumulated amortization | (1,000,000) | (1,300,000) | 0 | (2,300,000) |
+| **Capital assets, net** | **\$98,500,000** | **\$6,100,000** | **(\$2,200,000)** | **\$102,400,000** |
+
+Notice that the \$1,800,000 decrease in construction in progress matches the \$1,800,000 increase in buildings: a finished project moves from one class to another.
+
+### The Modified Approach
+
+A government may elect the **modified approach** for an infrastructure network or subsystem instead of depreciating it. It must keep an up-to-date inventory, assess condition at least every three years, estimate each year what it will cost to preserve the assets at a condition level it has set, and document that the assets are being preserved at or above that level. Preservation costs are then expensed, and only additions and improvements are capitalized. The accounting is covered in [Capital Assets and Infrastructure](../governmental-transactions-and-items/capital-assets-and-infrastructure.md).
+
+The notes describe the election in the accounting policies note. The detailed schedules (the results of the last three condition assessments, and estimated versus actual preservation spending for the past five years) are **RSI**, not notes.
 
 ---
 
-## Required Disclosures: Long-Term Liabilities
+## Long-Term Liabilities
 
-Governments must disclose detailed information about all long-term obligations, including a rollforward schedule and debt service requirements.
+The long-term liability note mirrors the capital asset note. It contains a rollforward for each type of long-term liability (beginning balance, increases, decreases, ending balance) and, importantly, the **amount due within one year**. That last column is how a reader finds the current portion, because the government-wide statement of net position may show long-term liabilities in just two lines: due within one year and due in more than one year. The rollforward is presented separately for governmental and business-type activities.
 
-### Required Long-Term Liability Disclosures
-
-| Disclosure Element | Description |
-|-------------------|-------------|
-| Beginning and ending balances | For each type of long-term liability |
-| Increases | New debt issued or obligations incurred |
-| Decreases | Principal payments, refundings, or other reductions |
-| Due within one year | Current portion for each liability type |
-| Debt service requirements | Annual principal and interest payments to maturity |
-| Terms and conditions | Interest rates, maturity dates, security/collateral |
-| Debt limitations | Legal or constitutional debt limits and available margin |
-
-### Types of Long-Term Liabilities Disclosed
-
-| Liability Type | Common Details Disclosed |
-|---------------|------------------------|
-| General obligation bonds | Purpose, interest rates, maturity schedule, voted authorization |
-| Revenue bonds | Pledged revenue source, coverage ratios, rate covenants |
-| Notes payable | Terms, interest rates, repayment schedule |
-| Capital leases / Financing arrangements | Lease terms, future minimum payments |
-| Compensated absences | Policy for accumulation and payout |
-| Net pension liability | Plan details, assumptions, sensitivity |
-| Net OPEB liability | Plan details, assumptions, sensitivity |
-| Claims and judgments | Nature, estimated settlement amounts |
-
-### Example Long-Term Liability Note Disclosure
-
-A typical long-term liability rollforward schedule:
-
-| Liability Type | Beginning Balance | Increases | Decreases | Ending Balance | Due Within One Year |
+| Liability | Beginning | Increases | Decreases | Ending | Due within one year |
 |---------------|:-:|:-:|:-:|:-:|:-:|
-| G.O. bonds | \$50,000,000 | \$10,000,000 | (\$5,000,000) | \$55,000,000 | \$5,500,000 |
-| Revenue bonds | \$30,000,000 | \$0 | (\$3,000,000) | \$27,000,000 | \$3,100,000 |
-| Notes payable | \$4,000,000 | \$1,000,000 | (\$800,000) | \$4,200,000 | \$850,000 |
-| Capital leases | \$6,500,000 | \$2,000,000 | (\$1,200,000) | \$7,300,000 | \$1,400,000 |
-| Compensated absences | \$3,200,000 | \$2,800,000 | (\$2,600,000) | \$3,400,000 | \$680,000 |
-| Net pension liability | \$25,000,000 | \$4,500,000 | (\$2,000,000) | \$27,500,000 | \$0 |
-| Net OPEB liability | \$18,000,000 | \$3,200,000 | (\$1,500,000) | \$19,700,000 | \$0 |
-| **Total** | **\$136,700,000** | **\$23,500,000** | **(\$16,100,000)** | **\$144,100,000** | **\$11,530,000** |
+| General obligation bonds | \$50,000,000 | \$10,000,000 | (\$5,000,000) | \$55,000,000 | \$5,500,000 |
+| Revenue bonds | 30,000,000 | 0 | (3,000,000) | 27,000,000 | 3,100,000 |
+| Notes payable | 4,000,000 | 1,000,000 | (800,000) | 4,200,000 | 850,000 |
+| Lease liabilities | 6,500,000 | 2,000,000 | (1,200,000) | 7,300,000 | 1,400,000 |
+| Compensated absences (net change) | 3,200,000 | 200,000 | | 3,400,000 | 680,000 |
+| Net pension liability | 25,000,000 | 4,500,000 | (2,000,000) | 27,500,000 | 0 |
+| Net OPEB liability | 18,000,000 | 3,200,000 | (1,500,000) | 19,700,000 | 0 |
+| **Total** | **\$136,700,000** | **\$20,900,000** | **(\$13,500,000)** | **\$144,100,000** | **\$11,530,000** |
 
-### Debt Service Requirements to Maturity
+The compensated absences row shows a change made by **GASB 101**: a government may disclose only the **net** change in that liability, as long as it labels it as a net change, instead of gross increases and decreases. GASB 101 also dropped the requirement to disclose which governmental funds have typically liquidated the liability.
 
-Governments must also disclose future debt service requirements, typically in a table format:
+Beyond the rollforward, the note discloses:
 
-| Fiscal Year | Principal | Interest | Total |
+- **Debt service requirements to maturity**: principal and interest for each of the next five years, then in five-year blocks.
+- **Terms of the debt**: interest rates, maturities, and what secures it. For revenue bonds, the pledged revenue stream. For direct borrowings and direct placements, terms such as events of default and acceleration clauses, shown separately from other debt.
+- **Significant violations** of debt covenants or other finance-related legal or contractual provisions, with the actions taken to address them. (The legal debt margin itself is reported in the statistical section, not the notes.)
+- **Unused lines of credit** and assets pledged as collateral for debt.
+
+A schedule of debt service requirements for the bonds above looks like this. Note that the first year's principal (\$8,600,000) equals the bonds' combined due-within-one-year amount (\$5,500,000 + \$3,100,000).
+
+| Fiscal year | Principal | Interest | Total |
 |-------------|:-:|:-:|:-:|
-| 2026 | \$8,600,000 | \$4,100,000 | \$12,700,000 |
-| 2027 | \$8,900,000 | \$3,750,000 | \$12,650,000 |
-| 2028 | \$9,200,000 | \$3,380,000 | \$12,580,000 |
-| 2029 | \$9,500,000 | \$2,990,000 | \$12,490,000 |
-| 2030 | \$9,800,000 | \$2,580,000 | \$12,380,000 |
-| 2031-2035 | \$36,000,000 | \$7,200,000 | \$43,200,000 |
+| 2027 | \$8,600,000 | \$4,100,000 | \$12,700,000 |
+| 2028 | 8,900,000 | 3,750,000 | 12,650,000 |
+| 2029 | 9,200,000 | 3,380,000 | 12,580,000 |
+| 2030 | 9,500,000 | 2,990,000 | 12,490,000 |
+| 2031 | 9,800,000 | 2,580,000 | 12,380,000 |
+| 2032-2036 | 36,000,000 | 7,200,000 | 43,200,000 |
 | **Total** | **\$82,000,000** | **\$24,000,000** | **\$106,000,000** |
 
-:::tip[Exam Tip]
-
-The "due within one year" column in the long-term liability rollforward identifies the **current portion** of each liability. Net pension liability and net OPEB liability typically show \$0 due within one year because they are measured as a single long-term amount.
-
-:::
+The \$82,000,000 total principal ties to the \$55,000,000 of general obligation bonds plus the \$27,000,000 of revenue bonds in the rollforward.
 
 ---
 
-## Other Common Note Disclosures
+## Other Required Disclosures
 
-### Cash and Investments
+The blueprint focuses on the three areas above, but you should recognize the other major notes and know what each one is for.
 
-| Disclosure Area | Required Information |
-|----------------|---------------------|
-| Deposit policies | Types of deposits, custodial credit risk exposure |
-| Investment policies | Authorized investment types, concentration limits |
-| Custodial credit risk | Amounts uninsured and uncollateralized |
-| Credit risk | Credit quality ratings of investments |
-| Interest rate risk | Segmented time distribution or duration |
-| Fair value measurements | Hierarchy levels (Level 1, 2, 3) |
+| Note | What it tells the reader |
+|------|--------------------------|
+| Deposits and investments | Custodial credit risk, credit quality ratings, concentration of credit risk, interest rate risk (for example, segmented time distribution or duration), foreign currency risk, and the fair value hierarchy level of each investment type |
+| Pensions and OPEB | Plan description, benefit terms, contribution requirements, the components of the net liability, key actuarial assumptions, the discount rate, and the liability recalculated at a discount rate 1 percentage point higher and lower |
+| Risk management | The risks the government is exposed to, how it finances them (insurance, self-insurance, risk pools), and a reconciliation of claims liabilities |
+| Interfund balances and transfers | Amounts due between funds and transfers by fund, the purpose of each, and any balances not expected to be repaid within one year |
+| Commitments and contingencies | Construction commitments, significant encumbrances, litigation, and grant amounts that a grantor could disallow |
+| Component units | How each component unit relates to the primary government and where its separate statements can be obtained |
+| Property taxes | The levy date, lien date, due dates, and collection period |
 
-### Pension and OPEB Plans
+Four recent GASB statements added disclosures that a 2027 candidate should know:
 
-| Disclosure Area | Required Information |
-|----------------|---------------------|
-| Plan description | Type of plan, benefits provided, membership |
-| Funding policy | Contribution requirements, actuarial methods |
-| Net pension/OPEB liability | Components (total liability less plan fiduciary net position) |
-| Actuarial assumptions | Discount rate, inflation, salary growth, mortality tables |
-| Sensitivity analysis | Impact of 1% change in discount rate |
-| Deferred inflows/outflows | Related to pensions and OPEB |
+- **GASB 100, Accounting Changes and Error Corrections** (testable since July 1, 2023). Changes in accounting principle and error corrections are reported retroactively by restating beginning balances. The notes describe the change or error and its effects, and a **tabular reconciliation** shows each restated beginning balance (net position or fund balance) by reporting unit. Changes in estimate are applied prospectively.
+- **GASB 102, Certain Risk Disclosures** (testable since July 1, 2024). A government must assess whether a **concentration** (a lack of diversity in a significant inflow or outflow, such as reliance on one employer or one revenue source) or a **constraint** (a limit imposed by an outside party or by the government's highest decision-making authority, such as a tax cap) makes it vulnerable to a substantial impact. If an event that could cause that impact has occurred, has begun, or is more likely than not to begin within 12 months of the date the statements are issued, the notes describe the concentration or constraint, the event, and the actions the government has taken to reduce the risk.
+- **GASB 103, Financial Reporting Model Improvements** (testable since July 1, 2025). For each **unusual or infrequent item** displayed in the statements, the notes disclose the program or function it relates to and whether it was within management's control.
+- **GASB 105, Subsequent Events** (testable since July 1, 2026). Subsequent events are those that occur after the statement date but before the statements are **available to be issued**, meaning they are complete under GAAP and every approval needed for issuance has been obtained. The notes must disclose the date through which subsequent events were evaluated, and they describe the nature and estimated effect of significant events that are not recognized in the statements.
 
-### Risk Management
-
-| Disclosure Area | Required Information |
-|----------------|---------------------|
-| Types of risk | Property, liability, workers' compensation, health |
-| Risk financing | Commercial insurance, self-insurance, risk pools |
-| Claims liability | Basis for estimating, rollforward of claims |
-| Significant reductions | Changes in coverage from prior year |
-
-### Interfund Balances and Transfers
-
-| Disclosure Area | Required Information |
-|----------------|---------------------|
-| Interfund receivables/payables | Purpose, repayment terms |
-| Interfund transfers | Purpose, amounts by fund, unusual transfers |
-| Internal service fund activity | Elimination in government-wide statements |
-
-### Commitments and Contingencies
-
-| Disclosure Area | Required Information |
-|----------------|---------------------|
-| Construction commitments | Remaining contract amounts, funding sources |
-| Litigation | Nature of claims, estimated liability if probable |
-| Grant contingencies | Amounts subject to audit and potential repayment |
-| Encumbrances | Outstanding purchase orders and contracts |
-
-### Component Unit Information
-
-| Disclosure Area | Required Information |
-|----------------|---------------------|
-| Blended units | Criteria for blending, nature of relationship |
-| Discretely presented units | Criteria for inclusion, nature of relationship |
-| Related party transactions | Significant transactions with component units |
-
-### Property Tax Calendar and Revenue Recognition
-
-| Disclosure Area | Required Information |
-|----------------|---------------------|
-| Levy date | When taxes are assessed |
-| Lien date | When government has legal claim |
-| Due dates | Payment due dates |
-| Collection period | Period used for revenue recognition under modified accrual |
-
----
-
-## Summary of Key Note Disclosure Requirements
-
-```mermaid
-flowchart LR
-    subgraph Required["Required Note Disclosures"]
-        A[Significant Accounting Policies]
-        B[Capital Assets Rollforward]
-        C[Long-Term Liabilities Rollforward]
-        D[Cash & Investments Risk]
-        E[Pension & OPEB]
-        F[Interfund Activity]
-    end
-    subgraph Purpose["Disclosure Purpose"]
-        G[Framework for Understanding]
-        H[Asset Detail & Changes]
-        I[Debt Detail & Maturity]
-        J[Risk Exposure]
-        K[Future Obligations]
-        L[Internal Relationships]
-    end
-    A --> G
-    B --> H
-    C --> I
-    D --> J
-    E --> K
-    F --> L
-```
-
-:::warning[Key Distinction]
-
-Do not confuse **notes to the financial statements** (part of basic financial statements) with **Required Supplementary Information (RSI)**. RSI includes budgetary comparisons, pension/OPEB schedules, and infrastructure condition data under the modified approach. RSI is presented immediately after the notes but is not part of the basic financial statements.
-
-:::
+Finally, under GASB 103 the notes are no longer an option for major component unit information. Each major component unit is shown in its own column on the government-wide statements or, if that would make them hard to read, in combining statements after the fund financial statements.
 
 ---
 
 ## Exam Focus Summary
 
-| Topic | Key Points to Remember |
-|-------|----------------------|
-| Accounting policies note | Always the first note; describes measurement focus, basis of accounting, fund balance policies |
-| Capital assets | Rollforward schedule by major class; modified approach as alternative to depreciation for infrastructure |
-| Long-term liabilities | Rollforward with due-within-one-year column; debt service to maturity; terms and security |
-| Cash and investments | Custodial credit risk, credit risk, interest rate risk, fair value hierarchy |
-| Pension/OPEB | Net liability components, actuarial assumptions, discount rate sensitivity |
-| Notes vs. RSI | Notes = basic financial statements; RSI = required but not part of basic statements |
+| Topic | Key points |
+|-------|------------|
+| Accounting policies note | Comes first; measurement focus and basis of accounting; the availability period (generally 60 days for property taxes) |
+| Capital assets | Rollforward by major class; depreciation by function; lease, PPP, subscription, and intangible assets shown separately; assets held for sale (GASB 104) |
+| Long-term liabilities | Rollforward with a due-within-one-year column; net change allowed for compensated absences (GASB 101); debt service to maturity; terms and security |
+| Newer disclosures | Restatement table (GASB 100), concentrations and constraints (GASB 102), unusual or infrequent items (GASB 103), subsequent events evaluation date (GASB 105) |
+| Notes vs. RSI | Notes are part of the basic statements; MD&A, budgetary comparisons, pension and OPEB schedules, and modified approach schedules are RSI |
