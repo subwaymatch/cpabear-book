@@ -1,20 +1,16 @@
 # Public Company Reporting (SEC, EPS)
 
-## Overview
+A company whose securities trade publicly in the United States takes on a continuing duty to report to investors. The **Securities Exchange Act of 1934** requires registered companies to file periodic reports with the **Securities and Exchange Commission (SEC)**, and the SEC's rules say what those reports contain and when they are due. Public companies must also report **earnings per share (EPS)**, the most widely quoted measure of a company's performance. FAR tests both halves of this chapter: the purpose of Forms 10-K, 10-Q, and 8-K and the main items in the 10-K and 10-Q, and the calculation of basic and diluted EPS.
 
-Public companies in the United States must meet reporting requirements set by the **Securities and Exchange Commission (SEC)**. These requirements give investors timely, reliable financial information. The SEC requires periodic filings and specific disclosures, including **earnings per share (EPS)**, one of the most tested topics on the CPA exam.
+## The SEC's Role
 
-:::info[Key Concept]
+The SEC has statutory authority to set accounting standards for public companies, but it has long relied on the Financial Accounting Standards Board (FASB) to set them. What the SEC does set is **reporting and disclosure** requirements. **Regulation S-X** governs the form and content of the financial statements in SEC filings, and **Regulation S-K** governs the other disclosures, such as the description of the business, risk factors, and management's discussion and analysis.
 
-The SEC has statutory authority to set accounting standards for public companies but has historically relied on the Financial Accounting Standards Board (FASB) to set them. The SEC does set **reporting and disclosure** requirements, through Regulation S-X (form and content of financial statements) and Regulation S-K (nonfinancial disclosures).
+---
 
-:::
+## Filer Categories
 
-## SEC Filing Requirements
-
-### Filer Categories
-
-The SEC classifies registrants into three filer categories based on **public float**: the market value of voting and nonvoting common equity held by nonaffiliates.
+The SEC classifies registrants into three filer categories based on **public float**, the market value of voting and nonvoting common equity held by nonaffiliates. The category determines filing deadlines and whether the auditor must attest to internal control.
 
 | Filer Type | Public Float |
 |---|---|
@@ -24,87 +20,86 @@ The SEC classifies registrants into three filer categories based on **public flo
 
 A **smaller reporting company (SRC)** has public float below \$250 million, or annual revenue below \$100 million with public float below \$700 million. SRC status is separate from filer category and allows scaled-down disclosures.
 
-:::tip[CPA Exam Tip]
+---
 
-Filing deadlines depend on the filer category. Large accelerated filers have the **shortest** deadlines because they have the most resources to prepare filings.
+## Form 10-K (Annual Report)
 
-:::
+The **Form 10-K** is the annual report filed with the SEC. It gives a complete picture of the company for the fiscal year, including its business and risk factors, its audited financial statements, and management's report on internal control over financial reporting (ICFR). Management's ICFR report is required of all filers. The auditor's attestation on ICFR is required only for accelerated and large accelerated filers. The 10-K also includes a cybersecurity section describing the company's processes for managing cybersecurity risk and the roles of the board and management in overseeing it.
 
-### Form 10-K (Annual Report)
+FAR focuses on three items in **Part II** of the 10-K:
 
-The Form 10-K is the **annual report** filed with the SEC. It includes:
+| Item | Title | What It Contains |
+|---|---|---|
+| **Item 7** | Management's Discussion and Analysis of Financial Condition and Results of Operations (MD&A) | Management's explanation of the results of operations, liquidity, and capital resources, including known trends, uncertainties, and critical accounting estimates |
+| **Item 7A** | Quantitative and Qualitative Disclosures About Market Risk | The company's exposure to market risks such as interest rates, foreign currency exchange rates, commodity prices, and equity prices, and how it manages them |
+| **Item 8** | Financial Statements and Supplementary Data | The audited financial statements and notes (balance sheet, income statement, statement of comprehensive income, statement of cash flows, and statement of stockholders' equity) and the independent auditor's report |
 
-- **Audited financial statements** (balance sheet, income statement, statement of comprehensive income, statement of cash flows, and statement of stockholders' equity)
-- **Management's Discussion and Analysis (MD&A)**
-- **Report of the independent registered public accounting firm**
-- **Management's report on internal control over financial reporting (ICFR)**, required of all filers; the auditor's attestation on ICFR is required only for accelerated and large accelerated filers
+The SEC eliminated the former requirement for a five-year table of selected financial data in 2021.
 
-The SEC eliminated the former requirement for a five-year table of **selected financial data** in 2021.
-
-#### 10-K Filing Deadlines
-
-| Filer Type              | Deadline After Fiscal Year-End |
+| Filer Type              | 10-K Deadline After Fiscal Year-End |
 | ----------------------- | ------------------------------ |
 | Large Accelerated Filer | **60 days**                    |
 | Accelerated Filer       | **75 days**                    |
 | Non-Accelerated Filer   | **90 days**                    |
 
-### Form 10-Q (Quarterly Report)
+Larger filers have the **shortest** deadlines, on the theory that they have the most resources to prepare their filings.
 
-The Form 10-Q is filed for each of the **first three fiscal quarters**. The 10-K covers the fourth quarter. The 10-Q includes:
+---
 
-- **Unaudited** condensed interim financial statements (balance sheet, income statement, and statement of cash flows), reviewed by the independent auditor
-- Interim **MD&A**
-- Material changes to risk factors
+## Form 10-Q (Quarterly Report)
 
-#### 10-Q Filing Deadlines
+The **Form 10-Q** is the quarterly report, filed for each of the **first three fiscal quarters**. The 10-K covers the fourth quarter, so there is no fourth-quarter 10-Q. The 10-Q keeps investors informed between annual reports. Its financial statements are **unaudited** but are **reviewed** by the independent auditor.
 
-| Filer Type              | Deadline After Quarter-End |
+FAR focuses on the first three items in **Part I** of the 10-Q:
+
+| Item | Title | What It Contains |
+|---|---|---|
+| **Item 1** | Financial Statements | Condensed interim financial statements: balance sheet, income statement, statement of cash flows, and an analysis of changes in stockholders' equity, with comparative periods and notes |
+| **Item 2** | Management's Discussion and Analysis of Financial Condition and Results of Operations | Interim MD&A, focused on material changes since the last annual report |
+| **Item 3** | Quantitative and Qualitative Disclosures About Market Risk | Material changes in market risk since the last 10-K |
+
+Part II of the 10-Q covers other information, such as legal proceedings and material changes to risk factors.
+
+| Filer Type              | 10-Q Deadline After Quarter-End |
 | ----------------------- | -------------------------- |
 | Large Accelerated Filer | **40 days**                |
 | Accelerated Filer       | **40 days**                |
 | Non-Accelerated Filer   | **45 days**                |
 
-### Form 8-K (Current Report)
+Coming change: ASU 2025-11, eligible for testing January 1, 2028, gives a complete list of the disclosures required in interim financial statements and adds a principle that interim reports disclose events since the last annual period that have a material effect on the entity.
 
-The Form 8-K reports **material events** that occur between periodic filings. It must generally be filed within **4 business days** of the triggering event.
+---
 
-Common triggering events include:
+## Form 8-K (Current Report)
+
+The **Form 8-K** reports **material events** that occur between periodic filings, so investors do not have to wait for the next 10-Q or 10-K. It must generally be filed within **4 business days** of the triggering event. Common triggering events include:
 
 - Entry into or termination of a material agreement
 - Bankruptcy or receivership
-- Acquisition or disposition of assets
-- Changes in the certifying accountant
+- Completion of a significant acquisition or disposition of assets
+- A **material cybersecurity incident** (Item 1.05), generally reported within four business days after the company determines the incident is material
+- Changes in the company's certifying accountant
+- A conclusion that previously issued financial statements should no longer be relied on
 - Changes in control of the registrant
-- Departure of directors or principal officers
+- Departure or appointment of directors or principal officers
 - Unregistered sales of equity securities
 
-:::note
+Because the 8-K is event-driven, it does not contain a regular set of financial statements. The main exception is a significant business acquisition, which requires the acquired business's financial statements and pro forma financial information (these may be filed later by amendment).
 
-Form 8-K is an event-driven report, so it does not contain a regular set of periodic financial statements. The main exception is a significant business acquisition, which requires the acquired business's financial statements and pro forma financial information (these may be filed later by amendment).
-
-:::
+---
 
 ## Earnings Per Share (EPS)
 
-EPS is governed by **ASC 260**, *Earnings Per Share*, in the FASB Accounting Standards Codification (ASC). Public entities must report EPS on the **face of the income statement**.
-
-### Simple vs. Complex Capital Structure
+EPS is governed by **ASC 260**, *Earnings Per Share*. Public entities report EPS on the **face of the income statement**, for both **income from continuing operations** and **net income**.
 
 | Structure   | Description                                                                              | EPS Reported                      |
 | ----------- | ---------------------------------------------------------------------------------------- | --------------------------------- |
 | **Simple**  | No potentially dilutive securities (for example, only common and nonconvertible preferred stock) | **Basic EPS** only                |
 | **Complex** | Has potentially dilutive securities (options, warrants, convertibles, contingent shares) | **Basic EPS** and **Diluted EPS** |
 
-:::warning
-
-With a complex capital structure, basic and diluted EPS are presented with **equal prominence** on the face of the income statement. EPS must be shown for both **income from continuing operations** and **net income**.
-
-:::
+With a complex capital structure, basic and diluted EPS are presented with **equal prominence**. Basic EPS measures performance using the shares actually outstanding. Diluted EPS shows what EPS would have been if every dilutive security had become common stock.
 
 ## Basic EPS
-
-### Formula
 
 $$
 \text{Basic EPS} = \frac{\text{Income Available to Common Shareholders}}{\text{Weighted Average Common Shares Outstanding}}
@@ -112,28 +107,18 @@ $$
 
 ### Numerator: Income Available to Common Shareholders
 
-Start with **net income** and subtract preferred stock dividends:
+Start with **net income** and subtract the dividends that belong to preferred shareholders for the period:
 
 | Preferred Stock Type | Adjustment |
 |---|---|
 | **Cumulative preferred** | Subtract the **current year's dividend** whether or not it was declared (prior-year dividends in arrears are not subtracted again) |
 | **Noncumulative preferred** | Subtract dividends **only if declared** |
 
-$$
-\text{Income Available} = \text{Net Income} - \text{Preferred Dividends}
-$$
-
-:::danger
-
-For **cumulative** preferred stock, **always** subtract the current year's dividend, even if the board did not declare a dividend that year. This is the most commonly tested nuance.
-
-:::
+The cumulative rule is the most commonly tested nuance. A cumulative preferred dividend that the board skipped is still owed to preferred shareholders before common shareholders get anything, so it reduces income available to common shareholders this year.
 
 ### Denominator: Weighted Average Shares Outstanding
 
-Shares are weighted by the **fraction of the year** they were outstanding.
-
-**Example:** Bear Co. has the following common stock activity during the year:
+Shares are weighted by the **fraction of the year** they were outstanding. Bear Co. has the following common stock activity during the year:
 
 | Date | Event | Shares |
 |---|---|---|
@@ -159,17 +144,11 @@ $$
 
 ### Stock Dividends and Stock Splits
 
-Stock dividends and stock splits are treated as if they occurred at the **beginning of the earliest period presented**. This means:
-
-- **Retroactively adjust** the shares for all periods presented.
-- **Do not weight** the new shares by issue date; the adjustment applies to the entire period.
-- Apply the same treatment to a split or stock dividend that occurs **after year-end but before the statements are issued**.
-
-**Example:** If Bear Co. declared a 2-for-1 stock split on July 1, the weighted average share computation would use post-split share counts for the **entire year**.
+A stock dividend or split changes the number of shares without bringing in any resources, so it is treated as if it had occurred at the **beginning of the earliest period presented**. The shares are **retroactively adjusted** for all periods presented, and the new shares are **not** weighted by their issue date. The same treatment applies to a split or stock dividend that occurs **after year-end but before the statements are issued**. If Bear Co. declared a 2-for-1 stock split on July 1, the weighted average computation would use post-split share counts for the **entire year**, and prior-year EPS would be restated.
 
 ## Diluted EPS
 
-Diluted EPS assumes that all **dilutive** potential common shares were converted or exercised. It represents the **worst-case** EPS.
+Diluted EPS assumes that all **dilutive** potential common shares were converted or exercised. It shows the maximum potential dilution of earnings.
 
 $$
 \text{Diluted EPS} = \frac{\text{Adjusted Income}}{\text{Adjusted Weighted Average Shares}}
@@ -177,107 +156,65 @@ $$
 
 ### If-Converted Method (Convertible Securities)
 
-Used for **convertible bonds** and **convertible preferred stock**. The method assumes conversion at the **beginning of the period** (or at the date of issuance, if later).
+The **if-converted method** is used for **convertible bonds** and **convertible preferred stock**. It assumes conversion at the **beginning of the period** (or at the date of issuance, if later), so it removes the cost of the security from the numerator and adds the shares to the denominator. Convertible instruments that the issuer may settle in cash or shares are presumed to be settled in shares for this purpose.
 
-#### Convertible Bonds
+For **convertible bonds**, the numerator adds back the **after-tax** interest expense that would not have been incurred. Grizzly Inc. has \$1,000,000 of 6% convertible bonds, convertible into 50,000 shares. The tax rate is 25%:
 
-- **Numerator:** Add back the after-tax interest expense that would not have been incurred.
-- **Denominator:** Add the shares that would have been issued on conversion.
+- **Numerator adjustment:** \$1,000,000 × 6% × (1 - 0.25) = +\$45,000
+- **Denominator adjustment:** +50,000 shares
 
-**Example:** Grizzly Inc. has \$1,000,000 of 6% convertible bonds, convertible into 50,000 shares. The tax rate is 25%.
-
-**Numerator adjustment:**
-
-$$
-\text{Interest saved} = \$1{,}000{,}000 \times 6\% = \$60{,}000
-$$
-
-$$
-\text{After-tax} = \$60{,}000 \times (1 - 0.25) = \$45{,}000
-$$
-
-**Denominator adjustment:** +50,000 shares
-
-#### Convertible Preferred Stock
-
-- **Numerator:** Add back the preferred dividends that were subtracted in basic EPS.
-- **Denominator:** Add the shares that would have been issued on conversion.
-
-**Example:** Polar Co. has 10,000 shares of convertible preferred stock (\$5 dividend per share), each convertible into 4 common shares.
+For **convertible preferred stock**, the numerator adds back the preferred dividends that were subtracted in basic EPS. There is **no tax adjustment**, because preferred dividends are not tax-deductible. Polar Co. has 10,000 shares of convertible preferred stock (\$5 dividend per share), each convertible into 4 common shares:
 
 - **Numerator adjustment:** +\$50,000 (10,000 × \$5 of preferred dividends added back)
 - **Denominator adjustment:** +40,000 shares (10,000 × 4)
 
-:::info
-
-For convertible preferred stock, there is **no tax adjustment** because preferred dividends are not tax-deductible.
-
-:::
-
 ### Treasury Stock Method (Options and Warrants)
 
-Used for **stock options** and **warrants**. The method assumes the exercise proceeds are used to **buy back shares** at the average market price for the period.
-
-**Steps:**
+The **treasury stock method** is used for **stock options** and **warrants**. It assumes the options are exercised and the exercise proceeds are used to **buy back shares** at the average market price for the period:
 
 1. Assume all options and warrants are exercised, and count the shares issued.
 2. Calculate the proceeds: shares × exercise price.
 3. Assume the proceeds are used to repurchase shares at the average market price.
 4. **Net new shares** = shares issued minus shares repurchased.
 
-**Example:** Cub Entertainment has 10,000 stock options with an exercise price of \$20. The average market price is \$50.
+Cub Entertainment has 10,000 stock options with an exercise price of \$20. The average market price is \$50.
 
 $$
-\text{Proceeds} = 10{,}000 \times \$20 = \$200{,}000
-$$
-
-$$
-\text{Shares repurchased} = \frac{\$200{,}000}{\$50} = 4{,}000
+\text{Shares repurchased} = \frac{10{,}000 \times \$20}{\$50} = 4{,}000
 $$
 
 $$
 \text{Net new shares} = 10{,}000 - 4{,}000 = 6{,}000
 $$
 
-- **Numerator adjustment:** \$0 (options have no income effect)
-- **Denominator adjustment:** +6,000 shares
-
-:::warning
-
-Options and warrants are dilutive **only when the exercise price is below the average market price** (in the money). If the exercise price exceeds the average market price, the options are **antidilutive** and excluded.
-
-:::
+The numerator does not change (options have no income effect), and the denominator increases by 6,000 shares. Options and warrants are dilutive **only when the exercise price is below the average market price** (in the money). If the exercise price is above the average market price, they are antidilutive and excluded.
 
 ### Potentially Dilutive Securities
 
-The following securities may be dilutive:
-
 | Security | Method | Dilutive When |
 |---|---|---|
-| Stock options/warrants | Treasury stock | Exercise price < average market price |
-| Convertible bonds | If-converted | Incremental EPS < basic EPS |
-| Convertible preferred | If-converted | Incremental EPS < basic EPS |
-| Contingently issuable shares | Include if conditions are met | Conditions are satisfied as of period-end |
+| Stock options and warrants | Treasury stock | Exercise price < average market price |
+| Convertible bonds | If-converted | Incremental EPS < EPS before including it |
+| Convertible preferred | If-converted | Incremental EPS < EPS before including it |
+| Contingently issuable shares | Include if the conditions are met | Conditions are satisfied as of period-end |
 
-### Antidilution Rule
+### Antidilution
 
 :::danger[Critical Rule]
 
 A security is **antidilutive** if including it would **increase** EPS (or decrease the loss per share). Antidilutive securities are **excluded** from diluted EPS.
 
-Test each security individually, ranking from **most dilutive to least dilutive** (lowest incremental EPS to highest). Add securities one at a time, and stop when the next security would be antidilutive.
+Compute each security's incremental EPS, rank the securities from **most dilutive to least dilutive** (lowest incremental EPS first), and add them one at a time. Stop when the next security would raise EPS.
 
 :::
-
-If an entity reports a **loss from continuing operations**, every potential common share is antidilutive, so diluted EPS equals basic EPS.
-
-**Incremental EPS for each security:**
 
 $$
 \text{Incremental EPS} = \frac{\text{Increase in Numerator}}{\text{Increase in Denominator}}
 $$
 
-**Example:** Kodiak Partners has income available to common shareholders of \$400,000 and 100,000 weighted average shares, so basic EPS is \$4.00. It has three potentially dilutive securities:
+If an entity reports a **loss from continuing operations**, every potential common share is antidilutive, so diluted EPS equals basic EPS.
+
+Sloth Security has income available to common shareholders of \$400,000 and 100,000 weighted average shares, so basic EPS is \$4.00. It has three potentially dilutive securities:
 
 | Security | Numerator Effect | Denominator Effect | Incremental EPS |
 |---|---|---|---|
@@ -291,17 +228,7 @@ Rank by incremental EPS: options (\$0.00), bonds (\$3.00), preferred (\$5.33).
 2. **Add bonds:** EPS = \$430,000 / 115,000 = \$3.74 (dilutive)
 3. **Add preferred:** EPS = \$510,000 / 130,000 = \$3.92 (antidilutive, because EPS rises from \$3.74)
 
-**Diluted EPS = \$3.74** (the convertible preferred is excluded).
-
-## EPS Disclosure Requirements
-
-ASC 260 requires the following disclosures:
-
-- Basic and diluted EPS on the **face of the income statement**
-- EPS for **income from continuing operations** and **net income**
-- EPS for discontinued operations, either on the face of the income statement or in the notes
-- A **reconciliation** of the numerators and denominators of basic and diluted EPS
-- A description of potentially dilutive securities excluded because they were antidilutive
+**Diluted EPS = \$3.74**. The convertible preferred is excluded.
 
 ## Comprehensive Example
 
@@ -338,24 +265,6 @@ Options (treasury stock method): 15,000 - (15,000 × \$25 ÷ \$50) = 15,000 - 7,
 
 **Diluted EPS = \$3.65**
 
-## Summary
+## EPS Disclosure Requirements
 
-| Topic                   | Key Rule                                                       |
-| ----------------------- | -------------------------------------------------------------- |
-| 10-K deadline           | 60 / 75 / 90 days (large accelerated / accelerated / non-accelerated) |
-| 10-Q deadline           | 40 / 40 / 45 days (large accelerated / accelerated / non-accelerated) |
-| 8-K deadline            | 4 business days                                                |
-| Basic EPS numerator     | Net income minus preferred dividends                           |
-| Cumulative preferred    | Always subtract the current year's dividend                    |
-| Noncumulative preferred | Subtract only if declared                                      |
-| Stock splits/dividends  | Retroactive adjustment                                         |
-| Convertible securities  | If-converted method                                            |
-| Options/warrants        | Treasury stock method                                          |
-| Antidilution            | Exclude if the security increases EPS                          |
-| Ranking                 | Most dilutive to least dilutive                                |
-
-:::tip[Final Exam Reminder]
-
-Always compute **basic EPS first**, then test each potentially dilutive security. On the exam, options with an exercise price **above** the average market price are **out of the money** and excluded immediately.
-
-:::
+ASC 260 requires basic and diluted EPS on the face of the income statement for income from continuing operations and net income; EPS for discontinued operations, on the face of the income statement or in the notes; a **reconciliation** of the numerators and denominators of basic and diluted EPS; and a description of potentially dilutive securities that were excluded because they were antidilutive.

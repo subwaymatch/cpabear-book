@@ -1,20 +1,10 @@
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Financial Ratio Analysis
 
-Financial ratios turn raw financial statement numbers into comparable measures of a company's liquidity, efficiency, leverage, and profitability. On the FAR section of the CPA exam, you may be asked to **calculate** a ratio, **interpret** what a change in a ratio means, or **identify** the correct formula. This chapter gives the formula, meaning, and a worked example for each ratio you need to know.
-
-Ratios are typically grouped into four categories:
-
-1. **Liquidity**: ability to meet short-term obligations
-2. **Activity (efficiency)**: how effectively the company uses its assets
-3. **Solvency (leverage)**: ability to meet long-term obligations, and overall financial risk
-4. **Profitability**: ability to generate earnings
+A balance sheet that shows \$480,000 of current assets says little by itself. Compared with \$300,000 of current liabilities, it says the company can cover its short-term debts 1.6 times over. Financial ratios turn raw financial statement numbers into comparable measures like that one. On FAR you may be asked to choose the right ratio for a given type of analysis, calculate it, or interpret a change in it, and to compare actual results with a budget. This chapter groups the ratios the way analysts do: **liquidity** (the ability to meet short-term obligations), **activity** (how efficiently the company uses its assets), **solvency** (the ability to meet long-term obligations), and **profitability**. It then covers DuPont analysis, market-based performance metrics, a comprehensive example, and budget variances.
 
 :::info[Exam Tip]
 
-The CPA exam often tests whether you use **average** or **ending** balances. When a ratio compares an income-statement figure to a balance-sheet figure, use average balances unless the question says otherwise. The operating cash flow ratio and days payables outstanding (DPO), as presented in this chapter, are exceptions that use ending balances.
+The exam often tests whether you use **average** or **ending** balances. When a ratio compares an income statement figure (a flow over the year) with a balance sheet figure (a balance at one date), use the average balance unless the question says otherwise. The operating cash flow ratio and days payables outstanding (DPO), as presented in this chapter, are exceptions that use ending balances.
 
 :::
 
@@ -76,13 +66,7 @@ $$
 \frac{\$270{,}000}{\$300{,}000} = 0.90
 $$
 
-Grizzly Inc. generates \$0.90 of operating cash for every \$1.00 of current liabilities.
-
-:::tip
-
-The operating cash flow ratio is a useful complement to the current ratio because it relies on **actual cash generated**, not on accrual-based current assets that may include slow-moving inventory.
-
-:::
+Grizzly Inc. generates \$0.90 of operating cash for every \$1.00 of current liabilities. The ratio is a useful complement to the current ratio because it relies on cash actually generated, not on current assets that may include slow-moving inventory.
 
 ---
 
@@ -178,13 +162,7 @@ $$
 \text{CCC} = \text{Days in Inventory} + \text{DSO} - \text{DPO}
 $$
 
-A shorter cycle is better because the company turns its investment in inventory into cash faster.
-
-:::warning
-
-The CPA exam may give you raw data and ask for the CCC in a single problem. Compute all three components first, then combine them.
-
-:::
+A shorter cycle is better because the company turns its investment in inventory into cash faster. When a question gives raw data and asks only for the CCC, compute all three components first, then combine them.
 
 **Example (Kodiak Partners):** Kodiak Partners also has net credit sales of \$1,460,000 and average A/R of \$120,000. That gives an A/R turnover of 12.17 and a DSO of 30.0 days. Using the values computed above for days in inventory (90.0) and DPO (47.5):
 
@@ -220,11 +198,7 @@ $$
 \frac{\$5{,}000{,}000}{\$1{,}250{,}000} = 4.0 \text{ times}
 $$
 
-:::note
-
-Fixed asset turnover is especially useful for capital-intensive industries (manufacturing, utilities). A low ratio may indicate over-investment in plant assets or underused capacity.
-
-:::
+Fixed asset turnover is especially useful for capital-intensive industries such as manufacturing and utilities. A low ratio may indicate over-investment in plant assets or underused capacity.
 
 ---
 
@@ -234,7 +208,7 @@ These ratios measure long-term financial health and the degree to which a compan
 
 ### Debt-to-Assets Ratio
 
-The percentage of total assets financed by debt.
+The percentage of total assets financed by debt. It is also called the **total debt ratio**.
 
 $$
 \text{Debt-to-Assets} = \frac{\text{Total Liabilities}}{\text{Total Assets}}
@@ -288,7 +262,7 @@ $$
 \text{TIE} = \frac{\text{EBIT}}{\text{Interest Expense}}
 $$
 
-A higher number is safer. A TIE of 5 means operating profit can cover interest five times over.
+A higher number is safer. A TIE of 5 means operating profit can cover interest five times over. EBIT is **not** net income: if a question gives net income, add back interest expense and income tax expense to get EBIT.
 
 **Example (Sloth Security):** EBIT \$250,000; interest expense \$50,000.
 
@@ -296,11 +270,7 @@ $$
 \frac{\$250{,}000}{\$50{,}000} = 5.0 \text{ times}
 $$
 
-:::caution
-
-EBIT is **not** the same as net income. To arrive at EBIT, add interest expense and income tax expense back to net income: $\text{EBIT} = \text{Net Income} + \text{Interest Expense} + \text{Income Tax Expense}$.
-
-:::
+Lenders often write ratios like TIE, debt-to-equity, and the current ratio into loan agreements as covenants. The [Long-Term Liabilities and Bonds](../liabilities/long-term-liabilities-and-bonds.md) chapter shows a covenant compliance check.
 
 ---
 
@@ -324,7 +294,7 @@ $$
 
 ### Net Profit Margin
 
-The percentage of each sales dollar that becomes profit after **all** expenses.
+The percentage of each sales dollar that becomes profit after **all** expenses. It is also called **return on sales**.
 
 $$
 \text{Net Profit Margin} = \frac{\text{Net Income}}{\text{Net Sales}}
@@ -372,11 +342,7 @@ $$
 \text{Basic EPS} = \frac{\text{Net Income} - \text{Preferred Dividends}}{\text{Weighted Average Common Shares Outstanding}}
 $$
 
-:::info
-
-If there are no preferred shares, preferred dividends are zero. The exam usually gives you the weighted average share count. Do **not** confuse it with ending shares outstanding. See [Public Company Reporting](./public-company-reporting.md) for weighted average shares and diluted EPS.
-
-:::
+The denominator is the **weighted average** number of shares, not the shares outstanding at year-end. [Public Company Reporting](./public-company-reporting.md) shows how to compute the weighted average and diluted EPS.
 
 **Example (Grizzly Inc.):** Net income \$500,000; preferred dividends \$20,000; weighted average common shares 120,000.
 
@@ -388,37 +354,15 @@ $$
 
 ## DuPont Analysis
 
-The DuPont model breaks **return on equity** into three drivers so you can pinpoint *why* ROE changed.
+The DuPont model breaks **return on equity** into three drivers so you can pinpoint *why* ROE changed. Each fraction's denominator cancels the next fraction's numerator, so the product is simply net income divided by average equity:
 
 $$
 \text{ROE} = \underbrace{\frac{\text{Net Income}}{\text{Net Sales}}}_{\text{Net Profit Margin}} \times \underbrace{\frac{\text{Net Sales}}{\text{Average Total Assets}}}_{\text{Total Asset Turnover}} \times \underbrace{\frac{\text{Average Total Assets}}{\text{Average Total Equity}}}_{\text{Equity Multiplier}}
 $$
 
-```mermaid
-graph TD
-    ROE["ROE"] --> NPM["Net Profit Margin<br/>Net Income ÷ Net Sales"]
-    ROE --> TAT["Total Asset Turnover<br/>Net Sales ÷ Avg Total Assets"]
-    ROE --> EM["Equity Multiplier<br/>Avg Total Assets ÷ Avg Total Equity"]
-    NPM --> NI["Net Income"]
-    NPM --> NS1["Net Sales"]
-    TAT --> NS2["Net Sales"]
-    TAT --> ATA["Avg Total Assets"]
-    EM --> ATA2["Avg Total Assets"]
-    EM --> ATE["Avg Total Equity"]
-```
+The three levers are profitability (margin), asset efficiency (turnover), and leverage (the equity multiplier). Two companies with the same ROE can get there very differently, and a question may ask which lever drove a change.
 
-<Tabs>
-  <TabItem value="bear" label="Bear Co." default>
-
-| Component | Calculation | Result |
-|-----------|------------|--------|
-| Net Profit Margin | \$120,000 ÷ \$1,200,000 | 10.0% |
-| Total Asset Turnover | \$1,200,000 ÷ \$800,000 | 1.50× |
-| Equity Multiplier | \$800,000 ÷ \$500,000 | 1.60× |
-| **ROE** | 10.0% × 1.50 × 1.60 | **24.0%** |
-
-  </TabItem>
-  <TabItem value="polar" label="Polar Co.">
+**Example (Polar Co.):** Polar Co. has net sales of \$900,000, net income of \$90,000, average total assets of \$600,000, and average total equity of \$300,000.
 
 | Component | Calculation | Result |
 |-----------|------------|--------|
@@ -427,24 +371,47 @@ graph TD
 | Equity Multiplier | \$600,000 ÷ \$300,000 | 2.00× |
 | **ROE** | 10.0% × 1.50 × 2.00 | **30.0%** |
 
-  </TabItem>
-  <TabItem value="panda" label="Panda Industries">
+The result matches the direct ROE calculation above (\$90,000 ÷ \$300,000 = 30%). Now suppose Polar borrowed to buy back some of its shares. Ignoring the added interest, its margin and turnover would not change, but lower equity would raise the equity multiplier and therefore ROE. DuPont analysis shows that the higher ROE came from leverage, not from better operations.
 
-| Component | Calculation | Result |
-|-----------|------------|--------|
-| Net Profit Margin | \$400,000 ÷ \$5,000,000 | 8.0% |
-| Total Asset Turnover | \$5,000,000 ÷ \$2,500,000 | 2.00× |
-| Equity Multiplier | \$2,500,000 ÷ \$1,000,000 | 2.50× |
-| **ROE** | 8.0% × 2.00 × 2.50 | **40.0%** |
+---
 
-  </TabItem>
-</Tabs>
+## Performance Metrics
 
-:::tip[Why DuPont matters on the exam]
+Several widely used metrics combine financial statement amounts with market data or add back noncash charges.
 
-When ROE changes, DuPont analysis tells you **which lever** moved: profit margin, asset efficiency, or leverage. The CPA exam may ask you to identify which component drove a change in ROE.
+### EBITDA
 
-:::
+**Earnings before interest, taxes, depreciation, and amortization (EBITDA)** approximates the cash earnings generated by operations before financing costs and taxes. It is not a GAAP measure.
+
+$$
+\text{EBITDA} = \text{Net Income} + \text{Interest} + \text{Taxes} + \text{Depreciation} + \text{Amortization}
+$$
+
+Equivalently, EBITDA = EBIT + depreciation and amortization.
+
+**Example (Sloth Security):** EBIT \$250,000; depreciation and amortization \$40,000. EBITDA = \$250,000 + \$40,000 = **\$290,000**.
+
+### Price-to-Earnings (P/E) Ratio
+
+The **P/E ratio** shows how much investors pay for each dollar of earnings. A high P/E usually signals that the market expects strong growth.
+
+$$
+\text{P/E Ratio} = \frac{\text{Market Price per Common Share}}{\text{Earnings per Share}}
+$$
+
+**Example (Grizzly Inc.):** EPS is \$4.00 (computed above) and the stock trades at \$60. P/E = \$60 ÷ \$4.00 = **15.0**.
+
+### Dividend Payout Ratio
+
+The **dividend payout ratio** shows the share of earnings paid out to common shareholders as dividends. The rest is retained in the business.
+
+$$
+\text{Dividend Payout Ratio} = \frac{\text{Dividends per Common Share}}{\text{Earnings per Share}}
+$$
+
+**Example (Grizzly Inc.):** Grizzly pays common dividends of \$1.20 per share. Payout = \$1.20 ÷ \$4.00 = **30%**, so 70% of earnings available to common shareholders is retained.
+
+Asset turnover is often listed as a performance metric as well; it is covered with the activity ratios above.
 
 ---
 
@@ -475,45 +442,49 @@ Below is a condensed set of financial data for **Cub Entertainment** for the yea
 | **Total Equity (beginning)** | **\$500,000** |
 | Net Credit Sales | \$2,000,000 |
 | COGS | \$1,200,000 |
+| Depreciation and Amortization | \$50,000 |
 | EBIT | \$300,000 |
 | Interest Expense | \$40,000 |
 | Income Tax Expense | \$60,000 |
 | **Net Income** | **\$200,000** |
 | Cash Flow from Operations | \$280,000 |
 | Preferred Dividends | \$10,000 |
+| Common Dividends (\$0.90 per share) | \$90,000 |
 | Weighted Average Common Shares | 100,000 |
+| Market Price per Common Share | \$38 |
 
 ### Computed Ratios
 
-| Ratio | Formula | Calculation | Result |
-|-------|---------|-------------|--------|
-| Current Ratio | Current assets ÷ Current liabilities | \$500,000 ÷ \$250,000 | **2.00** |
-| Quick Ratio | (Cash + Marketable securities + A/R) ÷ Current liabilities | (\$80k + \$20k + \$150k) ÷ \$250k | **1.00** |
-| Operating Cash Flow Ratio | Cash flow from operations ÷ Ending current liabilities | \$280,000 ÷ \$250,000 | **1.12** |
-| A/R Turnover | Net credit sales ÷ Average A/R | \$2,000k ÷ \$140k | **14.29×** |
-| DSO | 365 ÷ A/R turnover | 365 ÷ 14.29 | **25.5 days** |
-| Inventory Turnover | COGS ÷ Average inventory | \$1,200k ÷ \$190k | **6.32×** |
-| Days in Inventory | 365 ÷ Inventory turnover | 365 ÷ 6.32 | **57.8 days** |
-| DPO | Ending A/P ÷ (COGS ÷ 365) | \$100k ÷ \$3,288 | **30.4 days** |
-| Cash Conversion Cycle | DII + DSO - DPO | 57.8 + 25.5 - 30.4 | **52.9 days** |
-| Total Asset Turnover | Net sales ÷ Average total assets | \$2,000k ÷ \$1,100k | **1.82×** |
-| Fixed Asset Turnover | Net sales ÷ Average net fixed assets | \$2,000k ÷ \$650k | **3.08×** |
-| Debt-to-Assets | Total liabilities ÷ Total assets | \$600k ÷ \$1,200k | **0.50** |
-| Debt-to-Equity | Total liabilities ÷ Total equity | \$600k ÷ \$600k | **1.00** |
-| Equity Multiplier | Average total assets ÷ Average total equity | \$1,100k ÷ \$550k | **2.00** |
-| TIE | EBIT ÷ Interest expense | \$300k ÷ \$40k | **7.50×** |
-| Gross Profit Margin | (Net sales - COGS) ÷ Net sales | \$800k ÷ \$2,000k | **40.0%** |
-| Net Profit Margin | Net income ÷ Net sales | \$200k ÷ \$2,000k | **10.0%** |
-| ROA | Net income ÷ Average total assets | \$200k ÷ \$1,100k | **18.2%** |
-| ROE | Net income ÷ Average total equity | \$200k ÷ \$550k | **36.4%** |
-| Basic EPS | (Net income - Preferred dividends) ÷ Weighted average shares | \$190k ÷ 100k | **\$1.90** |
-| DuPont ROE | Net profit margin × Total asset turnover × Equity multiplier | 10.0% × 1.82 × 2.00 | **36.4%** |
+The formulas are in the summary table that follows.
 
-:::note[DuPont Check]
+| Ratio | Calculation | Result |
+|-------|-------------|--------|
+| Current Ratio | \$500,000 ÷ \$250,000 | **2.00** |
+| Quick Ratio | (\$80k + \$20k + \$150k) ÷ \$250k | **1.00** |
+| Operating Cash Flow Ratio | \$280,000 ÷ \$250,000 | **1.12** |
+| A/R Turnover | \$2,000k ÷ \$140k | **14.29×** |
+| DSO | 365 ÷ 14.29 | **25.5 days** |
+| Inventory Turnover | \$1,200k ÷ \$190k | **6.32×** |
+| Days in Inventory | 365 ÷ 6.32 | **57.8 days** |
+| DPO | \$100k ÷ \$3,288 | **30.4 days** |
+| Cash Conversion Cycle | 57.8 + 25.5 - 30.4 | **52.9 days** |
+| Total Asset Turnover | \$2,000k ÷ \$1,100k | **1.82×** |
+| Fixed Asset Turnover | \$2,000k ÷ \$650k | **3.08×** |
+| Debt-to-Assets | \$600k ÷ \$1,200k | **0.50** |
+| Debt-to-Equity | \$600k ÷ \$600k | **1.00** |
+| Equity Multiplier | \$1,100k ÷ \$550k | **2.00** |
+| TIE | \$300k ÷ \$40k | **7.50×** |
+| Gross Profit Margin | \$800k ÷ \$2,000k | **40.0%** |
+| Net Profit Margin | \$200k ÷ \$2,000k | **10.0%** |
+| ROA | \$200k ÷ \$1,100k | **18.2%** |
+| ROE | \$200k ÷ \$550k | **36.4%** |
+| DuPont ROE | 10.0% × 1.82 × 2.00 | **36.4%** |
+| Basic EPS | \$190k ÷ 100k | **\$1.90** |
+| EBITDA | \$300k + \$50k | **\$350,000** |
+| P/E Ratio | \$38 ÷ \$1.90 | **20.0** |
+| Dividend Payout Ratio | \$0.90 ÷ \$1.90 | **47.4%** |
 
-The DuPont ROE of 36.4% matches the direct ROE calculation, which makes it a useful self-check on the exam.
-
-:::
+The DuPont ROE matches the direct ROE calculation, which makes it a useful self-check. The equity accounts also tie: beginning equity of \$500,000 plus net income of \$200,000 minus total dividends of \$100,000 equals ending equity of \$600,000.
 
 ---
 
@@ -535,16 +506,18 @@ The DuPont ROE of 36.4% matches the direct ROE calculation, which makes it a use
 | Debt-to-Assets | Total liabilities ÷ Total assets | Lower |
 | Debt-to-Equity | Total liabilities ÷ Total equity | Lower |
 | Equity Multiplier | Average total assets ÷ Average total equity | Lower (less leverage) |
-| TIE | EBIT ÷ Interest expense | Higher (≥ 3.0) |
+| TIE | EBIT ÷ Interest expense | Higher |
 | Gross Profit Margin | (Net sales - COGS) ÷ Net sales | Higher |
-| Net Profit Margin | Net income ÷ Net sales | Higher |
+| Net Profit Margin (Return on Sales) | Net income ÷ Net sales | Higher |
 | ROA | Net income ÷ Average total assets | Higher |
 | ROE | Net income ÷ Average total equity | Higher |
 | Basic EPS | (Net income - Preferred dividends) ÷ Weighted average shares | Higher |
+| EBITDA | Net income + Interest + Taxes + Depreciation + Amortization | Higher |
+| P/E Ratio | Market price per share ÷ EPS | Depends on growth expectations |
+| Dividend Payout Ratio | Dividends per common share ÷ EPS | Depends on dividend policy |
 
 :::warning[Common Exam Traps]
 
-- **Average vs. ending:** Use average balance-sheet amounts when pairing them with an income-statement figure (ROA, ROE, turnover ratios). Use ending balances only where specified (operating cash flow ratio, DPO).
 - **Net credit sales vs. net sales:** A/R turnover technically uses net *credit* sales. If the question gives only net sales, use that.
 - **Preferred dividends in EPS:** Always subtract preferred dividends from net income in the numerator of basic EPS.
 - **EBIT ≠ net income:** TIE uses EBIT, not net income. Remember to add back interest and taxes.
@@ -555,22 +528,12 @@ The DuPont ROE of 36.4% matches the direct ROE calculation, which makes it a use
 
 ## Variance Analysis (Actual vs. Plan)
 
-Companies also compare **actual results** with the **annual budget** (or business plan) to identify favorable and unfavorable variances. The comparison shows where performance exceeded or fell short of expectations.
-
-### How Variances Work
-
-A **variance** is the difference between the actual amount and the budgeted (planned) amount for a line item.
+Ratios compare one part of the statements with another. **Variance analysis** compares actual results with the **budget** (or business plan) to show where performance beat or fell short of expectations. A **variance** is the difference between the actual and budgeted amount for a line item. It is **favorable (F)** if it makes income higher than planned and **unfavorable (U)** if it makes income lower, so revenue and cost variances read in opposite directions:
 
 | Variance Type | Favorable (F) | Unfavorable (U) |
 |---|---|---|
 | **Revenue** | Actual > Budget | Actual < Budget |
 | **Expense / Cost** | Actual < Budget | Actual > Budget |
-
-:::info
-
-A favorable variance improves net income relative to plan; an unfavorable variance reduces it. A "favorable" label does **not** necessarily mean the result is good. For instance, advertising spending well below plan is a favorable cost variance but could indicate underinvestment.
-
-:::
 
 ### Example: Budget Variance Analysis
 
@@ -584,17 +547,8 @@ Panda Industries compared its quarterly budget with actual results:
 | Operating expenses | \$120,000 | \$130,000 | (\$10,000) | U |
 | **Operating income** | **\$80,000** | **\$65,000** | **(\$15,000)** | **U** |
 
-**Analysis:** COGS was \$20,000 favorable (less spent than planned). However, the \$25,000 revenue shortfall and the \$10,000 operating expense overrun combined to produce a \$15,000 unfavorable variance in operating income.
+COGS came in \$20,000 below plan, a favorable variance. The \$25,000 revenue shortfall and the \$10,000 operating expense overrun more than offset it, producing a \$15,000 unfavorable variance in operating income.
 
-### Limitations of Variance Analysis
+### Reading Variances with Care
 
-- Variances depend entirely on the **quality of the budget**; an unrealistic budget produces misleading variances.
-- A single-period comparison does not reveal **trends**.
-- Variances do not explain **why** results differed from plan; further investigation is needed.
-- Netting favorable and unfavorable variances can mask material issues.
-
-:::tip[Exam Tip]
-
-FAR questions on variance analysis are typically straightforward: compute the difference between actual and budgeted amounts and label each as favorable or unfavorable. Remember that revenue variances and cost variances have **opposite** directional meanings.
-
-:::
+"Favorable" describes the effect on income, not whether the result is good. Panda's favorable COGS variance may simply reflect lower sales volume rather than better cost control, and advertising spending well below plan is a favorable cost variance that could signal underinvestment. Variances are also only as good as the budget behind them: an unrealistic budget produces misleading variances, a single period does not reveal trends, and netting favorable against unfavorable variances can hide problems. A variance tells you where to look; it does not explain why results differed from plan.

@@ -3,42 +3,26 @@ import TabItem from '@theme/TabItem';
 
 # Current Liabilities and Contingencies
 
-This chapter has two modules. Module 1 covers payables, accruals, and other obligations recognized as liabilities. Module 2 covers loss and gain contingencies, warranties, and premiums.
+At the end of every period a business owes someone something: suppliers, employees, tax authorities, lenders. This chapter is about recognizing and measuring those obligations, and about the harder cases where it is not yet clear whether an obligation exists at all. FAR tests both skills. You will calculate accruals and prepare the journal entries for payables, and you will decide whether a lawsuit, guarantee, or warranty calls for a liability, a note disclosure, or nothing. Module 1 covers payables and accrued liabilities, including exit costs and asset retirement obligations. Module 2 covers contingencies, commitments, warranties, and premiums.
 
 ## Module 1: Payables and Accrued Liabilities
 
 ### Liabilities Defined
 
-A **liability** is a present obligation of an entity to transfer an economic benefit. This definition comes from Financial Accounting Standards Board (FASB) Concepts Statement No. 8, Chapter 4, which replaced the Concepts Statement No. 6 definition in 2021. A liability has two essential characteristics:
+A **liability** is a present obligation of an entity to transfer an economic benefit. This is the definition in Financial Accounting Standards Board (FASB) Concepts Statement No. 8, Chapter 4, issued in 2021. It has two parts:
 
-1. It is a **present obligation** at the balance sheet date, created by a past transaction or event, that the entity has little or no discretion to avoid.
-2. The obligation requires the entity to **transfer or provide an economic benefit** to others, such as cash, goods, or services.
+1. A **present obligation** exists at the balance sheet date. It was created by a past transaction or event, and the entity has little or no discretion to avoid it.
+2. Settling the obligation requires the entity to **transfer or provide an economic benefit** to others, such as cash, goods, or services.
 
-:::info
-
-Older materials define liabilities as **probable future sacrifices** of economic benefits arising from present obligations as a result of past transactions (Concepts Statement No. 6). The current definition drops the word "probable": uncertainty about the outflow affects recognition and measurement, not whether a liability exists. Under either definition, look for a **present obligation** created by a **past event**. Without one, no liability exists.
-
-:::
+Older materials use the Concepts Statement No. 6 definition, "probable future sacrifices of economic benefits." The current definition drops the word "probable": uncertainty about the outflow affects whether a liability is recognized and how it is measured, not whether one exists. In practice the test is the same under either definition. If there is no present obligation created by a past event, there is no liability. That one idea explains several rules later in this chapter, such as why self-insurance and an approved exit plan do not create liabilities by themselves.
 
 ---
 
 ### Current vs. Non-Current Classification
 
-A liability is **current** if it is expected to be settled within **one year** or the **operating cycle**, whichever is longer. All other obligations are non-current.
+A liability is **current** if the entity expects to settle it within **one year** of the balance sheet date or within the **operating cycle**, whichever is longer. Accounts payable, accrued wages, and the current portion of long-term debt are current. Bonds payable, long-term notes, and lease obligations are non-current, except for the portion due within the next year.
 
-| Classification | Criteria | Examples |
-|---|---|---|
-| **Current** | Due within 1 year or operating cycle | Accounts payable, accrued wages, current portion of long-term debt |
-| **Non-current** | Due beyond 1 year or operating cycle | Bonds payable, long-term notes, lease obligations |
-
-:::warning
-
-If a debt covenant violation at the balance sheet date makes long-term debt callable, classify the **entire** debt as current. It stays non-current only if one of these applies before the financial statements are issued (or available to be issued):
-
-- The lender waives its right to demand repayment for more than one year from the balance sheet date.
-- The agreement provides a grace period, and it is probable the company will cure the violation within that period.
-
-:::
+Two classification rules come up often. The first lets a short-term obligation be classified as non-current when it will be **refinanced**. The company must intend to refinance on a long-term basis and show the **ability** to do so before the statements are issued (or available to be issued), either by actually refinancing or by entering into a qualifying financing agreement. The second rule works in the other direction: a debt covenant violation that makes long-term debt callable moves the debt into current liabilities. That rule and its exceptions are covered with debt covenants in [Long-Term Liabilities and Bonds](./long-term-liabilities-and-bonds.md).
 
 ---
 
@@ -107,17 +91,19 @@ Dr. Purchase discounts lost 1,000
 </TabItem>
 </Tabs>
 
-:::tip[Exam Tip]
+The net method is considered theoretically better because it records the purchase at its cash price and shows a missed discount for what it is, a cost of paying late. The gross method is more common in practice.
 
-The **net method** is considered theoretically superior because it treats lost discounts as a **financing cost**. The **gross method** is more common in practice.
-
-:::
+Some buyers pay their suppliers through a **supplier finance program** (sometimes called reverse factoring): a bank pays the supplier early, and the buyer pays the bank on the original due date. ASC 405-50 does not change how the buyer recognizes or presents the obligation. It requires disclosure of the program's key terms, the amount outstanding at period-end and where it appears on the balance sheet, and an annual rollforward of that amount.
 
 ---
 
-### Trade Notes Payable
+### Notes Payable and Accrued Interest
 
-A **trade note payable** is a formal written promise to pay a specified amount on a definite date. Unlike accounts payable, notes payable usually carry an explicit **stated interest rate** and a defined maturity.
+A **trade note payable** is a formal written promise to pay a specified amount on a definite date. Unlike accounts payable, notes usually carry an explicit **stated interest rate** and a defined maturity. Interest accrues with time, so at each reporting date the borrower accrues interest from the last payment date through the balance sheet date, even if the note pays interest only at maturity:
+
+$$
+\text{Accrued Interest} = \text{Principal} \times \text{Annual Rate} \times \frac{\text{Months Outstanding}}{12}
+$$
 
 Polar Co. issues a 6-month, 9%, \$80,000 note payable to a supplier for inventory on October 1:
 
@@ -151,44 +137,20 @@ Dr. Interest expense 1,800
 
 ---
 
-### Interest Payable Accruals
-
-Accrue interest at each reporting date on every outstanding obligation:
-
-$$
-\text{Accrued Interest} = \text{Principal} \times \text{Annual Rate} \times \frac{\text{Months Outstanding}}{12}
-$$
-
-:::note
-
-Even when interest is paid semiannually or annually, accrue interest from the last payment date through the balance sheet date. This follows the accrual basis of accounting.
-
-:::
-
----
-
 ### Current Portion of Long-Term Debt
 
-The portion of a long-term obligation that is due within the next 12 months is classified as a **current liability**.
-
-Grizzly Inc. has a \$300,000 term loan requiring annual principal payments of \$60,000. At year-end, the balance sheet presentation is:
+The part of a long-term obligation that is due within the next 12 months is classified as a **current liability**. Grizzly Inc. has a \$300,000 term loan requiring annual principal payments of \$60,000. At year-end, it reports:
 
 | Line Item | Amount |
 |---|---|
 | Current portion of long-term debt | \$60,000 |
 | Long-term debt (net of current portion) | \$240,000 |
 
-:::tip[Exam Tip]
-
-Short-term obligations expected to be **refinanced** on a long-term basis are an exception. If the company intends to refinance and shows the **ability** to do so before the statements are issued (by actually refinancing or by signing a qualifying financing agreement), the obligation is classified as non-current.
-
-:::
-
 ---
 
 ### Accrued Liabilities
 
-Accrued liabilities are expenses that have been **incurred** but not yet **paid**. Common accruals include wages, utilities, and rent.
+Accrued liabilities are expenses that have been **incurred** but not yet **paid**. Wages, bonuses, utilities, and rent are common examples. The work is always the same: find the portion of the cost that belongs to the period just ended.
 
 Kodiak Partners has a biweekly payroll of \$140,000 covering ten working days. The pay period runs from Monday, December 23, through Friday, January 3, and the fiscal year ends on Tuesday, December 31. Seven of the ten working days fall in the old year:
 
@@ -211,6 +173,8 @@ Dr. Wages expense 42,000
     Cr. Cash[a] 140,000
 ```
 
+**Bonuses** are accrued in the year employees earn them. Polar Co. pays its managers a bonus of 5% of income before the bonus and income taxes. Income before both items is \$800,000, so Polar accrues a \$40,000 bonus at year-end (debit bonus expense, credit bonus payable). Read the bonus formula carefully. If the bonus were 5% of income **after** deducting the bonus, it would solve the equation B = 0.05 × (\$800,000 - B), which gives a bonus of \$38,095.
+
 ---
 
 ### Taxes Payable
@@ -219,13 +183,7 @@ Each category of tax is a current liability until it is remitted.
 
 #### Property Taxes
 
-Accrue property taxes **ratably over the fiscal year** to which they relate. They are usually assessed by local governments.
-
-Panda Industries receives a \$24,000 property tax assessment for the calendar year. Monthly accrual:
-
-$$
-\frac{\$24{,}000}{12} = \$2{,}000 \text{ per month}
-$$
+Property taxes are accrued **ratably over the fiscal year** to which they relate. Panda Industries receives a \$24,000 property tax assessment for the calendar year, so it accrues \$2,000 per month:
 
 ```journal
 Jan 31
@@ -235,9 +193,7 @@ Dr. Property tax expense 2,000
 
 #### Sales Taxes
 
-Sales taxes collected from customers are held **in trust** for the government. They are never revenue to the seller; they are a liability from the moment of collection.
-
-Cub Entertainment collects \$5,300 from a customer on a \$5,000 sale with 6% sales tax:
+Sales taxes collected from customers are held **in trust** for the government. They are never revenue to the seller; they are a liability from the moment of collection. Cub Entertainment collects \$5,300 from a customer on a \$5,000 sale with 6% sales tax:
 
 ```journal
 Dr. Cash[a] 5,300
@@ -247,7 +203,7 @@ Dr. Cash[a] 5,300
 
 #### Income Taxes
 
-Current income taxes payable are based on taxable income, which is pretax financial income adjusted for permanent and temporary differences. The income taxes chapter covers this topic in depth. If current tax for the year is \$75,000, the entry is:
+Current income taxes payable are based on taxable income, which is pretax financial income adjusted for permanent and temporary differences. The [Accounting for Income Taxes](../special-topics-and-transactions/accounting-for-income-taxes.md) chapter covers the computation. If current tax for the year is \$75,000, the entry is:
 
 ```journal
 Dec 31
@@ -259,14 +215,14 @@ Dr. Income tax expense 75,000
 
 ### Payroll Taxes and Deductions
 
-Separate **employee withholdings**, which the employer collects and remits, from **employer payroll taxes**, which are an additional cost to the employer. FICA is the Federal Insurance Contributions Act tax (Social Security and Medicare). FUTA and SUTA are the federal and state unemployment taxes.
+Payroll creates two kinds of liabilities, and the exam expects you to keep them apart. **Employee withholdings** are part of the employee's gross pay; the employer collects them and remits them, acting as an agent. **Employer payroll taxes** are an additional cost to the employer. FICA is the Federal Insurance Contributions Act tax (Social Security and Medicare). FUTA and SUTA are the federal and state unemployment taxes.
 
 | Category | Paid By | Examples |
 |---|---|---|
-| **Employee withholdings** | Deducted from employee pay | Federal/state income tax, employee FICA, health insurance premiums |
+| **Employee withholdings** | Deducted from employee pay | Federal and state income tax, employee FICA, health insurance premiums |
 | **Employer taxes** | Additional cost to employer | Employer FICA match, FUTA, SUTA |
 
-Sloth Security has monthly gross payroll of \$200,000. Assume all wages are subject to each tax (no employee has reached a wage-base limit). Withholdings and employer taxes are:
+Sloth Security has monthly gross payroll of \$200,000. Assume all wages are subject to each tax (no employee has reached a wage-base limit):
 
 | Item | Employee Portion | Employer Portion |
 |---|---|---|
@@ -295,32 +251,22 @@ Dr. Payroll tax expense 20,500
     Cr. SUTA taxes payable[l] 4,000
 ```
 
-:::warning
-
-Employee withholdings are **not** an additional expense to the employer. They are part of gross wages, which are already expensed, and the employer simply acts as an agent in remitting them. Only the employer's own taxes (its **matching share of FICA**, plus FUTA and SUTA) create payroll tax expense.
-
-:::
+Notice that the withholdings create liabilities but no extra expense. They are part of the \$200,000 of wages already expensed. Only the employer's own taxes (its matching share of FICA, plus FUTA and SUTA) create payroll tax expense.
 
 ---
 
 ### Compensated Absences (Vacation and Sick Pay)
 
-Under Accounting Standards Codification (ASC) 710-10, a liability for **compensated absences** (vacation, sick leave) is accrued when all four conditions are met:
+Employees who have earned paid time off have, in effect, been paid partly in future days off. Under Accounting Standards Codification (ASC) 710-10, the employer accrues a liability for **compensated absences** when all four conditions are met:
 
 1. The obligation relates to services **already rendered**.
 2. The rights **vest** or **accumulate**.
 3. Payment is **probable**.
 4. The amount is **reasonably estimable**.
 
-:::info
+Rights **vest** when the employer must pay for them even if the employee leaves. They **accumulate** when unused days carry forward to later periods. Vacation pay that meets the conditions must be accrued. Sick pay is the exception: sick pay that accumulates but does not vest need not be accrued (accrual is permitted but not required).
 
-- **Vested** rights: The employer must pay even if the employee terminates.
-- **Accumulated** rights: Unused days carry forward to future periods.
-- **Sick pay** that accumulates but does not vest need **not** be accrued (accrual is permitted but optional).
-
-:::
-
-Bear Co. grants employees 10 vacation days per year that vest on December 31. At year-end, 50 employees each have all 10 days earned but unused, at an average pay rate of \$240 per day:
+Bear Co. grants employees 10 vacation days per year that vest on December 31. At year-end, 50 employees each have 10 days earned but unused, at an average pay rate of \$240 per day:
 
 $$
 \text{Accrual} = 50 \text{ employees} \times 10 \text{ days} \times \$240 = \$120{,}000
@@ -336,34 +282,37 @@ Dr. Vacation expense 120,000
 
 ### Self-Insurance
 
-A company that self-insures **cannot** accrue a liability for future losses before a loss event occurs. No past event has created a present obligation; the company has only assumed future risk.
+A company that **self-insures** has chosen to bear its own risk instead of buying insurance. Choosing to bear a risk is not an obligation. Before a loss event occurs, no past event has created a present obligation, so the company cannot accrue for future fires, accidents, or storms, however likely they seem.
 
-:::caution
+Once a loss event has occurred, the ordinary contingency rules in Module 2 apply. Claims for events that happened before the balance sheet date are accrued when the loss is probable and reasonably estimable. That includes claims **incurred but not reported (IBNR)**, where the event has happened but no claim has been filed yet.
 
-Exam trap: self-insurance creates **no** liability until an actual loss event occurs. You cannot accrue for hurricanes, accidents, or equipment breakdowns that have not yet happened, however probable they seem.
-
-:::
-
-Once a loss event occurs (for example, a fire destroys self-insured inventory), the company records the loss:
+Sloth Security self-insures its employees' medical costs. At December 31, employees have submitted \$40,000 of claims that Sloth has not yet paid. Based on its claims history, Sloth estimates another \$15,000 of claims for medical care employees have already received but not yet submitted. Sloth reports a self-insurance liability of \$55,000:
 
 ```journal
-Dr. Fire loss 250,000
-    Cr. Inventory[a] 250,000
+Dec 31
+Dr. Employee medical claims expense 55,000
+    Cr. Self-insurance liability[l] 55,000
 ```
+
+:::caution[Exam trap]
+
+Self-insurance creates **no** liability for losses that have not happened yet. A company that self-insures its warehouse against fire records nothing for future fires. It records a liability only for loss events that have already occurred, including IBNR claims.
+
+:::
 
 ---
 
 ### Exit or Disposal Activities (ASC 420)
 
-Under ASC 420, a liability for costs of an **exit or disposal activity** is recognized at fair value when the cost is **incurred**, not when the company commits to an exit plan.
-
-#### Key Cost Categories
+When a company closes a plant or exits a business line, it is tempting to book all the expected costs on the day management approves the plan. ASC 420 does not allow that. A plan is only an intention, so the company recognizes a liability for each cost, at fair value, when the cost is **incurred**:
 
 | Cost Type | Recognition Point |
 |---|---|
-| **Involuntary termination benefits** (one-time) | When the plan is communicated to employees, if they are not required to render service beyond the minimum retention period |
+| **One-time termination benefits** | When the plan is communicated to employees, if they are not required to work beyond the minimum retention period |
 | **Contract termination costs** | When the contract is terminated, or at the cease-use date for costs that continue with no economic benefit |
 | **Other associated costs** (relocation, consolidation) | When incurred |
+
+The **minimum retention period** cannot exceed the legal notification period, or 60 days if there is no legal requirement. If employees must work beyond it to receive their termination benefits, the cost is measured at the communication date and recognized **ratably** over the future service period.
 
 Grizzly Inc. announces a plant closure on November 15 and communicates a one-time termination package of \$500,000 to affected employees. They will be terminated on December 31, which is within the minimum retention period, so the full cost is recognized when the plan is communicated:
 
@@ -373,29 +322,21 @@ Dr. Restructuring expense 500,000
     Cr. Restructuring liability[l] 500,000
 ```
 
-Grizzly Inc. also has a non-cancelable maintenance contract for the plant with 24 months remaining at \$10,000 per month. After the plant closes on December 31 (the cease-use date), the contract provides no economic benefit. Grizzly recognizes a liability at fair value (generally the present value of the remaining payments), reduced by any amounts it expects to recover:
+Grizzly Inc. also has a non-cancelable maintenance contract for the plant with 24 months remaining at \$10,000 per month. After the plant closes on December 31 (the cease-use date), the contract provides no economic benefit. At that date Grizzly recognizes a liability at fair value (generally the present value of the remaining payments), reduced by any amounts it expects to recover:
 
 $$
 \text{Liability} = \text{Fair value of the remaining payments} - \text{Expected recoveries}
 $$
 
-:::note
-
-**Minimum retention period:** The minimum retention period cannot exceed the legal notification period, or 60 days if there is no legal requirement. If employees must work beyond it to receive termination benefits, the cost is measured at the communication date and recognized **ratably** over the future service period.
-
-**Leases:** Under ASC 842, a lessee already reports a liability for an operating lease. When it stops using leased property, it evaluates the right-of-use asset for impairment instead of recording a separate ASC 420 liability.
-
-:::
+Leases are handled differently. Under ASC 842, a lessee already reports a liability for an operating lease. When it stops using leased property, it tests the right-of-use asset for impairment instead of recording a separate ASC 420 liability.
 
 ---
 
 ### Asset Retirement Obligations (ASC 410-20)
 
-An **asset retirement obligation (ARO)** is a legal obligation to dismantle, remove, or remediate a long-lived asset at retirement. The obligation is recognized at **fair value** when incurred, with a matching increase to the carrying amount of the related asset (the **asset retirement cost**, or ARC).
+An **asset retirement obligation (ARO)** is a legal obligation to dismantle, remove, or remediate a long-lived asset when it is retired. An offshore platform that must be removed and a landfill that must be capped are typical examples. The obligation is recognized at **fair value** when it is incurred, usually when the asset is placed in service. The same amount is added to the carrying amount of the related asset as the **asset retirement cost (ARC)**, so the cost of retirement is spread over the asset's life through depreciation.
 
-#### Initial Recognition
-
-The ARO is measured at the **present value** of the estimated future retirement cost:
+Fair value is measured as the **present value** of the estimated future retirement cost, discounted at the entity's credit-adjusted risk-free rate:
 
 $$
 \text{ARO (initial)} = \frac{\text{Estimated Future Cost}}{(1 + r)^n}
@@ -413,14 +354,7 @@ Dr. Oil platform (ARC)[a] 1,559,024
     Cr. Asset retirement obligation[l] 1,559,024
 ```
 
-#### Subsequent Measurement
-
-After initial recognition, two things happen each period:
-
-| Item | Treatment |
-|---|---|
-| **ARO liability** | Increases via **accretion expense** (interest on the growing obligation) |
-| **ARC (asset)** | Decreases via **depreciation** over the asset's useful life |
+After initial recognition, two things happen each period. The liability grows through **accretion expense** (interest on the obligation), and the asset retirement cost is **depreciated** over the asset's useful life.
 
 **Year 1 accretion expense:**
 
@@ -434,7 +368,7 @@ Dr. Accretion expense 93,541
     Cr. Asset retirement obligation[l] 93,541
 ```
 
-**Year 1 depreciation of ARC** (straight-line over 20 years):
+**Year 1 depreciation of the ARC** (straight-line over 20 years):
 
 $$
 \text{Depreciation} = \frac{\$1{,}559{,}024}{20} = \$77{,}951
@@ -446,11 +380,7 @@ Dr. Depreciation expense 77,951
     Cr. Accumulated depreciation (oil platform)[ca] 77,951
 ```
 
-:::tip[Exam Tip]
-
-Accretion makes the ARO liability **grow** until it equals the full estimated removal cost at the end of the asset's useful life. Over the same period, the ARC is **fully depreciated**. When the asset is retired, any difference between the ARO liability and the actual settlement cost is a **gain or loss on settlement**.
-
-:::
+By the end of the asset's life, accretion has grown the liability to the full \$5,000,000 estimated removal cost, and the ARC is fully depreciated. When the platform is removed, any difference between the liability and the actual settlement cost is a **gain or loss on settlement**.
 
 ---
 
@@ -458,57 +388,36 @@ Accretion makes the ARO liability **grow** until it equals the full estimated re
 
 ### Contingencies Defined
 
-A **contingency** is an existing condition, situation, or set of circumstances involving uncertainty about a possible **gain** or **loss**. The uncertainty is resolved when one or more future events occur or fail to occur (ASC 450).
-
-The key distinction: the **condition already exists** at the balance sheet date. Only the **outcome** is uncertain.
+A **contingency** is an existing condition, situation, or set of circumstances involving uncertainty about a possible **gain** or **loss**. The uncertainty is resolved when one or more future events occur or fail to occur (ASC 450). The key point is that the **condition already exists** at the balance sheet date. A lawsuit has been filed, a product has been sold with a warranty, a loan has been guaranteed. Only the **outcome** is uncertain.
 
 ---
 
 ### Three Likelihood Categories
 
-The accounting treatment depends on the **likelihood** of the future event:
+The accounting depends on how likely the future event is:
 
 | Likelihood | Definition | Loss Treatment | Gain Treatment |
 |---|---|---|---|
 | **Probable** | Likely to occur | Accrue if reasonably estimable; otherwise disclose | **Disclose only**; never accrue |
 | **Reasonably possible** | More than remote but less than probable | Disclose only | Disclose only |
-| **Remote** | Slight chance of occurring | Generally ignore | Ignore |
+| **Remote** | Slight chance of occurring | Generally no disclosure | No disclosure |
 
-:::warning
-
-**Gain contingencies are never accrued**, because accrual could recognize income before it is realized. Even a probable gain may only be disclosed in the notes. This treatment reflects **conservatism**.
-
-:::
+The two columns are deliberately asymmetric. A probable, estimable loss is recorded now, but even a probable gain waits until it is realized, because recording it early could recognize income that never arrives.
 
 ---
 
-### Loss Contingencies: Accrual and Disclosure
+### Loss Contingencies
 
 A loss contingency is **accrued** (recognized as a liability and an expense) when **both** conditions are met:
 
-1. It is **probable** that a liability has been incurred as of the balance sheet date.
+1. It is **probable** that a liability has been incurred (or an asset impaired) as of the balance sheet date.
 2. The amount of the loss can be **reasonably estimated**.
 
-If a loss is probable but cannot be reasonably estimated, or if it is only reasonably possible, the contingency is **disclosed** in the notes but not accrued.
+If a loss is probable but cannot be reasonably estimated, or if it is only reasonably possible, the contingency is **disclosed** in the notes but not accrued. The disclosure describes the nature of the contingency and gives an estimate of the possible loss or range of loss, or states that an estimate cannot be made.
 
-#### When a Range of Estimates Exists
+Often the best that legal counsel can offer is a range. If one amount within the range is a better estimate than any other, accrue that **best estimate**. If no amount is better than any other, accrue the **minimum** of the range and disclose the possible additional loss.
 
-| Scenario | Amount to Accrue |
-|---|---|
-| Single best estimate within the range | The **best estimate** |
-| No best estimate identifiable | The **minimum** of the range |
-
-:::info
-
-Under International Financial Reporting Standards (IFRS), when no amount in a range is more likely than another, International Accounting Standard (IAS) 37 requires the **midpoint**. Under U.S. generally accepted accounting principles (GAAP), the **minimum** is accrued. IFRS also uses a lower threshold for "probable" (more likely than not). Both are common exam comparisons.
-
-:::
-
-#### Example: Lawsuit
-
-Kodiak Partners is the defendant in a lawsuit as of December 31, Year 1. Legal counsel advises that a loss is **probable** and estimates it at between \$200,000 and \$500,000, with no amount more likely than another.
-
-Under U.S. GAAP, accrue the minimum:
+Kodiak Partners is the defendant in a lawsuit at December 31, Year 1. Legal counsel advises that a loss is **probable** and estimates it at between \$200,000 and \$500,000, with no amount more likely than another. Kodiak accrues the minimum:
 
 ```journal
 Dec 31, Year 1
@@ -516,24 +425,13 @@ Dr. Litigation loss 200,000
     Cr. Litigation liability[l] 200,000
 ```
 
-Kodiak Partners must also **disclose** the nature of the lawsuit and the reasonably possible additional loss of up to \$300,000 above the accrued amount.
+Kodiak Partners also **discloses** the nature of the lawsuit and the reasonably possible additional loss of up to \$300,000 above the accrued amount.
 
-#### Example: Reasonably Possible
+Change the facts and the answer changes. If counsel instead advised that the loss was only **reasonably possible**, Kodiak would record no entry and would disclose the lawsuit and the \$200,000 to \$500,000 range. If counsel considered the loss **remote**, as with a frivolous claim, Kodiak would generally neither record nor disclose anything.
 
-Cub Entertainment is involved in patent infringement litigation. Legal counsel advises that a loss is **reasonably possible**, in the range of \$100,000 to \$400,000.
+:::caution[Exception for remote contingencies]
 
-- **No journal entry** is recorded.
-- The nature of the contingency and the range of possible loss are **disclosed in the notes**.
-
-#### Example: Remote
-
-Bear Co. is named in a frivolous lawsuit. Legal counsel considers the likelihood of loss **remote**.
-
-- **No journal entry** is recorded, and generally **no disclosure** is required.
-
-:::caution
-
-**Exception for remote contingencies:** Guarantees of the indebtedness of others must be **disclosed** even when the likelihood of loss is remote. This includes loan guarantees and standby letters of credit.
+**Guarantees of the indebtedness of others** must be **disclosed** even when the likelihood of loss is remote. This includes loan guarantees and standby letters of credit.
 
 :::
 
@@ -541,34 +439,34 @@ Bear Co. is named in a frivolous lawsuit. Legal counsel considers the likelihood
 
 ### Gain Contingencies
 
-Gain contingencies are held to a stricter standard than loss contingencies: they are never accrued.
-
-| Likelihood | Treatment |
-|---|---|
-| **Probable** | Disclose in notes; do **not** accrue |
-| **Reasonably possible** | Disclose in notes |
-| **Remote** | No disclosure required |
-
-Polar Co. files a patent infringement lawsuit against a competitor and expects a favorable outcome. Even though legal counsel considers a gain **probable**, Polar Co. may only disclose the expected gain in the notes:
+Gain contingencies are never accrued. A probable or reasonably possible gain may be disclosed, with care not to mislead readers about how likely it is to be realized. Polar Co. files a patent infringement lawsuit against a competitor, and legal counsel considers a favorable outcome **probable**. Polar Co. may only disclose the expected gain in the notes:
 
 > *"The Company is the plaintiff in a patent infringement action. While the outcome cannot be determined with certainty, management believes a favorable resolution is probable."*
 
-The gain is recognized only when **realized**, typically when a court judgment is rendered or a settlement is finalized.
+The gain is recognized only when **realized**, typically when a court judgment is final or a settlement is reached.
+
+---
+
+### Commitments
+
+A **commitment** is a promise to act in the future, such as a contract to buy inventory, a non-cancelable purchase obligation, or a signed construction contract. Because neither party has performed yet, an unexecuted commitment is generally **not recorded**. Significant commitments, such as unconditional purchase obligations and long-term supply contracts, are **disclosed** in the notes.
+
+There is one important exception. When the market price of goods covered by a firm, non-cancelable purchase commitment falls below the contract price, the buyer recognizes the expected loss and a liability in the current period. The [Inventory](../assets/inventory.md) chapter works through that calculation.
 
 ---
 
 ### Premiums and Warranties
 
-Product warranties and premium offers create estimated liabilities that are accrued like loss contingencies under ASC 450. The obligation arises from a past event (the sale), a cost is probable, and the amount can be reasonably estimated.
+Product warranties and premium offers create estimated liabilities that are accrued much like loss contingencies. The obligation arises from a past event (the sale), a future cost is probable, and the amount can be reasonably estimated from experience.
 
 #### Warranties
 
-Under ASC 606, an **assurance-type warranty** (a promise that the product works as intended) is accrued as an expense at the time of sale. A **service-type warranty** (sold separately, or providing a service beyond that assurance) is a separate performance obligation, so its revenue is deferred.
+Revenue recognition (ASC 606) sorts warranties into two kinds. An **assurance-type warranty** promises only that the product works as intended, so its expected cost is accrued as an expense at the time of sale. A **service-type warranty** is sold separately or provides a service beyond that assurance. It is a separate performance obligation, so part of the price is deferred and recognized as revenue over the coverage period. The [Revenue Recognition](../special-topics-and-transactions/revenue-recognition.md) chapter lists the indicators that separate the two.
 
 <Tabs>
 <TabItem value="expense" label="Assurance-Type Warranty (Accrual)" default>
 
-Under the **expense warranty approach** (also called the accrual approach), the estimated cost of an assurance-type warranty is expensed in the **same period as the sale** (matching principle).
+Under the **expense warranty approach** (the accrual approach), the estimated cost of an assurance-type warranty is expensed in the **same period as the sale**.
 
 Panda Industries sells 1,000 units at \$500 each during Year 1. Historical data indicates that 5% of units will require warranty service at an average cost of \$60 per unit:
 
@@ -594,7 +492,7 @@ Dr. Warranty liability[l] 2,400
 </TabItem>
 <TabItem value="sales" label="Service-Type Warranty (Deferred Revenue)">
 
-When a warranty is sold **separately**, such as an extended warranty, it is a service-type warranty (the older term is the **sales warranty approach**). Revenue is **deferred** and recognized over the warranty period because the warranty is a separate performance obligation under ASC 606.
+When a warranty is sold **separately**, such as an extended warranty, it is a service-type warranty (older texts call this the **sales warranty approach**). The revenue is **deferred** and recognized over the warranty period.
 
 Cub Entertainment sells a 2-year extended warranty for \$600:
 
@@ -630,11 +528,7 @@ Premium offers (for example, "send in 5 box tops and receive a free toy") create
 Bear Co. sells cereal and offers a toy (cost \$2 each) for every 5 box tops returned. During Year 1, Bear Co. sells 100,000 boxes and estimates that 60% of box tops will be redeemed:
 
 $$
-\text{Expected redemptions} = 100{,}000 \times 60\% = 60{,}000 \text{ box tops}
-$$
-
-$$
-\text{Premiums expected} = \frac{60{,}000}{5} = 12{,}000 \text{ toys}
+\text{Premiums expected} = \frac{100{,}000 \times 60\%}{5} = 12{,}000 \text{ toys}
 $$
 
 $$
@@ -669,9 +563,7 @@ Total Year 1 premium expense is \$24,000 (\$16,000 + \$8,000), which equals the 
 
 ---
 
-### Summary: Decision Framework for Contingencies
-
-The following decision tree summarizes the accounting treatment for loss contingencies:
+### Summary: Decision Framework for Loss Contingencies
 
 ```mermaid
 graph TD
@@ -685,14 +577,3 @@ graph TD
     G -- Yes --> F
     G -- No --> H[No entry or disclosure]
 ```
-
-:::tip[Final Exam Reminders]
-
-- **Losses**: Accrue when probable and reasonably estimable. If a range has no best estimate, accrue the **minimum** (GAAP) or the **midpoint** (IFRS).
-- **Gains**: Never accrue. Disclose when probable or reasonably possible.
-- **Warranties**: Accrue assurance-type warranty costs at the point of sale using historical estimates; defer revenue on service-type warranties.
-- **AROs**: Recognize at present value; accrete the liability and depreciate the ARC each period.
-- **Exit activities**: Recognize costs when **incurred**, not when the plan is approved.
-- **Self-insurance**: No accrual until an actual loss event occurs.
-
-:::
