@@ -1,30 +1,22 @@
 # Consolidated Financial Statements
 
-Consolidated financial statements combine the results of a parent and its subsidiaries into a **single reporting entity**. The BAR section builds on the FAR foundation. Instead of simply knowing _that_ consolidation occurs, you must determine _when_ consolidation is required (voting interest model vs. variable interest entity model), identify the functional currency of a foreign subsidiary, translate or remeasure its financial statements into the reporting currency, and present the resulting adjustments correctly in comprehensive income. This chapter ties together ASC 810 (Consolidation) and ASC 830 (Foreign Currency Matters) with the analytical depth expected on the BAR exam.
-:::info[Blueprint Coverage]
-This topic maps to **Area II, Group G** of the 2026 CPA Exam Blueprints for **Business Analysis and Reporting (BAR)**. The blueprint expects candidates to:
-
-- **Recall** basic consolidation concepts and terms (e.g., controlling interest, noncontrolling interest, primary beneficiary, variable interest entity).
-- **Recall** the basic functional currency concepts including the indicators to be considered when determining a subsidiary's functional currency.
-- **Calculate** foreign currency translation adjustments (local currency to functional currency and/or functional currency to reporting currency) to prepare consolidated financial statements.
-- **Determine** the appropriate presentation of foreign currency translation adjustments in the consolidated statement of comprehensive income.
-  :::
+Consolidated statements present a parent and the entities it controls as if they were one company. FAR covers the mechanics of combining and eliminating. BAR asks two questions that come before and after them: **when** must an entity consolidate another (the voting interest model or the variable interest entity model), and, when the subsidiary is foreign, **how** are its statements brought into the parent's currency and where does the resulting adjustment go. The 2027 BAR blueprint (Area II, Group G) asks you to recall consolidation terms (controlling interest, noncontrolling interest, primary beneficiary, VIE), recall the functional currency indicators, calculate translation adjustments, and present them in comprehensive income. This chapter covers ASC 810 first and then ASC 830.
 
 ---
 
-## ASC 810: Consolidation Overview
+## Two Ways to Have Control
 
-**ASC 810** _Consolidation_ requires a reporting entity to consolidate another entity when it holds a **controlling financial interest**. The standard provides two models for determining whether control exists:
+ASC 810 requires a reporting entity to consolidate any entity in which it has a **controlling financial interest**. There are two routes to that conclusion. Most companies are controlled through votes, so the **voting interest model** asks who holds a majority of the voting shares. Some entities are designed so that votes do not tell you who is really in charge or who bears the risks, and for them the **variable interest entity (VIE) model** looks past the votes to power and economic exposure. The VIE analysis comes first: if the other entity is a VIE, the voting interest model does not apply to it.
 
 ```mermaid
 graph TD
     A["Does the entity have a<br/>variable interest in<br/>another entity?"] -->|Yes| B{"Is the other entity<br/>a VIE?"}
-    A -->|No| C["Apply Voting<br/>Interest Model"]
-    B -->|Yes| D["Apply VIE Model<br/>(ASC 810-10-25)"]
+    A -->|No| C["Apply voting<br/>interest model"]
+    B -->|Yes| D["Apply VIE model"]
     B -->|No| C
-    C --> E{"Does the entity own<br/>> 50% of voting shares?"}
+    C --> E{"Does the entity own<br/>more than 50% of the<br/>voting shares?"}
     E -->|Yes| F["Consolidate"]
-    E -->|No| G["Do NOT consolidate<br/>(use equity or FV method)"]
+    E -->|No| G["Do not consolidate<br/>use equity method<br/>or fair value"]
     D --> H{"Is the entity the<br/>primary beneficiary?"}
     H -->|Yes| F
     H -->|No| G
@@ -32,552 +24,315 @@ graph TD
     style G fill:#f4cccc,stroke:#333
 ```
 
----
-
-## Key Consolidation Concepts and Terms
-
-| Term                               | Definition                                                                                                                                                                                                       |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Controlling financial interest** | The power to direct the activities of another entity, typically through majority voting rights or as the primary beneficiary of a VIE                                                                            |
-| **Parent**                         | An entity that holds a controlling financial interest in one or more subsidiaries                                                                                                                                |
-| **Subsidiary**                     | An entity controlled by a parent                                                                                                                                                                                 |
-| **Noncontrolling interest (NCI)**  | The portion of equity in a subsidiary **not** attributable to the parent; presented in the equity section of the consolidated balance sheet                                                                      |
-| **Variable interest entity (VIE)** | An entity in which equity investors lack sufficient equity at risk, decision-making ability, or the right to residual returns/obligation to absorb losses                                                        |
-| **Primary beneficiary**            | The entity that (1) has the **power** to direct the VIE's most significant activities, and (2) has the **obligation to absorb losses** or the **right to receive benefits** that could be significant to the VIE |
-| **Elimination entries**            | Adjustments that remove intercompany balances and transactions so the consolidated statements present a single economic entity                                                                                   |
-
-:::tip[Exam Tip]
-The CPA exam frequently tests whether you can **distinguish** the voting interest model from the VIE model. Always check for a VIE first; the VIE model takes priority over the voting interest model when applicable.
-:::
+A few terms recur throughout. The **parent** holds a controlling financial interest in a **subsidiary**. The **noncontrolling interest (NCI)** is the part of a subsidiary's equity not owned by the parent. **Elimination entries** remove intercompany balances and transactions so the consolidated statements show only dealings with outsiders.
 
 ---
 
-## When to Consolidate: Voting Interest Model
+## The Voting Interest Model
 
-Under the **voting interest model**, a parent consolidates a subsidiary when it owns **more than 50%** of the subsidiary's outstanding voting stock. This model is straightforward and applies when the entity is **not** a VIE.
-| Ownership Level | Accounting Treatment |
-|----------------|---------------------|
-| **> 50%** | **Consolidation** (control is presumed) |
-| **20% to 50%** | Equity method (significant influence is presumed) |
-| **< 20%** | Fair value method (or equity method if significant influence exists) |
+Under the voting interest model, a parent consolidates an entity in which it owns **more than 50%** of the outstanding voting shares. Exactly 50% is not enough; a 50-50 joint venture is usually accounted for by the equity method. Below the consolidation threshold, the usual guide is that 20% to 50% gives significant influence (equity method) and less than 20% does not (fair value), although the facts can rebut either presumption. Even a majority owner does not consolidate if control does not actually rest with it, for example when the subsidiary is in legal reorganization or bankruptcy.
 
-### Consolidation Basics
+Consolidating means four things:
 
-When consolidation is required under the voting interest model:
-
-1. **Combine** all assets, liabilities, revenues, and expenses of the parent and subsidiary
-2. **Eliminate** 100% of intercompany transactions (regardless of ownership percentage)
-3. **Present NCI** as a separate component of equity on the consolidated balance sheet
-4. **Allocate** consolidated net income between the parent and NCI based on ownership percentages
-   :::warning
-   Ownership of **exactly 50%** does not presume control under the voting interest model. Control requires ownership of **more than 50%** of the voting shares. A 50-50 joint venture is typically accounted for using the equity method.
-   :::
+1. **Combine** 100% of the subsidiary's assets, liabilities, revenues, and expenses with the parent's, even if the parent owns less than 100%.
+2. **Eliminate** 100% of intercompany balances and transactions, whatever the ownership percentage.
+3. **Present the NCI** as a separate component of equity.
+4. **Attribute** consolidated net income and comprehensive income between the parent and the NCI.
 
 ---
 
-## When to Consolidate: Variable Interest Entity (VIE) Model
+## The Variable Interest Entity Model
 
-The VIE model captures situations where **economic control** exists even without majority voting ownership. An entity must evaluate whether it holds a **variable interest** in another entity, and if so, whether that entity qualifies as a VIE.
+### Variable Interests and VIEs
 
-### What Is a Variable Interest?
+A **variable interest** is a contractual, ownership, or other financial interest whose value changes as the entity's net assets change in value. Equity investments, loans and subordinated debt, guarantees of the entity's debt, residual value guarantees, and some fee arrangements can all be variable interests.
 
-A **variable interest** is a contractual, ownership, or other financial interest that changes with changes in the fair value of the entity's net assets. Common examples include:
+An entity is a **VIE** if any of the following is true:
 
-- Equity investments (even if small)
-- Guarantees of the entity's debt
-- Subordinated debt instruments
-- Lease arrangements with residual value guarantees
-- Service contracts with performance-based fees
+| Condition | What it means |
+| --- | --- |
+| **Insufficient equity at risk** | The equity at risk is not enough to finance the entity's activities without additional subordinated financial support |
+| **Equity holders lack power** | The equity holders as a group cannot direct the activities that most significantly affect the entity's economic performance |
+| **Equity holders lack economics** | The equity holders as a group do not absorb the entity's expected losses or receive its expected residual returns |
 
-### VIE Criteria
+### The Primary Beneficiary
 
-An entity is a VIE if **any** of the following conditions exist:
-| Condition | Description |
-|-----------|-------------|
-| **Insufficient equity at risk** | Total equity investment at risk is not sufficient to finance the entity's activities without additional subordinated financial support |
-| **Lack of decision-making power** | Equity holders as a group lack the power to direct the entity's most significant activities through voting or similar rights |
-| **Lack of obligation/right** | Equity holders do not have the obligation to absorb expected losses or the right to receive expected residual returns |
+A VIE is consolidated by its **primary beneficiary**, the party that has **both**:
 
-### Identifying the Primary Beneficiary
-
-The entity that must consolidate a VIE is its **primary beneficiary**: the party that meets **both** of the following criteria simultaneously:
-
-$$
-\text{Primary Beneficiary} = \text{Power to Direct} + \text{Obligation to Absorb Losses / Right to Receive Benefits}
-$$
+1. **Power**: the power to direct the activities that most significantly affect the VIE's economic performance, and
+2. **Economics**: the obligation to absorb losses of, or the right to receive benefits from, the VIE that could potentially be significant to it.
 
 ```mermaid
 graph LR
-    P["Power Criterion<br/>Direct the VIE's most<br/>significant activities"] --- PB["Primary<br/>Beneficiary"]
-    E["Economic Criterion<br/>Absorb losses or receive<br/>benefits significant to the VIE"] --- PB
-    PB --> C["Must Consolidate<br/>the VIE"]
+    P["Power to direct the<br/>most significant activities"] --- PB["Primary<br/>beneficiary"]
+    E["Exposure to significant<br/>losses or benefits"] --- PB
+    PB --> C["Consolidates<br/>the VIE"]
     style PB fill:#cfe2f3,stroke:#333
     style C fill:#d9ead3,stroke:#333
 ```
 
-### Example: Bear Co. and Polar Inc. (VIE Analysis)
+Only one party can be the primary beneficiary. Party ownership percentages do not decide it, and a small equity holder can be required to consolidate.
 
-Bear Co. holds a 30% equity interest in Polar Inc., a special-purpose entity created to hold a portfolio of receivables. Bear Co. also provides a guarantee covering 80% of Polar Inc.'s debt. Polar Inc. was formed with minimal equity (5% of total assets), and Bear Co.'s management makes all significant decisions about which receivables are purchased and how collections are managed.
-**Analysis:**
-| VIE Test | Result |
-|----------|--------|
-| Sufficient equity at risk? | **No** (only 5% of total assets funded by equity) |
-| Is Polar Inc. a VIE? | **Yes** |
-| Does Bear Co. have the power to direct significant activities? | **Yes** (Bear Co. manages receivable purchases and collections) |
-| Does Bear Co. absorb significant losses? | **Yes** (guarantee covers 80% of debt) |
-| Is Bear Co. the primary beneficiary? | **Yes** |
-**Conclusion:** Bear Co. must consolidate Polar Inc. even though it owns only 30% of the equity.
-:::tip[Exam Tip]
-On the exam, a VIE question may describe an entity with very little equity and a related party providing guarantees or management services. Look for the **two-prong test**: power to direct + economic exposure. If one party has both, that party is the primary beneficiary and must consolidate.
+Private companies may elect not to apply the VIE guidance to a legal entity when both it and the private company are under common control and certain other conditions are met. Not-for-profit entities and employee benefit plans are outside the VIE guidance altogether.
+
+### Example: Bear Co. and Kodiak Receivables
+
+Kodiak Receivables LLC was formed to buy and collect a portfolio of receivables. Its equity is only 5% of its total assets, and the rest is borrowed. Bear Co. owns 30% of the equity, guarantees 80% of Kodiak's debt, and decides which receivables Kodiak buys and how they are collected.
+
+| Question | Answer |
+| --- | --- |
+| Is there sufficient equity at risk? | No. Equity of 5% of assets needs the guarantee to support it |
+| Is Kodiak a VIE? | Yes |
+| Does Bear Co. have the power to direct the most significant activities? | Yes. It controls purchasing and collections |
+| Is Bear Co. exposed to potentially significant losses? | Yes. It guarantees 80% of the debt |
+| Is Bear Co. the primary beneficiary? | Yes |
+
+Bear Co. consolidates Kodiak even though it owns only 30% of the equity. On the exam, a VIE fact pattern usually features thin equity plus one party that supplies guarantees or management. Find the party that has both power and exposure.
+
+:::note[2027 update: acquiring a VIE]
+
+Under ASU 2025-03 (eligible for testing starting January 1, 2027), when a VIE that is a business is acquired mainly by exchanging equity interests, the primary beneficiary is no longer automatically the accounting acquirer. The parties weigh the general factors for identifying the acquirer, so some of these deals become reverse acquisitions. See [Business Combinations](./business-combinations.md).
+
 :::
 
 ---
 
-## Noncontrolling Interest (NCI) Presentation
+## Noncontrolling Interest
 
-When a parent consolidates a subsidiary that is not wholly owned, the outside shareholders' interest is the **noncontrolling interest**. Under ASC 810:
+When a subsidiary is not wholly owned, the outside shareholders' stake is presented as follows:
 
-- NCI is presented as a **separate component of equity** on the consolidated balance sheet (not as a liability or mezzanine item)
-- Consolidated **net income** is allocated between the parent and NCI
-- The NCI's share of income is presented **on the face** of the consolidated income statement
-  | Financial Statement | NCI Presentation |
-  |--------------------|-----------------|
-  | **Balance sheet** | Separate line in the equity section, distinct from parent's equity |
-  | **Income statement** | Net income attributable to NCI shown separately from net income attributable to the parent |
-  | **Statement of comprehensive income** | Comprehensive income attributed to both parent and NCI |
+| Statement | NCI presentation |
+| --- | --- |
+| **Balance sheet** | A separate line in equity, apart from the parent's equity (not a liability and not mezzanine) |
+| **Income statement** | Consolidated net income, then the amounts attributable to the NCI and to the parent, shown on the face |
+| **Statement of comprehensive income** | Comprehensive income attributable to the NCI and to the parent |
 
-### Example: NCI Income Allocation
+Losses are attributed to the NCI even if that drives the NCI balance below zero. And once a parent has control, buying or selling shares of the subsidiary without losing control is an **equity transaction**: the difference between the price and the change in the NCI goes to additional paid-in capital, with no gain or loss and no change to goodwill.
 
-Bear Co. owns 80% of Bear Co. During the year, Bear Co. reports net income of \$200,000.
+### Example: Attributing Net Income
 
-$$
-\text{NCI Share of Income} = 20\% \times \$200{,}000 = \$40{,}000
-$$
+Bear Co. owns 80% of Sloth Security. This year, Bear Co.'s own operations earn \$500,000 and Sloth earns \$200,000, with no intercompany items. The NCI's share is 20% × \$200,000 = \$40,000.
 
-$$
-\text{Parent Share of Income} = 80\% \times \$200{,}000 = \$160{,}000
-$$
-
-The consolidated income statement presents:
 | | Amount |
-|---|--------|
-| Consolidated net income | \$200,000 |
-| Less: Net income attributable to NCI | (\$40,000) |
-| **Net income attributable to Bear Co.** | **\$160,000** |
+| --- | --- |
+| Consolidated net income | \$700,000 |
+| Less: net income attributable to the NCI | (\$40,000) |
+| **Net income attributable to Bear Co.** | **\$660,000** |
 
 ---
 
-## Functional Currency (ASC 830)
+## Functional Currency
 
-Before translating a foreign subsidiary's financial statements, the parent must determine the subsidiary's **functional currency**, the currency of the primary economic environment in which the subsidiary operates.
+A foreign subsidiary's statements must be expressed in the parent's **reporting currency** (for a U.S. parent, the U.S. dollar) before they can be consolidated. The method depends on the subsidiary's **functional currency**, the currency of the primary economic environment in which it operates: the currency in which it mainly generates and spends cash.
 
-### Functional Currency Indicators
+ASC 830 lists economic indicators that point one way or the other:
 
-ASC 830-10-55 provides several economic indicators to guide the determination:
-| Indicator | Functional Currency = Local Currency | Functional Currency = Parent's Currency (USD) |
-|-----------|-------------------------------------|----------------------------------------------|
-| **Cash flows** | Primarily in local currency; do not directly affect parent's cash flows | Directly related to and readily available for remittance to the parent |
-| **Sales prices** | Determined by local competition and local market conditions; not primarily responsive to short-term exchange rate changes | Determined by worldwide competition or international prices; responsive to short-term exchange rate changes |
-| **Sales market** | Active local sales market for the subsidiary's products | Sales market is primarily in the parent's country or denominated in the parent's currency |
-| **Expenses** | Labor, materials, and other costs are primarily local costs | Production components obtained primarily from the parent's country |
-| **Financing** | Financing denominated in local currency; operations generate sufficient cash to service debt | Financing primarily from the parent or denominated in the parent's currency; parent's cash flows needed to service debt |
-| **Intercompany transactions** | Low volume of intercompany transactions relative to total activity | High volume of intercompany transactions; extensive interrelationship with parent's operations |
+| Indicator | Points to the local currency | Points to the parent's currency |
+| --- | --- | --- |
+| **Cash flows** | Mainly in local currency; do not directly affect the parent's cash flows | Directly affect the parent's cash flows and are readily available for remittance |
+| **Sales prices** | Set by local competition and regulation; not responsive to short-term exchange rate changes | Set by worldwide markets; responsive to short-term exchange rate changes |
+| **Sales market** | Active local market | Mainly in the parent's country, or priced in the parent's currency |
+| **Expenses** | Mainly local labor, materials, and costs | Mainly components obtained from the parent's country |
+| **Financing** | Mainly in local currency, serviced by local operations | Mainly from the parent or in the parent's currency, or needs the parent's cash to service |
+| **Intercompany transactions** | Few, with little interrelationship with the parent | Many, with extensive interrelationship with the parent |
+
+No single indicator decides the question. When the indicators are mixed, management uses judgment to pick the currency that best reflects the subsidiary's economic results. A subsidiary that is essentially a local business has a local functional currency. One that is an extension of the parent, selling the parent's products and funded by the parent, has the parent's currency as its functional currency.
+
+There is one override. If the subsidiary operates in a **highly inflationary economy**, meaning cumulative inflation of approximately 100% or more over three years, its statements are remeasured as if the **reporting currency** were its functional currency.
+
+The functional currency decision determines which of two methods applies:
 
 ```mermaid
 graph TD
-    A["Evaluate<br/>Economic Indicators"] --> B{"Where does the subsidiary<br/>primarily operate?"}
-    B -->|"Local economy<br/>(local customers, local costs,<br/>local financing)"| C["Functional Currency =<br/>Local Currency"]
-    B -->|"Extension of parent<br/>(parent's market, parent<br/>financing, USD costs)"| D["Functional Currency =<br/>USD (Parent's Currency)"]
-    C --> E["Translate<br/>(Current Rate Method)"]
-    D --> F["Remeasure<br/>(Temporal Method)"]
-    E --> G["CTA to OCI"]
-    F --> H["Gain/Loss to Net Income"]
+    A["Functional currency?"] -->|"Local currency"| C["Translate<br/>current rate method"]
+    A -->|"Parent's currency,<br/>or highly inflationary"| D["Remeasure<br/>temporal method"]
+    C --> G["Translation adjustment<br/>to OCI"]
+    D --> H["Remeasurement gain or loss<br/>to net income"]
     style C fill:#cfe2f3,stroke:#333
     style D fill:#fff2cc,stroke:#333
     style G fill:#d9ead3,stroke:#333
     style H fill:#f4cccc,stroke:#333
 ```
 
-:::warning
-No single indicator is determinative. Management must weigh **all** indicators and exercise judgment. When the indicators are mixed, ASC 830 states that the functional currency determination should give priority to the indicators that **best reflect the subsidiary's economic environment**.
-:::
-
-### Highly Inflationary Economies
-
-If a subsidiary operates in a **highly inflationary economy** (cumulative inflation of approximately **100% or more** over a 3-year period), the functional currency is automatically deemed to be the **reporting currency (USD)**, regardless of the economic indicators. The **temporal method** (remeasurement) is used.
-
-## Foreign Currency Translation: Current Rate Method
-
-The **current rate method** (also called **translation**) is used when the subsidiary's functional currency is the **local (foreign) currency**. This method preserves the subsidiary's financial relationships as originally reported.
-
-### Exchange Rates Applied
-
-| Financial Statement Item  | Exchange Rate                                      |
-| ------------------------- | -------------------------------------------------- |
-| **All assets**            | Current rate (balance sheet date)                  |
-| **All liabilities**       | Current rate (balance sheet date)                  |
-| **Common stock / APIC**   | Historical rate (date issued)                      |
-| **Retained earnings**     | Composite of historical rates (built up over time) |
-| **Revenues and expenses** | Weighted-average rate for the period               |
-| **Dividends declared**    | Historical rate (date declared)                    |
-
-### Cumulative Translation Adjustment (CTA)
-
-Because assets and liabilities are translated at the **current rate** while equity accounts use **historical rates**, a balancing amount arises. This is the **cumulative translation adjustment (CTA)**, reported in **accumulated other comprehensive income (AOCI)**, a component of stockholders' equity.
-
-$$
-\text{CTA (period change)} = \text{Net Assets in FC} \times (\text{Current Rate} - \text{Prior Period Rate}) + \text{Translation effects on income and dividends}
-$$
-
-:::tip[Exam Tip]
-A quick way to think about translation: **everything on the balance sheet** goes at the current rate (except equity accounts, which are historical). **Everything on the income statement** goes at the average rate. The **plug** that makes the balance sheet balance in USD is the CTA, which goes to **OCI**, never to net income.
-:::
-
-### Example: Bear Co. Translates Bear Co. (UK Subsidiary)
-
-Bear Co. (a U.S. company) owns 100% of Bear Co., a subsidiary in the United Kingdom. The British pound (£) is Bear Co.'s functional currency. The following data are available for Year 1:
-**Exchange rates:**
-| Rate | £/$ |
-|------|-----|
-| Current rate (Dec. 31, Year 1) | \$1.30 |
-| Historical rate (date of stock issuance) | \$1.40 |
-| Weighted-average rate (Year 1) | \$1.35 |
-| Dividends declared rate | \$1.32 |
-| Beginning-of-year rate (Jan. 1, Year 1) | \$1.38 |
-**Bear Co. trial balance (in £):**
-| Account | £ Amount |
-|---------|---------|
-| Total assets | £800,000 |
-| Total liabilities | £300,000 |
-| Common stock | £100,000 |
-| Beginning retained earnings | £250,000 |
-| Revenues | £400,000 |
-| Expenses | £320,000 |
-| Dividends declared | £30,000 |
-**Step 1: Translate income statement items at the average rate.**
-
-$$
-\text{Revenues (USD)} = £400{,}000 \times \$1.35 = \$540{,}000
-$$
-
-$$
-\text{Expenses (USD)} = £320{,}000 \times \$1.35 = \$432{,}000
-$$
-
-$$
-\text{Net Income (USD)} = \$540{,}000 - \$432{,}000 = \$108{,}000
-$$
-
-**Step 2: Translate dividends at the historical rate (date declared).**
-
-$$
-\text{Dividends (USD)} = £30{,}000 \times \$1.32 = \$39{,}600
-$$
-
-**Step 3: Translate balance sheet items.**
-| Account | £ Amount | Rate | USD Amount |
-|---------|---------|------|-----------|
-| Total assets | £800,000 | 1.30 (current) | \$1,040,000 |
-| Total liabilities | £300,000 | 1.30 (current) | \$390,000 |
-| Common stock | £100,000 | 1.40 (historical) | \$140,000 |
-| Beginning retained earnings | N/A | (given/prior year) | \$345,000 |
-**Step 4: Compute ending retained earnings.**
-
-$$
-\text{Ending RE (USD)} = \$345{,}000 + \$108{,}000 - \$39{,}600 = \$413{,}400
-$$
-
-**Step 5: Compute the CTA (plug).**
-
-$$
-\text{Total Equity Required} = \text{Assets} - \text{Liabilities} = \$1{,}040{,}000 - \$390{,}000 = \$650{,}000
-$$
-
-$$
-\text{Equity Before CTA} = \text{Common Stock} + \text{Ending RE} = \$140{,}000 + \$413{,}400 = \$553{,}400
-$$
-
-$$
-\text{CTA (cumulative)} = \$650{,}000 - \$553{,}400 = \$96{,}600
-$$
-
-The \$96,600 CTA is reported in **AOCI** within the equity section of Bear Co.'s consolidated balance sheet.
-**Translated balance sheet summary:**
-| Account | USD Amount |
-|---------|-----------|
-| Total assets | \$1,040,000 |
-| Total liabilities | \$390,000 |
-| Common stock | \$140,000 |
-| Retained earnings | \$413,400 |
-| **AOCI (CTA)** | **\$96,600** |
-| **Total equity** | **\$650,000** |
-
 ---
 
-## Foreign Currency Remeasurement: Temporal Method
+## Translation: The Current Rate Method
 
-The **temporal method** (also called **remeasurement**) is used when the subsidiary's functional currency is the **parent's reporting currency (USD)**, meaning the subsidiary is essentially an extension of the parent's operations. It is also used when the subsidiary operates in a highly inflationary economy.
+**Translation** applies when the subsidiary's functional currency is its local currency. The goal is to express the subsidiary's results in dollars while keeping its financial relationships (its margins and ratios) intact, so nearly everything is translated at current or average rates.
 
-### Exchange Rates Applied
+| Item | Rate |
+| --- | --- |
+| All assets and liabilities | Current rate at the balance sheet date |
+| Common stock and APIC | Historical rate when issued |
+| Retained earnings | Carried forward: beginning balance in dollars, plus translated net income, minus translated dividends |
+| Revenues and expenses | Rates when recognized; a weighted-average rate in practice |
+| Dividends | Rate on the declaration date |
 
-| Financial Statement Item                                              | Exchange Rate                                  |
-| --------------------------------------------------------------------- | ---------------------------------------------- |
-| **Monetary assets** (cash, receivables, etc.)                         | Current rate                                   |
-| **Monetary liabilities** (payables, debt, etc.)                       | Current rate                                   |
-| **Nonmonetary assets** (inventory at cost, fixed assets, intangibles) | Historical rate                                |
-| **Common stock / APIC**                                               | Historical rate                                |
-| **Revenues and most expenses**                                        | Weighted-average rate                          |
-| **COGS (from historical-cost inventory)**                             | Historical rate                                |
-| **Depreciation and amortization**                                     | Historical rate (matches the underlying asset) |
+Because net assets are translated at the current rate while equity is carried at historical rates, the translated balance sheet does not balance on its own. The difference is the **translation adjustment**. It is reported in **other comprehensive income (OCI)** each period and accumulates in **accumulated other comprehensive income (AOCI)**, where it is often called the **cumulative translation adjustment (CTA)**. It never goes to net income while the subsidiary is held, because it is an unrealized effect of rate changes on a long-term investment.
 
-### Remeasurement Gain or Loss
+The direction of the adjustment is intuitive: when the foreign currency weakens against the dollar, the parent's investment in the subsidiary's net assets is worth fewer dollars, and the adjustment is a debit (a loss in OCI).
 
-The remeasurement gain or loss is the **plug** that balances the remeasured trial balance. Unlike translation, this gain or loss is recognized in **net income**, not OCI.
+### Example: Bear Co. Translates Grizzly Ltd.
 
-### Key Differences: Translation vs. Remeasurement
+Bear Co. owns 100% of Grizzly Ltd., a U.K. subsidiary whose functional currency is the British pound. Rates for Year 2, in U.S. dollars per pound:
 
-| Feature                  | Translation (Current Rate)           | Remeasurement (Temporal)                            |
-| ------------------------ | ------------------------------------ | --------------------------------------------------- |
-| **When used**            | Functional currency = local currency | Functional currency = USD (or highly inflationary)  |
-| **Assets**               | All at current rate                  | Monetary: current; Nonmonetary: historical          |
-| **Liabilities**          | All at current rate                  | Monetary: current; Nonmonetary: historical          |
-| **Revenues / expenses**  | Average rate                         | Average rate (but COGS, depreciation at historical) |
-| **Equity**               | Historical rate                      | Historical rate                                     |
-| **Resulting adjustment** | **CTA to OCI**                       | **Gain/loss to net income**                         |
+| Rate | Dollars per pound |
+| --- | --- |
+| January 1, Year 2 | \$1.25 |
+| December 31, Year 2 | \$1.20 |
+| Weighted average, Year 2 | \$1.22 |
+| When common stock was issued | \$1.50 |
+| When dividends were declared | \$1.23 |
 
-:::tip[Exam Tip]
-**Memory aid:** "**C**urrent rate leads to **C**TA, which goes to O**C**I" and "**T**emporal goes **T**o income." If the subsidiary's functional currency is the local currency, use the current rate method and the adjustment flows to OCI. If the functional currency is the USD, use the temporal method and the adjustment flows to net income.
-:::
+Grizzly's Year 2 figures in pounds: total assets £960,000, total liabilities £400,000, common stock £200,000, beginning retained earnings £300,000, revenues £500,000, expenses £420,000, and dividends declared £20,000. From last year's translation, beginning retained earnings were \$380,000 and beginning AOCI was a debit of \$55,000.
 
-### Example: Bear Co. Remeasures Polar Inc. (Mexican Subsidiary)
+**Step 1: Income statement at the average rate.** Revenues are £500,000 × \$1.22 = \$610,000, and expenses are £420,000 × \$1.22 = \$512,400, so net income is **\$97,600**.
 
-Bear Co. owns 100% of Polar Inc., a subsidiary in Mexico. Because Polar Inc.'s operations are an extension of Bear Co. (most sales are to U.S. customers, financing is in USD), Bear Co. has determined that the **USD** is Polar Inc.'s functional currency.
-**Exchange rates (Mexican peso, MXN):**
-| Rate Description | $/MXN |
-|------------------|-------|
-| Current rate (Dec. 31) | \$0.055 |
-| Historical rate (fixed assets purchased) | \$0.065 |
-| Historical rate (inventory purchased) | \$0.060 |
-| Historical rate (common stock issued) | \$0.070 |
-| Weighted-average rate | \$0.058 |
-**Polar Inc. trial balance (in MXN):**
-| Account | MXN Amount | Rate | USD Amount |
-|---------|-----------|------|-----------|
-| Cash | MXN 2,000,000 | 0.055 (current) | \$110,000 |
-| Accounts receivable | MXN 3,000,000 | 0.055 (current) | \$165,000 |
-| Inventory (at cost) | MXN 4,000,000 | 0.060 (historical) | \$240,000 |
-| Fixed assets (net) | MXN 10,000,000 | 0.065 (historical) | \$650,000 |
-| **Total assets** | **MXN 19,000,000** | | **\$1,165,000** |
-| Accounts payable | MXN 2,500,000 | 0.055 (current) | \$137,500 |
-| Long-term debt | MXN 5,000,000 | 0.055 (current) | \$275,000 |
-| **Total liabilities** | **MXN 7,500,000** | | **\$412,500** |
-| Common stock | MXN 5,000,000 | 0.070 (historical) | \$350,000 |
-| Beginning retained earnings | N/A | (given) | \$320,000 |
-**Income statement (MXN):**
-| Account | MXN Amount | Rate | USD Amount |
-|---------|-----------|------|-----------|
-| Revenues | MXN 12,000,000 | 0.058 (average) | \$696,000 |
-| COGS | MXN 7,000,000 | 0.060 (historical) | \$420,000 |
-| Depreciation | MXN 1,000,000 | 0.065 (historical) | \$65,000 |
-| Other expenses | MXN 2,000,000 | 0.058 (average) | \$116,000 |
-| **Net income (before remeasurement)** | | | **\$95,000** |
-**Compute remeasurement gain/loss (plug):**
+**Step 2: Dividends at the declaration-date rate.** £20,000 × \$1.23 = **\$24,600**.
 
-$$
-\text{Ending RE (before remeasurement)} = \$320{,}000 + \$95{,}000 = \$415{,}000
-$$
+**Step 3: Retained earnings.** \$380,000 + \$97,600 - \$24,600 = **\$453,000**.
 
-$$
-\text{Total Equity (required)} = \$1{,}165{,}000 - \$412{,}500 = \$752{,}500
-$$
+**Step 4: Balance sheet.**
 
-$$
-\text{Equity Before Plug} = \$350{,}000 + \$415{,}000 = \$765{,}000
-$$
+| Account | Pounds | Rate | Dollars |
+| --- | --- | --- | --- |
+| Total assets | £960,000 | \$1.20 current | \$1,152,000 |
+| Total liabilities | £400,000 | \$1.20 current | \$480,000 |
+| Common stock | £200,000 | \$1.50 historical | \$300,000 |
+| Retained earnings | | From Step 3 | \$453,000 |
 
-$$
-\text{Remeasurement Loss} = \$765{,}000 - \$752{,}500 = \$12{,}500
-$$
+**Step 5: Cumulative translation adjustment (the plug).** Net assets in dollars are \$1,152,000 - \$480,000 = \$672,000. Common stock and retained earnings total \$753,000. The AOCI balance must therefore be \$672,000 - \$753,000 = a **debit of \$81,000**.
 
-Because equity before the plug (\$765,000) exceeds required equity (\$752,500), the entity has a **remeasurement loss** of \$12,500, reported in **net income**.
+**Step 6: Translation adjustment for Year 2.** AOCI moved from a \$55,000 debit to an \$81,000 debit, so the Year 2 adjustment in OCI is a **\$26,000 loss**. You can confirm it directly by applying each rate change to the items it affected:
 
-$$
-\text{Adjusted Net Income} = \$95{,}000 - \$12{,}500 = \$82{,}500
-$$
+| Source | Calculation | Effect |
+| --- | --- | --- |
+| Beginning net assets | £500,000 × (\$1.20 - \$1.25) | (\$25,000) |
+| Net income | £80,000 × (\$1.20 - \$1.22) | (\$1,600) |
+| Dividends | -£20,000 × (\$1.20 - \$1.23) | \$600 |
+| **Translation adjustment** | | **(\$26,000)** |
 
-$$
-\text{Ending RE} = \$320{,}000 + \$82{,}500 = \$402{,}500
-$$
+The loss makes sense: the pound weakened during the year, so Grizzly's net assets are worth fewer dollars.
 
-**Remeasured balance sheet summary:**
-| Account | USD Amount |
-|---------|-----------|
-| Total assets | \$1,165,000 |
-| Total liabilities | \$412,500 |
-| Common stock | \$350,000 |
-| Retained earnings | \$402,500 |
-| **Total equity** | **\$752,500** |
+### Presentation in Comprehensive Income
 
----
+The year's translation adjustment appears in OCI, and the cumulative amount appears in AOCI within equity:
 
-## CTA Presentation in Comprehensive Income
+| Consolidated statement of comprehensive income (partial) | Amount |
+| --- | --- |
+| Net income | \$97,600 |
+| Other comprehensive loss: foreign currency translation adjustment | (\$26,000) |
+| **Comprehensive income** | **\$71,600** |
 
-The **cumulative translation adjustment (CTA)** from the current rate method is a component of **other comprehensive income (OCI)**. It affects the consolidated financial statements as follows:
-
-### Statement of Comprehensive Income
-
-| Line Item                                                                            | Source                    |
-| ------------------------------------------------------------------------------------ | ------------------------- |
-| Net income                                                                           | Income statement          |
-| **Other comprehensive income:**                                                      |                           |
-| &nbsp;&nbsp;&nbsp;&nbsp;Foreign currency translation adjustment                      | CTA change for the period |
-| &nbsp;&nbsp;&nbsp;&nbsp;(Other OCI items, e.g., unrealized gains on AFS securities)  |                           |
-| **Comprehensive income**                                                             | Net income + OCI          |
-
-The CTA accumulates in **AOCI** on the balance sheet and remains there until the subsidiary is **sold or substantially liquidated**. Upon disposal, the accumulated CTA is **reclassified out of AOCI** into earnings (a "recycling" entry).
-
-```journal
-Dr. AOCI (Cumulative Translation Adjustment)[e] 96,600
-    Cr. Gain on Disposal of Foreign Subsidiary 96,600
-```
-
-:::warning
-Remeasurement gains and losses (temporal method) are **not** part of OCI. They go directly to net income. Only the CTA from the **current rate method** flows through OCI. This is a critical distinction the exam will test.
-:::
-
----
-
-## Two-Step Translation (Local to Functional to Reporting)
-
-In some cases, a subsidiary may keep its books in a **local currency** that is different from its **functional currency**, and the functional currency differs from the parent's **reporting currency**. This requires a two-step process:
-
-$$
-\text{Local Currency} \xrightarrow{\text{Remeasure (Temporal)}} \text{Functional Currency} \xrightarrow{\text{Translate (Current Rate)}} \text{Reporting Currency}
-$$
-
-| Step                               | Method                            | Gain/Loss Treatment        |
-| ---------------------------------- | --------------------------------- | -------------------------- |
-| **Step 1:** Local to functional    | Temporal method (remeasurement)   | Gain/loss to **net income** |
-| **Step 2:** Functional to reporting | Current rate method (translation) | CTA to **OCI**              |
-
-### Example: Bear Co. Subsidiary in Hong Kong
-
-Bear Co. (USD reporting) owns 100% of Bear Co., which operates in Hong Kong and keeps its books in **Hong Kong dollars (HKD)**. Management has determined that Bear Co.'s functional currency is the **Japanese yen (¥)** because its primary economic activities are tied to the Japanese market.
-
-1. **Step 1: Remeasure** from HKD to ¥ using the **temporal method**. Any remeasurement gain/loss is included in **net income**.
-2. **Step 2: Translate** from ¥ to USD using the **current rate method**. The resulting CTA is reported in **OCI**.
-   :::tip[Exam Tip]
-   When you see a two-step translation question, always apply **remeasurement first** (local to functional) and then **translation second** (functional to reporting). Remember: remeasurement gains/losses hit income; translation adjustments hit OCI.
-   :::
-
----
-
-## Comprehensive Worked Example
-
-Bear Co. (U.S. parent, USD reporting currency) owns 100% of Bear Co., a UK subsidiary whose functional currency is the **British pound (£)**. On December 31, Year 2, the following information is available:
-**Exchange rates:**
-| Rate Description | $/£ |
-|------------------|-----|
-| Beginning of Year 2 (Jan. 1) | \$1.25 |
-| End of Year 2 (Dec. 31) | \$1.20 |
-| Weighted-average (Year 2) | \$1.22 |
-| Historical (stock issuance) | \$1.50 |
-| Dividend declaration date | \$1.23 |
-**Bear Co. financial data (in £):**
-| Account | £ Amount |
-|---------|---------|
-| Total assets | £1,000,000 |
-| Total liabilities | £400,000 |
-| Common stock | £200,000 |
-| Beginning retained earnings (Year 2) | £300,000 |
-| Revenues | £500,000 |
-| Expenses | £420,000 |
-| Dividends declared | £20,000 |
-**Given:** Beginning AOCI (CTA) balance = (\$15,000) (debit/loss from prior years). Beginning retained earnings (USD) = \$380,000.
-
----
-
-**Step 1: Translate the income statement (average rate).**
-
-$$
-\text{Revenues} = £500{,}000 \times \$1.22 = \$610{,}000
-$$
-
-$$
-\text{Expenses} = £420{,}000 \times \$1.22 = \$512{,}400
-$$
-
-$$
-\text{Net Income} = \$610{,}000 - \$512{,}400 = \$97{,}600
-$$
-
-**Step 2: Translate dividends (historical rate at declaration).**
-
-$$
-\text{Dividends} = £20{,}000 \times \$1.23 = \$24{,}600
-$$
-
-**Step 3: Compute ending retained earnings (USD).**
-
-$$
-\text{Ending RE} = \$380{,}000 + \$97{,}600 - \$24{,}600 = \$453{,}000
-$$
-
-**Step 4: Translate the balance sheet.**
-| Account | £ Amount | Rate | USD Amount |
-|---------|---------|------|-----------|
-| Total assets | £1,000,000 | 1.20 (current) | \$1,200,000 |
-| Total liabilities | £400,000 | 1.20 (current) | \$480,000 |
-| Common stock | £200,000 | 1.50 (historical) | \$300,000 |
-| Retained earnings | N/A | (computed) | \$453,000 |
-**Step 5: Compute the cumulative CTA (plug).**
-
-$$
-\text{Required Equity} = \$1{,}200{,}000 - \$480{,}000 = \$720{,}000
-$$
-
-$$
-\text{Equity Before CTA} = \$300{,}000 + \$453{,}000 = \$753{,}000
-$$
-
-$$
-\text{Cumulative CTA} = \$720{,}000 - \$753{,}000 = -\$33{,}000
-$$
-
-The cumulative CTA is a **negative** (debit) \$33,000, meaning the foreign currency has **weakened** against the USD over the life of the investment.
-**Step 6: Compute the Year 2 CTA change for OCI.**
-
-$$
-\text{Year 2 CTA Change} = -\$33{,}000 - (-\$15{,}000) = -\$18{,}000
-$$
-
-**Consolidated statement of comprehensive income (partial):**
-| | Amount |
-|---|--------|
-| Net income (attributable to Bear Co.) | \$97,600 |
-| **Other comprehensive income (loss):** | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Foreign currency translation adjustment | (\$18,000) |
-| **Comprehensive income** | **\$79,600** |
-**Consolidated balance sheet, equity section:**
-| Account | USD Amount |
-|---------|-----------|
+| Equity attributable to Grizzly in consolidation | Amount |
+| --- | --- |
 | Common stock | \$300,000 |
 | Retained earnings | \$453,000 |
-| AOCI (CTA) | (\$33,000) |
-| **Total equity** | **\$720,000** |
+| AOCI (translation adjustment) | (\$81,000) |
+| **Total** | **\$672,000** |
+
+If the subsidiary were not wholly owned, the NCI's share of the translation adjustment would be attributed to the NCI. The CTA stays in AOCI until the parent sells the subsidiary or it is completely or substantially liquidated. At that point, the accumulated amount is **reclassified** out of AOCI into net income as part of the gain or loss on the sale. If Bear Co. sold Grizzly with the \$81,000 debit balance in AOCI, it would record:
+
+```journal
+Dr. Loss on Sale of Subsidiary 81,000
+Cr. AOCI (Translation Adjustment)[e] 81,000
+```
+
+---
+
+## Remeasurement: The Temporal Method
+
+**Remeasurement** applies when the subsidiary's functional currency is the parent's reporting currency (or the economy is highly inflationary). The aim is to produce the same dollar amounts that would have resulted if the subsidiary had recorded its transactions in dollars from the start. So items carried at historical cost keep their historical rates, and only monetary items (cash and amounts to be received or paid in a fixed number of currency units) move with the current rate.
+
+| Item | Rate |
+| --- | --- |
+| Monetary assets and liabilities (cash, receivables, payables, debt) | Current rate |
+| Nonmonetary assets and liabilities (inventory at cost, fixed assets, intangibles, deferred revenue) | Historical rates |
+| Common stock and APIC | Historical rate |
+| Revenues and most expenses | Average rate |
+| Cost of goods sold, depreciation, and amortization | Historical rates of the related assets |
+
+The balancing figure is a **remeasurement gain or loss**, and it is reported in **net income**, not OCI. A subsidiary with more monetary liabilities than monetary assets gains when the local currency weakens (it owes fewer dollars) and loses when the currency strengthens.
+
+| Feature | Translation (current rate) | Remeasurement (temporal) |
+| --- | --- | --- |
+| When used | Functional currency is the local currency | Functional currency is the reporting currency, or highly inflationary economy |
+| Assets and liabilities | All at current rate | Monetary at current, nonmonetary at historical |
+| Revenues and expenses | Average rate | Average rate, except historical for COGS and depreciation |
+| Resulting adjustment | Translation adjustment in **OCI** | Remeasurement gain or loss in **net income** |
+
+:::tip[Memory Aid]
+
+**C**urrent rate method produces the **C**TA, which goes to O**C**I. **T**emporal method goes **T**o income.
+
+:::
+
+### Example: Bear Co. Remeasures Panda Industries
+
+Bear Co. owns 100% of Panda Industries, a subsidiary in Mexico that keeps its books in pesos (MXN). Panda sells mainly to U.S. customers and is financed in dollars by Bear Co., so its functional currency is the U.S. dollar.
+
+| Rate | Dollars per peso |
+| --- | --- |
+| Current (December 31) | \$0.055 |
+| When fixed assets were bought | \$0.065 |
+| When ending inventory was bought | \$0.060 |
+| When common stock was issued | \$0.070 |
+| Weighted average for the year | \$0.058 |
+
+| Balance sheet | Pesos | Rate | Dollars |
+| --- | --- | --- | --- |
+| Cash | MXN 2,000,000 | \$0.055 current | \$110,000 |
+| Accounts receivable | MXN 3,000,000 | \$0.055 current | \$165,000 |
+| Inventory at cost | MXN 4,000,000 | \$0.060 historical | \$240,000 |
+| Fixed assets, net | MXN 10,000,000 | \$0.065 historical | \$650,000 |
+| **Total assets** | **MXN 19,000,000** | | **\$1,165,000** |
+| Accounts payable | MXN 2,500,000 | \$0.055 current | \$137,500 |
+| Long-term debt | MXN 5,000,000 | \$0.055 current | \$275,000 |
+| **Total liabilities** | **MXN 7,500,000** | | **\$412,500** |
+| Common stock | MXN 5,000,000 | \$0.070 historical | \$350,000 |
+| Beginning retained earnings | | From last year | \$297,500 |
+
+| Income statement | Pesos | Rate | Dollars |
+| --- | --- | --- | --- |
+| Revenues | MXN 12,000,000 | \$0.058 average | \$696,000 |
+| Cost of goods sold | MXN 7,000,000 | \$0.060 historical | (\$420,000) |
+| Depreciation | MXN 1,000,000 | \$0.065 historical | (\$65,000) |
+| Other expenses | MXN 2,000,000 | \$0.058 average | (\$116,000) |
+| **Income before remeasurement gain or loss** | | | **\$95,000** |
+
+Equity must equal remeasured net assets: \$1,165,000 - \$412,500 = \$752,500. Before the remeasurement item, equity is \$350,000 + \$297,500 + \$95,000 = \$742,500. The \$10,000 difference is a **remeasurement gain**, reported in net income:
+
+$$
+\text{Net income} = \$95{,}000 + \$10{,}000 = \$105{,}000
+$$
+
+Ending retained earnings are \$297,500 + \$105,000 = \$402,500, and total equity is \$350,000 + \$402,500 = \$752,500. The gain makes sense: Panda owes more pesos (MXN 7,500,000 of monetary liabilities) than it holds (MXN 5,000,000 of monetary assets), and the peso weakened, so its net peso debt now costs fewer dollars.
+
+---
+
+## Two Steps: Local to Functional to Reporting Currency
+
+Occasionally a subsidiary keeps its books in a local currency that is neither its functional currency nor the parent's reporting currency. Then both methods apply, in order:
+
+| Step | Method | Adjustment goes to |
+| --- | --- | --- |
+| 1. Local currency to functional currency | Remeasure (temporal) | Net income |
+| 2. Functional currency to reporting currency | Translate (current rate) | OCI |
+
+For example, Cub Entertainment operates in Hong Kong and keeps its books in Hong Kong dollars, but its business is tied to the Japanese market, so its functional currency is the yen. Its parent, Bear Co., reports in U.S. dollars. Cub's books are first remeasured from Hong Kong dollars into yen, with any gain or loss in net income, and the yen statements are then translated into U.S. dollars, with the translation adjustment in OCI. Always remeasure first, then translate.
 
 ---
 
 ## Summary
 
-| Topic                          | Key Rule                                                                                  |
-| ------------------------------ | ----------------------------------------------------------------------------------------- |
-| **Voting interest model**      | Consolidate when parent owns > 50% of voting shares                                       |
-| **VIE model**                  | Consolidate when entity is primary beneficiary (power + economic interest)                |
-| **NCI presentation**           | Separate line in consolidated equity; income allocated based on ownership %               |
-| **Functional currency**        | Determined by economic indicators (cash flows, sales prices, expenses, financing)         |
-| **Translation (current rate)** | All assets/liabilities at current rate; income at average rate; CTA to OCI                |
-| **Remeasurement (temporal)**   | Monetary at current; nonmonetary at historical; gain/loss to net income                   |
-| **Two-step translation**       | Remeasure first (local to functional), then translate (functional to reporting)           |
-| **Highly inflationary**        | Cumulative inflation ≥ 100% over 3 years: use temporal method (USD = functional)          |
-| **CTA recycling**              | Reclassified from AOCI to earnings upon sale or substantial liquidation of the subsidiary |
+| Topic | Key rule |
+| --- | --- |
+| Voting interest model | Consolidate with more than 50% of the voting shares, unless control does not rest with the majority owner |
+| VIE model | Evaluated first; the primary beneficiary (power plus significant economic exposure) consolidates |
+| Noncontrolling interest | Separate component of equity; income and losses attributed even if NCI goes negative; ownership changes without loss of control go through equity |
+| Functional currency | The currency of the primary economic environment, judged from the indicators |
+| Highly inflationary economy | About 100% cumulative inflation over three years; remeasure into the reporting currency |
+| Translation (current rate) | Assets and liabilities at current rate, income at average rate; adjustment to OCI, accumulated in AOCI |
+| Remeasurement (temporal) | Monetary items at current rate, nonmonetary at historical; gain or loss to net income |
+| Two-step process | Remeasure local to functional first, then translate functional to reporting |
+| CTA reclassification | Out of AOCI into net income on sale or complete or substantial liquidation |

@@ -1,441 +1,234 @@
 # Financial Statements of Employee Benefit Plans
 
-Employee benefit plans, both **defined benefit** and **defined contribution**, are separate reporting entities that must issue their own financial statements under U.S. GAAP. The primary guidance is found in **ASC 960** (defined benefit pension plans) and **ASC 962** (defined contribution pension plans). The BAR section tests your ability to identify the required financial statements for each plan type, recall note disclosure requirements, and prepare the core statements: the **Statement of Net Assets Available for Benefits** and the **Statement of Changes in Net Assets Available for Benefits**.
-
-:::info[Blueprint Coverage]
-This topic maps to **Area II, Group K** of the 2026 CPA Exam Blueprints for **Business Analysis and Reporting (BAR)**. The blueprint expects candidates to:
-
-- **Identify** the required financial statements for a defined benefit pension plan and a defined contribution pension plan.
-- **Recall** the disclosure requirements for the notes to the financial statements of a defined benefit pension plan and a defined contribution pension plan.
-- **Prepare** a statement of changes in net assets available for benefits for a defined benefit pension plan and a defined contribution pension plan.
-- **Prepare** a statement of net assets available for benefits for a defined benefit pension plan and a defined contribution pension plan.
-:::
+A pension plan is a separate legal entity, usually a trust, that holds assets for employees and pays them benefits. It issues its own financial statements, separate from those of the employer that sponsors it. These plan-level statements answer a participant's basic question: are there enough assets to pay the benefits? **ASC 960** covers defined benefit pension plans and **ASC 962** covers defined contribution pension plans. The 2027 BAR blueprint (Area II, Group K) asks you to identify the required statements for each kind of plan, recall the note disclosures, and prepare the two core statements: the **statement of net assets available for benefits** and the **statement of changes in net assets available for benefits**. This chapter explains how the two kinds of plan differ, walks through each statement with an example, and then covers the disclosures.
 
 ---
 
-## Overview of Applicable Standards
+## Two Kinds of Pension Plan
 
-Employee benefit plan financial statements are governed by two primary ASC topics. These are **plan-level** (trust-level) statements: they report on the plan itself, not the sponsoring employer.
+The difference between the two plan types comes down to what is promised and who bears the investment risk.
 
-| Standard | Applies To | Key Focus |
-|----------|-----------|-----------|
-| **ASC 960** | Defined benefit pension plans | Net assets available for benefits **plus** accumulated plan benefits (the obligation) |
-| **ASC 962** | Defined contribution pension plans | Net assets available for benefits only (no obligation to report) |
-| **ASC 965** | Health and welfare benefit plans | Similar framework; not tested on BAR |
+| Feature | Defined benefit (ASC 960) | Defined contribution (ASC 962) |
+| --- | --- | --- |
+| What is promised | A specified future benefit, usually from a formula based on salary and years of service | A specified contribution now, such as 6% of salary, into an individual account |
+| Who bears investment risk | The sponsor (poor returns mean the sponsor must contribute more) | The participants (poor returns mean smaller accounts) |
+| Does the plan report a benefit obligation? | Yes: the actuarial present value of accumulated plan benefits | No: each participant is entitled to his or her account balance |
+| Examples | Traditional pension plans | 401(k), 403(b), and profit-sharing plans |
 
-:::tip[Exam Tip]
-The critical distinction: **defined benefit** plan statements must report the plan's **obligation** (accumulated plan benefits), whereas **defined contribution** plan statements only report the plan's **assets**. This is because in a defined contribution plan, the employer's obligation is satisfied once contributions are made, and participants bear investment risk.
-:::
-
----
-
-## Defined Benefit vs. Defined Contribution: Key Differences
-
-```mermaid
-graph TD
-    A["Employee Benefit Plan"] --> B{"Who bears<br/>investment risk?"}
-    B -->|"Employer"| DB["Defined Benefit Plan<br/>(ASC 960)"]
-    B -->|"Employee"| DC["Defined Contribution Plan<br/>(ASC 962)"]
-    DB --> DB1["Must report plan<br/>obligations"]
-    DC --> DC1["No plan obligation<br/>to report"]
-    style DB fill:#cfe2f3,stroke:#333
-    style DC fill:#d9ead3,stroke:#333
-```
-
-| Feature | Defined Benefit (ASC 960) | Defined Contribution (ASC 962) |
-|---------|--------------------------|-------------------------------|
-| **Benefit promise** | Specified future benefit (e.g., formula based on salary and years of service) | Specified current contribution (e.g., 6% of salary) |
-| **Investment risk borne by** | Employer/plan sponsor | Participants |
-| **Plan obligation reported?** | Yes (accumulated plan benefits) | No |
-| **Number of required statements** | 4 (or combined) | 2 |
-| **Examples** | Traditional pension plans | 401(k), 403(b), profit-sharing plans |
+Keep the plan-level statements separate in your mind from the sponsor's own pension accounting under ASC 715, which reports the employer's pension cost and funded status. The statements in this chapter report on the plan itself as a separate entity. Health and welfare plans (ASC 965) follow a similar framework but are outside the blueprint's tasks.
 
 ---
 
 ## Required Financial Statements
 
-### Defined Benefit Pension Plans (ASC 960)
+Both kinds of plan present two statements:
 
-ASC 960 requires the following financial statements:
+1. A **statement of net assets available for benefits** as of the end of the plan year, which works like a balance sheet.
+2. A **statement of changes in net assets available for benefits** for the year, which explains the change in net assets.
 
-1. **Statement of Net Assets Available for Benefits**: a snapshot of plan assets at the reporting date
-2. **Statement of Changes in Net Assets Available for Benefits**: activity during the period
-3. **Statement of Accumulated Plan Benefits**: the actuarial present value of all benefits earned to date
-4. **Statement of Changes in Accumulated Plan Benefits**: changes in the obligation during the period
+A **defined benefit plan** must also present information about its obligation:
 
-:::warning
-Statements 3 and 4 relate to the **plan's obligation**: the present value of benefits promised to participants. Do not confuse these with the employer-level pension accounting (ASC 715). ASC 960 is about the plan as a **separate reporting entity**.
-:::
+3. The **actuarial present value of accumulated plan benefits** as of either the beginning or the end of the plan year.
+4. The **significant effects of factors that changed** the actuarial present value of accumulated plan benefits during the year.
 
-### Defined Contribution Pension Plans (ASC 962)
+Items 3 and 4 may be presented as separate statements, combined with the net asset statements, or disclosed in the notes, as long as each is presented in its entirety in one place. If the benefit information is as of the beginning of the year, the plan presents comparative statements of net assets for the prior year as well, so the assets and the obligation are compared at the same date.
 
-ASC 962 requires only:
-
-1. **Statement of Net Assets Available for Benefits**
-2. **Statement of Changes in Net Assets Available for Benefits**
-
-No obligation statement is needed because participants, not the plan, bear the investment risk.
-
-| Statement | Defined Benefit | Defined Contribution |
-|-----------|:-:|:-:|
-| Statement of Net Assets Available for Benefits | Required | Required |
-| Statement of Changes in Net Assets Available for Benefits | Required | Required |
-| Statement of Accumulated Plan Benefits | Required | Not required |
-| Statement of Changes in Accumulated Plan Benefits | Required | Not required |
+A defined contribution plan has no benefit obligation to report, because the benefit is simply whatever is in each participant's account.
 
 ---
 
-## Measurement of Plan Investments
+## Measuring Plan Assets
 
-A foundational principle for both plan types: **investments are reported at fair value** on the reporting date.
+Plan investments are reported at **fair value**, and changes in fair value are part of the plan's activity for the year. Fair value measurement follows ASC 820: publicly traded stocks, Treasury securities, and mutual funds with published daily prices are Level 1; corporate bonds priced from observable market inputs are Level 2; real estate partnerships, private equity, and similar holdings valued with unobservable inputs are Level 3. Investments such as hedge funds or collective trusts may be measured at net asset value (NAV) as a practical expedient, and those are not categorized in the hierarchy.
 
-| Investment Type | Measurement |
-|----------------|-------------|
-| Marketable securities (stocks, bonds) | Quoted market prices (Level 1) |
-| Real estate | Appraised fair value |
-| Insurance contracts (e.g., guaranteed investment contracts) | Contract value (approximates fair value for fully benefit-responsive contracts) |
-| Participant loans | Outstanding balance (approximates fair value) |
-| Alternative investments (hedge funds, PE) | Net asset value (NAV) as practical expedient |
+There are two notable exceptions to fair value:
 
-:::tip[Exam Tip]
-The key rule is simple: **plan investments = fair value**. This includes unrealized appreciation and depreciation in the net assets figure. There is no "held-to-maturity" or "amortized cost" exception for plan financial statements; everything is marked to market.
-:::
+- **Participant loans** in a defined contribution plan are reported as **notes receivable from participants**, measured at their unpaid principal plus accrued interest. They are not investments.
+- **Fully benefit-responsive investment contracts** (such as some guaranteed investment contracts in stable value funds) held by a defined contribution plan are measured at **contract value**, the amount participants would receive if they transacted under the contract.
+
+Receivables for contributions owed to the plan at year-end (from the employer or from participants' payroll deductions) are also assets of the plan.
 
 ---
 
 ## Statement of Net Assets Available for Benefits
 
-This statement is a **balance sheet** for the plan. It presents plan assets minus plan liabilities (other than the benefit obligation) to arrive at **net assets available for benefits**.
+This statement lists the plan's assets (investments, receivables, and cash) and subtracts its liabilities (such as accrued expenses and amounts owed for investments purchased) to arrive at **net assets available for benefits**. Investments are shown by general type, such as government securities, corporate bonds, common stocks, and mutual funds. The benefit obligation itself is not a liability on this statement.
 
-### Format and Components
+### Example: Bear Co. Pension Plan (Defined Benefit)
 
-| Line Item | Description |
-|-----------|-------------|
-| **Investments** | All plan investments at fair value (broken out by type) |
-| **Receivables** | Employer contributions receivable, participant contributions receivable, accrued interest/dividends |
-| **Cash and cash equivalents** | Operating cash of the plan |
-| **Total assets** | Sum of the above |
-| **Liabilities** | Accounts payable, accrued expenses, benefits payable |
-| **Net assets available for benefits** | Total assets - Liabilities |
-
-### Example: Acme Corp Defined Benefit Pension Plan
-
-**Statement of Net Assets Available for Benefits as of December 31, Year 2**
+**Bear Co. Pension Plan: Statement of Net Assets Available for Benefits, December 31, Year 2**
 
 | | Amount |
-|---|---:|
-| **Assets:** | |
+| --- | ---: |
+| **Assets** | |
 | Investments at fair value: | |
-| &emsp;U.S. government securities | \$4,200,000 |
-| &emsp;Corporate bonds | 3,100,000 |
-| &emsp;Common stocks | 8,500,000 |
-| &emsp;Real estate fund | 1,800,000 |
-| &emsp;*Total investments* | *17,600,000* |
+| U.S. government securities | \$4,200,000 |
+| Corporate bonds | 3,100,000 |
+| Common stocks | 8,500,000 |
+| Real estate fund | 1,800,000 |
+| *Total investments* | *17,600,000* |
 | Employer contributions receivable | 350,000 |
 | Accrued interest and dividends | 125,000 |
 | Cash | 75,000 |
 | **Total assets** | **18,150,000** |
-| | |
-| **Liabilities:** | |
+| **Liabilities** | |
 | Accrued administrative expenses | 90,000 |
-| Benefits payable to participants | 210,000 |
+| Due to broker for securities purchased | 210,000 |
 | **Total liabilities** | **300,000** |
-| | |
 | **Net assets available for benefits** | **\$17,850,000** |
 
 ---
 
 ## Statement of Changes in Net Assets Available for Benefits
 
-This statement explains **why net assets changed** during the period, similar to a statement of activities.
+This statement explains why net assets changed during the year. It groups activity into **additions** and **deductions**:
 
-### Format and Components
+- **Additions**: investment income (interest, dividends, rents), the **net appreciation (depreciation) in fair value** of investments, employer contributions, participant contributions, and, in defined contribution plans, rollovers from other plans.
+- **Deductions**: benefits paid to participants and administrative expenses (trustee, recordkeeping, audit, and legal fees).
 
-| Line Item | Description |
-|-----------|-------------|
-| **Additions:** | |
-| &emsp;Investment income | Interest, dividends, rents |
-| &emsp;Net appreciation (depreciation) in fair value | Realized + unrealized gains/losses |
-| &emsp;Employer contributions | Amounts contributed by the sponsor |
-| &emsp;Participant contributions | Employee deferrals (if applicable) |
-| **Total additions** | Sum of all additions |
-| **Deductions:** | |
-| &emsp;Benefits paid to participants | Lump sums, annuity payments, withdrawals |
-| &emsp;Administrative expenses | Trustee fees, audit fees, legal fees |
-| **Total deductions** | Sum of all deductions |
-| **Net increase (decrease)** | Total additions - Total deductions |
-| **Net assets, beginning of year** | Prior year ending balance |
-| **Net assets, end of year** | Beginning balance + Net increase (decrease) |
+**Net appreciation in fair value** combines the realized gains and losses on investments sold during the year with the unrealized gains and losses on investments still held, and plans generally report it as a single line. Ending net assets always equal beginning net assets plus additions minus deductions.
 
-:::warning
-**Net appreciation in fair value** combines both realized gains/losses on investments sold during the year **and** unrealized gains/losses from remeasuring investments still held at year-end. These are **not** separated in the statement; they are reported as a single line.
-:::
+### Example: Bear Co. Pension Plan (Defined Benefit)
 
-### Example: Acme Corp Defined Benefit Pension Plan
-
-**Statement of Changes in Net Assets Available for Benefits for the Year Ended December 31, Year 2**
+**Bear Co. Pension Plan: Statement of Changes in Net Assets Available for Benefits, Year Ended December 31, Year 2**
 
 | | Amount |
-|---|---:|
-| **Additions:** | |
+| --- | ---: |
+| **Additions** | |
 | Investment income: | |
-| &emsp;Interest | \$620,000 |
-| &emsp;Dividends | 310,000 |
-| &emsp;Net appreciation in fair value of investments | 1,450,000 |
-| &emsp;*Total investment income* | *2,380,000* |
+| Interest | \$620,000 |
+| Dividends | 310,000 |
+| Net appreciation in fair value of investments | 1,450,000 |
+| *Total investment income* | *2,380,000* |
 | Employer contributions | 1,200,000 |
 | Participant contributions | 480,000 |
 | **Total additions** | **4,060,000** |
-| | |
-| **Deductions:** | |
+| **Deductions** | |
 | Benefits paid to participants | 2,850,000 |
 | Administrative expenses | 160,000 |
 | **Total deductions** | **3,010,000** |
-| | |
 | **Net increase** | **1,050,000** |
 | Net assets available for benefits, beginning of year | 16,800,000 |
 | **Net assets available for benefits, end of year** | **\$17,850,000** |
 
-### Verification Formula
-
-$$
-\text{Ending Net Assets} = \text{Beginning Net Assets} + \text{Additions} - \text{Deductions}
-$$
-
-$$
-\$17{,}850{,}000 = \$16{,}800{,}000 + \$4{,}060{,}000 - \$3{,}010{,}000
-$$
+The ending balance agrees with the statement of net assets: \$16,800,000 + \$4,060,000 - \$3,010,000 = \$17,850,000.
 
 ---
 
-## Statement of Accumulated Plan Benefits (Defined Benefit Only)
+## Accumulated Plan Benefits (Defined Benefit Plans Only)
 
-This statement reports the **actuarial present value of accumulated plan benefits**, the obligation the plan owes to participants. It is unique to defined benefit plans (ASC 960).
+**Accumulated plan benefits** are the future benefits attributable to employees' service to date, measured at their actuarial present value using assumptions about discount rates, mortality, retirement ages, and turnover. They are reported in three categories: vested benefits of participants currently receiving payments, other vested benefits, and nonvested benefits.
 
-### Components
+### Example: Statement of Accumulated Plan Benefits
 
-| Category | Description |
-|----------|-------------|
-| **Vested benefits: participants currently receiving payments** | Present value of benefits already being paid to retirees |
-| **Vested benefits: other participants** | Present value of benefits earned by active and terminated vested employees |
-| **Nonvested benefits** | Present value of benefits earned but not yet vested |
-| **Total actuarial present value of accumulated plan benefits** | Sum of all three categories |
-
-### Example
-
-**Statement of Accumulated Plan Benefits as of December 31, Year 2**
+**Bear Co. Pension Plan: Statement of Accumulated Plan Benefits, December 31, Year 2**
 
 | | Amount |
-|---|---:|
+| --- | ---: |
 | Vested benefits: | |
-| &emsp;Participants currently receiving payments | \$8,400,000 |
-| &emsp;Other participants | 6,900,000 |
+| Participants currently receiving payments | \$8,400,000 |
+| Other participants | 6,900,000 |
 | *Total vested benefits* | *15,300,000* |
 | Nonvested benefits | 1,200,000 |
 | **Actuarial present value of accumulated plan benefits** | **\$16,500,000** |
 
-:::tip[Exam Tip]
-Compare the **accumulated plan benefits** (\$16,500,000) with **net assets available for benefits** (\$17,850,000). In this example, the plan is **overfunded** by \$1,350,000. If accumulated plan benefits exceed net assets, the plan is **underfunded**. The exam may ask you to determine funded status at the plan level.
-:::
+Comparing the two amounts at the same date shows the plan's funded status: net assets of \$17,850,000 exceed accumulated plan benefits of \$16,500,000, so the plan is **overfunded** by \$1,350,000. If the obligation were larger, the plan would be underfunded.
 
----
+### Example: Statement of Changes in Accumulated Plan Benefits
 
-## Statement of Changes in Accumulated Plan Benefits (Defined Benefit Only)
+This statement reconciles the obligation from the beginning of the year to the end. At a minimum, the effects of plan amendments, changes in the nature of the plan (such as a merger), and changes in actuarial assumptions must be shown when significant. The benefits paid here are the same \$2,850,000 shown as a deduction from net assets.
 
-This statement reconciles the beginning and ending obligation.
+**Bear Co. Pension Plan: Statement of Changes in Accumulated Plan Benefits, Year Ended December 31, Year 2**
 
-| Line Item | Amount |
-|-----------|---:|
-| Actuarial present value of accumulated plan benefits, beginning of year | \$15,800,000 |
-| **Increases:** | |
-| &emsp;Benefits earned during the period | 900,000 |
-| &emsp;Interest (discount rate applied to obligation) | 630,000 |
-| &emsp;Changes in actuarial assumptions | 120,000 |
-| **Decreases:** | |
-| &emsp;Benefits paid | (950,000) |
-| **Net increase** | **700,000** |
+| | Amount |
+| --- | ---: |
+| Actuarial present value of accumulated plan benefits, beginning of year | \$17,300,000 |
+| Increase (decrease) during the year attributable to: | |
+| Benefits accumulated | 1,100,000 |
+| Increase for interest due to the decrease in the discount period | 1,040,000 |
+| Changes in actuarial assumptions | (90,000) |
+| Benefits paid | (2,850,000) |
+| **Net decrease** | **(800,000)** |
 | **Actuarial present value of accumulated plan benefits, end of year** | **\$16,500,000** |
 
 ---
 
 ## Defined Contribution Plan Example
 
-### Bright Future 401(k) Plan
+A defined contribution plan presents only the two net asset statements. Its statements look much like a defined benefit plan's, with a few typical differences: participant contributions are often the largest addition, rollovers from other plans appear as an addition, and participant loans appear as notes receivable rather than investments.
 
-**Statement of Net Assets Available for Benefits as of December 31, Year 2**
+**Polar Inc. 401(k) Plan: Statement of Net Assets Available for Benefits, December 31, Year 2**
 
 | | Amount |
-|---|---:|
-| **Assets:** | |
+| --- | ---: |
+| **Assets** | |
 | Investments at fair value: | |
-| &emsp;Mutual funds (equity) | \$12,400,000 |
-| &emsp;Mutual funds (bond) | 4,600,000 |
-| &emsp;Company stock fund | 2,100,000 |
-| &emsp;Stable value fund | 3,200,000 |
-| &emsp;Participant loans | 450,000 |
-| &emsp;*Total investments* | *22,750,000* |
+| Mutual funds, equity | \$12,400,000 |
+| Mutual funds, bond | 4,600,000 |
+| Polar Inc. common stock fund | 2,100,000 |
+| Money market fund | 3,200,000 |
+| *Total investments* | *22,300,000* |
+| Notes receivable from participants | 450,000 |
 | Employer contributions receivable | 180,000 |
 | Cash | 40,000 |
 | **Total assets** | **22,970,000** |
-| | |
-| **Liabilities:** | |
+| **Liabilities** | |
 | Accrued administrative expenses | 70,000 |
-| **Total liabilities** | **70,000** |
-| | |
 | **Net assets available for benefits** | **\$22,900,000** |
 
-**Statement of Changes in Net Assets Available for Benefits for the Year Ended December 31, Year 2**
+**Polar Inc. 401(k) Plan: Statement of Changes in Net Assets Available for Benefits, Year Ended December 31, Year 2**
 
 | | Amount |
-|---|---:|
-| **Additions:** | |
+| --- | ---: |
+| **Additions** | |
 | Investment income: | |
-| &emsp;Interest and dividends | \$680,000 |
-| &emsp;Net appreciation in fair value of investments | 2,150,000 |
-| &emsp;*Total investment income* | *2,830,000* |
+| Interest and dividends | \$680,000 |
+| Net appreciation in fair value of investments | 2,150,000 |
+| *Total investment income* | *2,830,000* |
 | Employer contributions | 1,500,000 |
 | Participant contributions | 3,200,000 |
 | Rollovers from other plans | 320,000 |
 | **Total additions** | **7,850,000** |
-| | |
-| **Deductions:** | |
+| **Deductions** | |
 | Benefits paid to participants | 4,100,000 |
 | Administrative expenses | 150,000 |
 | **Total deductions** | **4,250,000** |
-| | |
 | **Net increase** | **3,600,000** |
 | Net assets available for benefits, beginning of year | 19,300,000 |
 | **Net assets available for benefits, end of year** | **\$22,900,000** |
 
-:::tip[Exam Tip]
-In defined contribution plans, **participant contributions** (employee deferrals) are often a significant addition, much larger relative to employer contributions than in many defined benefit plans. Also note the **rollovers from other plans** line item, which is unique to participant-directed plans.
-:::
-
 ---
 
-## Recording Contributions: Journal Entry Perspective
+## Note Disclosures
 
-While plan-level financial statements don't typically show debits and credits (they report balances and activity), understanding the underlying entries helps with exam preparation.
+The notes explain the plan to participants and regulators. Most disclosures apply to both kinds of plan:
 
-**Employer contribution received by the plan trust:**
+- **Description of the plan**: the type of plan, who participates, vesting provisions, contribution and benefit provisions, and significant plan amendments adopted during the year.
+- **Accounting policies**: including the methods used to measure investments at fair value.
+- **Investments**: disaggregated by general type, with the ASC 820 fair value hierarchy disclosures.
+- **Federal income tax status**: required when the plan has not obtained or maintained a favorable IRS determination letter. In practice, most plans describe their tax status either way.
+- **Transactions with related parties**: including the sponsor, the trustee, and other parties in interest.
+- **Risks and uncertainties**: such as concentrations that could cause a severe impact in the near term.
 
-```journal
-Dr. Cash[a] 1,200,000
-    Cr. Employer Contributions Revenue 1,200,000
-```
+Defined benefit plans add disclosures about the obligation and its funding:
 
-**Participant payroll deductions received by the plan trust:**
+- The **actuarial present value of accumulated plan benefits** and the factors that changed it, if they are not presented as separate statements.
+- The **significant actuarial assumptions** (such as discount rate, mortality, and retirement age) and any changes in them and their effects.
+- The **funding policy** and any changes in it.
+- The **priority order** of participants' claims to plan assets if the plan terminates, and the benefits guaranteed by the Pension Benefit Guaranty Corporation (PBGC).
 
-```journal
-Dr. Cash[a] 480,000
-    Cr. Participant Contributions Revenue 480,000
-```
+Defined contribution plans add disclosures about how the accounts work, such as how employer contributions are allocated to participant accounts, how participants can direct their investments, and the amount and treatment of **forfeited** nonvested balances.
 
-**Purchase of investments by the plan:**
-
-```journal
-Dr. Investments[a] 2,000,000
-    Cr. Cash[a] 2,000,000
-```
-
-**Benefits paid to a retired participant:**
-
-```journal
-Dr. Benefits Paid Expense 50,000
-    Cr. Cash[a] 50,000
-```
-
-**Recognition of net appreciation in fair value:**
-
-```journal
-Dr. Investments[a] 1,450,000
-    Cr. Net Appreciation in Fair Value of Investments 1,450,000
-```
-
----
-
-## Note Disclosure Requirements
-
-Both plan types require extensive disclosures. The exam frequently tests whether candidates can **recall** what must be disclosed.
-
-### Disclosures Common to Both Plan Types
-
-| Disclosure | Description |
-|-----------|-------------|
-| **Description of the plan** | Type of plan, participant groups, vesting provisions, contribution requirements |
-| **Significant accounting policies** | Basis for investment valuation, income recognition methods |
-| **Investment information** | Fair value by category, concentrations exceeding 5% of net assets |
-| **Tax status** | Whether the plan has received a favorable IRS determination letter |
-| **Related-party transactions** | Transactions with the plan sponsor, trustee, or other parties-in-interest |
-| **Plan amendments** | Significant changes adopted during the period |
-| **Risks and uncertainties** | Concentrations that could cause a near-term severe impact |
-
-### Additional Disclosures: Defined Benefit Plans (ASC 960)
-
-| Disclosure | Description |
-|-----------|-------------|
-| **Actuarial present value of accumulated plan benefits** | If not presented as a separate statement, must be disclosed |
-| **Significant actuarial assumptions** | Discount rate, retirement age, mortality tables, turnover rates |
-| **Changes in assumptions** | Any changes from the prior year and their effects |
-| **Funding policy** | How the sponsor determines its contributions |
-| **Plan termination priority** | The order in which benefits would be distributed upon plan termination |
-
-### Additional Disclosures: Defined Contribution Plans (ASC 962)
-
-| Disclosure | Description |
-|-----------|-------------|
-| **Participant-directed investment programs** | How participants can direct their investments among options |
-| **Allocation methods** | How employer contributions and forfeitures are allocated to participant accounts |
-| **Forfeiture policy** | How nonvested amounts of terminated participants are handled |
-| **Significant plan amendments** | Including automatic enrollment features or matching formula changes |
-
-:::warning
-A common exam trap: the **IRS determination letter** disclosure. Plans must disclose whether they have received a favorable determination letter or, if not, whether the plan administrator believes the plan is qualified. This applies to **both** defined benefit and defined contribution plans.
-:::
-
----
-
-## Fair Value Hierarchy for Plan Investments
-
-Plan investments follow the same ASC 820 fair value hierarchy used elsewhere in GAAP:
-
-```mermaid
-graph TD
-    L1["Level 1<br/>Quoted prices in<br/>active markets"] --> L2["Level 2<br/>Observable inputs<br/>(similar assets, indices)"]
-    L2 --> L3["Level 3<br/>Unobservable inputs<br/>(models, assumptions)"]
-    style L1 fill:#d9ead3,stroke:#333
-    style L2 fill:#fff2cc,stroke:#333
-    style L3 fill:#f4cccc,stroke:#333
-```
-
-| Level | Plan Investment Examples |
-|-------|------------------------|
-| **Level 1** | Publicly traded stocks, U.S. Treasury securities, mutual funds with daily NAV |
-| **Level 2** | Corporate bonds (priced via matrix pricing), commingled trust funds |
-| **Level 3** | Real estate partnerships, private equity, certain insurance contracts |
-| **NAV practical expedient** | Hedge funds, collective investment trusts measured at NAV (not categorized in hierarchy) |
-
----
-
-## Key Differences Summary: Reporting by Plan Type
-
-| Item | Defined Benefit (ASC 960) | Defined Contribution (ASC 962) |
-|------|--------------------------|-------------------------------|
-| **Required statements** | 4 (net assets, changes in net assets, accumulated benefits, changes in accumulated benefits) | 2 (net assets, changes in net assets) |
-| **Obligation reported?** | Yes (actuarial PV of accumulated plan benefits) | No |
-| **Actuarial assumptions needed?** | Yes (discount rate, mortality, etc.) | No |
-| **Investment measurement** | Fair value | Fair value |
-| **Participant account balances disclosed?** | Not applicable | Yes; plan must present or disclose individual account information |
-| **Funded status** | Can be determined (net assets vs. obligation) | Not applicable (no obligation) |
+Two disclosures that older materials list are no longer required: individual investments that represent 5% or more of net assets, and net appreciation broken down by type of investment. ASU 2015-12 removed both.
 
 ---
 
 ## Practice Problem
 
-**Facts:** The Evergreen Defined Benefit Pension Plan provides the following data for the year ended December 31, Year 3:
+The Grizzly Inc. Pension Plan, a defined benefit plan, reports the following for Year 3. Prepare its statement of changes in net assets available for benefits.
 
 | Item | Amount |
-|------|---:|
+| --- | ---: |
 | Net assets available for benefits, January 1 | \$25,000,000 |
 | Interest and dividend income | 890,000 |
 | Net appreciation in fair value of investments | 1,620,000 |
@@ -444,42 +237,22 @@ graph TD
 | Benefits paid to participants | 3,400,000 |
 | Administrative expenses | 210,000 |
 
-**Required:** Prepare the Statement of Changes in Net Assets Available for Benefits.
+**Solution.** Additions total \$890,000 + \$1,620,000 + \$1,800,000 + \$600,000 = \$4,910,000. Deductions total \$3,400,000 + \$210,000 = \$3,610,000. The net increase is \$1,300,000.
 
-**Solution:**
-
-$$
-\text{Total Additions} = \$890{,}000 + \$1{,}620{,}000 + \$1{,}800{,}000 + \$600{,}000 = \$4{,}910{,}000
-$$
-
-$$
-\text{Total Deductions} = \$3{,}400{,}000 + \$210{,}000 = \$3{,}610{,}000
-$$
-
-$$
-\text{Net Increase} = \$4{,}910{,}000 - \$3{,}610{,}000 = \$1{,}300{,}000
-$$
-
-$$
-\text{Ending Net Assets} = \$25{,}000{,}000 + \$1{,}300{,}000 = \$26{,}300{,}000
-$$
-
-**Statement of Changes in Net Assets Available for Benefits for the Year Ended December 31, Year 3**
+**Grizzly Inc. Pension Plan: Statement of Changes in Net Assets Available for Benefits, Year Ended December 31, Year 3**
 
 | | Amount |
-|---|---:|
-| **Additions:** | |
-| &emsp;Interest and dividends | \$890,000 |
-| &emsp;Net appreciation in fair value of investments | 1,620,000 |
-| &emsp;Employer contributions | 1,800,000 |
-| &emsp;Participant contributions | 600,000 |
+| --- | ---: |
+| **Additions** | |
+| Interest and dividends | \$890,000 |
+| Net appreciation in fair value of investments | 1,620,000 |
+| Employer contributions | 1,800,000 |
+| Participant contributions | 600,000 |
 | **Total additions** | **4,910,000** |
-| | |
-| **Deductions:** | |
-| &emsp;Benefits paid to participants | 3,400,000 |
-| &emsp;Administrative expenses | 210,000 |
+| **Deductions** | |
+| Benefits paid to participants | 3,400,000 |
+| Administrative expenses | 210,000 |
 | **Total deductions** | **3,610,000** |
-| | |
 | **Net increase** | **1,300,000** |
 | Net assets available for benefits, beginning of year | 25,000,000 |
 | **Net assets available for benefits, end of year** | **\$26,300,000** |
@@ -488,12 +261,11 @@ $$
 
 ## Summary
 
-| Concept | Key Point |
-|---------|-----------|
-| **ASC 960** | Governs defined benefit plan financial statements (4 required statements) |
-| **ASC 962** | Governs defined contribution plan financial statements (2 required statements) |
-| **Investments** | Always reported at **fair value** |
-| **Net appreciation** | Combines realized and unrealized gains/losses in one line |
-| **Obligation** | Only defined benefit plans report accumulated plan benefits |
-| **Disclosures** | Both plan types require description, accounting policies, investments, tax status, and related parties |
-| **Funded status** | Net assets available for benefits vs. accumulated plan benefits (DB only) |
+| Item | Defined benefit (ASC 960) | Defined contribution (ASC 962) |
+| --- | --- | --- |
+| Required statements | Net assets and changes in net assets, plus accumulated plan benefit information and its changes (as statements or in the notes) | Net assets and changes in net assets |
+| Benefit obligation reported? | Yes, at actuarial present value | No |
+| Investments | Fair value | Fair value; contract value for fully benefit-responsive contracts |
+| Participant loans | Not typical | Notes receivable at unpaid principal plus interest |
+| Net appreciation | Realized and unrealized together | Realized and unrealized together |
+| Funded status | Net assets compared with accumulated plan benefits | Not applicable |

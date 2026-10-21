@@ -1,427 +1,240 @@
 # Internally Developed Software
 
-Companies routinely build software, either for their own operations or to sell to customers. U.S. GAAP draws a sharp line between these two scenarios and prescribes different capitalization rules for each. The BAR exam expects you to know **when** costs move from expense to asset, **which** costs qualify, and **how** to compute amortization once the asset is placed in service. This page covers the two authoritative frameworks: **ASC 350-40** (internal-use software) and **ASC 985-20** (software to be sold, leased, or otherwise marketed).
-:::info[Blueprint Coverage]
-This topic maps to **Area II, Group B** of the 2026 CPA Exam Blueprints for **Business Analysis and Reporting (BAR)**. The blueprint expects candidates to:
-
-- **Recall** the criteria necessary to capitalize software developed for internal use or software developed for sale in the financial statements.
-- **Calculate** capitalized software developed for internal use or software developed for sale to be reported in the financial statements and the related amortization expense.
-  :::
+Companies build software for two very different reasons: to run their own operations, or to sell to customers. GAAP treats the two cases differently. Internal-use software follows **ASC 350-40**, which starts capitalizing costs once a project moves past the planning stage. Software to be sold follows **ASC 985-20**, which treats nearly everything as research and development until the product is technologically feasible. This chapter works through each model in turn (what to capitalize, when to start and stop, how to amortize, and how to test for impairment) and ends with a side-by-side summary. The 2027 BAR blueprint (Area II, Group B) asks you to recall the capitalization criteria for both kinds of software and to calculate the capitalized cost and the related amortization.
 
 ---
 
-## Two Frameworks at a Glance
-
-| Feature                    | ASC 350-40 (Internal Use)                                         | ASC 985-20 (For Sale / Lease)                                  |
-| -------------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------- |
-| **Scope**                  | Software used internally (back-office, ERP, intranet)             | Software to be sold, leased, or marketed externally            |
-| **Capitalization trigger** | When management commits to the project and preliminary stage ends | After **technological feasibility** is established             |
-| **Phases**                 | Preliminary, then Application Development, then Post-Implementation | Research & planning, then after tech feasibility, then general release |
-| **Amortization method**    | Straight-line over estimated useful life                          | Greater of (a) revenue-based ratio or (b) straight-line        |
-| **Impairment model**       | ASC 360 (long-lived assets)                                       | Net realizable value (NRV) test each period                    |
-
----
-
-## Part 1: Software Developed for Internal Use (ASC 350-40)
+## Part 1: Software for Internal Use (ASC 350-40)
 
 ### Scope
 
-ASC 350-40 applies when software is developed or obtained **solely for the entity's internal needs** and there is **no substantive plan** to market the software externally. Common examples include ERP systems, internal accounting platforms, and company intranets.
+ASC 350-40 applies when software is developed or obtained **solely to meet the entity's internal needs** and there is **no substantive plan** to market it externally. Typical examples are an ERP system, an internal accounting platform, and a company intranet. If a plan to sell the software exists, the project falls under ASC 985-20 instead.
 
-### The Three Phases
+### The Three Stages
 
-Internal-use software projects move through three distinct phases. The phase determines whether costs are **expensed** or **capitalized**.
+An internal-use project moves through three stages, and the stage in which a cost is incurred decides whether it is expensed or capitalized. The logic is simple: until management has chosen a path and committed money to it, the project is still an idea, so its costs are expensed. Once the company is actually building the software, the costs create an asset. Once the software is running, the remaining costs keep it running and are expensed.
 
 ```mermaid
 graph LR
-    A["Phase 1<br/>Preliminary Project"] --> B["Phase 2<br/>Application Development"]
-    B --> C["Phase 3<br/>Post-Implementation /<br/>Operation"]
+    A["Preliminary project<br/>Expense"] --> B["Application development<br/>Capitalize"]
+    B --> C["Post-implementation<br/>Expense"]
     style A fill:#f4cccc,stroke:#333
     style B fill:#d9ead3,stroke:#333
     style C fill:#f4cccc,stroke:#333
 ```
 
-| Phase                                   | Activities                                                                                                              | Accounting Treatment    |
-| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| **1. Preliminary Project**              | Conceptual formulation, evaluating alternatives, determining technology, selecting vendors                              | **Expense as incurred** |
-| **2. Application Development**          | Coding, testing, installation of hardware/software, data conversion (to the extent needed for the software to function) | **Capitalize**          |
-| **3. Post-Implementation / Operation**  | Training, maintenance, minor bug fixes, ongoing data conversion                                                         | **Expense as incurred** |
+| Stage | Typical activities | Treatment |
+| --- | --- | --- |
+| **1. Preliminary project** | Conceptual formulation, evaluating alternatives, choosing the technology, selecting vendors | Expense as incurred |
+| **2. Application development** | Designing the chosen path, coding, installing hardware, testing (including parallel processing) | Capitalize |
+| **3. Post-implementation and operation** | Training, maintenance, minor bug fixes | Expense as incurred |
 
-:::tip[Exam Tip]
-Think of the mnemonic **P-A-P**: **P**reliminary = expense, **A**pplication development = capitalize, **P**ost-implementation = expense. Only the middle phase creates an asset.
+Capitalization **begins** when two things are true: the preliminary project stage is complete, and management with the relevant authority commits to funding the project and believes it is probable the project will be completed and the software will be used as intended. Capitalization **stops** when the software is substantially complete and ready for its intended use, which means all substantial testing is done.
+
+### Which Costs Are Capitalized
+
+Only three kinds of cost incurred during the application development stage are capitalized:
+
+1. External direct costs of materials and services, such as fees paid to consultants and the cost of purchased software.
+2. Payroll and payroll-related costs of employees who work directly on the project, to the extent of the time they spend on it.
+3. Interest cost incurred during development, under the capitalized interest rules of ASC 835-20.
+
+Several costs are expensed even when they are incurred during the application development stage. General and administrative overhead and the cost of reengineering business processes are expensed. **Data conversion** costs are expensed as well; the one exception is the cost to develop or obtain software that lets the new system access or convert old data, which is capitalized. Upgrades and enhancements are capitalized only if they add functionality the software did not have before; routine maintenance is expensed.
+
+:::warning[Common Trap]
+
+**Training costs are always expensed**, even when the training happens during the application development stage. The stage rule tells you when capitalization is possible, but only qualifying cost types are capitalized.
+
 :::
 
-### Costs That Are Capitalized (Phase 2)
+### Example: Bear Co. Builds an ERP System
 
-During the application development stage, the following costs are capitalized:
+Bear Co. incurs the following costs to develop a custom ERP system for its own use.
 
-- External direct costs of materials and services (e.g., third-party consultants, purchased software)
-- Payroll and payroll-related costs for employees **directly devoted** to the project
-- Interest costs incurred during development (if the software qualifies as a qualifying asset under ASC 835-20)
+| Cost | Amount | Stage |
+| --- | --- | --- |
+| Feasibility study and vendor evaluation | \$50,000 | Preliminary project |
+| External consultant (coding and configuration) | \$400,000 | Application development |
+| Salaries of programmers working directly on the project | \$200,000 | Application development |
+| Testing before go-live | \$80,000 | Application development |
+| Training end users | \$60,000 | Post-implementation |
+| Bug fixes and maintenance after launch | \$30,000 | Post-implementation |
 
-### Costs That Are Always Expensed
-
-- General and administrative overhead
-- Training costs (even if incurred during Phase 2)
-- Data conversion costs **unless** the conversion is necessary for the software to be capable of performing its intended function
-- Costs of re-engineering business processes
-  :::warning
-  **Training costs are never capitalized**, even when training occurs simultaneously with the application development stage. This is a frequent exam trap.
-  :::
-
-### When to Start and Stop Capitalizing
-
-| Event                                                                                                                              | Action                                    |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
-| Management authorizes and commits to funding the project **and** it is probable the project will be completed and used as intended | **Begin** capitalizing (start of Phase 2) |
-| The software is **substantially complete and ready for its intended use**                                                          | **Stop** capitalizing (start of Phase 3)  |
-
----
-
-### Example: Bear Co. Develops an Internal ERP System
-
-Bear Co. incurs the following costs developing a custom ERP system:
-| Cost | Amount | Phase |
-|------|--------|-------|
-| Feasibility study and vendor evaluation | \$50,000 | Preliminary |
-| External consultant (coding and configuration) | \$400,000 | Application Development |
-| Internal programmers' salaries (directly devoted) | \$200,000 | Application Development |
-| Testing before go-live | \$80,000 | Application Development |
-| Training end-users | \$60,000 | Post-Implementation |
-| Post-launch bug fixes and maintenance | \$30,000 | Post-Implementation |
-**Capitalized amount:**
+The three application development costs are capitalized:
 
 $$
 \$400{,}000 + \$200{,}000 + \$80{,}000 = \$680{,}000
 $$
 
-**Expensed amount:**
-
-$$
-\$50{,}000 + \$60{,}000 + \$30{,}000 = \$140{,}000
-$$
+Everything else (\$50,000 + \$60,000 + \$30,000 = \$140,000) is expensed.
 
 ```journal
 Dr. Software (Internal Use)[a] 680,000
 Dr. Software Development Expense 140,000
-    Cr. Cash[a] 820,000
+Cr. Cash[a] 820,000
 ```
 
----
+### Amortization
 
-### Amortization of Internal-Use Software
+Amortization begins when the software is ready for its intended use, whether or not it has actually been placed in service. Internal-use software is amortized on a **straight-line basis** over its estimated useful life.
 
-Once the software is **substantially complete and ready for its intended use**, it is amortized on a **straight-line basis** over its estimated useful life. Residual value is typically **zero** unless a third-party commitment to purchase exists.
-
-$$
-\text{Annual Amortization} = \frac{\text{Capitalized Cost} - \text{Residual Value}}{\text{Estimated Useful Life}}
-$$
-
-### Example: Bear Co. ERP Amortization
-
-Bear Co.'s ERP system (capitalized at \$680,000) is placed in service on January 1, Year 1. The estimated useful life is 5 years with no residual value.
-
-$$
-\text{Annual Amortization} = \frac{\$680{,}000}{5} = \$136{,}000
-$$
+Bear Co.'s ERP system (\$680,000) is ready for use on January 1, Year 1. Its estimated useful life is 5 years with no residual value, so annual amortization is \$680,000 / 5 = \$136,000.
 
 ```journal
+Dec 31, Year 1
 Dr. Amortization Expense 136,000
-    Cr. Accumulated Amortization (Software)[ca] 136,000
+Cr. Accumulated Amortization (Software)[ca] 136,000
 ```
 
----
+### Impairment and Abandonment
 
-### Impairment of Internal-Use Software
+Internal-use software is a finite-lived asset, so it is tested for impairment under the **ASC 360** model for long-lived assets held and used. The test runs only when events suggest the carrying amount may not be recoverable, for example when the software is no longer expected to provide substantive service or when its use changes significantly. It has two steps:
 
-Internal-use software is a **finite-lived intangible asset** and follows the **ASC 360 two-step impairment model** for long-lived assets:
+1. **Recoverability.** Compare the carrying amount with the **undiscounted** future cash flows expected from the asset. If the carrying amount is higher, the asset is impaired.
+2. **Measurement.** The impairment loss is the carrying amount minus **fair value**.
 
-1. **Recoverability test**: Compare the asset's carrying amount to the **undiscounted future cash flows** expected from the asset. If carrying amount exceeds undiscounted cash flows, proceed to Step 2.
-2. **Measurement**: Impairment loss equals the amount by which the carrying amount exceeds the asset's **fair value**.
-   $$
-   \text{Impairment Loss} = \text{Carrying Amount} - \text{Fair Value}
-   $$
-   :::warning
-   Do **not** confuse the internal-use software impairment model (ASC 360, two-step for finite-lived assets) with the goodwill impairment model (ASC 350-20, one-step at the reporting-unit level). The exam may test both in the same problem set.
-   :::
-
-### Example: Bear Co. Software Impairment
-
-Bear Co. has internal-use software with a carrying amount of \$420,000. Due to a shift in business strategy, the software's expected undiscounted future cash flows are \$350,000 and its fair value is \$300,000.
-**Step 1: Recoverability test.**
-Carrying amount (\$420,000) > Undiscounted cash flows (\$350,000), so **impairment exists**.
-**Step 2: Measure the loss.**
-
-$$
-\text{Impairment Loss} = \$420{,}000 - \$300{,}000 = \$120{,}000
-$$
+Suppose Bear Co. later changes strategy. The ERP system has a carrying amount of \$420,000, expected undiscounted cash flows of \$350,000, and a fair value of \$300,000. Because \$420,000 exceeds \$350,000, the asset fails the recoverability test, and the loss is \$420,000 - \$300,000 = \$120,000.
 
 ```journal
 Dr. Impairment Loss 120,000
-    Cr. Accumulated Amortization (Software)[ca] 120,000
+Cr. Accumulated Amortization (Software)[ca] 120,000
 ```
 
-After the write-down, the software is carried at its new basis of **\$300,000** and amortized over its remaining useful life. The impairment loss is **never reversed** under U.S. GAAP.
+The \$300,000 becomes the new cost basis and is amortized over the remaining useful life. The loss is never reversed. Keep this two-step model separate from the goodwill test in ASC 350-20, which is a single comparison of a reporting unit's fair value with its carrying amount.
 
-### Abandonment
-
-If management decides to **abandon** the software project before it is placed in service, any capitalized costs are written off immediately as a loss.
-
-### Example: Polar Inc. Abandons a Software Project
-
-Polar Inc. capitalized \$250,000 during the application development stage of an internal-use software project. The project is subsequently abandoned.
+If a project is **abandoned** before the software is ready for use, the capitalized costs are written off, because uncompleted software is presumed to have no fair value. Polar Inc., for example, had capitalized \$250,000 on a project it abandons:
 
 ```journal
 Dr. Loss on Abandoned Software 250,000
-    Cr. Software (Internal Use)[a] 250,000
+Cr. Software (Internal Use)[a] 250,000
 ```
+
+:::note[Coming change: ASU 2025-06]
+
+ASU 2025-06 (issued September 2025) removes the project stages from ASC 350-40. Under the new model, capitalization starts when management has authorized and committed to funding the project and it is probable the project will be completed and the software will perform its intended function. That threshold is not met while significant development uncertainty remains, such as unresolved novel features. The ASU is effective for annual periods beginning after December 15, 2027, and is eligible for testing starting January 1, 2028. Through December 31, 2027, the three-stage model in this chapter is the tested rule.
+
+:::
 
 ---
 
-## Part 2: Software Developed for Sale (ASC 985-20)
+## Part 2: Software to Be Sold, Leased, or Marketed (ASC 985-20)
 
-### Scope
+### Scope and Technological Feasibility
 
-ASC 985-20 applies to software that a company develops (or purchases and modifies) with the intent to **sell, lease, or otherwise market** externally.
+ASC 985-20 applies to software a company develops (or buys and modifies) with the intent to **sell, lease, or otherwise market** it. The central milestone is **technological feasibility**: the point at which the company has shown that the product can be built to meet its design specifications. Every cost incurred before that point is research and development under ASC 730 and is expensed.
 
-### Key Concept: Technological Feasibility
+Technological feasibility is established when the company has completed either:
 
-The central milestone under ASC 985-20 is **technological feasibility**. All costs incurred **before** technological feasibility is established are treated as **research and development** and expensed as incurred.
-Technological feasibility is established when the entity has completed either:
+- a **detailed program design**, or
+- if it does not use a detailed program design, a **working model** that has been tested and confirmed to be consistent with the product design.
 
-- A **detailed program design** (for entities using a detailed-design approach), or
-- A **working model** that has been tested and confirmed to be complete (for entities using a working-model approach)
+Capitalization then continues until the product is **available for general release** to customers. Costs after general release are expensed, and amortization of the capitalized amount begins.
 
 ```mermaid
 graph LR
-    A["R&D Phase<br/>(Before Tech Feasibility)"] --> B["Tech Feasibility<br/>Established"]
-    B --> C["Capitalization Phase<br/>(After Tech Feasibility)"]
-    C --> D["Product Available<br/>for General Release"]
-    D --> E["Amortization<br/>Begins"]
+    A["Before technological<br/>feasibility<br/>Expense as R&D"] --> B["Feasibility to<br/>general release<br/>Capitalize"]
+    B --> C["After general<br/>release<br/>Amortize"]
     style A fill:#f4cccc,stroke:#333
-    style B fill:#fff2cc,stroke:#333
-    style C fill:#d9ead3,stroke:#333
-    style D fill:#fff2cc,stroke:#333
-    style E fill:#cfe2f3,stroke:#333
+    style B fill:#d9ead3,stroke:#333
+    style C fill:#cfe2f3,stroke:#333
 ```
 
-| Timing                                                                                      | Accounting Treatment                        |
-| ------------------------------------------------------------------------------------------- | ------------------------------------------- |
-| **Before** technological feasibility                                                        | **Expense** as R&D (ASC 730)                |
-| **After** technological feasibility but **before** product is available for general release | **Capitalize**                              |
-| **After** general release                                                                   | Amortization begins; ongoing costs expensed |
+In practice, many companies reach technological feasibility only at the working-model stage, very close to release, so little is capitalized. On the exam, your job is to place each cost on the correct side of the two milestones.
 
-:::tip[Exam Tip]
-In practice, many companies establish technological feasibility very late in the process (at the working-model stage), which means nearly all costs are expensed as R&D. For the exam, focus on which side of the technological-feasibility line each cost falls on.
-:::
+### Which Costs Are Capitalized
 
-### Costs That Are Capitalized (After Tech Feasibility)
+Between technological feasibility and general release, the costs of producing the **product masters** are capitalized. A product master is the completed version of the software, documentation, and training materials, ready for copying. Coding and testing done after technological feasibility are part of this cost.
 
-- Coding and testing costs
-- Costs of producing product masters (documentation, packaging)
+Three kinds of cost are not capitalized as software:
 
-### Costs That Are Always Expensed
+- Costs before technological feasibility are research and development expense.
+- Costs of **duplicating** the software, documentation, and training materials from the product masters, and of **physically packaging** the product, are inventory costs. They become cost of sales when the units are sold.
+- **Maintenance and customer support** after release are expensed.
 
-- All costs before technological feasibility (research and development)
-- Costs of **maintenance and customer support** after general release
-- Costs of **duplicating** the software for customers (inventory cost, not software cost)
+### Example: Bear Co. Develops Tax Software for Sale
 
----
+Bear Co. develops a tax preparation product and incurs these costs:
 
-### Example: Bear Co. Develops Software for Sale
-
-Bear Co. develops a new tax preparation software product. The following costs are incurred:
 | Cost | Amount | Timing |
-|------|--------|--------|
-| Market research and concept design | \$100,000 | Before tech feasibility |
-| Coding (initial prototype and testing) | \$300,000 | Before tech feasibility |
-| Completion of working model (tech feasibility established) | N/A | Milestone |
-| Coding and testing after working model | \$200,000 | After tech feasibility |
-| Production of product masters | \$40,000 | After tech feasibility |
-| Product available for general release | N/A | Milestone |
-| Duplication and packaging for customers | \$25,000 | After general release |
-| Post-release customer support | \$50,000 | After general release |
-**R&D expense (before tech feasibility):**
+| --- | --- | --- |
+| Market research and concept design | \$100,000 | Before technological feasibility |
+| Coding and testing of an early prototype | \$300,000 | Before technological feasibility |
+| *Working model completed (technological feasibility)* | | *Milestone* |
+| Coding and testing after the working model | \$200,000 | Before general release |
+| Final documentation and training materials | \$40,000 | Before general release |
+| *Product available for general release* | | *Milestone* |
+| Duplicating and packaging copies for customers | \$25,000 | After general release |
+| Customer support | \$50,000 | After general release |
 
-$$
-\$100{,}000 + \$300{,}000 = \$400{,}000
-$$
-
-**Capitalized software cost:**
-
-$$
-\$200{,}000 + \$40{,}000 = \$240{,}000
-$$
-
-**Expensed after general release:**
-
-$$
-\$25{,}000 + \$50{,}000 = \$75{,}000
-$$
+The two costs before the working model (\$400,000) are R&D expense. The two costs between the milestones (\$240,000) are capitalized. Duplication and packaging (\$25,000) go to inventory, and customer support (\$50,000) is expensed.
 
 ```journal
 Dr. Research and Development Expense 400,000
 Dr. Capitalized Software Costs[a] 240,000
-Dr. Cost of Sales 25,000
+Dr. Inventory[a] 25,000
 Dr. Customer Support Expense 50,000
-    Cr. Cash[a] 715,000
+Cr. Cash[a] 715,000
 ```
 
----
+### Amortization
 
-### Amortization of Software for Sale
+Amortization begins when the product is available for general release. Each year, amortization is the **greater of** two amounts:
 
-Once the product is **available for general release** to customers, the capitalized cost is amortized each period using the **greater of**:
-
-1. **Revenue-based ratio**: the ratio of current-period revenue to total expected revenue over the product's life, applied to the capitalized cost.
-2. **Straight-line**: capitalized cost divided by the estimated economic life of the product.
-   $$
-   \text{Amortization} = \max\!\left(\text{Capitalized Cost} \times \frac{\text{Current Period Revenue}}{\text{Total Expected Revenue}},\;\frac{\text{Capitalized Cost}}{\text{Economic Life}}\right)
-   $$
-
-### Example: Bear Co. Software Amortization (Year 1)
-
-Bear Co.'s capitalized software cost is \$240,000. The product has an estimated economic life of 4 years. Total expected revenue over the product's life is \$1,200,000. Year 1 revenue is \$480,000.
-**Revenue-based amount:**
+1. **Revenue-based:** the unamortized cost at the start of the year times the ratio of current-year gross revenue to the total of current and expected future gross revenue.
+2. **Straight-line:** the unamortized cost at the start of the year divided by the remaining estimated economic life (including the current year).
 
 $$
-\$240{,}000 \times \frac{\$480{,}000}{\$1{,}200{,}000} = \$240{,}000 \times 0.40 = \$96{,}000
+\text{Amortization} = \max\left(\text{Unamortized cost} \times \frac{\text{Current revenue}}{\text{Current + future revenue}},\; \frac{\text{Unamortized cost}}{\text{Remaining life}}\right)
 $$
 
-**Straight-line amount:**
+The straight-line amount acts as a floor, so the asset is never amortized more slowly than evenly over its life. When a product earns most of its revenue early, the revenue-based amount wins.
 
-$$
-\frac{\$240{,}000}{4} = \$60{,}000
-$$
+Continuing the example, Bear Co.'s \$240,000 of capitalized cost has a 4-year economic life. At release, it expects total revenue of \$1,200,000. Actual revenue is \$480,000 in Year 1 and \$360,000 in Year 2, and the estimate of total revenue does not change.
 
-**Amortization = greater of \$96,000 and \$60,000 = \$96,000**
+| | Year 1 | Year 2 |
+| --- | --- | --- |
+| Unamortized cost, beginning of year | \$240,000 | \$144,000 |
+| Revenue ratio | \$480,000 / \$1,200,000 = 40% | \$360,000 / \$720,000 = 50% |
+| Revenue-based amount | \$96,000 | \$72,000 |
+| Straight-line amount | \$240,000 / 4 = \$60,000 | \$144,000 / 3 = \$48,000 |
+| **Amortization (greater)** | **\$96,000** | **\$72,000** |
+| Unamortized cost, end of year | \$144,000 | \$72,000 |
+
+In Year 2 the denominator is the \$720,000 of revenue still expected at the start of the year (\$1,200,000 - \$480,000), and the straight-line amount spreads the remaining cost over the remaining 3 years. Working from the unamortized balance this way keeps total amortization equal to the capitalized cost. The Year 1 entry:
 
 ```journal
+Dec 31, Year 1
 Dr. Amortization Expense 96,000
-    Cr. Accumulated Amortization (Software)[ca] 96,000
+Cr. Accumulated Amortization (Software)[ca] 96,000
 ```
 
-:::tip[Exam Tip]
-The "greater-of" rule ensures that amortization is **at least** the straight-line amount. When a product earns most of its revenue in early years, the revenue-based method will dominate. In later years the straight-line floor kicks in.
-:::
+### Impairment: The Net Realizable Value Test
 
----
+At **each balance sheet date**, the company compares the unamortized capitalized cost with the product's **net realizable value (NRV)**: the estimated future gross revenue from the product, minus the estimated future costs of completing and disposing of it (including maintenance and customer support). Any excess of cost over NRV is written off. The reduced amount becomes the new cost basis and is not written back up later.
 
-### Impairment of Software for Sale: NRV Test
-
-At **each balance sheet date**, the entity compares the **unamortized capitalized cost** (carrying amount) to the **net realizable value (NRV)** of the software product. NRV is the estimated future gross revenue from the product less the estimated future costs of completing and disposing of the product.
-
-$$
-\text{Write-Down} = \text{Unamortized Cost} - \text{NRV} \quad (\text{if NRV} < \text{Unamortized Cost})
-$$
-
-Any write-down is charged to cost of sales or a separate line item and **cannot be reversed**.
-
-### Example: Polar Inc. Software NRV Impairment
-
-Polar Inc. has a software product with an unamortized capitalized cost of \$180,000. Due to a competitor releasing a superior product, Polar Inc. estimates the remaining gross revenue at \$200,000 and the remaining costs to complete and sell at \$90,000.
-
-$$
-\text{NRV} = \$200{,}000 - \$90{,}000 = \$110{,}000
-$$
-
-$$
-\text{Write-Down} = \$180{,}000 - \$110{,}000 = \$70{,}000
-$$
+Polar Inc. has a software product with unamortized capitalized cost of \$180,000. After a competitor releases a better product, Polar Inc. expects \$200,000 of remaining revenue and \$90,000 of remaining costs. NRV is \$200,000 - \$90,000 = \$110,000, so the write-down is \$180,000 - \$110,000 = \$70,000.
 
 ```journal
 Dr. Loss on Software Write-Down 70,000
-    Cr. Capitalized Software Costs[a] 70,000
-```
-
-After the write-down, the software is carried at **\$110,000**. This new basis is amortized over the remaining economic life and is **not** written back up.
-
-## Side-by-Side Comparison
-
-| Feature                      | Internal Use (ASC 350-40)                     | For Sale (ASC 985-20)                     |
-| ---------------------------- | --------------------------------------------- | ----------------------------------------- |
-| **Capitalize starting when** | Application development stage begins          | Technological feasibility is established  |
-| **Capitalize ending when**   | Software is ready for intended use            | Product is available for general release  |
-| **Amortization method**      | Straight-line                                 | Greater of revenue-based or straight-line |
-| **Amortization begins**      | When ready for intended use                   | When available for general release        |
-| **Impairment model**         | ASC 360: recoverability test, then fair value | NRV test each period                      |
-| **Impairment reversal**      | Not allowed                                   | Not allowed                               |
-| **Training costs**           | Always expensed                               | N/A                                       |
-| **Costs before threshold**   | Preliminary stage: expensed                   | Before tech feasibility: R&D expense      |
-
----
-
-## Financial Statement Presentation and Disclosure
-
-| Item                                 | Presentation                                                                           |
-| ------------------------------------ | -------------------------------------------------------------------------------------- |
-| **Internal-use software**            | Reported within **intangible assets** or **property & equipment** on the balance sheet |
-| **Software for sale (capitalized)**  | Reported within **other assets** or as a separate intangible line item                 |
-| **Amortization, internal use**       | Classified based on the function the software supports (e.g., SG&A, cost of sales)     |
-| **Amortization, for sale**           | Classified as **cost of sales**                                                        |
-| **Impairment losses**                | Reported within operating income                                                       |
-| **R&D costs (pre-tech-feasibility)** | Expensed and disclosed as R&D                                                          |
-
----
-
-## Comprehensive Multi-Year Example: Bear Co. Software for Sale
-
-Bear Co. develops a cloud-based auditing tool for sale to accounting firms. The following timeline applies:
-| Event | Date |
-|-------|------|
-| Project begins (concept & planning) | Jan 1, Year 1 |
-| Technological feasibility established | Jul 1, Year 1 |
-| Product available for general release | Jan 1, Year 2 |
-
-### Cost Summary
-
-| Period                            | Costs Incurred | Treatment   |
-| --------------------------------- | -------------- | ----------- |
-| Jan 1 to Jun 30, Year 1           | \$500,000      | R&D expense |
-| Jul 1 to Dec 31, Year 1           | \$300,000      | Capitalize  |
-| Year 2 (post-release maintenance) | \$60,000       | Expense     |
-
-**Capitalized software cost = \$300,000**
-
-### Amortization Data
-
-- Estimated economic life: 3 years
-- Expected total revenue: \$900,000
-
-| Year      | Revenue       | Revenue Ratio | Revenue-Based | Straight-Line | Amortization  | Unamortized Balance |
-| --------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------------- |
-| 2         | \$450,000     | 50.0%         | \$150,000     | \$100,000     | **\$150,000** | \$150,000           |
-| 3         | \$300,000     | 33.3%         | \$100,000     | \$100,000     | **\$100,000** | \$50,000            |
-| 4         | \$150,000     | 16.7%         | \$50,000      | \$100,000     | **\$50,000**  | \$0                 |
-| **Total** | **\$900,000** |               |               |               | **\$300,000** |                     |
-
-:::warning
-Notice that the total amortization (\$350,000) exceeds the capitalized cost (\$300,000) when computed independently. In practice, amortization stops once the asset is fully amortized. Year 4 amortization would be limited to the remaining unamortized balance of **\$50,000**, not \$100,000. Always check the remaining carrying amount before recording amortization.
-:::
-**Corrected Year 4 entry:**
-
-$$
-\text{Year 4 Amortization} = \$300{,}000 - \$150{,}000 - \$100{,}000 = \$50{,}000
-$$
-
-```journal
-Dr. Amortization Expense 50,000
-    Cr. Accumulated Amortization (Software)[ca] 50,000
+Cr. Capitalized Software Costs[a] 70,000
 ```
 
 ---
+
+## Presentation
+
+Capitalized internal-use software is reported with intangible assets or with property and equipment, and its amortization follows the function the software supports (for example, selling and administrative expense). Capitalized software to be sold is usually a separate noncurrent asset, and its amortization is charged to cost of sales or a similar expense. Impairment losses are reported in operating income, and costs incurred before technological feasibility are included in R&D expense.
 
 ## Summary
 
-| Question                          | Internal Use (ASC 350-40)                                                       | For Sale (ASC 985-20)                                                       |
-| --------------------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| **When do I start capitalizing?** | Application development stage begins (management commits, feasibility probable) | Technological feasibility is established (detailed design or working model) |
-| **When do I stop capitalizing?**  | Software is substantially complete and ready for intended use                   | Product is available for general release to customers                       |
-| **What do I capitalize?**         | Direct external and internal costs during application development               | Coding, testing, and product-master costs after tech feasibility            |
-| **How do I amortize?**            | Straight-line over useful life                                                  | Greater of revenue-based ratio or straight-line                             |
-| **How do I test for impairment?** | ASC 360 two-step (recoverability then fair value)                               | NRV test each reporting period                                              |
-| **Can I reverse impairment?**     | No                                                                              | No                                                                          |
+| Question | Internal use (ASC 350-40) | For sale (ASC 985-20) |
+| --- | --- | --- |
+| When does capitalization start? | Preliminary stage complete, management commits to funding, completion is probable | Technological feasibility (detailed program design or working model) |
+| When does it stop? | Software is substantially complete and ready for intended use | Product is available for general release |
+| What is capitalized? | External direct costs, direct payroll, and interest during application development | Costs of the product masters, including coding and testing after feasibility |
+| What is always expensed? | Preliminary stage costs, training, overhead, data conversion | Costs before feasibility (R&D), maintenance and support |
+| How is it amortized? | Straight-line over useful life | Greater of revenue-based or straight-line, applied to the unamortized cost |
+| How is impairment tested? | ASC 360: recoverability, then fair value, when indicators exist | NRV test at each balance sheet date |
+| Can impairment be reversed? | No | No |
 
-:::info
-**Key takeaway:** The critical distinction is **purpose**. If the software is built for the company's own use, follow ASC 350-40 and capitalize during the application development stage. If the software is built to sell, follow ASC 985-20 and capitalize only after technological feasibility. Both frameworks prohibit capitalizing early-stage costs and require impairment testing, but they use different impairment models and different amortization methods.
-:::
+The deciding question is always **purpose**. Software built for the company's own use follows ASC 350-40 and is capitalized during application development. Software built to sell follows ASC 985-20 and is capitalized only after technological feasibility.
