@@ -123,7 +123,7 @@ The allocation between income and corpus is governed by the **trust instrument f
 
 :::
 
-> **Example:** The Bear Family Trust receives \$60,000 of interest income, \$20,000 of dividend income, and a \$35,000 long-term capital gain during the year. The trust instrument allocates capital gains to corpus and requires all income to be distributed to beneficiary Dana. Accounting income = \$60,000 + \$20,000 = **\$80,000**. The \$35,000 capital gain is allocated to corpus.
+> **Example:** The Bear Family Trust receives \$60,000 of interest income, \$20,000 of dividend income, and a \$35,000 long-term capital gain during the year. The trust instrument allocates capital gains to corpus and requires all income to be distributed currently to beneficiary Dana, so it is a simple trust. Accounting income = \$60,000 + \$20,000 = **\$80,000**. The \$35,000 capital gain is allocated to corpus.
 
 ### Distributable Net Income (DNI)
 
@@ -150,7 +150,7 @@ The key adjustment to remember: capital gains allocable to **corpus** are genera
 
 :::
 
-> **Example:** The Bear Family Trust has the following items:
+> **Example:** The Kodiak Family Trust, a complex trust, has the following items:
 
 | Item | Amount |
 |---|---|
@@ -188,7 +188,14 @@ $$\text{Trust Taxable Income} = \text{Gross Income} - \text{Deductions} - \text{
 
 For a **simple trust** that distributes all income, the taxable income is typically limited to capital gains allocated to corpus (since all other income flows through to beneficiaries via the income distribution deduction).
 
-> **Example:** Using the Bear Family Trust from above, accounting income of \$80,000 is distributed to Dana. The income distribution deduction equals DNI (excluding tax-exempt income). If DNI is \$80,000 and tax-exempt income in DNI is \$9,000, the income distribution deduction = \$80,000 - \$9,000 = **\$71,000**. The trust's taxable income includes the \$35,000 capital gain (allocated to corpus and not distributed) minus fees allocable to corpus and the exemption.
+> **Example:** Return to the Bear Family Trust, the simple trust above, which distributes its \$80,000 of accounting income to Dana. It has no tax-exempt income or expenses.
+>
+> - Taxable income before the distribution deduction: \$60,000 + \$20,000 + \$35,000 - \$300 exemption = \$114,700
+> - DNI: \$114,700 + \$300 exemption - \$35,000 capital gain allocated to corpus = **\$80,000**
+> - Income distribution deduction: lesser of the \$80,000 required distribution or the \$80,000 DNI = **\$80,000**
+> - Trust taxable income: \$115,000 - \$80,000 - \$300 = **\$34,700**, which is the capital gain less the exemption
+>
+> Dana reports the \$60,000 of interest and \$20,000 of dividends.
 
 ### Character of Distributions to Beneficiaries
 
@@ -201,12 +208,15 @@ Distributions from a trust carry out a **proportionate share** of each type of i
 | Tax-exempt interest | Tax-exempt / total DNI |
 | Rental income | Rental / total DNI |
 
-> **Example:** If the Bear Family Trust distributes \$60,000 to beneficiary Sam and DNI is \$80,000 (composed of \$50,000 interest, \$21,000 dividends, and \$9,000 tax-exempt interest), Sam's distribution carries out:
+> **Example:** The Kodiak Family Trust from the DNI example distributes \$60,000 to beneficiary Sam. Its \$80,000 of DNI consists of \$50,000 of interest, \$21,000 of dividends (the trustee charged the \$9,000 of deductible fees against dividends), and \$9,000 of tax-exempt interest net of its allocable fees. Sam's distribution carries out:
+>
 > - Interest: \$60,000 × (\$50,000 / \$80,000) = **\$37,500**
 > - Dividends: \$60,000 × (\$21,000 / \$80,000) = **\$15,750**
 > - Tax-exempt interest: \$60,000 × (\$9,000 / \$80,000) = **\$6,750**
 
 Sam includes \$37,500 + \$15,750 = **\$53,250** in taxable income and excludes the \$6,750 of tax-exempt interest.
+
+The trust's income distribution deduction matches what Sam reports: the lesser of the \$60,000 distributed or the \$80,000 DNI, reduced by the \$6,750 of tax-exempt interest carried out, is **\$53,250**. The trust's taxable income is \$95,900 - \$53,250 = **\$42,650**. That is the \$25,000 capital gain plus the \$17,750 of undistributed taxable interest and dividends, less the \$100 exemption.
 
 ### Specific Deduction Rules for Trusts
 
