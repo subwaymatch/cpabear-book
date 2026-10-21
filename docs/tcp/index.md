@@ -6,153 +6,119 @@ title: TCP
 
 # Tax Compliance and Planning (TCP)
 
-Welcome to the **Tax Compliance and Planning** section of the CPA Bear Book. TCP is one of three discipline sections on the CPA exam, and it is designed for candidates who want to demonstrate advanced competency in **U.S. federal tax compliance, tax planning for individuals and entities, personal financial planning, and property transactions**. The TCP exam focuses on the knowledge and skills that newly licensed CPAs need to prepare and review tax returns involving nonroutine and higher-complexity transactions, evaluate the tax implications of proposed transactions, and advise clients on tax planning and personal financial planning strategies.
+Tax Compliance and Planning (TCP) is the Discipline section for candidates who want to go deeper into federal tax. REG teaches the core rules. TCP asks you to use them the way a tax adviser does: preparing and reviewing returns that contain nonroutine transactions, working out the tax effect of a deal before the client signs, and spotting personal financial planning opportunities while you review an individual's return. This page explains what the blueprint tests, which version of the tax law applies, and how the chapters are organized.
 
-Whether you are calculating the passive activity loss limitation for a client with multiple rental properties, deriving the tax implications of a C corporation's noncash property distribution to its shareholders, or preparing a schedule that compares retirement plan options for **Bear Co.**'s owner, the material in this section prepares you to handle it all.
+TCP is one of three Discipline sections, along with BAR (Business Analysis and Reporting) and ISC (Information Systems and Controls). Every candidate passes the three Core sections (AUD, FAR, and REG) plus one Discipline section of their choice.
 
 :::info[Exam Structure]
 
-The TCP exam is **4 hours** long and contains **68 multiple-choice questions (MCQs)** and **7 task-based simulations (TBSs)**. It is one of three discipline sections, alongside BAR (Business Analysis and Reporting) and ISC (Information Systems and Controls), from which candidates choose one to complete their CPA licensure.
+The TCP exam is **4 hours** long and contains **68 multiple-choice questions (MCQs)** and **7 task-based simulations (TBSs)**.
 
 :::
 
 ---
 
-## Content Areas and Exam Weights
+## What the 2027 Blueprint Covers
 
-The AICPA Blueprint organizes the TCP exam into four content areas:
+The TCP material in this book follows the **2027 CPA Exam Blueprints**, which take effect on January 1, 2027. The AICPA made no revisions to TCP for 2027, so the structure, representative tasks, and weights are the same as in the 2026 blueprint. TCP is organized into four content areas:
 
 | Content Area | Description | Approximate Weight |
 |---|---|---|
-| **I. Tax Compliance and Planning for Individuals and Personal Financial Planning** | Individual tax compliance for nonroutine transactions, tax planning strategies, passive activity and at-risk loss limitations, gift taxation, and personal financial planning | 30-40% |
-| **II. Entity Tax Compliance** | C corporation, S corporation, partnership, trust, and tax-exempt organization compliance for nonroutine transactions | 30-40% |
-| **III. Entity Tax Planning** | Formation and liquidation of entities, and tax planning for C corporations, S corporations, and partnerships | 10-20% |
-| **IV. Property Transactions (disposition of assets)** | Nontaxable dispositions, gains and losses on asset disposition, and related party transactions | 10-20% |
+| **I. Tax Compliance and Planning for Individuals and Personal Financial Planning** | Nonroutine individual compliance, year-end and multiyear planning, passive activity and at-risk loss limitations, gift taxation, and personal financial planning | 30-40% |
+| **II. Entity Tax Compliance** | Nonroutine compliance for C corporations, S corporations, partnerships, trusts, and tax-exempt organizations | 30-40% |
+| **III. Entity Tax Planning** | Formation and liquidation of entities, and planning for C corporations, S corporations, and partnerships | 10-20% |
+| **IV. Property Transactions (disposition of assets)** | Nontaxable dispositions, the amount and character of gains and losses, and related party transactions | 10-20% |
 
-The exam also emphasizes the following skill levels:
+The blueprint also weights questions by skill level. TCP tests the first three levels and not the highest, Evaluation:
 
-| Skill Level | Weight |
+| Skill Level | Approximate Weight |
 |---|---|
-| Analysis | 25-35% |
-| Application | 55-65% |
 | Remembering and Understanding | 5-15% |
+| Application | 55-65% |
+| Analysis | 25-35% |
+| Evaluation | Not tested in TCP |
 
-:::warning[Content Weights May Shift]
+:::note[Testing in 2026?]
 
-The AICPA periodically updates the CPA Exam Blueprint. Always verify the latest version at **aicpa.org** before finalizing your study plan. The weights above reflect the 2026 Blueprint.
+You can use this book as is. The TCP blueprint did not change for 2027, and the tax law tested in late 2026 is the same law this book teaches: the Internal Revenue Code as amended by the One Big Beautiful Bill Act.
 
 :::
+
+For a section-by-section summary of what changed in the other sections, see the [2027 blueprint guide](/blueprint/2027). The official blueprints are on the AICPA's website at **aicpa-cima.com**.
+
+---
+
+## Which Tax Law Is Tested
+
+The **One Big Beautiful Bill Act** (OBBBA, P.L. 119-21), signed July 4, 2025, made most of the individual provisions of the 2017 Tax Cuts and Jobs Act (TCJA) permanent and added several new ones. The rates, the larger standard deduction, the \$750,000 mortgage debt limit, and the qualified business income deduction no longer expire after 2025. This book teaches that current law.
+
+The AICPA set a special testing rule for OBBBA. Provisions with effective dates in 2024 or 2025 (including "tax years beginning after December 31, 2025") became eligible for testing in REG and TCP on **July 1, 2026**. Every other provision becomes eligible in the calendar quarter that begins six months after its effective date, the same timing that applies to other changes in the Code. The old rules that were scheduled to expire after 2025 stopped being tested on June 30, 2026. Where a later-effective change matters, the chapter says when it becomes testable.
+
+The blueprint adds three assumptions that shape how questions are written:
+
+1. **No memorizing indexed amounts.** You are not tested on rates, amounts, or limits that are indexed to inflation. When one matters, the question gives it to you. This book shows an indexed amount only when it helps an example, and labels it with its year. Amounts fixed in the statute, such as the \$3,000 capital loss limit or the \$25,000 rental loss allowance, can be tested.
+2. **Wages exclude tips and overtime.** A reference to an individual's wages or compensation does not include overtime or tips unless the question says so.
+3. **Current year unless dated.** Unless a question gives dates, assume the transaction happened in the current year and apply the most recent law. Questions where timing matters, such as net operating losses, give real dates.
 
 ---
 
 ## What This Section Covers
 
-### Area I: Tax Compliance and Planning for Individuals and Personal Financial Planning (30-40%)
+### Area I: Individuals and Personal Financial Planning (30-40%)
 
-This is the largest content area and focuses on individual federal tax compliance, tax planning, and personal financial planning. You are expected to handle nonroutine compliance issues and advise clients on strategies to minimize tax liability and plan for their financial future.
+This is the largest area. It covers nonroutine individual compliance and the planning advice a CPA gives while reviewing a return.
 
-- **Individual Compliance and Tax Planning**: the impact of equity compensation awards (incentive stock options, nonqualified stock options, restricted stock) on taxable income, Alternative Minimum Tax (AMT) considerations, the tax on a child's unearned income (kiddie tax), imputed interest on below-market loans, income earned outside the U.S., flexible spending accounts (FSAs), health savings accounts (HSAs), the standard deduction vs. itemized deductions, estimated tax payments and underpayment penalties, charitable contributions of noncash property, and year-end tax planning strategies to accelerate or defer income and deductions.
-- **Passive Activity and At-Risk Loss Limitations**: the at-risk loss limitation under IRC §465 including losses from pass-through entities and real estate rental activities with active participation, passive activity loss limitations under IRC §469 including the netting of passive gains and losses, the utilization of suspended losses on disposition of a passive activity, and the review of basis schedules and supporting documentation for pass-through entities to verify proper loss allocation.
-- **Gift Taxation Compliance and Planning**: the annual gift tax exclusion, the marital deduction, the unified transfer tax system and unified credit, calculation of taxable gifts for federal gift tax purposes, and planning strategies for gifting noncash property to minimize the donor's future estate.
-- **Personal Financial Planning**: qualified retirement plans (traditional IRAs, Roth IRAs, 401(k)s, annuities, employer-sponsored plans), investment risk assessment for equity securities, corporate bonds, and municipal bonds, education funding (qualified tuition programs, student loans, grants, scholarships), insurance for risk mitigation (life, long-term care, umbrella policies), legal ownership of assets and beneficiary designations, and calculating return on investment net of tax impact.
-
-:::tip[Area I Strategy]
-
-Area I rewards candidates who can apply tax rules to specific client scenarios. The exam will present situations where you must calculate a specific tax consequence (such as the suspended passive loss released on a fully taxable disposition) and recommend a planning strategy. Practice working through multi-step calculations and connecting the compliance rules to their planning implications.
-
-:::
+- **[Individual Compliance and Tax Planning](/tcp/individual-compliance-and-tax-planning)**: equity compensation, the alternative minimum tax (AMT), the kiddie tax, imputed interest, income earned abroad, FSAs and HSAs, itemizing versus the standard deduction, estimated taxes, gifts of noncash property, and year-end planning around changing law.
+- **[Passive Activity and At-Risk Loss Limitations](/tcp/passive-activity-and-at-risk-loss-limitations)**: the basis, at-risk, passive activity, and excess business loss limits, and the release of suspended losses when an activity is sold.
+- **[Gift Taxation](/tcp/gift-taxation)**: the annual exclusion, the marital deduction, the unified credit, and choosing which property to give.
+- **[Personal Financial Planning](/tcp/personal-financial-planning)**: retirement plans, investment risk and after-tax returns, education funding, insurance, and how ownership and beneficiary designations affect an estate.
 
 ### Area II: Entity Tax Compliance (30-40%)
 
-This area tests your knowledge of nonroutine federal tax compliance issues for C corporations, S corporations, partnerships, trusts, and tax-exempt organizations. The focus is on transactions between entities and their owners, basis adjustments, and specialized compliance rules.
-
-- **C Corporations**: net operating loss and capital loss utilization (including limitations on NOL usage after ownership changes), transactions between shareholders and C corporations (contributions of noncash property, nonliquidating and liquidating distributions, shareholder loans and imputed interest), consolidated tax returns (requirements for filing consolidated Form 1120, intercompany transaction eliminations), and international tax issues (income sourcing for U.S. and foreign corporations, controlled foreign corporations, permanent establishment, and the distinction between foreign branches and foreign subsidiaries).
-- **S Corporations**: calculating shareholder stock and debt basis, transactions between shareholders and S corporations (contributions and distributions of noncash property, liquidating distributions), and allocation of income and loss after the sale of a shareholder's ownership interest.
-- **Partnerships**: calculating partner basis (including the impact of recourse and nonrecourse debt), partner and partnership elections (partnership tax year, basis adjustments), transactions between partners and partnerships (services performed by a partner, contributions and distributions of noncash property, liquidating distributions), and ownership changes (allocation of income/loss after the sale of a partner's interest, revised basis of partnership assets).
-- **Trusts**: types of trusts (simple, complex, grantor, revocable), the trust as a pass-through entity, roles of grantor, trustee, and beneficiaries, the concept of corpus, allocation of items between income and corpus, and calculation of accounting income, distributable net income, and taxable income.
-- **Tax-Exempt Organizations**: requirements to qualify as an IRC §501(c)(3) organization, events that cause loss of tax-exempt status, and types of unrelated business income.
-
-:::caution[Area II Depth]
-
-Area II covers a wide range of entity types with distinct compliance rules. The exam expects you to calculate realized and recognized gains and losses on both sides of entity-owner transactions; for example, the tax consequences to both the C corporation and its shareholders on a liquidating distribution. Make sure you can work through basis adjustments for each entity type, as the rules differ significantly between S corporations and partnerships.
-
-:::
+Area II covers transactions between entities and their owners: contributions and distributions of noncash property, basis, and loans. It also covers C corporation NOLs, consolidated returns, and international sourcing; partnership elections and ownership changes; trust accounting income and distributable net income; and tax-exempt status and unrelated business income. Start with [C Corporations](/tcp/entity-tax-compliance/c-corporations).
 
 ### Area III: Entity Tax Planning (10-20%)
 
-This area tests your ability to evaluate the tax implications of proposed transactions and business structure decisions. You must compare results across entity types and advise on strategies to minimize tax liability.
+Area III asks you to compare results across entity types: forming or liquidating a business, choosing an entity, and projecting the tax effect of a proposed transaction for both the entity and its owners. Start with [Formation and Liquidation](/tcp/entity-tax-planning/formation-and-liquidation).
 
-- **Formation and Liquidation**: tax implications of noncash property contributions to different entity types, entity selection decisions, comparison of tax consequences across C corporations, S corporations, and partnerships for both formation and liquidation scenarios.
-- **Tax Planning for C Corporations**: utilization of net operating and capital loss carryovers, state and local income tax optimization (apportionment, business location), the effect of changing tax rates on income and expense timing, estimated tax payments, and the tax implications of post-formation transactions to both the corporation and its shareholders.
-- **Tax Planning for S Corporations**: built-in gains tax on proposed asset dispositions, implications of terminating an S corporation election, tax implications of post-formation transactions (contributions, distributions, shareholder loans), and the election to treat distributions as coming from accumulated earnings and profits rather than the accumulated adjustments account.
-- **Tax Planning for Partnerships**: tax implications of contributing appreciated or depreciated noncash property, various types of payments to a partner (guaranteed payments, nonliquidating distributions), and the overall tax implications of proposed transactions to both the partner and the partnership.
+### Area IV: Property Transactions (10-20%)
 
-:::note
+Area IV covers what happens when property leaves the taxpayer's hands.
 
-Entity tax planning questions often require you to derive and compare tax consequences across multiple entity types. For example, you may need to calculate the tax result of the same noncash property contribution under C corporation, S corporation, and partnership rules, then identify which entity type produces the most favorable outcome. Practice building comparison schedules.
+- **[Nontaxable Disposition of Assets](/tcp/property-transactions/nontaxable-disposition-of-assets)**: like-kind exchanges, involuntary conversions, and opportunity zone deferral.
+- **[Gains and Losses on Asset Disposition](/tcp/property-transactions/gains-and-losses-on-asset-disposition)**: Section 1231 netting, Section 1245 and 1250 recapture, unrecaptured Section 1250 gain, Section 1244 and 1202 stock, and installment sales.
+- **[Related Party Transactions](/tcp/property-transactions/related-party-transactions)**: who is related, constructive ownership, disallowed losses, and imputed interest.
 
-:::
-
-### Area IV: Property Transactions (Disposition of Assets, 10-20%)
-
-This area tests your knowledge of the tax rules governing the disposition of property, including nontaxable exchanges, the character of gains and losses, and related party transactions.
-
-- **Nontaxable Disposition of Assets**: like-kind exchanges under IRC §1031 (realized gain, recognized gain, deferred gain, and basis of replacement property), involuntary conversions under IRC §1033, and the review of asset transactions to determine taxable vs. nontaxable treatment.
-- **Amount and Character of Gains and Losses**: character determination (capital vs. ordinary), Section 1231 gains and losses on trade or business property, Section 1245 and Section 1250 depreciation recapture, unrecaptured Section 1250 gain, Section 1244 small business stock losses, installment sale gain recognition, and the review of asset disposition schedules for completeness and accuracy.
-- **Related Party Transactions**: identification of related parties for tax purposes, calculation of direct and indirect ownership percentages, gain or loss on the subsequent sale to an unrelated party of property previously purchased from a related party, and imputed interest on related party transactions.
-
-:::tip[Area IV Overlap with REG]
-
-Property transaction concepts also appear in the core REG section, but TCP tests them at a deeper level with more complex scenarios. If you have recently studied REG, you have a solid foundation, but be prepared for multi-step calculations involving recapture, installment sales, and related party chains.
-
-:::
+These topics also appear in REG, but TCP tests them in longer, multistep scenarios.
 
 ---
 
-## Key Frameworks and References
+## Key References
 
-Throughout this section, you will work with these authoritative sources:
+The blueprint lists the sources that questions are drawn from:
 
-| Framework | Description |
+| Reference | What It Covers |
 |---|---|
-| **Internal Revenue Code of 1986, as amended** | The primary source of federal tax law governing individuals, entities, and property transactions |
-| **Treasury Regulations** | Official interpretations and guidance issued by the IRS to implement the Internal Revenue Code |
-| **Other Administrative Pronouncements** | Revenue rulings, revenue procedures, and other IRS guidance on federal taxation |
-| **Case Law on Federal Taxation** | Judicial decisions that interpret and apply the Internal Revenue Code and Treasury Regulations |
-| **Revised Uniform Partnership Act** | Uniform state law governing partnership formation, operation, and dissolution |
-| **Revised Uniform Limited Partnership Act** | Uniform state law governing limited partnership formation and operation |
-| **Revised Model Business Corporation Act** | Model statute governing corporate formation, governance, and dissolution |
+| **Internal Revenue Code of 1986, as amended** | The statute itself |
+| **Treasury Regulations** | Treasury's interpretations of the Code |
+| **Other administrative pronouncements** | Revenue rulings, revenue procedures, notices, and other IRS guidance |
+| **Case law on federal taxation** | Court decisions interpreting the Code |
+| **Revised Uniform Partnership Act, Revised Uniform Limited Partnership Act, Revised Model Business Corporation Act** | State-law rules for forming and operating partnerships and corporations |
 
 ---
 
-## Study Guide
+## How to Study TCP
 
-:::tip[How to Approach TCP]
+TCP blends compliance mechanics with planning judgment, and roughly 90% of the exam is at the Application and Analysis levels. A sensible order:
 
-TCP is a calculation-intensive exam that blends **tax compliance mechanics** with **planning judgment**. A structured study plan is essential.
-
-1. **Start with Individual Tax Compliance and Planning (Area I).** This area carries the heaviest weight and covers the individual tax concepts you are most likely to encounter in practice. Begin with gross income, AGI, and estimated tax computations, then layer in passive activity and at-risk loss limitations, gift taxation, and personal financial planning.
-
-2. **Layer in Entity Tax Compliance (Area II).** This area carries equal weight with Area I. Focus on mastering basis calculations for each entity type, since the rules differ significantly between S corporations (no entity-level debt in basis) and partnerships (partner's share of liabilities included in basis). Then work through entity-owner transactions for each entity type.
-
-3. **Add Entity Tax Planning (Area III).** Tax planning questions require you to derive and compare results across entity types. Practice building comparison schedules and identifying the entity structure that minimizes total tax liability for a given scenario.
-
-4. **Finish with Property Transactions (Area IV).** This area overlaps with REG but tests at a deeper level. Master the Section 1231/1245/1250 netting process, like-kind exchange calculations, and related party rules.
-
-5. **Practice multi-step calculations.** TCP is heavily weighted toward Application (55-65%) and Analysis (25-35%) skills. The exam will present scenarios where you must calculate basis, determine gain or loss, apply character rules, and then evaluate the tax planning implications, all in a single question.
-
-6. **Know the assumptions.** The TCP Blueprint states that candidates will not be tested on specific tax rate percentages, amounts, or inflation-indexed limitations. The exam provides these values when needed. Focus on understanding the **rules and mechanics**, not memorizing thresholds.
-
-:::
-
-:::danger[Common Pitfall]
-
-Many candidates underestimate TCP because they view it as "just more REG." TCP demands deeper calculations and planning analysis: you must not only compute the correct tax result but also evaluate alternatives and recommend the optimal strategy. Candidates who only memorize compliance rules without practicing planning scenarios often struggle with the simulation-heavy format.
-
-:::
+1. **Start with Area I.** It carries the most weight and builds on the individual rules you know from REG. Work through individual compliance first, then the loss limitations, gift tax, and personal financial planning.
+2. **Move to Area II.** Master basis for each entity type. S corporation shareholders get basis only for loans they make directly, while partners include their share of partnership liabilities. Then work through contributions and distributions entity by entity.
+3. **Add Area III.** Practice building schedules that compare the same transaction under C corporation, S corporation, and partnership rules.
+4. **Finish with Area IV.** Learn the order of operations for recapture and Section 1231 netting, and the related party rules that cut across all of it.
+5. **Practice multistep problems.** A single simulation may ask you to compute basis, determine gain, assign character, and then recommend an alternative. Candidates who treat TCP as "more REG" and skip the planning practice tend to struggle with the simulations.
 
 ---
 
-## Let's Get Started
+## Where to Start
 
-Select a topic area from the sidebar to begin, or start with the first topic, **[Individual Compliance and Tax Planning](/tcp/individual-compliance-and-tax-planning/)**.
+Choose a topic from the sidebar, or begin with **[Individual Compliance and Tax Planning](/tcp/individual-compliance-and-tax-planning)**.

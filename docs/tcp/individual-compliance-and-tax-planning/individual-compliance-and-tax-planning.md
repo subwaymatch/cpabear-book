@@ -2,88 +2,97 @@
 
 ## Introduction
 
-This topic covers the nonroutine individual tax compliance and planning issues tested on the TCP section of the CPA exam. While the core REG section addresses fundamental individual tax concepts (filing status, dependency, standard income inclusions and deductions), TCP goes deeper, testing equity compensation, Alternative Minimum Tax (AMT) items, the kiddie tax, imputed interest, and year-end planning strategies to minimize tax liability. The focus is on a newly licensed CPA's role in both **preparing and reviewing** tax returns and **advising clients** on tax planning opportunities.
+REG teaches the everyday parts of an individual return: filing status, dependents, gross income, and deductions. This chapter picks up the items that make a return nonroutine, the ones TCP expects you to handle when you prepare or review a return and when a client asks what to do before year end. We start with income items (equity compensation, the alternative minimum tax, the kiddie tax, imputed interest, and income earned abroad), then turn to the planning tools (benefit accounts, deductions, estimated taxes, and gifts of property), and finish with year-end planning.
+
+Throughout, the chapter teaches the law as amended by the **One Big Beautiful Bill Act** (OBBBA, P.L. 119-21), enacted July 4, 2025. The provisions discussed here have been eligible for testing since July 1, 2026, unless the text says otherwise.
 
 ---
 
 ## Equity Compensation Awards
 
-Equity compensation is a common form of incentive pay, and the tax treatment varies significantly based on the type of award. The TCP exam expects you to recall the impact of equity compensation awards on taxable income and to analyze planning opportunities.
+Employers often pay key people in stock or in rights to buy stock. For each kind of award, three questions decide the tax result: when the employee has income, whether that income is ordinary or capital, and whether the alternative minimum tax (AMT) is affected.
 
 ### Incentive Stock Options (ISOs)
 
-Incentive stock options under **IRC §422** receive favorable tax treatment when specific holding-period requirements are met.
+An **incentive stock option** under IRC §422 gives an employee the right to buy company stock at a fixed exercise price. ISOs get the most favorable treatment in the Code: there is no regular tax when the option is granted or exercised. If the employee then holds the shares more than 2 years after the grant date and more than 1 year after the exercise date, the entire gain over the exercise price is long-term capital gain when the shares are sold.
 
-| Event | Tax Consequence |
-|---|---|
-| **Grant** | No taxable event |
-| **Exercise** | No regular income tax; the **bargain element** (FMV - exercise price) is an AMT adjustment |
-| **Qualifying disposition** (held > 2 years from grant and > 1 year from exercise) | Entire gain (sale price - exercise price) is **long-term capital gain** |
-| **Disqualifying disposition** (holding periods not met) | Bargain element at exercise is **ordinary income**; any additional gain is capital gain |
+The catch is the AMT. The **bargain element** at exercise (FMV minus exercise price) is an AMT adjustment in the year of exercise. If the employee sells too early (a **disqualifying disposition**), the favorable treatment is lost and the bargain element becomes ordinary compensation income.
 
-:::tip[Exam Tip]
+| Event | Regular Tax | AMT |
+|---|---|---|
+| **Grant** | No income | No adjustment |
+| **Exercise** | No income | Bargain element is a positive adjustment |
+| **Qualifying disposition** | Sale price minus exercise price is long-term capital gain | AMT basis includes the bargain element, so AMT gain is smaller (a negative adjustment) |
+| **Disqualifying disposition** | Bargain element (limited to the actual gain) is ordinary income; any excess is capital gain | No adjustment if the sale is in the same year as the exercise |
 
-The bargain element on ISO exercise is one of the most commonly tested AMT adjustments. When a question asks about AMT implications of equity compensation, focus on ISOs.
-
-:::
+> **Example:** Polar Inc. grants Riley ISOs to buy 1,000 shares at \$20 per share. Two years later, when the stock trades at \$50, Riley exercises.
+>
+> - **At exercise:** Riley has no regular income. The \$30,000 bargain element ((\$50 - \$20) × 1,000) is a positive AMT adjustment that year.
+> - **Qualifying sale:** Riley sells 18 months after exercise for \$70 per share. The \$50,000 gain ((\$70 - \$20) × 1,000) is long-term capital gain. For AMT, Riley's basis is \$50,000, so AMT gain is only \$20,000, a \$30,000 negative adjustment in the year of sale.
+> - **Disqualifying sale instead:** Riley sells later in the year of exercise for \$70 per share. The \$30,000 bargain element is ordinary compensation income, and the remaining \$20,000 is short-term capital gain. Because the sale is in the same year as the exercise, there is no AMT adjustment.
 
 ### Nonqualified Stock Options (NQSOs)
 
-NQSOs do not receive the same favorable treatment as ISOs.
+Any option that does not meet the ISO rules is a **nonqualified stock option**. NQSOs are simpler and less generous. When the option has no readily ascertainable value at grant (the usual case), nothing happens at grant. At exercise, the bargain element is ordinary compensation income, reported as wages and subject to withholding and FICA, and the employer deducts the same amount. The employee's basis in the shares is their FMV at exercise, and the holding period starts then, so any later gain or loss is capital.
 
-| Event | Tax Consequence |
-|---|---|
-| **Grant** | No taxable event (if no readily ascertainable FMV) |
-| **Exercise** | Bargain element (FMV - exercise price) is **ordinary income** subject to employment taxes |
-| **Sale** | Gain or loss measured from FMV at exercise is **capital gain or loss** |
+If Riley's options above had been NQSOs, Riley would report \$30,000 of wages at exercise. A later sale at \$70 per share would produce \$20,000 of capital gain, long-term if Riley held the shares more than 1 year after exercise.
 
 ### Restricted Stock and Restricted Stock Units (RSUs)
 
-| Award Type | Default Treatment | IRC §83(b) Election Available? |
-|---|---|---|
-| **Restricted stock** | Taxed as ordinary income at FMV when restrictions lapse (vesting) | Yes; elect to recognize income at grant date |
-| **RSUs** | Taxed as ordinary income at FMV when shares are delivered | No; §83(b) is not available for RSUs |
+**Restricted stock** is stock the employee receives now but can forfeit until a vesting condition is met, such as staying with the company for three years. Under §83, the employee has ordinary income when the stock vests, equal to its FMV at vesting minus anything the employee paid. A **restricted stock unit (RSU)** is only a promise to deliver shares later, so the employee has ordinary income when the shares are delivered.
 
-:::info
+The **§83(b) election** lets a holder of restricted stock (not RSUs) recognize the income at grant instead. It must be filed within **30 days** after the stock is transferred. The election is a bet that the stock will rise: the ordinary income is locked in at the low grant-date value, later appreciation is capital gain, and the capital gain holding period starts at grant. The risk is forfeiture. If the employee leaves before vesting and forfeits the shares, no deduction is allowed for the income already reported.
 
-An **IRC §83(b) election** must be filed within **30 days** of the grant. If the stock appreciates significantly between grant and vesting, the election can convert what would have been ordinary income into long-term capital gain. However, if the stock declines or the employee forfeits the shares, no deduction is allowed for the income previously recognized.
-
-:::
+> **Example:** Bear Co. grants Casey 1,000 restricted shares worth \$5 each, vesting in three years. At vesting the shares are worth \$40, and Casey sells them two years after vesting for \$60.
+>
+> | Item | No Election | §83(b) Election |
+> |---|---|---|
+> | Ordinary income at grant | \$0 | \$5,000 |
+> | Ordinary income at vesting | \$40,000 | \$0 |
+> | Basis in shares | \$40,000 | \$5,000 |
+> | Long-term capital gain on sale | \$20,000 | \$55,000 |
+> | **Total income** | **\$60,000** | **\$60,000** |
+>
+> Total income is the same either way. The election converts \$35,000 of ordinary income into long-term capital gain. The price is paying tax on \$5,000 at grant, with no deduction if Casey later forfeits the shares.
 
 ---
 
 ## Alternative Minimum Tax (AMT)
 
-The AMT is a parallel tax system designed to ensure that taxpayers who benefit from certain preferences and adjustments pay at least a minimum amount of tax. The TCP exam tests your ability to recall items included in the determination of Alternative Minimum Taxable Income (AMTI).
+The AMT is a second tax computation that runs alongside the regular one. It starts from regular taxable income, adds back certain deductions and exclusions, subtracts a large exemption, and applies a two-rate schedule. If the resulting **tentative minimum tax** is higher than the regular tax, the difference is owed as AMT. TCP expects you to recall which items enter **alternative minimum taxable income (AMTI)** and to follow the computation.
 
-### AMT Computation Overview
+### The Computation
 
-```mermaid
-flowchart TD
-    A[Regular Taxable Income] --> B[+ AMT Adjustments]
-    B --> C[+ Tax Preference Items]
-    C --> D[= Alternative Minimum Taxable Income - AMTI]
-    D --> E["Less: AMT Exemption Amount"]
-    E --> F["× AMT Rate (26% or 28%)"]
-    F --> G[= Tentative Minimum Tax]
-    G --> H{"Tentative Minimum Tax > Regular Tax?"}
-    H -->|Yes| I["AMT = Tentative Minimum Tax - Regular Tax"]
-    H -->|No| J[AMT = $0]
-```
-
-### Common AMT Adjustments and Preferences
-
-| Item | Treatment |
+| Step | Amount |
 |---|---|
-| ISO bargain element at exercise | **Add** to AMTI |
-| State and local tax deduction | **Add back** (SALT deduction disallowed for AMT) |
+| Regular taxable income | Starting point |
+| Plus or minus: AMT adjustments | Timing and deduction differences (can be negative) |
+| Plus: Tax preference items | Always positive |
+| **Equals: AMTI** | |
+| Less: Exemption | Reduced by 50% of AMTI above the phase-out threshold |
+| Times: AMT rates | 26% and 28%; long-term capital gains and qualified dividends keep their regular rates |
+| **Equals: Tentative minimum tax** | |
+| Less: Regular tax | |
+| **Equals: AMT** | If positive |
+
+OBBBA made the larger TCJA exemption permanent but made it disappear faster at high incomes. Starting in 2026, the exemption is reduced by 50 cents (previously 25 cents) for each dollar of AMTI above the phase-out threshold, and the threshold was reset to \$500,000 (\$1,000,000 for joint filers) for 2026, indexed starting in 2027. The exemption amounts are indexed (for 2026, \$90,100 single and \$140,200 joint). The faster phase-out means a large ISO exercise is more likely to trigger AMT than it was in 2025.
+
+### Common Adjustments and Preferences
+
+| Item | AMT Treatment |
+|---|---|
+| ISO bargain element at exercise | **Add** (adjustment) |
+| State and local taxes deducted as an itemized deduction | **Add back** |
 | Standard deduction | **Add back** (not allowed for AMT) |
-| Private activity bond interest | **Add** as tax preference item |
-| Depreciation on post-1986 property | Adjustment for **difference** between regular and AMT depreciation methods |
+| Interest on private activity bonds | **Add** (preference item) |
+| Depreciation | **Adjust** for the difference between regular and AMT methods; the adjustment turns negative in later years |
+| Gain on a later sale of ISO stock | **Subtract** the difference, because AMT basis is higher |
 
-:::warning
+Most AMT adjustments are timing differences. AMT paid because of them creates a **minimum tax credit** that can reduce regular tax in later years, which softens the cost of an ISO exercise.
 
-The AMT exemption amount is **phased out** at higher income levels. The exam will provide the specific amounts and phase-out thresholds when needed, so focus on understanding the computation mechanics, not memorizing the dollar figures.
+:::tip[Exam Tip]
+
+The ISO bargain element is the most commonly tested AMT adjustment. When a question mentions an ISO exercise, check the AMT consequences in the year of exercise and again in the year of sale.
 
 :::
 
@@ -91,205 +100,243 @@ The AMT exemption amount is **phased out** at higher income levels. The exam wil
 
 ## Tax on a Child's Unearned Income (Kiddie Tax)
 
-The **kiddie tax** under IRC §1(g) applies to the net unearned income of certain children to prevent parents from shifting investment income to their children to take advantage of lower tax brackets.
+Parents in high brackets have an obvious incentive to move investment assets to their children, whose income would otherwise be taxed at the lowest rates. The **kiddie tax** under §1(g) blocks most of that benefit by taxing a child's net unearned income at the parent's marginal rate.
 
-### Who Is Subject to the Kiddie Tax
+The kiddie tax applies to a child who, at the end of the year:
 
-The kiddie tax applies to a child who:
+1. Is under age 18, or is age 18 or a full-time student age 19 through 23 whose earned income does not exceed half of the child's own support,
+2. Has at least one living parent,
+3. Does not file a joint return, and
+4. Has unearned income above the threshold (\$2,700 for 2026, indexed).
 
-1. Has **unearned income** exceeding a threshold amount (indexed for inflation)
-2. Is under age **19** at the end of the tax year, **or** is a full-time student under age **24**
-3. Does not file a joint return
-4. Has at least one living parent
+The child's unearned income (interest, dividends, capital gains, and other investment income) is split into three layers. The first layer is offset by the child's standard deduction, the second is taxed at the child's own rates, and everything above that is **net unearned income** taxed at the parent's rate. Each of the first two layers is \$1,350 for 2026. Earned income, such as wages from a summer job, is always taxed at the child's rates.
 
-### Computation
+> **Example:** Dana's 16-year-old child has \$5,000 of dividends and no other income in 2026. The first \$1,350 is offset by the child's standard deduction, the next \$1,350 is taxed at the child's rate, and the remaining \$2,300 of net unearned income is taxed at Dana's marginal rate.
 
-| Component | Amount |
-|---|---|
-| Child's unearned income | Total investment income |
-| Less: First threshold amount | Tax-free |
-| Less: Second threshold amount | Taxed at child's rate |
-| **Net unearned income** | Taxed at the **parent's marginal rate** |
-
-> **Example:** Polar Inc. executive Dana's 16-year-old child received \$5,000 in dividend income. Assume the first \$1,300 is tax-free and the next \$1,300 is taxed at the child's rate. The remaining \$2,400 of net unearned income is taxed at Dana's marginal rate.
+Because the kiddie tax reaches only current income, gifts to children work better when the property produces little current income: growth stock that will not be sold until the child is older, or tax-exempt bonds. Accounts that defer income, such as a 529 plan or a Trump account (see [Personal Financial Planning](/tcp/personal-financial-planning)), avoid the kiddie tax while the money stays in the account.
 
 ---
 
 ## Imputed Interest on Below-Market Loans
 
-Under **IRC §7872**, the IRS imputes interest on certain loans made at below-market rates. This affects the borrower's taxable income and may create income for the lender.
+When a lender charges less than market interest, the borrower receives something of value: the use of money at a discount. **Section 7872** makes that benefit visible. It treats the lender as charging interest at the **applicable federal rate (AFR)** and treats the forgone interest as transferred from the lender to the borrower and then paid back as interest. What the first transfer is called depends on the relationship:
 
-### Types of Below-Market Loans
+| Loan | Deemed Transfer to Borrower | Lender Reports | Borrower Reports |
+|---|---|---|---|
+| **Gift loan** (for example, parent to child) | Gift | Interest income | Deemed interest paid, deductible only if it qualifies (investment or home mortgage interest) |
+| **Compensation-related loan** (employer to employee) | Compensation | Interest income, plus a deduction for the compensation | Compensation income, plus deemed interest paid as above |
+| **Corporation-to-shareholder loan** | Dividend (to the extent of E&P) | Interest income, with no deduction for the dividend | Dividend income, plus deemed interest paid as above |
 
-| Loan Type | Treatment |
-|---|---|
-| **Gift loans** (between family members) | Lender has imputed interest income; borrower has a deemed gift |
-| **Compensation-related loans** (employer to employee) | Lender has imputed interest income; borrower has compensation income |
-| **Corporation-shareholder loans** | Imputed interest is treated as a distribution from the corporation |
+> **Example:** Grizzly Inc. lends its employee Quinn \$100,000 interest-free, payable on demand, when the AFR is 4%. For the year, Grizzly Inc. is treated as paying Quinn \$4,000 of compensation (which it deducts) and receiving \$4,000 of interest income. Quinn reports \$4,000 of compensation income and is treated as paying \$4,000 of interest, which is nondeductible personal interest unless the loan qualifies as investment or home mortgage debt.
 
-### De Minimis Exception
-
-For gift loans between individuals, no interest is imputed if the aggregate outstanding loans between the lender and borrower do not exceed **\$10,000**, unless the loan is directly attributable to the purchase or carrying of income-producing assets.
-
-For gift loans of **\$100,000 or less**, the imputed interest income is limited to the borrower's net investment income. If the borrower's net investment income is \$1,000 or less, it is treated as zero.
+Small loans are exempt, and gift loans of \$100,000 or less get relief tied to the borrower's investment income. Those exceptions, term loans, and seller-financed sales are covered in [Related Party Transactions](/tcp/property-transactions/related-party-transactions).
 
 ---
 
 ## Income Earned Outside the U.S.
 
-U.S. citizens and resident aliens are taxed on **worldwide income**, regardless of where it is earned. However, taxpayers working abroad may be eligible for the **Foreign Earned Income Exclusion (FEIE)** under IRC §911.
+U.S. citizens and resident aliens are taxed on **worldwide income**, so wages earned in another country belong on the U.S. return. Two provisions prevent double taxation: the **foreign tax credit** and the **foreign earned income exclusion (FEIE)** under §911. A taxpayer cannot claim a credit for foreign taxes on income that has been excluded.
 
-### Foreign Earned Income Exclusion
+To use the FEIE, the taxpayer must have a **tax home** in a foreign country and meet one of two tests:
 
-To qualify, the taxpayer must have a **tax home** in a foreign country and meet either:
+- **Bona fide residence test:** a bona fide resident of a foreign country for an uninterrupted period that includes an entire tax year, or
+- **Physical presence test:** physically present in a foreign country for at least **330 full days** during any 12 consecutive months.
 
-- The **bona fide residence test**: a bona fide resident of a foreign country for an uninterrupted period that includes an entire tax year, or
-- The **physical presence test**: physically present in a foreign country for at least **330 full days** during a 12-month period
+The exclusion covers **earned income only** (wages, salaries, and self-employment income), not interest, dividends, or pensions. The maximum is indexed (\$132,900 for 2026) and is prorated for a partial qualifying year. A taxpayer can also exclude or deduct a **foreign housing amount**, the reasonable housing costs above a base amount.
 
-The maximum exclusion amount is adjusted annually for inflation. In addition to the earned income exclusion, taxpayers may also exclude or deduct a **foreign housing amount**.
+Two rules surprise people. First, the exclusion does not remove income from the bottom of the rate schedule. Under the **stacking rule**, the remaining income is taxed at the rates that would apply if the excluded income were still included. Second, the FEIE is an income tax rule only: self-employment tax is still due on excluded self-employment income.
 
-:::info
-
-The FEIE applies only to **earned income** (wages, salaries, self-employment income). It does not apply to investment income, pensions, or other unearned income.
-
-:::
+> **Example:** Kodiak Partners sends Avery, a U.S. citizen, to work in Germany for all of 2026 at a salary of \$150,000. Avery meets the physical presence test and elects the exclusion (\$132,900 for 2026). Only \$17,100 of salary is taxable, but it is taxed at the rates that apply to income between \$132,900 and \$150,000, not at the 10% and 12% rates. When the foreign country's tax rate is higher than the U.S. rate, the foreign tax credit alone often eliminates U.S. tax on the salary, so the exclusion adds little.
 
 ---
 
 ## Flexible Spending Accounts (FSAs) and Health Savings Accounts (HSAs)
 
-The TCP exam tests your ability to identify projected tax savings through the utilization of FSAs and HSAs.
+Both accounts let a client pay medical costs with pretax dollars. When contributions go through an employer's cafeteria plan, they escape both income tax and FICA. The differences lie in what happens to unspent money, who can open an account, and whether the balance can be invested. The blueprint asks you to project the tax savings from using them.
 
-### Flexible Spending Accounts (FSAs)
+### Flexible Spending Accounts
 
-| Feature | Health FSA | Dependent Care FSA |
-|---|---|---|
-| **Contribution limit** | Indexed annually | \$5,000 (MFJ) or \$2,500 (MFS) |
-| **Tax benefit** | Contributions are pre-tax (reduce gross income) | Contributions are pre-tax |
-| **Use-it-or-lose-it** | Unspent funds generally forfeited at year-end (limited carryover or grace period may apply) | Unspent funds forfeited |
-| **Eligible expenses** | Medical, dental, vision expenses | Daycare, preschool, after-school care |
+A **health FSA** is funded by salary reduction up to an indexed limit (\$3,400 for 2026). The full annual election is available from the first day of the plan year. Unspent amounts are generally forfeited at year end, although a plan may allow a limited carryover or a grace period of up to two and a half months.
 
-### Health Savings Accounts (HSAs)
+A **dependent care FSA** (a dependent care assistance program under §129) works the same way for child care. Starting in 2026, the exclusion rises from \$5,000 to **\$7,500** (\$3,750 for married filing separately). This amount is fixed in the statute and not indexed.
 
-HSAs offer a **triple tax advantage**: contributions are tax-deductible (or pre-tax if through payroll), earnings grow tax-free, and qualified withdrawals are tax-free.
+Dollars excluded through a dependent care FSA reduce the expenses that qualify for the **child and dependent care credit**. OBBBA raised that credit's top rate to 50% for AGI of \$15,000 or less. The rate phases down to 35%, and then to a 20% floor once AGI is high enough (the second phase-down starts above \$75,000 of AGI, or \$150,000 for joint filers). The qualifying expense caps are unchanged at \$3,000 for one dependent and \$6,000 for two or more.
 
-| Requirement | Detail |
+> **Example:** Sam and Pat (married filing jointly, AGI \$300,000, 24% marginal rate) pay \$9,000 a year for day care for two children. At their income, the credit rate is the 20% floor.
+>
+> - **Credit only:** 20% × \$6,000 expense cap = \$1,200 of tax saved.
+> - **Dependent care FSA:** excluding \$7,500 saves 24% × \$7,500 = \$1,800 of income tax, plus payroll tax. The \$7,500 exclusion uses up the \$6,000 expense cap, so no credit remains.
+>
+> The FSA saves more. For most middle- and higher-income families, the exclusion beats the 20% credit.
+
+### Health Savings Accounts
+
+An **HSA** is a savings account the individual owns, paired with a **high-deductible health plan (HDHP)**. It is the only account with a triple tax advantage: contributions are deductible for AGI (or excluded from wages and FICA when made through payroll), earnings grow tax-free, and distributions for qualified medical expenses are tax-free. Nonqualified distributions are taxable and, before age 65, also subject to a 20% penalty.
+
+| Requirement | Rule |
 |---|---|
-| Must be enrolled in a **high-deductible health plan (HDHP)** | Minimum deductible and maximum out-of-pocket limits apply |
-| No other non-HDHP coverage | Cannot be enrolled in Medicare or a general-purpose FSA |
-| Contribution limits | Indexed annually; catch-up contribution available for age 55+ |
+| **HDHP coverage** | Required. Starting in 2026, bronze and catastrophic plans bought on an exchange count as HDHPs. |
+| **No other coverage** | No Medicare and no general-purpose health FSA (a limited-purpose dental and vision FSA is allowed). Telehealth coverage before the deductible is permanently allowed, and starting in 2026 a direct primary care arrangement does not disqualify the account. |
+| **Not a dependent** | The account holder cannot be claimed as someone else's dependent. |
+| **Contribution limits** | Indexed (\$4,400 self-only and \$8,750 family for 2026), plus a \$1,000 catch-up at age 55 or older. |
 
 :::tip[Planning Opportunity]
 
-When advising clients, compare the tax savings from FSA contributions (which reduce payroll taxes) against HSA contributions (which reduce income tax and can accumulate over time). For clients with predictable medical expenses and an HDHP, the HSA is generally the superior vehicle due to its unlimited carryover and investment potential.
+Both accounts save income tax and, when funded through payroll, FICA. The HSA's advantages are that unspent money carries over indefinitely, can be invested, and stays with the employee after a job change. The health FSA's advantages are that it requires no HDHP and the full annual amount can be spent on day one. A client who can pay current medical bills out of pocket can let the HSA grow as a supplemental retirement account.
 
 :::
 
 ---
 
-## Standard Deduction vs. Itemized Deductions
+## Deductions After OBBBA
 
-The TCP exam tests your ability to evaluate the planning implications of choosing between the standard deduction and itemized deductions.
+Every individual deducts the larger of the standard deduction or itemized deductions. OBBBA made the larger standard deduction permanent (\$16,100 single and \$32,200 joint for 2026, indexed) and reworked several itemized deductions. It also created four temporary deductions for 2025 through 2028 that are claimed whether or not the taxpayer itemizes. Because those four are available either way, they do not change the itemize-or-not decision, but their income phase-outs matter for planning.
 
-### Key Planning Considerations
+### Temporary Deductions for 2025-2028
 
-| Factor | Standard Deduction | Itemized Deductions |
-|---|---|---|
-| **Simplicity** | No documentation required | Requires substantiation of each deduction |
-| **SALT deduction** | Not applicable | Capped at \$10,000 |
-| **Mortgage interest** | Not applicable | Deductible on up to \$750,000 of acquisition indebtedness |
-| **Charitable contributions** | Not applicable | Subject to AGI-based percentage limits |
-| **Medical expenses** | Not applicable | Deductible to the extent exceeding 7.5% of AGI |
+These deductions are taken after AGI, so they reduce taxable income but not AGI. Their dollar limits and phase-out thresholds are fixed in the statute and not indexed, which means they can be tested. Each phase-out is based on modified AGI (MAGI), which here means AGI plus excluded foreign and possessions income.
 
-### Bunching Strategy
+| Deduction | Maximum | Phase-Out | Key Conditions |
+|---|---|---|---|
+| **Qualified tips** | \$25,000 per return | \$100 for each \$1,000 of MAGI over \$150,000 (\$300,000 MFJ) | Voluntary tips in an occupation on Treasury's list of tipped occupations, reported on a W-2, 1099, or Form 4137; not earned in a specified service trade or business |
+| **Qualified overtime** | \$12,500 (\$25,000 MFJ) | Same as tips | Only the premium the Fair Labor Standards Act (FLSA) requires: the "half" in time-and-a-half |
+| **Car loan interest** | \$10,000 | \$200 for each \$1,000 (or part) of MAGI over \$100,000 (\$200,000 MFJ) | Loan taken out after 2024 to buy a new personal-use vehicle with final assembly in the U.S., secured by the vehicle; VIN on the return |
+| **Senior deduction** | \$6,000 per person age 65 or older | 6% of MAGI over \$75,000 (\$150,000 MFJ) | Each qualifying spouse on a joint return gets one |
 
-A common planning strategy is **bunching**: concentrating deductible expenses into a single year to exceed the standard deduction, then taking the standard deduction in alternate years.
+For the tips, overtime, and senior deductions, the taxpayer's Social Security number must be on the return, and married taxpayers must file jointly. Tips and overtime remain subject to FICA; only income tax is affected. Recall the blueprint assumption as well: a question's reference to wages does not include tips or overtime unless it says so.
 
-> **Example:** Kingfisher Industries employee Alex normally has \$12,000 in annual charitable contributions. With a standard deduction of \$15,000 (single), itemizing does not produce a benefit. By making two years of contributions (\$24,000) in Year 1, Alex exceeds the standard deduction and itemizes in Year 1, then takes the standard deduction in Year 2. Total two-year deductions: \$24,000 + \$15,000 = \$39,000 vs. \$15,000 + \$15,000 = \$30,000.
+### Itemized Deductions
+
+| Deduction | Current Rule |
+|---|---|
+| **State and local taxes (SALT)** | Capped at \$40,000 for 2025 and \$40,400 for 2026, rising 1% a year through 2029 and falling back to \$10,000 in 2030 (half for married filing separately). The cap is reduced by 30% of MAGI above \$500,000 for 2025 (\$505,000 for 2026, also rising 1% a year), but never below \$10,000 (\$5,000 MFS). |
+| **Home mortgage interest** | Interest on up to \$750,000 of acquisition debt (\$375,000 MFS), permanently. No deduction for home equity debt not used to buy, build, or improve the home. Starting in 2026, mortgage insurance premiums again count as deductible interest, phased out above \$100,000 of AGI. |
+| **Charitable contributions** | Starting in 2026, deductible only to the extent the year's total gifts exceed 0.5% of the contribution base (generally AGI). The 60% of AGI limit for cash gifts to public charities is permanent. |
+| **Medical expenses** | Deductible to the extent they exceed 7.5% of AGI. |
+| **Personal casualty losses** | Only losses from federally declared disasters (and, starting in 2026, state-declared disasters), after a \$100 floor and 10% of AGI. |
+| **Wagering losses** | Starting in 2026, only 90% of losses are deductible, and only up to wagering gains. |
+| **Miscellaneous itemized deductions** | Those subject to the 2% floor are permanently eliminated. Starting in 2026, unreimbursed educator expenses are an exception, deductible with no floor and no cap. |
+
+The SALT phase-down works like this:
+
+> **Example:** In 2026, Jordan (single) has MAGI of \$555,000 and pays \$45,000 of state income and property taxes. The \$40,400 cap is reduced by 30% × (\$555,000 - \$505,000) = \$15,000, to \$25,400. Jordan deducts \$25,400.
+
+Owners of partnerships and S corporations can often do better through a **pass-through entity tax**. When the entity pays the state tax, the entity deducts it, and the individual SALT cap does not apply.
+
+**The 2/37 limit for top-bracket taxpayers.** OBBBA permanently repealed the old Pease limitation and replaced it, starting in 2026, with a rule that holds the value of itemized deductions to about 35 cents per dollar. For a taxpayer in the 37% bracket, itemized deductions are reduced by 2/37 of the lesser of (a) total itemized deductions or (b) the amount by which taxable income plus itemized deductions exceeds the start of the 37% bracket. The limit applies after every other limit, including the SALT cap and the 0.5% charitable floor.
+
+> **Example:** In 2026, a married couple filing jointly has taxable income of \$900,000 before this rule and \$100,000 of itemized deductions. Taxable income plus itemized deductions is \$1,000,000, which is \$231,300 above the start of the 37% bracket (\$768,700 for 2026). The lesser amount is the \$100,000 of deductions, so the reduction is 2/37 × \$100,000 = \$5,405.
+
+### Standard Deduction or Itemize: Bunching
+
+Most taxpayers take the standard deduction, so the planning question is whether shifting deductible payments can push one year over the line. **Bunching** concentrates two or more years of discretionary deductions, usually charitable gifts, into one year so the taxpayer itemizes that year and takes the standard deduction in the others. Two OBBBA changes affect the math. The 0.5% floor trims the charitable deduction in each itemizing year, and starting in 2026 non-itemizers can deduct up to **\$1,000 (\$2,000 MFJ)** of cash gifts to public charities (not donor-advised funds) on top of the standard deduction.
+
+> **Example:** Alex is single with AGI of \$100,000 each year, pays \$6,000 of state and local taxes, and gives \$8,000 in cash to public charities every year. Assume a \$16,100 standard deduction in both years. Itemizing in a normal year would give only \$6,000 + (\$8,000 - \$500 floor) = \$13,500, less than the standard deduction.
+>
+> | Year | Give \$8,000 Each Year | Bunch \$16,000 into Year 1 |
+> |---|---|---|
+> | Year 1 | \$16,100 standard + \$1,000 non-itemizer gift deduction = \$17,100 | \$6,000 SALT + (\$16,000 - \$500 floor) = \$21,500 itemized |
+> | Year 2 | \$17,100 | \$16,100 standard (no gifts) |
+> | **Two-year total** | **\$34,200** | **\$37,600** |
+>
+> Bunching adds \$3,400 of deductions over two years. A donor-advised fund lets Alex take the bunched deduction in Year 1 while the fund makes grants to charities over both years.
 
 ---
 
 ## Estimated Tax Payments
 
-Individuals who do not have sufficient tax withholding must make estimated tax payments to avoid an **underpayment penalty** under IRC §6654.
+Wages come with withholding; investment income, self-employment income, and gains usually do not. An individual whose withholding falls short must make quarterly estimated payments or owe an **underpayment penalty** under §6654, which works like interest on each late installment.
 
-### Safe Harbor Rules
+No penalty applies if the tax due after withholding is less than \$1,000. Otherwise, the taxpayer must pay, through withholding and estimates, the **required annual payment**, which is the **lesser of**:
 
-A taxpayer avoids the underpayment penalty if the total tax payments (withholding + estimated payments) equal or exceed the **lesser of**:
+- **90%** of the current year's tax, or
+- **100%** of the prior year's tax (**110%** if prior-year AGI exceeded \$150,000, or \$75,000 for married filing separately). This safe harbor is not available if the prior tax year was shorter than 12 months.
 
-| Safe Harbor | Requirement |
-|---|---|
-| **Current-year safe harbor** | 90% of the current year's tax liability |
-| **Prior-year safe harbor** | 100% of the prior year's tax liability (110% if prior-year AGI exceeds \$150,000, or \$75,000 for MFS) |
+Each installment is 25% of the required annual payment, due April 15, June 15, September 15, and January 15 of the following year (moved to the next business day when a date falls on a weekend or holiday).
 
-### Due Dates for Estimated Tax Payments
+> **Example:** Morgan's 2026 tax was \$40,000 on AGI of \$200,000. Morgan projects 2027 tax of \$60,000 and expects \$30,000 of withholding.
+>
+> - 90% of 2027 tax: \$54,000
+> - 110% of 2026 tax (prior-year AGI over \$150,000): \$44,000
+> - Required annual payment: the lesser, \$44,000
+>
+> Morgan needs \$14,000 beyond withholding, or \$3,500 per quarter. Paying under the prior-year safe harbor avoids the penalty even though Morgan will still owe \$16,000 with the return.
 
-| Payment | Due Date |
-|---|---|
-| Q1 | April 15 |
-| Q2 | June 15 |
-| Q3 | September 15 |
-| Q4 | January 15 of the following year |
-
-:::info
-
-The annualized income installment method allows a taxpayer whose income is not earned evenly throughout the year to base each quarterly payment on the income actually earned during that period, potentially reducing early-year estimated payments.
-
-:::
+Two tools help clients with uneven income. Withholding is treated as paid evenly through the year no matter when it was withheld, so increasing withholding in December can cure underpaid earlier installments. And the **annualized income installment method** lets a taxpayer whose income arrives late in the year (for example, a large gain in November) base each installment on the income actually earned through that quarter.
 
 ---
 
 ## Charitable Contributions of Noncash Property
 
-The TCP exam tests your ability to calculate the potential tax savings when donating noncash property and to identify the optimal property to donate given a specific planning scenario.
+When a client wants to give, the choice of what to give can matter as much as how much. The deduction depends on the type of property and the type of charity, and the AGI limit is lower when the deduction is measured at fair market value. For gifts to public charities:
 
-### General Rules for Noncash Donations
-
-| Property Type | Deduction Amount | AGI Limitation |
+| Property | Deduction | AGI Limit |
 |---|---|---|
-| **Long-term capital gain property** donated to a **public charity** | Fair market value | 30% of AGI |
-| **Long-term capital gain property** (elect reduced deduction) | Adjusted basis | 50% of AGI |
-| **Ordinary income property** (inventory, short-term gain property) | Adjusted basis | 50% of AGI |
-| **Tangible personal property** unrelated to charity's purpose | Adjusted basis | 50% of AGI |
+| **Cash** | Amount given | 60% |
+| **Long-term capital gain property** (held more than 1 year) | Fair market value | 30% |
+| **Long-term capital gain property**, if the donor elects | Basis | 50% |
+| **Ordinary income property** (inventory, property held 1 year or less) | Basis (or FMV if lower) | 50% |
+| **Tangible personal property** the charity does not use in its exempt purpose | Basis (or FMV if lower) | 50% |
 
-### Planning Strategy
+Gifts to private nonoperating foundations face lower limits. Deductions over a limit carry forward 5 years. Starting in 2026, the 0.5% floor applies to the year's total itemized gifts, and the 2/37 limit applies to donors in the 37% bracket. Gifts of property worth more than \$5,000 generally need a qualified appraisal.
 
-When advising a client, identify the property that provides the greatest tax benefit:
+The blueprint asks you to pick the property that minimizes the current year's tax. Two rules drive the answer:
 
-- **Highly appreciated long-term capital gain property** produces the largest deduction relative to the economic cost of the donation because the taxpayer deducts FMV while avoiding capital gains tax on the appreciation.
-- **Property with a loss** should generally be **sold** (to recognize the loss) rather than donated, since donations are limited to FMV (not basis) and the loss would go unrecognized.
+- **Give appreciated long-term property.** The donor deducts full FMV and never pays tax on the appreciation.
+- **Sell loss property, then give the cash.** A gift of property worth less than its basis is deductible only at FMV, and the built-in loss is lost forever. Selling first lets the donor deduct both the loss and the cash gift.
 
-> **Example:** Illini Entertainment director Sam wants to minimize this year's tax liability through a charitable contribution. Sam holds Stock A (FMV \$50,000, basis \$10,000, held 3 years) and Stock B (FMV \$50,000, basis \$60,000, held 2 years). Donating Stock A produces a \$50,000 FMV deduction and avoids \$40,000 of capital gain. Sam should sell Stock B to recognize the \$10,000 capital loss, then donate the cash proceeds if desired.
+> **Example:** Taylor, a Honey Entertainment director, wants to give \$50,000 to a public charity this year. Taylor is in the 35% bracket, pays 15% on long-term capital gains, and has AGI high enough that the percentage limits do not bind. Taylor owns two blocks of stock, each worth \$50,000:
+>
+> | Item | Stock A | Stock B |
+> |---|---|---|
+> | Basis | \$10,000 | \$60,000 |
+> | Holding period | 3 years | 2 years |
+> | Built-in gain (loss) | \$40,000 | (\$10,000) |
+>
+> - **Give Stock A:** the \$50,000 deduction saves \$17,500 (35%), and Taylor avoids the \$6,000 of capital gains tax (15% × \$40,000) a sale would have cost.
+> - **Give Stock B:** the deduction is also \$50,000, but the \$10,000 loss disappears.
+> - **Sell Stock B and give the cash:** a \$50,000 deduction plus a \$10,000 capital loss Taylor can use against other gains.
+>
+> Taylor should give Stock A. If Taylor also wants out of Stock B, Taylor should sell it rather than donate it. The 0.5% floor reduces the deduction by the same amount under every option, so it does not change the choice.
 
 ---
 
 ## Year-End Tax Planning
 
-The TCP exam tests your ability to review a client's projected income and expenses prior to year end and recommend strategies to minimize tax liability.
+Year-end planning is where the pieces of this chapter come together. In a typical scenario you review a client's projected income and deductions in the fall and recommend moves before December 31. The basic principle is to recognize income in the year it will be taxed at the lower rate and to take deductions in the year they save the most.
 
-### Income Timing Strategies
-
-| Strategy | When Beneficial |
+| Move | When It Helps |
 |---|---|
-| **Defer income** to the next year | When the taxpayer expects to be in a **lower bracket** next year or when deferral avoids an AGI-based phase-out |
-| **Accelerate income** into the current year | When tax rates are expected to **increase** next year or when the taxpayer has unusually large deductions this year |
+| **Defer income** (delay a bonus, use an installment sale, postpone a sale of appreciated property) | The client expects a lower rate next year, or deferral keeps MAGI below a phase-out |
+| **Accelerate income** (exercise options, sell appreciated property, convert to a Roth IRA) | The client expects a higher rate next year, or this year has unusually large deductions or losses |
+| **Accelerate deductions** (prepay deductible expenses, bunch charitable gifts) | This year's rate is higher, or a deduction is scheduled to shrink |
+| **Defer deductions** | Next year's rate will be higher |
 
-### Deduction Timing Strategies
+### Phase-Outs and Interacting Limits
 
-| Strategy | When Beneficial |
-|---|---|
-| **Accelerate deductions** into the current year | When the taxpayer is in a **higher bracket** this year and expects lower income next year |
-| **Defer deductions** to the next year | When the taxpayer expects to be in a **higher bracket** next year |
+Many benefits shrink as MAGI rises, so a dollar of extra income can cost more than the marginal rate suggests. The statutory thresholds that come up most often:
 
-### Impact of Changing Tax Rates and Legislation
+- **Child tax credit** (\$2,200 per child for 2026, indexed): reduced by \$50 for each \$1,000 of MAGI above \$200,000 (\$400,000 MFJ)
+- **Tips and overtime deductions:** phase-out starts at \$150,000 (\$300,000 MFJ)
+- **Senior deduction:** phase-out starts at \$75,000 (\$150,000 MFJ)
+- **SALT cap:** phase-down starts at \$505,000 for 2026, rising 1% a year
+- **\$25,000 rental real estate loss allowance:** phased out between \$100,000 and \$150,000 of MAGI
 
-The exam may present scenarios where enacted or proposed changes in tax rates affect the optimal timing of income and deductions. The key principle is straightforward:
+> **Example:** Jamie (single) expects 2027 MAGI of \$165,000, including \$10,000 of qualified overtime premium. The overtime deduction is reduced by \$100 for each \$1,000 of MAGI over \$150,000: 15 × \$100 = \$1,500, leaving \$8,500. If Jamie makes an additional \$10,000 pretax 401(k) contribution, MAGI falls to \$155,000, the reduction falls to \$500, and the deduction rises to \$9,500. The contribution removes \$10,000 from taxable income directly and restores \$1,000 of overtime deduction, so it shelters \$11,000 of income in all.
 
-- **Recognize income in the lower-rate year** and **claim deductions in the higher-rate year** to minimize the present value of total taxes paid.
+### Changing Tax Law
+
+The blueprint also asks how changing rates and legislation affect timing. The biggest recent change removed a deadline. Before OBBBA, the TCJA's individual rules were set to expire after 2025, and planners pulled income into 2025 to beat expected rate increases. OBBBA made those rules permanent, so that cliff is gone. The scheduled changes still in the law are narrower:
+
+- The four temporary deductions (tips, overtime, car loan interest, and the senior deduction) end after 2028.
+- The SALT cap keeps rising 1% a year through 2029 and then falls to \$10,000 in 2030. A deduction that will shrink is worth more while the higher limit applies, to the extent the payment is deductible when made.
+- The individual clean energy credits are gone: no credit for energy-efficient home improvements or residential clean energy property after 2025 (§25C and §25D), and none for clean vehicles acquired after September 30, 2025.
+
+A few provisions take effect after 2026 and, under the AICPA's six-month rule, are tested later. For example, the new credit of up to \$1,700 for contributions to scholarship granting organizations applies to tax years ending after December 31, 2026, so it should not be eligible for testing before July 1, 2027.
 
 :::warning
 
-Year-end planning questions often involve multiple interacting variables: income timing, deduction timing, estimated tax payments, and AGI-based phase-outs. Read the scenario carefully and identify which variable the question is asking you to optimize.
+Year-end planning questions often involve several moving parts at once: income timing, deduction timing, estimated payments, and MAGI-based phase-outs. Read the scenario carefully and identify which variable the question asks you to optimize.
 
 :::
 
@@ -299,14 +346,15 @@ Year-end planning questions often involve multiple interacting variables: income
 
 | Topic | Key Concept |
 |---|---|
-| ISOs | No regular tax at exercise; bargain element is AMT adjustment; qualifying disposition produces LTCG |
-| NQSOs | Ordinary income at exercise; capital gain/loss on later sale |
-| Restricted stock / RSUs | Ordinary income at vesting (or grant if §83(b) elected for restricted stock) |
-| AMT | Parallel tax system; add back adjustments and preferences to regular taxable income |
-| Kiddie tax | Net unearned income of qualifying children taxed at parent's rate |
-| Imputed interest | IRS imputes interest on below-market loans; de minimis exceptions apply |
-| Foreign earned income | FEIE excludes qualifying earned income for taxpayers meeting residence or physical presence tests |
-| FSAs and HSAs | Pre-tax benefits; HSAs offer triple tax advantage with unlimited carryover |
-| Estimated taxes | Safe harbors: 90% current year or 100%/110% prior year |
-| Noncash charitable donations | Appreciated LTCG property maximizes deduction; sell loss property instead of donating |
-| Year-end planning | Recognize income in lower-rate years; claim deductions in higher-rate years |
+| ISOs | No regular tax at grant or exercise; bargain element is an AMT adjustment; qualifying disposition produces long-term capital gain |
+| NQSOs | Bargain element is ordinary income at exercise; basis is FMV at exercise |
+| Restricted stock and RSUs | Ordinary income at vesting or delivery; §83(b) (restricted stock only) moves income to grant |
+| AMT | Regular taxable income plus adjustments and preferences, less an exemption that phases out at 50% from 2026 |
+| Kiddie tax | Net unearned income of a qualifying child is taxed at the parent's rate |
+| Imputed interest | Below-market loans are recast at the AFR; the deemed transfer is a gift, compensation, or dividend |
+| Foreign earned income | FEIE for earned income only, with stacking; foreign tax credit as the alternative |
+| FSAs and HSAs | Pretax medical and dependent care dollars; dependent care exclusion is \$7,500 from 2026; HSAs carry over and can be invested |
+| Deductions | Permanent larger standard deduction; four temporary deductions for 2025-2028; SALT cap with phase-down; 0.5% charitable floor and 2/37 limit from 2026 |
+| Estimated taxes | Lesser of 90% of current-year tax or 100% (110%) of prior-year tax |
+| Noncash charitable gifts | Give appreciated long-term property; sell loss property and give the cash |
+| Year-end planning | Income in the lower-rate year, deductions in the higher-rate year; watch phase-outs and scheduled changes |
