@@ -6,29 +6,33 @@ title: ISC
 
 # Information Systems and Controls (ISC)
 
-Welcome to the **Information Systems and Controls** section of the CPA Bear Book. ISC is one of three discipline sections on the CPA exam, and it is designed for candidates who want to demonstrate advanced competency in **information technology, data management, cybersecurity, and System and Organization Controls (SOC) engagements**. The ISC exam focuses on the knowledge and skills that newly licensed CPAs need to evaluate an entity's information systems, assess security risks, and perform IT audit and advisory services.
+**Information Systems and Controls (ISC)** is the Discipline section for candidates headed toward IT audit, advisory, and System and Organization Controls (SOC) work. It asks how an entity's systems process and protect information, which risks those systems face, and how a CPA tests the controls that address those risks. You will see the same scenario from several angles: a cloud provider hosting **Bear Co.**'s ERP system is an infrastructure question, a security question, and a SOC 2® question at once.
 
-Whether you are evaluating the cloud infrastructure that **Kingfisher Industries** uses to host its ERP system, analyzing a SQL query to verify that **Bear Co.**'s financial data extraction is complete and accurate, or assessing the suitability of controls in a SOC 2® engagement for **Illini Security**, the material in this section prepares you to handle it all.
+This part of the book follows the exam's three content areas in order: information systems and data management, then security, confidentiality, and privacy, and finally SOC engagements. Each chapter opens with the ideas, then the rules and criteria, then worked scenarios and practice questions.
 
 :::info[Exam Structure]
 
-The ISC exam is **4 hours** long and contains **82 multiple-choice questions (MCQs)** and **6 task-based simulations (TBSs)**. MCQs account for **60%** of the total score and TBSs account for **40%**. It is one of three discipline sections, alongside BAR (Business Analysis and Reporting) and TCP (Tax Compliance and Planning), from which candidates choose one to complete their CPA licensure.
+The ISC exam is **4 hours** long and contains **82 multiple-choice questions (MCQs)** and **6 task-based simulations (TBSs)**. MCQs count for **60%** of the score and TBSs for **40%**. ISC is one of three Discipline sections, alongside BAR (Business Analysis and Reporting) and TCP (Tax Compliance and Planning); candidates pass one of the three.
+
+Discipline sections can be taken only in the first month of each calendar quarter. In 2027 the exam moves to a new delivery platform: no exams are given July 1-11, 2027, and the third-quarter Discipline window runs July 12 to August 12, 2027.
 
 :::
 
 ---
 
-## Content Areas and Exam Weights
+## The 2027 ISC Blueprint
 
-The AICPA Blueprint organizes the ISC exam into three content areas:
+This book follows the **2027 ISC Blueprint**, which the AICPA Board of Examiners approved on September 16, 2026 and which is effective January 1, 2027. The 2027 revisions are small. The weights, question counts, and skill levels are unchanged, and so is every reference source except one. The only change narrows how blockchain is tested:
 
-| Content Area | Description | Approximate Weight |
+- The COSO publication *Blockchain and Internal Control: The COSO Perspective* was removed from the References.
+- The task asking how the COSO internal control framework can be used to evaluate blockchain risks in financial reporting was removed.
+- The ERP task now asks you to "recognize other systems with which they interact (e.g., blockchain, electronic data interchange)." Blockchain is now tested only as one of the systems that exchange data with ERP and accounting systems.
+
+| Content Area | What It Covers | Weight |
 |---|---|---|
-| **I. Information Systems and Data Management** | IT infrastructure, cloud computing, enterprise and accounting information systems, system availability, change management, data extraction, SQL, and business process models | 35-45% |
-| **II. Security, Confidentiality and Privacy** | Regulations, standards and frameworks (HIPAA, GDPR, PCI DSS, NIST, COBIT), threats and attacks, mitigation controls, security testing, confidentiality and privacy, and incident response | 35-45% |
-| **III. Considerations for SOC Engagements** | Planning and performing SOC 1®, SOC 2®, and SOC 3® engagements, Trust Services Criteria, system descriptions, subservice organizations, and SOC engagement reporting | 15-25% |
-
-The exam also emphasizes the following skill levels:
+| **I. Information Systems and Data Management** | IT infrastructure and cloud computing, ERP and accounting information systems, availability, change management, data management, SQL, and business process models | 35-45% |
+| **II. Security, Confidentiality and Privacy** | Regulations, standards, and frameworks; threats and attacks; mitigation; security testing; confidentiality and privacy; incident response | 35-45% |
+| **III. Considerations for SOC Engagements** | Planning, performing, and reporting on SOC 1® and SOC 2® engagements; SOC 3® and SOC for Cybersecurity reports | 15-25% |
 
 | Skill Level | Weight |
 |---|---|
@@ -36,11 +40,15 @@ The exam also emphasizes the following skill levels:
 | Application | 20-30% |
 | Analysis | 10-20% |
 
-:::warning[Content Weights May Shift]
+ISC leans more on Remembering and Understanding than any other section. Most of the Analysis tasks ask you to detect deficiencies in the design and operation of controls.
 
-The AICPA periodically updates the CPA Exam Blueprint. Always verify the latest version at **aicpa.org** before finalizing your study plan. The weights above reflect the 2026 Blueprint.
+:::note[Testing before January 1, 2027?]
+
+Sittings through December 31, 2026 (the last ISC window of 2026 is October) use the 2026 Blueprint. Everything in this book still applies to you. The one difference is that the 2026 Blueprint also includes the COSO blockchain task described above; the [Enterprise and Accounting Information Systems](./information-systems/enterprise-and-accounting-information-systems.md) chapter has a short note on it.
 
 :::
+
+For a section-by-section summary, see the [2027 blueprint guide](/blueprint/2027).
 
 ---
 
@@ -48,101 +56,51 @@ The AICPA periodically updates the CPA Exam Blueprint. Always verify the latest 
 
 ### Area I: Information Systems and Data Management (35-45%)
 
-This is the largest content area and covers information systems and data management in a modern, cloud-based context. You are expected to understand IT architecture, evaluate enterprise systems and their controls, and work with data at every stage of its life cycle.
+Area I treats information systems in a modern, largely cloud-based setting. [IT Infrastructure](./information-systems/it-infrastructure.md) introduces the parts of an IT environment, the cloud service and deployment models, and the shared responsibility between a cloud provider and its customer. [Enterprise and Accounting Information Systems](./information-systems/enterprise-and-accounting-information-systems.md) covers ERP systems, the business processes they run, the systems they exchange data with, and controls over processing integrity. [Availability](./information-systems/availability.md) covers continuity and recovery planning, backups, and availability measures, and [Change Management](./information-systems/change-management.md) covers how changes to systems are approved, tested, and moved into production. [Data Management](./data-management/data-management.md) closes the area with storage types, relational databases, SQL queries, data integration, and business process models.
 
-- **IT Infrastructure**: key components of IT architecture (operating systems, servers, network infrastructure, end-user devices), cloud computing models (IaaS, PaaS, SaaS), cloud deployment models (public, private, hybrid), the role and responsibilities of cloud service providers, and how the COSO frameworks address cloud computing governance.
-- **Enterprise and Accounting Information Systems**: enterprise resource planning (ERP) systems, accounting information systems, the business processes they enable, controls over processing integrity, the use of blockchain in the context of financial reporting, robotic process automation (RPA), and the ability to reconcile actual business process steps against documented processes such as flowcharts and business process diagrams.
-- **Availability**: business resiliency, disaster recovery and business continuity plans, mirroring and replication, business impact analysis, system availability measures, data backup types (full, incremental, differential), and the evaluation of controls related to a service organization's availability commitments in a SOC 2® engagement.
-- **Change Management**: the purpose of change management processes, the tools and documentation used (change tracking, version control, test libraries, build automation, monitoring and logging), the different environments (development, staging, production), testing types (unit, integration, system, acceptance), system conversion approaches (direct, parallel, pilot), patch management, and the testing of change control policies in organizations using continuous integration and continuous deployment (CI/CD).
-- **Data Management**: data extraction methods and techniques, data storage types (data warehouse, data lake, data mart), database schemas (star, snowflake), the data life cycle, relational database structure (integrity rules, data dictionaries, normalization), SQL queries (commands, clauses, operators, aggregate functions, string functions), data integration from multiple sources, and business process models (flowcharts, data flow diagrams, BPMN diagrams).
-
-:::tip[Area I Strategy]
-
-Area I rewards candidates who understand how information systems work end-to-end. Do not simply memorize definitions; practice tracing a business process from initiation to reporting, and be able to identify where controls exist (or are missing) along the way. The exam will present scenarios where you must evaluate whether a system's design and operation meet the applicable criteria.
-
-:::
+The higher-order tasks in this area ask you to trace a real process against its documentation and to spot where a control is missing or was not performed. Learn the vocabulary, but practice applying it to scenarios.
 
 ### Area II: Security, Confidentiality and Privacy (35-45%)
 
-This area tests your knowledge of the regulatory landscape, threat environment, and controls that organizations use to protect their systems and data. It is equally weighted with Area I and spans from foundational knowledge of regulations to hands-on analysis of security controls.
-
-- **Regulations, Standards and Frameworks**: foundational knowledge of HIPAA (covered entities, permitted uses and disclosures), GDPR (scope, six principles, key concepts for personal data), PCI DSS (requirements), NIST Cybersecurity Framework (Core, Tiers, Organizational Profiles), NIST Privacy Framework, NIST SP 800-53, CIS Controls (Version 8.1), and COBIT 2019 (governance system principles, governance framework principles, governance system components).
-- **Threats and Attacks**: types of threat agents (internal, external, nation-state, adversary), types of attacks (physical, DDoS, malware, social engineering, web application attacks, mobile device attacks), techniques used in cyber-attacks (buffer overflow, cross-site scripting, SQL injection, replay attacks), stages of a cyber-attack (reconnaissance through covering tracks), and cybersecurity risks related to cloud environments, IoT, and mobile technologies. You must also be able to determine specific threats to an organization's applications, networks, and connected devices.
-- **Mitigation**: network protection and remote access security (VPN, segmentation, endpoint security, intrusion prevention and detection), vulnerability management, layered security and defense-in-depth, least-privilege, zero-trust, acceptable use policies, preventive/detective/corrective controls for cyber-attacks, and identification and authentication techniques (multi-factor authentication, single sign-on, digital signatures, biometrics) and authorization models (discretionary, role-based, mandatory access control).
-- **Security Testing**: procedures to evaluate security awareness training programs, documentation of security assessment findings, walkthroughs of IT security procedures, and the detection of deficiencies in the design and operation of controls related to a service organization's security commitments in a SOC 2® engagement.
-- **Confidentiality and Privacy**: encryption fundamentals, the distinction between confidentiality and privacy, data protection methods (obfuscation, tokenization), data loss prevention (DLP), financial and operational implications of data breaches, controls for collecting, processing, storing, transmitting, and deleting confidential data, and the evaluation of confidentiality and privacy controls in a SOC 2® engagement.
-- **Incident Response**: the distinction between security events and incidents, cyber insurance as a mitigation strategy, contents of incident response plans, and testing whether an entity responded to cybersecurity incidents in accordance with its plan.
-
-:::caution[Area II Depth]
-
-Area II spans a wide range of regulations and frameworks. You do not need to memorize every detail of HIPAA, GDPR, and PCI DSS, but you must understand their scope, key requirements, and how they relate to an organization's control environment. The exam tests foundational awareness at the Remembering and Understanding level, then applies that knowledge in higher-order tasks like evaluating whether specific controls adequately mitigate identified threats.
-
-:::
+Area II starts with [Regulations, Standards, and Frameworks](./regulations-standards-and-frameworks/regulations-standards-and-frameworks.md): HIPAA, the GDPR, PCI DSS, the NIST Cybersecurity Framework and Privacy Framework, NIST SP 800-53, the CIS Controls, and COBIT 2019. These are tested at the Remembering and Understanding level, and they supply the vocabulary for the rest of the area. [Threats and Attacks](./security/threats-and-attacks.md) describes who attacks and how, [Mitigation](./security/mitigation.md) covers the controls that prevent, detect, and correct those attacks, and [Security Testing](./security/security-testing.md) shows how a CPA tests those controls. [Confidentiality and Privacy](./confidentiality-privacy-and-incident-response/confidentiality-and-privacy.md) and [Incident Response](./confidentiality-privacy-and-incident-response/incident-response.md) finish the area.
 
 ### Area III: Considerations for SOC Engagements (15-25%)
 
-This area focuses on the unique aspects of System and Organization Controls engagements. While Areas I and II cover the underlying subject matter, Area III tests how that subject matter is applied in the specific context of SOC 1®, SOC 2®, SOC 3®, and SOC for Cybersecurity engagements.
-
-- **Planning and Performing SOC Engagements**: the purpose and organization of the Trust Services Criteria (alignment with the COSO Internal Control-Integrated Framework), types of subject matters, management assertions in SOC 1®/SOC 2®/SOC 3® engagements (Type 1 and Type 2), purpose and intended users of each SOC report type, independence considerations, materiality in SOC engagements, risk assessment for service organizations and service auditors, subservice organizations (inclusive vs. carve-out method, complementary subservice organization controls), service commitments and system requirements, subsequently discovered facts, system description criteria, complementary user entity controls (CUECs), and management representations.
-- **Reporting on SOC Engagements**: obtaining an understanding of the system and its boundaries, procedures for understanding how a service organization handles failures, incidents, and complaints, comparing management's system description to suitable criteria, and determining the effect of subsequent events.
-
-:::note
-
-SOC engagements are a core service offering for many CPA firms and represent a rapidly growing area of the profession. The ISC exam tests both the conceptual framework underlying these engagements and the practical procedures a newly licensed CPA would perform. If you are unfamiliar with SOC reports, budget extra study time to learn the terminology and structure before diving into the procedural details.
-
-:::
+Area III applies the first two areas to SOC engagements. [Planning and Performing SOC Engagements](./soc-engagements/planning-and-performing-soc-engagements.md) covers the Trust Services Criteria, the SOC report types and their users, management's assertions, materiality, subservice organizations, system descriptions, and complementary user entity controls. [Reporting on SOC Engagements](./soc-engagements/reporting-on-soc-engagements.md) covers opinions, report modifications, the presentation of test results and exceptions, and the form and content of SOC 1® and SOC 2® reports. The exam's SOC 1® coverage includes planning, certain procedures, and reporting, but not the testing of controls over financial reporting itself.
 
 ---
 
-## Key Frameworks and References
+## Key References
 
-Throughout this section, you will work with these authoritative sources:
+The ISC References limit what can be tested: a task that names a framework is tested only from the sections the References list, and not from material those sources point to. The main sources are:
 
-| Framework | Description |
+| Source | What It Is |
 |---|---|
-| **AICPA Trust Services Criteria** | Criteria for evaluating security, availability, processing integrity, confidentiality, and privacy in SOC 2® and SOC 3® engagements |
-| **AICPA SOC 1® and SOC 2® Guides** | Authoritative guidance for planning, performing, and reporting on SOC engagements |
-| **COSO Internal Control-Integrated Framework** | Framework for designing and evaluating internal controls, which aligns with the Trust Services Criteria |
-| **COSO ERM Framework** | Enterprise Risk Management guidance, including perspectives on cloud computing and cyber risk |
-| **COBIT 2019** | ISACA's governance and management framework for enterprise IT |
-| **NIST Cybersecurity Framework (CSF)** | Framework for managing cybersecurity risk (Core, Tiers, Organizational Profiles) |
-| **NIST Privacy Framework** | Framework for managing privacy risk |
-| **NIST SP 800-53** | Security and privacy controls for information systems and organizations |
-| **CIS Controls v8.1** | Prioritized set of actions to protect organizations from known cyber-attack vectors |
-| **HIPAA** | Health Insurance Portability and Accountability Act: security and privacy rules for protected health information |
-| **GDPR** | EU General Data Protection Regulation: personal data protection requirements |
-| **PCI DSS** | Payment Card Industry Data Security Standard: requirements for protecting payment account data |
+| **AICPA Trust Services Criteria (2017, revised points of focus 2022)** | Criteria for security, availability, processing integrity, confidentiality, and privacy in SOC 2® and SOC 3® engagements |
+| **AICPA Description Criteria (DC 200, 2018, revised implementation guidance 2022)** | What a SOC 2® system description must contain |
+| **AICPA SOC 1® and SOC 2® Guides, attestation standards (SSAEs)** | Guidance for planning, performing, and reporting on SOC engagements |
+| **COSO guidance** | *Enterprise Risk Management for Cloud Computing* and *Managing Cyber Risk in a Digital Age* |
+| **COBIT 2019** | ISACA's governance framework for enterprise information and technology (Introduction and Methodology, Chapters 1-5) |
+| **NIST Cybersecurity Framework (CSF)** | Framework for managing cybersecurity risk; version 2.0 (2024) is current |
+| **NIST Privacy Framework** | Framework for managing privacy risk (introduction, basics, and glossary) |
+| **NIST SP 800-53 Rev. 5** | Catalog of security and privacy controls (Chapters 1 and 2) |
+| **CIS Controls v8.1** | Eighteen prioritized controls (overview of each control) |
+| **HIPAA** | Security and Privacy Rules for protected health information (45 CFR 164.103-164.530) |
+| **GDPR** | EU General Data Protection Regulation (Articles 4-34) |
+| **PCI DSS v4.x** | Requirements for protecting payment account data |
 
 ---
 
-## Study Guide
+## How to Study ISC
 
-:::tip[How to Approach ISC]
+Start with Area I. It carries as much weight as Area II and gives you the technical base for everything else. Then work through Area II, beginning with the frameworks chapter so that the controls in later chapters have a "why" behind them. Finish with Area III, which assumes you already know the controls and asks how a service auditor examines and reports on them.
 
-ISC is a unique exam that blends **IT knowledge** with **audit and advisory skills**. A structured study plan is essential.
+Throughout, learn the terms precisely. ISC questions often turn on one word: IaaS versus PaaS, an IDS versus an IPS, a design deficiency versus an operating deviation, the carve-out method versus the inclusive method. Then practice with scenarios, because a single TBS can draw on all three areas. A question about **Polar Inc.**'s cloud provider might require you to know the service model (Area I), the threat (Area II), and how the provider's SOC 2® report treats its subservice organizations (Area III).
 
-1. **Start with Information Systems and Data Management (Area I).** This area carries the heaviest weight and establishes the technical foundation you need for everything else. Begin with IT infrastructure and cloud computing, then work through enterprise systems, availability, change management, and data management.
+:::tip[The Common Pitfall]
 
-2. **Layer in Security, Confidentiality and Privacy (Area II).** Start with the regulations, standards, and frameworks, which provide the "why" behind the controls you will evaluate. Then study threats and attacks, mitigation strategies, security testing, confidentiality and privacy, and incident response.
-
-3. **Finish with SOC Engagements (Area III).** SOC engagements build on the knowledge from Areas I and II but add engagement-specific considerations. Understand the different SOC report types and their purposes first, then dive into the planning, performing, and reporting procedures.
-
-4. **Learn the terminology.** ISC uses specialized IT and cybersecurity vocabulary that may be unfamiliar to candidates with accounting backgrounds. Invest time in understanding terms like IaaS, PaaS, SaaS, VPN, DDoS, SQL injection, zero-trust, and data normalization. Misunderstanding a key term in a question stem can lead to an incorrect answer.
-
-5. **Practice scenario-based questions.** The exam will present scenarios where **Polar Inc.** needs to evaluate its cloud provider's controls, or where **Bear Co.** is assessing whether its change management process has adequate segregation of duties. Practice identifying the specific control, deficiency, or procedure that applies in each scenario.
-
-6. **Connect the content areas.** A single scenario may span multiple areas. A question about evaluating a service organization's security controls could require knowledge of threat types (Area II), the Trust Services Criteria (Area III), and the underlying IT infrastructure (Area I).
+Many candidates assume IT knowledge is enough. ISC tests IT through the lens of an engagement: you must know not only what a control is, but how to evaluate its design, test its operation, and describe a deficiency. Candidates who study only the technology often struggle with the application and analysis questions.
 
 :::
 
-:::danger[Common Pitfall]
-
-Many candidates underestimate ISC because they assume IT knowledge alone is sufficient. ISC tests IT concepts through the lens of **audit and advisory engagements**: you must understand not only what a control is, but how to **evaluate its design**, **test its operation**, and **detect deficiencies**. Candidates who study only IT concepts without understanding the audit context often struggle with the application and analysis questions.
-
-:::
-
----
-
-## Let's Get Started
-
-Select a topic area from the sidebar to begin, or start with the first topic, **[IT Infrastructure](/isc/information-systems/it-infrastructure)**.
+Ready to begin? Start with the first chapter, **[IT Infrastructure](./information-systems/it-infrastructure.md)**.

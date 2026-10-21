@@ -1,252 +1,234 @@
 # Confidentiality and Privacy
 
-Protecting sensitive information and respecting individual privacy rights are foundational obligations for every organization. For CPAs, these concepts are central to SOC 2® engagements, IT risk assessments, and advisory services, particularly as data breaches grow in frequency and regulatory penalties intensify. Whether you are evaluating encryption controls, assessing a client's DLP program, or testing confidentiality commitments under the Trust Services Criteria, you must understand how organizations safeguard data throughout its lifecycle.
-This section covers **encryption fundamentals and techniques**, **the distinction between confidentiality and privacy**, **data protection methods (obfuscation, tokenization, anonymization)**, **Data Loss Prevention (DLP)**, **financial and operational implications of a data breach**, **data lifecycle controls**, **SOC 2® confidentiality and privacy criteria**, and **walkthrough procedures for confidentiality and privacy controls**.
-:::info
-The ISC exam tests confidentiality and privacy at the Remembering & Understanding, Application, and Analysis levels. You should be able to explain encryption techniques, distinguish confidentiality from privacy, identify data protection methods, determine appropriate controls for the data lifecycle, and detect deficiencies in SOC 2® engagements.
-:::
+Every organization holds information it must not let out: merger plans, pricing, source code, and personal data about customers and employees. **Confidentiality** is about keeping sensitive information away from people who should not see it. **Privacy** is about respecting the rights of the people the information describes. The two overlap heavily, and both are Trust Services categories, which is why they sit together in the blueprint and in many SOC 2® reports.
+
+This chapter begins with encryption, the main technical tool for keeping data confidential, and then draws the line between confidentiality and privacy. It covers ways to protect confidential data while applications are built and tested, data loss prevention, and what a breach costs. It then sets out controls for each stage of handling confidential data, the SOC 2® confidentiality and privacy criteria, and walkthroughs of confidentiality and privacy procedures.
 
 ---
 
 ## Encryption Fundamentals
 
-**Encryption** transforms readable data (plaintext) into an unreadable format (ciphertext) using an algorithm and a key. Only authorized parties with the correct key can decrypt the data back to plaintext.
+**Encryption** turns readable data (**plaintext**) into unreadable data (**ciphertext**) using an algorithm and a **key**. Only someone with the right key can turn it back (**decryption**). The strength of encryption depends on the algorithm and on keeping the keys secret, so key management is as important as the encryption itself.
 
-### Symmetric vs. Asymmetric Encryption
+### Symmetric and Asymmetric Encryption
 
-| Feature               | Symmetric Encryption                            | Asymmetric Encryption                                |
-| --------------------- | ----------------------------------------------- | ---------------------------------------------------- |
-| **Keys used**         | Single shared key for encryption and decryption | Key pair: public key encrypts, private key decrypts  |
-| **Speed**             | Fast; efficient for large data volumes          | Slower; computationally intensive                    |
-| **Key distribution**  | Challenge: must securely share the key          | Easier: public key can be freely distributed         |
-| **Common algorithms** | AES, DES, 3DES                                  | RSA, ECC                                             |
-| **Typical use cases** | Encrypting data at rest, bulk data transfer     | Digital signatures, key exchange, email encryption   |
+| Feature | Symmetric Encryption | Asymmetric Encryption |
+|---|---|---|
+| **Keys** | One shared secret key encrypts and decrypts | A key pair: what one key encrypts, only the other can decrypt |
+| **Speed** | Fast; suited to large volumes of data | Slower; computationally heavy |
+| **Key distribution** | Hard: the secret key must reach the other party safely | Easier: the public key can be shared openly; the private key never leaves its owner |
+| **Common algorithms** | AES (current standard); DES and 3DES are obsolete | RSA, elliptic curve cryptography (ECC) |
+| **Typical uses** | Encrypting stored data and bulk transfers | Exchanging keys, digital signatures, encrypted email |
+
+With asymmetric encryption, the direction matters. To send someone a confidential message, encrypt it with the **recipient's public key**, so only the recipient's private key can open it. To sign a message, the sender uses the **sender's private key**, and anyone can verify the signature with the sender's public key.
 
 :::tip[Exam Tip]
-Remember: **Symmetric = Same key** (one key shared by both parties). **Asymmetric = A pair** (public + private). AES-256 is the current industry standard for symmetric encryption. RSA and ECC are the most common asymmetric algorithms.
+
+**Symmetric = same key** shared by both parties. **Asymmetric = a pair** of public and private keys. Real systems combine them: asymmetric encryption is used to exchange a symmetric key safely, and the fast symmetric key then encrypts the data.
+
 :::
 
 ### Hashing
 
-**Hashing** is a one-way function that produces a fixed-length output (hash or digest) from any input. Unlike encryption, hashing cannot be reversed. It verifies data integrity rather than providing confidentiality.
+**Hashing** is a one-way function: it turns any input into a fixed-length output (a **hash** or digest), and the input cannot be recovered from the hash. Changing even one character of the input produces a completely different hash. Hashing therefore checks **integrity** (has the data changed?) rather than providing confidentiality.
+
 | Algorithm | Output Length | Status |
 |---|---|---|
-| **MD5** | 128 bits | Deprecated (collision vulnerabilities) |
-| **SHA-1** | 160 bits | Deprecated (collision vulnerabilities) |
-| **SHA-256** | 256 bits | Current standard |
-| **SHA-3** | Variable | Newest standard |
+| **MD5** | 128 bits | Broken: attackers can create collisions (two inputs with the same hash) |
+| **SHA-1** | 160 bits | Broken for the same reason; no longer acceptable |
+| **SHA-256** (part of SHA-2) | 256 bits | Current standard |
+| **SHA-3** | 224 to 512 bits | Newer standard, built on a different design |
 
-### Public Key Infrastructure (PKI) and Digital Certificates
+### Public Key Infrastructure (PKI)
 
-**PKI** provides the framework for managing digital certificates and public-key encryption. Components include:
+Asymmetric encryption only works if you can trust that a public key really belongs to the person or website it claims to. **Public key infrastructure (PKI)** provides that trust through **digital certificates**, electronic documents that bind a public key to an identity. A **certificate authority (CA)** verifies the identity and signs the certificate, sometimes relying on a **registration authority (RA)** to do the verification. Certificates that are compromised or no longer valid are revoked and listed on a **certificate revocation list (CRL)**.
 
-- **Certificate Authority (CA)**: Issues and signs digital certificates
-- **Registration Authority (RA)**: Verifies identity before certificate issuance
-- **Digital certificate**: Binds a public key to an entity's identity
-- **Certificate Revocation List (CRL)**: Lists revoked certificates
+### Data at Rest and Data in Transit
 
-### Encryption at Rest vs. In Transit
-
-| State          | Description                                    | Common Controls                            |
-| -------------- | ---------------------------------------------- | ------------------------------------------ |
-| **At rest**    | Data stored on disk, database, or backup media | AES-256 full-disk encryption, database TDE |
-| **In transit** | Data moving across a network                   | TLS 1.2+, IPsec VPN, HTTPS                 |
-
-**TLS (Transport Layer Security)** replaced the deprecated SSL protocol and secures data in transit by establishing an encrypted channel between two endpoints using both asymmetric (for key exchange) and symmetric (for bulk data) encryption.
-
-## Confidentiality vs. Privacy
-
-Although related, confidentiality and privacy address different concerns:
-| Dimension | Confidentiality | Privacy |
+| State | Description | Common Controls |
 |---|---|---|
-| **Definition** | Protecting sensitive information from unauthorized access or disclosure | An individual's right to control the collection, use, and sharing of their personal information |
-| **Focus** | The data itself (trade secrets, financial records, IP) | The data subject (customers, employees, patients) |
-| **Obligation** | Contractual or organizational (e.g., NDA, policy) | Legal and regulatory (e.g., GDPR, HIPAA, CCPA) |
-| **TSC category** | Confidentiality (C1) | Privacy (P1-P8) |
-| **Example** | Preventing unauthorized access to **Bear Co.**'s merger plans | Ensuring **Bear Co.** obtains consent before collecting customer emails |
-:::note
-All privacy protections require confidentiality controls, but not all confidential information involves personal data. A company's proprietary formula is confidential but does not trigger privacy regulations.
-:::
+| **At rest** | Data stored on disks, in databases, or on backup media | Full-disk encryption, database encryption, encrypted backups |
+| **In transit** | Data moving across a network | TLS (as in HTTPS), VPNs, secure file transfer |
+
+**Transport Layer Security (TLS)** replaced the older, insecure SSL protocol. It uses asymmetric cryptography to authenticate the server and agree on a session key, then symmetric encryption for the data itself, and it also protects the data's integrity in transit.
 
 ---
 
-## Data Protection Methods
+## Confidentiality and Privacy Compared
 
-Organizations employ various techniques to protect confidential data during the design, development, testing, and implementation of applications.
-| Method | Description | Reversible? | Use Case |
+| Dimension | Confidentiality | Privacy |
+|---|---|---|
+| **Concern** | Keeping sensitive information from unauthorized access or disclosure | Collecting, using, keeping, sharing, and disposing of **personal information** in line with the entity's commitments and the law |
+| **What is protected** | Any sensitive information: trade secrets, financial data, plans, and personal data | Information about identifiable people: customers, employees, patients |
+| **Typical source of the obligation** | Contracts, nondisclosure agreements, and the entity's own policies | Laws and regulations (such as HIPAA and the GDPR) and the entity's privacy notice |
+| **Trust Services category** | Confidentiality (C1) | Privacy (P1-P8) |
+| **Example** | Keeping **Bear Co.**'s merger plans from leaking | Making sure **Bear Co.** tells customers how it will use their email addresses, and uses them only that way |
+
+Privacy depends on confidentiality, since personal data that leaks has obviously been mishandled. But privacy goes further. It also covers notice, consent, limits on use, and individuals' rights to see and correct their data, none of which encryption addresses. And much confidential information, such as a proprietary formula, has nothing to do with privacy at all.
+
+---
+
+## Protecting Confidential Data in Applications
+
+The blueprint asks how confidential data is protected during the design, development, testing, and implementation of applications that use it. The main concern is that developers and testers need realistic data, but they should not see real Social Security numbers or card numbers. Several techniques help:
+
+| Method | What It Does | Reversible? | Typical Use |
 |---|---|---|---|
-| **Data masking** | Replaces sensitive characters with substitutes (e.g., XXX-XX-1234) | No (static) / Yes (dynamic) | Displaying partial data in UIs |
-| **Data scrambling** | Randomly rearranges characters within a field | Yes (with key) | Non-production test environments |
-| **Tokenization** | Replaces sensitive data with a non-sensitive token; original stored in a secure vault | Yes (via vault lookup) | Payment card processing (PCI DSS) |
-| **Anonymization** | Irreversibly removes identifying information | No | Research datasets, analytics |
-| **Pseudonymization** | Replaces identifiers with artificial ones; re-identification possible with a separate key | Yes (with key) | GDPR-compliant processing |
+| **Data obfuscation** | The general term for disguising data so that it is useless to unauthorized viewers; masking and scrambling are forms of it | Depends on the technique | Any non-production use |
+| **Masking** | Replaces some or all characters with substitutes, such as showing only XXX-XX-1234 | Static masking: no. Dynamic masking hides data on screen but leaves the stored value intact | Screens, reports, and test data |
+| **Scrambling (shuffling)** | Mixes up characters or swaps values among records | Generally no | Test environments |
+| **Tokenization** | Replaces the sensitive value with a random token; the real value is kept in a secured token vault | Yes, but only through the vault | Payment card data (reduces PCI DSS scope) |
+| **Encryption** | Transforms data with a key | Yes, with the key | Stored and transmitted data |
+| **Pseudonymization** | Replaces identifiers with artificial ones; the link back is kept separately | Yes, with the separately held information | Analytics on personal data (still personal data under the GDPR) |
+| **Anonymization** | Removes identifying information permanently | No | Research and aggregate analysis |
 
-### When to Apply During the SDLC
+Each stage of the development life cycle has its own job:
 
-```mermaid
-graph LR
-    A[Design] --> B[Development]
-    B --> C[Testing]
-    C --> D[Implementation]
-    A -.- A1[Define classification<br/>and protection requirements]
-    B -.- B1[Implement tokenization<br/>or masking in code]
-    C -.- C1[Use anonymized or<br/>scrambled test data]
-    D -.- D1[Enable dynamic masking<br/>and DLP monitoring]
-```
+| Stage | Protection Step |
+|---|---|
+| **Design** | Classify the data the application will use and define how each class must be protected |
+| **Development** | Build tokenization, masking, and encryption into the application |
+| **Testing** | Use masked, tokenized, or synthetic test data instead of real production data |
+| **Implementation** | Turn on dynamic masking and access controls in production, and extend data loss prevention monitoring to the new application |
 
-> **Example:** **Polar Inc.** builds a new payroll application. During testing, developers must never use real employee SSNs. The security team provides **tokenized** test data so that the application logic can be validated without exposing actual sensitive values.
+**Example:** **Polar Inc.** is building a new payroll application. Developers and testers never see real employee Social Security numbers: the security team supplies test data in which every number has been replaced with a token, so the application's logic can be tested without exposing actual values.
+
+---
 
 ## Data Loss Prevention (DLP)
 
-**Data Loss Prevention (DLP)** refers to the set of tools, processes, and policies that detect and prevent unauthorized transmission or leakage of sensitive data outside the organization.
+**Data loss prevention (DLP)** is the set of tools, policies, and processes that detect and stop sensitive data from leaving the organization without authorization.
 
-### Types of DLP
+| Type | Where It Works | What It Watches |
+|---|---|---|
+| **Network DLP** | At the points where traffic leaves the network | Email, web uploads, file transfers |
+| **Endpoint DLP** | On laptops and workstations | Copying to USB drives, printing, uploads from the device |
+| **Cloud DLP** | Inside SaaS and cloud platforms | File sharing links, data moving between cloud services |
 
-| Type             | Deployment                                | What It Monitors                          |
-| ---------------- | ----------------------------------------- | ----------------------------------------- |
-| **Network DLP**  | Monitors network traffic at egress points | Email, web uploads, FTP transfers         |
-| **Endpoint DLP** | Installed on workstations and laptops     | USB copies, print jobs, clipboard actions |
-| **Cloud DLP**    | Integrates with SaaS/IaaS platforms       | Cloud storage sharing, API data flows     |
+DLP tools work in three steps. They **inspect content** for patterns such as card numbers, Social Security numbers, or document labels; they **consider context**, such as who is sending, to whom, and where; and they **enforce policy** by blocking, quarantining, encrypting, or alerting.
 
-### How DLP Works
+**Example:** **Illini Security** sets its network DLP to flag any outbound email containing more than 10 numbers in Social Security number format. When an employee tries to email a spreadsheet of 500 customer SSNs to a personal address, the DLP tool blocks the email and alerts the security team.
 
-1. **Content inspection**: Scans data for patterns (credit card numbers, SSNs, keywords)
-2. **Contextual analysis**: Evaluates sender, recipient, time, destination
-3. **Policy enforcement**: Blocks, quarantines, encrypts, or alerts based on rule matches
-   :::warning
-   DLP is only effective when policies are kept current and aligned with data classification. A DLP system that cannot identify newly classified confidential data will fail to prevent its exfiltration.
-   :::
-   **Example:** **Illini Security** configures its network DLP to flag any outbound email containing more than 10 records matching a SSN pattern (XXX-XX-XXXX). When an employee attempts to email a spreadsheet with 500 customer SSNs to a personal account, the DLP system blocks the transmission and alerts the security team.
+DLP is only as good as its rules. It can protect only the kinds of data it has been configured to recognize, so its rules must track the organization's data classification scheme and be updated as new kinds of sensitive data appear.
 
 ---
 
 ## Financial and Operational Implications of a Data Breach
 
-| Impact Category      | Examples                                                                       | Typical Cost Drivers                                                                           |
-| -------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
-| **Financial**        | Regulatory fines, legal settlements, credit monitoring, forensic investigation | GDPR fines up to €20M or 4% of global revenue; HIPAA fines up to \$1.5M per violation category |
-| **Operational**      | Business disruption, system downtime, diverted IT resources                    | Incident response labor, emergency patching, overtime                                          |
-| **Reputational**     | Loss of customer trust, negative media coverage, stock price decline           | Customer churn, reduced new business, investor confidence                                      |
-| **Legal/Regulatory** | Lawsuits, consent decrees, mandatory audits                                    | Attorney fees, ongoing compliance monitoring                                                   |
-| **Insurance**        | Cyber liability premiums increase, coverage disputes                           | Policy deductibles, exclusions for negligence                                                  |
+A data breach costs far more than the immediate cleanup:
 
-:::note
-The average cost of a data breach exceeds \$4 million globally. Organizations with mature encryption and DLP programs experience significantly lower breach costs due to reduced data exposure.
-:::
-**Example:** **Kingfisher Industries** suffers a breach exposing 200,000 customer payment records. Direct costs include \$2M in notification and credit monitoring, \$1.5M in forensic investigation, and a \$3M regulatory fine. Indirect costs, such as customer attrition and brand damage, exceed \$5M over two years.
-
----
-
-## Data Lifecycle Controls
-
-Organizations must implement controls at every stage of the data lifecycle:
-| Stage | Key Controls |
+| Category | Examples |
 |---|---|
-| **Collection** | Consent mechanisms, data minimization, input validation, classification at point of entry |
-| **Processing** | Role-based access control (RBAC), least privilege, audit logging, data quality checks |
-| **Storage** | Encryption at rest (AES-256), access control lists, data classification labels, backup encryption |
-| **Transmission** | TLS 1.2+, VPN tunnels, encrypted email (S/MIME or PGP), secure file transfer (SFTP) |
-| **Deletion** | Crypto-shredding, secure wipe (NIST 800-88), certificate of destruction, retention policy enforcement |
+| **Direct financial costs** | Forensic investigation, legal counsel, notifying affected people, credit monitoring, call centers |
+| **Regulatory and legal** | Fines and penalties (the GDPR allows fines up to €20 million or 4% of worldwide annual turnover, whichever is higher), lawsuits, settlements, mandated audits |
+| **Operational** | Systems taken offline, disrupted operations, staff pulled from regular work |
+| **Reputational** | Lost customers, harder sales, negative press, a falling stock price |
+| **Insurance** | Higher premiums at renewal, deductibles, and disputes over coverage |
 
-### Data Classification
+Industry studies put the average total cost of a breach in the millions of dollars. Organizations that encrypt sensitive data, detect breaches quickly, and have a tested response plan generally lose less, because less data is exposed and the incident is contained sooner.
 
-| Level            | Description                   | Example                            |
-| ---------------- | ----------------------------- | ---------------------------------- |
-| **Public**       | No harm if disclosed          | Marketing materials                |
-| **Internal**     | Minor harm if disclosed       | Internal memos                     |
-| **Confidential** | Significant harm if disclosed | Financial statements (pre-release) |
-| **Restricted**   | Severe harm if disclosed      | PII, PHI, trade secrets            |
-
-### Secure Destruction Methods
-
-- **Crypto-shredding**: Destroying encryption keys renders data unrecoverable without physically destroying media
-- **Degaussing**: Magnetically erasing data from magnetic media
-- **Physical destruction**: Shredding, incineration, or disintegration of storage media
-- **Secure overwrite**: Writing random patterns over data multiple times (per NIST SP 800-88)
+**Example:** **Kingfisher Industries** suffers a breach that exposes 200,000 customer payment records. The direct costs are \$2 million for notification and credit monitoring, \$1.5 million for forensic investigation, and a \$3 million regulatory penalty, a total of \$6.5 million. Lost customers and brand damage cost more than another \$5 million over the next two years.
 
 ---
 
-## SOC 2® Confidentiality and Privacy Controls
+## Controls Over Confidential and Personal Data
 
-In a SOC 2® engagement, auditors evaluate an organization's controls against the **Trust Services Criteria (TSC)**. Confidentiality and privacy are two of the five TSC categories.
+The blueprint asks you to determine controls and data management practices to securely **collect, process, store, transmit, and delete** confidential data or data subject to privacy rules. Those five verbs map onto the data life cycle described in the [Data Management](../data-management/data-management.md) chapter:
 
-### Confidentiality Criteria (C1)
-
-The confidentiality category evaluates whether the entity protects information designated as confidential:
-| Criterion | Focus Area |
+| Activity | Key Controls |
 |---|---|
-| **C1.1** | Confidential information is identified and protected |
-| **C1.2** | Confidential information is disposed of securely |
+| **Collect** | Notice and consent where required, collecting only the data needed, input validation, classifying data when it enters the system |
+| **Process** | Role-based access and least privilege, audit logging, data quality checks |
+| **Store** | Encryption, access control lists, classification labels, encrypted backups, retention schedules |
+| **Transmit** | TLS, VPNs, encrypted email, secure file transfer |
+| **Delete** | Secure deletion or destruction at the end of the retention period, with documentation |
 
-### Privacy Criteria (P1-P8)
+Controls start with **data classification**, because the organization cannot protect data appropriately until it knows how sensitive the data is. A common four-level scheme:
 
-| Criterion | Principle                    | Description                                                                           |
-| --------- | ---------------------------- | ------------------------------------------------------------------------------------- |
-| **P1**    | Notice                       | The entity provides notice about its privacy practices                                |
-| **P2**    | Choice and consent           | The entity obtains consent for collection and use of personal information             |
-| **P3**    | Collection                   | Personal information is collected only for identified purposes                        |
-| **P4**    | Use, retention, and disposal | Personal information is used, retained, and disposed of per stated policies           |
-| **P5**    | Access                       | Data subjects can access and update their personal information                        |
-| **P6**    | Disclosure and notification  | Personal information is disclosed only as authorized; breach notification is provided |
-| **P7**    | Quality                      | The entity maintains accurate, complete personal information                          |
-| **P8**    | Monitoring and enforcement   | The entity monitors compliance with its privacy commitments                           |
+| Level | Harm If Disclosed | Example |
+|---|---|---|
+| **Public** | None | Marketing materials |
+| **Internal** | Minor | Internal memos |
+| **Confidential** | Significant | Unreleased financial statements |
+| **Restricted** | Severe | Personal data, health information, trade secrets |
 
-### Design Deficiencies vs. Operating Deviations
-
-| Issue Type              | Definition                                                                                                          | Example                                                                                                           |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **Design deficiency**   | A control is missing or improperly designed such that even if it operates as intended, it cannot meet the criterion | **Bear Co.** has no policy requiring encryption of confidential data at rest; the control simply does not exist  |
-| **Operating deviation** | A properly designed control fails to operate as intended during the examination period                              | **Bear Co.** has an encryption policy but an administrator bypassed it for three months due to a system migration |
+Deletion deserves care, because ordinary deletion usually leaves the data recoverable. NIST's guidance on media sanitization (SP 800-88) describes three levels: **clear** (overwriting data so ordinary tools cannot recover it), **purge** (techniques such as cryptographic erase or degaussing that defeat even laboratory recovery), and **destroy** (shredding, disintegrating, or incinerating the media). **Crypto-shredding**, destroying the encryption keys for data that was always stored encrypted, makes the data unreadable without touching the media. **Degaussing** erases magnetic media with a strong magnetic field. Whatever the method, the organization should document the destruction.
 
 ---
 
-## Confidentiality and Privacy Walkthroughs
+## SOC 2® Confidentiality and Privacy Criteria
 
-A **walkthrough** is a procedure in which the auditor traces a transaction or process from initiation to completion, observing actual procedures and comparing them to documented policies.
+In a SOC 2® engagement that includes these categories, the service auditor evaluates the service organization's controls against additional criteria, on top of the common criteria.
 
-### Walkthrough Procedure Steps
+### Confidentiality (C1)
 
-1. **Select the process**: Choose a confidentiality or privacy-relevant process (e.g., customer data collection, data disposal)
-2. **Obtain documentation**: Gather written policies and procedure documents
-3. **Trace through the system**: Follow data from input through processing to output/destruction
-4. **Observe personnel**: Watch employees perform the process in real time
-5. **Inquire**: Ask operators clarifying questions about exceptions and controls
-6. **Compare**: Evaluate observed procedure against documented requirements
+| Criterion | Focus |
+|---|---|
+| **C1.1** | The entity identifies and maintains confidential information to meet its confidentiality objectives |
+| **C1.2** | The entity disposes of confidential information to meet its confidentiality objectives |
 
-### Areas to Evaluate
+### Privacy (P1-P8)
 
-| Area                       | What to Look For                                                          |
-| -------------------------- | ------------------------------------------------------------------------- |
-| **IT risk management**     | Risk assessments include confidentiality and privacy threats              |
-| **Human resources**        | Background checks, termination procedures revoke access promptly          |
-| **Training and education** | Employees receive privacy awareness training annually                     |
-| **Incident response**      | Breach notification procedures align with regulatory timelines            |
-| **Vendor management**      | Third-party contracts include confidentiality and data protection clauses |
+| Criteria | Topic | Focus |
+|---|---|---|
+| **P1** | Notice | The entity tells people about its privacy practices |
+| **P2** | Choice and consent | The entity offers choices and obtains consent where required |
+| **P3** | Collection | Personal information is collected only for the purposes identified |
+| **P4** | Use, retention, and disposal | Personal information is used only for the stated purposes, kept only as long as needed, and disposed of securely |
+| **P5** | Access | People can see and correct their personal information |
+| **P6** | Disclosure and notification | Personal information is disclosed to third parties only as permitted, and breaches are reported to the people affected |
+| **P7** | Quality | Personal information is kept accurate, complete, and relevant |
+| **P8** | Monitoring and enforcement | The entity monitors compliance and handles privacy inquiries and complaints |
 
-> **Example:** **Illini Entertainment** documents a policy requiring employee access to customer PII to be revoked within 24 hours of termination. During a walkthrough, the auditor discovers that two terminated employees retained access for 15 days. This is an **operating deviation**: the policy is properly designed but was not consistently executed.
+The same two kinds of findings apply here as in every SOC 2® category. A **design deficiency** means a control is missing or would not meet the criterion even if performed perfectly: **Bear Co.** has no requirement at all to encrypt confidential client data at rest. An **operating deviation** means a suitably designed control was not performed as designed: Bear Co. requires encryption, but an administrator turned it off for three months during a system migration. The [Security Testing](../security/security-testing.md) chapter covers this distinction in more detail.
+
+---
+
+## Walkthroughs of Confidentiality and Privacy Procedures
+
+The blueprint asks you to walk through an organization's procedures relevant to confidentiality and privacy and compare what you observe with the documented policy. The method is the same as for security walkthroughs (see [Security Testing](../security/security-testing.md)): select a procedure, read the policy, trace an instance through the process, ask the people involved, and compare. For confidentiality and privacy, good procedures to choose include how personal data is collected and consent recorded, how access to confidential data is granted and removed, how data is disposed of, and how breaches are escalated and reported.
+
+| Area | What to Look For |
+|---|---|
+| **IT risk management** | Risk assessments that include confidentiality and privacy risks |
+| **Human resources** | Confidentiality agreements signed at hiring; access to confidential data removed promptly at termination |
+| **Training and education** | Privacy and data handling training delivered as often as the policy requires |
+| **Incident response** | Breach notification procedures that meet regulatory deadlines |
+| **Vendor management** | Contracts with confidentiality and data protection terms for vendors that handle the data |
+
+**Example:** **Illini Entertainment**'s policy requires access to customer personal data to be removed within 24 hours of an employee's termination. In a walkthrough, the auditor finds that two terminated employees kept access for 15 days. The policy is suitably designed but was not followed, so this is an **operating deviation**.
+
+---
 
 ## Summary
 
-| Topic                       | Key Takeaway                                                                                                                       |
-| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Encryption fundamentals     | Symmetric (AES) is fast for bulk data; asymmetric (RSA/ECC) enables secure key exchange; hashing verifies integrity                |
-| Confidentiality vs. privacy | Confidentiality protects data from unauthorized access; privacy protects individuals' rights over their personal data              |
-| Data protection methods     | Tokenization, masking, anonymization, and pseudonymization protect data during SDLC; choose based on reversibility needs          |
-| Data Loss Prevention        | DLP tools monitor network, endpoint, and cloud channels using content inspection and contextual analysis to prevent data leakage   |
-| Data breach implications    | Breaches cause financial (fines, remediation), operational (downtime), reputational (churn), and legal consequences                |
-| Data lifecycle controls     | Apply classification, encryption, access controls, and secure destruction at each stage, from collection through deletion         |
-| SOC 2® criteria             | Confidentiality (C1) and Privacy (P1-P8) criteria define the benchmarks; distinguish design deficiencies from operating deviations |
-| Walkthroughs                | Trace processes end-to-end, observe personnel, and compare actual practices to documented policies                                 |
+| Topic | Key Takeaway |
+|---|---|
+| Encryption | Symmetric is fast for bulk data; asymmetric solves key exchange and enables signatures; hashing checks integrity |
+| Confidentiality vs. privacy | Confidentiality protects sensitive information; privacy governs personal information and individuals' rights |
+| Protecting data in applications | Masking, scrambling, tokenization, encryption, pseudonymization, and anonymization; never test with real sensitive data |
+| DLP | Inspects content and context on networks, endpoints, and cloud services; only as good as its rules |
+| Breach costs | Direct, regulatory, operational, reputational, and insurance costs |
+| Data handling controls | Classify first, then control collection, processing, storage, transmission, and deletion |
+| SOC 2® criteria | Confidentiality C1.1-C1.2; privacy P1-P8 |
+| Walkthroughs | Compare observed procedures with documented policies |
 
 ---
 
 ## Practice Questions
 
-1. **Bear Co.** stores customer payment data in a cloud database encrypted with AES-256. When transmitting this data to a payment processor, the connection uses TLS 1.3. A new developer proposes using MD5 hashes to verify data integrity during transfer. Should the security team approve this approach, and why or why not?
-2. **Polar Inc.** is undergoing a SOC 2® engagement. The auditor reviews the company's confidentiality controls and finds that the data retention policy requires deletion of client files 90 days after engagement completion. However, when the auditor examines the file server, client files from 8 months ago remain accessible. Is this a design deficiency or an operating deviation? Explain.
-3. **Illini Security** implements a new DLP solution. During configuration, the team sets rules to block outbound emails containing credit card numbers but does not create rules for Social Security numbers, health records, or proprietary source code. Six months later, an employee emails a file containing 1,000 patient health records to an unauthorized external recipient without triggering any alert. What type of DLP failure is this, and what should the team have done differently?
-   :::tip[Answers]
-4. The security team should **reject MD5** for integrity verification. MD5 is cryptographically broken. Known collision vulnerabilities allow attackers to craft two different inputs with the same hash. Bear Co. should use **SHA-256** or higher for integrity checks. While TLS 1.3 already provides message integrity via its built-in HMAC, any additional application-layer integrity check must use a current algorithm.
-5. This is an **operating deviation**, not a design deficiency. The control (90-day retention policy with deletion requirement) is properly designed and, if followed, would satisfy the confidentiality criterion. The failure is in execution: personnel did not perform the scheduled deletion. The auditor should report this as a deviation in control operation during the examination period.
-6. This is a **policy coverage failure** because the DLP rules were incomplete. DLP effectiveness depends on comprehensive policies aligned with the organization's data classification scheme. Illini Security should have: (a) mapped all categories of sensitive data (PCI, PII, PHI, IP) to DLP rules, (b) conducted a data classification exercise before configuring rules, and (c) tested detection patterns for each data category. A DLP system can only prevent leakage of data types it is configured to recognize.
-   :::
+1. **Bear Co.** stores customer payment data in a cloud database encrypted with AES-256 and sends it to its payment processor over TLS 1.3. A new developer proposes adding MD5 hashes to check that files are not altered in transfer. Should the security team approve?
+
+2. In a SOC 2® engagement at **Polar Inc.**, the auditor tests confidentiality controls. Polar Inc.'s retention policy requires client files to be securely deleted 90 days after an engagement ends, and a scheduled deletion procedure exists. The auditor finds client files from engagements that ended eight months ago still on the file server. Is this a design deficiency or an operating deviation?
+
+3. **Illini Security** installs a DLP tool with rules that block outbound email containing credit card numbers, but it creates no rules for Social Security numbers, health records, or source code. Six months later an employee emails 1,000 patient health records to an outside address and no alert fires. What went wrong, and what should the team have done?
+
+:::tip[Answers]
+
+1. **No.** MD5 is broken: attackers can create two different files with the same MD5 hash, so it cannot be trusted to show that a file is unchanged. Any integrity check should use **SHA-256** or stronger. TLS already protects the integrity of data in transit, so an additional check is useful mainly for files at rest or end-to-end verification, and it must use a current algorithm.
+
+2. An **operating deviation**. The control (a 90-day retention rule with a scheduled deletion procedure) is suitably designed; it was not performed. The auditor would report a deviation and evaluate its effect on criterion C1.2, which covers disposal of confidential information.
+
+3. The DLP **rules were incomplete**: the tool can block only the kinds of data it is set to recognize. Illini Security should have classified all of its sensitive data (card data, personal data, health information, intellectual property) first, written DLP rules for each class, and tested that each rule actually detects its data type.
+
+:::

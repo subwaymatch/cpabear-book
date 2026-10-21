@@ -1,177 +1,119 @@
 # IT Infrastructure
 
-Every modern organization depends on information technology to initiate, record, process, and report financial transactions. Before evaluating specific controls or testing the integrity of business processes, a CPA must understand the **IT infrastructure** that supports those processes. IT infrastructure includes the hardware, software, networking components, and cloud services that form the foundation of an organization's information systems.
+Every financial transaction a company records passes through hardware, software, and networks before it reaches the general ledger. That technology is the entity's **IT infrastructure**, and a CPA cannot judge a control without first knowing where it sits in that infrastructure. More and more of it now lives in the cloud, which changes who runs each layer and who is responsible for its controls.
 
-This section covers the **key components of IT architecture**, **cloud computing models and deployment options**, the **role and responsibilities of cloud service providers**, and how the **COSO frameworks address cloud computing governance**.
-
-:::info
-
-The ISC exam tests IT infrastructure concepts primarily at the Remembering and Understanding level. You should be able to explain the purpose of key architecture components, distinguish among cloud computing models, and summarize how governance frameworks apply to cloud environments.
-
-:::
+This chapter starts with the basic building blocks of IT architecture, then turns to cloud computing: the service models, the deployment models, and the shared responsibility between a cloud provider and its customer. It ends with COSO's guidance on governing the use of cloud services. The exam tests this material mostly at the Remembering and Understanding level, so focus on what each component does and why it matters for controls.
 
 ---
 
 ## Key Components of IT Architecture
 
-IT architecture refers to the overall design and structure of an organization's technology environment. Understanding its major components is essential for evaluating how information flows through an enterprise and where controls exist (or are missing).
+**IT architecture** is the overall design of an organization's technology environment: what components exist, how they connect, and how information moves among them. The blueprint highlights four components: operating systems, servers, network infrastructure, and end-user devices.
 
 ### Operating Systems
 
-An **operating system (OS)** is the software that manages a computer's hardware resources and provides services for application programs. Common examples include Windows, macOS, Linux, and mobile operating systems such as iOS and Android.
+An **operating system (OS)** is the software that manages a computer's hardware and provides services to the applications running on it. Windows, macOS, and Linux run most desktops and servers; iOS and Android run most mobile devices.
 
-From an audit and advisory perspective, the operating system is significant because:
+The operating system matters to an auditor because so many controls live there. It authenticates users, enforces file permissions and security settings, and produces the logs that show who did what. It is also a common point of attack: an unpatched OS or one left with default settings can expose every application running on it.
 
-- It controls **user authentication and access** to the system
-- It manages **file permissions and security settings**
-- It provides the **logging and monitoring** capabilities auditors rely on to evaluate control activities
-- Vulnerabilities in the OS (unpatched software, default configurations) can expose the entire system to attack
-
-**Example:** If **Bear Co.** runs its accounting software on a Windows Server operating system, the auditor must evaluate whether the OS is patched to current security standards, whether user accounts follow least-privilege principles, and whether audit logging is enabled.
+**Example:** **Bear Co.** runs its accounting software on a Windows server. In evaluating that environment, the auditor would ask whether the server is patched, whether user accounts follow least privilege, and whether audit logging is turned on.
 
 ### Servers
 
-A **server** is a computer or program that provides services, data, or resources to other computers (clients) over a network. Servers can be physical machines in an on-premises data center or virtual machines hosted in a cloud environment.
-
-Common types of servers in an enterprise environment include:
+A **server** is a computer, or a program, that provides data or services to other computers (clients) over a network. A server can be a physical machine in the company's own data center or a **virtual machine**: software that behaves like a separate computer, many of which can run on one physical host under a layer of software called a **hypervisor**.
 
 | Server Type | Purpose | Example |
 |---|---|---|
-| **Application server** | Hosts business applications (e.g., ERP, CRM) | Runs the accounting module that processes journal entries |
-| **Database server** | Stores and manages data accessed by applications | Holds the general ledger database |
-| **Web server** | Serves web-based applications and content to users | Hosts the customer-facing e-commerce portal |
-| **File server** | Provides centralized storage for documents and files | Stores financial reports and audit workpapers |
-| **Mail server** | Manages email communication | Handles company email including sensitive financial correspondence |
+| **Application server** | Runs business applications such as ERP or CRM software | Processes journal entries in the accounting module |
+| **Database server** | Stores and manages the data that applications use | Holds the general ledger database |
+| **Web server** | Delivers web pages and web applications to users | Hosts the customer-facing ordering portal |
+| **File server** | Provides central storage for documents | Stores financial reports and workpapers |
+| **Mail server** | Sends, receives, and stores email | Handles company email, including sensitive correspondence |
 
 ### Network Infrastructure
 
-**Network infrastructure** encompasses the hardware and software components that enable communication between devices. Key elements include:
+**Network infrastructure** is the hardware and software that lets devices communicate. The main pieces are:
 
-- **Routers**: direct network traffic between different networks (e.g., between an organization's internal network and the internet)
-- **Switches**: connect devices within the same network and manage data traffic
-- **Firewalls**: enforce security policies by controlling incoming and outgoing network traffic based on predetermined rules
-- **Load balancers**: distribute network traffic across multiple servers to ensure availability and performance
-- **Wireless access points**: enable wireless connectivity for devices within the network
+- **Routers**, which direct traffic between networks, such as between the company's internal network and the internet.
+- **Switches**, which connect devices within the same network.
+- **Firewalls**, which allow or block traffic according to predefined rules.
+- **Load balancers**, which spread traffic across several servers so that no single server is overwhelmed.
+- **Wireless access points**, which connect wireless devices to the network.
 
-:::tip[Exam Tip]
-
-The CPA exam does not expect you to configure network hardware. However, you must understand what each component does and why it matters for controls. For example, a **firewall** is a critical preventive control that restricts unauthorized access to the network. If **Polar Inc.** does not have a properly configured firewall, external threat actors may gain access to financial systems.
-
-:::
+You will not be asked to configure any of these, but you should know what each one does for control purposes. A firewall, for example, is a key preventive control: if **Polar Inc.**'s firewall is misconfigured, outsiders may reach its financial systems directly.
 
 ### End-User Devices
 
-**End-user devices** include desktops, laptops, tablets, smartphones, and any other devices used by employees to access the organization's information systems. These devices represent a significant control risk because they are often the **entry point** for cyber-attacks (phishing, malware) and the **exit point** for data breaches (lost devices, unauthorized data transfers).
-
-Controls over end-user devices include:
-
-- Device encryption
-- Mobile device management (MDM) software
-- Endpoint detection and response (EDR) tools
-- Acceptable use policies
-- Automatic screen locking and remote wipe capabilities
+**End-user devices** are the desktops, laptops, tablets, and phones that employees use to reach the organization's systems. They are a frequent **entry point** for attacks (a phishing email opened on a laptop) and a frequent **exit point** for data (a lost phone, files copied to a personal account). Typical controls include device encryption, mobile device management (MDM) software, endpoint detection and response (EDR) tools, automatic screen locking, remote wipe, and an acceptable use policy. The [Mitigation](../security/mitigation.md) chapter covers these controls in more depth.
 
 ---
 
 ## Cloud Computing
 
-**Cloud computing** delivers IT resources (computing power, storage, databases, networking, software, and more) over the internet ("the cloud") on a pay-as-you-go basis. Rather than owning and maintaining physical data centers and servers, organizations can access technology services from a **cloud service provider (CSP)** such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP).
+**Cloud computing** delivers computing resources (processing power, storage, databases, networking, and software) over the internet, on demand, with the customer typically paying for what it uses. Instead of buying and running its own data center, an organization rents these resources from a **cloud service provider (CSP)** such as Amazon Web Services, Microsoft Azure, or Google Cloud. Resources are pooled across many customers and can be scaled up or down quickly.
 
-Cloud computing has transformed how organizations build and manage their IT infrastructure. For CPAs, understanding cloud computing is critical because it affects how controls are designed, implemented, and tested, and it shifts certain responsibilities from the organization to the cloud service provider.
+For a CPA, the key consequence is that some controls move from the organization to the provider. Which controls move depends on the service model the organization buys.
 
-### Cloud Computing Models
+### Cloud Service Models
 
-Cloud computing services are categorized into three primary models, each offering a different level of abstraction and control:
+The three service models differ in how much of the technology stack the provider runs. Think of them as steps away from running everything yourself on premises:
 
 | Model | Full Name | What the CSP Provides | What the Customer Manages | Example |
 |---|---|---|---|---|
-| **IaaS** | Infrastructure as a Service | Virtualized hardware (servers, storage, networking) | Operating systems, middleware, applications, data | AWS EC2, Azure Virtual Machines |
-| **PaaS** | Platform as a Service | IaaS + operating system, middleware, and development tools | Applications and data | Azure App Service, Google App Engine |
-| **SaaS** | Software as a Service | Complete application delivered via web browser | User configuration and data entry | Salesforce, Microsoft 365, QuickBooks Online |
-
-```mermaid
-graph TD
-    A["<b>On-Premises</b><br/>Customer manages everything"] --> B["<b>IaaS</b><br/>CSP manages hardware<br/>Customer manages OS, apps, data"]
-    B --> C["<b>PaaS</b><br/>CSP manages hardware + OS + middleware<br/>Customer manages apps and data"]
-    C --> D["<b>SaaS</b><br/>CSP manages everything<br/>Customer manages configuration and data"]
-```
+| **IaaS** | Infrastructure as a Service | Virtualized servers, storage, and networking | Operating systems, middleware, applications, and data | Renting virtual servers and installing your own software |
+| **PaaS** | Platform as a Service | IaaS plus operating systems, middleware, and development tools | The applications it builds and its data | Building a custom app on a provider's development platform |
+| **SaaS** | Software as a Service | A complete application, used through a browser or app | Configuration, user access, and data | Subscribing to a hosted accounting or CRM application |
 
 :::tip[Exam Tip]
 
-A common exam question format describes a scenario and asks you to identify which cloud model is being used. The key is to determine **who manages what**. If **Illini Entertainment** rents virtual servers and installs its own software on them, that is IaaS. If it uses a pre-configured development platform to build a custom app, that is PaaS. If it subscribes to a hosted accounting application, that is SaaS.
+Scenario questions often ask which model is being used. Ask **who manages what**. If **Illini Entertainment** rents virtual servers and installs its own operating system and software, that is IaaS. If it builds an app on a ready-made development platform, that is PaaS. If it simply subscribes to a hosted accounting application, that is SaaS.
 
 :::
 
 ### Cloud Deployment Models
 
-In addition to the service model, organizations must choose a **deployment model** that determines who has access to the cloud environment:
+The **deployment model** describes who shares the cloud environment:
 
-| Deployment Model | Description | Use Case |
+| Deployment Model | Description | Typical Use |
 |---|---|---|
-| **Public cloud** | Cloud infrastructure is shared among multiple organizations and operated by a third-party CSP | Cost-effective for standard workloads; used by organizations of all sizes |
-| **Private cloud** | Cloud infrastructure is dedicated to a single organization, either on-premises or hosted by a third party | Used by organizations with strict regulatory or security requirements |
-| **Hybrid cloud** | Combines public and private cloud environments, allowing data and applications to move between them | Enables organizations to keep sensitive data in a private cloud while using the public cloud for less sensitive workloads |
+| **Public cloud** | Infrastructure shared by many unrelated customers and run by a CSP | Cost-effective standard workloads |
+| **Private cloud** | Infrastructure dedicated to one organization, on its premises or hosted by a third party | Strict security or regulatory requirements |
+| **Community cloud** | Infrastructure shared by organizations with common requirements, such as government agencies | Shared compliance needs |
+| **Hybrid cloud** | A combination of public and private clouds, with data and applications moving between them | Sensitive data kept private, other workloads in the public cloud |
 
-**Example:** **Bear Co.** might use a public cloud for its customer relationship management (CRM) system but maintain a private cloud for its core financial reporting database, which contains sensitive data subject to regulatory requirements. This hybrid approach balances cost efficiency with data security.
+**Example:** **Bear Co.** runs its CRM system in the public cloud but keeps its core financial reporting database in a private cloud because the database is subject to stricter regulatory requirements. This hybrid approach balances cost against control.
 
-### Role and Responsibilities of Cloud Service Providers
+### The Shared Responsibility Model
 
-When an organization moves to the cloud, certain control responsibilities shift from the organization to the CSP. Understanding this **shared responsibility model** is critical for IT audit and advisory work.
+When an organization moves to the cloud, responsibility for controls is divided between the provider and the customer. A common shorthand is that the CSP is responsible for **security of the cloud** (facilities, hardware, and the virtualization layer), while the customer is responsible for **security in the cloud** (its data, its users' access, and how it configures the services it uses). The dividing line moves with the service model:
 
 | Responsibility | On-Premises | IaaS | PaaS | SaaS |
 |---|---|---|---|---|
-| Physical security of data centers | Customer | **CSP** | **CSP** | **CSP** |
-| Network infrastructure | Customer | **CSP** | **CSP** | **CSP** |
-| Operating system patching | Customer | Customer | **CSP** | **CSP** |
-| Application security | Customer | Customer | Customer | **CSP** |
-| Data classification and access | Customer | Customer | Customer | Customer |
+| Physical security of data centers | Customer | CSP | CSP | CSP |
+| Physical network and virtualization layer | Customer | CSP | CSP | CSP |
+| Operating system patching | Customer | Customer | CSP | CSP |
+| Application security | Customer | Customer | Customer | CSP |
+| Data classification and protection | Customer | Customer | Customer | Customer |
 | Identity and access management | Customer | Customer | Customer | Customer |
 
-Key points about CSP responsibilities:
-
-- The CSP is responsible for the **security of the cloud** (physical infrastructure, hypervisor, networking)
-- The customer is responsible for **security in the cloud** (data, access management, application configuration)
-- The division of responsibility depends on the service model (IaaS, PaaS, or SaaS)
-- Organizations should review the CSP's **SOC reports** (SOC 1® or SOC 2®) to evaluate the effectiveness of controls the CSP manages
-
-:::warning
-
-Moving to the cloud does not eliminate the organization's responsibility for controls. The organization must still ensure that its data is protected, access is properly managed, and the CSP's controls are evaluated, typically through a SOC 2® report. When evaluating **Kingfisher Industries**' cloud environment, you would review the CSP's SOC report, assess complementary user entity controls (CUECs), and verify that Kingfisher has implemented all controls that remain its responsibility.
-
-:::
+Two lessons follow. First, moving to the cloud never transfers all of the responsibility: even under SaaS, the customer decides who gets access and how its data is classified. Second, the customer still needs assurance over the controls the provider runs. It usually gets that assurance from the provider's **SOC reports**: a SOC 1® report for controls relevant to financial reporting, or a SOC 2® report for security, availability, and the other Trust Services categories. Those reports list **complementary user entity controls (CUECs)**, which are controls the provider assumes the customer will perform. When evaluating **Kingfisher Industries**' cloud environment, you would read the provider's SOC report and confirm that Kingfisher actually performs the CUECs and every other control that remains its responsibility.
 
 ---
 
-## COSO Frameworks and Cloud Computing Governance
+## COSO Guidance on Cloud Computing Governance
 
-The **Committee of Sponsoring Organizations of the Treadway Commission (COSO)** has published guidance specifically addressing how its frameworks apply to cloud computing environments. Two publications are particularly relevant for the ISC exam:
+The blueprint asks how the COSO frameworks address cloud computing governance, and the References limit that question to COSO's publication *Enterprise Risk Management for Cloud Computing*. The guidance applies enterprise risk management (ERM) to the decision to use cloud services and to the ongoing oversight of those services. Its central message is that outsourcing the technology does not outsource accountability: the board and management remain responsible for governing the entity's use of the cloud, even though the provider operates it.
 
-### Enterprise Risk Management for Cloud Computing
+In practice, cloud governance asks a handful of questions:
 
-This COSO publication addresses the risks associated with cloud adoption and how the ERM framework can be applied to identify, assess, and manage those risks. Key considerations include:
+- **Strategy and risk appetite.** Does the cloud strategy support the organization's objectives, and do the risks it brings fit within the board's risk appetite?
+- **Provider and concentration risk.** What happens if the provider suffers an outage, raises prices, or fails? How hard would it be to move to another provider (vendor lock-in)?
+- **Data location and compliance.** Where is the data stored and processed, and does that location satisfy laws such as HIPAA and the GDPR?
+- **Contract terms.** Do the agreements cover service levels, incident notification, the right to audit or receive SOC reports, and an exit plan?
+- **Unauthorized use.** Can business units sign up for cloud services without IT, legal, or finance knowing (sometimes called "shadow IT")?
+- **Ongoing monitoring.** Does management review SOC reports and service-level performance, and reassess cloud risks as the business and the provider change?
 
-- **Strategic alignment**: Does the cloud strategy support the organization's overall objectives?
-- **Vendor risk**: What are the risks of dependence on a specific CSP, including vendor lock-in and service disruptions?
-- **Data sovereignty**: Where is the data physically stored, and does the location comply with applicable laws and regulations?
-- **Regulatory compliance**: Does the cloud deployment meet the requirements of relevant regulations (e.g., HIPAA, GDPR)?
-- **Business continuity**: What happens if the CSP experiences an outage or goes out of business?
-
-### Blockchain and Internal Control: The COSO Perspective
-
-This COSO publication examines how blockchain technology affects internal control. While blockchain is an emerging technology, it is relevant to financial reporting because it can serve as a **distributed ledger** that records transactions in an immutable and transparent manner.
-
-Key internal control considerations for blockchain include:
-
-- **Processing integrity**: How does the consensus mechanism ensure that transactions are recorded accurately?
-- **Access controls**: Who has permission to initiate, validate, and view transactions on the blockchain?
-- **Change management**: How are updates to the blockchain protocol or smart contracts controlled?
-- **Data governance**: Who is responsible for the data recorded on the blockchain, and how is it validated?
-
-:::note
-
-The ISC exam tests blockchain at a conceptual level within the COSO framework context. You are not expected to understand the technical details of blockchain protocols, but you should be able to explain how the COSO internal control framework can be used to evaluate risks related to the use of blockchain in financial reporting.
-
-:::
+One way to organize these questions is by the five components of COSO's ERM framework: governance and culture (board oversight of cloud use), strategy and objective-setting (aligning cloud adoption with strategy and appetite), performance (identifying, assessing, and responding to cloud risks), review and revision (monitoring changes), and information, communication, and reporting (keeping decision makers informed). The [Mitigation](../security/mitigation.md) chapter applies the same framework to cyber risk.
 
 ---
 
@@ -179,28 +121,28 @@ The ISC exam tests blockchain at a conceptual level within the COSO framework co
 
 | Topic | Key Takeaway |
 |---|---|
-| IT architecture components | Understand the purpose of operating systems, servers, network infrastructure, and end-user devices |
-| Cloud computing models | IaaS provides raw infrastructure, PaaS adds a development platform, SaaS delivers a complete application |
-| Cloud deployment models | Public (shared), private (dedicated), hybrid (combination); the choice depends on cost, security, and regulatory requirements |
-| Shared responsibility | The CSP manages the cloud infrastructure; the customer manages data, access, and application configuration |
-| COSO and cloud governance | COSO frameworks provide a structured approach to evaluating cloud-related risks, including vendor risk, data sovereignty, and regulatory compliance |
+| IT architecture | Operating systems, servers, network infrastructure, and end-user devices each host controls and each can be attacked |
+| Service models | IaaS supplies infrastructure, PaaS adds the platform, SaaS delivers the whole application |
+| Deployment models | Public, private, community, and hybrid; the choice weighs cost against control and compliance |
+| Shared responsibility | The CSP secures the cloud; the customer secures its data, access, and configuration; SOC reports give the customer assurance over the provider |
+| COSO and cloud governance | ERM applies to cloud decisions; the board and management stay accountable for risks the provider operates |
 
 ---
 
 ## Practice Questions
 
-1. **Illini Security** is considering moving its financial reporting system to a cloud environment where the CSP will provide the hardware, operating system, and middleware. Illini Security will develop and deploy its own custom application on this platform. Which cloud computing model is being described?
+1. **Illini Security** plans to move its financial reporting system to a cloud environment in which the CSP provides the hardware, operating system, and middleware. Illini Security will build and deploy its own application on that platform. Which cloud service model is this?
 
-2. **Polar Inc.** uses a SaaS-based accounting application. A new employee in the accounting department requests administrative access to the application. Under the shared responsibility model, who is responsible for granting or denying this access: Polar Inc. or the cloud service provider?
+2. **Polar Inc.** uses a SaaS accounting application. A new employee asks for administrative access to it. Under the shared responsibility model, who decides whether to grant that access: Polar Inc. or the cloud service provider?
 
-3. **Bear Co.** is evaluating its cloud service provider's controls. What type of report should Bear Co. request from the CSP to obtain assurance over the design and operating effectiveness of the CSP's controls related to security, availability, and processing integrity?
+3. **Bear Co.** wants assurance over the design and operating effectiveness of its cloud provider's controls related to security, availability, and processing integrity over the past year. What report should Bear Co. request?
 
 :::tip[Answers]
 
-1. **PaaS (Platform as a Service).** The CSP provides hardware, OS, and middleware, and the customer develops its own application. This is the defining characteristic of PaaS.
+1. **PaaS (Platform as a Service).** The CSP supplies the hardware, operating system, and middleware, and the customer builds its own application on top.
 
-2. **Polar Inc.** Even in a SaaS model, identity and access management remains the customer's responsibility. Polar Inc. must evaluate whether the employee needs administrative access and configure the user's permissions accordingly.
+2. **Polar Inc.** Identity and access management stays with the customer even under SaaS. Polar Inc. must decide whether the employee needs administrative rights and set the permissions itself.
 
-3. A **SOC 2® Type 2 report.** This report provides an opinion on the design and operating effectiveness of controls related to the Trust Services Criteria categories (security, availability, processing integrity, confidentiality, and privacy) over a specified period.
+3. A **SOC 2® Type 2 report.** It gives an opinion on the design and operating effectiveness of controls relevant to the selected Trust Services categories (here security, availability, and processing integrity) over a period of time.
 
 :::

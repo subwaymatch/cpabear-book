@@ -1,149 +1,122 @@
 # Security Mitigation
 
-Protecting an organization's information systems requires more than identifying threats; it demands a comprehensive, layered approach to **preventing, detecting, and correcting** security events. CPAs performing IT audit and advisory services must understand the controls and strategies organizations use to reduce cybersecurity risk to an acceptable level. From network segmentation to multi-factor authentication, security mitigation encompasses the people, processes, and technologies that stand between a threat actor and an organization's critical assets.
-This section covers **network protection and remote access security**, **vulnerability management**, **layered security and defense-in-depth**, **least-privilege, zero-trust, whitelisting, and need-to-know principles**, **technology acceptable use policies**, **COSO frameworks for cyber risk assessment**, **preventive, detective, and corrective controls**, **identification and authentication techniques**, and **authorization models**.
-:::info
-The ISC exam tests security mitigation concepts at the Remembering and Understanding level (recall definitions, explain concepts) and at the Application level (determine appropriate controls, authentication techniques, and authorization models for specific scenarios).
-:::
+The previous chapter described who attacks and how. This one describes the defenses. No single control stops every attack, so organizations combine people, processes, and technology in layers, each designed to **prevent, detect, or correct** a security event. A CPA evaluating a security program needs to know what each control does, which threat it answers, and whether it fits the situation.
+
+The chapter starts with protecting networks and remote access, then vulnerability management, layered security, and the core access principles (least privilege, zero trust, allowlisting, and need to know). It covers acceptable use policies and how COSO's frameworks apply to cyber risk, then classifies controls as preventive, detective, or corrective. It ends with identification, authentication, and authorization. Many exam questions here are Application-level: given a scenario, choose the right control, authentication method, or authorization model.
 
 ---
 
-## Network Protection and Remote Access Security
+## Protecting Networks and Remote Access
 
-Organizations must protect both their internal networks and the remote connections employees use to access those networks. The following controls and technologies form the foundation of network security.
+### Segmentation and Isolation
 
-### Network Segmentation and Isolation
+**Network segmentation** divides a network into smaller zones, each with its own access rules. If an attacker gets into one zone, segmentation keeps them from moving freely to the others (lateral movement).
 
-**Network segmentation** divides a network into smaller, isolated sub-networks (segments or zones). Each segment has its own access controls, limiting an attacker's ability to move laterally across the network after gaining initial access.
 | Technique | Description | Example |
 |---|---|---|
-| **VLANs** | Virtual LANs logically separate traffic within the same physical network | Accounting systems on VLAN 10, guest Wi-Fi on VLAN 50 |
-| **DMZ (Demilitarized Zone)** | A perimeter network that separates external-facing services from the internal network | Web servers in the DMZ; database servers on the internal network |
-| **Air gap** | Complete physical isolation of a network with no connection to other networks or the internet | Classified government systems, critical SCADA/ICS environments |
-| **Microsegmentation** | Granular segmentation at the workload or application level, often in cloud environments | Individual containers or VMs with their own security policies |
-**Example:** **Kingfisher Industries** segments its network so that the finance department's systems are isolated from the manufacturing floor. If malware infects a machine on the factory network, segmentation prevents it from spreading to systems containing financial data.
+| **VLANs** | Virtual LANs separate traffic logically on the same physical network | Accounting systems on one VLAN, guest Wi-Fi on another |
+| **DMZ (demilitarized zone)** | A perimeter network between the internet and the internal network for public-facing services | Web servers in the DMZ, database servers inside |
+| **Air gap** | Complete physical isolation from other networks | Highly sensitive industrial control systems |
+| **Microsegmentation** | Fine-grained segmentation around individual workloads, common in cloud environments | Each virtual machine or container with its own security policy |
 
-### Virtual Private Networks (VPN)
+**Example:** **Kingfisher Industries** separates its finance systems from the network on its manufacturing floor. When malware infects a machine on the factory network, segmentation keeps it from spreading to the systems that hold financial data.
 
-A **VPN** creates an encrypted tunnel over a public network (typically the internet), allowing remote users or branch offices to securely access the organization's internal resources.
-| VPN Type | Description | Use Case |
-|---|---|---|
-| **Remote access VPN** | Connects individual users to the organization's network | Employees working from home |
-| **Site-to-site VPN** | Connects two entire networks (e.g., headquarters and a branch office) | Linking geographically separate offices |
-VPN security considerations include strong encryption protocols (e.g., IPsec, TLS), multi-factor authentication for VPN access, split tunneling risks, and regular review of connected users.
+### Virtual Private Networks (VPNs)
+
+A **virtual private network (VPN)** creates an encrypted tunnel across a public network, usually the internet. A **remote access VPN** connects an individual user, such as an employee working from home, to the organization's network. A **site-to-site VPN** connects two whole networks, such as headquarters and a branch office. VPN security depends on strong encryption protocols (such as IPsec or TLS), multi-factor authentication for every VPN login, prompt removal of departed users, and attention to **split tunneling**, a setting that lets a connected device reach the internet directly instead of through the corporate network, bypassing corporate defenses.
 
 ### Wireless Network Security
 
-Wireless networks introduce unique vulnerabilities because signals extend beyond physical walls. Key controls include:
+Wireless signals pass through walls, so wireless networks need extra protection:
 
-- **WPA3 encryption**: the current standard for wireless security, replacing the weaker WPA2
-- **Hidden SSIDs**: not broadcasting the network name (provides minimal security but adds a layer of obscurity)
-- **MAC address filtering**: allowing only pre-approved device hardware addresses to connect
-- **802.1X authentication**: requiring users to authenticate through a RADIUS server before gaining network access
-- **Separate guest networks**: isolating guest traffic from the corporate network
+- **Strong encryption**, preferably WPA3, the current standard, which replaces the weaker WPA2.
+- **802.1X authentication**, which requires each user or device to authenticate to a central server before joining the network.
+- **Separate guest networks**, which keep visitors off the corporate network.
+- **Hidden network names (SSIDs)** and **MAC address filtering**, which add a little obscurity but are easily defeated (device addresses can be spoofed), so they should never be the main control.
 
 ### Endpoint Security
 
-**Endpoint security** protects the individual devices (laptops, desktops, mobile devices, servers) that connect to the network:
+**Endpoint security** protects the individual devices (laptops, desktops, phones, and servers) that connect to the network:
+
 | Control | Purpose |
 |---|---|
-| **Endpoint Detection and Response (EDR)** | Continuously monitors endpoints for suspicious activity and provides automated response capabilities |
-| **Antivirus/Anti-malware** | Detects and removes known malicious software using signature-based and heuristic methods |
-| **Host-based firewall** | Controls network traffic to and from the individual device |
-| **Device encryption** | Protects data at rest if the device is lost or stolen (e.g., BitLocker, FileVault) |
-| **Mobile Device Management (MDM)** | Enforces security policies on mobile devices, including remote wipe capabilities |
+| **Endpoint detection and response (EDR)** | Monitors devices continuously for suspicious behavior and can respond automatically |
+| **Antivirus and anti-malware** | Detects and removes malicious software using signatures and behavior analysis |
+| **Host-based firewall** | Controls the traffic into and out of the individual device |
+| **Device encryption** | Protects stored data if the device is lost or stolen |
+| **Mobile device management (MDM)** | Enforces security settings on mobile devices and allows remote wipe |
 
 ### System Hardening
 
-**System hardening** is the process of reducing a system's attack surface by eliminating unnecessary functions, services, and access points:
+**System hardening** shrinks a system's attack surface by removing everything it does not need: disabling unused services and ports, removing default accounts and changing default passwords, uninstalling unneeded software, restricting administrator rights, turning on logging, and applying a secure configuration baseline such as the CIS Benchmarks.
 
-- Disable unnecessary services and ports
-- Remove default accounts and change default passwords
-- Apply secure configuration baselines (e.g., CIS Benchmarks)
-- Remove unnecessary software and applications
-- Enable audit logging and monitoring
-- Restrict administrative privileges
-  **Example:** **Polar Inc.** deploys new servers using a hardened image that disables all non-essential services, removes default accounts, and applies the latest security patches before connecting to the production network.
+**Example:** **Polar Inc.** builds every new server from a hardened image that disables non-essential services, removes default accounts, and applies current patches before the server is connected to the production network.
 
-### Intrusion Prevention Systems (IPS) vs. Intrusion Detection Systems (IDS)
+### Intrusion Detection and Prevention
 
-| Feature              | IDS                                          | IPS                                             |
-| -------------------- | -------------------------------------------- | ----------------------------------------------- |
-| **Primary function** | Detects and alerts on suspicious activity    | Detects and **blocks** suspicious activity      |
-| **Position**         | Passive: monitors a copy of network traffic  | Inline: sits directly in the traffic path       |
-| **Response**         | Generates alerts for human review            | Automatically drops or blocks malicious traffic |
-| **Risk**             | May miss attacks (false negatives)           | May block legitimate traffic (false positives)  |
+| Feature | Intrusion Detection System (IDS) | Intrusion Prevention System (IPS) |
+|---|---|---|
+| **What it does** | Detects suspicious activity and raises an alert | Detects suspicious activity and **blocks** it |
+| **Placement** | Passive: watches a copy of the traffic | Inline: sits directly in the traffic path |
+| **Response** | Alerts people to investigate | Drops or blocks the traffic automatically |
+| **Main risk** | Alerts that no one acts on in time | Blocking legitimate traffic (false positives) |
 
-Both IDS and IPS can use:
+Both can use **signature-based detection**, which compares traffic with known attack patterns and works well against known threats, and **anomaly-based detection**, which learns normal behavior and flags departures from it, catching some new (zero-day) attacks at the cost of more false positives.
 
-- **Signature-based detection**: compares traffic against a database of known attack patterns (effective against known threats)
-- **Anomaly-based detection**: establishes a baseline of normal behavior and alerts on deviations (effective against zero-day attacks but higher false positive rate)
-  :::tip[Exam Tip]
-  Remember the key distinction: an IDS **detects and alerts** (detective control), while an IPS **detects and blocks** (preventive control). If a question asks which control would **prevent** an attack in progress, the answer is IPS. If the question asks which control would **notify** the security team of suspicious activity, the answer is IDS.
-  :::
+:::tip[Exam Tip]
+
+An IDS **detects and alerts**, so it is a detective control. An IPS **detects and blocks**, so it is a preventive control. If a question asks which control would stop an attack in progress, the answer is the IPS; if it asks which would notify the security team, the answer is the IDS.
+
+:::
 
 ---
 
 ## Vulnerability Management
 
-**Vulnerability management** is the ongoing process of identifying, classifying, prioritizing, remediating, and mitigating security vulnerabilities in an organization's systems and software. Its purpose is to reduce the window of opportunity for attackers to exploit known weaknesses.
+**Vulnerability management** is the ongoing process of finding, ranking, and fixing security weaknesses in systems and software. Its purpose is to shrink the window in which an attacker can exploit a known weakness. It runs as a cycle:
 
-### Vulnerability Management Lifecycle
+1. **Discover** the assets that need protecting, since you cannot scan what you do not know about.
+2. **Scan** them for known vulnerabilities.
+3. **Assess and prioritize** each finding by severity and by how important the affected system is.
+4. **Remediate** by patching, reconfiguring, or adding a compensating control.
+5. **Verify** that the fix worked, then start again.
 
-```mermaid
-graph LR
-    A["Discover<br/>Identify assets"] --> B["Scan<br/>Identify vulnerabilities"]
-    B --> C["Assess<br/>Prioritize by risk"]
-    C --> D["Remediate<br/>Patch or mitigate"]
-    D --> E["Verify<br/>Confirm resolution"]
-    E --> A
-```
+**Vulnerability scanning** and **penetration testing** are often confused:
 
-### Vulnerability Scanning vs. Penetration Testing
+| Activity | Description | Approach | Frequency |
+|---|---|---|---|
+| **Vulnerability scanning** | Automated tools check systems for known weaknesses | Non-intrusive; lists potential weaknesses | Frequent (for example, weekly or monthly) |
+| **Penetration testing** | Skilled testers try to exploit weaknesses as a real attacker would | Intrusive; shows what an attacker could actually do | Periodic (for example, annually) |
 
-| Activity                   | Description                                                 | Approach                                       | Frequency                          |
-| -------------------------- | ----------------------------------------------------------- | ---------------------------------------------- | ---------------------------------- |
-| **Vulnerability scanning** | Automated tool scans systems for known vulnerabilities      | Non-intrusive; identifies potential weaknesses | Frequent (weekly, monthly)         |
-| **Penetration testing**    | Skilled testers actively attempt to exploit vulnerabilities | Intrusive; simulates real-world attacks        | Periodic (annually, semi-annually) |
+Two public resources help organizations prioritize. **CVE (Common Vulnerabilities and Exposures)** gives each publicly known vulnerability a standard identifier, such as CVE-2024-12345. The **Common Vulnerability Scoring System (CVSS)** rates severity from 0.0 to 10.0:
 
-### CVE and CVSS
+| CVSS Score | Severity |
+|---|---|
+| 0.0 | None |
+| 0.1-3.9 | Low |
+| 4.0-6.9 | Medium |
+| 7.0-8.9 | High |
+| 9.0-10.0 | Critical |
 
-- **CVE (Common Vulnerabilities and Exposures)**: a standardized identifier for publicly known vulnerabilities (e.g., CVE-2024-1234)
-- **CVSS (Common Vulnerability Scoring System)**: a numerical score (0.0 to 10.0) that rates the severity of a vulnerability
-  | CVSS Score | Severity Rating |
-  |---|---|
-  | 0.0 | None |
-  | 0.1-3.9 | Low |
-  | 4.0-6.9 | Medium |
-  | 7.0-8.9 | High |
-  | 9.0-10.0 | Critical |
-
-### Patch Management
-
-Patch management is closely linked to vulnerability management. Once a vulnerability is identified, the vendor typically releases a **patch** (software update) to fix it. Organizations must have a process to test and deploy patches promptly without disrupting operations.
-:::warning
-Unpatched systems are one of the most common attack vectors. The exam may present a scenario where an organization was breached because a critical patch was available but not applied. **Bear Co.** should have a documented patch management policy that defines timelines for deploying critical patches (e.g., within 72 hours of release).
-:::
+Most vulnerabilities are fixed by applying a vendor's patch, so vulnerability management depends on a sound patch management process, described in the [Change Management](../information-systems/change-management.md) chapter. A breach through a vulnerability whose patch had been available for weeks is a classic exam scenario. A good policy sets deadlines by severity, such as applying critical patches within days.
 
 ---
 
-## Layered Security and Defense-in-Depth
+## Layered Security and Defense in Depth
 
-**Defense-in-depth** is a security strategy that employs multiple layers of controls so that if one layer fails, additional layers continue to protect the organization's assets. No single control is considered sufficient on its own.
+**Defense in depth** uses several layers of different controls so that if one layer fails, others still protect the asset. No single control is trusted to do the job alone. Controls in the layers come in three broad types:
 
-### The Three Layers
+| Type | What It Is | Examples |
+|---|---|---|
+| **Physical** | Controls over the physical environment | Locked doors, guards, cameras, badge readers |
+| **Technical (logical)** | Controls built into technology | Firewalls, encryption, access controls, IDS and IPS, anti-malware |
+| **Administrative** | Policies, procedures, and people controls | Security policies, training, background checks, segregation of duties |
 
-| Layer                   | Type                                                 | Examples                                                             |
-| ----------------------- | ---------------------------------------------------- | -------------------------------------------------------------------- |
-| **Physical**            | Controls that protect the physical environment       | Locked doors, security guards, surveillance cameras, biometric entry |
-| **Technical (Logical)** | Controls implemented through technology              | Firewalls, encryption, access controls, IDS/IPS, antivirus           |
-| **Administrative**      | Controls implemented through policies and procedures | Security policies, training, background checks, separation of duties |
-
-### Defense-in-Depth Diagram
+The layers are often pictured from the outside in, with policies wrapped around everything and the data at the center:
 
 ```mermaid
 graph TD
-    A["Policies & Procedures<br/>(Administrative Layer)"] --> B["Physical Security<br/>(Physical Layer)"]
+    A["Policies and Procedures<br/>(Administrative)"] --> B["Physical Security"]
     B --> C["Perimeter Security<br/>Firewalls, IPS"]
     C --> D["Network Security<br/>Segmentation, VLANs"]
     D --> E["Host Security<br/>Hardening, EDR, Antivirus"]
@@ -151,193 +124,160 @@ graph TD
     F --> G["Data Security<br/>Encryption, DLP, Access Controls"]
 ```
 
-**Example:** **Illini Security** protects its financial data with defense-in-depth: physical locks on the server room (physical), a firewall blocking unauthorized traffic (technical), encryption on the database (technical), role-based access controls (technical), a security awareness training program (administrative), and a security policy requiring annual access reviews (administrative). If an attacker bypasses the firewall, they still face encryption, access controls, and monitoring.
-:::note
-Defense-in-depth does not mean duplicating the same control. It means implementing **different types** of controls at **different layers** so that a failure in one area does not result in a complete compromise.
-:::
+**Example:** **Illini Security** protects its financial data with a locked server room (physical), a firewall and database encryption (technical), role-based access (technical), annual security training (administrative), and a policy of quarterly access reviews (administrative). An attacker who gets past the firewall still faces encryption, access controls, and monitoring.
+
+Defense in depth does not mean repeating the same control. Two firewalls from the same vendor with the same rules add little; a firewall plus encryption plus monitoring adds a great deal, because each fails in a different way.
 
 ---
 
-## Least-Privilege, Zero-Trust, Whitelisting, and Need-to-Know
+## Least Privilege, Zero Trust, Allowlisting, and Need to Know
 
-These foundational security principles guide how organizations grant and restrict access to systems and data.
+These principles govern who gets access to what:
+
 | Principle | Definition | Application |
 |---|---|---|
-| **Least privilege** | Users and systems are granted only the minimum access necessary to perform their assigned functions | An accounts payable clerk can view and process invoices but cannot approve payments or access payroll |
-| **Zero trust** | No user, device, or network is trusted by default; every access request must be verified regardless of location | Even users inside the corporate network must authenticate and be authorized for each resource they access |
-| **Whitelisting (allowlisting)** | Only explicitly approved entities (applications, IP addresses, email senders) are permitted; everything else is denied by default | Only approved software on the whitelist can execute on company workstations |
-| **Need-to-know** | Access to information is restricted to individuals who require that specific information to perform their job duties | A tax accountant at **Bear Co.** can access client tax returns but not audit engagement files |
+| **Least privilege** | Users and systems get only the minimum access needed for their duties | An accounts payable clerk can enter and process invoices but cannot approve payments or see payroll |
+| **Zero trust** | No user, device, or network location is trusted by default; every request is verified | Users inside the office must authenticate and be authorized for each resource, just like remote users |
+| **Whitelisting (allowlisting)** | Only explicitly approved items (applications, IP addresses, email senders) are allowed; everything else is denied | Only approved software can run on company workstations |
+| **Need to know** | Access to specific information is limited to people who need that information for their job | A tax accountant at **Bear Co.** can see client tax returns but not audit engagement files |
 
-### Zero Trust Architecture
+Least privilege and need to know are close cousins. Least privilege limits the **level** of access (read, change, approve); need to know limits **which information** a person can see.
 
-Traditional security models assume that users inside the network perimeter are trusted ("castle and moat" approach). **Zero trust** eliminates this assumption:
+### Zero Trust
 
-- **Verify explicitly**: always authenticate and authorize based on all available data points (identity, location, device, service)
-- **Use least-privilege access**: limit access with just-in-time and just-enough-access policies
-- **Assume breach**: minimize the blast radius of a breach through segmentation, encryption, and continuous monitoring
-  :::tip[Exam Tip]
-  Zero trust is not a single product. It is a **philosophy and architecture**. The exam may describe a scenario and ask which principle is being applied. If the scenario describes verifying every access request regardless of whether the user is inside or outside the corporate network, the answer is **zero trust**.
-  :::
+Traditional security drew a hard perimeter and trusted everyone inside it, sometimes called the "castle and moat" approach. Once an attacker crossed the moat, they could move freely. **Zero trust** drops the idea of a trusted inside. It rests on three ideas:
+
+- **Verify explicitly.** Authenticate and authorize every request using all available signals: identity, device health, location, and the resource requested.
+- **Use least privilege.** Grant the minimum access, for the minimum time.
+- **Assume breach.** Design as if an attacker is already inside, using segmentation, encryption, and continuous monitoring to limit the damage.
+
+Zero trust is an approach to architecture, not a product you can buy. If a scenario describes verifying every access request regardless of whether the user is inside or outside the corporate network, the principle is zero trust.
 
 ---
 
 ## Technology Acceptable Use Policies
 
-A **technology acceptable use policy (AUP)** defines the rules and guidelines for how employees and other authorized users may use the organization's technology resources, including computers, networks, email, internet access, and mobile devices.
+A **technology acceptable use policy (AUP)** sets the rules for how employees and other users may use the organization's technology: computers, networks, email, internet access, and mobile devices. It sets clear expectations, reduces security and legal risk, supports compliance, and gives the organization a basis for discipline when the rules are broken.
 
-### Purpose of an AUP
-
-- Establish clear expectations for technology use
-- Protect the organization from legal liability
-- Reduce security risks from inappropriate use
-- Provide a basis for disciplinary action if the policy is violated
-- Ensure compliance with laws and regulations
-
-### Typical AUP Contents
-
-| Section                       | Coverage                                                                                            |
-| ----------------------------- | --------------------------------------------------------------------------------------------------- |
-| **Scope**                     | Who the policy applies to (employees, contractors, vendors) and what systems are covered            |
-| **Permitted use**             | Acceptable activities (business use, limited personal use)                                          |
-| **Prohibited activities**     | Activities that are not allowed (illegal downloads, harassment, unauthorized software installation) |
-| **Security requirements**     | Password standards, locking workstations, reporting incidents                                       |
-| **Monitoring disclosure**     | Notice that the organization may monitor usage                                                      |
-| **Consequences of violation** | Disciplinary actions for policy violations                                                          |
-
-### BYOD and Mobile Technology Considerations
-
-**Bring Your Own Device (BYOD)** policies address the use of personal devices for work purposes. BYOD introduces additional risks because the organization has less control over personally owned devices.
-| BYOD Risk | Mitigation |
+| Section | What It Covers |
 |---|---|
-| Data leakage from lost/stolen personal devices | Require device encryption and remote wipe capabilities |
-| Mixing personal and corporate data | Use containerization to separate work data from personal data |
-| Unpatched or insecure personal devices | Require minimum OS version and security updates before granting access |
-| Unauthorized apps accessing corporate data | Restrict corporate data access to approved applications only |
-| Employee privacy concerns | Clearly define what the organization can and cannot access on personal devices |
-**Example:** **Illini Entertainment** allows employees to use personal smartphones for email and calendar. Its BYOD policy requires enrollment in the company's MDM solution, a minimum passcode of six digits, encryption enabled, and automatic remote wipe if the device is reported lost or if the employee is terminated.
+| **Scope** | Who the policy applies to (employees, contractors, vendors) and which systems |
+| **Permitted use** | Business use and any allowed personal use |
+| **Prohibited activities** | Such as installing unauthorized software, illegal downloads, harassment |
+| **Security responsibilities** | Password rules, locking screens, reporting suspected incidents |
+| **Monitoring** | Notice that the organization may monitor use of its systems |
+| **Consequences** | Discipline for violations |
+
+### BYOD and Mobile Devices
+
+The blueprint asks specifically about mobile technology and **bring your own device (BYOD)** policies, which govern personal devices used for work. The organization controls these devices less, so the policy has to compensate:
+
+| BYOD Risk | Policy Response |
+|---|---|
+| Data exposed when a personal device is lost or stolen | Require encryption, a passcode, and remote wipe |
+| Personal and work data mixed together | Use containerization to keep work data in a separate, managed space |
+| Outdated or insecure devices | Require a minimum operating system version and current updates before granting access |
+| Unapproved apps reaching corporate data | Allow access to corporate data only through approved apps |
+| Employee privacy concerns | State clearly what the organization can and cannot see or erase on a personal device |
+
+**Example:** **Illini Entertainment** lets employees read email on personal phones only if they enroll in its MDM system, use at least a six-digit passcode, and keep encryption on. Company data is wiped remotely if the phone is reported lost or the employee leaves.
 
 ---
 
-## COSO Frameworks for Cyber Risk Assessment
+## COSO Frameworks for Cyber Risk
 
-The **Committee of Sponsoring Organizations of the Treadway Commission (COSO)** frameworks provide a structured approach for organizations to assess and manage cybersecurity risks.
+The blueprint asks how the COSO frameworks can be used to assess cyber risks and controls. The References limit this to COSO's *Managing Cyber Risk in a Digital Age*, which applies the five components of COSO's enterprise risk management (ERM) framework to cyber risk. The point is that cyber risk is a business risk, managed with the same discipline as any other, and not just an IT problem.
 
-### COSO Internal Control-Integrated Framework (2013)
-
-The five components of COSO internal control apply directly to cybersecurity:
-| COSO Component | Cybersecurity Application |
+| ERM Component | Applied to Cyber Risk |
 |---|---|
-| **Control Environment** | Management's commitment to cybersecurity, tone at the top, security-aware culture |
-| **Risk Assessment** | Identifying and evaluating cyber threats and vulnerabilities relative to financial reporting objectives |
-| **Control Activities** | Implementing preventive, detective, and corrective controls (firewalls, access controls, patch management) |
-| **Information & Communication** | Communicating security policies, incident reporting procedures, and threat intelligence |
-| **Monitoring Activities** | Continuous monitoring of security controls, vulnerability scanning, penetration testing, log review |
+| **Governance and culture** | The board oversees cyber risk, and leadership builds a culture in which security is everyone's job |
+| **Strategy and objective-setting** | Cyber risk is considered when setting strategy, and the organization defines how much cyber risk it will accept (its risk appetite) |
+| **Performance** | Cyber risks are identified, assessed, and prioritized by severity, and responses are chosen and carried out |
+| **Review and revision** | The organization watches for changes, such as new technology or new threats, that alter its cyber risk, and improves its approach |
+| **Information, communication, and reporting** | Cyber risk information reaches the right people, including regular reporting to the board |
 
-### COSO Enterprise Risk Management (ERM) Framework
-
-The ERM framework takes a broader view, helping organizations manage cybersecurity risk in the context of their overall risk appetite and business strategy:
-
-- **Governance & Culture**: Board oversight of cybersecurity, establishing risk appetite for cyber risk
-- **Strategy & Objective-Setting**: Aligning cybersecurity investments with business objectives
-- **Performance**: Identifying, assessing, and prioritizing cyber risks; implementing responses
-- **Review & Revision**: Evaluating whether cybersecurity controls remain effective as threats evolve
-- **Information, Communication & Reporting**: Reporting on cybersecurity posture to the board and stakeholders
-  :::note
-  The exam may ask how COSO frameworks can be used to evaluate cybersecurity controls. The key point is that COSO provides a **structured methodology**: the same framework used for financial reporting controls applies to cybersecurity controls. This allows management and auditors to evaluate cyber risks using a consistent, well-understood approach.
-  :::
+COSO's *Internal Control - Integrated Framework* (2013) is the other lens. Its five components (control environment, risk assessment, control activities, information and communication, and monitoring activities) apply to cybersecurity controls just as they apply to financial reporting controls, and one of its 17 principles specifically calls for general controls over technology. Using COSO lets management and auditors evaluate cyber risk with a structure they already know.
 
 ---
 
 ## Preventive, Detective, and Corrective Controls
 
-Security controls are classified by **when** they act relative to a security event:
+Controls are also classified by **when** they act relative to a security event:
+
 | Control Type | Purpose | Timing | Examples |
 |---|---|---|---|
-| **Preventive** | Stop a security event from occurring | Before the event | Firewalls, access controls, encryption, IPS, system hardening, security training |
-| **Detective** | Identify that a security event has occurred | During or after the event | IDS, log analysis, security monitoring, audit trails, anomaly detection |
-| **Corrective** | Restore systems and remediate damage after an event | After the event | Virus quarantining, patches, data restoration from backups, incident response procedures |
+| **Preventive** | Stop the event from happening | Before | Firewalls, access controls, encryption, IPS, hardening, training |
+| **Detective** | Discover that an event is happening or has happened | During or after | IDS, log analysis, security monitoring, audit trails |
+| **Corrective** | Limit the damage and restore normal operations | After | Quarantining infected files, applying patches, restoring from backups, incident response |
 
-### Common Controls Classification Table
+| Control | Preventive | Detective | Corrective |
+|---|---|---|---|
+| Firewall | Yes | No | No |
+| Intrusion prevention system | Yes | No | No |
+| Intrusion detection system | No | Yes | No |
+| Antivirus and anti-malware | Yes | Yes | Yes |
+| System hardening | Yes | No | No |
+| Log analysis and SIEM | No | Yes | No |
+| Patches | No | No | Yes |
+| Virus quarantining | No | No | Yes |
+| Encryption | Yes | No | No |
+| Security awareness training | Yes | No | No |
+| Access control lists | Yes | No | No |
+| Backup and recovery | No | No | Yes |
 
-| Control                           | Preventive | Detective | Corrective |
-| --------------------------------- | ---------- | --------- | ---------- |
-| Firewall                          | Yes        |           |            |
-| Intrusion Prevention System (IPS) | Yes        |           |            |
-| Intrusion Detection System (IDS)  |            | Yes       |            |
-| Antivirus/anti-malware            | Yes        | Yes       | Yes        |
-| System hardening                  | Yes        |           |            |
-| Log analysis and SIEM             |            | Yes       |            |
-| Patches and updates               |            |           | Yes        |
-| Virus quarantining                |            |           | Yes        |
-| Encryption                        | Yes        |           |            |
-| Security awareness training       | Yes        |           |            |
-| Access control lists              | Yes        |           |            |
-| Backup and recovery               |            |           | Yes        |
+A single control can play more than one role. Anti-malware software **prevents** known malware from running, **detects** malware already present, and **quarantines** infected files. When a question asks for the primary classification, choose the control's main purpose. (Patches are listed as corrective because they fix a known flaw; applied before an attack, they also prevent it.)
 
-:::tip[Exam Tip]
-A single control can serve multiple purposes. Antivirus software **prevents** known malware from executing (preventive), **detects** malware that is already present (detective), and **quarantines** infected files to prevent further spread (corrective). When an exam question asks for the _primary_ classification, consider the control's main function.
-:::
-**Example:** **Bear Co.** experienced a ransomware attack. Its preventive controls (firewall, email filtering) failed to block the initial phishing email. However, its detective controls (EDR, SIEM) identified the encryption activity within minutes, and its corrective controls (network isolation, backup restoration) limited data loss to less than one hour of transactions.
+**Example:** **Bear Co.** suffers a ransomware attack. Its preventive controls (email filtering and the firewall) fail to stop the phishing email. Its detective controls (EDR and a security information and event management, or SIEM, system) spot the mass encryption within minutes, and its corrective controls (isolating the affected machines and restoring from backups) limit the data loss to less than an hour of transactions.
 
 ---
 
 ## Identification and Authentication
 
-**Identification** is the process of claiming an identity (e.g., entering a username). **Authentication** is the process of proving that claimed identity is legitimate. Together, they form the first step in access control.
+**Identification** is claiming an identity, such as entering a username. **Authentication** is proving the claim. Together they come before any decision about what the user may do.
 
-### Authentication Factors
+| Factor | Category | Examples |
+|---|---|---|
+| **Something you know** | Knowledge | Passwords, PINs, answers to security questions |
+| **Something you have** | Possession | Smart cards, hardware tokens, authenticator apps, digital certificates |
+| **Something you are** | Inherence (biometrics) | Fingerprints, facial recognition, iris scans, voice |
 
-| Factor                 | Category                      | Examples                                                                      |
-| ---------------------- | ----------------------------- | ----------------------------------------------------------------------------- |
-| **Something you know** | Knowledge factor              | Passwords, PINs, security questions                                           |
-| **Something you have** | Possession factor             | Smart cards, hardware tokens, mobile authenticator apps, digital certificates |
-| **Something you are**  | Inherence factor (biometrics) | Fingerprints, facial recognition, iris scans, voice recognition               |
+**Multi-factor authentication (MFA)** requires two or more factors from **different categories**. A password plus a PIN is not MFA, because both are something you know.
 
-**Multi-factor authentication (MFA)** requires two or more factors from **different categories**. Using a password and a PIN is _not_ MFA because both are "something you know."
+The blueprint lists several techniques to choose among in a scenario:
 
-### Authentication Technologies
+| Technique | Description | Factor |
+|---|---|---|
+| **Password management** | Rules for password length, complexity, and reuse; password managers; locking accounts after repeated failures | Something you know |
+| **Single sign-on (SSO)** | One authentication gives access to many applications, so users have fewer passwords to manage; a stolen SSO login exposes everything, so SSO should be paired with MFA | Depends on the method used |
+| **Multi-factor authentication** | Combines factors from different categories | Two or more |
+| **PIN management** | Short numeric codes, usually combined with something you have (a card plus a PIN) | Something you know |
+| **Digital signatures** | Public key cryptography that proves who signed a message and that it has not changed | Something you have (the private key) |
+| **Smart cards** | Cards with embedded chips that store credentials | Something you have |
+| **Biometrics** | Physical or behavioral traits | Something you are |
 
-| Technology                      | Description                                                                                      | Factor(s)                        |
-| ------------------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------- |
-| **Password management**         | Policies for complexity, length, expiration, and history; use of password managers               | Something you know               |
-| **Single sign-on (SSO)**        | Users authenticate once and gain access to multiple applications without re-entering credentials | Depends on underlying mechanism  |
-| **Multi-factor authentication** | Combines two or more authentication factors                                                      | Multiple factors                 |
-| **PIN management**              | Short numeric codes used alone or in combination with another factor (e.g., ATM card + PIN)      | Something you know               |
-| **Digital signatures**          | Use public key cryptography to verify the identity of the sender and integrity of the message    | Something you have (private key) |
-| **Smart cards**                 | Physical cards with embedded chips that store authentication credentials                         | Something you have               |
-| **Biometrics**                  | Unique physical or behavioral characteristics used for verification                              | Something you are                |
+Biometric systems are judged by their error rates. The **false acceptance rate (FAR)** is the share of unauthorized users wrongly let in, the **false rejection rate (FRR)** is the share of authorized users wrongly kept out, and the **crossover error rate (CER)** is the point where the two are equal. A lower CER means a more accurate system.
 
-### Biometric Considerations
+**Example:** **Illini Security** requires a password (something you know) and a fingerprint (something you are) to reach its financial reporting system. A stolen password alone is no longer enough.
 
-| Metric                          | Definition                                                                  |
-| ------------------------------- | --------------------------------------------------------------------------- |
-| **False Acceptance Rate (FAR)** | Percentage of unauthorized users incorrectly granted access                 |
-| **False Rejection Rate (FRR)**  | Percentage of authorized users incorrectly denied access                    |
-| **Crossover Error Rate (CER)**  | The point where FAR equals FRR; lower CER indicates a more accurate system |
-
-> **Example:** **Illini Security** requires employees to authenticate using a password (something you know) and a fingerprint scan (something you are) before accessing the financial reporting system. This two-factor authentication significantly reduces the risk of unauthorized access even if a password is compromised.
+---
 
 ## Authorization Models
 
-Once a user is authenticated, **authorization** determines what resources and actions they are permitted to access. Organizations implement authorization through formal models and specific control mechanisms.
+Once a user is authenticated, **authorization** decides what that user may access and do. The blueprint names three models:
 
-### Access Control Models
+| Model | How Access Is Decided | Who Sets Permissions | Typical Use |
+|---|---|---|---|
+| **Discretionary access control (DAC)** | The owner of each resource decides who may use it | Individual resource owners | Small, flexible environments |
+| **Role-based access control (RBAC)** | Permissions are attached to job roles, and users get the permissions of their roles | Administrators, based on job functions | Most business systems |
+| **Mandatory access control (MAC)** | The system compares security labels on users (clearances) and data (classifications) | A central security policy the system enforces | Military, government, and other highly sensitive settings |
 
-| Model                                  | Description                                                                               | Who Sets Permissions                         | Best For                                          |
-| -------------------------------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------- | ------------------------------------------------- |
-| **Discretionary Access Control (DAC)** | Resource owners decide who can access their resources                                     | Individual resource owners                   | Flexible environments; small organizations        |
-| **Role-Based Access Control (RBAC)**   | Access is assigned based on the user's role within the organization                       | System administrators based on job functions | Most enterprise environments; CPA firms           |
-| **Mandatory Access Control (MAC)**     | Access is determined by security labels (classifications) assigned to both users and data | Security policy; system enforces rules       | Government, military, highly regulated industries |
+The models are put into effect through specific controls:
 
-### Authorization Controls
-
-| Control                       | Description                                                                         | Example                                                                                        |
-| ----------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| **Access Control List (ACL)** | A list specifying which users or systems are granted or denied access to a resource | A file server ACL that grants read access to the finance group and denies access to all others |
-| **Account restrictions**      | Limits placed on user accounts to reduce risk                                       | Login time restrictions, concurrent session limits, account lockout after failed attempts      |
-| **Physical barriers**         | Physical controls that restrict access to sensitive areas                           | Badge readers, mantraps, locked server rooms, security guards                                  |
-
-### Choosing an Authorization Model
+| Control | Description | Example |
+|---|---|---|
+| **Access control list (ACL)** | A list attached to a resource stating who may access it and how | A file share that gives the finance group read access and denies everyone else |
+| **Account restrictions** | Limits on accounts to reduce risk | Login hours, session limits, lockout after failed attempts |
+| **Physical barriers** | Physical controls on sensitive areas | Badge readers, mantraps, locked server rooms |
 
 ```mermaid
 graph TD
@@ -348,36 +288,42 @@ graph TD
     D -->|No| F["Discretionary Access Control (DAC)<br/>Owners control access to their resources"]
 ```
 
-**Example:** **Polar Inc.** uses RBAC for its accounting system. The "Staff Accountant" role has permission to enter journal entries but not to approve them. The "Controller" role can approve entries but cannot modify the chart of accounts. This enforces separation of duties through the authorization model.
-:::caution
-DAC is the most flexible but least secure model because individual owners may grant excessive access without oversight. MAC is the most restrictive but may be impractical for typical business environments. RBAC provides a balance, and it is the most common model in enterprise IT environments and the one most likely tested on the CPA exam.
-:::
+DAC is the most flexible but the least controlled, because each owner can grant access without oversight. MAC is the most restrictive and is impractical for most businesses. RBAC sits between them and is the most common model in business systems, so it is the one exam scenarios most often point to.
+
+**Example:** **Polar Inc.** uses RBAC in its accounting system. The Staff Accountant role can enter journal entries but not approve them; the Controller role can approve entries but cannot change the chart of accounts. The roles themselves enforce segregation of duties.
 
 ---
 
 ## Summary
 
-| Topic                          | Key Takeaway                                                                                                                              |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Network protection             | Segmentation, VPN, wireless security, endpoint security, system hardening, and IDS/IPS work together to secure networks and remote access |
-| Vulnerability management       | Ongoing process of scanning, prioritizing, patching, and verifying; reduces the window of exploitation                                   |
-| Defense-in-depth               | Multiple overlapping layers (physical, technical, administrative) ensure no single point of failure                                       |
-| Least privilege and zero trust | Grant minimum necessary access; verify every request regardless of network location                                                       |
-| Acceptable use policies        | Define expectations, address BYOD/mobile risks, and provide a foundation for enforcement                                                  |
-| COSO and cyber risk            | COSO IC and ERM frameworks provide structured approaches to identifying and managing cybersecurity risks                                  |
-| Control classification         | Preventive (stop), detective (identify), corrective (remediate); select based on risk and timing                                         |
-| Authentication                 | Combine knowledge, possession, and inherence factors; MFA requires factors from different categories                                      |
-| Authorization models           | DAC (owner-controlled), RBAC (role-based), MAC (label-based); choose based on security requirements                                      |
+| Topic | Key Takeaway |
+|---|---|
+| Network protection | Segmentation, VPNs, wireless security, endpoint security, hardening, and IDS/IPS work together |
+| Vulnerability management | Discover, scan, prioritize, remediate, verify; scanning finds weaknesses, penetration testing exploits them |
+| Defense in depth | Layers of different physical, technical, and administrative controls, so one failure is not fatal |
+| Access principles | Least privilege limits the level of access, need to know limits the information, zero trust verifies every request, allowlisting denies by default |
+| Acceptable use | Sets the rules for technology use, including BYOD |
+| COSO and cyber risk | Managing Cyber Risk in a Digital Age applies the five ERM components to cyber risk |
+| Control timing | Preventive stops, detective finds, corrective repairs |
+| Authentication | MFA needs factors from different categories; match the technique to the scenario |
+| Authorization | DAC (owners decide), RBAC (roles decide), MAC (labels decide) |
 
 ---
 
 ## Practice Questions
 
-1. **Kingfisher Industries** is implementing a new security architecture. The security team proposes requiring all users, whether inside the corporate office or working remotely, to authenticate and be authorized for each resource they access, with no implicit trust based on network location. Which security principle is being applied, and how does it differ from the traditional perimeter-based approach?
-2. **Bear Co.** recently experienced a breach in which an attacker exploited a known vulnerability that had a CVSS score of 9.2. A patch had been available for 45 days but was not applied. The IT director claims the intrusion detection system should have prevented the attack. Identify **two** problems with Bear Co.'s security posture described in this scenario.
-3. **Bear Co.** needs to implement access controls for its new ERP system. The system has 200 users across 15 departments. Each department has specific functions (e.g., accounts payable, accounts receivable, payroll). Which authorization model is most appropriate, and what additional control should Bear Co. implement to enforce separation of duties?
-   :::tip[Answers]
-4. **Zero trust** is being applied. Unlike the traditional "castle and moat" perimeter-based approach (which trusts all users inside the network), zero trust requires verification of every access request regardless of location. This means an employee sitting in the office is treated with the same scrutiny as a remote worker: both must authenticate, have their device posture checked, and receive only the minimum access necessary for their role.
-5. **Problem 1:** Bear Co. failed to apply a critical patch (CVSS 9.2) within a reasonable timeframe; 45 days is excessive for a critical vulnerability. This represents a failure in the vulnerability management and patch management process. **Problem 2:** The IT director mischaracterizes the IDS. An intrusion **detection** system is a detective control. It alerts on suspicious activity but does not prevent attacks. An intrusion **prevention** system (IPS) would be needed to block the exploit. Even an IPS might not stop exploitation of an unpatched vulnerability if no signature exists for the specific attack.
-6. **Role-Based Access Control (RBAC)** is the most appropriate model. With 200 users across 15 departments performing defined job functions, RBAC allows Bear Co. to assign permissions to roles (e.g., "AP Clerk," "AR Manager," "Payroll Specialist") rather than to individual users. To enforce separation of duties, Bear Co. should ensure that conflicting permissions are not assigned to the same role. For example, the ability to create a vendor and the ability to approve payments should reside in separate roles so that no single individual can perform both functions.
-   :::
+1. **Kingfisher Industries**' security team proposes that every user, in the office or remote, must authenticate and be authorized for each resource they use, with no trust based on network location. Which principle is this, and how does it differ from the traditional approach?
+
+2. **Bear Co.** is breached through a known vulnerability with a CVSS score of 9.2. A patch had been available for 45 days but was never applied. The IT director says the intrusion detection system should have prevented the attack. Identify **two** problems.
+
+3. **Bear Co.** is setting up access to a new ERP system for 200 users in 15 departments, each with defined functions such as accounts payable, accounts receivable, and payroll. Which authorization model fits best, and how should Bear Co. use it to enforce segregation of duties?
+
+:::tip[Answers]
+
+1. **Zero trust.** The traditional "castle and moat" model trusts everyone inside the network perimeter. Zero trust trusts no location: an employee at headquarters is verified as carefully as one working from home, with checks on identity and device and only the minimum access granted.
+
+2. **First,** a critical vulnerability (CVSS 9.2) went unpatched for 45 days, a failure of vulnerability and patch management. **Second,** the IT director misunderstands the IDS. An intrusion **detection** system alerts; it does not block. Blocking requires an intrusion **prevention** system, and even an IPS may miss an exploit it has no signature for, which is why prompt patching matters.
+
+3. **Role-based access control (RBAC).** With many users in defined job functions, Bear Co. can attach permissions to roles such as AP Clerk, AR Manager, and Payroll Specialist instead of to individuals. To enforce segregation of duties, it should design the roles so that conflicting permissions never sit in the same role (for example, the ability to create a vendor and the ability to approve payments to vendors), and check that no user is assigned two conflicting roles.
+
+:::

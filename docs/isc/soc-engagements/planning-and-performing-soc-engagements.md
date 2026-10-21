@@ -1,536 +1,354 @@
 # Planning and Performing SOC Engagements
 
-System and Organization Controls (SOC) engagements are among the most critical attestation services CPAs perform in the information systems domain. As organizations increasingly rely on third-party service providers for cloud hosting, payroll processing, data center operations, and other outsourced functions, user entities and their auditors need assurance that those service organizations have effective controls. SOC reports provide that assurance through a structured attestation framework governed by AICPA professional standards.
-This section covers the **Trust Services Criteria** (purpose, organization, and alignment with COSO), **types of SOC reports** (SOC 1®, SOC 2®, SOC 3®, SOC for Cybersecurity, and SOC for Supply Chain), **management assertions**, **independence considerations**, **materiality**, **risk assessment**, **subservice organizations** (inclusive vs. carve-out methods), **service commitments and system requirements**, **subsequently discovered facts**, **system descriptions**, **complementary user entity controls (CUECs)**, **management representations**, **system boundaries**, **reporting mechanisms**, and **subsequent events**.
-:::info
-The ISC exam tests this topic at the **Remembering and Understanding** and **Application** skill levels for most tasks, with one task tested at the **Analysis** level (determining the effect of subsequent events). You must be able to recall definitions, purposes, and distinctions among SOC report types; identify management assertions; explain materiality, risk assessment, and subservice organization considerations; and apply procedures to understand system boundaries and compare system descriptions to criteria.
-:::
+Companies hand more and more of their work to outside providers: payroll to a payroll processor, servers to a cloud host, claims to a third-party administrator. Each customer, and each customer's auditor, needs to know whether the provider's controls work, but hundreds of customers cannot all inspect the same provider. A **System and Organization Controls (SOC) report** solves the problem: one independent CPA examines the provider's system and controls, and the report serves all of its customers.
+
+This chapter covers the work before and during a SOC examination. It starts with the parties and the types of SOC reports, then the Trust Services Criteria and management's assertions. It moves on to planning matters (independence, materiality, risk assessment, and subservice organizations), then the system itself: service commitments and system requirements, the system description and its boundaries, and complementary user entity controls. It ends with reporting mechanisms, written representations, and events after the period. The blueprint tests Area III at the Remembering and Understanding and Application levels. For SOC 1® engagements the exam covers planning, certain procedures, and reporting, but not the testing of controls over financial reporting itself.
 
 ---
 
-## Trust Services Criteria (TSC)
+## The Parties
 
-The **Trust Services Criteria** are a set of professional standards developed by the AICPA that service auditors use to evaluate and report on controls at a service organization. The TSC provide the benchmarks against which a service organization's controls are assessed in SOC 2® and SOC 3® engagements.
-
-### Purpose
-
-The TSC serve as the **criteria** (i.e., the measuring stick) for evaluating whether a service organization's controls are suitably designed and operating effectively to meet its service commitments and system requirements related to security, availability, processing integrity, confidentiality, and privacy.
-
-### Organization and Alignment with COSO
-
-The TSC are organized around the **COSO Internal Control-Integrated Framework (2013)**, which provides the foundational structure for the **Common Criteria**:
-| COSO Component | Common Criteria | Description |
+| Party | Role | Example |
 |---|---|---|
-| **Control Environment** | CC1 (CC1.1-CC1.5) | Integrity, ethical values, board oversight, organizational structure, accountability |
-| **Communication and Information** | CC2 (CC2.1-CC2.3) | Internal and external communication of information necessary for controls to function |
-| **Risk Assessment** | CC3 (CC3.1-CC3.4) | Identification and analysis of risks to achieving objectives, including fraud risk |
-| **Monitoring Activities** | CC4 (CC4.1-CC4.2) | Ongoing evaluations and communication of control deficiencies |
-| **Control Activities** | CC5 (CC5.1-CC5.3) | Policies and procedures that help ensure management directives are carried out |
-| **Logical and Physical Access Controls** | CC6 (CC6.1-CC6.8) | Security controls over logical and physical access to system resources |
-| **System Operations** | CC7 (CC7.1-CC7.5) | Detection of anomalies, monitoring of system components, incident response |
-| **Change Management** | CC8 (CC8.1) | Controls over changes to infrastructure, data, software, and procedures |
-| **Risk Mitigation** | CC9 (CC9.1-CC9.2) | Risk mitigation through business continuity and vendor management |
-
-### Additional Specific Criteria
-
-Beyond the Common Criteria (which apply to **all** TSC engagements because security is always in scope), additional criteria address specific trust service categories:
-| Category | Criteria | Focus |
-|---|---|---|
-| **Availability** | A1 (A1.1-A1.3) | System availability for operation and use as committed |
-| **Processing Integrity** | PI1 (PI1.1-PI1.5) | System processing is complete, valid, accurate, timely, and authorized |
-| **Confidentiality** | C1 (C1.1-C1.2) | Confidential information is protected as committed |
-| **Privacy** | P1-P8 | Notice, choice/consent, collection, use/retention/disposal, access, disclosure, quality, monitoring/enforcement |
-
-### Supplemental Criteria
-
-**Supplemental criteria** are additional points of focus that help the service auditor evaluate whether each criterion is met. They are not separate criteria themselves but provide guidance on what to consider. For example, a supplemental criterion under CC6.1 might address multi-factor authentication as a point of focus for access controls.
-
-```mermaid
-graph TD
-    A["Trust Services Criteria"] --> B["Common Criteria (CC1-CC9)"]
-    A --> C["Additional Specific Criteria"]
-    B --> B1["Aligned with COSO 2013<br/>5 Components"]
-    C --> C1["Availability (A1)"]
-    C --> C2["Processing Integrity (PI1)"]
-    C --> C3["Confidentiality (C1)"]
-    C --> C4["Privacy (P1-P8)"]
-```
-
-:::tip[Exam Tip]
-**Security** (Common Criteria CC1-CC9) is **always** included in a SOC 2® engagement. The additional categories (availability, processing integrity, confidentiality, privacy) are included only when relevant to the service organization's commitments. You cannot have a SOC 2® report without security.
-:::
+| **Service organization** | Provides services to other entities; its system and controls are the subject of the report | **Bear Co.**, a payroll processor |
+| **User entity** | A customer of the service organization | A small business that uses Bear Co. for payroll |
+| **User auditor** | The auditor of a user entity's financial statements, who uses a SOC 1® report as audit evidence | The small business's CPA firm |
+| **Service auditor** | The CPA who examines and reports on the service organization's system and controls | The firm Bear Co. engages for its SOC report |
+| **Subservice organization** | A vendor of the service organization whose controls, together with the service organization's, are needed to achieve the objectives | **Kingfisher Industries**, which hosts Bear Co.'s servers |
 
 ---
 
 ## Types of SOC Reports
 
-### SOC 1®: Internal Control over Financial Reporting (ICFR)
+The blueprint asks you to recall the purpose and intended users of four kinds of report:
 
-| Attribute          | Description                                                                                                                   |
-| ------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
-| **Standard**       | SSAE 18 / AT-C Section 320                                                                                                    |
-| **Focus**          | Controls at a service organization relevant to user entities' internal control over financial reporting                       |
-| **Intended Users** | Management of the service organization, user entities, and user entity auditors (restricted use)                              |
-| **Purpose**        | Helps user entity auditors assess the effect of the service organization's controls on the user entity's financial statements |
+| Report | Subject Matter | Criteria | Intended Users |
+|---|---|---|---|
+| **SOC 1®** | Controls at a service organization relevant to user entities' internal control over financial reporting (ICFR) | Control objectives specified by management, evaluated under AT-C 320 | **Restricted**: management of the service organization, user entities, and user auditors |
+| **SOC 2®** | Controls at a service organization relevant to security, availability, processing integrity, confidentiality, or privacy | Trust Services Criteria, and Description Criteria (DC 200) for the system description | **Restricted**: management, user entities, and other specified parties with enough knowledge to understand it, such as business partners, prospective customers, and regulators |
+| **SOC 3®** | The same subject as SOC 2®, without the detailed description or tests | Trust Services Criteria | **General use**: anyone; often posted on a company's website |
+| **SOC for Cybersecurity** | An entity's whole cybersecurity risk management program; any entity, not just a service organization | Description criteria for the program, and control criteria such as the Trust Services Criteria | **General use**: boards, investors, analysts, business partners |
 
-### SOC 2®: Trust Services Criteria
+SOC 1® engagements are performed under AT-C section 320. SOC 2®, SOC 3®, and SOC for Cybersecurity engagements are examinations under AT-C sections 105 and 205, with AICPA guides for each. The AICPA also offers SOC for Supply Chain, which the blueprint does not list.
 
-| Attribute          | Description                                                                                                                            |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
-| **Standard**       | AT-C Section 205 (Examination Engagements)                                                                                             |
-| **Focus**          | Controls related to security, availability, processing integrity, confidentiality, and/or privacy based on the Trust Services Criteria |
-| **Intended Users** | Management of the service organization, user entities, business partners, and other specified parties (restricted use)                 |
-| **Purpose**        | Provides detailed information about controls relevant to security and, where applicable, other TSC categories                          |
+SOC 1® and SOC 2® reports come in two types:
 
-### SOC 3®: General Use Report
-
-| Attribute          | Description                                                                                                          |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------- |
-| **Standard**       | AT-C Section 205                                                                                                     |
-| **Focus**          | Same criteria as SOC 2® (Trust Services Criteria)                                                                    |
-| **Intended Users** | **General use**: anyone (can be posted publicly on a website)                                                        |
-| **Purpose**        | Provides a high-level opinion without the detailed system description or control testing results (seal of assurance) |
-
-### SOC for Cybersecurity
-
-| Attribute          | Description                                                                                                                                 |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Focus**          | Organization-wide cybersecurity risk management program                                                                                     |
-| **Intended Users** | General use (board of directors, analysts, investors, business partners)                                                                    |
-| **Purpose**        | Reports on whether the entity's cybersecurity risk management program is effective using suitable description criteria and control criteria |
-
-### SOC for Supply Chain
-
-| Attribute          | Description                                                                                                                             |
-| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **Focus**          | Controls over the production and distribution of goods                                                                                  |
-| **Intended Users** | Customers, business partners, and other stakeholders in the supply chain                                                                |
-| **Purpose**        | Addresses risks in the supply chain including security, availability, processing integrity, and confidentiality of supply chain systems |
-
-### Type 1 vs. Type 2
-
-| Attribute            | Type 1                                                      | Type 2                                                                         |
-| -------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| **Reporting Date**   | As of a **point in time** (specific date)                   | Throughout a **period of time** (typically 6-12 months)                        |
-| **Scope of Testing** | Design and implementation of controls                       | Design, implementation, **and operating effectiveness** of controls            |
-| **Testing Approach** | Inquiry, observation, inspection at a single date           | Inquiry, observation, inspection, re-performance, sampling over the period     |
-| **Opinion**          | Controls are suitably designed (and implemented for SOC 2®) | Controls are suitably designed and operating effectively throughout the period |
+| Attribute | Type 1 | Type 2 |
+|---|---|---|
+| **Covers** | A **point in time** (as of a specific date) | A **period of time**, commonly 6 to 12 months |
+| **Opinion addresses** | The description and the **suitability of design** of controls | The description, the suitability of design, **and the operating effectiveness** of controls throughout the period |
+| **Testing** | Procedures to confirm the controls exist and are designed suitably | Tests of controls (inquiry, observation, inspection, reperformance) across the period, usually on samples |
 
 :::warning
-A Type 1 report does **not** test operating effectiveness. It only addresses whether controls are suitably designed and, in the case of SOC 2®, implemented. A user entity auditor relying on a SOC 1® report typically needs a **Type 2** report to support their assessment of control risk.
+
+A Type 1 report says nothing about whether controls **operated** effectively. A user auditor who plans to rely on a service organization's controls to reduce control risk generally needs a **Type 2** report covering a period that overlaps the user entity's fiscal year.
+
 :::
 
 ---
 
-## Management Assertions
+## The Trust Services Criteria
 
-Management of the service organization makes specific assertions depending on the type of SOC engagement:
+The **Trust Services Criteria (TSC)** are criteria issued by the AICPA's Assurance Services Executive Committee for evaluating controls over **security, availability, processing integrity, confidentiality, and privacy**. They are the measuring stick in SOC 2® and SOC 3® engagements, and they can serve as control criteria in SOC for Cybersecurity.
 
-### SOC 1® Assertions
+The criteria are not limited to service organizations. A practitioner can be engaged to report, using the TSC, on controls within a service organization's system, on an entity's cybersecurity risk management program, on a system that produces or distributes products, or on controls at any level of an entity: the whole entity, a division or unit, a single function, or a particular type of information.
 
-| Report Type | Management Asserts That...                                                                                                                                                                                                                                                                                                      |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Type 1**  | (a) The system description fairly presents the system as designed and implemented as of the specified date; (b) The controls related to the control objectives are suitably designed to provide reasonable assurance that the control objectives would be achieved if the controls operated effectively                         |
-| **Type 2**  | (a) The system description fairly presents the system as designed and implemented throughout the specified period; (b) The controls related to the control objectives were suitably designed and operated effectively throughout the specified period to provide reasonable assurance that the control objectives were achieved |
-
-### SOC 2® Assertions
-
-| Report Type | Management Asserts That...                                                                                                                                                                                                                                                                                                                                  |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Type 1**  | (a) The system description is presented in accordance with the description criteria; (b) The controls stated in the description were suitably designed to meet the applicable trust services criteria as of the specified date                                                                                                                              |
-| **Type 2**  | (a) The system description is presented in accordance with the description criteria; (b) The controls stated in the description were suitably designed throughout the specified period to meet the applicable trust services criteria; (c) The controls operated effectively throughout the specified period to meet the applicable trust services criteria |
-
-### SOC 3® Assertions
-
-In a SOC 3® engagement, management asserts that the system was effective in meeting the applicable trust services criteria throughout the period (Type 2 only, since SOC 3® reports are always Type 2).
-
-## Independence Considerations
-
-The service auditor must be **independent** of the service organization and any subservice organizations included in the scope of the engagement. Independence requirements follow the AICPA Code of Professional Conduct.
-
-### Key Independence Relationships
+### How the Criteria Are Organized
 
 ```mermaid
 graph LR
-    SA["Service Auditor"] --- SO["Service Organization"]
-    SA --- SSO["Subservice Organization(s)"]
-    SO --- SSO
-    style SA fill:#e1f5fe
-    style SO fill:#fff3e0
-    style SSO fill:#fce4ec
+    A["Trust Services<br/>Criteria"] --> B["Common criteria<br/>CC1-CC9"]
+    A --> C["Additional specific<br/>criteria"]
+    B --> B1["COSO-based criteria<br/>CC1-CC5"]
+    B --> B2["Supplemental criteria<br/>CC6-CC9"]
+    C --> C1["Availability A1"]
+    C --> C2["Processing integrity PI1"]
+    C --> C3["Confidentiality C1"]
+    C --> C4["Privacy P1-P8"]
 ```
 
-| Relationship                                                   | Requirement                                                                                                    |
-| -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Service auditor and service organization                       | Must be independent in both fact and appearance                                                                |
-| Service auditor and subservice organization (inclusive method) | Must be independent when the subservice organization's controls are included in scope                          |
-| Service auditor and subservice organization (carve-out method) | Independence from the subservice organization is **not required** because its controls are excluded from scope |
+The **common criteria** apply in every SOC 2® engagement. They are the complete criteria for the security category and the foundation for every other category. They have two parts.
 
-### Common Threats to Independence
+**CC1 through CC5** follow the COSO *Internal Control - Integrated Framework* (2013): each of COSO's 17 principles appears as a criterion, grouped by COSO's five components.
 
-| Threat                       | Example                                                                                                     |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| **Self-review**              | Auditor designs controls that will later be tested in the SOC engagement                                    |
-| **Advocacy**                 | Auditor promotes the service organization's SOC report to prospective customers                             |
-| **Familiarity**              | Long-standing personal relationships between auditor and service organization management                    |
-| **Management participation** | Auditor performs management functions (e.g., operating or monitoring controls) for the service organization |
+| COSO Component | Criteria | Topics |
+|---|---|---|
+| **Control environment** | CC1.1-CC1.5 | Integrity and ethics, board oversight, structure and authority, competence, accountability |
+| **Communication and information** | CC2.1-CC2.3 | Quality information, internal communication, external communication |
+| **Risk assessment** | CC3.1-CC3.4 | Objectives, risk identification and analysis, fraud risk, significant changes |
+| **Monitoring activities** | CC4.1-CC4.2 | Ongoing and separate evaluations, communicating deficiencies |
+| **Control activities** | CC5.1-CC5.3 | Selecting control activities, general controls over technology, policies and procedures |
 
-> **Example:** **Illini Security** performs penetration testing and vulnerability assessments for **Bear Co.**, a cloud hosting provider. If Illini Security is also engaged to perform the SOC 2® examination for Bear Co., a **self-review threat** exists because Illini Security would be evaluating control environments it helped design or test.
+**CC6 through CC9** are **supplemental criteria**. They add detail that COSO's principles do not spell out but that matters for security: CC6 for logical and physical access, CC7 for system operations (detecting and responding to security events), CC8 for change management, and CC9 for risk mitigation (business disruption and vendor risk).
 
-## Materiality in SOC Engagements
+The **additional specific criteria** apply only when the related category is in scope: availability (A1.1-A1.3), processing integrity (PI1.1-PI1.5), confidentiality (C1.1-C1.2), and privacy (P1 through P8). The earlier chapters on [Availability](../information-systems/availability.md), [Enterprise and Accounting Information Systems](../information-systems/enterprise-and-accounting-information-systems.md), and [Confidentiality and Privacy](../confidentiality-privacy-and-incident-response/confidentiality-and-privacy.md) describe these.
 
-Materiality guides the service auditor's planning and evaluation of results, but it applies differently in SOC 1® and SOC 2® engagements.
+Each criterion comes with **points of focus** (revised in 2022): characteristics that are often relevant to the criterion, offered as guidance. They are not criteria themselves, and management need not address every point of focus for a criterion to be met.
 
-### SOC 1® Materiality
+:::tip[Exam Tip]
 
-| Aspect             | Application                                                                                                                                                  |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Basis**          | Primarily **quantitative**, based on the financial significance of transactions processed                                                                    |
-| **Focus**          | Whether control deviations could result in a material misstatement of user entities' financial statements                                                    |
-| **Considerations** | Volume and dollar value of transactions processed, nature of processing (e.g., initiating vs. recording), significance to user entities' financial reporting |
+**Security is always in scope.** Because the common criteria are the criteria for security and also underlie every other category, a SOC 2® report always covers security. Availability, processing integrity, confidentiality, and privacy are added when they are relevant to the service organization's commitments.
 
-### SOC 2® Materiality
-
-| Aspect             | Application                                                                                                               |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| **Basis**          | Primarily **qualitative**, based on the nature and significance of controls relative to the trust services criteria       |
-| **Focus**          | Whether a control deficiency or combination of deficiencies is significant enough to conclude that a criterion is not met |
-| **Considerations** | Nature of the criterion, sensitivity of data, potential impact on users, whether compensating controls exist              |
-
-:::note
-In SOC 2® engagements, materiality is more **qualitative** than quantitative because the criteria relate to operational and security matters rather than financial statement amounts. A single access control failure might be material even if it involves no dollar amount.
 :::
+
+---
+
+## Management's Assertions
+
+Service organization management prepares the system description and gives the service auditor a **written assertion** about it and about its controls. The assertion is a precondition of the engagement, and the service auditor's opinion addresses the same matters. The assertions differ by report type:
+
+| Report | Management Asserts That... |
+|---|---|
+| **SOC 1® Type 1** | (a) The description fairly presents the system as designed and implemented **as of a date**; (b) the controls related to the control objectives were suitably designed as of that date to achieve those objectives |
+| **SOC 1® Type 2** | (a) The description fairly presents the system as designed and implemented **throughout the period**; (b) the controls were suitably designed throughout the period; (c) the controls operated effectively throughout the period to achieve the control objectives |
+| **SOC 2® Type 1** | (a) The description presents the system as designed and implemented **as of a date** in accordance with the description criteria; (b) the controls were suitably designed as of that date to provide reasonable assurance that the service commitments and system requirements would be achieved based on the applicable Trust Services Criteria |
+| **SOC 2® Type 2** | (a) The description presents the system as designed and implemented **throughout the period** in accordance with the description criteria; (b) the controls were suitably designed throughout the period; (c) the controls operated effectively throughout the period to provide reasonable assurance that the service commitments and system requirements were achieved based on the applicable Trust Services Criteria |
+| **SOC 3®** | The controls within the system were effective **throughout the period** to provide reasonable assurance that the service commitments and system requirements were achieved based on the applicable Trust Services Criteria |
+
+Notice the pattern. A SOC 1® description must **fairly present** the system; a SOC 2® description must be **presented in accordance with the description criteria**. Type 1 assertions stop at design; Type 2 assertions add operating effectiveness. A SOC 3® report has no detailed description, so its assertion is a single statement about the effectiveness of controls over a period.
+
+---
+
+## Independence
+
+The service auditor must be **independent of the service organization**, under the AICPA Code of Professional Conduct. The service auditor does not need to be independent of each user entity. For subservice organizations, the answer depends on the reporting method: under the **inclusive method**, the subservice organization's controls are part of what the service auditor reports on, so the service auditor should be independent of it as well; under the **carve-out method**, its controls are excluded and independence from it is not required.
+
+The usual threats to independence apply:
+
+| Threat | Example in a SOC Engagement |
+|---|---|
+| **Self-review** | The firm helped design or implement the controls it is now examining |
+| **Management participation** | The firm operates or monitors controls for the service organization |
+| **Advocacy** | The firm promotes the service organization's services to prospective customers |
+| **Familiarity** | Long, close relationships between the engagement team and service organization management |
+
+**Example:** **Sloth Security** designed and set up **Polar Inc.**'s user access controls last year, and Polar Inc. now asks Sloth Security to perform its SOC 2® examination. Sloth Security would be examining its own work (a self-review threat), and designing an attest client's controls is a management responsibility. Sloth Security should not accept the examination.
+
+---
+
+## Materiality
+
+In a SOC engagement, materiality relates to the **subject matter**, meaning the system description and the controls, not to the financial statements of any user entity. The service auditor asks whether a misstatement or omission in the description, or a control deficiency or deviation, would matter to the decisions of the report's users. Because much of a SOC subject matter cannot be measured in dollars, **qualitative** factors carry great weight; the AICPA's guidance on materiality for subject matters that cannot be quantitatively measured is part of the exam References.
+
+| Aspect | SOC 1® | SOC 2® |
+|---|---|---|
+| **What is evaluated** | Fair presentation of the description and the design and operation of controls to achieve the control objectives | Presentation of the description in accordance with the description criteria and the design and operation of controls to meet the applicable Trust Services Criteria |
+| **Whose decisions** | User entities and user auditors assessing ICFR | User entities and other specified users relying on the system's security, availability, and so on |
+| **Qualitative factors** | The nature of the control objective, the importance of the transactions processed to user entities' financial reporting, whether a deviation was intentional | The nature of the criterion, the sensitivity of the data, the effect on users, whether a deviation was intentional, whether an omitted item (such as a system incident) would mislead |
+| **Quantitative factors** | Tolerable rates of deviation in tests of operating effectiveness; the volume and dollar value of transactions affected | Tolerable rates of deviation in tests of operating effectiveness |
+
+Qualitative judgment can make a small number decisive. A single instance of an administrator account left active after its owner left might be material in a SOC 2® engagement even though no dollar amount is involved.
 
 ---
 
 ## Risk Assessment
 
-### Service Organization's Risk Assessment Obligations
+**The service organization's risk assessment.** Management must identify the risks that threaten its objectives (the control objectives in SOC 1®, or the service commitments and system requirements in SOC 2®) and design controls to address them. In SOC 1®, management's identification of those risks is one of the criteria for deciding whether controls are suitably designed. In SOC 2®, the risk assessment is itself evaluated under the common criteria (CC3): specifying objectives, identifying and analyzing risks, considering fraud, and assessing significant changes.
 
-The service organization must perform its own risk assessment as part of its internal control framework. This includes:
+**The service auditor's risk assessment.** The service auditor obtains an understanding of the service organization's system and its environment, then assesses the risks that the description is not presented as required and that controls were not suitably designed or did not operate effectively. Those risks drive the nature, timing, and extent of testing. Among other things, the service auditor considers:
 
-- Identifying risks that threaten the achievement of control objectives (SOC 1®) or trust services criteria (SOC 2®)
-- Assessing the likelihood and impact of identified risks
-- Designing controls to mitigate identified risks to an acceptable level
-- Considering fraud risk in the risk assessment process
-- Periodically reassessing risks as the environment changes
-
-### Service Auditor's Risk Assessment Procedures
-
-The service auditor performs risk assessment to plan the nature, timing, and extent of testing:
-| Procedure | Purpose |
-|---|---|
-| Obtain understanding of the service organization's system | Identify components, boundaries, and control environment |
-| Evaluate inherent risk factors | Consider complexity of processing, volume of transactions, manual vs. automated controls |
-| Assess control risk | Determine the risk that controls are not suitably designed or not operating effectively |
-| Identify significant risks | Focus testing on areas with higher assessed risk |
-| Consider IT risks | Evaluate risks specific to information technology (e.g., cybersecurity threats, change management weaknesses) |
-| Consider fraud risk | Assess the risk of intentional misstatement in the system description or manipulation of controls |
+- How complex the system is and how much it relies on IT and automated controls.
+- Significant changes to the system or controls during the period.
+- Deviations and other problems reported in prior SOC reports.
+- The work of the service organization's internal audit function.
+- **Fraud risk**, such as the risk that management misstates the description or that personnel override or circumvent controls.
 
 ---
 
 ## Subservice Organizations
 
-### Definition
+A **subservice organization** is a vendor used by the service organization whose controls are necessary, together with the service organization's own controls, to achieve the control objectives (SOC 1®) or the service commitments and system requirements (SOC 2®). Not every vendor qualifies. A vendor is a subservice organization when:
 
-A **subservice organization** is an organization that provides services to the service organization that are part of the service organization's system and are likely to be relevant to user entities' controls. Not every vendor qualifies, only those whose services are part of the **information system** used to provide services to user entities.
+1. It performs services that are **part of the service organization's system** provided to user entities; and
+2. Its **controls are necessary**, in combination with the service organization's controls, for the objectives to be achieved.
 
-### Criteria for a Vendor to Be a Subservice Organization
+If the service organization's own controls over the vendor's work, such as reviewing every output the vendor produces, are enough to achieve the objectives by themselves, the vendor is not a subservice organization.
 
-A vendor is considered a subservice organization when:
-| Criterion | Description |
-|---|---|
-| **Part of the system** | The vendor's services are part of the service organization's information system |
-| **Relevant to user entities** | The services are likely to be relevant to user entities and their auditors |
-| **Controls required** | The vendor implements controls that are necessary to meet control objectives (SOC 1®) or trust services criteria (SOC 2®) |
-| **Interconnected operations** | The vendor's operations are interrelated with the service organization's operations in providing services to user entities |
-**Example:** **Bear Co.** provides payroll processing services to hundreds of small businesses. Bear Co. uses **Kingfisher Industries** for data center hosting; all payroll data is stored and processed in Kingfisher's facilities. Kingfisher is a subservice organization because its hosting services are part of Bear Co.'s system and its physical and environmental controls are relevant to user entities.
+**Example:** **Bear Co.** processes payroll for hundreds of small businesses. All of its payroll data is stored and processed on servers in **Kingfisher Industries**' data center, and Kingfisher's physical access and environmental controls are needed to protect that data. Kingfisher is a subservice organization. Bear Co.'s office cleaning company is not, because nothing it does is part of the payroll system.
 
-### Inclusive vs. Carve-Out Method
+### Inclusive and Carve-Out Methods
 
-| Method        | Description                                                                                                               | System Description                                                                                              | Testing                                                                                            |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **Inclusive** | Subservice organization's controls are **included** in the scope of the service organization's SOC report                 | Includes a description of the subservice organization's relevant controls                                       | Service auditor tests the subservice organization's controls                                       |
-| **Carve-Out** | Subservice organization's controls are **excluded** from the scope; only the service organization's controls are in scope | Describes the nature of services provided by the subservice organization but does **not** describe its controls | Service auditor does **not** test the subservice organization's controls; identifies CSOCs instead |
+Management chooses one of two ways to present each subservice organization:
 
-### Complementary Subservice Organization Controls (CSOCs)
+| Feature | Inclusive Method | Carve-Out Method |
+|---|---|---|
+| **Scope** | The subservice organization's relevant controls are **included** | The subservice organization's controls are **excluded** |
+| **System description** | Describes the subservice organization's relevant services, system components, and controls | Describes the nature of the services it provides and lists the **complementary subservice organization controls (CSOCs)** the service organization assumes it performs |
+| **Testing** | The service auditor tests the subservice organization's controls | The service auditor does not test them, but does test the service organization's own controls for monitoring the subservice organization |
+| **Assertions** | Subservice organization management also provides a written assertion | Only service organization management asserts |
+| **Independence** | The service auditor should be independent of the subservice organization | Not required |
 
-When the **carve-out method** is used, the service organization identifies **CSOCs**, which are controls that the subservice organization is expected to implement for the overall control environment to be effective. CSOCs are disclosed in the system description but are not tested by the service auditor.
-**Example:** If **Bear Co.** carves out **Kingfisher Industries**, the system description would state that Kingfisher is expected to implement physical access controls, environmental controls, and backup procedures (CSOCs). The service auditor would not test those controls. Instead, user entities would need to obtain their own assurance (e.g., Kingfisher's separate SOC report).
+The inclusive method gives users one report that covers the whole chain, but it requires the subservice organization to cooperate: to allow testing, to provide an assertion, and to accept the service auditor's access. Large providers such as major cloud hosts rarely agree, so the **carve-out method** is far more common in practice. Users of a carve-out report then obtain assurance about the subservice organization separately, usually from its own SOC report.
 
-```mermaid
-graph TD
-    A["Service Organization<br/>(Bear Co.)"] --> B{"Subservice Org Method?"}
-    B -->|Inclusive| C["Subservice Org controls<br/>INCLUDED in SOC report"]
-    B -->|Carve-Out| D["Subservice Org controls<br/>EXCLUDED from SOC report"]
-    D --> E["CSOCs identified<br/>(not tested)"]
-    C --> F["Service auditor tests<br/>subservice org controls"]
-```
+**Example:** If **Bear Co.** carves out **Kingfisher Industries**, Bear Co.'s description identifies Kingfisher, describes the hosting services it provides, and lists the CSOCs it assumes Kingfisher performs, such as restricting physical access to the data center and protecting servers against fire and power loss. The service auditor does not test those controls. It does test Bear Co.'s own controls over Kingfisher, such as Bear Co.'s annual review of Kingfisher's SOC 2® report.
 
 :::tip[Exam Tip]
-Remember: **Inclusive = In scope** (service auditor tests subservice controls). **Carve-out = Cut out** (subservice controls are NOT tested; CSOCs are identified instead). The inclusive method requires the service auditor to be independent of the subservice organization.
+
+**Inclusive = included** in scope and tested. **Carve-out = cut out**: the subservice organization's controls are excluded and listed as CSOCs. Only the inclusive method requires the service auditor to be independent of the subservice organization.
+
 :::
 
 ---
 
 ## Service Commitments and System Requirements
 
-### Definitions
+In a SOC 2® engagement, the service organization's objectives are expressed as its **service commitments and system requirements**:
 
-| Term                    | Definition                                                                                                                                                                         |
-| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Service Commitments** | Declarations made by service organization management to user entities about the system, typically documented in service level agreements (SLAs), contracts, or published policies |
-| **System Requirements** | Specifications that the system must meet to support the service commitments, including security policies, operational procedures, and controls that management has established    |
+- **Service commitments** are declarations service organization management makes to user entities and others about the system: in contracts, service level agreements, or published statements such as a security practices statement. A promise of 99.95% uptime is a service commitment.
+- **System requirements** are specifications about how the system should function to meet those commitments, to meet commitments to vendors and business partners, to comply with laws and regulations, and to achieve the organization's other relevant objectives. They are set in policies, procedures, and system designs.
 
-### Relationship to Trust Services Criteria
+The Trust Services Criteria refer throughout to the "entity's objectives." In a SOC 2® engagement, those objectives are achieving the service commitments and system requirements, so every criterion is evaluated against them.
 
-Service commitments and system requirements represent the **entity's objectives** as referenced in the Trust Services Criteria. The TSC evaluate whether the service organization's controls are adequate to meet its stated commitments and requirements.
-| TSC Concept | SOC 2® Equivalent |
+**Example:** **Polar Inc.** runs a cloud accounting platform and promises customers 99.95% uptime (a service commitment). To meet it, Polar Inc. requires redundant data centers, automatic failover, and round-the-clock monitoring (system requirements). A SOC 2® engagement covering availability evaluates whether Polar Inc.'s controls provide reasonable assurance of achieving that commitment, using criteria A1.1-A1.3 and the common criteria.
+
+---
+
+## The System Description
+
+The **system description** tells users what the system is and how it works, and it defines the scope of the engagement. Service organization **management** prepares it; the service auditor evaluates it. The criteria it must meet differ between SOC 1® and SOC 2®.
+
+**SOC 1®.** Under AT-C 320, a description fairly presents the system if it describes, as relevant:
+
+- The types of services provided, and the classes of transactions processed.
+- The procedures, automated and manual, by which transactions are initiated, authorized, recorded, processed, corrected, and transferred to reports for user entities.
+- The related accounting records and supporting information.
+- How the system captures and addresses significant events and conditions other than transactions.
+- The process used to prepare reports for user entities.
+- The specified control objectives and the controls designed to achieve them, including complementary user entity controls.
+- Services performed by subservice organizations and the method used to present them.
+- Other relevant aspects of the control environment, risk assessment, information and communication, control activities, and monitoring.
+- For a Type 2 report, relevant changes to the system during the period.
+
+The description must also not omit or distort information relevant to user entities' ICFR.
+
+**SOC 2®.** The 2018 Description Criteria (DC 200) require the description to disclose:
+
+| Criterion | Required Disclosure |
 |---|---|
-| Entity's objectives related to security | Service commitments and system requirements related to security |
-| Entity's objectives related to availability | Service commitments and system requirements related to availability (e.g., 99.9% uptime SLA) |
-| Entity's objectives related to processing integrity | Service commitments and system requirements related to accuracy and completeness of processing |
-| Entity's objectives related to confidentiality | Service commitments and system requirements related to protection of confidential data |
-| Entity's objectives related to privacy | Service commitments and system requirements related to personal information handling |
-**Example:** **Polar Inc.** operates a cloud accounting platform and commits to 99.95% uptime in its SLA (service commitment). To support this commitment, Polar Inc. has system requirements including redundant data centers, automated failover, and 24/7 monitoring. The SOC 2® engagement evaluates whether Polar Inc.'s controls are sufficient to meet these commitments and requirements relative to the availability criterion (A1).
+| **DC1** | The types of services provided |
+| **DC2** | The principal service commitments and system requirements |
+| **DC3** | The components of the system used to provide the services: infrastructure, software, people, procedures, and data |
+| **DC4** | Any system incidents that resulted from controls that were not suitably designed or operating effectively, or that otherwise caused a significant failure to achieve the commitments and requirements, with their nature, timing, and extent |
+| **DC5** | The applicable Trust Services Criteria and the related controls |
+| **DC6** | The complementary user entity controls (CUECs), if any |
+| **DC7** | The subservice organizations used and, depending on the method, either their relevant controls (inclusive) or the criteria they are relied on to meet and the CSOCs (carve-out) |
+| **DC8** | Any applicable Trust Services criterion that is not relevant to the system, and why |
+| **DC9** | For a Type 2 report, significant changes to the system and controls during the period |
 
----
+The blueprint asks you to **prepare a comparison** of management's description to these criteria. In practice, that means going criterion by criterion: confirming that each required element is included, that what the description says matches the system as actually implemented (through inquiry, observation, inspection, and walkthroughs), and that nothing is left out or overstated in a way that would mislead users. A description that omits a significant system incident, for example, does not meet DC4.
 
-## Subsequently Discovered Facts
+### Understanding the System and Its Boundaries
 
-**Subsequently discovered facts** are facts that become known to the service auditor **after the report has been issued** that, had they been known earlier, might have caused the auditor to revise the report.
+In a SOC 2® engagement, the service auditor must understand the system, including its **boundaries** as management defines them. The system is made up of five components:
 
-### Impact on the SOC Engagement
+| Component | Description | Examples |
+|---|---|---|
+| **Infrastructure** | Physical and virtual resources | Servers, networks, data centers, cloud environments |
+| **Software** | Application programs and system software | The application, operating systems, middleware, utilities |
+| **People** | Personnel involved in operating and using the system | Developers, operators, security staff, support staff |
+| **Procedures** | Automated and manual procedures | Change management, incident response, access provisioning |
+| **Data** | Information used and supported by the system | Transaction data, files, databases, logs |
 
-| Consideration                                 | Action Required                                                                                       |
-| --------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| **Facts existed during the reporting period** | Service auditor evaluates whether the report needs to be revised or supplemented                      |
-| **Report already distributed**                | Service auditor discusses with management the need to disclose the facts to known users of the report |
-| **Management refuses to cooperate**           | Service auditor considers notifying known users that the report should no longer be relied upon       |
-| **Significance of the facts**                 | Auditor evaluates whether the facts are significant enough to affect user entities' decisions         |
-
-### Service Auditor Responsibilities
-
-1. Discuss the matter with service organization management
-2. Determine whether the report would have been affected had the facts been known
-3. If significant, request that management notify known report users
-4. Consider the effect on the auditor's report and whether revision is necessary
-5. If management does not take appropriate action, consider legal counsel and notification obligations
-
----
-
-## System Description
-
-### Purpose
-
-The system description provides report users with information about the service organization's system that is relevant to understanding the scope and boundaries of the engagement. It is prepared by **management** of the service organization and is a key component of SOC 1® and SOC 2® reports.
-
-### Common Sections
-
-| Section                                       | SOC 1® | SOC 2® | Content                                                                    |
-| --------------------------------------------- | ------ | ------ | -------------------------------------------------------------------------- |
-| Nature of services provided                   | Yes    | Yes    | Types of services, principal service commitments                           |
-| Components of the system                      | No     | Yes    | Infrastructure, software, people, procedures, data                         |
-| System boundaries                             | Yes    | Yes    | Clear delineation of what is included in scope                             |
-| Control objectives / Criteria                 | Yes    | Yes    | SOC 1®: control objectives; SOC 2®: applicable TSC categories              |
-| Controls                                      | Yes    | Yes    | Specific controls in place to meet objectives/criteria                     |
-| Complementary user entity controls (CUECs)    | Yes    | Yes    | Controls user entities are expected to implement                           |
-| Complementary subservice org controls (CSOCs) | Yes    | Yes    | Controls subservice organizations are expected to implement (carve-out)    |
-| Subservice organizations                      | Yes    | Yes    | Identification and description of subservice organizations and method used |
-| Relevant aspects of the control environment   | Yes    | No     | Organizational structure, governance, HR policies                          |
-| Service commitments and system requirements   | No     | Yes    | Commitments to user entities and requirements for the system               |
-| Incidents                                     | No     | Yes    | Disclosure of significant incidents during the period                      |
+The boundaries set what is in scope. Services described in the description, the infrastructure and software that deliver them, the service organization's controls, and (under the inclusive method) a subservice organization's controls are in. User entities' own environments, CUECs, and carved-out subservice organizations' controls are out. The service auditor evaluates whether management has drawn the boundaries clearly and appropriately. A boundary that leaves out a component actually used to deliver the service, such as the system through which customers report security incidents, makes the description misleading.
 
 ---
 
 ## Complementary User Entity Controls (CUECs)
 
-### Definition and Purpose
+**Complementary user entity controls (CUECs)** are controls that management, in designing the service organization's system, assumed **user entities** would implement, and that are necessary, along with the service organization's controls, to achieve the objectives. The service organization lists them in its system description so users know what is expected of them.
 
-**Complementary User Entity Controls (CUECs)** are controls that the service organization's system is designed to assume will be implemented by **user entities**. The service organization identifies these controls in its system description because the overall control environment cannot achieve its objectives without them.
+| Characteristic | Description |
+|---|---|
+| **Identified by management** | Service organization management decides which user entity controls its system depends on |
+| **Disclosed in the description** | CUECs are listed so user entities and user auditors can see them |
+| **Not tested by the service auditor** | They operate at the user entities, outside the scope of the examination |
+| **The user entity's responsibility** | Each user entity must actually perform them |
+| **Relevant to the user auditor** | A user auditor relying on the SOC report must consider whether the client performs the CUECs |
 
-### Key Characteristics
+Typical CUECs include managing the user entity's own user accounts in the service organization's application, notifying the service organization promptly when an authorized user leaves, reviewing and reconciling output reports, and keeping the devices used to reach the system secure.
 
-| Characteristic                               | Description                                                                                    |
-| -------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| **Identified by management**                 | Service organization management determines which controls must be implemented by user entities |
-| **Disclosed in system description**          | CUECs are listed in the system description so user entities and their auditors are aware       |
-| **Not tested by service auditor**            | The service auditor does not test CUECs; they are outside the service organization's control  |
-| **User entity responsibility**               | Each user entity must evaluate whether it has implemented the identified CUECs                 |
-| **Affects user entity auditor's assessment** | The user entity auditor considers whether CUECs are in place when assessing control risk       |
+**Example:** **Illini Entertainment** uses **Polar Inc.**'s cloud accounting platform. Polar Inc.'s SOC 2® report lists a CUEC: user entities are responsible for removing access for their own employees who leave. If Illini Entertainment never removes departed employees' accounts, the resulting gap is Illini Entertainment's, not Polar Inc.'s, and Polar Inc.'s report does not cover it. The [Reporting on SOC Engagements](./reporting-on-soc-engagements.md) chapter describes how CUECs appear in the report.
 
-### Common Examples
+---
 
-| CUEC Category             | Example                                                                                     |
-| ------------------------- | ------------------------------------------------------------------------------------------- |
-| **Access management**     | User entities are responsible for managing their own user accounts and passwords            |
-| **Segregation of duties** | User entities should establish appropriate segregation of duties for approving transactions |
-| **Reconciliation**        | User entities should reconcile output reports to source documents                           |
-| **Timely notification**   | User entities should notify the service organization promptly when employees are terminated |
-| **Physical security**     | User entities are responsible for physical security of devices used to access the system    |
+## Reporting Mechanisms for Failures, Incidents, Concerns, and Complaints
 
-> **Example:** **Illini Entertainment** uses **Bear Co.**'s cloud platform for customer data management. Bear Co.'s SOC 2® report lists a CUEC stating that user entities are responsible for terminating user access promptly when an employee leaves the organization. If Illini Entertainment fails to disable departed employees' access, a control gap exists, but it is Illini Entertainment's responsibility, not Bear Co.'s.
+The common criteria on communication (CC2.2 for internal communication and CC2.3 for external communication) expect the service organization to tell its personnel and its external users how to report **system failures, incidents, concerns, and other complaints**. The blueprint asks you to perform procedures to understand how it does so: inspecting policies, training materials, customer contracts, and the service organization's website; asking personnel and examining how reports are received and tracked; and tracing a sample of reported issues to see that they reached the right people and were resolved.
+
+| Mechanism | Description |
+|---|---|
+| **Service desk or support portal** | A central place for users and staff to report problems |
+| **Security incident reporting channel** | A dedicated address, form, or line for suspected security incidents |
+| **Ethics or whistleblower hotline** | A channel, often anonymous, for reporting misconduct |
+| **Contractual notification procedures** | Procedures in customer agreements for reporting failures in either direction |
+| **Published policies and notices** | Documents that tell personnel and customers where and how to report |
+
+---
 
 ## Management's Written Representations
 
-### Requirements
+The service auditor must obtain **written representations** from service organization management in every SOC 1® and SOC 2® engagement, usually in a representation letter. They are dated as of the **date of the service auditor's report**. Typical representations confirm that management:
 
-The service auditor is required to obtain **written representations** from service organization management in every SOC 1® and SOC 2® engagement. These representations are typically obtained in a management representation letter dated as of the service auditor's report date.
+- Reaffirms its assertion about the description and the controls.
+- Has provided all relevant information and access agreed to.
+- Has disclosed any known deviations, design deficiencies, instances of fraud or noncompliance, and (in SOC 2®) system incidents that could affect the description or the controls.
+- Has disclosed any events after the period, up to the report date, that could significantly affect its assertion.
+- Has disclosed what it knows about subservice organizations relevant to the engagement.
 
-### Content of Representations
+If management refuses to provide requested representations, the service auditor discusses the matter with management, reconsiders management's integrity and the reliability of other evidence, and takes appropriate action, which may include **disclaiming an opinion or withdrawing** from the engagement.
 
-| Representation Topic                      | Description                                                                                                                           |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **System description**                    | Management confirms the system description is fairly presented (SOC 1®) or presented in accordance with description criteria (SOC 2®) |
-| **Control design**                        | Controls are suitably designed to meet control objectives (SOC 1®) or trust services criteria (SOC 2®)                                |
-| **Operating effectiveness** (Type 2 only) | Controls operated effectively throughout the specified period                                                                         |
-| **Completeness**                          | All relevant information has been provided to the service auditor                                                                     |
-| **Known deficiencies**                    | Management has disclosed all known control deficiencies                                                                               |
-| **Subsequent events**                     | Management has disclosed all subsequent events that could affect the system description or controls                                   |
-| **Fraud and noncompliance**               | Management has disclosed all known instances of fraud or noncompliance                                                                |
-| **Subservice organizations**              | Disclosures about subservice organizations are complete and accurate                                                                  |
-| **Incidents** (SOC 2®)                    | Management has disclosed any incidents during the period that could affect the trust services criteria                                |
+---
 
-### Timing
+## Subsequent Events and Subsequently Discovered Facts
 
-Written representations must be dated as of the **date of the service auditor's report**. If management refuses to provide written representations, the service auditor must consider the effect on the engagement, which may result in a qualified opinion, adverse opinion, or withdrawal from the engagement.
+Two time windows follow the end of the period (or the as-of date of a Type 1 report), and the blueprint tests both.
 
-## System Boundaries
+**Subsequent events** occur between the end of the period and the date of the service auditor's report. The service auditor asks management whether it knows of any events in that window that could significantly affect its assertion, and performs other procedures such as reading internal audit and regulatory reports and minutes. Subsequent events fall into two groups:
 
-### Understanding the System
-
-In a SOC 2® engagement, the service auditor must obtain an understanding of the system, including the **boundaries** as defined by service organization management. The system is composed of five components:
-| Component | Description | Example |
+| Kind | What It Reveals | Effect |
 |---|---|---|
-| **Infrastructure** | Physical and virtual resources (servers, networks, facilities) | Cloud servers, firewalls, data centers |
-| **Software** | Programs and operating software | Application software, operating systems, middleware |
-| **People** | Personnel involved in system operations | IT staff, security team, customer support |
-| **Procedures** | Manual and automated procedures | Incident response procedures, change management workflows |
-| **Data** | Information used and processed by the system | Transaction data, configuration data, log files |
+| **Evidence about conditions during the period** | Something that already existed during the period comes to light, such as a deviation or a security breach | It may require changes to the description or affect the opinion on design or operating effectiveness |
+| **Conditions arising after the period** | Something new happens after the period ends, such as a major system replacement | It does not affect the opinion on the period, but if it is significant enough that users would be misled without knowing it, it should be disclosed; if management does not disclose it in the description, the service auditor discloses it in the report |
 
-### Identifying Boundaries
+**Subsequently discovered facts** become known to the service auditor **after the report date**: facts that, had they been known at that date, might have caused the auditor to revise the report. The service auditor has no duty to look for them, but if they come to light, the auditor discusses them with management, determines whether the report would have been affected, and, if so, works with management to inform users who may rely on the report. If management will not cooperate, the service auditor takes action (often with legal advice) to keep users from continuing to rely on the report.
 
-The service auditor evaluates whether the boundaries defined by management are appropriate and clearly delineated. Boundaries define what is **in scope** and what is **out of scope** for the examination.
-| In Scope | Out of Scope |
-|---|---|
-| Services described in the system description | Services not covered by the engagement |
-| Infrastructure owned/operated by the service org | User entity environments |
-| Subservice org controls (inclusive method only) | Subservice org controls (carve-out method) |
-| Controls implemented by the service org | CUECs (implemented by user entities) |
-
----
-
-## Reporting Mechanisms for Failures and Incidents
-
-The service auditor must perform procedures to understand how the service organization provides its personnel and external users information about how to report:
-
-- **System failures** (e.g., outages, performance degradation)
-- **Security incidents** (e.g., unauthorized access, data breaches)
-- **Concerns and complaints** (e.g., privacy concerns, processing errors)
-- **Other matters** affecting the system
-
-### Typical Reporting Mechanisms
-
-| Mechanism                               | Description                                                                      |
-| --------------------------------------- | -------------------------------------------------------------------------------- |
-| **Help desk / Service desk**            | Centralized point of contact for reporting issues                                |
-| **Incident reporting portal**           | Web-based system for logging security incidents                                  |
-| **Whistleblower hotline**               | Anonymous reporting mechanism for ethics and compliance concerns                 |
-| **Contractual notification procedures** | SLA-defined processes for escalating failures to user entities                   |
-| **Automated monitoring alerts**         | Systems that automatically detect and report anomalies                           |
-| **Published policies**                  | Security policies and acceptable use policies that define reporting expectations |
-
----
-
-## Comparing System Description to Criteria
-
-### SOC 1®: Comparison to Suitable Criteria
-
-The service auditor prepares a comparison of management's system description to **suitable criteria** established in AT-C 320. The auditor evaluates whether:
-
-- The description fairly presents the service organization's system
-- The description includes all relevant control objectives
-- The description addresses the nature of services, controls, and complementary controls
-- The description is not misleading (does not omit or overstate material information)
-
-### SOC 2®: Comparison to Description Criteria
-
-The service auditor compares management's system description to the **description criteria** established by the AICPA. The description criteria specify what a SOC 2® system description should include:
-| Description Criterion | Evaluates Whether Description Addresses... |
-|---|---|
-| DC1 | The types of services provided |
-| DC2 | The components of the system (infrastructure, software, people, procedures, data) |
-| DC3 | The boundaries of the system |
-| DC4 | How the system captures and addresses significant events and conditions |
-| DC5 | The process for preparing and delivering reports |
-| DC6 | Identified control objectives and controls |
-| DC7 | Complementary user entity controls (CUECs) |
-| DC8 | Complementary subservice organization controls (CSOCs) and the method used (inclusive/carve-out) |
-| DC9 | Relevant specific criteria disclosures (availability, processing integrity, confidentiality, privacy) |
-
----
-
-## Subsequent Events
-
-### Definition
-
-**Subsequent events** are events that occur between the end of the reporting period (or as-of date) and the date of the service auditor's report. The service auditor must evaluate subsequent events and determine their effect on the SOC report.
-
-### Types of Subsequent Events
-
-| Type                        | Description                                                                                              | Effect on Report                                                                           |
-| --------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| **Type I (Adjusting)**      | Events that provide additional evidence about conditions that existed at the end of the reporting period | May require modification of the system description, auditor's opinion, or both             |
-| **Type II (Non-adjusting)** | Events that are indicative of conditions arising after the reporting period                              | May require disclosure in the report but do not affect the opinion on the reporting period |
-
-### Service Auditor Procedures
-
-| Procedure                                      | Purpose                                                                      |
-| ---------------------------------------------- | ---------------------------------------------------------------------------- |
-| Inquire of management about subsequent events  | Identify events occurring after the period end                               |
-| Read board minutes and internal communications | Detect events that could affect the system or controls                       |
-| Review subsequent changes to the system        | Determine if any changes affect the reporting period conclusions             |
-| Evaluate the significance of identified events | Determine whether disclosure or modification is required                     |
-| Consider the effect on the opinion             | Decide if the event is a Type I (adjusting) or Type II (non-adjusting) event |
-
-**Example:** **Polar Inc.**'s SOC 2® report covers January 1 to December 31, 2024. On January 15, 2025 (before the report date of February 28, 2025), Polar Inc. discovers that a privileged user account was compromised during November 2024 but was not detected until January. This is a **Type I (adjusting) event** because it provides evidence of a condition that existed during the reporting period. The service auditor would evaluate whether this affects the opinion on the operating effectiveness of access controls.
-Conversely, if Polar Inc. migrated to a completely new data center on January 20, 2025, this would be a **Type II (non-adjusting) event** because it reflects a condition arising after the period and does not affect the assessment of controls during the reporting period but may warrant disclosure.
-:::warning
-The service auditor's responsibility for subsequent events extends from the end of the reporting period to the **date of the service auditor's report**. After the report date, the auditor has no obligation to perform additional procedures, unless subsequently discovered facts come to attention.
-:::
+**Example:** **Polar Inc.**'s SOC 2® Type 2 report covers calendar year 2025, and the report is dated February 27, 2026. On January 15, 2026, Polar Inc. discovers that a privileged account was compromised in November 2025. This **subsequent event provides evidence about a condition during the period**, so the service auditor evaluates its effect on the description (a system incident under DC4) and on the opinion on access controls. If Polar Inc. instead moved to a new data center on January 20, 2026, that would be a **condition arising after the period**: it does not affect the opinion on 2025, but it may need to be disclosed.
 
 ---
 
 ## Summary
 
-| Topic                            | Key Takeaway                                                                                                                                                       |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Trust Services Criteria          | Common Criteria (CC1-CC9) aligned with COSO; additional criteria for availability, processing integrity, confidentiality, and privacy; security is always in scope |
-| SOC 1®                           | ICFR focus, restricted use, user entity auditors are primary users, governed by AT-C 320                                                                           |
-| SOC 2®                           | TSC focus, restricted use, detailed system description and control testing, governed by AT-C 205                                                                   |
-| SOC 3®                           | Same criteria as SOC 2® but general use, no detailed description; suitable for public distribution                                                                |
-| Type 1 vs. Type 2                | Type 1 = point in time (design only); Type 2 = period of time (design + operating effectiveness)                                                                   |
-| Management Assertions            | Vary by report type; always include fair presentation of system description and suitability of control design                                                      |
-| Independence                     | Required from service org; required from subservice org only under inclusive method                                                                                |
-| Materiality                      | SOC 1® = quantitative/financial; SOC 2® = qualitative/controls-focused                                                                                             |
-| Subservice Organizations         | Inclusive = controls in scope and tested; Carve-out = controls excluded, CSOCs identified                                                                          |
-| Service Commitments/Requirements | Represent entity's objectives in TSC; documented in SLAs and policies                                                                                              |
-| Subsequently Discovered Facts    | Facts learned after report issuance; auditor evaluates need for revision or user notification                                                                      |
-| System Description               | Prepared by management; includes services, components, boundaries, controls, CUECs, and CSOCs                                                                      |
-| CUECs                            | Controls user entities must implement; identified by service org; not tested by service auditor                                                                    |
-| Management Representations       | Written representations required; dated as of report date; refusal may lead to modified opinion                                                                    |
-| System Boundaries                | Five components (infrastructure, software, people, procedures, data); defined by management                                                                        |
-| Subsequent Events                | Type I (adjusting) affects opinion; Type II (non-adjusting) may require disclosure only                                                                            |
+| Topic | Key Takeaway |
+|---|---|
+| Report types | SOC 1® (ICFR, restricted), SOC 2® (Trust Services categories, restricted), SOC 3® (general use), SOC for Cybersecurity (entity-wide program, general use) |
+| Type 1 vs. Type 2 | Type 1 is as of a date and covers design; Type 2 covers a period and adds operating effectiveness |
+| Trust Services Criteria | Common criteria CC1-CC5 (COSO's 17 principles) and CC6-CC9 (supplemental), plus additional criteria for availability, processing integrity, confidentiality, and privacy; security always included |
+| Assertions | SOC 1® descriptions "fairly present"; SOC 2® descriptions are "presented in accordance with the description criteria"; Type 2 adds operating effectiveness |
+| Independence | Required from the service organization, and from a subservice organization only under the inclusive method |
+| Materiality | Relates to the description and controls, not to user entities' financial statements; heavily qualitative |
+| Subservice organizations | Inclusive includes and tests their controls; carve-out excludes them and lists CSOCs |
+| Service commitments and system requirements | The "entity's objectives" against which SOC 2® controls are evaluated |
+| System description | SOC 1® elements under AT-C 320; SOC 2® under DC1-DC9; five system components define the boundaries |
+| CUECs | Assumed controls at user entities; disclosed, not tested |
+| Representations | Written, dated as of the report date; refusal can lead to a disclaimer or withdrawal |
+| Events after the period | Subsequent events (period end to report date) vs. subsequently discovered facts (after the report date) |
 
 ---
 
 ## Practice Questions
 
-1. **Bear Co.** is a payroll processing service organization undergoing a SOC 2® Type 2 examination for the period January 1 to December 31, 2024. Bear Co. uses **Kingfisher Industries** for data center hosting and applies the carve-out method. During the engagement, the service auditor notes that Kingfisher's physical access controls are essential for the security criterion to be met. How should this situation be addressed in the SOC 2® report, and what are the implications for user entities?
-2. **Polar Inc.** provides cloud-based accounting services and is preparing for its first SOC 2® engagement. The engagement partner asks Polar Inc.'s management to define the system boundaries. Management excludes the customer support ticketing system from scope, arguing it does not affect security. However, the ticketing system is the primary mechanism through which users report security incidents and system failures. Should the service auditor accept management's boundary definition? Explain the significance of reporting mechanisms in a SOC 2® engagement.
-3. **Bear Co.** completed its SOC 1® Type 2 report covering April 1 to September 30, 2024, and the report was issued on November 15, 2024. On December 5, 2024, the service auditor discovers that a key reconciliation control was not actually operating from July through September due to a staffing shortage; the evidence previously examined had been fabricated by a departing employee. Classify this as either a subsequently discovered fact or a subsequent event, and explain what steps the service auditor should take.
-   :::tip[Answers]
-4. Because Bear Co. uses the **carve-out method**, Kingfisher Industries' controls are **excluded** from the scope of the SOC 2® examination. The service auditor does not test Kingfisher's physical access controls. Instead, the system description must: (a) identify Kingfisher as a subservice organization, (b) describe the nature of services Kingfisher provides, (c) state that the carve-out method is used, and (d) identify **Complementary Subservice Organization Controls (CSOCs)**, specifically that Kingfisher is expected to implement physical access controls, environmental controls, and other relevant controls. The implication for user entities is that they cannot rely solely on Bear Co.'s SOC 2® report for assurance over physical security. User entities (or their auditors) must separately obtain assurance that Kingfisher's controls are effective, typically by obtaining Kingfisher's own SOC report.
-5. The service auditor should **not** simply accept management's boundary definition without evaluating its appropriateness. Under the Trust Services Criteria, the service auditor must perform procedures to understand how the service organization provides personnel and external users information on how to report failures, incidents, concerns, and complaints (CC2 and CC7 criteria). If the customer support ticketing system is the **primary reporting mechanism** for security incidents and system failures, excluding it from scope could mean the system description does not fairly represent the system or that critical controls related to incident detection and communication are not evaluated. The service auditor should discuss with management whether the boundaries should be expanded to include the ticketing system or, at minimum, ensure that controls related to reporting mechanisms within the defined boundaries are adequately described and tested.
-6. This is a **subsequently discovered fact**, not a subsequent event. A subsequent event occurs between the period end and the report date. This situation involves facts that became known to the auditor **after the report was issued** (report issued November 15; facts discovered December 5). The fabricated evidence means the original conclusion about operating effectiveness was incorrect. The service auditor should: (1) discuss the matter with Bear Co.'s management immediately; (2) determine that the report would have been different had the facts been known (specifically, the reconciliation control was not operating effectively for three of the six months, which would likely result in a qualified or adverse opinion); (3) request that management notify all known users of the report that it should no longer be relied upon; (4) if management refuses to cooperate, the service auditor should consider notifying known users directly and seek legal counsel; and (5) consider whether a revised report should be issued reflecting the correct facts.
-   :::
+1. **Bear Co.**, a payroll processor, is having a SOC 2® Type 2 examination for calendar year 2025. Its servers are hosted by **Kingfisher Industries**, and Bear Co. uses the carve-out method. The service auditor notes that Kingfisher's physical access controls are essential to meeting the security criteria. How should the report handle this, and what does it mean for Bear Co.'s customers?
+
+2. **Polar Inc.** is preparing for its first SOC 2® examination. Management wants to exclude its customer support ticketing system from the system boundaries because it "has nothing to do with security." That ticketing system is the main channel through which customers report security incidents and outages. Should the service auditor accept the boundary? Why do reporting mechanisms matter?
+
+3. **Bear Co.**'s SOC 1® Type 2 report for April 1 to September 30, 2025 was dated and issued on November 14, 2025. On December 5, 2025, the service auditor learns that a key reconciliation control did not operate from July through September; the evidence the auditor examined had been fabricated by an employee who has since left. Is this a subsequent event or a subsequently discovered fact, and what should the service auditor do?
+
+:::tip[Answers]
+
+1. Under the **carve-out method**, Kingfisher's controls are **excluded** and not tested. Bear Co.'s description must identify Kingfisher as a subservice organization, describe the hosting services it provides, and list the **CSOCs** Bear Co. assumes Kingfisher performs, such as restricting physical access to the data center. The service auditor tests Bear Co.'s own controls for monitoring Kingfisher. Bear Co.'s customers cannot rely on Bear Co.'s report for assurance over Kingfisher's physical security; they need separate assurance, usually from Kingfisher's own SOC report.
+
+2. **No**, not without evaluating it. The boundaries must include the components actually used to provide the service and meet the commitments. The common criteria on communication (CC2.2 and CC2.3) expect the service organization to tell its personnel and external users how to report failures, incidents, concerns, and complaints, and the incident response criteria (CC7) depend on those reports reaching the right people. Leaving out the main reporting channel would leave those controls unevaluated and would make the description misleading. The service auditor should discuss expanding the boundary with management, and if management refuses, consider the effect on the description and the report.
+
+3. A **subsequently discovered fact**. The facts became known on December 5, after the November 14 report date, and they existed at that date. The service auditor should discuss the matter with Bear Co.'s management promptly and determine whether the report would have been different had the facts been known. Here it would: the control failed for half the period, which would likely have led to a modified opinion. The service auditor should then ask management to inform users who are relying on the report, and consider whether to issue a revised report. If management refuses, the service auditor should take its own steps, usually with legal advice, to prevent further reliance on the report.
+
+:::

@@ -1,210 +1,192 @@
 # Incident Response
 
-When a cybersecurity breach occurs, an organization's ability to respond quickly and effectively determines the extent of damage, legal liability, and reputational harm. Incident response is the structured approach to detecting, containing, and recovering from security incidents, and it is a critical area for CPAs performing IT audit, advisory, and SOC engagements. Understanding how organizations prepare for and respond to incidents allows CPAs to evaluate whether response plans are adequate, whether the entity followed its own procedures, and whether appropriate risk transfer mechanisms (such as cyber insurance) are in place.
-This section covers **the distinction between security events and incidents**, **cyber insurance as a risk transfer strategy**, **incident response plan components (roles, responsibilities, methods, steps, and timelines)**, **the phases of incident response**, and **procedures to test whether an entity responded to incidents in accordance with its plan**.
-:::info
-The ISC exam tests incident response at the Remembering and Understanding level (recall differences between events and incidents, explain cyber insurance, summarize IR plan contents) and at the Application level (perform procedures to test whether the entity responded to incidents in accordance with its plan).
-:::
+Sooner or later, every organization has a security incident. What separates a contained problem from a disaster is usually the response: how quickly the incident is recognized, who takes charge, what is shut down, who is told, and how fast normal operations resume. **Incident response** is the organized approach to detecting, containing, and recovering from security incidents, and an **incident response plan** is the document that sets that approach out in advance.
+
+This chapter first distinguishes security events from incidents, then covers cyber insurance as a way to mitigate an incident's financial impact. It describes what an incident response plan contains, including the notification deadlines it must track, and the phases of a response. It closes with the procedures a CPA performs to test whether an entity actually followed its plan, which the blueprint tests at the Application level.
 
 ---
 
-## Security Events vs. Security Incidents
+## Security Events and Security Incidents
 
-Not every security-related occurrence warrants a full response. Organizations must distinguish between **events** (routine occurrences) and **incidents** (occurrences that actually compromise or threaten to compromise the confidentiality, integrity, or availability of information).
+Security tools record millions of occurrences, and nearly all of them are harmless. The first job is to separate the few that matter.
 
-### Definitions
+| Term | Definition | Examples |
+|---|---|---|
+| **Security event** | Any observable occurrence in a system or network that may be relevant to security | A user logging in, a firewall blocking a port scan, antivirus flagging a file, a single failed login |
+| **Security incident** | An event, or series of events, that actually or imminently jeopardizes the confidentiality, integrity, or availability of information or systems, or violates security policy | Ransomware encrypting servers, an outsider logged in to a financial system, customer data copied out of the network |
 
-| Term                  | Definition                                                                                      | Examples                                                                                                                 |
-| --------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| **Security event**    | Any observable occurrence in an information system or network                                   | A user logging in, a firewall blocking a port scan, an antivirus flagging a file, a failed login attempt                 |
-| **Security incident** | An event or series of events that actually compromises or threatens to compromise the CIA triad | A confirmed data breach, successful ransomware deployment, unauthorized access to financial records, exfiltration of PII |
+Every incident begins as one or more events, but few events become incidents. A firewall blocking a port scan is an event: the control worked and nothing was compromised. Malware that runs on a laptop and begins contacting an outside server is an incident.
 
-:::caution
-Not every event is an incident, but every incident begins as an event. The key distinction is whether the occurrence **actually compromises or threatens** the organization's information assets. A single failed login attempt is an event; 500 failed login attempts against an executive's account followed by a successful login from an unknown IP address is an incident.
-:::
+Organizations decide whether to escalate an event using defined criteria: its actual or likely **impact** on confidentiality, integrity, or availability; its **scope** (how many systems, users, or records); the **sensitivity** of the data involved; whether it could trigger **legal notification** duties; and its **business impact**. Incidents are then given a severity level that sets the speed of the response. A typical scheme:
 
-### Classification Criteria
+| Level | Description | Example | Response |
+|---|---|---|---|
+| **Critical** | Confirmed compromise of sensitive data or systems with major business impact | Ransomware encrypts production databases | Full response team activated immediately |
+| **High** | Likely compromise or active threat that could cause major harm | An attacker controls a privileged account | Response team activated within an hour |
+| **Medium** | Suspicious activity needing investigation, no confirmed compromise | Unusual outbound data transfers | Investigated within hours |
+| **Low** | Minor events handled by routine operations | Malware caught and quarantined by antivirus | Logged and monitored |
 
-Organizations use defined criteria to classify events and determine whether escalation to incident status is warranted:
-| Criterion | Description |
-|---|---|
-| **Impact on CIA** | Does the event compromise confidentiality, integrity, or availability of systems or data? |
-| **Scope** | How many systems, users, or data records are affected? |
-| **Data sensitivity** | Does the event involve PII, PHI, financial data, or trade secrets? |
-| **Regulatory implications** | Does the event trigger notification requirements under GDPR, HIPAA, or state breach laws? |
-| **Business impact** | Does the event disrupt operations, revenue generation, or customer service? |
+**Example:** **Bear Co.**'s security information and event management (SIEM) system collects about 10,000 events a day and uses correlation rules to find the few that matter. One morning it links a burst of failed logins on the CFO's account, a successful login from an unfamiliar country, and a large download from the finance file share. The combination is escalated automatically as a **high-severity incident**.
 
-### Severity Levels
-
-| Level        | Description                                                                        | Example                                                 | Response                          |
-| ------------ | ---------------------------------------------------------------------------------- | ------------------------------------------------------- | --------------------------------- |
-| **Critical** | Confirmed compromise of sensitive data or systems with significant business impact | Ransomware encrypts production database servers         | Immediate full IR team activation |
-| **High**     | Likely compromise or active threat with potential for significant damage           | Attacker gains access to a privileged account           | IR team activation within 1 hour  |
-| **Medium**   | Suspicious activity requiring investigation but no confirmed compromise            | Unusual outbound data transfer patterns detected        | Investigation within 4 hours      |
-| **Low**      | Minor events handled through routine security operations                           | Single failed login attempt, routine malware quarantine | Logged and monitored              |
-
-> **Example:** **Bear Co.**'s SIEM generates 10,000 security events per day. The security operations team uses automated correlation rules to filter these events. When the system detects 200 failed authentication attempts against the CFO's account from a foreign IP address followed by a successful login, it automatically escalates the event to a **high-severity incident** and notifies the incident response team.
+---
 
 ## Cyber Insurance
 
-**Cyber insurance** (also called cyber liability insurance) is a risk **transfer** mechanism that helps organizations offset the financial impact of security incidents and data breaches. It does not prevent incidents; it mitigates the financial consequences after an incident occurs.
+**Cyber insurance** pays for some of the financial consequences of security incidents and data breaches. It does not prevent incidents. As a risk response, it **transfers** part of the financial impact to the insurer, which mitigates the cost to the organization of an incident that does occur.
 
-### Coverage Categories
+| Coverage | What It Pays For |
+|---|---|
+| **First-party coverage** (the insured's own losses) | Forensic investigation, legal advice, notifying affected people, credit monitoring, restoring data, business interruption losses, crisis communications, and in some policies ransom payments where lawful |
+| **Third-party coverage** (claims by others) | Defending and settling lawsuits by customers and others, regulatory defense costs, regulatory fines where insurable, and payment card assessments |
 
-| Category                 | Type                                           | What It Covers                                                                                                                                                                                                     |
-| ------------------------ | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **First-party coverage** | Direct costs to the insured organization       | Forensic investigation, breach notification costs, credit monitoring for affected individuals, legal counsel, business interruption losses, data recovery, ransomware payments (where legal), crisis management/PR |
-| **Third-party coverage** | Claims made against the organization by others | Liability to affected customers, regulatory defense costs, regulatory fines and penalties (where insurable), payment card industry (PCI) fines, media liability                                                    |
+Policies commonly **exclude** acts of war (and, in many policies, certain state-backed attacks), incidents that began before the policy started, losses caused by failing to maintain security controls the policy requires, intentional acts by the insured, and failures of infrastructure such as power grids.
 
-### Common Policy Exclusions
+Insurance and incident response are tied together in several ways:
 
-Cyber insurance policies typically **do not** cover:
+- **Required controls.** Insurers often require specific controls, such as multi-factor authentication, endpoint protection, and offline backups, as a condition of coverage, and they ask about them at every renewal.
+- **Approved vendors.** Many policies require the insured to use the insurer's approved forensic firms, lawyers, and notification vendors.
+- **Prompt notice.** Policies require the insured to notify the insurer quickly; late notice can jeopardize coverage, so the response plan should include it.
+- **Limits.** Policies have overall limits and smaller sub-limits for particular costs, which may be far less than an actual incident costs.
 
-- Acts of war or nation-state attacks (war exclusion)
-- Incidents arising from known but unpatched vulnerabilities
-- Losses from failure to maintain minimum security standards
-- Prior known incidents or ongoing breaches before policy inception
-- Intentional or fraudulent acts by the insured
-- Infrastructure failures unrelated to cyber events
+**Example:** **Polar Inc.** carries a cyber policy with a \$5 million limit. After ransomware encrypts its accounting systems, the insurer pays for the forensic investigation (\$250,000), business interruption losses (\$800,000), and notification costs (\$150,000). It denies the data recovery claim, however, because Polar Inc. had not kept the offline backups the policy required. Insurance supplements a security program; it does not replace one.
 
-### Relationship to Incident Response
+---
 
-| Consideration                 | Description                                                                                                                    |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| **Pre-incident requirements** | Many policies require the insured to maintain specific controls (MFA, endpoint protection, backups) as a condition of coverage |
-| **Approved vendor panels**    | Insurers often require use of pre-approved forensics firms, legal counsel, and breach notification vendors                     |
-| **Notification timelines**    | Policies require prompt notification to the insurer; delays can void coverage                                                 |
-| **Coordination with IR plan** | The IR plan should reference the cyber insurance policy and include insurer notification in its communication protocols        |
-| **Coverage limits**           | Policies have aggregate limits and sub-limits per category; organizations must ensure limits align with risk exposure          |
+## The Incident Response Plan
 
-**Example:** **Polar Inc.** purchases a cyber insurance policy with \$5 million aggregate coverage. When a ransomware attack encrypts its accounting systems, the insurer covers forensic investigation (\$250,000), business interruption losses (\$800,000), and breach notification costs (\$150,000). However, the insurer denies the claim for data recovery because Polar Inc. failed to maintain the offline backup requirement specified in the policy. This illustrates that insurance is not a substitute for adequate controls.
-:::warning
-Cyber insurance is a **supplement** to, not a replacement for, an effective security program. Insurers increasingly require evidence of robust controls before issuing policies, and failure to maintain those controls can void coverage when a claim is filed.
+An **incident response plan (IRP)** documents how the organization will detect, respond to, contain, and recover from incidents. Senior management should approve it, and it should be tested (for example, through tabletop exercises) and updated after every significant incident. The blueprint lists roles, responsibilities, methods, steps, and timelines as typical contents:
+
+| Component | What It Covers |
+|---|---|
+| **Purpose and scope** | What counts as an incident, which systems the plan covers, and the plan's objectives |
+| **Roles and responsibilities** | Who is on the response team and what each person does |
+| **Classification and escalation** | How incidents are rated and when they are escalated |
+| **Methods** | The tools and techniques for detecting and analyzing incidents, such as SIEM alerts and log analysis |
+| **Response steps** | Containment, eradication, and recovery procedures |
+| **Communication** | Who must be told, inside and outside the organization, and how |
+| **Timelines** | Target response times for each severity level and the legal deadlines for notifications |
+| **Documentation and evidence** | What to record during the incident and how to preserve evidence |
+| **Post-incident review** | How lessons learned are captured and the plan is updated |
+
+### Roles and Responsibilities
+
+| Role | Responsibilities |
+|---|---|
+| **Incident commander** | Overall authority during the incident; decides on escalation and resources |
+| **Response team lead** | Directs the hands-on technical response |
+| **Security and IT analysts** | Investigate, contain, eradicate, and recover |
+| **Legal counsel** | Advises on notification duties, evidence preservation, and liability |
+| **Communications** | Handles messages to customers, the media, and employees |
+| **Executive management** | Receives briefings and makes major decisions, such as shutting down a business system |
+| **Human resources** | Joins when an insider is involved or discipline may follow |
+| **Outside specialists** | Forensic firms, outside counsel, and notification services, often arranged in advance |
+
+### Communication and Escalation
+
+The communication protocol sets who is told what, and when. A simple version:
+
+```mermaid
+graph TD
+    A["Incident detected"] --> B["Response team lead notified;<br/>incident classified"]
+    B --> C{"Severity?"}
+    C -->|"Critical or high"| D["Incident commander activates team;<br/>executives, legal counsel,<br/>and cyber insurer notified"]
+    C -->|"Medium or low"| E["Response team handles it<br/>with routine reporting"]
+    D --> F["External notices as required:<br/>regulators, affected people,<br/>customers"]
+```
+
+### Notification Deadlines the Plan Must Track
+
+Many incidents trigger legal duties to notify regulators or affected people within fixed periods, so the plan's timelines must reflect every regime that applies to the organization:
+
+| Regime | Who Is Notified | Deadline |
+|---|---|---|
+| **GDPR** | The supervisory authority; affected individuals when the risk to them is high | Authority within 72 hours of becoming aware, unless the breach is unlikely to result in a risk to individuals; individuals without undue delay |
+| **HIPAA Breach Notification Rule** | Affected individuals, HHS, and in larger breaches the media | Individuals without unreasonable delay and within 60 days of discovery |
+| **SEC rules for public companies** | Investors, through a Form 8-K filing | Within four business days after the company determines the incident is material |
+| **SEC Regulation S-P** (broker-dealers, investment advisers, and other covered financial firms) | Affected individuals whose sensitive customer information was involved | As soon as practicable, and within 30 days |
+| **State breach notification laws** | Affected residents, and often the state attorney general | Varies by state |
+| **Cyber insurance policy** | The insurer | As the policy requires, often immediately |
+
+:::note[SEC Cybersecurity Disclosure Rules]
+
+These SEC rules are not in the ISC References, so treat them as background, but they shape how public companies plan incident response. Since December 2023, a public company that experiences a cybersecurity incident must determine without unreasonable delay whether it is material. If it is, the company reports it under **Form 8-K Item 1.05** within four business days of that determination; the filing can be delayed only if the U.S. Attorney General finds that disclosure would pose a substantial risk to national security or public safety. Separately, **Regulation S-K Item 106** requires each annual report on Form 10-K to describe the company's processes for assessing and managing cybersecurity risk, the board's oversight of that risk, and management's role. Foreign private issuers make similar disclosures on Forms 6-K and 20-F. SEC staff have said that incidents not yet determined to be material, or found immaterial, may be disclosed voluntarily under Item 8.01 instead of Item 1.05.
+
 :::
 
 ---
 
-## Incident Response Plan Contents
+## Phases of Incident Response
 
-An **incident response plan (IRP)** is a documented set of procedures that defines how an organization detects, responds to, contains, and recovers from security incidents. The plan should be approved by senior management, tested regularly, and updated based on lessons learned.
+The most widely taught model of the response itself comes from NIST's *Computer Security Incident Handling Guide* (SP 800-61, Revision 2), which describes four phases. In practice the phases loop: new findings during containment often send the team back to analysis.
 
-### Common Components
+| Phase | Objective | Key Activities |
+|---|---|---|
+| **1. Preparation** | Be ready before an incident occurs | Write the plan, assign roles, acquire tools, train the team, run tabletop exercises, arrange outside specialists and insurance |
+| **2. Detection and analysis** | Recognize and confirm an incident | Monitor alerts, analyze logs, correlate events, determine scope and severity, document initial findings |
+| **3. Containment, eradication, and recovery** | Limit the damage, remove the threat, and restore operations | Isolate affected systems, preserve evidence, remove malware, close the vulnerability, restore from clean backups, verify systems before returning them to service |
+| **4. Post-incident activity** | Learn and improve | Hold a lessons-learned review, write the incident report, fix control gaps, update the plan and detection rules |
 
-| Component                             | Description                                                                                 |
-| ------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **Purpose and scope**                 | Defines what constitutes an incident, which systems are covered, and the plan's objectives  |
-| **Roles and responsibilities**        | Identifies team members and their specific duties during an incident                        |
-| **Classification and prioritization** | Criteria for determining incident severity and escalation triggers                          |
-| **Detection and analysis methods**    | Tools and procedures for identifying and confirming incidents (SIEM, IDS/IPS, log analysis) |
-| **Containment strategies**            | Short-term and long-term actions to limit incident spread                                   |
-| **Eradication procedures**            | Steps to remove the threat from the environment                                             |
-| **Recovery procedures**               | Steps to restore systems and data to normal operations                                      |
-| **Communication protocols**           | Internal and external notification requirements and escalation paths                        |
-| **Documentation requirements**        | What must be recorded during and after an incident (timeline, actions, evidence)            |
-| **Timelines**                         | Maximum response times for each severity level and regulatory notification deadlines        |
-| **Post-incident review**              | Procedures for lessons-learned analysis and plan updates                                    |
+NIST replaced Revision 2 in 2025 with a Revision 3 that organizes its incident response recommendations around the six functions of the Cybersecurity Framework 2.0 (Govern, Identify, and Protect cover readiness; Detect, Respond, and Recover cover the incident itself). The four-phase model remains the standard way textbooks describe the work, and the two map onto each other closely.
 
-### Roles and Responsibilities
-
-| Role                     | Responsibilities                                                                          |
-| ------------------------ | ----------------------------------------------------------------------------------------- |
-| **Incident Commander**   | Overall authority during the incident; makes escalation and resource decisions            |
-| **IR Team Lead**         | Coordinates technical response activities; manages the hands-on response                  |
-| **IT/Security Analysts** | Perform detection, containment, eradication, and recovery procedures                      |
-| **Legal Counsel**        | Advises on regulatory notification requirements, evidence preservation, liability         |
-| **Communications/PR**    | Manages external communications, media inquiries, and customer notifications              |
-| **Executive Management** | Receives briefings, approves major decisions (e.g., paying ransom, shutting down systems) |
-| **Human Resources**      | Involved when insider threats are identified or disciplinary action is required           |
-| **Third-party vendors**  | Forensics firms, outside legal counsel, breach notification services                      |
-
-### Communication Protocols
-
-```mermaid
-graph TD
-    A["Incident Detected"] --> B["IR Team Lead Notified"]
-    B --> C["Incident Commander Briefed"]
-    C --> D{"Severity Level?"}
-    D -->|Critical/High| E["Executive Management Notified"]
-    D -->|Critical/High| F["Legal Counsel Engaged"]
-    D -->|Critical/High| G["Cyber Insurance Carrier Notified"]
-    E --> H["External Communications<br/>(if required)"]
-    F --> I["Regulatory Notifications<br/>(per legal requirements)"]
-    D -->|Medium/Low| J["Handled by IR Team<br/>with routine reporting"]
-```
+**Example:** **Illini Entertainment** notices unusual queries against its customer data table (detection and analysis). The team isolates the database server from the network (containment), finds that an attacker exploited an unpatched SQL injection flaw and patches it (eradication), and restores verified clean data from backups (recovery). The lessons-learned review leads to automated patching for all database servers (post-incident activity).
 
 ---
 
-## Incident Response Phases
+## Testing Whether the Entity Followed Its Plan
 
-The NIST Cybersecurity Framework (SP 800-61) defines four phases of incident response. These phases are not strictly linear; organizations often cycle between detection and containment as new information emerges.
+The blueprint asks you to perform procedures to test whether an entity responded to cybersecurity incidents in accordance with its incident response plan. The approach is to select actual incidents from the period and compare the response with what the plan required.
 
-```mermaid
-graph LR
-    A["1. Preparation"] --> B["2. Detection<br/>& Analysis"]
-    B --> C["3. Containment,<br/>Eradication<br/>& Recovery"]
-    C --> D["4. Post-Incident<br/>Activity"]
-    D -->|Lessons feed back| A
-```
+| Procedure | Purpose | Evidence |
+|---|---|---|
+| **Inspect the incident log and tickets** | Confirm incidents were recorded and classified as the plan requires | Tickets, SIEM alerts, severity ratings, timestamps |
+| **Trace selected incidents through the plan's steps** | Confirm the response followed the documented steps | Containment, eradication, and recovery records compared with the plan |
+| **Compare timing with the plan** | Confirm response times met the plan's targets | Timestamps for detection, escalation, containment, and resolution |
+| **Inspect notifications** | Confirm required notices went to regulators, affected people, and the insurer on time | Notification letters, regulatory filings, insurer correspondence |
+| **Inspect documentation and evidence handling** | Confirm required records were kept and evidence preserved | Incident reports, chain-of-custody logs, communication records |
+| **Inspect post-incident reviews** | Confirm lessons learned were identified and the plan updated | Lessons-learned reports, plan revision history, updated detection rules |
+| **Interview response team members** | Confirm people know their roles and followed the escalation path | Interview notes compared with the plan |
 
-### Phase Details
+Common findings, and why they matter:
 
-| Phase                                      | Objective                                               | Key Activities                                                                                                                                                   |
-| ------------------------------------------ | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Preparation**                         | Establish capability to respond before incidents occur  | Develop IR plan, assign roles, acquire tools, conduct training and tabletop exercises, establish communication channels, obtain cyber insurance                  |
-| **2. Detection & Analysis**                | Identify and confirm that an incident has occurred      | Monitor alerts (SIEM, IDS), analyze logs, correlate events, determine scope and severity, document initial findings                                              |
-| **3. Containment, Eradication & Recovery** | Limit damage, remove the threat, and restore operations | Isolate affected systems, preserve evidence, remove malware, patch vulnerabilities, restore from backups, verify system integrity before returning to production |
-| **4. Post-Incident Activity**              | Learn from the incident and improve future response     | Conduct lessons-learned meeting, update IR plan, identify control gaps, produce incident report, update detection rules                                          |
+| Finding | Implication |
+|---|---|
+| Incidents not classified using the severity criteria | Response priorities are inconsistent |
+| Response times beyond the plan's targets | More damage, and missed commitments to customers |
+| Required notifications late or missing | Fines, legal exposure, and possible loss of insurance coverage |
+| No post-incident review | The same weakness can be exploited again |
+| Team members unaware of their roles | The plan exists on paper only |
 
-> **Example:** **Illini Entertainment** detects unusual database queries against its customer PII table (Phase 2). The IR team isolates the affected database server from the network (Phase 3: containment), identifies that an attacker exploited an unpatched SQL injection vulnerability (Phase 3: eradication involves patching), restores verified clean data from backups (Phase 3: recovery), and conducts a lessons-learned review that results in implementing automated patch management for database servers (Phase 4).
+**Example:** **Bear Co.**'s plan requires containment within 2 hours after a critical incident is declared. The CPA selects all three critical incidents from the year and traces each one. In one, containment took 8 hours because the on-call analyst could not be reached and the plan named no backup. The CPA reports two things: an **operating deviation** (the 2-hour target was missed for that incident) and a **design deficiency** (the escalation procedure has no backup contact, so the same failure can recur).
 
-## Testing Incident Response Plan Compliance
-
-CPAs performing IT audit or SOC engagements must evaluate whether an organization **actually followed** its incident response plan when real incidents occurred. This is an **application-level** skill: you must be able to design and perform procedures to assess compliance.
-
-### Procedures to Test IR Plan Compliance
-
-| Procedure                              | Purpose                                                                    | Evidence Obtained                                                                     |
-| -------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| **Review incident logs and tickets**   | Verify that incidents were documented per plan requirements                | Incident tickets, SIEM alerts, timestamps, severity classifications                   |
-| **Trace incidents through plan steps** | Confirm that actual response activities followed the documented phases     | Containment actions, eradication steps, recovery records compared to plan             |
-| **Interview IR team personnel**        | Assess awareness of roles and whether escalation procedures were followed  | Interview notes, knowledge of plan contents and responsibilities                      |
-| **Evaluate timeliness**                | Determine whether response times met plan-defined thresholds               | Timestamps for detection, notification, containment, and resolution compared to SLAs  |
-| **Assess documentation completeness**  | Verify that required records were maintained throughout the incident       | Incident reports, chain-of-custody logs, communication records, evidence preservation |
-| **Review post-incident reports**       | Confirm lessons learned were identified and incorporated into plan updates | Post-mortem reports, plan revision history, updated detection rules                   |
-| **Inspect regulatory notifications**   | Verify required notifications were made within mandated timeframes         | Notification letters, regulatory filings, timestamps                                  |
-
-### Common Findings
-
-| Finding                                      | Implication                                                                           |
-| -------------------------------------------- | ------------------------------------------------------------------------------------- |
-| Incidents not classified per severity matrix | Organization cannot demonstrate consistent prioritization                             |
-| Response times exceeded plan thresholds      | Potential for increased damage; SLA non-compliance                                    |
-| No evidence of post-incident review          | Organization is not learning from incidents; same vulnerabilities may be re-exploited |
-| Key personnel unaware of their IR roles      | Plan exists on paper but is not operationalized                                       |
-| Regulatory notifications missed or late      | Potential fines, legal liability, and loss of customer trust                          |
-| Insurer not notified within policy timeframe | Coverage may be denied for the incident                                               |
-
-> **Example:** **Bear Co.**'s incident response plan requires containment actions within 2 hours of a critical incident being declared. During the IT audit, the CPA selects three critical incidents from the past year and traces each through the plan's documented steps. For one incident, the CPA finds that containment did not occur until 8 hours after declaration because the on-call analyst was unreachable and no backup contact was defined in the plan. The CPA reports this as a **design deficiency** in the escalation procedures and an **operating deviation** in the specific incident response.
+---
 
 ## Summary
 
-| Topic                 | Key Takeaway                                                                                                                                                                       |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Events vs. incidents  | An event is any observable occurrence; an incident actually compromises or threatens CIA, so not every event is an incident                                                        |
-| Cyber insurance       | Risk transfer mechanism covering first-party (forensics, notification, business interruption) and third-party (liability, regulatory) costs; not a substitute for controls         |
-| IR plan contents      | Includes roles, responsibilities, classification criteria, detection methods, containment/eradication/recovery steps, communication protocols, timelines, and post-incident review |
-| IR phases (NIST)      | Preparation, then Detection & Analysis, then Containment/Eradication/Recovery, then Post-Incident Activity; phases are cyclical                                                 |
-| Testing IR compliance | Trace actual incidents through plan steps; evaluate timeliness, documentation, escalation, post-incident review, and regulatory notifications                                      |
+| Topic | Key Takeaway |
+|---|---|
+| Events and incidents | An event is any observable occurrence; an incident actually or imminently compromises confidentiality, integrity, or availability |
+| Cyber insurance | Transfers part of an incident's financial impact; first-party and third-party coverage; required controls and exclusions matter |
+| Incident response plan | Roles, responsibilities, methods, steps, communication, timelines, documentation, and post-incident review |
+| Notification deadlines | GDPR 72 hours; HIPAA within 60 days; SEC Form 8-K four business days after a materiality determination; state laws vary |
+| Response phases | Preparation; detection and analysis; containment, eradication, and recovery; post-incident activity |
+| Testing compliance | Trace actual incidents through the plan; check timing, notifications, documentation, and lessons learned |
 
 ---
 
 ## Practice Questions
 
-1. **Kingfisher Industries** receives 50,000 security events per day from its SIEM system. A security analyst notices that 3,000 failed login attempts occurred against the payroll system within a 10-minute window, followed by a successful authentication from an IP address not associated with any employee. The analyst is unsure whether to classify this as an event or an incident. How should the analyst classify this situation, and what criteria support that classification?
-2. **Bear Co.** filed a cyber insurance claim after a ransomware attack. The insurer denied coverage, citing that Bear Co. failed to implement multi-factor authentication, a requirement stated in the policy. Bear Co.'s IT director argues that the insurance should cover the loss regardless because premiums were paid on time. Explain why the insurer's denial is likely valid and identify **two** lessons for organizations regarding cyber insurance.
-3. **Illini Security** experienced a data breach six months ago. During a SOC 2® engagement, the CPA is asked to evaluate whether the organization responded in accordance with its incident response plan. Describe **three** specific procedures the CPA should perform and what evidence each procedure would produce.
-   :::tip[Answers]
-4. This should be classified as a **security incident**, not merely an event. The criteria supporting this classification include: (a) **impact on CIA**: a successful authentication from an unknown IP following a brute-force attack indicates potential unauthorized access to payroll data (confidentiality compromise); (b) **data sensitivity**: payroll systems contain PII and financial data; (c) **scope**: the successful login means the attacker potentially has access to all records in the payroll system; and (d) **pattern of activity**: the 3,000 failed attempts followed by a success is consistent with a credential-stuffing or brute-force attack, not routine user behavior. The analyst should immediately escalate per the severity matrix, since this likely qualifies as a high or critical incident.
-5. The insurer's denial is likely valid because cyber insurance policies contain **conditions precedent**, which are specific security controls the insured must maintain as a condition of coverage. MFA is a common requirement because it significantly reduces the likelihood of credential-based attacks. Paying premiums does not waive these conditions. **Lesson 1:** Organizations must carefully review policy requirements and ensure they maintain all specified controls throughout the policy period. Security requirements are contractual obligations, not suggestions. **Lesson 2:** The incident response plan should reference the cyber insurance policy, including specific control requirements and insurer notification procedures, so that the organization maintains awareness of what is required to preserve coverage.
-6. **Procedure 1: Trace the incident through the plan's documented steps.** The CPA should obtain the incident timeline and compare actual response activities (detection, containment, eradication, recovery) to the steps outlined in the IRP. Evidence: incident tickets, SIEM logs, containment records, and recovery documentation compared against the plan's required procedures. **Procedure 2: Evaluate timeliness of response and notifications.** The CPA should compare timestamps for key response milestones (detection, escalation, containment, regulatory notification) against the plan's defined thresholds and applicable legal deadlines. Evidence: timestamp records, notification letters, regulatory filings, and plan-defined SLAs. **Procedure 3: Review the post-incident report and assess whether lessons learned were incorporated.** The CPA should obtain the post-mortem report, verify that root causes were identified, and confirm that the IRP was updated to address gaps revealed by the incident. Evidence: post-incident review documentation, IRP revision history, updated detection rules, and evidence of corrective actions implemented.
-   :::
+1. **Kingfisher Industries**' SIEM records 50,000 events a day. An analyst sees 3,000 failed logins to the payroll system within ten minutes, followed by a successful login from an IP address not associated with any employee. Is this an event or an incident, and why?
+
+2. **Bear Co.**'s insurer denies its ransomware claim because Bear Co. had not implemented multi-factor authentication, which the policy required. Bear Co.'s IT director argues that the claim should be paid because every premium was paid on time. Is the denial likely valid? Give **two** lessons for organizations.
+
+3. **Illini Security** had a data breach six months ago. In a SOC 2® engagement, the CPA must evaluate whether the company responded in accordance with its incident response plan. Describe **three** procedures and the evidence each produces.
+
+:::tip[Answers]
+
+1. An **incident**. Thousands of failed attempts followed by a success from an unknown address point to a brute-force or credential-stuffing attack that has likely succeeded, which threatens the confidentiality and integrity of payroll data. Payroll data is sensitive personal and financial information, and a successful login could expose every record in the system. The analyst should escalate immediately under the severity criteria; this is likely high or critical.
+
+2. The denial is **likely valid**. Required security controls are conditions of coverage, and paying premiums does not waive them. **Lesson 1:** Read the policy's control requirements and make sure every one is in place, and stays in place, for the whole policy period. **Lesson 2:** Build the policy into the incident response plan, including the required controls and the insurer's notification requirements, so the organization does not lose coverage through oversight.
+
+3. Any three of these: **(1) Trace the incident through the plan's steps.** Obtain the incident timeline and compare the actual detection, containment, eradication, and recovery steps with the plan; evidence includes tickets, SIEM logs, and containment and recovery records. **(2) Compare timing and notifications with the plan and the law.** Compare timestamps for detection, escalation, containment, and notification with the plan's targets and legal deadlines; evidence includes timestamps, notification letters, and regulatory filings. **(3) Inspect the post-incident review.** Confirm the root cause was identified and the plan updated; evidence includes the lessons-learned report, the plan's revision history, and updated detection rules. **(4) Interview the response team.** Confirm people followed the escalation path and knew their roles; evidence is interview notes compared with the plan.
+
+:::
