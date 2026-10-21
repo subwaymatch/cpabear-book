@@ -8,7 +8,7 @@ Choosing the right business structure affects **liability**, **taxation**, **man
 
 ## Sole Proprietorship
 
-A **sole proprietorship** is the simplest business form — a single individual operating a business without forming a separate legal entity.
+A **sole proprietorship** is the simplest business form: a single individual operating a business without forming a separate legal entity.
 
 | Feature | Rule |
 |---|---|
@@ -23,7 +23,7 @@ A **sole proprietorship** is the simplest business form — a single individual 
 
 ## General Partnership
 
-A **general partnership** is an association of two or more persons carrying on a business as co-owners for profit (governed by the Revised Uniform Partnership Act — RUPA).
+A **general partnership** is an association of two or more persons carrying on a business as co-owners for profit (governed by the Revised Uniform Partnership Act, or RUPA).
 
 | Feature | Rule |
 |---|---|
@@ -36,7 +36,7 @@ A **general partnership** is an association of two or more persons carrying on a
 
 :::info
 
-A partnership is a **pass-through entity** for tax purposes — it does not pay income tax at the entity level. Each partner reports their distributive share of income, deductions, and credits on their personal return.
+A partnership is a **pass-through entity** for tax purposes. It does not pay income tax at the entity level. Each partner reports their distributive share of income, deductions, and credits on their personal return.
 
 :::
 
@@ -75,7 +75,7 @@ An **LLC** combines the **liability protection** of a corporation with the **tax
 | **Taxation** | Default: pass-through (partnership taxation for multi-member; disregarded entity for single-member). May elect to be taxed as a corporation. |
 | **Transferability** | Economic interest is transferable; full membership rights require consent of other members (unless the operating agreement provides otherwise) |
 
-> **Example:** Salmon Entertainment forms an LLC with three members. The operating agreement designates two members as managers. All three members enjoy limited liability, and the LLC is taxed as a partnership — each member reports their share of income on Schedule K-1.
+> **Example:** Salmon Entertainment forms an LLC with three members. The operating agreement designates two members as managers. All three members enjoy limited liability, and the LLC is taxed as a partnership, so each member reports their share of income on Schedule K-1.
 
 :::tip[Exam Tip]
 
@@ -114,7 +114,7 @@ A corporation is formed by filing **articles of incorporation** with the state. 
 
 | Feature | C Corporation | S Corporation |
 |---|---|---|
-| **Taxation** | **Double taxation** — corporation pays tax on income; shareholders pay tax on dividends | **Pass-through** — income/loss passes to shareholders (Form 1120-S, Schedule K-1) |
+| **Taxation** | **Double taxation**: corporation pays tax on income; shareholders pay tax on dividends | **Pass-through**: income/loss passes to shareholders (Form 1120-S, Schedule K-1) |
 | **Shareholders** | Unlimited number; may include entities and nonresident aliens | Maximum **100 shareholders**; only U.S. individuals, estates, and certain trusts |
 | **Classes of stock** | Multiple classes permitted | **One class** of stock (voting differences allowed) |
 | **Entity-level tax** | Yes (IRC §11) | Generally no (but built-in gains tax and excess passive income tax may apply) |

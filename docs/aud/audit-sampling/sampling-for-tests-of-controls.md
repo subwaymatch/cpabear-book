@@ -1,6 +1,6 @@
 # Sampling for Tests of Controls
 
-When auditors plan to rely on internal controls to reduce substantive testing, they must gather evidence that those controls are operating effectively. Attribute sampling provides a structured, systematic approach for testing controls—allowing the auditor to estimate the rate of deviation from a prescribed procedure and determine whether the control can be relied upon.
+When auditors plan to rely on internal controls to reduce substantive testing, they must gather evidence that those controls are operating effectively. Attribute sampling provides a structured, systematic approach for testing controls, allowing the auditor to estimate the rate of deviation from a prescribed procedure and determine whether the control can be relied upon.
 
 ---
 
@@ -10,13 +10,13 @@ Attribute sampling is the primary sampling method used for tests of controls. Ea
 
 ### The Process
 
-1. **Define the objective** — Identify which control is being tested and what constitutes a deviation
-2. **Define the population** — Determine the complete set of items from which the sample will be drawn
-3. **Determine the sample size** — Consider confidence level, tolerable deviation rate, and expected deviation rate
-4. **Select the sample** — Use random or systematic selection to ensure representativeness
-5. **Perform the test** — Examine each selected item for the presence or absence of the control attribute
-6. **Evaluate results** — Calculate the sample deviation rate and compare to the tolerable deviation rate
-7. **Draw conclusions** — Decide whether the control can be relied upon
+1. **Define the objective**: Identify which control is being tested and what constitutes a deviation
+2. **Define the population**: Determine the complete set of items from which the sample will be drawn
+3. **Determine the sample size**: Consider confidence level, tolerable deviation rate, and expected deviation rate
+4. **Select the sample**: Use random or systematic selection to ensure representativeness
+5. **Perform the test**: Examine each selected item for the presence or absence of the control attribute
+6. **Evaluate results**: Calculate the sample deviation rate and compare to the tolerable deviation rate
+7. **Draw conclusions**: Decide whether the control can be relied upon
 
 :::info[Example]
 
@@ -38,13 +38,13 @@ Key considerations when setting the TDR:
 
 | Planned Reliance on Control | Typical TDR Range | Sample Size Impact |
 |---|---|---|
-| Heavy reliance | 2% – 5% | Larger sample |
-| Moderate reliance | 5% – 8% | Moderate sample |
-| Limited reliance | 8% – 10% | Smaller sample |
+| Heavy reliance | 2%-5% | Larger sample |
+| Moderate reliance | 5%-8% | Moderate sample |
+| Limited reliance | 8%-10% | Smaller sample |
 
 :::tip
 
-The more the auditor wants to rely on a control (and thereby reduce substantive testing), the lower the tolerable deviation rate must be set—and the larger the sample must be to support that reliance.
+The more the auditor wants to rely on a control (and thereby reduce substantive testing), the lower the tolerable deviation rate must be set, and the larger the sample must be to support that reliance.
 
 :::
 
@@ -56,8 +56,8 @@ The more the auditor wants to rely on a control (and thereby reduce substantive 
 
 The population must consist of **all items** subject to the control during the period being tested. It must be:
 
-- **Complete** — Every item that should have been subjected to the control must be included
-- **Appropriate** — The population must correspond to the control being tested
+- **Complete**: Every item that should have been subjected to the control must be included
+- **Appropriate**: The population must correspond to the control being tested
 
 :::warning
 
@@ -146,13 +146,13 @@ The auditor tests **Honey Entertainment's** invoice approval control with a TDR 
 
 The upper deviation rate exceeds the tolerable deviation rate. The auditor must:
 
-1. **Reassess the risk of material misstatement** — The assessed level of control risk for the related assertion increases
-2. **Modify the audit plan** — Expand substantive procedures to compensate for the inability to rely on the control
-3. **Consider other controls** — Determine whether compensating controls exist that might mitigate the risk
+1. **Reassess the risk of material misstatement**: The assessed level of control risk for the related assertion increases
+2. **Modify the audit plan**: Expand substantive procedures to compensate for the inability to rely on the control
+3. **Consider other controls**: Determine whether compensating controls exist that might mitigate the risk
 
 :::info[Example]
 
-The auditor tests **Panda Records'** bank reconciliation review control. The TDR is set at 5%, but the UDR based on sample results is 8.3%. The auditor cannot rely on this control and must expand substantive testing of the cash balance—perhaps by confirming additional bank accounts and performing extended cutoff testing.
+The auditor tests **Panda Records'** bank reconciliation review control. The TDR is set at 5%, but the UDR based on sample results is 8.3%. The auditor cannot rely on this control and must expand substantive testing of the cash balance, perhaps by confirming additional bank accounts and performing extended cutoff testing.
 
 :::
 
@@ -160,7 +160,7 @@ The auditor tests **Panda Records'** bank reconciliation review control. The TDR
 
 :::warning
 
-- **Expanding the sample after poor results**: If the initial sample yields a UDR above the TDR, the auditor **may** select additional items to test. However, this must be done carefully—the original and additional items must be evaluated together, and the auditor should not "cherry-pick" favorable results.
+- **Expanding the sample after poor results**: If the initial sample yields a UDR above the TDR, the auditor **may** select additional items to test. However, this must be done carefully: the original and additional items must be evaluated together, and the auditor should not "cherry-pick" favorable results.
 - **Ignoring qualitative factors**: Even a numerically acceptable deviation rate can mask serious underlying issues if the deviations involve fraud indicators, management override, or systematic errors.
 
 :::

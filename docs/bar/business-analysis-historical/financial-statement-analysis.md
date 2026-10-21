@@ -3,11 +3,11 @@ import TabItem from '@theme/TabItem';
 
 # Financial Statement Analysis
 
-Financial statement analysis is the process of evaluating a company's financial statements to make informed decisions about its performance, position, and future prospects. On the CPA exam, you must be able to select the right data, apply analytical techniques, and interpret the results—all within the context of GAAP and the FASB Conceptual Framework.
+Financial statement analysis is the process of evaluating a company's financial statements to make informed decisions about its performance, position, and future prospects. On the CPA exam, you must be able to select the right data, apply analytical techniques, and interpret the results, all within the context of GAAP and the FASB Conceptual Framework.
 
 :::info[Why This Matters]
 
-The BAR section tests your ability to go beyond preparing financial statements. You need to **analyze** them—identifying trends, diagnosing problems, and communicating findings using ratios, visualizations, and variance analysis.
+The BAR section tests your ability to go beyond preparing financial statements. You need to **analyze** them by identifying trends, diagnosing problems, and communicating findings using ratios, visualizations, and variance analysis.
 
 :::
 
@@ -39,19 +39,19 @@ $$
 \text{Percentage Change} = \frac{\text{Current Period} - \text{Prior Period}}{\text{Prior Period}} \times 100
 $$
 
-**Example — Bear Co. Revenue Trend:**
+**Example: Bear Co. Revenue Trend**
 
 | Year | Revenue | Dollar Change | % Change |
 |---|---|---|---|
-| 20X1 | $800,000 | — | — |
-| 20X2 | $920,000 | $120,000 | 15.0% |
-| 20X3 | $1,012,000 | $92,000 | 10.0% |
+| 20X1 | \$800,000 | N/A | N/A |
+| 20X2 | \$920,000 | \$120,000 | 15.0% |
+| 20X3 | \$1,012,000 | \$92,000 | 10.0% |
 
 Bear Co.'s revenue grew each year, but the **rate of growth decelerated** from 15% to 10%. An analyst should investigate whether this slowdown reflects market saturation, pricing pressure, or a deliberate shift in strategy.
 
 :::tip[Exam Tip]
 
-When a question asks you to "explain variances," always provide **both** the direction (increase or decrease) and a plausible cause. Simply stating "revenue went up" is not sufficient—connect the change to an underlying driver.
+When a question asks you to "explain variances," always provide **both** the direction (increase or decrease) and a plausible cause. Simply stating "revenue went up" is not sufficient; connect the change to an underlying driver.
 
 :::
 
@@ -63,16 +63,16 @@ $$
 \text{Common-Size \%} = \frac{\text{Line Item}}{\text{Base Amount}} \times 100
 $$
 
-**Example — Bear Co. Common-Size Income Statement:**
+**Example: Bear Co. Common-Size Income Statement**
 
 | Line Item | Amount | % of Revenue |
 |---|---|---|
-| Net Revenue | $500,000 | 100.0% |
-| Cost of Goods Sold | $300,000 | 60.0% |
-| Gross Profit | $200,000 | 40.0% |
-| Operating Expenses | $120,000 | 24.0% |
-| Operating Income | $80,000 | 16.0% |
-| Net Income | $55,000 | 11.0% |
+| Net Revenue | \$500,000 | 100.0% |
+| Cost of Goods Sold | \$300,000 | 60.0% |
+| Gross Profit | \$200,000 | 40.0% |
+| Operating Expenses | \$120,000 | 24.0% |
+| Operating Income | \$80,000 | 16.0% |
+| Net Income | \$55,000 | 11.0% |
 
 Common-size statements are especially useful for **comparing companies of different sizes** within the same industry or benchmarking against industry averages.
 
@@ -92,9 +92,9 @@ Liquidity ratios measure a company's ability to meet **short-term obligations** 
 | **Quick Ratio** | (Cash + Short-Term Investments + Net Receivables) ÷ Current Liabilities | Excludes inventory and prepaid items |
 | **Cash Ratio** | (Cash + Cash Equivalents) ÷ Current Liabilities | Most conservative liquidity measure |
 
-**Example — Polar Inc.:**
+**Example: Polar Inc.**
 
-Polar Inc. reports current assets of $240,000 (including $60,000 cash, $80,000 receivables, $70,000 inventory, and $30,000 prepaids) and current liabilities of $150,000.
+Polar Inc. reports current assets of \$240,000 (including \$60,000 cash, \$80,000 receivables, \$70,000 inventory, and \$30,000 prepaids) and current liabilities of \$150,000.
 
 $$
 \text{Current Ratio} = \frac{240{,}000}{150{,}000} = 1.60
@@ -126,9 +126,9 @@ Profitability ratios evaluate how effectively a company generates earnings relat
 | **Return on Assets (ROA)** | Net Income ÷ Average Total Assets |
 | **Return on Equity (ROE)** | Net Income ÷ Average Stockholders' Equity |
 
-**Example — Bear Co. Profitability (20X3):**
+**Example: Bear Co. Profitability (20X3)**
 
-Bear Co. reports net revenue of $1,012,000, gross profit of $405,000, operating income of $162,000, net income of $101,200, average total assets of $880,000, and average stockholders' equity of $520,000.
+Bear Co. reports net revenue of \$1,012,000, gross profit of \$405,000, operating income of \$162,000, net income of \$101,200, average total assets of \$880,000, and average stockholders' equity of \$520,000.
 
 $$
 \text{Gross Margin} = \frac{405{,}000}{1{,}012{,}000} = 40.0\%
@@ -152,9 +152,9 @@ Solvency ratios assess an entity's ability to meet **long-term obligations** and
 | **Debt-to-Assets** | Total Liabilities ÷ Total Assets | Portion of assets financed by debt |
 | **Times Interest Earned** | EBIT ÷ Interest Expense | Ability to cover interest payments |
 
-**Example — Kingfisher Industries:**
+**Example: Kingfisher Industries**
 
-Kingfisher Industries reports total liabilities of $600,000, total equity of $400,000, total assets of $1,000,000, EBIT of $180,000, and interest expense of $45,000.
+Kingfisher Industries reports total liabilities of \$600,000, total equity of \$400,000, total assets of \$1,000,000, EBIT of \$180,000, and interest expense of \$45,000.
 
 $$
 \text{Debt-to-Equity} = \frac{600{,}000}{400{,}000} = 1.50
@@ -164,7 +164,7 @@ $$
 \text{Times Interest Earned} = \frac{180{,}000}{45{,}000} = 4.0\text{x}
 $$
 
-A times interest earned ratio of 4.0x means Kingfisher earns four dollars of operating income for every dollar of interest expense—a comfortable margin, though some debt covenants require a minimum of 3.0x or higher.
+A times interest earned ratio of 4.0x means Kingfisher earns four dollars of operating income for every dollar of interest expense. That is a comfortable margin, though some debt covenants require a minimum of 3.0x or higher.
 
 ### Activity and Efficiency Ratios
 
@@ -178,9 +178,9 @@ Activity ratios measure how effectively a company uses its assets to generate re
 | **Days in Inventory** | 365 ÷ Inventory Turnover | Days to sell |
 | **Total Asset Turnover** | Net Revenue ÷ Average Total Assets | Revenue per dollar of assets |
 
-**Example — Illini Entertainment:**
+**Example: Illini Entertainment**
 
-Illini Entertainment reports net credit sales of $750,000 with average receivables of $62,500 and COGS of $450,000 with average inventory of $90,000.
+Illini Entertainment reports net credit sales of \$750,000 with average receivables of \$62,500 and COGS of \$450,000 with average inventory of \$90,000.
 
 $$
 \text{Receivables Turnover} = \frac{750{,}000}{62{,}500} = 12.0\text{x}
@@ -200,7 +200,7 @@ $$
 
 :::tip[Exam Tip]
 
-Turnover ratios use **averages** of balance sheet accounts in the denominator because the income statement covers an entire period while the balance sheet is a point-in-time snapshot. If only ending balances are given, use those—but note the limitation.
+Turnover ratios use **averages** of balance sheet accounts in the denominator because the income statement covers an entire period while the balance sheet is a point-in-time snapshot. If only ending balances are given, use those, but note the limitation.
 
 :::
 
@@ -242,7 +242,7 @@ $$
 | Revenue ÷ Avg Assets | Asset turnover |
 | Avg Assets ÷ Avg Equity | Financial leverage |
 
-**Example — BIF Partners DuPont Decomposition:**
+**Example: BIF Partners DuPont Decomposition**
 
 <Tabs>
 <TabItem value="y1" label="20X2" default>
@@ -283,21 +283,21 @@ $$
 
 A **favorable** variance increases income (higher revenue or lower expense). An **unfavorable** variance decreases income.
 
-**Example — Illini Security Budget vs. Actual:**
+**Example: Illini Security Budget vs. Actual**
 
 | Line Item | Budget | Actual | Variance | F / U |
 |---|---|---|---|---|
-| Service Revenue | $400,000 | $425,000 | $25,000 | Favorable |
-| Labor Costs | $200,000 | $215,000 | ($15,000) | Unfavorable |
-| Supplies Expense | $30,000 | $28,000 | $2,000 | Favorable |
-| Rent Expense | $48,000 | $48,000 | $0 | — |
-| **Operating Income** | **$122,000** | **$134,000** | **$12,000** | **Favorable** |
+| Service Revenue | \$400,000 | \$425,000 | \$25,000 | Favorable |
+| Labor Costs | \$200,000 | \$215,000 | (\$15,000) | Unfavorable |
+| Supplies Expense | \$30,000 | \$28,000 | \$2,000 | Favorable |
+| Rent Expense | \$48,000 | \$48,000 | \$0 | N/A |
+| **Operating Income** | **\$122,000** | **\$134,000** | **\$12,000** | **Favorable** |
 
-Illini Security exceeded its operating income budget by $12,000. Revenue outperformed the plan, driven by a new corporate client acquired in Q3. Labor costs ran over budget due to overtime needed to service that client. Management should evaluate whether the incremental revenue justifies the added labor cost.
+Illini Security exceeded its operating income budget by \$12,000. Revenue outperformed the plan, driven by a new corporate client acquired in Q3. Labor costs ran over budget due to overtime needed to service that client. Management should evaluate whether the incremental revenue justifies the added labor cost.
 
 :::note
 
-When analyzing variances, consider **materiality**. A $500 variance on a $2,000,000 line item is immaterial. Focus your analysis on the variances that are large enough—in both dollar and percentage terms—to affect decision-making.
+When analyzing variances, consider **materiality**. A \$500 variance on a \$2,000,000 line item is immaterial. Focus your analysis on the variances that are large enough (in both dollar and percentage terms) to affect decision-making.
 
 :::
 
@@ -316,15 +316,15 @@ For any transaction, ask:
 3. **What is the net effect on each financial statement?**
 4. **Are note disclosures required?** (Contingencies, related parties, subsequent events)
 
-**Example — Bear Co. Issues Bonds at a Discount:**
+**Example: Bear Co. Issues Bonds at a Discount**
 
-Bear Co. issues $500,000 of 5-year bonds at 97 (i.e., for $485,000). The discount of $15,000 is amortized using the effective interest method over the bond term (ASC 835-30).
+Bear Co. issues \$500,000 of 5-year bonds at 97 (i.e., for \$485,000). The discount of \$15,000 is amortized using the effective interest method over the bond term (ASC 835-30).
 
 | Financial Statement | Effect |
 |---|---|
-| **Balance Sheet** | Cash increases $485,000; Bonds Payable recorded at $500,000 less unamortized discount of $15,000 |
+| **Balance Sheet** | Cash increases \$485,000; Bonds Payable recorded at \$500,000 less unamortized discount of \$15,000 |
 | **Income Statement** | Interest expense each period exceeds the cash coupon payment by the discount amortization |
-| **Cash Flow Statement** | Issuance proceeds of $485,000 reported as a financing inflow |
+| **Cash Flow Statement** | Issuance proceeds of \$485,000 reported as a financing inflow |
 | **Notes** | Disclose face amount, interest rate, maturity, and effective rate per ASC 835-30 |
 
 ```journal
@@ -368,7 +368,7 @@ graph TD
 
 :::info[Key Concept]
 
-Data analytics does not replace professional judgment—it **augments** it. A visualization may reveal that revenue spikes every December, but the analyst must determine whether that reflects seasonality, channel stuffing, or a one-time event.
+Data analytics does not replace professional judgment; it **augments** it. A visualization may reveal that revenue spikes every December, but the analyst must determine whether that reflects seasonality, channel stuffing, or a one-time event.
 
 :::
 
@@ -378,20 +378,20 @@ Data analytics does not replace professional judgment—it **augments** it. A vi
 
 :::caution[Common Pitfalls]
 
-- **Mixing up turnover formulas** — Receivables turnover uses *net credit sales*, not total revenue. Inventory turnover uses *COGS*, not revenue.
-- **Forgetting to average** — ROA, ROE, and turnover ratios should use average balances when both beginning and ending amounts are available.
-- **Ignoring the equity multiplier** — A rising ROE may come from increased leverage (more debt), not improved operations. Always decompose with DuPont.
-- **Labeling variances incorrectly** — A favorable variance means favorable to *income*. Higher revenue = favorable; higher expense = unfavorable.
-- **Overlooking note disclosures** — Transaction analysis questions often ask about the *notes*, not just the face of the statements.
+- **Mixing up turnover formulas**: Receivables turnover uses *net credit sales*, not total revenue. Inventory turnover uses *COGS*, not revenue.
+- **Forgetting to average**: ROA, ROE, and turnover ratios should use average balances when both beginning and ending amounts are available.
+- **Ignoring the equity multiplier**: A rising ROE may come from increased leverage (more debt), not improved operations. Always decompose with DuPont.
+- **Labeling variances incorrectly**: A favorable variance means favorable to *income*. Higher revenue = favorable; higher expense = unfavorable.
+- **Overlooking note disclosures**: Transaction analysis questions often ask about the *notes*, not just the face of the statements.
 
 :::
 
 :::tip[Exam Strategy]
 
-1. **Memorize the ratio formulas** — You will not have a formula sheet. Know the numerator and denominator for every key ratio.
-2. **Practice DuPont decomposition** — If a question says ROE changed, break it into margin, turnover, and leverage to find the driver.
-3. **Read the requirement first** — Determine whether the question asks for a ratio calculation, a trend interpretation, or a variance explanation before diving into the data.
-4. **Use reasonableness checks** — If your current ratio calculation yields 15.0, re-examine your inputs. Most real-world current ratios fall between 1.0 and 3.0.
-5. **Connect transactions to all four statements** — Balance sheet, income statement, cash flow statement, and notes.
+1. **Memorize the ratio formulas**: You will not have a formula sheet. Know the numerator and denominator for every key ratio.
+2. **Practice DuPont decomposition**: If a question says ROE changed, break it into margin, turnover, and leverage to find the driver.
+3. **Read the requirement first**: Determine whether the question asks for a ratio calculation, a trend interpretation, or a variance explanation before diving into the data.
+4. **Use reasonableness checks**: If your current ratio calculation yields 15.0, re-examine your inputs. Most real-world current ratios fall between 1.0 and 3.0.
+5. **Connect transactions to all four statements**: Balance sheet, income statement, cash flow statement, and notes.
 
 :::

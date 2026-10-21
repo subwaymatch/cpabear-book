@@ -14,12 +14,12 @@ The ISC exam tests availability concepts at the Remembering and Understanding le
 
 ## Business Resiliency
 
-**Business resiliency** is the ability of an organization to anticipate, prepare for, respond to, and adapt to incremental change and sudden disruptions in order to survive and prosper. It is a broader concept than disaster recovery — it encompasses the organization's entire approach to maintaining operations in the face of any disruption, whether a cyberattack, natural disaster, equipment failure, or pandemic.
+**Business resiliency** is the ability of an organization to anticipate, prepare for, respond to, and adapt to incremental change and sudden disruptions in order to survive and prosper. It is a broader concept than disaster recovery: it encompasses the organization's entire approach to maintaining operations in the face of any disruption, whether a cyberattack, natural disaster, equipment failure, or pandemic.
 
 Business resiliency depends on two key plans:
 
-- **Business Continuity Plan (BCP)** — a comprehensive plan that identifies critical business functions and the procedures needed to maintain or resume those functions during and after a disruption
-- **Disaster Recovery Plan (DRP)** — a subset of the BCP that focuses specifically on restoring IT infrastructure, systems, and data after a disruption
+- **Business Continuity Plan (BCP)**: a comprehensive plan that identifies critical business functions and the procedures needed to maintain or resume those functions during and after a disruption
+- **Disaster Recovery Plan (DRP)**: a subset of the BCP that focuses specifically on restoring IT infrastructure, systems, and data after a disruption
 
 ### Relationship Between BCP and DRP
 
@@ -40,11 +40,11 @@ graph TD
 
 When evaluating an organization's BCP and DRP, consider:
 
-- **Scope** — Does the plan cover all critical business functions and IT systems?
-- **Roles and responsibilities** — Are personnel assigned to specific recovery tasks?
-- **Communication** — Does the plan include a communication protocol for notifying employees, customers, and regulators?
-- **Testing** — Is the plan tested regularly (e.g., tabletop exercises, simulation tests, full interruption tests)?
-- **Maintenance** — Is the plan updated when the organization's systems, processes, or personnel change?
+- **Scope**: Does the plan cover all critical business functions and IT systems?
+- **Roles and responsibilities**: Are personnel assigned to specific recovery tasks?
+- **Communication**: Does the plan include a communication protocol for notifying employees, customers, and regulators?
+- **Testing**: Is the plan tested regularly (e.g., tabletop exercises, simulation tests, full interruption tests)?
+- **Maintenance**: Is the plan updated when the organization's systems, processes, or personnel change?
 
 :::warning
 
@@ -56,7 +56,7 @@ A BCP or DRP that has never been tested provides a false sense of security. The 
 
 ## Mirroring and Replication
 
-**Mirroring** and **replication** are techniques used to maintain copies of data and systems so that operations can continue — or be quickly resumed — if the primary system fails.
+**Mirroring** and **replication** are techniques used to maintain copies of data and systems so that operations can continue, or be quickly resumed, if the primary system fails.
 
 | Technique | Description | Recovery Time |
 |---|---|---|
@@ -80,12 +80,12 @@ A **business impact analysis (BIA)** is a systematic process used to identify an
 
 ### Steps in a Business Impact Analysis
 
-1. **Identify critical business functions** — Determine which business processes are essential to the organization's operations and financial reporting
-2. **Assess the impact of disruption** — For each critical function, estimate the financial, operational, legal, and reputational impact if the function becomes unavailable
-3. **Determine recovery time objectives (RTOs)** — The maximum acceptable time to restore a function after a disruption
-4. **Determine recovery point objectives (RPOs)** — The maximum acceptable amount of data loss measured in time (e.g., the last 4 hours of transactions)
-5. **Identify resource requirements** — Determine the technology, personnel, and facilities needed to recover each function within its RTO and RPO
-6. **Prioritize recovery efforts** — Rank functions by criticality and allocate resources accordingly
+1. **Identify critical business functions**: Determine which business processes are essential to the organization's operations and financial reporting
+2. **Assess the impact of disruption**: For each critical function, estimate the financial, operational, legal, and reputational impact if the function becomes unavailable
+3. **Determine recovery time objectives (RTOs)**: The maximum acceptable time to restore a function after a disruption
+4. **Determine recovery point objectives (RPOs)**: The maximum acceptable amount of data loss measured in time (e.g., the last 4 hours of transactions)
+5. **Identify resource requirements**: Determine the technology, personnel, and facilities needed to recover each function within its RTO and RPO
+6. **Prioritize recovery efforts**: Rank functions by criticality and allocate resources accordingly
 
 ### Key BIA Metrics
 
@@ -114,8 +114,8 @@ System availability is typically measured using quantitative metrics defined in 
 | **Agreed service time** | The total time during which the system is expected to be available (e.g., 24/7, business hours only) |
 | **Downtime** | The total time during which the system is unavailable within the agreed service period |
 | **Availability percentage** | Calculated as: $$\frac{\text{Agreed Service Time} - \text{Downtime}}{\text{Agreed Service Time}} \times 100$$ |
-| **Mean Time Between Failures (MTBF)** | The average time between system failures — higher is better |
-| **Mean Time to Repair (MTTR)** | The average time to restore a system after a failure — lower is better |
+| **Mean Time Between Failures (MTBF)** | The average time between system failures; higher is better |
+| **Mean Time to Repair (MTTR)** | The average time to restore a system after a failure; lower is better |
 
 **Example:** **Bear Co.** has an SLA with its cloud provider that guarantees 99.9% availability. Over a 30-day month (720 hours), this allows a maximum of 0.72 hours (approximately 43 minutes) of downtime. If the system is down for 2 hours during month-end close, the CSP has violated the SLA.
 
@@ -148,7 +148,7 @@ gantt
     Sat Incremental       :done, 2025-01-11, 1d
 ```
 
-**Example:** **Polar Inc.** performs a full backup every Sunday night and incremental backups every other night. If the system fails on Thursday morning, the recovery process requires restoring Sunday's full backup and then applying Monday, Tuesday, and Wednesday's incremental backups — in order. If Polar Inc. used differential backups instead, it would only need Sunday's full backup and Wednesday's differential backup.
+**Example:** **Polar Inc.** performs a full backup every Sunday night and incremental backups every other night. If the system fails on Thursday morning, the recovery process requires restoring Sunday's full backup and then applying Monday, Tuesday, and Wednesday's incremental backups, in order. If Polar Inc. used differential backups instead, it would only need Sunday's full backup and Wednesday's differential backup.
 
 ### Recovery Considerations
 
@@ -162,7 +162,7 @@ When evaluating an organization's backup strategy, consider:
 
 :::caution
 
-The most common backup-related deficiency on the ISC exam is a mismatch between the organization's recovery objectives and its actual backup practices. If **Illini Security** claims an RPO of 1 hour but performs backups only once per day, that is a control deficiency — the backup strategy is not suitably designed to meet the stated objective.
+The most common backup-related deficiency on the ISC exam is a mismatch between the organization's recovery objectives and its actual backup practices. If **Illini Security** claims an RPO of 1 hour but performs backups only once per day, that is a control deficiency because the backup strategy is not suitably designed to meet the stated objective.
 
 :::
 
@@ -176,8 +176,8 @@ In a SOC 2® engagement, the auditor evaluates controls related to a service org
 
 The auditor considers:
 
-- **Suitability of design** — Are the controls designed to achieve the availability commitments? For example, does the organization have documented BCP/DRP procedures, adequate backup strategies, and monitoring tools to detect availability issues?
-- **Operating effectiveness** — Are the controls operating as designed? For example, are backups performed on schedule, are recovery tests conducted regularly, and are availability incidents investigated and resolved?
+- **Suitability of design**: Are the controls designed to achieve the availability commitments? For example, does the organization have documented BCP/DRP procedures, adequate backup strategies, and monitoring tools to detect availability issues?
+- **Operating effectiveness**: Are the controls operating as designed? For example, are backups performed on schedule, are recovery tests conducted regularly, and are availability incidents investigated and resolved?
 
 ### Common Availability Deficiencies
 
@@ -198,7 +198,7 @@ The auditor considers:
 | Mirroring and replication | Techniques for maintaining copies of data and systems to enable rapid failover |
 | Business impact analysis | Systematic process to identify critical functions and determine RTOs, RPOs, and resource requirements |
 | Availability measures | Quantitative metrics (uptime percentage, MTBF, MTTR) that track system availability |
-| Data backup types | Full, incremental, and differential backups — the choice affects backup time, storage, and recovery time |
+| Data backup types | Full, incremental, and differential backups; the choice affects backup time, storage, and recovery time |
 | SOC 2® availability controls | Controls must be suitably designed and operating effectively to meet availability commitments |
 
 ---
@@ -215,7 +215,7 @@ The auditor considers:
 
 1. Sunday's **full backup** and Thursday's **differential backup**. A differential backup captures all changes since the last full backup, so only the most recent differential is needed (not all the intermediate ones as with incremental backups).
 
-2. **Deficiency 1:** The RPO is 2 hours, but backups are performed only once daily (at midnight). This means up to 24 hours of data could be lost, far exceeding the 2-hour RPO. **Deficiency 2:** The DRP has not been tested in two years. Without regular testing, there is no assurance that the recovery process will work within the 8-hour RTO. (Storing backups in the same building is also a deficiency — a site-level disaster would destroy both the primary system and the backups.)
+2. **Deficiency 1:** The RPO is 2 hours, but backups are performed only once daily (at midnight). This means up to 24 hours of data could be lost, far exceeding the 2-hour RPO. **Deficiency 2:** The DRP has not been tested in two years. Without regular testing, there is no assurance that the recovery process will work within the 8-hour RTO. (Storing backups in the same building is also a deficiency, since a site-level disaster would destroy both the primary system and the backups.)
 
 3. This is an **operating deviation**. The disaster recovery control exists and was tested (the design is in place), but the test revealed that the control did not operate as intended (6 hours vs. the 2-hour target), and no corrective action was taken. The lack of remediation compounds the deficiency.
 

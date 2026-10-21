@@ -4,7 +4,7 @@
 
 :::info[Blueprint Coverage]
 
-This section maps to **BAR Area III, Group C, Topic 2 – Fund Balances and Components Thereof**. Representative tasks:
+This section maps to **BAR Area III, Group C, Topic 2: Fund Balances and Components Thereof**. Representative tasks:
 
 1. **Calculate** the fund balances (assigned, unassigned, nonspendable, committed and restricted) for state and local governments and prepare journal entries.
 
@@ -22,7 +22,7 @@ Fund balance is classified from **most constrained** to **least constrained**:
 | **Restricted** | External parties or legislation | Only for specified purpose | Federal grant requirements, state statute constraints, bond covenants |
 | **Committed** | Government's highest decision-making authority | Only for specified purpose (requires formal action to remove) | Council resolution committing funds for future capital project |
 | **Assigned** | Governing body or its designee | Intended for a specific purpose | City manager designates funds for technology upgrades |
-| **Unassigned** | No constraint | Yes — available for any purpose | Residual balance in the General Fund |
+| **Unassigned** | No constraint | Yes; available for any purpose | Residual balance in the General Fund |
 
 ```mermaid
 flowchart TD
@@ -54,7 +54,7 @@ Resources that are **not in spendable form** or are **legally or contractually r
 
 :::tip[Exam Tip]
 
-Nonspendable does not mean the resources can never be spent — it means they are not **currently** available for spending. When inventory is sold or prepaids expire, the constraint no longer applies.
+Nonspendable does not mean the resources can never be spent; it means they are not **currently** available for spending. When inventory is sold or prepaids expire, the constraint no longer applies.
 
 :::
 
@@ -78,15 +78,15 @@ Resources constrained by **formal action** of the government's **highest level o
 
 ### Assigned Fund Balance
 
-Resources intended for a specific purpose by the **governing body** or a **body or official authorized by the governing body** (e.g., city manager, finance director). Less formal than committed — does not require a resolution.
+Resources intended for a specific purpose by the **governing body** or a **body or official authorized by the governing body** (e.g., city manager, finance director). Less formal than committed; does not require a resolution.
 
 ### Unassigned Fund Balance
 
-The **residual** classification for the General Fund — amounts not classified in any other category. Represents the most flexible resources available.
+The **residual** classification for the General Fund: amounts not classified in any other category. Represents the most flexible resources available.
 
 :::warning[Critical Rule]
 
-Only the **General Fund** can report a **positive** unassigned fund balance. Other governmental funds (special revenue, capital projects, debt service, permanent) can only report a **negative** unassigned balance — which occurs when restricted or committed resources have been overspent.
+Only the **General Fund** can report a **positive** unassigned fund balance. Other governmental funds (special revenue, capital projects, debt service, permanent) can only report a **negative** unassigned balance, which occurs when restricted or committed resources have been overspent.
 
 :::
 
@@ -145,15 +145,15 @@ Stabilization amounts should **not** be presented as unassigned unless no constr
 
 ## Journal Entries for Fund Balance Reclassification
 
-Fund balance reclassifications do not involve revenues or expenditures — they are equity-to-equity entries.
+Fund balance reclassifications do not involve revenues or expenditures; they are equity-to-equity entries.
 
 ### Committing Fund Balance
 
 The city council passes a resolution committing \$500,000 for a future park renovation:
 
 ```journal
-Dr. Fund Balance – Unassigned[e] 500,000
-    Cr. Fund Balance – Committed[e] 500,000
+Dr. Fund Balance (Unassigned)[e] 500,000
+    Cr. Fund Balance (Committed)[e] 500,000
 ```
 
 ### Assigning Fund Balance
@@ -161,8 +161,8 @@ Dr. Fund Balance – Unassigned[e] 500,000
 The finance director designates \$200,000 for technology upgrades next year:
 
 ```journal
-Dr. Fund Balance – Unassigned[e] 200,000
-    Cr. Fund Balance – Assigned[e] 200,000
+Dr. Fund Balance (Unassigned)[e] 200,000
+    Cr. Fund Balance (Assigned)[e] 200,000
 ```
 
 ### Removing a Commitment
@@ -170,8 +170,8 @@ Dr. Fund Balance – Unassigned[e] 200,000
 The council rescinds the park renovation commitment:
 
 ```journal
-Dr. Fund Balance – Committed[e] 500,000
-    Cr. Fund Balance – Unassigned[e] 500,000
+Dr. Fund Balance (Committed)[e] 500,000
+    Cr. Fund Balance (Unassigned)[e] 500,000
 ```
 
 ### Recording Nonspendable Fund Balance for Inventory
@@ -179,13 +179,13 @@ Dr. Fund Balance – Committed[e] 500,000
 At year-end, the government has \$75,000 of supplies inventory (consumption method):
 
 ```journal
-Dr. Fund Balance – Unassigned[e] 75,000
-    Cr. Fund Balance – Nonspendable[e] 75,000
+Dr. Fund Balance (Unassigned)[e] 75,000
+    Cr. Fund Balance (Nonspendable)[e] 75,000
 ```
 
 :::warning[Important]
 
-Fund balance reclassification entries are typically made at year-end as part of the closing process. They do **not** affect the total fund balance — they only change its composition among the five categories.
+Fund balance reclassification entries are typically made at year-end as part of the closing process. They do **not** affect the total fund balance; they only change its composition among the five categories.
 
 :::
 
@@ -193,7 +193,7 @@ Fund balance reclassification entries are typically made at year-end as part of 
 
 ## Comprehensive Numerical Example
 
-**Maple Township General Fund — Fund Balance Classification at June 30, 20X5**
+**Maple Township General Fund: Fund Balance Classification at June 30, 20X5**
 
 Given the following information, classify the total fund balance of \$4,200,000:
 
@@ -213,9 +213,9 @@ Given the following information, classify the total fund balance of \$4,200,000:
 |---|---|---|
 | **Nonspendable** | Inventory (\$90,000) + Prepaid (\$35,000) | **\$125,000** |
 | **Restricted** | State road grant (\$600,000) + Federal grant (\$280,000) | **\$880,000** |
-| **Committed** | Council resolution – fire station | **\$1,000,000** |
-| **Assigned** | Manager designation – IT systems | **\$350,000** |
-| **Unassigned** | \$4,200,000 – \$125,000 – \$880,000 – \$1,000,000 – \$350,000 | **\$1,845,000** |
+| **Committed** | Council resolution for fire station | **\$1,000,000** |
+| **Assigned** | Manager designation for IT systems | **\$350,000** |
+| **Unassigned** | \$4,200,000 - \$125,000 - \$880,000 - \$1,000,000 - \$350,000 | **\$1,845,000** |
 | **Total fund balance** | | **\$4,200,000** |
 
 **Verification:**
@@ -254,6 +254,6 @@ The reconciliation from total governmental fund balances to governmental activit
 
 :::tip[Exam Tip]
 
-A three-step approach for fund balance questions: (1) Identify the **total** fund balance. (2) Pull out **nonspendable** amounts first (not in spendable form). (3) Classify the remaining spendable amounts based on the source and strength of the constraint (restricted → committed → assigned → unassigned residual).
+A three-step approach for fund balance questions: (1) Identify the **total** fund balance. (2) Pull out **nonspendable** amounts first (not in spendable form). (3) Classify the remaining spendable amounts based on the source and strength of the constraint (restricted, then committed, then assigned, with unassigned as the residual).
 
 :::

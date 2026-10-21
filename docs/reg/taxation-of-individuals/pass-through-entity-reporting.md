@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A significant portion of U.S. business income flows through **pass-through entities** — partnerships, S corporations, LLCs, and sole proprietorships — rather than being taxed at the entity level. Under the pass-through model, the entity itself generally pays no federal income tax; instead, income, deductions, gains, losses, and credits **pass through** to the owners and are reported on their individual returns. The key governing provisions include **IRC §701–§761** (partnerships), **IRC §1361–§1379** (S corporations), and **IRC §301.7701-3** (entity classification / disregarded entities).
+A significant portion of U.S. business income flows through **pass-through entities** (partnerships, S corporations, LLCs, and sole proprietorships) rather than being taxed at the entity level. Under the pass-through model, the entity itself generally pays no federal income tax; instead, income, deductions, gains, losses, and credits **pass through** to the owners and are reported on their individual returns. The key governing provisions include **IRC §701 through §761** (partnerships), **IRC §1361 through §1379** (S corporations), and **IRC §301.7701-3** (entity classification / disregarded entities).
 
 Understanding how to read a **Schedule K-1** and correctly map each item to the appropriate schedule on **Form 1040** is a core skill tested on the CPA exam.
 
@@ -66,9 +66,9 @@ Each separately stated item flows to the **specific** Form 1040 schedule that go
 | Dividend income (ordinary and qualified) | **Schedule B** |
 | Short-term capital gains/losses | **Schedule D** (and Form 8949) |
 | Long-term capital gains/losses | **Schedule D** (and Form 8949) |
-| Section 1231 gains/losses | **Form 4797** → Schedule D |
+| Section 1231 gains/losses | **Form 4797**, then Schedule D |
 | Charitable contributions | **Schedule A** (if itemizing) |
-| Section 179 deduction | **Form 4562** → applicable schedule |
+| Section 179 deduction | **Form 4562**, then the applicable schedule |
 | Foreign tax credit | **Form 1116** |
 | Tax-exempt interest | **Form 1040, Line 2a** (informational; not taxed) |
 | Self-employment income | **Schedule SE** |
@@ -77,7 +77,7 @@ Each separately stated item flows to the **specific** Form 1040 schedule that go
 
 :::tip[Exam Tip]
 
-**Tax-exempt income** from a pass-through entity retains its character on the individual return — it is not taxed but **does increase the owner's basis** in the entity. Watch for this on exam questions about basis adjustments.
+**Tax-exempt income** from a pass-through entity retains its character on the individual return: it is not taxed but **does increase the owner's basis** in the entity. Watch for this on exam questions about basis adjustments.
 
 :::
 
@@ -113,7 +113,7 @@ Under **IRC §707(c)**, a guaranteed payment is a payment to a partner for **ser
 
 :::warning
 
-Guaranteed payments are subject to **self-employment tax** in full, regardless of the partner's participation level. This is a common exam trap — students often forget that guaranteed payments are always SE income.
+Guaranteed payments are subject to **self-employment tax** in full, regardless of the partner's participation level. This is a common exam trap; students often forget that guaranteed payments are always SE income.
 
 :::
 
@@ -124,8 +124,8 @@ Guaranteed payments are subject to **self-employment tax** in full, regardless o
 | Entity Type | SE Tax Treatment |
 |---|---|
 | **Sole proprietorship / disregarded entity** | All net profit on Schedule C is SE income |
-| **Partnership — general partner** | Ordinary income + guaranteed payments = SE income |
-| **Partnership — limited partner** | Only guaranteed payments for services are SE income (IRC §1402(a)(13)) |
+| **Partnership (general partner)** | Ordinary income + guaranteed payments = SE income |
+| **Partnership (limited partner)** | Only guaranteed payments for services are SE income (IRC §1402(a)(13)) |
 | **S corporation** | S corp income is **not** SE income; however, shareholder-employees must take **reasonable compensation** (W-2 wages subject to payroll taxes) |
 
 :::caution
@@ -136,7 +136,7 @@ The IRS closely scrutinizes S corporation shareholder-employees who pay themselv
 
 ---
 
-## Disregarded Entities — Schedule C Reporting
+## Disregarded Entities: Schedule C Reporting
 
 A single-member LLC that has not elected to be taxed as a corporation is a **disregarded entity** under Reg. §301.7701-3. The owner reports all income and expenses on **Schedule C** (or Schedule E for rental activities).
 
@@ -145,7 +145,7 @@ A single-member LLC that has not elected to be taxed as a corporation is a **dis
 | Gross receipts | Schedule C, Line 1 |
 | Cost of goods sold | Schedule C, Line 4 |
 | Business expenses | Schedule C, Part II |
-| Net profit (loss) | Schedule C, Line 31 → Form 1040, Schedule 1 |
+| Net profit (loss) | Schedule C, Line 31 (flows to Form 1040, Schedule 1) |
 | Self-employment tax | Schedule SE |
 
 > **Example:** Polar Co. consultant Maria operates as a single-member LLC. She earns \$150,000 in consulting revenue and incurs \$30,000 in deductible expenses. Maria reports \$120,000 net profit on Schedule C and pays self-employment tax on this amount via Schedule SE.

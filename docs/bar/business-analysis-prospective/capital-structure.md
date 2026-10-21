@@ -42,7 +42,7 @@ $$
 
 Where $k_d$ is the after-tax cost of debt, $r_d$ is the pre-tax interest rate, and $T$ is the marginal tax rate.
 
-**Example — Bear Co.:** Bear Co. issues bonds at a 6% coupon rate. Its marginal tax rate is 25%.
+**Example (Bear Co.):** Bear Co. issues bonds at a 6% coupon rate. Its marginal tax rate is 25%.
 
 $$
 k_d = 0.06 \times (1 - 0.25) = 0.045 = 4.5\%
@@ -60,7 +60,7 @@ $$
 
 Where $R_f$ is the risk-free rate, $\beta$ (beta) measures systematic risk, and $R_m - R_f$ is the market risk premium.
 
-**Example — Bear Co.:** The risk-free rate is 3%, Bear Co.'s beta is 1.2, and the market risk premium is 7%.
+**Example (Bear Co.):** The risk-free rate is 3%, Bear Co.'s beta is 1.2, and the market risk premium is 7%.
 
 $$
 k_e = 0.03 + 1.2 \times 0.07 = 0.03 + 0.084 = 0.114 = 11.4\%
@@ -74,7 +74,7 @@ $$
 
 Where $D_1$ is the expected dividend next year, $P_0$ is the current stock price, and $g$ is the constant dividend growth rate.
 
-**Example — Polar Inc.:** Polar Inc. stock trades at $50 per share. It expects to pay a dividend of $2.50 next year, and dividends are expected to grow at 4% per year.
+**Example (Polar Inc.):** Polar Inc. stock trades at \$50 per share. It expects to pay a dividend of \$2.50 next year, and dividends are expected to grow at 4% per year.
 
 $$
 k_e = \frac{2.50}{50} + 0.04 = 0.05 + 0.04 = 0.09 = 9.0\%
@@ -106,16 +106,16 @@ The CPA exam typically uses **market value weights** unless the question specifi
 
 ---
 
-## Worked WACC Example — Kingfisher Industries
+## Worked WACC Example: Kingfisher Industries
 
 Kingfisher Industries has the following capital structure at market value:
 
 | Component | Market Value | Weight | Cost |
 |---|---|---|---|
-| Debt | $4,000,000 | 40% | 5.0% (after-tax) |
-| Preferred Stock | $1,000,000 | 10% | 7.0% |
-| Common Equity | $5,000,000 | 50% | 12.0% |
-| **Total** | **$10,000,000** | **100%** | |
+| Debt | \$4,000,000 | 40% | 5.0% (after-tax) |
+| Preferred Stock | \$1,000,000 | 10% | 7.0% |
+| Common Equity | \$5,000,000 | 50% | 12.0% |
+| **Total** | **\$10,000,000** | **100%** | |
 
 $$
 WACC = (0.40 \times 0.05) + (0.10 \times 0.07) + (0.50 \times 0.12)
@@ -159,12 +159,12 @@ $$
 DTL = DOL \times DFL = \frac{\text{Contribution Margin}}{\text{EBIT} - \text{Interest Expense}}
 $$
 
-**Example — Illini Entertainment:** Illini Entertainment has a contribution margin of $600,000, EBIT of $200,000, and interest expense of $50,000.
+**Example (Illini Entertainment):** Illini Entertainment has a contribution margin of \$600,000, EBIT of \$200,000, and interest expense of \$50,000.
 
 | Measure | Calculation | Result |
 |---|---|---|
-| DOL | $600,000 / $200,000 | 3.0x |
-| DFL | $200,000 / ($200,000 − $50,000) | 1.33x |
+| DOL | \$600,000 / \$200,000 | 3.0x |
+| DFL | \$200,000 / (\$200,000 - \$50,000) | 1.33x |
 | DTL | 3.0 × 1.33 | 4.0x |
 
 A DTL of 4.0x means that a **1% increase in sales** would produce approximately a **4% increase in EPS**, and vice versa.
@@ -188,26 +188,26 @@ These ratios help analysts and lenders assess the risk embedded in a company's c
 | Equity Multiplier | Total Assets / Total Equity | Reflects the degree of asset leverage |
 | Times Interest Earned | EBIT / Interest Expense | Ability to cover interest obligations |
 
-**Example — BIF Partners:** BIF Partners has total debt of $3,000,000, total equity of $5,000,000, total assets of $8,000,000, EBIT of $1,200,000, and interest expense of $240,000.
+**Example (BIF Partners):** BIF Partners has total debt of \$3,000,000, total equity of \$5,000,000, total assets of \$8,000,000, EBIT of \$1,200,000, and interest expense of \$240,000.
 
 | Ratio | Calculation | Result |
 |---|---|---|
-| Debt-to-Equity | $3,000,000 / $5,000,000 | 0.60 |
-| Debt-to-Total Capital | $3,000,000 / $8,000,000 | 0.375 |
-| Equity Multiplier | $8,000,000 / $5,000,000 | 1.60 |
-| Times Interest Earned | $1,200,000 / $240,000 | 5.0x |
+| Debt-to-Equity | \$3,000,000 / \$5,000,000 | 0.60 |
+| Debt-to-Total Capital | \$3,000,000 / \$8,000,000 | 0.375 |
+| Equity Multiplier | \$8,000,000 / \$5,000,000 | 1.60 |
+| Times Interest Earned | \$1,200,000 / \$240,000 | 5.0x |
 
 ---
 
 ## Liquidity Considerations
 
-Changes in capital structure can significantly affect a company's **liquidity** — its ability to meet short-term obligations.
+Changes in capital structure can significantly affect a company's **liquidity**, its ability to meet short-term obligations.
 
 | Ratio | Formula | Benchmark |
 |---|---|---|
-| Working Capital | Current Assets − Current Liabilities | Positive is generally preferred |
+| Working Capital | Current Assets - Current Liabilities | Positive is generally preferred |
 | Current Ratio | Current Assets / Current Liabilities | Typically > 1.0 |
-| Quick Ratio | (Cash + Short-term Investments + Receivables) / Current Liabilities | Typically > 0.5–1.0 |
+| Quick Ratio | (Cash + Short-term Investments + Receivables) / Current Liabilities | Typically > 0.5 to 1.0 |
 
 :::caution[Capital Structure and Liquidity Linkage]
 
@@ -240,10 +240,10 @@ Loan covenants are contractual restrictions lenders impose on borrowers to prote
 
 A covenant breach (technical default) can trigger severe consequences:
 
-1. **Acceleration of debt** — the full balance becomes due immediately
-2. **Increased interest rates** — penalty rate provisions
-3. **Loss of borrowing capacity** — lenders may freeze credit lines
-4. **Reclassification of debt** — long-term debt is reclassified as current on the balance sheet, severely impacting liquidity ratios
+1. **Acceleration of debt**: the full balance becomes due immediately
+2. **Increased interest rates**: penalty rate provisions
+3. **Loss of borrowing capacity**: lenders may freeze credit lines
+4. **Reclassification of debt**: long-term debt is reclassified as current on the balance sheet, severely impacting liquidity ratios
 
 :::warning[Financial Statement Impact]
 
@@ -278,14 +278,14 @@ Convertible bonds or convertible preferred stock offer a **hybrid** strategy:
 
 ### Choosing the Right Strategy
 
-**Example — Illini Security** needs to raise $2,000,000 for expansion. Consider two scenarios:
+**Example:** Illini Security needs to raise \$2,000,000 for expansion. Consider two scenarios:
 
 | Scenario | Method | Shares Outstanding | EBIT | Interest | Tax (25%) | Net Income | EPS |
 |---|---|---|---|---|---|---|---|
-| A | Issue Debt at 6% | 500,000 | $800,000 | $120,000 | $170,000 | $510,000 | $1.02 |
-| B | Issue 100,000 shares at $20 | 600,000 | $800,000 | $0 | $200,000 | $600,000 | $1.00 |
+| A | Issue Debt at 6% | 500,000 | \$800,000 | \$120,000 | \$170,000 | \$510,000 | \$1.02 |
+| B | Issue 100,000 shares at \$20 | 600,000 | \$800,000 | \$0 | \$200,000 | \$600,000 | \$1.00 |
 
-Scenario A (debt) produces higher EPS ($1.02 vs. $1.00) because the after-tax cost of debt (4.5%) is less than the earnings yield. However, Scenario A also increases financial risk and may tighten covenant ratios.
+Scenario A (debt) produces higher EPS (\$1.02 vs. \$1.00) because the after-tax cost of debt (4.5%) is less than the earnings yield. However, Scenario A also increases financial risk and may tighten covenant ratios.
 
 ---
 
@@ -297,9 +297,9 @@ Different financing choices flow through the financial statements in distinct wa
 
 | Transaction | Assets | Liabilities | Equity |
 |---|---|---|---|
-| Issue bonds for cash | ↑ Cash | ↑ Bonds Payable | No change |
-| Issue common stock for cash | ↑ Cash | No change | ↑ Common Stock & APIC |
-| Use retained earnings | No change | No change | ↓ Retained Earnings (if dividends paid) |
+| Issue bonds for cash | Cash increases | Bonds Payable increases | No change |
+| Issue common stock for cash | Cash increases | No change | Common Stock & APIC increase |
+| Use retained earnings | No change | No change | Retained Earnings decreases (if dividends paid) |
 
 ### Income Statement and EPS Effects
 
@@ -343,10 +343,10 @@ The CPA exam does not require complex M&M calculations. Focus on understanding t
 :::tip[Capital Structure Exam Strategies]
 
 1. **WACC calculations** are high-frequency exam questions. Memorize the formula and practice computing each component cost.
-2. **After-tax cost of debt** — always multiply the interest rate by $(1 - T)$. The exam will penalize you for forgetting the tax adjustment.
-3. **Leverage ratios** — know which direction each ratio moves when debt is added or equity is issued. Think through the numerator and denominator.
-4. **Covenant violations** — remember that breached covenants can force reclassification of long-term debt to current, dramatically affecting the balance sheet.
-5. **EPS analysis** — when comparing debt vs. equity financing, calculate EPS under each scenario. Debt increases EPS when return on assets exceeds the after-tax cost of debt.
-6. **CAPM vs. Dividend Growth Model** — the exam may give you data suited for one model. If you have beta and market data, use CAPM. If you have dividends and a growth rate, use the Gordon Growth Model.
+2. **After-tax cost of debt**: always multiply the interest rate by $(1 - T)$. The exam will penalize you for forgetting the tax adjustment.
+3. **Leverage ratios**: know which direction each ratio moves when debt is added or equity is issued. Think through the numerator and denominator.
+4. **Covenant violations**: remember that breached covenants can force reclassification of long-term debt to current, dramatically affecting the balance sheet.
+5. **EPS analysis**: when comparing debt vs. equity financing, calculate EPS under each scenario. Debt increases EPS when return on assets exceeds the after-tax cost of debt.
+6. **CAPM vs. Dividend Growth Model**: the exam may give you data suited for one model. If you have beta and market data, use CAPM. If you have dividends and a growth rate, use the Gordon Growth Model.
 
 :::

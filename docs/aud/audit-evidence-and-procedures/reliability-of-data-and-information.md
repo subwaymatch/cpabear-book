@@ -1,6 +1,6 @@
 # Reliability of Data and Information
 
-Auditors rely on data and information throughout every phase of an engagement—from risk assessment through forming an opinion. But audit evidence is only as strong as the data that underlies it. Before using any data to support audit conclusions, the auditor must perform procedures to assess whether that data is **sufficiently reliable** for its intended purpose. This topic is central to the 2026 AUD blueprint (III.A.2) and intersects with audit data analytics, substantive testing, and IT controls.
+Auditors rely on data and information throughout every phase of an engagement, from risk assessment through forming an opinion. But audit evidence is only as strong as the data that underlies it. Before using any data to support audit conclusions, the auditor must perform procedures to assess whether that data is **sufficiently reliable** for its intended purpose. This topic is central to the 2026 AUD blueprint (III.A.2) and intersects with audit data analytics, substantive testing, and IT controls.
 
 ---
 
@@ -10,7 +10,7 @@ An auditor who builds a beautiful regression model or performs a comprehensive d
 
 :::info[Key Principle]
 
-The reliability of audit evidence depends on its **source**, **nature**, and the **circumstances** under which it is obtained. Data generated internally by the entity is generally less reliable than data obtained from independent external sources—unless the entity's internal controls over that data are effective.
+The reliability of audit evidence depends on its **source**, **nature**, and the **circumstances** under which it is obtained. Data generated internally by the entity is generally less reliable than data obtained from independent external sources, unless the entity's internal controls over that data are effective.
 
 :::
 
@@ -23,7 +23,7 @@ Before using data as audit evidence, the auditor evaluates four key attributes. 
 | Attribute | Definition | What the Auditor Asks |
 |---|---|---|
 | **Completeness** | The data set includes all transactions, events, or items for the relevant period or population | Are there missing records? Do date ranges cover the full period? Are there sequence gaps? |
-| **Accuracy** | Data fields contain correct values—amounts, dates, descriptions, and classifications match the underlying economic events | Do extracted totals tie to source system control totals? Do sample items match original documents? |
+| **Accuracy** | Data fields contain correct values: amounts, dates, descriptions, and classifications match the underlying economic events | Do extracted totals tie to source system control totals? Do sample items match original documents? |
 | **Authenticity** | The data is what it purports to be and has not been altered, fabricated, or tampered with since origination | Can the auditor trace the data to its original source? Are there audit trails and access controls? |
 | **Susceptibility to management bias** | The degree to which management could intentionally or unintentionally influence the data | Did management select the data set? Could management have filtered, adjusted, or excluded records? |
 
@@ -42,13 +42,13 @@ The source of data significantly affects its reliability. Auditors must consider
 | Factor | Internal Source | External Source |
 |---|---|---|
 | **Examples** | General ledger extracts, subledger reports, ERP transaction files, management-prepared schedules | Bank statements, vendor confirmations, government databases, market price feeds, credit agency reports |
-| **Independence from management** | Low — management controls the systems and processes that generate the data | High — data is produced by parties independent of the entity |
+| **Independence from management** | Low: management controls the systems and processes that generate the data | High: data is produced by parties independent of the entity |
 | **General reliability** | Lower, unless supported by effective internal controls | Higher, due to independence from management |
 | **Key auditor procedures** | Test IT general controls, reconcile to control totals, trace samples to source documents | Verify the source's reputation, assess potential for interception or alteration, confirm direct receipt |
 
 :::info[Example]
 
-While auditing **Bear Co.**, the engagement team needs accounts receivable aging data to evaluate the allowance for doubtful accounts. Management provides an aging report exported from the ERP system. The auditor cannot simply accept this report at face value. Instead, the team reconciles the aging report total to the general ledger A/R balance, tests a sample of individual invoices back to original sales orders and shipping documents, and evaluates IT general controls over the billing module. In contrast, the auditor also obtains a credit report on Bear Co.'s largest customer from an independent credit agency—this external data requires less extensive reliability testing because it was generated independently of management.
+While auditing **Bear Co.**, the engagement team needs accounts receivable aging data to evaluate the allowance for doubtful accounts. Management provides an aging report exported from the ERP system. The auditor cannot simply accept this report at face value. Instead, the team reconciles the aging report total to the general ledger A/R balance, tests a sample of individual invoices back to original sales orders and shipping documents, and evaluates IT general controls over the billing module. In contrast, the auditor also obtains a credit report on Bear Co.'s largest customer from an independent credit agency. This external data requires less extensive reliability testing because it was generated independently of management.
 
 :::
 
@@ -68,7 +68,7 @@ The most direct way to validate data reliability is to **trace information back 
 
 :::tip
 
-When tracing to source documents, select items that are **representative of the population** and include items from different time periods, transaction types, and dollar ranges. Also consider selecting items specifically identified as high-risk—such as large or unusual transactions—to ensure the data is reliable in the areas that matter most.
+When tracing to source documents, select items that are **representative of the population** and include items from different time periods, transaction types, and dollar ranges. Also consider selecting items specifically identified as high-risk (such as large or unusual transactions) to ensure the data is reliable in the areas that matter most.
 
 :::
 
@@ -85,7 +85,7 @@ When data is obtained through a query, report, or search function, the auditor m
 
 :::info[Example]
 
-The audit team at **Bear Co.** requests a listing of all journal entries posted during the year with amounts exceeding \$50,000. Management's IT department runs a query against the ERP system and provides the results. Before using this data for journal entry testing, the auditor reviews the query parameters and discovers that the query only captured entries posted to the "Operating" ledger, excluding entries posted to the "Adjusting" and "Closing" ledgers. The auditor requests a revised extract that includes all ledger types—a step that adds 23 journal entries totaling \$1.8 million that would have otherwise been excluded from testing.
+The audit team at **Bear Co.** requests a listing of all journal entries posted during the year with amounts exceeding \$50,000. Management's IT department runs a query against the ERP system and provides the results. Before using this data for journal entry testing, the auditor reviews the query parameters and discovers that the query only captured entries posted to the "Operating" ledger, excluding entries posted to the "Adjusting" and "Closing" ledgers. The auditor requests a revised extract that includes all ledger types, a step that adds 23 journal entries totaling \$1.8 million that would have otherwise been excluded from testing.
 
 :::
 
@@ -97,11 +97,11 @@ Reconciling extracted data to **control totals** from the source system is a fun
 
 1. Compare the **total dollar amount** of the extracted data to the corresponding general ledger account balance or trial balance total
 2. Compare the **record count** in the extracted file to the transaction count reported by the source system
-3. Investigate any differences, no matter how small—even rounding differences can indicate extraction errors
+3. Investigate any differences, no matter how small; even rounding differences can indicate extraction errors
 
 :::info[Example]
 
-**Polar Inc.**'s auditor extracts all 14,832 payroll transactions for the year from the HR/payroll system. The auditor compares the sum of gross pay in the extract (\$28,441,206) to the total payroll expense per the general ledger (\$28,441,206). The record count also agrees. This reconciliation provides evidence that the extraction is complete and accurate—at least at the aggregate level.
+**Polar Inc.**'s auditor extracts all 14,832 payroll transactions for the year from the HR/payroll system. The auditor compares the sum of gross pay in the extract (\$28,441,206) to the total payroll expense per the general ledger (\$28,441,206). The record count also agrees. This reconciliation provides evidence that the extraction is complete and accurate, at least at the aggregate level.
 
 :::
 
@@ -118,7 +118,7 @@ Even when totals reconcile, the auditor performs additional procedures to test t
 
 :::caution
 
-Sequence gap analysis is particularly important for auditing revenue. If **Grizzly Industries** uses pre-numbered invoices (Invoice #10001 through #10847), the auditor should verify that all 847 invoices appear in the extracted data. A gap—say, invoices #10512 through #10519 are missing—could indicate unrecorded sales, voided transactions that were not properly documented, or data extraction errors.
+Sequence gap analysis is particularly important for auditing revenue. If **Grizzly Industries** uses pre-numbered invoices (Invoice #10001 through #10847), the auditor should verify that all 847 invoices appear in the extracted data. A gap (say, invoices #10512 through #10519 are missing) could indicate unrecorded sales, voided transactions that were not properly documented, or data extraction errors.
 
 :::
 
@@ -128,10 +128,10 @@ Beyond aggregate-level reconciliation, the auditor selects **individual items** 
 
 **This procedure serves two purposes:**
 
-1. **Validates accuracy** — Confirms that the data fields (amounts, dates, descriptions) in the extract match the source
-2. **Validates authenticity** — Confirms that the transactions actually occurred and are supported by legitimate documentation
+1. **Validates accuracy**: Confirms that the data fields (amounts, dates, descriptions) in the extract match the source
+2. **Validates authenticity**: Confirms that the transactions actually occurred and are supported by legitimate documentation
 
-The sample should be drawn using a method appropriate to the audit objective—random selection, stratified sampling, or targeted selection of high-risk items.
+The sample should be drawn using a method appropriate to the audit objective: random selection, stratified sampling, or targeted selection of high-risk items.
 
 ---
 
@@ -141,7 +141,7 @@ The reliability of electronically generated data is directly linked to the **eff
 
 | ITGC Category | Relevance to Data Reliability |
 |---|---|
-| **Access controls** | Restrict who can create, modify, or delete data—reducing the risk of unauthorized changes |
+| **Access controls** | Restrict who can create, modify, or delete data, reducing the risk of unauthorized changes |
 | **Change management** | Ensure that system changes (patches, upgrades, configuration changes) do not corrupt data or alter processing logic |
 | **Computer operations** | Ensure that batch jobs, data transfers, and backups run correctly and completely |
 | **Program development** | Ensure that new applications are properly tested before deployment |
@@ -162,7 +162,7 @@ If ITGCs are **deficient**, the auditor cannot place the same level of reliance 
 
 ## Considerations for Data Prepared Using Technology and AI
 
-Advances in technology—including artificial intelligence (AI), robotic process automation (RPA), and machine learning—have changed how entities generate, process, and report financial data. The auditor must consider how these technologies affect data reliability.
+Advances in technology, including artificial intelligence (AI), robotic process automation (RPA), and machine learning, have changed how entities generate, process, and report financial data. The auditor must consider how these technologies affect data reliability.
 
 ### Key Considerations
 
@@ -176,18 +176,18 @@ Advances in technology—including artificial intelligence (AI), robotic process
 
 :::warning
 
-When **Honey Entertainment** uses an AI-powered tool to estimate its expected credit loss reserve, the auditor cannot simply accept the AI's output as reliable audit evidence. The auditor must understand the model's inputs (historical loss data, economic forecasts), evaluate the model's methodology (what machine learning algorithm is used, how was it trained), test the model's output against independent expectations, and consider whether management could have manipulated the model's parameters to achieve a desired result. AI-generated data requires the **same level of professional skepticism** as any other management-generated data—if not more.
+When **Honey Entertainment** uses an AI-powered tool to estimate its expected credit loss reserve, the auditor cannot simply accept the AI's output as reliable audit evidence. The auditor must understand the model's inputs (historical loss data, economic forecasts), evaluate the model's methodology (what machine learning algorithm is used, how was it trained), test the model's output against independent expectations, and consider whether management could have manipulated the model's parameters to achieve a desired result. AI-generated data requires the **same level of professional skepticism** as any other management-generated data, if not more.
 
 :::
 
 ### Procedures for Technology-Generated Data
 
-1. **Understand the technology** — Obtain a description of the system, algorithm, or tool used to generate the data
-2. **Evaluate input data** — Apply the same reliability procedures to the data fed into the technology as to any other audit data
-3. **Test processing logic** — Where possible, independently verify the calculations or transformations performed by the technology
-4. **Assess controls** — Evaluate ITGCs and application controls over the technology, including access controls, change management, and monitoring
-5. **Compare outputs** — Reconcile the technology's output to independent expectations or alternative data sources
-6. **Engage specialists** — If the technology is complex (e.g., a neural network model), consider involving an IT audit specialist or data scientist
+1. **Understand the technology**: Obtain a description of the system, algorithm, or tool used to generate the data
+2. **Evaluate input data**: Apply the same reliability procedures to the data fed into the technology as to any other audit data
+3. **Test processing logic**: Where possible, independently verify the calculations or transformations performed by the technology
+4. **Assess controls**: Evaluate ITGCs and application controls over the technology, including access controls, change management, and monitoring
+5. **Compare outputs**: Reconcile the technology's output to independent expectations or alternative data sources
+6. **Engage specialists**: If the technology is complex (e.g., a neural network model), consider involving an IT audit specialist or data scientist
 
 ---
 
@@ -200,12 +200,12 @@ Reliability of data and information is **foundational** to audit data analytics 
 | **Plan** | Identify what data is needed and consider potential reliability issues upfront |
 | **Access data** | Obtain the data and assess its source, completeness, and integrity |
 | **Review and prepare data** | Validate the data using reconciliation, completeness testing, and sample tracing |
-| **Perform the analysis** | The analysis is only as good as the data—reliability issues can produce false positives or mask real misstatements |
+| **Perform the analysis** | The analysis is only as good as the data; reliability issues can produce false positives or mask real misstatements |
 | **Evaluate results** | Consider whether data reliability issues could explain anomalies before concluding on audit implications |
 
 :::tip
 
-Think of data reliability assessment as a **prerequisite** to any ADA. If the auditor skips or shortcuts the reliability evaluation, the entire analysis is undermined—no matter how sophisticated the analytical technique. On the CPA exam, look for answer choices that emphasize validating data **before** performing the analysis.
+Think of data reliability assessment as a **prerequisite** to any ADA. If the auditor skips or shortcuts the reliability evaluation, the entire analysis is undermined, no matter how sophisticated the analytical technique. On the CPA exam, look for answer choices that emphasize validating data **before** performing the analysis.
 
 :::
 
@@ -224,4 +224,4 @@ Think of data reliability assessment as a **prerequisite** to any ADA. If the au
 | **Completeness testing** | Check record counts, date ranges, sequence gaps, and cross-references |
 | **IT general controls** | Strong ITGCs increase confidence in data from electronic systems; weak ITGCs require compensating procedures |
 | **AI and technology** | Apply the same skepticism to AI-generated data; understand inputs, logic, and controls |
-| **Link to ADAs** | Data reliability assessment is a prerequisite to every audit data analytic—validate data before analyzing it |
+| **Link to ADAs** | Data reliability assessment is a prerequisite to every audit data analytic; validate data before analyzing it |

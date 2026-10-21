@@ -1,6 +1,6 @@
 # Engagement Documentation
 
-Engagement documentation—commonly referred to as **workpapers**—is the written record of the audit procedures performed, the evidence obtained, and the conclusions reached during an engagement. Proper documentation is not just a best practice; it is a professional requirement that serves as the principal support for the auditor's report and provides evidence that the audit was planned and performed in accordance with professional standards.
+Engagement documentation, commonly referred to as **workpapers**, is the written record of the audit procedures performed, the evidence obtained, and the conclusions reached during an engagement. Proper documentation is not just a best practice; it is a professional requirement that serves as the principal support for the auditor's report and provides evidence that the audit was planned and performed in accordance with professional standards.
 
 This section covers the **purpose and elements** of sufficient appropriate documentation, **assembly and retention** requirements, the **documentation completion date**, **changes after the completion date**, and key differences between **PCAOB** and **AICPA** requirements.
 
@@ -44,7 +44,7 @@ Beyond supporting the audit opinion, documentation serves several other importan
 
 ## Elements of Sufficient Appropriate Documentation
 
-Audit documentation can take many forms—physical (paper) or electronic (digital workpapers). Regardless of form, the documentation must be sufficient and appropriate to meet the "experienced auditor" standard described above.
+Audit documentation can take many forms: physical (paper) or electronic (digital workpapers). Regardless of form, the documentation must be sufficient and appropriate to meet the "experienced auditor" standard described above.
 
 ### Common Forms of Documentation
 
@@ -63,10 +63,10 @@ Audit documentation can take many forms—physical (paper) or electronic (digita
 
 At a minimum, audit documentation should include:
 
-1. **Identification of the items tested** — What specifically was selected for testing (e.g., invoice numbers, customer names, transaction dates)
-2. **Who performed the work and when** — The preparer's initials or identifier and the date of completion
-3. **Who reviewed the work and when** — The reviewer's initials or identifier and the date of review
-4. **The auditor's conclusions** — A clear statement of the conclusion reached for each area of the audit
+1. **Identification of the items tested**: What specifically was selected for testing (e.g., invoice numbers, customer names, transaction dates)
+2. **Who performed the work and when**: The preparer's initials or identifier and the date of completion
+3. **Who reviewed the work and when**: The reviewer's initials or identifier and the date of review
+4. **The auditor's conclusions**: A clear statement of the conclusion reached for each area of the audit
 
 **Example:** While auditing Bear Co.'s accounts receivable, the engagement team selects a sample of 40 customer balances for confirmation testing. The documentation includes the sampling methodology, the list of selected customers with balances, copies of confirmations sent and received, follow-up procedures for non-responses, and a conclusion that the accounts receivable balance is not materially misstated. The workpaper is initialed by the staff member who performed the testing and the senior who reviewed the work.
 
@@ -86,8 +86,8 @@ After the auditor's report is released, there is a defined window during which t
 
 | Standard | Documentation Completion Date |
 |---|---|
-| **AICPA (AU-C 230)** — Nonissuers | **60 days** after the report release date |
-| **PCAOB (AS 1215)** — Issuers | **45 days** after the report release date |
+| **AICPA (AU-C 230)** for nonissuers | **60 days** after the report release date |
+| **PCAOB (AS 1215)** for issuers | **45 days** after the report release date |
 
 :::caution
 
@@ -112,12 +112,12 @@ After the documentation completion date, the audit file must be retained for a m
 
 | Standard | Minimum Retention Period |
 |---|---|
-| **AICPA (AU-C 230)** — Nonissuers | **5 years** from the report release date |
-| **PCAOB (AS 1215)** — Issuers | **7 years** from the report release date |
+| **AICPA (AU-C 230)** for nonissuers | **5 years** from the report release date |
+| **PCAOB (AS 1215)** for issuers | **7 years** from the report release date |
 
 :::note
 
-Firms may establish **longer** retention periods based on legal, regulatory, or internal policy requirements. State boards and other regulators may also impose additional retention requirements. The standard establishes the **minimum** — not the maximum.
+Firms may establish **longer** retention periods based on legal, regulatory, or internal policy requirements. State boards and other regulators may also impose additional retention requirements. The standard establishes the **minimum**, not the maximum.
 
 :::
 
@@ -144,7 +144,7 @@ Changes after the completion date are rare and must be carefully controlled. Exa
 | **Peer review or inspection findings** | The auditor may add documentation explaining how findings were addressed, but the original workpapers must not be altered |
 | **Legal or regulatory inquiry** | Additional documentation may be added to explain the work performed, but original documentation is preserved |
 
-**Example:** Six months after the documentation completion date for Ursa Security's audit, the firm discovers that a significant customer confirmed a receivable balance that was, in fact, fictitious. The auditor adds a memorandum to the file explaining the discovery, the additional procedures performed, the conclusions reached, and any revisions to the audit report. The original confirmation workpaper is **not deleted** — it remains in the file with the supplemental documentation.
+**Example:** Six months after the documentation completion date for Ursa Security's audit, the firm discovers that a significant customer confirmed a receivable balance that was, in fact, fictitious. The auditor adds a memorandum to the file explaining the discovery, the additional procedures performed, the conclusions reached, and any revisions to the audit report. The original confirmation workpaper is **not deleted**; it remains in the file with the supplemental documentation.
 
 :::warning
 
@@ -173,7 +173,7 @@ The PCAOB places additional emphasis on:
 
 - **Specificity:** Workpapers must clearly identify the specific items tested (e.g., by document number or other identifying characteristics), not just describe them in general terms
 - **Departures from firm methodology:** Any departure from the firm's standard audit methodology must be documented with an explanation of why the departure was appropriate
-- **Retention of all documents:** The PCAOB takes a strict view on document retention — all documents that form part of the audit file at the documentation completion date must be retained for the full 7-year period
+- **Retention of all documents:** The PCAOB takes a strict view on document retention: all documents that form part of the audit file at the documentation completion date must be retained for the full 7-year period
 
 **Example:** Kodiak Partners audits Polar Inc., a publicly traded company. When documenting the test of journal entries for potential fraud, the engagement team must list each specific journal entry tested (by entry number, date, and amount), the source of the entry, the testing performed, and the conclusion. A general statement such as "tested a sample of journal entries and found no exceptions" would **not** meet PCAOB documentation standards.
 
@@ -207,7 +207,7 @@ The auditor must document the professional judgments made in reaching conclusion
 - The **alternatives considered** and why the chosen approach was most appropriate
 - **Consultations** with other professionals on difficult or contentious matters
 
-**Example:** While auditing Honey Entertainment's goodwill impairment assessment, the engagement team determines that management's cash flow projections used a growth rate significantly above industry benchmarks. The workpapers document the team's professional judgment in evaluating the reasonableness of the growth rate, the alternative scenarios considered, the discussion with the engagement partner, and the conclusion that an additional $2.3 million impairment charge was necessary.
+**Example:** While auditing Honey Entertainment's goodwill impairment assessment, the engagement team determines that management's cash flow projections used a growth rate significantly above industry benchmarks. The workpapers document the team's professional judgment in evaluating the reasonableness of the growth rate, the alternative scenarios considered, the discussion with the engagement partner, and the conclusion that an additional \$2.3 million impairment charge was necessary.
 
 ---
 
@@ -216,7 +216,7 @@ The auditor must document the professional judgments made in reaching conclusion
 | Topic | Key Takeaway |
 |---|---|
 | **Purpose of documentation** | Enable an experienced auditor with no prior connection to understand the nature, timing, extent, and results of procedures, significant findings, and significant professional judgments |
-| **Forms of documentation** | Physical or electronic — narratives, programs, schedules, confirmations, correspondence, checklists, and electronic workpapers |
+| **Forms of documentation** | Physical or electronic, including narratives, programs, schedules, confirmations, correspondence, checklists, and electronic workpapers |
 | **Required elements** | Identification of items tested, who performed and reviewed the work, when it was done, and conclusions reached |
 | **Documentation completion date** | 60 days (AICPA / nonissuers) or 45 days (PCAOB / issuers) after report release |
 | **Retention period** | 5 years (AICPA / nonissuers) or 7 years (PCAOB / issuers) minimum |

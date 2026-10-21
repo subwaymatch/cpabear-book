@@ -23,9 +23,9 @@ $$\text{Adjusted Basis} = \text{Original Basis} + \text{Capital Improvements} - 
 
 > **Example:** Bear Co. sells a warehouse for \$500,000 cash. The buyer also assumes Bear Co.'s \$200,000 mortgage on the property. Bear Co. pays \$30,000 in selling costs. The original cost of the warehouse was \$450,000, and Bear Co. has claimed \$120,000 in depreciation.
 >
-> - Amount realized = \$500,000 + \$200,000 − \$30,000 = **\$670,000**
-> - Adjusted basis = \$450,000 − \$120,000 = **\$330,000**
-> - Gain = \$670,000 − \$330,000 = **\$340,000**
+> - Amount realized = \$500,000 + \$200,000 - \$30,000 = **\$670,000**
+> - Adjusted basis = \$450,000 - \$120,000 = **\$330,000**
+> - Gain = \$670,000 - \$330,000 = **\$340,000**
 
 ---
 
@@ -35,7 +35,7 @@ The **character** of a gain or loss determines how it is taxed. The two primary 
 
 ### Capital Assets
 
-A **capital asset** is defined by exclusion — it is any property held by the taxpayer **except** for the items specifically excluded by IRC §1221. In general, capital assets include:
+A **capital asset** is defined by exclusion: it is any property held by the taxpayer **except** for the items specifically excluded by IRC §1221. In general, capital assets include:
 
 - Stocks, bonds, and other investment securities
 - Personal-use property (home, car, furniture)
@@ -56,7 +56,7 @@ The following are specifically **excluded** from capital asset treatment under �
 
 :::info
 
-Property used in a trade or business (§1231 property) is **not** a capital asset, but net §1231 gains receive **long-term capital gain treatment**. This is often called "the best of both worlds" — gains are taxed at capital rates, but losses are fully deductible as ordinary losses.
+Property used in a trade or business (§1231 property) is **not** a capital asset, but net §1231 gains receive **long-term capital gain treatment**. This is often called "the best of both worlds": gains are taxed at capital rates, but losses are fully deductible as ordinary losses.
 
 :::
 
@@ -100,7 +100,7 @@ The holding period begins the **day after** the acquisition date and includes th
 | **0%, 15%, or 20%** | Regular long-term capital gains (rate depends on taxable income bracket) |
 | **25%** | Unrecaptured Section 1250 gain (depreciation recapture on real property) |
 | **28%** | Collectibles (art, antiques, coins, stamps) and §1202 qualified small business stock gain |
-| **3.8%** | Net Investment Income Tax (NIIT) — an additional surtax on higher-income taxpayers |
+| **3.8%** | Net Investment Income Tax (NIIT), an additional surtax on higher-income taxpayers |
 
 Short-term capital gains are taxed at **ordinary income rates**.
 
@@ -200,8 +200,8 @@ C corporations follow different rules for capital gains and losses than individu
 
 | **Feature** | **Individuals** | **C Corporations** |
 | --- | --- | --- |
-| **Short-term vs. long-term distinction** | Yes — different tax rates apply | **No** — all capital gains taxed at the **ordinary corporate rate** |
-| **Net capital loss deduction against ordinary income** | Up to \$3,000 per year | **Not allowed** — capital losses can only offset capital gains |
+| **Short-term vs. long-term distinction** | Yes, different tax rates apply | **No**, all capital gains are taxed at the **ordinary corporate rate** |
+| **Net capital loss deduction against ordinary income** | Up to \$3,000 per year | **Not allowed** (capital losses can only offset capital gains) |
 | **Capital loss carryback** | Not allowed | **3-year carryback** |
 | **Capital loss carryforward** | Indefinite, retains character | **5-year carryforward**, treated as **short-term** regardless of original character |
 
@@ -217,7 +217,7 @@ A C corporation's net capital loss **never** reduces ordinary income. This is on
 
 ## Personal Residence Gain Exclusion
 
-### IRC §121 — Exclusion of Gain on Sale of Principal Residence
+### IRC §121: Exclusion of Gain on Sale of Principal Residence
 
 When an individual sells a **principal residence**, a significant portion (or all) of the gain may be excluded from income if certain requirements are met.
 
@@ -254,13 +254,13 @@ The §121 exclusion applies only to **gains**. A loss on the sale of a personal 
 
 Certain losses are specifically disallowed by the tax code. A helpful mnemonic is **WRaP**: **W**ash sales, **R**elated party losses, and **P**ersonal losses.
 
-### Wash Sales — IRC §1091
+### Wash Sales (IRC §1091)
 
 A **wash sale** occurs when a taxpayer sells a security at a loss and purchases **substantially identical** securities within a window of **30 days before or 30 days after** the sale (a total 61-day window).
 
 **Effect:** The loss is **disallowed**, but it is not permanently lost. The disallowed loss is added to the basis of the replacement securities.
 
-> **Example:** On November 10, Sarah sells 100 shares of Grizzly Partners stock for \$4,000, realizing a \$3,000 loss (basis was \$7,000). On November 25 — within 30 days — Sarah buys 100 shares of the same Grizzly Partners stock for \$4,500.
+> **Example:** On November 10, Sarah sells 100 shares of Grizzly Partners stock for \$4,000, realizing a \$3,000 loss (basis was \$7,000). On November 25 (within 30 days), Sarah buys 100 shares of the same Grizzly Partners stock for \$4,500.
 >
 > - The \$3,000 loss is **disallowed** under the wash sale rule
 > - Sarah's basis in the new shares = \$4,500 + \$3,000 = **\$7,500**
@@ -268,15 +268,15 @@ A **wash sale** occurs when a taxpayer sells a security at a loss and purchases 
 
 :::info
 
-The wash sale rule applies only to **losses**, not to gains. It applies to stocks, bonds, options, and mutual funds — but **not** to real estate or other non-security assets.
+The wash sale rule applies only to **losses**, not to gains. It applies to stocks, bonds, options, and mutual funds, but **not** to real estate or other non-security assets.
 
 :::
 
-### Related Party Losses — IRC §267
+### Related Party Losses (IRC §267)
 
 Losses on sales or exchanges of property between **related parties** are **disallowed**. Related parties include:
 
-- Family members (siblings, spouse, ancestors, lineal descendants — but **not** aunts, uncles, or cousins)
+- Family members (siblings, spouse, ancestors, lineal descendants, but **not** aunts, uncles, or cousins)
 - An individual and a corporation in which the individual owns more than 50%
 - Two corporations that are members of the same controlled group
 - A taxpayer and a trust of which the taxpayer is a beneficiary
@@ -286,7 +286,7 @@ Losses on sales or exchanges of property between **related parties** are **disal
 
 > **Example:** Marcus sells land to his daughter Priya for \$60,000. Marcus's adjusted basis was \$80,000, resulting in a \$20,000 loss. The loss is **disallowed** because Marcus and Priya are related parties.
 >
-> Later, Priya sells the land to an unrelated buyer for \$90,000. Priya's realized gain is \$90,000 − \$60,000 = \$30,000. Priya may offset \$20,000 of Marcus's disallowed loss, reporting only a **\$10,000 gain**.
+> Later, Priya sells the land to an unrelated buyer for \$90,000. Priya's realized gain is \$90,000 - \$60,000 = \$30,000. Priya may offset \$20,000 of Marcus's disallowed loss, reporting only a **\$10,000 gain**.
 >
 > If Priya instead sold for \$65,000, her gain would be \$5,000. She can offset \$5,000 of the disallowed loss, reporting **\$0 gain**. The remaining \$15,000 of disallowed loss is permanently lost.
 

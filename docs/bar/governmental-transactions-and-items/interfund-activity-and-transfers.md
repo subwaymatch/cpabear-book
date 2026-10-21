@@ -4,7 +4,7 @@ Interfund activity encompasses all transactions and flows of resources that occu
 
 :::info[Blueprint Coverage]
 
-**BAR Area III, Group C, Topic 5 – Interfund activity, including transfers.** Representative tasks: (1) Prepare eliminations of interfund activity in government-wide financial statements; (2) Prepare journal entries to recognize interfund activity within state and local governments.
+**BAR Area III, Group C, Topic 5: Interfund activity, including transfers.** Representative tasks: (1) Prepare eliminations of interfund activity in government-wide financial statements; (2) Prepare journal entries to recognize interfund activity within state and local governments.
 
 :::
 
@@ -16,10 +16,10 @@ GASB 34 establishes four categories of interfund activity. Each has distinct acc
 
 | Category | Description | Repayment Required? | Reported Separately? |
 |----------|-------------|---------------------|---------------------|
-| **Interfund Loans** | Amounts provided with a requirement for repayment | Yes | Yes – as Due from / Due to |
-| **Interfund Services Provided and Used** | Sales of goods or services at approximate external exchange values | N/A (exchange) | Yes – as revenues and expenditures/expenses |
-| **Interfund Transfers** | One-way flows of assets without equivalent return, authorized by budget or law | No | Yes – as Other Financing Sources/Uses |
-| **Interfund Reimbursements** | Repayment to the fund that initially recorded the expenditure/expense on behalf of another fund | No | No – reduces original expenditure |
+| **Interfund Loans** | Amounts provided with a requirement for repayment | Yes | Yes, as Due from / Due to |
+| **Interfund Services Provided and Used** | Sales of goods or services at approximate external exchange values | N/A (exchange) | Yes, as revenues and expenditures/expenses |
+| **Interfund Transfers** | One-way flows of assets without equivalent return, authorized by budget or law | No | Yes, as Other Financing Sources/Uses |
+| **Interfund Reimbursements** | Repayment to the fund that initially recorded the expenditure/expense on behalf of another fund | No | No; reduces original expenditure |
 
 :::tip[Exam Tip]
 
@@ -168,8 +168,8 @@ flowchart TD
 
 | Situation | Presentation |
 |-----------|-------------|
-| Receivables/payables within governmental activities | Eliminated – not shown |
-| Receivables/payables within business-type activities | Eliminated – not shown |
+| Receivables/payables within governmental activities | Eliminated (not shown) |
+| Receivables/payables within business-type activities | Eliminated (not shown) |
 | Receivables/payables between governmental and business-type | Reported as **"Internal Balances"** |
 
 ---
@@ -207,21 +207,21 @@ Transfers between governmental and business-type activities appear as a separate
 
 ---
 
-## Comprehensive Example – Bear City
+## Comprehensive Example: Bear City
 
 Bear City has the following interfund transactions during the fiscal year:
 
 | # | Transaction | Amount | Funds Involved |
 |---|-------------|--------|----------------|
-| 1 | General Fund loans cash to Water Utility Fund | \$100,000 | GF → Enterprise |
-| 2 | Internal Service Fund provides fleet maintenance to General Fund | \$75,000 | ISF → GF |
-| 3 | General Fund transfers operating subsidy to Transit Fund (Enterprise) | \$300,000 | GF → Enterprise |
-| 4 | General Fund transfers to Debt Service Fund | \$400,000 | GF → DSF |
-| 5 | Special Revenue Fund reimburses General Fund for supplies | \$20,000 | SRF → GF |
+| 1 | General Fund loans cash to Water Utility Fund | \$100,000 | GF to Enterprise |
+| 2 | Internal Service Fund provides fleet maintenance to General Fund | \$75,000 | ISF to GF |
+| 3 | General Fund transfers operating subsidy to Transit Fund (Enterprise) | \$300,000 | GF to Enterprise |
+| 4 | General Fund transfers to Debt Service Fund | \$400,000 | GF to DSF |
+| 5 | Special Revenue Fund reimburses General Fund for supplies | \$20,000 | SRF to GF |
 
 ### Step 1: Fund-Level Journal Entries
 
-**Transaction 1 – Interfund Loan (GF to Enterprise):**
+**Transaction 1: Interfund Loan (GF to Enterprise)**
 
 ```journal
 Dr. Due from Water Utility Fund[a] 100,000
@@ -233,7 +233,7 @@ Dr. Cash[a] 100,000
 Cr. Due to General Fund[l] 100,000
 ```
 
-**Transaction 2 – Interfund Services (ISF to GF):**
+**Transaction 2: Interfund Services (ISF to GF)**
 
 ```journal
 Dr. Due from General Fund[a] 75,000
@@ -245,7 +245,7 @@ Dr. Expenditures 75,000
 Cr. Due to Internal Service Fund[l] 75,000
 ```
 
-**Transaction 3 – Transfer (GF to Transit Enterprise Fund):**
+**Transaction 3: Transfer (GF to Transit Enterprise Fund)**
 
 ```journal
 Dr. Transfer Out to Transit Fund 300,000
@@ -257,7 +257,7 @@ Dr. Cash[a] 300,000
 Cr. Transfer In from General Fund 300,000
 ```
 
-**Transaction 4 – Transfer (GF to Debt Service Fund):**
+**Transaction 4: Transfer (GF to Debt Service Fund)**
 
 ```journal
 Dr. Transfer Out to Debt Service Fund 400,000
@@ -269,7 +269,7 @@ Dr. Cash[a] 400,000
 Cr. Transfer In from General Fund 400,000
 ```
 
-**Transaction 5 – Reimbursement (SRF reimburses GF):**
+**Transaction 5: Reimbursement (SRF reimburses GF)**
 
 ```journal
 Dr. Cash[a] 20,000
@@ -286,10 +286,10 @@ Cr. Cash[a] 20,000
 | # | Activity Classification | Elimination Treatment |
 |---|------------------------|----------------------|
 | 1 | Between Governmental (GF) and Business-Type (Enterprise) | Reclassify as **Internal Balances** |
-| 2 | Within Governmental (ISF is typically governmental) | **Do NOT eliminate** – interfund services |
-| 3 | Between Governmental (GF) and Business-Type (Enterprise) | Report as **Transfers** line – not eliminated |
-| 4 | Within Governmental (GF and DSF both governmental) | **Eliminate** – transfer within same column |
-| 5 | Within Governmental (GF and SRF) | Already netted – no action needed |
+| 2 | Within Governmental (ISF is typically governmental) | **Do NOT eliminate** (interfund services) |
+| 3 | Between Governmental (GF) and Business-Type (Enterprise) | Report as **Transfers** line; not eliminated |
+| 4 | Within Governmental (GF and DSF both governmental) | **Eliminate** (transfer within same column) |
+| 5 | Within Governmental (GF and SRF) | Already netted; no action needed |
 
 :::tip[Exam Tip]
 
@@ -313,7 +313,7 @@ On the Statement of Net Position:
 - Remove "Due to General Fund" from Business-Type Activities
 - Report as **Internal Balances**: Governmental Activities shows \$100,000 receivable; Business-Type Activities shows \$100,000 payable under the line item "Internal Balances"
 
-**Transaction 3 (Transfer between activity types) – No elimination:**
+**Transaction 3 (Transfer between activity types), no elimination:**
 
 Reported on the Statement of Activities:
 - Governmental Activities: Transfers Out (\$300,000)
@@ -323,14 +323,14 @@ Reported on the Statement of Activities:
 
 | Item | Governmental Activities | Business-Type Activities | Eliminations | Gov-Wide Total |
 |------|------------------------|-------------------------|--------------|----------------|
-| Due from Water Utility Fund | \$100,000 | — | (\$100,000) | — |
-| Due to General Fund | — | \$100,000 | (\$100,000) | — |
-| Internal Balances (asset) | — | — | \$100,000 | \$100,000 |
-| Internal Balances (liability) | — | — | \$100,000 | \$100,000 |
-| Transfer In (DSF from GF) | \$400,000 | — | (\$400,000) | — |
-| Transfer Out (GF to DSF) | (\$400,000) | — | \$400,000 | — |
-| Transfer Out (GF to Transit) | (\$300,000) | — | — | (\$300,000) |
-| Transfer In (Transit from GF) | — | \$300,000 | — | \$300,000 |
+| Due from Water Utility Fund | \$100,000 | 0 | (\$100,000) | 0 |
+| Due to General Fund | 0 | \$100,000 | (\$100,000) | 0 |
+| Internal Balances (asset) | 0 | 0 | \$100,000 | \$100,000 |
+| Internal Balances (liability) | 0 | 0 | \$100,000 | \$100,000 |
+| Transfer In (DSF from GF) | \$400,000 | 0 | (\$400,000) | 0 |
+| Transfer Out (GF to DSF) | (\$400,000) | 0 | \$400,000 | 0 |
+| Transfer Out (GF to Transit) | (\$300,000) | 0 | 0 | (\$300,000) |
+| Transfer In (Transit from GF) | 0 | \$300,000 | 0 | \$300,000 |
 
 ---
 
@@ -349,7 +349,7 @@ Reported on the Statement of Activities:
 
 :::info[Decision Framework]
 
-Ask two questions: (1) Is this interfund services provided and used? If yes → never eliminate. (2) Is it between governmental and business-type activities? If yes → reclassify (loans become internal balances; transfers remain as a separate line). If no to both → eliminate entirely.
+Ask two questions: (1) Is this interfund services provided and used? If yes, never eliminate. (2) Is it between governmental and business-type activities? If yes, reclassify (loans become internal balances; transfers remain as a separate line). If no to both, eliminate entirely.
 
 :::
 

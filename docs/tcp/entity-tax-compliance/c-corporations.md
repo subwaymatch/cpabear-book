@@ -2,7 +2,7 @@
 
 ## Introduction
 
-C corporations are taxed as **separate entities** under Subchapter C of the Internal Revenue Code. Unlike pass-through entities, a C corporation pays tax at the entity level, and shareholders are taxed again when they receive distributions — the well-known **double taxation** problem. The TCP section of the CPA exam tests C corporation compliance at a deeper level than REG, focusing on net operating loss (NOL) and capital loss utilization, shareholder-corporation transactions (contributions, distributions, and loans), consolidated returns, and international tax issues. The emphasis is on calculating gains, losses, and basis — and understanding the tax consequences on both sides of each transaction.
+C corporations are taxed as **separate entities** under Subchapter C of the Internal Revenue Code. Unlike pass-through entities, a C corporation pays tax at the entity level, and shareholders are taxed again when they receive distributions. This is the well-known **double taxation** problem. The TCP section of the CPA exam tests C corporation compliance at a deeper level than REG, focusing on net operating loss (NOL) and capital loss utilization, shareholder-corporation transactions (contributions, distributions, and loans), consolidated returns, and international tax issues. The emphasis is on calculating gains, losses, and basis, and on understanding the tax consequences on both sides of each transaction.
 
 ---
 
@@ -44,7 +44,7 @@ C corporations have unique capital loss rules compared to individuals.
 
 | Rule | C Corporation | Individual (for comparison) |
 |---|---|---|
-| **Capital losses offset** | Only **capital gains** — cannot offset ordinary income | Capital gains + up to \$3,000 of ordinary income |
+| **Capital losses offset** | Only **capital gains**; cannot offset ordinary income | Capital gains + up to \$3,000 of ordinary income |
 | **Carryback** | **3 years** (carried back as short-term capital loss) | No carryback |
 | **Carryforward** | **5 years** (carried forward as short-term capital loss) | Indefinite |
 
@@ -67,11 +67,11 @@ When a shareholder transfers property to a corporation solely in exchange for st
 | Element | Rule |
 |---|---|
 | **Control** | Transferor(s) must own ≥ 80% of total voting power and ≥ 80% of all other classes of stock immediately after the exchange |
-| **Shareholder's basis in stock** | Adjusted basis of property transferred − boot received + gain recognized |
+| **Shareholder's basis in stock** | Adjusted basis of property transferred - boot received + gain recognized |
 | **Corporation's basis in property** | Carryover basis from shareholder + gain recognized by shareholder |
 | **Boot received** | Gain is recognized to the extent of boot received (but not in excess of realized gain) |
 
-> **Example:** Jordan transfers equipment (FMV \$100,000, adjusted basis \$60,000) and \$10,000 cash to Polar Inc. in exchange for 100% of Polar Inc. stock plus \$15,000 cash (boot). Jordan's realized gain is \$100,000 + \$10,000 − \$60,000 − \$10,000 = \$40,000. Jordan recognizes gain equal to boot received: \$15,000. Jordan's basis in the stock: \$60,000 − \$15,000 + \$15,000 = \$60,000. Polar Inc.'s basis in the equipment: \$60,000 + \$15,000 = \$75,000.
+> **Example:** Jordan transfers equipment (FMV \$100,000, adjusted basis \$60,000) and \$10,000 cash to Polar Inc. in exchange for 100% of Polar Inc. stock plus \$15,000 cash (boot). Jordan's realized gain is \$100,000 + \$10,000 - \$60,000 - \$10,000 = \$40,000. Jordan recognizes gain equal to boot received: \$15,000. Jordan's basis in the stock: \$60,000 - \$15,000 + \$15,000 = \$60,000. Polar Inc.'s basis in the equipment: \$60,000 + \$15,000 = \$75,000.
 
 #### Assumption of Liabilities
 
@@ -128,7 +128,7 @@ In a complete liquidation, the corporation distributes all assets and ceases to 
 | Party | Tax Consequence |
 |---|---|
 | **Corporation** | Recognizes gain or loss as if it sold all assets at FMV (with certain limitations on loss recognition to related parties) |
-| **Shareholder** | Treats the distribution as payment in exchange for stock — recognizes **capital gain or loss** (FMV of assets received − stock basis) |
+| **Shareholder** | Treats the distribution as payment in exchange for stock and recognizes **capital gain or loss** (FMV of assets received - stock basis) |
 | **Shareholder's basis in property received** | **FMV** on the date of distribution |
 
 :::info
@@ -144,7 +144,7 @@ Loans between a C corporation and its shareholders must reflect **arm's-length t
 | Issue | Consequence |
 |---|---|
 | **Below-market loan from corporation to shareholder** | IRS may impute interest under IRC §7872; imputed interest is compensation (employee-shareholder) or a distribution (non-employee shareholder) |
-| **Shareholder loan to corporation lacks debt characteristics** | IRS may recharacterize the loan as an equity contribution — interest payments become nondeductible dividends |
+| **Shareholder loan to corporation lacks debt characteristics** | IRS may recharacterize the loan as an equity contribution; interest payments become nondeductible dividends |
 | **Thin capitalization** | Excessive debt-to-equity ratio may cause the IRS to treat debt as equity |
 
 Factors that support **bona fide debt** treatment:
@@ -178,14 +178,14 @@ Consolidated taxable income is computed by combining the separate taxable income
 |---|---|
 | **Intercompany sales of inventory** | Defer profit until the buying member sells to an outside party |
 | **Intercompany sales of depreciable property** | Defer gain; recognize as the buying member depreciates the asset |
-| **Intercompany dividends** | **Eliminated** — 100% dividends-received deduction within the group |
-| **Intercompany interest** | Income to the lending member and expense to the borrowing member — **netted** in consolidation |
+| **Intercompany dividends** | **Eliminated** (100% dividends-received deduction within the group) |
+| **Intercompany interest** | Income to the lending member and expense to the borrowing member, **netted** in consolidation |
 
 > **Example:** Bear Co. (parent) sells inventory to its 100%-owned subsidiary for \$200,000 (cost basis \$150,000). On the consolidated return, the \$50,000 intercompany profit is **deferred** until the subsidiary resells the inventory to a third party.
 
 :::tip[Exam Tip]
 
-Consolidated return questions typically test your ability to eliminate intercompany transactions. Focus on the concept of deferral — the gain is not permanently eliminated, only deferred until a transaction with an outside party occurs.
+Consolidated return questions typically test your ability to eliminate intercompany transactions. Focus on the concept of deferral: the gain is not permanently eliminated, only deferred until a transaction with an outside party occurs.
 
 :::
 
@@ -206,9 +206,9 @@ The source of income (U.S. or foreign) determines which country has the primary 
 | **Sale of inventory** | Where **title passes** (or based on production activities for property produced in one country and sold in another) |
 | **Sale of personal property (non-inventory)** | **Residence** of the seller |
 
-### Foreign Corporation with U.S. Operations — Withholding
+### Foreign Corporation with U.S. Operations: Withholding
 
-A foreign corporation earning certain types of U.S.-source income that is not effectively connected with a U.S. trade or business is subject to a **30% withholding tax** (FDAP — Fixed, Determinable, Annual, or Periodic income), which may be reduced by treaty.
+A foreign corporation earning certain types of U.S.-source income that is not effectively connected with a U.S. trade or business is subject to a **30% withholding tax** (FDAP: Fixed, Determinable, Annual, or Periodic income), which may be reduced by treaty.
 
 | Income Type | Treatment |
 |---|---|
@@ -224,7 +224,7 @@ A **Controlled Foreign Corporation** is a foreign corporation in which U.S. shar
 | **U.S. shareholder** | U.S. person owning ≥ 10% of total voting power or value |
 | **CFC threshold** | > 50% owned by U.S. shareholders |
 | **Subpart F income** | Certain types of passive and mobile income are included in the U.S. shareholder's income **currently**, regardless of distribution |
-| **GILTI** | Global Intangible Low-Taxed Income — U.S. shareholders must include their pro rata share of CFC income exceeding a deemed return on tangible assets |
+| **GILTI** | Global Intangible Low-Taxed Income; U.S. shareholders must include their pro rata share of CFC income exceeding a deemed return on tangible assets |
 
 :::warning
 
@@ -246,7 +246,7 @@ Without a PE, a foreign corporation's business profits are generally not taxable
 
 | Feature | Foreign Branch | Foreign Subsidiary |
 |---|---|---|
-| **Legal status** | Extension of the U.S. parent — not a separate legal entity | Separate legal entity incorporated in the foreign country |
+| **Legal status** | Extension of the U.S. parent; not a separate legal entity | Separate legal entity incorporated in the foreign country |
 | **Tax treatment** | Income and losses included **directly** on the U.S. parent's return | Separate taxpayer; income generally not taxed in U.S. until distributed (except Subpart F/GILTI) |
 | **Loss utilization** | Foreign branch losses reduce U.S. taxable income **currently** | Subsidiary losses do **not** flow through to the U.S. parent |
 | **Foreign tax credits** | Available for taxes paid by the branch | Available for taxes deemed paid on dividends received (indirect credit) |
@@ -275,12 +275,12 @@ The foreign tax credit limitation prevents a corporation from using foreign taxe
 | §382 limitation | Ownership change limits annual use of pre-change NOLs to FMV × long-term tax-exempt rate |
 | Capital losses | Offset capital gains only; 3-year carryback, 5-year carryforward (as STCL) |
 | §351 contributions | Nonrecognition if ≥ 80% control; shareholder substituted basis; corporation carryover basis + gain recognized |
-| Nonliquidating distributions | Dividend (to extent of E&P) → return of basis → capital gain |
+| Nonliquidating distributions | Dividend (to extent of E&P) first, then return of basis, then capital gain |
 | Property distributions | Corporation recognizes gain (not loss); shareholder takes FMV basis |
-| Liquidating distributions | Corporation recognizes gain/loss; shareholder has capital gain/loss (FMV − stock basis) |
+| Liquidating distributions | Corporation recognizes gain/loss; shareholder has capital gain/loss (FMV - stock basis) |
 | Shareholder loans | Must be arm's-length; below-market loans trigger imputed interest; thin capitalization risk |
 | Consolidated returns | ≥ 80% affiliated group; eliminate intercompany transactions; defer intercompany profit |
-| Income sourcing | Rules vary by income type (services → where performed; dividends → country of incorporation) |
+| Income sourcing | Rules vary by income type (services are sourced where performed; dividends by country of incorporation) |
 | CFC/Subpart F/GILTI | U.S. shareholders include certain CFC income currently, regardless of distribution |
 | Foreign branch vs. subsidiary | Branch income included directly; subsidiary income deferred until distribution or inclusion |
 | Foreign tax credit | Limited to U.S. tax × (foreign source income / worldwide income) |

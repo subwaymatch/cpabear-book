@@ -2,7 +2,7 @@
 
 ## Introduction
 
-When taxpayers transact with parties who share close economic or familial ties, the tax law imposes special rules to prevent abuse — particularly the shifting of income and losses between related persons. The TCP exam requires you to **identify related parties** under IRC §267 and §707, **calculate direct and indirect (constructive) ownership percentages**, determine whether losses are **disallowed** on related party sales, compute the tax consequences when the buyer later **resells to an unrelated party**, apply the **gain recharacterization** rules of §1239, and calculate **imputed interest** under §7872 and §1274 when below-market or no-interest loans exist between related parties.
+When taxpayers transact with parties who share close economic or familial ties, the tax law imposes special rules to prevent abuse, particularly the shifting of income and losses between related persons. The TCP exam requires you to **identify related parties** under IRC §267 and §707, **calculate direct and indirect (constructive) ownership percentages**, determine whether losses are **disallowed** on related party sales, compute the tax consequences when the buyer later **resells to an unrelated party**, apply the **gain recharacterization** rules of §1239, and calculate **imputed interest** under §7872 and §1274 when below-market or no-interest loans exist between related parties.
 
 This page builds on the foundational coverage of related party loss disallowance introduced in REG and goes significantly deeper into constructive ownership calculations, the three outcomes on subsequent disposition, and the imputed interest framework.
 
@@ -10,7 +10,7 @@ This page builds on the foundational coverage of related party loss disallowance
 
 ## Related Party Definitions
 
-### IRC §267 — Losses, Expenses, and Interest
+### IRC §267: Losses, Expenses, and Interest
 
 Section 267 defines the following relationships as "related parties" for purposes of **loss disallowance** and certain expense/interest timing rules:
 
@@ -26,11 +26,11 @@ Section 267 defines the following relationships as "related parties" for purpose
 
 :::warning
 
-**Not** considered related parties under §267: aunts, uncles, cousins, in-laws, nieces, and nephews. This is a common exam trap — the family definition is narrower than you might expect.
+**Not** considered related parties under §267: aunts, uncles, cousins, in-laws, nieces, and nephews. This is a common exam trap: the family definition is narrower than you might expect.
 
 :::
 
-### IRC §707 — Partnership Transactions
+### IRC §707: Partnership Transactions
 
 Under §707(b), transactions between a **partnership** and a partner (or between two partnerships) are subject to related party treatment when:
 
@@ -59,7 +59,7 @@ Under §267, there is **no re-attribution from family to family** (sometimes cal
 
 ### Direct Ownership
 
-Direct ownership is straightforward — it is the percentage of stock or partnership interest that a taxpayer holds in their own name.
+Direct ownership is straightforward. It is the percentage of stock or partnership interest that a taxpayer holds in their own name.
 
 > **Example:** Jordan owns 300 of the 1,000 outstanding shares of Bear Co. common stock. Jordan's direct ownership is:
 >
@@ -77,7 +77,7 @@ To determine total ownership for the more-than-50% test, add direct ownership to
 >
 > | Source | Ownership |
 > |---|---|
-> | Alex — direct | 25% |
+> | Alex (direct) | 25% |
 > | Attributed from spouse Dana | 30% |
 > | **Total (direct + constructive)** | **55%** |
 >
@@ -97,7 +97,7 @@ To determine total ownership for the more-than-50% test, add direct ownership to
 >
 > | Source | Ownership of Bear Co. |
 > |---|---|
-> | Priya — direct | 30% |
+> | Priya (direct) | 30% |
 > | Attributed from BIF Partners (60% × 40%) | 24% |
 > | **Total** | **54%** |
 >
@@ -109,7 +109,7 @@ To determine total ownership for the more-than-50% test, add direct ownership to
 >
 > | Source | Ownership of Bear Co. |
 > |---|---|
-> | Sam — direct | 0% |
+> | Sam (direct) | 0% |
 > | Attributed from Illini Entertainment (80% × 70%) | 56% |
 > | Attributed from spouse Jamie | 10% |
 > | **Total** | **66%** |
@@ -161,16 +161,16 @@ flowchart TD
     A["Related party sale at a loss"] --> B["Loss DISALLOWED to seller"]
     B --> C["Buyer later sells to unrelated party"]
     C --> D{"Gain or loss<br/>on subsequent sale?"}
-    D -->|"Gain > Disallowed loss"| E["Gain recognized =<br/>Gain − Disallowed loss"]
+    D -->|"Gain > Disallowed loss"| E["Gain recognized =<br/>Gain - Disallowed loss"]
     D -->|"Gain ≤ Disallowed loss"| F["No gain, no loss<br/>recognized ($0)"]
     D -->|"Loss"| G["New loss recognized;<br/>old disallowed loss<br/>is permanently gone"]
 ```
 
-### Scenario 1 — Gain Exceeds Disallowed Loss
+### Scenario 1: Gain Exceeds Disallowed Loss
 
 > **Example:** Derek owns 100% of Bear Co. Derek sells land with a basis of \$100,000 to Bear Co. for \$70,000.
 >
-> **Step 1 — Related party sale:**
+> **Step 1: Related party sale**
 >
 > | Item | Amount |
 > |---|---|
@@ -181,7 +181,7 @@ flowchart TD
 >
 > Derek recognizes **\$0** loss. Bear Co.'s basis in the land = \$70,000 (cost).
 >
-> **Step 2 — Bear Co. sells to unrelated buyer for \$120,000:**
+> **Step 2: Bear Co. sells to unrelated buyer for \$120,000**
 >
 > | Item | Amount |
 > |---|---|
@@ -193,9 +193,9 @@ flowchart TD
 >
 > The \$30,000 disallowed loss offsets \$30,000 of Bear Co.'s gain. Bear Co. recognizes only \$20,000.
 
-### Scenario 2 — Gain Is Less Than the Disallowed Loss
+### Scenario 2: Gain Is Less Than the Disallowed Loss
 
-> **Example:** Using the same original transaction (Derek → Bear Co., \$30,000 disallowed loss, Bear Co.'s basis = \$70,000), Bear Co. later sells the land to an unrelated buyer for \$90,000.
+> **Example:** Using the same original transaction (Derek's sale to Bear Co., \$30,000 disallowed loss, Bear Co.'s basis = \$70,000), Bear Co. later sells the land to an unrelated buyer for \$90,000.
 >
 > | Item | Amount |
 > |---|---|
@@ -207,7 +207,7 @@ flowchart TD
 >
 > The gain (\$20,000) is less than the disallowed loss (\$30,000), so the entire gain is eliminated. Bear Co. recognizes **no gain and no loss**. The remaining \$10,000 of the disallowed loss is permanently lost.
 
-### Scenario 3 — Loss on the Subsequent Sale
+### Scenario 3: Loss on the Subsequent Sale
 
 > **Example:** Again using the same original transaction, Bear Co. later sells the land to an unrelated buyer for \$60,000.
 >
@@ -218,11 +218,11 @@ flowchart TD
 > | Realized loss | (\$10,000) |
 > | **Recognized loss** | **(\$10,000)** |
 >
-> Bear Co. recognizes the \$10,000 loss from its own sale. The original \$30,000 disallowed loss from Derek's sale provides **no benefit** — it is permanently lost. The disallowed loss can only offset **gains**, never increase a loss.
+> Bear Co. recognizes the \$10,000 loss from its own sale. The original \$30,000 disallowed loss from Derek's sale provides **no benefit**; it is permanently lost. The disallowed loss can only offset **gains**, never increase a loss.
 
 :::tip[Exam Tip]
 
-Think of the disallowed loss as a "coupon" that the buyer holds. It can **reduce a gain** on a subsequent sale to an unrelated party — but it can never create or increase a loss. If the buyer sells at a loss, the coupon expires worthless.
+Think of the disallowed loss as a "coupon" that the buyer holds. It can **reduce a gain** on a subsequent sale to an unrelated party, but it can never create or increase a loss. If the buyer sells at a loss, the coupon expires worthless.
 
 :::
 
@@ -230,7 +230,7 @@ Think of the disallowed loss as a "coupon" that the buyer holds. It can **reduce
 
 > **Example:** Jordan owns 60% of Polar Inc. Jordan sells equipment (adjusted basis \$80,000) to Polar Inc. for \$55,000.
 >
-> **Step 1 — Disallowed loss:**
+> **Step 1: Disallowed loss**
 >
 > $$
 > \text{Realized loss} = \$55{,}000 - \$80{,}000 = (\$25{,}000)
@@ -238,7 +238,7 @@ Think of the disallowed loss as a "coupon" that the buyer holds. It can **reduce
 >
 > Loss is **disallowed** because Jordan and Polar Inc. are related parties (60% > 50%). Jordan recognizes \$0. Polar Inc.'s basis in the equipment = \$55,000.
 >
-> **Step 2 — Polar Inc. sells the equipment to an unrelated buyer for \$72,000:**
+> **Step 2: Polar Inc. sells the equipment to an unrelated buyer for \$72,000**
 >
 > $$
 > \text{Realized gain} = \$72{,}000 - \$55{,}000 = \$17{,}000
@@ -250,11 +250,11 @@ Think of the disallowed loss as a "coupon" that the buyer holds. It can **reduce
 > \text{Recognized gain} = \$0
 > $$
 >
-> The remaining \$8,000 of disallowed loss (\$25,000 − \$17,000) is permanently lost.
+> The remaining \$8,000 of disallowed loss (\$25,000 - \$17,000) is permanently lost.
 
 ---
 
-## Gain Recharacterization — Capital to Ordinary (IRC §1239)
+## Gain Recharacterization: Capital to Ordinary (IRC §1239)
 
 ### The Rule
 
@@ -276,10 +276,10 @@ The §1239 definition of related parties is **narrower** than §267:
 
 | Related Party Relationship | §1239 Applies? |
 |---|---|
-| Taxpayer and spouse | ✅ Yes |
-| Individual and > 50% owned entity (corporation, partnership) | ✅ Yes |
-| Two entities with > 50% common ownership | ✅ Yes |
-| Siblings, parents, children (without entity ownership) | ❌ No (§1239 does not use family attribution for this purpose beyond spouse) |
+| Taxpayer and spouse | Yes |
+| Individual and > 50% owned entity (corporation, partnership) | Yes |
+| Two entities with > 50% common ownership | Yes |
+| Siblings, parents, children (without entity ownership) | No (§1239 does not use family attribution for this purpose beyond spouse) |
 
 :::info
 
@@ -300,7 +300,7 @@ The key distinction: under §1239, the **more-than-50% ownership test** uses con
 
 > **Example:** Dana sells a computer (adjusted basis \$2,000) to Dana's sibling, Priya, for \$5,000. Priya uses the computer in her sole proprietorship.
 >
-> Even though the computer is depreciable in Priya's hands, siblings are **not related parties under §1239** (they are related under §267 but not §1239). The \$3,000 gain retains its normal character — it would likely be ordinary income under §1245 recapture anyway, but §1239 is not the operative section here.
+> Even though the computer is depreciable in Priya's hands, siblings are **not related parties under §1239** (they are related under §267 but not §1239). The \$3,000 gain retains its normal character. It would likely be ordinary income under §1245 recapture anyway, but §1239 is not the operative section here.
 
 ---
 
@@ -322,7 +322,7 @@ The IRS publishes AFRs monthly for three term categories:
 
 :::info
 
-You will **not** need to memorize specific AFR percentages for the exam — they will be provided in the question. You must know **which rate applies** based on the loan term and **how to calculate** imputed interest.
+You will **not** need to memorize specific AFR percentages for the exam; they will be provided in the question. You must know **which rate applies** based on the loan term and **how to calculate** imputed interest.
 
 :::
 
@@ -372,7 +372,7 @@ Congress provided safe harbors to exclude small loans from imputed interest rule
 | Exception | Threshold | Condition |
 |---|---|---|
 | **Gift loans** | Aggregate loans ≤ **\$10,000** | Imputed interest rules **do not apply** unless the loan is directly used to purchase income-producing assets |
-| **Gift loans — investment income cap** | Aggregate loans between **\$10,001** and **\$100,000** | Imputed interest is limited to the borrower's **net investment income** for the year; if net investment income ≤ \$1,000, it is treated as **\$0** |
+| **Gift loans: investment income cap** | Aggregate loans between **\$10,001** and **\$100,000** | Imputed interest is limited to the borrower's **net investment income** for the year; if net investment income ≤ \$1,000, it is treated as **\$0** |
 | **Compensation & corporation-shareholder loans** | Aggregate loans ≤ **\$10,000** | Imputed interest rules do not apply if tax avoidance is **not** a principal purpose |
 
 > **Example:** Derek lends \$8,000 to his son, Jordan, interest-free. The loan is not used to purchase income-producing assets. Because the aggregate gift loans between them do not exceed \$10,000, the imputed interest rules **do not apply**. No interest income is imputed to Derek.
@@ -383,7 +383,7 @@ Congress provided safe harbors to exclude small loans from imputed interest rule
 
 :::tip[Exam Tip]
 
-The **\$10,000 de minimis exception** applies across all three loan categories (gift, compensation, corporation-shareholder). But for gift loans between \$10,001 and \$100,000, always check the borrower's **net investment income** — it may further reduce or eliminate the imputed amount.
+The **\$10,000 de minimis exception** applies across all three loan categories (gift, compensation, corporation-shareholder). But for gift loans between \$10,001 and \$100,000, always check the borrower's **net investment income**, which may further reduce or eliminate the imputed amount.
 
 :::
 
@@ -394,12 +394,12 @@ When a related party sells property and provides **seller financing** at a below
 **How it works:**
 
 1. The IRS computes the **present value** of all payments under the installment note, discounted at the AFR.
-2. If the present value is **less** than the stated principal, the difference is **OID** — treated as interest income to the seller and interest expense to the buyer over the life of the note.
+2. If the present value is **less** than the stated principal, the difference is **OID**, treated as interest income to the seller and interest expense to the buyer over the life of the note.
 3. The **stated principal is reduced** by the OID amount, which reduces the seller's amount realized (and the buyer's basis in the property).
 
 > **Example:** Jamie sells land (basis \$100,000) to Bear Co. (owned 100% by Jamie) for \$300,000. The sale is structured as a 5-year installment note with **0% stated interest**. The mid-term AFR is 5%.
 >
-> **Step 1 — Present value of payments:**
+> **Step 1: Present value of payments**
 >
 > The note calls for a single \$300,000 payment in 5 years at 0% interest.
 >
@@ -407,13 +407,13 @@ When a related party sells property and provides **seller financing** at a below
 > \text{PV} = \frac{\$300{,}000}{(1.05)^5} = \frac{\$300{,}000}{1.27628} = \$235{,}058
 > $$
 >
-> **Step 2 — Original Issue Discount:**
+> **Step 2: Original Issue Discount**
 >
 > $$
 > \text{OID} = \$300{,}000 - \$235{,}058 = \$64{,}942
 > $$
 >
-> **Step 3 — Tax treatment:**
+> **Step 3: Tax treatment**
 >
 > | Item | Amount |
 > |---|---|
@@ -450,7 +450,7 @@ Do not confuse the **\$10,000** de minimis exception for loans with the **\$250,
 | **Reduce ownership below 50%** | Divesting ownership to fall below the more-than-50% threshold removes the related party designation (but watch constructive ownership) |
 | **Charge adequate interest** | On intercompany or family loans, set the stated rate ≥ AFR to avoid imputed interest |
 | **Use fair market value** | Document that the sale price reflects FMV to withstand IRS scrutiny; obtain independent appraisals for significant transactions |
-| **Timing of transactions** | Avoid selling loss property to a related party near year-end — the loss disallowance applies regardless of the business purpose |
+| **Timing of transactions** | Avoid selling loss property to a related party near year-end; the loss disallowance applies regardless of the business purpose |
 
 ### Documentation Requirements
 
@@ -477,12 +477,12 @@ The IRS may **recharacterize** a related party transaction that lacks economic s
 | **Related parties (§707)** | Partner with > 50% capital/profits interest in a partnership |
 | **Constructive ownership** | Add family-attributed shares (100%) and entity-attributed shares (proportional) to direct ownership |
 | **Loss disallowance** | Losses on sales to related parties are **completely disallowed** to the seller |
-| **Subsequent sale — gain > disallowed loss** | Gain recognized = Gain − Disallowed loss |
-| **Subsequent sale — gain ≤ disallowed loss** | No gain, no loss recognized (\$0); excess disallowed loss is permanently lost |
-| **Subsequent sale — loss** | New loss is recognized; original disallowed loss provides **no benefit** |
+| **Subsequent sale: gain > disallowed loss** | Gain recognized = Gain - Disallowed loss |
+| **Subsequent sale: gain ≤ disallowed loss** | No gain, no loss recognized (\$0); excess disallowed loss is permanently lost |
+| **Subsequent sale: loss** | New loss is recognized; original disallowed loss provides **no benefit** |
 | **§1239 recharacterization** | Gain on sale of depreciable property to related party is **ordinary income** |
 | **Imputed interest (§7872)** | Below-market loans: IRS imputes interest at AFR; treatment depends on loan type (gift, compensation, corporation-shareholder) |
 | **Imputed interest (§1274)** | Seller-financed sales below AFR: excess of stated price over PV of payments is OID (interest income to seller) |
-| **De minimis — loans** | Gift/compensation/shareholder loans ≤ \$10,000: no imputed interest (unless used to buy income-producing assets) |
-| **De minimis — gift loans \$10K–\$100K** | Imputed interest capped at borrower's net investment income; if ≤ \$1,000, treated as \$0 |
-| **De minimis — seller-financed sales** | Sale price ≤ \$250,000: §1274 imputed interest rules do not apply |
+| **De minimis: loans** | Gift/compensation/shareholder loans ≤ \$10,000: no imputed interest (unless used to buy income-producing assets) |
+| **De minimis: gift loans of \$10K to \$100K** | Imputed interest capped at borrower's net investment income; if ≤ \$1,000, treated as \$0 |
+| **De minimis: seller-financed sales** | Sale price ≤ \$250,000: §1274 imputed interest rules do not apply |

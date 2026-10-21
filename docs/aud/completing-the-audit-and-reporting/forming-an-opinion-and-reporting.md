@@ -1,6 +1,6 @@
 # Forming an Opinion and Reporting
 
-Forming an opinion on the financial statements is the culmination of the entire audit process. Everything the auditor does — from planning and risk assessment to testing and evaluation — leads to this moment: determining whether the financial statements present fairly, in all material respects, in accordance with the applicable financial reporting framework.
+Forming an opinion on the financial statements is the culmination of the entire audit process. Everything the auditor does, from planning and risk assessment to testing and evaluation, leads to this moment: determining whether the financial statements present fairly, in all material respects, in accordance with the applicable financial reporting framework.
 
 This section covers the professional standards that govern auditor reporting, the purpose and inherent limitations of an audit, general requirements under GAAS, when to modify an opinion, and several special reporting scenarios that are commonly tested on the AUD exam.
 
@@ -17,7 +17,7 @@ The standards governing how auditors form opinions and issue reports depend on *
 
 :::info
 
-For the AUD exam, you must know the difference between these two sets of standards. Many concepts are similar, but the specific requirements — especially around report format, critical audit matters vs. key audit matters, and certain independence rules — differ between PCAOB and AICPA standards.
+For the AUD exam, you must know the difference between these two sets of standards. Many concepts are similar, but the specific requirements (especially around report format, critical audit matters vs. key audit matters, and certain independence rules) differ between PCAOB and AICPA standards.
 
 :::
 
@@ -34,17 +34,17 @@ The fundamental purpose of a financial statement audit is to **enhance the degre
 
 Key points:
 
-- The audit opinion addresses **fair presentation** — not absolute correctness or freedom from any error
+- The audit opinion addresses **fair presentation**, not absolute correctness or freedom from any error
 - The opinion provides **reasonable assurance**, which is a high level of assurance but is not a guarantee
 - The auditor's opinion does not assure the future viability of the entity or the efficiency of management
 
-**Example:** After completing the audit of Polar Inc., the auditor issues an opinion stating the financial statements present fairly, in all material respects, in conformity with U.S. GAAP. This tells users (lenders, investors, regulators) that a competent independent professional has examined the financial statements and found them reliable — but it does not mean every number is perfectly accurate or that Polar Inc. will be profitable next year.
+**Example:** After completing the audit of Polar Inc., the auditor issues an opinion stating the financial statements present fairly, in all material respects, in conformity with U.S. GAAP. This tells users (lenders, investors, regulators) that a competent independent professional has examined the financial statements and found them reliable, but it does not mean every number is perfectly accurate or that Polar Inc. will be profitable next year.
 
 ---
 
 ## Inherent Limitations of an Audit
 
-An audit provides reasonable — not absolute — assurance. Several inherent limitations prevent the auditor from guaranteeing that the financial statements are completely free from material misstatement.
+An audit provides reasonable, not absolute, assurance. Several inherent limitations prevent the auditor from guaranteeing that the financial statements are completely free from material misstatement.
 
 ### Nature of Financial Reporting
 
@@ -54,7 +54,7 @@ An audit provides reasonable — not absolute — assurance. Several inherent li
 
 ### Nature of Audit Procedures
 
-- An audit is conducted on a **test basis** (sampling) — the auditor does not examine every transaction or balance
+- An audit is conducted on a **test basis** (sampling); the auditor does not examine every transaction or balance
 - Internal control, no matter how well designed, can only provide **reasonable assurance** (not absolute) against misstatement
 - Audit evidence is **persuasive** rather than conclusive
 - **Fraud** may be difficult to detect, especially when it involves management collusion, falsified documents, or intentional failure to record transactions
@@ -73,13 +73,13 @@ The inherent limitations of an audit mean that the auditor **cannot be held resp
 
 ---
 
-## Five General GAAS Requirements — The SEJEC Mnemonic
+## Five General GAAS Requirements: The SEJEC Mnemonic
 
 When conducting an audit in accordance with generally accepted auditing standards (GAAS), the auditor must satisfy five overarching requirements. A helpful mnemonic is **SEJEC**:
 
 | Letter | Requirement | Description |
 |--------|-------------|-------------|
-| **S** | **Skepticism** | Maintain professional skepticism throughout the audit — a questioning mind and critical assessment of audit evidence |
+| **S** | **Skepticism** | Maintain professional skepticism throughout the audit, with a questioning mind and critical assessment of audit evidence |
 | **E** | **Ethics** | Comply with relevant ethical requirements, including independence |
 | **J** | **Judgment** | Exercise professional judgment in planning and performing the audit |
 | **E** | **Evidence** | Obtain sufficient appropriate audit evidence to reduce audit risk to an acceptably low level |
@@ -107,8 +107,8 @@ Professional judgment involves applying relevant training, knowledge, and experi
 
 ### Sufficient Appropriate Audit Evidence
 
-- **Sufficiency** refers to the **quantity** of evidence — enough to support the opinion
-- **Appropriateness** refers to the **quality** of evidence — its relevance and reliability
+- **Sufficiency** refers to the **quantity** of evidence: enough to support the opinion
+- **Appropriateness** refers to the **quality** of evidence: its relevance and reliability
 - The auditor must obtain enough high-quality evidence to reduce audit risk to an acceptably low level
 
 ### Compliance with Standards
@@ -123,7 +123,7 @@ The auditor must determine whether a modification to the standard unmodified opi
 
 ### GAAP Issues (Financial Statement Problems)
 
-The financial statements contain a **material misstatement** — a departure from the applicable financial reporting framework. Examples include:
+The financial statements contain a **material misstatement**, which is a departure from the applicable financial reporting framework. Examples include:
 
 - Inappropriate accounting policies selected or applied
 - Failure to make required disclosures
@@ -132,8 +132,8 @@ The financial statements contain a **material misstatement** — a departure fro
 
 The auditor determines whether the misstatement is **material** or **material and pervasive**:
 
-- **Material but not pervasive** → **Qualified opinion** ("except for")
-- **Material and pervasive** → **Adverse opinion**
+- **Material but not pervasive**: **Qualified opinion** ("except for")
+- **Material and pervasive**: **Adverse opinion**
 
 ### GAAS Issues (Audit Problems / Scope Limitations)
 
@@ -146,8 +146,8 @@ The auditor is unable to obtain **sufficient appropriate audit evidence** to con
 
 The auditor determines whether the scope limitation is **material** or **material and pervasive**:
 
-- **Material but not pervasive** → **Qualified opinion** ("except for")
-- **Material and pervasive** → **Disclaimer of opinion**
+- **Material but not pervasive**: **Qualified opinion** ("except for")
+- **Material and pervasive**: **Disclaimer of opinion**
 
 :::tip
 
@@ -172,8 +172,8 @@ In some situations, the auditor may issue **different opinions** on different fi
 
 When the principal auditor relies on the work of **another auditor** (e.g., an auditor that audited a subsidiary), the principal auditor must decide whether to:
 
-1. **Make reference** to the other auditor in the report — This divides responsibility. The principal auditor's report mentions the portion of the financial statements audited by the other auditor. The opinion remains unmodified (assuming no other issues), but the report discloses the shared responsibility
-2. **Not make reference** (assume responsibility) — The principal auditor takes full responsibility for the opinion and does not mention the other auditor. This requires the principal auditor to perform additional procedures regarding the other auditor's work
+1. **Make reference** to the other auditor in the report. This divides responsibility. The principal auditor's report mentions the portion of the financial statements audited by the other auditor. The opinion remains unmodified (assuming no other issues), but the report discloses the shared responsibility
+2. **Not make reference** (assume responsibility). The principal auditor takes full responsibility for the opinion and does not mention the other auditor. This requires the principal auditor to perform additional procedures regarding the other auditor's work
 
 ---
 
@@ -185,7 +185,7 @@ When an entity changes auditors, the **successor auditor** (new auditor) and the
 
 Before accepting the engagement, the successor auditor should:
 
-- **Communicate with the predecessor auditor** — to inquire about matters such as integrity of management, disagreements with management, reasons for the change in auditors, and any fraud or illegal acts the predecessor became aware of
+- **Communicate with the predecessor auditor** to inquire about matters such as integrity of management, disagreements with management, reasons for the change in auditors, and any fraud or illegal acts the predecessor became aware of
 - The predecessor must obtain the **client's permission** before responding to the successor's inquiries
 - If the client refuses to allow the predecessor to respond, the successor should consider the implications for accepting the engagement
 
@@ -288,7 +288,7 @@ When issuing a report on financial statements prepared using an SPF, the auditor
 
 - **Describe the special purpose framework** in the report (or reference the note in the financial statements describing the framework)
 - Include an **emphasis-of-matter paragraph** (or equivalent) that alerts the reader that the financial statements are prepared on a basis other than GAAP and may not be suitable for another purpose
-- Use **modified titles** for the financial statements (e.g., "Statement of Assets, Liabilities, and Equity — Tax Basis" rather than "Balance Sheet") unless the regulatory framework specifies titles
+- Use **modified titles** for the financial statements (e.g., "Statement of Assets, Liabilities, and Equity (Tax Basis)" rather than "Balance Sheet") unless the regulatory framework specifies titles
 
 :::warning
 
@@ -318,4 +318,4 @@ For some SPFs (particularly contractual basis and regulatory basis when the stat
 | **Predecessor/successor** | Successor communicates with predecessor before accepting engagement |
 | **Comparative statements** | Other-matter paragraph for different service levels in prior period |
 | **Group audits** | Group auditor must evaluate and be involved with component auditor's work |
-| **Special purpose frameworks** | Cash, tax, regulatory, contractual, other — must describe framework and alert reader |
+| **Special purpose frameworks** | Cash, tax, regulatory, contractual, other; must describe framework and alert reader |

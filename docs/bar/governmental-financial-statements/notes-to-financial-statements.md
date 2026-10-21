@@ -4,7 +4,7 @@ Notes to the financial statements are an integral part of the basic financial st
 
 :::info[Blueprint Coverage]
 
-**BAR Area III, Group A, Topic 5 – Notes to financial statements**
+**BAR Area III, Group A, Topic 5: Notes to financial statements**
 
 Representative tasks:
 - **Recall** the disclosure requirements for significant accounting policies, infrastructure and capital assets, and long-term liabilities in the notes to the basic financial statements of state and local governments.
@@ -19,7 +19,7 @@ The notes to the financial statements serve several critical functions in govern
 
 | Function | Description |
 |----------|-------------|
-| Integral component | Notes are not supplementary — they are part of the basic financial statements |
+| Integral component | Notes are not supplementary; they are part of the basic financial statements |
 | Essential disclosures | Provide information necessary for fair presentation that cannot appear on the face of the statements |
 | Context and detail | Explain accounting policies, significant balances, and commitments |
 | GASB compliance | Required by GASB Statement No. 38 and other pronouncements |
@@ -51,7 +51,7 @@ The summary of significant accounting policies is almost always presented as the
 
 ---
 
-## Required Disclosures — Summary of Significant Accounting Policies
+## Required Disclosures: Summary of Significant Accounting Policies
 
 The first note typically discloses the government's significant accounting policies and provides the framework for understanding the financial statements.
 
@@ -81,13 +81,13 @@ The first note typically discloses the government's significant accounting polic
 
 :::warning[Common Exam Trap]
 
-The availability period for modified accrual revenue recognition is a policy choice disclosed in the notes. Most governments use 60 days after year-end, but this is not a GAAP requirement — it is a policy decision that must be disclosed.
+The availability period for modified accrual revenue recognition is a policy choice disclosed in the notes. Most governments use 60 days after year-end, but this is not a GAAP requirement; it is a policy decision that must be disclosed.
 
 :::
 
 ---
 
-## Required Disclosures — Capital Assets and Infrastructure
+## Required Disclosures: Capital Assets and Infrastructure
 
 GASB requires detailed disclosures about capital assets, including a rollforward schedule showing beginning balances, additions, disposals, and ending balances.
 
@@ -144,7 +144,7 @@ A typical capital asset rollforward schedule appears as follows:
 
 ---
 
-## Required Disclosures — Long-Term Liabilities
+## Required Disclosures: Long-Term Liabilities
 
 Governments must disclose detailed information about all long-term obligations, including a rollforward schedule and debt service requirements.
 
@@ -199,7 +199,7 @@ Governments must also disclose future debt service requirements, typically in a 
 | 2028 | \$9,200,000 | \$3,380,000 | \$12,580,000 |
 | 2029 | \$9,500,000 | \$2,990,000 | \$12,490,000 |
 | 2030 | \$9,800,000 | \$2,580,000 | \$12,380,000 |
-| 2031–2035 | \$36,000,000 | \$7,200,000 | \$43,200,000 |
+| 2031-2035 | \$36,000,000 | \$7,200,000 | \$43,200,000 |
 | **Total** | **\$82,000,000** | **\$24,000,000** | **\$106,000,000** |
 
 :::tip[Exam Tip]

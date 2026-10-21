@@ -6,7 +6,7 @@ This section covers **general IT controls (GITCs)** and **application controls**
 
 :::info
 
-Auditing standards (AU-C 315 and AS 2110) require the auditor to obtain an understanding of the entity's information system—including IT—relevant to financial reporting. This includes understanding how transactions are initiated, recorded, processed, corrected, and reported.
+Auditing standards (AU-C 315 and AS 2110) require the auditor to obtain an understanding of the entity's information system (including IT) relevant to financial reporting. This includes understanding how transactions are initiated, recorded, processed, corrected, and reported.
 
 :::
 
@@ -21,9 +21,9 @@ IT controls are broadly divided into two categories:
 | **General IT Controls (GITCs)** | Controls over the IT environment as a whole that support the continued proper functioning of application controls | Apply across multiple systems and applications |
 | **Application Controls** | Controls embedded within specific software applications to ensure completeness, accuracy, and validity of transaction processing | Apply to individual business processes or transaction cycles |
 
-GITCs create the foundation upon which application controls operate. If GITCs are weak—for example, if anyone can modify a payroll application without authorization—then the application controls within that system cannot be relied upon, even if they appear well designed.
+GITCs create the foundation upon which application controls operate. If GITCs are weak (for example, if anyone can modify a payroll application without authorization), then the application controls within that system cannot be relied upon, even if they appear well designed.
 
-**Example:** Polar Inc. uses an ERP system to process accounts payable. The system has an automated three-way match (application control) that compares purchase orders, receiving reports, and vendor invoices before authorizing payment. However, if Polar Inc. lacks adequate program change controls (a GITC), a programmer could modify the matching logic to bypass the control—rendering the three-way match unreliable.
+**Example:** Polar Inc. uses an ERP system to process accounts payable. The system has an automated three-way match (application control) that compares purchase orders, receiving reports, and vendor invoices before authorizing payment. However, if Polar Inc. lacks adequate program change controls (a GITC), a programmer could modify the matching logic to bypass the control, rendering the three-way match unreliable.
 
 :::tip[Exam Tip]
 
@@ -43,10 +43,10 @@ GITCs are typically organized into four categories:
 
 Key elements include:
 
-- **Authorization** — All changes must be requested and approved by appropriate personnel
-- **Testing** — Changes are tested in a separate environment before deployment
-- **Segregation of environments** — Development, testing, and production environments are separated
-- **Documentation** — Changes are logged with details of what was modified, by whom, and when
+- **Authorization**: All changes must be requested and approved by appropriate personnel
+- **Testing**: Changes are tested in a separate environment before deployment
+- **Segregation of environments**: Development, testing, and production environments are separated
+- **Documentation**: Changes are logged with details of what was modified, by whom, and when
 
 **Example:** Grizzly Industries requires that any changes to its revenue recognition module go through a formal change request, testing in a sandbox environment, approval by the IT manager and the controller, and documentation in a change log before deployment.
 
@@ -65,21 +65,21 @@ Key principles include **least privilege** (users receive only the minimum acces
 
 **Computer operations controls** ensure that IT systems operate as intended on a day-to-day basis. These include:
 
-- **Job scheduling** — Ensuring batch processes (e.g., nightly posting runs) execute on time and in the correct sequence
-- **Backup and recovery** — Regular backups of data and systems, with tested restoration procedures
-- **Incident management** — Procedures for identifying, escalating, and resolving system errors or outages
-- **Monitoring** — Automated alerts for system failures, capacity thresholds, or abnormal activity
+- **Job scheduling**: Ensuring batch processes (e.g., nightly posting runs) execute on time and in the correct sequence
+- **Backup and recovery**: Regular backups of data and systems, with tested restoration procedures
+- **Incident management**: Procedures for identifying, escalating, and resolving system errors or outages
+- **Monitoring**: Automated alerts for system failures, capacity thresholds, or abnormal activity
 
 **Example:** Bear Co. runs a nightly batch job to post all journal entries from its subledgers to the general ledger. Computer operations controls ensure this job runs every night at 11:00 PM, that any failures trigger an automated alert to the IT operations team, and that a recovery procedure exists if the job fails mid-process.
 
 ### Data Integrity Controls
 
-**Data integrity controls** protect data from unauthorized modification, loss, or corruption throughout its lifecycle—during input, storage, processing, and transmission. These include:
+**Data integrity controls** protect data from unauthorized modification, loss, or corruption throughout its lifecycle: during input, storage, processing, and transmission. These include:
 
-- **Database access restrictions** — Limiting direct access to database tables
-- **Referential integrity checks** — Ensuring relationships between tables remain valid
-- **Audit trails and logging** — Recording all changes to critical data
-- **Data validation rules** — Preventing invalid data from being stored
+- **Database access restrictions**: Limiting direct access to database tables
+- **Referential integrity checks**: Ensuring relationships between tables remain valid
+- **Audit trails and logging**: Recording all changes to critical data
+- **Data validation rules**: Preventing invalid data from being stored
 
 ---
 
@@ -106,18 +106,18 @@ Application controls are embedded within specific software programs and operate 
 
 **Processing controls** ensure that transactions are processed accurately and completely once they have been entered. Examples include:
 
-- **Run-to-run totals** — Comparing output totals from one processing stage to input totals of the next stage
-- **Sequence checks** — Verifying that transactions are processed in the correct order
-- **Reasonableness tests** — Flagging transactions that fall outside expected parameters
-- **Automatic calculations** — Ensuring mathematical computations (e.g., tax, discounts) are performed consistently
+- **Run-to-run totals**: Comparing output totals from one processing stage to input totals of the next stage
+- **Sequence checks**: Verifying that transactions are processed in the correct order
+- **Reasonableness tests**: Flagging transactions that fall outside expected parameters
+- **Automatic calculations**: Ensuring mathematical computations (e.g., tax, discounts) are performed consistently
 
 ### Output Controls
 
 **Output controls** ensure that processing results are complete, accurate, and distributed only to authorized recipients:
 
-- **Report distribution lists** — Ensuring sensitive reports are sent only to authorized personnel
-- **Reconciliation of output to input** — Verifying that the number and dollar amount of transactions processed match what was entered
-- **Review of exception reports** — Management review of items that failed processing controls
+- **Report distribution lists**: Ensuring sensitive reports are sent only to authorized personnel
+- **Reconciliation of output to input**: Verifying that the number and dollar amount of transactions processed match what was entered
+- **Review of exception reports**: Management review of items that failed processing controls
 
 ---
 
@@ -125,7 +125,7 @@ Application controls are embedded within specific software programs and operate 
 
 | Characteristic | Automated Controls | Manual Controls |
 |---|---|---|
-| **Consistency** | Highly consistent—perform the same way every time | Subject to human error, fatigue, and judgment variability |
+| **Consistency** | Highly consistent; perform the same way every time | Subject to human error, fatigue, and judgment variability |
 | **Evidence** | May not leave visible evidence; audit trail is electronic | Typically leave physical evidence (signatures, initials) |
 | **Scalability** | Handle high volumes efficiently | Become less effective as transaction volume increases |
 | **Adaptability** | Cannot handle unusual or unexpected transactions | Can exercise judgment for unique situations |
@@ -145,11 +145,11 @@ An automated control is only as reliable as the system it runs on. If GITCs are 
 
 EUC risks include:
 
-- **Lack of change controls** — Formulas can be modified without authorization or documentation
-- **No access restrictions** — Files may be stored on shared drives with broad access
-- **Version control issues** — Multiple versions of the same spreadsheet may exist
-- **Lack of testing** — Spreadsheet logic may contain undetected errors
-- **Limited audit trail** — Changes are often untraceable
+- **Lack of change controls**: Formulas can be modified without authorization or documentation
+- **No access restrictions**: Files may be stored on shared drives with broad access
+- **Version control issues**: Multiple versions of the same spreadsheet may exist
+- **Lack of testing**: Spreadsheet logic may contain undetected errors
+- **Limited audit trail**: Changes are often untraceable
 
 **Example:** Honey Entertainment uses an Excel spreadsheet to calculate its allowance for doubtful accounts. The spreadsheet contains complex formulas and links to data exported from the ERP system. Because the spreadsheet is maintained by one accountant with no formal review or change controls, there is a significant risk that formula errors or unauthorized changes could result in a material misstatement.
 
@@ -165,10 +165,10 @@ Spreadsheet risk is a frequent CPA exam topic. When an entity relies on a spread
 
 **IT governance** refers to the organizational structure, policies, and processes that ensure IT supports and enables the achievement of the entity's strategies and objectives. Key elements include:
 
-- **IT strategic planning** — Aligning IT investments with business objectives
-- **IT organizational structure** — Defining roles, responsibilities, and reporting lines within the IT function
-- **IT policies and procedures** — Establishing standards for security, development, operations, and data management
-- **Performance monitoring** — Measuring and reporting on IT system availability, reliability, and compliance
+- **IT strategic planning**: Aligning IT investments with business objectives
+- **IT organizational structure**: Defining roles, responsibilities, and reporting lines within the IT function
+- **IT policies and procedures**: Establishing standards for security, development, operations, and data management
+- **Performance monitoring**: Measuring and reporting on IT system availability, reliability, and compliance
 
 ---
 
@@ -188,7 +188,7 @@ The auditor should consider:
 - **Incident response plans** and whether significant breaches have occurred
 - The effect of any cybersecurity incidents on the **financial statements and disclosures**
 
-**Example:** Ursa Security, a cybersecurity firm, discovers that a client—Panda Records—experienced a data breach that exposed customer financial data. Panda Records must evaluate whether the breach creates a contingent liability requiring disclosure and whether any financial data was compromised, which could affect the completeness and accuracy of recorded transactions.
+**Example:** Ursa Security, a cybersecurity firm, discovers that a client, Panda Records, experienced a data breach that exposed customer financial data. Panda Records must evaluate whether the breach creates a contingent liability requiring disclosure and whether any financial data was compromised, which could affect the completeness and accuracy of recorded transactions.
 
 ---
 
@@ -207,6 +207,6 @@ When IT controls are effective, the auditor can adopt a **combined approach** (t
 
 :::tip[Exam Tip]
 
-The CPA exam frequently tests the relationship between IT control weaknesses and the audit response. Remember: a weakness in GITCs has a **pervasive** effect—it can undermine the reliability of **all** application controls in the affected system, not just one specific control.
+The CPA exam frequently tests the relationship between IT control weaknesses and the audit response. Remember: a weakness in GITCs has a **pervasive** effect: it can undermine the reliability of **all** application controls in the affected system, not just one specific control.
 
 :::

@@ -1,6 +1,6 @@
 # Litigation, Claims, and Assessments
 
-Litigation, claims, and assessments represent some of the most challenging areas in an audit because they involve future outcomes that are inherently uncertain. A pending lawsuit may result in a massive liability—or it may be dismissed entirely. Auditors must design procedures that identify these matters, evaluate their financial statement impact, and determine whether management has properly accounted for and disclosed them. This topic is tested on the CPA exam under AUD blueprint area III.E.4 and draws heavily on **AU-C 501** (AICPA) and **AS 2505** (PCAOB).
+Litigation, claims, and assessments represent some of the most challenging areas in an audit because they involve future outcomes that are inherently uncertain. A pending lawsuit may result in a massive liability, or it may be dismissed entirely. Auditors must design procedures that identify these matters, evaluate their financial statement impact, and determine whether management has properly accounted for and disclosed them. This topic is tested on the CPA exam under AUD blueprint area III.E.4 and draws heavily on **AU-C 501** (AICPA) and **AS 2505** (PCAOB).
 
 ## Audit Procedures to Detect Litigation, Claims, and Assessments
 
@@ -8,7 +8,7 @@ Because management may not voluntarily disclose unfavorable legal matters, the a
 
 ### 1. Inquire of Management
 
-The auditor should ask management—including in-house legal counsel—about:
+The auditor should ask management (including in-house legal counsel) about:
 
 - Pending or threatened litigation, claims, and assessments
 - Unasserted claims that the client's lawyers have advised are probable of assertion
@@ -17,7 +17,7 @@ The auditor should ask management—including in-house legal counsel—about:
 
 :::tip
 
-Frame inquiries broadly. Ask about disputes with customers, employees, regulators, and competitors—not just "lawsuits." Management may not classify a regulatory investigation or tax dispute as "litigation" unless prompted.
+Frame inquiries broadly. Ask about disputes with customers, employees, regulators, and competitors, not just "lawsuits." Management may not classify a regulatory investigation or tax dispute as "litigation" unless prompted.
 
 :::
 
@@ -66,7 +66,7 @@ The **attorney letter** (also called the audit inquiry letter or legal confirmat
    - Management's evaluation of the likelihood of an unfavorable outcome
    - An estimate of the potential loss or range of loss (or a statement that an estimate cannot be made)
 2. **Management sends the letter** to the entity's outside legal counsel, requesting the attorney to confirm or supplement management's descriptions
-3. **The attorney responds directly to the auditor**—not back to management
+3. **The attorney responds directly to the auditor**, not back to management
 
 :::note
 
@@ -98,7 +98,7 @@ The attorney categorizes the likelihood of an unfavorable outcome using the stan
 
 :::warning
 
-If the attorney states that a loss is "probable" but cannot provide a reasonable estimate, the entity must still disclose the contingency in the notes—even though no accrual is recorded. The auditor should evaluate whether the disclosure is adequate.
+If the attorney states that a loss is "probable" but cannot provide a reasonable estimate, the entity must still disclose the contingency in the notes, even though no accrual is recorded. The auditor should evaluate whether the disclosure is adequate.
 
 :::
 
@@ -113,7 +113,7 @@ Attorneys may limit their responses due to **attorney-client privilege** and eth
 
 :::caution
 
-A refusal by the attorney to respond—or a significantly limited response—does **not** automatically mean the attorney is hiding something. However, the auditor must evaluate whether sufficient appropriate evidence has been obtained. A material limitation may constitute a **scope limitation** affecting the audit opinion.
+A refusal by the attorney to respond (or a significantly limited response) does **not** automatically mean the attorney is hiding something. However, the auditor must evaluate whether sufficient appropriate evidence has been obtained. A material limitation may constitute a **scope limitation** affecting the audit opinion.
 
 :::
 
@@ -124,7 +124,7 @@ Grizzly Industries is defending against two lawsuits:
 2. **Slip-and-fall personal injury claim** by a former employee seeking \$150,000
 
 Management prepares a letter listing both matters and sends it to Grizzly's outside counsel. The attorney responds:
-- **Patent claim**: Likelihood of unfavorable outcome assessed as "reasonably possible"; potential loss range of \$500,000–\$2,000,000
+- **Patent claim**: Likelihood of unfavorable outcome assessed as "reasonably possible"; potential loss range of \$500,000 to \$2,000,000
 - **Personal injury claim**: Likelihood assessed as "probable"; estimated loss of \$120,000
 
 Based on the response, the auditor verifies that Grizzly has:
@@ -135,14 +135,14 @@ Based on the response, the auditor verifies that Grizzly has:
 
 ### Loss Contingency Recognition Under ASC 450
 
-The accounting treatment for litigation-related contingencies follows **ASC 450-20** (*Contingencies—Loss Contingencies*):
+The accounting treatment for litigation-related contingencies follows **ASC 450-20** (*Contingencies: Loss Contingencies*):
 
 | Condition | Accrual Required? | Disclosure Required? |
 |---|---|---|
-| Loss is **probable** AND **reasonably estimable** | ✅ Yes—record a liability | ✅ Yes—disclose in the notes |
-| Loss is **probable** but **not estimable** | ❌ No accrual | ✅ Yes—disclose the nature and indicate that an estimate cannot be made |
-| Loss is **reasonably possible** | ❌ No accrual | ✅ Yes—disclose the nature and estimated range of loss (or state that an estimate cannot be made) |
-| Loss is **remote** | ❌ No accrual | ❌ Generally no (except for certain guarantees under ASC 460) |
+| Loss is **probable** AND **reasonably estimable** | Yes, record a liability | Yes, disclose in the notes |
+| Loss is **probable** but **not estimable** | No accrual | Yes, disclose the nature and indicate that an estimate cannot be made |
+| Loss is **reasonably possible** | No accrual | Yes, disclose the nature and estimated range of loss (or state that an estimate cannot be made) |
+| Loss is **remote** | No accrual | Generally no (except for certain guarantees under ASC 460) |
 
 :::info[Accrual Best Practices]
 
@@ -160,7 +160,7 @@ Bear Co. is the defendant in a class-action product liability lawsuit. Managemen
 
 Bear Co. should:
 1. **Accrue \$3,000,000** (the minimum of the range)
-2. **Disclose** the nature of the lawsuit and the full \$3,000,000–\$8,000,000 range in the notes
+2. **Disclose** the nature of the lawsuit and the full \$3,000,000 to \$8,000,000 range in the notes
 
 The auditor verifies this treatment is consistent with ASC 450-20 and AU-C 501.
 
@@ -175,7 +175,7 @@ As part of the **management representation letter** (AU-C 580), the auditor obta
 
 :::tip
 
-The management representation letter supplements—but does not replace—the attorney letter. Both are required. The representation letter confirms management's responsibility for completeness; the attorney letter provides corroborating evidence from an independent legal professional.
+The management representation letter supplements, but does not replace, the attorney letter. Both are required. The representation letter confirms management's responsibility for completeness; the attorney letter provides corroborating evidence from an independent legal professional.
 
 :::
 
@@ -193,14 +193,14 @@ Honey Entertainment's CFO signs a management representation letter stating: *"We
 
 | Scenario | Impact on Audit Report |
 |---|---|
-| Client **refuses to send** the attorney letter | Scope limitation—**qualified opinion** or **disclaimer of opinion** |
-| Attorney **refuses to respond** on material matters | Scope limitation—**qualified opinion** or **disclaimer of opinion** |
+| Client **refuses to send** the attorney letter | Scope limitation: **qualified opinion** or **disclaimer of opinion** |
+| Attorney **refuses to respond** on material matters | Scope limitation: **qualified opinion** or **disclaimer of opinion** |
 | Attorney **limits response** to a dollar threshold, but no material matters are excluded | Not a scope limitation if the auditor is satisfied no material matters were omitted |
-| Attorney **cannot estimate** the loss for a probable matter | Not a scope limitation—evaluate disclosure adequacy |
+| Attorney **cannot estimate** the loss for a probable matter | Not a scope limitation; evaluate disclosure adequacy |
 
 ### Emphasis-of-Matter Paragraphs
 
-When litigation creates significant uncertainty about the entity's ability to continue as a going concern or involves a material contingency, the auditor may add an **emphasis-of-matter paragraph** to the audit report to draw attention to the related disclosure—without modifying the opinion itself.
+When litigation creates significant uncertainty about the entity's ability to continue as a going concern or involves a material contingency, the auditor may add an **emphasis-of-matter paragraph** to the audit report to draw attention to the related disclosure without modifying the opinion itself.
 
 ### Example: Audit Report Impact at Polar Inc.
 
@@ -217,20 +217,20 @@ Polar Inc. faces a \$50,000,000 government fraud investigation. The company's ou
 | **Attorney letter requirement** | Required for all audits | Required for all audits |
 | **Unasserted claims** | Attorney should inform auditor of matters where assertion is probable and loss is reasonably possible | Same requirement |
 | **Management representations** | Required under AU-C 580 | Required under AS 2805 |
-| **Going concern evaluation** | AU-C 570—auditor evaluates whether litigation raises substantial doubt | AS 2415—similar requirement for issuers |
+| **Going concern evaluation** | AU-C 570: auditor evaluates whether litigation raises substantial doubt | AS 2415: similar requirement for issuers |
 | **Emphasis-of-matter** | Permitted for significant uncertainties (AU-C 706) | Explanatory paragraph added after the opinion paragraph (AS 3101) |
 | **Internal control over financial reporting** | Not required for nonissuers | Auditor must evaluate controls over litigation accrual and disclosure in an integrated audit |
 
 :::note[PCAOB Integrated Audits]
 
-For public companies, the auditor performs an **integrated audit** of financial statements and internal control over financial reporting (ICFR). This means the auditor must also evaluate whether the entity has effective controls over the identification, evaluation, and disclosure of litigation, claims, and assessments—not just whether the amounts in the financial statements are correct.
+For public companies, the auditor performs an **integrated audit** of financial statements and internal control over financial reporting (ICFR). This means the auditor must also evaluate whether the entity has effective controls over the identification, evaluation, and disclosure of litigation, claims, and assessments, not just whether the amounts in the financial statements are correct.
 
 :::
 
 ### Example: PCAOB Integrated Audit at Bear Co.
 
 Bear Co. is a publicly traded manufacturer subject to PCAOB standards. The auditor:
-1. Tests controls over the **litigation tracking process**—evaluating whether management has a system to identify and monitor all legal matters
+1. Tests controls over the **litigation tracking process**, evaluating whether management has a system to identify and monitor all legal matters
 2. Sends the **attorney letter** and evaluates the response
 3. Tests the **accuracy of accruals** for probable losses
 4. Evaluates the **completeness and adequacy of disclosures** in the notes
@@ -247,6 +247,6 @@ Bear Co. is a publicly traded manufacturer subject to PCAOB standards. The audit
 | **ASC 450-20 accrual rule** | Accrue minimum of the range when no single amount is the best estimate |
 | **Unasserted claims** | Attorney discloses if assertion is probable and loss would be reasonably possible |
 | **Management representations** | Must specifically address completeness of litigation disclosures |
-| **Scope limitation** | Client or attorney refusal to cooperate → qualified opinion or disclaimer |
+| **Scope limitation** | Client or attorney refusal to cooperate leads to a qualified opinion or disclaimer |
 | **PCAOB integrated audit** | Also evaluate controls over litigation identification, accrual, and disclosure |
 | **Emphasis-of-matter** | May be added when litigation creates significant uncertainty (does not modify the opinion) |

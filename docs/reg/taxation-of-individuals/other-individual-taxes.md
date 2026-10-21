@@ -30,19 +30,19 @@ The taxpayer may deduct **one-half** of the self-employment tax as an **adjustme
 
 Jamie operates a consulting business as a sole proprietor and reports \$120,000 of net profit on Schedule C.
 
-**Step 1 — Calculate SE income:**
+**Step 1: Calculate SE income**
 
 $$
 \$120{,}000 \times 92.35\% = \$110{,}820
 $$
 
-**Step 2 — Calculate SE tax:**
+**Step 2: Calculate SE tax**
 
 $$
 \$110{,}820 \times 15.3\% = \$16{,}955
 $$
 
-**Step 3 — Deduction for half of SE tax:**
+**Step 3: Deduction for half of SE tax**
 
 $$
 \$16{,}955 \times 50\% = \$8{,}478
@@ -196,10 +196,10 @@ Taxpayers who do not have sufficient withholding (e.g., self-employed individual
 
 | Quarter | Income Period | Due Date |
 |---------|--------------|----------|
-| 1st | Jan 1 – Mar 31 | April 15 |
-| 2nd | Apr 1 – May 31 | June 15 |
-| 3rd | Jun 1 – Aug 31 | September 15 |
-| 4th | Sep 1 – Dec 31 | January 15 (following year) |
+| 1st | Jan 1 to Mar 31 | April 15 |
+| 2nd | Apr 1 to May 31 | June 15 |
+| 3rd | Jun 1 to Aug 31 | September 15 |
+| 4th | Sep 1 to Dec 31 | January 15 (following year) |
 
 ### When Estimated Payments Are Required
 
@@ -217,7 +217,7 @@ A taxpayer avoids the underpayment penalty if total payments (withholding + esti
 
 :::note
 
-The prior-year safe harbor requires that a **return was filed** for the prior year. If the prior-year return shows zero tax liability, the taxpayer has no estimated payment requirement — but this only works if a return was actually filed for that year.
+The prior-year safe harbor requires that a **return was filed** for the prior year. If the prior-year return shows zero tax liability, the taxpayer has no estimated payment requirement, but this only works if a return was actually filed for that year.
 
 :::
 
@@ -239,6 +239,6 @@ Either safe harbor requires \$18,000 in total payments. Priya should make quarte
 
 :::tip[CPA Exam Strategy]
 
-When a question involves estimated taxes, check the safe harbors **first**. If total payments meet either the 90% current-year test or the 100%/110% prior-year test, there is **no penalty** — regardless of how much tax is ultimately owed.
+When a question involves estimated taxes, check the safe harbors **first**. If total payments meet either the 90% current-year test or the 100%/110% prior-year test, there is **no penalty**, regardless of how much tax is ultimately owed.
 
 :::

@@ -10,7 +10,7 @@ Effective communication between the auditor and **those charged with governance*
 
 ---
 
-## Required Communications — Overview
+## Overview of Required Communications
 
 The auditor must communicate a range of matters to those charged with governance. These communications promote transparency, facilitate the audit, and help governance bodies exercise effective oversight.
 
@@ -154,7 +154,7 @@ If the auditor determines that the **two-way communication is inadequate**, the 
 
 :::warning
 
-If a matter is required to be communicated **in writing**, oral communication alone is not sufficient—even if governance acknowledges the oral communication. Written communication creates a formal record and is required for the most significant matters.
+If a matter is required to be communicated **in writing**, oral communication alone is not sufficient, even if governance acknowledges the oral communication. Written communication creates a formal record and is required for the most significant matters.
 
 :::
 
@@ -185,4 +185,4 @@ The timing of communications varies by topic:
 | **Independence** | Written communication required for issuers |
 | **Form** | Written required for key matters; oral acceptable for routine matters |
 | **Two-way** | Both auditor and governance share relevant information |
-| **Timing** | Varies — some matters early, some during, some before report issuance |
+| **Timing** | Varies: some matters early, some during, some before report issuance |

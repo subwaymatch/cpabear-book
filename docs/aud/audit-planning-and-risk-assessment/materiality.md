@@ -1,6 +1,6 @@
 # Materiality
 
-Materiality is one of the most important—and most tested—concepts in auditing. It shapes virtually every decision the auditor makes, from planning procedures to evaluating misstatements to forming the audit opinion. Materiality is not a fixed number pulled from a formula; it requires **professional judgment** applied in the context of the specific engagement.
+Materiality is one of the most important (and most tested) concepts in auditing. It shapes virtually every decision the auditor makes, from planning procedures to evaluating misstatements to forming the audit opinion. Materiality is not a fixed number pulled from a formula; it requires **professional judgment** applied in the context of the specific engagement.
 
 This section covers the **definition of materiality**, the concept of **performance materiality**, the related idea of **tolerable misstatement**, and how the auditor **sets and revises materiality** throughout the engagement.
 
@@ -20,7 +20,7 @@ In simpler terms: a misstatement is material if it is **big enough to matter** t
 
 ### Key Characteristics of Materiality
 
-- Materiality is assessed from the perspective of **reasonable users** of the financial statements—investors, creditors, regulators, and other stakeholders
+- Materiality is assessed from the perspective of **reasonable users** of the financial statements: investors, creditors, regulators, and other stakeholders
 - Both the **size** (quantitative) and the **nature** (qualitative) of a misstatement are relevant
 - Materiality is determined in the context of the **financial statements as a whole**, not in isolation
 - Setting materiality is a matter of **professional judgment**, not a mechanical calculation
@@ -36,7 +36,7 @@ Materiality is not solely about dollar amounts. A small misstatement can be mate
 
 :::
 
-**Example:** Bear Co. has total revenues of \$50 million and net income of \$2 million. A \$50,000 misstatement might seem immaterial quantitatively. However, if that misstatement changes net income from a gain to a loss—or causes Bear Co. to violate a debt covenant requiring a minimum current ratio—it could be **qualitatively material** regardless of its dollar amount.
+**Example:** Bear Co. has total revenues of \$50 million and net income of \$2 million. A \$50,000 misstatement might seem immaterial quantitatively. However, if that misstatement changes net income from a gain to a loss, or causes Bear Co. to violate a debt covenant requiring a minimum current ratio, it could be **qualitatively material** regardless of its dollar amount.
 
 ---
 
@@ -46,7 +46,7 @@ Materiality is not solely about dollar amounts. A small misstatement can be mate
 
 ### Why Performance Materiality Exists
 
-If the auditor set a single materiality level and designed all procedures to detect misstatements only at that level, there would be a risk that multiple smaller misstatements—each below the materiality threshold—could aggregate to an amount that exceeds materiality. Performance materiality builds in a **safety margin**.
+If the auditor set a single materiality level and designed all procedures to detect misstatements only at that level, there would be a risk that multiple smaller misstatements, each below the materiality threshold, could aggregate to an amount that exceeds materiality. Performance materiality builds in a **safety margin**.
 
 ### Setting Performance Materiality
 
@@ -62,7 +62,7 @@ Think of performance materiality as a "working materiality" or "safety cushion."
 
 :::
 
-**Example:** The auditor sets materiality for Grizzly Industries' financial statements at \$500,000. Based on prior audit experience—Grizzly had several misstatements identified in the prior year—the auditor sets performance materiality at \$350,000. This means the auditor will design procedures sensitive enough to detect misstatements of \$350,000 or more, providing a buffer to account for undetected or uncorrected misstatements that could aggregate above \$500,000.
+**Example:** The auditor sets materiality for Grizzly Industries' financial statements at \$500,000. Based on prior audit experience (Grizzly had several misstatements identified in the prior year), the auditor sets performance materiality at \$350,000. This means the auditor will design procedures sensitive enough to detect misstatements of \$350,000 or more, providing a buffer to account for undetected or uncorrected misstatements that could aggregate above \$500,000.
 
 ---
 
@@ -96,11 +96,11 @@ The auditor establishes materiality during the **planning phase** of the audit. 
 
 | Benchmark | Typical Range | When Used |
 |---|---|---|
-| **Net income (before tax)** | 5–10% | For-profit entities with stable earnings |
-| **Total revenue** | 0.5–1% | Entities with volatile or near-zero earnings |
-| **Total assets** | 0.5–1% | Asset-intensive industries (banking, real estate) |
-| **Total equity** | 1–2% | Entities where equity is the key focus |
-| **Total expenses** | 0.5–1% | Not-for-profit entities |
+| **Net income (before tax)** | 5%-10% | For-profit entities with stable earnings |
+| **Total revenue** | 0.5%-1% | Entities with volatile or near-zero earnings |
+| **Total assets** | 0.5%-1% | Asset-intensive industries (banking, real estate) |
+| **Total equity** | 1%-2% | Entities where equity is the key focus |
+| **Total expenses** | 0.5%-1% | Not-for-profit entities |
 
 :::warning
 
@@ -116,9 +116,9 @@ Materiality is not a one-and-done calculation. The auditor must **revise materia
 
 Common reasons for revising materiality include:
 
-- **Changes in the entity's financial results** — For example, if materiality was based on estimated net income and actual net income is significantly different from the estimate
-- **Discovery of new information** — Such as previously unknown related-party transactions or significant accounting errors
-- **Changes in circumstances** — Such as a major acquisition, disposal, or restructuring during the year
+- **Changes in the entity's financial results**: For example, if materiality was based on estimated net income and actual net income is significantly different from the estimate
+- **Discovery of new information**: Such as previously unknown related-party transactions or significant accounting errors
+- **Changes in circumstances**: Such as a major acquisition, disposal, or restructuring during the year
 
 When materiality is revised, the auditor must also **reconsider performance materiality** and evaluate whether the **nature, timing, and extent of further audit procedures** remain appropriate.
 
@@ -126,7 +126,7 @@ When materiality is revised, the auditor must also **reconsider performance mate
 
 :::tip[Exam Tip]
 
-If the CPA exam asks "when should the auditor revise materiality?"—the answer is whenever the auditor becomes aware of information that would have resulted in a different materiality amount initially. Materiality is a **living number** that reflects current knowledge about the entity.
+If the CPA exam asks when the auditor should revise materiality, the answer is whenever the auditor becomes aware of information that would have resulted in a different materiality amount initially. Materiality is a **living number** that reflects current knowledge about the entity.
 
 :::
 

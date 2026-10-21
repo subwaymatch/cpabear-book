@@ -1,10 +1,10 @@
 # General and Proprietary Long-Term Liabilities
 
-State and local governments report **long-term liabilities** in the **government-wide financial statements** under the economic resources measurement focus and accrual basis of accounting. These liabilities fall into two categories — **general long-term liabilities** (related to governmental activities) and **proprietary long-term liabilities** (related to business-type activities) — each with distinct reporting requirements at the fund level versus the government-wide level.
+State and local governments report **long-term liabilities** in the **government-wide financial statements** under the economic resources measurement focus and accrual basis of accounting. These liabilities fall into two categories, **general long-term liabilities** (related to governmental activities) and **proprietary long-term liabilities** (related to business-type activities), each with distinct reporting requirements at the fund level versus the government-wide level.
 
 :::info[Blueprint Coverage]
 
-This section maps to **BAR Area III, Group C, Topic 4 – General and Proprietary Long-Term Liabilities**. Representative tasks:
+This section maps to **BAR Area III, Group C, Topic 4: General and Proprietary Long-Term Liabilities**. Representative tasks:
 
 1. **Identify** general and proprietary long-term liabilities reported in the government-wide financial statements of state and local governments.
 2. **Recall** the recognition and measurement requirements for a net pension liability for a defined benefit pension plan for state and local governments.
@@ -23,12 +23,12 @@ This section maps to **BAR Area III, Group C, Topic 4 – General and Proprietar
 | **Related to** | Governmental activities | Business-type activities |
 | **Backed by** | Full faith and credit (taxing power) | Revenue from enterprise operations |
 | **Reported in government-wide?** | Yes | Yes |
-| **Reported in fund statements?** | **No** — not in governmental fund balance sheet | Yes — in proprietary fund Statement of Net Position |
+| **Reported in fund statements?** | **No**, not in governmental fund balance sheet | Yes, in proprietary fund Statement of Net Position |
 | **Examples** | GO bonds, compensated absences, net pension liability, net OPEB liability, claims & judgments | Revenue bonds, capital leases of enterprise funds |
 
 :::warning[Critical Distinction]
 
-General long-term liabilities are **never** reported in governmental fund financial statements. They appear **only** in the government-wide Statement of Net Position under governmental activities. This is because governmental funds use the current financial resources measurement focus — long-term obligations are not "current."
+General long-term liabilities are **never** reported in governmental fund financial statements. They appear **only** in the government-wide Statement of Net Position under governmental activities. This is because governmental funds use the current financial resources measurement focus, and long-term obligations are not "current."
 
 :::
 
@@ -48,10 +48,10 @@ flowchart TD
 
 | Reporting Level | General LT Liabilities | Proprietary LT Liabilities |
 |---|---|---|
-| Government-wide Statement of Net Position | ✓ Reported | ✓ Reported |
-| Governmental fund balance sheet | ✗ Not reported | N/A |
-| Proprietary fund Statement of Net Position | N/A | ✓ Reported |
-| Notes to financial statements | ✓ Disclosed | ✓ Disclosed |
+| Government-wide Statement of Net Position | Reported | Reported |
+| Governmental fund balance sheet | Not reported | N/A |
+| Proprietary fund Statement of Net Position | N/A | Reported |
+| Notes to financial statements | Disclosed | Disclosed |
 
 ---
 
@@ -79,7 +79,7 @@ flowchart TD
 
 ---
 
-## Bond Issuance Journal Entries — Government-Wide Level
+## Bond Issuance Journal Entries: Government-Wide Level
 
 At the government-wide level, bonds are recorded as long-term liabilities under full accrual accounting.
 
@@ -135,7 +135,7 @@ Dr. Premium on Bonds Payable[l] 5,000
 Cr. Interest Expense 5,000
 ```
 
-Net interest expense for the period = \$150,000 − \$5,000 = **\$145,000**.
+Net interest expense for the period = \$150,000 - \$5,000 = **\$145,000**.
 
 ### Discount Amortization (Straight-Line)
 
@@ -151,18 +151,18 @@ Net interest expense for the period = \$150,000 + \$5,000 = **\$155,000**.
 
 ---
 
-## Fund-Level Treatment — Governmental Funds
+## Fund-Level Treatment: Governmental Funds
 
 At the governmental fund level, long-term debt is **not** recorded as a liability. Instead:
 
 | Transaction | Governmental Fund Entry | Government-Wide Entry |
 |---|---|---|
-| Bond proceeds received | Other Financing Sources — Bond Proceeds | Bonds Payable (liability) |
-| Principal payment | Expenditures — Debt Service (Principal) | Reduce Bonds Payable |
-| Interest payment | Expenditures — Debt Service (Interest) | Interest Expense |
-| Premium received | Other Financing Sources — Premium on Bonds | Premium on Bonds Payable (liability) |
+| Bond proceeds received | Other Financing Sources: Bond Proceeds | Bonds Payable (liability) |
+| Principal payment | Expenditures: Debt Service (Principal) | Reduce Bonds Payable |
+| Interest payment | Expenditures: Debt Service (Interest) | Interest Expense |
+| Premium received | Other Financing Sources: Premium on Bonds | Premium on Bonds Payable (liability) |
 
-### Example — Governmental Fund Entries for Bond Issuance at Premium
+### Example: Governmental Fund Entries for Bond Issuance at Premium
 
 Bear City's General Fund records the same \$5,100,000 bond issuance:
 
@@ -173,7 +173,7 @@ Cr. Other Financing Sources - Bond Proceeds 5,000,000
 Cr. Other Financing Sources - Premium on Bonds 100,000
 ```
 
-### Example — Debt Service Payment (Governmental Fund)
+### Example: Debt Service Payment (Governmental Fund)
 
 Bear City's Debt Service Fund pays \$250,000 principal and \$150,000 interest:
 
@@ -192,7 +192,7 @@ At the governmental fund level, **no long-term liability is ever recorded**. Bon
 
 ---
 
-## Net Pension Liability — GASB 68
+## Net Pension Liability: GASB 68
 
 GASB Statement No. 68 requires state and local governments to report a **net pension liability (NPL)** on the government-wide Statement of Net Position for defined benefit pension plans.
 
@@ -206,14 +206,14 @@ $$
 |---|---|
 | **Total Pension Liability (TPL)** | Present value of projected benefit payments attributable to past service (actuarial accrued liability) |
 | **Plan Fiduciary Net Position** | Fair value of plan assets available to pay benefits |
-| **Net Pension Liability** | The unfunded portion — what the government owes |
+| **Net Pension Liability** | The unfunded portion, which is what the government owes |
 
 ### Measurement Approach
 
 | Element | Requirement |
 |---|---|
 | Actuarial cost method | Entry age normal |
-| Discount rate | Blended rate — long-term expected rate of return on plan investments (to extent plan assets are projected to cover benefit payments), otherwise a municipal bond index rate |
+| Discount rate | Blended rate: long-term expected rate of return on plan investments (to extent plan assets are projected to cover benefit payments), otherwise a municipal bond index rate |
 | Attribution | Projected benefit payments attributed to periods of service using entry age normal |
 
 ### Pension Expense Components
@@ -234,19 +234,19 @@ Amortized items include:
 | Net difference when actual earnings < projected | Net difference when actual earnings > projected |
 | Changes in assumptions that increase TPL | Changes in assumptions that decrease TPL |
 | Actual experience > expected (losses) | Actual experience < expected (gains) |
-| Employer contributions after measurement date | — |
+| Employer contributions after measurement date | None |
 
 :::tip[Exam Tip]
 
-**Contributions made after the measurement date** are always reported as a **deferred outflow of resources** — not a reduction of the net pension liability — until the next measurement date.
+**Contributions made after the measurement date** are always reported as a **deferred outflow of resources** (not a reduction of the net pension liability) until the next measurement date.
 
 :::
 
 ---
 
-## Net OPEB Liability — GASB 75
+## Net OPEB Liability: GASB 75
 
-GASB Statement No. 75 mirrors GASB 68 for **other postemployment benefits (OPEB)** — benefits other than pensions provided to retired employees.
+GASB Statement No. 75 mirrors GASB 68 for **other postemployment benefits (OPEB)**, which are benefits other than pensions provided to retired employees.
 
 ### What Qualifies as OPEB?
 
@@ -274,7 +274,7 @@ $$
 
 :::info[OPEB vs. Pensions]
 
-The primary conceptual difference is the benefit type — pensions provide retirement income, while OPEB provides other benefits (mainly healthcare). The accounting framework is virtually identical.
+The primary conceptual difference is the benefit type: pensions provide retirement income, while OPEB provides other benefits (mainly healthcare). The accounting framework is virtually identical.
 
 :::
 
@@ -323,7 +323,7 @@ Cr. Compensated Absences Payable[l] 600,000
 
 The total indebtedness reported in the government-wide Statement of Net Position includes **all** long-term liabilities of both governmental and business-type activities.
 
-### Example — Grizzly County Total Indebtedness
+### Example: Grizzly County Total Indebtedness
 
 | Liability Category | Amount |
 |---|---|
@@ -351,13 +351,13 @@ When calculating total indebtedness, remember to **subtract** unamortized discou
 
 ---
 
-## Complete Worked Example — Bond Issuance and Debt Service
+## Complete Worked Example: Bond Issuance and Debt Service
 
 Bear City issues \$10,000,000 of 5%, 10-year general obligation serial bonds on July 1, Year 1, at 103 (total proceeds = \$10,300,000). Interest is paid semiannually on January 1 and July 1. The \$300,000 premium is amortized straight-line over 20 semiannual periods (\$15,000 per period). The first principal payment of \$1,000,000 is due July 1, Year 2.
 
 ### Government-Wide Entries (Full Accrual)
 
-**July 1, Year 1 — Bond Issuance:**
+**July 1, Year 1: Bond Issuance**
 
 ```journal
 Jul 1, Year 1
@@ -366,7 +366,7 @@ Cr. Bonds Payable[l] 10,000,000
 Cr. Premium on Bonds Payable[l] 300,000
 ```
 
-**December 31, Year 1 — Accrue Interest at Year-End:**
+**December 31, Year 1: Accrue Interest at Year-End**
 
 Semiannual coupon = \$10,000,000 × 5% × ½ = \$250,000. Premium amortization = \$15,000.
 
@@ -377,7 +377,7 @@ Dr. Premium on Bonds Payable[l] 15,000
 Cr. Interest Payable[l] 250,000
 ```
 
-**January 1, Year 2 — Interest Payment:**
+**January 1, Year 2: Interest Payment**
 
 ```journal
 Jan 1, Year 2
@@ -385,7 +385,7 @@ Dr. Interest Payable[l] 250,000
 Cr. Cash[a] 250,000
 ```
 
-**July 1, Year 2 — Interest Payment + Premium Amortization:**
+**July 1, Year 2: Interest Payment + Premium Amortization**
 
 ```journal
 Jul 1, Year 2
@@ -394,7 +394,7 @@ Dr. Premium on Bonds Payable[l] 15,000
 Cr. Cash[a] 250,000
 ```
 
-**July 1, Year 2 — Principal Payment:**
+**July 1, Year 2: Principal Payment**
 
 ```journal
 Jul 1, Year 2
@@ -404,7 +404,7 @@ Cr. Cash[a] 1,000,000
 
 ### Governmental Fund Entries (Modified Accrual)
 
-**July 1, Year 1 — Bond Issuance (Capital Projects Fund):**
+**July 1, Year 1: Bond Issuance (Capital Projects Fund)**
 
 ```journal
 Jul 1, Year 1
@@ -413,7 +413,7 @@ Cr. Other Financing Sources - Bond Proceeds 10,000,000
 Cr. Other Financing Sources - Premium on Bonds 300,000
 ```
 
-**January 1, Year 2 — Interest Payment (Debt Service Fund):**
+**January 1, Year 2: Interest Payment (Debt Service Fund)**
 
 ```journal
 Jan 1, Year 2
@@ -421,7 +421,7 @@ Dr. Expenditures - Debt Service (Interest) 250,000
 Cr. Cash[a] 250,000
 ```
 
-**July 1, Year 2 — Interest + Principal Payment (Debt Service Fund):**
+**July 1, Year 2: Interest + Principal Payment (Debt Service Fund)**
 
 ```journal
 Jul 1, Year 2
@@ -446,12 +446,12 @@ When preparing the reconciliation from governmental fund statements to governmen
 
 | Concept | Key Rule |
 |---|---|
-| General long-term liabilities | Reported only in government-wide statements — never in governmental funds |
+| General long-term liabilities | Reported only in government-wide statements, never in governmental funds |
 | Proprietary long-term liabilities | Reported in both proprietary fund and government-wide statements |
 | Bond proceeds (governmental fund) | Recorded as Other Financing Sources |
 | Bond proceeds (government-wide) | Recorded as a liability |
-| Net Pension Liability | TPL − Plan Fiduciary Net Position |
-| Net OPEB Liability | Total OPEB Liability − Plan Fiduciary Net Position |
+| Net Pension Liability | TPL - Plan Fiduciary Net Position |
+| Net OPEB Liability | Total OPEB Liability - Plan Fiduciary Net Position |
 | Compensated absences (government-wide) | Full liability accrued |
 | Compensated absences (governmental fund) | Only current portion recognized |
 | Premium on bonds | Added to carrying value; amortized to reduce interest expense |

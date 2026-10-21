@@ -2,7 +2,7 @@
 
 Information systems are not static. Organizations regularly modify their hardware, software, and configurations to fix bugs, add features, address security vulnerabilities, and meet evolving business requirements. Without a structured process for managing these changes, organizations risk introducing errors, creating security holes, or disrupting critical business operations. **Change management** is the set of processes and controls that govern how changes to information systems are requested, evaluated, approved, tested, implemented, and monitored.
 
-This section covers the **purpose of change management**, the **tools and documentation** used, the **environments** involved, the **types of testing** performed, **system conversion approaches**, **patch management**, and how to **test change control policies** — including in organizations that use continuous integration and continuous deployment (CI/CD).
+This section covers the **purpose of change management**, the **tools and documentation** used, the **environments** involved, the **types of testing** performed, **system conversion approaches**, **patch management**, and how to **test change control policies**, including in organizations that use continuous integration and continuous deployment (CI/CD).
 
 :::info
 
@@ -16,11 +16,11 @@ The ISC exam tests change management across all three skill levels. You must be 
 
 Change management ensures that modifications to an organization's information systems are:
 
-- **Authorized** — Only approved changes are implemented
-- **Tested** — Changes are verified to work correctly before deployment
-- **Documented** — A complete record of what was changed, by whom, and when is maintained
-- **Controlled** — Changes follow a defined process that includes appropriate segregation of duties
-- **Reversible** — Rollback procedures exist in case a change causes unexpected problems
+- **Authorized**: Only approved changes are implemented
+- **Tested**: Changes are verified to work correctly before deployment
+- **Documented**: A complete record of what was changed, by whom, and when is maintained
+- **Controlled**: Changes follow a defined process that includes appropriate segregation of duties
+- **Reversible**: Rollback procedures exist in case a change causes unexpected problems
 
 Without effective change management:
 
@@ -31,7 +31,7 @@ Without effective change management:
 
 :::warning
 
-Change management failures are among the most commonly tested deficiencies on the ISC exam. A scenario where a developer can move code directly into production without testing or approval represents a breakdown in multiple control principles — authorization, segregation of duties, and testing.
+Change management failures are among the most commonly tested deficiencies on the ISC exam. A scenario where a developer can move code directly into production without testing or approval represents a breakdown in multiple control principles: authorization, segregation of duties, and testing.
 
 :::
 
@@ -121,10 +121,10 @@ When an organization replaces or significantly upgrades an information system, i
 
 | Approach | Description | Risk Level | Cost |
 |---|---|---|---|
-| **Direct (cutover)** | The old system is shut down and the new system goes live immediately | **Highest** — no fallback if the new system fails | Lowest |
-| **Parallel** | Both the old and new systems run simultaneously for a period; results are compared to verify the new system is working correctly | **Lowest** — the old system is available as a fallback | Highest (running two systems) |
-| **Pilot** | The new system is deployed to a small group or department first; once validated, it is rolled out to the entire organization | **Moderate** — limited exposure, but issues may not surface until full deployment | Moderate |
-| **Phased** | The new system is implemented in stages (e.g., one module or location at a time) | **Moderate** — reduces risk through incremental deployment | Moderate |
+| **Direct (cutover)** | The old system is shut down and the new system goes live immediately | **Highest**: no fallback if the new system fails | Lowest |
+| **Parallel** | Both the old and new systems run simultaneously for a period; results are compared to verify the new system is working correctly | **Lowest**: the old system is available as a fallback | Highest (running two systems) |
+| **Pilot** | The new system is deployed to a small group or department first; once validated, it is rolled out to the entire organization | **Moderate**: limited exposure, but issues may not surface until full deployment | Moderate |
+| **Phased** | The new system is implemented in stages (e.g., one module or location at a time) | **Moderate**: reduces risk through incremental deployment | Moderate |
 
 **Example:** **Kingfisher Industries** is replacing its legacy accounting system with a new ERP platform. Management chooses a **parallel approach**, running both systems for three months and comparing the financial outputs. This allows the accounting team to verify that the new system produces accurate results before decommissioning the old system.
 
@@ -142,13 +142,13 @@ The **direct cutover** approach carries the highest risk because there is no fal
 
 ### Patch Management Process
 
-1. **Monitoring** — Continuously monitor for available patches from software vendors and security advisories
-2. **Prioritizing** — Assess the criticality of each patch based on the severity of the vulnerability it addresses and the systems affected
-3. **Testing** — Test the patch in a non-production environment to verify it does not cause compatibility issues or break existing functionality
-4. **Scheduling** — Plan the deployment window, considering business impact and system availability requirements
-5. **Deploying** — Apply the patch to production systems according to the approved schedule
-6. **Validating** — Verify that the patch was applied successfully and the system is functioning correctly
-7. **Documenting** — Record the patch, the systems it was applied to, and the results
+1. **Monitoring**: Continuously monitor for available patches from software vendors and security advisories
+2. **Prioritizing**: Assess the criticality of each patch based on the severity of the vulnerability it addresses and the systems affected
+3. **Testing**: Test the patch in a non-production environment to verify it does not cause compatibility issues or break existing functionality
+4. **Scheduling**: Plan the deployment window, considering business impact and system availability requirements
+5. **Deploying**: Apply the patch to production systems according to the approved schedule
+6. **Validating**: Verify that the patch was applied successfully and the system is functioning correctly
+7. **Documenting**: Record the patch, the systems it was applied to, and the results
 
 :::note
 
@@ -178,12 +178,12 @@ The ISC exam tests your ability to evaluate whether an organization's change con
 
 Organizations using CI/CD pipelines automate the build, test, and deployment process. While automation improves speed and consistency, it introduces new control considerations:
 
-- **Automated testing gates** — The CI/CD pipeline should include automated tests that must pass before code can be promoted to the next stage
-- **Approval workflows** — Even in automated pipelines, human approval should be required before deployment to production
-- **Access to pipeline configuration** — The CI/CD pipeline configuration is itself a critical asset; changes to the pipeline should be controlled
-- **Audit trail** — The pipeline should maintain a complete log of all builds, tests, approvals, and deployments
+- **Automated testing gates**: The CI/CD pipeline should include automated tests that must pass before code can be promoted to the next stage
+- **Approval workflows**: Even in automated pipelines, human approval should be required before deployment to production
+- **Access to pipeline configuration**: The CI/CD pipeline configuration is itself a critical asset; changes to the pipeline should be controlled
+- **Audit trail**: The pipeline should maintain a complete log of all builds, tests, approvals, and deployments
 
-**Example:** **Illini Security** uses a CI/CD pipeline that automatically runs unit tests and integration tests whenever a developer commits code. However, the pipeline is configured to deploy directly to production without a manual approval step. This represents a change control deficiency — the pipeline lacks a human authorization gate before production deployment.
+**Example:** **Illini Security** uses a CI/CD pipeline that automatically runs unit tests and integration tests whenever a developer commits code. However, the pipeline is configured to deploy directly to production without a manual approval step. This represents a change control deficiency: the pipeline lacks a human authorization gate before production deployment.
 
 ---
 
@@ -192,13 +192,13 @@ Organizations using CI/CD pipelines automate the build, test, and deployment pro
 A walkthrough involves selecting a specific change and tracing it through the entire change management process to verify that the documented policies were followed. The walkthrough procedure typically includes:
 
 1. **Select a change** from the change tracking system
-2. **Review the change request** — Was it properly documented and justified?
-3. **Verify authorization** — Was the change approved by an appropriate authority?
-4. **Confirm testing** — Were all required tests performed and documented?
-5. **Check environment segregation** — Was the change developed, tested, and deployed through separate environments?
-6. **Verify deployment** — Was the change deployed by an authorized individual (not the developer)?
-7. **Review post-deployment monitoring** — Was the change monitored after deployment for unexpected effects?
-8. **Compare to documented policy** — Does the observed procedure match the documented change management policy?
+2. **Review the change request**: Was it properly documented and justified?
+3. **Verify authorization**: Was the change approved by an appropriate authority?
+4. **Confirm testing**: Were all required tests performed and documented?
+5. **Check environment segregation**: Was the change developed, tested, and deployed through separate environments?
+6. **Verify deployment**: Was the change deployed by an authorized individual (not the developer)?
+7. **Review post-deployment monitoring**: Was the change monitored after deployment for unexpected effects?
+8. **Compare to documented policy**: Does the observed procedure match the documented change management policy?
 
 Discrepancies between the observed procedure and the documented policy represent **control deviations** that must be reported.
 

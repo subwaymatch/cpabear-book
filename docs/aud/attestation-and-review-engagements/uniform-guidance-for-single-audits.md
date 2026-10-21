@@ -1,6 +1,6 @@
 # Uniform Guidance for Single Audits
 
-When entities receive and expend significant amounts of federal financial assistance, they are subject to heightened accountability requirements. The **Uniform Guidance** (formally codified in **2 CFR Part 200**), issued by the **Office of Management and Budget (OMB)**, provides a comprehensive framework governing the administration, cost principles, and audit requirements for federal awards. Subpart F of the Uniform Guidance specifically addresses **audit requirements**, including the **single audit**—a rigorous, organization-wide audit designed to ensure that recipients of federal funds comply with applicable laws, regulations, and program requirements. Understanding single audit concepts is essential for the AUD section of the CPA exam, particularly blueprint topics **II.G.4** and **III.E.6**.
+When entities receive and expend significant amounts of federal financial assistance, they are subject to heightened accountability requirements. The **Uniform Guidance** (formally codified in **2 CFR Part 200**), issued by the **Office of Management and Budget (OMB)**, provides a comprehensive framework governing the administration, cost principles, and audit requirements for federal awards. Subpart F of the Uniform Guidance specifically addresses **audit requirements**, including the **single audit**, a rigorous, organization-wide audit designed to ensure that recipients of federal funds comply with applicable laws, regulations, and program requirements. Understanding single audit concepts is essential for the AUD section of the CPA exam, particularly blueprint topics **II.G.4** and **III.E.6**.
 
 :::info
 
@@ -39,7 +39,7 @@ A single audit conducted under the Uniform Guidance **must also be performed in 
 
 :::tip[Exam Tip]
 
-Think of the single audit as a **layered** set of requirements: GAAS forms the foundation, Yellow Book adds governmental requirements on top, and the Uniform Guidance adds federal award–specific requirements on top of that. All three layers apply simultaneously.
+Think of the single audit as a **layered** set of requirements: GAAS forms the foundation, Yellow Book adds governmental requirements on top, and the Uniform Guidance adds federal award-specific requirements on top of that. All three layers apply simultaneously.
 
 :::
 
@@ -89,8 +89,8 @@ The Type A threshold uses a sliding scale:
 | Total Federal Expenditures | Type A Threshold |
 |---|---|
 | Up to \$25 million | The larger of \$750,000 or 3% of total |
-| \$25 million – \$100 million | \$1.875 million |
-| \$100 million – \$1 billion | The larger of \$3 million or 0.3% of total |
+| \$25 million to \$100 million | \$1.875 million |
+| \$100 million to \$1 billion | The larger of \$3 million or 0.3% of total |
 | Over \$1 billion | \$30 million |
 
 ### Risk-Based Approach to Determining Major Programs
@@ -98,9 +98,9 @@ The Type A threshold uses a sliding scale:
 The auditor performs a **four-step process** to determine major programs:
 
 1. **Identify Type A programs** using the dollar threshold
-2. **Assess risk for each Type A program** — classify as low risk or high risk
-3. **Identify high-risk Type B programs** — at least one high-risk Type B must be tested as major for every low-risk Type A excluded from testing (with a cap equal to 25% of the number of low-risk Type A programs)
-4. **Verify coverage** — total major programs must cover at least **20%** (low-risk auditee) or **40%** (non-low-risk auditee) of total federal expenditures
+2. **Assess risk for each Type A program**: classify as low risk or high risk
+3. **Identify high-risk Type B programs**: at least one high-risk Type B must be tested as major for every low-risk Type A excluded from testing (with a cap equal to 25% of the number of low-risk Type A programs)
+4. **Verify coverage**: total major programs must cover at least **20%** (low-risk auditee) or **40%** (non-low-risk auditee) of total federal expenditures
 
 **Example:** Grizzly Industries, a large nonprofit, expended \$12 million in federal awards across 10 programs. Using the 3% threshold (\$360,000 is less than \$750,000, so the threshold is \$750,000), four programs exceed \$750,000 and are classified as Type A. The auditor assesses one Type A program as low risk (clean findings for two consecutive years) and three as high risk. The auditor also identifies one high-risk Type B program with prior-year findings. All four high-risk programs are tested as major, covering 72% of total federal expenditures.
 
@@ -131,7 +131,7 @@ For each major program, the auditor tests the entity's compliance with requireme
 | **Subrecipient monitoring** | Pass-through entities must monitor subrecipients for compliance |
 | **Special tests and provisions** | Program-specific requirements unique to certain federal programs |
 
-**Example:** Polar Inc. receives a \$1.2 million federal workforce development grant. The auditor tests key compliance requirements: (1) **Eligibility** — verifying that program participants met income thresholds, (2) **Activities allowed** — confirming that training expenditures aligned with the grant agreement, (3) **Reporting** — checking that quarterly performance reports were filed on time, and (4) **Period of performance** — ensuring no costs were incurred outside the grant period.
+**Example:** Polar Inc. receives a \$1.2 million federal workforce development grant. The auditor tests key compliance requirements: (1) **Eligibility**, verifying that program participants met income thresholds, (2) **Activities allowed**, confirming that training expenditures aligned with the grant agreement, (3) **Reporting**, checking that quarterly performance reports were filed on time, and (4) **Period of performance**, ensuring no costs were incurred outside the grant period.
 
 :::warning
 
@@ -198,9 +198,9 @@ The compliance opinion for major programs can be **unmodified**, **qualified**, 
 
 This schedule is a critical deliverable that contains three sections:
 
-1. **Summary of auditor's results** — the type of opinion on the financial statements, whether material weaknesses or significant deficiencies were identified (for both financial reporting and compliance), the type of compliance opinion for major programs, and whether the auditee qualifies as low risk
-2. **Financial statement findings** — findings related to the financial statement audit under GAGAS
-3. **Federal award findings and questioned costs** — compliance findings for major programs, including the ALN number, program name, federal agency, and the specific compliance requirement involved
+1. **Summary of auditor's results**: the type of opinion on the financial statements, whether material weaknesses or significant deficiencies were identified (for both financial reporting and compliance), the type of compliance opinion for major programs, and whether the auditee qualifies as low risk
+2. **Financial statement findings**: findings related to the financial statement audit under GAGAS
+3. **Federal award findings and questioned costs**: compliance findings for major programs, including the ALN number, program name, federal agency, and the specific compliance requirement involved
 
 **Example:** Kodiak Partners, a regional transit authority, receives a qualified opinion on compliance for its Federal Transit Administration grant due to unallowable expenditures totaling \$85,000. The schedule of findings and questioned costs reports: (1) the finding number, (2) the federal program and ALN, (3) a description of the condition (unallowable travel expenditures), (4) the criteria (grant agreement and 2 CFR Part 200 cost principles), (5) the questioned cost amount (\$85,000), (6) the cause and effect, and (7) a recommendation.
 
@@ -246,7 +246,7 @@ Failure to submit the single audit reporting package to the Federal Audit Cleari
 | Topic | Key Point |
 |---|---|
 | **Single audit threshold** | Required when an entity expends **\$750,000 or more** in federal awards during a fiscal year |
-| **Governing framework** | Uniform Guidance — **2 CFR Part 200, Subpart F** |
+| **Governing framework** | Uniform Guidance, **2 CFR Part 200, Subpart F** |
 | **Relationship to GAGAS** | Single audits must also comply with **Government Auditing Standards** (Yellow Book) and GAAS |
 | **SEFA** | Lists all federal awards expended; audited in relation to the financial statements as a whole |
 | **Type A programs** | Larger programs exceeding a dollar threshold; presumed major unless assessed as low risk |

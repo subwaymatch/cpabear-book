@@ -16,8 +16,8 @@ Capital gains and losses are first netted within their **holding-period group**,
 
 | Step | Procedure |
 |---|---|
-| 1 | Net all **short-term** capital gains and losses → Net Short-Term Capital Gain (Loss) |
-| 2 | Net all **long-term** capital gains and losses → Net Long-Term Capital Gain (Loss) |
+| 1 | Net all **short-term** capital gains and losses to arrive at Net Short-Term Capital Gain (Loss) |
+| 2 | Net all **long-term** capital gains and losses to arrive at Net Long-Term Capital Gain (Loss) |
 | 3 | If one group is a net gain and the other is a net loss, offset them against each other |
 
 > **Example:** Polar Co. employee Pat has the following 2024 transactions: STCG \$8,000, STCL (\$3,000), LTCG \$2,000, LTCL (\$10,000). Step 1: Net ST = \$5,000 gain. Step 2: Net LT = (\$8,000) loss. Step 3: Net overall = (\$3,000) capital loss.
@@ -41,19 +41,19 @@ When applied in a future year, carryforward losses are combined with that year's
 
 ---
 
-## Pass-Through Entity Loss Limitations — The Four Hurdles
+## Pass-Through Entity Loss Limitations: The Four Hurdles
 
-Losses from partnerships and S corporations must clear **four sequential hurdles** before they can reduce a taxpayer's other income. The order matters — a loss stopped at an earlier hurdle never reaches the next one.
+Losses from partnerships and S corporations must clear **four sequential hurdles** before they can reduce a taxpayer's other income. The order matters: a loss stopped at an earlier hurdle never reaches the next one.
 
 ```mermaid
 flowchart TD
     A[Pass-Through Loss Allocated to Owner] --> B{1. Basis Limitation}
     B -->|Allowed| C{2. At-Risk Limitation}
-    B -->|Excess suspended| B2[Suspended — carry forward]
+    B -->|Excess suspended| B2[Suspended and carried forward]
     C -->|Allowed| D{3. Passive Activity Loss Limitation}
-    C -->|Excess suspended| C2[Suspended — carry forward]
+    C -->|Excess suspended| C2[Suspended and carried forward]
     D -->|Allowed| E{4. Excess Business Loss Limitation}
-    D -->|Excess suspended| D2[Suspended — carry forward]
+    D -->|Excess suspended| D2[Suspended and carried forward]
     E -->|Allowed| F[Deductible on Form 1040]
     E -->|Excess| E2[Treated as NOL carryforward]
 ```
@@ -64,7 +64,7 @@ A taxpayer cannot deduct losses in excess of their **tax basis** in the entity.
 
 | Entity | Basis Includes |
 |---|---|
-| **S corporation** (stock basis) | Initial investment + income allocations + additional contributions − distributions − loss allocations |
+| **S corporation** (stock basis) | Initial investment + income allocations + additional contributions - distributions - loss allocations |
 | **Partnership** (outside basis) | Same as S corp **plus** the partner's share of entity **liabilities** (a critical difference) |
 
 :::warning
@@ -95,7 +95,7 @@ After the basis test, the deductible loss is further limited to the amount the t
 
 Losses from **passive activities** can only offset **passive income**. An activity is passive if the taxpayer does not **materially participate**.
 
-#### Material Participation — Seven Tests (Reg. §1.469-5T)
+#### Material Participation: Seven Tests (Reg. §1.469-5T)
 
 A taxpayer materially participates if they satisfy **any one** of the following:
 
@@ -122,11 +122,11 @@ Under IRC §469(i), individuals who **actively participate** in rental real esta
 | Condition | Rule |
 |---|---|
 | AGI ≤ \$100,000 | Full \$25,000 allowance |
-| AGI \$100,000–\$150,000 | Reduced by 50% of excess over \$100,000 |
+| AGI \$100,000 to \$150,000 | Reduced by 50% of excess over \$100,000 |
 | AGI > \$150,000 | No allowance |
 | MFS (lived together) | No allowance |
 
-> **Example:** Honey Security employee Sam actively participates in a rental property and has a \$30,000 rental loss with AGI of \$120,000. The allowance is reduced by 50% × (\$120,000 − \$100,000) = \$10,000, leaving a \$15,000 allowance. Sam deducts \$15,000 and suspends \$15,000.
+> **Example:** Honey Security employee Sam actively participates in a rental property and has a \$30,000 rental loss with AGI of \$120,000. The allowance is reduced by 50% × (\$120,000 - \$100,000) = \$10,000, leaving a \$15,000 allowance. Sam deducts \$15,000 and suspends \$15,000.
 
 #### Disposition of Passive Activity
 
@@ -141,7 +141,7 @@ After passing through the first three hurdles, aggregate net business losses exc
 | Single / HoH | ~\$305,000 |
 | MFJ | ~\$610,000 |
 
-> **Example:** Panda Industries partner Morgan has \$800,000 of net business losses (after basis, at-risk, and passive limitations) and files MFJ. The excess business loss disallowed is \$800,000 − \$610,000 = \$190,000, which becomes an NOL carryforward.
+> **Example:** Panda Industries partner Morgan has \$800,000 of net business losses (after basis, at-risk, and passive limitations) and files MFJ. The excess business loss disallowed is \$800,000 - \$610,000 = \$190,000, which becomes an NOL carryforward.
 
 ---
 
@@ -165,7 +165,7 @@ The IRS considers these factors (no single factor is determinative):
 
 :::info
 
-A **presumption of profit motive** exists if the activity is profitable in **3 of the last 5 years** (2 of 7 years for horse breeding/racing). This is a rebuttable presumption — the IRS can still challenge the activity.
+A **presumption of profit motive** exists if the activity is profitable in **3 of the last 5 years** (2 of 7 years for horse breeding/racing). This is a rebuttable presumption; the IRS can still challenge the activity.
 
 :::
 
@@ -180,7 +180,7 @@ A **presumption of profit motive** exists if the activity is profitable in **3 o
 
 :::caution
 
-Before TCJA, hobby expenses were deductible as miscellaneous itemized deductions (subject to the 2% AGI floor) up to the amount of hobby income. Under TCJA (2018–2025), they are **completely nondeductible**.
+Before TCJA, hobby expenses were deductible as miscellaneous itemized deductions (subject to the 2% AGI floor) up to the amount of hobby income. Under TCJA (2018-2025), they are **completely nondeductible**.
 
 :::
 
@@ -195,7 +195,7 @@ A **wash sale** occurs when a taxpayer sells or trades a security at a loss and 
 | **Window** | 61-day total period (30 days before + sale date + 30 days after) |
 | **Effect** | Loss is **disallowed** |
 | **Basis adjustment** | Disallowed loss is added to the basis of the replacement security |
-| **Holding period** | Tacks — the holding period of the old security carries over |
+| **Holding period** | Tacks: the holding period of the old security carries over |
 
 > **Example:** On November 10, Bear Co. employee Jordan sells 100 shares of XYZ Corp. stock for a \$4,000 loss. On November 28, Jordan repurchases 100 shares of XYZ Corp. for \$6,000. The \$4,000 loss is disallowed under the wash sale rule, and Jordan's basis in the new shares is \$6,000 + \$4,000 = **\$10,000**.
 
@@ -255,5 +255,5 @@ The 80% limitation does **not** apply to NOLs arising in tax years beginning **b
 | **Excess business loss** | §461(l) | Losses exceeding threshold become NOL carryforward |
 | **Hobby losses** | §183 | No deduction for expenses; income is fully taxable |
 | **Wash sale** | §1091 | Loss disallowed if substantially identical security acquired within 30 days |
-| **Personal-use losses** | — | Never deductible |
+| **Personal-use losses** | N/A | Never deductible |
 | **Net operating loss** | §172 | 80% of taxable income limit; indefinite carryforward |

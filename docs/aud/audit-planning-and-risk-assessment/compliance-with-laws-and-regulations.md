@@ -6,7 +6,7 @@ This section covers the auditor's consideration of **laws and regulations** unde
 
 :::info
 
-The auditor is **not** an attorney and is not expected to have the legal expertise to identify all instances of noncompliance. However, the auditor **is** responsible for obtaining reasonable assurance that the financial statements are free from material misstatement—including misstatements arising from noncompliance with laws and regulations that have a direct and material effect on the financial statements.
+The auditor is **not** an attorney and is not expected to have the legal expertise to identify all instances of noncompliance. However, the auditor **is** responsible for obtaining reasonable assurance that the financial statements are free from material misstatement, including misstatements arising from noncompliance with laws and regulations that have a direct and material effect on the financial statements.
 
 :::
 
@@ -21,7 +21,7 @@ The distinction between direct-effect and indirect-effect laws is fundamental to
 | **Direct-effect laws** | Laws and regulations that have a **direct and material effect** on the determination of amounts and disclosures in the financial statements | Tax laws, pension and benefit regulations (ERISA), revenue recognition rules for government contractors, banking reserve requirements | The auditor designs procedures to obtain **reasonable assurance** of detecting noncompliance that could cause material misstatement |
 | **Indirect-effect laws** | Laws and regulations related to the entity's **operating activities** that do not directly affect financial statement amounts but whose noncompliance may result in fines, penalties, or litigation that require disclosure | Environmental regulations, occupational safety laws (OSHA), antitrust laws, data privacy regulations, anti-corruption laws (FCPA) | The auditor's responsibility is limited to performing specified **inquiry and inspection** procedures; the auditor is not required to design specific procedures to detect noncompliance |
 
-**Example:** Bear Co. is a government contractor. Federal Acquisition Regulation (FAR) cost accounting standards directly affect how Bear Co. recognizes revenue and allocates costs on government contracts—these are **direct-effect** laws. Bear Co. is also subject to OSHA workplace safety regulations. Violations of OSHA rules could result in fines or litigation but do not directly determine financial statement amounts—these are **indirect-effect** laws.
+**Example:** Bear Co. is a government contractor. Federal Acquisition Regulation (FAR) cost accounting standards directly affect how Bear Co. recognizes revenue and allocates costs on government contracts. These are **direct-effect** laws. Bear Co. is also subject to OSHA workplace safety regulations. Violations of OSHA rules could result in fines or litigation but do not directly determine financial statement amounts. These are **indirect-effect** laws.
 
 :::tip[Exam Tip]
 
@@ -77,7 +77,7 @@ The auditor performs the following procedures to identify potential noncomplianc
 When the auditor identifies or suspects noncompliance, the following steps are required:
 
 1. **Obtain an understanding** of the nature of the act and the circumstances in which it occurred
-2. **Evaluate the effect** on the financial statements—consider potential fines, penalties, damages, loss of revenue, contingent liabilities, and required disclosures
+2. **Evaluate the effect** on the financial statements, considering potential fines, penalties, damages, loss of revenue, contingent liabilities, and required disclosures
 3. **Consult with management** and, if appropriate, legal counsel about the matter
 4. **Consider the implications** for other aspects of the audit, including the reliability of management's representations and the assessment of fraud risk
 5. **Determine whether the matter should be communicated** to those charged with governance
@@ -123,7 +123,7 @@ Noncompliance with laws and regulations can affect the audit opinion in several 
 | Situation | Effect on Opinion |
 |---|---|
 | **Material misstatement due to noncompliance** (e.g., unrecorded liability for fines) and management **refuses to adjust** | **Qualified** or **adverse** opinion |
-| **Scope limitation** — the auditor is unable to determine whether noncompliance has occurred or to evaluate its financial statement effect | **Qualified** opinion or **disclaimer** of opinion |
+| **Scope limitation**: the auditor is unable to determine whether noncompliance has occurred or to evaluate its financial statement effect | **Qualified** opinion or **disclaimer** of opinion |
 | **Noncompliance is properly reflected** in the financial statements (recorded/disclosed) | No modification required; **unmodified** opinion |
 | **Substantial doubt about going concern** due to noncompliance (e.g., loss of operating license) | Add an **emphasis-of-matter** paragraph (nonissuers) or **explanatory paragraph** (issuers) |
 
@@ -131,7 +131,7 @@ Noncompliance with laws and regulations can affect the audit opinion in several 
 
 ## Legal Letter Requirements (Attorney Letter / Inquiry of Client's Lawyer)
 
-The **letter of audit inquiry to the client's lawyer** (commonly called the "legal letter" or "attorney letter") is a critical procedure for identifying contingent liabilities related to litigation, claims, and assessments—many of which arise from potential noncompliance.
+The **letter of audit inquiry to the client's lawyer** (commonly called the "legal letter" or "attorney letter") is a critical procedure for identifying contingent liabilities related to litigation, claims, and assessments, many of which arise from potential noncompliance.
 
 ### Purpose
 

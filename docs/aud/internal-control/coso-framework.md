@@ -1,12 +1,12 @@
 # COSO Framework
 
-The **Committee of Sponsoring Organizations of the Treadway Commission (COSO)** framework is the most widely recognized model for designing, implementing, and evaluating internal control in the United States. It provides a structured way to think about how organizations achieve their objectives through effective internal controls. For the CPA exam, understanding the COSO framework is essential—not only for the AUD section but for understanding how auditors evaluate and rely upon internal controls throughout the audit.
+The **Committee of Sponsoring Organizations of the Treadway Commission (COSO)** framework is the most widely recognized model for designing, implementing, and evaluating internal control in the United States. It provides a structured way to think about how organizations achieve their objectives through effective internal controls. For the CPA exam, understanding the COSO framework is essential, not only for the AUD section but for understanding how auditors evaluate and rely upon internal controls throughout the audit.
 
 This section covers the **objectives of internal control**, **inherent limitations** of any control system, the **five components of internal control** (using the CRIME mnemonic), the details of each component and their associated COSO principles, **segregation of duties**, the **COSO cube**, the distinction between **logical access and physical controls**, and **why the auditor obtains an understanding of internal control**.
 
 :::info
 
-The COSO Internal Control—Integrated Framework (2013) is the standard used by the SEC, PCAOB, and AICPA for evaluating internal control. Auditors are required to obtain an understanding of internal control relevant to the audit under **AU-C 315** (AICPA) and **AS 2110** (PCAOB).
+The COSO Internal Control: Integrated Framework (2013) is the standard used by the SEC, PCAOB, and AICPA for evaluating internal control. Auditors are required to obtain an understanding of internal control relevant to the audit under **AU-C 315** (AICPA) and **AS 2110** (PCAOB).
 
 :::
 
@@ -34,17 +34,17 @@ On the CPA exam, you may be asked to classify a specific control by which object
 
 ## Inherent Limitations of Internal Control
 
-No system of internal control—no matter how well designed—can provide **absolute assurance**. Internal control can only provide **reasonable assurance** because of certain inherent limitations:
+No system of internal control, no matter how well designed, can provide **absolute assurance**. Internal control can only provide **reasonable assurance** because of certain inherent limitations:
 
 | Limitation | Explanation |
 |---|---|
 | **Management override** | Management has the ability and authority to bypass controls. For example, a CEO may override an approval policy to authorize a fraudulent payment. |
-| **Human error** | People make mistakes—data entry errors, misinterpretation of instructions, fatigue, or carelessness can all undermine controls. |
+| **Human error** | People make mistakes. Data entry errors, misinterpretation of instructions, fatigue, or carelessness can all undermine controls. |
 | **Collusion** | Two or more individuals working together can circumvent even well-designed controls. Segregation of duties, for example, can be defeated if the individuals in different roles conspire. |
 | **Cost-benefit considerations** | Controls are implemented when the cost of the control does not exceed the expected benefit. Some risks may be accepted because the cost of mitigating them is prohibitive. |
 | **Faulty judgment** | Decisions about the design and operation of controls are made by people using judgment, which may be flawed. |
 
-**Example:** Ursa Security has strong segregation of duties in its cash disbursement process—one person prepares payments, another approves them, and a third records them. However, if the preparer and the approver collude to create fictitious vendor payments, this control is defeated. This illustrates the inherent limitation of **collusion**.
+**Example:** Ursa Security has strong segregation of duties in its cash disbursement process: one person prepares payments, another approves them, and a third records them. However, if the preparer and the approver collude to create fictitious vendor payments, this control is defeated. This illustrates the inherent limitation of **collusion**.
 
 :::warning
 
@@ -140,13 +140,13 @@ The **monitoring activities** component involves ongoing evaluations, separate e
 | 13 | **Conduct ongoing and/or separate evaluations** | The organization selects, develops, and performs ongoing and/or separate evaluations to determine whether the components of internal control are present and functioning |
 | 14 | **Evaluate and communicate deficiencies** | The organization evaluates and communicates internal control deficiencies in a timely manner to those parties responsible for taking corrective action |
 
-**Example:** Panda Records' internal audit department performs quarterly reviews of key financial controls (ongoing evaluation) and an annual comprehensive assessment of the control environment (separate evaluation). When deficiencies are identified—such as an access control that was not properly enforced—findings are reported to the audit committee within 30 days.
+**Example:** Panda Records' internal audit department performs quarterly reviews of key financial controls (ongoing evaluation) and an annual comprehensive assessment of the control environment (separate evaluation). When deficiencies are identified (such as an access control that was not properly enforced), findings are reported to the audit committee within 30 days.
 
 ---
 
 ## Control Activities
 
-**Control activities** are the actions—established through policies and procedures—that help ensure management's directives are carried out and risks are addressed. These are the specific controls that most people think of when they hear "internal controls."
+**Control activities** are the actions, established through policies and procedures, that help ensure management's directives are carried out and risks are addressed. These are the specific controls that most people think of when they hear "internal controls."
 
 ### The PAIDTIPS Mnemonic
 
@@ -185,11 +185,11 @@ A useful mnemonic for remembering types of control activities is **PAIDTIPS**:
 
 These three functions should be performed by **different individuals**. When one person controls two or more of these functions, the risk of error or fraud increases significantly.
 
-**Example:** At Grizzly Industries, the purchasing manager (authorization) approves purchase orders, the accounts payable clerk (record-keeping) records invoices in the system, and the warehouse supervisor (custody) receives and controls the physical inventory. No single person can order goods, record the purchase, and receive the inventory—reducing the risk that fictitious purchases or theft goes undetected.
+**Example:** At Grizzly Industries, the purchasing manager (authorization) approves purchase orders, the accounts payable clerk (record-keeping) records invoices in the system, and the warehouse supervisor (custody) receives and controls the physical inventory. No single person can order goods, record the purchase, and receive the inventory, which reduces the risk that fictitious purchases or theft goes undetected.
 
 :::warning
 
-If segregation of duties is not feasible—common in smaller organizations—**compensating controls** should be implemented, such as management oversight, mandatory vacations, or independent reconciliations.
+If segregation of duties is not feasible (common in smaller organizations), **compensating controls** should be implemented, such as management oversight, mandatory vacations, or independent reconciliations.
 
 :::
 
@@ -199,9 +199,9 @@ If segregation of duties is not feasible—common in smaller organizations—**c
 
 The COSO framework is often depicted as a three-dimensional **cube** (sometimes called the "COSO cube") that illustrates the relationship between:
 
-1. **Objectives** (top face) — Operations, Reporting, Compliance
-2. **Components** (front face) — Control Environment, Risk Assessment, Control Activities, Information and Communication, Monitoring Activities
-3. **Organizational structure** (side face) — Entity level, division, operating unit, function
+1. **Objectives** (top face): Operations, Reporting, Compliance
+2. **Components** (front face): Control Environment, Risk Assessment, Control Activities, Information and Communication, Monitoring Activities
+3. **Organizational structure** (side face): Entity level, division, operating unit, function
 
 The cube demonstrates that:
 
@@ -227,12 +227,12 @@ Internal controls include both **logical (IT) access controls** and **physical c
 | **Physical controls** | Controls that restrict access to **tangible assets and physical locations** | Locks on doors, security cameras, safes, restricted-access areas, visitor logs, security guards |
 
 **Example:** Ursa Security implements both types of controls for its client monitoring data:
-- **Physical controls** — The server room is locked with a keycard access system, and only authorized IT personnel can enter
-- **Logical access controls** — The monitoring software requires user authentication with multi-factor verification, and role-based permissions ensure that field technicians can view but not modify client records
+- **Physical controls**: The server room is locked with a keycard access system, and only authorized IT personnel can enter
+- **Logical access controls**: The monitoring software requires user authentication with multi-factor verification, and role-based permissions ensure that field technicians can view but not modify client records
 
 :::tip[Exam Tip]
 
-Logical access controls are particularly important in today's audit environment because most financial data is processed and stored electronically. Weak logical access controls can undermine even the strongest physical controls—if anyone can log into the accounting system remotely, it doesn't matter how secure the office is.
+Logical access controls are particularly important in today's audit environment because most financial data is processed and stored electronically. Weak logical access controls can undermine even the strongest physical controls. If anyone can log into the accounting system remotely, it doesn't matter how secure the office is.
 
 :::
 
@@ -240,7 +240,7 @@ Logical access controls are particularly important in today's audit environment 
 
 ## Why the Auditor Obtains an Understanding of Internal Control
 
-Under both AICPA and PCAOB standards, the auditor is **required** to obtain an understanding of internal control relevant to the audit. This is not optional—it must be done on every engagement.
+Under both AICPA and PCAOB standards, the auditor is **required** to obtain an understanding of internal control relevant to the audit. This is not optional; it must be done on every engagement.
 
 ### Purposes of Understanding Internal Control
 
@@ -261,7 +261,7 @@ It is important to distinguish between **obtaining an understanding** of interna
 | **Obtaining an understanding** | Identify and assess risks; design audit procedures | **Always required** on every audit |
 | **Testing operating effectiveness** | Determine whether controls operated effectively throughout the period | Required only if the auditor **intends to rely on controls** to reduce substantive testing, or for integrated audits of issuers |
 
-**Example:** Kodiak Partners is auditing Bear Co. The engagement team obtains an understanding of the revenue cycle controls by walking through the process, inspecting policy documents, and making inquiries of accounting personnel. This understanding helps the team identify that Bear Co. lacks a control over credit memo authorization—a potential risk area. The team decides to perform extensive substantive testing of credit memos rather than relying on controls.
+**Example:** Kodiak Partners is auditing Bear Co. The engagement team obtains an understanding of the revenue cycle controls by walking through the process, inspecting policy documents, and making inquiries of accounting personnel. This understanding helps the team identify that Bear Co. lacks a control over credit memo authorization, a potential risk area. The team decides to perform extensive substantive testing of credit memos rather than relying on controls.
 
 :::note
 
@@ -279,7 +279,7 @@ For **issuer audits** under PCAOB standards, the auditor must not only understan
 | **Inherent limitations** | Management override, human error, collusion, cost-benefit, faulty judgment |
 | **CRIME components** | Control Environment, Risk Assessment, Information and Communication, Monitoring, (Control Activiti)Es |
 | **Control environment** | Tone at the top; 5 principles covering integrity, board oversight, structure, competence, accountability |
-| **Segregation of duties (ARC)** | Authorization, Record-keeping, Custody — each performed by different people |
+| **Segregation of duties (ARC)** | Authorization, Record-keeping, Custody: each performed by different people |
 | **PAIDTIPS** | Physical controls, Authorization, Independent checks, Documentation, Transaction controls, Information processing, Performance reviews, Segregation of duties |
 | **COSO cube** | Three dimensions: objectives × components × organizational levels |
 | **Logical vs. physical** | Logical = IT access controls; Physical = tangible asset protections |

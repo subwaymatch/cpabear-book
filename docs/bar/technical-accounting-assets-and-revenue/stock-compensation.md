@@ -1,6 +1,6 @@
 # Stock Compensation (Share-Based Payments)
 
-Share-based payment arrangements are a core topic in both financial reporting and CPA exam testing. Under **ASC 718**, entities that compensate employees (or non-employees) with stock options, restricted stock, or similar instruments must **measure** the award at fair value, **classify** it as equity or a liability, and **recognize** compensation cost over the requisite service period. The BAR section asks you to recall the key concepts — grant date, vesting conditions, valuation inputs — and to prepare journal entries for both equity-classified and liability-classified awards.
+Share-based payment arrangements are a core topic in both financial reporting and CPA exam testing. Under **ASC 718**, entities that compensate employees (or non-employees) with stock options, restricted stock, or similar instruments must **measure** the award at fair value, **classify** it as equity or a liability, and **recognize** compensation cost over the requisite service period. The BAR section asks you to recall the key concepts (grant date, vesting conditions, valuation inputs) and to prepare journal entries for both equity-classified and liability-classified awards.
 :::info[Blueprint Coverage]
 This topic maps to **Area II, Group D** of the 2026 CPA Exam Blueprints for **Business Analysis and Reporting (BAR)**. The blueprint expects candidates to:
 
@@ -13,7 +13,7 @@ This topic maps to **Area II, Group D** of the 2026 CPA Exam Blueprints for **Bu
 
 ## ASC 718 Overview
 
-ASC 718 _Compensation — Stock Compensation_ establishes a single framework: **measure at fair value, recognize over the service period**. The standard applies to all share-based payment transactions in which an entity acquires goods or services by issuing (or offering to issue) its shares, stock options, or other equity instruments.
+ASC 718, _Compensation: Stock Compensation_, establishes a single framework: **measure at fair value, recognize over the service period**. The standard applies to all share-based payment transactions in which an entity acquires goods or services by issuing (or offering to issue) its shares, stock options, or other equity instruments.
 
 ```mermaid
 graph LR
@@ -32,7 +32,7 @@ graph LR
 | **Forfeiture accounting** | Entities may elect to estimate forfeitures or recognize them as they occur                         |
 
 :::tip[Exam Tip]
-The BAR exam will **give** you the fair value — you will not need to compute Black-Scholes on the exam. Focus on knowing **what the inputs mean** and how the resulting fair value flows into the journal entries.
+The BAR exam will **give** you the fair value; you will not need to compute Black-Scholes on the exam. Focus on knowing **what the inputs mean** and how the resulting fair value flows into the journal entries.
 :::
 
 ---
@@ -58,7 +58,7 @@ ASC 718 distinguishes between conditions that affect whether an employee earns t
 | **Performance condition** | Revenue must exceed \$10 million | Recognized when probable of being achieved; adjust cumulative cost as probability changes |
 | **Market condition** | Stock price must reach \$50 | Reflected in the **grant-date fair value** (built into the valuation model); cost is recognized regardless of whether the condition is met |
 :::warning
-**Performance conditions** are not factored into the grant-date fair value. Instead, compensation cost is recognized only when the performance target is **probable** of being achieved. **Market conditions**, on the other hand, are baked into the fair value from day one — if the market target is never met, the cost already recognized is **not** reversed.
+**Performance conditions** are not factored into the grant-date fair value. Instead, compensation cost is recognized only when the performance target is **probable** of being achieved. **Market conditions**, on the other hand, are baked into the fair value from day one. If the market target is never met, the cost already recognized is **not** reversed.
 :::
 
 ---
@@ -69,12 +69,12 @@ An award is classified as **equity** when it will be settled by issuing the enti
 
 ### Measurement
 
-For equity-classified awards the fair value is measured **once** — at the **grant date** — and is never remeasured.
+For equity-classified awards the fair value is measured **once**, at the **grant date**, and is never remeasured.
 
 ### Stock Options
 
 A stock option gives the employee the right to purchase a specified number of shares at a fixed exercise price after vesting conditions are met.
-**Example — Bear Co. Stock Options**
+**Example: Bear Co. Stock Options**
 On January 1, Year 1, Bear Co. grants 10,000 stock options to employees. Key terms:
 | Item | Value |
 |------|-------|
@@ -97,7 +97,7 @@ $$
 ```journal
 Dec 31, Year 1
 Dr. Compensation Expense 20,000
-    Cr. Additional Paid-In Capital — Stock Options[e] 20,000
+    Cr. Additional Paid-In Capital (Stock Options)[e] 20,000
 ```
 
 **Year 2 journal entry (same pattern each year through Year 4):**
@@ -105,29 +105,29 @@ Dr. Compensation Expense 20,000
 ```journal
 Dec 31, Year 2
 Dr. Compensation Expense 20,000
-    Cr. Additional Paid-In Capital — Stock Options[e] 20,000
+    Cr. Additional Paid-In Capital (Stock Options)[e] 20,000
 ```
 
 **When employees exercise all 10,000 options (after vesting):**
-The employees pay the exercise price (\$25 × 10,000 = \$250,000), and the APIC — Stock Options balance is reclassified.
+The employees pay the exercise price (\$25 × 10,000 = \$250,000), and the APIC (Stock Options) balance is reclassified.
 
 ```journal
 Dr. Cash[a] 250,000
-Dr. Additional Paid-In Capital — Stock Options[e] 80,000
+Dr. Additional Paid-In Capital (Stock Options)[e] 80,000
     Cr. Common Stock[e] 10,000
     Cr. Additional Paid-In Capital[e] 320,000
 ```
 
 **If options expire unexercised:**
-No additional compensation cost or reversal is recorded. The APIC — Stock Options balance is simply reclassified to APIC.
+No additional compensation cost or reversal is recorded. The APIC (Stock Options) balance is simply reclassified to APIC.
 
 ```journal
-Dr. Additional Paid-In Capital — Stock Options[e] 80,000
+Dr. Additional Paid-In Capital (Stock Options)[e] 80,000
     Cr. Additional Paid-In Capital[e] 80,000
 ```
 
 :::tip[Exam Tip]
-For equity-classified awards, the **credit always goes to an equity account** (APIC — Stock Options). The fair value is **fixed at the grant date** and never adjusted, even if the stock price changes dramatically during the vesting period.
+For equity-classified awards, the **credit always goes to an equity account** (APIC, Stock Options). The fair value is **fixed at the grant date** and never adjusted, even if the stock price changes dramatically during the vesting period.
 :::
 
 ---
@@ -135,13 +135,13 @@ For equity-classified awards, the **credit always goes to an equity account** (A
 ### Restricted Stock Units (RSUs)
 
 RSUs entitle the employee to receive shares after vesting, with no exercise price (effectively \$0). The grant-date fair value of an RSU is typically equal to the **market price of the stock on the grant date**.
-**Example — Bear Co. RSUs**
+**Example: Bear Co. RSUs**
 On January 1, Year 1, Bear Co. grants 5,000 RSUs to an executive. Key terms:
 | Item | Value |
 |------|-------|
 | Number of RSUs | 5,000 |
 | Stock price at grant date | \$40 per share |
-| Vesting period | 3 years (ratable vesting — 1/3 each year) |
+| Vesting period | 3 years (ratable vesting, 1/3 each year) |
 
 $$
 \text{Total Compensation Cost} = 5{,}000 \times \$40 = \$200{,}000
@@ -157,13 +157,13 @@ $$
 ```journal
 Dec 31, Year 1
 Dr. Compensation Expense 66,667
-    Cr. Additional Paid-In Capital — RSUs[e] 66,667
+    Cr. Additional Paid-In Capital (RSUs)[e] 66,667
 ```
 
 **When RSUs vest and shares are issued (Year 3):**
 
 ```journal
-Dr. Additional Paid-In Capital — RSUs[e] 200,000
+Dr. Additional Paid-In Capital (RSUs)[e] 200,000
     Cr. Common Stock[e] 5,000
     Cr. Additional Paid-In Capital[e] 195,000
 ```
@@ -193,7 +193,7 @@ graph TD
     style L fill:#f4cccc,stroke:#333
 ```
 
-### Example — Polar Inc. Cash-Settled SARs
+### Example: Polar Inc. Cash-Settled SARs
 
 On January 1, Year 1, Polar Inc. grants 6,000 cash-settled SARs to employees. Key terms:
 | Item | Value |
@@ -286,20 +286,20 @@ For liability-classified awards, the **total compensation cost is not known unti
 
 ---
 
-## Fair Value Measurement — Black-Scholes Inputs
+## Fair Value Measurement: Black-Scholes Inputs
 
 While the BAR exam will not ask you to compute option fair values from scratch, you must **recall the inputs** to common valuation models and understand how each input affects fair value.
 
 ### Black-Scholes-Merton Model Inputs
 
-| Input                       | Description                                                       | Effect on Option Fair Value     |
-| --------------------------- | ----------------------------------------------------------------- | ------------------------------- |
-| **Stock price**             | Current market price of the underlying stock                      | ↑ Stock price → ↑ Fair value    |
-| **Exercise price**          | Price at which the option can be exercised                        | ↑ Exercise price → ↓ Fair value |
-| **Expected term**           | Estimated time until exercise (in years)                          | ↑ Expected term → ↑ Fair value  |
-| **Risk-free interest rate** | Yield on U.S. Treasury instruments matching the expected term     | ↑ Risk-free rate → ↑ Fair value |
-| **Expected volatility**     | Anticipated fluctuation in the stock price over the expected term | ↑ Volatility → ↑ Fair value     |
-| **Expected dividends**      | Dividend yield or amount expected during the option's life        | ↑ Dividends → ↓ Fair value      |
+| Input                       | Description                                                       | Effect on Option Fair Value                |
+| --------------------------- | ----------------------------------------------------------------- | ------------------------------------------ |
+| **Stock price**             | Current market price of the underlying stock                      | Higher stock price increases fair value    |
+| **Exercise price**          | Price at which the option can be exercised                        | Higher exercise price decreases fair value |
+| **Expected term**           | Estimated time until exercise (in years)                          | Longer expected term increases fair value  |
+| **Risk-free interest rate** | Yield on U.S. Treasury instruments matching the expected term     | Higher risk-free rate increases fair value |
+| **Expected volatility**     | Anticipated fluctuation in the stock price over the expected term | Higher volatility increases fair value     |
+| **Expected dividends**      | Dividend yield or amount expected during the option's life        | Higher dividends decrease fair value       |
 
 :::tip[Exam Tip]
 Remember the directional relationships: **higher volatility and longer terms increase** option value (more time and uncertainty = more upside potential), while **higher exercise prices and dividends decrease** option value. These directional effects are commonly tested in conceptual multiple-choice questions.
@@ -310,7 +310,7 @@ Remember the directional relationships: **higher volatility and longer terms inc
 | Model                        | Typical Use                                                                                                           |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | **Black-Scholes-Merton**     | Plain-vanilla stock options with a single expected exercise date                                                      |
-| **Binomial (lattice) model** | Options with complex features — early exercise, vesting tranches, or changing assumptions over time                   |
+| **Binomial (lattice) model** | Options with complex features, such as early exercise, vesting tranches, or changing assumptions over time            |
 | **Monte Carlo simulation**   | Awards with market conditions (e.g., total shareholder return targets) where outcomes depend on simulated price paths |
 
 ---
@@ -322,7 +322,7 @@ When employees leave before vesting, their awards are **forfeited**. ASC 718 pro
 |----------|-------------|
 | **Estimate forfeitures** at grant date | Reduce the number of awards expected to vest; true up as actuals differ from estimates |
 | **Recognize forfeitures as they occur** (accounting policy election) | Record cost assuming all awards will vest; reverse cost in the period of forfeiture |
-**Example — Bear Co. Forfeiture True-Up**
+**Example: Bear Co. Forfeiture True-Up**
 Bear Co. granted 10,000 options (fair value \$8 each, 4-year vest). At the end of Year 2, Bear Co. originally estimated 5% total forfeitures (9,500 options expected to vest). During Year 3, actual departures suggest 8% total forfeitures (9,200 options expected to vest).
 
 $$
@@ -334,7 +334,7 @@ $$
 $$
 
 $$
-\text{Previously Recognized (Years 1–2)} = 9{,}500 \times \$8 \times \frac{2}{4} = \$38{,}000
+\text{Previously Recognized (Years 1-2)} = 9{,}500 \times \$8 \times \frac{2}{4} = \$38{,}000
 $$
 
 $$
@@ -343,7 +343,7 @@ $$
 
 The cumulative catch-up ensures total recognized cost always equals the revised estimate multiplied by the fraction of the service period completed.
 
-## Putting It All Together — Classification Decision Framework
+## Putting It All Together: Classification Decision Framework
 
 ```mermaid
 graph TD
@@ -364,8 +364,8 @@ graph TD
 
 | Step              | Equity Award                        | Liability Award                              |
 | ----------------- | ----------------------------------- | -------------------------------------------- |
-| **1 — Classify**  | Settlement in shares → Equity       | Settlement in cash → Liability               |
-| **2 — Measure**   | Fair value at grant date (fixed)    | Fair value at each reporting date (variable) |
-| **3 — Recognize** | Straight-line over service period   | Cumulative cost adjusted each period         |
-| **4 — Record**    | Dr. Compensation Expense / Cr. APIC | Dr. Compensation Expense / Cr. Liability     |
-| **5 — Settle**    | Reclassify APIC; issue shares       | Debit liability; credit Cash                 |
+| **1. Classify**   | Settlement in shares: equity        | Settlement in cash: liability                |
+| **2. Measure**    | Fair value at grant date (fixed)    | Fair value at each reporting date (variable) |
+| **3. Recognize**  | Straight-line over service period   | Cumulative cost adjusted each period         |
+| **4. Record**     | Dr. Compensation Expense / Cr. APIC | Dr. Compensation Expense / Cr. Liability     |
+| **5. Settle**     | Reclassify APIC; issue shares       | Debit liability; credit Cash                 |

@@ -1,10 +1,10 @@
 # Financial Reporting Entity
 
-The **financial reporting entity** consists of the **primary government** together with its **component units** — legally separate organizations for which the primary government is financially accountable. Determining which entities to include and how to present them (blended vs. discretely presented) is a critical skill tested on the CPA exam. The rules are governed primarily by **GASB Statement 14** as amended by GASB 39, 61, 80, and 97.
+The **financial reporting entity** consists of the **primary government** together with its **component units**: legally separate organizations for which the primary government is financially accountable. Determining which entities to include and how to present them (blended vs. discretely presented) is a critical skill tested on the CPA exam. The rules are governed primarily by **GASB Statement 14** as amended by GASB 39, 61, 80, and 97.
 
 :::info[Blueprint Coverage]
 
-This section maps to **BAR Area III, Group A, Topic 9 – Financial Reporting Entity, including blended and discrete component units**. Representative tasks:
+This section maps to **BAR Area III, Group A, Topic 9: Financial Reporting Entity, including blended and discrete component units**. Representative tasks:
 
 1. **Recall** the criteria for classifying an entity as a component unit of a state or local government and the financial statement presentation requirements (discrete or blended).
 
@@ -16,10 +16,10 @@ This section maps to **BAR Area III, Group A, Topic 9 – Financial Reporting En
 
 The financial reporting entity includes:
 
-1. **The primary government** — the state, county, city, town, or special-purpose government that has a separately elected governing body, is legally separate, and is fiscally independent.
-2. **Component units** — legally separate organizations that meet specific criteria for inclusion.
+1. **The primary government**: the state, county, city, town, or special-purpose government that has a separately elected governing body, is legally separate, and is fiscally independent.
+2. **Component units**: legally separate organizations that meet specific criteria for inclusion.
 
-The goal is to present a **complete picture** of the government's financial position — including entities it controls or for which it is financially accountable — so users are not misled.
+The goal is to present a **complete picture** of the government's financial position (including entities it controls or for which it is financially accountable) so users are not misled.
 
 ---
 
@@ -45,7 +45,7 @@ If a special-purpose government (e.g., a school district) does **not** have a se
 
 A legally separate entity is a **component unit** of a primary government if any one of the following is met:
 
-### 1. Financial Accountability — Appointing Authority + Fiscal Dependency or Financial Benefit/Burden
+### 1. Financial Accountability: Appointing Authority + Fiscal Dependency or Financial Benefit/Burden
 
 The primary government is financially accountable if:
 
@@ -57,7 +57,7 @@ The primary government is financially accountable if:
 
 ### 2. Fiscal Dependency
 
-The organization is **fiscally dependent** on the primary government — it cannot adopt its budget, levy taxes, or issue debt without the primary government's approval — **AND** there is a financial benefit/burden relationship.
+The organization is **fiscally dependent** on the primary government (it cannot adopt its budget, levy taxes, or issue debt without the primary government's approval) **AND** there is a financial benefit/burden relationship.
 
 ### 3. Misleading to Exclude
 
@@ -96,7 +96,7 @@ A component unit should be **blended** (reported as if it were part of the prima
 
 - Their funds are reported as if they were the primary government's own funds
 - Typically reported as special revenue funds, debt service funds, or enterprise funds of the primary government
-- Only **one** fund of a blended component unit may be reported as part of the General Fund — and only if it meets specific criteria
+- Only **one** fund of a blended component unit may be reported as part of the General Fund, and only if it meets specific criteria
 
 **Example:** A city creates a **Building Authority** whose sole purpose is to issue debt to construct facilities for the city. The city council serves as the Authority's board. This entity is blended because it has substantively the same governing body and its debt will be repaid by the city.
 
@@ -104,7 +104,7 @@ A component unit should be **blended** (reported as if it were part of the prima
 
 ## Discretely Presented Component Units
 
-Component units that do **not** meet blending criteria are reported as **discretely presented** — shown in one or more **separate columns** in the government-wide financial statements.
+Component units that do **not** meet blending criteria are reported as **discretely presented**, shown in one or more **separate columns** in the government-wide financial statements.
 
 ### How Discrete Units Are Presented
 
@@ -165,7 +165,7 @@ A **related organization** is often tested as a distractor. The key difference: 
 
 ---
 
-## Decision Flowchart — Complete Classification
+## Decision Flowchart: Complete Classification
 
 ```mermaid
 flowchart TD
@@ -204,11 +204,11 @@ flowchart TD
 |---|---|---|
 | Metro Transit Authority | Yes (appoints majority + financial burden) | **Discretely presented** (serves public) |
 | Metro Parking Garage Corp | Yes (same governing body + serves city exclusively) | **Blended** (exclusively benefits primary) |
-| Metro Arts Foundation | No (appoints majority but no impose will/benefit-burden) | **Related organization** — note disclosure only |
+| Metro Arts Foundation | No (appoints majority but no impose will/benefit-burden) | **Related organization** (note disclosure only) |
 | County Library District | No (city does not appoint board) | Not part of reporting entity |
 
 :::tip[Exam Tip]
 
-When analyzing component unit questions, follow this sequence: (1) Is the entity legally separate? (2) Is the primary government financially accountable? (3) If yes — does it meet blending criteria or is it discretely presented? Work through each criterion systematically.
+When analyzing component unit questions, follow this sequence: (1) Is the entity legally separate? (2) Is the primary government financially accountable? (3) If yes, does it meet blending criteria or is it discretely presented? Work through each criterion systematically.
 
 :::

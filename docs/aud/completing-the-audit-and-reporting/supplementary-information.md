@@ -1,6 +1,6 @@
 # Supplementary Information
 
-Financial statements rarely stand alone. They are often accompanied by additional information — some required by accounting standards, some voluntarily included by management, and some appearing in documents alongside the audited statements. The auditor's responsibilities for this supplementary information differ significantly based on what type of information it is and what the auditor has been engaged to do.
+Financial statements rarely stand alone. They are often accompanied by additional information: some required by accounting standards, some voluntarily included by management, and some appearing in documents alongside the audited statements. The auditor's responsibilities for this supplementary information differ significantly based on what type of information it is and what the auditor has been engaged to do.
 
 This section covers the **objectives of supplementary information engagements**, the auditor's procedures for **required supplementary information (RSI)**, **other (voluntary) supplementary information**, and the auditor's responsibility for **other information in documents** containing audited financial statements.
 
@@ -10,9 +10,9 @@ This section covers the **objectives of supplementary information engagements**,
 
 The fundamental objective when dealing with supplementary information is to **determine the appropriate level of responsibility** the auditor has for information beyond the basic financial statements. This depends on:
 
-1. **Whether the information is required or voluntary** — Required supplementary information (RSI) is mandated by a standard-setter; voluntary supplementary information (SI) is included at management's discretion
-2. **Whether the auditor has been specifically engaged to report on the information** — The auditor's procedures and the level of assurance provided differ dramatically based on engagement terms
-3. **The relationship between the supplementary information and the audited financial statements** — The auditor must evaluate whether the information is consistent with the audited financial statements and whether it is fairly stated
+1. **Whether the information is required or voluntary**: Required supplementary information (RSI) is mandated by a standard-setter; voluntary supplementary information (SI) is included at management's discretion
+2. **Whether the auditor has been specifically engaged to report on the information**: The auditor's procedures and the level of assurance provided differ dramatically based on engagement terms
+3. **The relationship between the supplementary information and the audited financial statements**: The auditor must evaluate whether the information is consistent with the audited financial statements and whether it is fairly stated
 
 :::info
 
@@ -36,7 +36,7 @@ RSI is information that a designated accounting standard-setter (such as the FAS
 
 ### Auditor's Procedures for RSI
 
-The auditor must apply **limited procedures** to the RSI. These are not full audit procedures — they are significantly narrower in scope. The auditor's limited procedures include:
+The auditor must apply **limited procedures** to the RSI. These are not full audit procedures; they are significantly narrower in scope. The auditor's limited procedures include:
 
 1. **Inquiring of management** about the methods used to prepare the RSI, whether the methods have changed from the prior period, and any significant assumptions or interpretations underlying the information
 2. **Comparing the RSI for consistency** with the audited financial statements and with other knowledge obtained during the audit
@@ -66,13 +66,13 @@ If the auditor encounters problems with the RSI, the report must be modified acc
 | RSI is **omitted entirely** | The auditor notes the omission in the report |
 | RSI **departs materially** from prescribed guidelines | The auditor describes the departure |
 | The auditor is **unable to complete the limited procedures** | The auditor states that the limited procedures were not completed and explains why |
-| RSI is **present and no issues are identified** | Standard language — limited procedures applied, no opinion expressed |
+| RSI is **present and no issues are identified** | Standard language: limited procedures applied, no opinion expressed |
 
 **Example:** Polar Inc. is required to present a schedule of employer contributions to its pension plan as RSI. Management includes the schedule, but the auditor notices the actuarial assumptions used are inconsistent with those disclosed in the pension note. The auditor describes this inconsistency in the other-matter paragraph.
 
 :::warning
 
-The auditor's responsibility for RSI is **limited** — but that doesn't mean the auditor can ignore it. Omissions, material departures, and inconsistencies must all be reported.
+The auditor's responsibility for RSI is **limited**, but that doesn't mean the auditor can ignore it. Omissions, material departures, and inconsistencies must all be reported.
 
 :::
 
@@ -94,7 +94,7 @@ Voluntary supplementary information (SI) is information that management chooses 
 
 The auditor's responsibility for voluntary SI depends entirely on the terms of the engagement.
 
-#### Scenario A — Engaged to Report on the Supplementary Information
+#### Scenario A: Engaged to Report on the Supplementary Information
 
 When the auditor is specifically engaged to report on the SI, the auditor performs **audit procedures** to determine whether the information is **fairly stated, in all material respects, in relation to the financial statements as a whole**. This engagement requires that:
 
@@ -110,7 +110,7 @@ The procedures performed include:
 
 **Example:** Grizzly Industries engages its auditor to report on a consolidating schedule that breaks down revenue and expenses by subsidiary. The auditor reconciles the consolidating schedule to the trial balances of each subsidiary, tests selected amounts for accuracy, and issues an opinion that the schedule is fairly stated in relation to the consolidated financial statements as a whole.
 
-#### Scenario B — Not Engaged to Report on the Supplementary Information
+#### Scenario B: Not Engaged to Report on the Supplementary Information
 
 When the auditor has **not** been engaged to report on the SI, the auditor treats it as **other information**. The auditor's responsibility is limited to:
 
@@ -123,12 +123,12 @@ The auditor does not perform audit procedures on the information and does not ex
 
 When the auditor has been engaged to report on voluntary SI, the opinion can be communicated in one of two ways:
 
-1. **In an other-matter paragraph** in the auditor's report on the basic financial statements — the paragraph expresses the "in relation to" opinion
-2. **In a separate report** — the auditor issues a stand-alone report on the SI
+1. **In an other-matter paragraph** in the auditor's report on the basic financial statements; the paragraph expresses the "in relation to" opinion
+2. **In a separate report**: the auditor issues a stand-alone report on the SI
 
 :::tip
 
-The "in relation to" opinion is a **lesser level of assurance** than the opinion on the basic financial statements. It means the SI is fairly stated **relative to** the financial statements as a whole — not that it would stand on its own. Think of it as the SI being "along for the ride" with the basic financial statements.
+The "in relation to" opinion is a **lesser level of assurance** than the opinion on the basic financial statements. It means the SI is fairly stated **relative to** the financial statements as a whole, not that it would stand on its own. Think of it as the SI being "along for the ride" with the basic financial statements.
 
 :::
 
@@ -185,9 +185,9 @@ For **nonissuer** audits under AICPA standards, the auditor may include an **"Ot
 |---------|-----|----------------------|----------------------------------------------|
 | **Required by standards?** | Yes (FASB, GASB, etc.) | No | No |
 | **Auditor's procedures** | Limited procedures (inquire, compare, evaluate) | Audit procedures (test, reconcile, examine) | Read for consistency |
-| **Level of assurance** | None — disclaimed | "In relation to" opinion | None |
+| **Level of assurance** | None (disclaimed) | "In relation to" opinion | None |
 | **Reporting** | Other-matter / explanatory paragraph | Other-matter paragraph or separate report | Other-information section (optional) or no specific reporting |
-| **Can the auditor opine?** | No | Yes — "in relation to" | No |
+| **Can the auditor opine?** | No | Yes ("in relation to") | No |
 
 ---
 
@@ -195,15 +195,15 @@ For **nonissuer** audits under AICPA standards, the auditor may include an **"Ot
 
 | Concept | Key Point |
 |---------|-----------|
-| **RSI** | Limited procedures, no opinion — just check it's there and makes sense |
-| **Voluntary SI (engaged)** | Audit procedures → "in relation to the financial statements as a whole" opinion |
-| **Voluntary SI (not engaged)** | Read for consistency — no procedures, no opinion |
-| **Other information** | Read for material inconsistencies — no assurance provided |
+| **RSI** | Limited procedures, no opinion; just check it's there and makes sense |
+| **Voluntary SI (engaged)** | Audit procedures support an "in relation to the financial statements as a whole" opinion |
+| **Voluntary SI (not engaged)** | Read for consistency; no procedures, no opinion |
+| **Other information** | Read for material inconsistencies; no assurance provided |
 | **"In relation to" opinion** | Lesser assurance; requires an unmodified or qualified opinion on the basic financials |
 | **Adverse or disclaimer** | Cannot issue an "in relation to" opinion if the basic financial statement opinion is adverse or a disclaimer |
 
 :::tip[Final Exam Tip]
 
-When a question asks about supplementary information, first determine: **(1)** Is it required (RSI) or voluntary? **(2)** Was the auditor engaged to report on it? Your answers to these two questions determine everything — the procedures, the assurance level, and the reporting.
+When a question asks about supplementary information, first determine: **(1)** Is it required (RSI) or voluntary? **(2)** Was the auditor engaged to report on it? Your answers to these two questions determine everything: the procedures, the assurance level, and the reporting.
 
 :::

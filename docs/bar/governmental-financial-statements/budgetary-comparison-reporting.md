@@ -4,7 +4,7 @@ State and local governments are required to present **budgetary comparison infor
 
 :::info[Blueprint Coverage]
 
-This section maps to **BAR Area III, Group A, Topic 7 – Budgetary Comparison Reporting**. Representative tasks:
+This section maps to **BAR Area III, Group A, Topic 7: Budgetary Comparison Reporting**. Representative tasks:
 
 1. **Recall** the objectives and components of budgetary comparison reporting in the annual comprehensive financial report for state and local governments.
 
@@ -25,7 +25,7 @@ Budgetary comparison reporting serves several critical functions:
 
 :::tip[Exam Tip]
 
-The primary objective tested on the CPA exam is **demonstrating legal compliance** — did the government stay within its appropriation authority? This is why the actual column must be presented on the **budgetary basis**, not necessarily the GAAP basis.
+The primary objective tested on the CPA exam is **demonstrating legal compliance**: did the government stay within its appropriation authority? This is why the actual column must be presented on the **budgetary basis**, not necessarily the GAAP basis.
 
 :::
 
@@ -113,7 +113,7 @@ Not all funds require budgetary comparison reporting:
 
 :::warning[Common Pitfall]
 
-A special revenue fund that does **not** have a legally adopted annual budget is **not** required to present budgetary comparison information — even if it is a major fund.
+A special revenue fund that does **not** have a legally adopted annual budget is **not** required to present budgetary comparison information, even if it is a major fund.
 
 :::
 
@@ -121,7 +121,7 @@ A special revenue fund that does **not** have a legally adopted annual budget is
 
 ## Example Budgetary Comparison Schedule
 
-**Bear City — General Fund Budgetary Comparison Schedule**
+**Bear City General Fund Budgetary Comparison Schedule**
 **For the Fiscal Year Ended June 30, 20X5**
 
 | | Original Budget | Final Budget | Actual (Budgetary Basis) | Variance Favorable (Unfavorable) |
@@ -139,7 +139,7 @@ A special revenue fund that does **not** have a legally adopted annual budget is
 | Culture and recreation | 1,100,000 | 1,050,000 | 1,020,000 | 30,000 |
 | **Total expenditures** | **11,600,000** | **11,850,000** | **11,820,000** | **30,000** |
 | **Excess of revenues over expenditures** | **1,900,000** | **1,900,000** | **2,070,000** | **170,000** |
-| Other financing sources (uses) | (400,000) | (400,000) | (400,000) | — |
+| Other financing sources (uses) | (400,000) | (400,000) | (400,000) | 0 |
 | **Net change in fund balance** | **\$1,500,000** | **\$1,500,000** | **\$1,670,000** | **\$170,000** |
 
 :::tip[Exam Tip]
@@ -158,13 +158,13 @@ When the budgetary basis differs from GAAP, a reconciliation is required. Common
 
 | Item | Amount |
 |---|---|
-| Net change in fund balance — budgetary basis | \$1,670,000 |
+| Net change in fund balance (budgetary basis) | \$1,670,000 |
 | **Adjustments:** | |
 | Add: Encumbrances outstanding at end of year (not GAAP expenditures) | 95,000 |
 | Less: Encumbrances outstanding at beginning of year (GAAP expenditures in prior year) | (72,000) |
 | Add: Inventory adjustment (consumption vs. purchases method) | 15,000 |
-| Less: Transfers reclassified from expenditures to other financing uses | — |
-| **Net change in fund balance — GAAP basis** | **\$1,708,000** |
+| Less: Transfers reclassified from expenditures to other financing uses | 0 |
+| **Net change in fund balance (GAAP basis)** | **\$1,708,000** |
 
 The journal entry to convert encumbrance activity at the government-wide level is conceptual, but at the fund level the reconciliation is a schedule (not a posted entry). However, for understanding:
 
@@ -207,11 +207,11 @@ flowchart TD
 | **Presentation** | Basic financial statement OR Required Supplementary Information |
 | **Basis** | Actual column uses **budgetary basis** (may differ from GAAP) |
 | **Reconciliation** | Required when budgetary basis ≠ GAAP basis |
-| **GASB guidance** | GASB Statement No. 34, paragraphs 130–131 |
+| **GASB guidance** | GASB Statement No. 34, paragraphs 130-131 |
 | **Audit status** | Audited if basic statement; limited procedures if RSI |
 
 :::tip[Exam Tip]
 
-Remember the three "must-haves" for a budgetary comparison: (1) original budget, (2) final budget, and (3) actual on the budgetary basis. The variance column is the most common "extra" but is never required. Always check whether the question asks for the budgetary basis or GAAP basis — they are not the same if encumbrances are involved.
+Remember the three "must-haves" for a budgetary comparison: (1) original budget, (2) final budget, and (3) actual on the budgetary basis. The variance column is the most common "extra" but is never required. Always check whether the question asks for the budgetary basis or GAAP basis; they are not the same if encumbrances are involved.
 
 :::

@@ -4,7 +4,7 @@
 
 :::info[Blueprint Coverage]
 
-This section maps to **BAR Area III, Group A, Topic 4 – Fiduciary Funds Financial Statements**. Representative tasks:
+This section maps to **BAR Area III, Group A, Topic 4: Fiduciary Funds Financial Statements**. Representative tasks:
 
 1. **Identify and recall** basic concepts and principles associated with fiduciary fund financial statements (e.g., required funds, financial statements, financial statement components).
 2. **Prepare** the statement of changes in fiduciary net position for the fiduciary funds of a state or local government from trial balances and supporting documentation.
@@ -27,13 +27,13 @@ GASB identifies four types of fiduciary funds:
 
 :::tip[Exam Tip]
 
-Prior to GASB 84, custodial funds were called "agency funds." If you see either term, they refer to the same concept. GASB 84 (effective 2020) replaced the agency fund category with custodial funds and requires them to report a statement of changes in fiduciary net position — agency funds previously did not.
+Prior to GASB 84, custodial funds were called "agency funds." If you see either term, they refer to the same concept. GASB 84 (effective 2020) replaced the agency fund category with custodial funds and requires them to report a statement of changes in fiduciary net position, which agency funds previously did not.
 
 :::
 
 ---
 
-## GASB Statement 84 — Fiduciary Activities
+## GASB Statement 84: Fiduciary Activities
 
 GASB 84 establishes criteria for determining when a government has a **fiduciary activity**:
 
@@ -53,7 +53,7 @@ flowchart TD
     G -->|No| Z
 ```
 
-**Key exclusion:** Assets held for the government's own programs are **not** fiduciary — they belong in governmental or proprietary funds.
+**Key exclusion:** Assets held for the government's own programs are **not** fiduciary; they belong in governmental or proprietary funds.
 
 ---
 
@@ -66,7 +66,7 @@ All fiduciary funds use:
 | **Measurement focus** | Economic resources |
 | **Basis of accounting** | Accrual |
 
-This means fiduciary funds recognize revenues when earned and expenses when incurred — similar to proprietary funds and the government-wide statements.
+This means fiduciary funds recognize revenues when earned and expenses when incurred, similar to proprietary funds and the government-wide statements.
 
 :::warning[Critical Point]
 
@@ -85,7 +85,7 @@ Fiduciary funds require exactly **two** financial statements:
 | **Statement of Fiduciary Net Position** | Assets, liabilities, and net position at a point in time (balance sheet equivalent) |
 | **Statement of Changes in Fiduciary Net Position** | Additions to and deductions from net position during the period (income statement equivalent) |
 
-### Statement of Fiduciary Net Position — Components
+### Statement of Fiduciary Net Position: Components
 
 | Section | Typical Line Items |
 |---|---|
@@ -93,33 +93,33 @@ Fiduciary funds require exactly **two** financial statements:
 | **Liabilities** | Accounts payable, benefits payable, refunds payable |
 | **Net Position** | Restricted for pensions, restricted for other purposes, or held in trust |
 
-### Statement of Changes in Fiduciary Net Position — Components
+### Statement of Changes in Fiduciary Net Position: Components
 
 | Section | Typical Line Items |
 |---|---|
 | **Additions** | Employer contributions, employee contributions, investment income (net of fees), other additions |
 | **Deductions** | Benefit payments, refunds, administrative expenses |
-| **Change in net position** | Additions – Deductions |
-| **Net position — beginning** | Prior year balance |
-| **Net position — ending** | Beginning + Change |
+| **Change in net position** | Additions - Deductions |
+| **Net position, beginning** | Prior year balance |
+| **Net position, ending** | Beginning + Change |
 
 ---
 
-## Example — Pension Trust Fund
+## Example: Pension Trust Fund
 
 ### Trial Balance
 
-**Bear City Employees' Pension Trust Fund — Trial Balance at June 30, 20X5:**
+**Bear City Employees' Pension Trust Fund Trial Balance at June 30, 20X5:**
 
 | Account | Debit | Credit |
 |---|---|---|
 | Cash | \$2,500,000 | |
 | Investments (fair value) | \$48,000,000 | |
 | Accrued Interest Receivable | \$350,000 | |
-| Contributions Receivable – Employer | \$800,000 | |
+| Contributions Receivable (Employer) | \$800,000 | |
 | Accounts Payable | | \$120,000 |
 | Benefits Payable | | \$430,000 |
-| Net Position – Restricted for Pensions (beginning) | | \$44,000,000 |
+| Net Position Restricted for Pensions (beginning) | | \$44,000,000 |
 | Employer Contributions | | \$3,600,000 |
 | Employee Contributions | | \$1,800,000 |
 | Net Investment Income | | \$4,200,000 |
@@ -131,7 +131,7 @@ Fiduciary funds require exactly **two** financial statements:
 ### Preparing the Statement of Fiduciary Net Position
 
 **Bear City Employees' Pension Trust Fund**
-**Statement of Fiduciary Net Position — June 30, 20X5**
+**Statement of Fiduciary Net Position, June 30, 20X5**
 
 | | Amount |
 |---|---|
@@ -139,18 +139,18 @@ Fiduciary funds require exactly **two** financial statements:
 | Cash | \$2,500,000 |
 | Investments, at fair value | 48,000,000 |
 | Accrued interest receivable | 350,000 |
-| Contributions receivable – employer | 800,000 |
+| Contributions receivable (employer) | 800,000 |
 | **Total assets** | **\$51,650,000** |
 | **Liabilities** | |
 | Accounts payable | \$120,000 |
 | Benefits payable | 430,000 |
 | **Total liabilities** | **\$550,000** |
-| **Net position – restricted for pensions** | **\$51,100,000** |
+| **Net position restricted for pensions** | **\$51,100,000** |
 
 ### Preparing the Statement of Changes in Fiduciary Net Position
 
 **Bear City Employees' Pension Trust Fund**
-**Statement of Changes in Fiduciary Net Position — Year Ended June 30, 20X5**
+**Statement of Changes in Fiduciary Net Position for the Year Ended June 30, 20X5**
 
 | | Amount |
 |---|---|
@@ -165,13 +165,13 @@ Fiduciary funds require exactly **two** financial statements:
 | Administrative expenses | 300,000 |
 | **Total deductions** | **\$3,400,000** |
 | **Change in net position** | **\$6,200,000** |
-| Net position — beginning | 44,000,000 |
+| Net position, beginning | 44,000,000 |
 | Unrounded check: \$44,000,000 + \$6,200,000 | |
-| **Net position — ending** | **\$50,200,000** |
+| **Net position, ending** | **\$50,200,000** |
 
 :::warning[Reconciliation Note]
 
-The ending net position from the Statement of Changes (\$50,200,000) should equal the net position on the Statement of Fiduciary Net Position. In our example, the Statement of Net Position shows \$51,100,000 because it reflects the balance sheet date amounts. The difference arises because the "beginning" net position in the trial balance (\$44,000,000) plus changes should net to the ending figure. Let's verify: \$44,000,000 + \$9,600,000 − \$3,400,000 = \$50,200,000. The Statement of Net Position is computed as Assets − Liabilities = \$51,650,000 − \$550,000 = \$51,100,000. This discrepancy means we must adjust: the correct beginning net position is \$44,900,000 (i.e., \$51,100,000 − \$6,200,000). Always verify that the two statements reconcile.
+The ending net position from the Statement of Changes (\$50,200,000) should equal the net position on the Statement of Fiduciary Net Position. In our example, the Statement of Net Position shows \$51,100,000 because it reflects the balance sheet date amounts. The difference arises because the "beginning" net position in the trial balance (\$44,000,000) plus changes should net to the ending figure. Let's verify: \$44,000,000 + \$9,600,000 - \$3,400,000 = \$50,200,000. The Statement of Net Position is computed as Assets - Liabilities = \$51,650,000 - \$550,000 = \$51,100,000. This discrepancy means we must adjust: the correct beginning net position is \$44,900,000 (i.e., \$51,100,000 - \$6,200,000). Always verify that the two statements reconcile.
 
 :::
 
@@ -225,13 +225,13 @@ Dr. Administrative Expenses 300,000
 
 ```journal
 Dr. Cash[a] 12,000,000
-    Cr. Additions – Property Tax Collections for Other Governments 12,000,000
+    Cr. Additions (Property Tax Collections for Other Governments) 12,000,000
 ```
 
 **Record distribution to school districts:**
 
 ```journal
-Dr. Deductions – Distributions to School Districts 11,500,000
+Dr. Deductions (Distributions to School Districts) 11,500,000
     Cr. Cash[a] 11,500,000
 ```
 

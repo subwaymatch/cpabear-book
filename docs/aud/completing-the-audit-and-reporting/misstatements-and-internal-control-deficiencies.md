@@ -1,6 +1,6 @@
 # Misstatements and Internal Control Deficiencies
 
-Evaluating misstatements identified during the audit and assessing internal control deficiencies are critical steps before the auditor can form an opinion. The auditor must accumulate all misstatements — corrected and uncorrected — determine their effect on the financial statements individually and in the aggregate, and evaluate any internal control deficiencies discovered during the engagement. These evaluations directly influence the auditor's opinion, required communications, and the overall assessment of internal control over financial reporting.
+Evaluating misstatements identified during the audit and assessing internal control deficiencies are critical steps before the auditor can form an opinion. The auditor must accumulate all misstatements (corrected and uncorrected), determine their effect on the financial statements individually and in the aggregate, and evaluate any internal control deficiencies discovered during the engagement. These evaluations directly influence the auditor's opinion, required communications, and the overall assessment of internal control over financial reporting.
 
 This section covers the types of misstatements, how to evaluate their significance, the classification of internal control deficiencies, communication requirements, and the concepts of tolerable misstatement and the clearly trivial threshold.
 
@@ -14,9 +14,9 @@ There are three categories of misstatements:
 
 | Type | Description | Example |
 |------|-------------|---------|
-| **Factual misstatements** | Misstatements about which there is no doubt — the item is clearly wrong | Bear Co. recorded a $50,000 invoice twice, creating a definite overstatement of expenses |
-| **Judgmental misstatements** | Differences arising from management's judgments concerning accounting estimates that the auditor considers unreasonable, or the selection or application of accounting policies that the auditor considers inappropriate | Bear Co. estimates its warranty liability at $200,000, but the auditor believes $350,000 is more appropriate based on historical claim data |
-| **Projected misstatements** | The auditor's best estimate of misstatements in populations, based on projecting misstatements identified in audit samples to the entire population | The auditor finds $8,000 in errors in a sample of Polar Inc.'s accounts receivable and projects the total misstatement across the entire receivable balance to be $120,000 |
+| **Factual misstatements** | Misstatements about which there is no doubt; the item is clearly wrong | Bear Co. recorded a \$50,000 invoice twice, creating a definite overstatement of expenses |
+| **Judgmental misstatements** | Differences arising from management's judgments concerning accounting estimates that the auditor considers unreasonable, or the selection or application of accounting policies that the auditor considers inappropriate | Bear Co. estimates its warranty liability at \$200,000, but the auditor believes \$350,000 is more appropriate based on historical claim data |
+| **Projected misstatements** | The auditor's best estimate of misstatements in populations, based on projecting misstatements identified in audit samples to the entire population | The auditor finds \$8,000 in errors in a sample of Polar Inc.'s accounts receivable and projects the total misstatement across the entire receivable balance to be \$120,000 |
 
 :::info
 
@@ -30,8 +30,8 @@ All three types of misstatements must be accumulated and evaluated. Factual miss
 
 The auditor must accumulate all misstatements identified during the audit, other than those that are **clearly trivial**. This summary should include:
 
-- **Corrected misstatements** — errors that management agreed to adjust during the audit
-- **Uncorrected misstatements** — errors that management declined to correct or that the auditor identified but did not request correction for
+- **Corrected misstatements**: errors that management agreed to adjust during the audit
+- **Uncorrected misstatements**: errors that management declined to correct or that the auditor identified but did not request correction for
 
 ### Why Track Corrected Misstatements?
 
@@ -41,7 +41,7 @@ Even though corrected misstatements no longer affect the financial statements, t
 2. If many adjustments are needed, it may signal broader issues with the entity's accounting processes
 3. The nature and volume of corrections can influence the auditor's **risk assessment** for future periods
 
-**Example:** During the audit of Grizzly Industries, the auditor identifies 14 misstatements totaling $380,000 in the revenue cycle. Management corrects all 14. Although the corrected financial statements are now fairly stated, the volume of errors suggests a significant deficiency in controls over revenue recording.
+**Example:** During the audit of Grizzly Industries, the auditor identifies 14 misstatements totaling \$380,000 in the revenue cycle. Management corrects all 14. Although the corrected financial statements are now fairly stated, the volume of errors suggests a significant deficiency in controls over revenue recording.
 
 ---
 
@@ -54,7 +54,7 @@ The auditor must evaluate uncorrected misstatements both **individually** and **
 | Evaluation Level | What the Auditor Considers |
 |-----------------|---------------------------|
 | **Individual** | Does any single uncorrected misstatement, by itself, exceed materiality for the financial statements as a whole or performance materiality? |
-| **Aggregate** | Do all uncorrected misstatements combined — including the net effect of prior-period uncorrected misstatements carried forward — exceed materiality? |
+| **Aggregate** | Do all uncorrected misstatements combined, including the net effect of prior-period uncorrected misstatements carried forward, exceed materiality? |
 
 :::warning
 
@@ -70,7 +70,7 @@ Quantitative analysis focuses on the **dollar amount** of uncorrected misstateme
 - Performance materiality
 - Materiality levels for specific accounts, classes of transactions, or disclosures (if applicable)
 
-**Example:** The auditor sets materiality for Honey Entertainment at $500,000. Three uncorrected misstatements are identified: $120,000 (inventory overstatement), $95,000 (understated accrued liabilities), and $180,000 (misclassified revenue). Individually, none exceed materiality. In the aggregate, the net effect is $395,000, which is below materiality — but the auditor must still consider qualitative factors.
+**Example:** The auditor sets materiality for Honey Entertainment at \$500,000. Three uncorrected misstatements are identified: \$120,000 (inventory overstatement), \$95,000 (understated accrued liabilities), and \$180,000 (misclassified revenue). Individually, none exceed materiality. In the aggregate, the net effect is \$395,000, which is below materiality, but the auditor must still consider qualitative factors.
 
 ### Qualitative Considerations
 
@@ -78,7 +78,7 @@ Quantitative analysis alone is not sufficient. The auditor must also consider **
 
 | Qualitative Factor | Example |
 |-------------------|---------|
-| **Effect on compliance** | A $30,000 misstatement causes Bear Co. to violate a debt covenant ratio |
+| **Effect on compliance** | A \$30,000 misstatement causes Bear Co. to violate a debt covenant ratio |
 | **Effect on management compensation** | An uncorrected misstatement causes earnings to meet a bonus threshold |
 | **Effect on trends** | A misstatement converts a reported loss into a profit, reversing a trend |
 | **Masking a change in earnings** | Without the misstatement, declining performance would be apparent |
@@ -103,11 +103,11 @@ Tolerable misstatement (also called **performance materiality** in certain conte
 - Reduce the probability that the aggregate of uncorrected and undetected misstatements exceeds materiality
 - Guide the auditor in determining the nature, timing, and extent of audit procedures for individual accounts
 
-**Example:** If overall materiality for Kodiak Partners is $1,000,000, the auditor might set tolerable misstatement at $750,000 (75% of materiality) to provide a cushion for undetected misstatements.
+**Example:** If overall materiality for Kodiak Partners is \$1,000,000, the auditor might set tolerable misstatement at \$750,000 (75% of materiality) to provide a cushion for undetected misstatements.
 
 ### Clearly Trivial Threshold
 
-The auditor designates an amount below which misstatements are **clearly trivial** — meaning they are inconsequential whether taken individually or in the aggregate.
+The auditor designates an amount below which misstatements are **clearly trivial**, meaning they are inconsequential whether taken individually or in the aggregate.
 
 - Misstatements below the clearly trivial threshold **need not be accumulated** on the summary of misstatements
 - This threshold is typically set at a small percentage (often 5% or less) of overall materiality
@@ -142,17 +142,17 @@ When the auditor identifies a deficiency in internal control, it must be evaluat
 
 The auditor evaluates the severity of a deficiency by considering:
 
-1. **Likelihood** — the probability that the deficiency could result in a misstatement
-2. **Magnitude** — the potential dollar amount of the misstatement that could result
+1. **Likelihood**: the probability that the deficiency could result in a misstatement
+2. **Magnitude**: the potential dollar amount of the misstatement that could result
 
 | | Low Magnitude | High Magnitude |
 |---|---|---|
 | **Low Likelihood** | Deficiency | Significant deficiency |
 | **High Likelihood** | Significant deficiency | Material weakness |
 
-**Example:** Ursa Security has no segregation of duties in its cash disbursements process — the same employee authorizes, records, and reconciles payments. The magnitude of potential misstatement is high (the entire cash disbursements balance), and the likelihood is high (there is no compensating control). This represents a **material weakness**.
+**Example:** Ursa Security has no segregation of duties in its cash disbursements process: the same employee authorizes, records, and reconciles payments. The magnitude of potential misstatement is high (the entire cash disbursements balance), and the likelihood is high (there is no compensating control). This represents a **material weakness**.
 
-**Example:** Polar Inc. occasionally fails to obtain a second signature on purchase orders over $10,000, though a supervisor reviews the monthly purchasing report. The magnitude is moderate and the likelihood is low due to the compensating control. This is likely a **deficiency** or possibly a **significant deficiency**.
+**Example:** Polar Inc. occasionally fails to obtain a second signature on purchase orders over \$10,000, though a supervisor reviews the monthly purchasing report. The magnitude is moderate and the likelihood is low due to the compensating control. This is likely a **deficiency** or possibly a **significant deficiency**.
 
 ---
 
@@ -214,7 +214,7 @@ The written communication of significant deficiencies and material weaknesses mu
 
 - A description of the deficiency and an explanation of its potential effects
 - The definition of a significant deficiency or material weakness (as applicable)
-- A statement that the purpose of the audit was to express an opinion on the financial statements (not to provide assurance on internal control — unless an integrated audit)
+- A statement that the purpose of the audit was to express an opinion on the financial statements (not to provide assurance on internal control, unless it is an integrated audit)
 - A statement that the communication is intended solely for the use of management and those charged with governance
 
 ---
@@ -230,9 +230,9 @@ The following steps summarize the auditor's evaluation process near the end of t
 5. **Request a written representation** from management that the effects of uncorrected misstatements are immaterial
 6. **Classify** any internal control deficiencies identified during the audit
 7. **Communicate** significant deficiencies and material weaknesses in writing to governance and management
-8. **Determine the effect** on the auditor's opinion — if uncorrected misstatements are material (individually or in aggregate), and management refuses to correct them, the auditor must modify the opinion
+8. **Determine the effect** on the auditor's opinion. If uncorrected misstatements are material (individually or in aggregate), and management refuses to correct them, the auditor must modify the opinion
 
-**Example:** The auditor of Kodiak Partners identifies $180,000 in uncorrected misstatements against an overall materiality of $200,000. Management declines to make corrections. The auditor considers the qualitative factors and concludes the misstatements are material in the aggregate. Because management refuses to correct, the auditor issues a **qualified opinion** (assuming the misstatements are material but not pervasive).
+**Example:** The auditor of Kodiak Partners identifies \$180,000 in uncorrected misstatements against an overall materiality of \$200,000. Management declines to make corrections. The auditor considers the qualitative factors and concludes the misstatements are material in the aggregate. Because management refuses to correct, the auditor issues a **qualified opinion** (assuming the misstatements are material but not pervasive).
 
 ---
 
@@ -240,7 +240,7 @@ The following steps summarize the auditor's evaluation process near the end of t
 
 | Concept | Key Points |
 |---------|-----------|
-| **Factual misstatements** | Definite errors with no doubt — clearly wrong amounts |
+| **Factual misstatements** | Definite errors with no doubt (clearly wrong amounts) |
 | **Judgmental misstatements** | Differences arising from unreasonable estimates or inappropriate accounting policies |
 | **Projected misstatements** | Best estimate of total population misstatement based on sample results |
 | **Clearly trivial** | Threshold below which misstatements need not be accumulated |
@@ -248,7 +248,7 @@ The following steps summarize the auditor's evaluation process near the end of t
 | **Deficiency** | A control does not allow timely prevention or detection of misstatements |
 | **Significant deficiency** | Less severe than a material weakness but merits governance attention |
 | **Material weakness** | Reasonable possibility of undetected material misstatement |
-| **Communication — AICPA** | Significant deficiencies and material weaknesses communicated in writing within 60 days of report release |
-| **Communication — PCAOB** | All deficiencies communicated to management and audit committee; material weaknesses reported in the auditor's report on ICFR |
+| **Communication (AICPA)** | Significant deficiencies and material weaknesses communicated in writing within 60 days of report release |
+| **Communication (PCAOB)** | All deficiencies communicated to management and audit committee; material weaknesses reported in the auditor's report on ICFR |
 | **Aggregate evaluation** | Must evaluate all uncorrected misstatements combined, not just individually |
 | **Qualitative factors** | May render a quantitatively immaterial misstatement material (e.g., covenant violations, bonus thresholds) |

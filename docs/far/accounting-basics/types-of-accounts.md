@@ -1,8 +1,6 @@
 # Types of Accounts
 
-In financial accounting, every single transaction a business makes, from selling a product to paying a utility bill, must be recorded. To bring order to this vast amount of data, we use a classification system, or **taxonomy**.
-
-Here are the ten types of accounts you'll encounter in journal entries:
+Every transaction a business makes, from selling a product to paying a utility bill, is recorded in accounts. To organize this data, accountants classify every account into one of ten types:
 
 1. Asset
 2. Contra-Asset
@@ -15,108 +13,138 @@ Here are the ten types of accounts you'll encounter in journal entries:
 9. Gain
 10. Loss
 
-When studying for the FAR section of the CPA Exam, it's crucial to understand where each line item in a journal entry fits within these account types.
+For the Financial Accounting and Reporting (FAR) section of the CPA Exam, you need to know which type each line of a journal entry belongs to. The type tells you the account's normal balance and which financial statement it appears on.
 
 ---
 
 ## Asset
 
-These are resources with economic value that a company owns or controls, expecting them to provide a future benefit.
+**Assets** are resources a company owns or controls that are expected to provide future economic benefits.
 
-- **Examples:**
-  - **Cash:** Money in bank accounts.
-  - **Accounts Receivable:** Money owed to the company by its customers.
-  - **Equipment:** Machinery, computers, and vehicles.
-  - **Inventory:** Goods available for sale.
+**Examples:**
+
+- **Cash:** Money on hand and in bank accounts.
+- **Accounts Receivable:** Money owed to the company by its customers.
+- **Equipment:** Machinery, computers, and vehicles.
+- **Inventory:** Goods held for sale.
+
+A cash sale increases an asset (Cash) and a revenue account:
 
 ```journal
-Dr. Cash 1000
-    Cr. Sales Revenue 1000
+Dr. Cash[a] 1,000
+    Cr. Sales Revenue 1,000
 ```
 
 ## Contra-Asset
 
-This account has a credit balance (opposite of an asset) and is used to decrease the value of a related asset account.
+A **contra-asset** account has a credit balance (the opposite of an asset) and reduces the carrying amount of a related asset.
 
-- **Examples:**
-  - **Accumulated Depreciation:** The total amount of depreciation expense recorded for an asset (like Equipment) over its life.
-  - **Allowance for Doubtful Accounts:** The estimated amount of Accounts Receivable that the company does not expect to collect.
+**Examples:**
+
+- **Accumulated Depreciation:** The total depreciation expense recorded on an asset (such as Equipment) to date.
+- **Allowance for Doubtful Accounts:** The estimated amount of Accounts Receivable that the company does not expect to collect.
 
 ## Liability
 
-These are a company's obligations or debts—amounts owed to third parties.
+**Liabilities** are a company's obligations or debts: amounts it owes to others.
 
-- **Examples:**
-  - **Accounts Payable:** Money the company owes to its suppliers for goods or services.
-  - **Notes Payable:** A formal written promise to pay a specific amount of money, usually with interest (like a bank loan).
-  - **Wages Payable:** Salaries and wages owed to employees for work they have already performed.
+**Examples:**
+
+- **Accounts Payable:** Money the company owes its suppliers for goods or services.
+- **Notes Payable:** A formal written promise to pay a specific amount, usually with interest (such as a bank loan).
+- **Wages Payable:** Salaries and wages owed to employees for work they have already performed.
 
 ## Contra-Liability
 
-This is a less common account type. It has a debit balance (opposite of a liability) and reduces the value of a related liability.
+A **contra-liability** account is less common. It has a debit balance (the opposite of a liability) and reduces the carrying amount of a related liability.
 
-- **Examples:**
-  - **Discount on Bonds Payable:** This account is used when a company issues a bond for less than its face value. It reduces the carrying value of the Bonds Payable liability on the balance sheet.
-  - **Discount on Notes Payable:** Similar to a bond discount, this applies to a formal note.
+**Examples:**
+
+- **Discount on Bonds Payable:** Arises when a company issues a bond for less than its face value. It reduces the carrying amount of Bonds Payable on the balance sheet.
+- **Discount on Notes Payable:** The same idea as a bond discount, applied to a note.
 
 ## Equity
 
-This represents the owners' residual claim on the company's assets after all liabilities have been paid. It's the "book value" of the company.
+**Equity** is the owners' residual claim on the company's assets after deducting its liabilities. It is the company's "book value."
 
-- **Examples:**
-  - **Common Stock:** The value of shares issued to the company's owners (stockholders).
-  - **Retained Earnings:** The cumulative net income of the company that has been kept (retained) in the business rather than paid out as dividends.
+**Examples:**
+
+- **Common Stock:** The par (or stated) value of shares issued to the company's owners (stockholders).
+- **Additional Paid-in Capital:** Amounts received from stockholders above par value.
+- **Retained Earnings:** The cumulative net income kept (retained) in the business rather than paid out as dividends.
 
 ## Contra-Equity
 
-This account has a debit balance (opposite of equity) and reduces the total value of the owners' equity.
+A **contra-equity** account has a debit balance (the opposite of equity) and reduces total equity.
 
-- **Examples:**
-  - **Owner's Withdrawals (or Drawings):** Money an owner of a sole proprietorship or partnership takes out of the business for personal use.
-  - **Treasury Stock:** Shares of the company's own stock that it has repurchased from the open market.
+**Examples:**
+
+- **Owner's Withdrawals (or Drawings):** Money an owner of a sole proprietorship or partnership takes out of the business for personal use.
+- **Treasury Stock:** Shares of the company's own stock that it has reacquired and not retired.
 
 ## Revenue (or Income)
 
-This is the income a company earns from its normal, primary business operations (like selling goods or services).
+**Revenue** is income a company earns from its normal, primary business operations, such as selling goods or services.
 
-- **Examples:**
-  - **Sales Revenue:** Income from selling products.
-  - **Service Revenue:** Income from performing services (e.g., consulting fees, repair fees).
-  - **Interest Income:** Revenue earned from investments.
+**Examples:**
+
+- **Sales Revenue:** Income from selling products.
+- **Service Revenue:** Income from performing services (for example, consulting or repair fees).
+- **Interest Income:** Interest earned on investments, loans, or bank deposits.
 
 ## Expense
 
-This is the cost of operations that a company incurs to generate revenue.
+An **expense** is a cost the company incurs in its operations to generate revenue.
 
-- **Examples:**
-  - **Salaries Expense:** The cost of paying employees.
-  - **Rent Expense:** The cost of using office or retail space.
-  - **Utilities Expense:** The cost of electricity, water, and gas.
-  - **Cost of Goods Sold (COGS):** The direct cost of the inventory that was sold.
+**Examples:**
+
+- **Salaries Expense:** The cost of paying employees.
+- **Rent Expense:** The cost of using office or retail space.
+- **Utilities Expense:** The cost of electricity, water, and gas.
+- **Cost of Goods Sold (COGS):** The cost of the inventory that was sold.
 
 ## Gain
 
-This is income from **non-operating** activities—events that are not part of the company's primary business.
+A **gain** is an increase in equity from **peripheral or incidental** transactions: events outside the company's primary business.
 
-- **Examples:**
-  - **Gain on Sale of Asset:** If a company sells a delivery van (Equipment) for \$8,000, but its book value was only \$6,000, it records a \$2,000 gain.
-  - **Gain from Lawsuit:** A one-time payment received from winning a lawsuit.
+**Examples:**
+
+- **Gain on Sale of Asset:** If a company sells a delivery van (Equipment) for \$8,000 when its book value is \$6,000, it records a \$2,000 gain.
+- **Gain from Lawsuit:** A one-time payment received from winning a lawsuit.
 
 ## Loss
 
-This is a decrease in net income from **non-operating** activities.
+A **loss** is a decrease in equity from **peripheral or incidental** transactions.
 
-- **Examples:**
-  - **Loss on Sale of Asset:** If a company sells that same van (book value \$6,000) for only \$5,000, it records a \$1,000 loss.
-  - **Loss from Lawsuit:** A one-time payment made to settle a lawsuit.
-  - **Asset Impairment:** A write-down in the value of an asset that has lost its economic usefulness.
+**Examples:**
+
+- **Loss on Sale of Asset:** If the company sells the same van (book value \$6,000) for only \$5,000, it records a \$1,000 loss.
+- **Loss from Lawsuit:** A one-time payment made to settle a lawsuit.
+- **Impairment Loss:** A write-down of an asset whose carrying amount is no longer recoverable.
 
 ---
 
+## Normal Balances at a Glance
+
+Each account type has a **normal balance**: the side (debit or credit) that increases it.
+
+| Account type | Normal balance | Financial statement |
+| --- | --- | --- |
+| Asset | Debit | Balance sheet |
+| Contra-asset | Credit | Balance sheet (reduces assets) |
+| Liability | Credit | Balance sheet |
+| Contra-liability | Debit | Balance sheet (reduces liabilities) |
+| Equity | Credit | Balance sheet |
+| Contra-equity | Debit | Balance sheet (reduces equity) |
+| Revenue | Credit | Income statement |
+| Expense | Debit | Income statement |
+| Gain | Credit | Income statement |
+| Loss | Debit | Income statement |
+
 :::tip
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+Remember **DEALER**. **D**ividends (and drawings), **E**xpenses, and **A**ssets normally have debit balances. **L**iabilities, **E**quity, and **R**evenues normally have credit balances. Losses behave like expenses, and gains behave like revenues.
 
 :::
 
-Understanding this account taxonomy is the single most important foundation for mastering accounting. Each category—from assets and liabilities to revenues, expenses, and equity—has a specific role and follows distinct rules for how it's increased or decreased. By mastering this classification, you move beyond simply memorizing journal entries and begin to understand the logical structure of the financial statements. This framework is the key that unlocks your ability to read, analyze, and confidently interpret any company's financial story.
+This classification is the foundation for the rest of FAR. Once you know the type of every account in an entry, you know how each one increases and decreases and where it appears in the financial statements. That lets you reason through journal entries instead of memorizing them.

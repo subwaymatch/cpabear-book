@@ -16,13 +16,13 @@ The ISC exam tests this topic at the **Remembering and Understanding** level (ex
 
 | Report Component                          | Treatment of CUECs                                                                                        |
 | ----------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| **System Description (Section III)**      | CUECs are listed and described — typically as assumptions about controls at user entities                 |
+| **System Description (Section III)**      | CUECs are listed and described, typically as assumptions about controls at user entities                  |
 | **Service Auditor's Report (Section I)**  | The opinion references that achieving control objectives/criteria depends in part on CUECs being in place |
 | **Control Objectives / TSC (Section IV)** | CUECs are identified alongside the service organization's own controls                                    |
 
 ### Key Principles
 
-- The **service auditor does not test CUECs** — they are outside the scope of the examination.
+- The **service auditor does not test CUECs**; they are outside the scope of the examination.
 - CUECs are **identified by management** of the service organization in the system description.
 - The service auditor's opinion is **not modified** solely because CUECs exist; their existence is a normal feature of SOC reports.
 - **User entity auditors** must evaluate whether their client has implemented the CUECs when relying on the SOC report.
@@ -67,17 +67,17 @@ graph LR
     A["User Entity"] --> B["Service Organization"]
     B --> C["Subservice Organization"]
     subgraph "Carve-Out Method"
-        D["Service Org Controls<br/>✅ In Scope"]
-        E["Subservice Org Controls<br/>❌ Excluded"]
+        D["Service Org Controls<br/>In Scope"]
+        E["Subservice Org Controls<br/>Excluded"]
     end
     subgraph "Inclusive Method"
-        F["Service Org Controls<br/>✅ In Scope"]
-        G["Subservice Org Controls<br/>✅ In Scope"]
+        F["Service Org Controls<br/>In Scope"]
+        G["Subservice Org Controls<br/>In Scope"]
     end
 ```
 
 :::warning
-Under the **carve-out method**, the system description must clearly identify **CSOCs** — controls that the subservice organization is expected to implement. These are analogous to CUECs but apply to the subservice organization rather than the user entity.
+Under the **carve-out method**, the system description must clearly identify **CSOCs**, which are controls that the subservice organization is expected to implement. These are analogous to CUECs but apply to the subservice organization rather than the user entity.
 :::
 
 ---
@@ -109,8 +109,8 @@ The service auditor issues an opinion on whether (1) the system description is f
 
 | Report Type | What Is Evaluated                                    | Effect of Deficiency                                                                                  |
 | ----------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| **Type 1**  | Suitability of design at a point in time             | Deficiency in design → modification of opinion on design                                              |
-| **Type 2**  | Design **and** operating effectiveness over a period | Deficiency in design or operations → modification of opinion on design and/or operating effectiveness |
+| **Type 1**  | Suitability of design at a point in time             | Deficiency in design leads to modification of opinion on design                                        |
+| **Type 2**  | Design **and** operating effectiveness over a period | Deficiency in design or operations leads to modification of opinion on design and/or operating effectiveness |
 
 :::note
 A **qualified opinion** on a SOC 2® Type 2 report might state: "Except for the deficiency described in the basis for qualified opinion paragraph, controls were suitably designed and operated effectively..." The deficiency is isolated and does not pervade the entire system.
@@ -141,29 +141,29 @@ Each entry in Section IV typically includes:
 | **Inspection**     | Examining documents, records, or configurations                             | Inspected access review sign-off documentation for a sample of 25 reviews      |
 | **Re-performance** | Independently executing the control procedure                               | Re-performed the user access provisioning process for a sample of 20 new hires |
 
-### Sample Test Results — No Exceptions
+### Sample Test Results: No Exceptions
 
 | TSC   | Control                                                                 | Test Applied                                                              | Results             |
 | ----- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------- |
 | CC6.1 | Access to production systems requires multi-factor authentication (MFA) | Inspected system configuration settings for all production servers        | No exceptions noted |
 | CC7.2 | Security events are monitored via a SIEM tool with alerts for anomalies | Inspected SIEM alert configurations and observed the monitoring dashboard | No exceptions noted |
 
-### Sample Test Results — Exception Identified
+### Sample Test Results: Exception Identified
 
 | TSC   | Control                                                  | Test Applied                                                                               | Results                                                                                                                                                                                            |
 | ----- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| CC6.3 | Terminated employees have access removed within 24 hours | Inspected access removal records for a sample of 30 terminated employees during the period | **Exception:** 3 of 30 (10%) sampled terminations had access removed after 24 hours (range: 2–5 days). Management remediated by implementing automated termination triggers effective September 1. |
+| CC6.3 | Terminated employees have access removed within 24 hours | Inspected access removal records for a sample of 30 terminated employees during the period | **Exception:** 3 of 30 (10%) sampled terminations had access removed after 24 hours (range: 2 to 5 days). Management remediated by implementing automated termination triggers effective September 1. |
 
 ### Handling Exceptions
 
 When exceptions are identified, the service auditor documents:
 
-1. **Nature** — What specifically went wrong (e.g., late access removal)
-2. **Frequency** — How many exceptions out of the sample (e.g., 3 of 30)
-3. **Impact** — Whether the exception represents a control deficiency and its severity
-4. **Management response** — Any corrective actions taken (optional but common)
+1. **Nature**: What specifically went wrong (e.g., late access removal)
+2. **Frequency**: How many exceptions out of the sample (e.g., 3 of 30)
+3. **Impact**: Whether the exception represents a control deficiency and its severity
+4. **Management response**: Any corrective actions taken (optional but common)
    :::tip
-   **Bear Co.** is preparing the SOC 2® Type 2 report for **Illini Security**, a managed security services provider. During testing of CC6.3, the auditor found that 2 of 25 sampled access removals exceeded the 24-hour SLA. The test results entry states: "Exception: 2 of 25 sampled terminations had access removed between 25 and 48 hours after termination. Management implemented an automated workflow on July 15 to address the delay." This exception alone does not automatically result in a modified opinion — the auditor evaluates whether it constitutes a material deficiency.
+   **Bear Co.** is preparing the SOC 2® Type 2 report for **Illini Security**, a managed security services provider. During testing of CC6.3, the auditor found that 2 of 25 sampled access removals exceeded the 24-hour SLA. The test results entry states: "Exception: 2 of 25 sampled terminations had access removed between 25 and 48 hours after termination. Management implemented an automated workflow on July 15 to address the delay." This exception alone does not automatically result in a modified opinion; the auditor evaluates whether it constitutes a material deficiency.
    :::
 
 ---
@@ -178,7 +178,7 @@ When exceptions are identified, the service auditor documents:
 | **II**  | Management's Assertion                                      | Management's written assertion regarding the system description and controls                                                                   |
 | **III** | Description of the Service Organization's System            | System boundaries, infrastructure, software, people, procedures, data; CUECs and CSOCs identified                                              |
 | **IV**  | Control Objectives, Related Controls, and Tests of Controls | (Type 1) Control objectives and related controls; (Type 2) adds tests of controls and results                                                  |
-| **V**   | Other Information Provided by Management                    | Optional — not covered by the service auditor's opinion (e.g., future plans, additional context)                                               |
+| **V**   | Other Information Provided by Management                    | Optional; not covered by the service auditor's opinion (e.g., future plans, additional context)                                               |
 
 ### SOC 2® Report Structure
 
@@ -188,7 +188,7 @@ When exceptions are identified, the service auditor documents:
 | **II**  | Management's Assertion                                        | Management's assertion that the description is presented in accordance with the description criteria and controls meet TSC |
 | **III** | Description of the Service Organization's System              | Principal service commitments, system requirements, components, boundaries, CUECs, CSOCs                                   |
 | **IV**  | Trust Services Criteria, Related Controls, Tests, and Results | (Type 1) Criteria and related controls; (Type 2) adds tests and results for each criterion                                 |
-| **V**   | Other Information Provided by Management                      | Optional — not covered by the service auditor's opinion                                                                    |
+| **V**   | Other Information Provided by Management                      | Optional; not covered by the service auditor's opinion                                                                    |
 
 ### Key Differences Between SOC 1® and SOC 2®
 
@@ -199,7 +199,7 @@ When exceptions are identified, the service auditor documents:
 | **Primary audience**          | User entity auditors and management                | Broad stakeholders (regulators, customers, partners, management) |
 | **Section IV focus**          | Control objectives and related controls            | TSC criteria and related controls                                |
 | **Restricted use**            | Yes (Type 1 and Type 2)                            | Yes for Type 2; SOC 3® is the general-use version                |
-| **Financial reporting focus** | Yes — directly supports ICFR audit                 | No — focuses on operational controls related to TSC              |
+| **Financial reporting focus** | Yes; directly supports ICFR audit                  | No; focuses on operational controls related to TSC               |
 
 :::info
 **Kingfisher Industries** receives both a SOC 1® report and a SOC 2® report from its cloud hosting provider. The SOC 1® is used by Kingfisher's external auditor to evaluate controls relevant to financial reporting (e.g., automated journal entry controls). The SOC 2® is used by Kingfisher's IT governance team to assess security, availability, and confidentiality controls.
@@ -218,7 +218,7 @@ When exceptions are identified, the service auditor documents:
 | Qualified opinion      | Isolated material deficiency or scope limitation                                                           |
 | Adverse opinion        | Pervasive material deficiencies or misstatements                                                           |
 | Disclaimer             | Unable to obtain sufficient evidence to form an opinion                                                    |
-| Test results structure | TSC criterion → control → test applied → results (including exceptions)                                    |
+| Test results structure | TSC criterion, then control, then test applied, then results (including exceptions)                        |
 | SOC 1® focus           | Control objectives relevant to user entities' ICFR                                                         |
 | SOC 2® focus           | Trust Services Criteria (security, availability, processing integrity, confidentiality, privacy)           |
 
@@ -237,7 +237,7 @@ B. The subservice organization is not mentioned anywhere in the report
 C. The system description identifies the subservice organization and lists CSOCs, but its controls are not tested
 D. The service auditor issues a separate opinion on the subservice organization
 **3.** During a SOC 2® Type 2 engagement, the service auditor inspected access removal records for 40 terminated employees and found that 12 had access removed more than 72 hours after termination, violating the organization's 24-hour policy. What is the most likely effect on the report?
-A. No effect — exceptions under 50% do not impact the report
+A. No effect, because exceptions under 50% do not impact the report
 B. The exception is noted in the test results, but the opinion remains unqualified because management remediated the issue
 C. The service auditor evaluates whether the 30% exception rate represents a material deficiency that warrants a qualified or adverse opinion
 D. The service auditor must issue a disclaimer of opinion

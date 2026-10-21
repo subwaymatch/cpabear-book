@@ -25,7 +25,7 @@ To qualify for S corporation status, the entity must satisfy **all** of the foll
 
 :::info[One Class of Stock]
 
-An S corporation may issue both voting and nonvoting common stock — those are still treated as **one class** because the economic rights are identical. However, if one class of shares has a preferred distribution right, the corporation has two classes and fails the test.
+An S corporation may issue both voting and nonvoting common stock; those are still treated as **one class** because the economic rights are identical. However, if one class of shares has a preferred distribution right, the corporation has two classes and fails the test.
 
 **Debt that is reclassified as equity** (e.g., shareholder loans with excessive debt-to-equity ratios) can inadvertently create a second class of stock and terminate the election.
 
@@ -69,7 +69,7 @@ Shareholders holding more than **50%** of the shares (voting and nonvoting) must
 
 ### 2. Failure to meet eligibility requirements
 
-If the corporation ceases to satisfy **any** eligibility requirement — for example, a nonresident alien acquires stock — the election terminates on the **day** the disqualifying event occurs. This creates a **short S year** ending the day before the event and a **short C year** beginning on the date of the event.
+If the corporation ceases to satisfy **any** eligibility requirement (for example, a nonresident alien acquires stock), the election terminates on the **day** the disqualifying event occurs. This creates a **short S year** ending the day before the event and a **short C year** beginning on the date of the event.
 
 ### 3. Passive investment income (former C corps only)
 
@@ -124,7 +124,7 @@ Each shareholder reports their **pro-rata share** based on the percentage of sto
 
 ### Qualified Business Income (QBI) deduction
 
-S corporation shareholders may be eligible for the **Section 199A QBI deduction** — up to **20%** of qualified business income passed through from the S corporation. The deduction is taken at the **shareholder level**, not on the S corporation return. It is subject to W-2 wage and property limitations for higher-income taxpayers.
+S corporation shareholders may be eligible for the **Section 199A QBI deduction**, worth up to **20%** of qualified business income passed through from the S corporation. The deduction is taken at the **shareholder level**, not on the S corporation return. It is subject to W-2 wage and property limitations for higher-income taxpayers.
 
 ### Fringe benefits for >2% shareholders
 
@@ -162,7 +162,7 @@ Distributions reduce basis **before** losses. This means a large distribution ca
 
 :::
 
-**Example — Stock basis computation:**
+**Example: Stock basis computation**
 
 Jamie owns 100% of Bear Co. (S corporation). At the start of the year, her stock basis is \$50,000. During the year:
 
@@ -181,21 +181,21 @@ Jamie owns 100% of Bear Co. (S corporation). At the start of the year, her stock
 | Beginning basis | \$50,000 |
 | + Ordinary income | +\$80,000 |
 | + Tax-exempt interest | +\$5,000 |
-| − Distribution | −\$30,000 |
-| − Nondeductible expenses | −\$2,000 |
-| − Charitable contributions | −\$8,000 |
+| - Distribution | -\$30,000 |
+| - Nondeductible expenses | -\$2,000 |
+| - Charitable contributions | -\$8,000 |
 | **Ending stock basis** | **\$95,000** |
 
 ### Debt basis
 
-Unlike partnerships, an S corporation shareholder gets debt basis **only** from **direct loans made by the shareholder to the corporation**. Entity-level debt (e.g., a bank loan to the corporation) does **not** increase a shareholder's debt basis — even if the shareholder personally guarantees the loan.
+Unlike partnerships, an S corporation shareholder gets debt basis **only** from **direct loans made by the shareholder to the corporation**. Entity-level debt (e.g., a bank loan to the corporation) does **not** increase a shareholder's debt basis, even if the shareholder personally guarantees the loan.
 
 | Source of Debt | Increases Basis? |
 |---------------|-----------------|
-| Shareholder loans directly to the S corp | ✅ Yes |
-| Bank loan guaranteed by shareholder | ❌ No |
-| Third-party loans to the corporation | ❌ No |
-| Entity-level mortgage | ❌ No |
+| Shareholder loans directly to the S corp | Yes |
+| Bank loan guaranteed by shareholder | No |
+| Third-party loans to the corporation | No |
+| Entity-level mortgage | No |
 
 :::caution[S Corp vs. Partnership Debt Basis]
 
@@ -247,7 +247,7 @@ When an S corporation has both AAA and accumulated C corporation E&P, distributi
 
 :::tip[AAA Can Go Negative]
 
-Unlike stock basis, the AAA **can** be reduced below zero by losses and deductions. However, distributions cannot reduce AAA below zero — only losses can.
+Unlike stock basis, the AAA **can** be reduced below zero by losses and deductions. However, distributions cannot reduce AAA below zero; only losses can.
 
 :::
 
@@ -289,7 +289,7 @@ They are less useful when owners need multiple classes of stock or want institut
 ## REG quick hits
 
 - S corporations file Form 1120-S.
-- They are usually pass-through entities — no entity-level tax in most cases.
+- They are usually pass-through entities, with no entity-level tax in most cases.
 - Eligibility: domestic corporation, ≤ 100 shareholders, eligible shareholders only, one class of stock.
 - Election is made on **Form 2553** by the 15th day of the 3rd month.
 - **All shareholders** must consent to the election.
@@ -297,8 +297,8 @@ They are less useful when owners need multiple classes of stock or want institut
 - A **5-year waiting period** applies before re-election after termination.
 - Shareholders may take the **QBI deduction** (up to 20%) on passed-through income.
 - >2% shareholders are treated as partners for fringe benefit purposes.
-- Stock basis: contributions + income − distributions − nondeductible − losses.
-- Debt basis comes **only** from direct shareholder loans — entity-level debt and guarantees do **not** count.
+- Stock basis: contributions + income - distributions - nondeductible - losses.
+- Debt basis comes **only** from direct shareholder loans; entity-level debt and guarantees do **not** count.
 - Maximum deductible loss = stock basis + debt basis.
 - Suspended losses carry forward **indefinitely**.
 - The **AAA** controls the tax treatment of distributions when accumulated E&P exists.

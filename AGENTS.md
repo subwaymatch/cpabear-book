@@ -25,7 +25,7 @@ CPA Bear Book is an open-source, Docusaurus-based textbook for CPA exam candidat
 ## Tech Stack
 
 - **Framework:** [Docusaurus v3](https://docusaurus.io/) (React, TypeScript, MDX)
-- **Language:** TypeScript (`~5.6`)
+- **Language:** TypeScript (`~7.0`)
 - **Node.js:** ≥ 20.0
 - **Package manager:** npm (use `npm ci` for installs, not `yarn`)
 - **Math rendering:** KaTeX via `remark-math` + `rehype-katex`
@@ -77,7 +77,7 @@ All commands are run from the repository root.
 
 **Validate changes with:** `npm run build && npm run typecheck`
 
-> ⚠️ `npm run build` will fail if any internal links are broken (`onBrokenLinks: "throw"`). Always verify links are valid before committing.
+> **Warning:** `npm run build` will fail if any internal links are broken (`onBrokenLinks: "throw"`). Always verify links are valid before committing.
 
 ## Content Authoring
 
@@ -94,13 +94,13 @@ Use the custom `journal` language fence in MDX to render a formatted accounting 
 
 **Syntax:**
 
-```
+````
 ```journal
 [Optional Date]
 Dr. Account Name[accountType] amount
 Cr. Account Name[accountType] amount
-```​
 ```
+````
 
 **Account type codes** (optional, appended in `[brackets]`):
 
@@ -115,13 +115,17 @@ Cr. Account Name[accountType] amount
 
 **Example:**
 
-```
+````
 ```journal
 Jan 1, 2025
 Dr. Cash[a] 10,000
 Cr. Common Stock[e] 10,000
-```​
 ```
+````
+
+### Writing Style
+
+Write the way a careful human author types. Do not use em dashes (`—`), en dashes (`–`), Unicode arrows (`→`, `↑`, `↓`), check or cross marks (`✓`, `✅`, `❌`), emoji, the ellipsis character (`…`), the Unicode minus sign (`−`), or curly quotes. Use commas, colons, parentheses, or separate sentences instead; write ranges as `1-5` or `\$100 to \$200`; write `Yes`/`No` in tables. Standard notation such as `§`, `×`, `÷`, `≥`, `≤`, and currency symbols is fine.
 
 ### Math
 
@@ -141,6 +145,6 @@ The site deploys automatically to GitHub Pages when changes are pushed to `main`
 
 ## TypeScript
 
-- The `tsconfig.json` extends `@docusaurus/tsconfig`.
+- The `tsconfig.json` extends `@docusaurus/tsconfig` and unsets its `baseUrl`, which TypeScript 7 no longer supports.
 - Run `npm run typecheck` to check types without building.
-- All source files in `src/` should be TypeScript (`.ts` / `.tsx`).
+- All source files in `src/` should be TypeScript (`.ts` / `.tsx`). Never commit compiled `.js` copies next to them (they are gitignored): webpack resolves `.js` before `.tsx`, so a stale copy silently replaces the real component, and duplicate pages cause "Duplicate routes found" warnings.

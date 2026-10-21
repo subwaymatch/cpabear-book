@@ -34,11 +34,11 @@ Retirement plan selection is one of the most commonly tested personal financial 
 | **Required minimum distributions** | **None** during the owner's lifetime |
 | **Early withdrawal penalty** | 10% penalty on earnings withdrawn before meeting the qualified distribution requirements |
 
-:::tip[Traditional vs. Roth — The Planning Decision]
+:::tip[Traditional vs. Roth: The Planning Decision]
 
 The choice between a traditional IRA and a Roth IRA depends primarily on the taxpayer's **current vs. expected future tax rate**:
-- If the taxpayer expects to be in a **higher bracket** in retirement → Roth IRA (pay tax now at the lower rate)
-- If the taxpayer expects to be in a **lower bracket** in retirement → Traditional IRA (deduct now at the higher rate)
+- If the taxpayer expects to be in a **higher bracket** in retirement, choose a Roth IRA (pay tax now at the lower rate)
+- If the taxpayer expects to be in a **lower bracket** in retirement, choose a Traditional IRA (deduct now at the higher rate)
 - If rates are the same, the Roth IRA is generally preferred because of the absence of RMDs and the flexibility of tax-free withdrawals
 
 :::
@@ -61,7 +61,7 @@ The choice between a traditional IRA and a Roth IRA depends primarily on the tax
 |---|---|
 | **Tax-deferred growth** | Earnings grow tax-deferred until withdrawal |
 | **No contribution limits** | No statutory limit on the amount invested (for non-qualified annuities) |
-| **Distribution taxation** | Earnings are taxed as **ordinary income** upon withdrawal (LIFO — earnings come out first) |
+| **Distribution taxation** | Earnings are taxed as **ordinary income** upon withdrawal (LIFO: earnings come out first) |
 | **Early withdrawal penalty** | 10% penalty on earnings withdrawn before age 59½ |
 | **Death benefit** | Most annuities offer a guaranteed minimum death benefit |
 | **Fees** | Annuities typically have higher fees than mutual funds or ETFs (mortality and expense charges, surrender charges) |
@@ -72,7 +72,7 @@ Annuities are generally **not recommended** inside a retirement account (IRA or 
 
 :::
 
-### Employer-Sponsored Retirement Plans — Comparison
+### Employer-Sponsored Retirement Plans: Comparison
 
 | Feature | Defined Contribution (e.g., 401(k)) | Defined Benefit (Pension) |
 |---|---|---|
@@ -137,9 +137,9 @@ $$\text{Tax-Equivalent Yield} = \frac{\text{Tax-Exempt Yield}}{1 - \text{Margina
 
 > **Example:** Illini Entertainment CFO Jordan is comparing a corporate bond yielding 5% with a municipal bond yielding 3.5%. Jordan's marginal tax rate is 37%.
 >
-> - Corporate bond after-tax return: 5% × (1 − 0.37) = **3.15%**
+> - Corporate bond after-tax return: 5% × (1 - 0.37) = **3.15%**
 > - Municipal bond after-tax return: **3.50%** (tax-exempt)
-> - Tax-equivalent yield of the muni bond: 3.5% ÷ (1 − 0.37) = **5.56%**
+> - Tax-equivalent yield of the muni bond: 3.5% ÷ (1 - 0.37) = **5.56%**
 >
 > The municipal bond provides a higher after-tax return despite its lower stated yield.
 
@@ -225,7 +225,7 @@ The TCP exam tests your understanding of how insurance is used in personal finan
 
 :::info
 
-Insurance planning questions on the TCP exam focus on **understanding the role** of each type of insurance in a comprehensive financial plan. You are not expected to perform actuarial calculations or analyze specific policy terms — focus on when each type of insurance is appropriate and its basic tax treatment.
+Insurance planning questions on the TCP exam focus on **understanding the role** of each type of insurance in a comprehensive financial plan. You are not expected to perform actuarial calculations or analyze specific policy terms; focus on when each type of insurance is appropriate and its basic tax treatment.
 
 :::
 
@@ -253,7 +253,7 @@ In community property states, when one spouse dies, **both halves** of community
 
 ### Beneficiary Designations
 
-Beneficiary designations on retirement accounts, life insurance policies, and other financial accounts **override** the provisions of a will. This is a critical planning concept — if a client's will leaves everything to their children but the retirement account beneficiary designation names an ex-spouse, the ex-spouse receives the retirement account.
+Beneficiary designations on retirement accounts, life insurance policies, and other financial accounts **override** the provisions of a will. This is a critical planning concept: if a client's will leaves everything to their children but the retirement account beneficiary designation names an ex-spouse, the ex-spouse receives the retirement account.
 
 | Asset | Governed By |
 |---|---|

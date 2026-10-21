@@ -1,6 +1,6 @@
 # Audit Evidence
 
-Audit evidence is the foundation on which every audit opinion rests. The auditor gathers information throughout the engagement to form a reasonable basis for concluding whether the financial statements are free of material misstatement. Understanding what constitutes sufficient and appropriate evidence—and how to obtain it—is essential for CPA exam success and professional practice.
+Audit evidence is the foundation on which every audit opinion rests. The auditor gathers information throughout the engagement to form a reasonable basis for concluding whether the financial statements are free of material misstatement. Understanding what constitutes sufficient and appropriate evidence, and how to obtain it, is essential for CPA exam success and professional practice.
 
 ---
 
@@ -39,8 +39,8 @@ Tests of controls answer the question: *"Are the client's controls actually work
 
 Substantive procedures are designed to **detect material misstatements** at the assertion level. They include:
 
-- **Tests of details** — examining individual transactions and balances
-- **Substantive analytical procedures** — evaluating relationships and trends in financial data
+- **Tests of details**: examining individual transactions and balances
+- **Substantive analytical procedures**: evaluating relationships and trends in financial data
 
 Substantive procedures are **always required** for significant account balances and transaction classes, regardless of the assessed level of risk.
 
@@ -74,8 +74,8 @@ Sufficiency refers to the **amount** of evidence gathered. The auditor must obta
 
 Appropriateness addresses the **relevance** and **reliability** of the evidence. Even a large volume of low-quality evidence may be insufficient. Appropriateness has two components:
 
-1. **Relevance** — Does the evidence relate to the specific assertion being tested?
-2. **Reliability** — Can the auditor trust the evidence?
+1. **Relevance**: Does the evidence relate to the specific assertion being tested?
+2. **Reliability**: Can the auditor trust the evidence?
 
 :::warning
 
@@ -112,7 +112,7 @@ Evidence is relevant when it pertains to the **specific assertion** being tested
 
 :::tip
 
-If you are testing the **existence** assertion for accounts receivable at **Kodiak Partners**, confirming balances with customers is highly relevant. However, that same confirmation does not effectively test the **completeness** assertion—a balance that is missing from the books would never appear on a confirmation request.
+If you are testing the **existence** assertion for accounts receivable at **Kodiak Partners**, confirming balances with customers is highly relevant. However, that same confirmation does not effectively test the **completeness** assertion. A balance that is missing from the books would never appear on a confirmation request.
 
 :::
 
@@ -131,7 +131,7 @@ These workpapers serve as the principal support for the auditor's opinion and de
 
 ---
 
-## Standard Auditing Procedures — FIVE CARROT WARS
+## Standard Auditing Procedures: FIVE CARROT WARS
 
 A helpful mnemonic for remembering the standard audit procedures is **FIVE CARROT WARS**. Each letter represents a procedure the auditor may employ:
 
@@ -160,17 +160,17 @@ The CPA exam frequently tests your ability to identify which procedure is most a
 
 ### Detailed Procedure Examples
 
-**Confirmation** — The auditor sends a letter to **Grizzly Industries'** major customers asking them to verify their outstanding receivable balance directly with the audit firm.
+**Confirmation**: The auditor sends a letter to **Grizzly Industries'** major customers asking them to verify their outstanding receivable balance directly with the audit firm.
 
-**Vouching** — The auditor selects recorded revenue transactions from **Honey Entertainment's** general ledger and traces each one back to the shipping document, sales invoice, and customer purchase order.
+**Vouching**: The auditor selects recorded revenue transactions from **Honey Entertainment's** general ledger and traces each one back to the shipping document, sales invoice, and customer purchase order.
 
-**Observation** — During the year-end inventory count at **Panda Records**, the auditor watches warehouse staff scan and count physical inventory items.
+**Observation**: During the year-end inventory count at **Panda Records**, the auditor watches warehouse staff scan and count physical inventory items.
 
-**Inquiry** — The auditor interviews **Ursa Security's** IT manager about access controls over the financial reporting system.
+**Inquiry**: The auditor interviews **Ursa Security's** IT manager about access controls over the financial reporting system.
 
-**Reperformance** — The auditor independently recalculates the depreciation expense for **Bear Co.'s** fixed asset schedule using the company's stated method and useful lives.
+**Reperformance**: The auditor independently recalculates the depreciation expense for **Bear Co.'s** fixed asset schedule using the company's stated method and useful lives.
 
-**Walk-through** — The auditor follows a single purchase order at **Kodiak Partners** from requisition through approval, receipt of goods, invoice matching, and payment to understand the procurement process.
+**Walk-through**: The auditor follows a single purchase order at **Kodiak Partners** from requisition through approval, receipt of goods, invoice matching, and payment to understand the procurement process.
 
 ---
 
@@ -183,7 +183,7 @@ The direction in which an auditor traces evidence determines which assertion is 
 Vouching moves **from the financial statements back to the source documents**.
 
 ```
-Financial Statements → Journals → Source Documents
+Financial Statements -> Journals -> Source Documents
 ```
 
 The auditor asks: *"Is this recorded item real?"*
@@ -199,7 +199,7 @@ The auditor selects 25 sales transactions from **Polar Inc.'s** sales journal an
 Tracing moves **from source documents forward to the financial statements**.
 
 ```
-Source Documents → Journals → Financial Statements
+Source Documents -> Journals -> Financial Statements
 ```
 
 The auditor asks: *"Has this real event been recorded?"*

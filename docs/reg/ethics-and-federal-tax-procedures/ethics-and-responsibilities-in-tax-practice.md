@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Tax practitioners occupy a unique position of trust — they serve clients while simultaneously upholding the integrity of the federal tax system. The rules governing this dual responsibility come primarily from **Treasury Department Circular 230**, the **Internal Revenue Code (IRC)**, and professional standards issued by the AICPA. Understanding these obligations is essential for every CPA, whether preparing returns, representing clients before the IRS, or providing tax advice.
+Tax practitioners occupy a unique position of trust: they serve clients while simultaneously upholding the integrity of the federal tax system. The rules governing this dual responsibility come primarily from **Treasury Department Circular 230**, the **Internal Revenue Code (IRC)**, and professional standards issued by the AICPA. Understanding these obligations is essential for every CPA, whether preparing returns, representing clients before the IRS, or providing tax advice.
 
 ---
 
@@ -38,7 +38,7 @@ Circular 230 imposes affirmative duties on all practitioners:
 
 :::caution
 
-Circular 230 does **not** require the practitioner to notify the IRS of the client's error — only to advise the client. The decision to amend rests with the client.
+Circular 230 does **not** require the practitioner to notify the IRS of the client's error, only to advise the client. The decision to amend rests with the client.
 
 :::
 
@@ -111,16 +111,16 @@ The IRC imposes separate penalties directly on **tax return preparers**:
 
 | Penalty | Trigger | Amount |
 |---|---|---|
-| **§6694(a)** — Unreasonable positions | Undisclosed position without substantial authority, or disclosed position without reasonable basis | Greater of \$1,000 or 50% of the income derived by the preparer |
-| **§6694(b)** — Willful or reckless conduct | Willful attempt to understate tax or reckless/intentional disregard of rules and regulations | Greater of \$5,000 or 75% of the income derived by the preparer |
+| **§6694(a)**: Unreasonable positions | Undisclosed position without substantial authority, or disclosed position without reasonable basis | Greater of \$1,000 or 50% of the income derived by the preparer |
+| **§6694(b)**: Willful or reckless conduct | Willful attempt to understate tax or reckless/intentional disregard of rules and regulations | Greater of \$5,000 or 75% of the income derived by the preparer |
 
 :::warning
 
-The §6694(b) penalty for willful or reckless conduct is assessed **in addition to** the §6694(a) penalty — not as a substitute. A single return can trigger both penalties.
+The §6694(b) penalty for willful or reckless conduct is assessed **in addition to** the §6694(a) penalty, not as a substitute. A single return can trigger both penalties.
 
 :::
 
-> **Example:** A preparer at Salmon Entertainment files a return claiming \$200,000 in fabricated deductions, earning a \$3,000 preparation fee. The §6694(b) penalty is the greater of \$5,000 or 75% × \$3,000 = \$2,250 — so the penalty is \$5,000.
+> **Example:** A preparer at Salmon Entertainment files a return claiming \$200,000 in fabricated deductions, earning a \$3,000 preparation fee. The §6694(b) penalty is the greater of \$5,000 or 75% × \$3,000 = \$2,250, so the penalty is \$5,000.
 
 ---
 

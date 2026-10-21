@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Partnership tax planning offers the **most flexibility** of any entity type, but that flexibility comes with complexity. The TCP exam tests your ability to calculate the tax implications of contributing appreciated or depreciated noncash property, analyze various payments to partners (guaranteed payments and nonliquidating distributions), and derive the tax consequences of proposed transactions including contributions, distributions, and sales of partnership interests. The emphasis is on **planning** — evaluating alternative transaction structures and recommending the approach that minimizes the combined tax cost to the partnership and its partners.
+Partnership tax planning offers the **most flexibility** of any entity type, but that flexibility comes with complexity. The TCP exam tests your ability to calculate the tax implications of contributing appreciated or depreciated noncash property, analyze various payments to partners (guaranteed payments and nonliquidating distributions), and derive the tax consequences of proposed transactions including contributions, distributions, and sales of partnership interests. The emphasis is on **planning**: evaluating alternative transaction structures and recommending the approach that minimizes the combined tax cost to the partnership and its partners.
 
-This page builds on the partnership compliance concepts covered in the Entity Tax Compliance section and focuses on the **strategic planning** dimension — how to structure transactions to achieve the best tax outcomes.
+This page builds on the partnership compliance concepts covered in the Entity Tax Compliance section and focuses on the **strategic planning** dimension: how to structure transactions to achieve the best tax outcomes.
 
 ---
 
@@ -28,8 +28,8 @@ If BIF Partners later sells the land for \$350,000:
 
 | Allocation | Jordan | Dana |
 |---|---|---|
-| Pre-contribution built-in gain (\$300,000 − \$100,000) | \$200,000 | \$0 |
-| Post-contribution appreciation (\$350,000 − \$300,000) × 50% | \$25,000 | \$25,000 |
+| Pre-contribution built-in gain (\$300,000 - \$100,000) | \$200,000 | \$0 |
+| Post-contribution appreciation (\$350,000 - \$300,000) × 50% | \$25,000 | \$25,000 |
 | **Total gain allocated** | **\$225,000** | **\$25,000** |
 
 :::tip[Exam Tip]
@@ -61,13 +61,13 @@ Contributing property with FMV less than adjusted basis creates a **built-in los
 | **Built-in loss allocation** | Must be allocated to the **contributing partner** under §704(c) |
 | **§704(c)(1)(C) limitation** | For contributed property with built-in loss, the partnership's basis for allocating loss to **non-contributing** partners is limited to **FMV at contribution** |
 
-> **Example:** Bear Co. Partnership has two equal partners — Alex and Sam. Alex contributes equipment (FMV \$60,000, adjusted basis \$100,000, built-in loss of \$40,000). If the partnership sells the equipment for \$50,000:
+> **Example:** Bear Co. Partnership has two equal partners, Alex and Sam. Alex contributes equipment (FMV \$60,000, adjusted basis \$100,000, built-in loss of \$40,000). If the partnership sells the equipment for \$50,000:
 
 | Calculation | Amount |
 |---|---|
-| Total tax loss (\$100,000 basis − \$50,000 sale price) | \$50,000 |
+| Total tax loss (\$100,000 basis - \$50,000 sale price) | \$50,000 |
 | Built-in loss allocated to Alex (§704(c)) | \$40,000 |
-| Post-contribution loss (\$60,000 FMV − \$50,000) × 50% each | \$5,000 each |
+| Post-contribution loss (\$60,000 FMV - \$50,000) × 50% each | \$5,000 each |
 | **Alex's total loss** | **\$45,000** |
 | **Sam's total loss** | **\$5,000** |
 
@@ -81,9 +81,9 @@ Under §704(c)(1)(C), the partnership must use **FMV as the basis** for purposes
 
 | Strategy | Description |
 |---|---|
-| **Contribute appreciated property to defer gain** | Gain is deferred until the partnership sells the property — partner receives current partnership interest without immediate tax |
-| **Avoid contributing depreciated property** | Sell the property first, recognize the loss personally, then contribute the cash — this is often more advantageous than deferring the loss inside the partnership |
-| **Consider liability impact** | If property is subject to a liability exceeding basis, the contribution triggers gain — plan to reduce the liability before contributing |
+| **Contribute appreciated property to defer gain** | Gain is deferred until the partnership sells the property; partner receives current partnership interest without immediate tax |
+| **Avoid contributing depreciated property** | Sell the property first, recognize the loss personally, then contribute the cash; this is often more advantageous than deferring the loss inside the partnership |
+| **Consider liability impact** | If property is subject to a liability exceeding basis, the contribution triggers gain; plan to reduce the liability before contributing |
 | **Evaluate §704(c) method choice** | The remedial method creates the most equitable allocations but is the most complex; the traditional method may benefit the contributing partner through the ceiling rule |
 
 ---
@@ -99,23 +99,23 @@ Guaranteed payments are payments to a partner for services or use of capital tha
 | **To the partner** | Ordinary income; subject to **self-employment tax** |
 | **To the partnership** | Deductible as an ordinary business expense (reduces partnership ordinary income) |
 | **Timing** | Included in the partner's income for the partner's tax year that includes the **partnership's year-end** |
-| **Effect on partner's outside basis** | No direct effect — the guaranteed payment reduces partnership income, which reduces the partner's distributive share |
+| **Effect on partner's outside basis** | No direct effect; the guaranteed payment reduces partnership income, which reduces the partner's distributive share |
 
 > **Example:** Dana is a 40% partner in Kingfisher Industries partnership. The partnership agreement provides Dana a guaranteed payment of \$100,000 for management services. The partnership has \$300,000 of ordinary income before the guaranteed payment.
 
 | Item | Dana (40%) | Other Partners (60%) |
 |---|---|---|
-| Guaranteed payment | \$100,000 | — |
-| Partnership income after guaranteed payment: \$300,000 − \$100,000 = \$200,000 | \$80,000 (40%) | \$120,000 (60%) |
+| Guaranteed payment | \$100,000 | \$0 |
+| Partnership income after guaranteed payment: \$300,000 - \$100,000 = \$200,000 | \$80,000 (40%) | \$120,000 (60%) |
 | **Total income** | **\$180,000** | **\$120,000** |
 
 ### Guaranteed Payments vs. Distributive Share
 
 | Factor | Guaranteed Payment | Distributive Share |
 |---|---|---|
-| **Determined by** | Fixed amount or formula — without regard to income | Partnership income allocation |
-| **Self-employment tax** | **Yes** — subject to SE tax | **Yes** for general partners; **no** for limited partners (limited to guaranteed payments only) |
-| **Effect on partnership income** | Reduces partnership ordinary income | Does not reduce — is the allocation of income |
+| **Determined by** | Fixed amount or formula, without regard to income | Partnership income allocation |
+| **Self-employment tax** | **Yes**, subject to SE tax | **Yes** for general partners; **no** for limited partners (limited to guaranteed payments only) |
+| **Effect on partnership income** | Reduces partnership ordinary income | Does not reduce; it is the allocation of income |
 | **Planning implication** | Provides certainty of income to the partner; shifts tax burden | Variable with partnership performance |
 
 :::tip[Exam Tip]
@@ -146,7 +146,7 @@ The **7-year rule** under §704(c)(1)(B) is a critical planning trap. If the par
 
 :::
 
-> **Example:** Jordan contributed land with a built-in gain of \$150,000 to BIF Partners in 2022. In 2026 (within 7 years), BIF Partners distributes the land to partner Dana. Jordan must recognize the \$150,000 built-in gain — even though Jordan did not receive the distribution.
+> **Example:** Jordan contributed land with a built-in gain of \$150,000 to BIF Partners in 2022. In 2026 (within 7 years), BIF Partners distributes the land to partner Dana. Jordan must recognize the \$150,000 built-in gain, even though Jordan did not receive the distribution.
 
 ### Mixing Guaranteed Payments and Distributions
 
@@ -168,8 +168,8 @@ Planning often involves balancing guaranteed payments (which provide deductible 
 |---|---|
 | **Amount realized** | Cash + FMV of property received + buyer's assumption of selling partner's share of partnership liabilities |
 | **Outside basis** | Adjusted basis of the partnership interest on the sale date |
-| **Gain or loss** | Amount realized − outside basis |
-| **Character** | Generally **capital gain** — except for the §751 "hot assets" portion |
+| **Gain or loss** | Amount realized - outside basis |
+| **Character** | Generally **capital gain**, except for the §751 "hot assets" portion |
 
 ### Hot Assets and Ordinary Income (IRC §751)
 
@@ -186,19 +186,19 @@ A portion of the gain on the sale of a partnership interest is recharacterized a
 |---|---|---|---|
 | Cash | \$50,000 | \$50,000 | \$0 |
 | Accounts receivable (hot) | \$40,000 | \$0 | \$40,000 |
-| Equipment — §1245 recapture (hot) | \$30,000 | \$20,000 | \$10,000 |
+| Equipment, §1245 recapture (hot) | \$30,000 | \$20,000 | \$10,000 |
 | Goodwill | \$80,000 | \$50,000 | \$30,000 |
 | **Total** | **\$200,000** | **\$120,000** | **\$80,000** |
 
 | Character of Gain | Amount |
 |---|---|
 | Ordinary income (hot assets): \$40,000 + \$10,000 | **\$50,000** |
-| Capital gain (remaining): \$80,000 − \$50,000 | **\$30,000** |
+| Capital gain (remaining): \$80,000 - \$50,000 | **\$30,000** |
 | **Total gain** | **\$80,000** |
 
 :::warning
 
-Many candidates assume that the sale of a partnership interest produces only **capital gain**. The §751 hot asset rules recharacterize a significant portion as ordinary income — particularly when the partnership holds receivables (common in service partnerships) or has depreciation recapture potential. Always check for hot assets before computing the character of gain.
+Many candidates assume that the sale of a partnership interest produces only **capital gain**. The §751 hot asset rules recharacterize a significant portion as ordinary income, particularly when the partnership holds receivables (common in service partnerships) or has depreciation recapture potential. Always check for hot assets before computing the character of gain.
 
 :::
 
@@ -207,9 +207,9 @@ Many candidates assume that the sale of a partnership interest produces only **c
 | Strategy | Description |
 |---|---|
 | **Time the sale to maximize basis** | Increase outside basis before the sale through additional contributions or by waiting for income allocations |
-| **Evaluate §754 election** | If a §754 election is in effect, the buyer receives a basis adjustment (§743(b)) that aligns inside and outside basis — makes the interest more attractive to buyers |
+| **Evaluate §754 election** | If a §754 election is in effect, the buyer receives a basis adjustment (§743(b)) that aligns inside and outside basis, which makes the interest more attractive to buyers |
 | **Installment sale** | Report gain over the installment period; applicable to the capital gain portion (§751 ordinary income is recognized in full in the year of sale) |
-| **Reduce hot asset exposure** | Before the sale, the partnership can sell hot assets and distribute the proceeds — converting the hot asset gain from ordinary to capital for the selling partner |
+| **Reduce hot asset exposure** | Before the sale, the partnership can sell hot assets and distribute the proceeds, converting the hot asset gain from ordinary to capital for the selling partner |
 | **Retirement vs. sale** | A retiring partner may prefer a §736 liquidating payment structure (which may allow the partnership to deduct guaranteed-payment-like amounts) over a third-party sale |
 
 ---
@@ -224,7 +224,7 @@ Many candidates assume that the sale of a partnership interest produces only **c
 | **Cash distribution (nonliquidating)** | Only if cash > outside basis | Capital gain | Reduces outside basis |
 | **Property distribution (nonliquidating)** | Generally none | N/A | Partner takes lesser of inside basis or outside basis |
 | **Liquidating distribution** | Cash > basis = gain; loss only if receiving cash, receivables, and/or inventory < basis | Capital gain or loss | Remaining outside basis allocated to property |
-| **Sale of partnership interest** | Amount realized − outside basis | Capital gain + §751 ordinary income | N/A (interest is disposed of) |
+| **Sale of partnership interest** | Amount realized - outside basis | Capital gain + §751 ordinary income | N/A (interest is disposed of) |
 | **Guaranteed payment** | Fully recognized | Ordinary income | Indirectly through reduced distributive share |
 
 ### Disguised Sale Considerations (IRC §707(a)(2)(B))
@@ -236,7 +236,7 @@ When a partner contributes property and receives a related distribution within *
 | Contribution and distribution within **2 years** | **Presumed** to be a sale (rebuttable) |
 | Contribution and distribution **after 2 years** | **Presumed** not to be a sale (rebuttable) |
 
-> **Example:** Sam contributes property (FMV \$400,000, basis \$150,000) to Polar Inc. partnership and receives a \$400,000 cash distribution 6 months later. This is presumed to be a disguised sale. Sam would recognize \$250,000 of gain (\$400,000 − \$150,000) as if the property were sold to the partnership.
+> **Example:** Sam contributes property (FMV \$400,000, basis \$150,000) to Polar Inc. partnership and receives a \$400,000 cash distribution 6 months later. This is presumed to be a disguised sale. Sam would recognize \$250,000 of gain (\$400,000 - \$150,000) as if the property were sold to the partnership.
 
 :::tip[Exam Tip]
 
@@ -244,14 +244,14 @@ Disguised sale questions typically test whether the partner received a distribut
 
 :::
 
-### Section 736 — Payments to a Retiring or Deceased Partner
+### Section 736: Payments to a Retiring or Deceased Partner
 
 When a partner retires or dies and the partnership liquidates their interest, §736 divides the payments into two categories:
 
 | Category | Treatment |
 |---|---|
-| **§736(b) payments** | Payments for the partner's share of partnership **property** (including goodwill if the partnership agreement provides for it) — treated as a **distribution** (capital gain/loss to the retiring partner) |
-| **§736(a) payments** | Payments for the partner's share of **unrealized receivables** and **goodwill** (to the extent not covered by §736(b)) — treated as **guaranteed payments** (ordinary income to the retiring partner, deductible by the partnership) |
+| **§736(b) payments** | Payments for the partner's share of partnership **property** (including goodwill if the partnership agreement provides for it), treated as a **distribution** (capital gain/loss to the retiring partner) |
+| **§736(a) payments** | Payments for the partner's share of **unrealized receivables** and **goodwill** (to the extent not covered by §736(b)), treated as **guaranteed payments** (ordinary income to the retiring partner, deductible by the partnership) |
 
 :::info
 
@@ -261,9 +261,9 @@ The §736(a)/(b) distinction applies only to **general partners** in partnership
 
 | Planning Consideration | Detail |
 |---|---|
-| **Include goodwill in the partnership agreement** | If the agreement provides for goodwill payments, they are §736(b) — capital gain to the retiring partner (favorable) |
-| **Omit goodwill from the agreement** | If the agreement is silent, goodwill payments are §736(a) — ordinary income to the retiring partner but **deductible** by the partnership (favorable to remaining partners) |
-| **Negotiate the split** | The retiring partner prefers §736(b) (capital gain); the remaining partners prefer §736(a) (deductible) — this is a negotiation point |
+| **Include goodwill in the partnership agreement** | If the agreement provides for goodwill payments, they are §736(b): capital gain to the retiring partner (favorable) |
+| **Omit goodwill from the agreement** | If the agreement is silent, goodwill payments are §736(a): ordinary income to the retiring partner but **deductible** by the partnership (favorable to remaining partners) |
+| **Negotiate the split** | The retiring partner prefers §736(b) (capital gain); the remaining partners prefer §736(a) (deductible); this is a negotiation point |
 
 ---
 
@@ -272,14 +272,14 @@ The §736(a)/(b) distinction applies only to **general partners** in partnership
 | Topic | Key Concept |
 |---|---|
 | Appreciated property contributions | Nonrecognition under §721; built-in gain tracked and allocated to contributor under §704(c) |
-| §704(c) methods | Traditional (ceiling rule), traditional with curative, remedial — each affects allocation of built-in gain/loss differently |
+| §704(c) methods | Traditional (ceiling rule), traditional with curative, remedial; each affects allocation of built-in gain/loss differently |
 | Depreciated property contributions | Loss deferred; partnership uses FMV as basis for non-contributor allocations (§704(c)(1)(C)) |
 | Guaranteed payments | Ordinary income to partner; deductible by partnership; subject to SE tax |
 | Guaranteed payment vs. §707(a) | Guaranteed = in capacity as partner (SE tax); §707(a) = as outsider (generally no SE tax) |
 | Nonliquidating distributions | Cash: gain if > basis; property: no gain, lesser of inside/outside basis |
 | 7-year rule (§704(c)(1)(B)) | Contributing partner recognizes built-in gain if contributed property is distributed to another partner within 7 years |
-| Sale of partnership interest | Gain = amount realized − outside basis; §751 hot assets create ordinary income |
+| Sale of partnership interest | Gain = amount realized - outside basis; §751 hot assets create ordinary income |
 | Installment sale planning | Capital gain portion eligible for installment method; §751 ordinary income recognized immediately |
 | Disguised sales | Contribution + distribution within 2 years presumed to be a sale |
 | §736 retirement payments | §736(b) = distribution (capital gain); §736(a) = guaranteed payment (ordinary, deductible) |
-| Goodwill planning | Including goodwill in the agreement makes payments §736(b) — favorable to retiring partner |
+| Goodwill planning | Including goodwill in the agreement makes payments §736(b), which favors the retiring partner |

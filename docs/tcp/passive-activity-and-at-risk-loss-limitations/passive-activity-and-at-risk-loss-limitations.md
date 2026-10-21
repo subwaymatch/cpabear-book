@@ -2,7 +2,7 @@
 
 ## Introduction
 
-When an individual recognizes a loss from a business activity or rental property, the tax code does not always allow the full deduction in the current year. Two key limitation regimes — the **at-risk rules** under **IRC §465** and the **passive activity loss rules** under **IRC §469** — restrict the amount of loss a taxpayer can deduct based on the economic substance of their investment and their level of participation. These rules are designed to prevent taxpayers from sheltering other income with losses from activities in which they bear limited economic risk or limited involvement.
+When an individual recognizes a loss from a business activity or rental property, the tax code does not always allow the full deduction in the current year. Two key limitation regimes, the **at-risk rules** under **IRC §465** and the **passive activity loss rules** under **IRC §469**, restrict the amount of loss a taxpayer can deduct based on the economic substance of their investment and their level of participation. These rules are designed to prevent taxpayers from sheltering other income with losses from activities in which they bear limited economic risk or limited involvement.
 
 The TCP exam tests these rules at a deeper level than REG. You must be able to calculate the at-risk limitation, apply the passive activity loss limitation, net passive gains and losses across multiple activities, and review supporting documentation to verify that losses are properly allocated between allowed and suspended amounts.
 
@@ -34,7 +34,7 @@ The amount at risk generally includes:
 
 :::warning
 
-**Nonrecourse debt** (debt for which the taxpayer is not personally liable) is generally **not** included in the at-risk amount. The major exception is **qualified nonrecourse financing** for real estate activities — certain nonrecourse debt secured by real property used in the activity is treated as an at-risk amount.
+**Nonrecourse debt** (debt for which the taxpayer is not personally liable) is generally **not** included in the at-risk amount. The major exception is **qualified nonrecourse financing** for real estate activities: certain nonrecourse debt secured by real property used in the activity is treated as an at-risk amount.
 
 :::
 
@@ -42,13 +42,13 @@ The amount at risk generally includes:
 
 ```mermaid
 flowchart TD
-    A[Amount at Risk — Beginning of Year] --> B[+ Contributions and Income]
-    B --> C["− Distributions and Withdrawals"]
-    C --> D[= Amount at Risk — End of Year]
+    A[Amount at Risk, Beginning of Year] --> B[+ Contributions and Income]
+    B --> C["Less: Distributions and Withdrawals"]
+    C --> D[= Amount at Risk, End of Year]
     D --> E{"Loss ≤ Amount at Risk?"}
     E -->|Yes| F[Full Loss Allowed]
     E -->|No| G["Loss Allowed = Amount at Risk"]
-    G --> H[Excess Loss Suspended — Carried Forward]
+    G --> H[Excess Loss Suspended and Carried Forward]
 ```
 
 > **Example:** Bear Co. partner Jordan contributed \$40,000 cash to a partnership activity and was allocated a \$55,000 loss for the year. Jordan has no recourse debt in the activity. Jordan's at-risk amount is \$40,000, so only \$40,000 of the loss is deductible under the at-risk rules. The remaining \$15,000 is suspended and carried forward until Jordan increases the at-risk amount (through additional contributions or income allocations).
@@ -66,7 +66,7 @@ For losses flowing through from partnerships and S corporations, the at-risk lim
 
 ### Real Estate Rental Activities
 
-Losses from real estate rental activities are subject to the at-risk rules. However, **qualified nonrecourse financing** (secured by real property used in the activity and borrowed from a qualified lender) is included in the at-risk amount. This is a critical exception — without it, most real estate investors would have very limited at-risk amounts because real estate debt is typically nonrecourse.
+Losses from real estate rental activities are subject to the at-risk rules. However, **qualified nonrecourse financing** (secured by real property used in the activity and borrowed from a qualified lender) is included in the at-risk amount. This is a critical exception. Without it, most real estate investors would have very limited at-risk amounts because real estate debt is typically nonrecourse.
 
 ---
 
@@ -114,15 +114,15 @@ When a taxpayer has multiple passive activities, the gains and losses are **nett
 3. If the result is a **net passive loss**, the excess is **suspended** and carried forward
 4. If the result is a **net passive gain**, the gain is included in income (and may release previously suspended losses)
 
-> **Example:** Bear Co. manager Pat has three passive activities: Activity A generated a \$25,000 gain, Activity B generated a \$40,000 loss, and Activity C generated a \$10,000 gain. Net passive income: \$25,000 + \$10,000 − \$40,000 = (\$5,000) net passive loss. The \$5,000 is suspended and carried forward. Pat cannot deduct any of the net passive loss against wages or portfolio income.
+> **Example:** Bear Co. manager Pat has three passive activities: Activity A generated a \$25,000 gain, Activity B generated a \$40,000 loss, and Activity C generated a \$10,000 gain. Net passive income: \$25,000 + \$10,000 - \$40,000 = (\$5,000) net passive loss. The \$5,000 is suspended and carried forward. Pat cannot deduct any of the net passive loss against wages or portfolio income.
 
-### Rental Activities — Special Rules
+### Rental Activities: Special Rules
 
 All **rental activities** are generally treated as passive, regardless of material participation. However, two important exceptions exist:
 
-#### Exception 1: Active Participation — \$25,000 Rental Loss Allowance
+#### Exception 1: Active Participation (\$25,000 Rental Loss Allowance)
 
-An individual who **actively participates** in a rental real estate activity may deduct up to **\$25,000** of rental losses against nonpassive income. Active participation is a lower standard than material participation — it requires bona fide involvement in management decisions (approving tenants, setting rental terms, approving expenditures).
+An individual who **actively participates** in a rental real estate activity may deduct up to **\$25,000** of rental losses against nonpassive income. Active participation is a lower standard than material participation; it requires bona fide involvement in management decisions (approving tenants, setting rental terms, approving expenditures).
 
 | Requirement | Detail |
 |---|---|
@@ -130,7 +130,7 @@ An individual who **actively participates** in a rental real estate activity may
 | **Active participation** | Bona fide involvement in management decisions |
 | **AGI phase-out** | The \$25,000 allowance is reduced by 50% of AGI exceeding \$100,000 and fully phased out at \$150,000 AGI |
 
-> **Example:** Illini Entertainment director Alex owns a rental property and actively participates in management. Alex's rental loss for the year is \$30,000 and AGI (before the rental loss) is \$120,000. The \$25,000 allowance is reduced by 50% × (\$120,000 − \$100,000) = \$10,000, leaving a \$15,000 allowance. Alex deducts \$15,000 of the rental loss against nonpassive income. The remaining \$15,000 is suspended.
+> **Example:** Illini Entertainment director Alex owns a rental property and actively participates in management. Alex's rental loss for the year is \$30,000 and AGI (before the rental loss) is \$120,000. The \$25,000 allowance is reduced by 50% × (\$120,000 - \$100,000) = \$10,000, leaving a \$15,000 allowance. Alex deducts \$15,000 of the rental loss against nonpassive income. The remaining \$15,000 is suspended.
 
 #### Exception 2: Real Estate Professionals
 
@@ -157,7 +157,7 @@ When a taxpayer makes a **fully taxable disposition** of their entire interest i
 | **Death** | Suspended losses are deductible on the decedent's final return to the extent they exceed the step-up in basis |
 | **Installment sale** | Suspended losses are released **proportionally** as installment payments are received |
 
-> **Example:** Polar Inc. partner Casey has \$80,000 of suspended passive losses from a limited partnership investment. Casey sells the entire partnership interest to an unrelated buyer for a \$30,000 gain. On the sale, Casey releases the full \$80,000 of suspended losses. Net result: \$30,000 gain − \$80,000 released losses = \$50,000 net loss, deductible against any type of income (wages, portfolio income, etc.).
+> **Example:** Polar Inc. partner Casey has \$80,000 of suspended passive losses from a limited partnership investment. Casey sells the entire partnership interest to an unrelated buyer for a \$30,000 gain. On the sale, Casey releases the full \$80,000 of suspended losses. Net result: \$30,000 gain - \$80,000 released losses = \$50,000 net loss, deductible against any type of income (wages, portfolio income, etc.).
 
 ---
 
@@ -193,7 +193,7 @@ Simulation questions may present a completed basis schedule with one or more err
 | Passive activity | Activity in which taxpayer does not materially participate, or any rental activity (with exceptions) |
 | Material participation | Seven tests; most common is the 500-hour test |
 | Passive loss netting | Passive losses offset passive gains; net passive loss is suspended |
-| \$25,000 rental allowance | Active participation required; phased out at \$100,000–\$150,000 AGI |
+| \$25,000 rental allowance | Active participation required; phased out between \$100,000 and \$150,000 of AGI |
 | Real estate professional | 750 hours + 50% of services in real property trades or businesses |
 | Disposition of passive activity | Fully taxable sale to unrelated party releases all suspended losses |
-| Loss ordering | Basis → At-risk → Passive activity → Excess business loss |
+| Loss ordering | Basis, then at-risk, then passive activity, then excess business loss |

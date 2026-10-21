@@ -1,10 +1,10 @@
 # Statement of Cash Flows
 
-The **statement of cash flows** reports all cash inflows and outflows during a period, classified into three categories: **operating**, **investing**, and **financing** activities. It reconciles the beginning and ending cash balances and answers: _Where did cash come from, and where did it go?_
+The **statement of cash flows** reports all cash inflows and outflows during a period, classified into three categories: **operating**, **investing**, and **financing** activities. It reconciles the beginning and ending cash balances and answers one question: _Where did cash come from, and where did it go?_
 
 :::info[Key Concept]
 
-The statement of cash flows bridges the accrual-basis income statement to actual cash movements. An entity can report strong net income but still face a cash crisis — or vice versa.
+The statement of cash flows bridges the accrual-basis income statement and actual cash movements. An entity can report strong net income and still run short of cash, or report a net loss while generating cash.
 
 :::
 
@@ -13,22 +13,25 @@ The statement of cash flows bridges the accrual-basis income statement to actual
 ## Cash and Cash Equivalents
 
 **Cash** includes currency on hand and demand deposits.
+
 **Cash equivalents** are short-term, highly liquid investments that are:
 
 - Readily convertible to known amounts of cash
-- So near maturity that they present **insignificant risk** of value changes
-- Original maturity of **three months or less** from the date of purchase
+- So near maturity that they present **insignificant risk** of changes in value
+- Purchased with an original maturity of **three months or less** (measured from the date the entity buys the investment)
 
-  :::tip[Exam Tip — Three-Month Rule]
-  A 6-month Treasury bill purchased with 2 months remaining is **not** a cash equivalent (original maturity > 3 months). A 90-day certificate of deposit **is** a cash equivalent.
-  :::
+:::tip[Exam Tip: Three-Month Rule]
 
-  | Cash Equivalent? | Instrument | Reason |
-  |---|---|---|
-  | ✅ | 60-day T-bill | Original maturity ≤ 3 months |
-  | ✅ | Money market fund | Readily convertible, negligible risk |
-  | ❌ | 6-month CD | Original maturity > 3 months |
-  | ❌ | Equity securities | Not "near maturity" — subject to price risk |
+Maturity is measured from the date **the entity acquires** the investment, not the date the instrument was issued. A 6-month Treasury bill (T-bill) purchased with 2 months remaining **is** a cash equivalent. A 6-month certificate of deposit (CD) purchased at issuance is **not**. A 90-day CD **is** a cash equivalent.
+
+:::
+
+| Cash Equivalent? | Instrument | Reason |
+|---|---|---|
+| Yes | 60-day T-bill | Original maturity ≤ 3 months |
+| Yes | Money market fund | Readily convertible, negligible risk |
+| No | 6-month CD (purchased at issuance) | Original maturity > 3 months |
+| No | Equity securities | No maturity date; subject to price risk |
 
 ---
 
@@ -36,54 +39,66 @@ The statement of cash flows bridges the accrual-basis income statement to actual
 
 ### Operating Activities (CFO)
 
-Cash flows from the entity's **principal revenue-producing activities**. These generally involve income statement items and changes in current assets and current liabilities.
+Cash flows from operating activities (CFO) come from the entity's **principal revenue-producing activities**. They generally involve income statement items and changes in current assets and current liabilities.
+
 **Cash inflows:**
 
 - Cash received from customers
 - Interest and dividends received
-- Insurance proceeds from operations
-  **Cash outflows:**
+- Insurance proceeds related to operations
+
+**Cash outflows:**
+
 - Cash paid to suppliers and employees
 - Cash paid for interest
 - Cash paid for income taxes
 - Cash paid for operating expenses
 
-  :::warning[Important Classifications]
-  Under U.S. GAAP:
-- **Interest paid** → Operating (even though it relates to financing)
-- **Interest received** → Operating
-- **Dividends received** → Operating
-- **Dividends paid** → **Financing** (not operating!)
-- **Income taxes paid** → Operating (unless directly attributable to investing/financing)
-  :::
+:::warning[Important Classifications]
+
+Under U.S. generally accepted accounting principles (GAAP):
+
+- **Interest paid:** Operating (even though it relates to financing)
+- **Interest received:** Operating
+- **Dividends received:** Operating
+- **Dividends paid:** **Financing**, not operating
+- **Income taxes paid:** Operating (U.S. GAAP does not allocate income taxes to investing or financing activities)
+
+:::
 
 ### Investing Activities (CFI)
 
-Cash flows from acquiring and disposing of **long-term assets** and other investments not classified as cash equivalents.
+Cash flows from investing activities (CFI) come from acquiring and disposing of **long-term assets** and of investments that are not cash equivalents.
+
 **Cash inflows:**
 
-- Sale of PP&E
+- Sale of property, plant, and equipment (PP&E)
 - Sale of investments (debt and equity securities)
 - Collection of loan principal (notes receivable)
 - Sale of a business unit
-  **Cash outflows:**
+
+**Cash outflows:**
+
 - Purchase of PP&E
 - Purchase of investments
-- Making loans to other entities (notes receivable)
+- Loans made to other entities (notes receivable)
 - Acquisition of a business
 
 ### Financing Activities (CFF)
 
-Cash flows from transactions with **owners** and **creditors** that affect long-term capital structure.
+Cash flows from financing activities (CFF) come from obtaining resources from **owners** and **creditors**, returning resources to owners, and repaying amounts borrowed.
+
 **Cash inflows:**
 
 - Issuance of common or preferred stock
-- Issuance of bonds or long-term notes payable
-- Borrowings from banks (long-term)
-  **Cash outflows:**
-- Repurchase of treasury stock
+- Issuance of bonds or notes payable
+- Borrowings from banks (short-term or long-term)
+
+**Cash outflows:**
+
+- Repurchase of stock (treasury stock)
 - Payment of cash dividends
-- Repayment of long-term debt principal
+- Repayment of debt principal
 - Payment of finance lease principal
 
 ```mermaid
@@ -104,13 +119,14 @@ flowchart TD
 
 ## Indirect Method (Most Common)
 
-The indirect method starts with **net income** and adjusts for noncash items and changes in operating assets and liabilities. This is the method most commonly used in practice and most commonly tested.
+The indirect method starts with **net income** and adjusts it for noncash items and for changes in operating assets and liabilities. It is the method most used in practice and most often tested.
 
 ### The CLAD Framework
 
 :::tip[CLAD Mnemonic]
 
 Use **CLAD** to remember the adjustments from net income to cash from operations:
+
 | Letter | Adjustment | Direction |
 |---|---|---|
 | **C** | **C**urrent asset/liability changes | See rules below |
@@ -122,33 +138,34 @@ Use **CLAD** to remember the adjustments from net income to cash from operations
 
 ### Current Asset and Liability Changes
 
-| Change                                                          | Effect on Cash from Operations |
-| --------------------------------------------------------------- | ------------------------------ |
-| Current asset **increases** (e.g., AR goes up)                  | **Subtract** (used cash)       |
-| Current asset **decreases** (e.g., inventory goes down)         | **Add** (freed up cash)        |
-| Current liability **increases** (e.g., AP goes up)              | **Add** (conserved cash)       |
-| Current liability **decreases** (e.g., wages payable goes down) | **Subtract** (used cash)       |
+| Change                                                                    | Effect on Cash from Operations |
+| ------------------------------------------------------------------------- | ------------------------------ |
+| Current asset **increases** (e.g., accounts receivable goes up)           | **Subtract** (used cash)       |
+| Current asset **decreases** (e.g., inventory goes down)                   | **Add** (freed up cash)        |
+| Current liability **increases** (e.g., accounts payable goes up)          | **Add** (conserved cash)       |
+| Current liability **decreases** (e.g., wages payable goes down)           | **Subtract** (used cash)       |
 
 :::tip[Exam Tip]
 
-Think of it this way: If a current **asset** increased, the company spent cash to build up that asset — so subtract. If a current **liability** increased, the company held onto cash by not paying — so add.
+If a current **asset** increased, the company spent cash to build up that asset, so subtract. If a current **liability** increased, the company held onto cash by not paying, so add.
 
 :::
 
 ### Losses and Gains
 
-Gains and losses from investing/financing activities (e.g., gain on sale of equipment) are removed from operating activities because the **total** cash from the transaction is classified elsewhere.
+Remove gains and losses on investing and financing transactions (e.g., a gain on sale of equipment) from operating activities. The **total** cash from the transaction is reported in investing or financing.
 
-- **Add back losses** (they reduced net income but didn't use operating cash)
-- **Subtract gains** (they increased net income but the cash is in investing)
+- **Add back losses.** They reduced net income but did not use operating cash.
+- **Subtract gains.** They increased net income, but the cash is reported in investing or financing.
 
 ### Depreciation, Amortization, Depletion
 
-These are **noncash expenses** that reduced net income. Add them back to convert from accrual to cash basis.
+These are **noncash expenses** that reduced net income. Add them back to convert from the accrual basis to the cash basis.
 
 ## Indirect Method Example
 
 **Bear Co.** reports the following for the year ended December 31:
+
 | Item | Amount |
 |---|---:|
 | Net income | \$180,000 |
@@ -161,8 +178,10 @@ These are **noncash expenses** that reduced net income. Add them back to convert
 | Increase in accounts payable | 10,000 |
 | Decrease in wages payable | (3,000) |
 | Increase in deferred tax liability | 7,000 |
-**Cash flows from operating activities — Indirect method:**
-| Bear Co. — Operating Activities | Amount |
+
+**Cash flows from operating activities, indirect method:**
+
+| Bear Co.: Operating Activities | Amount |
 |---|---:|
 | Net income | \$180,000 |
 | **Adjustments:** | |
@@ -181,8 +200,9 @@ These are **noncash expenses** that reduced net income. Add them back to convert
 
 ## Direct Method
 
-The direct method reports **actual cash receipts and payments** from operating activities. It provides more detailed information but is rarely used in practice.
-| Bear Co. — Operating Activities (Direct Method) | Amount |
+The direct method reports **actual cash receipts and payments** from operating activities. It gives more detail but is rarely used in practice.
+
+| Panda Industries: Operating Activities (Direct Method) | Amount |
 |---|---:|
 | Cash received from customers | \$975,000 |
 | Cash paid to suppliers | (580,000) |
@@ -192,6 +212,8 @@ The direct method reports **actual cash receipts and payments** from operating a
 | **Net cash provided by operating activities** | **\$105,000** |
 
 ### Converting Accrual to Cash (Direct Method Formulas)
+
+In each formula, Δ is the increase in the balance during the period (a decrease enters as a negative number). AR is accounts receivable, AP is accounts payable, COGS is cost of goods sold, and OpEx is operating expenses other than noncash items such as depreciation.
 
 $$
 \text{Cash from Customers} = \text{Revenue} - \Delta\text{AR} + \Delta\text{Unearned Revenue}
@@ -207,7 +229,7 @@ $$
 
 :::note
 
-If the direct method is used, a **reconciliation** of net income to cash from operations (essentially the indirect method) must be presented in a supplemental schedule.
+An entity that uses the direct method must also present a **reconciliation** of net income to cash from operations (essentially the indirect method) in a separate schedule.
 
 :::
 
@@ -215,7 +237,8 @@ If the direct method is used, a **reconciliation** of net income to cash from op
 
 ## Complete Statement Example
 
-**Polar Co. — Statement of Cash Flows (Year Ended December 31)**
+**Polar Co.: Statement of Cash Flows (Year Ended December 31)**
+
 | | Amount |
 |---|---:|
 | **Cash flows from operating activities:** | |
@@ -231,7 +254,7 @@ If the direct method is used, a **reconciliation** of net income to cash from op
 | **Cash flows from investing activities:** | |
 | Purchase of equipment | (120,000) |
 | Proceeds from sale of equipment | 15,000 |
-| Purchase of AFS securities | (50,000) |
+| Purchase of available-for-sale (AFS) debt securities | (50,000) |
 | **Net cash used in investing activities** | **(\$155,000)** |
 | | |
 | **Cash flows from financing activities:** | |
@@ -249,33 +272,35 @@ If the direct method is used, a **reconciliation** of net income to cash from op
 
 ## Supplemental Disclosures
 
-Even when using the indirect method, certain items must be **separately disclosed**:
+Even under the indirect method, certain items must be **separately disclosed**.
 
 ### Required Supplemental Information
 
 | Disclosure                 | Reason                                                     |
 | -------------------------- | ---------------------------------------------------------- |
 | Cash paid for interest     | Interest is in operating, but users want the actual amount |
-| Cash paid for income taxes | Same — actual cash flow matters for analysis               |
+| Cash paid for income taxes | The actual cash outflow matters for analysis               |
 
 ### Noncash Investing and Financing Activities
 
-Significant noncash transactions must be disclosed either in a supplemental schedule or in the notes. These transactions are **excluded** from the statement of cash flows because no cash changed hands.
+Significant noncash transactions are **excluded** from the statement of cash flows because no cash changed hands. They must be disclosed either in a supplemental schedule or in the notes.
+
 **Common examples:**
 
 - Conversion of bonds to common stock
-- Acquisition of assets through capital (finance) lease
+- Acquisition of assets through a finance lease (formerly called a capital lease)
 - Issuance of stock for land or other assets
 - Exchange of noncash assets
-  **Example — Grizzly Inc. acquires land by issuing stock:**
+
+**Example: Grizzly Inc. acquires land by issuing stock:**
 
 ```journal
 Dr. Land                    200,000
     Cr. Common stock             10,000
-    Cr. APIC                    190,000
+    Cr. Additional paid-in capital  190,000
 ```
 
-This transaction would appear as a noncash investing/financing disclosure:
+This transaction appears as a noncash investing and financing disclosure:
 
 > _Supplemental schedule of noncash investing and financing activities: The Company acquired land valued at \$200,000 by issuing 10,000 shares of common stock._
 
@@ -299,7 +324,7 @@ This transaction would appear as a noncash investing/financing disclosure:
 | Repayment of debt principal | **Financing** |
 | Purchase of treasury stock | **Financing** |
 | Payment of finance lease principal | **Financing** |
-| Payment of operating lease principal | **Operating** |
+| Operating lease payments | **Operating** |
 | Insurance proceeds (operating claim) | **Operating** |
 | Insurance proceeds (from PP&E destruction) | **Investing** |
 
@@ -309,39 +334,43 @@ This transaction would appear as a noncash investing/financing disclosure:
 
 ## Journal Entry Connections
 
-Understanding journal entries helps classify cash flows correctly.
-**Example — Kodiak Partners purchases equipment for cash:**
+The cash side of a journal entry tells you the amount; the other account tells you the classification.
+
+**Example: Kodiak Partners purchases equipment for cash:**
 
 ```journal
 Dr. Equipment        80,000
     Cr. Cash             80,000
 ```
 
-→ **Investing activity** — cash outflow of \$80,000
-**Example — Kodiak Partners issues bonds:**
+**Classification:** Investing activity, cash outflow of \$80,000.
+
+**Example: Kodiak Partners issues bonds:**
 
 ```journal
 Dr. Cash             500,000
     Cr. Bonds payable    500,000
 ```
 
-→ **Financing activity** — cash inflow of \$500,000
-**Example — Kodiak Partners pays dividends:**
+**Classification:** Financing activity, cash inflow of \$500,000.
+
+**Example: Kodiak Partners pays dividends:**
 
 ```journal
 Dr. Dividends payable    30,000
     Cr. Cash                  30,000
 ```
 
-→ **Financing activity** — cash outflow of \$30,000
-**Example — Kodiak Partners collects on notes receivable:**
+**Classification:** Financing activity, cash outflow of \$30,000.
+
+**Example: Kodiak Partners collects on notes receivable:**
 
 ```journal
 Dr. Cash             25,000
     Cr. Notes receivable    25,000
 ```
 
-→ **Investing activity** — cash inflow of \$25,000 (principal collection)
+**Classification:** Investing activity, cash inflow of \$25,000 (principal collection).
 
 ## Summary
 
@@ -359,13 +388,14 @@ flowchart TD
 
 :::danger[Common Exam Pitfalls]
 
-1. Classifying **dividends paid** as operating — they are **financing**.
-2. Classifying **interest paid** as financing — it is **operating** under U.S. GAAP.
-3. Forgetting to **remove gains** from operating activities (the cash is already in investing).
-4. Including **noncash transactions** in the statement — they go in supplemental disclosures.
-5. Confusing the direction of current asset/liability changes — increases in assets **subtract**; increases in liabilities **add**.
-6. Treating **depreciation** as a cash inflow — it is merely an add-back of a noncash expense.
-   :::
+1. Classifying **dividends paid** as operating. They are **financing**.
+2. Classifying **interest paid** as financing. It is **operating** under U.S. GAAP.
+3. Forgetting to **remove gains** from operating activities. The cash is already in investing or financing.
+4. Including **noncash transactions** in the statement. They go in the supplemental disclosures.
+5. Reversing the direction of current asset and liability changes. Increases in assets are **subtracted**; increases in liabilities are **added**.
+6. Treating **depreciation** as a cash inflow. It is only an add-back of a noncash expense.
+
+:::
 
 ---
 
@@ -384,10 +414,13 @@ Cub Entertainment provides the following data for the year:
 - Increase in accounts receivable: \$35,000
 - Decrease in accounts payable: \$20,000
 - Conversion of preferred stock to common stock: \$50,000
+
 **Required:** Prepare the statement of cash flows using the indirect method.
+
 <details>
 <summary>Solution</summary>
-| Cub Entertainment — Statement of Cash Flows | Amount |
+
+| Cub Entertainment: Statement of Cash Flows | Amount |
 |---|---:|
 | **Operating activities:** | |
 | Net income | \$320,000 |
@@ -406,5 +439,7 @@ Cub Entertainment provides the following data for the year:
 | Dividends paid | (80,000) |
 | **Net cash used in financing** | **(\$130,000)** |
 | **Net increase in cash** | **\$110,000** |
-**Noncash disclosure:** Conversion of \$50,000 preferred stock to common stock.
+
+**Noncash disclosure:** Conversion of \$50,000 of preferred stock to common stock.
+
 </details>

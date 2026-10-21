@@ -1,10 +1,10 @@
 # Income Statement
 
-The **income statement** (also called the **statement of operations** or **profit and loss statement**) reports an entity's financial performance over a period of time. It summarizes revenues, expenses, gains, and losses, ultimately arriving at **net income** or **net loss**.
+The **income statement** (also called the **statement of operations** or **profit and loss statement**) reports an entity's financial performance over a period of time. It summarizes revenues, expenses, gains, and losses and arrives at **net income** or **net loss**.
 
 :::info[Key Concept]
 
-The income statement answers: _How much did the company earn (or lose) during this period?_ It is an accrual-basis statement—revenues are recognized when earned, and expenses when incurred, regardless of cash flow timing.
+The income statement answers one question: _How much did the company earn (or lose) during this period?_ It is an accrual-basis statement. Revenues are recognized when earned and expenses when incurred, regardless of when cash is received or paid.
 
 :::
 
@@ -14,26 +14,26 @@ The income statement answers: _How much did the company earn (or lose) during th
 
 ### Revenues and Expenses
 
-- **Revenues** arise from an entity's _ongoing major or central operations_ (e.g., sales revenue, service revenue, interest revenue for a bank).
-- **Expenses** are outflows or depletions of assets (or incurrences of liabilities) from delivering goods, rendering services, or carrying out other activities that constitute the entity's ongoing operations.
+- **Revenues** arise from an entity's _ongoing major or central operations_ (for example, sales revenue, service revenue, or interest revenue for a bank).
+- **Expenses** are outflows or using up of assets (or incurrences of liabilities) from delivering goods, rendering services, or carrying out other activities that make up the entity's ongoing operations.
 
 ### Gains and Losses
 
-- **Gains** are increases in equity from _peripheral or incidental_ transactions (e.g., gain on sale of equipment).
-- **Losses** are decreases in equity from peripheral or incidental transactions (e.g., loss from a lawsuit, loss on disposal of assets).
+- **Gains** are increases in equity from _peripheral or incidental_ transactions (for example, a gain on the sale of equipment).
+- **Losses** are decreases in equity from _peripheral or incidental_ transactions (for example, a loss from a lawsuit or on the disposal of assets).
 
 :::tip[Exam Tip]
 
-Revenues and expenses relate to the **core business**. Gains and losses relate to **peripheral** activities. The distinction matters for income statement classification.
+Revenues and expenses relate to the **core business**. Gains and losses relate to **peripheral** activities. The distinction drives income statement classification.
 
 :::
 
 ### Expired vs. Unexpired Costs
 
-| Term               | Definition                                                                                  | Example                                                |
-| ------------------ | ------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| **Unexpired cost** | A cost that has future economic benefit — reported as an **asset** on the balance sheet     | Prepaid insurance, inventory, PP&E                     |
-| **Expired cost**   | A cost whose benefit has been consumed — reported as an **expense** on the income statement | Cost of goods sold, depreciation expense, rent expense |
+| Term               | Definition                                                                                 | Example                                                |
+| ------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------ |
+| **Unexpired cost** | A cost that has future economic benefit; reported as an **asset** on the balance sheet     | Prepaid insurance, inventory, equipment                |
+| **Expired cost**   | A cost whose benefit has been consumed; reported as an **expense** on the income statement | Cost of goods sold, depreciation expense, rent expense |
 
 When a cost _expires_, it moves from the balance sheet to the income statement.
 
@@ -43,11 +43,11 @@ When a cost _expires_, it moves from the balance sheet to the income statement.
 
 :::warning[Important Distinction]
 
-**Revenues and expenses** are reported at **gross** amounts. **Gains and losses** are reported at **net** amounts (proceeds minus carrying value).
+**Revenues and expenses** are reported at **gross** amounts. **Gains and losses** are reported at **net** amounts (proceeds minus carrying amount).
 
 :::
 
-**Example — Bear Co. sells equipment:**
+**Example: Bear Co. sells equipment**
 
 - Original cost: \$50,000
 - Accumulated depreciation: \$30,000
@@ -57,7 +57,7 @@ $$
 \text{Gain} = \$25{,}000 - (\$50{,}000 - \$30{,}000) = \$5{,}000
 $$
 
-The income statement reports the **net gain of \$5,000**, not gross proceeds of \$25,000.
+The income statement reports the **net gain of \$5,000**, not the gross proceeds of \$25,000.
 
 ```journal
 Dr. Cash                          25,000
@@ -72,7 +72,7 @@ Dr. Accumulated depreciation      30,000
 
 ### Single-Step Income Statement
 
-Groups all revenues and gains together, then subtracts all expenses and losses in a single step.
+A single-step statement groups all revenues and gains together, then subtracts all expenses and losses in one step.
 
 |                                |        Amount |
 | ------------------------------ | ------------: |
@@ -94,7 +94,7 @@ Groups all revenues and gains together, then subtracts all expenses and losses i
 
 ### Multiple-Step Income Statement
 
-Separates operating and nonoperating activities, providing subtotals such as **gross profit** and **operating income**.
+A multiple-step statement separates operating and nonoperating activities and shows subtotals such as **gross profit** and **operating income**.
 
 |                                       |        Amount |
 | ------------------------------------- | ------------: |
@@ -117,7 +117,18 @@ Separates operating and nonoperating activities, providing subtotals such as **g
 
 :::tip[Exam Tip]
 
-The multiple-step format is tested more frequently. Know the order: **Sales → COGS → Gross Profit → Operating Expenses → Operating Income → Other Items → Income from Continuing Operations → Discontinued Operations → Net Income**.
+The multiple-step format is tested more often. Know the order of the lines:
+
+1. Sales
+2. Cost of goods sold (COGS)
+3. Gross profit
+4. Operating expenses
+5. Operating income
+6. Other revenues, gains, expenses, and losses
+7. Income tax expense
+8. Income from continuing operations
+9. Discontinued operations (net of tax)
+10. Net income
 
 :::
 
@@ -125,11 +136,11 @@ The multiple-step format is tested more frequently. Know the order: **Sales → 
 
 ## Income from Continuing Operations
 
-This is the bottom line of regular, recurring business activities **before** any discontinued operations. It includes:
+Income from continuing operations is the result of regular, recurring business activities **before** any discontinued operations. It includes:
 
-1. Operating revenues and expenses
-2. Nonoperating items (interest, gains/losses on asset disposals)
-3. Income tax expense on continuing operations
+1. operating revenues and expenses
+2. nonoperating items (interest, and gains or losses on asset disposals)
+3. income tax expense on continuing operations
 
 ---
 
@@ -137,43 +148,45 @@ This is the bottom line of regular, recurring business activities **before** any
 
 :::warning[Critical Topic]
 
-Discontinued operations are reported **separately**, **net of tax**, **below** income from continuing operations. This is one of the most heavily tested income statement topics on the CPA exam.
+Discontinued operations are reported **separately**, **net of tax**, **below** income from continuing operations. This is one of the most heavily tested income statement topics on the CPA Exam.
 
 :::
 
 ### What Qualifies?
 
-A component qualifies as a discontinued operation when it represents a **strategic shift** that has (or will have) a major effect on the entity's operations and financial results. Examples include:
+A disposal of a component is reported as a discontinued operation when it represents a **strategic shift** that has (or will have) a major effect on the entity's operations and financial results. The component must be disposed of (by sale or otherwise) or classified as held for sale. Examples include the disposal of:
 
-- Disposal of a major line of business
-- Disposal of a major geographical area
-- Disposal of a major equity method investment
+- a major line of business
+- a major geographical area
+- a major equity method investment
 
 ### Held-for-Sale Classification
 
 A component is classified as **held for sale** when **all** of the following criteria are met:
 
-1. Management commits to a plan to sell
-2. The component is available for immediate sale in its present condition
-3. An active program to locate a buyer has been initiated
-4. The sale is probable and expected within **one year**
-5. The component is being actively marketed at a reasonable price
-6. It is unlikely that significant changes will be made to the plan
+1. Management commits to a plan to sell.
+2. The component is available for immediate sale in its present condition.
+3. An active program to locate a buyer has been initiated.
+4. The sale is probable and expected to be completed within **one year**.
+5. The component is being actively marketed at a reasonable price.
+6. It is unlikely that significant changes will be made to the plan.
 
 ### Reporting Discontinued Operations
 
-Two amounts are reported (net of tax) on the face of the income statement:
+The results of a discontinued operation are reported net of tax. They have two parts:
 
-1. **Gain or loss from operations** of the discontinued component (revenue minus expenses during the period)
-2. **Gain or loss on disposal** (or expected disposal) of the component
+1. **Income or loss from operations** of the discontinued component (its revenues minus expenses for the period)
+2. **Gain or loss on disposal** of the component, including any impairment loss recognized when it is classified as held for sale
 
-### Impairment Loss — Held for Sale
+The disposal gain or loss may be presented separately on the face of the income statement or disclosed in the notes.
 
-When classified as held for sale, the component is measured at the **lower of carrying amount or fair value less costs to sell**.
+### Impairment Loss on Held-for-Sale Components
 
-**Example — Polar Co. discontinues its consulting division:**
+A component classified as held for sale is measured at the **lower of its carrying amount or fair value less costs to sell**. Any write-down is an impairment loss.
 
-- Carrying amount of division's net assets: \$800,000
+**Example: Polar Co. discontinues its consulting division**
+
+- Carrying amount of the division's net assets: \$800,000
 - Fair value less costs to sell: \$650,000
 - Operating loss of the division during the year: \$120,000
 - Tax rate: 25%
@@ -183,32 +196,34 @@ $$
 $$
 
 ```journal
-Dr. Loss on impairment — discontinued operations    150,000
+Dr. Loss on impairment (discontinued operations)    150,000
     Cr. Net assets of discontinued component            150,000
 ```
 
 **Income statement presentation (below income from continuing operations):**
 
-|                                                                                      |        Amount |
-| ------------------------------------------------------------------------------------ | ------------: |
-| Income from continuing operations                                                    |     \$500,000 |
-| **Discontinued operations (net of tax):**                                            |               |
-| &emsp;Loss from operations of discontinued division (\$120,000 less tax of \$30,000) |      (90,000) |
-| &emsp;Impairment loss on discontinued division (\$150,000 less tax of \$37,500)      |     (112,500) |
-| **Net income**                                                                       | **\$297,500** |
+|                                                                                              |        Amount |
+| -------------------------------------------------------------------------------------------- | ------------: |
+| Income from continuing operations                                                            |     \$500,000 |
+| **Discontinued operations (net of tax):**                                                    |               |
+| &emsp;Loss from operations of discontinued division (\$120,000 less tax benefit of \$30,000) |      (90,000) |
+| &emsp;Impairment loss on discontinued division (\$150,000 less tax benefit of \$37,500)      |     (112,500) |
+| **Net income**                                                                               | **\$297,500** |
 
 ### Subsequent Fair Value Increases
 
-If the fair value of a held-for-sale component **increases** after an impairment write-down, the entity may **reverse the loss** up to the cumulative amount previously recognized. The reversal is reported in discontinued operations, net of tax.
+If fair value less costs to sell **increases** after an impairment write-down, the entity recognizes a gain. The gain cannot exceed the cumulative impairment loss previously recognized, and it is reported in discontinued operations, net of tax.
+
+For example, if the fair value less costs to sell of Polar Co.'s division later rises by \$60,000, Polar Co. recognizes a \$60,000 gain. That amount is within the \$150,000 loss previously recognized.
 
 ```journal
 Dr. Net assets of discontinued component    60,000
-    Cr. Gain on recovery — discontinued operations    60,000
+    Cr. Gain on recovery (discontinued operations)    60,000
 ```
 
 :::note
 
-The reversal cannot exceed the total impairment loss previously recognized. You cannot write the asset **above** its original carrying amount before impairment.
+Because the gain is limited to the cumulative impairment loss, the component can never be written up **above** its carrying amount before the impairment.
 
 :::
 
@@ -216,13 +231,13 @@ The reversal cannot exceed the total impairment loss previously recognized. You 
 
 ## Foreign Currency Transactions
 
-When an entity enters transactions denominated in a **foreign currency**, exchange rate fluctuations create gains and losses.
+When an entity enters into transactions denominated in a **foreign currency**, exchange rate changes create gains and losses.
 
 ### Recording at the Spot Rate
 
 Transactions are initially recorded at the **spot exchange rate** on the transaction date.
 
-**Example — Grizzly Inc. purchases inventory from a French supplier for €100,000 when the spot rate is \$1.10/€:**
+**Example: Grizzly Inc. buys inventory from a French supplier for €100,000 when the spot rate is \$1.10/€**
 
 $$
 \text{Payable in USD} = 100{,}000 \text{ EUR} \times \$1.10 = \$110{,}000
@@ -235,7 +250,7 @@ Dr. Inventory              110,000
 
 ### Year-End Adjustment (Remeasurement)
 
-At the balance sheet date, **monetary items** (receivables, payables) denominated in a foreign currency are remeasured at the **current spot rate**. The resulting gain or loss is reported in **net income**.
+At the balance sheet date, **monetary items** (such as receivables and payables) denominated in a foreign currency are adjusted to the **current spot rate**. The resulting gain or loss is reported in **net income**.
 
 **If the spot rate at year-end is \$1.15/€:**
 
@@ -254,13 +269,13 @@ Dr. Foreign currency transaction loss    5,000
 
 :::tip[Exam Tip]
 
-A **weakening U.S. dollar** (higher exchange rate) means foreign-currency **payables cost more** (loss) and foreign-currency **receivables are worth more** (gain). Think: "Owe more = loss; Collect more = gain."
+A **weakening U.S. dollar** (a higher \$/€ rate) means foreign-currency **payables cost more** (a loss) and foreign-currency **receivables are worth more** (a gain). Think: "Owe more = loss; collect more = gain."
 
 :::
 
 ### Settlement
 
-When the transaction is settled, any additional exchange difference is recognized.
+When the transaction is settled, any further exchange difference since the last balance sheet date is recognized.
 
 **If the spot rate at settlement is \$1.12/€:**
 
@@ -269,7 +284,7 @@ $$
 $$
 
 $$
-\text{Exchange gain (from year-end)} = \$115{,}000 - \$112{,}000 = \$3{,}000
+\text{Exchange gain (since year-end)} = \$115{,}000 - \$112{,}000 = \$3{,}000
 $$
 
 ```journal
@@ -296,11 +311,12 @@ flowchart TD
 
 :::danger[Common Exam Pitfalls]
 
-1. Reporting gains **gross** instead of **net** — always net gains/losses.
+1. Reporting gains **gross** instead of **net**. Gains and losses are always reported net.
 2. Forgetting to report discontinued operations **net of tax**.
-3. Mixing up foreign currency gains and losses — remember the direction of the rate change relative to whether you hold a receivable or payable.
-4. Reversing impairment on held-for-sale components **above** the original carrying amount.
-   :::
+3. Mixing up foreign currency gains and losses. Check the direction of the rate change and whether you hold a receivable or a payable.
+4. Reversing an impairment on a held-for-sale component to an amount **above** its carrying amount before the impairment.
+
+:::
 
 ---
 
@@ -313,8 +329,8 @@ Panda Industries reports the following for the year ended December 31:
 - Operating expenses: \$180,000
 - Interest expense: \$25,000
 - Gain on sale of investments: \$15,000
-- Loss from operations of discontinued segment (pre-tax): \$60,000
-- Gain on disposal of discontinued segment (pre-tax): \$40,000
+- Loss from operations of discontinued segment (pretax): \$60,000
+- Gain on disposal of discontinued segment (pretax): \$40,000
 - Tax rate: 25%
 
 **Required:** Prepare a multiple-step income statement.
@@ -322,7 +338,7 @@ Panda Industries reports the following for the year ended December 31:
 <details>
 <summary>Solution</summary>
 
-| Panda Industries                       |        Amount |
+| Panda Industries                            |        Amount |
 | ------------------------------------------- | ------------: |
 | Sales revenue                               |   \$1,200,000 |
 | Cost of goods sold                          |     (720,000) |

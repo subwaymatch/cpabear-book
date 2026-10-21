@@ -1,6 +1,6 @@
 # Confidentiality and Privacy
 
-Protecting sensitive information and respecting individual privacy rights are foundational obligations for every organization. For CPAs, these concepts are central to SOC 2® engagements, IT risk assessments, and advisory services — particularly as data breaches grow in frequency and regulatory penalties intensify. Whether you are evaluating encryption controls, assessing a client's DLP program, or testing confidentiality commitments under the Trust Services Criteria, you must understand how organizations safeguard data throughout its lifecycle.
+Protecting sensitive information and respecting individual privacy rights are foundational obligations for every organization. For CPAs, these concepts are central to SOC 2® engagements, IT risk assessments, and advisory services, particularly as data breaches grow in frequency and regulatory penalties intensify. Whether you are evaluating encryption controls, assessing a client's DLP program, or testing confidentiality commitments under the Trust Services Criteria, you must understand how organizations safeguard data throughout its lifecycle.
 This section covers **encryption fundamentals and techniques**, **the distinction between confidentiality and privacy**, **data protection methods (obfuscation, tokenization, anonymization)**, **Data Loss Prevention (DLP)**, **financial and operational implications of a data breach**, **data lifecycle controls**, **SOC 2® confidentiality and privacy criteria**, and **walkthrough procedures for confidentiality and privacy controls**.
 :::info
 The ISC exam tests confidentiality and privacy at the Remembering & Understanding, Application, and Analysis levels. You should be able to explain encryption techniques, distinguish confidentiality from privacy, identify data protection methods, determine appropriate controls for the data lifecycle, and detect deficiencies in SOC 2® engagements.
@@ -16,9 +16,9 @@ The ISC exam tests confidentiality and privacy at the Remembering & Understandin
 
 | Feature               | Symmetric Encryption                            | Asymmetric Encryption                                |
 | --------------------- | ----------------------------------------------- | ---------------------------------------------------- |
-| **Keys used**         | Single shared key for encryption and decryption | Key pair — public key encrypts, private key decrypts |
+| **Keys used**         | Single shared key for encryption and decryption | Key pair: public key encrypts, private key decrypts  |
 | **Speed**             | Fast; efficient for large data volumes          | Slower; computationally intensive                    |
-| **Key distribution**  | Challenge — must securely share the key         | Easier — public key can be freely distributed        |
+| **Key distribution**  | Challenge: must securely share the key          | Easier: public key can be freely distributed         |
 | **Common algorithms** | AES, DES, 3DES                                  | RSA, ECC                                             |
 | **Typical use cases** | Encrypting data at rest, bulk data transfer     | Digital signatures, key exchange, email encryption   |
 
@@ -31,8 +31,8 @@ Remember: **Symmetric = Same key** (one key shared by both parties). **Asymmetri
 **Hashing** is a one-way function that produces a fixed-length output (hash or digest) from any input. Unlike encryption, hashing cannot be reversed. It verifies data integrity rather than providing confidentiality.
 | Algorithm | Output Length | Status |
 |---|---|---|
-| **MD5** | 128 bits | Deprecated — collision vulnerabilities |
-| **SHA-1** | 160 bits | Deprecated — collision vulnerabilities |
+| **MD5** | 128 bits | Deprecated (collision vulnerabilities) |
+| **SHA-1** | 160 bits | Deprecated (collision vulnerabilities) |
 | **SHA-256** | 256 bits | Current standard |
 | **SHA-3** | Variable | Newest standard |
 
@@ -40,10 +40,10 @@ Remember: **Symmetric = Same key** (one key shared by both parties). **Asymmetri
 
 **PKI** provides the framework for managing digital certificates and public-key encryption. Components include:
 
-- **Certificate Authority (CA)** — Issues and signs digital certificates
-- **Registration Authority (RA)** — Verifies identity before certificate issuance
-- **Digital certificate** — Binds a public key to an entity's identity
-- **Certificate Revocation List (CRL)** — Lists revoked certificates
+- **Certificate Authority (CA)**: Issues and signs digital certificates
+- **Registration Authority (RA)**: Verifies identity before certificate issuance
+- **Digital certificate**: Binds a public key to an entity's identity
+- **Certificate Revocation List (CRL)**: Lists revoked certificates
 
 ### Encryption at Rest vs. In Transit
 
@@ -60,9 +60,9 @@ Although related, confidentiality and privacy address different concerns:
 | Dimension | Confidentiality | Privacy |
 |---|---|---|
 | **Definition** | Protecting sensitive information from unauthorized access or disclosure | An individual's right to control the collection, use, and sharing of their personal information |
-| **Focus** | The data itself — trade secrets, financial records, IP | The data subject — customers, employees, patients |
+| **Focus** | The data itself (trade secrets, financial records, IP) | The data subject (customers, employees, patients) |
 | **Obligation** | Contractual or organizational (e.g., NDA, policy) | Legal and regulatory (e.g., GDPR, HIPAA, CCPA) |
-| **TSC category** | Confidentiality (C1) | Privacy (P1–P8) |
+| **TSC category** | Confidentiality (C1) | Privacy (P1-P8) |
 | **Example** | Preventing unauthorized access to **Bear Co.**'s merger plans | Ensuring **Bear Co.** obtains consent before collecting customer emails |
 :::note
 All privacy protections require confidentiality controls, but not all confidential information involves personal data. A company's proprietary formula is confidential but does not trigger privacy regulations.
@@ -110,9 +110,9 @@ graph LR
 
 ### How DLP Works
 
-1. **Content inspection** — Scans data for patterns (credit card numbers, SSNs, keywords)
-2. **Contextual analysis** — Evaluates sender, recipient, time, destination
-3. **Policy enforcement** — Blocks, quarantines, encrypts, or alerts based on rule matches
+1. **Content inspection**: Scans data for patterns (credit card numbers, SSNs, keywords)
+2. **Contextual analysis**: Evaluates sender, recipient, time, destination
+3. **Policy enforcement**: Blocks, quarantines, encrypts, or alerts based on rule matches
    :::warning
    DLP is only effective when policies are kept current and aligned with data classification. A DLP system that cannot identify newly classified confidential data will fail to prevent its exfiltration.
    :::
@@ -133,7 +133,7 @@ graph LR
 :::note
 The average cost of a data breach exceeds \$4 million globally. Organizations with mature encryption and DLP programs experience significantly lower breach costs due to reduced data exposure.
 :::
-**Example:** **Kingfisher Industries** suffers a breach exposing 200,000 customer payment records. Direct costs include \$2M in notification and credit monitoring, \$1.5M in forensic investigation, and a \$3M regulatory fine. Indirect costs — customer attrition and brand damage — exceed \$5M over two years.
+**Example:** **Kingfisher Industries** suffers a breach exposing 200,000 customer payment records. Direct costs include \$2M in notification and credit monitoring, \$1.5M in forensic investigation, and a \$3M regulatory fine. Indirect costs, such as customer attrition and brand damage, exceed \$5M over two years.
 
 ---
 
@@ -159,10 +159,10 @@ Organizations must implement controls at every stage of the data lifecycle:
 
 ### Secure Destruction Methods
 
-- **Crypto-shredding** — Destroying encryption keys renders data unrecoverable without physically destroying media
-- **Degaussing** — Magnetically erasing data from magnetic media
-- **Physical destruction** — Shredding, incineration, or disintegration of storage media
-- **Secure overwrite** — Writing random patterns over data multiple times (per NIST SP 800-88)
+- **Crypto-shredding**: Destroying encryption keys renders data unrecoverable without physically destroying media
+- **Degaussing**: Magnetically erasing data from magnetic media
+- **Physical destruction**: Shredding, incineration, or disintegration of storage media
+- **Secure overwrite**: Writing random patterns over data multiple times (per NIST SP 800-88)
 
 ---
 
@@ -178,7 +178,7 @@ The confidentiality category evaluates whether the entity protects information d
 | **C1.1** | Confidential information is identified and protected |
 | **C1.2** | Confidential information is disposed of securely |
 
-### Privacy Criteria (P1–P8)
+### Privacy Criteria (P1-P8)
 
 | Criterion | Principle                    | Description                                                                           |
 | --------- | ---------------------------- | ------------------------------------------------------------------------------------- |
@@ -195,7 +195,7 @@ The confidentiality category evaluates whether the entity protects information d
 
 | Issue Type              | Definition                                                                                                          | Example                                                                                                           |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **Design deficiency**   | A control is missing or improperly designed such that even if it operates as intended, it cannot meet the criterion | **Bear Co.** has no policy requiring encryption of confidential data at rest — the control simply does not exist  |
+| **Design deficiency**   | A control is missing or improperly designed such that even if it operates as intended, it cannot meet the criterion | **Bear Co.** has no policy requiring encryption of confidential data at rest; the control simply does not exist  |
 | **Operating deviation** | A properly designed control fails to operate as intended during the examination period                              | **Bear Co.** has an encryption policy but an administrator bypassed it for three months due to a system migration |
 
 ---
@@ -206,12 +206,12 @@ A **walkthrough** is a procedure in which the auditor traces a transaction or pr
 
 ### Walkthrough Procedure Steps
 
-1. **Select the process** — Choose a confidentiality or privacy-relevant process (e.g., customer data collection, data disposal)
-2. **Obtain documentation** — Gather written policies and procedure documents
-3. **Trace through the system** — Follow data from input through processing to output/destruction
-4. **Observe personnel** — Watch employees perform the process in real time
-5. **Inquire** — Ask operators clarifying questions about exceptions and controls
-6. **Compare** — Evaluate observed procedure against documented requirements
+1. **Select the process**: Choose a confidentiality or privacy-relevant process (e.g., customer data collection, data disposal)
+2. **Obtain documentation**: Gather written policies and procedure documents
+3. **Trace through the system**: Follow data from input through processing to output/destruction
+4. **Observe personnel**: Watch employees perform the process in real time
+5. **Inquire**: Ask operators clarifying questions about exceptions and controls
+6. **Compare**: Evaluate observed procedure against documented requirements
 
 ### Areas to Evaluate
 
@@ -223,7 +223,7 @@ A **walkthrough** is a procedure in which the auditor traces a transaction or pr
 | **Incident response**      | Breach notification procedures align with regulatory timelines            |
 | **Vendor management**      | Third-party contracts include confidentiality and data protection clauses |
 
-> **Example:** **Illini Entertainment** documents a policy requiring employee access to customer PII to be revoked within 24 hours of termination. During a walkthrough, the auditor discovers that two terminated employees retained access for 15 days. This is an **operating deviation** — the policy is properly designed but was not consistently executed.
+> **Example:** **Illini Entertainment** documents a policy requiring employee access to customer PII to be revoked within 24 hours of termination. During a walkthrough, the auditor discovers that two terminated employees retained access for 15 days. This is an **operating deviation**: the policy is properly designed but was not consistently executed.
 
 ## Summary
 
@@ -231,11 +231,11 @@ A **walkthrough** is a procedure in which the auditor traces a transaction or pr
 | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Encryption fundamentals     | Symmetric (AES) is fast for bulk data; asymmetric (RSA/ECC) enables secure key exchange; hashing verifies integrity                |
 | Confidentiality vs. privacy | Confidentiality protects data from unauthorized access; privacy protects individuals' rights over their personal data              |
-| Data protection methods     | Tokenization, masking, anonymization, and pseudonymization protect data during SDLC — choose based on reversibility needs          |
+| Data protection methods     | Tokenization, masking, anonymization, and pseudonymization protect data during SDLC; choose based on reversibility needs          |
 | Data Loss Prevention        | DLP tools monitor network, endpoint, and cloud channels using content inspection and contextual analysis to prevent data leakage   |
 | Data breach implications    | Breaches cause financial (fines, remediation), operational (downtime), reputational (churn), and legal consequences                |
-| Data lifecycle controls     | Apply classification, encryption, access controls, and secure destruction at each stage — collection through deletion              |
-| SOC 2® criteria             | Confidentiality (C1) and Privacy (P1–P8) criteria define the benchmarks; distinguish design deficiencies from operating deviations |
+| Data lifecycle controls     | Apply classification, encryption, access controls, and secure destruction at each stage, from collection through deletion         |
+| SOC 2® criteria             | Confidentiality (C1) and Privacy (P1-P8) criteria define the benchmarks; distinguish design deficiencies from operating deviations |
 | Walkthroughs                | Trace processes end-to-end, observe personnel, and compare actual practices to documented policies                                 |
 
 ---
@@ -246,7 +246,7 @@ A **walkthrough** is a procedure in which the auditor traces a transaction or pr
 2. **Polar Inc.** is undergoing a SOC 2® engagement. The auditor reviews the company's confidentiality controls and finds that the data retention policy requires deletion of client files 90 days after engagement completion. However, when the auditor examines the file server, client files from 8 months ago remain accessible. Is this a design deficiency or an operating deviation? Explain.
 3. **Illini Security** implements a new DLP solution. During configuration, the team sets rules to block outbound emails containing credit card numbers but does not create rules for Social Security numbers, health records, or proprietary source code. Six months later, an employee emails a file containing 1,000 patient health records to an unauthorized external recipient without triggering any alert. What type of DLP failure is this, and what should the team have done differently?
    :::tip[Answers]
-4. The security team should **reject MD5** for integrity verification. MD5 is cryptographically broken — known collision vulnerabilities allow attackers to craft two different inputs with the same hash. Bear Co. should use **SHA-256** or higher for integrity checks. While TLS 1.3 already provides message integrity via its built-in HMAC, any additional application-layer integrity check must use a current algorithm.
-5. This is an **operating deviation**, not a design deficiency. The control (90-day retention policy with deletion requirement) is properly designed and, if followed, would satisfy the confidentiality criterion. The failure is in execution — personnel did not perform the scheduled deletion. The auditor should report this as a deviation in control operation during the examination period.
-6. This is a **policy coverage failure** — the DLP rules were incomplete. DLP effectiveness depends on comprehensive policies aligned with the organization's data classification scheme. Illini Security should have: (a) mapped all categories of sensitive data (PCI, PII, PHI, IP) to DLP rules, (b) conducted a data classification exercise before configuring rules, and (c) tested detection patterns for each data category. A DLP system can only prevent leakage of data types it is configured to recognize.
+4. The security team should **reject MD5** for integrity verification. MD5 is cryptographically broken. Known collision vulnerabilities allow attackers to craft two different inputs with the same hash. Bear Co. should use **SHA-256** or higher for integrity checks. While TLS 1.3 already provides message integrity via its built-in HMAC, any additional application-layer integrity check must use a current algorithm.
+5. This is an **operating deviation**, not a design deficiency. The control (90-day retention policy with deletion requirement) is properly designed and, if followed, would satisfy the confidentiality criterion. The failure is in execution: personnel did not perform the scheduled deletion. The auditor should report this as a deviation in control operation during the examination period.
+6. This is a **policy coverage failure** because the DLP rules were incomplete. DLP effectiveness depends on comprehensive policies aligned with the organization's data classification scheme. Illini Security should have: (a) mapped all categories of sensitive data (PCI, PII, PHI, IP) to DLP rules, (b) conducted a data classification exercise before configuring rules, and (c) tested detection patterns for each data category. A DLP system can only prevent leakage of data types it is configured to recognize.
    :::

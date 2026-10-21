@@ -1,11 +1,11 @@
-/* ── Blueprint 2026 page ── */
+/* Blueprint 2026 page */
 
 .page {
   min-height: 100vh;
   background: var(--ifm-background-color);
 }
 
-/* ── Hero ── */
+/* Hero */
 .hero {
   position: relative;
   overflow: hidden;
@@ -79,14 +79,14 @@
   background: var(--ifm-color-primary);
 }
 
-/* ── Container ── */
+/* Container */
 .container {
   max-width: 1120px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
-/* ── Sections ── */
+/* Sections */
 .section {
   padding: 4rem 0;
   border-bottom: 1px solid var(--ifm-toc-border-color);
@@ -124,7 +124,7 @@
   max-width: 640px;
 }
 
-/* ── Card Grid ── */
+/* Card Grid */
 .cardGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -137,7 +137,7 @@
   }
 }
 
-/* ── Stat Cards ── */
+/* Stat Cards */
 .statCard {
   background: var(--ifm-card-background-color);
   border: 1px solid var(--ifm-toc-border-color);
@@ -172,7 +172,7 @@
   color: var(--ifm-color-emphasis-600);
 }
 
-/* ── Tables ── */
+/* Tables */
 .tableWrapper {
   overflow-x: auto;
   border-radius: 12px;
@@ -234,7 +234,7 @@
   text-align: center;
 }
 
-/* ── Section badge inside table ── */
+/* Section badge inside table */
 .sectionBadge {
   display: inline-flex;
   align-items: center;
@@ -278,7 +278,7 @@
   color: #93c5fd;
 }
 
-/* ── Bar Charts ── */
+/* Bar Charts */
 .barChartGroup {
   display: flex;
   flex-direction: column;
@@ -364,7 +364,7 @@
   }
 }
 
-/* ── Skill Levels ── */
+/* Skill Levels */
 .skillGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -410,7 +410,7 @@
   margin: 0;
 }
 
-/* ── Section Detail Panels ── */
+/* Section Detail Panels */
 .sectionTabs {
   display: flex;
   flex-wrap: wrap;
@@ -547,7 +547,7 @@
   font-variant-numeric: tabular-nums;
 }
 
-/* ── Testlet Grid ── */
+/* Testlet Grid */
 .testletGrid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -590,7 +590,7 @@
   margin-top: 0.125rem;
 }
 
-/* ── Two Col Layout ── */
+/* Two Col Layout */
 .twoCol {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -603,7 +603,7 @@
   }
 }
 
-/* ── Responsive hero ── */
+/* Responsive hero */
 @media (max-width: 768px) {
   .hero {
     padding: 3rem 1rem 2.5rem;
@@ -622,7 +622,7 @@
   }
 }
 
-/* ── Footer spacing ── */
+/* Footer spacing */
 .footer {
   padding: 3rem 0;
   text-align: center;
@@ -641,7 +641,7 @@
   text-decoration: underline;
 }
 
-/* ── Color utilities for bars ── */
+/* Color utilities for bars */
 .bgAud {
   background: #2563eb;
 }

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Debtor-creditor law governs how debts are created, secured, and collected — and what happens when a debtor cannot pay. The REG exam tests **suretyship**, **secured transactions under UCC Article 9**, and **federal bankruptcy law** extensively. This chapter covers each area in detail.
+Debtor-creditor law governs how debts are created, secured, and collected, as well as what happens when a debtor cannot pay. The REG exam tests **suretyship**, **secured transactions under UCC Article 9**, and **federal bankruptcy law** extensively. This chapter covers each area in detail.
 
 ---
 
@@ -11,7 +11,7 @@ Debtor-creditor law governs how debts are created, secured, and collected — an
 ### Definitions
 
 - **Surety**: A party who is **primarily liable** for the debtor's obligation alongside the debtor. The creditor may pursue the surety immediately upon default without first demanding payment from the debtor.
-- **Guarantor**: A party who is **secondarily liable** — the creditor must first attempt to collect from the debtor before pursuing the guarantor (the guarantee is a form of **guaranty of collection**).
+- **Guarantor**: A party who is **secondarily liable**: the creditor must first attempt to collect from the debtor before pursuing the guarantor (the guarantee is a form of **guaranty of collection**).
 
 :::info
 
@@ -73,7 +73,7 @@ A security interest **attaches** (becomes enforceable against the debtor) when t
 
 :::tip[Exam Tip]
 
-A **PMSI in consumer goods** perfects automatically — no filing is required. But a PMSI in inventory or equipment **must** be perfected by filing to receive super-priority.
+A **PMSI in consumer goods** perfects automatically; no filing is required. But a PMSI in inventory or equipment **must** be perfected by filing to receive super-priority.
 
 :::
 
@@ -83,9 +83,9 @@ When multiple creditors claim the same collateral, priority is determined as fol
 
 1. **Perfected PMSI in inventory** (if notice given to prior secured party) > other perfected interests
 2. **Perfected PMSI in non-inventory** (perfected within 20 days of debtor's possession) > other perfected interests
-3. **Perfected vs. perfected** — first to file or perfect wins
-4. **Perfected vs. unperfected** — perfected interest wins
-5. **Unperfected vs. unperfected** — first to attach wins
+3. **Perfected vs. perfected**: first to file or perfect wins
+4. **Perfected vs. unperfected**: perfected interest wins
+5. **Unperfected vs. unperfected**: first to attach wins
 6. **Buyer in the ordinary course of business** takes free of a security interest created by the seller
 
 > **Example:** Kodiak Inc. borrows from Bank A (filed UCC-1 on January 1) and Bank B (filed UCC-1 on March 1), both secured by the same equipment. Bank A has priority because it filed first.
@@ -119,7 +119,7 @@ The automatic stay does **not** stop criminal proceedings, certain tax proceedin
 
 :::
 
-### Chapter 7 — Liquidation
+### Chapter 7: Liquidation
 
 - A **trustee** is appointed to collect and liquidate the debtor's nonexempt assets
 - Proceeds are distributed to creditors according to statutory **priority**
@@ -127,17 +127,17 @@ The automatic stay does **not** stop criminal proceedings, certain tax proceedin
 
 **Exempt property** (varies by state but includes a homestead exemption, personal property, tools of the trade, etc.) is not available to creditors.
 
-### Chapter 11 — Reorganization
+### Chapter 11: Reorganization
 
 - Typically used by **businesses** to restructure debts while continuing operations
 - The debtor usually remains in possession as **debtor-in-possession** (DIP)
 - A **plan of reorganization** must be proposed and confirmed by the court
 
-### Chapter 13 — Individual Debt Adjustment
+### Chapter 13: Individual Debt Adjustment
 
 - Available only to **individuals** with regular income
 - Debtor proposes a 3- to 5-year **repayment plan**
-- Debt limits apply (secured debts under \$1,257,850; unsecured debts under \$419,275 — adjusted periodically)
+- Debt limits apply and are adjusted periodically (secured debts under \$1,257,850; unsecured debts under \$419,275)
 
 ### Priority of Claims in Bankruptcy
 
@@ -170,7 +170,7 @@ Certain debts survive bankruptcy and are **not discharged**:
 ### Preferences and Fraudulent Transfers
 
 - **Preference**: A payment made to a creditor within **90 days** before filing (or **one year** for insiders) that gives the creditor more than it would receive in a Chapter 7 liquidation. The trustee may **avoid** such transfers.
-- **Fraudulent transfer**: A transfer made within **2 years** before filing with the intent to hinder, delay, or defraud creditors — or made for less than reasonably equivalent value while the debtor was insolvent.
+- **Fraudulent transfer**: A transfer made within **2 years** before filing with the intent to hinder, delay, or defraud creditors, or made for less than reasonably equivalent value while the debtor was insolvent.
 
 > **Example:** Salmon Entertainment pays a \$50,000 unsecured debt to Panda Industries (an insider) 10 months before filing for bankruptcy. This payment may be avoided as a **preferential transfer** because it was made to an insider within the one-year look-back period.
 

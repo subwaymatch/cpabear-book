@@ -26,14 +26,14 @@ The client must prove the existence of a contract, the CPA's breach, and resulti
 
 To establish a negligence claim, the client must prove four elements:
 
-1. **Duty of care** — the CPA owed a duty to perform with the skill and competence of a reasonable CPA
-2. **Breach** — the CPA failed to meet that standard (e.g., violated GAAS or GAAP)
-3. **Causation** — the CPA's breach was the proximate cause of the client's loss
-4. **Damages** — the client suffered actual financial harm
+1. **Duty of care**: the CPA owed a duty to perform with the skill and competence of a reasonable CPA
+2. **Breach**: the CPA failed to meet that standard (e.g., violated GAAS or GAAP)
+3. **Causation**: the CPA's breach was the proximate cause of the client's loss
+4. **Damages**: the client suffered actual financial harm
 
 :::info
 
-The standard of care for CPAs is based on what a **reasonably competent CPA** would have done under similar circumstances — not perfection. A CPA is not a guarantor against all errors.
+The standard of care for CPAs is based on what a **reasonably competent CPA** would have done under similar circumstances, not perfection. A CPA is not a guarantor against all errors.
 
 :::
 
@@ -94,7 +94,7 @@ The **Restatement (foreseen users)** approach is the most commonly tested and is
 
 ## Statutory Liability Under Federal Securities Laws
 
-### Securities Act of 1933 — Section 11
+### Securities Act of 1933: Section 11
 
 **Section 11** imposes liability on anyone who signs a **registration statement** (including accountants who certify financial statements included in the registration) if the statement contains material misstatements or omissions.
 
@@ -104,18 +104,18 @@ Key features of Section 11:
 |---|---|
 | **Who can sue** | Any purchaser of the security |
 | **Plaintiff's burden** | Must prove material misstatement or omission and damages; **need not** prove reliance, negligence, or fraud |
-| **CPA's defense** | **Due diligence** — the CPA, after reasonable investigation, had reasonable grounds to believe the financial statements were accurate |
+| **CPA's defense** | **Due diligence**: the CPA, after reasonable investigation, had reasonable grounds to believe the financial statements were accurate |
 | **Standard** | Negligence standard; no scienter required |
 
-> **Example:** Salmon Entertainment issues stock through an IPO. The registration statement contains financial statements audited by a CPA firm. The financial statements materially overstate revenue. A purchaser of the stock can sue the CPA firm under Section 11 without proving the CPA firm acted negligently — the CPA firm must prove it conducted a **reasonable investigation** (due diligence defense).
+> **Example:** Salmon Entertainment issues stock through an IPO. The registration statement contains financial statements audited by a CPA firm. The financial statements materially overstate revenue. A purchaser of the stock can sue the CPA firm under Section 11 without proving the CPA firm acted negligently; instead, the CPA firm must prove it conducted a **reasonable investigation** (due diligence defense).
 
 :::caution
 
-Under Section 11, the burden of proof shifts to the **defendant**. The CPA must affirmatively prove due diligence — the plaintiff does not need to prove negligence.
+Under Section 11, the burden of proof shifts to the **defendant**. The CPA must affirmatively prove due diligence; the plaintiff does not need to prove negligence.
 
 :::
 
-### Securities Exchange Act of 1934 — Section 10(b) and Rule 10b-5
+### Securities Exchange Act of 1934: Section 10(b) and Rule 10b-5
 
 **Section 10(b)** and **Rule 10b-5** create liability for fraud in connection with the **purchase or sale** of any security (not just newly registered securities).
 
@@ -124,11 +124,11 @@ Under Section 11, the burden of proof shifts to the **defendant**. The CPA must 
 | **Who can sue** | Purchasers or sellers of the security |
 | **Plaintiff's burden** | Must prove: (1) material misstatement or omission, (2) **scienter** (intent to deceive), (3) reliance, (4) connection with purchase or sale, (5) damages |
 | **CPA's defense** | Lack of scienter (no intent to deceive or reckless disregard) |
-| **Standard** | Fraud standard — scienter is **required** |
+| **Standard** | Fraud standard: scienter is **required** |
 
 :::tip[Exam Tip]
 
-The critical distinction: **Section 11** (1933 Act) requires only negligence and applies only to registration statements. **Section 10(b)/Rule 10b-5** (1934 Act) requires **scienter** but applies to all securities transactions. Memorize this distinction — it is heavily tested.
+The critical distinction: **Section 11** (1933 Act) requires only negligence and applies only to registration statements. **Section 10(b)/Rule 10b-5** (1934 Act) requires **scienter** but applies to all securities transactions. Memorize this distinction because it is heavily tested.
 
 :::
 
@@ -149,13 +149,13 @@ The critical distinction: **Section 11** (1933 Act) requires only negligence and
 
 ### Due Diligence Defense (Section 11)
 
-To establish the due diligence defense, a CPA must show that after **reasonable investigation**, the CPA had reasonable grounds to believe — and did believe — that the statements in the registration statement were true and that no material facts were omitted.
+To establish the due diligence defense, a CPA must show that after **reasonable investigation**, the CPA had reasonable grounds to believe, and did believe, that the statements in the registration statement were true and that no material facts were omitted.
 
 ### Lack of Scienter (Section 10(b))
 
-A CPA can defeat a Rule 10b-5 claim by demonstrating the absence of **scienter** — meaning the CPA did not act with intent to deceive, manipulate, or defraud. Mere negligence is **not** sufficient to establish scienter.
+A CPA can defeat a Rule 10b-5 claim by demonstrating the absence of **scienter**, meaning the CPA did not act with intent to deceive, manipulate, or defraud. Mere negligence is **not** sufficient to establish scienter.
 
-> **Example:** A CPA firm audits Panda Industries and fails to detect a material inventory overstatement due to inadequate sampling procedures. Under Rule 10b-5, investors must prove the CPA firm **intentionally** or **recklessly** disregarded evidence of the overstatement — ordinary negligence would not be enough.
+> **Example:** A CPA firm audits Panda Industries and fails to detect a material inventory overstatement due to inadequate sampling procedures. Under Rule 10b-5, investors must prove the CPA firm **intentionally** or **recklessly** disregarded evidence of the overstatement; ordinary negligence would not be enough.
 
 ---
 

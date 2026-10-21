@@ -2,7 +2,7 @@
 
 ## Overview of Adjustments to Gross Income (Above-the-Line Deductions)
 
-Adjustments to gross income — also called **above-the-line deductions** — are subtracted from total income to arrive at **Adjusted Gross Income (AGI)**. Unlike itemized deductions, these adjustments are available whether or not the taxpayer itemizes.
+Adjustments to gross income (also called **above-the-line deductions**) are subtracted from total income to arrive at **Adjusted Gross Income (AGI)**. Unlike itemized deductions, these adjustments are available whether or not the taxpayer itemizes.
 
 | Adjustment | IRC Section | Key Limit |
 |---|---|---|
@@ -20,7 +20,7 @@ Adjustments to gross income — also called **above-the-line deductions** — ar
 
 :::info
 
-The distinction matters because AGI serves as the benchmark for many other tax calculations — the 7.5% medical expense floor, the SALT cap, charitable contribution limits, and phase-outs for credits and deductions all reference AGI.
+The distinction matters because AGI serves as the benchmark for many other tax calculations: the 7.5% medical expense floor, the SALT cap, charitable contribution limits, and phase-outs for credits and deductions all reference AGI.
 
 :::
 
@@ -28,11 +28,11 @@ The distinction matters because AGI serves as the benchmark for many other tax c
 
 ## Educator Expenses
 
-A qualifying K–12 educator may deduct up to **\$300** (2025) for unreimbursed expenses paid for books, supplies, computer equipment, and supplementary materials used in the classroom.
+A qualifying K-12 educator may deduct up to **\$300** (2025) for unreimbursed expenses paid for books, supplies, computer equipment, and supplementary materials used in the classroom.
 
-- **Who qualifies:** Teachers, instructors, counselors, principals, and aides who work at least **900 hours** during the school year in a K–12 school.
+- **Who qualifies:** Teachers, instructors, counselors, principals, and aides who work at least **900 hours** during the school year in a K-12 school.
 - **Married educators:** If both spouses are eligible educators filing jointly, each may claim up to \$300 (total \$600).
-- The deduction is taken as an adjustment to income — no need to itemize.
+- The deduction is taken as an adjustment to income, so there is no need to itemize.
 
 ### Example
 
@@ -77,7 +77,7 @@ Distributions used for **non-medical** purposes before age 65 are included in gr
 
 ### Example
 
-Jamie (age 42, self-only HDHP coverage) contributes \$4,300 to an HSA in 2025. The full \$4,300 is deductible as an adjustment to income. During the year, Jamie withdraws \$1,200 to pay for a dental procedure — that withdrawal is tax-free. If Jamie had withdrawn \$800 to pay for a vacation, the \$800 would be taxable income plus a \$160 penalty (20%).
+Jamie (age 42, self-only HDHP coverage) contributes \$4,300 to an HSA in 2025. The full \$4,300 is deductible as an adjustment to income. During the year, Jamie withdraws \$1,200 to pay for a dental procedure, and that withdrawal is tax-free. If Jamie had withdrawn \$800 to pay for a vacation, the \$800 would be taxable income plus a \$160 penalty (20%).
 
 ---
 
@@ -201,7 +201,7 @@ Jamie deducts \$34,750 as an adjustment to income.
 
 ## Standard Deduction
 
-After computing AGI, a taxpayer claims either the **standard deduction** or **itemized deductions** — whichever is greater.
+After computing AGI, a taxpayer claims either the **standard deduction** or **itemized deductions**, whichever is greater.
 
 ### 2025 Standard Deduction Amounts
 
@@ -219,8 +219,8 @@ Taxpayers who are **age 65 or older** or **blind** receive an additional standar
 
 | Status | Additional Amount (2025 Approx.) |
 |---|---|
-| Unmarried (Single or HoH) — per qualifying condition | \$2,000 |
-| Married (MFJ or MFS) — per qualifying condition | \$1,600 |
+| Unmarried (Single or HoH), per qualifying condition | \$2,000 |
+| Married (MFJ or MFS), per qualifying condition | \$1,600 |
 
 A married taxpayer who is both 65+ **and** blind receives **two** additional amounts (\$3,200 total).
 
@@ -289,7 +289,7 @@ Taxpayers may deduct certain state and local taxes paid during the year, subject
 
 | Tax | Deductible? |
 |---|---|
-| State and local **income** taxes | Yes (or sales tax — choose one) |
+| State and local **income** taxes | Yes (or sales tax, but not both) |
 | State and local **sales** taxes | Yes (if elected instead of income tax) |
 | State and local **real estate** taxes | Yes |
 | State and local **personal property** taxes (ad valorem) | Yes |
@@ -297,7 +297,7 @@ Taxpayers may deduct certain state and local taxes paid during the year, subject
 
 ### Not Deductible (FIB)
 
-Remember the mnemonic **FIB** — the following taxes are **never** deductible as itemized deductions:
+Remember the mnemonic **FIB**: the following taxes are **never** deductible as itemized deductions:
 
 - **F**ederal income taxes
 - **I**nheritance and estate taxes (state-level)
@@ -370,7 +370,7 @@ $$
 \$55{,}000 \times 60\% = \$33{,}000
 $$
 
-If you contributed \$19,500 this year and have a \$5,000 carryover from the prior year, your total deductible amount is \$24,500—well under the \$33,000 limit, so the full amount is deductible.
+If you contributed \$19,500 this year and have a \$5,000 carryover from the prior year, your total deductible amount is \$24,500. That is well under the \$33,000 limit, so the full amount is deductible.
 
 ---
 
@@ -406,9 +406,9 @@ When both cash and non-cash property are donated in the same year, the combined 
 
 ### Order of Applying Limits
 
-1. **Cash contributions** — deducted first (up to 60% of AGI if cash only, otherwise counted toward the 50% overall cap)
-2. **Ordinary income property** — deducted next (up to 50% of AGI)
-3. **LTCG property** — deducted last (up to 30% of AGI)
+1. **Cash contributions**: deducted first (up to 60% of AGI if cash only, otherwise counted toward the 50% overall cap)
+2. **Ordinary income property**: deducted next (up to 50% of AGI)
+3. **LTCG property**: deducted last (up to 30% of AGI)
 
 ### Carryover
 
@@ -629,7 +629,7 @@ If the casualty is **not** in a federally declared disaster area, the personal c
 
 ## Gambling Losses
 
-Gambling losses are deductible as an **itemized deduction**, but only to the extent of **gambling winnings** reported in gross income. The taxpayer must **itemize** to claim the deduction — it is not available to those who take the standard deduction.
+Gambling losses are deductible as an **itemized deduction**, but only to the extent of **gambling winnings** reported in gross income. The taxpayer must **itemize** to claim the deduction; it is not available to those who take the standard deduction.
 
 - Gambling winnings include proceeds from lotteries, raffles, horse races, casinos, and other wagering activities.
 - The taxpayer must maintain adequate records (receipts, tickets, statements) to substantiate both winnings and losses.
@@ -643,7 +643,7 @@ Salmon Entertainment sponsors a corporate retreat at a casino. Jamie, an employe
 
 ## Section 199A Qualified Business Income (QBI) Deduction
 
-The **Section 199A deduction** allows eligible taxpayers to deduct up to **20%** of qualified business income (QBI) from a pass-through entity or sole proprietorship. This deduction is taken **below the line** (after AGI) but is available whether or not the taxpayer itemizes — it is not an itemized deduction.
+The **Section 199A deduction** allows eligible taxpayers to deduct up to **20%** of qualified business income (QBI) from a pass-through entity or sole proprietorship. This deduction is taken **below the line** (after AGI) but is available whether or not the taxpayer itemizes; it is not an itemized deduction.
 
 ### Basic Calculation
 
@@ -665,7 +665,7 @@ The deduction is limited to the lesser of:
 
 :::info
 
-At lower income levels, the SSTB distinction does **not** matter — the full 20% deduction is available regardless of business type. The SSTB limitation only kicks in once taxable income exceeds the threshold.
+At lower income levels, the SSTB distinction does **not** matter: the full 20% deduction is available regardless of business type. The SSTB limitation only kicks in once taxable income exceeds the threshold.
 
 :::
 
@@ -673,8 +673,8 @@ At lower income levels, the SSTB distinction does **not** matter — the full 20
 
 | Filing Status | Full Deduction Below | Phase-Out Range | No SSTB Deduction Above |
 |---|---|---|---|
-| Single / HoH | \$197,300 | \$197,300 – \$247,300 | \$247,300 |
-| MFJ | \$394,600 | \$394,600 – \$494,600 | \$494,600 |
+| Single / HoH | \$197,300 | \$197,300 to \$247,300 | \$247,300 |
+| MFJ | \$394,600 | \$394,600 to \$494,600 | \$494,600 |
 
 ### W-2 Wages and Property Limitations
 
@@ -695,16 +695,16 @@ $$
 
 Because Sarah's taxable income is below the threshold, the W-2/property limitations do not apply, and the full \$36,000 deduction is allowed (subject to the 20% of taxable income cap).
 
-### Example — SSTB Above Threshold
+### Example: SSTB Above Threshold
 
-Priya is a partner in an accounting firm (an SSTB). Her allocated QBI is \$300,000 and she files as Single with taxable income of \$260,000 — above the \$247,300 upper threshold. Because the accounting firm is an SSTB and Priya's income exceeds the phase-out range, her Section 199A deduction is **\$0**. No QBI deduction is available for income from an SSTB once taxable income exceeds the upper threshold.
+Priya is a partner in an accounting firm (an SSTB). Her allocated QBI is \$300,000 and she files as Single with taxable income of \$260,000, which is above the \$247,300 upper threshold. Because the accounting firm is an SSTB and Priya's income exceeds the phase-out range, her Section 199A deduction is **\$0**. No QBI deduction is available for income from an SSTB once taxable income exceeds the upper threshold.
 
 :::tip[CPA Exam Strategy]
 
 For Section 199A questions, follow this decision tree:
 1. Is the income from a **qualified trade or business**?
-2. Is the taxpayer's taxable income **below** the threshold? → Full 20% deduction.
-3. Is it an **SSTB** with income **above** the upper threshold? → No deduction.
-4. Is it a **QTB** with income **above** the threshold? → Apply W-2/property limitations.
+2. Is the taxpayer's taxable income **below** the threshold? If so, take the full 20% deduction.
+3. Is it an **SSTB** with income **above** the upper threshold? If so, no deduction is allowed.
+4. Is it a **QTB** with income **above** the threshold? If so, apply the W-2/property limitations.
 
 :::

@@ -1,10 +1,10 @@
 # Government-Wide Financial Statements
 
-Government-wide financial statements present the **entire** state or local government's financial position and results of operations using the **full accrual basis of accounting** and the **economic resources measurement focus**. Required by GASB Statement No. 34, these statements provide a broad, consolidated view of the government similar to private-sector financial reporting — in contrast to the fund-level statements that emphasize fiscal accountability.
+Government-wide financial statements present the **entire** state or local government's financial position and results of operations using the **full accrual basis of accounting** and the **economic resources measurement focus**. Required by GASB Statement No. 34, these statements provide a broad, consolidated view of the government similar to private-sector financial reporting, in contrast to the fund-level statements that emphasize fiscal accountability.
 
 :::info[Blueprint Coverage]
 
-This section maps to **BAR Area III, Group A, Topic 1 – Government-wide financial statements**. Representative tasks:
+This section maps to **BAR Area III, Group A, Topic 1: Government-wide financial statements**. Representative tasks:
 
 1. **Identify and recall** basic concepts and principles associated with government-wide financial statements (e.g., required activities, financial statements, financial statement components).
 2. **Prepare** the government-wide statement of net position for a state or local government from trial balances and supporting documentation.
@@ -37,8 +37,8 @@ Government-wide financial statements shift the reporting perspective from indivi
 flowchart TD
     A[Government-Wide Financial Statements] --> B[Statement of Net Position]
     A --> C[Statement of Activities]
-    B --> D[Assets + Deferred Outflows<br>− Liabilities − Deferred Inflows<br>= Net Position]
-    C --> E[Expenses − Program Revenues<br>= Net Expense/Revenue<br>+ General Revenues<br>= Change in Net Position]
+    B --> D["Assets + Deferred Outflows<br>- Liabilities - Deferred Inflows<br>= Net Position"]
+    C --> E["Expenses - Program Revenues<br>= Net Expense/Revenue<br>+ General Revenues<br>= Change in Net Position"]
 ```
 
 ---
@@ -70,8 +70,8 @@ Government-wide statements organize reporting into **columns** by activity type.
 
 Government-wide statements use:
 
-- **Economic resources measurement focus** — all economic resources (both current and long-term) are reported
-- **Full accrual basis of accounting** — revenues are recognized when earned; expenses are recognized when incurred
+- **Economic resources measurement focus**: all economic resources (both current and long-term) are reported
+- **Full accrual basis of accounting**: revenues are recognized when earned; expenses are recognized when incurred
 
 This means:
 
@@ -85,7 +85,7 @@ This means:
 
 :::warning[Key Distinction]
 
-The biggest exam trap is confusing modified accrual (fund level) with full accrual (government-wide). When a question asks about **government-wide** statements, think full accrual — capitalize assets, record depreciation, report all long-term debt, and accrue revenues when earned regardless of availability.
+The biggest exam trap is confusing modified accrual (fund level) with full accrual (government-wide). When a question asks about **government-wide** statements, think full accrual: capitalize assets, record depreciation, report all long-term debt, and accrue revenues when earned regardless of availability.
 
 :::
 
@@ -121,14 +121,14 @@ If bond proceeds have **not yet been spent** on capital assets, they are added b
 
 :::
 
-### Example — Statement of Net Position for Bear City
+### Example: Statement of Net Position for Bear City
 
 | | Governmental Activities | Business-Type Activities | Total |
 |---|---:|---:|---:|
 | **Assets** | | | |
 | Cash and investments | \$12,500,000 | \$4,200,000 | \$16,700,000 |
 | Receivables (net) | 3,800,000 | 1,600,000 | 5,400,000 |
-| Internal balances | 500,000 | (500,000) | — |
+| Internal balances | 500,000 | (500,000) | 0 |
 | Capital assets (net of depreciation) | 85,000,000 | 32,000,000 | 117,000,000 |
 | **Total assets** | **101,800,000** | **37,300,000** | **139,100,000** |
 | **Deferred outflows of resources** | 2,200,000 | 400,000 | 2,600,000 |
@@ -158,7 +158,7 @@ Interfund receivables and payables between governmental activities and business-
 
 ### Net (Expense) Revenue Format
 
-The statement of activities uses a unique format that shows the **net cost** of each government function — that is, how much each program must be subsidized by general revenues (primarily taxes).
+The statement of activities uses a unique format that shows the **net cost** of each government function: how much each program must be subsidized by general revenues (primarily taxes).
 
 ```mermaid
 flowchart LR
@@ -179,42 +179,42 @@ flowchart LR
 
 :::tip[Exam Tip]
 
-**Taxes are always general revenues** — even if they are levied for a specific purpose (e.g., a gasoline tax earmarked for roads). The only exception is taxes levied by and restricted to a specific **component unit**, which would be program revenue of that component unit.
+**Taxes are always general revenues**, even if they are levied for a specific purpose (e.g., a gasoline tax earmarked for roads). The only exception is taxes levied by and restricted to a specific **component unit**, which would be program revenue of that component unit.
 
 :::
 
-### Example — Statement of Activities for Bear City
+### Example: Statement of Activities for Bear City
 
 | Functions/Programs | Expenses | Charges for Services | Operating Grants | Capital Grants | Net (Expense) Revenue |
 |---|---:|---:|---:|---:|---:|
 | **Governmental activities:** | | | | | |
-| General government | \$4,200,000 | \$800,000 | \$100,000 | — | (\$3,300,000) |
-| Public safety | 8,500,000 | 1,200,000 | 500,000 | — | (6,800,000) |
+| General government | \$4,200,000 | \$800,000 | \$100,000 | 0 | (\$3,300,000) |
+| Public safety | 8,500,000 | 1,200,000 | 500,000 | 0 | (6,800,000) |
 | Public works | 6,000,000 | 400,000 | 1,000,000 | \$2,500,000 | (2,100,000) |
-| Culture and recreation | 2,800,000 | 600,000 | 200,000 | — | (2,000,000) |
-| Interest on long-term debt | 1,500,000 | — | — | — | (1,500,000) |
+| Culture and recreation | 2,800,000 | 600,000 | 200,000 | 0 | (2,000,000) |
+| Interest on long-term debt | 1,500,000 | 0 | 0 | 0 | (1,500,000) |
 | **Total governmental activities** | **23,000,000** | **3,000,000** | **1,800,000** | **2,500,000** | **(15,700,000)** |
 | **Business-type activities:** | | | | | |
-| Water utility | 3,800,000 | 4,500,000 | — | 1,000,000 | 1,700,000 |
-| Parking facilities | 1,200,000 | 1,400,000 | — | — | 200,000 |
-| **Total business-type activities** | **5,000,000** | **5,900,000** | **—** | **1,000,000** | **1,900,000** |
+| Water utility | 3,800,000 | 4,500,000 | 0 | 1,000,000 | 1,700,000 |
+| Parking facilities | 1,200,000 | 1,400,000 | 0 | 0 | 200,000 |
+| **Total business-type activities** | **5,000,000** | **5,900,000** | **0** | **1,000,000** | **1,900,000** |
 | **Total government** | **\$28,000,000** | **\$8,900,000** | **\$1,800,000** | **\$3,500,000** | **(\$13,800,000)** |
 
 | | Governmental Activities | Business-Type Activities | Total |
 |---|---:|---:|---:|
 | **General revenues:** | | | |
-| Property taxes | \$10,000,000 | — | \$10,000,000 |
-| Sales taxes | 4,500,000 | — | 4,500,000 |
+| Property taxes | \$10,000,000 | 0 | \$10,000,000 |
+| Sales taxes | 4,500,000 | 0 | 4,500,000 |
 | Unrestricted investment earnings | 800,000 | \$200,000 | 1,000,000 |
-| Transfers | (500,000) | 500,000 | — |
+| Transfers | (500,000) | 500,000 | 0 |
 | **Total general revenues and transfers** | **14,800,000** | **700,000** | **15,500,000** |
 | **Change in net position** | **(900,000)** | **2,600,000** | **1,700,000** |
-| Net position — beginning | 55,900,000 | 18,500,000 | 74,400,000 |
-| **Net position — ending** | **\$55,000,000** | **\$21,100,000** | **\$76,100,000** |
+| Net position, beginning | 55,900,000 | 18,500,000 | 74,400,000 |
+| **Net position, ending** | **\$55,000,000** | **\$21,100,000** | **\$76,100,000** |
 
 :::warning[Common Pitfall]
 
-Negative amounts in the net (expense) revenue column mean the program **costs more than it earns** — the deficit must be covered by general revenues. A positive amount means the program is self-supporting. Most governmental activities show net expenses (negative); business-type activities often show net revenues (positive).
+Negative amounts in the net (expense) revenue column mean the program **costs more than it earns**; the deficit must be covered by general revenues. A positive amount means the program is self-supporting. Most governmental activities show net expenses (negative); business-type activities often show net revenues (positive).
 
 :::
 
@@ -235,7 +235,7 @@ When preparing government-wide statements, certain interfund transactions must b
 
 ---
 
-## Example — Preparing Government-Wide Statements from Trial Balances
+## Example: Preparing Government-Wide Statements from Trial Balances
 
 ### Pine County Trial Balance Data
 
@@ -247,17 +247,17 @@ Pine County has the following adjusted trial balance data for its governmental f
 |---|---:|---:|
 | Cash | \$6,000,000 | |
 | Taxes receivable (net) | 2,400,000 | |
-| Expenditures — general government | 3,500,000 | |
-| Expenditures — public safety | 5,000,000 | |
+| Expenditures (general government) | 3,500,000 | |
+| Expenditures (public safety) | 5,000,000 | |
 | Capital outlay | 8,000,000 | |
-| Debt service — principal | 2,000,000 | |
-| Debt service — interest | 900,000 | |
-| Revenues — property taxes | | \$14,000,000 |
-| Revenues — charges for services | | 1,800,000 |
-| Revenues — operating grants | | 1,200,000 |
-| Revenues — capital grants | | 3,000,000 |
-| Other financing sources — bond proceeds | | 5,000,000 |
-| Fund balance — beginning | | 2,800,000 |
+| Debt service (principal) | 2,000,000 | |
+| Debt service (interest) | 900,000 | |
+| Revenues (property taxes) | | \$14,000,000 |
+| Revenues (charges for services) | | 1,800,000 |
+| Revenues (operating grants) | | 1,200,000 |
+| Revenues (capital grants) | | 3,000,000 |
+| Other financing sources (bond proceeds) | | 5,000,000 |
+| Fund balance, beginning | | 2,800,000 |
 
 **Additional Information for Government-Wide Conversion:**
 
@@ -269,57 +269,57 @@ Pine County has the following adjusted trial balance data for its governmental f
 - Principal repaid: \$2,000,000
 - Accrued interest payable at year-end: \$150,000
 
-### Step 1 — Convert to Full Accrual
+### Step 1: Convert to Full Accrual
 
 The key adjustments when moving from governmental fund data to government-wide statements:
 
 ```journal
-Conversion — Capitalize capital outlay
+Conversion: Capitalize capital outlay
 Dr. Capital Assets[a] 8,000,000
-    Cr. Expenditures — Capital Outlay 8,000,000
+    Cr. Expenditures (Capital Outlay) 8,000,000
 ```
 
 ```journal
-Conversion — Record depreciation
+Conversion: Record depreciation
 Dr. Depreciation Expense 3,200,000
     Cr. Accumulated Depreciation[ca] 3,200,000
 ```
 
 ```journal
-Conversion — Remove bond proceeds (not revenue under full accrual)
-Dr. Other Financing Sources — Bond Proceeds 5,000,000
+Conversion: Remove bond proceeds (not revenue under full accrual)
+Dr. Other Financing Sources (Bond Proceeds) 5,000,000
     Cr. Bonds Payable[l] 5,000,000
 ```
 
 ```journal
-Conversion — Remove debt principal payment (not expense under full accrual)
+Conversion: Remove debt principal payment (not expense under full accrual)
 Dr. Bonds Payable[l] 2,000,000
-    Cr. Expenditures — Debt Service Principal 2,000,000
+    Cr. Expenditures (Debt Service Principal) 2,000,000
 ```
 
 ```journal
-Conversion — Accrue interest payable
+Conversion: Accrue interest payable
 Dr. Interest Expense 150,000
     Cr. Accrued Interest Payable[l] 150,000
 ```
 
-### Step 2 — Calculate Net Position
+### Step 2: Calculate Net Position
 
 After conversion, the government-wide balances for Pine County governmental activities:
 
 | Item | Amount |
 |---|---|
-| Capital assets (net): \$40,000,000 + \$8,000,000 − \$3,200,000 | \$44,800,000 |
-| Bonds payable: \$20,000,000 + \$5,000,000 − \$2,000,000 | \$23,000,000 |
-| Net investment in capital assets: \$44,800,000 − \$23,000,000 | \$21,800,000 |
+| Capital assets (net): \$40,000,000 + \$8,000,000 - \$3,200,000 | \$44,800,000 |
+| Bonds payable: \$20,000,000 + \$5,000,000 - \$2,000,000 | \$23,000,000 |
+| Net investment in capital assets: \$44,800,000 - \$23,000,000 | \$21,800,000 |
 
-### Step 3 — Determine Expenses for Statement of Activities
+### Step 3: Determine Expenses for Statement of Activities
 
 | Function | Original Expenditure | Remove Capital Outlay | Add Depreciation | Adjusted Expense |
 |---|---:|---:|---:|---:|
-| General government | \$3,500,000 | — | \$1,200,000 | \$4,700,000 |
-| Public safety | 5,000,000 | — | 2,000,000 | 7,000,000 |
-| Interest | 900,000 | — | — | 1,050,000* |
+| General government | \$3,500,000 | 0 | \$1,200,000 | \$4,700,000 |
+| Public safety | 5,000,000 | 0 | 2,000,000 | 7,000,000 |
+| Interest | 900,000 | 0 | 0 | 1,050,000* |
 
 *\*Interest adjusted for \$150,000 accrual*
 
@@ -341,7 +341,7 @@ When converting fund-level expenditures to government-wide expenses, remember th
 | Feature | Statement of Net Position | Statement of Activities |
 |---|---|---|
 | **Time dimension** | Point in time (balance sheet) | Period of time (operating statement) |
-| **Unique format** | Assets + DO − Liabilities − DI = Net Position | Net (expense) revenue format |
+| **Unique format** | Assets + DO - Liabilities - DI = Net Position | Net (expense) revenue format |
 | **Key insight** | Overall financial position | Which programs are self-supporting |
 | **Columns** | Governmental, Business-type, Component Units | Same column structure |
 | **Bottom line** | Net position (three components) | Change in net position |
@@ -355,11 +355,11 @@ When converting fund-level expenditures to government-wide expenses, remember th
 **High-yield government-wide statement concepts for the BAR exam:**
 
 1. Government-wide = **full accrual** + **economic resources**. Always capitalize assets and report all long-term debt.
-2. **Fiduciary funds are excluded** — they never appear on government-wide statements.
+2. **Fiduciary funds are excluded**: they never appear on government-wide statements.
 3. **Internal service funds** are consolidated into governmental activities (not business-type).
 4. **Program revenues** must be directly associated with a specific function. If a revenue cannot be tied to a function, it is a **general revenue**.
-5. **Taxes are always general revenues** even when restricted to a purpose — unless they belong to a specific component unit.
-6. **Internal balances** appear when interfund receivables/payables exist between governmental and business-type activities — they net to zero in the Total column.
+5. **Taxes are always general revenues** even when restricted to a purpose, unless they belong to a specific component unit.
+6. **Internal balances** appear when interfund receivables/payables exist between governmental and business-type activities; they net to zero in the Total column.
 7. On the statement of activities, **net (expense) revenue** shows the burden each function places on taxpayers. Negative = tax-supported; positive = self-supporting.
 8. **Transfers** between activity types are reported as a separate line below general revenues and net to zero in the Total column.
 9. When preparing from trial balances: capitalize assets, add depreciation, remove bond proceeds, remove principal payments, and accrue expenses.

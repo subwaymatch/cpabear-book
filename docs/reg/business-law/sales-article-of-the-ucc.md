@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Sales Article of the UCC (Uniform Commercial Code Article 2)** governs the sale of **goods** — tangible, movable personal property. It does not apply to the sale of services, real estate, or intangible assets. When a transaction involves a mix of goods and services, courts typically apply the **predominant-purpose test** to determine whether Article 2 governs.
+The **Sales Article of the UCC (Uniform Commercial Code Article 2)** governs the sale of **goods**, meaning tangible, movable personal property. It does not apply to the sale of services, real estate, or intangible assets. When a transaction involves a mix of goods and services, courts typically apply the **predominant-purpose test** to determine whether Article 2 governs.
 
 :::info[Goods vs. Services]
 
@@ -12,7 +12,7 @@ If Panda Industries hires a contractor to install a custom HVAC system, the cont
 
 ### Merchants vs. Non-Merchants
 
-The UCC imposes **higher standards** on merchants — parties who deal in goods of the kind involved in the transaction or who hold themselves out as having special knowledge or skill in the goods.
+The UCC imposes **higher standards** on merchants: parties who deal in goods of the kind involved in the transaction or who hold themselves out as having special knowledge or skill in the goods.
 
 | | Merchant | Non-Merchant |
 |---|---|---|
@@ -42,7 +42,7 @@ The UCC **relaxes** many of the strict formation requirements of common law to f
 
 Under the UCC, a contract for the sale of goods can be formed **even if some terms are left open**, as long as the parties intended to make a contract and there is a reasonably certain basis for giving a remedy. Critically:
 
-- **Price** can be left open — the court will supply a "reasonable price at the time for delivery."
+- **Price** can be left open; the court will supply a "reasonable price at the time for delivery."
 - **Quantity** is the one term that generally **must** be specified (except in output and requirements contracts).
 - **Time of delivery**, **place of delivery**, and **payment terms** can all be filled in by UCC gap-fillers.
 
@@ -56,7 +56,7 @@ A **merchant's firm offer** is irrevocable **without consideration** if:
 2. The offer is in a **signed writing**.
 3. The writing gives **assurance** that the offer will be held open.
 
-The maximum irrevocability period is **3 months**. If the offer states it will be held open longer, it is only firm for 3 months — after that, it becomes a revocable offer.
+The maximum irrevocability period is **3 months**. If the offer states it will be held open longer, it is only firm for 3 months. After that, it becomes a revocable offer.
 
 :::caution
 
@@ -64,9 +64,9 @@ If Polar Co. (a merchant) sends Bear Co. a signed letter stating, "We will hold 
 
 :::
 
-### Acceptance — No Mirror Image Rule
+### Acceptance: No Mirror Image Rule
 
-Under common law, an acceptance must be the **mirror image** of the offer — any deviation is treated as a counteroffer. The UCC rejects this approach.
+Under common law, an acceptance must be the **mirror image** of the offer; any deviation is treated as a counteroffer. The UCC rejects this approach.
 
 Under UCC § 2-207 (the "Battle of the Forms"):
 
@@ -90,7 +90,7 @@ Unless the offer clearly requires acceptance by a specific method, the UCC allow
 - **Promising to ship** the goods, or
 - **Promptly shipping** the goods (including nonconforming goods).
 
-If the seller ships **nonconforming goods**, this constitutes both an acceptance **and** a breach — unless the seller notifies the buyer that the shipment is offered only as an **accommodation**. In that case, the shipment is a counteroffer, not an acceptance.
+If the seller ships **nonconforming goods**, this constitutes both an acceptance **and** a breach, unless the seller notifies the buyer that the shipment is offered only as an **accommodation**. In that case, the shipment is a counteroffer, not an acceptance.
 
 ### Auction Rules
 
@@ -101,11 +101,11 @@ If the seller ships **nonconforming goods**, this constitutes both an acceptance
 
 ### Modification Without Consideration
 
-Under the UCC, an agreement to **modify** an existing contract for the sale of goods **does not require new consideration** — a significant departure from common law. The modification must, however, be made in **good faith**.
+Under the UCC, an agreement to **modify** an existing contract for the sale of goods **does not require new consideration**, a significant departure from common law. The modification must, however, be made in **good faith**.
 
 :::tip
 
-If Grizzly Partners agrees to buy 1,000 widgets from Panda Industries at \$10 each, and the parties later agree to increase the price to \$12 due to a raw materials shortage, the modification is enforceable under the UCC **without additional consideration** — as long as it was made in good faith and not under duress.
+If Grizzly Partners agrees to buy 1,000 widgets from Panda Industries at \$10 each, and the parties later agree to increase the price to \$12 due to a raw materials shortage, the modification is enforceable under the UCC **without additional consideration**, as long as it was made in good faith and not under duress.
 
 :::
 
@@ -115,7 +115,7 @@ If Grizzly Partners agrees to buy 1,000 widgets from Panda Industries at \$10 ea
 
 ### Fraud
 
-A contract for the sale of goods may be voided if it was induced by **fraud** — an intentional misrepresentation of a material fact, made with knowledge of its falsity, with intent to deceive, and upon which the other party justifiably relied to their detriment. Fraud makes the contract **voidable** at the option of the defrauded party.
+A contract for the sale of goods may be voided if it was induced by **fraud**: an intentional misrepresentation of a material fact, made with knowledge of its falsity, with intent to deceive, and upon which the other party justifiably relied to their detriment. Fraud makes the contract **voidable** at the option of the defrauded party.
 
 ### Statute of Limitations
 
@@ -125,24 +125,24 @@ The UCC provides a **4-year statute of limitations** for breach of a sales contr
 
 A contract for the sale of goods priced at **\$500 or more** must be evidenced by a **writing** sufficient to indicate a contract, signed by the party against whom enforcement is sought. The writing must specify the **quantity** of goods.
 
-**SWAP Exceptions** — A contract within the Statute of Frauds is enforceable even without a writing if:
+**SWAP Exceptions:** A contract within the Statute of Frauds is enforceable even without a writing if:
 
 | Exception | Rule |
 |---|---|
-| **S** — Specially manufactured goods | Goods made to the buyer's specifications, not suitable for sale to others, and the seller has substantially begun manufacturing |
-| **W** — Written confirmation between merchants | A written confirmation sent between merchants that is sufficient against the sender, and the recipient does not object in writing within **10 days** |
-| **A** — Admission | The party admits in court (pleadings, testimony, or otherwise) that a contract was made |
-| **P** — Performance | Goods have been **accepted and paid for** or have been **received and accepted** — but only for the quantity actually performed |
+| **S**: Specially manufactured goods | Goods made to the buyer's specifications, not suitable for sale to others, and the seller has substantially begun manufacturing |
+| **W**: Written confirmation between merchants | A written confirmation sent between merchants that is sufficient against the sender, and the recipient does not object in writing within **10 days** |
+| **A**: Admission | The party admits in court (pleadings, testimony, or otherwise) that a contract was made |
+| **P**: Performance | Goods have been **accepted and paid for** or have been **received and accepted**, but only for the quantity actually performed |
 
 :::caution
 
-Honey Security (a merchant) orally agrees to purchase \$5,000 in surveillance cameras from Polar Co. (also a merchant). Polar Co. sends a written confirmation. If Honey Security does not object in writing within **10 days**, the contract is enforceable under the merchant confirmation exception — even though Honey Security never signed anything.
+Honey Security (a merchant) orally agrees to purchase \$5,000 in surveillance cameras from Polar Co. (also a merchant). Polar Co. sends a written confirmation. If Honey Security does not object in writing within **10 days**, the contract is enforceable under the merchant confirmation exception, even though Honey Security never signed anything.
 
 :::
 
 ### Commercial Impracticability
 
-A seller may be excused from performance if delivery has become **commercially impracticable** due to the occurrence of a contingency whose non-occurrence was a basic assumption of the contract. This is a narrow defense — mere increase in cost is generally not sufficient.
+A seller may be excused from performance if delivery has become **commercially impracticable** due to the occurrence of a contingency whose non-occurrence was a basic assumption of the contract. This is a narrow defense; a mere increase in cost is generally not sufficient.
 
 :::note
 
@@ -176,12 +176,12 @@ Unless the parties agree otherwise, the seller's basic obligation is to **hold t
 |---|---|
 | **Shipment contract** (default) | Seller must deliver goods to the **carrier** and make a reasonable shipping contract |
 | **Destination contract** | Seller must deliver goods to the **buyer's specified destination** |
-| **FOB Shipping Point** | Shipment contract — risk passes to buyer when goods are delivered to carrier |
-| **FOB Destination** | Destination contract — risk passes to buyer when goods arrive at destination |
+| **FOB Shipping Point** | Shipment contract: risk passes to buyer when goods are delivered to carrier |
+| **FOB Destination** | Destination contract: risk passes to buyer when goods arrive at destination |
 | **FAS** (Free Alongside Ship) | Seller delivers goods alongside the vessel at the named port |
-| **CIF** (Cost, Insurance, Freight) | Seller pays cost, insurance, and freight to the destination — but this is still a shipment contract |
+| **CIF** (Cost, Insurance, Freight) | Seller pays cost, insurance, and freight to the destination, but this is still a shipment contract |
 
-### Risk of Loss — Non-Carrier Cases
+### Risk of Loss: Non-Carrier Cases
 
 When **no carrier** is involved (e.g., buyer picks up goods):
 
@@ -196,7 +196,7 @@ Bear Co. (a merchant) sells office furniture to a customer who will pick it up. 
 
 :::
 
-### Risk of Loss — Carrier Cases
+### Risk of Loss: Carrier Cases
 
 | Contract Type | Risk Passes When... |
 |---|---|
@@ -205,7 +205,7 @@ Bear Co. (a merchant) sells office furniture to a customer who will pick it up. 
 
 ### Effect of Breach on Risk of Loss
 
-A party who **breaches** the contract bears the risk of loss — even if the risk would otherwise have shifted.
+A party who **breaches** the contract bears the risk of loss, even if the risk would otherwise have shifted.
 
 - If the **seller** ships nonconforming goods, the seller retains the risk of loss until the buyer accepts the goods or the seller cures the nonconformity.
 - If the **buyer** breaches (e.g., repudiates before goods are delivered), the buyer bears the risk of loss to the extent of any deficiency in the seller's insurance coverage, for a **commercially reasonable time**.
@@ -239,7 +239,7 @@ Title passes at the time and place the seller **completes physical delivery**:
 
 ### Express Warranty
 
-An **express warranty** is created when the seller makes an **affirmation of fact or promise**, provides a **description** of the goods, or shows a **sample or model** that becomes part of the **basis of the bargain**. The buyer does not need to show reliance — only that the representation was part of the basis of the bargain.
+An **express warranty** is created when the seller makes an **affirmation of fact or promise**, provides a **description** of the goods, or shows a **sample or model** that becomes part of the **basis of the bargain**. The buyer does not need to show reliance, only that the representation was part of the basis of the bargain.
 
 :::caution[Key Rule]
 
@@ -257,7 +257,7 @@ The **implied warranty of title** automatically arises in every sale of goods un
 - The goods are **free from any undisclosed liens, claims, or encumbrances**.
 - The buyer will receive ownership **free of any hidden legal claims** they did not know about at the time of sale.
 
-A seller who is a **merchant** also warrants against **infringement** — that the goods do not violate any third party's patent, trademark, or copyright.
+A seller who is a **merchant** also warrants against **infringement** (that the goods do not violate any third party's patent, trademark, or copyright).
 
 :::note
 
@@ -292,11 +292,11 @@ This warranty arises when:
 2. The seller has **reason to know** the buyer is **relying on the seller's skill or judgment** to select suitable goods.
 3. The buyer actually **relies** on the seller's expertise.
 
-Unlike merchantability, this warranty can arise from **any seller** — not just merchants. The key distinction is that the buyer has a **specific, non-ordinary** use in mind.
+Unlike merchantability, this warranty can arise from **any seller**, not just merchants. The key distinction is that the buyer has a **specific, non-ordinary** use in mind.
 
 :::note[Example]
 
-Honey Security tells Kodiak Inc. (a chemical supplier) that it needs a cleaning solution strong enough to remove industrial adhesive residue from surveillance camera lenses without damaging the coatings. Kodiak Inc. recommends Product X. If Product X damages the lens coatings, Kodiak Inc. has breached the implied warranty of fitness for a particular purpose — even if Product X works perfectly for general cleaning.
+Honey Security tells Kodiak Inc. (a chemical supplier) that it needs a cleaning solution strong enough to remove industrial adhesive residue from surveillance camera lenses without damaging the coatings. Kodiak Inc. recommends Product X. If Product X damages the lens coatings, Kodiak Inc. has breached the implied warranty of fitness for a particular purpose, even if Product X works perfectly for general cleaning.
 
 :::
 
@@ -304,15 +304,15 @@ Honey Security tells Kodiak Inc. (a chemical supplier) that it needs a cleaning 
 
 | Warranty | How to Disclaim |
 |---|---|
-| **Express warranty** | **Cannot be disclaimed** — any disclaimer that conflicts with an express warranty is inoperative |
+| **Express warranty** | **Cannot be disclaimed**; any disclaimer that conflicts with an express warranty is inoperative |
 | **Warranty of title** | Requires **specific language** or circumstances giving the buyer reason to know title is not guaranteed |
-| **Merchantability** | Must mention the word **"merchantability"** — if in writing, must be **conspicuous** |
+| **Merchantability** | Must mention the word **"merchantability"**; if in writing, must be **conspicuous** |
 | **Fitness for a particular purpose** | Must be in **writing** and must be **conspicuous** (e.g., "THERE ARE NO WARRANTIES WHICH EXTEND BEYOND THE DESCRIPTION ON THE FACE HEREOF") |
 | **All implied warranties** | Disclaimed by phrases like **"as is"** or **"with all faults"** |
 
 :::warning
 
-A blanket "as is" disclaimer eliminates implied warranties of merchantability and fitness — but it does **not** disclaim express warranties or the warranty of title. Sellers cannot make promises and then take them away in the fine print.
+A blanket "as is" disclaimer eliminates implied warranties of merchantability and fitness, but it does **not** disclaim express warranties or the warranty of title. Sellers cannot make promises and then take them away in the fine print.
 
 :::
 
@@ -322,7 +322,7 @@ A blanket "as is" disclaimer eliminates implied warranties of merchantability an
 
 ### Anticipatory Repudiation
 
-If either party clearly indicates — through words or conduct — that they **will not perform** their obligations before the performance is due, the aggrieved party may:
+If either party clearly indicates, through words or conduct, that they **will not perform** their obligations before the performance is due, the aggrieved party may:
 
 1. **Await performance** for a commercially reasonable time.
 2. **Resort to any remedy** for breach, even before the performance date.
@@ -363,7 +363,7 @@ When the **seller** breaches or repudiates, the buyer may:
 
 | Remedy | Description |
 |---|---|
-| **Reject nonconforming goods** | Under the **perfect tender rule**, the buyer may reject the entire delivery, accept the entire delivery, or accept any commercial units and reject the rest — if goods fail to conform to the contract in **any** respect |
+| **Reject nonconforming goods** | Under the **perfect tender rule**, if goods fail to conform to the contract in **any** respect, the buyer may reject the entire delivery, accept the entire delivery, or accept any commercial units and reject the rest |
 | **Revoke acceptance** | If a nonconformity substantially impairs the value of the goods and (1) the buyer accepted on the reasonable assumption that the nonconformity would be cured and it was not, or (2) the buyer did not discover the nonconformity and acceptance was reasonably induced by the seller's assurances or the difficulty of discovery |
 | **Cover** | Buy substitute goods in good faith and without unreasonable delay, and recover the difference between the cover price and the contract price, plus incidental and consequential damages |
 | **Recover damages for non-delivery** | Market price (at the time the buyer learned of the breach) minus contract price, plus incidental and consequential damages |
@@ -387,7 +387,7 @@ The parties may agree in advance to **liquidated damages** in an amount that is 
 
 ### No Punitive Damages
 
-The UCC does **not** provide for punitive damages. Remedies are designed to put the aggrieved party in the **position they would have been in** had the contract been performed — compensatory only.
+The UCC does **not** provide for punitive damages. Remedies are designed to put the aggrieved party in the **position they would have been in** had the contract been performed; they are compensatory only.
 
 ---
 
@@ -397,7 +397,7 @@ The UCC does **not** provide for punitive damages. Remedies are designed to put 
 
 :::warning[Key Rule]
 
-If Salmon Entertainment delivers a vintage guitar to a music store (a merchant that deals in guitars) for repair, and the music store mistakenly sells the guitar to a customer who buys in good faith, the customer obtains **good title** to the guitar. Salmon Entertainment's remedy is against the music store — not the innocent buyer. This rule protects good-faith purchasers who buy from merchants in the ordinary course of business.
+If Salmon Entertainment delivers a vintage guitar to a music store (a merchant that deals in guitars) for repair, and the music store mistakenly sells the guitar to a customer who buys in good faith, the customer obtains **good title** to the guitar. Salmon Entertainment's remedy is against the music store, not the innocent buyer. This rule protects good-faith purchasers who buy from merchants in the ordinary course of business.
 
 :::
 
@@ -408,7 +408,7 @@ The entrusting rule applies regardless of whether the merchant was authorized to
 | **Entruster** | Owner who delivers goods to a merchant |
 | **Merchant** | Deals in goods of the kind |
 | **Buyer in ordinary course** | Buys in good faith, without knowledge that the sale violates the entruster's rights, from a merchant's inventory |
-| **Effect** | Buyer gets all rights the entruster had — even though the merchant had no authority to sell |
+| **Effect** | Buyer gets all rights the entruster had, even though the merchant had no authority to sell |
 
 :::tip[Exam Application]
 

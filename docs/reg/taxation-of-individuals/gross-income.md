@@ -32,7 +32,7 @@ The standard threshold equals the **standard deduction** for the taxpayer's fili
 
 :::caution
 
-Married Filing Separately has a **\$5** filing threshold — virtually every MFS taxpayer must file.
+Married Filing Separately has a **\$5** filing threshold, so virtually every MFS taxpayer must file.
 
 :::
 
@@ -76,16 +76,16 @@ Either spouse may elect MFS. This status forfeits many credits and deductions bu
 
 ## Dependency Exemptions
 
-Although the personal exemption amount is **\$0** for 2018–2025 under the Tax Cuts and Jobs Act, dependency status still matters for Head of Household, the Child Tax Credit, the Earned Income Credit, and other provisions.
+Although the personal exemption amount is **\$0** for 2018 through 2025 under the Tax Cuts and Jobs Act, dependency status still matters for Head of Household, the Child Tax Credit, the Earned Income Credit, and other provisions.
 
-### Qualifying Child (QC) — The CARES Test
+### Qualifying Child (QC): The CARES Test
 
 | Test | Requirement |
 |---|---|
 | **C**lose relative | Child, stepchild, foster child, sibling, or descendant of any of these |
 | **A**ge | Under 19, or under 24 if a full-time student, or permanently disabled at any age |
 | **R**esidency | Same principal place of abode for more than half the year |
-| **E**liminate gross income test | Not applicable — no income test for QC |
+| **E**liminate gross income test | Not applicable (no income test for QC) |
 | **S**upport | Child did **not** provide more than half of own support |
 
 ### Qualifying Relative (QR)
@@ -105,11 +105,11 @@ A **multiple support agreement** (Form 2120) allows one member of a group to cla
 
 ---
 
-## Gross Income — Part 1: Common Income Items
+## Gross Income, Part 1: Common Income Items
 
 ### Definition Under IRC §61
 
-Gross income includes — but is not limited to — compensation for services, business income, gains from property, interest, rents, royalties, dividends, alimony (pre-2019), annuities, and income from discharge of indebtedness.
+Gross income includes, but is not limited to, compensation for services, business income, gains from property, interest, rents, royalties, dividends, alimony (pre-2019), annuities, and income from discharge of indebtedness.
 
 ### Wages, Salaries, and Tips
 
@@ -119,12 +119,12 @@ All cash and non-cash compensation is included in gross income. Tips of \$20 or 
 
 ### Interest Income
 
-- **Taxable interest** — Interest on bank accounts, CDs, corporate bonds, and U.S. Treasury obligations is fully taxable for federal purposes.
-- **Tax-exempt interest** — Interest on **state and local municipal bonds** is excluded from gross income under IRC §103 but may be a preference item for AMT (private-activity bonds).
+- **Taxable interest**: Interest on bank accounts, CDs, corporate bonds, and U.S. Treasury obligations is fully taxable for federal purposes.
+- **Tax-exempt interest**: Interest on **state and local municipal bonds** is excluded from gross income under IRC §103 but may be a preference item for AMT (private-activity bonds).
 
 :::info
 
-U.S. Treasury bond interest is taxable for **federal** purposes but exempt from **state** income tax. Municipal bond interest is the reverse — exempt federally but often taxable by states other than the issuing state.
+U.S. Treasury bond interest is taxable for **federal** purposes but exempt from **state** income tax. Municipal bond interest is the reverse: exempt federally but often taxable by states other than the issuing state.
 
 :::
 
@@ -135,7 +135,7 @@ U.S. Treasury bond interest is taxable for **federal** purposes but exempt from 
 | **Qualified dividends** | Taxed at preferential long-term capital gains rates (0%, 15%, or 20%) |
 | **Nonqualified (ordinary) dividends** | Taxed at ordinary income rates |
 
-To be **qualified**, dividends must be paid by a U.S. corporation (or qualifying foreign corporation) and the shareholder must satisfy the **holding-period requirement** — holding the stock for more than 60 days during the 121-day period surrounding the ex-dividend date.
+To be **qualified**, dividends must be paid by a U.S. corporation (or qualifying foreign corporation) and the shareholder must satisfy the **holding-period requirement** by holding the stock for more than 60 days during the 121-day period surrounding the ex-dividend date.
 
 ### Rental Income and Expenses
 
@@ -167,7 +167,7 @@ Up to **85%** of Social Security benefits may be taxable depending on **provisio
 | Provisional Income (Single) | Amount Taxable |
 |---|---|
 | Below \$25,000 | 0% |
-| \$25,000 – \$34,000 | Up to 50% |
+| \$25,000 to \$34,000 | Up to 50% |
 | Above \$34,000 | Up to 85% |
 
 ### Prizes, Awards, and Gambling Income
@@ -189,7 +189,7 @@ Cancellation of debt generally produces gross income equal to the amount forgive
 
 ### Life Insurance Proceeds
 
-Proceeds received by a beneficiary on account of the insured's **death** are generally **excluded** from gross income under IRC §101(a). Exceptions include the **transfer-for-value rule** — if the policy was sold, proceeds in excess of the purchase price are taxable.
+Proceeds received by a beneficiary on account of the insured's **death** are generally **excluded** from gross income under IRC §101(a). Exceptions include the **transfer-for-value rule**: if the policy was sold, proceeds in excess of the purchase price are taxable.
 
 ### Scholarships and Fellowships
 
@@ -197,7 +197,7 @@ Amounts used for **tuition and required fees, books, supplies, and equipment** a
 
 ---
 
-## Gross Income — Part 2: Advanced Concepts
+## Gross Income, Part 2: Advanced Concepts
 
 ### Community Property Income
 
@@ -211,7 +211,7 @@ Owners of **S corporations, partnerships, and LLCs** taxed as partnerships repor
 
 ### Constructive Receipt Doctrine
 
-Income is taxable when it is **credited to the taxpayer's account, set apart, or otherwise made available** — even if the taxpayer has not physically received the cash. A taxpayer cannot defer income by turning their back on it.
+Income is taxable when it is **credited to the taxpayer's account, set apart, or otherwise made available**, even if the taxpayer has not physically received the cash. A taxpayer cannot defer income by turning their back on it.
 
 :::tip[Exam Tip]
 
@@ -227,7 +227,7 @@ Income is taxed to the person who **earns** it. A taxpayer cannot shift income b
 
 ### Tax Benefit Rule
 
-If a taxpayer received a **tax benefit** from a deduction in a prior year (e.g., a state tax refund after itemizing state taxes), the recovery must be included in gross income in the year received — but **only to the extent the prior deduction reduced tax**.
+If a taxpayer received a **tax benefit** from a deduction in a prior year (e.g., a state tax refund after itemizing state taxes), the recovery must be included in gross income in the year received, but **only to the extent the prior deduction reduced tax**.
 
 > **Example:** Honey Security's owner deducted \$6,000 of state income taxes in Year 1 (itemized deductions exceeded the standard deduction by \$2,000). In Year 2, the owner receives a \$1,500 state refund. Because the refund is less than the \$2,000 excess benefit, the entire \$1,500 is included in Year 2 gross income.
 
@@ -249,6 +249,6 @@ If a taxpayer received a **tax benefit** from a deduction in a prior year (e.g.,
 
 :::warning
 
-The CPA exam frequently tests the boundaries of gross income — especially exclusions for municipal bond interest, life insurance proceeds, scholarships, and discharge of indebtedness. Memorize both the general rule **and** the exceptions.
+The CPA exam frequently tests the boundaries of gross income, especially exclusions for municipal bond interest, life insurance proceeds, scholarships, and discharge of indebtedness. Memorize both the general rule **and** the exceptions.
 
 :::

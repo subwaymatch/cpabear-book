@@ -33,12 +33,12 @@ The SEC's independence framework is codified primarily in **Regulation S-X, Rule
 |------|-----------|----------|
 | **Financial interests** | Direct = always prohibited; indirect = prohibited if material | Same general framework, but SEC rules apply to a broader set of "covered persons" in the firm (not just the engagement team) |
 | **Business relationships** | Evaluated through conceptual framework | More prescriptive; joint business ventures and similar arrangements are specifically prohibited |
-| **Nonattest services** | Permitted with three safeguards (client oversight, management responsibility, no management role) | Many services are **categorically prohibited** by SOX — safeguards cannot cure the impairment |
+| **Nonattest services** | Permitted with three safeguards (client oversight, management responsibility, no management role) | Many services are **categorically prohibited** by SOX; safeguards cannot cure the impairment |
 | **Scope of "covered persons"** | "Covered members" include the engagement team, those who can influence the engagement, and the firm | SEC's definition of "covered persons" can extend to other partners in the **office** that participates in a significant portion of the audit |
 | **Cooling-off period** | One year before a former practitioner's association with a client impairs independence | **One year** before a former engagement team member can accept certain positions at an issuer client (see below) |
 | **Contingent fees** | Prohibited for attest clients | Prohibited for audit clients and certain related entities |
 
-**Example:** Bear Co. is a publicly traded company. Its audit firm wants to provide internal audit outsourcing services to Bear Co. Under AICPA rules, this might be permissible with appropriate safeguards. Under SEC/PCAOB rules, internal audit outsourcing for an issuer audit client is **prohibited** — no amount of safeguards can remedy the impairment.
+**Example:** Bear Co. is a publicly traded company. Its audit firm wants to provide internal audit outsourcing services to Bear Co. Under AICPA rules, this might be permissible with appropriate safeguards. Under SEC/PCAOB rules, internal audit outsourcing for an issuer audit client is **prohibited**, and no amount of safeguards can remedy the impairment.
 
 ---
 
@@ -48,7 +48,7 @@ Section 201 of the Sarbanes-Oxley Act explicitly prohibits a registered public a
 
 | Prohibited Service | Rationale |
 |-------------------|-----------|
-| **Bookkeeping** or other services related to the accounting records or financial statements | Creates a self-review threat — the auditor would be auditing their own work |
+| **Bookkeeping** or other services related to the accounting records or financial statements | Creates a self-review threat because the auditor would be auditing their own work |
 | **Financial information systems design and implementation** | Could impair objectivity if the auditor designed the systems they are now evaluating |
 | **Appraisal or valuation services, fairness opinions, or contribution-in-kind reports** | The auditor would be auditing estimates or valuations they produced |
 | **Actuarial services** | Self-review threat for pension and insurance-related amounts |
@@ -60,13 +60,13 @@ Section 201 of the Sarbanes-Oxley Act explicitly prohibits a registered public a
 
 :::caution
 
-These prohibitions are **absolute** for issuer audit clients. Unlike AICPA rules, there is no conceptual framework exception — the services simply cannot be provided to an audit client regardless of safeguards. However, the firm may provide these services to **non-audit clients** and to **affiliates of the audit client that are not in the audit scope**, subject to specific conditions.
+These prohibitions are **absolute** for issuer audit clients. Unlike AICPA rules, there is no conceptual framework exception; the services simply cannot be provided to an audit client regardless of safeguards. However, the firm may provide these services to **non-audit clients** and to **affiliates of the audit client that are not in the audit scope**, subject to specific conditions.
 
 :::
 
 ### Permitted Non-Audit Services for Issuers
 
-Not all non-audit services are prohibited. A firm may provide other services — most notably **tax compliance and tax planning** services — to an issuer audit client, provided:
+Not all non-audit services are prohibited. A firm may provide other services (most notably **tax compliance and tax planning** services) to an issuer audit client, provided:
 
 1. The services are **pre-approved** by the audit committee
 2. The services do not involve **prohibited tax transactions** (see Tax Services section below)
@@ -140,8 +140,8 @@ While tax services are not categorically banned for issuer audit clients, the PC
 
 ### Permitted Tax Services
 
-- Routine **tax compliance** (preparing tax returns) — permitted with audit committee pre-approval
-- **Tax planning and advice** on established positions — permitted with audit committee pre-approval, provided the firm does not act as an advocate
+- Routine **tax compliance** (preparing tax returns): permitted with audit committee pre-approval
+- **Tax planning and advice** on established positions: permitted with audit committee pre-approval, provided the firm does not act as an advocate
 
 **Example:** Kodiak Partners (a public company) asks its audit firm to prepare its corporate tax return. This is permitted as long as the audit committee pre-approves the service. However, if the audit firm were to design and market an aggressive tax shelter strategy to Kodiak Partners, that service would be prohibited.
 
@@ -158,7 +158,7 @@ While tax services are not categorically banned for issuer audit clients, the PC
 | **Tax services** | Generally permitted with safeguards | Permitted with restrictions and audit committee approval; certain tax services prohibited |
 | **Cooling-off for employment** | Conceptual framework evaluation | Bright-line **one-year** rule |
 | **Contingent fees** | Prohibited for attest clients | Prohibited for audit clients |
-| **Scope of covered persons** | Engagement team, those who influence engagement, the firm | Broader — can include all partners in the office participating in a significant portion of the audit |
+| **Scope of covered persons** | Engagement team, those who influence engagement, the firm | Broader; can include all partners in the office participating in a significant portion of the audit |
 
 :::info
 
@@ -199,7 +199,7 @@ If an employee prevails in a whistle-blower complaint, the compensatory damages 
 
 :::tip[Exam Tip]
 
-SOX whistle-blower protections apply to employees of **publicly traded companies** (issuers). The employee need only have a **reasonable belief** that a violation occurred — the belief does not have to be correct. Filing a complaint must occur within **180 days** of the retaliatory action.
+SOX whistle-blower protections apply to employees of **publicly traded companies** (issuers). The employee need only have a **reasonable belief** that a violation occurred; the belief does not have to be correct. Filing a complaint must occur within **180 days** of the retaliatory action.
 
 :::
 

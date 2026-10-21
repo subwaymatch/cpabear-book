@@ -1,6 +1,6 @@
 # Written Representations
 
-The **management representation letter** is one of the final—and most important—pieces of audit evidence the auditor obtains before issuing the audit report. Written representations are formal statements made by management to confirm matters discussed during the audit and to acknowledge management's responsibilities for the financial statements. They are required by AU-C 580 for nonissuers and AS 2805 for issuers.
+The **management representation letter** is one of the final, and most important, pieces of audit evidence the auditor obtains before issuing the audit report. Written representations are formal statements made by management to confirm matters discussed during the audit and to acknowledge management's responsibilities for the financial statements. They are required by AU-C 580 for nonissuers and AS 2805 for issuers.
 
 :::info
 
@@ -31,8 +31,8 @@ Representations may address matters that are:
 
 Written representations must be requested from **members of management with appropriate responsibilities and knowledge** of the matters involved. Typically, this includes:
 
-- The **Chief Executive Officer (CEO)** — responsible for overall operations
-- The **Chief Financial Officer (CFO)** — responsible for financial reporting
+- The **Chief Executive Officer (CEO)**, responsible for overall operations
+- The **Chief Financial Officer (CFO)**, responsible for financial reporting
 
 :::tip[Exam Tip]
 
@@ -40,7 +40,7 @@ The representation letter should be signed by the **highest-level individuals** 
 
 :::
 
-The auditor should also consider whether representations from other individuals are needed—for example, from the head of a subsidiary or from legal counsel regarding litigation matters.
+The auditor should also consider whether representations from other individuals are needed (for example, from the head of a subsidiary or from legal counsel regarding litigation matters).
 
 ---
 
@@ -84,7 +84,7 @@ Management acknowledges that all events occurring **after the balance sheet date
 
 ## Date and Period Covered
 
-The representation letter must be dated **as of the date of the auditor's report**—not before, not after. This is the same date the auditor has obtained sufficient appropriate audit evidence.
+The representation letter must be dated **as of the date of the auditor's report**, not before and not after. This is the same date the auditor has obtained sufficient appropriate audit evidence.
 
 Key timing requirements:
 
@@ -118,11 +118,11 @@ If management **refuses** to provide one or more of the requested written repres
 
 :::warning
 
-A refusal to provide the required representation letter is a **scope limitation** serious enough to require a **disclaimer of opinion** in virtually all cases. This is a high-priority exam topic—the CPA exam frequently tests the consequences of a refused representation letter.
+A refusal to provide the required representation letter is a **scope limitation** serious enough to require a **disclaimer of opinion** in virtually all cases. This is a high-priority exam topic; the CPA exam frequently tests the consequences of a refused representation letter.
 
 :::
 
-**Example:** Honey Entertainment's CEO agrees to sign the representation letter, but the CFO refuses, citing personal legal concerns. The auditor must evaluate the impact—if the CFO's refusal means the auditor cannot obtain adequate representations about the financial statements, the auditor should issue a disclaimer of opinion.
+**Example:** Honey Entertainment's CEO agrees to sign the representation letter, but the CFO refuses, citing personal legal concerns. The auditor must evaluate the impact. If the CFO's refusal means the auditor cannot obtain adequate representations about the financial statements, the auditor should issue a disclaimer of opinion.
 
 ---
 
@@ -137,7 +137,7 @@ Written representations are an essential but **complementary** form of audit evi
 
 :::tip[Exam Tip]
 
-On the CPA exam, remember: the representation letter is **required** audit evidence, but it is **not sufficient** by itself. The auditor still needs to perform substantive testing and other procedures. Think of the representation letter as a "safety net" that ensures management has gone on record about key assertions—not a shortcut that eliminates the need for other evidence.
+On the CPA exam, remember: the representation letter is **required** audit evidence, but it is **not sufficient** by itself. The auditor still needs to perform substantive testing and other procedures. Think of the representation letter as a "safety net" that ensures management has gone on record about key assertions, not a shortcut that eliminates the need for other evidence.
 
 :::
 

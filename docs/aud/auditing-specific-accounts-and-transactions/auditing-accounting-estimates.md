@@ -31,9 +31,9 @@ The auditor may use one, two, or all three approaches. The choice depends on the
 ### Example: Evaluating an Estimate at Bear Co.
 
 Bear Co. records a warranty reserve of \$500,000. The auditor:
-1. **Reviews management's process** – Examines the historical warranty claim rate, the assumptions about future claims, and the data used (sales volume, defect rates)
-2. **Develops an independent estimate** – Using Bear Co.'s historical claim data and industry benchmarks, the auditor independently calculates an expected warranty reserve of \$480,000–\$530,000
-3. **Reviews subsequent events** – Examines warranty claims received in January and February to see if the pattern is consistent with management's estimate
+1. **Reviews management's process**: Examines the historical warranty claim rate, the assumptions about future claims, and the data used (sales volume, defect rates)
+2. **Develops an independent estimate**: Using Bear Co.'s historical claim data and industry benchmarks, the auditor independently calculates an expected warranty reserve of \$480,000 to \$530,000
+3. **Reviews subsequent events**: Examines warranty claims received in January and February to see if the pattern is consistent with management's estimate
 
 Since management's \$500,000 falls within the auditor's reasonable range, the estimate is considered acceptable.
 
@@ -93,7 +93,7 @@ The letter is prepared by **management** (not the auditor) because it is managem
 
 Kodiak Partners is involved in a breach-of-contract lawsuit filed by Ursa Security. The auditor:
 - Reviews management's description of the lawsuit in the attorney letter
-- Sends the letter to Kodiak Partners' outside counsel, who confirms the lawsuit exists and assesses the likelihood of an unfavorable outcome as "reasonably possible" with a potential range of \$200,000–\$400,000
+- Sends the letter to Kodiak Partners' outside counsel, who confirms the lawsuit exists and assesses the likelihood of an unfavorable outcome as "reasonably possible" with a potential range of \$200,000 to \$400,000
 - Reviews the board minutes from the September meeting, which reference the lawsuit and discuss settlement options
 - Reviews the engagement letter between Kodiak Partners and its attorney for scope of legal representation
 - Verifies that Kodiak Partners disclosed the contingency in the notes to the financial statements
@@ -105,9 +105,9 @@ Kodiak Partners is involved in a breach-of-contract lawsuit filed by Ursa Securi
 :::danger[Scope Limitation]
 
 If the client **refuses to allow the auditor to send a letter of inquiry** to its attorney, this constitutes a **scope limitation** imposed by the client. The auditor should consider:
-- **Qualified opinion** – If the potential misstatement could be material but not pervasive
-- **Disclaimer of opinion** – If the potential misstatement could be both material and pervasive
-- **Withdrawal from the engagement** – In some circumstances, particularly if the refusal suggests a broader integrity concern
+- **Qualified opinion**: If the potential misstatement could be material but not pervasive
+- **Disclaimer of opinion**: If the potential misstatement could be both material and pervasive
+- **Withdrawal from the engagement**: In some circumstances, particularly if the refusal suggests a broader integrity concern
 
 :::
 
@@ -119,7 +119,7 @@ If the client's attorney **refuses to furnish information** requested in the let
 |---|---|
 | Attorney refuses to respond to specific items that are potentially material | Qualified opinion or disclaimer |
 | Attorney refuses to respond entirely | Disclaimer of opinion is likely warranted |
-| Attorney limits response due to inherent uncertainty (cannot estimate outcome) | Not necessarily a scope limitation—the auditor evaluates disclosure adequacy |
+| Attorney limits response due to inherent uncertainty (cannot estimate outcome) | Not necessarily a scope limitation; the auditor evaluates disclosure adequacy |
 
 ### Example: Attorney Non-Response at Polar Inc.
 
@@ -132,5 +132,5 @@ Polar Inc.'s attorney refuses to respond to the auditor's inquiry regarding a pe
 | Evaluating estimates | Three approaches: review management's process, develop independent estimate, review subsequent events |
 | Estimation uncertainty | Driven by complexity, subjectivity, forecast horizon, data availability, sensitivity, and potential bias |
 | Attorney letter | Prepared by management, sent to attorney, response goes directly to auditor |
-| Client refuses attorney inquiry | Scope limitation → qualified opinion or disclaimer |
-| Attorney refuses to respond | Scope limitation → qualified opinion or disclaimer |
+| Client refuses attorney inquiry | Scope limitation, resulting in a qualified opinion or disclaimer |
+| Attorney refuses to respond | Scope limitation, resulting in a qualified opinion or disclaimer |

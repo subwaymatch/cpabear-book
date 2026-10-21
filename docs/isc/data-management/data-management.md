@@ -1,6 +1,6 @@
 # Data Management
 
-Data is one of the most valuable assets in any modern organization. CPAs must understand how data is **extracted, stored, queried, and integrated** to support financial analysis, operational decisions, and audit procedures. The ISC exam tests your knowledge of the full **data life cycle** — from creation through active use, storage, and final disposition — as well as your ability to work with relational databases, SQL queries, and business process models.
+Data is one of the most valuable assets in any modern organization. CPAs must understand how data is **extracted, stored, queried, and integrated** to support financial analysis, operational decisions, and audit procedures. The ISC exam tests your knowledge of the full **data life cycle** (from creation through active use, storage, and final disposition) as well as your ability to work with relational databases, SQL queries, and business process models.
 
 This section covers **data extraction methods**, **data storage types and database schemas**, the **data life cycle**, **relational database structure** (integrity rules, data dictionaries, normalization), **SQL queries**, **data integration from multiple sources**, and **business process models**.
 
@@ -21,13 +21,13 @@ Common data extraction methods include:
 | Method | Description | Example |
 |---|---|---|
 | **Manual extraction** | Users export data from a system using built-in reporting or export features | Exporting a trial balance from an accounting application to a spreadsheet |
-| **Query-based extraction** | Using a query language (typically SQL) to retrieve specific data from a database | Writing a SQL query to extract all journal entries over $100,000 from the general ledger |
+| **Query-based extraction** | Using a query language (typically SQL) to retrieve specific data from a database | Writing a SQL query to extract all journal entries over \$100,000 from the general ledger |
 | **API-based extraction** | Using application programming interfaces to programmatically retrieve data from systems | Pulling transaction data from a SaaS application via its REST API |
 | **ETL (Extract, Transform, Load)** | An automated process that extracts data from source systems, transforms it into a consistent format, and loads it into a target system (e.g., data warehouse) | Nightly ETL job that extracts sales data from three regional systems and loads it into a centralized data warehouse |
 
 :::tip[Exam Tip]
 
-The ETL process is a foundational concept in data management. Remember the three steps: **Extract** (pull data from sources), **Transform** (clean, validate, and format the data), and **Load** (insert the data into the target system). If any step has a control weakness — for example, the transform step does not validate data completeness — the resulting data may be unreliable.
+The ETL process is a foundational concept in data management. Remember the three steps: **Extract** (pull data from sources), **Transform** (clean, validate, and format the data), and **Load** (insert the data into the target system). If any step has a control weakness (for example, the transform step does not validate data completeness), the resulting data may be unreliable.
 
 :::
 
@@ -58,7 +58,7 @@ graph TD
 
 ## Database Schemas
 
-A **database schema** defines the logical structure of a database — how tables are organized and how they relate to each other. Two common schema designs used in data warehouses are the **star schema** and **snowflake schema**.
+A **database schema** defines the logical structure of a database: how tables are organized and how they relate to each other. Two common schema designs used in data warehouses are the **star schema** and **snowflake schema**.
 
 ### Star Schema
 
@@ -111,7 +111,7 @@ erDiagram
 
 ### Snowflake Schema
 
-A **snowflake schema** is a variation of the star schema where dimension tables are **normalized** — broken into additional sub-tables to reduce redundancy.
+A **snowflake schema** is a variation of the star schema where dimension tables are **normalized**, or broken into additional sub-tables to reduce redundancy.
 
 **Characteristics:**
 
@@ -142,7 +142,7 @@ The **data life cycle** describes the stages that data passes through from its c
 
 :::warning
 
-Data disposition is often overlooked but is critically important, especially for sensitive data. Simply deleting a file does not securely destroy it — data may be recoverable from storage media unless overwritten or the media is physically destroyed. The exam may test whether you can identify a deficiency in an organization's data disposition practices.
+Data disposition is often overlooked but is critically important, especially for sensitive data. Simply deleting a file does not securely destroy it; data may be recoverable from storage media unless overwritten or the media is physically destroyed. The exam may test whether you can identify a deficiency in an organization's data disposition practices.
 
 :::
 
@@ -241,9 +241,9 @@ The data dictionary is an essential tool for auditors because it provides a map 
 
 When the ISC exam presents a SQL query and asks whether the retrieved data set is relevant and complete, consider:
 
-- **Relevance** — Does the `WHERE` clause filter the data to the correct population? Are the correct columns selected?
-- **Completeness** — Does the query include all necessary records? Could the `WHERE` clause be inadvertently excluding relevant data? Are `JOIN` conditions correct (an `INNER JOIN` excludes records with no match, while a `LEFT JOIN` includes all records from the left table)?
-- **Accuracy** — Are aggregate functions applied correctly? Is the `GROUP BY` clause grouping data at the right level?
+- **Relevance**: Does the `WHERE` clause filter the data to the correct population? Are the correct columns selected?
+- **Completeness**: Does the query include all necessary records? Could the `WHERE` clause be inadvertently excluding relevant data? Are `JOIN` conditions correct (an `INNER JOIN` excludes records with no match, while a `LEFT JOIN` includes all records from the left table)?
+- **Accuracy**: Are aggregate functions applied correctly? Is the `GROUP BY` clause grouping data at the right level?
 
 **Example:** An auditor at **Bear Co.** needs to extract all journal entries posted to revenue accounts during 2025. The following query is proposed:
 
@@ -261,7 +261,7 @@ Is this query complete? Not necessarily. The `Amount > 0` condition excludes cre
 
 ## Data Integration
 
-**Data integration** is the process of combining data from different sources to provide a unified view for analysis and decision-making. Organizations often have data scattered across multiple systems — ERP, CRM, spreadsheets, external data feeds — and need to bring this data together.
+**Data integration** is the process of combining data from different sources to provide a unified view for analysis and decision-making. Organizations often have data scattered across multiple systems (ERP, CRM, spreadsheets, external data feeds) and need to bring this data together.
 
 ### Integration Challenges
 
@@ -280,7 +280,7 @@ Is this query complete? Not necessarily. The `Amount > 0` condition excludes cre
 | **ETL (Extract, Transform, Load)** | Data is extracted from source systems, transformed into a consistent format, and loaded into a central repository |
 | **Data virtualization** | Data remains in its source systems but is accessed through a unified interface that presents an integrated view |
 | **API integration** | Systems exchange data in real time through application programming interfaces |
-| **Manual consolidation** | Data is exported from individual systems and combined manually (e.g., in spreadsheets) — highest risk of error |
+| **Manual consolidation** | Data is exported from individual systems and combined manually (e.g., in spreadsheets); highest risk of error |
 
 ---
 
@@ -300,13 +300,13 @@ A **business process model** is a visual representation of the steps, decisions,
 
 When investigating a business process model, look for:
 
-- **Redundant steps** — Activities that are performed multiple times without adding value
+- **Redundant steps**: Activities that are performed multiple times without adding value
 - **Manual processes** that could be automated (e.g., using RPA or system integration)
-- **Missing controls** — Points in the process where authorization, validation, or reconciliation should occur but does not
-- **Bottlenecks** — Steps that create delays due to capacity constraints or sequential dependencies
-- **Unnecessary handoffs** — Points where data or documents are transferred between people or systems, increasing the risk of errors or delays
+- **Missing controls**: Points in the process where authorization, validation, or reconciliation should occur but does not
+- **Bottlenecks**: Steps that create delays due to capacity constraints or sequential dependencies
+- **Unnecessary handoffs**: Points where data or documents are transferred between people or systems, increasing the risk of errors or delays
 
-**Example:** **Illini Entertainment** has a process model for its accounts payable cycle. The model shows that vendor invoices are first entered into a spreadsheet by a clerk, then manually re-entered into the ERP system by a different clerk. This redundant manual data entry step is a candidate for elimination — the invoice could be entered directly into the ERP system or captured through automated invoice processing.
+**Example:** **Illini Entertainment** has a process model for its accounts payable cycle. The model shows that vendor invoices are first entered into a spreadsheet by a clerk, then manually re-entered into the ERP system by a different clerk. This redundant manual data entry step is a candidate for elimination. The invoice could be entered directly into the ERP system or captured through automated invoice processing.
 
 ---
 
@@ -317,7 +317,7 @@ When investigating a business process model, look for:
 | Data extraction | Methods include manual export, SQL queries, API calls, and ETL processes |
 | Data storage types | Data warehouses (structured, integrated), data lakes (raw, flexible), data marts (departmental subsets) |
 | Database schemas | Star schema (denormalized, fast queries) and snowflake schema (normalized, less redundancy) |
-| Data life cycle | Creation, storage, active use, sharing, archival, and disposition — controls are needed at each stage |
+| Data life cycle | Creation, storage, active use, sharing, archival, and disposition; controls are needed at each stage |
 | Relational databases | Tables with rows and columns; enforce entity, referential, and domain integrity |
 | SQL | Standard language for querying databases; examine queries for relevance, completeness, and accuracy |
 | Data integration | Combining data from multiple sources; ETL is the most common approach |
@@ -327,7 +327,7 @@ When investigating a business process model, look for:
 
 ## Practice Questions
 
-1. **Bear Co.** maintains a data warehouse that is loaded nightly from its ERP system using an ETL process. The finance team notices that the data warehouse contains duplicate customer records — the same customer appears with slightly different names (e.g., "Bear Co." and "Bear Company"). At which step of the ETL process should this issue be addressed?
+1. **Bear Co.** maintains a data warehouse that is loaded nightly from its ERP system using an ETL process. The finance team notices that the data warehouse contains duplicate customer records: the same customer appears with slightly different names (e.g., "Bear Co." and "Bear Company"). At which step of the ETL process should this issue be addressed?
 
 2. An auditor is reviewing the following SQL query used by **Polar Inc.** to identify high-value unpaid invoices:
 
@@ -349,6 +349,6 @@ When investigating a business process model, look for:
 
 2. **No.** The query uses an `INNER JOIN`, which only returns rows where there is a matching record in both tables. If the old VendorID was deleted from the Vendors table, the invoices referencing that VendorID will have no match and will be excluded from the results. To include these invoices, the auditor should use a `LEFT JOIN` instead, which returns all rows from the Invoices table even if there is no matching Vendor record.
 
-3. A **data warehouse** stores structured, integrated data that has been cleaned and organized (typically through an ETL process) and is optimized for reporting and analytics. A **data lake** stores raw data in its native format — including unstructured and semi-structured data — and imposes structure only when the data is queried. A data warehouse is more appropriate when the organization needs consistent, reliable data for financial reporting. A data lake is more appropriate when the organization needs to store large volumes of diverse data for exploratory analysis or machine learning.
+3. A **data warehouse** stores structured, integrated data that has been cleaned and organized (typically through an ETL process) and is optimized for reporting and analytics. A **data lake** stores raw data in its native format (including unstructured and semi-structured data) and imposes structure only when the data is queried. A data warehouse is more appropriate when the organization needs consistent, reliable data for financial reporting. A data lake is more appropriate when the organization needs to store large volumes of diverse data for exploratory analysis or machine learning.
 
 :::

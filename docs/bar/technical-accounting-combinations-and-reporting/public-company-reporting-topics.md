@@ -2,7 +2,7 @@
 
 Public companies in the United States operate under a rigorous reporting framework established by the Securities and Exchange Commission (SEC). This framework ensures that investors, analysts, and other stakeholders receive transparent, comparable, and timely financial information. CPA candidates must understand the key SEC regulations governing financial and non-financial disclosures, the role of XBRL in modern business reporting, and the segment reporting requirements under ASC 280. Together, these topics form a critical knowledge area for the BAR exam.
 :::info[Blueprint Coverage]
-**Area II – Technical Accounting and Reporting, Group J – Public Company Reporting Topics**
+**Area II: Technical Accounting and Reporting, Group J: Public Company Reporting Topics**
 
 - Recall public company reporting requirements of Regulation S-X and Regulation S-K
 - Recall the purpose, objective, and key characteristics of XBRL business reporting
@@ -34,12 +34,12 @@ Regulation S-X prescribes the **form and content** of financial statements filed
 
 Regulation S-X requires the following financial statements in an annual filing:
 
-- **Balance Sheet** — Two most recent fiscal year-ends
-- **Income Statement** — Three most recent fiscal years
-- **Statement of Cash Flows** — Three most recent fiscal years
-- **Statement of Stockholders' Equity** — Three most recent fiscal years
+- **Balance Sheet**: Two most recent fiscal year-ends
+- **Income Statement**: Three most recent fiscal years
+- **Statement of Cash Flows**: Three most recent fiscal years
+- **Statement of Stockholders' Equity**: Three most recent fiscal years
   :::tip[Exam Tip]
-  Remember that Reg S-X is about the **financial statements** themselves — think "X = eXact numbers." It dictates the periods presented, specific line items, and required schedules. Reg S-K covers everything else (non-financial disclosures).
+  Remember that Reg S-X is about the **financial statements** themselves; think "X = eXact numbers." It dictates the periods presented, specific line items, and required schedules. Reg S-K covers everything else (non-financial disclosures).
   :::
 
 ---
@@ -65,11 +65,11 @@ Regulation S-K prescribes the **non-financial statement disclosure** requirement
 
 Management's Discussion and Analysis is one of the most heavily tested Reg S-K topics. MD&A requires management to discuss:
 
-- **Liquidity** — Known trends, demands, commitments, or uncertainties affecting liquidity
-- **Capital resources** — Material commitments for capital expenditures
-- **Results of operations** — Revenue/expense trends and known uncertainties
-- **Critical accounting estimates** — Estimates with high uncertainty and material impact
-- **Off-balance-sheet arrangements** — Obligations not on the face of the financial statements
+- **Liquidity**: Known trends, demands, commitments, or uncertainties affecting liquidity
+- **Capital resources**: Material commitments for capital expenditures
+- **Results of operations**: Revenue/expense trends and known uncertainties
+- **Critical accounting estimates**: Estimates with high uncertainty and material impact
+- **Off-balance-sheet arrangements**: Obligations not on the face of the financial statements
   :::warning
   Do not confuse MD&A under Reg S-K (SEC requirement for public companies) with MD&A under GASB (required supplementary information for state and local governments). They serve similar purposes but arise from entirely different authoritative frameworks.
   :::
@@ -94,14 +94,14 @@ Management's Discussion and Analysis is one of the most heavily tested Reg S-K t
 eXtensible Business Reporting Language (**XBRL**) is an open, XML-based standard for communicating business and financial data electronically. The SEC requires public companies to submit financial statements tagged in XBRL to improve the **accessibility, comparability, and analysis** of financial data.
 Key objectives of XBRL include:
 
-- **Standardization** — Provide a uniform format for financial data across all filers
-- **Machine readability** — Enable automated extraction and analysis of financial information
-- **Transparency** — Improve the quality and timeliness of information available to investors
-- **Cost reduction** — Reduce manual data entry and re-keying errors
+- **Standardization**: Provide a uniform format for financial data across all filers
+- **Machine readability**: Enable automated extraction and analysis of financial information
+- **Transparency**: Improve the quality and timeliness of information available to investors
+- **Cost reduction**: Reduce manual data entry and re-keying errors
 
 ### Inline XBRL (iXBRL)
 
-The SEC currently requires **Inline XBRL (iXBRL)**, which embeds XBRL tags directly within an HTML document. This means a single filing is both human-readable (viewable in a browser) and machine-readable (parseable by software) — eliminating the need for separate XBRL instance documents.
+The SEC currently requires **Inline XBRL (iXBRL)**, which embeds XBRL tags directly within an HTML document. This means a single filing is both human-readable (viewable in a browser) and machine-readable (parseable by software), eliminating the need for separate XBRL instance documents.
 
 ```mermaid
 flowchart LR
@@ -170,7 +170,7 @@ flowchart TD
     C -- Yes --> F
     C -- No --> D{"Asset Test<br/>≥ 10% of Combined<br/>Segment Assets?"}
     D -- Yes --> F
-    D -- No --> E["Not Individually<br/>Reportable — Include<br/>in 'All Other' Category"]
+    D -- No --> E["Not Individually<br/>Reportable: Include<br/>in 'All Other' Category"]
     F --> G{"Do Reportable Segments<br/>Account for ≥ 75% of<br/>External Revenue?"}
     G -- Yes --> H[Disclosure Complete]
     G -- No --> I["Add More Segments<br/>Until 75% Threshold Met"]
@@ -178,31 +178,31 @@ flowchart TD
 
 ### The 75% External Revenue Test
 
-After applying the 10% tests, the entity must verify that reportable segments together account for at least **75% of total consolidated external revenue**. If not, additional segments must be identified as reportable until the 75% threshold is met — even if those segments do not individually pass any 10% test.
+After applying the 10% tests, the entity must verify that reportable segments together account for at least **75% of total consolidated external revenue**. If not, additional segments must be identified as reportable until the 75% threshold is met, even if those segments do not individually pass any 10% test.
 
 ### Practical Example: Bear Co.
 
-Bear Co. has five operating segments. Total combined segment revenue (including intersegment) is **$1,000,000**. The combined profit of all profitable segments is **$200,000**, and the combined loss of all loss segments is **$(150,000)**. Total combined segment assets are **$5,000,000**.
+Bear Co. has five operating segments. Total combined segment revenue (including intersegment) is **\$1,000,000**. The combined profit of all profitable segments is **\$200,000**, and the combined loss of all loss segments is **\$(150,000)**. Total combined segment assets are **\$5,000,000**.
 | Segment | Revenue | Profit (Loss) | Assets |
 |---------|---------|--------------|--------|
-| Segment A | $400,000 | $120,000 | $2,000,000 |
-| Segment B | $250,000 | $60,000 | $1,500,000 |
-| Segment C | $180,000 | $20,000 | $800,000 |
-| Segment D | $120,000 | $(150,000) | $500,000 |
-| Segment E | $50,000 | $(10,000) | $200,000 |
-| **Total** | **$1,000,000** | **$40,000** | **$5,000,000** |
+| Segment A | \$400,000 | \$120,000 | \$2,000,000 |
+| Segment B | \$250,000 | \$60,000 | \$1,500,000 |
+| Segment C | \$180,000 | \$20,000 | \$800,000 |
+| Segment D | \$120,000 | \$(150,000) | \$500,000 |
+| Segment E | \$50,000 | \$(10,000) | \$200,000 |
+| **Total** | **\$1,000,000** | **\$40,000** | **\$5,000,000** |
 **Threshold calculations:**
 
-- Revenue threshold: 10% × $1,000,000 = **$100,000**
-- Profit/loss threshold: Greater of |$200,000| or |$(150,000)| = $200,000 → 10% = **$20,000**
-- Asset threshold: 10% × $5,000,000 = **$500,000**
-  | Segment | Revenue Test (≥ $100K) | Profit/Loss Test (≥ $20K) | Asset Test (≥ $500K) | Reportable? |
+- Revenue threshold: 10% × \$1,000,000 = **\$100,000**
+- Profit/loss threshold: Greater of |\$200,000| or |\$(150,000)| = \$200,000; 10% × \$200,000 = **\$20,000**
+- Asset threshold: 10% × \$5,000,000 = **\$500,000**
+  | Segment | Revenue Test (≥ \$100K) | Profit/Loss Test (≥ \$20K) | Asset Test (≥ \$500K) | Reportable? |
   |---------|:---:|:---:|:---:|:---:|
-  | A | ✅ $400K | ✅ $120K | ✅ $2,000K | **Yes** |
-  | B | ✅ $250K | ✅ $60K | ✅ $1,500K | **Yes** |
-  | C | ✅ $180K | ✅ $20K | ✅ $800K | **Yes** |
-  | D | ✅ $120K | ✅ $150K loss | ✅ $500K | **Yes** |
-  | E | ❌ $50K | ❌ $10K loss | ❌ $200K | **No** |
+  | A | \$400K (pass) | \$120K (pass) | \$2,000K (pass) | **Yes** |
+  | B | \$250K (pass) | \$60K (pass) | \$1,500K (pass) | **Yes** |
+  | C | \$180K (pass) | \$20K (pass) | \$800K (pass) | **Yes** |
+  | D | \$120K (pass) | \$150K loss (pass) | \$500K (pass) | **Yes** |
+  | E | \$50K (fail) | \$10K loss (fail) | \$200K (fail) | **No** |
   Segment E does not meet any 10% test and would be included in the **"All Other"** category.
 
 ---
@@ -219,7 +219,7 @@ Two or more operating segments may be aggregated into a single reportable segmen
 
 ### Example: Bear Co.
 
-Bear Co. has two operating segments — East Region and West Region — that both sell commercial insurance products to mid-market businesses through independent agents, subject to the same state regulatory frameworks, and have similar profit margins. Because they share similar economic characteristics **and** meet all five similarity criteria, Bear Co. may aggregate them into a single "Commercial Insurance" reportable segment.
+Bear Co. has two operating segments, East Region and West Region, that both sell commercial insurance products to mid-market businesses through independent agents, subject to the same state regulatory frameworks, and have similar profit margins. Because they share similar economic characteristics **and** meet all five similarity criteria, Bear Co. may aggregate them into a single "Commercial Insurance" reportable segment.
 
 ### Required Segment Disclosures
 
@@ -238,16 +238,16 @@ Polar Inc. operates three reportable segments: Software, Consulting, and Hardwar
 
 - Revenue, profit, and assets for each of the three segments
 - A reconciliation showing how segment totals tie to the consolidated income statement and balance sheet
-- Entity-wide disclosure that 12% of total revenue comes from a single government customer (since it exceeds 10%, the existence and segment must be disclosed — though the customer need not be named)
+- Entity-wide disclosure that 12% of total revenue comes from a single government customer (since it exceeds 10%, the existence and segment must be disclosed, though the customer need not be named)
   :::tip[Exam Tip]
-  The **75% rule** and the **10% tests** are the most frequently tested quantitative thresholds. Also remember that the profit/loss test uses the **greater absolute value** of combined profits vs. combined losses — not net income. A common exam trap is using net profit instead of comparing the absolute values separately.
+  The **75% rule** and the **10% tests** are the most frequently tested quantitative thresholds. Also remember that the profit/loss test uses the **greater absolute value** of combined profits vs. combined losses, not net income. A common exam trap is using net profit instead of comparing the absolute values separately.
   :::
 
 ---
 
 ## Practical Limits on Segments
 
-ASC 280 provides a practical limit: once the number of reportable segments exceeds **10**, the entity should consider whether further disaggregation is useful. This is a guideline, not a hard rule — but the FASB noted that exceeding 10 segments may make disclosures overly complex.
+ASC 280 provides a practical limit: once the number of reportable segments exceeds **10**, the entity should consider whether further disaggregation is useful. This is a guideline, not a hard rule, but the FASB noted that exceeding 10 segments may make disclosures overly complex.
 
 ## Summary
 
@@ -257,7 +257,7 @@ ASC 280 provides a practical limit: once the number of reportable segments excee
 | **Regulation S-K**    | Governs non-financial disclosures: business description, risk factors, MD&A, compensation  |
 | **XBRL**              | XML-based standard for machine-readable financial reporting; SEC requires Inline XBRL      |
 | **Operating segment** | Component reviewed by the CODM with discrete financial information and business activities |
-| **10% tests**         | Revenue, profit/loss (absolute), and assets — meet **any one** to be reportable            |
+| **10% tests**         | Revenue, profit/loss (absolute), and assets; meet **any one** to be reportable             |
 | **75% test**          | Reportable segments must cover ≥ 75% of consolidated external revenue                      |
 | **Aggregation**       | Requires similar economics **and** all five qualitative similarity criteria                |
 | **Major customer**    | Disclose if a single customer provides ≥ 10% of total entity revenue                       |

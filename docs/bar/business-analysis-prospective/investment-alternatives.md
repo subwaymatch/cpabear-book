@@ -1,6 +1,6 @@
 # Investment Alternatives and Financial Valuation Decision Models
 
-Capital budgeting is the process of evaluating long-term investment opportunities and deciding which projects a company should pursue. On the BAR section, you must be able to calculate present values, compare projects using multiple financial metrics, and assess how changes in assumptions affect investment valuations—including option pricing models.
+Capital budgeting is the process of evaluating long-term investment opportunities and deciding which projects a company should pursue. On the BAR section, you must be able to calculate present values, compare projects using multiple financial metrics, and assess how changes in assumptions affect investment valuations, including option pricing models.
 
 :::info[Blueprint Coverage]
 
@@ -26,7 +26,7 @@ $$
 
 Where $r$ is the discount rate per period and $n$ is the number of periods.
 
-**Example — Bear Co.:** Bear Co. wants to know what $10,000 received in 5 years is worth today at a 10% discount rate.
+**Example (Bear Co.):** Bear Co. wants to know what \$10,000 received in 5 years is worth today at a 10% discount rate.
 
 $$
 PV = \frac{10{,}000}{(1.10)^5} = \frac{10{,}000}{1.6105} = \$6{,}209
@@ -40,7 +40,7 @@ $$
 PV_{\text{annuity}} = PMT \times \frac{1 - (1 + r)^{-n}}{r}
 $$
 
-**Example — Bear Co.:** Bear Co. expects to receive $3,000 per year for 4 years. At a discount rate of 8%:
+**Example (Bear Co.):** Bear Co. expects to receive \$3,000 per year for 4 years. At a discount rate of 8%:
 
 $$
 PV_{\text{annuity}} = 3{,}000 \times \frac{1 - (1.08)^{-4}}{0.08} = 3{,}000 \times 3.3121 = \$9{,}936
@@ -66,11 +66,11 @@ Where $CF_t$ is the cash flow in period $t$, $r$ is the required rate of return,
 
 | Decision | Rule |
 |---|---|
-| NPV > 0 | Accept — project adds value |
-| NPV = 0 | Indifferent — project earns exactly the required return |
-| NPV < 0 | Reject — project destroys value |
+| NPV > 0 | Accept; the project adds value |
+| NPV = 0 | Indifferent; the project earns exactly the required return |
+| NPV < 0 | Reject; the project destroys value |
 
-**Example — Polar Inc.:** Polar Inc. is considering a $50,000 equipment purchase that will generate annual cash flows of $15,000 for 5 years. The required rate of return is 10%.
+**Example (Polar Inc.):** Polar Inc. is considering a \$50,000 equipment purchase that will generate annual cash flows of \$15,000 for 5 years. The required rate of return is 10%.
 
 $$
 NPV = 15{,}000 \times \frac{1 - (1.10)^{-5}}{0.10} - 50{,}000 = 15{,}000 \times 3.7908 - 50{,}000 = 56{,}862 - 50{,}000 = \$6{,}862
@@ -126,14 +126,14 @@ $$
 \text{Payback Period} = \text{Years before full recovery} + \frac{\text{Unrecovered cost at start of year}}{\text{Cash flow during year}}
 $$
 
-**Example — BIF Partners:** BIF Partners invests $40,000 in a project with the following cash flows:
+**Example (BIF Partners):** BIF Partners invests \$40,000 in a project with the following cash flows:
 
 | Year | Cash Flow | Cumulative |
 |---|---|---|
-| 1 | $12,000 | $12,000 |
-| 2 | $14,000 | $26,000 |
-| 3 | $16,000 | $42,000 |
-| 4 | $10,000 | $52,000 |
+| 1 | \$12,000 | \$12,000 |
+| 2 | \$14,000 | \$26,000 |
+| 3 | \$16,000 | \$42,000 |
+| 4 | \$10,000 | \$52,000 |
 
 $$
 \text{Payback} = 2 + \frac{40{,}000 - 26{,}000}{16{,}000} = 2 + \frac{14{,}000}{16{,}000} = 2.875 \text{ years}
@@ -167,7 +167,7 @@ $$
 \text{Average Investment} = \frac{\text{Initial Investment} + \text{Salvage Value}}{2}
 $$
 
-**Example — Bear Co.:** Bear Co. invests $80,000 in equipment with a $0 salvage value. Average annual net income is $10,000.
+**Example (Bear Co.):** Bear Co. invests \$80,000 in equipment with a \$0 salvage value. Average annual net income is \$10,000.
 
 $$
 ARR = \frac{10{,}000}{(80{,}000 + 0) / 2} = \frac{10{,}000}{40{,}000} = 25\%
@@ -191,17 +191,17 @@ $$
 
 | Decision | Rule |
 |---|---|
-| PI > 1.0 | Accept — project creates value per dollar invested |
+| PI > 1.0 | Accept; the project creates value per dollar invested |
 | PI = 1.0 | Indifferent |
 | PI < 1.0 | Reject |
 
-**Example — Bear Co.:** From the Polar Inc. example above, the PV of future cash flows was $56,862 and the initial investment was $50,000.
+**Example (Bear Co.):** From the Polar Inc. example above, the PV of future cash flows was \$56,862 and the initial investment was \$50,000.
 
 $$
 PI = \frac{56{,}862}{50{,}000} = 1.137
 $$
 
-A PI of 1.137 means the project returns $1.14 for every $1.00 invested.
+A PI of 1.137 means the project returns \$1.14 for every \$1.00 invested.
 
 ---
 
@@ -215,13 +215,13 @@ $$
 
 Where NOPAT is net operating profit after taxes, WACC is the weighted average cost of capital, and Invested Capital is the total capital employed.
 
-**Example — Polar Inc.:** Polar Inc. has NOPAT of $500,000, invested capital of $3,000,000, and a WACC of 12%.
+**Example (Polar Inc.):** Polar Inc. has NOPAT of \$500,000, invested capital of \$3,000,000, and a WACC of 12%.
 
 $$
 EVA = 500{,}000 - (0.12 \times 3{,}000{,}000) = 500{,}000 - 360{,}000 = \$140{,}000
 $$
 
-A positive EVA of $140,000 means Polar Inc. is generating returns in excess of what investors require.
+A positive EVA of \$140,000 means Polar Inc. is generating returns in excess of what investors require.
 
 :::info[EVA Interpretation]
 
@@ -259,32 +259,32 @@ A make-or-buy decision compares the cost of producing a component internally ver
 
 Only **differential (incremental) costs** matter. Sunk costs and allocated fixed costs that will not change are irrelevant.
 
-**Example — Illini Entertainment:** Illini Entertainment currently manufactures a component at the following per-unit costs:
+**Example (Illini Entertainment):** Illini Entertainment currently manufactures a component at the following per-unit costs:
 
 | Cost Element | Per Unit |
 |---|---|
-| Direct materials | $8.00 |
-| Direct labor | $12.00 |
-| Variable overhead | $5.00 |
-| Fixed overhead (avoidable) | $3.00 |
-| Fixed overhead (unavoidable) | $7.00 |
-| **Total cost to make** | **$35.00** |
+| Direct materials | \$8.00 |
+| Direct labor | \$12.00 |
+| Variable overhead | \$5.00 |
+| Fixed overhead (avoidable) | \$3.00 |
+| Fixed overhead (unavoidable) | \$7.00 |
+| **Total cost to make** | **\$35.00** |
 
-An external supplier offers the component at $27.00 per unit. The relevant comparison:
+An external supplier offers the component at \$27.00 per unit. The relevant comparison:
 
 | | Make | Buy |
 |---|---|---|
-| Relevant costs per unit | $28.00 | $27.00 |
+| Relevant costs per unit | \$28.00 | \$27.00 |
 
-The relevant cost to make is $8 + $12 + $5 + $3 = $28.00 (excluding unavoidable fixed overhead of $7.00). Since $28.00 > $27.00, the quantitative analysis favors buying.
+The relevant cost to make is \$8 + \$12 + \$5 + \$3 = \$28.00 (excluding unavoidable fixed overhead of \$7.00). Since \$28.00 > \$27.00, the quantitative analysis favors buying.
 
 ### Qualitative Factors
 
-- **Quality control** — Can the supplier meet quality standards?
-- **Supply reliability** — Risk of disruption or lead time variability
-- **Capacity utilization** — Can freed-up capacity be used for other profitable work?
-- **Confidentiality** — Does outsourcing expose proprietary processes?
-- **Long-term relationships** — Impact on workforce and supplier dependency
+- **Quality control**: Can the supplier meet quality standards?
+- **Supply reliability**: Risk of disruption or lead time variability
+- **Capacity utilization**: Can freed-up capacity be used for other profitable work?
+- **Confidentiality**: Does outsourcing expose proprietary processes?
+- **Long-term relationships**: Impact on workforce and supplier dependency
 
 ---
 
@@ -304,7 +304,7 @@ A lease-versus-buy analysis compares the total cost of leasing an asset against 
 
 **Decision approach:** Discount all after-tax cash flows for each alternative to the present and select the option with the **lower PV of total costs**.
 
-**Example — Illini Security:** Illini Security needs equipment costing $100,000 with a 5-year useful life and no salvage value. Option A is to lease at $24,000 per year (tax-deductible). Option B is to buy with 100% financing at 8% interest, with straight-line depreciation. At a 25% tax rate, the after-tax lease cost per year is $24,000 × (1 − 0.25) = $18,000. The firm should compare the PV of the lease stream to the PV of loan payments minus tax shields from depreciation and interest.
+**Example (Illini Security):** Illini Security needs equipment costing \$100,000 with a 5-year useful life and no salvage value. Option A is to lease at \$24,000 per year (tax-deductible). Option B is to buy with 100% financing at 8% interest, with straight-line depreciation. At a 25% tax rate, the after-tax lease cost per year is \$24,000 × (1 - 0.25) = \$18,000. The firm should compare the PV of the lease stream to the PV of loan payments minus tax shields from depreciation and interest.
 
 ---
 
@@ -316,11 +316,11 @@ The Black-Scholes model estimates the theoretical value of European-style call o
 
 | Input | Symbol | Effect on Call Value |
 |---|---|---|
-| Current stock price | $S$ | Higher stock price → higher call value |
-| Strike (exercise) price | $K$ | Higher strike price → lower call value |
-| Time to expiration | $T$ | More time → higher call value |
-| Risk-free interest rate | $r$ | Higher rate → higher call value |
-| Volatility of the stock | $\sigma$ | Higher volatility → higher call value |
+| Current stock price | $S$ | Higher stock price raises call value |
+| Strike (exercise) price | $K$ | Higher strike price lowers call value |
+| Time to expiration | $T$ | More time raises call value |
+| Risk-free interest rate | $r$ | Higher rate raises call value |
+| Volatility of the stock | $\sigma$ | Higher volatility raises call value |
 
 ### Sensitivity to Assumptions
 
@@ -344,12 +344,12 @@ Kingfisher Industries is evaluating two mutually exclusive projects with a requi
 
 | | Project Alpha | Project Beta |
 |---|---|---|
-| Initial investment | $200,000 | $200,000 |
-| Year 1 cash flow | $80,000 | $30,000 |
-| Year 2 cash flow | $70,000 | $50,000 |
-| Year 3 cash flow | $60,000 | $70,000 |
-| Year 4 cash flow | $40,000 | $90,000 |
-| Year 5 cash flow | $20,000 | $110,000 |
+| Initial investment | \$200,000 | \$200,000 |
+| Year 1 cash flow | \$80,000 | \$30,000 |
+| Year 2 cash flow | \$70,000 | \$50,000 |
+| Year 3 cash flow | \$60,000 | \$70,000 |
+| Year 4 cash flow | \$40,000 | \$90,000 |
+| Year 5 cash flow | \$20,000 | \$110,000 |
 
 ### NPV Calculation
 
@@ -381,13 +381,13 @@ $$
 
 ### Simple Payback
 
-**Project Alpha:** cumulative cash flows reach $200,000 partway through Year 3.
+**Project Alpha:** cumulative cash flows reach \$200,000 partway through Year 3.
 
 $$
 \text{Payback}_{\alpha} = 2 + \frac{200{,}000 - 150{,}000}{60{,}000} = 2.83 \text{ years}
 $$
 
-**Project Beta:** cumulative cash flows reach $200,000 partway through Year 4.
+**Project Beta:** cumulative cash flows reach \$200,000 partway through Year 4.
 
 $$
 \text{Payback}_{\beta} = 3 + \frac{200{,}000 - 150{,}000}{90{,}000} = 3.56 \text{ years}
@@ -397,7 +397,7 @@ $$
 
 | Metric | Project Alpha | Project Beta | Preferred |
 |---|---|---|---|
-| NPV | $6,710 | $36,090 | Beta |
+| NPV | \$6,710 | \$36,090 | Beta |
 | PI | 1.034 | 1.180 | Beta |
 | Payback | 2.83 years | 3.56 years | Alpha |
 
@@ -415,11 +415,11 @@ Alpha's faster payback reflects front-loaded cash flows, but Beta's larger later
 
 :::tip[High-Yield Reminders]
 
-- **NPV is the primary decision tool** — when methods conflict, follow NPV.
+- **NPV is the primary decision tool**: when methods conflict, follow NPV.
 - Always use **after-tax incremental cash flows** for NPV and IRR calculations.
-- **Sunk costs are irrelevant** in all investment decisions — only future differential costs matter.
+- **Sunk costs are irrelevant** in all investment decisions; only future differential costs matter.
 - For make-or-buy problems, exclude **unavoidable fixed costs** from the analysis.
-- Know the **direction** of each Black-Scholes input's effect on option value — you will not need to compute the formula.
+- Know the **direction** of each Black-Scholes input's effect on option value. You will not need to compute the formula.
 - **EVA** is a performance measurement tool, not a project selection tool. It tells you whether existing operations create or destroy value above the cost of capital.
 - When projects are **mutually exclusive**, compare NPV directly. When facing **capital rationing**, rank by PI.
 

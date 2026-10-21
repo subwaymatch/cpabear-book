@@ -1,8 +1,8 @@
 # Inventory
 
-Inventory questions in FAR usually combine three issues: **ownership**, **cost flow assumptions**, and **subsequent measurement**. The exam often gives a short fact pattern and asks what belongs in ending inventory or which method produces higher income.
+Inventory questions in Financial Accounting and Reporting (FAR) usually combine three issues: **ownership**, **cost flow assumptions**, and **subsequent measurement**. The exam often gives a short fact pattern and asks what belongs in ending inventory or which method produces higher income.
 
-## What counts as inventory
+## What Counts as Inventory
 
 Inventory includes goods held for sale, goods in production, and materials that will be consumed in production.
 
@@ -18,14 +18,16 @@ The first step in many inventory problems is deciding **who owns the goods at ye
 
 ### FOB shipping terms
 
+Under free on board (FOB) terms, title passes at the named point.
+
 | Shipping term | When title passes | Include in buyer's inventory when... |
 | --- | --- | --- |
-| FOB shipping point | When goods are given to the common carrier | goods are shipped |
-| FOB destination | When goods are received by the buyer | goods are received |
+| FOB shipping point | When goods are given to the common carrier | Goods are shipped |
+| FOB destination | When goods are received by the buyer | Goods are received |
 
 ### Consigned goods
 
-In a consignment arrangement, the consignor keeps title until the consignee sells the goods to a third party. That means the goods remain in the consignor's inventory.
+In a consignment arrangement, the consignor keeps title until the consignee sells the goods to a third party. The goods therefore remain in the consignor's inventory.
 
 :::warning
 
@@ -35,13 +37,13 @@ Consigned goods sitting at another party's location are still inventory of the *
 
 ## Cost Flow Assumptions
 
-U.S. GAAP permits several cost flow methods.
+U.S. generally accepted accounting principles (GAAP) permit several cost flow methods.
 
 | Method | Basic idea |
 | --- | --- |
 | Specific identification | Tracks the actual cost of specific items |
-| FIFO | Oldest costs move to cost of goods sold first |
-| LIFO | Newest costs move to cost of goods sold first |
+| First-in, first-out (FIFO) | Oldest costs move to cost of goods sold first |
+| Last-in, first-out (LIFO) | Newest costs move to cost of goods sold first |
 | Weighted average | Uses average unit cost |
 | Moving average | Rolling average in a perpetual system |
 
@@ -49,8 +51,8 @@ U.S. GAAP permits several cost flow methods.
 
 During periods of rising prices:
 
-- **FIFO** usually produces higher ending inventory and higher net income
-- **LIFO** usually produces lower ending inventory and lower net income
+- **FIFO** usually produces higher ending inventory and higher net income.
+- **LIFO** usually produces lower ending inventory and lower net income.
 
 :::tip[Memory aid]
 
@@ -62,22 +64,29 @@ During periods of rising prices:
 
 | System | Main feature |
 | --- | --- |
-| Periodic | Ending inventory is determined by physical count and cost of goods sold is computed at period-end |
+| Periodic | Ending inventory is determined by physical count, and cost of goods sold is computed at period-end |
 | Perpetual | Inventory records update with each purchase and sale and maintain a running balance |
 
 Weighted average is commonly associated with the **periodic** system, while moving average is commonly associated with the **perpetual** system.
 
-## Lower of Cost and Subsequent Measurement
+## Subsequent Measurement
+
+The measurement rule depends on the cost flow method:
+
+| Cost flow method | Measurement rule |
+| --- | --- |
+| FIFO, average cost, and all other methods except LIFO and retail | Lower of cost and net realizable value |
+| LIFO or the retail inventory method | Lower of cost or market |
 
 ### Lower of cost and net realizable value
 
-For inventory measured under FIFO or average methods, inventory is generally carried at the **lower of cost and net realizable value (NRV)**.
+Inventory measured using FIFO or an average cost method is carried at the **lower of cost and net realizable value (NRV)**.
 
 $$
 \text{NRV} = \text{Estimated selling price} - \text{Completion and disposal costs}
 $$
 
-**Example:** Bear Co. has inventory with cost of \$42,000 and estimated selling price of \$45,000. It expects \$2,000 of completion costs and \$1,000 of selling costs.
+**Example:** Bear Co. has inventory with a cost of \$42,000 and an estimated selling price of \$45,000. It expects \$2,000 of completion costs and \$1,000 of selling costs.
 
 $$
 \text{NRV} = \$45{,}000 - \$2{,}000 - \$1{,}000 = \$42{,}000
@@ -87,7 +96,7 @@ No write-down is needed because cost equals NRV.
 
 ### Lower of cost or market
 
-For older GAAP-style questions using the **lower of cost or market** model, "market" usually means replacement cost subject to a ceiling and floor.
+Inventory measured using **LIFO** or the **retail inventory method** is still carried at the **lower of cost or market (LCM)**. Here, "market" means replacement cost, limited by a ceiling and a floor.
 
 | Limit | Amount |
 | --- | --- |
@@ -97,13 +106,13 @@ For older GAAP-style questions using the **lower of cost or market** model, "mar
 
 :::info
 
-If replacement cost is above the ceiling, use the ceiling. If it is below the floor, use the floor.
+If replacement cost is above the ceiling, use the ceiling. If it is below the floor, use the floor. Then compare market with cost and report the lower amount.
 
 :::
 
 ## Firm Purchase Commitments
 
-If a company is committed to buy inventory in the future and prices decline below the commitment price, the loss is recognized in the period of the decline.
+If a company is committed to buy inventory in the future and the market price falls below the commitment price, it recognizes the loss in the period of the decline.
 
 **Example:** Polar Co. commits to buy materials for \$90,000. Before delivery, the market value drops to \$74,000.
 
@@ -114,11 +123,11 @@ Dr. Estimated loss on purchase commitment    16,000
 
 ## Estimating Ending Inventory
 
-When a physical count is not practical (e.g., interim reporting, inventory destroyed by fire), companies use estimation methods based on historical relationships.
+When a physical count is not practical (e.g., for interim reporting, or when inventory is destroyed by fire), companies estimate ending inventory from historical relationships.
 
-### Gross Profit Method
+### Gross profit method
 
-The gross profit method estimates ending inventory by working backward from an assumed gross profit percentage.
+The gross profit method estimates cost of goods sold (COGS) and ending inventory by working backward from an assumed gross profit percentage.
 
 $$
 \text{Estimated COGS} = \text{Net Sales} \times (1 - \text{Gross Profit \%})
@@ -128,7 +137,7 @@ $$
 \text{Estimated Ending Inventory} = \text{Goods Available for Sale} - \text{Estimated COGS}
 $$
 
-**Example:** Bear Inc. has beginning inventory of \$50,000 and purchases of \$200,000. Net sales for the period are \$275,000, and the historical gross profit percentage is 40%.
+**Example:** Bear Co. has beginning inventory of \$50,000 and purchases of \$200,000. Net sales for the period are \$275,000, and the historical gross profit percentage is 40%.
 
 $$
 \text{Goods Available for Sale} = \$50{,}000 + \$200{,}000 = \$250{,}000
@@ -144,13 +153,15 @@ $$
 
 :::tip[Exam Tip]
 
-The gross profit method is **not** acceptable for annual financial statements under GAAP. It is used for interim reporting, insurance claims, and reasonableness checks. Be careful with how the gross profit percentage is expressed — "markup on cost" and "gross profit as a percentage of sales" produce different results.
+The gross profit method is **not** acceptable for annual financial statements under GAAP. It is used for interim reporting, insurance claims, and reasonableness checks.
+
+Watch how the gross profit percentage is expressed. A **markup on cost** and **gross profit as a percentage of sales** produce different results. To convert, gross profit on sales = markup on cost ÷ (1 + markup on cost). For example, a 25% markup on cost equals a 20% gross profit on sales.
 
 :::
 
-### Retail Inventory Method
+### Retail inventory method
 
-The retail inventory method estimates ending inventory by converting the retail value of ending inventory to cost using a **cost-to-retail ratio** (also called the cost complement).
+The retail inventory method converts the retail value of ending inventory to cost using a **cost-to-retail ratio** (also called the cost complement).
 
 $$
 \text{Cost-to-Retail Ratio} = \frac{\text{Goods Available for Sale at Cost}}{\text{Goods Available for Sale at Retail}}
@@ -183,7 +194,7 @@ $$
 
 :::info
 
-Under U.S. GAAP, the retail inventory method can approximate **lower of cost or market (LCM)** when net markdowns are excluded from the cost-to-retail ratio calculation. This produces a lower ratio and a more conservative ending inventory.
+The **conventional retail method** approximates lower of cost or market by excluding net markdowns from the cost-to-retail ratio. Leaving markdowns out of the denominator produces a lower ratio and a more conservative ending inventory.
 
 :::
 
@@ -191,7 +202,7 @@ Under U.S. GAAP, the retail inventory method can approximate **lower of cost or 
 
 ## Inventory Costing Illustration
 
-Assume Bear Inc. purchases the following units:
+Assume Bear Co. purchases the following units:
 
 | Date | Units | Cost per unit |
 | --- | ---: | ---: |
@@ -199,23 +210,27 @@ Assume Bear Inc. purchases the following units:
 | Mar. 8 | 100 | \$12 |
 | Oct. 2 | 100 | \$14 |
 
-If Bear Inc. sells 220 units during a period of rising prices:
+Goods available for sale are 300 units costing \$3,600. If Bear Co. sells 220 units during this period of rising prices, 80 units remain:
 
-- **FIFO** leaves the newest costs in ending inventory
-- **LIFO** leaves the oldest costs in ending inventory
-- **Weighted average** smooths the effect
+- **FIFO** leaves the newest costs in ending inventory.
+- **LIFO** leaves the oldest costs in ending inventory.
+- **Weighted average** smooths the effect.
 
-The exam may not ask you for every journal entry, but it often asks which method gives the highest income or highest ending inventory.
+Using a periodic system:
+
+| Method | Ending inventory (80 units) | Cost of goods sold (220 units) |
+| --- | ---: | ---: |
+| FIFO | 80 × \$14 = \$1,120 | \$2,480 |
+| LIFO | 80 × \$10 = \$800 | \$2,800 |
+| Weighted average (\$3,600 ÷ 300 = \$12) | 80 × \$12 = \$960 | \$2,640 |
+
+FIFO gives the highest ending inventory and the lowest cost of goods sold, so it also gives the highest income. The exam may not ask for every journal entry, but it often asks which method gives the highest income or the highest ending inventory.
 
 ## Consignment Example
 
 Panda Industries sends goods costing \$18,000 to a retailer on consignment.
 
-```journal
-Dr. No entry to sales revenue at shipment
-```
-
-Panda continues to report the goods as inventory until the retailer sells them to an outside customer.
+Panda records **no sale** when it ships the goods. It continues to report the \$18,000 as inventory until the retailer sells the goods to an outside customer.
 
 ## Key Inventory Entries
 
@@ -253,7 +268,7 @@ Dr. Loss on inventory write-down    6,500
 - Know the difference between periodic and perpetual systems.
 - Know the major cost flow assumptions.
 - Know the effect of LIFO versus FIFO in rising prices.
-- Know NRV and, when tested, the ceiling-and-floor approach for market.
+- Know NRV and, for LIFO and the retail method, the ceiling-and-floor approach for market.
 - Recognize losses on firm purchase commitments when prices decline.
 
 :::

@@ -3,11 +3,11 @@ import TabItem from '@theme/TabItem';
 
 # Cash and Receivables
 
-Cash and receivables are heavily tested because they combine **classification**, **measurement**, and **journal entry** issues. FAR questions often ask whether an item is cash, a cash equivalent, a receivable, a contra account, or a liability.
+Cash and receivables are heavily tested because they combine **classification**, **measurement**, and **journal entry** issues. Financial Accounting and Reporting (FAR) questions often ask whether an item is cash, a cash equivalent, a receivable, a contra account, or a liability.
 
 ## Cash and Cash Equivalents
 
-Cash includes amounts that are available for immediate use and free from material restriction. Cash equivalents are short-term, highly liquid investments that are readily convertible to known amounts of cash and close enough to maturity that interest-rate risk is insignificant.
+**Cash** includes amounts that are available for immediate use and free from material restriction. **Cash equivalents** are short-term, highly liquid investments that are readily convertible to known amounts of cash and so close to maturity that interest-rate risk is insignificant.
 
 :::tip[Exam rule]
 
@@ -22,7 +22,7 @@ A cash equivalent must have an **original maturity of three months or less from 
 | Treasury bills purchased with 90 days or less to maturity | Cash equivalent |
 | Money market funds | Usually cash equivalent |
 | Post-dated checks | Receivable, not cash |
-| NSF checks | Receivable, not cash |
+| Not-sufficient-funds (NSF) checks | Receivable, not cash |
 | Restricted cash | Separate current or noncurrent line item |
 
 ### Classification examples
@@ -35,24 +35,24 @@ Bear Co. buys a Treasury bill on December 1 that matures on February 1. Because 
   </TabItem>
   <TabItem value="gies" label="Polar Co.">
 
-Polar Co. buys a note on March 1 that matures on August 1. Because five months remain at purchase, it is **not** a cash equivalent even though it matures within the same year.
+Polar Co. buys a note on March 1 that matures on August 1. Because five months remain at purchase, it is **not** a cash equivalent, even though it matures within the same year.
 
   </TabItem>
 </Tabs>
 
 ## Restricted Cash and Overdrafts
 
-Restricted cash is segregated for a stated purpose, such as debt service, collateral, or plant expansion. It is not included with unrestricted cash if the restriction is material.
+**Restricted cash** is segregated for a stated purpose, such as debt service, collateral, or plant expansion. If the restriction is material, report it separately from unrestricted cash.
 
-Bank overdrafts are generally reported as **current liabilities**. If multiple accounts exist at the same bank, a negative balance may be offset against a positive balance at that same bank.
+**Bank overdrafts** are generally reported as **current liabilities**. If an entity has more than one account at the same bank, a negative balance may be offset against a positive balance at that same bank.
 
 :::warning
 
-Do not automatically net an overdraft against another bank account at a different bank.
+Do not net an overdraft against an account at a different bank.
 
 :::
 
-## Trade Receivables Overview
+## Receivables Overview
 
 Receivables are claims to cash arising from sales, loans, or other transactions. The main categories are:
 
@@ -72,9 +72,9 @@ $$
 
 ### Non-interest-bearing notes
 
-A non-interest-bearing promissory note is recorded at the **present value of future cash receipts**, discounted using the market rate of interest. The difference between face value and present value is a discount that is amortized to interest income over the life of the note.
+A non-interest-bearing promissory note is recorded at the **present value of future cash receipts**, discounted at the market rate of interest. The difference between face value and present value is a **discount**, which is amortized to interest income over the life of the note.
 
-**Example:** Sloth Security accepts a \$50,000 note due in one year. The market rate is 8%, but the note states no interest.
+**Example:** Sloth Security sells merchandise and accepts a \$50,000 note due in one year. The market rate is 8%, but the note states no interest.
 
 $$
 \text{Present value} = \frac{\$50{,}000}{1.08} \approx \$46{,}296
@@ -86,14 +86,16 @@ Dr. Notes receivable              50,000
     Cr. Discount on notes receivable   3,704
 ```
 
+The \$3,704 discount is recognized as interest income over the year until the note matures.
+
 ### Discounting a note
 
-When a note is discounted before maturity, use this sequence:
+When a note is discounted at a bank before maturity, use this sequence:
 
-1. compute the **maturity value**
-2. compute the **bank discount** using the maturity value and discount period
-3. compute **proceeds** as maturity value less discount
-4. compare proceeds with the carrying amount to determine gain, loss, or interest income
+1. Compute the **maturity value** (face value plus interest to maturity).
+2. Compute the **bank discount** (maturity value × bank discount rate × discount period).
+3. Compute the **proceeds** (maturity value less the bank discount).
+4. Compare the proceeds with the note's carrying amount to determine any gain, loss, or interest income.
 
 ### With recourse vs. without recourse
 
@@ -104,14 +106,14 @@ When a note is discounted before maturity, use this sequence:
 
 ## Expected Credit Losses (CECL)
 
-U.S. GAAP requires an allowance approach for trade receivables and many other financial assets measured at amortized cost. The goal is to recognize expected losses on a timely basis.
+U.S. generally accepted accounting principles (GAAP) use the **current expected credit loss (CECL)** model in Accounting Standards Codification (ASC) 326. Under CECL, an entity records an allowance for the **lifetime expected credit losses** on trade receivables and most other financial assets measured at amortized cost. The goal is to recognize expected losses on a timely basis, before specific accounts go bad.
 
 ### Estimating the allowance
 
 Common estimation methods include:
 
-- percentage of ending accounts receivable
-- aging of accounts receivable
+- Percentage of ending accounts receivable
+- Aging of accounts receivable
 
 <Tabs>
   <TabItem value="aging" label="Aging method" default>
@@ -144,25 +146,25 @@ Dr. Allowance for expected credit losses    4,500
 
 :::info
 
-The write-off entry does **not** create additional bad debt expense at the time of write-off. Expense was recognized when the allowance was established or adjusted.
+The write-off entry does **not** create additional credit loss expense. Expense was recognized when the allowance was established or adjusted.
 
 :::
 
 ### Why direct write-off fails under GAAP
 
-The direct write-off method records expense only when a specific account proves uncollectible. That method is not acceptable under U.S. GAAP for material receivables because it:
+The direct write-off method records expense only when a specific account proves uncollectible. It is not acceptable under U.S. GAAP for material receivables because it:
 
-- fails to match credit loss expense with the related sales period
-- overstates receivables before write-off
+- Fails to match credit loss expense with the related sales period
+- Overstates receivables before write-off
 
 ## Factoring Accounts Receivable
 
-Factoring means selling receivables to a third party (the factor) for cash.
+**Factoring** means selling receivables to a third party (the factor) for cash.
 
 ### Economic distinction
 
 - **With recourse:** Bear Co. keeps some risk of loss.
-- **Without recourse:** the factor assumes the credit risk.
+- **Without recourse:** The factor assumes the credit risk.
 
 **Example:** Bear Co. factors \$120,000 of receivables without recourse and receives cash of \$116,000.
 
@@ -172,7 +174,7 @@ Dr. Loss on sale of receivables      4,000
     Cr. Accounts receivable            120,000
 ```
 
-If the transfer is with recourse, additional liability recognition may be required for the recourse obligation.
+If the transfer is with recourse, the transferor may also need to recognize a liability for the recourse obligation. Under ASC 860, a transfer is recorded as a sale only if the transferor surrenders control of the receivables; otherwise, it is a secured borrowing.
 
 ## Quick Comparison: Accounts vs. Notes
 
@@ -185,7 +187,7 @@ If the transfer is with recourse, additional liability recognition may be requir
 
 ## Integrated Example
 
-Polar Co. records \$200,000 of credit sales during December. Based on an aging analysis, it estimates expected credit losses of \$6,000. In January, a \$1,400 customer balance is written off.
+Polar Co. records \$200,000 of credit sales during December. Based on an aging analysis, it estimates expected credit losses of \$6,000. Assume the allowance had a zero balance before the adjustment. In January, a \$1,400 customer balance is written off.
 
 **Year-end adjustment**
 
@@ -201,13 +203,13 @@ Dr. Allowance for expected credit losses    1,400
     Cr. Accounts receivable                     1,400
 ```
 
-At December 31, Polar Co. reports accounts receivable net of the allowance, not at gross face amount.
+At December 31, Polar Co. reports accounts receivable net of the allowance, not at the gross face amount.
 
-## What to memorize for FAR
+## What to Memorize for FAR
 
 :::note[Checklist]
 
-- Know the 90-day rule for cash equivalents.
+- Know the three-month (original maturity) rule for cash equivalents.
 - Know that non-interest-bearing notes are recorded at present value.
 - Know the four discounting steps for notes.
 - Know the difference between with recourse and without recourse.

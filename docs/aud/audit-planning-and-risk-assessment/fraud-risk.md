@@ -24,7 +24,7 @@ Fraudulent financial reporting involves **intentional misstatements or omissions
 - Misrepresenting or intentionally omitting events, transactions, or other significant information
 - Intentionally misapplying accounting principles related to amounts, classification, manner of presentation, or disclosure
 
-**Example:** The CFO of Polar Inc. instructs the accounting staff to record fictitious revenue transactions at year-end to inflate earnings and meet analyst expectations. This is fraudulent financial reporting—management is deliberately misstating the financial statements.
+**Example:** The CFO of Polar Inc. instructs the accounting staff to record fictitious revenue transactions at year-end to inflate earnings and meet analyst expectations. This is fraudulent financial reporting: management is deliberately misstating the financial statements.
 
 ### 2. Misappropriation of Assets
 
@@ -74,29 +74,29 @@ Factors creating opportunity:
 
 ### 2. Incentive / Pressure
 
-Incentive (also called **pressure**) is the motivation to commit fraud. Individuals commit fraud because they face pressure—real or perceived—that drives them to act dishonestly.
+Incentive (also called **pressure**) is the motivation to commit fraud. Individuals commit fraud because they face pressure (real or perceived) that drives them to act dishonestly.
 
 Common sources of pressure:
-- **Financial pressure** — Personal debts, lifestyle beyond means, gambling problems
-- **Performance pressure** — Unrealistic earnings targets, compensation tied to financial results
-- **External pressure** — Debt covenants, analyst expectations, regulatory requirements
-- **Organizational pressure** — Threats of layoffs, fear of missing budgets
+- **Financial pressure**: Personal debts, lifestyle beyond means, gambling problems
+- **Performance pressure**: Unrealistic earnings targets, compensation tied to financial results
+- **External pressure**: Debt covenants, analyst expectations, regulatory requirements
+- **Organizational pressure**: Threats of layoffs, fear of missing budgets
 
 ### 3. Rationalization
 
 Rationalization is the **mental justification** that allows the person to reconcile their fraudulent behavior with their self-image. Common rationalizations include:
 
-- "I'm only borrowing it—I'll pay it back"
+- "I'm only borrowing it; I'll pay it back"
 - "I deserve this; the company doesn't pay me enough"
 - "Everyone does it"
 - "Nobody gets hurt"
 - "The company can afford it"
 
-**Example:** A billing clerk at Ursa Security creates a fictitious vendor and submits invoices for payment. The **opportunity** exists because the same person can create vendor accounts and approve payments (no segregation of duties). The **incentive** is mounting personal credit card debt. The **rationalization** is "I've been underpaid for years—this is just what the company owes me."
+**Example:** A billing clerk at Ursa Security creates a fictitious vendor and submits invoices for payment. The **opportunity** exists because the same person can create vendor accounts and approve payments (no segregation of duties). The **incentive** is mounting personal credit card debt. The **rationalization** is "I've been underpaid for years, so this is just what the company owes me."
 
 :::warning
 
-Of the three fraud triangle conditions, **opportunity** is the element most directly addressable through internal controls. Strong controls reduce opportunity—but they cannot eliminate incentive or rationalization. This is why management override of controls is considered a fraud risk in every audit.
+Of the three fraud triangle conditions, **opportunity** is the element most directly addressable through internal controls. Strong controls reduce opportunity, but they cannot eliminate incentive or rationalization. This is why management override of controls is considered a fraud risk in every audit.
 
 :::
 
@@ -108,26 +108,26 @@ The auditor's responsibility is to obtain **reasonable assurance** that the fina
 
 ### Required Actions
 
-1. **Maintain professional skepticism** — The auditor must approach the engagement with a questioning mind and be alert to conditions that may indicate fraud, regardless of the auditor's past experience with the entity's honesty.
+1. **Maintain professional skepticism**: The auditor must approach the engagement with a questioning mind and be alert to conditions that may indicate fraud, regardless of the auditor's past experience with the entity's honesty.
 
-2. **Discuss fraud risks with the engagement team** — The audit team must hold a **brainstorming session** to discuss the susceptibility of the entity's financial statements to material misstatement due to fraud. This discussion should include the engagement partner and should consider how and where fraud could occur.
+2. **Discuss fraud risks with the engagement team**: The audit team must hold a **brainstorming session** to discuss the susceptibility of the entity's financial statements to material misstatement due to fraud. This discussion should include the engagement partner and should consider how and where fraud could occur.
 
-3. **Obtain information to identify fraud risks** — The auditor performs risk assessment procedures specifically designed to identify fraud risks, including:
+3. **Obtain information to identify fraud risks**: The auditor performs risk assessment procedures specifically designed to identify fraud risks, including:
    - Making **inquiries of management** about their assessment of fraud risk and any known or suspected fraud
    - Making **inquiries of those charged with governance** about their oversight of management's fraud risk processes
    - Considering **unusual or unexpected relationships** identified during analytical procedures
    - Considering other information, including **fraud risk factors**
 
-4. **Identify and assess fraud risks** — Based on the information gathered, the auditor identifies specific fraud risks and assesses their likelihood and potential magnitude.
+4. **Identify and assess fraud risks**: Based on the information gathered, the auditor identifies specific fraud risks and assesses their likelihood and potential magnitude.
 
-5. **Respond to assessed fraud risks** — The auditor designs audit procedures that specifically address the identified fraud risks. Responses may include:
+5. **Respond to assessed fraud risks**: The auditor designs audit procedures that specifically address the identified fraud risks. Responses may include:
    - Assigning more experienced personnel to high-risk areas
    - Increasing the unpredictability of audit procedures
    - Modifying the nature, timing, and extent of procedures
 
-6. **Evaluate audit evidence** — The auditor evaluates whether identified misstatements may be indicative of fraud and considers the implications for the audit.
+6. **Evaluate audit evidence**: The auditor evaluates whether identified misstatements may be indicative of fraud and considers the implications for the audit.
 
-7. **Communicate identified fraud** — The auditor must communicate identified or suspected fraud to the appropriate level of management and, in certain cases, to those charged with governance, regulatory authorities, or law enforcement.
+7. **Communicate identified fraud**: The auditor must communicate identified or suspected fraud to the appropriate level of management and, in certain cases, to those charged with governance, regulatory authorities, or law enforcement.
 
 :::note
 
@@ -153,7 +153,7 @@ Even if no specific fraud risk factors are present, the auditor must **always** 
 | **Employee behavior** | Employees living beyond their means; employees who refuse to take vacation; employees who are overly protective of their duties |
 | **Documentation issues** | Missing or altered documents; unexplained reconciling items; excessive voids or credits |
 
-**Example:** During the audit of Bear Co., the auditor notices that the CEO personally approves all journal entries over \$10,000 but has no effective check on his authority. The auditor also observes that several significant non-routine entries were made in the last week of the fiscal year. These red flags—concentration of authority and unusual year-end entries—increase the assessed risk of fraudulent financial reporting.
+**Example:** During the audit of Bear Co., the auditor notices that the CEO personally approves all journal entries over \$10,000 but has no effective check on his authority. The auditor also observes that several significant non-routine entries were made in the last week of the fiscal year. These red flags (concentration of authority and unusual year-end entries) increase the assessed risk of fraudulent financial reporting.
 
 ---
 
@@ -179,11 +179,11 @@ Because revenue recognition is a presumed fraud risk, the auditor must:
 - Design and perform audit procedures that **directly address** the risk of fraudulent revenue recognition
 - Document the rationale if the auditor concludes the presumption **does not apply** to a particular engagement (the presumption is rebuttable, but overcoming it requires strong justification and documentation)
 
-**Example:** Honey Entertainment earns revenue from film licensing, theatrical distribution, and merchandise sales—each with different recognition criteria. Given the complexity and the multiple revenue streams, the auditor identifies a significant risk of fraudulent revenue recognition and designs targeted procedures, including testing license agreements for proper timing of revenue recognition, examining sales near year-end for cutoff, and performing analytics to compare revenue trends by category to industry benchmarks.
+**Example:** Honey Entertainment earns revenue from film licensing, theatrical distribution, and merchandise sales, each with different recognition criteria. Given the complexity and the multiple revenue streams, the auditor identifies a significant risk of fraudulent revenue recognition and designs targeted procedures, including testing license agreements for proper timing of revenue recognition, examining sales near year-end for cutoff, and performing analytics to compare revenue trends by category to industry benchmarks.
 
 :::danger
 
-**Management override of controls** is also a presumed fraud risk that cannot be rebutted. Unlike the revenue recognition presumption—which can be overcome with documentation—the presumption of management override risk **always** applies. The auditor must always test journal entries, review accounting estimates for bias, and evaluate the business rationale for significant unusual transactions.
+**Management override of controls** is also a presumed fraud risk that cannot be rebutted. Unlike the revenue recognition presumption, which can be overcome with documentation, the presumption of management override risk **always** applies. The auditor must always test journal entries, review accounting estimates for bias, and evaluate the business rationale for significant unusual transactions.
 
 :::
 
@@ -198,5 +198,5 @@ Because revenue recognition is a presumed fraud risk, the auditor must:
 | **Fraud triangle** | Opportunity + Incentive/Pressure + Rationalization |
 | **Auditor responsibility** | Obtain reasonable (not absolute) assurance; maintain professional skepticism; brainstorm with team |
 | **Revenue recognition** | Presumed fraud risk in every audit (rebuttable with documentation) |
-| **Management override** | Presumed fraud risk that is **not** rebuttable—always applies |
+| **Management override** | Presumed fraud risk that is **not** rebuttable; always applies |
 | **Red flags** | Unusual journal entries, governance weaknesses, financial pressure, operational complexity |

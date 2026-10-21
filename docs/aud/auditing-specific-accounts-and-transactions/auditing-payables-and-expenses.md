@@ -31,9 +31,9 @@ Proper segregation requires that the person who **authorizes** purchases (purcha
 
 Before an invoice is approved for payment, the accounts payable department performs a **three-way match** by comparing:
 
-1. **Purchase Order (PO)** – Confirms the goods were authorized and specifies agreed-upon prices and quantities
-2. **Receiving Report** – Confirms the goods were actually received and in what quantities
-3. **Vendor Invoice** – The bill from the supplier requesting payment
+1. **Purchase Order (PO)**: Confirms the goods were authorized and specifies agreed-upon prices and quantities
+2. **Receiving Report**: Confirms the goods were actually received and in what quantities
+3. **Vendor Invoice**: The bill from the supplier requesting payment
 
 :::tip[Exam Tip]
 
@@ -43,7 +43,7 @@ The three-way match is a critical **internal control** over the expenditure cycl
 
 ### Example: Three-Way Match at Bear Co.
 
-Bear Co. orders 500 units from a supplier at \$10 each. The receiving report shows 480 units received. The vendor invoice bills for 500 units at \$10 each. The accounts payable clerk identifies the 20-unit discrepancy and contacts the vendor before approving payment—only paying for 480 units actually received.
+Bear Co. orders 500 units from a supplier at \$10 each. The receiving report shows 480 units received. The vendor invoice bills for 500 units at \$10 each. The accounts payable clerk identifies the 20-unit discrepancy and contacts the vendor before approving payment, paying only for 480 units actually received.
 
 ## Accounts Payable Confirmations
 
@@ -51,7 +51,7 @@ Unlike AR confirmations (which are almost always performed), AP confirmations ar
 
 ### When AP Confirmations Are Used
 
-AP confirmations are most useful when sent to vendors with **small or zero balances** per the client's records. The goal is to detect **unrecorded liabilities**—invoices the client received but never recorded.
+AP confirmations are most useful when sent to vendors with **small or zero balances** per the client's records. The goal is to detect **unrecorded liabilities**: invoices the client received but never recorded.
 
 :::warning[Key Difference from AR Confirmations]
 
@@ -72,11 +72,11 @@ This is one of the most important expenditure cycle procedures and directly addr
 
 ### Procedure Steps
 
-1. **Examine cash disbursements after year-end** – Review checks written and payments made in the period following the balance sheet date to identify invoices that relate to the audit period but were not recorded as liabilities at year-end.
-2. **Review unmatched receiving reports** – Identify receiving reports near year-end that have no corresponding recorded payable (goods received but liability not yet booked).
-3. **Review unmatched purchase orders** – Examine open POs for goods that may have been received but not yet invoiced.
-4. **Examine vendor statements** – Compare vendor statements received after year-end to recorded payable balances.
-5. **Inquire of management** – Ask about any known unrecorded obligations.
+1. **Examine cash disbursements after year-end**: Review checks written and payments made in the period following the balance sheet date to identify invoices that relate to the audit period but were not recorded as liabilities at year-end.
+2. **Review unmatched receiving reports**: Identify receiving reports near year-end that have no corresponding recorded payable (goods received but liability not yet booked).
+3. **Review unmatched purchase orders**: Examine open POs for goods that may have been received but not yet invoiced.
+4. **Examine vendor statements**: Compare vendor statements received after year-end to recorded payable balances.
+5. **Inquire of management**: Ask about any known unrecorded obligations.
 
 :::note
 

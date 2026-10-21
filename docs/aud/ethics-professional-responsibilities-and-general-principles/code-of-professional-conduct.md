@@ -14,7 +14,7 @@ The Code of Professional Conduct is organized in a hierarchical structure. Each 
 |-------|-------------|
 | **Principles** | Broad, aspirational statements that express the profession's ideals and provide the framework for the rules. Not enforceable on their own. |
 | **Rules** | Specific, enforceable requirements that CPAs must follow. Violations can lead to disciplinary action. |
-| **Interpretations** | Published guidance from the AICPA Professional Ethics Executive Committee that explains how rules apply to specific circumstances. Presumptively mandatory — a CPA must follow them or demonstrate that alternative actions achieve the rule's objective. |
+| **Interpretations** | Published guidance from the AICPA Professional Ethics Executive Committee that explains how rules apply to specific circumstances. Presumptively mandatory: a CPA must follow them or demonstrate that alternative actions achieve the rule's objective. |
 | **Other Guidance** | Ethics rulings, practice aids, and other nonauthoritative resources that provide additional context for applying the rules. |
 
 :::info
@@ -72,7 +72,7 @@ The AICPA uses a **conceptual framework approach** to evaluate independence. Rat
 
 This framework applies when the CPA encounters a relationship or circumstance that is not explicitly addressed by the specific independence rules.
 
-**Example:** Bear Co. asks its audit firm to also provide employee training on how to use a new accounting software system. The specific rules do not directly address this situation. The auditor uses the conceptual framework to identify any threats (such as management participation), evaluates whether those threats are significant, and determines whether safeguards — such as ensuring Bear Co. management makes all decisions about the system — can reduce the threat to an acceptable level.
+**Example:** Bear Co. asks its audit firm to also provide employee training on how to use a new accounting software system. The specific rules do not directly address this situation. The auditor uses the conceptual framework to identify any threats (such as management participation), evaluates whether those threats are significant, and determines whether safeguards (such as ensuring Bear Co. management makes all decisions about the system) can reduce the threat to an acceptable level.
 
 ---
 
@@ -129,13 +129,13 @@ A CPA firm can provide nonattest services (such as tax, consulting, or bookkeepi
 
 1. The attest client's **management agrees to assume all management responsibilities** for the nonattest service
 2. The client **oversees the service** by designating an individual (preferably in senior management) who possesses suitable skill, knowledge, or experience
-3. The CPA **does not assume management responsibilities** — meaning the CPA does not make decisions, act in a management capacity, or perform ongoing management functions
+3. The CPA **does not assume management responsibilities**, meaning the CPA does not make decisions, act in a management capacity, or perform ongoing management functions
 
 **Example:** Kodiak Partners engages its audit firm to assist with bookkeeping services during the year. Independence is maintained as long as Kodiak Partners' management reviews and approves all journal entries, takes responsibility for the financial records, and has an individual with the competence to oversee the bookkeeping work. If the audit firm were to approve transactions or make accounting decisions without client oversight, independence would be impaired.
 
 :::tip[Exam Tip]
 
-The three requirements for nonattest services — management responsibility, client oversight, and no management role for the CPA — appear frequently on the exam. Remember that the client must always be "in the driver's seat."
+The three requirements for nonattest services (management responsibility, client oversight, and no management role for the CPA) appear frequently on the exam. Remember that the client must always be "in the driver's seat."
 
 :::
 
@@ -147,7 +147,7 @@ Independence is considered impaired if **fees for services provided more than on
 
 ### Gifts and Entertainment
 
-A covered member's independence is impaired if the member accepts a **gift** from an attest client, unless the gift is clearly insignificant to both parties. Modest gifts — such as a promotional item, a holiday basket, or a meal of nominal value — generally do not impair independence.
+A covered member's independence is impaired if the member accepts a **gift** from an attest client, unless the gift is clearly insignificant to both parties. Modest gifts, such as a promotional item, a holiday basket, or a meal of nominal value, generally do not impair independence.
 
 **Entertainment** (meals, sporting events, etc.) is evaluated based on whether it is reasonable in the circumstances. The CPA should consider:
 
@@ -195,6 +195,6 @@ When a **former partner or professional employee** of the firm joins an attest c
 
 :::tip[Final Exam Tip]
 
-When facing an independence question on the CPA exam, follow this process: (1) Identify the relationship or circumstance. (2) Determine if it involves a covered member. (3) Check the specific rules first. (4) If no specific rule applies, use the conceptual framework — identify the threat, evaluate its significance, and determine if safeguards can reduce it to an acceptable level.
+When facing an independence question on the CPA exam, follow this process: (1) Identify the relationship or circumstance. (2) Determine if it involves a covered member. (3) Check the specific rules first. (4) If no specific rule applies, use the conceptual framework: identify the threat, evaluate its significance, and determine if safeguards can reduce it to an acceptable level.
 
 :::

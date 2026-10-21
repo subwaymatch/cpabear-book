@@ -1,6 +1,6 @@
 # Revenue Recognition
 
-The FAR section of the CPA exam tests your ability to **apply** the five-step revenue recognition model under ASC 606. The BAR section goes a step further — it asks you to **interpret** contracts, **analyze** supporting documentation, and **use data analytics** to detect discrepancies in how revenue is recognized. Think of BAR as the analytical lens: given a set of facts, can you determine the correct amount and timing of revenue, and can you spot when something looks wrong?
+The FAR section of the CPA exam tests your ability to **apply** the five-step revenue recognition model under ASC 606. The BAR section goes a step further: it asks you to **interpret** contracts, **analyze** supporting documentation, and **use data analytics** to detect discrepancies in how revenue is recognized. Think of BAR as the analytical lens: given a set of facts, can you determine the correct amount and timing of revenue, and can you spot when something looks wrong?
 :::info[Blueprint Coverage]
 This topic maps to **Area II, Group C** of the 2026 CPA Exam Blueprints for **Business Analysis and Reporting (BAR)**. The blueprint expects candidates to:
 
@@ -12,7 +12,7 @@ This topic maps to **Area II, Group C** of the 2026 CPA Exam Blueprints for **Bu
 
 ## Five-Step Model Recap
 
-ASC 606 provides a single framework for recognizing revenue from contracts with customers. The BAR exam assumes you already know the five steps — the focus shifts to interpreting real-world contracts through this lens.
+ASC 606 provides a single framework for recognizing revenue from contracts with customers. The BAR exam assumes you already know the five steps; the focus shifts to interpreting real-world contracts through this lens.
 
 ```mermaid
 graph LR
@@ -29,11 +29,11 @@ graph LR
 
 | Step                                     | Core Question                              | BAR Analytical Focus                                                        |
 | ---------------------------------------- | ------------------------------------------ | --------------------------------------------------------------------------- |
-| **1 — Identify the Contract**            | Do all five contract criteria exist?       | Reviewing agreements for missing terms, side letters, or oral modifications |
-| **2 — Identify Performance Obligations** | What distinct promises exist?              | Determining whether bundled deliverables are truly distinct                 |
-| **3 — Determine Transaction Price**      | How much consideration is expected?        | Estimating variable consideration and applying the constraint               |
-| **4 — Allocate Transaction Price**       | How is the price split across obligations? | Selecting the right standalone selling price method                         |
-| **5 — Recognize Revenue**                | When does control transfer?                | Interpreting whether recognition is over time or at a point in time         |
+| **1. Identify the Contract**             | Do all five contract criteria exist?       | Reviewing agreements for missing terms, side letters, or oral modifications |
+| **2. Identify Performance Obligations**  | What distinct promises exist?              | Determining whether bundled deliverables are truly distinct                 |
+| **3. Determine Transaction Price**       | How much consideration is expected?        | Estimating variable consideration and applying the constraint               |
+| **4. Allocate Transaction Price**        | How is the price split across obligations? | Selecting the right standalone selling price method                         |
+| **5. Recognize Revenue**                 | When does control transfer?                | Interpreting whether recognition is over time or at a point in time         |
 
 :::tip[Exam Tip]
 BAR questions rarely ask you to define the five steps. Instead, they present a contract scenario and ask you to **identify the correct revenue amount**, **determine the recognition pattern**, or **explain why a particular treatment is wrong**.
@@ -43,7 +43,7 @@ BAR questions rarely ask you to define the five steps. Instead, they present a c
 
 ## Analyzing Contracts for Performance Obligations
 
-The most heavily tested BAR skill is reading a contract and identifying **how many performance obligations** it contains. The key test is whether a promised good or service is **distinct** — meaning the customer can benefit from it on its own (or with readily available resources) **and** it is separately identifiable within the contract.
+The most heavily tested BAR skill is reading a contract and identifying **how many performance obligations** it contains. The key test is whether a promised good or service is **distinct**, meaning the customer can benefit from it on its own (or with readily available resources) **and** it is separately identifiable within the contract.
 
 ### Decision Framework
 
@@ -65,24 +65,24 @@ A promised good or service is **not** separately identifiable (and must be combi
 - The good or service **significantly modifies or customizes** another promised item
 - The goods or services are **highly interdependent or interrelated**
 
-### Example — Bear Co. Software Bundle
+### Example: Bear Co. Software Bundle
 
 Bear Co. sells a software license, implementation services, and two years of post-contract support (PCS) for a total of \$500,000.
 | Deliverable | Capable of Being Distinct? | Separately Identifiable? | Conclusion |
 |-------------|--------------------------|------------------------|------------|
-| Software license | Yes — functions on its own | Yes — no significant customization needed | **Separate obligation** |
-| Implementation | Yes — third parties offer similar services | No — significantly customizes the software for Bear Co.'s industry | **Combined with license** |
-| PCS (2 years) | Yes — could be purchased separately | Yes — standard support, not interrelated with setup | **Separate obligation** |
-**Result:** Two performance obligations — (1) the customized software solution (license + implementation) and (2) PCS.
+| Software license | Yes (functions on its own) | Yes (no significant customization needed) | **Separate obligation** |
+| Implementation | Yes (third parties offer similar services) | No (significantly customizes the software for Bear Co.'s industry) | **Combined with license** |
+| PCS (2 years) | Yes (could be purchased separately) | Yes (standard support, not interrelated with setup) | **Separate obligation** |
+**Result:** Two performance obligations: (1) the customized software solution (license + implementation) and (2) PCS.
 :::warning
-Watch for contracts where implementation services involve **significant customization**. Even though implementation could be purchased from a third party (capable of being distinct), the fact that it substantially modifies the software means it is **not separately identifiable** — and must be combined with the license into a single obligation.
+Watch for contracts where implementation services involve **significant customization**. Even though implementation could be purchased from a third party (capable of being distinct), the fact that it substantially modifies the software means it is **not separately identifiable** and must be combined with the license into a single obligation.
 :::
 
 ---
 
 ## Identifying and Estimating Variable Consideration
 
-Many contracts include consideration that varies based on future events — discounts, rebates, performance bonuses, penalties, or rights of return. The BAR exam tests your ability to **select the right estimation method** and **apply the constraint**.
+Many contracts include consideration that varies based on future events, such as discounts, rebates, performance bonuses, penalties, or rights of return. The BAR exam tests your ability to **select the right estimation method** and **apply the constraint**.
 
 ### Two Estimation Methods
 
@@ -101,7 +101,7 @@ Factors that increase the risk of a significant reversal:
 - The entity has **limited experience** with similar contracts
 - The contract has a **broad range** of possible outcomes
 
-### Example — Bear Co. Performance Bonus
+### Example: Bear Co. Performance Bonus
 
 Bear Co. enters a consulting engagement with Polar Inc. for a base fee of \$200,000. The contract includes a \$50,000 bonus if the project is completed by March 31.
 Bear Co. assesses the following:
@@ -142,7 +142,7 @@ Determining **when** to recognize revenue requires interpreting whether a perfor
 A performance obligation is satisfied over time if **any one** of the following criteria is met:
 | Criterion | Interpretation | Typical Example |
 |-----------|---------------|-----------------|
-| Customer simultaneously **receives and consumes** benefits | Would another entity need to substantially re-perform the work? If no → over time | Cleaning services, monthly IT support |
+| Customer simultaneously **receives and consumes** benefits | Would another entity need to substantially re-perform the work? If no, recognize over time | Cleaning services, monthly IT support |
 | Entity's performance creates or enhances an **asset the customer controls** | Does the customer control the work in progress? | Construction on customer-owned land |
 | Asset has **no alternative use** to the entity + entity has an **enforceable right to payment** for performance to date | Could the entity redirect the partially completed asset to another customer? | Custom-manufactured equipment built to spec |
 
@@ -174,7 +174,7 @@ $$
 \text{Revenue to Date} = \text{Transaction Price} \times \text{Percentage Complete}
 $$
 
-### Example — Polar Inc. Construction Contract
+### Example: Polar Inc. Construction Contract
 
 Polar Inc. enters a fixed-price construction contract with Bear Co. to build a warehouse on Bear Co.'s land for \$3,000,000. Total estimated costs are \$2,400,000. Because the asset is being built on the customer's land (criterion 2), revenue is recognized **over time** using the cost-to-cost method.
 | | Year 1 | Year 2 | Year 3 |
@@ -187,7 +187,7 @@ Polar Inc. enters a fixed-price construction contract with Bear Co. to build a w
 **Year 1 calculations:**
 
 $$
-\text{% Complete} = \frac{\$720{,}000}{\$2{,}400{,}000} = 30\%
+\text{\% Complete} = \frac{\$720{,}000}{\$2{,}400{,}000} = 30\%
 $$
 
 $$
@@ -219,7 +219,7 @@ $$
 $$
 
 :::warning
-If total estimated costs are revised upward and the contract becomes **unprofitable**, the **entire expected loss** must be recognized immediately — regardless of the percentage complete. This applies to both over-time and point-in-time contracts.
+If total estimated costs are revised upward and the contract becomes **unprofitable**, the **entire expected loss** must be recognized immediately, regardless of the percentage complete. This applies to both over-time and point-in-time contracts.
 :::
 
 ---
@@ -228,7 +228,7 @@ If total estimated costs are revised upward and the contract becomes **unprofita
 
 The BAR exam frequently presents contract excerpts and asks you to determine the correct accounting treatment. Below are scenarios that require careful interpretation.
 
-### Scenario 1 — Multiple-Element Arrangements with Discounts
+### Scenario 1: Multiple-Element Arrangements with Discounts
 
 Bear Co. sells three products in a single contract for a bundled price of \$180,000. Each product can be purchased separately.
 | Product | Standalone Selling Price (SSP) |
@@ -255,7 +255,7 @@ A discount may be allocated to **fewer than all** performance obligations only i
 
 ---
 
-### Scenario 2 — Contract Modifications
+### Scenario 2: Contract Modifications
 
 Bear Co. has an existing contract to deliver 100 units of a product to Polar Inc. at \$50 per unit (\$5,000 total). After 60 units have been delivered, the contract is modified to add 40 more units at \$42 per unit.
 **Key question:** Is the modification a **separate contract** or an adjustment to the existing one?
@@ -263,7 +263,7 @@ A modification is a **separate contract** when **both** conditions are met:
 
 1. The additional goods or services are **distinct**
 2. The price reflects the **standalone selling price** of the additional goods
-   If the standalone selling price per unit is \$42, the modification is a **separate contract** — the 40 new units are accounted for independently.
+   If the standalone selling price per unit is \$42, the modification is a **separate contract**: the 40 new units are accounted for independently.
    If the standalone selling price is \$50 (meaning \$42 is a discount influenced by the existing arrangement), the modification is **not** a separate contract. The entity must determine the appropriate treatment:
    | Situation | Treatment |
    |-----------|-----------|
@@ -272,7 +272,7 @@ A modification is a **separate contract** when **both** conditions are met:
 
 ---
 
-### Scenario 3 — Licenses of Intellectual Property
+### Scenario 3: Licenses of Intellectual Property
 
 Bear Co. licenses its proprietary analytics software to Polar Inc. The contract includes:
 
@@ -295,14 +295,14 @@ Dr. Accounts Receivable[a] 100,000
 
 ---
 
-### Scenario 4 — Principal vs. Agent Determination
+### Scenario 4: Principal vs. Agent Determination
 
 Polar Inc. operates an online marketplace connecting sellers with buyers. For each transaction, Polar Inc. sets the price, holds inventory briefly in its warehouse, and bears the risk of returned goods.
 | Indicator | Observation | Points Toward |
 |-----------|------------|---------------|
-| Controls good before transfer? | Yes — holds inventory | **Principal** |
-| Bears inventory risk? | Yes — risk of returns | **Principal** |
-| Has pricing discretion? | Yes — sets prices | **Principal** |
+| Controls good before transfer? | Yes (holds inventory) | **Principal** |
+| Bears inventory risk? | Yes (risk of returns) | **Principal** |
+| Has pricing discretion? | Yes (sets prices) | **Principal** |
 Polar Inc. is the **principal** and reports **gross revenue**. If Polar Inc. never took possession and simply facilitated the transaction, it would be an **agent** reporting only its commission as **net revenue**.
 
 $$
@@ -314,14 +314,14 @@ $$
 $$
 
 :::warning
-A common exam trap is a company that **briefly holds** goods in transit. Merely touching inventory is not enough to establish control — look for **pricing discretion**, **inventory risk**, and **primary responsibility** for fulfilling the promise to the customer.
+A common exam trap is a company that **briefly holds** goods in transit. Merely touching inventory is not enough to establish control. Look for **pricing discretion**, **inventory risk**, and **primary responsibility** for fulfilling the promise to the customer.
 :::
 
 ---
 
 ## Using Data Analytics to Detect Revenue Anomalies
 
-The BAR blueprint specifically tests your ability to **interpret outputs from data analytic techniques** — reports, visualizations, and trend analyses — to find errors or unusual patterns in revenue recognition.
+The BAR blueprint specifically tests your ability to **interpret outputs from data analytic techniques** (reports, visualizations, and trend analyses) to find errors or unusual patterns in revenue recognition.
 
 ### Common Analytical Techniques
 
@@ -347,7 +347,7 @@ $$
 \text{Deferred Revenue Ratio} = \frac{\text{Contract Liabilities}}{\text{Total Revenue}}
 $$
 
-### Example — Detecting Revenue Anomalies at Bear Co.
+### Example: Detecting Revenue Anomalies at Bear Co.
 
 A quarterly analytics dashboard for Bear Co. reveals the following:
 | Metric | Q1 | Q2 | Q3 | Q4 |
@@ -358,14 +358,14 @@ A quarterly analytics dashboard for Bear Co. reveals the following:
 | Contract liability balance (\$ thousands) | \$320 | \$310 | \$330 | \$180 |
 **Red flags identified:**
 
-1. **Q4 revenue spike** — Revenue increased 60% over Q3, yet new contracts signed remained flat. This could indicate:
+1. **Q4 revenue spike**: Revenue increased 60% over Q3, yet new contracts signed remained flat. This could indicate:
    - Premature recognition of revenue from contracts not yet fulfilled
    - Channel stuffing (shipping product to distributors before genuine demand)
    - Improper release of deferred revenue (contract liabilities dropped sharply)
-2. **DSO surge** — DSO jumped from ~39 days to 62 days in Q4. Rising receivables relative to revenue suggests customers have not paid, possibly because they have not accepted the goods or services. This may indicate **bill-and-hold** arrangements or **side agreements** granting extended payment terms.
-3. **Contract liability decline** — A \$150,000 drop in contract liabilities without a proportional increase in fulfilled obligations suggests revenue may have been recognized **before performance obligations were satisfied**.
+2. **DSO surge**: DSO jumped from ~39 days to 62 days in Q4. Rising receivables relative to revenue suggests customers have not paid, possibly because they have not accepted the goods or services. This may indicate **bill-and-hold** arrangements or **side agreements** granting extended payment terms.
+3. **Contract liability decline**: A \$150,000 drop in contract liabilities without a proportional increase in fulfilled obligations suggests revenue may have been recognized **before performance obligations were satisfied**.
    :::tip[Exam Tip]
-   When the BAR exam presents a data visualization or report, follow a three-step approach: **(1) Identify the anomaly** — what number or trend stands out? **(2) Hypothesize the cause** — what revenue recognition error could explain it? **(3) Determine the resolution** — what adjustment or investigation is needed?
+   When the BAR exam presents a data visualization or report, follow a three-step approach: **(1) Identify the anomaly**: what number or trend stands out? **(2) Hypothesize the cause**: what revenue recognition error could explain it? **(3) Determine the resolution**: what adjustment or investigation is needed?
    :::
 
 ### Data-Driven Investigation Workflow
@@ -386,31 +386,31 @@ graph TD
 
 ## Practical Contract Analysis: Putting It All Together
 
-### Comprehensive Example — Bear Co. Multi-Element Contract
+### Comprehensive Example: Bear Co. Multi-Element Contract
 
 Bear Co. enters a contract with Polar Inc. containing the following elements:
 
-- **Custom equipment** built to Polar Inc.'s specifications — delivery in 6 months
-- **Installation services** — completed over 2 weeks after delivery
-- **2-year maintenance agreement** — quarterly on-site inspections
-- **Performance bonus** — Bear Co. earns \$40,000 if the equipment achieves a specified output threshold within 90 days of installation
+- **Custom equipment** built to Polar Inc.'s specifications, delivered in 6 months
+- **Installation services**, completed over 2 weeks after delivery
+- **2-year maintenance agreement** with quarterly on-site inspections
+- **Performance bonus**: Bear Co. earns \$40,000 if the equipment achieves a specified output threshold within 90 days of installation
   **Total fixed contract price:** \$620,000
 
-#### Step 1 — Identify the Contract
+#### Step 1: Identify the Contract
 
-The agreement is signed by both parties, rights and payment terms are specified, the arrangement has commercial substance, and collection is probable. ✓ Valid contract.
+The agreement is signed by both parties, rights and payment terms are specified, the arrangement has commercial substance, and collection is probable. The contract is valid.
 
-#### Step 2 — Identify Performance Obligations
+#### Step 2: Identify Performance Obligations
 
 | Deliverable           | Distinct?                                                                       | Reasoning                                                 | Conclusion              |
 | --------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------- | ----------------------- |
-| Custom equipment      | Capable — yes; Separately identifiable — yes (installation is routine)          | Equipment functions without installation services         | **Separate obligation** |
-| Installation          | Capable — yes; Separately identifiable — yes (routine, not highly interrelated) | Other vendors could install; no significant customization | **Separate obligation** |
-| Maintenance (2 years) | Capable — yes; Separately identifiable — yes                                    | Standard service available from third parties             | **Separate obligation** |
+| Custom equipment      | Capable: yes; Separately identifiable: yes (installation is routine)            | Equipment functions without installation services         | **Separate obligation** |
+| Installation          | Capable: yes; Separately identifiable: yes (routine, not highly interrelated)   | Other vendors could install; no significant customization | **Separate obligation** |
+| Maintenance (2 years) | Capable: yes; Separately identifiable: yes                                      | Standard service available from third parties             | **Separate obligation** |
 
 **Three performance obligations** identified.
 
-#### Step 3 — Determine Transaction Price
+#### Step 3: Determine Transaction Price
 
 Fixed consideration: \$620,000
 Variable consideration (performance bonus): Bear Co. has manufactured similar equipment for other customers and has met the output threshold in 9 out of 10 prior contracts. Because this is a binary outcome, the **most likely amount** is \$40,000. Given strong historical experience, a significant reversal is not probable. Include the bonus.
@@ -419,7 +419,7 @@ $$
 \text{Transaction Price} = \$620{,}000 + \$40{,}000 = \$660{,}000
 $$
 
-#### Step 4 — Allocate Transaction Price
+#### Step 4: Allocate Transaction Price
 
 | Obligation   | SSP           | Ratio    | Allocated Price |
 | ------------ | ------------- | -------- | --------------- |
@@ -434,7 +434,7 @@ $$
 
 Because the \$40,000 variable consideration relates specifically to the equipment's performance and allocating it entirely to equipment is consistent with the overall allocation objective, it is allocated to the equipment obligation.
 
-#### Step 5 — Recognize Revenue
+#### Step 5: Recognize Revenue
 
 | Obligation   | Timing Criterion                                       | Pattern                                |
 | ------------ | ------------------------------------------------------ | -------------------------------------- |
@@ -442,7 +442,7 @@ Because the \$40,000 variable consideration relates specifically to the equipmen
 | Installation | Customer receives and consumes benefits simultaneously | **Over time** (completed over 2 weeks) |
 | Maintenance  | Customer receives and consumes benefits                | **Over time** (ratably over 2 years)   |
 
-**Equipment — at 50% complete (midpoint of construction):**
+**Equipment at 50% complete (midpoint of construction):**
 
 $$
 \text{Revenue} = \$396{,}000 \times 50\% = \$198{,}000
@@ -453,14 +453,14 @@ Dr. Contract Asset[a] 198,000
     Cr. Revenue 198,000
 ```
 
-**Installation — upon completion:**
+**Installation, upon completion:**
 
 ```journal
 Dr. Accounts Receivable[a] 66,000
     Cr. Revenue 66,000
 ```
 
-**Maintenance — quarterly recognition (\$198,000 ÷ 8 quarters):**
+**Maintenance, quarterly recognition (\$198,000 ÷ 8 quarters):**
 
 $$
 \text{Quarterly Revenue} = \frac{\$198{,}000}{8} = \$24{,}750
@@ -486,5 +486,5 @@ Dr. Accounts Receivable[a] 24,750
 | **Contract modifications**  | Determine whether a modification is a separate contract or an adjustment                       |
 
 :::info
-**Key takeaway:** BAR revenue recognition is about **interpretation**, not memorization. You must be able to read a contract, map its terms to the five-step model, and explain _why_ revenue is recognized in a specific amount and at a specific time. Pair this with data analytics — if the numbers on a dashboard don't align with what the contract says, you should be able to identify the discrepancy and propose a resolution.
+**Key takeaway:** BAR revenue recognition is about **interpretation**, not memorization. You must be able to read a contract, map its terms to the five-step model, and explain _why_ revenue is recognized in a specific amount and at a specific time. Pair this with data analytics: if the numbers on a dashboard don't align with what the contract says, you should be able to identify the discrepancy and propose a resolution.
 :::

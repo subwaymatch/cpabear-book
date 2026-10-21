@@ -1,6 +1,6 @@
 # Incident Response
 
-When a cybersecurity breach occurs, an organization's ability to respond quickly and effectively determines the extent of damage, legal liability, and reputational harm. Incident response is the structured approach to detecting, containing, and recovering from security incidents — and it is a critical area for CPAs performing IT audit, advisory, and SOC engagements. Understanding how organizations prepare for and respond to incidents allows CPAs to evaluate whether response plans are adequate, whether the entity followed its own procedures, and whether appropriate risk transfer mechanisms (such as cyber insurance) are in place.
+When a cybersecurity breach occurs, an organization's ability to respond quickly and effectively determines the extent of damage, legal liability, and reputational harm. Incident response is the structured approach to detecting, containing, and recovering from security incidents, and it is a critical area for CPAs performing IT audit, advisory, and SOC engagements. Understanding how organizations prepare for and respond to incidents allows CPAs to evaluate whether response plans are adequate, whether the entity followed its own procedures, and whether appropriate risk transfer mechanisms (such as cyber insurance) are in place.
 This section covers **the distinction between security events and incidents**, **cyber insurance as a risk transfer strategy**, **incident response plan components (roles, responsibilities, methods, steps, and timelines)**, **the phases of incident response**, and **procedures to test whether an entity responded to incidents in accordance with its plan**.
 :::info
 The ISC exam tests incident response at the Remembering and Understanding level (recall differences between events and incidents, explain cyber insurance, summarize IR plan contents) and at the Application level (perform procedures to test whether the entity responded to incidents in accordance with its plan).
@@ -47,7 +47,7 @@ Organizations use defined criteria to classify events and determine whether esca
 
 ## Cyber Insurance
 
-**Cyber insurance** (also called cyber liability insurance) is a risk **transfer** mechanism that helps organizations offset the financial impact of security incidents and data breaches. It does not prevent incidents — it mitigates the financial consequences after an incident occurs.
+**Cyber insurance** (also called cyber liability insurance) is a risk **transfer** mechanism that helps organizations offset the financial impact of security incidents and data breaches. It does not prevent incidents; it mitigates the financial consequences after an incident occurs.
 
 ### Coverage Categories
 
@@ -73,13 +73,13 @@ Cyber insurance policies typically **do not** cover:
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | **Pre-incident requirements** | Many policies require the insured to maintain specific controls (MFA, endpoint protection, backups) as a condition of coverage |
 | **Approved vendor panels**    | Insurers often require use of pre-approved forensics firms, legal counsel, and breach notification vendors                     |
-| **Notification timelines**    | Policies require prompt notification to the insurer — delays can void coverage                                                 |
+| **Notification timelines**    | Policies require prompt notification to the insurer; delays can void coverage                                                 |
 | **Coordination with IR plan** | The IR plan should reference the cyber insurance policy and include insurer notification in its communication protocols        |
 | **Coverage limits**           | Policies have aggregate limits and sub-limits per category; organizations must ensure limits align with risk exposure          |
 
-**Example:** **Polar Inc.** purchases a cyber insurance policy with $5 million aggregate coverage. When a ransomware attack encrypts its accounting systems, the insurer covers forensic investigation ($250,000), business interruption losses ($800,000), and breach notification costs ($150,000). However, the insurer denies the claim for data recovery because Polar Inc. failed to maintain the offline backup requirement specified in the policy — illustrating that insurance is not a substitute for adequate controls.
+**Example:** **Polar Inc.** purchases a cyber insurance policy with \$5 million aggregate coverage. When a ransomware attack encrypts its accounting systems, the insurer covers forensic investigation (\$250,000), business interruption losses (\$800,000), and breach notification costs (\$150,000). However, the insurer denies the claim for data recovery because Polar Inc. failed to maintain the offline backup requirement specified in the policy. This illustrates that insurance is not a substitute for adequate controls.
 :::warning
-Cyber insurance is a **supplement** to — not a replacement for — an effective security program. Insurers increasingly require evidence of robust controls before issuing policies, and failure to maintain those controls can void coverage when a claim is filed.
+Cyber insurance is a **supplement** to, not a replacement for, an effective security program. Insurers increasingly require evidence of robust controls before issuing policies, and failure to maintain those controls can void coverage when a claim is filed.
 :::
 
 ---
@@ -136,7 +136,7 @@ graph TD
 
 ## Incident Response Phases
 
-The NIST Cybersecurity Framework (SP 800-61) defines four phases of incident response. These phases are not strictly linear — organizations often cycle between detection and containment as new information emerges.
+The NIST Cybersecurity Framework (SP 800-61) defines four phases of incident response. These phases are not strictly linear; organizations often cycle between detection and containment as new information emerges.
 
 ```mermaid
 graph LR
@@ -155,11 +155,11 @@ graph LR
 | **3. Containment, Eradication & Recovery** | Limit damage, remove the threat, and restore operations | Isolate affected systems, preserve evidence, remove malware, patch vulnerabilities, restore from backups, verify system integrity before returning to production |
 | **4. Post-Incident Activity**              | Learn from the incident and improve future response     | Conduct lessons-learned meeting, update IR plan, identify control gaps, produce incident report, update detection rules                                          |
 
-> **Example:** **Illini Entertainment** detects unusual database queries against its customer PII table (Phase 2). The IR team isolates the affected database server from the network (Phase 3 — containment), identifies that an attacker exploited an unpatched SQL injection vulnerability (Phase 3 — eradication involves patching), restores verified clean data from backups (Phase 3 — recovery), and conducts a lessons-learned review that results in implementing automated patch management for database servers (Phase 4).
+> **Example:** **Illini Entertainment** detects unusual database queries against its customer PII table (Phase 2). The IR team isolates the affected database server from the network (Phase 3: containment), identifies that an attacker exploited an unpatched SQL injection vulnerability (Phase 3: eradication involves patching), restores verified clean data from backups (Phase 3: recovery), and conducts a lessons-learned review that results in implementing automated patch management for database servers (Phase 4).
 
 ## Testing Incident Response Plan Compliance
 
-CPAs performing IT audit or SOC engagements must evaluate whether an organization **actually followed** its incident response plan when real incidents occurred. This is an **application-level** skill — you must be able to design and perform procedures to assess compliance.
+CPAs performing IT audit or SOC engagements must evaluate whether an organization **actually followed** its incident response plan when real incidents occurred. This is an **application-level** skill: you must be able to design and perform procedures to assess compliance.
 
 ### Procedures to Test IR Plan Compliance
 
@@ -190,10 +190,10 @@ CPAs performing IT audit or SOC engagements must evaluate whether an organizatio
 
 | Topic                 | Key Takeaway                                                                                                                                                                       |
 | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Events vs. incidents  | An event is any observable occurrence; an incident actually compromises or threatens CIA — not every event is an incident                                                          |
+| Events vs. incidents  | An event is any observable occurrence; an incident actually compromises or threatens CIA, so not every event is an incident                                                        |
 | Cyber insurance       | Risk transfer mechanism covering first-party (forensics, notification, business interruption) and third-party (liability, regulatory) costs; not a substitute for controls         |
 | IR plan contents      | Includes roles, responsibilities, classification criteria, detection methods, containment/eradication/recovery steps, communication protocols, timelines, and post-incident review |
-| IR phases (NIST)      | Preparation → Detection & Analysis → Containment/Eradication/Recovery → Post-Incident Activity; phases are cyclical                                                                |
+| IR phases (NIST)      | Preparation, then Detection & Analysis, then Containment/Eradication/Recovery, then Post-Incident Activity; phases are cyclical                                                 |
 | Testing IR compliance | Trace actual incidents through plan steps; evaluate timeliness, documentation, escalation, post-incident review, and regulatory notifications                                      |
 
 ---
@@ -201,10 +201,10 @@ CPAs performing IT audit or SOC engagements must evaluate whether an organizatio
 ## Practice Questions
 
 1. **Kingfisher Industries** receives 50,000 security events per day from its SIEM system. A security analyst notices that 3,000 failed login attempts occurred against the payroll system within a 10-minute window, followed by a successful authentication from an IP address not associated with any employee. The analyst is unsure whether to classify this as an event or an incident. How should the analyst classify this situation, and what criteria support that classification?
-2. **Bear Co.** filed a cyber insurance claim after a ransomware attack. The insurer denied coverage, citing that Bear Co. failed to implement multi-factor authentication — a requirement stated in the policy. Bear Co.'s IT director argues that the insurance should cover the loss regardless because premiums were paid on time. Explain why the insurer's denial is likely valid and identify **two** lessons for organizations regarding cyber insurance.
+2. **Bear Co.** filed a cyber insurance claim after a ransomware attack. The insurer denied coverage, citing that Bear Co. failed to implement multi-factor authentication, a requirement stated in the policy. Bear Co.'s IT director argues that the insurance should cover the loss regardless because premiums were paid on time. Explain why the insurer's denial is likely valid and identify **two** lessons for organizations regarding cyber insurance.
 3. **Illini Security** experienced a data breach six months ago. During a SOC 2® engagement, the CPA is asked to evaluate whether the organization responded in accordance with its incident response plan. Describe **three** specific procedures the CPA should perform and what evidence each procedure would produce.
    :::tip[Answers]
-4. This should be classified as a **security incident**, not merely an event. The criteria supporting this classification include: (a) **impact on CIA** — a successful authentication from an unknown IP following a brute-force attack indicates potential unauthorized access to payroll data (confidentiality compromise); (b) **data sensitivity** — payroll systems contain PII and financial data; (c) **scope** — the successful login means the attacker potentially has access to all records in the payroll system; and (d) **pattern of activity** — the 3,000 failed attempts followed by a success is consistent with a credential-stuffing or brute-force attack, not routine user behavior. The analyst should immediately escalate per the severity matrix — this likely qualifies as a high or critical incident.
-5. The insurer's denial is likely valid because cyber insurance policies contain **conditions precedent** — specific security controls the insured must maintain as a condition of coverage. MFA is a common requirement because it significantly reduces the likelihood of credential-based attacks. Paying premiums does not waive these conditions. **Lesson 1:** Organizations must carefully review policy requirements and ensure they maintain all specified controls throughout the policy period — security requirements are contractual obligations, not suggestions. **Lesson 2:** The incident response plan should reference the cyber insurance policy, including specific control requirements and insurer notification procedures, so that the organization maintains awareness of what is required to preserve coverage.
+4. This should be classified as a **security incident**, not merely an event. The criteria supporting this classification include: (a) **impact on CIA**: a successful authentication from an unknown IP following a brute-force attack indicates potential unauthorized access to payroll data (confidentiality compromise); (b) **data sensitivity**: payroll systems contain PII and financial data; (c) **scope**: the successful login means the attacker potentially has access to all records in the payroll system; and (d) **pattern of activity**: the 3,000 failed attempts followed by a success is consistent with a credential-stuffing or brute-force attack, not routine user behavior. The analyst should immediately escalate per the severity matrix, since this likely qualifies as a high or critical incident.
+5. The insurer's denial is likely valid because cyber insurance policies contain **conditions precedent**, which are specific security controls the insured must maintain as a condition of coverage. MFA is a common requirement because it significantly reduces the likelihood of credential-based attacks. Paying premiums does not waive these conditions. **Lesson 1:** Organizations must carefully review policy requirements and ensure they maintain all specified controls throughout the policy period. Security requirements are contractual obligations, not suggestions. **Lesson 2:** The incident response plan should reference the cyber insurance policy, including specific control requirements and insurer notification procedures, so that the organization maintains awareness of what is required to preserve coverage.
 6. **Procedure 1: Trace the incident through the plan's documented steps.** The CPA should obtain the incident timeline and compare actual response activities (detection, containment, eradication, recovery) to the steps outlined in the IRP. Evidence: incident tickets, SIEM logs, containment records, and recovery documentation compared against the plan's required procedures. **Procedure 2: Evaluate timeliness of response and notifications.** The CPA should compare timestamps for key response milestones (detection, escalation, containment, regulatory notification) against the plan's defined thresholds and applicable legal deadlines. Evidence: timestamp records, notification letters, regulatory filings, and plan-defined SLAs. **Procedure 3: Review the post-incident report and assess whether lessons learned were incorporated.** The CPA should obtain the post-mortem report, verify that root causes were identified, and confirm that the IRP was updated to address gaps revealed by the incident. Evidence: post-incident review documentation, IRP revision history, updated detection rules, and evidence of corrective actions implemented.
    :::

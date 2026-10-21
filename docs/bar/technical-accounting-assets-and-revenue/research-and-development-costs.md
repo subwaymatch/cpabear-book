@@ -1,6 +1,6 @@
 # Research and Development Costs
 
-Companies invest heavily in **research and development (R&D)** to create new products, processes, and technologies. Under U.S. GAAP, the default treatment is straightforward — most R&D costs are **expensed as incurred** (ASC 730). The BAR exam expects you to know **which** costs qualify as R&D, **which** costs are excluded, and **how** to compute the total R&D expense reported on the income statement. Special rules also apply to R&D performed under contract for others and to **in-process R&D** acquired in a business combination.
+Companies invest heavily in **research and development (R&D)** to create new products, processes, and technologies. Under U.S. GAAP, the default treatment is straightforward: most R&D costs are **expensed as incurred** (ASC 730). The BAR exam expects you to know **which** costs qualify as R&D, **which** costs are excluded, and **how** to compute the total R&D expense reported on the income statement. Special rules also apply to R&D performed under contract for others and to **in-process R&D** acquired in a business combination.
 :::info[Blueprint Coverage]
 This topic maps to **Area II, Group E** of the 2026 CPA Exam Blueprints for **Business Analysis and Reporting (BAR)**. The blueprint expects candidates to:
 
@@ -22,12 +22,12 @@ ASC 730, _Research and Development_, establishes the core principle: **all R&D c
 
 ---
 
-## Research vs. Development — Definitions
+## Research vs. Development: Definitions
 
 Understanding the distinction between research and development is important for exam questions, even though both categories receive the same accounting treatment (expense as incurred).
 | Phase | Definition (ASC 730-10-20) |
 |-------|---------------------------|
-| **Research** | Planned search or critical investigation aimed at the **discovery of new knowledge** with the hope that such knowledge will be useful in developing a new product, service, process, or technique — or in bringing about a significant improvement to an existing one |
+| **Research** | Planned search or critical investigation aimed at the **discovery of new knowledge** with the hope that such knowledge will be useful in developing a new product, service, process, or technique, or in bringing about a significant improvement to an existing one |
 | **Development** | Translation of research findings or other knowledge into a **plan or design** for a new product or process, or for a significant improvement to an existing product or process, whether intended for sale or use |
 
 ```mermaid
@@ -39,7 +39,7 @@ graph LR
 ```
 
 :::tip[Exam Tip]
-The exam rarely tests whether a cost is "research" versus "development." What matters is whether the cost falls **within or outside** the scope of ASC 730. Both research and development costs are **expensed** — the distinction is definitional, not accounting.
+The exam rarely tests whether a cost is "research" versus "development." What matters is whether the cost falls **within or outside** the scope of ASC 730. Both research and development costs are **expensed**; the distinction is definitional, not accounting.
 :::
 
 ---
@@ -57,7 +57,7 @@ ASC 730-10-25 identifies the following categories of costs that must be included
 | Equipment or facilities acquired for R&D **with alternative future use**    | **Capitalize** and depreciate over useful life; depreciation allocated to R&D is R&D expense |
 
 :::warning
-Equipment purchased **solely** for a single R&D project with **no alternative future use** must be expensed immediately — even if the equipment has a multi-year physical life. This is a heavily tested point.
+Equipment purchased **solely** for a single R&D project with **no alternative future use** must be expensed immediately, even if the equipment has a multi-year physical life. This is a heavily tested point.
 :::
 
 ### 2. Personnel
@@ -116,7 +116,7 @@ Not every cost associated with a new or improved product qualifies as R&D. ASC 7
 | **Routine ongoing efforts** to refine, enrich, or improve the qualities of an existing product | Sustaining engineering, not R&D |
 | **Market research and testing** | Selling/marketing activity |
 :::warning
-**Engineering follow-through** and **adaptation of existing products** are frequent exam distractors. Read the facts carefully — if the work involves a known process being applied to production or a specific customer request, it is **not** R&D.
+**Engineering follow-through** and **adaptation of existing products** are frequent exam distractors. Read the facts carefully. If the work involves a known process being applied to production or a specific customer request, it is **not** R&D.
 :::
 
 ---
@@ -126,9 +126,9 @@ Not every cost associated with a new or improved product qualifies as R&D. ASC 7
 When an entity performs R&D **under contract for another party**, the accounting depends on the nature of the arrangement:
 | Scenario | Accounting by the Performing Entity |
 |----------|-------------------------------------|
-| **R&D under contract for others** (entity has no rights to the results) | Costs are accounted for as a **contract to perform services** — recognized as an expense matched with contract revenue; **not** reported as R&D expense |
+| **R&D under contract for others** (entity has no rights to the results) | Costs are accounted for as a **contract to perform services**: recognized as an expense matched with contract revenue and **not** reported as R&D expense |
 | **Entity-funded R&D** (entity retains all rights) | Expense as R&D under ASC 730 in the normal manner |
-| **R&D arrangement with funding parties** (ASC 730-20) | If the entity is **obligated to repay** the funds regardless of R&D outcome, the arrangement is essentially a **borrowing** — record a liability, not R&D expense. If the entity has **no obligation to repay**, expense costs as R&D |
+| **R&D arrangement with funding parties** (ASC 730-20) | If the entity is **obligated to repay** the funds regardless of R&D outcome, the arrangement is essentially a **borrowing**: record a liability, not R&D expense. If the entity has **no obligation to repay**, expense costs as R&D |
 :::tip[Exam Tip]
 The key question for contract R&D: **Who bears the risk?** If the entity performing the R&D is obligated to repay the funds regardless of the project's outcome, the arrangement is a liability (financing), not an expense. If the funding party bears the risk of failure, the performing entity records R&D expense.
 :::
@@ -141,7 +141,7 @@ When R&D activities are acquired as part of a **business combination** (ASC 805)
 
 ### Business Combination (ASC 805)
 
-- In-process R&D acquired in a business combination is recognized as a **separate intangible asset** at **fair value** on the acquisition date — even if the project has no alternative future use.
+- In-process R&D acquired in a business combination is recognized as a **separate intangible asset** at **fair value** on the acquisition date, even if the project has no alternative future use.
 - The asset is classified as an **indefinite-lived intangible** and is **not amortized** until the project is completed or abandoned.
 - Upon **completion**, the asset is reclassified as a finite-lived intangible and amortized over its useful life.
 - Upon **abandonment**, the remaining carrying amount is written off as an expense.
@@ -153,16 +153,16 @@ When R&D activities are acquired as part of a **business combination** (ASC 805)
 - If they have an alternative future use, they are capitalized and depreciated/amortized.
   | Acquisition Type | Treatment of IPR&D |
   |-----------------|-------------------|
-  | **Business combination** | Capitalize at fair value → indefinite-lived intangible → amortize upon completion or write off upon abandonment |
-  | **Asset acquisition — no alternative future use** | Expense immediately |
-  | **Asset acquisition — alternative future use exists** | Capitalize and amortize |
+  | **Business combination** | Capitalize at fair value as an indefinite-lived intangible, then amortize upon completion or write off upon abandonment |
+  | **Asset acquisition, no alternative future use** | Expense immediately |
+  | **Asset acquisition, alternative future use exists** | Capitalize and amortize |
   :::warning
   Acquired IPR&D in a business combination is **always capitalized** at fair value regardless of whether it has alternative future use. This is a departure from the general ASC 730 rule and a common exam trap.
   :::
 
 ---
 
-## Comprehensive Example 1 — Bear Co. R&D Expense Calculation
+## Comprehensive Example 1: Bear Co. R&D Expense Calculation
 
 Bear Co. incurs the following costs during Year 1 related to the development of a new product:
 | Cost Item | Amount | R&D? |
@@ -175,13 +175,13 @@ Bear Co. incurs the following costs during Year 1 related to the development of 
 | Overhead reasonably allocable to R&D | \$60,000 | Yes |
 | Quality control testing during regular production | \$45,000 | No |
 | Legal fees for patent application | \$30,000 | No |
-**Step 1 — Calculate depreciation on the equipment with alternative future use:**
+**Step 1: Calculate depreciation on the equipment with alternative future use.**
 
 $$
 \text{Annual Depreciation} = \frac{\$300{,}000}{5} = \$60{,}000
 $$
 
-**Step 2 — Compute total R&D expense:**
+**Step 2: Compute total R&D expense.**
 | Component | Amount |
 |-----------|--------|
 | R&D personnel salaries | \$400,000 |
@@ -191,12 +191,12 @@ $$
 | Outside testing laboratory | \$85,000 |
 | Allocable overhead | \$60,000 |
 | **Total R&D Expense** | **\$975,000** |
-**Step 3 — Record the journal entries:**
+**Step 3: Record the journal entries.**
 
 ```journal
 Dr. Research and Development Expense 975,000
     Cr. Cash[a] 915,000
-    Cr. Accumulated Depreciation — Equipment[ca] 60,000
+    Cr. Accumulated Depreciation (Equipment)[ca] 60,000
 ```
 
 :::tip[Exam Tip]
@@ -205,7 +205,7 @@ Equipment with **no alternative future use** is expensed at its **full cost** in
 
 ---
 
-## Comprehensive Example 2 — Bear Co. Multiple R&D Projects
+## Comprehensive Example 2: Bear Co. Multiple R&D Projects
 
 Bear Co. has two active R&D projects during Year 2. It also performs contract R&D for a client.
 | Cost Item | Project Alpha | Project Beta | Contract R&D |
@@ -222,26 +222,26 @@ Contract R&D terms: Bear Co. performs the work for a client who owns the results
 | Personnel | \$200,000 | \$150,000 | \$350,000 |
 | Materials | \$50,000 | \$70,000 | \$120,000 |
 | Depreciation (shared equipment) | \$30,000 | \$20,000 | \$50,000 |
-| Equipment — no alternative future use | \$80,000 | \$0 | \$80,000 |
+| Equipment, no alternative future use | \$80,000 | \$0 | \$80,000 |
 | Overhead | \$15,000 | \$10,000 | \$25,000 |
 | **Total** | **\$375,000** | **\$250,000** | **\$625,000** |
-The contract R&D costs (\$155,000) are **not** reported as R&D expense — they are reported as **cost of contract services** matched against the \$200,000 of revenue.
+The contract R&D costs (\$155,000) are **not** reported as R&D expense; they are reported as **cost of contract services** matched against the \$200,000 of revenue.
 
 ```journal
 Dr. Research and Development Expense 625,000
     Cr. Cash[a] 575,000
-    Cr. Accumulated Depreciation — Equipment[ca] 50,000
+    Cr. Accumulated Depreciation (Equipment)[ca] 50,000
 ```
 
 ```journal
 Dr. Cost of Contract Services 155,000
     Cr. Cash[a] 145,000
-    Cr. Accumulated Depreciation — Equipment[ca] 10,000
+    Cr. Accumulated Depreciation (Equipment)[ca] 10,000
 ```
 
 ---
 
-## Comprehensive Example 3 — Polar Inc. Acquires In-Process R&D
+## Comprehensive Example 3: Polar Inc. Acquires In-Process R&D
 
 Polar Inc. acquires 100% of a biotech company in a business combination for \$8,000,000. The fair values of the identifiable net assets at the acquisition date are:
 | Item | Fair Value |
@@ -250,13 +250,13 @@ Polar Inc. acquires 100% of a biotech company in a business combination for \$8,
 | Customer relationships (finite-lived intangible) | \$800,000 |
 | In-process R&D (drug in Phase II clinical trials) | \$1,200,000 |
 | **Total identifiable net assets** | **\$6,500,000** |
-**Step 1 — Calculate goodwill:**
+**Step 1: Calculate goodwill.**
 
 $$
 \text{Goodwill} = \$8{,}000{,}000 - \$6{,}500{,}000 = \$1{,}500{,}000
 $$
 
-**Step 2 — Record the acquisition:**
+**Step 2: Record the acquisition.**
 
 ```journal
 Dr. Tangible Net Assets[a] 4,500,000
@@ -275,7 +275,7 @@ $$
 
 ```journal
 Dr. Amortization Expense 120,000
-    Cr. Accumulated Amortization — IPR&D[ca] 120,000
+    Cr. Accumulated Amortization (IPR&D)[ca] 120,000
 ```
 
 **If the project is abandoned**, the entire carrying amount is written off:
@@ -306,13 +306,13 @@ Dr. Research and Development Expense 1,200,000
 | **Equipment with no alternative future use?**            | Expense the full cost immediately                       |
 | **Equipment with alternative future use?**               | Capitalize; include depreciation in R&D expense         |
 | **Contracted R&D for others (no repayment obligation)?** | Cost of contract services, not R&D expense              |
-| **R&D funding arrangement — obligated to repay?**        | Record a liability (financing)                          |
+| **R&D funding arrangement, obligated to repay?**         | Record a liability (financing)                          |
 | **IPR&D in a business combination?**                     | Capitalize at fair value as indefinite-lived intangible |
-| **IPR&D in an asset acquisition — no alternative use?**  | Expense immediately                                     |
+| **IPR&D in an asset acquisition, no alternative use?**   | Expense immediately                                     |
 | **Quality control testing during production?**           | Not R&D                                                 |
 | **Engineering follow-through?**                          | Not R&D                                                 |
 | **Legal fees for patents?**                              | Not R&D                                                 |
 
 :::info
-**Key takeaway:** Under ASC 730, virtually all R&D costs are **expensed as incurred**. The main exceptions are (1) tangible assets with **alternative future use** (capitalize and depreciate) and (2) **in-process R&D acquired in a business combination** (capitalize at fair value as an indefinite-lived intangible). On the exam, always apply the alternative-future-use test to each cost item and remember that contract R&D performed for others is reported as cost of services — not R&D expense.
+**Key takeaway:** Under ASC 730, virtually all R&D costs are **expensed as incurred**. The main exceptions are (1) tangible assets with **alternative future use** (capitalize and depreciate) and (2) **in-process R&D acquired in a business combination** (capitalize at fair value as an indefinite-lived intangible). On the exam, always apply the alternative-future-use test to each cost item and remember that contract R&D performed for others is reported as cost of services, not R&D expense.
 :::

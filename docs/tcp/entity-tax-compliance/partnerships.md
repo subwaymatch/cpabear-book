@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Partnerships are **pass-through entities** that file Form 1065 as an information return and allocate income, loss, deductions, and credits to partners on **Schedule K-1**. While REG covers the fundamentals of partnership taxation, the TCP exam goes significantly deeper — testing your ability to calculate partner basis with precision (including the effects of contributions, distributions, debt allocations, and partner loans), understand partnership and partner elections, analyze transactions between partners and partnerships, and compute the tax consequences of ownership changes. The emphasis is on **compliance mechanics** — performing the calculations that a CPA must handle when preparing or reviewing a partnership return.
+Partnerships are **pass-through entities** that file Form 1065 as an information return and allocate income, loss, deductions, and credits to partners on **Schedule K-1**. While REG covers the fundamentals of partnership taxation, the TCP exam goes significantly deeper, testing your ability to calculate partner basis with precision (including the effects of contributions, distributions, debt allocations, and partner loans), understand partnership and partner elections, analyze transactions between partners and partnerships, and compute the tax consequences of ownership changes. The emphasis is on **compliance mechanics**: performing the calculations that a CPA must handle when preparing or reviewing a partnership return.
 
 ---
 
@@ -25,7 +25,7 @@ When a partner contributes property to a partnership, the transaction is general
 
 | Element | Rule |
 |---|---|
-| **Partner's basis in partnership interest** | Adjusted basis of property contributed + cash contributed − liabilities assumed by partnership that relieve the partner + partner's share of partnership liabilities assumed |
+| **Partner's basis in partnership interest** | Adjusted basis of property contributed + cash contributed - liabilities assumed by partnership that relieve the partner + partner's share of partnership liabilities assumed |
 | **Partnership's basis in property (inside basis)** | **Carryover basis** from the contributing partner |
 | **Holding period** | Partnership tacks the contributing partner's holding period for contributed capital and §1231 assets |
 | **Gain recognition exception** | Gain recognized if liability relief exceeds the partner's basis in contributed assets (treated as a distribution of money under §752) |
@@ -41,11 +41,11 @@ When a partner contributes property subject to a liability, the liability assump
 | Calculation | Amount |
 |---|---|
 | Adjusted basis of land | \$120,000 |
-| − Liability assumed by partnership (100%) | −\$90,000 |
+| - Liability assumed by partnership (100%) | -\$90,000 |
 | + Partner's share of partnership liability (50% × \$90,000) | +\$45,000 |
 | **Jordan's outside basis** | **\$75,000** |
 
-BIF Partners' inside basis in the land is \$120,000 (carryover). No gain is recognized because the net liability relief (\$90,000 − \$45,000 = \$45,000) does not exceed Jordan's \$120,000 adjusted basis.
+BIF Partners' inside basis in the land is \$120,000 (carryover). No gain is recognized because the net liability relief (\$90,000 - \$45,000 = \$45,000) does not exceed Jordan's \$120,000 adjusted basis.
 
 ### Impact of Debt on Partner Basis
 
@@ -55,7 +55,7 @@ A critical distinction of partnerships is that a partner's outside basis include
 |---|---|---|
 | **Recourse liabilities** | Partners who bear the **economic risk of loss** (typically general partners) | Increases outside basis |
 | **Nonrecourse liabilities** | Allocated among **all partners** based on profit-sharing ratios (with adjustments for §704(c) minimum gain and partnership minimum gain) | Increases outside basis |
-| **Qualified nonrecourse financing** (real estate) | Allocated like nonrecourse — to all partners based on profit-sharing ratios | Increases outside basis and **at-risk amount** |
+| **Qualified nonrecourse financing** (real estate) | Allocated like nonrecourse, to all partners based on profit-sharing ratios | Increases outside basis and **at-risk amount** |
 
 > **Example:** BIF Partners has \$100,000 of recourse debt and \$200,000 of nonrecourse debt. Jamie (general partner, 50%) and Sarah (limited partner, 50%) share profits equally. Jamie bears all economic risk of loss for recourse debt.
 
@@ -72,8 +72,8 @@ When a partner lends money **directly** to the partnership:
 | Effect | Treatment |
 |---|---|
 | **Partnership side** | Records a liability to the partner |
-| **Lending partner's basis** | The loan is a partnership liability — allocated among partners under the recourse/nonrecourse rules (the lending partner typically bears the economic risk of loss and is allocated the debt) |
-| **Distinction from S corps** | In a partnership, the loan increases basis through the liability allocation — in an S corp, a shareholder loan creates separate debt basis |
+| **Lending partner's basis** | The loan is a partnership liability, allocated among partners under the recourse/nonrecourse rules (the lending partner typically bears the economic risk of loss and is allocated the debt) |
+| **Distinction from S corps** | In a partnership, the loan increases basis through the liability allocation; in an S corp, a shareholder loan creates separate debt basis |
 
 ### Impact of Distributions on Basis
 
@@ -91,7 +91,7 @@ When a partner lends money **directly** to the partnership:
 | General rule | **No gain** recognized to the partner; partner takes the **lesser of** (1) the partnership's inside basis in the property or (2) the partner's outside basis, reduced by any cash received in the same distribution |
 | Partnership | **No gain or loss** recognized on a nonliquidating property distribution |
 
-> **Example:** Sarah has an outside basis of \$50,000 in BIF Partners. The partnership distributes \$20,000 cash and equipment with an inside basis of \$40,000 (FMV \$55,000). Sarah's basis is first reduced by the cash: \$50,000 − \$20,000 = \$30,000. Sarah's basis in the equipment is the lesser of the partnership's inside basis (\$40,000) or Sarah's remaining outside basis (\$30,000) = **\$30,000**. Sarah's outside basis is reduced to **\$0**. No gain is recognized.
+> **Example:** Sarah has an outside basis of \$50,000 in BIF Partners. The partnership distributes \$20,000 cash and equipment with an inside basis of \$40,000 (FMV \$55,000). Sarah's basis is first reduced by the cash: \$50,000 - \$20,000 = \$30,000. Sarah's basis in the equipment is the lesser of the partnership's inside basis (\$40,000) or Sarah's remaining outside basis (\$30,000) = **\$30,000**. Sarah's outside basis is reduced to **\$0**. No gain is recognized.
 
 ### Reviewing Basis Schedules
 
@@ -143,11 +143,11 @@ The §754 election, once made, applies to **all** subsequent transfers and distr
 
 The §743(b) adjustment equals the difference between the transferee partner's **outside basis** (purchase price or stepped-up basis at death) and their share of the partnership's **inside basis** in its assets.
 
-> **Example:** Marcus purchases Jamie's 50% interest in BIF Partners for \$150,000. BIF Partners' total inside basis in its assets is \$200,000, so Marcus's share of inside basis is \$100,000. If a §754 election is in effect, Marcus receives a **\$50,000 positive §743(b) adjustment** (\$150,000 − \$100,000), which is allocated among the partnership's assets.
+> **Example:** Marcus purchases Jamie's 50% interest in BIF Partners for \$150,000. BIF Partners' total inside basis in its assets is \$200,000, so Marcus's share of inside basis is \$100,000. If a §754 election is in effect, Marcus receives a **\$50,000 positive §743(b) adjustment** (\$150,000 - \$100,000), which is allocated among the partnership's assets.
 
 :::info
 
-Without a §754 election, the transferee partner's share of inside basis would be \$100,000 — creating a mismatch between inside and outside basis. The §754 election eliminates this mismatch and is often advantageous when the purchase price exceeds the share of inside basis (stepped-up scenario).
+Without a §754 election, the transferee partner's share of inside basis would be \$100,000, creating a mismatch between inside and outside basis. The §754 election eliminates this mismatch and is often advantageous when the purchase price exceeds the share of inside basis (stepped-up scenario).
 
 :::
 
@@ -170,9 +170,9 @@ When a partner provides services to the partnership, the tax treatment depends o
 | Capacity | Payment Type | Tax Treatment |
 |---|---|---|
 | **As a partner** | **Guaranteed payment** | Ordinary income to partner; deductible by partnership; subject to self-employment tax |
-| **Not in capacity as a partner** (outsider) | **IRC §707(a) payment** | Treated as a payment to a third party — ordinary income to partner, deductible by partnership if an ordinary business expense |
+| **Not in capacity as a partner** (outsider) | **IRC §707(a) payment** | Treated as a payment to a third party: ordinary income to partner, deductible by partnership if an ordinary business expense |
 
-> **Example:** Dana, a partner in Bear Co. partnership, provides legal services to the partnership. If Dana acts in her capacity as a partner and receives a guaranteed payment of \$80,000, it is ordinary income to Dana and deductible by Bear Co. If Dana provides the same services in a transaction not in her capacity as a partner (e.g., a separately negotiated contract), the \$80,000 is a §707(a) payment — still ordinary income to Dana and deductible by Bear Co., but a §707(a) payment is generally **not** subject to self-employment tax (unlike a guaranteed payment, which **is** subject to SE tax).
+> **Example:** Dana, a partner in Bear Co. partnership, provides legal services to the partnership. If Dana acts in her capacity as a partner and receives a guaranteed payment of \$80,000, it is ordinary income to Dana and deductible by Bear Co. If Dana provides the same services in a transaction not in her capacity as a partner (e.g., a separately negotiated contract), the \$80,000 is a §707(a) payment. It is still ordinary income to Dana and deductible by Bear Co., but a §707(a) payment is generally **not** subject to self-employment tax (unlike a guaranteed payment, which **is** subject to SE tax).
 
 ### Contributions of Noncash Property
 
@@ -181,7 +181,7 @@ The gain/loss calculation on contributions to a partnership follows the general 
 | Concept | Rule |
 |---|---|
 | **Built-in gain or loss** | When a partner contributes property with FMV ≠ basis, the built-in gain or loss must be allocated to the contributing partner when the property is sold (IRC §704(c)) |
-| **Depreciation recapture potential** | Carries over to the partnership — recapture is triggered on later sale |
+| **Depreciation recapture potential** | Carries over to the partnership; recapture is triggered on later sale |
 | **Character** | The character of gain or loss on contributed property (ordinary, §1231, capital) is determined by the partnership's use, but §724 requires certain contributed property to retain its character (unrealized receivables, inventory, capital loss property) |
 
 ### Nonliquidating Distributions
@@ -207,10 +207,10 @@ A liquidating distribution terminates the partner's entire interest in the partn
 | Rule | Treatment |
 |---|---|
 | **Gain recognition** | Only if cash received exceeds partner's outside basis |
-| **Loss recognition** | Only if the partner receives **only** cash, unrealized receivables, and/or inventory — and the total basis of those items is less than outside basis |
+| **Loss recognition** | Only if the partner receives **only** cash, unrealized receivables, and/or inventory, and the total basis of those items is less than outside basis |
 | **Basis in property received** | Partner's remaining outside basis is allocated among distributed assets (cash first at face value, then to unrealized receivables and inventory at inside basis, then to other property) |
 
-> **Example:** Alex receives a liquidating distribution from Kingfisher Industries partnership: \$30,000 cash and land with an inside basis of \$60,000 (FMV \$90,000). Alex's outside basis is \$100,000. Cash reduces basis by \$30,000 → remaining basis \$70,000 → allocated to the land. Alex's basis in the land = **\$70,000**. No gain or loss recognized (FMV is irrelevant for basis allocation in a liquidating distribution).
+> **Example:** Alex receives a liquidating distribution from Kingfisher Industries partnership: \$30,000 cash and land with an inside basis of \$60,000 (FMV \$90,000). Alex's outside basis is \$100,000. Cash reduces basis by \$30,000, and the remaining basis of \$70,000 is allocated to the land. Alex's basis in the land = **\$70,000**. No gain or loss recognized (FMV is irrelevant for basis allocation in a liquidating distribution).
 
 ### Disguised Sales (§707(a)(2)(B))
 
@@ -253,13 +253,13 @@ As discussed in the elections section, when a §754 election is in effect and a 
 
 | Adjustment | Calculation |
 |---|---|
-| **§743(b) adjustment** | Transferee's outside basis (purchase price) − transferee's share of partnership's inside basis |
+| **§743(b) adjustment** | Transferee's outside basis (purchase price) - transferee's share of partnership's inside basis |
 | **Positive adjustment** | Transferee gets additional depreciation/amortization deductions or reduced gain on sale |
 | **Negative adjustment** | Transferee's deductions are reduced or gain is increased |
 
 The adjustment is allocated between **ordinary income** assets and **capital gain** assets in proportion to the built-in gain or loss in each category.
 
-> **Example:** Pat purchases a 25% interest in BIF Partners for \$90,000. BIF Partners' total inside basis in its assets is \$280,000 (Pat's 25% share = \$70,000). With a §754 election, Pat receives a **\$20,000 positive §743(b) adjustment** (\$90,000 − \$70,000), allocated among partnership assets.
+> **Example:** Pat purchases a 25% interest in BIF Partners for \$90,000. BIF Partners' total inside basis in its assets is \$280,000 (Pat's 25% share = \$70,000). With a §754 election, Pat receives a **\$20,000 positive §743(b) adjustment** (\$90,000 - \$70,000), allocated among partnership assets.
 
 ---
 
@@ -267,16 +267,16 @@ The adjustment is allocated between **ordinary income** assets and **capital gai
 
 | Topic | Key Concept |
 |---|---|
-| Outside basis (BASE) | Beginning + Additions (contributions, income, liabilities) − Subtractions (distributions, losses, liability decreases) = Ending |
+| Outside basis (BASE) | Beginning + Additions (contributions, income, liabilities) - Subtractions (distributions, losses, liability decreases) = Ending |
 | Noncash contributions | Generally nonrecognition (§721); carryover basis to partnership; adjust for liabilities |
-| Debt allocations | Recourse → partners with economic risk of loss; nonrecourse → all partners by profit-sharing ratio |
-| Partner loans | Increase partnership liabilities → allocated to lending partner under recourse rules |
+| Debt allocations | Recourse: allocated to partners with economic risk of loss; nonrecourse: allocated to all partners by profit-sharing ratio |
+| Partner loans | Increase partnership liabilities, which are allocated to the lending partner under recourse rules |
 | Cash distributions | No gain unless cash > outside basis; no loss on nonliquidating distributions |
 | Property distributions | Partner takes lesser of inside basis or outside basis; no gain or loss |
 | Liquidating distributions | Loss recognized only if receiving cash, receivables, and/or inventory with basis < outside basis |
-| Tax year election | Majority interest → principal partners → least aggregate deferral → §444 |
+| Tax year election | Majority interest, then principal partners, then least aggregate deferral, then §444 |
 | §754 election | Adjusts inside basis on transfers (§743(b)) and distributions (§734(b)) |
 | Guaranteed payments | Ordinary income to partner; deductible by partnership; subject to SE tax |
 | Built-in gain (§704(c)) | Allocated to contributing partner on sale of contributed property |
 | Ownership changes | Interim closing or proration method; §751 hot assets may create ordinary income |
-| §743(b) adjustment | Transferee's outside basis − share of inside basis; allocated to partnership assets |
+| §743(b) adjustment | Transferee's outside basis - share of inside basis; allocated to partnership assets |

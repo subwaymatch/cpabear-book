@@ -1,6 +1,6 @@
 # Derivatives and Hedge Accounting
 
-Derivative financial instruments — swaps, options, forwards, and futures — are contracts whose value is derived from an underlying variable such as an interest rate, commodity price, or foreign-exchange rate. Under **ASC 815** (_Derivatives and Hedging_), all derivatives must be recognized on the balance sheet at **fair value**. The BAR section tests your ability to identify derivative characteristics, distinguish freestanding from embedded derivatives, determine whether hedge accounting applies, and prepare journal entries for interest rate swaps designated as fair value or cash flow hedges.
+Derivative financial instruments (swaps, options, forwards, and futures) are contracts whose value is derived from an underlying variable such as an interest rate, commodity price, or foreign-exchange rate. Under **ASC 815** (_Derivatives and Hedging_), all derivatives must be recognized on the balance sheet at **fair value**. The BAR section tests your ability to identify derivative characteristics, distinguish freestanding from embedded derivatives, determine whether hedge accounting applies, and prepare journal entries for interest rate swaps designated as fair value or cash flow hedges.
 :::info[Blueprint Coverage]
 This topic maps to **Area II, Group H** of the 2026 CPA Exam Blueprints for **Business Analysis and Reporting (BAR)**. The blueprint expects candidates to:
 
@@ -19,7 +19,7 @@ ASC 815-10-15-83 defines a derivative as a financial instrument (or other contra
 |---------------|-------------|
 | **Underlying + Notional amount (or payment provision)** | The contract's value changes in response to an underlying variable (e.g., interest rate, stock price, commodity price) applied to a notional amount or payment provision |
 | **Little or no initial net investment** | The contract requires no initial net investment, or an investment that is smaller than would be required for other contracts with a similar expected response to market changes |
-| **Net settlement** | The contract can be settled net — in cash or by delivery of an asset readily convertible to cash — or contains a mechanism that, in effect, facilitates net settlement |
+| **Net settlement** | The contract can be settled net (in cash or by delivery of an asset readily convertible to cash) or contains a mechanism that, in effect, facilitates net settlement |
 
 ```mermaid
 graph TD
@@ -34,7 +34,7 @@ graph TD
 ```
 
 :::tip[Exam Tip]
-Remember the three-part test with the mnemonic **"U-N-N"** — **U**nderlying + notional, **N**o (or little) initial net investment, **N**et settlement. If any one of the three is missing, the contract is **not** a derivative under ASC 815.
+Remember the three-part test with the mnemonic **"U-N-N"**: **U**nderlying + notional, **N**o (or little) initial net investment, **N**et settlement. If any one of the three is missing, the contract is **not** a derivative under ASC 815.
 :::
 
 ---
@@ -56,11 +56,11 @@ ASC 815 distinguishes between derivatives that stand alone and those that are em
 
 ### Freestanding Derivatives
 
-A **freestanding derivative** is a stand-alone contract — it is not part of another instrument. Examples include a purchased call option, a commodity forward, or an interest rate swap. Freestanding derivatives are **always** recognized on the balance sheet at fair value under ASC 815.
+A **freestanding derivative** is a stand-alone contract; it is not part of another instrument. Examples include a purchased call option, a commodity forward, or an interest rate swap. Freestanding derivatives are **always** recognized on the balance sheet at fair value under ASC 815.
 
 ### Embedded Derivatives
 
-An **embedded derivative** is a component within a larger host contract that causes some or all of the cash flows of the combined instrument to vary in a manner similar to a stand-alone derivative. A classic example is a convertible bond — the conversion feature is an embedded derivative within the debt host.
+An **embedded derivative** is a component within a larger host contract that causes some or all of the cash flows of the combined instrument to vary in a manner similar to a stand-alone derivative. A classic example is a convertible bond: the conversion feature is an embedded derivative within the debt host.
 Under ASC 815-15, an embedded derivative must be **bifurcated** (separated) from the host and accounted for as a stand-alone derivative if **all three** of the following conditions are met:
 | Condition | Explanation |
 |-----------|-------------|
@@ -82,18 +82,18 @@ graph TD
 ```
 
 :::warning
-A common exam trap: if the hybrid instrument is **already measured at fair value through earnings** (e.g., a trading security), there is no need to bifurcate — the entire instrument already captures the derivative's fair value changes. Always check this condition before concluding that bifurcation is required.
+A common exam trap: if the hybrid instrument is **already measured at fair value through earnings** (e.g., a trading security), there is no need to bifurcate, because the entire instrument already captures the derivative's fair value changes. Always check this condition before concluding that bifurcation is required.
 :::
 
 ---
 
-## Default Treatment — No Hedge Designation
+## Default Treatment: No Hedge Designation
 
 When a derivative is **not** designated as a hedging instrument, gains and losses from changes in its fair value are recognized in **earnings (net income) immediately**. This is the default treatment under ASC 815.
 | Event | Journal Entry Effect |
 |-------|---------------------|
-| Fair value increases | Dr. Derivative Asset / Cr. Gain — reported in earnings |
-| Fair value decreases | Dr. Loss / Cr. Derivative Liability — reported in earnings |
+| Fair value increases | Dr. Derivative Asset / Cr. Gain (reported in earnings) |
+| Fair value decreases | Dr. Loss / Cr. Derivative Liability (reported in earnings) |
 This default treatment creates **earnings volatility** because the derivative's gains and losses hit the income statement each period, while the hedged item's offsetting gains and losses may be recognized in a different period or not at all.
 
 ---
@@ -123,21 +123,21 @@ ASC 815 recognizes three hedging relationships:
 | Hedge Type | What Is Hedged | Derivative G/L Recognition | Hedged Item Adjustment |
 |-----------|---------------|---------------------------|----------------------|
 | **Fair value hedge** | Exposure to changes in the **fair value** of a recognized asset/liability or firm commitment | Earnings (current period) | Hedged item's carrying amount adjusted through earnings |
-| **Cash flow hedge** | Exposure to variability in **expected future cash flows** of a recognized asset/liability or forecasted transaction | Other comprehensive income (OCI) → reclassified to earnings when hedged item affects earnings | No adjustment to carrying amount |
+| **Cash flow hedge** | Exposure to variability in **expected future cash flows** of a recognized asset/liability or forecasted transaction | Other comprehensive income (OCI), then reclassified to earnings when hedged item affects earnings | No adjustment to carrying amount |
 | **Net investment hedge** | Exposure to foreign currency risk in a **net investment in a foreign operation** | OCI (translation adjustment) | Part of cumulative translation adjustment |
 
 ```mermaid
 graph LR
     subgraph "Fair Value Hedge"
-        FV1["Derivative G/L → Earnings"]
+        FV1["Derivative G/L to Earnings"]
         FV2["Hedged item adjusted<br/>through earnings"]
     end
     subgraph "Cash Flow Hedge"
-        CF1["Derivative G/L → OCI"]
+        CF1["Derivative G/L to OCI"]
         CF2["Reclassified to earnings<br/>when hedged item<br/>affects earnings"]
     end
     subgraph "Net Investment Hedge"
-        NI1["Derivative G/L → OCI"]
+        NI1["Derivative G/L to OCI"]
         NI2["Part of cumulative<br/>translation adjustment"]
     end
     style FV1 fill:#cfe2f3,stroke:#333
@@ -150,7 +150,7 @@ graph LR
 
 ---
 
-## Fair Value Hedges — In Depth
+## Fair Value Hedges: In Depth
 
 A **fair value hedge** protects against changes in the fair value of a recognized asset, liability, or firm commitment due to a particular risk (e.g., interest rate risk on fixed-rate debt).
 
@@ -158,14 +158,14 @@ A **fair value hedge** protects against changes in the fair value of a recognize
 
 1. The **derivative** is recorded at fair value, with changes in fair value recognized in **earnings**.
 2. The **hedged item's** carrying amount is adjusted for the change in fair value attributable to the hedged risk, also through **earnings**.
-3. Because both hit earnings in the same period, they **offset** each other — reducing net income volatility.
+3. Because both hit earnings in the same period, they **offset** each other, reducing net income volatility.
    $$
    \text{Net Earnings Impact} = \text{Gain (Loss) on Derivative} + \text{Loss (Gain) on Hedged Item} \approx 0
    $$
 
-### Example — Bear Co. Fair Value Hedge (Interest Rate Swap)
+### Example: Bear Co. Fair Value Hedge (Interest Rate Swap)
 
-On January 1, Year 1, Bear Co. issues a **\$1,000,000 fixed-rate note payable** at 5% annual interest, maturing in 3 years. To hedge the fair value exposure from interest rate changes, Bear Co. simultaneously enters into an **interest rate swap** — receiving 5% fixed and paying SOFR (currently 5%). The swap has a notional amount of \$1,000,000.
+On January 1, Year 1, Bear Co. issues a **\$1,000,000 fixed-rate note payable** at 5% annual interest, maturing in 3 years. To hedge the fair value exposure from interest rate changes, Bear Co. simultaneously enters into an **interest rate swap**, receiving 5% fixed and paying SOFR (currently 5%). The swap has a notional amount of \$1,000,000.
 | Item | Details |
 |------|---------|
 | Hedged item | \$1,000,000 fixed-rate note payable |
@@ -176,7 +176,7 @@ On January 1, Year 1, Bear Co. issues a **\$1,000,000 fixed-rate note payable** 
 | Hedge designation | Fair value hedge |
 **At inception (Jan 1, Year 1):** The swap has a fair value of \$0 (the fixed and variable rates are equal). No entry is required for the swap.
 **At December 31, Year 1:** Market interest rates have risen to 6%. The fair value of Bear Co.'s fixed-rate note has **decreased** (it now pays below-market), and the swap has a **positive** fair value to Bear Co. because it receives 5% fixed and pays the now-higher SOFR. Assume the swap's fair value is \$18,000.
-**Step 1 — Record the swap at fair value:**
+**Step 1: Record the swap at fair value.**
 
 ```journal
 Dec 31, Year 1
@@ -184,7 +184,7 @@ Dr. Interest Rate Swap[a] 18,000
     Cr. Gain on Hedge (Earnings) 18,000
 ```
 
-**Step 2 — Adjust the hedged item (note payable) for the change in fair value attributable to the hedged risk:**
+**Step 2: Adjust the hedged item (note payable) for the change in fair value attributable to the hedged risk.**
 
 ```journal
 Dec 31, Year 1
@@ -219,16 +219,16 @@ $$
 \text{Total Interest Cost} = \$50{,}000 + \$10{,}000 = \$60{,}000
 $$
 
-The effective interest cost of \$60,000 equals the variable market rate of 6% × \$1,000,000 — exactly what Bear Co. intended by converting its fixed-rate exposure to a variable rate.
+The effective interest cost of \$60,000 equals the variable market rate of 6% × \$1,000,000, exactly what Bear Co. intended by converting its fixed-rate exposure to a variable rate.
 :::tip[Exam Tip]
-In a **fair value hedge**, both the derivative gain/loss and the offsetting hedged-item adjustment flow through **earnings in the same period**. The net impact on income should be approximately zero if the hedge is highly effective. Look for the key phrase "carrying amount of the hedged item is adjusted" — that signals fair value hedge treatment.
+In a **fair value hedge**, both the derivative gain/loss and the offsetting hedged-item adjustment flow through **earnings in the same period**. The net impact on income should be approximately zero if the hedge is highly effective. Look for the key phrase "carrying amount of the hedged item is adjusted"; that signals fair value hedge treatment.
 :::
 
 ---
 
-## Cash Flow Hedges — In Depth
+## Cash Flow Hedges: In Depth
 
-A **cash flow hedge** protects against variability in expected future cash flows — for example, variable interest payments on floating-rate debt or a forecasted purchase of inventory at a fluctuating commodity price.
+A **cash flow hedge** protects against variability in expected future cash flows: for example, variable interest payments on floating-rate debt or a forecasted purchase of inventory at a fluctuating commodity price.
 
 ### Accounting Mechanics
 
@@ -240,9 +240,9 @@ A **cash flow hedge** protects against variability in expected future cash flows
    \text{Derivative G/L (Effective)} \rightarrow \text{OCI} \rightarrow \text{Reclassified to Earnings when hedged item affects earnings}
    $$
 
-### Example — Bear Co. Cash Flow Hedge (Interest Rate Swap)
+### Example: Bear Co. Cash Flow Hedge (Interest Rate Swap)
 
-On January 1, Year 1, Bear Co. has a **\$2,000,000 variable-rate note payable** that resets annually at SOFR. The current SOFR rate is 4%. To hedge the cash flow variability, Bear Co. enters into an interest rate swap — paying 4% fixed and receiving SOFR. The swap has a notional amount of \$2,000,000 and is designated as a cash flow hedge.
+On January 1, Year 1, Bear Co. has a **\$2,000,000 variable-rate note payable** that resets annually at SOFR. The current SOFR rate is 4%. To hedge the cash flow variability, Bear Co. enters into an interest rate swap, paying 4% fixed and receiving SOFR. The swap has a notional amount of \$2,000,000 and is designated as a cash flow hedge.
 | Item | Details |
 |------|---------|
 | Hedged item | \$2,000,000 variable-rate note payable |
@@ -253,7 +253,7 @@ On January 1, Year 1, Bear Co. has a **\$2,000,000 variable-rate note payable** 
 | Hedge designation | Cash flow hedge |
 **At inception (Jan 1, Year 1):** The swap has a fair value of \$0. No entry is needed.
 **At December 31, Year 1:** SOFR has risen to 5%. The swap now has a **positive** fair value of \$19,000 to Bear Co. (it receives the higher SOFR rate and pays fixed 4%).
-**Step 1 — Record the swap at fair value (effective portion to OCI):**
+**Step 1: Record the swap at fair value (effective portion to OCI).**
 
 ```journal
 Dec 31, Year 1
@@ -261,7 +261,7 @@ Dr. Interest Rate Swap[a] 19,000
     Cr. Other Comprehensive Income (OCI) 19,000
 ```
 
-**Step 2 — Record net settlement of the swap:**
+**Step 2: Record net settlement of the swap.**
 
 $$
 \text{Net Settlement} = (\text{SOFR} - \text{Fixed Rate}) \times \text{Notional} = (5\% - 4\%) \times \$2{,}000{,}000 = \$20{,}000
@@ -275,7 +275,7 @@ Dr. Cash[a] 20,000
     Cr. Interest Expense 20,000
 ```
 
-**Step 3 — Record interest on the variable-rate note at the current SOFR rate:**
+**Step 3: Record interest on the variable-rate note at the current SOFR rate.**
 
 ```journal
 Dec 31, Year 1
@@ -287,8 +287,8 @@ $$
 \text{Net Interest Cost} = \$100{,}000 - \$20{,}000 = \$80{,}000
 $$
 
-The effective interest cost of \$80,000 equals the fixed rate of 4% × \$2,000,000 — Bear Co. has successfully locked in the fixed rate.
-**Step 4 — Reclassify from AOCI to earnings:**
+The effective interest cost of \$80,000 equals the fixed rate of 4% × \$2,000,000; Bear Co. has successfully locked in the fixed rate.
+**Step 4: Reclassify from AOCI to earnings.**
 As the hedged cash flows (variable interest payments) affect earnings each period, the corresponding amounts in AOCI are reclassified. The net settlement already reduced interest expense above, so the reclassification is embedded in the settlement entry. On the exam, you may see a separate reclassification entry:
 
 ```journal
@@ -303,7 +303,7 @@ In a **cash flow hedge**, the derivative gain/loss goes to **OCI first**, not ea
 
 ---
 
-## Fair Value Hedge vs. Cash Flow Hedge — Comparison
+## Fair Value Hedge vs. Cash Flow Hedge: Comparison
 
 | Feature                         | Fair Value Hedge                             | Cash Flow Hedge                                                      |
 | ------------------------------- | -------------------------------------------- | -------------------------------------------------------------------- |
@@ -320,8 +320,8 @@ graph TD
     Q["What risk is the entity hedging?"]
     Q -->|"Change in fair value<br/>of an existing item"| FV["Fair Value Hedge"]
     Q -->|"Variability in expected<br/>future cash flows"| CF["Cash Flow Hedge"]
-    FV --> FV1["Both derivative G/L and<br/>hedged item adjustment<br/>→ Earnings"]
-    CF --> CF1["Derivative G/L → OCI<br/>→ Reclassified to earnings<br/>when hedged item<br/>affects earnings"]
+    FV --> FV1["Both derivative G/L and<br/>hedged item adjustment<br/>go to Earnings"]
+    CF --> CF1["Derivative G/L to OCI,<br/>then reclassified to earnings<br/>when hedged item<br/>affects earnings"]
     style FV fill:#cfe2f3,stroke:#333
     style CF fill:#d9ead3,stroke:#333
 ```
@@ -333,23 +333,23 @@ graph TD
 The BAR exam tests your knowledge of **where** derivative gains and losses appear in the financial statements. This table summarizes the presentation rules:
 | Scenario | Gain/Loss Presentation |
 |----------|----------------------|
-| **Derivative — no hedge designation** | Earnings (income statement) immediately |
-| **Fair value hedge — derivative** | Earnings (income statement) |
-| **Fair value hedge — hedged item** | Earnings (carrying amount adjusted) |
-| **Cash flow hedge — effective portion** | OCI → AOCI → reclassified to earnings when hedged transaction affects earnings |
-| **Cash flow hedge — ineffective portion** | Earnings (income statement) immediately |
-| **Net investment hedge — effective portion** | OCI (cumulative translation adjustment) |
-| **Net investment hedge — ineffective portion** | Earnings (income statement) immediately |
+| **Derivative, no hedge designation** | Earnings (income statement) immediately |
+| **Fair value hedge, derivative** | Earnings (income statement) |
+| **Fair value hedge, hedged item** | Earnings (carrying amount adjusted) |
+| **Cash flow hedge, effective portion** | OCI, accumulated in AOCI, then reclassified to earnings when hedged transaction affects earnings |
+| **Cash flow hedge, ineffective portion** | Earnings (income statement) immediately |
+| **Net investment hedge, effective portion** | OCI (cumulative translation adjustment) |
+| **Net investment hedge, ineffective portion** | Earnings (income statement) immediately |
 :::tip[Exam Tip]
 A quick rule of thumb: **Fair value hedge = both sides in earnings.** **Cash flow hedge = derivative to OCI first.** If the exam asks where a gain/loss is reported and the derivative is designated as a cash flow hedge, the answer is almost always **OCI** (for the effective portion).
 :::
 
 ---
 
-## Comprehensive Example — Polar Inc. Interest Rate Swap
+## Comprehensive Example: Polar Inc. Interest Rate Swap
 
 Polar Inc. provides an end-to-end illustration tying together all the journal entries for a cash flow hedge over two years.
-**Facts:** On January 1, Year 1, Polar Inc. borrows **\$5,000,000** at a variable rate of SOFR + 1%. The current SOFR is 3% (total rate = 4%). To lock in a fixed rate, Polar Inc. enters into a 2-year interest rate swap — paying 4% fixed and receiving SOFR + 1%. The swap has a notional of \$5,000,000 and is designated as a **cash flow hedge**.
+**Facts:** On January 1, Year 1, Polar Inc. borrows **\$5,000,000** at a variable rate of SOFR + 1%. The current SOFR is 3% (total rate = 4%). To lock in a fixed rate, Polar Inc. enters into a 2-year interest rate swap, paying 4% fixed and receiving SOFR + 1%. The swap has a notional of \$5,000,000 and is designated as a **cash flow hedge**.
 | Year | SOFR | Borrowing Rate (SOFR + 1%) | Swap Fair Value (End of Year) |
 |------|------|---------------------------|------------------------------|
 | 1 | 3.5% | 4.5% | \$24,000 (asset) |
@@ -447,7 +447,7 @@ $$
 | Swap fair value (B/S) | \$24,000 asset      | \$0           |
 | AOCI balance          | \$24,000            | \$0           |
 
-In both years, Polar Inc. achieves a net interest cost equal to the 4% fixed rate it targeted — demonstrating the purpose of the cash flow hedge.
+In both years, Polar Inc. achieves a net interest cost equal to the 4% fixed rate it targeted, demonstrating the purpose of the cash flow hedge.
 
 ## Discontinuation of Hedge Accounting
 
@@ -455,28 +455,28 @@ Hedge accounting must be **discontinued prospectively** if any of the following 
 | Event | Consequence |
 |-------|------------|
 | The derivative expires, is sold, or terminated | Fair value hedge: no further hedged-item adjustments; prior adjustments amortized to earnings. Cash flow hedge: AOCI balance remains and is reclassified when the forecasted transaction affects earnings |
-| The hedge is no longer highly effective | Same as above — discontinue from the date effectiveness fails |
+| The hedge is no longer highly effective | Same as above; discontinue from the date effectiveness fails |
 | The entity removes the hedge designation | Voluntary de-designation; same consequences |
 | **Cash flow hedge only:** the forecasted transaction is no longer probable | AOCI balance is reclassified to earnings **immediately** |
 :::warning
-When a **cash flow hedge** is discontinued because the forecasted transaction is no longer probable of occurring, any gain or loss sitting in AOCI must be reclassified to earnings **right away** — it does not remain in equity. This is a frequently tested point.
+When a **cash flow hedge** is discontinued because the forecasted transaction is no longer probable of occurring, any gain or loss sitting in AOCI must be reclassified to earnings **right away**; it does not remain in equity. This is a frequently tested point.
 :::
 
 ---
 
-## Putting It All Together — Decision Framework
+## Putting It All Together: Decision Framework
 
 ```mermaid
 graph TD
     A["Entity holds a derivative"] --> B{"Designated as a<br/>hedging instrument?"}
-    B -->|No| C["Default: G/L → Earnings<br/>each period"]
+    B -->|No| C["Default: G/L to Earnings<br/>each period"]
     B -->|Yes| D{"What type of risk<br/>is being hedged?"}
     D -->|"Fair value risk<br/>(e.g., fixed-rate debt)"| E["Fair Value Hedge"]
     D -->|"Cash flow risk<br/>(e.g., variable-rate debt)"| F["Cash Flow Hedge"]
     D -->|"Foreign currency risk<br/>in net investment"| G["Net Investment Hedge"]
-    E --> E1["Derivative G/L → Earnings<br/>Hedged item adjusted → Earnings"]
-    F --> F1["Effective G/L → OCI<br/>Ineffective G/L → Earnings<br/>Reclassify from AOCI when<br/>hedged item affects earnings"]
-    G --> G1["Effective G/L → OCI<br/>(CTA component)<br/>Ineffective G/L → Earnings"]
+    E --> E1["Derivative G/L to Earnings<br/>Hedged item adjusted through Earnings"]
+    F --> F1["Effective G/L to OCI<br/>Ineffective G/L to Earnings<br/>Reclassify from AOCI when<br/>hedged item affects earnings"]
+    G --> G1["Effective G/L to OCI<br/>(CTA component)<br/>Ineffective G/L to Earnings"]
     style C fill:#f4cccc,stroke:#333
     style E fill:#cfe2f3,stroke:#333
     style F fill:#d9ead3,stroke:#333

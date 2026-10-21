@@ -14,7 +14,7 @@ Quality management standards are established by the **AICPA** (Statement on Qual
 
 ## The Firm's System of Quality Management (SQMS)
 
-Under **SQMS No. 1**, every CPA firm that performs engagements under the SAS, SSARS, or SSAE standards must design, implement, and operate a **system of quality management (SQM)**. This is a firm-wide system—not something that applies to individual engagements in isolation.
+Under **SQMS No. 1**, every CPA firm that performs engagements under the SAS, SSARS, or SSAE standards must design, implement, and operate a **system of quality management (SQM)**. This is a firm-wide system, not something that applies to individual engagements in isolation.
 
 ### Objective of the System
 
@@ -25,7 +25,7 @@ The firm's SQM is designed to provide the firm with **reasonable assurance** tha
 
 :::warning
 
-The system provides **reasonable assurance**, not absolute assurance. No system of quality management can guarantee that every engagement will be performed flawlessly—but it must be designed to reduce the risk of quality failures to an acceptably low level.
+The system provides **reasonable assurance**, not absolute assurance. No system of quality management can guarantee that every engagement will be performed flawlessly, but it must be designed to reduce the risk of quality failures to an acceptably low level.
 
 :::
 
@@ -48,10 +48,10 @@ The firm's SQM includes the following components:
 
 SQMS No. 1 takes a **risk-based approach** to quality management. The firm must:
 
-1. **Identify quality risks** — What could go wrong in the firm's operations or engagements?
-2. **Assess quality risks** — How likely and significant are those risks?
-3. **Design and implement responses** — What policies and procedures will address those risks?
-4. **Monitor effectiveness** — Are the responses working as intended?
+1. **Identify quality risks**: What could go wrong in the firm's operations or engagements?
+2. **Assess quality risks**: How likely and significant are those risks?
+3. **Design and implement responses**: What policies and procedures will address those risks?
+4. **Monitor effectiveness**: Are the responses working as intended?
 
 **Example:** Bear Co.'s audit firm identifies a quality risk that staff assigned to complex fair value audits may lack sufficient expertise. In response, the firm implements a policy requiring that at least one team member with specialized valuation training be assigned to any engagement involving significant Level 3 fair value measurements.
 
@@ -92,12 +92,12 @@ The firm considers the following factors when determining whether an EQR is nece
 The EQR reviewer must possess:
 
 - **Sufficient competence and experience** to perform the review
-- **Objectivity** — The reviewer must not have been involved in performing the engagement and must not have relationships that impair objectivity
-- **Authority** — The reviewer's conclusions cannot be overridden by the engagement partner
+- **Objectivity**: The reviewer must not have been involved in performing the engagement and must not have relationships that impair objectivity
+- **Authority**: The reviewer's conclusions cannot be overridden by the engagement partner
 
 :::tip[Exam Tip]
 
-The EQR reviewer performs an **evaluation**, not a re-audit. The reviewer assesses whether significant judgments were reasonable and the conclusions are supported—but is not required to re-perform all audit procedures.
+The EQR reviewer performs an **evaluation**, not a re-audit. The reviewer assesses whether significant judgments were reasonable and the conclusions are supported, but is not required to re-perform all audit procedures.
 
 :::
 
@@ -133,8 +133,8 @@ A firm's system of quality management is only as effective as its **monitoring**
 
 Monitoring activities include:
 
-- **Ongoing monitoring** — Day-to-day activities built into the firm's operations, such as reviewing engagement documentation as part of normal supervision
-- **Periodic inspections** — Systematic reviews of completed engagements and the firm's quality management policies, often referred to as **inspection programs** or **peer reviews**
+- **Ongoing monitoring**: Day-to-day activities built into the firm's operations, such as reviewing engagement documentation as part of normal supervision
+- **Periodic inspections**: Systematic reviews of completed engagements and the firm's quality management policies, often referred to as **inspection programs** or **peer reviews**
 
 ### Inspection of Completed Engagements
 
@@ -155,10 +155,10 @@ For firms that audit **issuers**, the **PCAOB** conducts external inspections. T
 
 When monitoring or inspection activities identify deficiencies, the firm must:
 
-1. **Evaluate the severity** of the deficiency — Is it a one-time lapse or a systemic problem?
-2. **Determine the root cause** — Why did the deficiency occur?
-3. **Design remedial actions** — What changes to policies, procedures, training, or resources will address the deficiency?
-4. **Implement and follow up** — Ensure the remedial actions are put into place and are effective
+1. **Evaluate the severity** of the deficiency: Is it a one-time lapse or a systemic problem?
+2. **Determine the root cause**: Why did the deficiency occur?
+3. **Design remedial actions**: What changes to policies, procedures, training, or resources will address the deficiency?
+4. **Implement and follow up**: Ensure the remedial actions are put into place and are effective
 
 **Example:** During its annual inspection, Ursa Security's audit firm discovers that three engagement files lacked documentation of the assessed risk of material misstatement at the assertion level. The firm investigates and determines that the root cause was insufficient training on new documentation standards. The remedial action includes mandatory training sessions and updated engagement checklists.
 

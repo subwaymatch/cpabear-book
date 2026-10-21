@@ -1,6 +1,6 @@
 # Other Information in Audited Documents
 
-When an entity publishes its audited financial statements, those statements are often accompanied by additional information — such as management's discussion and analysis (MD&A), letters to shareholders, operating statistics, and other data. Although the auditor's opinion covers only the financial statements and related notes, the auditor has specific responsibilities regarding this "other information." If the other information is materially inconsistent with the audited financial statements or contains a material misstatement of fact, the auditor must take action.
+When an entity publishes its audited financial statements, those statements are often accompanied by additional information, such as management's discussion and analysis (MD&A), letters to shareholders, operating statistics, and other data. Although the auditor's opinion covers only the financial statements and related notes, the auditor has specific responsibilities regarding this "other information." If the other information is materially inconsistent with the audited financial statements or contains a material misstatement of fact, the auditor must take action.
 
 This section covers the auditor's responsibilities under AU-C 720 and AS 2710, what constitutes other information, the procedures for reading and evaluating it, and the reporting requirements introduced under SAS 146.
 
@@ -24,7 +24,7 @@ Other information is **financial and non-financial information** (other than the
 
 :::info
 
-The key distinction is that other information is included **in the same document** as the audited financial statements (typically the annual report). Information published separately — such as a standalone press release — is generally not subject to these requirements, though the auditor should remain alert to any inconsistencies they become aware of.
+The key distinction is that other information is included **in the same document** as the audited financial statements (typically the annual report). Information published separately, such as a standalone press release, is generally not subject to these requirements, though the auditor should remain alert to any inconsistencies they become aware of.
 
 :::
 
@@ -53,7 +53,7 @@ The auditor's responsibilities regarding other information are **limited but imp
 
 :::tip
 
-Think of the auditor's role regarding other information as a "read and consider" responsibility — not an audit or review. The auditor is leveraging knowledge already obtained during the audit to identify red flags.
+Think of the auditor's role regarding other information as a "read and consider" responsibility, not an audit or review. The auditor is leveraging knowledge already obtained during the audit to identify red flags.
 
 :::
 
@@ -91,16 +91,16 @@ A **material inconsistency** exists when the other information contradicts infor
 2. Determine whether the **financial statements** need to be revised (if the financial statements are wrong)
 3. Determine whether the **other information** needs to be revised (if the other information is wrong)
 4. If management refuses to make necessary revisions:
-   - If the **financial statements** are materially misstated → modify the audit opinion
-   - If the **other information** is materially misstated → describe the inconsistency in the "Other Information" section of the auditor's report
+   - If the **financial statements** are materially misstated, modify the audit opinion
+   - If the **other information** is materially misstated, describe the inconsistency in the "Other Information" section of the auditor's report
 
 ### After the Auditor's Report Date
 
 If the auditor becomes aware of a material inconsistency after the report date:
 
 1. **Discuss** with management and those charged with governance
-2. If the other information is revised → no further action needed
-3. If management refuses to revise → consider the auditor's legal and professional responsibilities, which may include:
+2. If the other information is revised, no further action is needed
+3. If management refuses to revise, consider the auditor's legal and professional responsibilities, which may include:
    - Communicating with those charged with governance
    - Consulting with legal counsel
    - Withholding the auditor's report (if not yet released)
@@ -186,13 +186,13 @@ A critical concept for the CPA exam is that the auditor provides **no opinion an
 
 :::caution
 
-Exam questions may try to trick you into thinking the auditor provides limited assurance or some form of assurance on the other information. The correct answer is always **no assurance** — the auditor only reads and considers the information for material inconsistencies and misstatements of fact.
+Exam questions may try to trick you into thinking the auditor provides limited assurance or some form of assurance on the other information. The correct answer is always **no assurance**. The auditor only reads and considers the information for material inconsistencies and misstatements of fact.
 
 :::
 
 ---
 
-## Procedures When Issues Are Found — Decision Flowchart
+## Procedures When Issues Are Found: Decision Flowchart
 
 The following summarizes the auditor's decision process:
 
@@ -213,11 +213,11 @@ The following summarizes the auditor's decision process:
 |---------|-----------|
 | **Other information** | Financial and non-financial data in documents containing audited F/S (e.g., annual reports, MD&A) |
 | **AU-C 720 / AS 2710** | Govern the auditor's responsibilities regarding other information |
-| **Auditor's responsibility** | Read and consider — not audit, review, or provide assurance |
+| **Auditor's responsibility** | Read and consider only (not audit, review, or provide assurance) |
 | **Material inconsistency** | Contradiction between other information and audited financial statements |
 | **Material misstatement of fact** | Incorrect information unrelated to the F/S in the other information |
 | **SAS 146 reporting** | Includes an "Other Information" section in the auditor's report identifying the information, describing the auditor's responsibility, and stating the conclusion |
 | **PCAOB reporting** | No separate required section, but same read-and-consider obligations apply |
 | **Assurance level** | No opinion and no assurance on other information |
-| **Resolution process** | Discuss with management → request correction → describe in report or consider further action if unresolved |
+| **Resolution process** | Discuss with management, then request correction, then describe in report or consider further action if unresolved |
 | **Timing** | Obtain other information before report date if possible; if not, read as soon as practicable |

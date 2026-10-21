@@ -1,10 +1,10 @@
 # Required Supplementary Information
 
-Required supplementary information (RSI) is information that GASB has determined is essential for placing the basic financial statements in an appropriate operational, economic, or historical context. RSI accompanies—but is not part of—the basic financial statements and is subject to limited audit procedures rather than a full audit opinion.
+Required supplementary information (RSI) is information that GASB has determined is essential for placing the basic financial statements in an appropriate operational, economic, or historical context. RSI accompanies, but is not part of, the basic financial statements and is subject to limited audit procedures rather than a full audit opinion.
 
 :::info[Blueprint Coverage]
 
-**BAR Area III, Group A, Topic 8** – Required supplementary information (RSI) other than management's discussion and analysis. Representative task: Recall the objectives and components of RSI other than MD&A in the annual comprehensive financial report (ACFR) for state and local governments.
+**BAR Area III, Group A, Topic 8**: Required supplementary information (RSI) other than management's discussion and analysis. Representative task: Recall the objectives and components of RSI other than MD&A in the annual comprehensive financial report (ACFR) for state and local governments.
 
 :::
 
@@ -44,7 +44,7 @@ Remember the mnemonic **"MD&A before, everything else after."** MD&A is the only
 
 ---
 
-## RSI Other Than MD&A – Key Categories
+## RSI Other Than MD&A: Key Categories
 
 | Category | Governing Standard | When Required |
 |----------|-------------------|---------------|
@@ -109,16 +109,16 @@ This schedule tracks the components of the net pension liability (NPL) over time
 | + Changes in benefit terms | Plan amendments increasing or decreasing benefits |
 | + Experience (gains)/losses | Differences between expected and actual experience |
 | + Changes in assumptions | Effect of updated actuarial assumptions |
-| − Benefit payments | Benefits paid to retirees |
+| - Benefit payments | Benefits paid to retirees |
 | = Ending TPL | Closing balance |
 | Beginning Plan Fiduciary Net Position | Opening plan assets |
 | + Employer contributions | Amounts contributed by the employer |
 | + Employee contributions | Amounts contributed by employees |
 | + Net investment income | Return on plan assets |
-| − Benefit payments | Benefits paid from plan assets |
-| − Administrative expenses | Plan operating costs |
+| - Benefit payments | Benefits paid from plan assets |
+| - Administrative expenses | Plan operating costs |
 | = Ending Plan Fiduciary Net Position | Closing plan assets |
-| **Net Pension Liability (NPL)** | **TPL − Plan Fiduciary Net Position** |
+| **Net Pension Liability (NPL)** | **TPL - Plan Fiduciary Net Position** |
 
 ### Key Ratios Presented
 
@@ -133,7 +133,7 @@ This schedule tracks the components of the net pension liability (NPL) over time
 |--------|-------------|
 | Actuarially Determined Contribution (ADC) | Amount the actuary calculates is needed |
 | Actual Contribution | Amount the employer actually contributed |
-| Contribution Deficiency/(Excess) | ADC − Actual Contribution |
+| Contribution Deficiency/(Excess) | ADC - Actual Contribution |
 | Covered Employee Payroll | Payroll of employees in the plan |
 | Actual Contribution as % of Covered Payroll | Actual ÷ Covered Payroll |
 
@@ -145,7 +145,7 @@ This schedule tracks the components of the net pension liability (NPL) over time
 
 :::tip[Exam Tip]
 
-The 10-year build-up rule is frequently tested. If a government adopted GASB 68 three years ago, it presents only three years of data—not ten.
+The 10-year build-up rule is frequently tested. If a government adopted GASB 68 three years ago, it presents only three years of data, not ten.
 
 :::
 
@@ -173,7 +173,7 @@ OPEB (Other Postemployment Benefits) RSI follows a **parallel structure** to pen
 
 :::info[Remember]
 
-Both pension and OPEB schedules require 10 years of data built up prospectively. The schedules are structurally identical—only the type of benefit differs.
+Both pension and OPEB schedules require 10 years of data built up prospectively. The schedules are structurally identical; only the type of benefit differs.
 
 :::
 
@@ -215,7 +215,7 @@ If a government fails to meet condition assessment requirements or falls below i
 
 ## Auditor's Responsibility for RSI
 
-RSI occupies a unique position—it is required by GASB but is **not audited** at the same level as the basic financial statements.
+RSI occupies a unique position: it is required by GASB but is **not audited** at the same level as the basic financial statements.
 
 ### Level of Assurance
 
@@ -261,7 +261,7 @@ Omission of RSI does **not** result in a qualified or adverse opinion on the bas
 
 ## Example: Pension RSI Schedule
 
-### Schedule of Changes in Net Pension Liability (Illustrative – 3-Year Build-Up)
+### Schedule of Changes in Net Pension Liability (Illustrative, 3-Year Build-Up)
 
 | | Year 3 | Year 2 | Year 1 |
 |---|---|---|---|
@@ -320,7 +320,7 @@ flowchart TD
 | Concept | Remember |
 |---------|----------|
 | RSI vs. basic FS | RSI is **not** part of the basic financial statements |
-| Audit level | Limited procedures only—no opinion expressed |
+| Audit level | Limited procedures only; no opinion expressed |
 | Budgetary comparison | General Fund + major special revenue funds with adopted budgets |
 | Pension/OPEB trend | 10 years, built up prospectively |
 | Infrastructure condition | Required only under the modified approach |

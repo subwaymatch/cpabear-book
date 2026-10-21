@@ -1,6 +1,6 @@
 # Economic and Market Influences on Business
 
-Every business operates within a broader economic environment. Changes in supply and demand, inflation, interest rates, and currency exchange rates directly affect an entity's pricing power, cost structure, profitability, and strategic direction. CPA candidates must be able to **quantify** these effects and **evaluate** how market forces shape business decisions—from day-to-day pricing to major acquisitions and divestitures.
+Every business operates within a broader economic environment. Changes in supply and demand, inflation, interest rates, and currency exchange rates directly affect an entity's pricing power, cost structure, profitability, and strategic direction. CPA candidates must be able to **quantify** these effects and **evaluate** how market forces shape business decisions, from day-to-day pricing to major acquisitions and divestitures.
 
 ---
 
@@ -32,7 +32,7 @@ $$
 | **Inelastic** | \|PED\| < 1 | Consumers are not very price-sensitive | Total revenue **increases** |
 | **Unit elastic** | \|PED\| = 1 | Proportional response | Total revenue **unchanged** |
 
-**Example — Bear Co.** Bear Co. sells premium notebooks at \$20 each. When it raises the price to \$24 (a 20% increase), quantity demanded falls from 10,000 to 7,000 units (a 30% decrease).
+**Example (Bear Co.):** Bear Co. sells premium notebooks at \$20 each. When it raises the price to \$24 (a 20% increase), quantity demanded falls from 10,000 to 7,000 units (a 30% decrease).
 
 $$
 \text{PED} = \frac{-30\%}{20\%} = -1.5
@@ -48,8 +48,8 @@ $$
 \text{Cross-Price Elasticity} = \frac{\%\text{ Change in Qty Demanded of Good A}}{\%\text{ Change in Price of Good B}}
 $$
 
-- **Positive** value → the goods are **substitutes** (e.g., competing software products)
-- **Negative** value → the goods are **complements** (e.g., printers and ink cartridges)
+- A **positive** value means the goods are **substitutes** (e.g., competing software products)
+- A **negative** value means the goods are **complements** (e.g., printers and ink cartridges)
 
 **Income elasticity** measures how demand responds to changes in consumer income. A positive value indicates a **normal good**; a negative value indicates an **inferior good**.
 
@@ -87,7 +87,7 @@ $$
 (1 + \text{Nominal Rate}) = (1 + \text{Real Rate}) \times (1 + \text{Inflation Rate})
 $$
 
-**Example — Bear Co.** Bear Co. holds a bond yielding 7% nominal. Inflation is 3%.
+**Example (Bear Co.):** Bear Co. holds a bond yielding 7% nominal. Inflation is 3%.
 
 $$
 \text{Real Rate} \approx 7\% - 3\% = 4\%
@@ -99,13 +99,13 @@ Precise calculation: Real Rate = (1.07 / 1.03) - 1 = 3.88%.
 
 | Area | Impact of Inflation |
 |---|---|
-| **Fixed-rate debt** | **Benefits debtors** — repay with cheaper dollars |
+| **Fixed-rate debt** | **Benefits debtors**, who repay with cheaper dollars |
 | **Fixed-income investments** | Erodes real returns for investors holding bonds |
 | **Future expenses** | Budgets must be adjusted upward; understating inflation leads to cost overruns |
 | **Inventory (FIFO)** | Higher reported profit because older, lower-cost inventory is matched to revenue |
 | **Inventory (LIFO)** | Better matching of current costs to current revenues during inflation |
 
-**Example — Polar Inc.** Polar Inc. has a \$500,000 fixed-rate loan at 5% with 3 years remaining. If inflation runs at 4% per year, the real cost of the loan is approximately 1% (5% − 4%), effectively reducing Polar Inc.'s debt burden in real terms.
+**Example (Polar Inc.):** Polar Inc. has a \$500,000 fixed-rate loan at 5% with 3 years remaining. If inflation runs at 4% per year, the real cost of the loan is approximately 1% (5% - 4%), effectively reducing Polar Inc.'s debt burden in real terms.
 
 :::warning
 
@@ -117,12 +117,12 @@ Deflation (falling prices) has the **opposite** effect: it increases the real bu
 
 ## Interest Rate Risk
 
-Interest rate changes affect virtually every financial decision—from the cost of borrowing to the valuation of investments.
+Interest rate changes affect virtually every financial decision, from the cost of borrowing to the valuation of investments.
 
 ### Impact on Borrowing and Investment
 
-- **Rising rates** → higher borrowing costs, lower present value of future cash flows, falling bond prices
-- **Falling rates** → cheaper borrowing, higher asset valuations, rising bond prices
+- **Rising rates** lead to higher borrowing costs, lower present value of future cash flows, and falling bond prices
+- **Falling rates** lead to cheaper borrowing, higher asset valuations, and rising bond prices
 
 ### Bond Price and Duration
 
@@ -132,7 +132,7 @@ $$
 \text{Approximate Price Change} = -\text{Duration} \times \Delta \text{Interest Rate} \times \text{Bond Price}
 $$
 
-**Example — BIF Partners** BIF Partners holds a bond portfolio valued at \$2,000,000 with an average duration of 6 years. If interest rates rise by 0.5%:
+**Example (BIF Partners):** BIF Partners holds a bond portfolio valued at \$2,000,000 with an average duration of 6 years. If interest rates rise by 0.5%:
 
 $$
 \text{Price Change} \approx -6 \times 0.005 \times \$2{,}000{,}000 = -\$60{,}000
@@ -162,7 +162,7 @@ Entities operating internationally face risk from fluctuating exchange rates. Th
 
 A **forward contract** locks in an exchange rate for a future date, eliminating transaction exposure.
 
-**Example — Kingfisher Industries** Kingfisher Industries exports goods to Europe and expects to receive €500,000 in 90 days. The current spot rate is \$1.10/€, but the company fears the euro may weaken. Kingfisher enters a 90-day forward contract at \$1.08/€.
+**Example (Kingfisher Industries):** Kingfisher Industries exports goods to Europe and expects to receive €500,000 in 90 days. The current spot rate is \$1.10/€, but the company fears the euro may weaken. Kingfisher enters a 90-day forward contract at \$1.08/€.
 
 - **Without hedge:** If the euro falls to \$1.04/€, Kingfisher receives 500,000 × \$1.04 = \$520,000
 - **With hedge:** Kingfisher locks in 500,000 × \$1.08 = **\$540,000**
@@ -185,7 +185,7 @@ $$
 \text{Opportunity Cost} = \text{Return on Best Foregone Alternative}
 $$
 
-**Example — Illini Entertainment** Illini Entertainment has \$1,000,000 to invest and is evaluating two projects:
+**Example (Illini Entertainment):** Illini Entertainment has \$1,000,000 to invest and is evaluating two projects:
 
 | | Project A | Project B |
 |---|---|---|
@@ -260,28 +260,28 @@ Porter's Five Forces helps explain **why** some industries are consistently more
 
 Companies pursue acquisitions to achieve:
 
-- **Synergies** — cost savings or revenue enhancements from combining operations
-- **Market share** — gaining customers and distribution channels
-- **Diversification** — reducing dependence on a single product or market
-- **Capabilities** — acquiring technology, talent, or intellectual property
+- **Synergies**: cost savings or revenue enhancements from combining operations
+- **Market share**: gaining customers and distribution channels
+- **Diversification**: reducing dependence on a single product or market
+- **Capabilities**: acquiring technology, talent, or intellectual property
 
 ### Evaluating Acquisition Opportunities
 
 Two common valuation approaches:
 
-**1. Comparable multiples analysis** — comparing the target's valuation ratios to peers:
+**1. Comparable multiples analysis**, comparing the target's valuation ratios to peers:
 
 $$
 \text{Enterprise Value} = \text{EBITDA} \times \text{Industry Multiple}
 $$
 
-**2. Discounted cash flow (DCF)** — estimating intrinsic value from projected free cash flows:
+**2. Discounted cash flow (DCF)**, estimating intrinsic value from projected free cash flows:
 
 $$
 \text{Value} = \sum \frac{\text{FCF}_t}{(1 + r)^t} + \frac{\text{Terminal Value}}{(1 + r)^n}
 $$
 
-**Example — Illini Security** Illini Security is considering acquiring a smaller competitor. The target has EBITDA of \$4,000,000 and comparable companies trade at 8× EBITDA.
+**Example (Illini Security):** Illini Security is considering acquiring a smaller competitor. The target has EBITDA of \$4,000,000 and comparable companies trade at 8× EBITDA.
 
 $$
 \text{Estimated Enterprise Value} = \$4{,}000{,}000 \times 8 = \$32{,}000{,}000
@@ -317,7 +317,7 @@ Acquisition **synergies are often overestimated** in practice. The CPA exam may 
 
 ---
 
-## Quantifying Risk — Key Ratios and Measures
+## Quantifying Risk: Key Ratios and Measures
 
 The following ratios help quantify the economic and market risks discussed throughout this section:
 
@@ -337,7 +337,7 @@ The following ratios help quantify the economic and market risks discussed throu
 :::tip[Exam Tip]
 
 - **Supply and demand:** Know how to calculate PED and determine whether a price change increases or decreases total revenue.
-- **Inflation:** The Fisher equation (Real ≈ Nominal − Inflation) is a frequent tested formula. Remember that inflation **benefits debtors** with fixed-rate loans.
+- **Inflation:** The Fisher equation (Real ≈ Nominal - Inflation) is a frequent tested formula. Remember that inflation **benefits debtors** with fixed-rate loans.
 - **Interest rates:** Bond prices move inversely to interest rates. Use duration to estimate the dollar impact of rate changes.
 - **Currency:** Understand the three types of exposure (transaction, translation, economic) and how forward contracts hedge transaction risk.
 - **Opportunity cost:** Always identify the return on the **next-best** alternative, not the worst alternative.

@@ -4,22 +4,22 @@ Inventory is often one of the largest and most complex assets on the balance she
 
 ## Observing the Physical Inventory Count
 
-The observation of the client's physical inventory count is a **required** audit procedure when inventory is material (unless it is impracticable). The auditor does not conduct the count—rather, the auditor **observes** the client's personnel performing the count and performs test counts to verify accuracy.
+The observation of the client's physical inventory count is a **required** audit procedure when inventory is material (unless it is impracticable). The auditor does not conduct the count; rather, the auditor **observes** the client's personnel performing the count and performs test counts to verify accuracy.
 
 ### Key Steps During Inventory Observation
 
-1. **Review the client's count instructions** – Before the count, the auditor reviews management's written instructions to ensure they provide for an orderly, complete count.
-2. **Tour the facility** – Walk through the warehouse and production areas to gain an understanding of the nature and volume of inventory.
-3. **Perform test counts** – The auditor independently counts selected items and compares the results to the client's count sheets.
-4. **Observe count procedures** – Ensure that count teams are following instructions, using pre-numbered tags or sheets, and that movement of goods is controlled during the count.
-5. **Identify obsolete, damaged, or slow-moving items** – Note any inventory that appears to be in poor condition, outdated, or excessive in quantity.
-6. **Trace test counts to the final inventory compilation** – After the count, the auditor traces the test count results to the client's final inventory report to ensure they are properly included.
+1. **Review the client's count instructions**: Before the count, the auditor reviews management's written instructions to ensure they provide for an orderly, complete count.
+2. **Tour the facility**: Walk through the warehouse and production areas to gain an understanding of the nature and volume of inventory.
+3. **Perform test counts**: The auditor independently counts selected items and compares the results to the client's count sheets.
+4. **Observe count procedures**: Ensure that count teams are following instructions, using pre-numbered tags or sheets, and that movement of goods is controlled during the count.
+5. **Identify obsolete, damaged, or slow-moving items**: Note any inventory that appears to be in poor condition, outdated, or excessive in quantity.
+6. **Trace test counts to the final inventory compilation**: After the count, the auditor traces the test count results to the client's final inventory report to ensure they are properly included.
 
 :::tip[Dual-Direction Testing]
 
 The auditor performs test counts in **two directions**:
-- **From the floor to the count sheets** → Tests **completeness** (are all items on the floor recorded?)
-- **From the count sheets to the floor** → Tests **existence** (do items on the sheets actually exist?)
+- **From the floor to the count sheets**: Tests **completeness** (are all items on the floor recorded?)
+- **From the count sheets to the floor**: Tests **existence** (do items on the sheets actually exist?)
 
 :::
 
@@ -36,7 +36,7 @@ Grizzly Industries manufactures electronic components and holds significant raw 
 
 :::warning
 
-The auditor must specifically **inquire of management** about the existence of obsolete, slow-moving, damaged, or excess inventory. Simply observing the physical count is not sufficient—management may know of conditions not visible during a walk-through.
+The auditor must specifically **inquire of management** about the existence of obsolete, slow-moving, damaged, or excess inventory. Simply observing the physical count is not sufficient, because management may know of conditions not visible during a walk-through.
 
 :::
 
@@ -44,10 +44,10 @@ During the audit of Honey Entertainment, the auditor asks management whether any
 
 ### Valuation Procedures
 
-- **Test pricing** – Verify that inventory is valued at the lower of cost or net realizable value (NRV) by examining recent purchase invoices (for raw materials) or production cost records (for WIP and finished goods)
-- **Review aging of inventory** – Analyze inventory turnover and identify items held for extended periods
-- **Evaluate the allowance for inventory obsolescence** – Assess whether management's reserve is reasonable given historical write-downs and current market conditions
-- **Test cost accumulation** – For manufactured inventory, verify that material, labor, and overhead costs are properly accumulated
+- **Test pricing**: Verify that inventory is valued at the lower of cost or net realizable value (NRV) by examining recent purchase invoices (for raw materials) or production cost records (for WIP and finished goods)
+- **Review aging of inventory**: Analyze inventory turnover and identify items held for extended periods
+- **Evaluate the allowance for inventory obsolescence**: Assess whether management's reserve is reasonable given historical write-downs and current market conditions
+- **Test cost accumulation**: For manufactured inventory, verify that material, labor, and overhead costs are properly accumulated
 
 ### Example: Inventory Valuation at Panda Records
 
@@ -109,6 +109,6 @@ Bear Co. uses the FIFO costing method. The auditor verifies that the notes to th
 
 :::danger[Common Exam Trap]
 
-The auditor **observes** the client's inventory count—the auditor does **not** take the inventory themselves. The responsibility for the physical count belongs to management. The auditor's role is to evaluate the adequacy of the count procedures and perform test counts to corroborate the client's results.
+The auditor **observes** the client's inventory count; the auditor does **not** take the inventory themselves. The responsibility for the physical count belongs to management. The auditor's role is to evaluate the adequacy of the count procedures and perform test counts to corroborate the client's results.
 
 :::

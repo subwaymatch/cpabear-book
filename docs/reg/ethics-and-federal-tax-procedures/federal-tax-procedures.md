@@ -78,7 +78,7 @@ For the CPA exam, remember that CPAs, attorneys, and EAs have **unlimited** repr
 
 When a preparer takes an improper position on a return, the IRS imposes graduated penalties under IRC §6694. The severity depends on the preparer's level of culpability.
 
-### IRC §6694(a) — Unreasonable Position
+### IRC §6694(a): Unreasonable Position
 
 A penalty applies when a preparer takes a position on a return that the IRS later determines was **unreasonable**.
 
@@ -92,7 +92,7 @@ A penalty applies when a preparer takes a position on a return that the IRS late
 
 > **Example:** Marcus, a CPA at Bear Co., prepares a return and claims an aggressive deduction without disclosing it. The position does not meet the substantial authority standard. Marcus earned a \$3,000 fee for preparing the return. His penalty is the greater of \$1,000 or 50% × \$3,000 = **\$1,500**.
 
-### IRC §6694(b) — Willful or Reckless Conduct
+### IRC §6694(b): Willful or Reckless Conduct
 
 This more severe penalty applies when a preparer's conduct rises to the level of **willful understatement** of tax liability or **reckless or intentional disregard** of rules and regulations.
 
@@ -134,14 +134,14 @@ A preparer must **never** endorse or cash a client's refund check. Even depositi
 
 ## Other Preparer Penalties
 
-### Aiding and Abetting Understatement — IRC §6701
+### Aiding and Abetting Understatement (IRC §6701)
 
 Any person (not limited to TRPs) who aids or assists in preparing any portion of a return, claim, or other document knowing it will be used in connection with a **material understatement of tax** is subject to a penalty of:
 
 - **\$1,000** per return for individual taxpayer returns
 - **\$10,000** per return for corporate taxpayer returns
 
-### Wrongful Disclosure or Use of Tax Return Information — IRC §6713 / §7216
+### Wrongful Disclosure or Use of Tax Return Information (IRC §6713 / §7216)
 
 Tax return preparers have a duty to protect client information. Unauthorized disclosure or use of tax return information triggers:
 
@@ -191,21 +191,21 @@ If a taxpayer disagrees with the results of an IRS audit, a structured appeals p
 
 ```mermaid
 flowchart TD
-    A[Audit Completed — IRS Proposes Adjustments] --> B[30-Day Letter Issued]
+    A[Audit Completed, IRS Proposes Adjustments] --> B[30-Day Letter Issued]
     B --> C{Taxpayer Responds Within 30 Days?}
-    C -->|Yes — Requests Appeal| D[IRS Appeals Conference]
-    C -->|No Response or Disagreement| E[90-Day Letter Issued — Notice of Deficiency]
+    C -->|Yes, Requests Appeal| D[IRS Appeals Conference]
+    C -->|No Response or Disagreement| E[90-Day Letter Issued: Notice of Deficiency]
     D --> F{Settlement Reached?}
-    F -->|Yes| G[Case Closed — Taxpayer Pays Agreed Amount]
+    F -->|Yes| G[Case Closed, Taxpayer Pays Agreed Amount]
     F -->|No| E
     E --> H{Taxpayer Petitions Tax Court Within 90 Days?}
     H -->|Yes| I[U.S. Tax Court Proceeding]
-    H -->|No — 90 Days Expire| J[Assessment Becomes Final — IRS Collects]
+    H -->|No, 90 Days Expire| J[Assessment Becomes Final, IRS Collects]
 ```
 
 ### Key Documents
 
-- **30-Day Letter:** A preliminary letter informing the taxpayer of proposed changes and their right to appeal within 30 days. This is *not* a statutory notice — it is an administrative courtesy.
+- **30-Day Letter:** A preliminary letter informing the taxpayer of proposed changes and their right to appeal within 30 days. This is *not* a statutory notice; it is an administrative courtesy.
 
 - **IRS Appeals Conference:** An informal meeting with an IRS Appeals Officer. The Appeals Office is independent from the examination division and has authority to settle cases based on the **hazards of litigation** (the likelihood that the IRS would win in court).
 
@@ -227,9 +227,9 @@ When a tax dispute cannot be resolved administratively, the taxpayer may litigat
 
 | **Court** | **Prepayment Required?** | **Jury Trial Available?** | **Key Features** |
 | --- | --- | --- | --- |
-| **U.S. Tax Court** | **No** — taxpayer does not pay the deficiency before trial | **No** | Specialized tax court; judges are tax experts; most common forum for tax disputes; petition must be filed within 90 days of the notice of deficiency |
-| **U.S. District Court** | **Yes** — taxpayer must pay the full amount and then sue for a refund | **Yes** — the only forum where a jury trial is available | General jurisdiction; applies the law of the circuit in which it sits |
-| **U.S. Court of Federal Claims** | **Yes** — taxpayer must pay and sue for a refund | **No** | Sits in Washington, D.C.; applies Federal Circuit law; no jury |
+| **U.S. Tax Court** | **No** (taxpayer does not pay the deficiency before trial) | **No** | Specialized tax court; judges are tax experts; most common forum for tax disputes; petition must be filed within 90 days of the notice of deficiency |
+| **U.S. District Court** | **Yes** (taxpayer must pay the full amount and then sue for a refund) | **Yes** (the only forum where a jury trial is available) | General jurisdiction; applies the law of the circuit in which it sits |
+| **U.S. Court of Federal Claims** | **Yes** (taxpayer must pay and sue for a refund) | **No** | Sits in Washington, D.C.; applies Federal Circuit law; no jury |
 
 :::tip[Exam Tip]
 
@@ -264,7 +264,7 @@ When both FTF and FTP penalties apply in the same month, the FTF penalty is **re
 
 :::
 
-### Accuracy-Related Penalties — IRC §6662
+### Accuracy-Related Penalties (IRC §6662)
 
 All accuracy-related penalties under §6662 are assessed at a rate of **20% of the underpayment** attributable to the violation.
 
@@ -279,7 +279,7 @@ All accuracy-related penalties under §6662 are assessed at a rate of **20% of t
 | **Type** | **Penalty** | **Burden of Proof** |
 | --- | --- | --- |
 | **Civil fraud (§6663)** | **75%** of the underpayment attributable to fraud | IRS must prove fraud by **clear and convincing evidence** |
-| **Criminal fraud (§7201 — Tax Evasion)** | Up to **\$250,000 fine** and/or **5 years imprisonment** (individuals) | Government must prove guilt **beyond a reasonable doubt** |
+| **Criminal fraud (§7201, Tax Evasion)** | Up to **\$250,000 fine** and/or **5 years imprisonment** (individuals) | Government must prove guilt **beyond a reasonable doubt** |
 
 :::caution
 
@@ -361,7 +361,7 @@ Conclusions reached in treatises, legal periodicals, and tax opinions from law f
 
 ## Reporting Requirements for Foreign Bank Accounts
 
-### FBAR — FinCEN Report 114
+### FBAR (FinCEN Report 114)
 
 U.S. persons (citizens, residents, and domestic entities) who have a financial interest in or signature authority over **foreign financial accounts** must file a Report of Foreign Bank and Financial Accounts (FBAR) if the **aggregate value of all foreign accounts exceeds \$10,000 at any time during the calendar year**.
 
@@ -379,7 +379,7 @@ U.S. persons (citizens, residents, and domestic entities) who have a financial i
 | **Willful failure to file** | The **greater of \$100,000 or 50% of the account balance** at the time of the violation |
 | **Criminal penalties** | Up to **\$250,000 fine** and/or **5 years imprisonment** |
 
-> **Example:** Priya, a U.S. citizen, maintains two bank accounts in India — one with a peak balance of \$7,000 and another with a peak balance of \$5,000. Although neither account individually exceeds \$10,000, the **aggregate** peak value is \$12,000. Priya must file an FBAR.
+> **Example:** Priya, a U.S. citizen, maintains two bank accounts in India, one with a peak balance of \$7,000 and another with a peak balance of \$5,000. Although neither account individually exceeds \$10,000, the **aggregate** peak value is \$12,000. Priya must file an FBAR.
 
 :::warning
 

@@ -4,7 +4,7 @@
 
 :::info[Blueprint Coverage]
 
-This section maps to **BAR Area III, Group C, Topic 6 – Nonexchange Revenue Transactions**. Representative tasks:
+This section maps to **BAR Area III, Group C, Topic 6: Nonexchange Revenue Transactions**. Representative tasks:
 
 1. **Calculate** the amount of nonexchange revenue to be recognized by state and local governments using the modified accrual basis of accounting and prepare journal entries.
 2. **Calculate** the amount of nonexchange revenue to be recognized by state and local governments using the accrual basis of accounting and prepare journal entries.
@@ -53,7 +53,7 @@ flowchart TD
 
 ---
 
-## Recognition Rules — Accrual vs. Modified Accrual
+## Recognition Rules: Accrual vs. Modified Accrual
 
 | Class | Accrual Basis (Government-Wide) | Modified Accrual Basis (Governmental Funds) |
 |---|---|---|
@@ -62,7 +62,7 @@ flowchart TD
 | **Government-Mandated** | When all eligibility requirements are met | When all eligibility requirements met **AND** available |
 | **Voluntary Nonexchange** | When all eligibility requirements are met | When all eligibility requirements met **AND** available |
 
-:::warning[Modified Accrual — The "Available" Constraint]
+:::warning[Modified Accrual: The "Available" Constraint]
 
 Under modified accrual, revenue is recognized only when it is both **measurable** and **available**. "Available" means collected within the current period or soon enough thereafter to pay current-period liabilities. The availability period is typically **60 days** after year-end (though a government may define a different period in its accounting policies).
 
@@ -76,7 +76,7 @@ $$
 
 ## Class 1: Derived Tax Revenues
 
-Derived tax revenues are **imposed on exchange transactions** — the government taxes an underlying transaction between other parties.
+Derived tax revenues are **imposed on exchange transactions**: the government taxes an underlying transaction between other parties.
 
 | Tax Type | Underlying Exchange | Recognition Trigger |
 |---|---|---|
@@ -84,11 +84,11 @@ Derived tax revenues are **imposed on exchange transactions** — the government
 | Income tax | Earning of income | When the income is earned |
 | Motor fuel tax | Purchase of fuel | When the fuel is purchased |
 
-### Example — Sales Tax (Bear City)
+### Example: Sales Tax (Bear City)
 
 Bear City imposes a 2% sales tax. During December 20X4, taxable sales in the city total \$15,000,000. The resulting \$300,000 in sales tax is remitted by retailers in January 20X5 (within 60 days of year-end).
 
-**Government-wide statements (accrual basis)** — recognize when the sale occurs:
+**Government-wide statements (accrual basis):** recognize when the sale occurs.
 
 ```journal
 Dec 31, 20X4
@@ -96,7 +96,7 @@ Dr. Sales Tax Receivable[a] 300,000
 Cr. Sales Tax Revenue 300,000
 ```
 
-**General Fund (modified accrual basis)** — the tax is available because it is collected within 60 days:
+**General Fund (modified accrual basis):** the tax is available because it is collected within 60 days.
 
 ```journal
 Dec 31, 20X4
@@ -116,7 +116,7 @@ Cr. Deferred Inflows of Resources 300,000
 
 ## Class 2: Imposed Nonexchange Revenues
 
-Imposed nonexchange revenues are assessments on **non-willing parties** — not derived from a specific exchange transaction. The most commonly tested topic is **property taxes**.
+Imposed nonexchange revenues are assessments on **non-willing parties**, not derived from a specific exchange transaction. The most commonly tested topic is **property taxes**.
 
 ### Property Tax Recognition Timeline
 
@@ -142,7 +142,7 @@ flowchart LR
 
 :::tip[Exam Tip]
 
-**Property taxes collected in advance** (before the period for which they are levied) are always **deferred inflows** — on both bases. This is a time requirement, not an availability issue.
+**Property taxes collected in advance** (before the period for which they are levied) are always **deferred inflows** on both bases. This is a time requirement, not an availability issue.
 
 :::
 
@@ -154,7 +154,7 @@ Fines and penalties are recognized as revenue when an **enforceable legal claim*
 
 ## Class 3 & 4: Government-Mandated and Voluntary Nonexchange Transactions
 
-Both classes share the same recognition framework — revenue is recognized when **all eligibility requirements** are met.
+Both classes share the same recognition framework: revenue is recognized when **all eligibility requirements** are met.
 
 ### Eligibility Requirements (GASB 33)
 
@@ -162,8 +162,8 @@ Both classes share the same recognition framework — revenue is recognized when
 |---|---|---|
 | **1. Required characteristics of recipients** | Recipient must possess specific traits | Only school districts with enrollment > 500 qualify |
 | **2. Time requirements** | Resources cannot be used before a specified period | Grant funds are for FY 20X6 only |
-| **3. Reimbursement (expenditure) requirements** | Recipient must incur allowable costs first | Cost-reimbursement grant — spend first, then claim |
-| **4. Contingencies** | Specific actions must occur before resources are provided | Matching requirement — raise \$1 for every \$2 of grant |
+| **3. Reimbursement (expenditure) requirements** | Recipient must incur allowable costs first | Cost-reimbursement grant: spend first, then claim |
+| **4. Contingencies** | Specific actions must occur before resources are provided | Matching requirement: raise \$1 for every \$2 of grant |
 
 ### Recognition Logic
 
@@ -188,19 +188,19 @@ flowchart TD
 
 :::warning[Time Requirements]
 
-If a grant specifies that resources are for FY 20X6, the recipient **cannot** recognize revenue before FY 20X6 — even if cash is received in FY 20X5. The cash received early is reported as **deferred inflows of resources** by the recipient.
+If a grant specifies that resources are for FY 20X6, the recipient **cannot** recognize revenue before FY 20X6, even if cash is received in FY 20X5. The cash received early is reported as **deferred inflows of resources** by the recipient.
 
 :::
 
 ---
 
-## Property Tax Complete Example — Bear City
+## Property Tax Complete Example: Bear City
 
-**Facts:** Bear City levies \$10,000,000 in property taxes for fiscal year 20X5 (July 1, 20X4 – June 30, 20X5).
+**Facts:** Bear City levies \$10,000,000 in property taxes for fiscal year 20X5 (July 1, 20X4 to June 30, 20X5).
 
 - Estimated uncollectible: 2% (\$200,000)
 - Collected during the fiscal year: \$9,200,000
-- Collected July 1–August 29, 20X5 (within 60 days of year-end): \$500,000
+- Collected July 1 to August 29, 20X5 (within 60 days of year-end): \$500,000
 - Collected after August 29, 20X5 (beyond 60 days): \$100,000
 
 ### Government-Wide Statements (Accrual Basis)
@@ -222,7 +222,7 @@ Dr. Cash[a] 9,200,000
 Cr. Property Taxes Receivable[a] 9,200,000
 ```
 
-Collections after year-end (no additional revenue entry needed — already recognized):
+Collections after year-end (no additional revenue entry needed, since revenue was already recognized):
 
 ```journal
 After June 30, 20X5
@@ -232,7 +232,7 @@ Cr. Property Taxes Receivable[a] 600,000
 
 ### General Fund (Modified Accrual Basis)
 
-Under modified accrual, revenue is recognized only for amounts **available** — collected during the year or within 60 days after year-end.
+Under modified accrual, revenue is recognized only for amounts **available**, meaning collected during the year or within 60 days after year-end.
 
 | Component | Amount | Treatment |
 |---|---|---|
@@ -263,7 +263,7 @@ Cr. Property Taxes Receivable[a] 9,200,000
 Collections within 60 days (receivable already recorded, cash replaces it):
 
 ```journal
-July–August 20X5
+July to August 20X5
 Dr. Cash[a] 500,000
 Cr. Property Taxes Receivable[a] 500,000
 ```
@@ -286,13 +286,13 @@ $$
 \text{Revenue} = \text{Levy} - \text{Uncollectible} - \text{Collected beyond 60 days}
 $$
 
-In this example: \$10,000,000 − \$200,000 − \$100,000 = **\$9,700,000**
+In this example: \$10,000,000 - \$200,000 - \$100,000 = **\$9,700,000**
 
 :::
 
 ---
 
-## Grant Revenue Example — Pine County
+## Grant Revenue Example: Pine County
 
 **Facts:** Pine County receives a \$2,000,000 federal reimbursement-type grant to build low-income housing (a voluntary nonexchange transaction). The grant has the following eligibility requirements:
 
@@ -300,7 +300,7 @@ In this example: \$10,000,000 − \$200,000 − \$100,000 = **\$9,700,000**
 - Funds are designated for FY 20X6 (time requirement)
 - Pine County must incur eligible expenditures first, then request reimbursement (expenditure requirement)
 
-### Year 1 (FY 20X5) — Grant Awarded, Cash Received in Advance
+### Year 1 (FY 20X5): Grant Awarded, Cash Received in Advance
 
 Pine County receives \$500,000 in advance before FY 20X6 begins. The time requirement has **not** been met.
 
@@ -320,7 +320,7 @@ Dr. Cash[a] 500,000
 Cr. Deferred Inflows of Resources 500,000
 ```
 
-### Year 2 (FY 20X6) — Expenditures Incurred
+### Year 2 (FY 20X6): Expenditures Incurred
 
 During FY 20X6, Pine County incurs \$1,200,000 in eligible costs. Both the time requirement and expenditure requirement are now met for \$1,200,000.
 
@@ -334,7 +334,7 @@ Dr. Intergovernmental Receivable[a] 700,000
 Cr. Grant Revenue 700,000
 ```
 
-**Modified accrual basis** — assume all \$1,200,000 is available (collected or collectible within 60 days):
+**Modified accrual basis**, assuming all \$1,200,000 is available (collected or collectible within 60 days):
 
 ```journal
 FY 20X6
@@ -344,7 +344,7 @@ Dr. Intergovernmental Receivable[a] 700,000
 Cr. Grant Revenue 700,000
 ```
 
-### Year 2 — Receipt of Reimbursement
+### Year 2: Receipt of Reimbursement
 
 When Pine County receives the \$700,000 reimbursement:
 
@@ -358,7 +358,7 @@ Cr. Intergovernmental Receivable[a] 700,000
 
 ## Summary Comparison Table
 
-| Class | Asset Trigger | Revenue — Accrual | Revenue — Modified Accrual | Deferred Inflow Situations |
+| Class | Asset Trigger | Revenue (Accrual) | Revenue (Modified Accrual) | Deferred Inflow Situations |
 |---|---|---|---|---|
 | **Derived Tax** | Underlying exchange or receipt of resources | When exchange occurs | Exchange occurs + available | Collected but not yet available |
 | **Imposed** | Period for which levied | Period for which levied | Levied + available | Collected in advance; collected beyond 60 days |
@@ -375,8 +375,8 @@ Cr. Intergovernmental Receivable[a] 700,000
 | Property taxes collected 45 days after year-end | Revenue (within 60-day window) |
 | Property taxes collected 90 days after year-end | Deferred inflows |
 | Sales tax on December sales, received in January (within 60 days) | Revenue in the year of the sale |
-| Federal grant — all requirements met, cash received in 30 days | Revenue |
-| Federal grant — time requirement not yet met | Deferred inflows |
+| Federal grant, all requirements met, cash received in 30 days | Revenue |
+| Federal grant, time requirement not yet met | Deferred inflows |
 | State grant received in advance of allowable spending | Deferred inflows |
 | Donation with no eligibility requirements | Revenue when received/promised |
 

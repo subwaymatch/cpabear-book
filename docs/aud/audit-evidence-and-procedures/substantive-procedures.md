@@ -1,6 +1,6 @@
 # Substantive Procedures
 
-Substantive procedures are the auditor's primary weapon for detecting material misstatements in account balances, transaction classes, and disclosures. While tests of controls evaluate whether the client's safeguards are working, substantive procedures go directly to the numbers—examining whether the financial statements themselves are materially correct.
+Substantive procedures are the auditor's primary weapon for detecting material misstatements in account balances, transaction classes, and disclosures. While tests of controls evaluate whether the client's safeguards are working, substantive procedures go directly to the numbers, examining whether the financial statements themselves are materially correct.
 
 ---
 
@@ -67,7 +67,7 @@ The auditor adjusts the nature, extent, and timing of substantive procedures bas
 
 :::tip
 
-Think of it as a sliding scale. When the auditor assesses a higher risk of material misstatement (whether due to weak controls, fraud risk, or complex transactions), the response should be to increase the **persuasiveness** of substantive testing—not just the volume.
+Think of it as a sliding scale. When the auditor assesses a higher risk of material misstatement (whether due to weak controls, fraud risk, or complex transactions), the response should be to increase the **persuasiveness** of substantive testing, not just the volume.
 
 :::
 
@@ -84,7 +84,7 @@ Nature refers to the **type and purpose** of the procedure. The auditor selects 
 
 ### Extent
 
-Extent refers to the **quantity** of testing—how many items are selected or how large the sample size is.
+Extent refers to the **quantity** of testing: how many items are selected or how large the sample size is.
 
 - Greater extent is required when the risk of material misstatement is higher.
 - Greater extent is also needed when individual items of evidence are less persuasive.
@@ -97,10 +97,10 @@ If **Panda Records** has a large number of small customer accounts with inconsis
 
 ### Timing
 
-Timing refers to **when** the procedures are performed—at an interim date or at period end.
+Timing refers to **when** the procedures are performed: at an interim date or at period end.
 
-- **Interim testing** — Procedures performed before the balance sheet date. If interim testing is used, the auditor must perform additional procedures to cover the rollforward period (the gap between the interim date and year-end).
-- **Year-end testing** — Procedures performed at or after the balance sheet date. This approach provides stronger evidence because it tests the actual balance reported.
+- **Interim testing**: Procedures performed before the balance sheet date. If interim testing is used, the auditor must perform additional procedures to cover the rollforward period (the gap between the interim date and year-end).
+- **Year-end testing**: Procedures performed at or after the balance sheet date. This approach provides stronger evidence because it tests the actual balance reported.
 
 | Factor | Test at Interim | Test at Year-End |
 |---|---|---|
@@ -110,7 +110,7 @@ Timing refers to **when** the procedures are performed—at an interim date or a
 
 :::warning
 
-When the auditor performs substantive procedures at an interim date, the rollforward period introduces additional risk. The auditor must obtain evidence that no material misstatements arose during that gap—often through a combination of substantive analytical procedures and limited tests of details covering the remaining period.
+When the auditor performs substantive procedures at an interim date, the rollforward period introduces additional risk. The auditor must obtain evidence that no material misstatements arose during that gap, often through a combination of substantive analytical procedures and limited tests of details covering the remaining period.
 
 :::
 

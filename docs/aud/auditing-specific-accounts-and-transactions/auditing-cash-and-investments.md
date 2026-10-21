@@ -56,11 +56,11 @@ If the receipt is recorded before year-end but the corresponding disbursement is
 
 | Transfer | Book Disbursement Date | Bank A Clear Date | Book Receipt Date | Bank B Clear Date | Potential Issue? |
 |---|---|---|---|---|---|
-| #1 | 12/30 | 1/3 | 12/30 | 1/2 | No – both sides recorded in same period |
-| #2 | **1/3** | 1/5 | **12/31** | 1/4 | **Yes – receipt recorded before disbursement (kiting indicator)** |
-| #3 | 12/29 | 1/2 | 12/29 | 1/3 | No – both sides recorded in same period |
+| #1 | 12/30 | 1/3 | 12/30 | 1/2 | No; both sides recorded in same period |
+| #2 | **1/3** | 1/5 | **12/31** | 1/4 | **Yes; receipt recorded before disbursement (kiting indicator)** |
+| #3 | 12/29 | 1/2 | 12/29 | 1/3 | No; both sides recorded in same period |
 
-Transfer #2 is suspicious because the cash was recorded as received in Bank B on 12/31, but the corresponding disbursement from Bank A was not recorded until 1/3—inflating cash at year-end.
+Transfer #2 is suspicious because the cash was recorded as received in Bank B on 12/31, but the corresponding disbursement from Bank A was not recorded until 1/3, inflating cash at year-end.
 
 ## Primary Cash Audit Procedures
 
@@ -85,14 +85,14 @@ The auditor tests the client's bank reconciliation to verify the reported cash b
 1. **Obtain the bank statement and reconciliation** for the period end
 2. **Trace the balance per bank** to the bank confirmation
 3. **Trace the balance per books** to the general ledger
-4. **Test outstanding checks** – verify they cleared in the subsequent period; investigate long-outstanding checks
-5. **Test deposits in transit** – verify they cleared the bank shortly after year-end
-6. **Verify reconciling items** – examine other adjustments for validity
-7. **Request a cutoff bank statement** – obtain a bank statement for a period (typically 7–10 days) after year-end to test subsequent clearing of outstanding items
+4. **Test outstanding checks**: verify they cleared in the subsequent period; investigate long-outstanding checks
+5. **Test deposits in transit**: verify they cleared the bank shortly after year-end
+6. **Verify reconciling items**: examine other adjustments for validity
+7. **Request a cutoff bank statement**: obtain a bank statement for a period (typically 7 to 10 days) after year-end to test subsequent clearing of outstanding items
 
 ### Example: Bank Reconciliation at Kodiak Partners
 
-The auditor of Kodiak Partners receives the December 31 bank reconciliation. The bank confirmation shows a balance of \$425,000. The books show \$398,000. Outstanding checks total \$42,000 and deposits in transit total \$15,000. The auditor verifies: \$425,000 − \$42,000 + \$15,000 = \$398,000 ✓. The auditor then obtains a cutoff bank statement through January 10 to confirm that the outstanding checks cleared and the deposit in transit was received by the bank.
+The auditor of Kodiak Partners receives the December 31 bank reconciliation. The bank confirmation shows a balance of \$425,000. The books show \$398,000. Outstanding checks total \$42,000 and deposits in transit total \$15,000. The auditor verifies that \$425,000 - \$42,000 + \$15,000 = \$398,000, which agrees with the books. The auditor then obtains a cutoff bank statement through January 10 to confirm that the outstanding checks cleared and the deposit in transit was received by the bank.
 
 ## Investment Cycle
 
@@ -109,7 +109,7 @@ If the client holds investment securities on its premises, the auditor should **
 
 :::note
 
-All liquid assets—cash, securities, negotiable instruments—should be counted **simultaneously** or placed under the auditor's control to prevent substitution.
+All liquid assets (cash, securities, negotiable instruments) should be counted **simultaneously** or placed under the auditor's control to prevent substitution.
 
 :::
 

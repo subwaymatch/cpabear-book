@@ -1,6 +1,6 @@
 # Analytical Procedures
 
-Analytical procedures involve evaluating financial information through the study of plausible relationships among both financial and nonfinancial data. They are one of the most versatile tools available to auditors—used in planning, substantive testing, and the final review of the financial statements.
+Analytical procedures involve evaluating financial information through the study of plausible relationships among both financial and nonfinancial data. They are one of the most versatile tools available to auditors, used in planning, substantive testing, and the final review of the financial statements.
 
 ---
 
@@ -10,10 +10,10 @@ Analytical procedures consist of evaluations of financial information made by st
 
 Common forms of analytical procedures include:
 
-- **Trend analysis** — Comparing current-year balances to prior periods
-- **Ratio analysis** — Calculating financial ratios and comparing them to expectations
-- **Reasonableness testing** — Developing an independent estimate and comparing it to the recorded balance
-- **Regression analysis** — Using statistical models to predict expected values
+- **Trend analysis**: Comparing current-year balances to prior periods
+- **Ratio analysis**: Calculating financial ratios and comparing them to expectations
+- **Reasonableness testing**: Developing an independent estimate and comparing it to the recorded balance
+- **Regression analysis**: Using statistical models to predict expected values
 
 ---
 
@@ -23,9 +23,9 @@ Understanding when analytical procedures are **mandatory** versus **discretionar
 
 | Audit Phase | Required? | Purpose |
 |---|---|---|
-| **Planning** | ✅ Required | Identify areas of potential misstatement; enhance the auditor's understanding of the entity and its environment |
-| **Substantive Testing** | ❌ Optional | May be used as a substantive procedure to detect material misstatements at the assertion level |
-| **Overall Review (Near Completion)** | ✅ Required | Assess whether the financial statements as a whole are consistent with the auditor's understanding of the entity |
+| **Planning** | Required | Identify areas of potential misstatement; enhance the auditor's understanding of the entity and its environment |
+| **Substantive Testing** | Optional | May be used as a substantive procedure to detect material misstatements at the assertion level |
+| **Overall Review (Near Completion)** | Required | Assess whether the financial statements as a whole are consistent with the auditor's understanding of the entity |
 
 :::danger[Common Exam Trap]
 
@@ -105,7 +105,7 @@ If the recorded amount differs materially from the expectation, the auditor:
 
 ## Audit Data Analytics (ADAs)
 
-Audit data analytics represent the application of data analysis techniques—often technology-driven—to audit procedures. ADAs enhance the auditor's ability to identify patterns, anomalies, and risks in large datasets.
+Audit data analytics represent the application of data analysis techniques (often technology-driven) to audit procedures. ADAs enhance the auditor's ability to identify patterns, anomalies, and risks in large datasets.
 
 ### Definition
 
@@ -120,11 +120,11 @@ Audit data analytics (ADAs) are techniques that analyze complete populations or 
 
 ### Steps for Implementing ADAs
 
-1. **Define the objective** — Determine what the auditor is trying to accomplish
-2. **Obtain and prepare data** — Extract data from the client's systems and prepare it for analysis
-3. **Perform the analysis** — Apply the chosen analytical technique
-4. **Interpret results** — Evaluate findings in the context of the audit
-5. **Document conclusions** — Record the procedures performed and conclusions reached
+1. **Define the objective**: Determine what the auditor is trying to accomplish
+2. **Obtain and prepare data**: Extract data from the client's systems and prepare it for analysis
+3. **Perform the analysis**: Apply the chosen analytical technique
+4. **Interpret results**: Evaluate findings in the context of the audit
+5. **Document conclusions**: Record the procedures performed and conclusions reached
 
 ### Four Categories of Audit Data Analytics
 
@@ -171,11 +171,11 @@ ADAs can strengthen analytical procedures by:
 
 Auditors can obtain data for analytics through several methods:
 
-- **Direct system access** — Connecting to the client's ERP or accounting system
-- **Data exports** — Requesting structured data files (CSV, Excel, XML) from the client
-- **API connections** — Pulling data programmatically from the client's systems
-- **Third-party data** — Obtaining external benchmarking or industry data
-- **Screen scraping / OCR** — Extracting data from documents or legacy systems
+- **Direct system access**: Connecting to the client's ERP or accounting system
+- **Data exports**: Requesting structured data files (CSV, Excel, XML) from the client
+- **API connections**: Pulling data programmatically from the client's systems
+- **Third-party data**: Obtaining external benchmarking or industry data
+- **Screen scraping / OCR**: Extracting data from documents or legacy systems
 
 :::warning
 
@@ -189,11 +189,11 @@ The auditor must evaluate the **completeness and accuracy** of data obtained for
 
 Interpreting the output of audit data analytics requires both technical and professional skills:
 
-- **Filtering and sorting** — Isolating items that meet specific criteria (e.g., all transactions over a threshold)
-- **Statistical analysis** — Applying measures of central tendency, dispersion, and correlation
-- **Pattern recognition** — Identifying recurring anomalies or clusters of unusual activity
-- **Benchmarking** — Comparing results to industry data, prior periods, or budgets
-- **Exception testing** — Focusing on items that fall outside expected parameters
+- **Filtering and sorting**: Isolating items that meet specific criteria (e.g., all transactions over a threshold)
+- **Statistical analysis**: Applying measures of central tendency, dispersion, and correlation
+- **Pattern recognition**: Identifying recurring anomalies or clusters of unusual activity
+- **Benchmarking**: Comparing results to industry data, prior periods, or budgets
+- **Exception testing**: Focusing on items that fall outside expected parameters
 
 ---
 
@@ -220,18 +220,18 @@ On the CPA exam, you may be asked to identify which type of visualization is mos
 
 ## Relational Databases
 
-Much of the data used in audit analytics resides in **relational databases**—structured systems that organize data into related tables.
+Much of the data used in audit analytics resides in **relational databases**, structured systems that organize data into related tables.
 
 Key concepts:
 
-- **Tables** — Store data in rows (records) and columns (fields)
-- **Primary key** — A unique identifier for each record in a table
-- **Foreign key** — A field in one table that references the primary key of another table, establishing a relationship
-- **Queries** — Requests to retrieve, filter, or combine data from one or more tables (commonly written in SQL)
+- **Tables**: Store data in rows (records) and columns (fields)
+- **Primary key**: A unique identifier for each record in a table
+- **Foreign key**: A field in one table that references the primary key of another table, establishing a relationship
+- **Queries**: Requests to retrieve, filter, or combine data from one or more tables (commonly written in SQL)
 
 :::info[Example]
 
-**Grizzly Industries** stores its accounting data in a relational database. The auditor writes a query joining the sales order table, shipping table, and invoice table to identify shipments that were never invoiced—a test of the completeness assertion for revenue.
+**Grizzly Industries** stores its accounting data in a relational database. The auditor writes a query joining the sales order table, shipping table, and invoice table to identify shipments that were never invoiced. This is a test of the completeness assertion for revenue.
 
 :::
 
@@ -264,7 +264,7 @@ Import the transformed data into the auditor's analytical tool or platform for a
 
 :::note
 
-The ETL process is essential for ensuring that the data used in analytics is complete, accurate, and in a usable format. Errors in any stage—extraction, transformation, or loading—can compromise the reliability of the entire analysis.
+The ETL process is essential for ensuring that the data used in analytics is complete, accurate, and in a usable format. Errors in any stage (extraction, transformation, or loading) can compromise the reliability of the entire analysis.
 
 :::
 
