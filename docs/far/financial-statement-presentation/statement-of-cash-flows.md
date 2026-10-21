@@ -1,185 +1,78 @@
 # Statement of Cash Flows
 
-The **statement of cash flows** reports all cash inflows and outflows during a period, classified into three categories: **operating**, **investing**, and **financing** activities. It reconciles the beginning and ending cash balances and answers one question: _Where did cash come from, and where did it go?_
-
-:::info[Key Concept]
-
-The statement of cash flows bridges the accrual-basis income statement and actual cash movements. An entity can report strong net income and still run short of cash, or report a net loss while generating cash.
-
-:::
+The **statement of cash flows** reports the cash that came into and went out of an entity during a period, sorted into **operating**, **investing**, and **financing** activities. It reconciles the beginning and ending cash balances and answers one question: where did cash come from, and where did it go? The question matters because accrual accounting and cash can tell different stories. A company can report strong net income and still run out of cash, or report a net loss while generating cash. FAR tests this statement heavily, mostly through the indirect method: preparing the operating section from net income, classifying individual transactions, and spotting errors. This chapter covers what counts as cash, the three sections, both methods for the operating section, a complete statement, and the required supplemental disclosures.
 
 ---
 
-## Cash and Cash Equivalents
+## What the Statement Explains
 
-**Cash** includes currency on hand and demand deposits.
+The statement explains the change in **cash, cash equivalents, and restricted cash** together. Cash equivalents are short-term, highly liquid investments with an **original maturity of three months or less** from the date the entity buys them, such as Treasury bills, commercial paper, and money market funds (see the cash and receivables chapter for the details of the three-month rule). Restricted cash may be reported in a separate line on the balance sheet, but it is included in the beginning and ending totals of the statement of cash flows, so moving cash into or out of a restricted account is not a cash flow. When restricted cash is shown separately on the balance sheet, the entity reconciles the balance sheet lines to the statement's totals.
 
-**Cash equivalents** are short-term, highly liquid investments that are:
+Because cash equivalents are already part of "cash," buying a 60-day Treasury bill with cash is not reported as an investing outflow. Buying a six-month certificate of deposit is.
 
-- Readily convertible to known amounts of cash
-- So near maturity that they present **insignificant risk** of changes in value
-- Purchased with an original maturity of **three months or less** (measured from the date the entity buys the investment)
+---
 
-:::tip[Exam Tip: Three-Month Rule]
+## The Three Sections
 
-Maturity is measured from the date **the entity acquires** the investment, not the date the instrument was issued. A 6-month Treasury bill (T-bill) purchased with 2 months remaining **is** a cash equivalent. A 6-month certificate of deposit (CD) purchased at issuance is **not**. A 90-day CD **is** a cash equivalent.
+### Operating Activities
 
-:::
+**Cash flows from operating activities** come from the entity's principal revenue-producing activities. They generally involve the items that make up net income and the changes in current assets and current liabilities. Inflows include cash received from customers and interest and dividends received. Outflows include cash paid to suppliers and employees, interest, income taxes, and other operating expenses.
 
-| Cash Equivalent? | Instrument | Reason |
+Operating is also the default category: a cash flow that is not an investing or financing activity is operating.
+
+### Investing Activities
+
+**Cash flows from investing activities** come from acquiring and disposing of long-term assets and of investments that are not cash equivalents. Inflows include proceeds from selling property, plant, and equipment (PP&E), selling debt and equity securities of other entities, collecting the principal of loans made to others, and selling a business. Outflows are the reverse: buying PP&E, buying investments, making loans, and acquiring a business.
+
+### Financing Activities
+
+**Cash flows from financing activities** come from obtaining resources from **owners** and **creditors**, returning resources to owners, and repaying amounts borrowed. Inflows include proceeds from issuing stock, bonds, and notes, and from bank borrowings. Outflows include repurchasing stock (treasury stock), paying dividends, repaying debt principal, and paying the principal portion of finance lease payments.
+
+### Classifications That Are Easy to Get Wrong
+
+A few classifications run against intuition, and they are tested constantly:
+
+| Transaction | Section | Why |
 |---|---|---|
-| Yes | 60-day T-bill | Original maturity ≤ 3 months |
-| Yes | Money market fund | Readily convertible, negligible risk |
-| No | 6-month CD (purchased at issuance) | Original maturity > 3 months |
-| No | Equity securities | No maturity date; subject to price risk |
+| **Interest paid** | **Operating** | U.S. GAAP treats interest as a cost of operations, even though the debt is financing |
+| Interest and dividends received | Operating | They are returns on investments that enter net income |
+| **Dividends paid** | **Financing** | They are distributions to owners, not expenses |
+| Income taxes paid | Operating | U.S. GAAP does not allocate taxes to investing or financing |
+| Principal portion of finance lease payments | Financing | Repayment of a liability |
+| Operating lease payments | Operating | Single lease cost in net income |
+| Purchases and sales of trading securities | Generally operating | Classified by nature and purpose; securities bought for trading are operating |
+| Distributions from an equity method investee | Operating (return on investment) or investing (return of investment) | Depends on whether the distribution represents earnings |
+| Debt prepayment or extinguishment costs | Financing | Part of retiring the debt |
+| Insurance proceeds | Based on the nature of the loss | Operating for an inventory loss; investing for destroyed PP&E |
+
+The cash side of a journal entry gives the amount, and the other account usually gives the classification. When Kodiak Partners debits Equipment and credits Cash for \$80,000, the \$80,000 is an investing outflow. When it debits Cash and credits Bonds Payable, the inflow is financing. When it collects \$25,000 of principal on a note receivable from another company, the inflow is investing; the interest it collects on the same note is operating.
 
 ---
 
-## Three Sections of the Statement
+## The Indirect Method
 
-### Operating Activities (CFO)
+The **indirect method** starts with **net income** and adjusts it to cash from operations. It is the method used by almost all companies in practice and the one most often tested. The adjustments fall into three groups:
 
-Cash flows from operating activities (CFO) come from the entity's **principal revenue-producing activities**. They generally involve income statement items and changes in current assets and current liabilities.
-
-**Cash inflows:**
-
-- Cash received from customers
-- Interest and dividends received
-- Insurance proceeds related to operations
-
-**Cash outflows:**
-
-- Cash paid to suppliers and employees
-- Cash paid for interest
-- Cash paid for income taxes
-- Cash paid for operating expenses
-
-:::warning[Important Classifications]
-
-Under U.S. generally accepted accounting principles (GAAP):
-
-- **Interest paid:** Operating (even though it relates to financing)
-- **Interest received:** Operating
-- **Dividends received:** Operating
-- **Dividends paid:** **Financing**, not operating
-- **Income taxes paid:** Operating (U.S. GAAP does not allocate income taxes to investing or financing activities)
-
-:::
-
-### Investing Activities (CFI)
-
-Cash flows from investing activities (CFI) come from acquiring and disposing of **long-term assets** and of investments that are not cash equivalents.
-
-**Cash inflows:**
-
-- Sale of property, plant, and equipment (PP&E)
-- Sale of investments (debt and equity securities)
-- Collection of loan principal (notes receivable)
-- Sale of a business unit
-
-**Cash outflows:**
-
-- Purchase of PP&E
-- Purchase of investments
-- Loans made to other entities (notes receivable)
-- Acquisition of a business
-
-### Financing Activities (CFF)
-
-Cash flows from financing activities (CFF) come from obtaining resources from **owners** and **creditors**, returning resources to owners, and repaying amounts borrowed.
-
-**Cash inflows:**
-
-- Issuance of common or preferred stock
-- Issuance of bonds or notes payable
-- Borrowings from banks (short-term or long-term)
-
-**Cash outflows:**
-
-- Repurchase of stock (treasury stock)
-- Payment of cash dividends
-- Repayment of debt principal
-- Payment of finance lease principal
-
-```mermaid
-flowchart TD
-    A[Statement of Cash Flows] --> B[Operating - CFO]
-    A --> C[Investing - CFI]
-    A --> D[Financing - CFF]
-    B --> B1[Income statement items]
-    B --> B2[Changes in current assets/liabilities]
-    C --> C1[Long-term asset purchases/sales]
-    C --> C2[Investment purchases/sales]
-    D --> D1[Stock issuances/repurchases]
-    D --> D2[Debt borrowings/repayments]
-    D --> D3[Dividend payments]
-```
-
----
-
-## Indirect Method (Most Common)
-
-The indirect method starts with **net income** and adjusts it for noncash items and for changes in operating assets and liabilities. It is the method most used in practice and most often tested.
-
-### The CLAD Framework
-
-:::tip[CLAD Mnemonic]
-
-Use **CLAD** to remember the adjustments from net income to cash from operations:
-
-| Letter | Adjustment | Direction |
-|---|---|---|
-| **C** | **C**urrent asset/liability changes | See rules below |
-| **L** | **L**osses add back / Gains subtract | Reverse direction |
-| **A** | **A**mortization, depreciation, depletion | Add back |
-| **D** | **D**eferred items (deferred tax, deferred revenue changes) | Adjust accordingly |
-
-:::
-
-### Current Asset and Liability Changes
+1. **Add back noncash expenses**, such as depreciation, amortization, and depletion. They reduced net income but used no cash.
+2. **Remove gains and losses on investing and financing transactions.** Subtract gains and add back losses, because the **total** cash from the transaction, such as the proceeds from selling equipment, is reported in investing or financing.
+3. **Adjust for changes in operating assets and liabilities**, including deferred taxes and unearned revenue:
 
 | Change                                                                    | Effect on Cash from Operations |
 | ------------------------------------------------------------------------- | ------------------------------ |
-| Current asset **increases** (e.g., accounts receivable goes up)           | **Subtract** (used cash)       |
-| Current asset **decreases** (e.g., inventory goes down)                   | **Add** (freed up cash)        |
-| Current liability **increases** (e.g., accounts payable goes up)          | **Add** (conserved cash)       |
-| Current liability **decreases** (e.g., wages payable goes down)           | **Subtract** (used cash)       |
+| Current asset **increases** (for example, accounts receivable goes up)    | **Subtract**                   |
+| Current asset **decreases** (for example, inventory goes down)            | **Add**                        |
+| Current liability **increases** (for example, accounts payable goes up)   | **Add**                        |
+| Current liability **decreases** (for example, wages payable goes down)    | **Subtract**                   |
 
-:::tip[Exam Tip]
+The logic is that a growing current asset means cash was tied up (sales were made but not collected), while a growing current liability means cash was conserved (expenses were recognized but not yet paid).
 
-If a current **asset** increased, the company spent cash to build up that asset, so subtract. If a current **liability** increased, the company held onto cash by not paying, so add.
+:::tip[Remember CLAD]
+
+**C**urrent asset and liability changes; **L**osses added back and gains subtracted; **A**mortization, depreciation, and depletion added back; **D**eferred items, such as deferred taxes and unearned revenue, adjusted for their change.
 
 :::
 
-### Losses and Gains
-
-Remove gains and losses on investing and financing transactions (e.g., a gain on sale of equipment) from operating activities. The **total** cash from the transaction is reported in investing or financing.
-
-- **Add back losses.** They reduced net income but did not use operating cash.
-- **Subtract gains.** They increased net income, but the cash is reported in investing or financing.
-
-### Depreciation, Amortization, Depletion
-
-These are **noncash expenses** that reduced net income. Add them back to convert from the accrual basis to the cash basis.
-
-## Indirect Method Example
-
-**Bear Co.** reports the following for the year ended December 31:
-
-| Item | Amount |
-|---|---:|
-| Net income | \$180,000 |
-| Depreciation expense | 45,000 |
-| Amortization of patent | 5,000 |
-| Gain on sale of equipment | (12,000) |
-| Loss on sale of investment | 8,000 |
-| Increase in accounts receivable | (25,000) |
-| Decrease in inventory | 15,000 |
-| Increase in accounts payable | 10,000 |
-| Decrease in wages payable | (3,000) |
-| Increase in deferred tax liability | 7,000 |
-
-**Cash flows from operating activities, indirect method:**
+Bear Co. reports net income of \$180,000 for the year, along with the following:
 
 | Bear Co.: Operating Activities | Amount |
 |---|---:|
@@ -196,11 +89,13 @@ These are **noncash expenses** that reduced net income. Add them back to convert
 | &emsp;Increase in deferred tax liability | 7,000 |
 | **Net cash provided by operating activities** | **\$230,000** |
 
+Depreciation is not a source of cash. It is added back only because it was subtracted to arrive at net income without using any cash.
+
 ---
 
-## Direct Method
+## The Direct Method
 
-The direct method reports **actual cash receipts and payments** from operating activities. It gives more detail but is rarely used in practice.
+The **direct method** reports the actual cash receipts and payments from operating activities. It is more informative but rarely used in practice:
 
 | Panda Industries: Operating Activities (Direct Method) | Amount |
 |---|---:|
@@ -211,31 +106,25 @@ The direct method reports **actual cash receipts and payments** from operating a
 | Cash paid for income taxes | (55,000) |
 | **Net cash provided by operating activities** | **\$105,000** |
 
-### Converting Accrual to Cash (Direct Method Formulas)
-
-In each formula, Δ is the increase in the balance during the period (a decrease enters as a negative number). AR is accounts receivable, AP is accounts payable, COGS is cost of goods sold, and OpEx is operating expenses other than noncash items such as depreciation.
+Each line is computed by converting an income statement amount to cash using the related balance sheet changes. In each formula below, Δ is the increase in the balance during the period (a decrease enters as a negative number):
 
 $$
-\text{Cash from Customers} = \text{Revenue} - \Delta\text{AR} + \Delta\text{Unearned Revenue}
+\text{Cash from customers} = \text{Revenue} - \Delta\text{Accounts receivable} + \Delta\text{Unearned revenue}
 $$
 
 $$
-\text{Cash to Suppliers} = \text{COGS} + \Delta\text{Inventory} - \Delta\text{AP}
+\text{Cash paid to suppliers} = \text{Cost of goods sold} + \Delta\text{Inventory} - \Delta\text{Accounts payable}
 $$
 
 $$
-\text{Cash for Operating Expenses} = \text{OpEx} + \Delta\text{Prepaids} - \Delta\text{Accrued Liabilities}
+\text{Cash paid for operating expenses} = \text{Operating expenses (excluding noncash items)} + \Delta\text{Prepaids} - \Delta\text{Accrued liabilities}
 $$
 
-:::note
-
-An entity that uses the direct method must also present a **reconciliation** of net income to cash from operations (essentially the indirect method) in a separate schedule.
-
-:::
+Net cash from operations is the same under both methods. An entity that uses the direct method must also present a **reconciliation** of net income to cash from operations, which is essentially the indirect method, in a separate schedule.
 
 ---
 
-## Complete Statement Example
+## A Complete Statement
 
 **Polar Co.: Statement of Cash Flows (Year Ended December 31)**
 
@@ -268,132 +157,29 @@ An entity that uses the direct method must also present a **reconciliation** of 
 | Cash and cash equivalents, beginning of year | 84,000 |
 | **Cash and cash equivalents, end of year** | **\$180,000** |
 
+Notice that the \$5,000 loss on the equipment is added back in operating activities while the \$15,000 of proceeds appears in investing. Cash flows are generally reported **gross**: the purchase and the sale of equipment are separate lines, not netted.
+
 ---
 
 ## Supplemental Disclosures
 
-Even under the indirect method, certain items must be **separately disclosed**.
+Even under the indirect method, the entity must disclose **cash paid for interest** (net of amounts capitalized) and **cash paid for income taxes**, because the indirect method buries them inside net income. Under ASU 2023-09, the income tax note also breaks income taxes paid down by federal, state, and foreign jurisdictions; see the notes chapter.
 
-### Required Supplemental Information
+**Significant noncash investing and financing activities** are **excluded** from the statement itself because no cash changed hands, but they must be disclosed in a supplemental schedule or in the notes. Common examples are converting bonds or preferred stock into common stock, acquiring an asset with a finance lease, issuing stock for land or other assets, and exchanging one noncash asset for another.
 
-| Disclosure                 | Reason                                                     |
-| -------------------------- | ---------------------------------------------------------- |
-| Cash paid for interest     | Interest is in operating, but users want the actual amount |
-| Cash paid for income taxes | The actual cash outflow matters for analysis               |
-
-### Noncash Investing and Financing Activities
-
-Significant noncash transactions are **excluded** from the statement of cash flows because no cash changed hands. They must be disclosed either in a supplemental schedule or in the notes.
-
-**Common examples:**
-
-- Conversion of bonds to common stock
-- Acquisition of assets through a finance lease (formerly called a capital lease)
-- Issuance of stock for land or other assets
-- Exchange of noncash assets
-
-**Example: Grizzly Inc. acquires land by issuing stock:**
+Grizzly Inc. acquires land valued at \$200,000 by issuing 10,000 shares of \$1 par common stock:
 
 ```journal
-Dr. Land                    200,000
-    Cr. Common stock             10,000
-    Cr. Additional paid-in capital  190,000
+Dr. Land[a]                 200,000
+    Cr. Common stock[e]          10,000
+    Cr. Additional paid-in capital[e] 190,000
 ```
 
-This transaction appears as a noncash investing and financing disclosure:
+No cash moved, so nothing appears in investing or financing. Instead, Grizzly discloses: "Supplemental schedule of noncash investing and financing activities: The Company acquired land valued at \$200,000 by issuing 10,000 shares of common stock."
 
-> _Supplemental schedule of noncash investing and financing activities: The Company acquired land valued at \$200,000 by issuing 10,000 shares of common stock._
+:::warning[Common exam traps]
 
----
-
-## Classification of Specific Items
-
-:::warning[Frequently Tested Classifications]
-
-| Transaction | Section |
-|---|---|
-| Cash received from customers | **Operating** |
-| Interest paid | **Operating** |
-| Interest received | **Operating** |
-| Dividends received | **Operating** |
-| Income taxes paid | **Operating** |
-| **Dividends paid** | **Financing** |
-| Purchase of PP&E | **Investing** |
-| Sale of investment | **Investing** |
-| Proceeds from issuing stock | **Financing** |
-| Repayment of debt principal | **Financing** |
-| Purchase of treasury stock | **Financing** |
-| Payment of finance lease principal | **Financing** |
-| Operating lease payments | **Operating** |
-| Insurance proceeds (operating claim) | **Operating** |
-| Insurance proceeds (from PP&E destruction) | **Investing** |
-
-:::
-
----
-
-## Journal Entry Connections
-
-The cash side of a journal entry tells you the amount; the other account tells you the classification.
-
-**Example: Kodiak Partners purchases equipment for cash:**
-
-```journal
-Dr. Equipment        80,000
-    Cr. Cash             80,000
-```
-
-**Classification:** Investing activity, cash outflow of \$80,000.
-
-**Example: Kodiak Partners issues bonds:**
-
-```journal
-Dr. Cash             500,000
-    Cr. Bonds payable    500,000
-```
-
-**Classification:** Financing activity, cash inflow of \$500,000.
-
-**Example: Kodiak Partners pays dividends:**
-
-```journal
-Dr. Dividends payable    30,000
-    Cr. Cash                  30,000
-```
-
-**Classification:** Financing activity, cash outflow of \$30,000.
-
-**Example: Kodiak Partners collects on notes receivable:**
-
-```journal
-Dr. Cash             25,000
-    Cr. Notes receivable    25,000
-```
-
-**Classification:** Investing activity, cash inflow of \$25,000 (principal collection).
-
-## Summary
-
-```mermaid
-flowchart TD
-    A[Statement of Cash Flows] --> B[Operating - CFO]
-    A --> C[Investing - CFI]
-    A --> D[Financing - CFF]
-    A --> E[Supplemental Disclosures]
-    B --> B1["Start: Net Income<br>Adjust: CLAD"]
-    C --> C1["Long-term assets<br>Investments"]
-    D --> D1["Owners & Creditors<br>Stock, Debt, Dividends"]
-    E --> E1["Interest & taxes paid<br>Noncash activities"]
-```
-
-:::danger[Common Exam Pitfalls]
-
-1. Classifying **dividends paid** as operating. They are **financing**.
-2. Classifying **interest paid** as financing. It is **operating** under U.S. GAAP.
-3. Forgetting to **remove gains** from operating activities. The cash is already in investing or financing.
-4. Including **noncash transactions** in the statement. They go in the supplemental disclosures.
-5. Reversing the direction of current asset and liability changes. Increases in assets are **subtracted**; increases in liabilities are **added**.
-6. Treating **depreciation** as a cash inflow. It is only an add-back of a noncash expense.
+Dividends paid are financing, and interest paid is operating. Gains on sales of assets must be removed from operating activities, because the cash is reported in investing. Noncash transactions belong in the supplemental disclosures, not in the statement. And an increase in a current asset is subtracted, while an increase in a current liability is added.
 
 :::
 

@@ -1,363 +1,176 @@
 # Intangible Assets
 
-Intangible assets are **long-lived assets without physical substance** that represent legal rights or competitive advantages. Their accounting depends on whether the useful life is **finite** or **indefinite**: finite-life intangibles are amortized, and indefinite-life intangibles are not.
+Intangible assets are **long-lived assets without physical substance**: patents, copyrights, trademarks, franchises, software licenses, and goodwill. For many modern companies they are worth more than all the property and equipment on the balance sheet, yet many of the most valuable ones, such as a brand built over decades, never appear there at all. The accounting turns on two questions. Was the intangible **purchased** or **developed internally**? And is its useful life **finite** or **indefinite**? FAR focuses on finite-lived intangibles, purchased software, and cloud computing arrangements; goodwill impairment, other indefinite-lived intangibles, internally developed software, and research and development are covered in more depth in BAR. This chapter covers recognition, amortization, impairment, software and cloud computing, and a few special cases.
 
-## Types of Intangible Assets
+## Recognizing Intangible Assets
+
+Common intangibles and their typical lives:
 
 | Intangible                 | Description                                                                                   | Typical Life                     |
 | -------------------------- | --------------------------------------------------------------------------------------------- | -------------------------------- |
 | **Patent**                 | Exclusive right to manufacture, use, or sell an invention                                     | Legal: 20 years                  |
 | **Copyright**              | Exclusive right to reproduce and sell artistic or literary works                              | Legal: creator's life + 70 years |
-| **Trademark / Trade name** | Symbol, word, or phrase identifying a product or company                                      | Indefinite (renewable)           |
-| **Goodwill**               | Excess of purchase price over fair value of net identifiable assets in a business combination | Indefinite                       |
-| **Franchise**              | Right granted to operate a business under a franchisor's brand                                | Per contract term                |
+| **Trademark or trade name** | Symbol, word, or phrase identifying a product or company                                     | Often indefinite (renewable)     |
+| **Franchise or license**   | Right to operate under another company's brand, or to use its property                        | Contract term                    |
+| **Goodwill**               | Excess of the price paid for a business over the fair value of its net identifiable assets    | Indefinite                       |
 
-:::info
-
-The CPA exam focuses on how each type is **measured**, **amortized** (or not), and **tested for impairment**.
-
-:::
-
-## Purchased vs. Internally Developed Intangibles
+Whether an intangible is recognized depends mainly on how it was obtained:
 
 | Source                                                          | Treatment                                                                |
 | --------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Purchased** (from a third party or in a business combination) | Capitalize at cost (or fair value in a combination)                      |
+| **Purchased** from a third party                                 | Capitalize at cost, including costs to get it ready for use               |
+| **Acquired in a business combination**                           | Recognize identifiable intangibles at fair value, apart from goodwill    |
 | **Internally developed**                                        | Generally **expensed as incurred**, including research and development (R&D), advertising, and employee training |
 
-Direct costs to obtain legal protection for an internally developed intangible, such as legal and registration fees for a patent, are capitalized.
+The logic for expensing internally developed intangibles is that their costs are hard to separate from the cost of running the business. Under ASC 350-30, costs of developing, maintaining, or restoring intangibles that are not specifically identifiable, that have indeterminate lives, or that are inherent in a continuing business are expensed as incurred. That is why internally generated **goodwill**, **brands**, and **customer lists** are never capitalized under U.S. generally accepted accounting principles (GAAP). The direct costs of obtaining legal protection for an internally developed intangible, such as the legal and registration fees for a patent, are capitalized. So are the legal costs of successfully defending a patent; if the defense fails, the costs are expensed and the patent is written off.
 
-:::warning
+## Finite-Lived Intangibles: Amortization
 
-Under U.S. generally accepted accounting principles (GAAP), internally generated **goodwill**, **brands**, and **customer lists** are **never** capitalized.
+A finite-lived intangible is amortized over the **shorter of** its economic life and its legal life. Use the **straight-line method** unless another pattern better reflects how the benefits are used up. Intangibles usually have no residual value, so the entire cost is generally amortized.
 
-:::
+$$
+\text{Amortization period} = \min(\text{Economic life},\; \text{Legal life})
+$$
 
-### Example: Bear Co. Purchases a Patent
-
-Bear Co. acquires a patent from an independent inventor for \$120,000 and pays \$5,000 in legal fees to register the patent.
+Bear Co. acquires a patent from an independent inventor for \$120,000 and pays \$5,000 in legal fees to register it:
 
 ```journal
-Dr. Patent                           125,000
-    Cr. Cash                             125,000
+Dr. Patent[a]                        125,000
+    Cr. Cash[a]                          125,000
 ```
 
-The \$125,000 total cost is amortized over the **shorter** of the patent's remaining legal life or its expected economic life.
-
-## Finite Life Intangibles: Amortization
-
-Finite life intangibles are amortized over the **shorter of** their economic life or legal life. Use the **straight-line method** unless another pattern better reflects how the benefits are consumed.
+The patent has 16 years remaining on its legal life, but Bear expects the technology to be useful for only 8 years, so the amortization period is 8 years:
 
 $$
-\text{Amortization Period} = \min(\text{Economic Life},\; \text{Legal Life})
-$$
-
-### Example: Polar Co.
-
-Polar Co. purchases a patent for \$125,000 with 16 years remaining on its legal life. Polar estimates the technology will be useful for only 8 years, so the amortization period is 8 years.
-
-$$
-\text{Annual Amortization} = \frac{\$125{,}000}{8} = \$15{,}625
+\text{Annual amortization} = \frac{\$125{,}000}{8} = \$15{,}625
 $$
 
 ```journal
 Dr. Amortization expense             15,625
-    Cr. Accumulated amortization (patent)  15,625
+    Cr. Accumulated amortization (patent)[ca]  15,625
 ```
 
-:::tip
+Many companies credit the patent account directly instead of using accumulated amortization; either presentation is acceptable. If Bear later concludes the useful life is shorter or longer, it amortizes the remaining carrying amount over the revised remaining life. That is a change in estimate, applied prospectively.
 
-Intangibles usually have **no residual value**, so the entire cost is amortized.
+## Impairment of Finite-Lived Intangibles
 
-:::
+Finite-lived intangibles follow the **same two-step test** as property, plant, and equipment (PP&E) under Accounting Standards Codification (ASC) 360. When a triggering event suggests the carrying amount may not be recoverable, compare the carrying amount with the **undiscounted** future cash flows. If the cash flows are lower, write the asset down to **fair value**.
 
-## Impairment of Finite Life Intangibles
-
-Finite life intangibles follow the **same two-step test** as property, plant, and equipment (PP&E) under Accounting Standards Codification (ASC) 360:
-
-```mermaid
-graph TD
-    A[Triggering event] --> B{Step 1: Recoverability}
-    B -->|Undiscounted cash flows ≥ Carrying value| C[No impairment]
-    B -->|Undiscounted cash flows < Carrying value| D{Step 2: Measurement}
-    D --> E[Loss = Carrying value minus fair value]
-```
-
-**Example: Grizzly Inc.**
-
-Grizzly Inc. holds a patent with a carrying value of \$80,000. Due to a competitor's breakthrough, expected undiscounted future cash flows are \$60,000 and fair value is \$45,000.
-
-- **Step 1:** \$60,000 < \$80,000, so the patent is impaired.
-- **Step 2:** Loss = \$80,000 - \$45,000 = **\$35,000**
+Grizzly Inc. holds a patent with a carrying amount of \$80,000. After a competitor's breakthrough, expected undiscounted future cash flows are \$60,000 and fair value is \$45,000. The patent fails the recoverability test (\$60,000 is less than \$80,000), so the loss is \$35,000 (\$80,000 - \$45,000):
 
 ```journal
 Dr. Impairment loss                   35,000
-    Cr. Accumulated amortization (patent)  35,000
+    Cr. Accumulated amortization (patent)[ca]  35,000
 ```
 
-:::danger
+The \$45,000 becomes the new cost basis and is amortized over the remaining useful life. Under U.S. GAAP, impairment losses on intangibles held for use are **never reversed**.
 
-Under U.S. GAAP, impairment losses on intangibles held for use are **never reversed**.
+## Indefinite-Lived Intangibles and Goodwill
 
-:::
+An intangible has an **indefinite** life when no legal, regulatory, contractual, competitive, or economic factor limits the period over which it will generate cash flows. Examples include a trademark the entity intends and is able to renew indefinitely and a broadcast license that can be renewed at little cost. Indefinite-lived intangibles are **not amortized**. Instead, they are tested for impairment **at least annually**, and more often if a triggering event occurs, by comparing carrying amount with fair value (after an optional qualitative assessment). Each period the entity also reassesses whether the life is still indefinite; if it has become finite, amortization begins.
 
-## Indefinite Life Intangibles
-
-Indefinite life intangibles are **not amortized**. Instead, they are tested for impairment **at least annually**, and more often if a triggering event occurs. These intangibles have **no foreseeable limit** on the period over which they generate cash flows:
-
-- **Goodwill**: arises only in business combinations
-- **Certain trademarks**: when the entity intends to renew indefinitely and has the ability to do so
-- **Federal Communications Commission (FCC) broadcast licenses**: renewable at negligible cost
-
-For indefinite life intangibles other than goodwill, the impairment test is a one-step comparison. If carrying value exceeds fair value, recognize a loss for the excess. An entity may first perform an optional qualitative assessment. Each period, the entity also reassesses whether the life is still indefinite; if it becomes finite, amortization begins.
-
-## Goodwill: Recognition and Impairment
-
-### Recognition
-
-Goodwill arises in a **business combination** when the purchase price exceeds the fair value of the net identifiable assets acquired.
+**Goodwill** arises only in a **business combination**, when the price paid exceeds the fair value of the identifiable net assets acquired:
 
 $$
-\text{Goodwill} = \text{Purchase Price} - \text{Fair Value of Net Identifiable Assets}
+\text{Goodwill} = \text{Consideration transferred} - \text{Fair value of identifiable net assets}
 $$
 
-**Example: Panda Industries acquires Kodiak Partners.**
+If Panda Industries pays \$2,000,000 for a business whose identifiable assets have a fair value of \$2,800,000 and whose liabilities have a fair value of \$1,200,000, the identifiable net assets are \$1,600,000 and goodwill is \$400,000.
 
-| Item | Amount |
-|------|--------|
-| Purchase price | \$2,000,000 |
-| Fair value of identifiable assets | \$2,800,000 |
-| Fair value of liabilities assumed | (\$1,200,000) |
-| Fair value of net identifiable assets | \$1,600,000 |
-| **Goodwill** | **\$400,000** |
-
-```journal
-Dr. Identifiable assets           2,800,000
-Dr. Goodwill                        400,000
-    Cr. Liabilities assumed           1,200,000
-    Cr. Cash                          2,000,000
-```
-
-### Goodwill Impairment Testing (ASC 350)
-
-Goodwill is tested at the **reporting unit** level at least annually, and more often if a triggering event occurs. An entity may first perform an **optional qualitative assessment** (Step 0) to decide whether a quantitative test is needed.
-
-```mermaid
-graph TD
-    A[Annual Test or Triggering Event] --> B{Qualitative Assessment<br/>Step 0, Optional}
-    B -->|More likely than not<br/>FV < Carrying| C[Quantitative Test]
-    B -->|Not likely impaired| D[No impairment, stop]
-    C --> E{FV of Reporting Unit<br/>vs. Carrying Value}
-    E -->|FV ≥ Carrying| F[No impairment]
-    E -->|FV < Carrying| G[Impairment Loss =<br/>Carrying minus FV<br/>capped at goodwill balance]
-```
-
-**Quantitative one-step test** (FV = fair value; RU = reporting unit):
-
-$$
-\text{Impairment Loss} = \text{Carrying Value of RU} - \text{Fair Value of RU}
-$$
-
-The loss is **capped** at the amount of goodwill allocated to the reporting unit. Goodwill cannot go below zero.
-
-### Example: Cub Entertainment
-
-Cub Entertainment's streaming division (a reporting unit) has:
-
-- Carrying value: \$5,000,000 (including goodwill of \$800,000)
-- Fair value: \$4,500,000
-
-$$
-\text{Impairment} = \$5{,}000{,}000 - \$4{,}500{,}000 = \$500{,}000
-$$
-
-Because \$500,000 is less than the \$800,000 goodwill balance, the full \$500,000 is recognized as a goodwill impairment loss.
-
-```journal
-Dr. Goodwill impairment loss         500,000
-    Cr. Goodwill                         500,000
-```
-
-:::warning
-
-Goodwill impairment losses are **never reversed** under U.S. GAAP.
-
-:::
-
-:::note
-
-Private companies may elect an accounting alternative that amortizes goodwill on a straight-line basis over 10 years, or over a shorter period if the entity shows that a shorter useful life is more appropriate.
-
-:::
+Goodwill is not amortized by public companies. It is tested for impairment at the reporting unit level at least annually, and any loss is limited to the goodwill balance and never reversed. Private companies may elect to amortize goodwill on a straight-line basis over 10 years or less. The details of goodwill and indefinite-lived intangible impairment testing are BAR topics; see [Indefinite-Lived Intangible Assets](../../bar/technical-accounting-assets-and-revenue/indefinite-lived-intangible-assets.md).
 
 ## Purchased Software
 
-Software purchased or licensed from a third party for internal use or for sale is recognized as an **intangible asset** and amortized over the shorter of its legal or economic useful life.
+Software that a company buys or licenses from a vendor to run its own business is **internal-use software** (ASC 350-40), an intangible asset. Its cost includes the purchase or license price and the external costs of getting the software ready for use, such as installation, configuration, coding, and testing. Training and data conversion are expensed as incurred, because they prepare the company's people and records, not the software. The capitalized cost is amortized on a straight-line basis over the software's estimated useful life, starting when the software is ready for its intended use, and it is tested for impairment like other long-lived assets.
 
-### Software Developed for Sale or Lease
+Polar Co. buys a perpetual license for warehouse software for \$60,000. It pays a consultant \$15,000 to configure and test the software, spends \$5,000 training employees, and spends \$3,000 converting old data. It capitalizes \$75,000 (\$60,000 + \$15,000) and expenses the \$8,000 of training and data conversion:
 
-Under ASC 985-20, costs are accounted for in stages:
+```journal
+Dr. Software[a]                       75,000
+Dr. Training and data conversion expense  8,000
+    Cr. Cash[a]                           83,000
+```
 
-| Phase | Treatment |
+Over a five-year useful life, annual amortization is \$15,000 (\$75,000 ÷ 5).
+
+Software a company **develops** itself, whether for internal use or for sale to customers, follows separate capitalization rules (ASC 350-40 and ASC 985-20) that are tested in BAR; see [Internally Developed Software](../../bar/technical-accounting-assets-and-revenue/internally-developed-software.md).
+
+## Cloud Computing Arrangements
+
+Many companies no longer install software at all. They pay a vendor a subscription to use software hosted on the vendor's servers. The first question in a **cloud computing arrangement (CCA)** is whether the company has bought a software license or a service:
+
+- If the customer has the contractual right to take possession of the software at any time without significant penalty, **and** it is feasible for the customer to run the software on its own hardware (or a third party's), the arrangement includes a **software license**. The customer accounts for the license as purchased internal-use software, as above.
+- Otherwise, the arrangement is a **service contract**. The subscription fees are expensed as the service is received.
+
+Even in a service contract, the customer often pays significant **implementation costs** to configure and integrate the hosted software. Under ASU 2018-15, the customer applies the internal-use software stage model to those costs:
+
+| Stage | Treatment |
 |-------|-----------|
-| **Before technological feasibility** | Expense as R&D |
-| **After technological feasibility, before general release** | **Capitalize** |
-| **After general release** | Inventory the costs of duplicating and packaging the software; expense maintenance and customer support as incurred |
+| **Preliminary project stage** (evaluating alternatives, selecting a vendor) | Expense |
+| **Application development stage** (configuration, integration, testing) | **Capitalize** |
+| **Post-implementation and operation stage** (training, maintenance) | Expense |
 
-Annual amortization of capitalized software costs is the **greater of**:
+Capitalized implementation costs are **not** an intangible asset. They are presented in the same balance sheet line as prepaid hosting fees, amortized on a straight-line basis over the term of the hosting arrangement (including renewals the customer is reasonably certain to exercise), and the amortization is presented in the same income statement line as the hosting fees. They are tested for impairment under the same long-lived asset model as purchased software.
 
-1. Straight-line amortization over the remaining economic life
-2. The revenue-based ratio (current revenue ÷ total expected revenue) times capitalized costs
-
-At each balance sheet date, unamortized capitalized costs that exceed the product's net realizable value (NRV) are written down to NRV.
-
-### Example: Sloth Security
-
-Sloth Security capitalizes \$300,000 in software development costs after establishing technological feasibility. The software has an estimated economic life of 3 years and is expected to generate total revenue of \$1,500,000. Year 1 revenue is \$600,000.
-
-- Straight-line: \$300,000 ÷ 3 = **\$100,000**
-- Revenue-based: (\$600,000 ÷ \$1,500,000) × \$300,000 = **\$120,000**
-
-Amortization is the greater of the two, **\$120,000**.
+Kodiak Partners signs a three-year hosting arrangement that is a service contract. It spends \$6,000 evaluating vendors, \$36,000 configuring and testing the hosted software, and \$4,000 training staff. Kodiak expenses the \$10,000 of evaluation and training costs and capitalizes \$36,000:
 
 ```journal
-Dr. Amortization expense            120,000
-    Cr. Accumulated amortization (software)  120,000
+Dr. Prepaid hosting implementation costs[a] 36,000
+    Cr. Cash[a]                                 36,000
 ```
 
-## Cloud Computing Arrangements (CCA)
+Each year it amortizes \$12,000 (\$36,000 ÷ 3) to the same expense line as its hosting fees:
 
-Under Accounting Standards Update (ASU) 2018-15, a customer in a cloud computing **hosting arrangement** that is a service contract (the customer does **not** control the software) capitalizes certain implementation costs.
+```journal
+Dr. Hosting service expense             12,000
+    Cr. Prepaid hosting implementation costs[a] 12,000
+```
 
-| Phase | Treatment |
-|-------|-----------|
-| **Preliminary project stage** | Expense |
-| **Application development stage** | **Capitalize** |
-| **Post-implementation stage** | Expense |
+:::note[Coming change: ASU 2025-06]
 
-Capitalized costs are presented as a **prepaid asset** (not an intangible) and amortized over the term of the hosting arrangement.
-
-:::note
-
-This treatment mirrors the guidance for **internal-use software** (ASC 350-40), which uses the same three-stage model.
+ASU 2025-06 removes the project stages from the internal-use software guidance, including for CCA implementation costs. Capitalization will start when management has authorized and committed to funding the project and it is probable that the project will be completed and the software will perform its intended function. ASU 2025-06 is eligible for testing starting January 1, 2028. Through December 31, 2027, the stage model above is the tested rule.
 
 :::
 
-## Franchise Accounting: Franchisee
+## Franchises
 
-When a franchisee pays an initial franchise fee, it records an **intangible asset** at the **present value** of the payments and amortizes it over the period of expected benefit.
+When a franchisee pays an initial franchise fee, it records an **intangible asset** at the **present value** of the payments and amortizes it over the period of expected benefit, usually the franchise term.
 
-### Example: Bear Co. (Franchisee)
-
-Bear Co. acquires a franchise from a national chain. The initial fee is \$50,000, payable \$10,000 at signing and \$10,000 per year for four years. The appropriate discount rate is 8%.
+Bear Co. acquires a franchise from a national chain. The initial fee is \$50,000, payable \$10,000 at signing and \$10,000 at the end of each of the next four years. The appropriate discount rate is 8%:
 
 $$
-\text{PV of annuity} = \$10{,}000 \times \text{PV factor}_{4, 8\%} = \$10{,}000 \times 3.3121 = \$33{,}121
-$$
-
-$$
-\text{Total franchise cost} = \$10{,}000 + \$33{,}121 = \$43{,}121
+\text{PV of remaining payments} = \$10{,}000 \times 3.3121 = \$33{,}121 \qquad \text{Franchise cost} = \$10{,}000 + \$33{,}121 = \$43{,}121
 $$
 
 ```journal
-Dr. Franchise intangible asset        43,121
-Dr. Discount on note payable           6,879
-    Cr. Cash                              10,000
-    Cr. Note payable                      40,000
+Dr. Franchise[a]                      43,121
+Dr. Discount on note payable[cl]       6,879
+    Cr. Cash[a]                           10,000
+    Cr. Note payable[l]                   40,000
 ```
 
-The franchise asset is amortized over the **franchise agreement term** (for example, 20 years):
+Over a 20-year franchise term, annual amortization is \$2,156 (\$43,121 ÷ 20). The \$6,879 discount is recognized as interest expense over the four years of the note.
 
-$$
-\text{Annual amortization} = \frac{\$43{,}121}{20} = \$2{,}156
-$$
+## Costs That Are Always Expensed
 
-```journal
-Dr. Amortization expense              2,156
-    Cr. Accumulated amortization (franchise)  2,156
-```
+Two categories of cost look like they create long-term benefits but are expensed as incurred.
 
-## Start-Up Costs
+**Start-up and organization costs** (ASC 720), such as the costs of opening a new facility or forming a new entity, are expensed as incurred for financial reporting, even though tax law allows part of them to be amortized.
 
-Under ASC 720, start-up costs (including organization costs) are **expensed as incurred** for financial reporting purposes.
-
-**Example: Kodiak Partners incurs \$25,000 in organization costs.**
-
-```journal
-Dr. Start-up costs expense            25,000
-    Cr. Cash                              25,000
-```
-
-:::tip
-
-For federal income tax purposes, a business may deduct up to \$5,000 of start-up costs (subject to a phase-out) and amortize the rest over 15 years. For financial reporting, which FAR tests, start-up costs are expensed as incurred.
-
-:::
-
-## Research and Development (R&D) Costs
-
-Under ASC 730, R&D costs are **expensed as incurred**. This includes:
-
-- Salaries of R&D personnel
-- Materials and supplies consumed in R&D
-- The full cost of equipment and facilities that have no alternative future use
-- Depreciation of R&D equipment that has alternative future uses
-- Contract R&D services performed by others
-- A reasonable allocation of indirect costs
-
-### Exceptions to Immediate Expensing
-
-| Exception                                              | Treatment                                                                   |
-| ------------------------------------------------------ | --------------------------------------------------------------------------- |
-| R&D equipment with **alternative future use**          | Capitalize and depreciate (the depreciation is R&D expense)                 |
-| Software development (after technological feasibility) | Capitalize per ASC 985-20                                                   |
-| In-process R&D acquired in a **business combination** | Capitalize at fair value as an indefinite-lived intangible until the project is completed (then amortize) or abandoned (then write off) |
-
-:::note
-
-In-process R&D acquired in an **asset acquisition** (not a business combination) is expensed at acquisition unless it has an alternative future use.
-
-:::
-
-**Example: Grizzly Inc. R&D activities.** Grizzly pays \$90,000 for R&D salaries and supplies, records \$30,000 of depreciation on lab equipment that has alternative future uses, and accrues \$30,000 owed for contract research.
-
-```journal
-Dr. Research and development expense  150,000
-    Cr. Cash                              90,000
-    Cr. Accumulated depreciation (equipment)  30,000
-    Cr. Accrued liabilities               30,000
-```
-
-:::warning
-
-**Materials, equipment, and facilities** acquired for R&D with **no alternative future use** are expensed at acquisition. They are not capitalized as assets.
-
-:::
+**Research and development costs** (ASC 730) are expensed as incurred, including salaries, materials, contract research performed by others, and a reasonable allocation of indirect costs. Equipment and facilities bought for R&D are capitalized only if they have an **alternative future use**; the depreciation on them is then R&D expense. Items with no alternative future use are expensed when acquired. Intangible R&D acquired in a business combination is the main exception: it is recognized at fair value as an indefinite-lived intangible until the project is completed or abandoned. R&D is covered in depth in BAR; see [Research and Development Costs](../../bar/technical-accounting-assets-and-revenue/research-and-development-costs.md).
 
 ## Crypto Assets
 
-A **crypto asset** (such as bitcoin or ether) is a digital asset recorded on a distributed ledger (blockchain). Crypto assets are **intangible assets** because they are not cash, financial instruments, or tangible property. Crypto assets within the scope of ASC 350-60 are measured at **fair value**.
+A **crypto asset** (such as bitcoin or ether) is a digital asset recorded on a blockchain. Because it is not cash, a financial instrument, or tangible property, it is an **intangible asset**. Under ASC 350-60, a crypto asset is measured at **fair value**, with changes recognized in **net income**, when it meets **all** of the following conditions:
 
-### Scope of ASC 350-60
-
-A crypto asset is within the scope of ASC 350-60 only when it meets **all** of the following conditions:
-
-1. It meets the definition of an intangible asset under ASC 350.
-2. It does **not** provide the holder with enforceable rights to or claims on underlying goods, services, or other assets.
+1. It meets the definition of an intangible asset.
+2. It does **not** give the holder enforceable rights to underlying goods, services, or other assets.
 3. It is created or resides on a distributed ledger based on blockchain or similar technology.
 4. It is secured through cryptography.
 5. It is fungible.
 6. It is **not** created or issued by the reporting entity or its related parties.
 
-### Measurement
-
-Crypto assets within the scope of ASC 350-60 are measured at **fair value each reporting period**, with changes in fair value recognized in **net income**.
-
-**Example:** Bear Co. holds 5 bitcoin (BTC) purchased at \$30,000 each. At year-end, the fair value is \$35,000 per BTC.
-
-$$
-\text{Unrealized gain} = 5 \times (\$35{,}000 - \$30{,}000) = \$25{,}000
-$$
+Bear Co. holds 5 bitcoin purchased at \$30,000 each. At year-end, the fair value is \$35,000 per bitcoin, an unrealized gain of \$25,000 (5 × \$5,000):
 
 ```journal
 Dec 31
@@ -365,11 +178,7 @@ Dr. Crypto assets[a] 25,000
     Cr. Unrealized gain on crypto assets 25,000
 ```
 
-:::tip[Exam Tip]
-
-Qualifying crypto assets are remeasured to fair value every period through net income. A crypto asset that does **not** meet all six conditions, such as a non-fungible token (NFT), follows the general intangible asset guidance: it is carried at cost less impairment and, if indefinite-lived, tested for impairment at least annually.
-
-:::
+Crypto assets measured at fair value are presented separately from other intangibles on the balance sheet, and their remeasurement gains and losses are presented separately from changes in other intangibles in the income statement. A crypto asset that does **not** meet all six conditions, such as a non-fungible token (NFT), follows the general intangible asset guidance: it is carried at cost less impairment.
 
 ---
 
@@ -377,16 +186,10 @@ Qualifying crypto assets are remeasured to fair value every period through net i
 
 | Category                                    | Amortization                   | Impairment Test                            |
 | ------------------------------------------- | ------------------------------ | ------------------------------------------ |
-| Finite life intangible                      | Shorter of legal/economic life | Two-step (same as PP&E)                    |
-| Indefinite life intangible (excl. goodwill) | None                           | Compare carrying value to fair value at least annually |
-| Goodwill                                    | None (private company alternative: up to 10 years) | Optional qualitative screen, then one-step quantitative test |
-| R&D costs                                   | N/A (expensed as incurred)     | N/A                                        |
-| Start-up costs                              | N/A (expensed as incurred)     | N/A                                        |
-| Capitalized software (for sale)             | Greater of straight-line or revenue-based | Write down to NRV                |
-| Crypto assets (qualifying)                  | None (fair value through net income) | N/A (remeasured to fair value each period) |
-
-:::info
-
-The most important distinction is between **finite** and **indefinite** life intangibles. It determines whether you amortize and which impairment model applies. Qualifying crypto assets are the exception: they are remeasured to fair value through net income each period.
-
-:::
+| Finite-lived intangible                     | Shorter of legal and economic life, usually straight-line | Two-step test (same as PP&E); no reversal |
+| Indefinite-lived intangible (other than goodwill) | None                     | Compare carrying amount with fair value at least annually |
+| Goodwill                                    | None (private company alternative: 10 years or less) | At least annually at the reporting unit level (BAR) |
+| Purchased internal-use software             | Straight-line over useful life | Same as PP&E                               |
+| CCA implementation costs (service contract) | Straight-line over the hosting term, with hosting expense | Same as PP&E                   |
+| R&D and start-up costs                      | Not applicable (expensed as incurred) | Not applicable                      |
+| Crypto assets (qualifying)                  | None (fair value through net income) | Not applicable (remeasured each period) |

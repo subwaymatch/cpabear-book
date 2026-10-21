@@ -1,79 +1,53 @@
 # Notes to Financial Statements
 
-The **notes to financial statements** (also called **footnotes** or **disclosures**) are an integral part of a complete set of financial statements prepared under U.S. generally accepted accounting principles (GAAP). They provide detail, context, and explanations that the numbers on the face of the statements cannot convey alone.
-
-:::info[Key Concept]
-
-Financial statements and their notes are **inseparable**. The auditor's opinion covers both the statements and the notes. However, disclosure in the notes does **not** substitute for recognizing an item that GAAP requires on the face of the statements.
-
-:::
+The **notes to financial statements** (also called footnotes or disclosures) are an integral part of a complete set of financial statements prepared under U.S. generally accepted accounting principles (GAAP). The face of the statements gives the numbers; the notes explain how those numbers were measured, break them into their parts, and report risks and events that the numbers alone cannot show. The auditor's opinion covers both. One rule frames everything that follows: **disclosure does not substitute for recognition**. If GAAP requires an item to be recognized on the face of the statements, describing it in a note does not fix the omission. FAR tests the notes by asking you to correct errors and omissions in them and to compare them with the statements to find inconsistencies. This chapter covers how the notes are organized, the policies note, the main disclosures for individual accounts (including the new income tax and expense disclosures), risks and uncertainties, subsequent events, and how to review a set of notes.
 
 ---
 
-## Structure of the Notes
+## How the Notes Are Organized
 
-Notes are typically organized in this order:
+Notes are typically presented in this order:
 
 1. **Summary of significant accounting policies** (usually Note 1)
-2. Detailed disclosures for major balance sheet and income statement items
+2. Notes for individual balance sheet and income statement items, in roughly the order they appear in the statements
 3. Commitments and contingencies
 4. Related party transactions
 5. Subsequent events
-6. Other required disclosures
-
----
 
 ## Note 1: Summary of Significant Accounting Policies
 
-The summary of significant accounting policies describes the accounting methods and principles the entity uses. It lets users understand _how_ the numbers were prepared. Under Accounting Standards Codification (ASC) 235, the summary should preferably be the **first note** or a separate summary just before the notes.
-
-### Required Disclosures
+The policies note tells readers how the numbers were prepared. Under ASC 235, it should preferably be the **first note**, or a separate summary just before the notes. Its main job is to disclose the **methods chosen when GAAP permits alternatives**, such as the inventory cost flow method or the depreciation method, along with unusual or industry-specific applications of GAAP. Entities often describe policies where GAAP allows no choice too, for readers' convenience. Common topics include:
 
 | Policy Area                  | What to Disclose                                                                    |
 | ---------------------------- | ----------------------------------------------------------------------------------- |
 | **Basis of presentation**    | Consolidation principles, fiscal year-end                                           |
-| **Revenue recognition**      | Performance obligations, timing, variable consideration                             |
-| **Inventory**                | Valuation method (FIFO, LIFO, weighted average), lower of cost or net realizable value (NRV) |
-| **Depreciation**             | Methods (straight-line, declining balance), useful lives                            |
-| **Income taxes**             | Deferred tax methodology, uncertain tax positions                                   |
-| **Financial instruments**    | Classification, measurement, fair value methods                                     |
-| **Leases**                   | Classification criteria, discount rate approach                                     |
-| **Intangible assets**        | Amortization methods, useful lives                                                  |
-| **Stock-based compensation** | Valuation model (Black-Scholes, lattice), assumptions                               |
-| **Foreign currency**         | Functional currency determination, translation method                               |
+| **Revenue recognition**      | Performance obligations, timing of satisfaction, variable consideration             |
+| **Inventory**                | Cost flow method (first-in, first-out, last-in, first-out, or weighted average) and the measurement rule |
+| **Depreciation**             | Methods and useful lives                                                            |
+| **Income taxes**             | Deferred tax approach, uncertain tax positions                                      |
+| **Financial instruments**    | Classification, measurement, credit loss approach                                   |
+| **Leases**                   | Discount rate approach, practical expedients elected                                |
+| **Cash equivalents**         | The definition used                                                                 |
 
-FIFO is first-in, first-out; LIFO is last-in, first-out.
-
-:::tip[Exam Tip]
-
-The summary of significant accounting policies discloses the **methods chosen** when GAAP permits alternatives. If GAAP mandates only one method, no disclosure of the "choice" is necessary, but entities often disclose the policy anyway for users' convenience.
-
-:::
-
-### Example Note Disclosure
+A typical excerpt:
 
 > **Note 1: Summary of Significant Accounting Policies**
 >
-> _Inventory:_ Bear Co. values inventory at the lower of cost or net realizable value. Cost is determined using the first-in, first-out (FIFO) method.
+> _Inventory:_ Bear Co. values inventory at the lower of cost and net realizable value. Cost is determined using the first-in, first-out (FIFO) method.
 >
 > _Property, Plant, and Equipment:_ PP&E is recorded at historical cost and depreciated using the straight-line method over estimated useful lives of 5 to 40 years. Land is not depreciated.
 >
-> _Revenue Recognition:_ Revenue is recognized when control of goods or services transfers to the customer, in accordance with ASC 606. The Company identifies performance obligations, determines the transaction price, allocates the price, and recognizes revenue upon satisfaction of each obligation.
+> _Revenue Recognition:_ Revenue is recognized when control of goods or services transfers to the customer, in an amount that reflects the consideration the Company expects to be entitled to in exchange for those goods or services.
 
 ---
 
-## Remaining Notes: Major Topics
+## Notes for Individual Accounts
 
-### Inventory Disclosures
+Each major account gets its own note. The notes below are the ones most often used in simulations.
 
-Entities must disclose:
+### Inventories
 
-- Inventory composition (raw materials, work-in-process, finished goods)
-- Costing method
-- Any LIFO reserve (if LIFO is used)
-- Write-downs to net realizable value
-
-**Example: Polar Co.**
+The inventory note shows the composition of inventory (raw materials, work in process, finished goods), the costing method, any write-downs to net realizable value, and, for an entity using LIFO, the LIFO reserve.
 
 > **Note 3: Inventories**
 >
@@ -82,7 +56,7 @@ Entities must disclose:
 > | Component             |        Amount |
 > | --------------------- | ------------: |
 > | Raw materials         |      \$85,000 |
-> | Work-in-process       |       120,000 |
+> | Work in process       |       120,000 |
 > | Finished goods        |       195,000 |
 > | **Total inventories** | **\$400,000** |
 >
@@ -90,14 +64,7 @@ Entities must disclose:
 
 ### Property, Plant, and Equipment
 
-Required disclosures for property, plant, and equipment (PP&E) include:
-
-- Balances by major class
-- Depreciation methods and useful lives
-- Accumulated depreciation
-- Depreciation expense for the period
-
-**Example: Grizzly Inc.**
+The PP&E note shows balances by major class, accumulated depreciation, depreciation methods and useful lives, and depreciation expense for the period.
 
 > **Note 4: Property, Plant, and Equipment**
 >
@@ -113,15 +80,7 @@ Required disclosures for property, plant, and equipment (PP&E) include:
 
 ### Fair Value Measurements
 
-ASC 820 requires disclosure of the **fair value hierarchy** level for assets and liabilities measured at fair value.
-
-| Level | Inputs | Description |
-|---|---|---|
-| **Level 1** | Quoted prices | Unadjusted quoted prices in active markets for identical assets or liabilities |
-| **Level 2** | Observable inputs | Quoted prices for similar items, or other observable inputs (interest rates, yield curves) |
-| **Level 3** | Unobservable inputs | Entity's own assumptions and models |
-
-**Example disclosure:**
+For assets and liabilities measured at fair value, ASC 820 requires disclosure of where each measurement falls in the **fair value hierarchy**: Level 1 (unadjusted quoted prices in active markets for identical items), Level 2 (other observable inputs, such as quoted prices for similar items or yield curves), or Level 3 (unobservable inputs based on the entity's own assumptions).
 
 > |                                      |   Level 1 |   Level 2 |  Level 3 |     Total |
 > | ------------------------------------ | --------: | --------: | -------: | --------: |
@@ -129,241 +88,117 @@ ASC 820 requires disclosure of the **fair value hierarchy** level for assets and
 > | Available-for-sale (AFS) debt securities |       | \$200,000 |          | \$200,000 |
 > | Contingent consideration             |           |           | \$45,000 |  \$45,000 |
 
-:::warning
-
-For recurring fair value measurements, transfers **into and out of Level 3** must be disclosed, along with the reasons for those transfers. Accounting Standards Update (ASU) 2018-13 removed the separate requirement to disclose transfers between Level 1 and Level 2.
-
-:::
+Level 3 measurements carry the most extra disclosure. For recurring Level 3 measurements, entities disclose the changes in the balance during the period (a full rollforward, for public entities), including transfers into and out of Level 3, and quantitative information about the significant unobservable inputs. The fair value measurement chapter covers the hierarchy in depth.
 
 ### Contingencies
 
-A **contingency** is an existing condition involving uncertainty about a possible gain or loss that will be resolved by a future event. Treatment depends on how likely the future event is.
+A **contingency** is an existing condition involving uncertainty about a possible gain or loss that will be resolved by a future event. The treatment depends on how likely that future event is:
 
-| Likelihood | Loss Treatment | Gain Treatment |
+| Likelihood | Loss Contingency | Gain Contingency |
 |---|---|---|
-| **Probable** (likely) | Accrue if reasonably estimable; disclose | Disclose only (do not accrue) |
+| **Probable** | Accrue if reasonably estimable, and disclose | Do not accrue; disclose, with care not to imply it will be realized |
 | **Reasonably possible** | Disclose only | Generally not disclosed |
-| **Remote** | No disclosure required (exception: guarantees) | No disclosure required |
+| **Remote** | No disclosure required (except guarantees) | Not disclosed |
 
-**Example: Panda Industries**
+Panda Industries is being sued for \$500,000, and its counsel believes an unfavorable outcome is reasonably possible but not probable. Panda records nothing and discloses the claim:
 
 > **Note 8: Contingencies**
 >
-> The Company is a defendant in a lawsuit filed by a former supplier alleging breach of contract and seeking damages of \$500,000. Management, in consultation with legal counsel, believes the likelihood of an unfavorable outcome is reasonably possible. No accrual has been made, but an unfavorable resolution could result in a loss of up to \$500,000.
+> The Company is a defendant in a lawsuit filed by a former supplier alleging breach of contract and seeking damages of \$500,000. Management, in consultation with legal counsel, believes an unfavorable outcome is reasonably possible. No accrual has been made, but an unfavorable resolution could result in a loss of up to \$500,000.
 
-**No journal entry is required.** The loss is only reasonably possible, so it is disclosed but not accrued.
-
-**If the loss were probable and estimable at \$350,000:**
+If the loss were probable and estimable at \$350,000, Panda would accrue it and still disclose the nature of the claim:
 
 ```journal
 Dr. Loss from litigation         350,000
-    Cr. Estimated liability from litigation    350,000
+    Cr. Estimated liability from litigation[l]  350,000
 ```
 
-:::note
+The current liabilities and contingencies chapter covers the recognition rules in full.
 
-**Gain contingencies** are generally not recognized until they are realized. They are disclosed only when realization is probable, and even then the wording must not imply that the gain is certain.
+### Income Taxes (ASU 2023-09)
 
-:::
+The income tax note explains the gap between the statutory rate and the rate the company actually paid, and where the cash went. ASU 2023-09 expanded it substantially. It has been eligible for testing since January 1, 2025.
 
-### Pension and Postretirement Benefits
+**All entities** must disclose, each year:
 
-Defined benefit plan disclosures include:
+- **Income taxes paid**, net of refunds, broken down by federal, state, and foreign taxes, and further by any individual jurisdiction that accounts for 5% or more of total income taxes paid
+- Income (or loss) from continuing operations before tax, split between **domestic and foreign**
+- Income tax expense from continuing operations, split among **federal, state, and foreign**
 
-- Projected benefit obligation (PBO) and plan assets
-- Components of net periodic pension cost
-- Assumptions (discount rate, expected return on plan assets, rate of compensation increase)
-- Amounts in accumulated other comprehensive income (AOCI), such as prior service cost and net actuarial loss
+**Public business entities** must also present a tabular **rate reconciliation**, in both percentages and dollar amounts, from the tax computed at the statutory rate to reported income tax expense. It uses eight required categories: state and local income tax (net of the federal effect), foreign tax effects, the effect of changes in tax laws or rates enacted in the current period, the effect of cross-border tax laws, tax credits, changes in valuation allowances, nontaxable or nondeductible items, and changes in unrecognized tax benefits. Within those categories, any reconciling item equal to at least **5% of pretax income times the statutory rate** must be shown separately. Other entities describe the significant reconciling items qualitatively instead of in a table.
 
-**Example: Sloth Security**
+Bear Co., a public business entity, has pretax income of \$1,000,000 and a 21% federal statutory rate, so the 5% threshold is \$10,500 (5% × \$210,000):
 
-> **Note 9: Pension Benefits**
->
-> | Component                         |          Amount |
-> | --------------------------------- | --------------: |
-> | Projected benefit obligation      |   (\$2,400,000) |
-> | Fair value of plan assets         |       2,100,000 |
-> | **Funded status (net liability)** | **(\$300,000)** |
->
-> Net periodic pension cost for the year included service cost of \$180,000, interest cost of \$120,000, expected return on plan assets of (\$105,000), and amortization of prior service cost of \$15,000.
+| Rate reconciliation | Amount | Percent |
+| --- | ---: | ---: |
+| Tax at the federal statutory rate | \$210,000 | 21.0% |
+| State and local income tax, net of federal effect | 40,000 | 4.0% |
+| Tax credits: research credit | (30,000) | (3.0%) |
+| Nondeductible items: fines and penalties | 15,000 | 1.5% |
+| Changes in valuation allowances | 5,000 | 0.5% |
+| **Income tax expense and effective rate** | **\$240,000** | **24.0%** |
 
-### Segment Reporting
+The research credit and the nondeductible fines exceed \$10,500, so each is described by its nature. The valuation allowance change is below the threshold but appears because it is a required category.
 
-ASC 280 requires **public entities** to disclose financial information about their **operating segments**. An operating segment is a component that engages in business activities, has discrete financial information, and is regularly reviewed by the chief operating decision maker (CODM).
+ASU 2023-09 also removed two older disclosures: the estimated range of reasonably possible changes in unrecognized tax benefits over the next 12 months, and the cumulative amount of temporary differences for which no deferred tax liability is recognized on investments in subsidiaries and joint ventures. If a practice question shows either one as required, it is testing the old rules.
 
-Required disclosures for each reportable segment include:
+### Expense Disaggregation (ASU 2024-03)
 
-- Revenue (external and intersegment)
-- Profit or loss
-- Significant segment expenses regularly provided to the CODM (added by ASU 2023-07)
-- Total assets
-- Depreciation and amortization
-- Capital expenditures
+Starting with annual periods beginning after December 15, 2026, a **public business entity** must add a tabular note that breaks each relevant income statement expense caption into purchases of inventory, employee compensation, depreciation, intangible asset amortization, and depletion, with a qualitative description of what remains, plus total selling expenses and the entity's definition of them. The face of the income statement does not change. ASU 2024-03 is eligible for testing starting January 1, 2027; the income statement chapter shows an example.
+
+### Segments
+
+Public entities report information about their **operating segments** under ASC 280: components whose operating results are regularly reviewed by the chief operating decision maker (CODM). Since ASU 2023-07, each reportable segment's note includes the **significant segment expenses** regularly provided to the CODM, along with segment revenue, profit or loss, and assets. Segment reporting is tested mainly in BAR.
+
+### Related Parties
+
+Transactions with related parties, such as affiliates, principal owners, management, and their immediate families, may not be at arm's length. ASC 850 requires disclosure of the nature of each relationship, a description of the transactions, their dollar amounts, and amounts due to or from related parties at the balance sheet date. A statement that a transaction was on terms equivalent to an arm's-length transaction may be made only if it can be supported.
 
 ---
 
 ## Risks and Uncertainties (ASC 275)
 
-### Nature of Operations
+ASC 275 requires four kinds of disclosure that help readers judge how exposed the entity is to near-term surprises.
 
-Describe what the entity does: its principal markets, industry, and types of revenue-generating activities.
+**Nature of operations.** A short description of what the entity does: its principal products or services, markets, and locations. For example: "Bear Co. manufactures and distributes consumer electronics products, primarily in the United States and Canada."
 
-> Bear Co. is a manufacturer and distributor of consumer electronics products, primarily operating in the United States and Canada.
+**Use of estimates.** Every set of GAAP financial statements must state that their preparation requires management to make estimates and assumptions that affect reported amounts, and that actual results could differ.
 
-### Use of Estimates
+**Significant estimates.** When it is **reasonably possible** that an estimate will change in the near term (within one year) and the effect would be **material**, the entity discloses the nature of the uncertainty. Common examples are the allowance for credit losses, inventory obsolescence, warranty obligations, valuation allowances for deferred tax assets, Level 3 fair values, and litigation accruals.
 
-:::info[Required Disclosure]
-
-All financial statements prepared in conformity with GAAP must include a disclosure stating that the preparation of financial statements requires management to make estimates and assumptions that affect reported amounts.
-
-:::
-
-> The preparation of financial statements in conformity with accounting principles generally accepted in the United States requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period. Actual results could differ from those estimates.
-
-### Significant Estimates
-
-When it is **reasonably possible** that an estimate will change in the near term (within one year) and the effect would be **material**, the entity must disclose the nature of the uncertainty.
-
-Examples of significant estimates:
-
-- Allowance for credit losses
-- Inventory obsolescence reserves
-- Warranty obligations
-- Useful lives of long-lived assets
-- Valuation allowances for deferred tax assets
-- Fair value of financial instruments (Level 3)
-- Litigation accruals
-
-### Concentrations
-
-Entities must disclose **concentrations** that could make them vulnerable if the concentrated element were disrupted.
-
-| Type of Concentration | Example |
-|---|---|
-| **Revenue concentration** | One customer represents 40% of revenue |
-| **Supplier concentration** | Single-source supplier for key component |
-| **Geographic concentration** | All operations in one region subject to natural disaster |
-| **Labor concentration** | 60% of workforce covered by a single union contract |
-| **Credit concentration** | Major receivable from one customer |
-
-**Example: Kodiak Partners**
+**Concentrations.** An entity discloses concentrations that make it vulnerable to a severe near-term impact, such as one customer providing a large share of revenue, a single-source supplier for a key component, operations concentrated in one region, or a workforce covered by one union contract. Concentrations of credit risk on financial instruments are disclosed under ASC 825.
 
 > **Note 11: Concentrations**
 >
-> Approximately 35% of the Company's revenue for the year ended December 31 was derived from a single customer, Cub Entertainment. As of December 31, the accounts receivable balance due from this customer was \$420,000. The loss of this customer would have a material adverse effect on the Company's operations.
+> Approximately 35% of the Company's revenue for the year ended December 31 was derived from a single customer. As of December 31, the accounts receivable balance due from this customer was \$420,000. The loss of this customer would have a material adverse effect on the Company's operations.
 
 ---
 
 ## Subsequent Events (ASC 855)
 
-Subsequent events are events or transactions that occur **after the balance sheet date** but **before the financial statements are issued** (or available to be issued).
+Subsequent events occur **after the balance sheet date** but **before the financial statements are issued** (or available to be issued), and the notes disclose the date through which they were evaluated. The key question is whether the condition **existed at the balance sheet date**:
 
-### Two Types
+| Type | Description | Treatment |
+| --- | --- | --- |
+| **Recognized** | Gives more evidence about a condition that existed at the balance sheet date, such as a lawsuit settled after year-end for a claim that arose before it | **Adjust** the financial statements |
+| **Nonrecognized** | Concerns a condition that arose after the balance sheet date, such as a fire in January or a business combination completed after year-end | **Disclose** the nature and an estimate of the effect (do not adjust) |
 
-| Type                       | Description                                                                              | Accounting Treatment                      |
-| -------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------- |
-| **Recognized** (Type 1)    | Provides additional evidence about conditions that **existed at** the balance sheet date | **Adjust** the financial statements       |
-| **Nonrecognized** (Type 2) | Provides evidence about conditions that **arose after** the balance sheet date           | **Disclose** in the notes (do not adjust) |
-
-:::tip[Exam Tip: Type 1 vs. Type 2]
-
-Ask: _Did the condition exist at the balance sheet date?_
-
-- **Yes:** It is a recognized event, so adjust the statements.
-- **No:** It is a nonrecognized event, so disclose only.
-
-:::
-
-### Examples
-
-**Type 1, recognized (adjust):**
-
-- Settlement of litigation where the underlying event occurred before year-end
-- Customer bankruptcy confirming a receivable was uncollectible at year-end
-- Discovery of an error in the financial statements
-
-**Type 2, nonrecognized (disclose):**
-
-- Fire destroying a warehouse in January (condition arose after year-end)
-- Business combination completed after year-end
-- Issuance of debt or equity after year-end
-- Loss from a natural disaster after year-end
-
-**Example: Panda Industries (Type 1)**
-
-A lawsuit filed against the Company in November was settled on February 10 (before financial statement issuance) for \$200,000. At year-end, the Company had accrued \$150,000.
-
-```journal
-Dr. Loss from litigation        50,000
-    Cr. Estimated liability from litigation    50,000
-```
-
-The accrual is adjusted from \$150,000 to \$200,000 because the settlement provides evidence about conditions at the balance sheet date.
-
-**Example: Grizzly Inc. (Type 2)**
-
-On January 25 (before financial statement issuance), a fire destroyed the Company's main distribution warehouse. The estimated loss is \$2,000,000. Because the fire occurred **after** the balance sheet date, no adjustment is made to the December 31 financial statements. The event is disclosed in the notes:
-
-> **Note 14: Subsequent Events**
->
-> On January 25, a fire destroyed the Company's main distribution warehouse. The estimated loss is approximately \$2,000,000. The Company is currently assessing the full impact and working with its insurance carrier on the claim.
+If Grizzly Inc.'s main warehouse burns down on January 25, an estimated \$2,000,000 loss, nothing is adjusted in the December 31 statements, but a note describes the fire and its estimated effect. The subsequent events chapter covers the rules and examples in depth.
 
 ---
 
-## Complete Set of Financial Statements
+## Reviewing the Notes Against the Statements
 
-For reference, a **complete set** of financial statements under U.S. GAAP includes:
+Because the notes and the statements describe the same facts, they must agree, and a common simulation asks you to find where they do not. Work through the notes with the statements beside you:
 
-1. Balance sheet (statement of financial position)
-2. Income statement (statement of operations)
-3. Statement of comprehensive income (may be combined with income statement)
-4. Statement of cash flows
-5. Statement of changes in stockholders' equity
-6. **Notes to financial statements**
+- **Tie the numbers.** Totals in the notes (inventory components, PP&E by class, debt maturities, the fair value table) should equal the related balance sheet lines. Depreciation expense in the PP&E note should match the expense in the income statement and the add-back in the statement of cash flows.
+- **Check the policies against the accounting.** If Note 1 says inventory is costed on FIFO, the inventory amounts should reflect FIFO. If it says an expedient was elected, the numbers should reflect that election.
+- **Look for omissions.** A probable, estimable loss that is disclosed but not accrued, a missing use-of-estimates statement, or a known concentration that is not disclosed are all errors to correct.
+- **Check classification language.** A note that describes debt as callable because of a covenant violation is inconsistent with a balance sheet that shows the debt as noncurrent, unless a qualifying waiver is also described.
 
-```mermaid
-flowchart TD
-    A[Complete Financial Statements] --> B[Balance Sheet]
-    A --> C[Income Statement]
-    A --> D[Comprehensive Income]
-    A --> E[Cash Flows]
-    A --> F[Changes in Equity]
-    A --> G[Notes to Financial Statements]
-    G --> G1[Significant Accounting Policies]
-    G --> G2[Detailed Asset/Liability Disclosures]
-    G --> G3[Contingencies & Commitments]
-    G --> G4[Fair Value Measurements]
-    G --> G5[Risks & Uncertainties]
-    G --> G6[Subsequent Events]
-```
+:::warning[Common exam traps]
 
----
-
-## Summary of Key Disclosure Requirements
-
-| Topic               | Key Disclosure                                            |
-| ------------------- | --------------------------------------------------------- |
-| Accounting policies | Methods chosen when GAAP permits alternatives             |
-| Inventory           | Composition, method, write-downs                          |
-| PP&E                | Cost, accumulated depreciation, useful lives, methods     |
-| Fair value          | Hierarchy levels, valuation techniques                    |
-| Contingencies       | Nature, estimated loss, likelihood assessment             |
-| Pensions            | PBO, plan assets, funded status, assumptions              |
-| Segments            | Revenue, profit, significant expenses, assets by reportable segment |
-| Estimates           | Nature of significant estimates with material uncertainty |
-| Concentrations      | Customer, supplier, geographic, labor, credit risks       |
-| Subsequent events   | Type 1 (adjust) vs. Type 2 (disclose)                     |
-
----
-
-:::danger[Common Exam Pitfalls]
-
-1. **Accruing gain contingencies.** Gains are not accrued before realization; they are only disclosed, and only when probable.
-2. Confusing **recognized** (Type 1) and **nonrecognized** (Type 2) subsequent events. Ask whether the condition existed at year-end.
-3. Omitting the **use of estimates** disclosure. It is required for all GAAP financial statements.
-4. Thinking notes are **optional**. They are an integral, required part of the financial statements.
-5. Not disclosing **concentrations** that create material vulnerability.
-6. Treating a **remote** contingent loss as requiring disclosure. Remote losses generally need no disclosure (except for guarantees).
+Gain contingencies are never accrued before realization. Remote loss contingencies generally need no disclosure, except guarantees. The use-of-estimates disclosure is required in every set of GAAP statements. And a subsequent event is recognized only if the underlying condition existed at the balance sheet date.
 
 :::
 
@@ -387,18 +222,16 @@ Cub Entertainment has the following situations at its December 31 year-end (fina
 
    ```journal
    Dr. Loss from litigation         180,000
-       Cr. Estimated liability from litigation    180,000
+       Cr. Estimated liability from litigation[l]  180,000
    ```
 
 2. **Disclose** the customer concentration. No accrual is needed; this is a risk disclosure under ASC 275.
-3. **Disclose only (Type 2 subsequent event).** The acquisition occurred after the balance sheet date and reflects conditions that arose after year-end. Disclose the nature of the transaction and an estimate of its financial effect.
-4. **Adjust (Type 1 subsequent event).** The customer's financial difficulties existed at year-end; the bankruptcy confirms the receivable was impaired at December 31.
+3. **Disclose only (nonrecognized subsequent event).** The acquisition reflects a condition that arose after year-end. Disclose the nature of the transaction and an estimate of its financial effect.
+4. **Adjust (recognized subsequent event).** The customer's financial difficulties existed at year-end; the bankruptcy confirms the receivable was uncollectible at December 31. Cub increases its allowance (or writes off the account if the allowance already covers it):
 
    ```journal
    Dr. Credit loss expense             75,000
-       Cr. Allowance for credit losses    75,000
+       Cr. Allowance for credit losses[ca] 75,000
    ```
-
-   An entity using the direct write-off method (acceptable only when the effect is immaterial) would instead write off the receivable directly.
 
 </details>
