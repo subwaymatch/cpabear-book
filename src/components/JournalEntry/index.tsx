@@ -77,7 +77,7 @@ const parseJournalEntry = (
 
     // 4. Extract the account type, if present
     let account = accountPart;
-    let accountType: Entry["accountType"] | null = null;
+    let accountType: Entry["accountType"];
 
     const typeMatch = accountPart.match(/^(.*?)\[(a|l|e|ca|cl|ce)\]$/);
     if (typeMatch) {
@@ -99,7 +99,7 @@ const parseJournalEntry = (
 
 export default function JournalEntry({
   code,
-}: JournalEntryProps): React.JSX.Element {
+}: JournalEntryProps): React.JSX.Element | null {
   const { date, entries } = parseJournalEntry(code);
 
   if (entries.length === 0) {
