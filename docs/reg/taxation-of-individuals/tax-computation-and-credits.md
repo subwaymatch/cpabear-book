@@ -6,11 +6,11 @@ After determining adjusted gross income and taxable income, taxpayers must compu
 
 ---
 
-## Section 199A — Qualified Business Income Deduction
+## Section 199A: Qualified Business Income Deduction
 
 ### Overview
 
-IRC §199A provides a deduction of up to **20%** of qualified business income (QBI) from pass-through entities — sole proprietorships, partnerships, S corporations, and certain trusts. The deduction is taken **below the line** (reduces taxable income, not AGI) but is available to both itemizers and standard-deduction filers.
+IRC §199A provides a deduction of up to **20%** of qualified business income (QBI) from pass-through entities: sole proprietorships, partnerships, S corporations, and certain trusts. The deduction is taken **below the line** (reduces taxable income, not AGI) but is available to both itemizers and standard-deduction filers.
 
 ### QBI Defined
 
@@ -56,7 +56,7 @@ An SSTB is any trade or business involving the performance of services in the fi
 
 :::tip[Exam Tip]
 
-Engineering and architecture are specifically **excluded** from the SSTB definition — they qualify for the full deduction regardless of income level.
+Engineering and architecture are specifically **excluded** from the SSTB definition, so they qualify for the full deduction regardless of income level.
 
 :::
 
@@ -79,12 +79,12 @@ The 2024 individual tax brackets are:
 
 | Rate | Single | Married Filing Jointly |
 |---|---|---|
-| 10% | \$0 – \$11,600 | \$0 – \$23,200 |
-| 12% | \$11,601 – \$47,150 | \$23,201 – \$94,300 |
-| 22% | \$47,151 – \$100,525 | \$94,301 – \$201,050 |
-| 24% | \$100,526 – \$191,950 | \$201,051 – \$383,900 |
-| 32% | \$191,951 – \$243,725 | \$383,901 – \$487,450 |
-| 35% | \$243,726 – \$609,350 | \$487,451 – \$731,200 |
+| 10% | \$0 to \$11,600 | \$0 to \$23,200 |
+| 12% | \$11,601 to \$47,150 | \$23,201 to \$94,300 |
+| 22% | \$47,151 to \$100,525 | \$94,301 to \$201,050 |
+| 24% | \$100,526 to \$191,950 | \$201,051 to \$383,900 |
+| 32% | \$191,951 to \$243,725 | \$383,901 to \$487,450 |
+| 35% | \$243,726 to \$609,350 | \$487,451 to \$731,200 |
 | 37% | Over \$609,350 | Over \$731,200 |
 
 ### Capital Gains Tax Rates
@@ -94,7 +94,7 @@ Net long-term capital gains and qualified dividends are taxed at preferential ra
 | Rate | Single Taxable Income | MFJ Taxable Income |
 |---|---|---|
 | 0% | Up to \$47,025 | Up to \$94,050 |
-| 15% | \$47,026 – \$518,900 | \$94,051 – \$583,750 |
+| 15% | \$47,026 to \$518,900 | \$94,051 to \$583,750 |
 | 20% | Over \$518,900 | Over \$583,750 |
 
 Short-term capital gains (assets held one year or less) are taxed at ordinary income rates.
@@ -109,14 +109,14 @@ The AMT is a parallel tax system designed to ensure that high-income taxpayers p
 
 ### Calculation
 
-**Alternative Minimum Taxable Income (AMTI)** = Taxable income + AMT preferences + AMT adjustments − AMT exemption
+**Alternative Minimum Taxable Income (AMTI)** = Taxable income + AMT preferences + AMT adjustments - AMT exemption
 
 | AMT Component | 2024 Amounts (Approx.) |
 |---|---|
-| Exemption — Single | \$85,700 |
-| Exemption — MFJ | \$133,300 |
-| Phase-out begins — Single | \$609,350 |
-| Phase-out begins — MFJ | \$1,218,700 |
+| Exemption (Single) | \$85,700 |
+| Exemption (MFJ) | \$133,300 |
+| Phase-out begins (Single) | \$609,350 |
+| Phase-out begins (MFJ) | \$1,218,700 |
 | AMT rate | 26% on first \$232,600 (MFJ); 28% above |
 
 ### Common AMT Preferences and Adjustments
@@ -136,13 +136,13 @@ The AMT is computed separately. A taxpayer owes AMT only if the **tentative mini
 
 :::
 
-> **Example:** Polar Co.'s sole proprietor has a regular tax of \$42,000 and a tentative minimum tax of \$48,000. The AMT owed is \$48,000 − \$42,000 = **\$6,000**.
+> **Example:** Polar Co.'s sole proprietor has a regular tax of \$42,000 and a tentative minimum tax of \$48,000. The AMT owed is \$48,000 - \$42,000 = **\$6,000**.
 
 ---
 
 ## Additional Taxes
 
-### Net Investment Income Tax (NIIT) — 3.8%
+### Net Investment Income Tax (NIIT): 3.8%
 
 A **3.8% surtax** applies to the **lesser** of:
 
@@ -155,11 +155,11 @@ A **3.8% surtax** applies to the **lesser** of:
 | MFJ | \$250,000 |
 | MFS | \$125,000 |
 
-**Net investment income** includes interest, dividends, capital gains, rental and royalty income, and passive activity income — but **not** wages, self-employment income, or distributions from qualified retirement plans.
+**Net investment income** includes interest, dividends, capital gains, rental and royalty income, and passive activity income, but **not** wages, self-employment income, or distributions from qualified retirement plans.
 
-> **Example:** Panda Industries' owner has MAGI of \$300,000 (MFJ) and NII of \$80,000. The NIIT applies to the lesser of \$80,000 or \$50,000 (\$300,000 − \$250,000). NIIT = 3.8% × \$50,000 = **\$1,900**.
+> **Example:** Panda Industries' owner has MAGI of \$300,000 (MFJ) and NII of \$80,000. The NIIT applies to the lesser of \$80,000 or \$50,000 (\$300,000 - \$250,000). NIIT = 3.8% × \$50,000 = **\$1,900**.
 
-### Additional Medicare Tax — 0.9%
+### Additional Medicare Tax: 0.9%
 
 An additional **0.9%** Medicare tax applies to wages and self-employment income exceeding:
 
@@ -244,8 +244,8 @@ Credits directly reduce tax liability and are more valuable than deductions. Cre
 | Refundable? | 40% refundable (\$1,000) | No |
 | Years available | First 4 years of postsecondary | Unlimited |
 | Enrollment | At least half-time | Any course load |
-| MAGI phase-out (Single) | \$80,000 – \$90,000 | \$80,000 – \$90,000 |
-| MAGI phase-out (MFJ) | \$160,000 – \$180,000 | \$160,000 – \$180,000 |
+| MAGI phase-out (Single) | \$80,000 to \$90,000 | \$80,000 to \$90,000 |
+| MAGI phase-out (MFJ) | \$160,000 to \$180,000 | \$160,000 to \$180,000 |
 | Felony drug conviction | Disqualifies | No effect |
 
 :::tip[Exam Tip]
@@ -258,7 +258,7 @@ The AOTC provides 100% of the first \$2,000 plus 25% of the next \$2,000 of qual
 
 - Maximum credit: **\$16,810** (2024) per eligible child.
 - **Nonrefundable** but may be carried forward up to 5 years.
-- Phase-out: MAGI of \$252,150 – \$292,150 (2024).
+- Phase-out: MAGI of \$252,150 to \$292,150 (2024).
 - For a child with special needs, the full credit is available regardless of actual expenses.
 
 ---
@@ -276,7 +276,7 @@ A taxpayer avoids the underpayment penalty by paying at least the **lesser** of:
 
 :::warning
 
-The penalty is calculated separately for each quarter — catching up in Q4 does not eliminate the penalty for earlier quarters.
+The penalty is calculated separately for each quarter, so catching up in Q4 does not eliminate the penalty for earlier quarters.
 
 :::
 

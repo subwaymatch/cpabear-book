@@ -8,7 +8,7 @@ Federal and state governments regulate business activity to protect investors, c
 
 ## Federal Securities Regulation
 
-### Securities Act of 1933 — Registration and Disclosure
+### Securities Act of 1933: Registration and Disclosure
 
 The **Securities Act of 1933** regulates the **initial issuance** (primary market) of securities. Its core requirement is that securities must be **registered** with the SEC before being offered to the public, unless an exemption applies.
 
@@ -21,9 +21,9 @@ A registration statement includes:
 | Exemption | Key Features |
 |---|---|
 | **Regulation A (Reg A+)** | Simplified registration for offerings up to \$75 million; two tiers with different disclosure requirements |
-| **Regulation D — Rule 504** | Offerings up to \$10 million in a 12-month period; generally limited to state-level registration |
-| **Regulation D — Rule 506(b)** | Unlimited offering amount; up to 35 non-accredited investors (who must be sophisticated); no general solicitation |
-| **Regulation D — Rule 506(c)** | Unlimited amount; only **accredited investors**; general solicitation permitted if issuer verifies accredited status |
+| **Regulation D, Rule 504** | Offerings up to \$10 million in a 12-month period; generally limited to state-level registration |
+| **Regulation D, Rule 506(b)** | Unlimited offering amount; up to 35 non-accredited investors (who must be sophisticated); no general solicitation |
+| **Regulation D, Rule 506(c)** | Unlimited amount; only **accredited investors**; general solicitation permitted if issuer verifies accredited status |
 | **Rule 144** | Resale of **restricted** or **control** securities after a holding period (6 months for reporting companies, 1 year for non-reporting) |
 | **Intrastate offering (Rule 147/147A)** | Offered and sold only to residents of a single state where the issuer is organized and does business |
 
@@ -66,7 +66,7 @@ Penalties for insider trading include:
 - Criminal fines up to **\$5 million** for individuals and **\$25 million** for entities
 - Imprisonment up to **20 years**
 
-> **Example:** The CFO of Kodiak Inc. learns that the company will announce a major acquisition. Before the announcement, he buys 10,000 shares. This is classic insider trading — trading on material, nonpublic information in breach of a fiduciary duty.
+> **Example:** The CFO of Kodiak Inc. learns that the company will announce a major acquisition. Before the announcement, he buys 10,000 shares. This is classic insider trading: trading on material, nonpublic information in breach of a fiduciary duty.
 
 ---
 
@@ -113,7 +113,7 @@ The FCPA's accounting provisions apply to **all SEC registrants**, regardless of
 
 :::tip[Exam Tip]
 
-**Workers' compensation** is a **no-fault** system — the employee does not need to prove employer negligence. In exchange, the employee generally cannot sue the employer in tort for the workplace injury.
+**Workers' compensation** is a **no-fault** system, meaning the employee does not need to prove employer negligence. In exchange, the employee generally cannot sue the employer in tort for the workplace injury.
 
 :::
 

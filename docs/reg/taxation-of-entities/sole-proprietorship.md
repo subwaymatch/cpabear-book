@@ -63,8 +63,8 @@ A sole proprietor using the **accrual method** may deduct business bad debts whe
 
 | Accounting Method | Bad Debt Deduction? |
 |-------------------|-------------------|
-| **Accrual basis** | ✅ Yes — when a specific receivable becomes uncollectible |
-| **Cash basis** | ❌ No — because the income was never reported (no basis in the receivable) |
+| **Accrual basis** | Yes, when a specific receivable becomes uncollectible |
+| **Cash basis** | No, because the income was never reported (no basis in the receivable) |
 
 :::caution[Cash-Basis Taxpayers]
 
@@ -72,7 +72,7 @@ A cash-basis sole proprietor generally has **no basis** in accounts receivable b
 
 :::
 
-**Example:** Sarah operates Polar Co. (accrual basis). She billed a client \$8,000 and included it in income. When the client goes bankrupt and the receivable becomes worthless, Sarah deducts \$8,000 as a business bad debt — an ordinary deduction on Schedule C.
+**Example:** Sarah operates Polar Co. (accrual basis). She billed a client \$8,000 and included it in income. When the client goes bankrupt and the receivable becomes worthless, Sarah deducts \$8,000 as a business bad debt, which is an ordinary deduction on Schedule C.
 
 ---
 
@@ -117,16 +117,16 @@ Net earnings from the sole proprietorship are subject to **self-employment (SE) 
 
 | Step | Calculation |
 |------|-------------|
-| 1. Net Schedule C income | Gross income − deductible expenses |
+| 1. Net Schedule C income | Gross income - deductible expenses |
 | 2. Multiply by **92.35%** | Accounts for the "employer half" equivalent |
 | 3. Apply SE tax rates | **12.4%** Social Security (up to wage base) + **2.9%** Medicare (no cap) |
 | 4. Additional Medicare tax | **0.9%** on SE income above \$200,000 (single) / \$250,000 (MFJ) |
 
-The **deductible portion** of SE tax (50% of the total SE tax) is taken as an **above-the-line deduction** on Schedule 1 of Form 1040 — not on Schedule C.
+The **deductible portion** of SE tax (50% of the total SE tax) is taken as an **above-the-line deduction** on Schedule 1 of Form 1040, not on Schedule C.
 
 :::info
 
-Self-employment tax is one of the biggest distinctions between a sole proprietorship and an S corporation. S corporation owners who are also employees pay payroll taxes only on their **wages** — not on distributions. Sole proprietors pay SE tax on **all** net business earnings.
+Self-employment tax is one of the biggest distinctions between a sole proprietorship and an S corporation. S corporation owners who are also employees pay payroll taxes only on their **wages**, not on distributions. Sole proprietors pay SE tax on **all** net business earnings.
 
 :::
 
@@ -175,14 +175,14 @@ The 3-of-5 rule is a **presumption**, not a safe harbor. The IRS can still chall
 | Item | Treatment |
 |------|-----------|
 | **Hobby income** | Fully taxable as "other income" on Form 1040 |
-| **Hobby expenses** | **Not deductible** under TCJA (2018–2025) — miscellaneous itemized deductions subject to the 2% AGI floor are suspended |
+| **Hobby expenses** | **Not deductible** under TCJA (2018-2025) because miscellaneous itemized deductions subject to the 2% AGI floor are suspended |
 | **Net effect** | The taxpayer pays tax on gross hobby income with **no offsetting deductions** |
 
 **Example:** Jamie breeds show dogs as a side activity. Over the last five years, the activity produced losses of \$8,000, \$5,000, \$3,000, \$1,200 profit, and \$6,000 loss. Because there is only 1 profit year out of 5, the IRS may classify this as a hobby. If so, Jamie must report the \$1,200 of income but cannot deduct any of the \$22,200 in cumulative losses against her other income.
 
 :::warning
 
-Under current law (TCJA through 2025), hobby expenses are **completely nondeductible**. This means a hobby can generate tax liability on its income but provide **zero** tax benefit for its expenses — a worst-case scenario for taxpayers.
+Under current law (TCJA through 2025), hobby expenses are **completely nondeductible**. This means a hobby can generate tax liability on its income but provide **zero** tax benefit for its expenses, a worst-case scenario for taxpayers.
 
 :::
 
@@ -210,7 +210,7 @@ Business losses may offset other personal income, subject to the normal rules fo
 
 ## REG quick hits
 
-- No separate federal income tax entity — all reported on **Schedule C**.
+- No separate federal income tax entity; everything is reported on **Schedule C**.
 - Net earnings are subject to **self-employment tax** (multiply by 92.35%, then apply 15.3%).
 - Deduct **50%** of SE tax as an above-the-line deduction.
 - Business meals: **50% deductible**; entertainment: **0% deductible**.

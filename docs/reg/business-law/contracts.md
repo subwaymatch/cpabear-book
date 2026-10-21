@@ -22,12 +22,12 @@ Every enforceable contract requires five elements:
 
 An offer must be (1) communicated to the offeree, (2) definite and certain in its terms, and (3) made with **intent to contract** (objective standard). Advertisements are generally **invitations to deal**, not offers.
 
-> **Example:** Polar Co. sends a letter to Kodiak Inc. stating, "We will sell you 1,000 widgets at \$10 each, delivery within 30 days." This is a valid offer — it identifies the parties, subject matter, quantity, and price.
+> **Example:** Polar Co. sends a letter to Kodiak Inc. stating, "We will sell you 1,000 widgets at \$10 each, delivery within 30 days." This is a valid offer because it identifies the parties, subject matter, quantity, and price.
 
 ### Acceptance and Key Rules
 
 - **Mirror Image Rule**: An acceptance must match the offer exactly. Any change in terms is a **counteroffer**, which rejects the original offer.
-- **Mailbox Rule**: An acceptance is effective when **dispatched** (placed in the mail), not when received — provided the offeree uses an authorized medium of communication.
+- **Mailbox Rule**: An acceptance is effective when **dispatched** (placed in the mail), not when received, provided the offeree uses an authorized medium of communication.
 
 :::tip[Exam Tip]
 
@@ -85,7 +85,7 @@ Exceptions (parol evidence **is** admissible to show):
 - **Ambiguity** in the contract terms
 - A **condition precedent** to the contract taking effect
 - A **subsequent modification** of the contract
-- **Partial integration** — the writing was not intended to be the complete agreement
+- **Partial integration** (the writing was not intended to be the complete agreement)
 
 ---
 
@@ -120,7 +120,7 @@ A contract may be discharged by:
 | **Impracticability** | Performance is possible but would impose extreme and unreasonable difficulty or expense |
 | **Frustration of purpose** | The principal purpose of the contract is substantially frustrated by an unforeseen event |
 
-> **Example:** Salmon Entertainment contracts with a venue to host a concert. A new government order prohibits large gatherings. The contract may be discharged by **frustration of purpose** — the event that gave the contract its value (the concert) can no longer occur.
+> **Example:** Salmon Entertainment contracts with a venue to host a concert. A new government order prohibits large gatherings. The contract may be discharged by **frustration of purpose**, because the event that gave the contract its value (the concert) can no longer occur.
 
 ---
 
@@ -140,7 +140,7 @@ A contract may be discharged by:
 
 :::
 
-The non-breaching party has a **duty to mitigate** damages — they must take reasonable steps to minimize losses resulting from the breach.
+The non-breaching party has a **duty to mitigate** damages: they must take reasonable steps to minimize losses resulting from the breach.
 
 ---
 
@@ -151,7 +151,7 @@ The non-breaching party has a **duty to mitigate** damages — they must take re
 | Valid contract | Offer + acceptance + consideration + capacity + legality |
 | Mirror image rule | Acceptance must match the offer exactly |
 | Mailbox rule | Acceptance effective when dispatched |
-| Statute of Frauds | MY LEGS — must be in writing |
+| Statute of Frauds | MY LEGS: must be in writing |
 | Parol evidence | Cannot contradict a final written contract (with exceptions) |
 | Intended beneficiary | Can enforce the contract once rights vest |
 | Assignment | Transfers rights; generally assignable |

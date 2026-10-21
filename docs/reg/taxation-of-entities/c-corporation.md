@@ -41,7 +41,7 @@ The corporation computes taxable income separately and pays tax at corporate rat
 | Less: Special deductions | Dividends-received deduction (DRD), NOL deduction |
 | **Taxable income** | The amount subject to the corporate tax rate |
 
-:::info[Accounting Method — Accrual Requirement]
+:::info[Accounting Method: Accrual Requirement]
 
 C corporations with average annual **gross receipts exceeding \$31 million** (for tax years beginning in 2025) over the prior three-year period must use the **accrual method** of accounting. Smaller corporations may use either the cash or accrual method. The threshold is adjusted annually for inflation.
 
@@ -55,7 +55,7 @@ Compensation paid to employees is generally deductible if it is **reasonable in 
 
 - **\$1 million cap on covered employees:** Under Section 162(m), a publicly traded C corporation cannot deduct compensation in excess of \$1 million per year for its **top five highest-compensated executives** (CEO, CFO, and three others). This limit applies to salary, bonuses, commissions, and nearly all other forms of remuneration.
 - **Accrual-basis bonus timing:** An accrual-basis corporation may deduct a bonus in the year it is accrued only if the bonus is paid **within 2½ months** after the close of the tax year. If Bear Co. accrues a \$50,000 bonus for its VP on December 31, 2025, it must pay the bonus by **March 15, 2026** to deduct it in 2025.
-- **Related-party payments:** Compensation owed to a related party (e.g., a controlling shareholder) by an accrual-basis corporation is not deductible until the year the related party **includes it in income** — effectively forcing cash-basis treatment for the deduction.
+- **Related-party payments:** Compensation owed to a related party (e.g., a controlling shareholder) by an accrual-basis corporation is not deductible until the year the related party **includes it in income**, effectively forcing cash-basis treatment for the deduction.
 
 :::caution[Compensation vs. Dividends]
 
@@ -65,12 +65,12 @@ The IRS closely scrutinizes shareholder-employee compensation. If compensation i
 
 ### Bad debts
 
-For tax purposes, C corporations must use the **direct write-off method** — a deduction is allowed only when a specific receivable becomes **wholly or partially worthless**.
+For tax purposes, C corporations must use the **direct write-off method**: a deduction is allowed only when a specific receivable becomes **wholly or partially worthless**.
 
 | Method | Tax | GAAP |
 |--------|-----|------|
-| Direct write-off | ✅ Required | ❌ Not acceptable |
-| Allowance method | ❌ Not allowed | ✅ Required |
+| Direct write-off | Required | Not acceptable |
+| Allowance method | Not allowed | Required |
 
 This difference is one of the most common book-to-tax adjustments on the exam.
 
@@ -150,7 +150,7 @@ C corporations follow unique capital gain and loss rules:
 
 :::caution
 
-Unlike individuals, C corporations receive **no preferential tax rate** on long-term capital gains — all capital gains are taxed at the flat 21% corporate rate.
+Unlike individuals, C corporations receive **no preferential tax rate** on long-term capital gains; all capital gains are taxed at the flat 21% corporate rate.
 
 :::
 
@@ -159,7 +159,7 @@ Unlike individuals, C corporations receive **no preferential tax rate** on long-
 C corporations with inventory must account for it using an acceptable method:
 
 - **FIFO** (First-In, First-Out)
-- **LIFO** (Last-In, First-Out) — if used for tax, must also be used for **financial reporting** (LIFO conformity rule)
+- **LIFO** (Last-In, First-Out): if used for tax, must also be used for **financial reporting** (LIFO conformity rule)
 - **Weighted average cost**
 - **Specific identification**
 
@@ -177,14 +177,14 @@ When a C corporation receives dividends from another domestic C corporation, it 
 
 **Taxable income limitation:** The 50% and 65% DRD cannot exceed the same percentage of **taxable income** computed without the DRD, NOL deduction, and capital loss carryback. However, this limitation **does not apply** if taking the full DRD creates or increases a **net operating loss**.
 
-**Example — DRD computation:**
+**Example: DRD computation**
 
 Polar Co. owns 25% of Kodiak Inc. stock and receives \$100,000 in dividends. Polar Co.'s taxable income before the DRD is \$140,000.
 
 | Step | Amount |
 |------|--------|
 | Dividend income received | \$100,000 |
-| DRD percentage (20%–80% ownership) | 65% |
+| DRD percentage (20%-80% ownership) | 65% |
 | Tentative DRD | \$65,000 |
 | Taxable income limitation: 65% × \$140,000 | \$91,000 |
 | DRD allowed (lesser of tentative or TI limit) | **\$65,000** |
@@ -305,7 +305,7 @@ The **accumulated earnings tax** discourages C corporations from retaining earni
 | Applies to | Corporations that accumulate earnings **beyond reasonable business needs** |
 | Key defense | Specific, definite, and feasible plans for using the retained earnings |
 
-**Example:** Honey Security is a C corporation with accumulated E&P of \$400,000 and no specific plans for using the excess funds. The IRS may assert the accumulated earnings tax on the amount exceeding \$250,000 — that is, on \$150,000, resulting in a potential tax of \$150,000 × 20% = **\$30,000**.
+**Example:** Honey Security is a C corporation with accumulated E&P of \$400,000 and no specific plans for using the excess funds. The IRS may assert the accumulated earnings tax on the amount exceeding \$250,000 (that is, on \$150,000), resulting in a potential tax of \$150,000 × 20% = **\$30,000**.
 
 :::caution
 
@@ -317,10 +317,10 @@ The accumulated earnings tax is based on the **subjective** determination that t
 
 The PHC tax targets closely held corporations used primarily to hold passive investments.
 
-**Two-part test — both must be met:**
+**Two-part test (both must be met):**
 
 1. **Ownership test:** More than **50%** of the corporation's outstanding stock is owned (directly or constructively) by **five or fewer individuals** at any time during the last half of the tax year.
-2. **Income test:** At least **60%** of the corporation's **adjusted ordinary gross income** is **personal holding company income** (PHCI) — dividends, interest, rents (sometimes), royalties, and certain personal service income.
+2. **Income test:** At least **60%** of the corporation's **adjusted ordinary gross income** is **personal holding company income** (PHCI), which includes dividends, interest, rents (sometimes), royalties, and certain personal service income.
 
 | Feature | Detail |
 |---------|--------|
@@ -414,7 +414,7 @@ C corporations are often preferred when a business needs:
 - Dividends are not deductible; the DRD reduces triple taxation on intercorporate dividends.
 - The flat corporate rate is **21%**.
 - Charitable contributions are limited to **10%** of modified taxable income.
-- Capital losses cannot offset ordinary income — carryback 3 years, carryforward 5 years.
+- Capital losses cannot offset ordinary income; they carry back 3 years and forward 5 years.
 - Post-2017 NOLs carry forward indefinitely but are limited to **80%** of taxable income.
 - The accumulated earnings tax and PHC tax are penalty taxes on retained earnings and passive income.
 - Distributions depend on E&P and shareholder stock basis.

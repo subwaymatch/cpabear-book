@@ -36,7 +36,7 @@ These basis rules are heavily tested because they drive the treatment of losses,
 
 ### How Form 1065 works
 
-The partnership itself is **not a taxpaying entity** — it files Form 1065 as an **information return** to report its income, deductions, gains, losses, and credits. The results are allocated to partners via **Schedule K** (partnership-level summary) and individual **Schedule K-1s** (one per partner).
+The partnership itself is **not a taxpaying entity**; it files Form 1065 as an **information return** to report its income, deductions, gains, losses, and credits. The results are allocated to partners via **Schedule K** (partnership-level summary) and individual **Schedule K-1s** (one per partner).
 
 Each partner reports their share of partnership items on their own Form 1040 (or other applicable return) regardless of whether the income was actually distributed.
 
@@ -50,7 +50,7 @@ A partnership must file Form 1065 by the **15th day of the 3rd month** after the
 
 Partnership income is divided into two categories:
 
-**Ordinary business income (loss)** includes items that do not need separate treatment — revenue, COGS, operating expenses, depreciation, and similar items. These are netted on page 1 of Form 1065.
+**Ordinary business income (loss)** includes items that do not need separate treatment, such as revenue, COGS, operating expenses, depreciation, and similar items. These are netted on page 1 of Form 1065.
 
 **Separately stated items** must be reported individually because they may be subject to different limitations or treatment at the partner level:
 
@@ -80,15 +80,15 @@ A **guaranteed payment** is a payment to a partner for services rendered or for 
 | Aspect | Treatment |
 |--------|-----------|
 | To the **partnership** | Deductible as an ordinary business expense (reduces ordinary income) |
-| To the **receiving partner** | **Ordinary income** — reported on the partner's return |
+| To the **receiving partner** | **Ordinary income**, reported on the partner's return |
 | Self-employment tax | **Subject to SE tax** for the receiving partner |
 | Timing | Included in the partner's income for the **partnership's tax year** in which the partnership deducted the payment |
 
-**Example:** Marcus is a partner in Grizzly Partners and receives a guaranteed payment of \$60,000 for management services. Grizzly Partners deducts the \$60,000 as an expense. Marcus reports \$60,000 as ordinary income on his Form 1040, and it is included in his self-employment income — even if Grizzly Partners had a loss for the year.
+**Example:** Marcus is a partner in Grizzly Partners and receives a guaranteed payment of \$60,000 for management services. Grizzly Partners deducts the \$60,000 as an expense. Marcus reports \$60,000 as ordinary income on his Form 1040, and it is included in his self-employment income, even if Grizzly Partners had a loss for the year.
 
 :::tip[Guaranteed Payments vs. Distributions]
 
-Guaranteed payments are for **services or use of capital** and are deductible by the partnership. Regular **distributions** are returns of partnership profits/capital, are **not** deductible, and reduce the partner's outside basis. Know the difference — it is heavily tested.
+Guaranteed payments are for **services or use of capital** and are deductible by the partnership. Regular **distributions** are returns of partnership profits/capital, are **not** deductible, and reduce the partner's outside basis. Know the difference; it is heavily tested.
 
 :::
 
@@ -104,13 +104,13 @@ The \$5,000 immediate deduction is **reduced dollar-for-dollar** when total cost
 |-----------|----------|-----------|
 | **Organizational** | Legal fees for partnership agreement, filing fees, accounting fees for setting up books | Up to \$5,000 immediate + 180-month amortization |
 | **Start-up** | Market research, advertising before operations begin, employee training | Up to \$5,000 immediate + 180-month amortization |
-| **Syndication costs** | Commissions and fees for selling partnership interests | **Never deductible** — must be capitalized |
+| **Syndication costs** | Commissions and fees for selling partnership interests | **Never deductible** (must be capitalized) |
 
-**Example:** Grizzly Partners incurs \$3,500 in organizational costs and \$52,000 in start-up costs. The organizational costs (\$3,500) are fully deductible immediately. For start-up costs, the \$5,000 immediate deduction is reduced by \$2,000 (\$52,000 − \$50,000), so Grizzly Partners deducts \$3,000 immediately and amortizes the remaining \$49,000 over 180 months.
+**Example:** Grizzly Partners incurs \$3,500 in organizational costs and \$52,000 in start-up costs. The organizational costs (\$3,500) are fully deductible immediately. For start-up costs, the \$5,000 immediate deduction is reduced by \$2,000 (\$52,000 - \$50,000), so Grizzly Partners deducts \$3,000 immediately and amortizes the remaining \$49,000 over 180 months.
 
 :::caution[Syndication Costs]
 
-Costs of marketing and selling partnership interests (brokerage fees, printing prospectuses, etc.) are **syndication costs** — they are capitalized and **never** deductible or amortizable.
+Costs of marketing and selling partnership interests (brokerage fees, printing prospectuses, etc.) are **syndication costs**; they are capitalized and **never** deductible or amortizable.
 
 :::
 
@@ -118,14 +118,14 @@ Costs of marketing and selling partnership interests (brokerage fees, printing p
 
 ## Qualified Business Income (QBI) deduction
 
-Partners may be eligible for the **Section 199A QBI deduction** — up to **20%** of qualified business income flowing through from the partnership. The deduction is taken at the **partner level** on Form 1040.
+Partners may be eligible for the **Section 199A QBI deduction**, worth up to **20%** of qualified business income flowing through from the partnership. The deduction is taken at the **partner level** on Form 1040.
 
 For higher-income taxpayers, the deduction may be limited by:
 - **W-2 wages** paid by the partnership
 - **Unadjusted basis immediately after acquisition (UBIA)** of qualified property
 - Whether the business is a **specified service trade or business (SSTB)**
 
-**Example:** Jamie's share of Grizzly Partners' qualified business income is \$100,000. If she is under the income threshold, her QBI deduction is 20% × \$100,000 = **\$20,000** — a deduction taken on her personal return.
+**Example:** Jamie's share of Grizzly Partners' qualified business income is \$100,000. If she is under the income threshold, her QBI deduction is 20% × \$100,000 = **\$20,000**, a deduction taken on her personal return.
 
 ---
 
@@ -135,7 +135,7 @@ A partner's **outside basis** (tax basis in the partnership interest) determines
 
 ### The BASE mnemonic
 
-:::tip[BASE — Memorize This]
+:::tip[BASE: Memorize This]
 
 Use the **BASE** mnemonic to compute a partner's ending outside basis:
 
@@ -165,11 +165,11 @@ Use the **BASE** mnemonic to compute a partner's ending outside basis:
 
 :::info[Partnership Liabilities Increase Basis]
 
-A critical distinction from S corporations: in a partnership, a partner's share of **entity-level liabilities** (recourse and nonrecourse) increases outside basis. This means a partner can deduct losses funded by partnership borrowing — something an S corporation shareholder generally cannot do.
+A critical distinction from S corporations: in a partnership, a partner's share of **entity-level liabilities** (recourse and nonrecourse) increases outside basis. This means a partner can deduct losses funded by partnership borrowing, something an S corporation shareholder generally cannot do.
 
 :::
 
-**Example — Outside basis computation:**
+**Example: Outside basis computation**
 
 Sarah contributes \$40,000 cash to Grizzly Partners for a 50% interest. The partnership borrows \$100,000 from a bank (recourse). Sarah's share of liabilities is \$50,000.
 
@@ -186,7 +186,7 @@ During the year, the partnership earns \$60,000 of ordinary income, \$10,000 of 
 | Beginning basis | \$90,000 |
 | + Share of ordinary income (50%) | +\$30,000 |
 | + Share of tax-exempt income (50%) | +\$5,000 |
-| − Cash distribution | −\$20,000 |
+| - Cash distribution | -\$20,000 |
 | **Ending outside basis** | **\$105,000** |
 
 ---
@@ -206,7 +206,7 @@ A partner can deduct passed-through losses only to the extent of their **outside
 
 :::warning[Losses Lost on Disposal]
 
-If a partner sells or abandons a partnership interest while suspended losses remain, those losses are **permanently lost** — they cannot be deducted on the final return. This makes it critical to plan basis increases before exiting a partnership.
+If a partner sells or abandons a partnership interest while suspended losses remain, those losses are **permanently lost**; they cannot be deducted on the final return. This makes it critical to plan basis increases before exiting a partnership.
 
 :::
 
@@ -240,14 +240,14 @@ A **limited partner's** distributive share is generally **not** subject to self-
 
 ## LLC tax classification
 
-A domestic **limited liability company (LLC)** with two or more members is classified as a **partnership** by default under the IRS "check-the-box" regulations — unless it elects to be treated as a corporation.
+A domestic **limited liability company (LLC)** with two or more members is classified as a **partnership** by default under the IRS "check-the-box" regulations, unless it elects to be treated as a corporation.
 
 | Number of Members | Default Classification | Can Elect |
 |------------------|----------------------|-----------|
 | Single member | Disregarded entity (sole proprietorship) | Corporation |
 | Two or more members | **Partnership** | Corporation (C or S) |
 
-An LLC taxed as a partnership follows all the rules discussed above — Form 1065 filing, K-1 distribution, basis rules, guaranteed payments, and SE tax treatment — but LLC members typically enjoy **limited liability** protection (unlike general partners).
+An LLC taxed as a partnership follows all the rules discussed above (Form 1065 filing, K-1 distribution, basis rules, guaranteed payments, and SE tax treatment), but LLC members typically enjoy **limited liability** protection (unlike general partners).
 
 ---
 
@@ -273,12 +273,12 @@ A liquidating distribution ends the partner's interest. Basis must be allocated 
 
 ## REG quick hits
 
-- Form 1065 is informational, not usually tax-paying — due **March 15** for calendar-year partnerships.
+- Form 1065 is informational, not usually tax-paying, and is due **March 15** for calendar-year partnerships.
 - Partners receive Schedule K-1s with their share of all items.
 - Track both **inside basis** and **outside basis**.
-- Use the **BASE** mnemonic: Beginning + All income − Subtractions (losses, distributions, nondeductible) = Ending basis.
+- Use the **BASE** mnemonic: Beginning + All income - Subtractions (losses, distributions, nondeductible) = Ending basis.
 - Partnership liabilities increase outside basis (unlike S corps).
-- Losses limited to outside basis — suspended losses carry forward indefinitely but are **lost on disposal**.
+- Losses are limited to outside basis; suspended losses carry forward indefinitely but are **lost on disposal**.
 - Guaranteed payments: ordinary income to partner, deductible by partnership, subject to SE tax.
 - General partners usually pay self-employment tax on business income.
 - Organizational costs: \$5,000 immediate + 180-month amortization (reduced dollar-for-dollar above \$50,000).

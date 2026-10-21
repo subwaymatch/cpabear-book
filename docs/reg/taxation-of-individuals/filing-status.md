@@ -2,13 +2,13 @@
 
 ## Introduction
 
-A taxpayer's filing status is the gateway to nearly every tax computation — it determines the applicable tax brackets, standard deduction amount, eligibility for credits, and phase-out thresholds. Under **IRC §1**, five filing statuses exist, each with distinct requirements and benefits. Because filing status also depends on whether the taxpayer has **dependents** (as defined under **IRC §152**), the dependency rules are inextricably linked to the filing-status determination.
+A taxpayer's filing status is the gateway to nearly every tax computation: it determines the applicable tax brackets, standard deduction amount, eligibility for credits, and phase-out thresholds. Under **IRC §1**, five filing statuses exist, each with distinct requirements and benefits. Because filing status also depends on whether the taxpayer has **dependents** (as defined under **IRC §152**), the dependency rules are inextricably linked to the filing-status determination.
 
 This page provides a dedicated, focused treatment of filing status and dependency. For broader coverage of gross income categories and filing thresholds, see the [Gross Income](./gross-income.md) page.
 
 ---
 
-## Determining Marital Status — The December 31 Rule
+## Determining Marital Status: The December 31 Rule
 
 Marital status is determined on the **last day of the taxable year** (December 31 for calendar-year taxpayers).
 
@@ -93,10 +93,10 @@ Qualifying costs include rent, mortgage interest, property taxes, insurance, rep
 
 | Qualifying Person | Must Live with Taxpayer? |
 |---|---|
-| Qualifying child (unmarried) | Yes — more than half the year |
-| Married qualifying child claimed as dependent | Yes — more than half the year |
-| Qualifying relative who is the taxpayer's **parent** | **No** — taxpayer must pay > 50% of parent's household costs |
-| Qualifying relative (other than parent) | Yes — more than half the year |
+| Qualifying child (unmarried) | Yes, more than half the year |
+| Married qualifying child claimed as dependent | Yes, more than half the year |
+| Qualifying relative who is the taxpayer's **parent** | **No** (taxpayer must pay > 50% of parent's household costs) |
+| Qualifying relative (other than parent) | Yes, more than half the year |
 
 :::caution
 
@@ -168,7 +168,7 @@ flowchart TD
 
 ## Dependency and Its Relationship to Filing Status
 
-Claiming a dependent does **not** provide a personal exemption deduction (the exemption amount is \$0 for 2018–2025 under TCJA), but dependency status controls eligibility for:
+Claiming a dependent does **not** provide a personal exemption deduction (the exemption amount is \$0 for 2018 through 2025 under TCJA), but dependency status controls eligibility for:
 
 - **Head of Household** filing status
 - **Qualifying Surviving Spouse** filing status
@@ -177,7 +177,7 @@ Claiming a dependent does **not** provide a personal exemption deduction (the ex
 - **Child and Dependent Care Credit** (IRC §21)
 - **Education credits** (IRC §25A)
 
-For the detailed qualifying child (CARES test) and qualifying relative tests, see [Gross Income — Dependency Exemptions](./gross-income.md#dependency-exemptions).
+For the detailed qualifying child (CARES test) and qualifying relative tests, see [Gross Income: Dependency Exemptions](./gross-income.md#dependency-exemptions).
 
 ### Key Dependency Rules Affecting Filing Status
 
@@ -200,7 +200,7 @@ When a **custodial parent** signs Form 8332 releasing the dependency exemption t
 
 | Provision | How Filing Status Matters |
 |---|---|
-| Standard deduction | Varies by status: MFJ \$29,200 → Single \$14,600 → MFS \$14,600 (2024) |
+| Standard deduction | Varies by status: MFJ \$29,200, Single \$14,600, MFS \$14,600 (2024) |
 | Child Tax Credit phase-out | MFJ begins at \$400,000 AGI; all others at \$200,000 |
 | Earned Income Credit | Not available for MFS |
 | Student loan interest deduction | Not available for MFS |
@@ -213,13 +213,13 @@ When a **custodial parent** signs Form 8332 releasing the dependency exemption t
 
 ## Common Exam Scenarios and Traps
 
-> **Scenario 1:** Salmon Entertainment employee Pat is unmarried and supports her 70-year-old mother who lives in a separate apartment. Pat pays 100% of her mother's rent and living expenses. **Filing status:** HoH — a dependent parent **need not** live with the taxpayer.
+> **Scenario 1:** Salmon Entertainment employee Pat is unmarried and supports her 70-year-old mother who lives in a separate apartment. Pat pays 100% of her mother's rent and living expenses. **Filing status:** HoH, because a dependent parent **need not** live with the taxpayer.
 
-> **Scenario 2:** Polar Co. accountant Sam's spouse died in November 2023. Sam has no children. In 2024, Sam is **Single** — QSS requires a dependent child.
+> **Scenario 2:** Polar Co. accountant Sam's spouse died in November 2023. Sam has no children. In 2024, Sam is **Single** because QSS requires a dependent child.
 
-> **Scenario 3:** Bear Co. employee Dana is married but separated (no divorce decree). Dana maintained a home for a dependent child and spouse moved out on May 15. **Filing status:** MFS (not HoH) — the spouse must have been absent for the **last six months**, and May 15 to December 31 is more than six months, but the standard requires the spouse to not live in the home during the last six months. Since the spouse left May 15, they were in the home for parts of June. If the spouse left June 30 or earlier, the last six months (July–December) would be satisfied.
+> **Scenario 3:** Bear Co. employee Dana is married but separated (no divorce decree). Dana maintained a home for a dependent child, and Dana's spouse moved out on August 15. **Filing status:** MFS (or MFJ if both spouses agree), not HoH. To be "considered unmarried," the spouse must not have lived in the home at any time during the **last six months** of the year (July through December). The spouse lived there until August 15, so the test fails. Had the spouse moved out on or before June 30, Dana could file as HoH.
 
-> **Scenario 4:** Honey Security payroll manager Lee is unmarried with no dependents. Lee's adult brother (age 30, earning \$50,000) lives with Lee. **Filing status:** Single — the brother's gross income exceeds the qualifying relative threshold and he does not meet the qualifying child age test.
+> **Scenario 4:** Honey Security payroll manager Lee is unmarried with no dependents. Lee's adult brother (age 30, earning \$50,000) lives with Lee. **Filing status:** Single, because the brother's gross income exceeds the qualifying relative threshold and he does not meet the qualifying child age test.
 
 ---
 

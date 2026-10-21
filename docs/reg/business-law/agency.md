@@ -10,10 +10,10 @@ An **agency relationship** exists when one party (the **principal**) authorizes 
 
 An agency can be created through:
 
-- **Agreement** — the most common method; may be oral or written (no consideration is required to form an agency)
-- **Ratification** — a principal approves an agent's previously unauthorized act, retroactively creating an agency
-- **Estoppel** — a principal's conduct leads a third party to reasonably believe an agency exists
-- **Operation of law** — law imposes an agency in certain emergency situations (e.g., a spouse authorized to act in a medical emergency)
+- **Agreement**: the most common method; may be oral or written (no consideration is required to form an agency)
+- **Ratification**: a principal approves an agent's previously unauthorized act, retroactively creating an agency
+- **Estoppel**: a principal's conduct leads a third party to reasonably believe an agency exists
+- **Operation of law**: law imposes an agency in certain emergency situations (e.g., a spouse authorized to act in a medical emergency)
 
 :::info
 
@@ -38,7 +38,7 @@ A principal's liability to third parties depends on whether the agent acted with
 
 ### Apparent Authority
 
-**Apparent authority** arises when a principal's conduct causes a **reasonable third party** to believe the agent has authority — even if no actual authority exists. The key is the principal's actions, not the agent's claims.
+**Apparent authority** arises when a principal's conduct causes a **reasonable third party** to believe the agent has authority, even if no actual authority exists. The key is the principal's actions, not the agent's claims.
 
 > **Example:** Kodiak Inc. has always allowed its sales manager to negotiate and sign contracts with vendors. Kodiak Inc. secretly revokes this authority but does not notify vendors. When the sales manager signs a new contract with a vendor, Kodiak Inc. is bound because the vendor reasonably relied on the sales manager's apparent authority.
 
@@ -51,7 +51,7 @@ A principal may **ratify** an unauthorized act if:
 3. The principal ratifies the **entire transaction** (no partial ratification)
 4. The principal had **capacity** to have authorized the act originally
 
-Ratification is retroactive — it relates back to the time of the original act.
+Ratification is retroactive: it relates back to the time of the original act.
 
 :::tip[Exam Tip]
 
@@ -73,7 +73,7 @@ An agent owes **fiduciary duties** to the principal:
 | **Accounting** | Keep accurate records of all transactions involving the principal's property or funds |
 | **Notification** | Inform the principal of all material facts relevant to the agency |
 
-> **Example:** Grizzly Partners appoints an agent to purchase commercial real estate. The agent learns that the seller is willing to accept a much lower price than what the principal authorized. The agent has a duty of **notification** — she must inform Grizzly Partners of this material fact rather than pocketing the difference.
+> **Example:** Grizzly Partners appoints an agent to purchase commercial real estate. The agent learns that the seller is willing to accept a much lower price than what the principal authorized. The agent has a duty of **notification**, so she must inform Grizzly Partners of this material fact rather than pocketing the difference.
 
 ---
 
@@ -102,11 +102,11 @@ A principal's liability to third parties depends on how much the third party kno
 
 :::caution
 
-When the principal is **undisclosed**, the agent is **always** liable on the contract because the third party believed it was dealing with the agent personally. If the principal is later discovered, the third party may elect to hold either the principal or the agent liable — but not both.
+When the principal is **undisclosed**, the agent is **always** liable on the contract because the third party believed it was dealing with the agent personally. If the principal is later discovered, the third party may elect to hold either the principal or the agent liable, but not both.
 
 :::
 
-> **Example:** Honey Security authorizes an agent to lease office space without revealing that Honey Security is the actual tenant. The landlord believes the agent is leasing for himself. This is an **undisclosed principal** situation — both Honey Security and the agent are potentially liable on the lease.
+> **Example:** Honey Security authorizes an agent to lease office space without revealing that Honey Security is the actual tenant. The landlord believes the agent is leasing for himself. This is an **undisclosed principal** situation. Both Honey Security and the agent are potentially liable on the lease.
 
 ### Tort Liability
 
@@ -155,12 +155,12 @@ A principal who hires an independent contractor is generally **not** liable for 
 - **Death** of either the principal or agent
 - **Incapacity** of either party
 - **Bankruptcy** of the principal (or of the agent if it affects the agency)
-- **Illegality** — the subject matter of the agency becomes illegal
+- **Illegality**: the subject matter of the agency becomes illegal
 - **Destruction** of the subject matter
 
 :::info
 
-An **agency coupled with an interest** (where the agent has a property interest in the subject matter) is **irrevocable** — it cannot be terminated by the principal's revocation, death, or incapacity.
+An **agency coupled with an interest** (where the agent has a property interest in the subject matter) is **irrevocable**: it cannot be terminated by the principal's revocation, death, or incapacity.
 
 :::
 

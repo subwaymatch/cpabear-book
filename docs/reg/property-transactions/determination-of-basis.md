@@ -1,6 +1,6 @@
 # Determination of Basis
 
-The **basis** of an asset is the starting point for calculating gain or loss on its sale or disposition. How basis is determined depends on how the taxpayer acquired the property — by purchase, gift, inheritance, or conversion.
+The **basis** of an asset is the starting point for calculating gain or loss on its sale or disposition. How basis is determined depends on how the taxpayer acquired the property: by purchase, gift, inheritance, or conversion.
 
 ---
 
@@ -21,7 +21,7 @@ Over time, the original cost basis is modified to produce the **adjusted basis**
 
 $$\text{Adjusted Basis} = \text{Cost} - \text{Accumulated Depreciation} + \text{Capital Improvements}$$
 
-> **Example:** Bear Co. purchases a delivery truck for \$40,000 and pays \$2,000 for sales tax and delivery charges. The initial cost basis is \$42,000. After 3 years, Bear Co. has claimed \$18,000 in MACRS depreciation. The adjusted basis is \$42,000 − \$18,000 = **\$24,000**.
+> **Example:** Bear Co. purchases a delivery truck for \$40,000 and pays \$2,000 for sales tax and delivery charges. The initial cost basis is \$42,000. After 3 years, Bear Co. has claimed \$18,000 in MACRS depreciation. The adjusted basis is \$42,000 - \$18,000 = **\$24,000**.
 
 ### Holding Period
 
@@ -35,7 +35,7 @@ When property is received as a gift, the basis rules depend on whether the donee
 
 ### Gain Basis (Carryover Basis)
 
-If the donee sells the gifted property for **more** than the donor's adjusted basis, the donee uses the **donor's adjusted basis** (carryover basis). The donor's holding period also **tacks on** — it carries over to the donee.
+If the donee sells the gifted property for **more** than the donor's adjusted basis, the donee uses the **donor's adjusted basis** (carryover basis). The donor's holding period also **tacks on**, meaning it carries over to the donee.
 
 ### Loss Basis (FMV Rule)
 
@@ -47,9 +47,9 @@ If the **FMV at the date of the gift** is **less than** the donor's adjusted bas
 
 > **Example:** Sarah receives stock as a gift from her uncle. The uncle's adjusted basis was \$10,000, and the FMV on the gift date was \$7,000.
 >
-> - If Sarah sells for \$12,000 → Gain of \$12,000 − \$10,000 = **\$2,000 gain** (uses donor's basis)
-> - If Sarah sells for \$5,000 → Loss of \$5,000 − \$7,000 = **\$2,000 loss** (uses FMV at gift date)
-> - If Sarah sells for \$8,500 → The sale price falls between \$7,000 and \$10,000 → **No gain or loss**
+> - If Sarah sells for \$12,000: gain of \$12,000 - \$10,000 = **\$2,000 gain** (uses donor's basis)
+> - If Sarah sells for \$5,000: loss of \$5,000 - \$7,000 = **\$2,000 loss** (uses FMV at gift date)
+> - If Sarah sells for \$8,500: the sale price falls between \$7,000 and \$10,000, so there is **no gain or loss**
 
 ### Holding Period for Gifts
 
@@ -94,7 +94,7 @@ If the AVD is elected, each asset's basis equals its FMV at the **earlier of:**
 
 :::note
 
-The AVD election applies to **all** estate assets — the executor cannot cherry-pick which assets to value at the AVD.
+The AVD election applies to **all** estate assets; the executor cannot cherry-pick which assets to value at the AVD.
 
 :::
 
@@ -184,7 +184,7 @@ When a taxpayer converts personal-use property (e.g., a personal residence) to b
 
 The basis for computing **depreciation** on the converted property is the **lesser of:**
 
-1. The taxpayer's **adjusted basis** at the date of conversion (original cost + improvements − any depreciation, though personal-use property has none), or
+1. The taxpayer's **adjusted basis** at the date of conversion (original cost + improvements - any depreciation, though personal-use property has none), or
 2. The **FMV** of the property at the date of conversion
 
 ### Gain and Loss Basis
@@ -198,9 +198,9 @@ The basis for computing **depreciation** on the converted property is the **less
 >
 > - **Depreciation basis:** Lesser of \$300,000 (cost) or \$250,000 (FMV) = **\$250,000**
 > - If Marcus later sells for \$350,000 after claiming \$30,000 in depreciation:
->   - Gain basis = \$300,000 − \$30,000 = \$270,000 → Gain = \$350,000 − \$270,000 = **\$80,000**
+>   - Gain basis = \$300,000 - \$30,000 = \$270,000, so gain = \$350,000 - \$270,000 = **\$80,000**
 > - If Marcus later sells for \$200,000 after claiming \$30,000 in depreciation:
->   - Loss basis = \$250,000 − \$30,000 = \$220,000 → Loss = \$200,000 − \$220,000 = **(\$20,000)**
+>   - Loss basis = \$250,000 - \$30,000 = \$220,000, so loss = \$200,000 - \$220,000 = **(\$20,000)**
 
 :::caution
 
@@ -240,6 +240,6 @@ When a new business is formed, it may incur organizational costs (costs of creat
 
 :::note
 
-Organizational and start-up costs are treated as **separate categories** — each gets its own \$5,000 deduction and 180-month amortization. Do not combine them.
+Organizational and start-up costs are treated as **separate categories**: each gets its own \$5,000 deduction and 180-month amortization. Do not combine them.
 
 :::

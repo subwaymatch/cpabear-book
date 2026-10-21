@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Cost recovery allows a taxpayer to deduct the cost of business or income-producing property over its useful life. The primary system for tangible property is the **Modified Accelerated Cost Recovery System (MACRS)**. Additional provisions — **Section 179 expensing**, **bonus depreciation**, and **Section 197 amortization** — accelerate or simplify cost recovery. This chapter also covers depletion of natural resources and the interplay between cost recovery and depreciation recapture.
+Cost recovery allows a taxpayer to deduct the cost of business or income-producing property over its useful life. The primary system for tangible property is the **Modified Accelerated Cost Recovery System (MACRS)**. Additional provisions (**Section 179 expensing**, **bonus depreciation**, and **Section 197 amortization**) accelerate or simplify cost recovery. This chapter also covers depletion of natural resources and the interplay between cost recovery and depreciation recapture.
 
 ---
 
@@ -23,7 +23,7 @@ ADS uses the **straight-line method** over a longer recovery period. It is also 
 
 :::
 
-### Recovery Periods — GDS
+### Recovery Periods Under GDS
 
 | Recovery Period | Property Examples |
 |---|---|
@@ -38,7 +38,7 @@ ADS uses the **straight-line method** over a longer recovery period. It is also 
 
 > **Example:** Polar Co. purchases office furniture for \$70,000 and a warehouse for \$500,000. The furniture is 7-year MACRS property; the warehouse is 39-year MACRS property.
 
-### Depreciation Methods — GDS
+### Depreciation Methods Under GDS
 
 | Property Type | Method |
 |---|---|
@@ -83,7 +83,7 @@ The mid-quarter convention can **help or hurt** a taxpayer. Property placed in s
 
 Applies to **real property** (27.5-year and 39-year). Property is treated as placed in service at the **midpoint of the month** it is actually placed in service.
 
-> **Example:** Panda Industries places a commercial building in service on March 8. Under the mid-month convention, depreciation begins on March 15 — the taxpayer claims 9.5 months of depreciation in Year 1 (mid-March through December).
+> **Example:** Panda Industries places a commercial building in service on March 8. Under the mid-month convention, depreciation begins on March 15, so the taxpayer claims 9.5 months of depreciation in Year 1 (mid-March through December).
 
 ---
 
@@ -105,19 +105,19 @@ IRC §179 allows a taxpayer to **expense** (immediately deduct) the cost of qual
 
 - Tangible personal property purchased for use in the active conduct of a trade or business.
 - Off-the-shelf computer software.
-- Qualified improvement property (QIP) — interior improvements to nonresidential real property.
+- Qualified improvement property (QIP): interior improvements to nonresidential real property.
 - Certain improvements to nonresidential real property: roofs, HVAC, fire protection, alarm systems, and security systems.
 
 ### Limitations
 
-1. **Business income limitation** — The §179 deduction cannot exceed the taxpayer's aggregate taxable income from all active trades or businesses. Any excess carries forward indefinitely.
-2. **Dollar-for-dollar phase-out** — When total qualifying property placed in service exceeds the investment ceiling, the maximum deduction is reduced dollar-for-dollar.
+1. **Business income limitation**: The §179 deduction cannot exceed the taxpayer's aggregate taxable income from all active trades or businesses. Any excess carries forward indefinitely.
+2. **Dollar-for-dollar phase-out**: When total qualifying property placed in service exceeds the investment ceiling, the maximum deduction is reduced dollar-for-dollar.
 
-> **Example:** Grizzly Partners places \$3,100,000 of qualifying equipment in service. The excess is \$3,100,000 − \$3,050,000 = \$50,000. The maximum §179 deduction is reduced to \$1,220,000 − \$50,000 = **\$1,170,000**.
+> **Example:** Grizzly Partners places \$3,100,000 of qualifying equipment in service. The excess is \$3,100,000 - \$3,050,000 = \$50,000. The maximum §179 deduction is reduced to \$1,220,000 - \$50,000 = **\$1,170,000**.
 
 :::caution
 
-Section 179 is an **election** — it is not automatic. The taxpayer specifies which assets and how much cost to expense on the return. The election may be revoked only with IRS consent.
+Section 179 is an **election**; it is not automatic. The taxpayer specifies which assets and how much cost to expense on the return. The election may be revoked only with IRS consent.
 
 :::
 
@@ -133,7 +133,7 @@ Bonus depreciation allows taxpayers to deduct a **percentage** of the cost of qu
 
 | Year Placed in Service | Bonus Rate |
 |---|---|
-| 2020 – 2022 | 100% |
+| 2020-2022 | 100% |
 | 2023 | 80% |
 | 2024 | 60% |
 | 2025 | 40% |
@@ -192,7 +192,7 @@ SUVs with a gross vehicle weight rating (GVWR) exceeding **6,000 pounds** are ex
 
 ---
 
-## Amortization of Intangibles — Section 197
+## Amortization of Intangibles (Section 197)
 
 ### Overview
 
@@ -212,7 +212,7 @@ SUVs with a gross vehicle weight rating (GVWR) exceeding **6,000 pounds** are ex
 ### Key Rules
 
 - Self-created intangibles are generally **not** Section 197 property (e.g., internally developed patents are depreciated under their own rules or §167).
-- A **loss on disposition** of a §197 intangible is not deductible if the taxpayer retains other §197 intangibles acquired in the same transaction — the disallowed loss is added to the basis of the retained intangibles.
+- A **loss on disposition** of a §197 intangible is not deductible if the taxpayer retains other §197 intangibles acquired in the same transaction; the disallowed loss is added to the basis of the retained intangibles.
 
 > **Example:** Cub Records acquires a competitor's business for \$1,500,000. The allocation assigns \$300,000 to a customer list (§197 intangible). Annual amortization = \$300,000 / 15 = **\$20,000** per year.
 
@@ -243,7 +243,7 @@ Cost depletion is available to **all** taxpayers and reduces the basis of the re
 
 :::caution
 
-Percentage depletion can exceed the adjusted basis of the property — it is **not** limited to cost basis. This distinguishes it from cost depletion.
+Percentage depletion can exceed the adjusted basis of the property; it is **not** limited to cost basis. This distinguishes it from cost depletion.
 
 :::
 
@@ -251,7 +251,7 @@ Percentage depletion can exceed the adjusted basis of the property — it is **n
 
 ---
 
-## Depreciation Recapture — Conceptual Overview
+## Depreciation Recapture: Conceptual Overview
 
 When depreciable property is sold at a gain, part or all of the gain may be recharacterized as **ordinary income** rather than capital gain. The two main recapture provisions are:
 
@@ -262,11 +262,11 @@ When depreciable property is sold at a gain, part or all of the gain may be rech
 
 :::info
 
-Since MACRS requires straight-line for real property, §1250 recapture is rare. However, the **25% rate on unrecaptured §1250 gain** — the portion of gain attributable to straight-line depreciation — is frequently tested.
+Since MACRS requires straight-line for real property, §1250 recapture is rare. However, the **25% rate on unrecaptured §1250 gain** (the portion of gain attributable to straight-line depreciation) is frequently tested.
 
 :::
 
-> **Example:** Polar Co. sells office equipment with an original cost of \$100,000 and accumulated depreciation of \$65,000 (adjusted basis \$35,000) for \$80,000. Gain = \$80,000 − \$35,000 = \$45,000. Under §1245, the gain is ordinary income to the extent of prior depreciation (\$65,000). Since the gain (\$45,000) is less than total depreciation, the entire \$45,000 is ordinary income.
+> **Example:** Polar Co. sells office equipment with an original cost of \$100,000 and accumulated depreciation of \$65,000 (adjusted basis \$35,000) for \$80,000. Gain = \$80,000 - \$35,000 = \$45,000. Under §1245, the gain is ordinary income to the extent of prior depreciation (\$65,000). Since the gain (\$45,000) is less than total depreciation, the entire \$45,000 is ordinary income.
 
 ---
 
@@ -274,7 +274,7 @@ Since MACRS requires straight-line for real property, §1250 recapture is rare. 
 
 | Topic | Key Rule |
 |---|---|
-| MACRS GDS | 200% DB for 3–10 yr; 150% DB for 15–20 yr; SL for real property |
+| MACRS GDS | 200% DB for 3-10 yr; 150% DB for 15-20 yr; SL for real property |
 | Half-year convention | Default; half-year depreciation in Year 1 |
 | Mid-quarter convention | Triggered when >40% of basis placed in service in Q4 |
 | Mid-month convention | Real property; begins at midpoint of placed-in-service month |
@@ -289,6 +289,6 @@ Since MACRS requires straight-line for real property, §1250 recapture is rare. 
 
 :::warning
 
-The CPA exam tests cost recovery across multiple question formats. Be prepared to calculate depreciation for a specific asset given its class, convention, and method — and to determine the tax impact of disposition through recapture rules.
+The CPA exam tests cost recovery across multiple question formats. Be prepared to calculate depreciation for a specific asset given its class, convention, and method, and to determine the tax impact of disposition through recapture rules.
 
 :::

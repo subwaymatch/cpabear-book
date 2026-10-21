@@ -2,11 +2,11 @@
 
 ## Overview
 
-The Internal Revenue Code recognizes over **30 types** of tax-exempt organizations under various subsections of §501(c). These organizations are generally exempt from federal income tax on income related to their exempt purpose. The most common and most heavily tested category on the CPA exam is the **§501(c)(3) organization** — the classic charitable, religious, or educational nonprofit.
+The Internal Revenue Code recognizes over **30 types** of tax-exempt organizations under various subsections of §501(c). These organizations are generally exempt from federal income tax on income related to their exempt purpose. The most common and most heavily tested category on the CPA exam is the **§501(c)(3) organization**, the classic charitable, religious, or educational nonprofit.
 
 :::info
 
-Tax-exempt status does not mean the organization is exempt from **all** taxes. Exempt organizations may still owe tax on **unrelated business taxable income (UBTI)** — income from a trade or business regularly carried on that is not substantially related to the organization's exempt purpose.
+Tax-exempt status does not mean the organization is exempt from **all** taxes. Exempt organizations may still owe tax on **unrelated business taxable income (UBTI)**, which is income from a trade or business regularly carried on that is not substantially related to the organization's exempt purpose.
 
 :::
 
@@ -39,7 +39,7 @@ To qualify under §501(c)(3), an organization must be organized and operated **e
 
 ### Two Classifications: Private Foundations vs. Public Charities
 
-Every §501(c)(3) organization is classified as either a **private foundation** or a **public charity**. The default classification is private foundation — an organization must affirmatively demonstrate it qualifies as a public charity to avoid private foundation status.
+Every §501(c)(3) organization is classified as either a **private foundation** or a **public charity**. The default classification is private foundation; an organization must affirmatively demonstrate it qualifies as a public charity to avoid private foundation status.
 
 ---
 
@@ -47,7 +47,7 @@ Every §501(c)(3) organization is classified as either a **private foundation** 
 
 A private foundation is a §501(c)(3) organization that does **not** qualify as a public charity. Private foundations are typically funded by a single source (an individual, family, or corporation) and their primary activity is **making grants** to other organizations rather than directly conducting charitable programs.
 
-**Governing document requirements** — The foundation's organizing document must contain special provisions that:
+**Governing document requirements:** The foundation's organizing document must contain special provisions that:
 
 1. Limit the foundation to exempt purposes
 2. Prohibit self-dealing between the foundation and disqualified persons
@@ -152,11 +152,11 @@ Derek contributes \$10,000 to the Ursa Political Action Committee, a §527 organ
 
 | Organization Type | Exempt from Income Tax? | Contributions Deductible by Donor? |
 |---|---|---|
-| §501(c)(3) — Public Charity | Yes (on exempt-purpose income) | **Yes** |
-| §501(c)(3) — Private Foundation | Yes (on exempt-purpose income) | **Yes** (lower AGI limits) |
-| §501(c)(4) — Social Welfare | Yes (on exempt-purpose income) | **No** (generally) |
-| §501(c)(6) — Business League | Yes (on exempt-purpose income) | **No** (but dues may be a business expense) |
-| §527 — Political Organization | Yes (on exempt-function income) | **No** |
+| §501(c)(3): Public Charity | Yes (on exempt-purpose income) | **Yes** |
+| §501(c)(3): Private Foundation | Yes (on exempt-purpose income) | **Yes** (lower AGI limits) |
+| §501(c)(4): Social Welfare | Yes (on exempt-purpose income) | **No** (generally) |
+| §501(c)(6): Business League | Yes (on exempt-purpose income) | **No** (but dues may be a business expense) |
+| §527: Political Organization | Yes (on exempt-function income) | **No** |
 
 :::tip[CPA Exam Takeaway]
 

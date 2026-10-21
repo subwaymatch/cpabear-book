@@ -32,7 +32,7 @@ Although specific requirements vary by state, most jurisdictions follow the "thr
 |---|---|
 | **Education** | 150 semester hours (including a bachelor's degree), with specified accounting and business course hours |
 | **Examination** | Pass all four sections of the Uniform CPA Examination within a 30-month rolling window |
-| **Experience** | 1–2 years of supervised experience in public accounting, industry, government, or academia (varies by state) |
+| **Experience** | 1-2 years of supervised experience in public accounting, industry, government, or academia (varies by state) |
 
 > **Example:** A new staff accountant at Polar Co. has completed 150 semester hours and passed the CPA exam. Her state requires one year of supervised experience under a licensed CPA. After completing that year, she can apply for licensure through her state board.
 
@@ -48,7 +48,7 @@ Licensed CPAs must complete **continuing professional education** to maintain th
 
 - **40 hours per year** (or 80 hours over a two-year reporting period)
 - A minimum number of hours in **accounting and auditing** subjects for CPAs performing attest services
-- An **ethics component** (typically 2–4 hours per reporting period)
+- An **ethics component** (typically 2-4 hours per reporting period)
 - Courses must be from approved providers (NASBA-registered sponsors)
 
 Failure to meet CPE requirements can result in license suspension or nonrenewal.
@@ -113,7 +113,7 @@ The AICPA has two primary disciplinary paths:
 
 :::caution
 
-AICPA membership expulsion does **not** revoke a CPA license — only the state board has that authority. However, loss of AICPA membership can trigger a state board investigation.
+AICPA membership expulsion does **not** revoke a CPA license; only the state board has that authority. However, loss of AICPA membership can trigger a state board investigation.
 
 :::
 
@@ -149,9 +149,9 @@ Under JEEP, an ethics complaint filed with either the AICPA or a state society i
 
 Reviews are conducted every **three years** by qualified peer reviewers. Results are reported as:
 
-- **Pass** — no significant deficiencies
-- **Pass with deficiency(ies)** — some deficiencies noted but not pervasive
-- **Fail** — significant and pervasive deficiencies in the firm's system
+- **Pass**: no significant deficiencies
+- **Pass with deficiency(ies)**: some deficiencies noted but not pervasive
+- **Fail**: significant and pervasive deficiencies in the firm's system
 
 :::warning
 
@@ -174,7 +174,7 @@ A **fail** result on a peer review can lead to additional requirements, includin
 
 :::info
 
-The **PCAOB** was created by the Sarbanes-Oxley Act of 2002. It has authority to set auditing standards for public company audits, conduct inspections of registered firms, and impose sanctions — including significant monetary penalties and permanent bars from public company auditing.
+The **PCAOB** was created by the Sarbanes-Oxley Act of 2002. It has authority to set auditing standards for public company audits, conduct inspections of registered firms, and impose sanctions, including significant monetary penalties and permanent bars from public company auditing.
 
 :::
 

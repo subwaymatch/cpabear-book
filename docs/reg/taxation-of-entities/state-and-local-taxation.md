@@ -28,7 +28,7 @@ Bear Co. is headquartered in Illinois and sends sales representatives into India
 
 ### Determining Taxable Income in Each State
 
-Once nexus is established, the next question is: **how much** of the taxpayer's income is subject to tax in that state? States use two methods — **allocation** and **apportionment** — to divide a multistate business's income among the states where it operates.
+Once nexus is established, the next question is: **how much** of the taxpayer's income is subject to tax in that state? States use two methods, **allocation** and **apportionment**, to divide a multistate business's income among the states where it operates.
 
 ---
 
@@ -43,17 +43,17 @@ The distinction between allocation and apportionment depends on whether the inco
 
 ### Allocation of Nonbusiness Income
 
-**Nonbusiness income** is income that is not earned in the regular course of the taxpayer's trade or business. It is typically allocated (assigned in full) to the state of the taxpayer's **commercial domicile** — the principal place from which the business is directed or managed.
+**Nonbusiness income** is income that is not earned in the regular course of the taxpayer's trade or business. It is typically allocated (assigned in full) to the state of the taxpayer's **commercial domicile**, the principal place from which the business is directed or managed.
 
 **Common examples of nonbusiness income:**
 
-- Rental income from real property → allocated to the **state where the property is located**
-- Gains on sales of real property → allocated to the **state where the property is located**
-- Interest and dividend income → generally allocated to the state of **commercial domicile**
+- Rental income from real property is allocated to the **state where the property is located**
+- Gains on sales of real property are allocated to the **state where the property is located**
+- Interest and dividend income is generally allocated to the state of **commercial domicile**
 
 #### Example
 
-Kodiak Inc. is commercially domiciled in Illinois. It owns a rental property in Florida that generates \$80,000 of rental income. That \$80,000 is **allocated entirely to Florida** — it is not divided among states. Kodiak Inc. also earns \$25,000 of interest income from corporate bonds. The interest income is **allocated to Illinois** (commercial domicile) as nonbusiness income.
+Kodiak Inc. is commercially domiciled in Illinois. It owns a rental property in Florida that generates \$80,000 of rental income. That \$80,000 is **allocated entirely to Florida**; it is not divided among states. Kodiak Inc. also earns \$25,000 of interest income from corporate bonds. The interest income is **allocated to Illinois** (commercial domicile) as nonbusiness income.
 
 ---
 
@@ -123,14 +123,14 @@ Polar Co. would then add any nonbusiness income allocated to Illinois and subtra
 
 ## Combined Reporting
 
-Some states require (or permit) **combined reporting** — a method that aggregates the income of related entities into a single tax return for apportionment purposes. The goal is to prevent companies from shifting income among related entities to avoid state taxation.
+Some states require (or permit) **combined reporting**, a method that aggregates the income of related entities into a single tax return for apportionment purposes. The goal is to prevent companies from shifting income among related entities to avoid state taxation.
 
 ### How Combined Reporting Works
 
-1. **Identify the unitary group** — A group of commonly owned entities engaged in a **unitary business** (i.e., their operations are integrated, interdependent, or contribute to each other).
-2. **Combine income** — The income of all members of the unitary group is combined (intercompany transactions are typically eliminated).
-3. **Apportion the combined income** — The combined income is apportioned to each state using the apportionment formula, with all group members' factors included.
-4. **Each entity reports its share** — Each member files in the states where it has nexus, reporting its share of the combined apportioned income.
+1. **Identify the unitary group**: A group of commonly owned entities engaged in a **unitary business** (i.e., their operations are integrated, interdependent, or contribute to each other).
+2. **Combine income**: The income of all members of the unitary group is combined (intercompany transactions are typically eliminated).
+3. **Apportion the combined income**: The combined income is apportioned to each state using the apportionment formula, with all group members' factors included.
+4. **Each entity reports its share**: Each member files in the states where it has nexus, reporting its share of the combined apportioned income.
 
 :::caution
 
@@ -152,7 +152,7 @@ Panda Industries owns two subsidiaries: Panda Manufacturing (located in Californ
 | **P.L. 86-272** | Protects sellers of tangible personal property whose only in-state activity is solicitation |
 | **Allocation** | Nonbusiness income assigned to a **single state** (situs or commercial domicile) |
 | **Apportionment** | Business income divided among states by **formula** (property, payroll, sales) |
-| **Single sales factor** | Apportions based solely on sales ratio — benefits companies with home-state property/payroll |
+| **Single sales factor** | Apportions based solely on sales ratio; benefits companies with home-state property/payroll |
 | **Combined reporting** | Aggregates related entity income to prevent income shifting |
 
 :::note[CPA Exam Focus]
