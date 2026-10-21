@@ -1,61 +1,59 @@
 # Limited Partnership
 
-A **limited partnership (LP)** is a partnership with at least one **general partner** and at least one **limited partner**. For REG, the tax rules largely follow partnership taxation, but the exam often tests the different legal and economic positions of general versus limited partners.
+A **limited partnership (LP)** has at least one **general partner**, who manages the business and is personally liable for its debts, and at least one **limited partner**, who invests capital and risks only that investment. For tax purposes an LP is simply a partnership, so the rules in [General Partnership](./general-partnership.md) apply. What the exam adds is the contrast between the two kinds of partners: their liability, their share of partnership debt, whether their losses are passive, and whether their income is subject to self-employment tax.
 
 ## Core legal and tax profile
 
 - **Owners:** One or more general partners and one or more limited partners.
-- **Liability:** General partners usually have unlimited liability; limited partners generally risk only their investment.
-- **Federal return:** Usually **Form 1065**.
+- **Liability:** General partners have unlimited liability; limited partners generally risk only their investment.
+- **Federal return:** **Form 1065**.
 - **Tax character:** Pass-through taxation with Schedule K-1 reporting.
 
-## Why LPs matter
+## Why LPs are used
 
-Limited partnerships are commonly used when passive investors want liability protection without taking on day-to-day management authority. That structure shows up often in real estate, investment, and private fund settings.
+Limited partnerships suit ventures in which passive investors want liability protection without day-to-day management authority. They are common in real estate, investment funds, and private equity and venture capital.
 
 ## Tax rules the exam emphasizes
 
-### Formation and contributed property
+### Formation
 
-Like other partnerships, contributions of cash or property are generally nonrecognition events, and contributed property typically carries over into the partnership at its adjusted basis.
+As with any partnership, contributing cash or property is generally tax free, and contributed property keeps its adjusted basis in the partnership's hands.
 
 ### Basis and liabilities
 
-A partner's outside basis includes the partner's share of partnership liabilities. On REG questions, limited partners often receive a share of **nonrecourse liabilities**, while general partners may bear more of the economic risk of **recourse liabilities**.
+Every partner's outside basis includes a share of partnership liabilities, but the two kinds of debt are shared differently. **Recourse** debt is allocated to the partners who bear the economic risk of loss, which usually means the general partners, because limited partners are not personally liable. **Nonrecourse** debt, which no partner is personally liable for, is generally shared by all partners, including limited partners, in proportion to their profit shares.
 
 ### Passive activity treatment
 
-A limited partner's share of losses is more likely to be treated as **passive**, which can restrict immediate deductibility unless the partner has passive income or disposes of the activity.
+A limited partner's share of losses is generally **passive**, because a limited partner can show material participation under only three of the seven tests (more than 500 hours, material participation in 5 of the prior 10 years, or a personal service activity in which the partner materially participated in 3 prior years). Passive losses can offset only passive income until the partner disposes of the interest.
 
-### Self-employment tax distinction
+> **Example:** Kodiak Partners LP allocates a \$20,000 ordinary loss to Pat, a limited partner who does not work in the business. Pat has enough basis and amount at risk to absorb it, but the loss is passive. If Pat has no passive income, the \$20,000 is suspended and carries forward.
 
-A key exam point is that a limited partner's distributive share of ordinary trade or business income is generally **not** subject to self-employment tax, although payments for services may be treated differently.
+### Self-employment tax
+
+A limited partner's distributive share of ordinary business income is generally **not** self-employment income (§1402(a)(13)). Guaranteed payments to a limited partner for services actually performed **are** self-employment income. A general partner's distributive share is self-employment income.
 
 ## Distributions
 
-Current and liquidating distributions generally follow the same framework used for partnership taxation:
-
-- Usually no gain unless cash exceeds outside basis
-- Basis shifts from the partnership interest to distributed assets
-- Special attention goes to cash, unrealized receivables, and inventory items
+Current and liquidating distributions follow the general partnership rules: no gain unless cash (including a deemed distribution from a drop in the partner's share of liabilities) exceeds outside basis, and basis shifts from the partnership interest to the property distributed.
 
 ## Advantages and disadvantages
 
 | Topic | Limited Partnership |
 | --- | --- |
 | Tax regime | Pass-through taxation |
-| Liability protection | Better for limited partners than general partners |
+| Liability protection | Strong for limited partners; none for general partners |
 | Investor appeal | Useful for passive investors |
-| Management | Controlled primarily by general partners |
+| Management | Controlled by the general partners |
 | Complexity | More formal than a general partnership |
 
 ## REG quick hits
 
-- LPs still use partnership tax rules.
-- General and limited partners can have very different liability outcomes.
-- Limited partners are often passive investors for loss limitation purposes.
-- Limited partners generally do not pay self-employment tax on their distributive share of business income.
+- An LP uses the ordinary partnership tax rules.
+- General partners usually absorb recourse debt; nonrecourse debt is shared by all partners.
+- A limited partner's losses are generally passive.
+- A limited partner's distributive share is generally not subject to SE tax; guaranteed payments for services are.
 
 ## Bottom line
 
-A limited partnership is a partnership tax entity with a split ownership model: managers on one side and passive capital on the other. On the exam, focus on liability, basis from liabilities, passive loss limits, and the self-employment tax distinction.
+A limited partnership splits ownership into managers and passive capital. On the exam, focus on liability, how partnership debt adds to each partner's basis, the passive loss limits, and the self-employment tax distinction.

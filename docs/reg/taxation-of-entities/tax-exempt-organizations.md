@@ -1,12 +1,12 @@
 # Tax-Exempt Organizations
 
-## Overview
+The Internal Revenue Code exempts many kinds of organizations from federal income tax, most of them under one of the more than 30 paragraphs of §501(c). The exemption usually covers income related to the organization's exempt purpose; income from an unrelated business can still be taxed. What separates the types, for exam purposes, is what each one does, what restrictions come with its exemption, and whether a donor can deduct a contribution to it.
 
-The Internal Revenue Code recognizes over **30 types** of tax-exempt organizations under various subsections of §501(c). These organizations are generally exempt from federal income tax on income related to their exempt purpose. The most common and most heavily tested category on the CPA exam is the **§501(c)(3) organization**, the classic charitable, religious, or educational nonprofit.
+The REG blueprint asks candidates to recall the different types of tax-exempt organizations, so this chapter is organized by type. It starts with the most important one, the §501(c)(3) charity and its split into public charities and private foundations, then covers the other common §501(c) organizations and §527 political organizations. The detailed rules for obtaining exemption and for unrelated business income are TCP topics.
 
 :::info
 
-Tax-exempt status does not mean the organization is exempt from **all** taxes. Exempt organizations may still owe tax on **unrelated business taxable income (UBTI)**, which is income from a trade or business regularly carried on that is not substantially related to the organization's exempt purpose.
+Exempt status does not mean exempt from **every** tax. An exempt organization owes tax on **unrelated business taxable income (UBTI)**: income from a trade or business it regularly carries on that is not substantially related to its exempt purpose.
 
 :::
 
@@ -14,152 +14,103 @@ Tax-exempt status does not mean the organization is exempt from **all** taxes. E
 
 ## Section 501(c)(3) Organizations
 
-### Exempt Purposes
+### Exempt purposes
 
-To qualify under §501(c)(3), an organization must be organized and operated **exclusively** for one or more of the following purposes:
+A §501(c)(3) organization must be organized and operated **exclusively** for one or more of these purposes: religious, charitable, scientific, testing for public safety, literary, educational, fostering national or international amateur sports competition, or preventing cruelty to children or animals.
 
-- Religious
-- Charitable
-- Scientific
-- Testing for public safety
-- Literary
-- Educational
-- Fostering national or international amateur sports competition
-- Prevention of cruelty to children or animals
-
-### Key Characteristics
+### Key characteristics
 
 | Feature | Rule |
 |---------|------|
-| **Donor deductibility** | Contributions **are** deductible by donors as charitable contributions |
-| **Political activity** | Absolutely **prohibited** from participating in political campaigns |
-| **Lobbying** | Limited lobbying is permitted; no **substantial part** of activities may be lobbying |
-| **Private benefit** | No part of net earnings may inure to the benefit of any private individual |
-| **Filing** | Most file **Form 990** annually (small organizations may file Form 990-EZ or 990-N) |
+| **Donor deductibility** | Contributions **are** deductible as charitable contributions |
+| **Political campaigns** | Participation in any political campaign for or against a candidate is **prohibited** |
+| **Lobbying** | Allowed only if it is not a **substantial part** of the organization's activities |
+| **Private benefit** | No part of net earnings may benefit any private individual (no private inurement) |
+| **Annual filing** | Most file **Form 990**; smaller organizations file Form 990-EZ or the Form 990-N e-postcard; churches are exempt from filing |
 
-### Two Classifications: Private Foundations vs. Public Charities
+Every §501(c)(3) organization is either a **public charity** or a **private foundation**. Private foundation status is the default; an organization must show that it qualifies as a public charity to avoid it.
 
-Every §501(c)(3) organization is classified as either a **private foundation** or a **public charity**. The default classification is private foundation; an organization must affirmatively demonstrate it qualifies as a public charity to avoid private foundation status.
+### Public charities
 
----
+A **public charity** either receives broad support from the public or government, or directly carries on charitable activity. Churches, schools, hospitals and medical research organizations, organizations that support government units, and organizations that receive a substantial part of their support from the general public all qualify.
 
-### Private Foundations
+Compared with a private foundation, a public charity is **not** subject to the excise tax on net investment income, the minimum distribution requirement, or the strict self-dealing rules, and its donors get **higher deduction limits**.
 
-A private foundation is a §501(c)(3) organization that does **not** qualify as a public charity. Private foundations are typically funded by a single source (an individual, family, or corporation) and their primary activity is **making grants** to other organizations rather than directly conducting charitable programs.
+### Private foundations
 
-**Governing document requirements:** The foundation's organizing document must contain special provisions that:
-
-1. Limit the foundation to exempt purposes
-2. Prohibit self-dealing between the foundation and disqualified persons
-3. Require distributions of income for charitable purposes
-4. Prohibit the foundation from retaining excess business holdings
-5. Prohibit investments that jeopardize the foundation's charitable purpose
-
-**Additional restrictions on private foundations:**
+A **private foundation** is a §501(c)(3) organization that is not a public charity. It is typically funded by one individual, family, or company, and its main activity is **making grants** to other organizations rather than running programs itself. Because a small group controls it, the Code surrounds it with excise taxes that police how it uses its money:
 
 | Rule | Description |
 |------|-------------|
-| **Self-dealing (§4941)** | Transactions between the foundation and disqualified persons (substantial contributors, managers, family members) are generally prohibited |
-| **Minimum distributions (§4942)** | Must distribute approximately **5%** of net investment assets annually for charitable purposes |
-| **Excess business holdings (§4943)** | Limited ownership of business enterprises |
-| **Jeopardizing investments (§4944)** | Investments must not jeopardize the carrying out of exempt purposes |
-| **Taxable expenditures (§4945)** | Grants to individuals or non-charities require expenditure responsibility |
-| **Excise tax on investment income (§4940)** | Subject to a **1.39%** excise tax on net investment income |
+| **Excise tax on net investment income** (§4940) | **1.39%** of net investment income |
+| **Self-dealing** (§4941) | Most transactions between the foundation and disqualified persons (substantial contributors, managers, and their families) are prohibited |
+| **Minimum distributions** (§4942) | Must distribute about **5%** of the value of its investment assets each year for charitable purposes |
+| **Excess business holdings** (§4943) | Limits on how much of a business the foundation and its insiders can own |
+| **Jeopardizing investments** (§4944) | Investments may not jeopardize the foundation's exempt purposes |
+| **Taxable expenditures** (§4945) | Lobbying, political spending, and certain grants are penalized |
 
-:::caution
+Donors to a private nonoperating foundation face **lower deduction limits**: generally **30%** of AGI for cash (versus 60% for a public charity) and **20%** for capital gain property (versus 30%), and gifts of appreciated property other than publicly traded stock are generally deductible only at basis.
 
-Donors contributing to a **private foundation** face lower AGI limits for charitable contribution deductions (generally **30%** of AGI for cash and **20%** for capital gain property) compared to contributions to public charities (60% and 30%, respectively).
+> **Example:** Marcus gives \$500,000 of cash to the Bear Family Foundation, a private foundation he created to make grants to local schools, in a year when his AGI is \$1,000,000. His deduction is limited to 30% of AGI, or \$300,000, and the \$200,000 excess carries forward 5 years. Had he given the same cash to Ursa University, a public charity, the 60% limit (\$600,000) would have let him deduct all \$500,000 that year. (Starting in 2026, either deduction is also reduced by the 0.5%-of-AGI floor on itemized charitable deductions.)
 
-:::
+### Excise taxes on large organizations
 
-#### Example
+Two excise taxes changed under the One Big Beautiful Bill Act (OBBBA, P.L. 119-21) starting in 2026:
 
-Marcus establishes the **Panda Industries Foundation** with a \$5 million endowment. The foundation's primary activity is awarding grants to local schools and environmental nonprofits. Because it is funded by a single source (Marcus) and primarily makes grants, the foundation is classified as a **private foundation**. It must distribute at least 5% of its net investment assets each year and is subject to the excise tax on investment income.
-
----
-
-### Public Charities
-
-A public charity is a §501(c)(3) organization that is **not** a private foundation. Public charities are generally organizations that either receive broad public support or actively carry out charitable activities.
-
-**Automatic public charity status** applies to:
-
-- Churches and associations of churches
-- Schools, colleges, and universities
-- Hospitals and medical research organizations
-- Organizations supporting government units (state colleges, etc.)
-- Organizations receiving a substantial part of support from the general public or governmental units
-
-**Advantages over private foundations:**
-
-- **Not** subject to the excise tax on net investment income
-- **Not** subject to minimum distribution requirements
-- **Not** subject to the strict self-dealing rules
-- Donors receive **higher AGI limits** for deductible charitable contributions
-
-#### Example
-
-Bear Co. donates \$200,000 to **Ursa University**, a public charity. Because the university is a public charity, Bear Co. can deduct the contribution subject to the more favorable 25% of taxable income limit for corporate charitable contributions (or the standard individual AGI limits if a sole proprietor). If the donation had gone to a private foundation, lower percentage limits would apply.
+- **Excess compensation (§4960).** An exempt organization pays a 21% excise tax on compensation above \$1,000,000 paid to a covered employee. A covered employee now includes **any** current employee, and any former employee who was employed in a year after 2016, rather than only the five highest paid.
+- **College endowments (§4968).** Private colleges with at least 3,000 tuition-paying students (more than half of them in the U.S.) pay a tiered tax on net investment income: 1.4%, 4%, or 8%, depending on endowment per student.
 
 ---
 
-## Other Tax-Exempt Organizations
-
-While §501(c)(3) organizations dominate exam questions, several other types of exempt organizations appear on the CPA exam.
-
-### Common §501(c) Organizations
+## Other Section 501(c) Organizations
 
 | Code Section | Organization Type | Examples |
 |---|---|---|
-| §501(c)(1) | Corporations organized under Acts of Congress | Federal credit unions |
-| §501(c)(2) | Title-holding corporations | Corporations holding title to property for exempt organizations |
-| §501(c)(4) | Civic leagues and social welfare organizations | Homeowners' associations, volunteer fire companies |
+| §501(c)(1) | Corporations organized under an Act of Congress | Federal credit unions |
+| §501(c)(2) | Title-holding corporations | Corporations that hold title to property for an exempt organization |
+| §501(c)(4) | Civic leagues and social welfare organizations | Community associations, social welfare advocacy groups |
 | §501(c)(5) | Labor, agricultural, and horticultural organizations | Labor unions, farm bureaus |
-| §501(c)(6) | Business leagues | Chambers of commerce, professional associations, trade associations |
+| §501(c)(6) | Business leagues | Chambers of commerce, trade and professional associations |
 | §501(c)(7) | Social and recreational clubs | Country clubs, hobby clubs |
+| §501(c)(19) | Veterans' organizations | Veterans' posts |
 
-:::warning[Important Distinction]
+Unlike a §501(c)(3) charity, a §501(c)(4) organization may lobby without limit as long as its primary activity is promoting social welfare.
 
-Contributions to organizations described in §501(c)(4) through §501(c)(7) are generally **NOT deductible** as charitable contributions by the donor. Only contributions to §501(c)(3) organizations (and a few other specific categories such as governmental units and certain veterans' organizations) qualify for the charitable contribution deduction.
+:::warning[Donor Deductibility]
+
+Contributions to §501(c)(4), (5), (6), and (7) organizations are generally **not** deductible as charitable contributions. The charitable deduction is available for gifts to §501(c)(3) organizations and to a few others, such as governmental units and veterans' organizations.
 
 :::
 
-#### Example
-
-Polar Co. pays \$15,000 in annual dues to the National Association of Widget Manufacturers, a §501(c)(6) business league. The dues are deductible as an **ordinary business expense** (not a charitable contribution), provided they are ordinary and necessary. However, any portion of dues used for lobbying is **not deductible**.
+> **Example:** Polar Co. pays \$15,000 of annual dues to the National Association of Widget Manufacturers, a §501(c)(6) business league. The dues are not a charitable contribution, but they are deductible as an **ordinary and necessary business expense**, except for any part the association spends on lobbying.
 
 ---
 
-### Section 527 Political Organizations
+## Section 527 Political Organizations
 
-A **Section 527 political organization** is a party, committee, association, fund, or other organization formed and operated primarily for the purpose of **influencing the selection, nomination, election, or appointment** of individuals to public office.
+A **§527 political organization** is a party, committee, fund, or similar group operated primarily to influence the selection, nomination, election, or appointment of individuals to public office.
 
-**Key rules:**
+- Its **exempt function** income (contributions, membership dues, and political fundraising proceeds) is not taxed.
+- Its other income, such as investment income, **is** taxed at the highest corporate rate.
+- Contributions to it are **not** deductible as charitable contributions, and they are not subject to gift tax.
 
-- The **exempt function** of a §527 organization is influencing elections
-- Income from the exempt function (contributions, fundraising event proceeds) is **not taxed**
-- Investment income and other non-exempt-function income **is** subject to tax at the highest corporate rate
-- These organizations must file **Form 8872** to disclose contributions and expenditures (or Form 990 if they are a political organization described in §527(e)(1))
-- Contributions to §527 organizations are **not deductible** as charitable contributions and are **not subject to gift tax**
-
-#### Example
-
-Derek contributes \$10,000 to the Ursa Political Action Committee, a §527 organization supporting candidates for local office. Derek **cannot** deduct this contribution as a charitable contribution on his personal return. The PAC does not pay tax on the \$10,000 contribution because it is exempt-function income. However, if the PAC earns \$2,500 in interest on its bank account, that investment income is taxable.
+> **Example:** Derek contributes \$10,000 to the Ursa Political Action Committee, a §527 organization supporting candidates for local office. Derek cannot deduct the contribution. The PAC pays no tax on the \$10,000, but if it earns \$2,500 of interest on its bank account, that interest is taxable.
 
 ---
 
 ## Summary
 
-| Organization Type | Exempt from Income Tax? | Contributions Deductible by Donor? |
+| Organization Type | Exempt From Income Tax? | Contributions Deductible by Donor? |
 |---|---|---|
-| §501(c)(3): Public Charity | Yes (on exempt-purpose income) | **Yes** |
-| §501(c)(3): Private Foundation | Yes (on exempt-purpose income) | **Yes** (lower AGI limits) |
-| §501(c)(4): Social Welfare | Yes (on exempt-purpose income) | **No** (generally) |
-| §501(c)(6): Business League | Yes (on exempt-purpose income) | **No** (but dues may be a business expense) |
-| §527: Political Organization | Yes (on exempt-function income) | **No** |
+| §501(c)(3) public charity | Yes, except on UBTI | **Yes** (60% of AGI for cash) |
+| §501(c)(3) private foundation | Yes, except on UBTI; pays excise taxes | **Yes**, with lower limits (30% of AGI for cash) |
+| §501(c)(4) social welfare | Yes, except on UBTI | **No** (generally) |
+| §501(c)(6) business league | Yes, except on UBTI | **No**, but dues may be a business expense |
+| §501(c)(7) social club | Yes, on member income | **No** |
+| §527 political organization | Yes, on exempt-function income | **No** |
 
 :::tip[CPA Exam Takeaway]
 
-The most critical distinction for the exam is **donor deductibility**. Only contributions to §501(c)(3) organizations (and certain governmental units and veterans' organizations) are deductible as **charitable contributions**. Payments to other exempt organizations may be deductible as business expenses if they meet the ordinary and necessary standard, but they are not charitable contributions.
+The most tested distinction is **donor deductibility**. Only contributions to §501(c)(3) organizations (and a few others, such as governmental units and veterans' organizations) are charitable contributions. Payments to other exempt organizations may be deductible as business expenses if they are ordinary and necessary, but they are never charitable contributions.
 
 :::
