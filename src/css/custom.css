@@ -62,3 +62,78 @@ h6 {
   font-size: 0.9rem; /* default ≈ 1rem (16px) */
   line-height: 1.4;
 }
+
+/* Design tokens for the home page and the blueprint guide. Both pages wrap
+   their content in `.landing` and read every color from these variables. */
+.landing {
+  --land-bg: #f4f6f1;
+  --land-surface: #ffffff;
+  --land-surface-2: #e9eee6;
+  --land-ink: #142019;
+  --land-ink-2: #45534a;
+  --land-ink-3: #69766d;
+  --land-line: #d9e0d6;
+  --land-forest: #1d4632;
+  --land-forest-deep: #153626;
+  --land-on-dark: #f1f5ef;
+  --land-on-dark-2: #b8cbbd;
+  --land-honey: #e9a83c;
+  --land-honey-ink: #2b1d06;
+  --land-honey-soft: #fbedd0;
+  --land-honey-text: #8a5a0b;
+  --land-link: #1f5a3d;
+  --land-blueprint: #1c3d6b;
+  --land-blueprint-deep: #163257;
+  --land-grid: rgba(255, 255, 255, 0.08);
+  --land-grid-major: rgba(255, 255, 255, 0.14);
+  --land-shadow: 0 1px 2px rgba(20, 32, 25, 0.06), 0 8px 24px -12px rgba(20, 32, 25, 0.18);
+
+  --sec-far: #2e7a51;
+  --sec-aud: #2f62a0;
+  --sec-reg: #b4532a;
+  --sec-bar: #7c4a95;
+  --sec-isc: #157f89;
+  --sec-tcp: #a87412;
+
+  background: var(--land-bg);
+  color: var(--land-ink);
+  font-feature-settings: "cv11";
+}
+
+/* These pages keep type at weight 600 or lighter, emphasis included. */
+.landing strong,
+.landing b,
+.landing th {
+  font-weight: 600;
+}
+
+[data-theme="dark"] .landing {
+  --land-bg: #0e1411;
+  --land-surface: #151d18;
+  --land-surface-2: #1a241f;
+  --land-ink: #e8eee9;
+  --land-ink-2: #b1bcb4;
+  --land-ink-3: #89968d;
+  --land-line: #26312b;
+  --land-forest: #14301f;
+  --land-forest-deep: #0f2618;
+  --land-on-dark: #eef4ee;
+  --land-on-dark-2: #a7bdae;
+  --land-honey: #f0b44c;
+  --land-honey-ink: #231703;
+  --land-honey-soft: #2c2412;
+  --land-honey-text: #f0c56f;
+  --land-link: #8fd0a9;
+  --land-blueprint: #132b4b;
+  --land-blueprint-deep: #0f233e;
+  --land-grid: rgba(255, 255, 255, 0.06);
+  --land-grid-major: rgba(255, 255, 255, 0.11);
+  --land-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 10px 28px -14px rgba(0, 0, 0, 0.6);
+
+  --sec-far: #5cbf8a;
+  --sec-aud: #6ea3e4;
+  --sec-reg: #e48b60;
+  --sec-bar: #b98ad0;
+  --sec-isc: #4cbdc6;
+  --sec-tcp: #e0b04f;
+}
