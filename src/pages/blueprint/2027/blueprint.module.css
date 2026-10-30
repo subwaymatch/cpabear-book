@@ -14,10 +14,9 @@
 
 .kicker {
   margin: 0 0 0.6rem;
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: -0.01em;
   color: var(--land-honey-text);
 }
 
@@ -167,10 +166,9 @@
 
 .titleBlock dt {
   margin-bottom: 0.3rem;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  letter-spacing: -0.01em;
   color: color-mix(in srgb, var(--land-on-dark) 65%, transparent);
 }
 
@@ -199,10 +197,9 @@
 
 .tocTitle {
   margin: 0 0 0.75rem;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: -0.01em;
   color: var(--land-ink-3);
 }
 
@@ -332,10 +329,9 @@
   margin: 0;
   padding-bottom: 0.7rem;
   border-bottom: 1.5px solid var(--land-ink);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: -0.01em;
   color: var(--land-ink-2);
 }
 
@@ -473,10 +469,9 @@
 
 .panelEyebrow {
   margin: 0 0 0.3rem;
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
+  letter-spacing: -0.01em;
   color: var(--sec);
 }
 
@@ -567,10 +562,9 @@
 }
 
 .testletNumber {
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  letter-spacing: -0.01em;
   opacity: 0.8;
 }
 
@@ -587,10 +581,9 @@
 
 .panelSubhead {
   margin: 0 0 0.9rem;
-  font-size: 0.82rem;
+  font-size: 0.92rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: -0.01em;
   color: var(--land-ink-3);
 }
 
@@ -680,10 +673,9 @@
 .revisionsHead {
   padding-bottom: 0.6rem;
   border-bottom: 1.5px solid var(--land-ink);
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  letter-spacing: -0.01em;
   color: var(--land-ink-3);
 }
 
@@ -830,10 +822,9 @@
 .table thead th {
   padding-bottom: 0.6rem;
   border-bottom: 1.5px solid var(--land-ink);
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  letter-spacing: -0.01em;
   color: var(--land-ink-3);
 }
 
@@ -877,10 +868,9 @@
 }
 
 .stairLevel {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 600;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
+  letter-spacing: -0.01em;
   color: var(--land-honey-text);
 }
 
