@@ -79,10 +79,9 @@ cpabear-book/
 │   └── tcp/                  # Tax Compliance and Planning pages
 ├── src/
 │   ├── components/
-│   │   ├── JournalEntry/     # Custom component to render accounting journal entries
-│   │   └── SectionCard/      # Card component used on the home page
+│   │   └── JournalEntry/     # Custom component to render accounting journal entries
 │   ├── css/
-│   │   └── custom.css        # Global custom CSS
+│   │   └── custom.css        # Global custom CSS, including the home and blueprint page tokens
 │   ├── pages/
 │   │   ├── index.tsx         # Home page
 │   │   ├── about.tsx         # About page
@@ -92,6 +91,7 @@ cpabear-book/
 │       ├── Mermaid/          # Swizzled Mermaid: serial rendering and click-to-enlarge viewer
 │       └── SearchBar/        # Pagefind search
 ├── static/                   # Static assets (images, favicon, `_redirects`)
+│   └── img/illustrations/    # Home and blueprint page illustrations (WebP, transparent)
 ├── docusaurus.config.ts      # Site configuration (title, navbar, footer, plugins)
 ├── sidebars.ts               # Sidebar structure for all six exam sections
 ├── tsconfig.json             # TypeScript configuration

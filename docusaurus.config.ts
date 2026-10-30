@@ -54,7 +54,7 @@ const config: Config = {
   ],
 
   stylesheets: [
-    "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap",
+    "https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap",
     {
       href: "https://cdn.jsdelivr.net/npm/katex@0.16.47/dist/katex.min.css",
       type: "text/css",

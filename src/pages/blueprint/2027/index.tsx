@@ -1,13 +1,15 @@
-import { useRef, useState, type KeyboardEvent } from "react";
+import {
+  useEffect,
+  useRef,
+  useState,
+  type CSSProperties,
+  type KeyboardEvent,
+} from "react";
+import clsx from "clsx";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
-import {
-  ArrowRight,
-  CalendarDays,
-  CheckCircle2,
-  ExternalLink,
-  FileText,
-} from "lucide-react";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import { ArrowRight, CalendarDays, ExternalLink, FileText } from "lucide-react";
 import styles from "./blueprint.module.css";
 
 /* Data: Uniform CPA Examination Blueprints effective January 1, 2027
@@ -225,64 +227,102 @@ const SOURCES = [
 /* Shared scale for every range bar, so bars compare across sections. */
 const SCALE_MAX = 70;
 
+const AXIS_TICKS = [0, 10, 20, 30, 40, 50, 60, 70];
+
+const ON_THIS_PAGE = [
+  { id: "testing-in-2026", label: "Testing in 2026" },
+  { id: "structure", label: "How the exam is built" },
+  { id: "sections", label: "Section by section" },
+  { id: "changes", label: "What changed" },
+  { id: "dates", label: "Key dates" },
+  { id: "compare", label: "Side by side" },
+  { id: "skills", label: "Skill levels" },
+  { id: "sources", label: "Sources" },
+];
+
 /* Components */
 
-function RangeBar({ label, range, color }: { label: string; range: Range; color: string }) {
+function secStyle(id: Section["id"]): CSSProperties {
+  return { "--sec": `var(--sec-${id})` } as CSSProperties;
+}
+
+function Spot({ id, className }: { id: Section["id"]; className?: string }) {
+  return (
+    <img
+      className={className}
+      src={useBaseUrl(`/img/illustrations/spot-${id}.webp`)}
+      alt=""
+      aria-hidden="true"
+      loading="lazy"
+    />
+  );
+}
+
+function RangeBar({ label, range }: { label: string; range: Range }) {
   const [low, high] = range;
   return (
     <div className={styles.rangeRow}>
       <div className={styles.rangeLabel}>{label}</div>
+      <div className={styles.rangeValue}>
+        {low}-{high}%
+      </div>
       <div
         className={styles.rangeTrack}
         role="img"
         aria-label={`${label}: ${low} to ${high} percent`}
       >
         <span
-          className={`${styles.rangeBand} ${styles[color]}`}
+          className={styles.rangeBand}
           style={{
             left: `${(low / SCALE_MAX) * 100}%`,
             width: `${((high - low) / SCALE_MAX) * 100}%`,
           }}
         />
       </div>
-      <div className={styles.rangeValue}>
-        {low}-{high}%
-      </div>
+    </div>
+  );
+}
+
+function Axis() {
+  return (
+    <div className={styles.axis} aria-hidden="true">
+      {AXIS_TICKS.map((t) => (
+        <span key={t} style={{ left: `${(t / SCALE_MAX) * 100}%` }}>
+          {t}%
+        </span>
+      ))}
     </div>
   );
 }
 
 function TestletStrip({ section }: { section: Section }) {
   return (
-    <div className={styles.testlets} aria-label="Testlets in order">
+    <ol className={styles.testlets} aria-label="Testlets in order">
       {section.testlets.map((count, i) => {
         const isMcq = i < 2;
         return (
-          <div
+          <li
             key={i}
-            className={`${styles.testlet} ${isMcq ? styles.testletMcq : styles.testletTbs}`}
+            className={clsx(styles.testlet, isMcq ? styles.testletMcq : styles.testletTbs)}
           >
             <span className={styles.testletNumber}>Testlet {i + 1}</span>
             <span className={styles.testletCount}>
               {count} {isMcq ? "MCQs" : count === 1 ? "TBS" : "TBSs"}
             </span>
-          </div>
+          </li>
         );
       })}
-    </div>
+    </ol>
   );
 }
 
 function SectionPanel({ section }: { section: Section }) {
   const skills = SKILLS.filter((s) => section.skills[s.key]);
   return (
-    <div className={styles.panel}>
+    <div style={secStyle(section.id)}>
       <div className={styles.panelHeader}>
         <div>
-          <div className={styles.panelEyebrow}>
-            <span className={`${styles.dot} ${styles[section.id]}`} />
-            {section.kind} section
-          </div>
+          <p className={styles.panelEyebrow}>{section.kind} section</p>
           <h3 className={styles.panelTitle}>
             {section.code}: {section.name}
           </h3>
@@ -319,8 +359,9 @@ function SectionPanel({ section }: { section: Section }) {
         <div>
           <h4 className={styles.panelSubhead}>Content areas</h4>
           {section.areas.map((area) => (
-            <RangeBar key={area.name} label={area.name} range={area.range} color={section.id} />
+            <RangeBar key={area.name} label={area.name} range={area.range} />
           ))}
+          <Axis />
         </div>
         <div>
           <h4 className={styles.panelSubhead}>Skill levels</h4>
@@ -329,9 +370,9 @@ function SectionPanel({ section }: { section: Section }) {
               key={skill.key}
               label={skill.name}
               range={section.skills[skill.key] as Range}
-              color={section.id}
             />
           ))}
+          <Axis />
         </div>
       </div>
 
@@ -371,11 +412,12 @@ function SectionExplorer() {
             aria-selected={i === active}
             aria-controls={`panel-${s.id}`}
             tabIndex={i === active ? 0 : -1}
-            className={`${styles.tab} ${i === active ? styles.tabActive : ""}`}
+            className={clsx(styles.tab, i === active && styles.tabActive)}
+            style={secStyle(s.id)}
             onClick={() => setActive(i)}
           >
-            <span className={`${styles.dot} ${styles[s.id]}`} />
-            {s.code}
+            <Spot id={s.id} className={styles.tabArt} />
+            <span className={styles.tabCode}>{s.code}</span>
             <span className={styles.tabKind}>{s.kind}</span>
           </button>
         ))}
@@ -391,286 +433,368 @@ function fmt(range?: Range) {
   return range ? `${range[0]}-${range[1]}%` : "Not tested";
 }
 
+/** Tracks which page section is under the top of the viewport. */
+function useActiveSection(ids: string[]) {
+  const [active, setActive] = useState(ids[0]);
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const hit = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+        if (hit) setActive(hit.target.id);
+      },
+      { rootMargin: "-15% 0px -75% 0px" }
+    );
+    ids.forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    });
+    return () => observer.disconnect();
+  }, [ids]);
+  return active;
+}
+
+function BlockHeader({ id, kicker, title, children }: {
+  id: string;
+  kicker: string;
+  title: string;
+  children?: React.ReactNode;
+}) {
+  return (
+    <div className={styles.blockHeader}>
+      <p className={styles.kicker}>{kicker}</p>
+      <h2 id={id} className={styles.blockTitle}>
+        {title}
+      </h2>
+      {children ? <p className={styles.blockLead}>{children}</p> : null}
+    </div>
+  );
+}
+
 /* Page */
 
+const TOC_IDS = ON_THIS_PAGE.map((item) => item.id);
+
 export default function Blueprint2027(): React.JSX.Element {
+  const activeId = useActiveSection(TOC_IDS);
+  const core = SECTIONS.filter((s) => s.kind === "Core");
+  const disciplines = SECTIONS.filter((s) => s.kind === "Discipline");
+
   return (
     <Layout
       title="CPA Exam Blueprints 2027"
       description="A plain-English guide to the 2027 Uniform CPA Examination Blueprints: exam format, what each section covers, what changed for 2027, and what it means if you test in 2026."
     >
-      <div className={styles.page}>
+      <div className={clsx("landing", styles.page)}>
         <header className={styles.hero}>
-          <div className={styles.heroInner}>
-            <div className={styles.eyebrow}>
-              <CalendarDays size={15} aria-hidden="true" />
-              Effective January 1, 2027
+          <div className={clsx(styles.container, styles.heroGrid)}>
+            <div>
+              <p className={styles.eyebrow}>
+                <CalendarDays size={15} aria-hidden="true" />
+                Effective January 1, 2027
+              </p>
+              <h1 className={styles.heroTitle}>
+                What the CPA Exam tests <span className={styles.heroAccent}>in 2027</span>
+              </h1>
+              <p className={styles.heroSubtitle}>
+                A plain-English guide to the AICPA&apos;s Uniform CPA Examination
+                Blueprints: how the exam is built, what each section covers, and
+                what changed this year. This book follows the 2027 blueprints.
+              </p>
+              <div className={styles.heroActions}>
+                <a href="#sections" className={styles.primaryCta}>
+                  Explore the sections <ArrowRight size={18} aria-hidden="true" />
+                </a>
+                <a
+                  href={SOURCES[0].href}
+                  className={styles.secondaryCta}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Official blueprints <ExternalLink size={15} aria-hidden="true" />
+                </a>
+              </div>
             </div>
-            <h1 className={styles.heroTitle}>
-              What the CPA Exam tests <span className={styles.heroAccent}>in 2027</span>
-            </h1>
-            <p className={styles.heroSubtitle}>
-              A plain-English guide to the AICPA&rsquo;s Uniform CPA Examination
-              Blueprints: how the exam is built, what each section covers, and
-              what changed this year. This book follows the 2027 blueprints.
-            </p>
-            <div className={styles.heroActions}>
-              <a href="#sections" className={styles.primaryCta}>
-                Explore the sections <ArrowRight size={16} aria-hidden="true" />
-              </a>
-              <a
-                href={SOURCES[0].href}
-                className={styles.secondaryCta}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Official blueprints <ExternalLink size={15} aria-hidden="true" />
-              </a>
+            <div className={styles.heroArt}>
+              <img
+                src={useBaseUrl("/img/illustrations/bear-drafting.webp")}
+                alt="A bear pointing a pencil at a blueprint pinned to a drafting easel"
+                width={1000}
+                height={939}
+                fetchPriority="high"
+              />
             </div>
-            <ul className={styles.heroFacts}>
-              <li>
-                <strong>3 Core + 1 Discipline</strong>
-                <span>sections to pass</span>
-              </li>
-              <li>
-                <strong>4 hours</strong>
-                <span>per section</span>
-              </li>
-              <li>
-                <strong>5 testlets</strong>
-                <span>2 MCQ, then 3 TBS</span>
-              </li>
-            </ul>
+          </div>
+
+          <div className={styles.container}>
+            <dl className={styles.titleBlock}>
+              <div>
+                <dt>Sections to pass</dt>
+                <dd>3 Core + 1 Discipline</dd>
+              </div>
+              <div>
+                <dt>Time per section</dt>
+                <dd>4 hours</dd>
+              </div>
+              <div>
+                <dt>Testlets</dt>
+                <dd>5: 2 MCQ, then 3 TBS</dd>
+              </div>
+              <div>
+                <dt>Approved</dt>
+                <dd>September 16, 2026</dd>
+              </div>
+            </dl>
           </div>
         </header>
 
-        <main className={styles.main}>
-          <section id="testing-in-2026" className={styles.callout} aria-labelledby="testing-2026-title">
-            <div className={styles.calloutIcon} aria-hidden="true">
-              <CheckCircle2 size={22} />
-            </div>
-            <div>
-              <h2 id="testing-2026-title" className={styles.calloutTitle}>
-                Testing before January 1, 2027? Yes, this book still works for you.
-              </h2>
-              <p>
-                The 2027 revisions are clarifications. The exam format, content
-                areas, weights, and skill levels are exactly the same as in the
-                2026 blueprints, so what you study here is what you will be tested on.
-              </p>
-              <ul className={styles.calloutList}>
-                <li>
-                  <strong>Tax law is the same for you.</strong> The H.R. 1 (One Big
-                  Beautiful Bill Act) changes this book teaches have been testable in
-                  REG and TCP since July 1, 2026.
+        <div className={clsx(styles.container, styles.layout)}>
+          <nav className={styles.toc} aria-label="On this page">
+            <p className={styles.tocTitle}>On this page</p>
+            <ol>
+              {ON_THIS_PAGE.map((item) => (
+                <li key={item.id}>
+                  <a
+                    href={`#${item.id}`}
+                    className={clsx(styles.tocLink, activeId === item.id && styles.tocActive)}
+                    aria-current={activeId === item.id ? "location" : undefined}
+                  >
+                    {item.label}
+                  </a>
                 </li>
-                <li>
-                  <strong>Two topics differ.</strong> QC 1000 in AUD is not tested
-                  until January 1, 2027, and the 2026 ISC blueprint still includes a
-                  task on using COSO to evaluate blockchain risks. The AUD and ISC
-                  chapters point out both.
-                </li>
-              </ul>
-            </div>
-          </section>
+              ))}
+            </ol>
+          </nav>
 
-          <section className={styles.block} aria-labelledby="structure-title">
-            <div className={styles.blockHeader}>
-              <p className={styles.kicker}>How the exam is built</p>
-              <h2 id="structure-title" className={styles.blockTitle}>
-                Three Core sections, then one Discipline of your choice
-              </h2>
-              <p className={styles.blockLead}>
+          <main className={styles.main}>
+            <section id="testing-in-2026" className={styles.callout} aria-labelledby="testing-2026-title">
+              <img
+                className={styles.calloutArt}
+                src={useBaseUrl("/img/illustrations/bear-thumbs-up.webp")}
+                alt=""
+                aria-hidden="true"
+                width={388}
+                height={520}
+              />
+              <div className={styles.calloutBody}>
+                <p className={styles.kicker}>Testing in 2026</p>
+                <h2 id="testing-2026-title" className={styles.calloutTitle}>
+                  Testing before January 1, 2027? Yes, this book still works for you.
+                </h2>
+                <p>
+                  The 2027 revisions are clarifications. The exam format, content
+                  areas, weights, and skill levels are exactly the same as in the
+                  2026 blueprints, so what you study here is what you will be tested on.
+                </p>
+                <ul className={styles.calloutList}>
+                  <li>
+                    <strong>Tax law is the same for you.</strong> The H.R. 1 (One Big
+                    Beautiful Bill Act) changes this book teaches have been testable in
+                    REG and TCP since July 1, 2026.
+                  </li>
+                  <li>
+                    <strong>Two topics differ.</strong> QC 1000 in AUD is not tested
+                    until January 1, 2027, and the 2026 ISC blueprint still includes a
+                    task on using COSO to evaluate blockchain risks. The AUD and ISC
+                    chapters point out both.
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+            <section id="structure" aria-labelledby="structure-title">
+              <BlockHeader
+                id="structure-title"
+                kicker="How the exam is built"
+                title="Three Core sections, then one Discipline of your choice"
+              >
                 Every candidate passes AUD, FAR, and REG, plus one Discipline: BAR,
                 ISC, or TCP. Each section is four hours and five testlets. The first
                 two testlets are multiple-choice questions (MCQs). The last three are
                 task-based simulations (TBSs). MCQs and TBSs each count for half of
                 your score in every section except ISC, where MCQs count for 60%.
-              </p>
-            </div>
-            <div className={styles.pathGrid}>
-              <div className={styles.pathCard}>
-                <h3>Core: take all three</h3>
-                <ul>
-                  {SECTIONS.filter((s) => s.kind === "Core").map((s) => (
-                    <li key={s.id}>
-                      <span className={`${styles.dot} ${styles[s.id]}`} />
-                      <Link to={`/${s.id}`}>
-                        <strong>{s.code}</strong> {s.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+              </BlockHeader>
+              <div className={styles.path}>
+                <div>
+                  <p className={styles.pathLabel}>Core: take all three</p>
+                  <ul className={styles.pathList}>
+                    {core.map((s) => (
+                      <li key={s.id}>
+                        <Link to={`/${s.id}`} className={styles.pathItem} style={secStyle(s.id)}>
+                          <Spot id={s.id} className={styles.pathArt} />
+                          <span>
+                            <strong>{s.code}</strong>
+                            <span>{s.name}</span>
+                          </span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div className={styles.pathJoin} aria-hidden="true">
+                  +
+                </div>
+                <div>
+                  <p className={styles.pathLabel}>Discipline: choose one</p>
+                  <ul className={styles.pathList}>
+                    {disciplines.map((s) => (
+                      <li key={s.id}>
+                        <Link to={`/${s.id}`} className={styles.pathItem} style={secStyle(s.id)}>
+                          <Spot id={s.id} className={styles.pathArt} />
+                          <span>
+                            <strong>{s.code}</strong>
+                            <span>{s.name}</span>
+                          </span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-              <div className={styles.pathCard}>
-                <h3>Discipline: choose one</h3>
-                <ul>
-                  {SECTIONS.filter((s) => s.kind === "Discipline").map((s) => (
-                    <li key={s.id}>
-                      <span className={`${styles.dot} ${styles[s.id]}`} />
-                      <Link to={`/${s.id}`}>
-                        <strong>{s.code}</strong> {s.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </section>
+            </section>
 
-          <section id="sections" className={styles.block} aria-labelledby="sections-title">
-            <div className={styles.blockHeader}>
-              <p className={styles.kicker}>Section by section</p>
-              <h2 id="sections-title" className={styles.blockTitle}>
-                What each section covers
-              </h2>
-              <p className={styles.blockLead}>
+            <section id="sections" aria-labelledby="sections-title">
+              <BlockHeader id="sections-title" kicker="Section by section" title="What each section covers">
                 The blueprints give each content area and skill level a range of the
                 exam. All bars share one scale (0 to {SCALE_MAX}%), so you can compare
                 sections.
-              </p>
-            </div>
-            <SectionExplorer />
-          </section>
+              </BlockHeader>
+              <SectionExplorer />
+            </section>
 
-          <section className={styles.block} aria-labelledby="changes-title">
-            <div className={styles.blockHeader}>
-              <p className={styles.kicker}>New for 2027</p>
-              <h2 id="changes-title" className={styles.blockTitle}>
-                What changed, in one line each
-              </h2>
-              <p className={styles.blockLead}>
+            <section id="changes" aria-labelledby="changes-title">
+              <BlockHeader id="changes-title" kicker="New for 2027" title="What changed, in one line each">
                 The AICPA says none of the 2027 revisions significantly changes the
                 nature or scope of what is tested.
-              </p>
-            </div>
-            <div className={styles.changeGrid}>
-              {SECTIONS.map((s) => (
-                <article key={s.id} className={styles.changeCard}>
-                  <h3>
-                    <span className={`${styles.dot} ${styles[s.id]}`} />
-                    {s.code}
-                  </h3>
-                  <p>{s.change2027}</p>
-                </article>
-              ))}
-            </div>
-          </section>
-
-          <section className={styles.block} aria-labelledby="dates-title">
-            <div className={styles.blockHeader}>
-              <p className={styles.kicker}>Plan ahead</p>
-              <h2 id="dates-title" className={styles.blockTitle}>
-                Key dates for 2026 and 2027
-              </h2>
-            </div>
-            <ol className={styles.timeline}>
-              {KEY_DATES.map((d) => (
-                <li key={d.date} className={styles.timelineItem}>
-                  <time className={styles.timelineDate}>{d.date}</time>
-                  <div>
-                    <h3 className={styles.timelineTitle}>{d.title}</h3>
-                    <p>{d.body}</p>
-                  </div>
-                </li>
-              ))}
-            </ol>
-            <p className={styles.note}>
-              Your credit window for passed sections is set by your board of
-              accountancy (often 30 months), and it keeps running while you wait for
-              scores. Check your board&rsquo;s rules before you schedule around the
-              July 2027 pause.
-            </p>
-          </section>
-
-          <section className={styles.block} aria-labelledby="compare-title">
-            <div className={styles.blockHeader}>
-              <p className={styles.kicker}>At a glance</p>
-              <h2 id="compare-title" className={styles.blockTitle}>
-                All six sections side by side
-              </h2>
-            </div>
-            <div className={styles.tableWrap}>
-              <table className={styles.table}>
-                <thead>
-                  <tr>
-                    <th scope="col">Section</th>
-                    <th scope="col">MCQs</th>
-                    <th scope="col">TBSs</th>
-                    <th scope="col">MCQ / TBS weight</th>
-                    {SKILLS.map((s) => (
-                      <th key={s.key} scope="col">
-                        {s.name}
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
+              </BlockHeader>
+              <div>
+                <div className={styles.revisionsHead} aria-hidden="true">
+                  <span>Section</span>
+                  <span>Revision</span>
+                </div>
+                <ul className={styles.revisionList}>
                   {SECTIONS.map((s) => (
-                    <tr key={s.id}>
-                      <th scope="row">
-                        <span className={`${styles.dot} ${styles[s.id]}`} />
-                        {s.code}
-                        <span className={styles.tableKind}>{s.kind}</span>
-                      </th>
-                      <td>{s.mcqs}</td>
-                      <td>{s.tbs}</td>
-                      <td>
-                        {s.mcqWeight}% / {100 - s.mcqWeight}%
-                      </td>
-                      {SKILLS.map((k) => (
-                        <td key={k.key} className={s.skills[k.key] ? undefined : styles.muted}>
-                          {fmt(s.skills[k.key])}
-                        </td>
+                    <li key={s.id} className={styles.revision} style={secStyle(s.id)}>
+                      <span className={styles.revisionCode}>{s.code}</span>
+                      <p>{s.change2027}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+
+            <section id="dates" aria-labelledby="dates-title">
+              <BlockHeader id="dates-title" kicker="Plan ahead" title="Key dates for 2026 and 2027" />
+              <div className={styles.datesGrid}>
+                <ol className={styles.timeline}>
+                  {KEY_DATES.map((d) => (
+                    <li key={d.date} className={styles.timelineItem}>
+                      <time className={styles.timelineDate}>{d.date}</time>
+                      <h3 className={styles.timelineTitle}>{d.title}</h3>
+                      <p>{d.body}</p>
+                    </li>
+                  ))}
+                </ol>
+                <img
+                  className={styles.datesArt}
+                  src={useBaseUrl("/img/illustrations/bear-calendar.webp")}
+                  alt=""
+                  aria-hidden="true"
+                  loading="lazy"
+                  width={546}
+                  height={640}
+                />
+              </div>
+              <p className={styles.note}>
+                Your credit window for passed sections is set by your board of
+                accountancy (often 30 months), and it keeps running while you wait for
+                scores. Check your board&apos;s rules before you schedule around the
+                July 2027 pause.
+              </p>
+            </section>
+
+            <section id="compare" aria-labelledby="compare-title">
+              <BlockHeader id="compare-title" kicker="At a glance" title="All six sections side by side" />
+              <div className={styles.tableWrap}>
+                <table className={styles.table}>
+                  <thead>
+                    <tr>
+                      <th scope="col">Section</th>
+                      <th scope="col">MCQs</th>
+                      <th scope="col">TBSs</th>
+                      <th scope="col">MCQ / TBS weight</th>
+                      {SKILLS.map((s) => (
+                        <th key={s.key} scope="col">
+                          {s.name}
+                        </th>
                       ))}
                     </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </section>
+                  </thead>
+                  <tbody>
+                    {SECTIONS.map((s) => (
+                      <tr key={s.id} style={secStyle(s.id)}>
+                        <th scope="row">
+                          <span className={styles.tableCode}>{s.code}</span>
+                          <span className={styles.tableKind}>{s.kind}</span>
+                        </th>
+                        <td>{s.mcqs}</td>
+                        <td>{s.tbs}</td>
+                        <td>
+                          {s.mcqWeight}% / {100 - s.mcqWeight}%
+                        </td>
+                        {SKILLS.map((k) => (
+                          <td key={k.key} className={s.skills[k.key] ? undefined : styles.muted}>
+                            {fmt(s.skills[k.key])}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
 
-          <section className={styles.block} aria-labelledby="skills-title">
-            <div className={styles.blockHeader}>
-              <p className={styles.kicker}>Skill levels</p>
-              <h2 id="skills-title" className={styles.blockTitle}>
-                How deeply each question asks you to think
-              </h2>
-              <p className={styles.blockLead}>
-                The blueprints tag every task with a skill level based on Bloom&rsquo;s
+            <section id="skills" aria-labelledby="skills-title">
+              <BlockHeader id="skills-title" kicker="Skill levels" title="How deeply each question asks you to think">
+                The blueprints tag every task with a skill level based on Bloom&apos;s
                 Taxonomy. Higher levels lean on judgment rather than recall.
-              </p>
-            </div>
-            <ol className={styles.skillGrid}>
-              {SKILLS.map((s, i) => (
-                <li key={s.key} className={styles.skillCard}>
-                  <span className={styles.skillLevel}>Level {i + 1}</span>
-                  <h3>{s.name}</h3>
-                  <p>{s.description}</p>
-                </li>
-              ))}
-            </ol>
-          </section>
+              </BlockHeader>
+              <ol className={styles.stairs}>
+                {SKILLS.map((s, i) => (
+                  <li
+                    key={s.key}
+                    className={styles.stair}
+                    style={{ "--level": i } as CSSProperties}
+                  >
+                    <span className={styles.stairLevel}>Level {i + 1}</span>
+                    <h3>{s.name}</h3>
+                    <p>{s.description}</p>
+                  </li>
+                ))}
+              </ol>
+            </section>
 
-          <footer className={styles.sources}>
-            <h2 className={styles.sourcesTitle}>
-              <FileText size={18} aria-hidden="true" /> Sources
-            </h2>
-            <ul>
-              {SOURCES.map((s) => (
-                <li key={s.href}>
-                  <a href={s.href} target="_blank" rel="noopener noreferrer">
-                    {s.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-            <p>
-              Last checked October 21, 2026. This page summarizes the AICPA
-              blueprints and announcements; the official documents govern.
-            </p>
-          </footer>
-        </main>
+            <footer id="sources" className={styles.sources}>
+              <h2 className={styles.sourcesTitle}>
+                <FileText size={18} aria-hidden="true" /> Sources
+              </h2>
+              <ul>
+                {SOURCES.map((s) => (
+                  <li key={s.href}>
+                    <a href={s.href} target="_blank" rel="noopener noreferrer">
+                      {s.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+              <p>
+                Last checked October 21, 2026. This page summarizes the AICPA
+                blueprints and announcements; the official documents govern.
+              </p>
+            </footer>
+          </main>
+        </div>
       </div>
     </Layout>
   );
